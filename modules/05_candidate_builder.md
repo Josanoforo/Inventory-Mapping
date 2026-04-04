@@ -17,6 +17,8 @@ Before building a TC from any pattern, apply these filters:
 If the pattern comes from `lexical_overlap` scan and has <3 Signal IDs → route to `rejected_groupings.md`. Do not build TC.
 If the pattern comes from `lexical_overlap` scan and has 3+ Signal IDs but no explicit friction → route to `rejected_groupings.md`. Do not build TC.
 If the pattern comes from another scan and has <3 Signal IDs → build as TC but add "minimal support — only 2 cards" to classification_risk.
+No silent discards
+Every pattern discarded by the pre-build filter MUST be written to `output/rejected_groupings.md` with: pattern_id, scan type of origin, signal_ids, and reason for discard. The filter must never drop a pattern without recording it. After the filter runs, verify: (patterns written to rejected_groupings) + (patterns that passed filter) = (total needs_audit patterns received). If the count does not match, the step has failed.
 Rules
 For each pattern routed as tension_candidate:
 Go back to the original signal cards in `input/`. Do not rely solely on the index.

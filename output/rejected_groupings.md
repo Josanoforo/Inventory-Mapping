@@ -73,3 +73,36 @@ All LEX patterns require human audit to verify whether the cards co-occurring ar
 | LEX-042 | $6.27 | Canva | SC-R6-041, SC-R6-072 | 1 |
 | LEX-043 | 29/month | Canva | SC-R6-057, SC-R6-059 | 1 |
 | LEX-044 | 000/month | Canva | SC-R6-080, SC-R6-096, SC-R6-112 | 1 |
+| LEX-045 | 3 years | Canva | SC-R6-088, SC-R6-093 | 1 |
+| LEX-046 | $1,000 | Canva | SC-R6-096, SC-R6-112 | 1 |
+| LEX-047 | 30 templates | Canva | SC-R6-099, SC-R6-112 | 1 |
+| LEX-048 | $19,000+/month | Etsy | SC-R6-100, SC-R6-101 | 1 |
+| LEX-049 | $35,000 | Canva | SC-R6-108, SC-R6-111 | 1 |
+| LEX-050 | $500/month | Canva | SC-R6-110, SC-R6-112, SC-R6-114, SC-R6-115 | 1 |
+| LEX-051 | $200 | Canva | SC-R6-114, SC-R6-115 | 1 |
+| LEX-052 | 130,000 prompts | PromptBase | SC-R7-003, SC-R7-004 | 1 |
+| LEX-053 | $1.99 | PromptBase | SC-R7-005, SC-R7-008, SC-R7-011, SC-R7-014 | 1 |
+| LEX-054 | $9.99 | PromptBase | SC-R7-005, SC-R7-008, SC-R7-011 | 1 |
+| LEX-055 | $4.99 | PromptBase | SC-R7-006, SC-R7-007, SC-R7-009, SC-R7-010, SC-R7-012, SC-R7-013, SC-R7-095 | 1 |
+| LEX-056 | $2.99 | PromptBase | SC-R7-007, SC-R7-010, SC-R7-013, SC-R7-017, SC-R7-098 | 1 |
+| LEX-057 | $3.99 | PromptBase | SC-R7-007, SC-R7-010, SC-R7-013, SC-R7-095, SC-R7-100 | 1 |
+| LEX-058 | $5.99 | PromptBase | SC-R7-007, SC-R7-010, SC-R7-013, SC-R7-017 | 1 |
+| LEX-059 | $6.99 | PromptBase | SC-R7-007, SC-R7-010, SC-R7-013 | 1 |
+| LEX-060 | 11,000 users | PromptBase | SC-R7-022, SC-R7-025 | 1 |
+| LEX-061 | 3 prompts | PromptBase | SC-R7-033, SC-R7-035, SC-R7-095 | 1 |
+| LEX-062 | $29+. | Gumroad | SC-R7-056, SC-R7-058 | 1 |
+| LEX-063 | $185M | Gumroad | SC-R7-062, SC-R7-064 | 1 |
+| LEX-064 | 2.9% | Gumroad | SC-R7-066, SC-R8-167 | 2 |
+| LEX-065 | $16.5 | Gumroad | SC-R7-068, SC-R7-072 | 1 |
+| LEX-066 | $100M | Gumroad | SC-R7-070, SC-R7-074 | 1 |
+| LEX-067 | 2 months | Gumroad | SC-R10-148, SC-R7-101 | 2 |
+| LEX-068 | 2.5% | Etsy | SC-R8-008, SC-R8-012 | 1 |
+| LEX-069 | 3.5% | Gumroad | SC-R10-010, SC-R8-024 | 2 |
+| LEX-070 | 29/month | Payhip | SC-R10-016, SC-R10-017, SC-R8-042 | 2 |
+| LEX-071 | 10 sales | Etsy | SC-R8-068, SC-R8-128 | 1 |
+| LEX-072 | 30 days | Gumroad | SC-R8-082, SC-R8-172, SC-R8-173, SC-R9-066 | 2 |
+| LEX-073 | $9.99 | Amazon | SC-R10-001, SC-R10-003, SC-R10-028 | 1 |
+| LEX-074 | $39/month | Shopify | SC-R10-011, SC-R10-014 | 1 |
+| LEX-075 | $29/month | Payhip | SC-R10-016, SC-R10-017 | 1 |
+| LEX-076 | $39.99 | Gumroad | SC-R10-019, SC-R10-038, SC-R10-056 | 1 |
+| LEX-077 | 30 Days | Gumroad | SC-R10-038, SC-R10-142 | 1 |

@@ -13,6 +13,7 @@ Before building any TC from a needs_audit pattern:
 If from lexical_overlap scan and <3 Signal IDs → rejected_grouping. Stop.
 If from lexical_overlap scan and 3+ IDs but no explicit friction → rejected_grouping. Stop.
 If from another scan and <3 IDs → proceed but add "minimal support" to classification_risk.
+CRITICAL — no silent discards: Every pattern discarded by the pre-build filter MUST be written to `output/rejected_groupings.md`. Include: pattern_id, scan type of origin, signal_ids, and reason for discard (e.g. "lexical_overlap with <3 IDs", "lexical_overlap with 3+ IDs but no explicit friction"). The filter must not drop patterns without recording them. After running the filter, verify that the count of patterns written to rejected_groupings.md plus the count of patterns that passed the filter equals the total count of needs_audit patterns received.
 3. Deduplicate
 Before building TCs, check for overlap:
 If two patterns from different scans share >70% of their signal_ids, merge ONLY IF they share the same mechanism.
