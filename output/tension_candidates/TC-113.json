@@ -1,0 +1,102 @@
+{
+  "id": "TC-113",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de oferta de ebooks generados por IA que inundan marketplaces co-ocurren con señales de plataformas e instituciones que restringen o eliminan contenido de ebooks generados por IA en el mismo sistema de distribución.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same ebook marketplace system.",
+  "signal_ids": [
+    "SC-R10-059",
+    "SC-R10-060",
+    "SC-R10-061",
+    "SC-R10-062",
+    "SC-R10-064",
+    "SC-R10-097",
+    "SC-R10-098",
+    "SC-R10-099",
+    "SC-R10-100",
+    "SC-R10-101"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: AI-generated ebook supply flooding marketplaces",
+        "definition": "Cards document AI-generated ebook supply growth, marketplace flooding, and commercial activity in AI ebook sector.",
+        "signal_ids": [
+          {
+            "id": "SC-R10-059",
+            "description": "Between 10,000 and 40,000 e-books per month are released that utilize ChatGPT or other AI platforms,"
+          },
+          {
+            "id": "SC-R10-064",
+            "description": "Draft2Digital's COO Dan Wood reported publishing activity trended roughly 50% higher than usual."
+          },
+          {
+            "id": "SC-R10-097",
+            "description": "Industry insiders and Bowker reports estimate 250,000–320,000 newly published titles per month on Am"
+          },
+          {
+            "id": "SC-R10-098",
+            "description": "About 80% of titles published on Amazon are self-published."
+          }
+        ],
+        "mechanical_summary": "Cards document AI-generated ebook supply growth, marketplace flooding, and commercial activity in AI ebook sector.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: Platforms and institutions restricting/removing AI ebook content",
+        "definition": "Cards document platform policy changes, enforcement actions, and institutional restrictions targeting AI-generated ebook content.",
+        "signal_ids": [
+          {
+            "id": "SC-R10-060",
+            "description": "Amazon limits self-publishers to 3 books per day. The policy was implemented in September 2023 and r"
+          },
+          {
+            "id": "SC-R10-061",
+            "description": "Amazon limits self-publishers to 3 books per day, implemented September 2023."
+          },
+          {
+            "id": "SC-R10-062",
+            "description": "Amazon limits self-publishers to 3 books per day, implemented September 2023."
+          },
+          {
+            "id": "SC-R10-099",
+            "description": "Ebook distributor OverDrive removed 30,000 summary titles from library catalogs, stating: \"No one li"
+          },
+          {
+            "id": "SC-R10-100",
+            "description": "Following a 404 Media investigation, Hoopla emailed librarians announcing plans to remove low-qualit"
+          },
+          {
+            "id": "SC-R10-101",
+            "description": "Hoopla pledged to remove AI-generated content from library catalogs."
+          }
+        ],
+        "mechanical_summary": "Cards document platform policy changes, enforcement actions, and institutional restrictions targeting AI-generated ebook content.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-010"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

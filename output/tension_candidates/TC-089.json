@@ -1,0 +1,62 @@
+{
+  "id": "TC-089",
+  "status": "needs_audit_before_classification",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre figura '$35,000' asociada a Canva en 2 cards de 1 rounds distintos.",
+  "analytical_unit": "possible dedup: figura '$35,000' en contexto Canva en rounds [6]. Verificar si provienen de la misma fuente original.",
+  "signal_ids": [
+    "SC-R6-108",
+    "SC-R6-111"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-108",
+            "description": "Reddit user \"messalina\" claims approximately $35,000 in 2 years selling Canva templates."
+          }
+        ],
+        "mechanical_summary": "co-ocurre figura '$35,000' asociada a Canva en 2 cards de 1 rounds distintos.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-111",
+            "description": "A Reddit thread showed Canva template seller earnings ranging from $8,200 to $35,000 across various "
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "LEX-049"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

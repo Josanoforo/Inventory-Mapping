@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CardRecord",
+  "description": "One indexed signal card. One line in card_index.jsonl.",
+  "type": "object",
+  "required": ["id", "round", "observation", "source", "source_type", "domain", "extraction_status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^SC-R\\d+-\\d+$"
+    },
+    "round": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "observation": { "type": "string", "minLength": 1 },
+    "source": { "type": "string" },
+    "date": { "type": "string" },
+    "source_type": { "type": "string" },
+    "domain": {
+      "type": "string",
+      "enum": ["market", "platform", "seller", "buyer", "product", "competition", "not_specified"]
+    },
+    "evidence_base": { "type": "string" },
+    "extraction_status": {
+      "type": "string",
+      "enum": ["extracted", "ambiguous", "not_extractable"]
+    },
+    "entities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Key entities mentioned: platform names, seller names, product types."
+    },
+    "figures": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Quantitative figures present in the observation."
+    }
+  }
+}

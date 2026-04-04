@@ -1,0 +1,67 @@
+{
+  "id": "TC-041",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la lista de espera del Notion Marketplace que puede extenderse varios meses bloquea el acceso documentado de creadores de plantillas al canal de distribucion oficial.",
+  "analytical_unit": "Bloqueador documentado: lista de espera de meses para aprobacion en Notion Marketplace. Bloqueado documentado: acceso de creadores al canal de distribucion oficial. Mecanismo claro con soporte de 3 tarjetas.",
+  "signal_ids": [
+    "SC-R5-040",
+    "SC-R8-100",
+    "SC-R8-138"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Blocker",
+        "definition": "Lista de espera de Notion Marketplace impone demora de meses para aprobacion de vendedores",
+        "signal_ids": [
+          {
+            "id": "SC-R8-100",
+            "description": "Notion Marketplace states that sellers will be added to a waitlist for review that may take a few mo"
+          }
+        ],
+        "mechanical_summary": "Lista de espera de Notion Marketplace impone demora de meses para aprobacion de vendedores",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Blocked",
+        "definition": "Acceso de creadores al canal oficial de distribucion de plantillas Notion",
+        "signal_ids": [
+          {
+            "id": "SC-R5-040",
+            "description": "Creators must join a waitlist and get approved by Notion to sell via native payments on the marketpl"
+          },
+          {
+            "id": "SC-R8-138",
+            "description": "Notion Marketplace sellers must be approved through a waitlist, and the marketplace shows analytics "
+          }
+        ],
+        "mechanical_summary": "Acceso de creadores al canal oficial de distribucion de plantillas Notion",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-022"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

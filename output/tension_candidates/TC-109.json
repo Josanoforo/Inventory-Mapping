@@ -1,0 +1,112 @@
+{
+  "id": "TC-109",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de migración de vendedores hacia canales propios co-ocurren con señales de control y aplicación de políticas de plataformas que retienen la relación con compradores en el mismo sistema de distribución.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same seller-platform relationship system.",
+  "signal_ids": [
+    "SC-R2-047",
+    "SC-R2-049",
+    "SC-R2-050",
+    "SC-R2-052",
+    "SC-R4-090",
+    "SC-R4-103",
+    "SC-R4-106",
+    "SC-R4-122",
+    "SC-R4-126",
+    "SC-R8-064",
+    "SC-R8-071",
+    "SC-R8-073"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: Sellers migrating to owned channels",
+        "definition": "Cards document sellers actively reducing platform dependency by building owned audiences, email lists, and direct sales channels.",
+        "signal_ids": [
+          {
+            "id": "SC-R2-049",
+            "description": "Emily McDermott / PrettyArrow's Etsy shop (etsy.com/shop/prettyarrowbudget) currently shows only 1 i"
+          },
+          {
+            "id": "SC-R2-050",
+            "description": "Emily McDermott / PrettyArrow also sells on her own website (prettyarrow.com) in addition to Etsy."
+          },
+          {
+            "id": "SC-R2-052",
+            "description": "Hustle & Slow sells spreadsheet templates via their own Shopify store at shop.hustleandslow.com, usi"
+          },
+          {
+            "id": "SC-R4-090",
+            "description": "Maliha does not actively promote her Creative Market shop because she would rather promote her own b"
+          },
+          {
+            "id": "SC-R2-047",
+            "description": "SpreadsheetPoint sells on both Gumroad (spreadsheetpoint.gumroad.com) and their own website (spreads"
+          }
+        ],
+        "mechanical_summary": "Cards document sellers actively reducing platform dependency by building owned audiences, email lists, and direct sales channels.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: Platform enforcement retaining buyer relationship",
+        "definition": "Cards document platform policies, enforcement actions, and terms that restrict seller autonomy and retain the buyer relationship.",
+        "signal_ids": [
+          {
+            "id": "SC-R4-122",
+            "description": "A Quora user reports that Etsy changed their algorithm so that without quantity of sales, lots of re"
+          },
+          {
+            "id": "SC-R4-126",
+            "description": "An Etsy seller quoted in the same aggregation states: \"My knowledge has increased and my product des"
+          },
+          {
+            "id": "SC-R4-106",
+            "description": "The LILI Path reports her Etsy shop was suspended without reason or warning. She had to open a secon"
+          },
+          {
+            "id": "SC-R4-103",
+            "description": "A Trustpilot reviewer reports their Sellfy shop was blocked and products deleted \"for no reason\" aft"
+          },
+          {
+            "id": "SC-R8-064",
+            "description": "A new Etsy seller reported shop suspension within 24 hours of launching despite following all rules,"
+          },
+          {
+            "id": "SC-R8-071",
+            "description": "Thibaut Patel had been selling a Shopify dataset on Gumroad since August 2020; his account was suspe"
+          },
+          {
+            "id": "SC-R8-073",
+            "description": "An indie hacker selling a Chrome extension had one customer raise a dispute; Gumroad suspended the e"
+          }
+        ],
+        "mechanical_summary": "Cards document platform policies, enforcement actions, and terms that restrict seller autonomy and retain the buyer relationship.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-005"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

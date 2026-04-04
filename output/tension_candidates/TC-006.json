@@ -1,0 +1,99 @@
+{
+  "id": "TC-006",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun el rango de precio de planners digitales: precios bajos individuales con licencia anual versus precios altos en bundles con licencia lifetime. Nota de unidades: Polo A usa precio anual datado; Polo B usa precio lifetime sin fecha de renovacion.",
+  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de precio. Unidades mixtas declaradas: Polo A usa precios anuales; Polo B usa precios lifetime. No se normalizan.",
+  "signal_ids": [
+    "SC-R3-003",
+    "SC-R3-039",
+    "SC-R3-052",
+    "SC-R3-054",
+    "SC-R3-056",
+    "SC-R3-065",
+    "SC-R3-069",
+    "SC-R3-072",
+    "SC-R3-073"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: precio bajo individual, licencia anual",
+        "definition": "Planners digitales unitarios en rango de precio bajo con esquema de pago anual",
+        "signal_ids": [
+          {
+            "id": "SC-R3-052",
+            "description": "\"Grocery List Printable Minimalist\" by melissagraphicdesign is priced at $1.69 on Etsy."
+          },
+          {
+            "id": "SC-R3-054",
+            "description": "Digital Student Planner by DigiGirlPlans is priced at $3.06 (sale from $6.12, 50% off)."
+          },
+          {
+            "id": "SC-R3-072",
+            "description": "Fitnancials.com states that individual printables typically sell for $2–$5 on Etsy."
+          },
+          {
+            "id": "SC-R3-003",
+            "description": "Analyzify states that comprehensive digital planners typically sell for $3–10 on Etsy."
+          }
+        ],
+        "mechanical_summary": "Planners digitales unitarios en rango de precio bajo con esquema de pago anual",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: precio alto en bundle, licencia lifetime",
+        "definition": "Packs de planners digitales en rango de precio alto con esquema de pago unico lifetime",
+        "signal_ids": [
+          {
+            "id": "SC-R3-056",
+            "description": "AmethystGarnet's \"Premium Digital Planner Bundle\" has an original price of $68.95 (frequently on sal"
+          },
+          {
+            "id": "SC-R3-069",
+            "description": "PhenixDigital listing (1784469516) advertises lifetime updates as a core feature, meaning new dated "
+          },
+          {
+            "id": "SC-R3-039",
+            "description": "WcardsGiftShop shows approximately 3,600 reviews at sale price $34.74 (original $57.90, 40% off)."
+          },
+          {
+            "id": "SC-R3-073",
+            "description": "Fitnancials.com states that bundle packs with 100+ pages can go into the $50–$100 range on Etsy."
+          },
+          {
+            "id": "SC-R3-065",
+            "description": "DigitizedPlanner offers 93–635 digital covers, lifetime updates, multiple planner types (Life Essent"
+          }
+        ],
+        "mechanical_summary": "Packs de planners digitales en rango de precio alto con esquema de pago unico lifetime",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-005",
+    "LEX-013"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

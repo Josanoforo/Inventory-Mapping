@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TensionCandidate",
+  "description": "A tension candidate produced by the candidate builder. Human fields left empty.",
+  "type": "object",
+  "required": ["id", "status", "type", "mechanical_relation", "analytical_unit", "signal_ids", "structured_support", "what_it_supports", "what_is_missing", "classification_risk", "human_fields"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^TC-\\d+$" },
+    "status": {
+      "type": "string",
+      "enum": ["pending_review", "needs_audit_before_classification"]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["contradicción", "fricción", "hueco", "dirección opuesta", "co-ocurrencia significativa", "asimetría distributiva"]
+    },
+    "mechanical_relation": {
+      "type": "string",
+      "description": "Uses only allowed verbs. No valorative adjectives."
+    },
+    "analytical_unit": { "type": "string" },
+    "signal_ids": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^SC-R\\d+-\\d+$" },
+      "minItems": 2
+    },
+    "structured_support": {
+      "type": "object",
+      "required": ["poles"],
+      "properties": {
+        "poles": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["label", "definition", "signal_ids", "mechanical_summary", "unit_used"],
+            "properties": {
+              "label": { "type": "string" },
+              "definition": { "type": "string", "description": "In corpus terms, not absolute." },
+              "signal_ids": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["id", "description"],
+                  "properties": {
+                    "id": { "type": "string", "pattern": "^SC-R\\d+-\\d+$" },
+                    "description": { "type": "string" }
+                  }
+                }
+              },
+              "mechanical_summary": { "type": "string" },
+              "unit_used": { "type": "string" },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "additional_context": {
+          "type": "object",
+          "properties": {
+            "signal_ids": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "mechanical_summary": { "type": "string" },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "what_it_supports": {
+      "type": "object",
+      "required": ["yes", "no"],
+      "properties": {
+        "yes": { "type": "string" },
+        "no": { "type": "string" }
+      }
+    },
+    "what_is_missing": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "classification_risk": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "posible contradicción falsa",
+          "posible agrupación disfrazada de tensión",
+          "posible artefacto de fuente",
+          "posible artefacto del detector",
+          "posible sobre-abstracción",
+          "posible falta de grounding",
+          "posible mezcla de unidades incompatibles",
+          "posible survivorship bias",
+          "posible sub-representación de un segmento"
+        ]
+      }
+    },
+    "source_patterns": {
+      "type": "array",
+      "description": "Pattern IDs from scan artifacts that originated this candidate.",
+      "items": { "type": "string" }
+    },
+    "human_fields": {
+      "type": "object",
+      "description": "All empty. Filled by human only.",
+      "properties": {
+        "human_context": { "type": "string", "default": "" },
+        "provisional_tension_name": { "type": "string", "default": "" },
+        "dt_question_enabled": { "type": "string", "default": "" },
+        "human_review_decision": { "type": "string", "default": "" },
+        "decision_rationale": { "type": "string", "default": "" }
+      }
+    }
+  }
+}

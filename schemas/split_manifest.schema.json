@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SplitManifest",
+  "description": "Tracks progress of splitting raw round files into discrete card batches.",
+  "type": "object",
+  "required": ["status", "rounds", "totals", "last_updated"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["in_progress", "complete", "failed"]
+    },
+    "rounds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["round", "source_file", "cards_found", "batches_written", "status"],
+        "properties": {
+          "round": { "type": "integer", "minimum": 1, "maximum": 10 },
+          "source_file": { "type": "string" },
+          "cards_found": { "type": "integer", "minimum": 0 },
+          "batches_written": { "type": "integer", "minimum": 0 },
+          "status": { "type": "string", "enum": ["pending", "complete", "failed"] },
+          "error": { "type": "string" }
+        }
+      }
+    },
+    "totals": {
+      "type": "object",
+      "required": ["total_cards", "total_batches"],
+      "properties": {
+        "total_cards": { "type": "integer" },
+        "total_batches": { "type": "integer" }
+      }
+    },
+    "last_updated": { "type": "string", "format": "date-time" }
+  }
+}

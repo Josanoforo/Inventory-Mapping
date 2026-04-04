@@ -1,0 +1,92 @@
+{
+  "id": "TC-106",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: herramientas de IA co-ocurren con señales de mayor oferta de contenido de bajo esfuerzo; al mismo tiempo, señales de demanda de calidad y diferenciación se concentran en el mismo mercado de productos digitales.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same digital product marketplace system.",
+  "signal_ids": [
+    "SC-R2-090",
+    "SC-R2-092",
+    "SC-R2-094",
+    "SC-R2-095",
+    "SC-R2-106",
+    "SC-R3-132",
+    "SC-R6-145",
+    "SC-R6-147"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: AI tools lower supply barrier (more low-effort supply)",
+        "definition": "AI and automation tools documented as enabling rapid, low-effort digital product creation, increasing supply volume.",
+        "signal_ids": [
+          {
+            "id": "SC-R3-132",
+            "description": "Growing Your Craft states: \"In 2026, listing a generic 'printable planner' isn't enough. The market "
+          },
+          {
+            "id": "SC-R6-145",
+            "description": "A seller reports: \"The competition is unbelievable. Everyone on Instagram is pushing Canva templates"
+          },
+          {
+            "id": "SC-R6-147",
+            "description": "Canva template market saturation described: \"every Etsy page, Instagram ad, and Gumroad launch start"
+          },
+          {
+            "id": "SC-R2-092",
+            "description": "Emily McDermott, who claims $280,000 in Etsy spreadsheet revenue, describes herself as \"not a spread"
+          }
+        ],
+        "mechanical_summary": "AI and automation tools documented as enabling rapid, low-effort digital product creation, increasing supply volume.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: Buyers demanding quality and differentiation",
+        "definition": "Buyer signals documented indicating preference for quality, curation, and differentiation as low-effort supply increases.",
+        "signal_ids": [
+          {
+            "id": "SC-R2-090",
+            "description": "The SendOwl blog (March 2026) lists features that make templates sell: locked cells containing formu"
+          },
+          {
+            "id": "SC-R2-106",
+            "description": "The Marketsy.io guide states: \"Successful template sellers focus on creating solutions that balance "
+          },
+          {
+            "id": "SC-R2-094",
+            "description": "A LinkedIn article states the buyer profile for Excel templates: \"Many Excel users' skills are limit"
+          },
+          {
+            "id": "SC-R2-095",
+            "description": "A LinkedIn article states buyers want \"a purpose-built spreadsheet, optimized for data entry, that d"
+          }
+        ],
+        "mechanical_summary": "Buyer signals documented indicating preference for quality, curation, and differentiation as low-effort supply increases.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-001"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

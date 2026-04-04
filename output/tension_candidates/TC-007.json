@@ -1,0 +1,78 @@
+{
+  "id": "TC-007",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun la tasa efectiva de comision de Gumroad: tasa muy alta en transacciones pequenas versus tasa favorable via links de referido o descubrimiento Discover.",
+  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de tasa efectiva segun canal y monto de transaccion en la misma plataforma (Gumroad).",
+  "signal_ids": [
+    "SC-R4-079",
+    "SC-R4-110",
+    "SC-R4-121",
+    "SC-R5-059",
+    "SC-R7-029"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: tasa efectiva alta en transacciones pequeñas",
+        "definition": "Transacciones de bajo monto en Gumroad donde la tasa efectiva es elevada por cargos fijos",
+        "signal_ids": [
+          {
+            "id": "SC-R5-059",
+            "description": "A Gumroad creator sold a $1 Notion template and received only $0.05 after all fees were deducted (Gu"
+          },
+          {
+            "id": "SC-R4-110",
+            "description": "A Gumroad Trustpilot reviewer reports selling an ebook for GBP 2.50 and having GBP 1.13 taken in fee"
+          },
+          {
+            "id": "SC-R4-121",
+            "description": "A Gumroad seller reports actual transaction fees of $16.59 from total sales of $110.00, an effective"
+          }
+        ],
+        "mechanical_summary": "Transacciones de bajo monto en Gumroad donde la tasa efectiva es elevada por cargos fijos",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: tasa favorable via referido o Discover",
+        "definition": "Ventas via link de referido o plataforma Discover de Gumroad con tasa efectiva reducida",
+        "signal_ids": [
+          {
+            "id": "SC-R7-029",
+            "description": "PromptBase referral link sales: sellers earn 90–100%."
+          },
+          {
+            "id": "SC-R4-079",
+            "description": "Tamzidul Haque reports: \"Gumroad's Discover is fire — landed a surprise $200 sale without lifting a "
+          }
+        ],
+        "mechanical_summary": "Ventas via link de referido o plataforma Discover de Gumroad con tasa efectiva reducida",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-006"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

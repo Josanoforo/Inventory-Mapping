@@ -1,0 +1,115 @@
+{
+  "id": "TC-021",
+  "status": "pending_review",
+  "type": "contradicción",
+  "mechanical_relation": "Las cards se separan en polos sobre Gumroad Discover: un polo concentra observaciones que señalan ausencia de tráfico orgánico; el polo opuesto concentra observaciones que documentan ventas orgánicas generadas por Discover. Las afirmaciones son sobre el mismo sujeto (Gumroad Discover) y el mismo alcance (ventas sin tráfico propio del vendedor).",
+  "analytical_unit": "Contradicción explícita: el mismo sujeto (Gumroad Discover) recibe afirmaciones opuestas (cero tráfico vs. ventas orgánicas reales). Polo A tiene 5 cards; Polo B tiene 3 cards. Ambos polos con soporte suficiente.",
+  "signal_ids": [
+    "SC-R1-017",
+    "SC-R1-036",
+    "SC-R10-005",
+    "SC-R10-008",
+    "SC-R10-018",
+    "SC-R10-020",
+    "SC-R10-021",
+    "SC-R10-022",
+    "SC-R10-148",
+    "SC-R2-061",
+    "SC-R2-062",
+    "SC-R4-005",
+    "SC-R4-007",
+    "SC-R4-023",
+    "SC-R4-037",
+    "SC-R4-048",
+    "SC-R4-049",
+    "SC-R4-050",
+    "SC-R4-056",
+    "SC-R4-057",
+    "SC-R4-060",
+    "SC-R4-061",
+    "SC-R4-067",
+    "SC-R4-079",
+    "SC-R4-080",
+    "SC-R4-114",
+    "SC-R4-115",
+    "SC-R4-153",
+    "SC-R4-154",
+    "SC-R5-049"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — Gumroad Discover no genera tráfico orgánico",
+        "definition": "Sellers documentan ausencia de tráfico orgánico desde Gumroad Discover. Las observaciones provienen de fuentes distintas (blogs de vendedoras, foros, prueba directa con 25 productos).",
+        "signal_ids": [
+          {
+            "id": "SC-R4-037",
+            "description": "Catherine Insler reports that when she listed her first product on Gumroad, she got zero sales becau"
+          },
+          {
+            "id": "SC-R4-048",
+            "description": "A seller of a CSV database of 798 marketing agency contacts ($19) reports: \"Gumroad is great for che"
+          },
+          {
+            "id": "SC-R4-056",
+            "description": "Poonam Sharma reports after 1 year on Gumroad selling Notion templates: \"Gumroad is not a marketplac"
+          },
+          {
+            "id": "SC-R8-105",
+            "description": "@robfitz reported that Gumroad does not drive meaningful traffic; the seller provides their own."
+          },
+          {
+            "id": "SC-R8-121",
+            "description": "A Gumroad seller with 25 products reported $0 in sales and zero views from organic search."
+          }
+        ],
+        "mechanical_summary": "Sellers documentan ausencia de tráfico orgánico desde Gumroad Discover. Las observaciones provienen de fuentes distintas (blogs de vendedoras, foros, prueba directa con 25 productos).",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B — Gumroad Discover genera ventas orgánicas",
+        "definition": "Sellers documentan ventas atribuidas a Gumroad Discover sin tráfico propio previo. SC-R8-125 matiza que es 'complementario', no estrategia primaria.",
+        "signal_ids": [
+          {
+            "id": "SC-R4-079",
+            "description": "Tamzidul Haque reports: \"Gumroad's Discover is fire — landed a surprise $200 sale without lifting a "
+          },
+          {
+            "id": "SC-R4-080",
+            "description": "A Reddit user quoted in the same article states: \"Gumroad's Discover is fire, but those fees killed "
+          },
+          {
+            "id": "SC-R8-125",
+            "description": "Seller Iampaulrose reported making $1,008.89 worth of sales recommended by Gumroad Discover and char"
+          }
+        ],
+        "mechanical_summary": "Sellers documentan ventas atribuidas a Gumroad Discover sin tráfico propio previo. SC-R8-125 matiza que es 'complementario', no estrategia primaria.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible contradicción falsa",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "CON-001",
+    "FRI-005"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

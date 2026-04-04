@@ -1,0 +1,82 @@
+{
+  "id": "TC-045",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la tarifa plana de Gumroad de 10% mas 0.50 USD por transaccion reduce el margen documentado de vendedores con productos de bajo precio.",
+  "analytical_unit": "Bloqueador documentado: tarifa fija de 0.50 USD por transaccion de Gumroad. Bloqueado documentado: margen viable en productos de precio bajo. Mecanismo economico claro con soporte de 6 tarjetas.",
+  "signal_ids": [
+    "SC-R8-017",
+    "SC-R8-018",
+    "SC-R8-024",
+    "SC-R8-025",
+    "SC-R8-101",
+    "SC-R8-103"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Blocker",
+        "definition": "Gumroad cobra tarifa fija de 0.50 USD por transaccion independientemente del precio del producto",
+        "signal_ids": [
+          {
+            "id": "SC-R8-017",
+            "description": "Gumroad charges a flat 10% fee per sale plus $0.50 per transaction for direct sales."
+          },
+          {
+            "id": "SC-R8-018",
+            "description": "Gumroad charges 30% for sales through Gumroad Discover (marketplace)."
+          }
+        ],
+        "mechanical_summary": "Gumroad cobra tarifa fija de 0.50 USD por transaccion independientemente del precio del producto",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Blocked",
+        "definition": "Margen de vendedores con productos de precio bajo queda erosionado por la tarifa fija",
+        "signal_ids": [
+          {
+            "id": "SC-R8-024",
+            "description": "Gumroad eliminated tiered pricing in January 2023; previously, high-volume sellers paid as low as 3."
+          },
+          {
+            "id": "SC-R8-025",
+            "description": "After Gumroad's flat 10% fee change, some top sellers saw fees triple overnight. One seller in the o"
+          },
+          {
+            "id": "SC-R8-101",
+            "description": "Seller @rikschennink on Indie Hackers was in Gumroad's 3% tier paying approximately $750/month; new "
+          },
+          {
+            "id": "SC-R8-103",
+            "description": "Gumroad's fee change was announced on Twitter, on a Saturday, right before Christmas; the thread had"
+          }
+        ],
+        "mechanical_summary": "Margen de vendedores con productos de precio bajo queda erosionado por la tarifa fija",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-027"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

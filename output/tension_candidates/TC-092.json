@@ -1,0 +1,100 @@
+{
+  "id": "TC-092",
+  "status": "needs_audit_before_classification",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre figura '$4.99' asociada a PromptBase en 7 cards de 1 rounds distintos.",
+  "analytical_unit": "possible dedup: figura '$4.99' en contexto PromptBase en rounds [7]. Verificar si provienen de la misma fuente original.",
+  "signal_ids": [
+    "SC-R7-006",
+    "SC-R7-007",
+    "SC-R7-009",
+    "SC-R7-010",
+    "SC-R7-012",
+    "SC-R7-013",
+    "SC-R7-017",
+    "SC-R7-095",
+    "SC-R7-100"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R7-006",
+            "description": "New PromptBase sellers have a price ceiling of $4.99 until establishing a sales record."
+          },
+          {
+            "id": "SC-R7-007",
+            "description": "Specific PromptBase price tiers observed: $2.99, $3.99, $4.99, $5.99, $6.99."
+          },
+          {
+            "id": "SC-R7-009",
+            "description": "New PromptBase sellers have a price ceiling of $4.99 until establishing a sales record."
+          },
+          {
+            "id": "SC-R7-010",
+            "description": "Specific PromptBase price tiers observed: $2.99, $3.99, $4.99, $5.99, $6.99."
+          }
+        ],
+        "mechanical_summary": "co-ocurre figura '$4.99' asociada a PromptBase en 7 cards de 1 rounds distintos.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R7-012",
+            "description": "New PromptBase sellers have a price ceiling of $4.99 until establishing a sales record."
+          },
+          {
+            "id": "SC-R7-013",
+            "description": "Specific PromptBase price tiers observed: $2.99, $3.99, $4.99, $5.99, $6.99."
+          },
+          {
+            "id": "SC-R7-017",
+            "description": "Featured prompts on the PromptBase homepage were priced at $2.99–$5.99, with some showing -40% sale "
+          },
+          {
+            "id": "SC-R7-095",
+            "description": "A seller posted 3 prompts on PromptBase (2 ChatGPT, 1 Midjourney) over one month and received 119 vi"
+          },
+          {
+            "id": "SC-R7-100",
+            "description": "A second publicly visible PromptBase seller had 419 sales over 4 months at ~$3.99 average, with a ca"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "LEX-055",
+    "LEX-057",
+    "LEX-058",
+    "LEX-059"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "TC-101",
+  "status": "needs_audit_before_classification",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre figura '2 months' asociada a Gumroad en 2 cards de 2 rounds distintos.",
+  "analytical_unit": "possible dedup: figura '2 months' en contexto Gumroad en rounds [7, 10]. Verificar si provienen de la misma fuente original.",
+  "signal_ids": [
+    "SC-R10-148",
+    "SC-R7-101"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R10-148",
+            "description": "Arvid Kahl sold 2,000 copies of \"Zero to Sold\" in 2 months on Amazon KDP, Gumroad, and Draft2Digital"
+          }
+        ],
+        "mechanical_summary": "co-ocurre figura '2 months' asociada a Gumroad en 2 cards de 2 rounds distintos.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R7-101",
+            "description": "A seller claims \"just over $1,000 in revenue\" from a single AI prompt pack on Gumroad within 2 month"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "LEX-067"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

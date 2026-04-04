@@ -1,0 +1,136 @@
+{
+  "id": "TC-004",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun si la estructura de comision de la plataforma es cero o cuota plana mensual versus porcentaje por venta.",
+  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre plataformas con cuota cero/plana y plataformas con comision porcentual por venta.",
+  "signal_ids": [
+    "SC-R1-017",
+    "SC-R1-050",
+    "SC-R1-053",
+    "SC-R1-060",
+    "SC-R2-058",
+    "SC-R4-082",
+    "SC-R4-089",
+    "SC-R4-105",
+    "SC-R5-049",
+    "SC-R5-079",
+    "SC-R6-038",
+    "SC-R6-047",
+    "SC-R6-054",
+    "SC-R6-059",
+    "SC-R8-016",
+    "SC-R8-034",
+    "SC-R8-035",
+    "SC-R8-042",
+    "SC-R8-048"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: cuota cero o plana mensual",
+        "definition": "Plataformas sin comision porcentual por venta; modelo de tarifa fija o gratuita",
+        "signal_ids": [
+          {
+            "id": "SC-R1-050",
+            "description": "Tiendanube offers a free unlimited plan in Argentina and Mexico, integrates Mercado Pago and its own"
+          },
+          {
+            "id": "SC-R1-053",
+            "description": "Empretienda (Argentina, founded 2017) was acquired by Ualá in 2022 and charges no commissions per sa"
+          },
+          {
+            "id": "SC-R6-054",
+            "description": "Ko-fi takes no cut on shop sales."
+          },
+          {
+            "id": "SC-R6-047",
+            "description": "Stan Store uses a monthly subscription model with no per-sale commission cut."
+          },
+          {
+            "id": "SC-R4-082",
+            "description": "Payhip Pro ($99/month) has 0% transaction fees."
+          },
+          {
+            "id": "SC-R6-059",
+            "description": "Sellfy offers paid plans at $29/month (Starter), $79/month (Business), $159/month (Premium) with no "
+          },
+          {
+            "id": "SC-R8-042",
+            "description": "Payhip charges a 5% transaction fee on the free plan ($0/month), 2% on the Plus plan ($29/month), an"
+          },
+          {
+            "id": "SC-R8-048",
+            "description": "Sellfy charges $29/month Starter (up to $10K/year sales), $79/month Business (up to $50K), and $159/"
+          }
+        ],
+        "mechanical_summary": "Plataformas sin comision porcentual por venta; modelo de tarifa fija o gratuita",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: porcentaje por venta",
+        "definition": "Plataformas que cobran porcentaje variable sobre cada transaccion al vendedor",
+        "signal_ids": [
+          {
+            "id": "SC-R1-060",
+            "description": "Bubok charges a 50% commission on ebook sales in Spain."
+          },
+          {
+            "id": "SC-R1-017",
+            "description": "Sales arriving via Gumroad's Discover marketplace incur a 30% commission."
+          },
+          {
+            "id": "SC-R5-049",
+            "description": "For sales via Gumroad Discover (marketplace), the fee is 30% per sale (includes payment processing)."
+          },
+          {
+            "id": "SC-R2-058",
+            "description": "Spreadsheet Nut is an online marketplace dedicated to spreadsheet templates, charging 40% commission"
+          },
+          {
+            "id": "SC-R4-089",
+            "description": "Maliha's main frustration with Creative Market is the 40% commission: \"Imagine selling $50 worth of "
+          },
+          {
+            "id": "SC-R6-038",
+            "description": "Creative Market sellers keep 50% of list price; the platform handles marketing and payment processin"
+          },
+          {
+            "id": "SC-R5-079",
+            "description": "Prototion (prototion.com) charges a 30% commission on sales and lists 1,000+ free and paid templates"
+          },
+          {
+            "id": "SC-R4-105",
+            "description": "The LILI Path reports Etsy takes approximately 40-50% of total sales for digital products through co"
+          }
+        ],
+        "mechanical_summary": "Plataformas que cobran porcentaje variable sobre cada transaccion al vendedor",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-003"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}
