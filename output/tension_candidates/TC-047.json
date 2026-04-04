@@ -4,28 +4,47 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: la ausencia de copyright para obras generadas por IA (US Copyright Office enero 2025) bloquea la protección de propiedad intelectual documentada como estrategia de vendedores de prompts y outputs IA. El corpus documenta 2 cards del bloqueador (marco legal que excluye obras IA del copyright) y 2 cards del bloqueado (vendedores de prompts sin protección IP aplicable).",
   "analytical_unit": "protección de propiedad intelectual de outputs generados por IA en el mercado de prompts",
-  "signal_ids": ["SC-R7-157", "SC-R7-158", "SC-R7-159", "SC-R7-160"],
+  "signal_ids": [
+    "SC-R7-157",
+    "SC-R7-158",
+    "SC-R7-159",
+    "SC-R7-160"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — marco legal excluye obras generadas por IA del registro de copyright",
-      "definition": "Cards que documentan la regulación del US Copyright Office que excluye obras IA del registro",
-      "signal_ids": [
-        {"id": "SC-R7-157", "description": "US Copyright Office enero 2025: obras generadas por IA no son registrables"},
-        {"id": "SC-R7-158", "description": "fallo judicial confirma que outputs de IA carecen de autoría humana requerida para copyright"}
-      ],
-      "mechanical_summary": "Dos cards documentan el marco legal como bloqueador. SC-R7-157 (US Copyright Office 2025) y SC-R7-158 (fallo judicial) proveen texto verificado con fuentes institucionales.",
-      "unit_used": "regulación de US Copyright Office 2025 y fallo judicial"
-    },
-    "blocked": {
-      "label": "Blocked — vendedores de prompts e imágenes IA sin protección IP aplicable",
-      "definition": "Cards que documentan la incapacidad de vendedores de proteger sus productos IA derivados",
-      "signal_ids": [
-        {"id": "SC-R7-159", "description": "vendedores de prompts documentan incapacidad de proteger sus obras derivadas"},
-        {"id": "SC-R7-160", "description": "mercado de prompts opera sin marco de propiedad intelectual aplicable"}
-      ],
-      "mechanical_summary": "Dos cards documentan el impacto en vendedores de prompts: imposibilidad de registrar copyright en sus outputs (SC-R7-159) y operación del mercado sin marco IP aplicable (SC-R7-160).",
-      "unit_used": "observaciones sobre limitaciones de protección IP para vendedores de prompts"
-    }
+    "poles": [
+      {
+        "label": "Blocker — marco legal excluye obras generadas por IA del registro de copyright",
+        "definition": "Cards que documentan la regulación del US Copyright Office que excluye obras IA del registro",
+        "signal_ids": [
+          {
+            "id": "SC-R7-157",
+            "description": "US Copyright Office enero 2025: obras generadas por IA no son registrables"
+          },
+          {
+            "id": "SC-R7-158",
+            "description": "fallo judicial confirma que outputs de IA carecen de autoría humana requerida para copyright"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan el marco legal como bloqueador. SC-R7-157 (US Copyright Office 2025) y SC-R7-158 (fallo judicial) proveen texto verificado con fuentes institucionales.",
+        "unit_used": "regulación de US Copyright Office 2025 y fallo judicial"
+      },
+      {
+        "label": "Blocked — vendedores de prompts e imágenes IA sin protección IP aplicable",
+        "definition": "Cards que documentan la incapacidad de vendedores de proteger sus productos IA derivados",
+        "signal_ids": [
+          {
+            "id": "SC-R7-159",
+            "description": "vendedores de prompts documentan incapacidad de proteger sus obras derivadas"
+          },
+          {
+            "id": "SC-R7-160",
+            "description": "mercado de prompts opera sin marco de propiedad intelectual aplicable"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan el impacto en vendedores de prompts: imposibilidad de registrar copyright en sus outputs (SC-R7-159) y operación del mercado sin marco IP aplicable (SC-R7-160).",
+        "unit_used": "observaciones sobre limitaciones de protección IP para vendedores de prompts"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "El marco legal del US Copyright Office 2025 y el fallo judicial están documentados como fuentes verificadas. La imposibilidad de registrar copyright en outputs IA es una fricción legal documentable para vendedores de prompts.",
@@ -36,7 +55,18 @@
     "Casos documentados de piratería de prompts donde la falta de copyright resultó en pérdida económica verificable.",
     "Separación entre copyright del prompt (texto del prompt) vs. copyright del output generado (imagen, texto)."
   ],
-  "classification_risk": ["posible falta de grounding", "posible sobre-abstracción"],
-  "source_patterns": ["FRI-012"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-012"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

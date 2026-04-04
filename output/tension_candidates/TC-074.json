@@ -5,59 +5,191 @@
   "mechanical_relation": "co-ocurre en 7 rounds distintos (32 cards): la estrategia de entrada documentada de vendedores usando derechos PLR/MRR co-ocurre con restricciones de plataformas (Canva CLA, Etsy Creativity Standards, Gumroad policy) y con implicaciones documentadas para el comprador final. El corpus documenta la práctica de distribución PLR/MRR (Polo A) y el marco regulatorio y restricciones (Polo B).",
   "analytical_unit": "distribución de productos con derechos PLR/MRR entre plataformas y su interacción con políticas de plataforma",
   "signal_ids": [
-    "SC-R1-003", "SC-R1-022", "SC-R2-020", "SC-R2-033", "SC-R2-039",
-    "SC-R2-042", "SC-R2-060", "SC-R2-130", "SC-R3-011", "SC-R3-013",
-    "SC-R4-124", "SC-R6-008", "SC-R6-009", "SC-R6-010", "SC-R6-011",
-    "SC-R6-018", "SC-R6-042", "SC-R6-051", "SC-R6-076", "SC-R6-094",
-    "SC-R6-156", "SC-R6-157", "SC-R6-158", "SC-R6-164", "SC-R6-165",
-    "SC-R6-166", "SC-R6-174", "SC-R6-176", "SC-R7-144", "SC-R7-145",
-    "SC-R8-084", "SC-R8-159"
+    "SC-R1-003",
+    "SC-R1-022",
+    "SC-R2-020",
+    "SC-R2-033",
+    "SC-R2-039",
+    "SC-R2-042",
+    "SC-R2-060",
+    "SC-R2-130",
+    "SC-R3-011",
+    "SC-R3-013",
+    "SC-R4-124",
+    "SC-R6-008",
+    "SC-R6-009",
+    "SC-R6-010",
+    "SC-R6-011",
+    "SC-R6-018",
+    "SC-R6-042",
+    "SC-R6-051",
+    "SC-R6-076",
+    "SC-R6-094",
+    "SC-R6-156",
+    "SC-R6-157",
+    "SC-R6-158",
+    "SC-R6-164",
+    "SC-R6-165",
+    "SC-R6-166",
+    "SC-R6-174",
+    "SC-R6-176",
+    "SC-R7-144",
+    "SC-R7-145",
+    "SC-R8-084",
+    "SC-R8-159"
   ],
   "structured_support": {
-    "polo_a": {
-      "label": "Polo A — práctica documentada de distribución de productos PLR/MRR en plataformas",
-      "definition": "Cards que documentan la práctica de vendedores que usan PLR/MRR como estrategia de entrada al mercado de productos digitales",
+    "poles": [
+      {
+        "label": "Polo A — práctica documentada de distribución de productos PLR/MRR en plataformas",
+        "definition": "Cards que documentan la práctica de vendedores que usan PLR/MRR como estrategia de entrada al mercado de productos digitales",
+        "signal_ids": [
+          {
+            "id": "SC-R1-003",
+            "description": "productos activos en Hotmart incluyen packs de 20-40 plantillas Canva editables con derechos de reventa"
+          },
+          {
+            "id": "SC-R2-033",
+            "description": "JiggySoles en Gumroad vende un bundle de plantillas de spreadsheet con MRR"
+          },
+          {
+            "id": "SC-R2-060",
+            "description": "en Gumroad, múltiples vendedores ofrecen bundles PLR/MRR grandes, 1,000+ o 5,000+ plantillas"
+          },
+          {
+            "id": "SC-R3-011",
+            "description": "bundles de plantillas grandes con PLR/MRR existen en Etsy, Gumroad y otros"
+          },
+          {
+            "id": "SC-R3-013",
+            "description": "bundles PLR/MRR en Etsy tienen precio más alto porque compradores reciben derechos de reventa comercial"
+          },
+          {
+            "id": "SC-R6-008",
+            "description": "plantilla de ebook de 20 páginas con derechos de reventa PLR, editable en Canva, listada en Etsy"
+          },
+          {
+            "id": "SC-R6-009",
+            "description": "plantilla de ebook de cuidado de mascotas de 59 páginas con derechos PLR listada en Etsy"
+          },
+          {
+            "id": "SC-R6-051",
+            "description": "'Ultimate Starter Pack — 2500+ páginas de plantillas Canva que puedes revender' listado en Ko-fi"
+          },
+          {
+            "id": "SC-R6-094",
+            "description": "Katya Varbanova vendió 255 packs de plantillas en los primeros días vía preventa"
+          }
+        ],
+        "mechanical_summary": "Cards documentan la práctica de distribución de productos PLR/MRR activa en múltiples plataformas (Hotmart, Gumroad, Etsy, Ko-fi).",
+        "unit_used": "distribución de productos PLR/MRR en plataformas de productos digitales"
+      },
+      {
+        "label": "Polo B — restricciones de plataformas sobre PLR/MRR y sus implicaciones para compradores",
+        "definition": "Cards que documentan las restricciones de plataformas sobre reventa de contenido y las implicaciones legales para compradores",
+        "signal_ids": [
+          {
+            "id": "SC-R6-156",
+            "description": "Canva Content License Agreement: licencia no transferible — no permite sublicenciar"
+          },
+          {
+            "id": "SC-R6-157",
+            "description": "Canva CLA prohíbe explícitamente sublicenciar, revender o transferir contenido de Canva"
+          },
+          {
+            "id": "SC-R6-158",
+            "description": "Canva CLA Free Content: permite uso en plantillas para venta — pero no el contenido en sí"
+          },
+          {
+            "id": "SC-R6-164",
+            "description": "contenido generado por IA en Canva no está cubierto por la licencia de Canva"
+          },
+          {
+            "id": "SC-R6-165",
+            "description": "Canva Licensing: no revender, redistribuir ni atribuir contenido de Canva"
+          },
+          {
+            "id": "SC-R6-166",
+            "description": "Canva confirma que fotos, fuentes y gráficos pueden usarse en diseños para venta — con distinción"
+          },
+          {
+            "id": "SC-R6-174",
+            "description": "interpretación legal: no se puede extraer contenido de Canva y venderlo como si fuera propio"
+          },
+          {
+            "id": "SC-R6-176",
+            "description": "Canva: algunos servicios de print-on-demand requieren que los cargadores afirmen derechos de autor propios"
+          },
+          {
+            "id": "SC-R7-144",
+            "description": "en junio 2025, Etsy actualizó sus Creativity Standards para requerir que todos los ítems sean 'originales del vendedor'"
+          },
+          {
+            "id": "SC-R7-145",
+            "description": "en junio 2025, Etsy actualizó sus Creativity Standards — segunda card"
+          },
+          {
+            "id": "SC-R8-084",
+            "description": "vendedor de Gumroad publicó el mismo producto en dos tiendas Gumroad diferentes; productos retornados"
+          },
+          {
+            "id": "SC-R8-159",
+            "description": "regla general de Gumroad: no se pueden revender productos que no se crearon; contenido IA tiene restricciones adicionales"
+          }
+        ],
+        "mechanical_summary": "Cards documentan restricciones de Canva CLA, Etsy Creativity Standards de junio 2025 y Gumroad que limitan o prohíben la reventa de contenido PLR/MRR.",
+        "unit_used": "restricciones de plataformas sobre reventa de contenido PLR/MRR"
+      }
+    ],
+    "additional_context": {
+      "note": "Las siguientes cards documentan contexto del ecosistema de plantillas con PLR/MRR sin ser evidencia directa del mecanismo de co-ocurrencia",
       "signal_ids": [
-        {"id": "SC-R1-003", "description": "productos activos en Hotmart incluyen packs de 20-40 plantillas Canva editables con derechos de reventa"},
-        {"id": "SC-R2-033", "description": "JiggySoles en Gumroad vende un bundle de plantillas de spreadsheet con MRR"},
-        {"id": "SC-R2-060", "description": "en Gumroad, múltiples vendedores ofrecen bundles PLR/MRR grandes, 1,000+ o 5,000+ plantillas"},
-        {"id": "SC-R3-011", "description": "bundles de plantillas grandes con PLR/MRR existen en Etsy, Gumroad y otros"},
-        {"id": "SC-R3-013", "description": "bundles PLR/MRR en Etsy tienen precio más alto porque compradores reciben derechos de reventa comercial"},
-        {"id": "SC-R6-008", "description": "plantilla de ebook de 20 páginas con derechos de reventa PLR, editable en Canva, listada en Etsy"},
-        {"id": "SC-R6-009", "description": "plantilla de ebook de cuidado de mascotas de 59 páginas con derechos PLR listada en Etsy"},
-        {"id": "SC-R6-051", "description": "'Ultimate Starter Pack — 2500+ páginas de plantillas Canva que puedes revender' listado en Ko-fi"},
-        {"id": "SC-R6-094", "description": "Katya Varbanova vendió 255 packs de plantillas en los primeros días vía preventa"}
-      ],
-      "mechanical_summary": "Cards documentan la práctica de distribución de productos PLR/MRR activa en múltiples plataformas (Hotmart, Gumroad, Etsy, Ko-fi).",
-      "unit_used": "distribución de productos PLR/MRR en plataformas de productos digitales"
-    },
-    "polo_b": {
-      "label": "Polo B — restricciones de plataformas sobre PLR/MRR y sus implicaciones para compradores",
-      "definition": "Cards que documentan las restricciones de plataformas sobre reventa de contenido y las implicaciones legales para compradores",
-      "signal_ids": [
-        {"id": "SC-R6-156", "description": "Canva Content License Agreement: licencia no transferible — no permite sublicenciar"},
-        {"id": "SC-R6-157", "description": "Canva CLA prohíbe explícitamente sublicenciar, revender o transferir contenido de Canva"},
-        {"id": "SC-R6-158", "description": "Canva CLA Free Content: permite uso en plantillas para venta — pero no el contenido en sí"},
-        {"id": "SC-R6-164", "description": "contenido generado por IA en Canva no está cubierto por la licencia de Canva"},
-        {"id": "SC-R6-165", "description": "Canva Licensing: no revender, redistribuir ni atribuir contenido de Canva"},
-        {"id": "SC-R6-166", "description": "Canva confirma que fotos, fuentes y gráficos pueden usarse en diseños para venta — con distinción"},
-        {"id": "SC-R6-174", "description": "interpretación legal: no se puede extraer contenido de Canva y venderlo como si fuera propio"},
-        {"id": "SC-R6-176", "description": "Canva: algunos servicios de print-on-demand requieren que los cargadores afirmen derechos de autor propios"},
-        {"id": "SC-R7-144", "description": "en junio 2025, Etsy actualizó sus Creativity Standards para requerir que todos los ítems sean 'originales del vendedor'"},
-        {"id": "SC-R7-145", "description": "en junio 2025, Etsy actualizó sus Creativity Standards — segunda card"},
-        {"id": "SC-R8-084", "description": "vendedor de Gumroad publicó el mismo producto en dos tiendas Gumroad diferentes; productos retornados"},
-        {"id": "SC-R8-159", "description": "regla general de Gumroad: no se pueden revender productos que no se crearon; contenido IA tiene restricciones adicionales"}
-      ],
-      "mechanical_summary": "Cards documentan restricciones de Canva CLA, Etsy Creativity Standards de junio 2025 y Gumroad que limitan o prohíben la reventa de contenido PLR/MRR.",
-      "unit_used": "restricciones de plataformas sobre reventa de contenido PLR/MRR"
+        {
+          "id": "SC-R1-022",
+          "description": "Spanish digital product categories on Etsy include printable planners, Google Sheets/Excel budget spreadsheets,"
+        },
+        {
+          "id": "SC-R2-020",
+          "description": "A \"Competency Matrix Template\" listing on Etsy offers Google Sheets format with settings section, competency assessment"
+        },
+        {
+          "id": "SC-R2-039",
+          "description": "On Etsy, seller TemplateLifeCo has 119 items total (31 Small Business Tools, 19 Budget Spreadsheets, 13 Productivity"
+        },
+        {
+          "id": "SC-R2-042",
+          "description": "On Etsy, one Someka product (Etsy Seller Spreadsheet) is priced at $34.95, and they also sell multi-user licenses."
+        },
+        {
+          "id": "SC-R2-130",
+          "description": "The Planner For All PLR blog states: \"Google Sheets templates has more demand on Etsy because they're easier to use,"
+        },
+        {
+          "id": "SC-R4-124",
+          "description": "An Etsy seller quoted in an aggregation states: \"Etsy used to be worth it but since they allow so many resellers on"
+        },
+        {
+          "id": "SC-R6-010",
+          "description": "2026 digital planner Canva template (weekly, monthly, daily pages, hyperlinked PDF, vision board, goal tracker) with"
+        },
+        {
+          "id": "SC-R6-011",
+          "description": "300+ PLR Canva templates (planner, journal, tracker — self-care, life, fitness, home, health bundles) listed on Etsy by"
+        },
+        {
+          "id": "SC-R6-018",
+          "description": "Budgeting & finance Canva template bundle (34-page ebook + budgeting worksheets — income, savings, quarterly, debt"
+        },
+        {
+          "id": "SC-R6-042",
+          "description": "Canva templates on M LaShea & Company Shopify store priced at $9.99 each with commercial license for finished products;"
+        },
+        {
+          "id": "SC-R6-076",
+          "description": "Canva template sellers bundle (listing images, PLR guide, download instructions) listed on Etsy by RosemarkCreative at"
+        }
+      ]
     }
-  },
-  "additional_context": {
-    "note": "Las siguientes cards documentan contexto del ecosistema de plantillas con PLR/MRR sin ser evidencia directa del mecanismo de co-ocurrencia",
-    "signal_ids": [
-      "SC-R1-022", "SC-R2-020", "SC-R2-039", "SC-R2-042", "SC-R2-130",
-      "SC-R4-124", "SC-R6-010", "SC-R6-011", "SC-R6-018", "SC-R6-042", "SC-R6-076"
-    ]
   },
   "what_it_supports": {
     "yes": "La práctica de distribución de productos PLR/MRR está documentada en múltiples plataformas. Las restricciones de Canva CLA sobre reventa de contenido están documentadas. Los cambios de Etsy Creativity Standards en junio 2025 que afectan a productos PLR están documentados.",
@@ -68,7 +200,18 @@
     "Información sobre cómo las plataformas aplican sus políticas contra productos PLR/MRR en la práctica.",
     "Casos documentados de compradores de PLR/MRR que enfrentaron problemas legales o de acceso a la plataforma."
   ],
-  "classification_risk": ["posible mezcla de unidades incompatibles", "posible sobre-abstracción"],
-  "source_patterns": ["COO-008"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "COO-008"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

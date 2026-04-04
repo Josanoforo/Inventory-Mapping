@@ -4,27 +4,42 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: la moderación automatizada Iffy de Gumroad suspende cuentas de vendedores de contenido IA sin mecanismo de apelación documentado, bloqueando el acceso a la plataforma. El corpus documenta 2 cards del bloqueador (sistema Iffy de bans permanentes sin apelación) y 1 card del bloqueado (acceso de vendedores de contenido IA).",
   "analytical_unit": "acceso continuado de vendedores a Gumroad ante el sistema de moderación automatizada Iffy",
-  "signal_ids": ["SC-R8-072", "SC-R8-073", "SC-R8-074"],
+  "signal_ids": [
+    "SC-R8-072",
+    "SC-R8-073",
+    "SC-R8-074"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — sistema Iffy de Gumroad emite bans permanentes automatizados sin vía de apelación",
-      "definition": "Cards que documentan el sistema Iffy de moderación automatizada de Gumroad y su ausencia de apelación",
-      "signal_ids": [
-        {"id": "SC-R8-072", "description": "Gumroad implementa sistema Iffy de moderación automatizada para contenido IA"},
-        {"id": "SC-R8-074", "description": "no existe proceso de apelación documentado para bans por sistema Iffy en Gumroad"}
-      ],
-      "mechanical_summary": "Dos cards documentan el sistema Iffy (SC-R8-072) y la ausencia de apelación (SC-R8-074). Texto verificado de las cards.",
-      "unit_used": "documentación del sistema Iffy y ausencia de proceso de apelación"
-    },
-    "blocked": {
-      "label": "Blocked — acceso de vendedores de contenido IA a plataforma Gumroad",
-      "definition": "Card que documenta bans permanentes sin notificación de causa específica",
-      "signal_ids": [
-        {"id": "SC-R8-073", "description": "vendedores documentan bans permanentes sin notificación de causa específica"}
-      ],
-      "mechanical_summary": "Una card documenta la experiencia de vendedores baneados permanentemente sin causa específica comunicada.",
-      "unit_used": "experiencias documentadas de vendedores con bans permanentes en Gumroad"
-    }
+    "poles": [
+      {
+        "label": "Blocker — sistema Iffy de Gumroad emite bans permanentes automatizados sin vía de apelación",
+        "definition": "Cards que documentan el sistema Iffy de moderación automatizada de Gumroad y su ausencia de apelación",
+        "signal_ids": [
+          {
+            "id": "SC-R8-072",
+            "description": "Gumroad implementa sistema Iffy de moderación automatizada para contenido IA"
+          },
+          {
+            "id": "SC-R8-074",
+            "description": "no existe proceso de apelación documentado para bans por sistema Iffy en Gumroad"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan el sistema Iffy (SC-R8-072) y la ausencia de apelación (SC-R8-074). Texto verificado de las cards.",
+        "unit_used": "documentación del sistema Iffy y ausencia de proceso de apelación"
+      },
+      {
+        "label": "Blocked — acceso de vendedores de contenido IA a plataforma Gumroad",
+        "definition": "Card que documenta bans permanentes sin notificación de causa específica",
+        "signal_ids": [
+          {
+            "id": "SC-R8-073",
+            "description": "vendedores documentan bans permanentes sin notificación de causa específica"
+          }
+        ],
+        "mechanical_summary": "Una card documenta la experiencia de vendedores baneados permanentemente sin causa específica comunicada.",
+        "unit_used": "experiencias documentadas de vendedores con bans permanentes en Gumroad"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "El sistema Iffy de Gumroad y la ausencia de proceso de apelación están documentados. Los bans permanentes sin causa específica están documentados en una card de vendedores.",
@@ -35,7 +50,18 @@
     "Casos específicos de vendedores no-IA baneados por el sistema Iffy (para establecer si es específico a IA).",
     "Documentación oficial de Gumroad sobre el sistema Iffy y sus criterios de moderación."
   ],
-  "classification_risk": ["posible falta de grounding", "posible sub-representación de un segmento"],
-  "source_patterns": ["FRI-018"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
+  ],
+  "source_patterns": [
+    "FRI-018"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

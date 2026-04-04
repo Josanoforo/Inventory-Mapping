@@ -4,26 +4,37 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: el sistema de selección editorial de Creative Market que concentra visibilidad en productos destacados bloquea la visibilidad orgánica documentada de vendedores sin selección editorial. El corpus documenta 1 card del bloqueador (visibilidad preferencial editorial) y 1 card del bloqueado (descenso de visibilidad en no seleccionados).",
   "analytical_unit": "visibilidad orgánica de productos de vendedores en Creative Market sin selección editorial",
-  "signal_ids": ["SC-R8-134", "SC-R8-135"],
+  "signal_ids": [
+    "SC-R8-134",
+    "SC-R8-135"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — selección editorial de Creative Market concentra visibilidad en productos destacados",
-      "definition": "Card que documenta el sistema de selección editorial de Creative Market que otorga visibilidad preferencial",
-      "signal_ids": [
-        {"id": "SC-R8-134", "description": "Creative Market otorga visibilidad preferencial a productos seleccionados editorialmente"}
-      ],
-      "mechanical_summary": "Una card documenta que la selección editorial concentra la visibilidad en un subconjunto de productos.",
-      "unit_used": "visibilidad preferencial por selección editorial en Creative Market"
-    },
-    "blocked": {
-      "label": "Blocked — visibilidad orgánica de vendedores sin selección editorial se reduce",
-      "definition": "Card que documenta descenso de visibilidad orgánica en vendedores de Creative Market no seleccionados",
-      "signal_ids": [
-        {"id": "SC-R8-135", "description": "vendedores sin selección editorial documentan descenso de visibilidad orgánica en Creative Market"}
-      ],
-      "mechanical_summary": "Una card documenta el impacto en vendedores no seleccionados editorialmente: descenso de visibilidad orgánica.",
-      "unit_used": "visibilidad orgánica de vendedores no seleccionados en Creative Market"
-    }
+    "poles": [
+      {
+        "label": "Blocker — selección editorial de Creative Market concentra visibilidad en productos destacados",
+        "definition": "Card que documenta el sistema de selección editorial de Creative Market que otorga visibilidad preferencial",
+        "signal_ids": [
+          {
+            "id": "SC-R8-134",
+            "description": "Creative Market otorga visibilidad preferencial a productos seleccionados editorialmente"
+          }
+        ],
+        "mechanical_summary": "Una card documenta que la selección editorial concentra la visibilidad en un subconjunto de productos.",
+        "unit_used": "visibilidad preferencial por selección editorial en Creative Market"
+      },
+      {
+        "label": "Blocked — visibilidad orgánica de vendedores sin selección editorial se reduce",
+        "definition": "Card que documenta descenso de visibilidad orgánica en vendedores de Creative Market no seleccionados",
+        "signal_ids": [
+          {
+            "id": "SC-R8-135",
+            "description": "vendedores sin selección editorial documentan descenso de visibilidad orgánica en Creative Market"
+          }
+        ],
+        "mechanical_summary": "Una card documenta el impacto en vendedores no seleccionados editorialmente: descenso de visibilidad orgánica.",
+        "unit_used": "visibilidad orgánica de vendedores no seleccionados en Creative Market"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "La existencia de selección editorial con visibilidad preferencial está documentada. El descenso de visibilidad para no seleccionados está documentado.",
@@ -34,7 +45,18 @@
     "Criterios que Creative Market utiliza para la selección editorial.",
     "Proporción de productos seleccionados editorialmente respecto al catálogo total de la plataforma."
   ],
-  "classification_risk": ["posible falta de grounding", "posible sobre-abstracción"],
-  "source_patterns": ["FRI-025"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-025"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

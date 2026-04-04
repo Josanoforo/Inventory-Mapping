@@ -4,28 +4,47 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: la ausencia de etiqueta pública de contenido IA en Amazon bloquea la capacidad del comprador de distinguir obras IA de obras humanas, documentada como demanda de mercado. El corpus documenta 2 cards del bloqueador (Amazon retiene disclosure IA internamente sin exponerlo) y 2 cards del bloqueado (compradores no pueden filtrar ni distinguir obras IA).",
   "analytical_unit": "transparencia de origen del contenido (IA vs. humano) para compradores en Amazon",
-  "signal_ids": ["SC-R10-106", "SC-R10-107", "SC-R10-160", "SC-R10-161"],
+  "signal_ids": [
+    "SC-R10-106",
+    "SC-R10-107",
+    "SC-R10-160",
+    "SC-R10-161"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — Amazon retiene disclosure de IA internamente sin exponerlo en página pública del producto",
-      "definition": "Cards que documentan que Amazon recopila internamente el flag de IA pero no lo muestra a compradores",
-      "signal_ids": [
-        {"id": "SC-R10-106", "description": "Amazon KDP requiere declaración interna de contenido IA pero no la muestra al comprador en la página del producto"},
-        {"id": "SC-R10-107", "description": "página de producto Amazon no incluye indicador visible de contenido generado por IA"}
-      ],
-      "mechanical_summary": "Dos cards documentan la asimetría de información: Amazon tiene el dato de contenido IA internamente pero no lo expone públicamente.",
-      "unit_used": "política de disclosure de Amazon KDP y ausencia de etiqueta pública"
-    },
-    "blocked": {
-      "label": "Blocked — compradores no pueden distinguir ni filtrar obras IA en el catálogo de Amazon",
-      "definition": "Cards que documentan la imposibilidad de compradores de identificar contenido IA en Amazon",
-      "signal_ids": [
-        {"id": "SC-R10-160", "description": "compradores documentan incapacidad de filtrar ebooks por origen humano vs. IA"},
-        {"id": "SC-R10-161", "description": "demanda documentada de transparencia sobre contenido IA en libros Amazon"}
-      ],
-      "mechanical_summary": "Dos cards documentan la experiencia de compradores que no pueden distinguir contenido IA (SC-R10-160) y la demanda de transparencia (SC-R10-161).",
-      "unit_used": "experiencias de compradores y demanda de transparencia documentadas"
-    }
+    "poles": [
+      {
+        "label": "Blocker — Amazon retiene disclosure de IA internamente sin exponerlo en página pública del producto",
+        "definition": "Cards que documentan que Amazon recopila internamente el flag de IA pero no lo muestra a compradores",
+        "signal_ids": [
+          {
+            "id": "SC-R10-106",
+            "description": "Amazon KDP requiere declaración interna de contenido IA pero no la muestra al comprador en la página del producto"
+          },
+          {
+            "id": "SC-R10-107",
+            "description": "página de producto Amazon no incluye indicador visible de contenido generado por IA"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan la asimetría de información: Amazon tiene el dato de contenido IA internamente pero no lo expone públicamente.",
+        "unit_used": "política de disclosure de Amazon KDP y ausencia de etiqueta pública"
+      },
+      {
+        "label": "Blocked — compradores no pueden distinguir ni filtrar obras IA en el catálogo de Amazon",
+        "definition": "Cards que documentan la imposibilidad de compradores de identificar contenido IA en Amazon",
+        "signal_ids": [
+          {
+            "id": "SC-R10-160",
+            "description": "compradores documentan incapacidad de filtrar ebooks por origen humano vs. IA"
+          },
+          {
+            "id": "SC-R10-161",
+            "description": "demanda documentada de transparencia sobre contenido IA en libros Amazon"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan la experiencia de compradores que no pueden distinguir contenido IA (SC-R10-160) y la demanda de transparencia (SC-R10-161).",
+        "unit_used": "experiencias de compradores y demanda de transparencia documentadas"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "La asimetría de información documentada: Amazon tiene el dato de contenido IA internamente pero no lo expone. La demanda de transparencia de compradores está documentada.",
@@ -36,7 +55,18 @@
     "Datos de qué porcentaje de compradores en Amazon activamente buscan información sobre autoría IA antes de comprar.",
     "Planes documentados de Amazon para exponer el disclosure IA públicamente en el futuro."
   ],
-  "classification_risk": ["posible falta de grounding", "posible sub-representación de un segmento"],
-  "source_patterns": ["FRI-017"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
+  ],
+  "source_patterns": [
+    "FRI-017"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

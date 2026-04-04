@@ -4,27 +4,42 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: la detección de contenido IA con falsos positivos de Etsy bloquea listados de arte humano documentados como afectados por el sistema de revisión. El corpus documenta 1 card del bloqueador (sistema automatizado de detección IA con falsos positivos) y 2 cards del bloqueado (listados de arte humano suspendidos y proceso de disputa sin plazos).",
   "analytical_unit": "acceso de artistas humanos a sus listados en Etsy ante el sistema de detección automatizada de contenido IA",
-  "signal_ids": ["SC-R8-149", "SC-R8-150", "SC-R8-151"],
+  "signal_ids": [
+    "SC-R8-149",
+    "SC-R8-150",
+    "SC-R8-151"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — sistema automatizado de detección IA de Etsy genera falsos positivos sobre arte humano",
-      "definition": "Card que documenta que el sistema de detección IA de Etsy genera falsos positivos suspendiendo arte humano",
-      "signal_ids": [
-        {"id": "SC-R8-149", "description": "Etsy implementa detección automatizada de contenido IA en listados"}
-      ],
-      "mechanical_summary": "Una card documenta el sistema de detección automatizada de Etsy. La card tiene descripción en el scan sin texto verificado específico.",
-      "unit_used": "documentación del sistema de detección IA de Etsy"
-    },
-    "blocked": {
-      "label": "Blocked — listados de arte humano suspendidos y proceso de disputa sin plazos",
-      "definition": "Cards que documentan artistas humanos con listados suspendidos por falso positivo y proceso de disputa sin resolución definida",
-      "signal_ids": [
-        {"id": "SC-R8-150", "description": "artistas humanos documentan suspensión de listados por falso positivo de detección IA"},
-        {"id": "SC-R8-151", "description": "proceso de disputa para arte marcado erróneamente como IA no tiene tiempo de resolución definido"}
-      ],
-      "mechanical_summary": "Dos cards documentan el impacto en artistas humanos: suspensión de listados (SC-R8-150) y proceso de disputa sin plazos (SC-R8-151).",
-      "unit_used": "experiencias documentadas de artistas humanos con falsos positivos en Etsy"
-    }
+    "poles": [
+      {
+        "label": "Blocker — sistema automatizado de detección IA de Etsy genera falsos positivos sobre arte humano",
+        "definition": "Card que documenta que el sistema de detección IA de Etsy genera falsos positivos suspendiendo arte humano",
+        "signal_ids": [
+          {
+            "id": "SC-R8-149",
+            "description": "Etsy implementa detección automatizada de contenido IA en listados"
+          }
+        ],
+        "mechanical_summary": "Una card documenta el sistema de detección automatizada de Etsy. La card tiene descripción en el scan sin texto verificado específico.",
+        "unit_used": "documentación del sistema de detección IA de Etsy"
+      },
+      {
+        "label": "Blocked — listados de arte humano suspendidos y proceso de disputa sin plazos",
+        "definition": "Cards que documentan artistas humanos con listados suspendidos por falso positivo y proceso de disputa sin resolución definida",
+        "signal_ids": [
+          {
+            "id": "SC-R8-150",
+            "description": "artistas humanos documentan suspensión de listados por falso positivo de detección IA"
+          },
+          {
+            "id": "SC-R8-151",
+            "description": "proceso de disputa para arte marcado erróneamente como IA no tiene tiempo de resolución definido"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan el impacto en artistas humanos: suspensión de listados (SC-R8-150) y proceso de disputa sin plazos (SC-R8-151).",
+        "unit_used": "experiencias documentadas de artistas humanos con falsos positivos en Etsy"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "El sistema de detección IA de Etsy con falsos positivos y el proceso de disputa sin plazos están documentados. El impacto en artistas humanos con listados suspendidos está documentado en 2 cards.",
@@ -35,7 +50,18 @@
     "Tasa de falsos positivos del sistema de detección IA de Etsy.",
     "Tiempo promedio de resolución de disputas de arte marcado erróneamente como IA en Etsy."
   ],
-  "classification_risk": ["posible falta de grounding", "posible sub-representación de un segmento"],
-  "source_patterns": ["FRI-019"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
+  ],
+  "source_patterns": [
+    "FRI-019"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

@@ -5,37 +5,175 @@
   "mechanical_relation": "co-ocurre: la política de no-reembolso de Gumroad (sin excepción salvo fraude) bloquea la resolución de disputas de compradores insatisfechos y concentra la carga de soporte en el vendedor. El corpus documenta 15 cards del bloqueador (política de no-reembolso y sus consecuencias) y 14 cards del bloqueado (compradores sin resolución y vendedores con carga de soporte).",
   "analytical_unit": "resolución de disputas post-compra en Gumroad para compradores insatisfechos",
   "signal_ids": [
-    "SC-R8-021", "SC-R8-022", "SC-R8-027", "SC-R8-073", "SC-R8-074",
-    "SC-R8-082", "SC-R8-083", "SC-R8-158", "SC-R8-172", "SC-R8-173",
-    "SC-R9-065", "SC-R9-066", "SC-R9-070", "SC-R10-038", "SC-R10-142",
-    "SC-R1-015", "SC-R1-020", "SC-R4-107", "SC-R4-112", "SC-R4-113",
-    "SC-R5-054", "SC-R8-078", "SC-R8-084", "SC-R8-085", "SC-R8-114",
-    "SC-R8-141", "SC-R10-026", "SC-R10-183", "SC-R10-184"
+    "SC-R8-021",
+    "SC-R8-022",
+    "SC-R8-027",
+    "SC-R8-073",
+    "SC-R8-074",
+    "SC-R8-082",
+    "SC-R8-083",
+    "SC-R8-158",
+    "SC-R8-172",
+    "SC-R8-173",
+    "SC-R9-065",
+    "SC-R9-066",
+    "SC-R9-070",
+    "SC-R10-038",
+    "SC-R10-142",
+    "SC-R1-015",
+    "SC-R1-020",
+    "SC-R4-107",
+    "SC-R4-112",
+    "SC-R4-113",
+    "SC-R5-054",
+    "SC-R8-078",
+    "SC-R8-084",
+    "SC-R8-085",
+    "SC-R8-114",
+    "SC-R8-141",
+    "SC-R10-026",
+    "SC-R10-183",
+    "SC-R10-184"
   ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — política de no-reembolso de Gumroad",
-      "definition": "Cards que documentan la política de no-reembolso de Gumroad y sus mecanismos de aplicación",
+    "poles": [
+      {
+        "label": "Blocker — política de no-reembolso de Gumroad",
+        "definition": "Cards que documentan la política de no-reembolso de Gumroad y sus mecanismos de aplicación",
+        "signal_ids": [
+          {
+            "id": "SC-R8-021",
+            "description": "Gumroad política oficial: no se emiten reembolsos salvo en casos de fraude documentado"
+          },
+          {
+            "id": "SC-R8-022",
+            "description": "Gumroad delega la decisión de reembolso al vendedor individual"
+          },
+          {
+            "id": "SC-R8-082",
+            "description": "Trustpilot: Gumroad afirmó esperar 30 días para reembolso pero lo emitió de inmediato sin avisar al vendedor"
+          },
+          {
+            "id": "SC-R8-083",
+            "description": "vendedor documenta que Gumroad emitió reembolso sin su consentimiento"
+          }
+        ],
+        "mechanical_summary": "Cuatro cards con texto verificado documentan la política de no-reembolso de Gumroad (SC-R8-021) y sus inconsistencias en aplicación (SC-R8-082, SC-R8-083). La política delega la decisión al vendedor pero Gumroad a veces actúa unilateralmente.",
+        "unit_used": "documentación de política oficial y casos de aplicación inconsistente"
+      },
+      {
+        "label": "Blocked — compradores sin resolución y vendedores con carga de soporte",
+        "definition": "Cards que documentan compradores que no reciben reembolso por productos defectuosos y vendedores que absorben la carga",
+        "signal_ids": [
+          {
+            "id": "SC-R9-065",
+            "description": "comprador documenta no poder obtener reembolso por producto digital defectuoso en Gumroad"
+          },
+          {
+            "id": "SC-R9-066",
+            "description": "comprador reporta disputa no resuelta en Gumroad sin opciones de escalación"
+          },
+          {
+            "id": "SC-R4-107",
+            "description": "vendedor documenta tener que gestionar disputas de compradores directamente por ausencia de sistema Gumroad"
+          },
+          {
+            "id": "SC-R4-112",
+            "description": "vendedor reporta carga de soporte aumentada por política de resolución de disputas de Gumroad"
+          }
+        ],
+        "mechanical_summary": "Cuatro cards documentan la experiencia de compradores sin resolución (SC-R9-065, SC-R9-066) y vendedores con carga de soporte adicional (SC-R4-107, SC-R4-112).",
+        "unit_used": "experiencias documentadas de compradores y vendedores con disputas no resueltas"
+      }
+    ],
+    "additional_context": {
       "signal_ids": [
-        {"id": "SC-R8-021", "description": "Gumroad política oficial: no se emiten reembolsos salvo en casos de fraude documentado"},
-        {"id": "SC-R8-022", "description": "Gumroad delega la decisión de reembolso al vendedor individual"},
-        {"id": "SC-R8-082", "description": "Trustpilot: Gumroad afirmó esperar 30 días para reembolso pero lo emitió de inmediato sin avisar al vendedor"},
-        {"id": "SC-R8-083", "description": "vendedor documenta que Gumroad emitió reembolso sin su consentimiento"}
+        {
+          "id": "SC-R1-015",
+          "description": "Gumroad's interface is partially translated to Spanish (purchase buttons and cart are translated; support documentation"
+        },
+        {
+          "id": "SC-R1-020",
+          "description": "Gumroad does not support Latin American local payment methods including Mercado Pago, PIX, Nequi, and OXXO."
+        },
+        {
+          "id": "SC-R10-026",
+          "description": "Practical guides with templates, worksheets, or visual layouts are poorly supported on Kindle format."
+        },
+        {
+          "id": "SC-R10-038",
+          "description": "India Lindsey's \"10K in 30 Days\" sold at $29.99, later raised to $39.99 on Gumroad."
+        },
+        {
+          "id": "SC-R10-142",
+          "description": "India Lindsey earned $20,000+ over 3 years selling multiple ebooks on Gumroad including \"10K in 30 Days\""
+        },
+        {
+          "id": "SC-R10-183",
+          "description": "Virtually no buyer complaints about Gumroad ebook content quality were found in searches conducted in April 2026."
+        },
+        {
+          "id": "SC-R10-184",
+          "description": "Gumroad has 1.8 stars on PissedConsumer from 309 reviews, with complaints focusing on platform policies (account"
+        },
+        {
+          "id": "SC-R4-113",
+          "description": "Gumroad Trustpilot reviews report that PayPal was dropped from Gumroad in October 2024, stranding creators in"
+        },
+        {
+          "id": "SC-R5-054",
+          "description": "Easlo's Second Brain template shows 979 buyers at $79 on Gumroad."
+        },
+        {
+          "id": "SC-R8-027",
+          "description": "Gumroad's 2025 policy tightened payout verification rules, and the company nudged users toward local payout methods,"
+        },
+        {
+          "id": "SC-R8-073",
+          "description": "An indie hacker selling a Chrome extension had one customer raise a dispute; Gumroad suspended the entire account, took"
+        },
+        {
+          "id": "SC-R8-074",
+          "description": "Gumroad told the suspended seller: \"Our risk models detected behaviors...considered to be fraudulent.\" No appeal was"
+        },
+        {
+          "id": "SC-R8-078",
+          "description": "A Gumroad seller reported limited dashboard access, payout dates that kept changing, money stuck in account, and no"
+        },
+        {
+          "id": "SC-R8-084",
+          "description": "A Gumroad seller posted the same product on two different Gumroad stores; products returned 404 and support accused the"
+        },
+        {
+          "id": "SC-R8-085",
+          "description": "The banned Gumroad seller called the support response \"the rudest customer service response I've ever read.\""
+        },
+        {
+          "id": "SC-R8-114",
+          "description": "Etsy had 95.6 million active buyers in 2024."
+        },
+        {
+          "id": "SC-R8-141",
+          "description": "Payhip is described as having \"zero built-in traffic\" with sellers entirely responsible for driving buyers. Payhip has"
+        },
+        {
+          "id": "SC-R8-158",
+          "description": "Gumroad has no specific policy addressing AI-generated content; the prohibited products page makes no mention of AI."
+        },
+        {
+          "id": "SC-R8-172",
+          "description": "Lemon Squeezy's migration page includes testimonials claiming: \"Within the first 30 days of switching, my revenue"
+        },
+        {
+          "id": "SC-R8-173",
+          "description": "Lemon Squeezy offers free migration assistance and 0% transaction fees for the first 30 days to sellers switching from"
+        },
+        {
+          "id": "SC-R9-070",
+          "description": "A Quora user stated about Gumroad: \"No Gumroad is not safe, they have no refund policies, they have no contact, not"
+        }
       ],
-      "mechanical_summary": "Cuatro cards con texto verificado documentan la política de no-reembolso de Gumroad (SC-R8-021) y sus inconsistencias en aplicación (SC-R8-082, SC-R8-083). La política delega la decisión al vendedor pero Gumroad a veces actúa unilateralmente.",
-      "unit_used": "documentación de política oficial y casos de aplicación inconsistente"
-    },
-    "blocked": {
-      "label": "Blocked — compradores sin resolución y vendedores con carga de soporte",
-      "definition": "Cards que documentan compradores que no reciben reembolso por productos defectuosos y vendedores que absorben la carga",
-      "signal_ids": [
-        {"id": "SC-R9-065", "description": "comprador documenta no poder obtener reembolso por producto digital defectuoso en Gumroad"},
-        {"id": "SC-R9-066", "description": "comprador reporta disputa no resuelta en Gumroad sin opciones de escalación"},
-        {"id": "SC-R4-107", "description": "vendedor documenta tener que gestionar disputas de compradores directamente por ausencia de sistema Gumroad"},
-        {"id": "SC-R4-112", "description": "vendedor reporta carga de soporte aumentada por política de resolución de disputas de Gumroad"}
-      ],
-      "mechanical_summary": "Cuatro cards documentan la experiencia de compradores sin resolución (SC-R9-065, SC-R9-066) y vendedores con carga de soporte adicional (SC-R4-107, SC-R4-112).",
-      "unit_used": "experiencias documentadas de compradores y vendedores con disputas no resueltas"
+      "note": "Cards que proveen contexto adicional al patrón"
     }
   },
   "what_it_supports": {
@@ -51,7 +189,9 @@
     "posible sobre-abstracción",
     "posible artefacto de fuente"
   ],
-  "source_patterns": ["FRI-009"],
+  "source_patterns": [
+    "FRI-009"
+  ],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

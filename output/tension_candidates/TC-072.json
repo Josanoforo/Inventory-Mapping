@@ -5,49 +5,126 @@
   "mechanical_relation": "co-ocurre en 5 rounds distintos (19 cards): las suspensiones de cuentas Gumroad por sistema automatizado co-ocurren con congelamiento de fondos documentado y ausencia documentada de proceso de apelación efectivo. El corpus documenta el sistema de moderación Iffy (Polo A) y el impacto de suspensiones en fondos y recurso (Polo B).",
   "analytical_unit": "condiciones de plataforma Gumroad que generan riesgo de suspensión para vendedores y mecanismos de recurso disponibles",
   "signal_ids": [
-    "SC-R2-045", "SC-R4-107", "SC-R4-108",
-    "SC-R8-071", "SC-R8-072", "SC-R8-073", "SC-R8-074", "SC-R8-075",
-    "SC-R8-076", "SC-R8-077", "SC-R8-078", "SC-R8-083", "SC-R8-085",
-    "SC-R8-096", "SC-R8-189", "SC-R8-190",
-    "SC-R9-066", "SC-R9-069", "SC-R10-184"
+    "SC-R2-045",
+    "SC-R4-107",
+    "SC-R4-108",
+    "SC-R8-071",
+    "SC-R8-072",
+    "SC-R8-073",
+    "SC-R8-074",
+    "SC-R8-075",
+    "SC-R8-076",
+    "SC-R8-077",
+    "SC-R8-078",
+    "SC-R8-083",
+    "SC-R8-085",
+    "SC-R8-096",
+    "SC-R8-189",
+    "SC-R8-190",
+    "SC-R9-066",
+    "SC-R9-069",
+    "SC-R10-184"
   ],
   "structured_support": {
-    "polo_a": {
-      "label": "Polo A — sistema de suspensión automatizada Iffy y condiciones que lo activan en Gumroad",
-      "definition": "Cards que documentan el sistema de moderación automatizada de Gumroad (Iffy) y las condiciones que activan suspensiones",
+    "poles": [
+      {
+        "label": "Polo A — sistema de suspensión automatizada Iffy y condiciones que lo activan en Gumroad",
+        "definition": "Cards que documentan el sistema de moderación automatizada de Gumroad (Iffy) y las condiciones que activan suspensiones",
+        "signal_ids": [
+          {
+            "id": "SC-R8-072",
+            "description": "herramienta de moderación IA de Gumroad se llama Iffy; fue responsable del ban permanente documentado"
+          },
+          {
+            "id": "SC-R8-073",
+            "description": "vendedor indie hacker con una disputa de cliente: Gumroad suspendió la cuenta"
+          },
+          {
+            "id": "SC-R8-074",
+            "description": "Gumroad dijo al vendedor suspendido: 'nuestros modelos de riesgo detectaron comportamientos considerados de riesgo'"
+          },
+          {
+            "id": "SC-R8-075",
+            "description": "vendedor recibió suspensión permanente de Gumroad: 'desafortunadamente, debido a los riesgos identificados...'"
+          },
+          {
+            "id": "SC-R8-189",
+            "description": "Gumroad prohibió contenido sexualmente explícito en marzo 2024 por presión de procesadores de pago"
+          },
+          {
+            "id": "SC-R8-190",
+            "description": "el ban de contenido explícito de Gumroad afectó a un segmento significativo de creadores de contenido adulto"
+          }
+        ],
+        "mechanical_summary": "Cards documentan el sistema automatizado de suspensiones (Iffy), los criterios de riesgo y las políticas de contenido que generan suspensiones.",
+        "unit_used": "sistema de moderación automatizada Gumroad (Iffy) y condiciones de activación de suspensiones"
+      },
+      {
+        "label": "Polo B — congelamiento de fondos y ausencia de recurso efectivo tras suspensión en Gumroad",
+        "definition": "Cards que documentan el impacto de las suspensiones: fondos retenidos, denegación de pagos y ausencia de apelación",
+        "signal_ids": [
+          {
+            "id": "SC-R4-107",
+            "description": "reseñador Trustpilot Gumroad: Gumroad retiene pagos de ventas hechas hace meses"
+          },
+          {
+            "id": "SC-R4-108",
+            "description": "reseñador Trustpilot Gumroad: Gumroad suspendió cuenta abruptamente sin notificación"
+          },
+          {
+            "id": "SC-R8-071",
+            "description": "Thibaut Patel vendía dataset de Shopify en Gumroad desde 2020; cuenta suspendida"
+          },
+          {
+            "id": "SC-R8-077",
+            "description": "vendedor de Gumroad reporta estar bloqueado de cuentas, sin poder cambiar método de pago"
+          },
+          {
+            "id": "SC-R8-078",
+            "description": "vendedor de Gumroad reporta acceso limitado al dashboard, fechas de pago cambiantes, dinero retenido"
+          },
+          {
+            "id": "SC-R8-083",
+            "description": "tras reembolso inmediato, cuenta del vendedor de Gumroad quedó negativa y Gumroad intentó cobrar"
+          },
+          {
+            "id": "SC-R8-085",
+            "description": "vendedor baneado de Gumroad describió la respuesta de soporte como 'la respuesta más grosera'"
+          },
+          {
+            "id": "SC-R9-066",
+            "description": "Gumroad indica que a menos que un cargo sea fraudulento o compra duplicada, no pueden reembolsar"
+          },
+          {
+            "id": "SC-R9-069",
+            "description": "reseñador Trustpilot: intentó 4 tarjetas diferentes de diferentes bancos sin éxito en Gumroad"
+          },
+          {
+            "id": "SC-R10-184",
+            "description": "Gumroad tiene 1.8 estrellas en PissedConsumer de 309 reseñas, quejas sobre plataforma"
+          }
+        ],
+        "mechanical_summary": "Cards documentan congelamiento de fondos, imposibilidad de cambiar métodos de pago, respuestas hostiles de soporte y calificaciones negativas de la plataforma.",
+        "unit_used": "impacto de suspensiones en fondos, acceso a cuenta y respuesta de soporte de Gumroad"
+      }
+    ],
+    "additional_context": {
+      "note": "Las siguientes cards documentan contexto adicional sin ser evidencia directa del mecanismo de suspensión",
       "signal_ids": [
-        {"id": "SC-R8-072", "description": "herramienta de moderación IA de Gumroad se llama Iffy; fue responsable del ban permanente documentado"},
-        {"id": "SC-R8-073", "description": "vendedor indie hacker con una disputa de cliente: Gumroad suspendió la cuenta"},
-        {"id": "SC-R8-074", "description": "Gumroad dijo al vendedor suspendido: 'nuestros modelos de riesgo detectaron comportamientos considerados de riesgo'"},
-        {"id": "SC-R8-075", "description": "vendedor recibió suspensión permanente de Gumroad: 'desafortunadamente, debido a los riesgos identificados...'"},
-        {"id": "SC-R8-189", "description": "Gumroad prohibió contenido sexualmente explícito en marzo 2024 por presión de procesadores de pago"},
-        {"id": "SC-R8-190", "description": "el ban de contenido explícito de Gumroad afectó a un segmento significativo de creadores de contenido adulto"}
-      ],
-      "mechanical_summary": "Cards documentan el sistema automatizado de suspensiones (Iffy), los criterios de riesgo y las políticas de contenido que generan suspensiones.",
-      "unit_used": "sistema de moderación automatizada Gumroad (Iffy) y condiciones de activación de suspensiones"
-    },
-    "polo_b": {
-      "label": "Polo B — congelamiento de fondos y ausencia de recurso efectivo tras suspensión en Gumroad",
-      "definition": "Cards que documentan el impacto de las suspensiones: fondos retenidos, denegación de pagos y ausencia de apelación",
-      "signal_ids": [
-        {"id": "SC-R4-107", "description": "reseñador Trustpilot Gumroad: Gumroad retiene pagos de ventas hechas hace meses"},
-        {"id": "SC-R4-108", "description": "reseñador Trustpilot Gumroad: Gumroad suspendió cuenta abruptamente sin notificación"},
-        {"id": "SC-R8-071", "description": "Thibaut Patel vendía dataset de Shopify en Gumroad desde 2020; cuenta suspendida"},
-        {"id": "SC-R8-077", "description": "vendedor de Gumroad reporta estar bloqueado de cuentas, sin poder cambiar método de pago"},
-        {"id": "SC-R8-078", "description": "vendedor de Gumroad reporta acceso limitado al dashboard, fechas de pago cambiantes, dinero retenido"},
-        {"id": "SC-R8-083", "description": "tras reembolso inmediato, cuenta del vendedor de Gumroad quedó negativa y Gumroad intentó cobrar"},
-        {"id": "SC-R8-085", "description": "vendedor baneado de Gumroad describió la respuesta de soporte como 'la respuesta más grosera'"},
-        {"id": "SC-R9-066", "description": "Gumroad indica que a menos que un cargo sea fraudulento o compra duplicada, no pueden reembolsar"},
-        {"id": "SC-R9-069", "description": "reseñador Trustpilot: intentó 4 tarjetas diferentes de diferentes bancos sin éxito en Gumroad"},
-        {"id": "SC-R10-184", "description": "Gumroad tiene 1.8 estrellas en PissedConsumer de 309 reseñas, quejas sobre plataforma"}
-      ],
-      "mechanical_summary": "Cards documentan congelamiento de fondos, imposibilidad de cambiar métodos de pago, respuestas hostiles de soporte y calificaciones negativas de la plataforma.",
-      "unit_used": "impacto de suspensiones en fondos, acceso a cuenta y respuesta de soporte de Gumroad"
+        {
+          "id": "SC-R2-045",
+          "description": "Gumroad has a dedicated category tag \"excel template\" under Business & Money > Accounting with 19+ products."
+        },
+        {
+          "id": "SC-R8-076",
+          "description": "PayPal suspended Gumroad's use of their service entirely, affecting all seller payouts."
+        },
+        {
+          "id": "SC-R8-096",
+          "description": "A Framer template creator reported waiting about a week for Lemon Squeezy to approve their account, during which they"
+        }
+      ]
     }
-  },
-  "additional_context": {
-    "note": "Las siguientes cards documentan contexto adicional sin ser evidencia directa del mecanismo de suspensión",
-    "signal_ids": ["SC-R2-045", "SC-R8-076", "SC-R8-096"]
   },
   "what_it_supports": {
     "yes": "El sistema de moderación automatizada Iffy de Gumroad está documentado. Casos de suspensión con congelamiento de fondos están documentados. La ausencia de proceso de apelación efectivo está documentada en múltiples experiencias.",
@@ -58,7 +135,18 @@
     "Criterios específicos que activan el sistema Iffy de Gumroad.",
     "Comparación con tasas de suspensión en plataformas equivalentes (Lemon Squeezy, Payhip)."
   ],
-  "classification_risk": ["posible artefacto de fuente", "posible survivorship bias"],
-  "source_patterns": ["COO-005"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "COO-005"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

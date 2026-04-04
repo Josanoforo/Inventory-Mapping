@@ -4,26 +4,37 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: la eliminación de PayPal como opción de pago en Gumroad bloquea la conversión documentada de compradores que usan PayPal como método principal. El corpus documenta 1 card del bloqueador (PayPal eliminado de Gumroad) y 1 card del bloqueado (caída de conversión documentada por vendedores).",
   "analytical_unit": "conversión de compradores en Gumroad que dependen de PayPal como método de pago",
-  "signal_ids": ["SC-R8-076", "SC-R8-077"],
+  "signal_ids": [
+    "SC-R8-076",
+    "SC-R8-077"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — PayPal no disponible en Gumroad tras ruptura comercial",
-      "definition": "Card que documenta la eliminación de PayPal como método de pago en Gumroad",
-      "signal_ids": [
-        {"id": "SC-R8-076", "description": "PayPal cortó relación comercial con Gumroad, eliminando la opción de pago para compradores"}
-      ],
-      "mechanical_summary": "Una card documenta que PayPal no está disponible en Gumroad como consecuencia de ruptura comercial.",
-      "unit_used": "disponibilidad de PayPal como método de pago en Gumroad"
-    },
-    "blocked": {
-      "label": "Blocked — conversión de compradores que prefieren o usan exclusivamente PayPal en Gumroad",
-      "definition": "Card que documenta caída de conversión en ventas Gumroad tras la eliminación de PayPal",
-      "signal_ids": [
-        {"id": "SC-R8-077", "description": "vendedores en Gumroad documentan caída de conversión tras eliminación de PayPal"}
-      ],
-      "mechanical_summary": "Una card documenta el impacto en conversión de ventas reportado por vendedores en Gumroad.",
-      "unit_used": "tasa de conversión de compradores con PayPal en Gumroad"
-    }
+    "poles": [
+      {
+        "label": "Blocker — PayPal no disponible en Gumroad tras ruptura comercial",
+        "definition": "Card que documenta la eliminación de PayPal como método de pago en Gumroad",
+        "signal_ids": [
+          {
+            "id": "SC-R8-076",
+            "description": "PayPal cortó relación comercial con Gumroad, eliminando la opción de pago para compradores"
+          }
+        ],
+        "mechanical_summary": "Una card documenta que PayPal no está disponible en Gumroad como consecuencia de ruptura comercial.",
+        "unit_used": "disponibilidad de PayPal como método de pago en Gumroad"
+      },
+      {
+        "label": "Blocked — conversión de compradores que prefieren o usan exclusivamente PayPal en Gumroad",
+        "definition": "Card que documenta caída de conversión en ventas Gumroad tras la eliminación de PayPal",
+        "signal_ids": [
+          {
+            "id": "SC-R8-077",
+            "description": "vendedores en Gumroad documentan caída de conversión tras eliminación de PayPal"
+          }
+        ],
+        "mechanical_summary": "Una card documenta el impacto en conversión de ventas reportado por vendedores en Gumroad.",
+        "unit_used": "tasa de conversión de compradores con PayPal en Gumroad"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "La eliminación de PayPal como método de pago en Gumroad está documentada. La caída de conversión reportada por vendedores está registrada.",
@@ -34,7 +45,18 @@
     "Datos de cuántos compradores en Gumroad usan PayPal como método principal de pago.",
     "Alternativas de pago disponibles en Gumroad para compradores sin tarjeta de crédito."
   ],
-  "classification_risk": ["posible falta de grounding", "posible artefacto de fuente"],
-  "source_patterns": ["FRI-026"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "FRI-026"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }

@@ -59,47 +59,237 @@
     "SC-R9-020"
   ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — restricción técnica de descarga en app móvil de Etsy",
-      "definition": "Cards que documentan que la app móvil de Etsy bloquea la descarga directa de productos digitales",
+    "poles": [
+      {
+        "label": "Blocker — restricción técnica de descarga en app móvil de Etsy",
+        "definition": "Cards que documentan que la app móvil de Etsy bloquea la descarga directa de productos digitales",
+        "signal_ids": [
+          {
+            "id": "SC-R3-123",
+            "description": "Etsy Help Center: 'You can't download a digital purchase through the Etsy app at this time'"
+          },
+          {
+            "id": "SC-R3-125",
+            "description": "ForLittleLion FAQ: 'It is not possible to download digital items from Etsy app'"
+          },
+          {
+            "id": "SC-R3-127",
+            "description": "ForLittleLion FAQ: 'Digital planner is not an app but a pdf template so it can't be downloaded in the Etsy app'"
+          },
+          {
+            "id": "SC-R9-100",
+            "description": "Etsy official help: si no ocurre nada al hacer clic en enlaces de descarga, puede ser la app móvil"
+          },
+          {
+            "id": "SC-R9-102",
+            "description": "Etsy official help: 'You can't download a digital purchase through the Etsy app at this time'"
+          }
+        ],
+        "mechanical_summary": "Cinco cards proveen texto verificado de la restricción técnica, incluyendo la fuente oficial de Etsy Help Center (SC-R3-123, SC-R9-102) y FAQs de vendedores dirigidas a compradores con el problema. La restricción es documentada como una limitación de la plataforma no comunicada al momento de compra.",
+        "unit_used": "restricción técnica documentada en help center oficial y FAQs de vendedores"
+      },
+      {
+        "label": "Blocked — compradores sin acceso a descarga y vendedores absorbiendo soporte",
+        "definition": "Cards que documentan compradores que no pueden descargar sus productos y vendedores que absorben la carga de soporte resultante",
+        "signal_ids": [
+          {
+            "id": "SC-R2-117",
+            "description": "seller en Etsy Community Forums: aproximadamente 10% de compradores de productos digitales reportan problemas de descarga"
+          },
+          {
+            "id": "SC-R2-118",
+            "description": "seller reporta recibir 'really unfair reviews' porque compradores no pueden descargar archivos en app"
+          },
+          {
+            "id": "SC-R9-003",
+            "description": "comprador en Trustpilot reporta no recibir producto digital, contactó al vendedor múltiples veces sin resolución"
+          },
+          {
+            "id": "SC-R9-007",
+            "description": "seller/educator reporta que la solicitud de soporte más común es compradores que no pueden descargar en app móvil"
+          },
+          {
+            "id": "SC-R9-018",
+            "description": "sellers reportan que compradores que iniciaron sesión con Apple ID no pueden acceder a archivos digitales en Etsy app"
+          },
+          {
+            "id": "SC-R9-049",
+            "description": "Gold City Ventures: muchos clientes de Etsy no saben que no pueden acceder a productos digitales en app hasta después de comprar"
+          }
+        ],
+        "mechanical_summary": "Seis cards con texto verificado documentan el impacto en compradores (reseñas negativas, sin acceso al producto) y en vendedores (carga de soporte, reseñas injustas). SC-R2-117 provee dato cuantitativo (~10% de compradores afectados). El problema se concentra en usuarios de app móvil y Apple ID.",
+        "unit_used": "experiencias documentadas de compradores y vendedores, porcentaje de casos de soporte"
+      }
+    ],
+    "additional_context": {
+      "description": "El corpus contiene 159 cards totales para este patrón. Las 52 cards del bloqueador incluyen documentación contextual del ecosistema Etsy (ingresos de vendedores, estructura de fees, métricas de tráfico) que confirma la escala del canal afectado pero no documentan la fricción directamente. Las 113 cards del bloqueado incluyen documentación de productos, listings y experiencias de vendedores que contextualiza el mercado pero no constituyen evidencia directa del problema de descarga.",
       "signal_ids": [
-        {"id": "SC-R3-123", "description": "Etsy Help Center: 'You can't download a digital purchase through the Etsy app at this time'"},
-        {"id": "SC-R3-125", "description": "ForLittleLion FAQ: 'It is not possible to download digital items from Etsy app'"},
-        {"id": "SC-R3-127", "description": "ForLittleLion FAQ: 'Digital planner is not an app but a pdf template so it can't be downloaded in the Etsy app'"},
-        {"id": "SC-R9-100", "description": "Etsy official help: si no ocurre nada al hacer clic en enlaces de descarga, puede ser la app móvil"},
-        {"id": "SC-R9-102", "description": "Etsy official help: 'You can't download a digital purchase through the Etsy app at this time'"}
-      ],
-      "mechanical_summary": "Cinco cards proveen texto verificado de la restricción técnica, incluyendo la fuente oficial de Etsy Help Center (SC-R3-123, SC-R9-102) y FAQs de vendedores dirigidas a compradores con el problema. La restricción es documentada como una limitación de la plataforma no comunicada al momento de compra.",
-      "unit_used": "restricción técnica documentada en help center oficial y FAQs de vendedores"
-    },
-    "blocked": {
-      "label": "Blocked — compradores sin acceso a descarga y vendedores absorbiendo soporte",
-      "definition": "Cards que documentan compradores que no pueden descargar sus productos y vendedores que absorben la carga de soporte resultante",
-      "signal_ids": [
-        {"id": "SC-R2-117", "description": "seller en Etsy Community Forums: aproximadamente 10% de compradores de productos digitales reportan problemas de descarga"},
-        {"id": "SC-R2-118", "description": "seller reporta recibir 'really unfair reviews' porque compradores no pueden descargar archivos en app"},
-        {"id": "SC-R9-003", "description": "comprador en Trustpilot reporta no recibir producto digital, contactó al vendedor múltiples veces sin resolución"},
-        {"id": "SC-R9-007", "description": "seller/educator reporta que la solicitud de soporte más común es compradores que no pueden descargar en app móvil"},
-        {"id": "SC-R9-018", "description": "sellers reportan que compradores que iniciaron sesión con Apple ID no pueden acceder a archivos digitales en Etsy app"},
-        {"id": "SC-R9-049", "description": "Gold City Ventures: muchos clientes de Etsy no saben que no pueden acceder a productos digitales en app hasta después de comprar"}
-      ],
-      "mechanical_summary": "Seis cards con texto verificado documentan el impacto en compradores (reseñas negativas, sin acceso al producto) y en vendedores (carga de soporte, reseñas injustas). SC-R2-117 provee dato cuantitativo (~10% de compradores afectados). El problema se concentra en usuarios de app móvil y Apple ID.",
-      "unit_used": "experiencias documentadas de compradores y vendedores, porcentaje de casos de soporte"
+        {
+          "id": "SC-R2-043",
+          "description": "On Etsy, seller SerenatasJourney has 2,800 reviews and appears frequently in Etsy advertising."
+        },
+        {
+          "id": "SC-R2-059",
+          "description": "An Easy Digital Downloads blog article lists platforms for selling spreadsheet templates beyond Etsy: Gumroad, Payhip"
+        },
+        {
+          "id": "SC-R2-099",
+          "description": "The \"Multiple Platform Inventory Management Excel Sales Tracker\" on Etsy makes no mention of VBA macros or Apps Script."
+        },
+        {
+          "id": "SC-R3-023",
+          "description": "HappyDownloads, a digital planner specialist on Etsy since 2014 with 132 listings and rated 5/5 stars, had 29,065 sales"
+        },
+        {
+          "id": "SC-R3-024",
+          "description": "Cached Etsy results for HappyDownloads show review counts of 13,732 and 17,103 at different dates."
+        },
+        {
+          "id": "SC-R3-035",
+          "description": "posypaper shows approximately 15,500 reviews at a price of $30.00 in Etsy search results for \"best seller planner.\""
+        },
+        {
+          "id": "SC-R3-036",
+          "description": "ForLittleLion shows approximately 5,466 reviews, rated 5/5 stars, at sale price $16.82 (original $24.03, 30% off)."
+        },
+        {
+          "id": "SC-R3-037",
+          "description": "KatacosmicDesign shows approximately 4,200 reviews at a sale price of $17.93."
+        },
+        {
+          "id": "SC-R3-038",
+          "description": "ExclusiveDesignLab shows approximately 9,900 reviews at sale price $9.99 (original $19.98, 50% off)."
+        },
+        {
+          "id": "SC-R3-039",
+          "description": "WcardsGiftShop shows approximately 3,600 reviews at sale price $34.74 (original $57.90, 40% off)."
+        },
+        {
+          "id": "SC-R3-040",
+          "description": "FloatingThistlePaper shows approximately 2,300 reviews at $29.50."
+        },
+        {
+          "id": "SC-R3-049",
+          "description": "Attempts to fetch Etsy search pages and shop pages (e.g., HappyDownloads) returned 403 errors."
+        },
+        {
+          "id": "SC-R3-062",
+          "description": "KatacosmicDesign's bundle includes Apple and Google Calendar links, 2,000+ classic digital stickers plus 10 themed"
+        },
+        {
+          "id": "SC-R3-065",
+          "description": "DigitizedPlanner offers 93–635 digital covers, lifetime updates, multiple planner types (Life Essential, Compact Life,"
+        },
+        {
+          "id": "SC-R3-070",
+          "description": "PhenixDigital listing (1784469516) includes Google Calendar and Apple Calendar integration for event reminders."
+        },
+        {
+          "id": "SC-R3-075",
+          "description": "Etsy Q4 2023 GMS reached approximately $3.6 billion."
+        },
+        {
+          "id": "SC-R3-076",
+          "description": "Etsy Q4 2024 GMS was approximately $3.3 billion, down approximately 9% year-over-year from Q4 2023."
+        },
+        {
+          "id": "SC-R3-082",
+          "description": "SellerApp states: \"Digital products in Etsy trending digital downloads 2026 see less seasonal variation than physical"
+        },
+        {
+          "id": "SC-R3-083",
+          "description": "SellerApp states that \"non-seasonal digital products like planners maintain steadier demand\" while \"Christmas-themed"
+        },
+        {
+          "id": "SC-R3-118",
+          "description": "The same buyer reported \"It was saying too large for good notes but not sure why\" and developed a workaround by"
+        },
+        {
+          "id": "SC-R3-130",
+          "description": "Norton LifeLock states: \"Some Etsy sellers post or purchase fake reviews to make their shop appear more trustworthy.\""
+        },
+        {
+          "id": "SC-R4-032",
+          "description": "The study reports most Etsy digital product shops are approximately 9 years old and offer approximately 208 items."
+        },
+        {
+          "id": "SC-R4-044",
+          "description": "The AI clip-art seller earned $568 in the first month (December 2023) and scaled to $1,500-$2,100/month within a few"
+        },
+        {
+          "id": "SC-R4-105",
+          "description": "The LILI Path reports Etsy takes approximately 40-50% of total sales for digital products through combined fees ($0.20"
+        },
+        {
+          "id": "SC-R6-006",
+          "description": "Modern resume template (professional CV for Canva & Apple Pages) with resume + cover letter + reference page + icons"
+        },
+        {
+          "id": "SC-R6-083",
+          "description": "A beginner Etsy seller on Reddit estimates approximately 2,500 sales/month needed to reach $5,000 monthly profit at"
+        },
+        {
+          "id": "SC-R6-099",
+          "description": "Maliha / The Side Blogger has approximately 30 templates in shop and sells across 4 platforms: own website, Etsy,"
+        },
+        {
+          "id": "SC-R6-116",
+          "description": "Etsy fees for digital products total approximately 10-15% of gross revenue: $0.20 listing fee + 6.5% transaction fee +"
+        },
+        {
+          "id": "SC-R6-138",
+          "description": "BrandBoomTemplates review category breakdown: Ease of use (37 mentions), Description accuracy (11), Quality (7), Seller"
+        },
+        {
+          "id": "SC-R6-139",
+          "description": "200+ Ultimate Bundle Canva Templates AI-summarized review highlights: \"Great product, Great quality, Easy to use,"
+        },
+        {
+          "id": "SC-R8-007",
+          "description": "Etsy Offsite Ads fee is capped at $100 per attributed order."
+        },
+        {
+          "id": "SC-R8-009",
+          "description": "Etsy Regulatory Operating Fees vary by country (approximately 0.25% in France, Italy, Spain, UK, and others)."
+        },
+        {
+          "id": "SC-R8-064",
+          "description": "A new Etsy seller reported shop suspension within 24 hours of launching despite following all rules, with appeal denied"
+        },
+        {
+          "id": "SC-R8-068",
+          "description": "A UK Etsy seller reported making nearly 10 sales and over 100 GBP in one week before account suspension with no reason"
+        },
+        {
+          "id": "SC-R8-115",
+          "description": "Etsy attracts approximately 450 million monthly visitors with 86.6 million active buyers."
+        },
+        {
+          "id": "SC-R8-127",
+          "description": "Analysis of 146,271 Gumroad products found the median product earns 28 sales at a $13 median price (approximately $364"
+        },
+        {
+          "id": "SC-R8-152",
+          "description": "In Fall 2025, Etsy announced a new listing appeals feature for Creativity Standards removals."
+        },
+        {
+          "id": "SC-R8-157",
+          "description": "Unlike Etsy, AI prompt bundles appear to be sold on Creative Market (a listing was found for \"80,204+ AI Art Prompts"
+        },
+        {
+          "id": "SC-R9-013",
+          "description": "The same buyer noted multiple sellers appearing at the same time selling the same non-working digital downloads."
+        },
+        {
+          "id": "SC-R9-020",
+          "description": "Search term \"Etsy printable disappointed\" returned primarily seller guides and Etsy product listings (e.g.,"
+        },
+        {
+          "id": "SC-R1-025",
+          "description": "Spanish-language printables and worksheets on Etsy total approximately 280,000 listings compared to 4.2 million in"
+        }
+      ]
     }
-  },
-  "additional_context": {
-    "description": "El corpus contiene 159 cards totales para este patrón. Las 52 cards del bloqueador incluyen documentación contextual del ecosistema Etsy (ingresos de vendedores, estructura de fees, métricas de tráfico) que confirma la escala del canal afectado pero no documentan la fricción directamente. Las 113 cards del bloqueado incluyen documentación de productos, listings y experiencias de vendedores que contextualiza el mercado pero no constituyen evidencia directa del problema de descarga.",
-    "context_signal_ids": [
-      "SC-R2-043", "SC-R2-059", "SC-R2-099", "SC-R3-023", "SC-R3-024",
-      "SC-R3-035", "SC-R3-036", "SC-R3-037", "SC-R3-038", "SC-R3-039",
-      "SC-R3-040", "SC-R3-049", "SC-R3-062", "SC-R3-065", "SC-R3-070",
-      "SC-R3-075", "SC-R3-076", "SC-R3-082", "SC-R3-083", "SC-R3-118",
-      "SC-R3-130", "SC-R4-032", "SC-R4-044", "SC-R4-105", "SC-R6-006",
-      "SC-R6-083", "SC-R6-099", "SC-R6-116", "SC-R6-138", "SC-R6-139",
-      "SC-R8-007", "SC-R8-009", "SC-R8-064", "SC-R8-068", "SC-R8-115",
-      "SC-R8-127", "SC-R8-152", "SC-R8-157", "SC-R9-013", "SC-R9-020",
-      "SC-R1-025"
-    ]
   },
   "what_it_supports": {
     "yes": "La restricción de descarga de la app móvil de Etsy está documentada en el help center oficial y es reconocida por múltiples vendedores. El corpus documenta casos de compradores afectados, reseñas negativas por el problema, y carga de soporte en vendedores.",
@@ -115,7 +305,9 @@
     "posible sobre-abstracción",
     "posible artefacto de fuente"
   ],
-  "source_patterns": ["FRI-001"],
+  "source_patterns": [
+    "FRI-001"
+  ],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

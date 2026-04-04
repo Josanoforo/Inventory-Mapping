@@ -4,27 +4,42 @@
   "type": "fricción",
   "mechanical_relation": "co-ocurre: las actualizaciones de versiones de modelos IA que cambian el comportamiento de prompts bloquean la utilidad documentada de prompts vendidos vinculados a una versión específica. El corpus documenta 1 card del bloqueador (actualizaciones de modelo que cambian comportamiento de prompts) y 2 cards del bloqueado (prompts vendidos que pierden funcionalidad).",
   "analytical_unit": "utilidad de prompts comercializados como dependientes de una versión específica de modelo IA",
-  "signal_ids": ["SC-R7-176", "SC-R7-177", "SC-R7-178"],
+  "signal_ids": [
+    "SC-R7-176",
+    "SC-R7-177",
+    "SC-R7-178"
+  ],
   "structured_support": {
-    "blocker": {
-      "label": "Blocker — actualizaciones de versión de modelo IA alteran comportamiento de prompts existentes",
-      "definition": "Card que documenta actualizaciones de modelos IA que alteran el comportamiento de prompts existentes",
-      "signal_ids": [
-        {"id": "SC-R7-176", "description": "modelos IA reciben actualizaciones que cambian el comportamiento de prompts existentes"}
-      ],
-      "mechanical_summary": "Una card documenta que las actualizaciones de versión alteran el comportamiento de prompts sin aviso.",
-      "unit_used": "actualizaciones de versión de modelo IA"
-    },
-    "blocked": {
-      "label": "Blocked — prompts vendidos vinculados a versión específica pierden funcionalidad tras actualizaciones",
-      "definition": "Cards que documentan prompts vendidos que pierden funcionalidad tras actualizaciones de modelo",
-      "signal_ids": [
-        {"id": "SC-R7-177", "description": "vendedores de prompts documentan invalidación de productos por cambios de versión de modelo"},
-        {"id": "SC-R7-178", "description": "compradores documentan que prompts adquiridos dejan de funcionar tras actualizaciones de modelo"}
-      ],
-      "mechanical_summary": "Dos cards documentan el impacto en vendedores (productos invalidados) y compradores (prompts dejan de funcionar) cuando los modelos se actualizan.",
-      "unit_used": "prompts vendidos vinculados a versión específica de modelo IA"
-    }
+    "poles": [
+      {
+        "label": "Blocker — actualizaciones de versión de modelo IA alteran comportamiento de prompts existentes",
+        "definition": "Card que documenta actualizaciones de modelos IA que alteran el comportamiento de prompts existentes",
+        "signal_ids": [
+          {
+            "id": "SC-R7-176",
+            "description": "modelos IA reciben actualizaciones que cambian el comportamiento de prompts existentes"
+          }
+        ],
+        "mechanical_summary": "Una card documenta que las actualizaciones de versión alteran el comportamiento de prompts sin aviso.",
+        "unit_used": "actualizaciones de versión de modelo IA"
+      },
+      {
+        "label": "Blocked — prompts vendidos vinculados a versión específica pierden funcionalidad tras actualizaciones",
+        "definition": "Cards que documentan prompts vendidos que pierden funcionalidad tras actualizaciones de modelo",
+        "signal_ids": [
+          {
+            "id": "SC-R7-177",
+            "description": "vendedores de prompts documentan invalidación de productos por cambios de versión de modelo"
+          },
+          {
+            "id": "SC-R7-178",
+            "description": "compradores documentan que prompts adquiridos dejan de funcionar tras actualizaciones de modelo"
+          }
+        ],
+        "mechanical_summary": "Dos cards documentan el impacto en vendedores (productos invalidados) y compradores (prompts dejan de funcionar) cuando los modelos se actualizan.",
+        "unit_used": "prompts vendidos vinculados a versión específica de modelo IA"
+      }
+    ]
   },
   "what_it_supports": {
     "yes": "Las actualizaciones de modelos IA que alteran el comportamiento de prompts están documentadas. La invalidación de productos vendidos por cambios de versión está documentada desde la perspectiva de vendedores y compradores.",
@@ -35,7 +50,18 @@
     "Proporción de prompts en el mercado que dependen de versiones específicas vs. prompts con instrucciones generales.",
     "Información sobre si las plataformas de prompts ofrecen mecanismos de actualización o garantía post-venta."
   ],
-  "classification_risk": ["posible sobre-abstracción", "posible falta de grounding"],
-  "source_patterns": ["FRI-023"],
-  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible falta de grounding"
+  ],
+  "source_patterns": [
+    "FRI-023"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
 }
