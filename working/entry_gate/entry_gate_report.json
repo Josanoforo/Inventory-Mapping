@@ -1,5 +1,5 @@
 {
-  "status": "pass",
+  "status": "fail",
   "total_cards": 1560,
   "rounds": [
     {"round": 1, "cards": 73},
@@ -16,7 +16,20 @@
   "checks": [
     {"check": "discrete_cards", "passed": true, "violations": []},
     {"check": "no_interpretation", "passed": true, "violations": []},
-    {"check": "no_meta_observations", "passed": true, "violations": []},
+    {
+      "check": "no_meta_observations",
+      "passed": false,
+      "violations": [
+        {
+          "card_id": "SC-R7-175",
+          "detail": "Observation contains cross-source language: 'based on searches across Crunchbase, Tracxn, and news sources.' The observation synthesizes a negative finding explicitly naming multiple sources."
+        },
+        {
+          "card_id": "SC-R8-186",
+          "detail": "Observation contains cross-source language: 'Multiple reports describe declining individual Creative Market seller sales.' Uses 'Multiple reports' meta-analytical phrasing."
+        }
+      ]
+    },
     {"check": "evidence_preserved", "passed": true, "violations": []},
     {"check": "ids_traceable", "passed": true, "violations": []}
   ]
