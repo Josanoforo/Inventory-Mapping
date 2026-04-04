@@ -120,6 +120,112 @@ These candidates have unresolved grounding issues, evidence asymmetry, or potent
 
 ---
 
+## Validation results (Step 6 — Validator)
+
+Validation run date: 2026-04-04. All 74 TCs processed against 16 checks. Reports written to `working/validation/candidate_reports/`. Summary at `working/validation/validation_summary.json`.
+
+**Aggregate**: 33 passed / 41 failed
+
+### Checks with failures
+
+| Check | Failures | Notes |
+|-------|----------|-------|
+| schema_valid | 40 | All friction TCs (TC-036 to TC-068) use `blocker`/`blocked` structure; all co-occurrence TCs (TC-069 to TC-075) use `polo_a`/`polo_b` structure. Neither matches the required `poles` array in `schemas/tension_candidate.schema.json`. |
+| signal_ids_verified | 15 | Friction TCs with context signal IDs (TC-036 to TC-042, TC-044) and all co-occurrence TCs (TC-069 to TC-075) list context IDs in comma-separated format in MD without individual parenthetical descriptions. |
+| mechanical_language | 2 | TC-022 contains "característica central" (word-boundary match on "central"); TC-067 contains "recomendación" in definition text. |
+| corpus_term_polos | 1 | TC-055 uses absolute range in definition rather than corpus-based membership criteria. |
+
+### Per-candidate validation status
+
+| ID | Validation | Failed checks |
+|----|-----------|---------------|
+| TC-002 | PASS | — |
+| TC-003 | PASS | — |
+| TC-004 | PASS | — |
+| TC-005 | PASS | — |
+| TC-006 | PASS | — |
+| TC-007 | PASS | — |
+| TC-008 | PASS | — |
+| TC-009 | PASS | — |
+| TC-010 | PASS | — |
+| TC-011 | PASS | — |
+| TC-012 | PASS | — |
+| TC-013 | PASS | — |
+| TC-014 | PASS | — |
+| TC-015 | PASS | — |
+| TC-016 | PASS | — |
+| TC-017 | PASS | — |
+| TC-018 | PASS | — |
+| TC-019 | PASS | — |
+| TC-020 | PASS | — |
+| TC-021 | PASS | — |
+| TC-022 | FAIL | mechanical_language |
+| TC-023 | PASS | — |
+| TC-024 | PASS | — |
+| TC-025 | PASS | — |
+| TC-026 | PASS | — |
+| TC-027 | PASS | — |
+| TC-028 | PASS | — |
+| TC-029 | PASS | — |
+| TC-030 | PASS | — |
+| TC-031 | PASS | — |
+| TC-032 | PASS | — |
+| TC-033 | PASS | — |
+| TC-034 | PASS | — |
+| TC-035 | PASS | — |
+| TC-036 | FAIL | signal_ids_verified, schema_valid |
+| TC-037 | FAIL | signal_ids_verified, schema_valid |
+| TC-038 | FAIL | signal_ids_verified, schema_valid |
+| TC-039 | FAIL | signal_ids_verified, schema_valid |
+| TC-040 | FAIL | signal_ids_verified, schema_valid |
+| TC-041 | FAIL | signal_ids_verified, schema_valid |
+| TC-042 | FAIL | signal_ids_verified, schema_valid |
+| TC-043 | FAIL | schema_valid |
+| TC-044 | FAIL | signal_ids_verified, schema_valid |
+| TC-045 | FAIL | schema_valid |
+| TC-046 | FAIL | schema_valid |
+| TC-047 | FAIL | schema_valid |
+| TC-048 | FAIL | schema_valid |
+| TC-049 | FAIL | schema_valid |
+| TC-050 | FAIL | schema_valid |
+| TC-051 | FAIL | schema_valid |
+| TC-052 | FAIL | schema_valid |
+| TC-053 | FAIL | schema_valid |
+| TC-054 | FAIL | schema_valid |
+| TC-055 | FAIL | corpus_term_polos, schema_valid |
+| TC-056 | FAIL | schema_valid |
+| TC-057 | FAIL | schema_valid |
+| TC-058 | FAIL | schema_valid |
+| TC-059 | FAIL | schema_valid |
+| TC-060 | FAIL | schema_valid |
+| TC-061 | FAIL | schema_valid |
+| TC-062 | FAIL | schema_valid |
+| TC-063 | FAIL | schema_valid |
+| TC-064 | FAIL | schema_valid |
+| TC-065 | FAIL | schema_valid |
+| TC-066 | FAIL | schema_valid |
+| TC-067 | FAIL | mechanical_language, schema_valid |
+| TC-068 | FAIL | schema_valid |
+| TC-069 | FAIL | signal_ids_verified, schema_valid |
+| TC-070 | FAIL | signal_ids_verified, schema_valid |
+| TC-071 | FAIL | signal_ids_verified, schema_valid |
+| TC-072 | FAIL | signal_ids_verified, schema_valid |
+| TC-073 | FAIL | signal_ids_verified, schema_valid |
+| TC-074 | FAIL | signal_ids_verified, schema_valid |
+| TC-075 | FAIL | signal_ids_verified, schema_valid |
+
+### Failure pattern notes for human review
+
+**schema_valid failures (40 TCs)**: The Candidate Builder produced friction TCs using `structured_support.blocker`/`blocked` and co-occurrence TCs using `structured_support.polo_a`/`polo_b`. The schema requires `structured_support.poles` as a minimum-2-item array. This is a systematic structural divergence across all 33 friction TCs and all 7 co-occurrence TCs. The substantive content of each TC is intact; the deviation is in the key names used to organize poles.
+
+**signal_ids_verified failures (15 TCs)**: Friction TCs TC-036 to TC-042 and TC-044 have context signal IDs listed in a "contexto adicional" section as a comma-separated run without individual parenthetical descriptions. Co-occurrence TCs TC-069 to TC-075 have `additional_context.signal_ids` listed without descriptions in the MD. In both cases the IDs are present in the JSON but are not individually described in the MD file as required.
+
+**mechanical_language failures (2 TCs)**: TC-022 uses "característica central" — "central" is a forbidden word matched at word boundary. TC-067 uses "recomendación" in the definition field — "recomendación" matched at word boundary. The whitelist ("resolución", "valor central") does not cover these instances.
+
+**corpus_term_polos failure (1 TC)**: TC-055 uses an absolute threshold criterion in a pole definition rather than corpus-documented membership criteria.
+
+---
+
 ## Notes on merged patterns
 
 Two pairs of scan patterns were merged into single TCs due to >70% signal ID overlap and same mechanism:
