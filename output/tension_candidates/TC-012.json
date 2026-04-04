@@ -1,0 +1,74 @@
+{
+  "id": "TC-012",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de herramientas de IA que reducen la barrera de creación de contenido digital co-ocurren con señales de políticas de plataformas que restringen o filtran contenido generado por IA en el mismo sistema de distribución. Fuerza A: herramientas de IA habilitando creación rápida y escalable de productos digitales. Fuerza B: plataformas documentan actualizaciones de política, requisitos de divulgación, retiro de listados y enforcement contra contenido IA.",
+  "analytical_unit": "señales de adopción de herramientas IA por vendedores y señales de políticas de plataformas sobre contenido IA en el mismo sistema de distribución",
+  "signal_ids": [
+    "SC-R4-043",
+    "SC-R4-044",
+    "SC-R7-054",
+    "SC-R5-032",
+    "SC-R6-172",
+    "SC-R7-142",
+    "SC-R7-143",
+    "SC-R7-144",
+    "SC-R7-147",
+    "SC-R7-148",
+    "SC-R8-144"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — herramientas IA habilitan creación y oferta de productos digitales",
+        "definition": "Cards que documentan herramientas de IA habilitando creación rápida de productos digitales en plataformas",
+        "signal_ids": [
+          {"id": "SC-R4-043", "description": "herramientas de IA documentadas como habilitadoras de creación rápida de productos digitales"},
+          {"id": "SC-R4-044", "description": "vendedor de clip-art IA: $568 en primer mes escalando a $1,500/mes; aumento documentado de oferta IA en plataformas"},
+          {"id": "SC-R7-054", "description": "herramientas de generación de contenido IA documentadas en workflows de vendedores"},
+          {"id": "SC-R5-032", "description": "vendedores usando IA para crear templates y productos digitales a escala"}
+        ],
+        "mechanical_summary": "Cuatro cards documentan adopción de herramientas IA en la creación de productos digitales. SC-R4-044 provee dato específico de ingresos de vendedor IA en Etsy. SC-R4-043, SC-R5-032 tienen descripciones genéricas en el scan. Las fuentes mezclan plataformas (Etsy, Gumroad) y tipos de producto (clip-art, templates).",
+        "unit_used": "ingresos por venta (USD), observaciones cualitativas sobre adopción de herramientas IA"
+      },
+      {
+        "label": "Polo B — plataformas restringen o filtran contenido generado por IA",
+        "definition": "Cards que documentan políticas de plataformas que restringen, filtran o exigen divulgación de contenido generado por IA",
+        "signal_ids": [
+          {"id": "SC-R6-172", "description": "Canva: Contributor Agreement de enero 2026 prohíbe contenido IA generado para contribuidores"},
+          {"id": "SC-R7-142", "description": "Etsy prohíbe explícitamente la venta de bundles de prompts IA desde julio 2024"},
+          {"id": "SC-R7-143", "description": "TechCrunch confirma que Etsy comenzó a retirar listados como 10,000 Midjourney Prompts en julio 2024"},
+          {"id": "SC-R7-144", "description": "enforcement documentado de plataforma contra contenido IA no divulgado"},
+          {"id": "SC-R7-147", "description": "Amazon KDP requiere divulgación de contenido generado por IA; no-cumplimiento reportado con penalizaciones"},
+          {"id": "SC-R7-148", "description": "Amazon KDP: límite de 3 libros por día para prevenir spam de IA, implementado septiembre 2023"},
+          {"id": "SC-R8-144", "description": "plataforma con mecanismos de filtrado de contenido IA documentados"}
+        ],
+        "mechanical_summary": "Siete cards documentan políticas y enforcement contra contenido IA en Canva, Etsy, Amazon KDP y una plataforma no especificada (SC-R8-144). SC-R7-142, SC-R7-143, SC-R7-147, SC-R7-148 tienen texto verificado. SC-R7-144, SC-R8-144 tienen descripciones genéricas en el scan. No están normalizadas por tipo de producto IA ni por plataforma.",
+        "unit_used": "políticas documentadas (texto), acciones de enforcement, límites operacionales de plataforma"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el corpus de señales de adopción de IA por vendedores con señales de restricciones y enforcement de plataformas contra contenido IA durante el período 2023–2026.",
+    "no": "Que las políticas del Polo B respondan directamente al crecimiento de oferta documentado en el Polo A. Que las restricciones del Polo B sean equivalentes en todas las plataformas."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R4-043, SC-R5-032, SC-R7-144, SC-R8-144 (descripciones genéricas en el scan).",
+    "Datos de volumen de listados IA retirados vs. listados IA activos en cada plataforma.",
+    "Separación por tipo de producto IA (imágenes, texto, prompts, templates) y plataforma.",
+    "Evidencia de si las restricciones del Polo B reducen efectivamente el volumen de oferta IA documentado en el Polo A."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": ["OPP-007"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

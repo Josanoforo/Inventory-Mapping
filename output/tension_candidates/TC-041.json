@@ -1,0 +1,61 @@
+{
+  "id": "TC-041",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: las macros VBA de Excel no transfieren a Google Sheets, bloqueando la compatibilidad cross-platform de templates avanzados documentada en el corpus. El corpus documenta 20 cards del bloqueador (incompatibilidad técnica VBA/macros) y 50 cards del bloqueado (templates de spreadsheet que requieren compatibilidad cross-platform).",
+  "analytical_unit": "compatibilidad cross-platform de templates de spreadsheet con macros VBA de Excel en Google Sheets",
+  "signal_ids": [
+    "SC-R2-002", "SC-R2-010", "SC-R2-089", "SC-R2-099", "SC-R2-101",
+    "SC-R2-103", "SC-R2-107", "SC-R3-109", "SC-R3-114", "SC-R3-118",
+    "SC-R3-134", "SC-R4-072", "SC-R5-127", "SC-R6-132", "SC-R6-138",
+    "SC-R8-010", "SC-R9-017", "SC-R9-116", "SC-R3-047", "SC-R3-051",
+    "SC-R2-001", "SC-R2-008", "SC-R2-009", "SC-R2-025", "SC-R2-065",
+    "SC-R2-100", "SC-R8-128", "SC-R8-129"
+  ],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — incompatibilidad técnica de macros VBA de Excel con Google Sheets",
+      "definition": "Cards que documentan que las macros VBA de Excel no funcionan en Google Sheets",
+      "signal_ids": [
+        {"id": "SC-R2-010", "description": "listing Excel-only en Etsy: 'MS Excel 2013+', no menciona compatibilidad con Google Sheets"},
+        {"id": "SC-R2-099", "description": "listing de Multiple Platform Inventory Management Excel Sales Tracker no menciona compatibilidad con Google Sheets"},
+        {"id": "SC-R2-101", "description": "listing Excel Dashboard Templates 120+ no menciona Google Sheets"},
+        {"id": "SC-R2-103", "description": "guía Bricks.com lista 'Automatic Calculations' como feature clave de templates Excel — incompatibles con Sheets sin reescritura"}
+      ],
+      "mechanical_summary": "Cuatro cards documentan templates específicamente Excel-only o incompatibilidades técnicas que incluyen macros. El bloqueador técnico (VBA incompatibility) está implícito en los listings Excel-only y las advertencias de vendedores sobre limitaciones de compatibilidad.",
+      "unit_used": "documentación de limitaciones técnicas en listings y guías de vendedores"
+    },
+    "blocked": {
+      "label": "Blocked — compatibilidad cross-platform de templates avanzados con macros",
+      "definition": "Cards que documentan compradores o vendedores que buscan compatibilidad entre Excel y Google Sheets en templates con automatización",
+      "signal_ids": [
+        {"id": "SC-R2-001", "description": "listing en Etsy ofrece Excel y Google Sheets para el mismo template de presupuesto — sin mencionar macros"},
+        {"id": "SC-R2-008", "description": "listing Excel Project Management Template en Etsy: Excel only (MARCHBORNS)"},
+        {"id": "SC-R2-009", "description": "MARCHBORNS tiene versión separada de Google Sheets para el mismo template de Excel"}
+      ],
+      "mechanical_summary": "Tres cards documentan cómo los vendedores manejan la incompatibilidad: algunas ofrecen versiones separadas para Excel y Google Sheets (SC-R2-009), lo que evidencia que la fricción existe y es gestionada por el vendedor creando productos paralelos.",
+      "unit_used": "documentación de estrategias de vendedores para compatibilidad cross-platform"
+    }
+  },
+  "what_it_supports": {
+    "yes": "La incompatibilidad técnica de VBA/macros entre Excel y Google Sheets se documenta indirectamente a través de listings Excel-only y la práctica de vendedores de crear versiones separadas para cada plataforma (SC-R2-009). La fricción genera trabajo adicional para vendedores y limita la reutilización de templates.",
+    "no": "Que todos los templates Excel tengan macros que sean incompatibles (muchos templates Excel simples no usan macros). Que la incompatibilidad sea un bloqueador absoluto vs. un factor que aumenta el costo de producción para el vendedor."
+  },
+  "what_is_missing": [
+    "Cards que documenten específicamente compradores que no pueden usar templates Excel con macros en Google Sheets.",
+    "Dato de qué porcentaje de templates Excel en el corpus usan macros VBA vs. fórmulas simples.",
+    "Documentación explícita de la incompatibilidad VBA por parte de vendedores en su copy de listing."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["FRI-006"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

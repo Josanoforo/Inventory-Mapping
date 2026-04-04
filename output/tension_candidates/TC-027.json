@@ -1,0 +1,70 @@
+{
+  "id": "TC-027",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según los ingresos de vendedores en mercados de prompts: la mayoría de vendedores con ingresos negligibles versus un grupo menor con ingresos altos documentados en el mismo mercado (PromptBase y plataformas de prompts). El corpus documenta 6 cards de ingresos bajos o nulos (mayoría) y 3 cards de ingresos altos (minoría outlier) en el mismo sub-mercado de prompts.",
+  "analytical_unit": "distribución de ingresos de vendedores en mercados de prompts (PromptBase y similares), separada de vendedores en mercados de otros productos digitales",
+  "signal_ids": [
+    "SC-R7-106",
+    "SC-R7-108",
+    "SC-R7-109",
+    "SC-R7-095",
+    "SC-R7-121",
+    "SC-R7-131",
+    "SC-R7-102",
+    "SC-R7-103",
+    "SC-R7-135"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — ingresos bajos o nulos, mayoría de vendedores de prompts",
+        "definition": "Cards que documentan ingresos bajos o nulos en la mayoría de vendedores de mercados de prompts",
+        "signal_ids": [
+          {"id": "SC-R7-106", "description": "mayoría de vendedores de prompts con ingresos bajos o nulos documentada"},
+          {"id": "SC-R7-108", "description": "ingresos negligibles documentados en vendedores de prompts"},
+          {"id": "SC-R7-109", "description": "vendedores con ingresos mínimos en mercados de prompts documentados"},
+          {"id": "SC-R7-095", "description": "concentración de vendedores en rango bajo de ingresos en mercados de prompts"},
+          {"id": "SC-R7-121", "description": "distribución de ingresos asimétrica en mercados de prompts: mayoría con ingresos bajos"},
+          {"id": "SC-R7-131", "description": "mayoría de vendedores de prompts sin ingresos significativos documentada"}
+        ],
+        "mechanical_summary": "Seis cards documentan ingresos bajos o nulos como condición mayoritaria en mercados de prompts. Las seis tienen descripciones genéricas en el scan sin texto específico verificado de card. La fuente específica de las observaciones (PromptBase, otras plataformas) no está especificada.",
+        "unit_used": "observaciones cualitativas sobre distribución de ingresos, clasificación de mayoría/minoría por nivel de ingreso"
+      },
+      {
+        "label": "Polo B — ingresos altos, vendedores outlier en mercados de prompts",
+        "definition": "Cards que documentan ingresos altos en vendedores outlier en el mismo mercado de prompts",
+        "signal_ids": [
+          {"id": "SC-R7-102", "description": "vendedor outlier con ingresos altos en mercado de prompts documentado"},
+          {"id": "SC-R7-103", "description": "ingresos altos documentados en vendedores de prompts seleccionados"},
+          {"id": "SC-R7-135", "description": "outlier de ingresos en mercado de prompts documentado"}
+        ],
+        "mechanical_summary": "Tres cards documentan ingresos excepcionales en vendedores de prompts. Las tres tienen descripciones genéricas en el scan sin texto específico verificado de card. No se especifican montos ni plataformas específicas.",
+        "unit_used": "observaciones cualitativas sobre ingresos excepcionales en vendedores de prompts"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución asimétrica en el corpus de señales sobre ingresos de vendedores en mercados de prompts, con mayoría en rango bajo y minoría outlier en rango alto, en el mismo sub-mercado.",
+    "no": "Montos específicos de ingresos en ningún polo (ninguna card tiene dato verificado). Que la distribución de prompts sea más extrema que la de otros mercados de productos digitales."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para todas las 9 cards (SC-R7-106, SC-R7-108, SC-R7-109, SC-R7-095, SC-R7-121, SC-R7-131, SC-R7-102, SC-R7-103, SC-R7-135 — todas con descripciones genéricas en el scan).",
+    "Datos cuantitativos de ingresos por deciles de vendedores en PromptBase o plataformas de prompts.",
+    "Plataformas específicas donde se documentaron los ingresos bajos y altos.",
+    "Comparación con la distribución general de ingresos en otros mercados de productos digitales para contextualizar si el mercado de prompts tiene una distribución más extrema."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible artefacto del detector",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["ASY-010"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

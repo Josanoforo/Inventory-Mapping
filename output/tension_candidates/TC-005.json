@@ -1,0 +1,68 @@
+{
+  "id": "TC-005",
+  "status": "pending_review",
+  "type": "contradicción",
+  "mechanical_relation": "Las cards se separan en polos sobre la fiabilidad operacional de Gumroad para vendedores. Un polo documenta uso sin incidentes y ventas completadas; el polo opuesto documenta suspensiones sin aviso, congelación de fondos, reembolsos sin notificación al vendedor y ausencia de apelación efectiva. Las observaciones positivas son de 2020 y las negativas de 2021–2026.",
+  "analytical_unit": "experiencias operacionales de vendedores en Gumroad, separadas de datos de tráfico o ingresos",
+  "signal_ids": [
+    "SC-R8-071",
+    "SC-R8-072",
+    "SC-R8-073",
+    "SC-R8-079",
+    "SC-R8-082",
+    "SC-R8-104",
+    "SC-R8-107",
+    "SC-R8-110"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — experiencia operacional estable en Gumroad",
+        "definition": "Vendedores en el corpus que documentan experiencia operacional estable en Gumroad sin suspensiones ni incidentes mayores",
+        "signal_ids": [
+          {"id": "SC-R8-104", "description": "@robfitz, Indie Hackers julio 2020: vendió ~$80K en PDFs via Gumroad, 'basically does what it says on the tin'"},
+          {"id": "SC-R8-107", "description": "@XCS, Indie Hackers julio 2020: vendió $2,000 en 3 meses sin incidentes mayores, solo un chargeback"}
+        ],
+        "mechanical_summary": "Dos vendedores en Indie Hackers (julio 2020) documentan experiencia estable. Ambas observaciones son del mismo hilo de foro y del mismo mes, anteriores a los cambios de política de Gumroad de 2022–2024. No están normalizadas por tipo de producto ni período posterior a los cambios.",
+        "unit_used": "observaciones cualitativas de vendedor sobre fiabilidad operacional de la plataforma"
+      },
+      {
+        "label": "Polo B — suspensiones, congelación de fondos y ausencia de apelación en Gumroad",
+        "definition": "Vendedores en el corpus que documentan suspensiones, congelación de fondos o ausencia de apelación en Gumroad",
+        "signal_ids": [
+          {"id": "SC-R8-071", "description": "Thibaut Patel, dic. 2024: cuenta suspendida, reinstalada y luego baneada permanentemente sin acción del vendedor"},
+          {"id": "SC-R8-072", "description": "Indie Hackers dic. 2024: ban permanente via herramienta IA 'Iffy' de Gumroad sin advertencia ni apelación"},
+          {"id": "SC-R8-073", "description": "Indie Hackers 2021–2022: un dispute de cliente generó suspensión de cuenta entera y reembolso de todas las ventas"},
+          {"id": "SC-R8-079", "description": "Trustpilot marzo 2026: Gumroad 1.4/5, 309 de 372 reviews en 1 estrella (83%)"},
+          {"id": "SC-R8-082", "description": "Trustpilot: Gumroad afirmó esperar 30 días para refund pero lo emitió de inmediato sin avisar al vendedor"},
+          {"id": "SC-R8-110", "description": "Hacker News 2025–2026: acceso al dashboard limitado, fecha de pago cambiando, dinero bloqueado, sin respuesta de soporte"}
+        ],
+        "mechanical_summary": "Seis cards de fuentes distintas (Indie Hackers, Trustpilot, Hacker News; rondas 2021–2026) documentan suspensiones sin causa explicada, congelación de fondos, reembolsos unilaterales y ausencia de canal de apelación. El rating de Trustpilot agrega contexto distribucional. Los casos son de períodos y categorías de producto distintos.",
+        "unit_used": "casos de suspensión documentados (posts de foro, reviews), rating de plataforma (escala 1–5)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de experiencias operacionales estables documentadas en Gumroad (2020) con experiencias de suspensiones, congelación de fondos y ausencia de apelación documentadas (2021–2026) en el corpus.",
+    "no": "Que la mayoría de vendedores en Gumroad experimente suspensiones. Que la diferencia entre polos no se explique por cambios de política entre 2020 y 2024. Cuántos vendedores operan sin incidentes en el período 2022–2026."
+  },
+  "what_is_missing": [
+    "Observaciones de vendedores con experiencia estable en Gumroad en el período 2022–2026.",
+    "Tasa de suspensiones como proporción del total de cuentas activas.",
+    "Documentación oficial de los cambios de política de Gumroad entre 2022 y 2024.",
+    "Mecanismo de apelación formal de Gumroad y su tasa de resolución favorable."
+  ],
+  "classification_risk": [
+    "posible contradicción falsa",
+    "posible artefacto de fuente",
+    "posible survivorship bias"
+  ],
+  "source_patterns": ["CON-008"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

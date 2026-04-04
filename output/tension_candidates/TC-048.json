@@ -1,0 +1,41 @@
+{
+  "id": "TC-048",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el acantilado de royalties de KDP al precio de $9.99 USD bloquea la estrategia de pricing documentada para ebooks de mayor valor. El corpus documenta 2 cards del bloqueador (estructura de royalties KDP que penaliza precios fuera de $2.99-$9.99) y 1 card del bloqueado (estrategias de precio alto para ebooks de mayor valor).",
+  "analytical_unit": "estrategia de pricing de ebooks en KDP condicionada por la estructura de royalties",
+  "signal_ids": ["SC-R10-001", "SC-R10-002", "SC-R10-003"],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — KDP reduce royalty de 70% a 35% para precios fuera del rango $2.99-$9.99",
+      "definition": "Cards que documentan la penalización de royalties para ebooks fuera del rango de precio óptimo",
+      "signal_ids": [
+        {"id": "SC-R10-001", "description": "KDP ofrece 70% de royalty solo para ebooks entre $2.99 y $9.99 USD"},
+        {"id": "SC-R10-002", "description": "precios fuera del rango $2.99-$9.99 reciben solo 35% de royalty en KDP"}
+      ],
+      "mechanical_summary": "Dos cards documentan la estructura de royalties con datos numéricos verificados ($2.99-$9.99 → 70%; fuera del rango → 35%).",
+      "unit_used": "estructura de royalties de KDP en porcentaje por rango de precio"
+    },
+    "blocked": {
+      "label": "Blocked — pricing de ebooks especializados o de mayor valor restringido",
+      "definition": "Card que documenta el constraint de pricing para vendedores de ebooks de mayor valor percibido",
+      "signal_ids": [
+        {"id": "SC-R10-003", "description": "vendedores documentan constraint de pricing por estructura de royalties de KDP"}
+      ],
+      "mechanical_summary": "Una card documenta el bloqueado. Tiene descripción en el scan sin texto verificado específico.",
+      "unit_used": "observación sobre constraint de pricing en KDP"
+    }
+  },
+  "what_it_supports": {
+    "yes": "La estructura de royalties de KDP está documentada con datos numéricos verificados. El constraint de precio $2.99-$9.99 es verificable como bloqueador para estrategias de precio premium en KDP.",
+    "no": "Que los vendedores no puedan vender a precios premium en otros canales (Gumroad, venta directa). La fricción es específica a KDP como canal de distribución."
+  },
+  "what_is_missing": [
+    "Texto completo de SC-R10-003 para verificar el contexto del constraint de pricing.",
+    "Datos de qué porcentaje de ebooks en KDP se venden fuera del rango de royalty óptimo.",
+    "Comparación de ingresos: $9.99 al 70% vs. $14.99 al 35% para determinar si el constraint es siempre penalizador."
+  ],
+  "classification_risk": ["posible agrupación disfrazada de tensión", "posible falta de grounding"],
+  "source_patterns": ["FRI-013"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}

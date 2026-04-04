@@ -1,0 +1,90 @@
+{
+  "id": "TC-040",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: Gumroad Discover requiere historial de ventas para activar tráfico orgánico, bloqueando al vendedor nuevo sin audiencia previa del canal de descubrimiento. El ciclo circular es documentado en el corpus: sin primera venta no se activa Discover; sin Discover no se obtiene la primera venta. El corpus documenta 38 cards del bloqueador y 13 cards del bloqueado. FRI-029 se fusionó en este patrón por 75% de solapamiento de IDs y mismo mecanismo.",
+  "analytical_unit": "acceso de nuevos vendedores al canal de descubrimiento orgánico de Gumroad Discover",
+  "signal_ids": [
+    "SC-R4-049",
+    "SC-R8-122",
+    "SC-R8-121",
+    "SC-R8-154",
+    "SC-R4-037",
+    "SC-R4-048",
+    "SC-R4-056",
+    "SC-R4-079",
+    "SC-R4-080",
+    "SC-R4-115",
+    "SC-R4-153",
+    "SC-R4-154",
+    "SC-R5-049",
+    "SC-R5-058",
+    "SC-R8-105",
+    "SC-R8-125",
+    "SC-R8-126",
+    "SC-R1-017",
+    "SC-R2-061",
+    "SC-R2-062",
+    "SC-R1-036",
+    "SC-R4-005",
+    "SC-R4-007",
+    "SC-R4-023",
+    "SC-R4-057",
+    "SC-R4-061",
+    "SC-R4-067",
+    "SC-R4-114",
+    "SC-R6-147"
+  ],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — requisito de venta previa para activar Gumroad Discover",
+      "definition": "Cards que documentan que Gumroad Discover requiere al menos una venta para listar al vendedor, y que la tarifa de Discover es 30%",
+      "signal_ids": [
+        {"id": "SC-R4-049", "description": "Gumroad Discover 'requires at least one sale to activate'"},
+        {"id": "SC-R8-122", "description": "Indie Hackers (March 2026): 'Gumroad Discover requires at least one sale to activate. Chicken and egg.'"},
+        {"id": "SC-R4-154", "description": "Gumroad Discover requiere al menos $10 en productos para ser featured"},
+        {"id": "SC-R1-017", "description": "ventas via Gumroad Discover incurren en comisión del 30%"},
+        {"id": "SC-R5-049", "description": "para ventas via Gumroad Discover (marketplace), el fee es 30% por venta"},
+        {"id": "SC-R4-037", "description": "Catherine Insler: cuando listó su primer producto en Gumroad, obtuvo cero ventas"},
+        {"id": "SC-R8-105", "description": "@robfitz (Indie Hackers): 'Gumroad does not drive meaningful traffic; seller provides their own'"},
+        {"id": "SC-R8-121", "description": "Indie Hackers seller con 25 productos reportó '$0 in sales. zero views from organic search'"}
+      ],
+      "mechanical_summary": "Ocho cards documentan el requisito de activación de Discover y sus condiciones. SC-R4-049 y SC-R8-122 confirman el requisito de primera venta. SC-R1-017 y SC-R5-049 documentan la comisión del 30% que aplica una vez activado. SC-R4-037, SC-R8-105, SC-R8-121 documentan la experiencia de vendedores nuevos sin tráfico orgánico.",
+      "unit_used": "política de activación documentada y comisión de Discover en porcentaje"
+    },
+    "blocked": {
+      "label": "Blocked — vendedores nuevos sin audiencia previa que no pueden acceder al feed de Discover",
+      "definition": "Cards que documentan vendedores nuevos bloqueados del canal de descubrimiento por falta de historial de ventas",
+      "signal_ids": [
+        {"id": "SC-R8-154", "description": "nuevos vendedores documentan que no pueden obtener visibilidad orgánica sin la primera venta"},
+        {"id": "SC-R4-115", "description": "Muhammad Zain: 'There are millions of products on Gumroad. My ebook got buried until I had a following'"},
+        {"id": "SC-R4-153", "description": "creator vende sistema PHP en $6 en Gumroad y ganó $0 — no pudo acceder a Discover"},
+        {"id": "SC-R4-056", "description": "Poonam Sharma: 'Gumroad is not a marketplace that can give you organic traffic without work like Etsy'"}
+      ],
+      "mechanical_summary": "Cuatro cards documentan la experiencia de vendedores nuevos sin acceso a tráfico orgánico en Gumroad. Los cuatro tienen texto verificado con fuentes nombradas.",
+      "unit_used": "experiencias verificadas de vendedores nuevos sin tráfico orgánico en Gumroad"
+    }
+  },
+  "what_it_supports": {
+    "yes": "El requisito de primera venta para activar Gumroad Discover está documentado en múltiples fuentes (política oficial, vendedores). El ciclo circular (sin venta no hay Discover; sin Discover no hay venta para nuevos) está documentado en SC-R8-122 explícitamente como 'Chicken and egg.'",
+    "no": "Que todos los nuevos vendedores en Gumroad experimenten el bloqueo igualmente (depende de si traen audiencia propia). Que la tasa del 30% de Discover sea una fricción adicional o un trade-off documentado por algunos vendors como positivo (SC-R4-079, SC-R4-080)."
+  },
+  "what_is_missing": [
+    "Dato de qué porcentaje de vendedores nuevos en Gumroad obtienen su primera venta sin tráfico propio.",
+    "Tiempo medio para que un vendedor nuevo obtenga la primera venta en Gumroad.",
+    "Comparación con la tasa de primera venta en Etsy para nuevos vendedores (Etsy tiene tráfico orgánico desde el inicio).",
+    "Separación entre vendedores con audiencia previa (redes sociales, email list) y vendedores sin audiencia."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["FRI-005", "FRI-029"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

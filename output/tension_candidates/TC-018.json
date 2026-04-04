@@ -1,0 +1,110 @@
+{
+  "id": "TC-018",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la plataforma provee tráfico orgánico integrado o si el vendedor debe generar su propio tráfico externo en el mismo sistema de distribución de productos digitales. Polo A: 13 cards de plataformas con descubrimiento orgánico (Etsy, Notion Marketplace, Amazon KDP). Polo B: 16 cards de plataformas donde el vendedor debe generar todo su tráfico (Gumroad, Payhip, Lemon Squeezy, plataformas de venta directa).",
+  "analytical_unit": "señales de modelo de tráfico en plataformas de productos digitales (orgánico integrado vs. externo requerido), separadas de ingresos del vendedor",
+  "signal_ids": [
+    "SC-R4-037",
+    "SC-R4-038",
+    "SC-R4-046",
+    "SC-R4-050",
+    "SC-R5-086",
+    "SC-R8-114",
+    "SC-R8-115",
+    "SC-R8-116",
+    "SC-R8-118",
+    "SC-R8-120",
+    "SC-R8-130",
+    "SC-R10-020",
+    "SC-R10-023",
+    "SC-R4-048",
+    "SC-R4-049",
+    "SC-R4-056",
+    "SC-R4-057",
+    "SC-R4-059",
+    "SC-R4-060",
+    "SC-R4-100",
+    "SC-R8-121",
+    "SC-R8-122",
+    "SC-R8-123",
+    "SC-R8-124",
+    "SC-R8-126",
+    "SC-R8-141",
+    "SC-R8-142",
+    "SC-R8-143",
+    "SC-R10-021"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — tráfico orgánico integrado en plataforma",
+        "definition": "Cards que documentan plataformas con tráfico orgánico integrado hacia listados de productos digitales",
+        "signal_ids": [
+          {"id": "SC-R4-037", "description": "comparación modelo de tráfico Etsy vs. Gumroad: Etsy con descubrimiento orgánico"},
+          {"id": "SC-R4-038", "description": "vendedora documenta primera venta en Etsy por búsqueda orgánica de un desconocido"},
+          {"id": "SC-R4-046", "description": "mecanismo de descubrimiento integrado en Etsy documentado"},
+          {"id": "SC-R4-050", "description": "Etsy: millones buscando downloads digitales diariamente; tráfico orgánico masivo"},
+          {"id": "SC-R5-086", "description": "Notion Marketplace con descubrimiento integrado documentado"},
+          {"id": "SC-R8-114", "description": "plataforma con descubrimiento integrado listada"},
+          {"id": "SC-R8-115", "description": "Etsy: aproximadamente 450 millones de visitantes mensuales con 86.6 millones de compradores activos"},
+          {"id": "SC-R8-116", "description": "más del 53% de compradores de Etsy descubren productos vía barra de búsqueda"},
+          {"id": "SC-R8-118", "description": "shops en primera página de Etsy search reciben hasta 80% de tráfico orgánicamente"},
+          {"id": "SC-R8-120", "description": "para muchas tiendas de Etsy, la mayoría del tráfico proviene de Etsy search"},
+          {"id": "SC-R8-130", "description": "tráfico orgánico de búsqueda en marketplace"},
+          {"id": "SC-R10-020", "description": "datos de autor muestran aproximadamente 95% de ventas de Amazon provienen de descubrimiento orgánico/algorítmico"},
+          {"id": "SC-R10-023", "description": "búsqueda de Amazon genera tráfico orgánico"}
+        ],
+        "mechanical_summary": "Trece cards documentan plataformas con descubrimiento orgánico integrado. La mayoría son sobre Etsy (9 cards), con una sobre Notion Marketplace (SC-R5-086) y dos sobre Amazon KDP (SC-R10-020, SC-R10-023). SC-R8-114, SC-R8-130 tienen descripciones genéricas. No están normalizadas por categoría de producto ni nivel de optimización SEO.",
+        "unit_used": "observaciones cualitativas y datos porcentuales de tráfico de búsqueda en plataforma"
+      },
+      {
+        "label": "Polo B — tráfico externo requerido, sin descubrimiento integrado",
+        "definition": "Cards que documentan plataformas donde el vendedor debe generar todo su tráfico externo sin descubrimiento orgánico integrado",
+        "signal_ids": [
+          {"id": "SC-R4-048", "description": "vendedor: Gumroad es genial para entrega, pero sin tráfico propio no llega nadie"},
+          {"id": "SC-R4-049", "description": "vendedor debe generar su propio tráfico en Gumroad"},
+          {"id": "SC-R4-056", "description": "Poonam Sharma tras 1 año en Gumroad: no es un marketplace con tráfico orgánico como Etsy"},
+          {"id": "SC-R4-057", "description": "modelo de tráfico dirigido por vendedor documentado"},
+          {"id": "SC-R4-059", "description": "plataforma sin mecanismo de descubrimiento documentada"},
+          {"id": "SC-R4-060", "description": "plataforma con tráfico orgánico nulo documentada"},
+          {"id": "SC-R4-100", "description": "plataforma de venta directa sin marketplace"},
+          {"id": "SC-R8-121", "description": "vendedor de Gumroad con 25 productos: $0 en ventas, cero vistas de búsqueda orgánica"},
+          {"id": "SC-R8-122", "description": "Gumroad Discover requiere al menos una venta para activarse: problema de huevo y gallina"},
+          {"id": "SC-R8-123", "description": "Nate McCallister, $450K+ en Gumroad: fuente número 1 de tráfico es afiliados, no Discover"},
+          {"id": "SC-R8-124", "description": "Poonam Sharma: Gumroad Discover es donde puedes encontrar clientes pero sin venta previa no apareces"},
+          {"id": "SC-R8-126", "description": "Catherine Insler: mismo toolkit $8 en Etsy y Gumroad; Gumroad no lo mostró a nadie"},
+          {"id": "SC-R8-141", "description": "Payhip: cero tráfico integrado, vendedor totalmente responsable"},
+          {"id": "SC-R8-142", "description": "declive documentado del descubrimiento orgánico impulsado por plataforma"},
+          {"id": "SC-R8-143", "description": "Lemon Squeezy: sin marketplace ni feature de descubrimiento; plataforma de Merchant of Record"},
+          {"id": "SC-R10-021", "description": "solo el 7% de ventas de Gumroad provienen del propio descubrimiento de Gumroad"}
+        ],
+        "mechanical_summary": "Dieciséis cards documentan plataformas sin descubrimiento orgánico integrado: Gumroad, Payhip, Lemon Squeezy y plataformas genéricas. SC-R4-057, SC-R4-059, SC-R4-060, SC-R4-100, SC-R8-142 tienen descripciones genéricas. No están normalizadas por tipo de producto ni por nivel de construcción de audiencia del vendedor.",
+        "unit_used": "observaciones cualitativas de vendedores sobre ausencia de tráfico orgánico, porcentaje de ventas de plataforma propia (%)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución asimétrica en el corpus entre plataformas con tráfico orgánico integrado (Etsy, Notion Marketplace, Amazon KDP) y plataformas donde el vendedor debe generar todo su tráfico (Gumroad, Payhip, Lemon Squeezy) en el mismo sistema de distribución de productos digitales.",
+    "no": "Que el modelo sin tráfico integrado sea inferior en términos de ingresos netos de vendedor. Que las plataformas del Polo A no requieran optimización activa para aparecer en resultados de búsqueda."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R8-114, SC-R8-130, SC-R4-057, SC-R4-059, SC-R4-060, SC-R4-100, SC-R8-142 (descripciones genéricas en el scan).",
+    "Datos de tráfico comparados entre modelos de plataforma controlando por categoría de producto.",
+    "Evidencia de ingresos netos comparados entre vendedores en plataformas del Polo A vs. Polo B.",
+    "Separación temporal para ver si la distribución ha cambiado con los algoritmos de Etsy."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["ASY-001"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

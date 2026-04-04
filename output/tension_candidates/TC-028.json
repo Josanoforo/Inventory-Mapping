@@ -1,0 +1,82 @@
+{
+  "id": "TC-028",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la política de la plataforma sobre contenido generado por IA es permisiva (sin prohibición) o restrictiva (prohibición o mandato de divulgación). El corpus documenta 8 cards de plataformas con política permisiva (Polo A) y 7 cards de plataformas con política restrictiva (Polo B) en el mismo sistema de distribución de productos digitales.",
+  "analytical_unit": "política de plataforma sobre contenido generado por IA, separada por tipo de política (permisiva vs. restrictiva/divulgación obligatoria)",
+  "signal_ids": [
+    "SC-R8-158",
+    "SC-R8-159",
+    "SC-R8-160",
+    "SC-R8-163",
+    "SC-R8-164",
+    "SC-R8-165",
+    "SC-R7-149",
+    "SC-R7-152",
+    "SC-R7-142",
+    "SC-R7-143",
+    "SC-R7-153",
+    "SC-R7-154",
+    "SC-R7-155",
+    "SC-R8-144",
+    "SC-R8-147"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — política permisiva sobre contenido IA en plataformas",
+        "definition": "Cards que documentan plataformas sin prohibición de contenido generado por IA; venta permitida sin restricción específica",
+        "signal_ids": [
+          {"id": "SC-R8-158", "description": "plataforma con política permisiva sobre contenido IA"},
+          {"id": "SC-R8-159", "description": "sin prohibición de contenido IA en plataforma documentada"},
+          {"id": "SC-R8-160", "description": "política permisiva IA en marketplace confirmada"},
+          {"id": "SC-R8-163", "description": "plataforma permite venta de productos IA sin restricción"},
+          {"id": "SC-R8-164", "description": "sin ban de contenido IA en plataforma"},
+          {"id": "SC-R8-165", "description": "política abierta hacia contenido generado por IA"},
+          {"id": "SC-R7-149", "description": "Fiverr permite venta de prompts IA sin prohibición"},
+          {"id": "SC-R7-152", "description": "Creative Market sin prohibición de packs de prompts IA"}
+        ],
+        "mechanical_summary": "Ocho cards documentan plataformas con política permisiva sobre contenido IA. SC-R7-149 (Fiverr) y SC-R7-152 (Creative Market) proveen texto verificado con plataformas nombradas. SC-R8-158, SC-R8-159, SC-R8-160, SC-R8-163, SC-R8-164, SC-R8-165 tienen descripciones genéricas sin texto verificado de card.",
+        "unit_used": "observaciones cualitativas sobre política de plataforma respecto a contenido generado por IA"
+      },
+      {
+        "label": "Polo B — política restrictiva o mandato de divulgación de contenido IA",
+        "definition": "Cards que documentan plataformas que prohíben o restringen contenido generado por IA o exigen divulgación obligatoria",
+        "signal_ids": [
+          {"id": "SC-R7-142", "description": "Etsy prohíbe explícitamente la venta de bundles de prompts IA"},
+          {"id": "SC-R7-143", "description": "Etsy retira listados de prompts IA desde julio 2024"},
+          {"id": "SC-R7-153", "description": "Getty Images prohíbe todo contenido IA generado"},
+          {"id": "SC-R7-154", "description": "Shutterstock prohíbe contenido IA de contribuidores"},
+          {"id": "SC-R7-155", "description": "Envato restringe contenido generado por IA en Market y Elements"},
+          {"id": "SC-R8-144", "description": "plataforma con prohibición o restricción de contenido IA"},
+          {"id": "SC-R8-147", "description": "mandato de divulgación de contenido IA en plataforma"}
+        ],
+        "mechanical_summary": "Siete cards documentan plataformas con política restrictiva sobre contenido IA. SC-R7-142, SC-R7-143 (Etsy), SC-R7-153 (Getty Images), SC-R7-154 (Shutterstock), SC-R7-155 (Envato) proveen texto verificado con plataformas y fechas nombradas. SC-R8-144, SC-R8-147 tienen descripciones genéricas.",
+        "unit_used": "observaciones cualitativas sobre prohibición, restricción o mandato de divulgación de contenido IA en plataformas"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución asimétrica en el corpus entre plataformas con política permisiva (Fiverr, Creative Market y otras no nombradas) y plataformas con política restrictiva (Etsy, Getty Images, Shutterstock, Envato y otras no nombradas) sobre contenido generado por IA en el mismo sistema de distribución de productos digitales.",
+    "no": "Que la proporción de plataformas permisivas versus restrictivas en el corpus refleje la proporción real del mercado. Que las plataformas del Polo A no modifiquen sus políticas en el mismo período documentado por el Polo B."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R8-158, SC-R8-159, SC-R8-160, SC-R8-163, SC-R8-164, SC-R8-165, SC-R8-144, SC-R8-147 (descripciones genéricas en el scan).",
+    "Nombres de las plataformas específicas con descripciones genéricas en ambos polos.",
+    "Fechas de implementación de las políticas restrictivas para determinar si el corpus documenta un período de transición.",
+    "Distinción entre prohibición total (Getty, Shutterstock) y restricción parcial (Etsy bundles, Envato) dentro del Polo B."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": ["ASY-011"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

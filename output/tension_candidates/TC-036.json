@@ -1,0 +1,126 @@
+{
+  "id": "TC-036",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la restricción de descarga en la app móvil de Etsy bloquea el acceso del comprador a productos digitales y concentra carga de soporte en el vendedor. El corpus documenta 52 cards del bloqueador (restricción técnica de la app móvil) y 113 cards del bloqueado (compradores que no pueden descargar + vendedores que absorben soporte).",
+  "analytical_unit": "proceso de entrega de productos digitales en Etsy, separado por canal de acceso (app móvil vs. navegador)",
+  "signal_ids": [
+    "SC-R1-025",
+    "SC-R2-117",
+    "SC-R2-118",
+    "SC-R3-123",
+    "SC-R3-125",
+    "SC-R3-127",
+    "SC-R9-003",
+    "SC-R9-007",
+    "SC-R9-018",
+    "SC-R9-049",
+    "SC-R9-100",
+    "SC-R9-102",
+    "SC-R2-043",
+    "SC-R2-059",
+    "SC-R2-099",
+    "SC-R3-023",
+    "SC-R3-024",
+    "SC-R3-035",
+    "SC-R3-036",
+    "SC-R3-037",
+    "SC-R3-038",
+    "SC-R3-039",
+    "SC-R3-040",
+    "SC-R3-049",
+    "SC-R3-062",
+    "SC-R3-065",
+    "SC-R3-070",
+    "SC-R3-075",
+    "SC-R3-076",
+    "SC-R3-082",
+    "SC-R3-083",
+    "SC-R3-118",
+    "SC-R3-130",
+    "SC-R4-032",
+    "SC-R4-044",
+    "SC-R4-105",
+    "SC-R6-006",
+    "SC-R6-083",
+    "SC-R6-099",
+    "SC-R6-116",
+    "SC-R6-138",
+    "SC-R6-139",
+    "SC-R8-007",
+    "SC-R8-009",
+    "SC-R8-064",
+    "SC-R8-068",
+    "SC-R8-115",
+    "SC-R8-127",
+    "SC-R8-152",
+    "SC-R8-157",
+    "SC-R9-013",
+    "SC-R9-020"
+  ],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — restricción técnica de descarga en app móvil de Etsy",
+      "definition": "Cards que documentan que la app móvil de Etsy bloquea la descarga directa de productos digitales",
+      "signal_ids": [
+        {"id": "SC-R3-123", "description": "Etsy Help Center: 'You can't download a digital purchase through the Etsy app at this time'"},
+        {"id": "SC-R3-125", "description": "ForLittleLion FAQ: 'It is not possible to download digital items from Etsy app'"},
+        {"id": "SC-R3-127", "description": "ForLittleLion FAQ: 'Digital planner is not an app but a pdf template so it can't be downloaded in the Etsy app'"},
+        {"id": "SC-R9-100", "description": "Etsy official help: si no ocurre nada al hacer clic en enlaces de descarga, puede ser la app móvil"},
+        {"id": "SC-R9-102", "description": "Etsy official help: 'You can't download a digital purchase through the Etsy app at this time'"}
+      ],
+      "mechanical_summary": "Cinco cards proveen texto verificado de la restricción técnica, incluyendo la fuente oficial de Etsy Help Center (SC-R3-123, SC-R9-102) y FAQs de vendedores dirigidas a compradores con el problema. La restricción es documentada como una limitación de la plataforma no comunicada al momento de compra.",
+      "unit_used": "restricción técnica documentada en help center oficial y FAQs de vendedores"
+    },
+    "blocked": {
+      "label": "Blocked — compradores sin acceso a descarga y vendedores absorbiendo soporte",
+      "definition": "Cards que documentan compradores que no pueden descargar sus productos y vendedores que absorben la carga de soporte resultante",
+      "signal_ids": [
+        {"id": "SC-R2-117", "description": "seller en Etsy Community Forums: aproximadamente 10% de compradores de productos digitales reportan problemas de descarga"},
+        {"id": "SC-R2-118", "description": "seller reporta recibir 'really unfair reviews' porque compradores no pueden descargar archivos en app"},
+        {"id": "SC-R9-003", "description": "comprador en Trustpilot reporta no recibir producto digital, contactó al vendedor múltiples veces sin resolución"},
+        {"id": "SC-R9-007", "description": "seller/educator reporta que la solicitud de soporte más común es compradores que no pueden descargar en app móvil"},
+        {"id": "SC-R9-018", "description": "sellers reportan que compradores que iniciaron sesión con Apple ID no pueden acceder a archivos digitales en Etsy app"},
+        {"id": "SC-R9-049", "description": "Gold City Ventures: muchos clientes de Etsy no saben que no pueden acceder a productos digitales en app hasta después de comprar"}
+      ],
+      "mechanical_summary": "Seis cards con texto verificado documentan el impacto en compradores (reseñas negativas, sin acceso al producto) y en vendedores (carga de soporte, reseñas injustas). SC-R2-117 provee dato cuantitativo (~10% de compradores afectados). El problema se concentra en usuarios de app móvil y Apple ID.",
+      "unit_used": "experiencias documentadas de compradores y vendedores, porcentaje de casos de soporte"
+    }
+  },
+  "additional_context": {
+    "description": "El corpus contiene 159 cards totales para este patrón. Las 52 cards del bloqueador incluyen documentación contextual del ecosistema Etsy (ingresos de vendedores, estructura de fees, métricas de tráfico) que confirma la escala del canal afectado pero no documentan la fricción directamente. Las 113 cards del bloqueado incluyen documentación de productos, listings y experiencias de vendedores que contextualiza el mercado pero no constituyen evidencia directa del problema de descarga.",
+    "context_signal_ids": [
+      "SC-R2-043", "SC-R2-059", "SC-R2-099", "SC-R3-023", "SC-R3-024",
+      "SC-R3-035", "SC-R3-036", "SC-R3-037", "SC-R3-038", "SC-R3-039",
+      "SC-R3-040", "SC-R3-049", "SC-R3-062", "SC-R3-065", "SC-R3-070",
+      "SC-R3-075", "SC-R3-076", "SC-R3-082", "SC-R3-083", "SC-R3-118",
+      "SC-R3-130", "SC-R4-032", "SC-R4-044", "SC-R4-105", "SC-R6-006",
+      "SC-R6-083", "SC-R6-099", "SC-R6-116", "SC-R6-138", "SC-R6-139",
+      "SC-R8-007", "SC-R8-009", "SC-R8-064", "SC-R8-068", "SC-R8-115",
+      "SC-R8-127", "SC-R8-152", "SC-R8-157", "SC-R9-013", "SC-R9-020",
+      "SC-R1-025"
+    ]
+  },
+  "what_it_supports": {
+    "yes": "La restricción de descarga de la app móvil de Etsy está documentada en el help center oficial y es reconocida por múltiples vendedores. El corpus documenta casos de compradores afectados, reseñas negativas por el problema, y carga de soporte en vendedores.",
+    "no": "Que el 10% de compradores afectados (SC-R2-117) sea una cifra representativa del mercado total. Que el problema afecte igualmente a todos los tipos de productos digitales (planners, plantillas, ebooks, etc.)."
+  },
+  "what_is_missing": [
+    "Datos de Etsy sobre porcentaje real de compradores afectados por la restricción de la app móvil.",
+    "Comparación temporal: si la restricción existe desde el inicio de Etsy digital o se introdujo en un punto específico.",
+    "Separación por tipo de dispositivo (iOS vs. Android) y si la restricción aplica por igual en ambos.",
+    "Datos de impacto en tasa de reseñas negativas específicamente atribuibles al problema de descarga móvil."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": ["FRI-001"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

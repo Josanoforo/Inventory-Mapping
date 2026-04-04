@@ -1,0 +1,119 @@
+{
+  "id": "TC-075",
+  "status": "pending_review",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre en 10 rounds distintos (142 cards): el requisito de generar tráfico externo para acceder a tarifas reducidas (Etsy, Gumroad) co-ocurre con la estructura de incentivos documentada que transfiere la carga de adquisición de audiencia al vendedor. El corpus documenta las estructuras de tarifas con incentivo de tráfico externo (Polo A) y las experiencias de vendedores con tráfico externo y decisiones de plataforma (Polo B).",
+  "analytical_unit": "incentivos de plataforma que empujan al vendedor a generar tráfico externo y su interacción con la propiedad de la audiencia",
+  "signal_ids": [
+    "SC-R1-016", "SC-R1-024", "SC-R2-047", "SC-R2-050", "SC-R2-051",
+    "SC-R2-059", "SC-R2-063", "SC-R2-117", "SC-R2-118", "SC-R3-017",
+    "SC-R3-023", "SC-R3-024", "SC-R3-034", "SC-R3-046", "SC-R3-049",
+    "SC-R3-076", "SC-R3-082", "SC-R3-087", "SC-R3-096", "SC-R3-098",
+    "SC-R3-108", "SC-R3-112", "SC-R3-113", "SC-R3-118", "SC-R3-123",
+    "SC-R3-124", "SC-R3-125", "SC-R3-127", "SC-R3-128", "SC-R3-129",
+    "SC-R4-014", "SC-R4-023", "SC-R4-042", "SC-R4-050", "SC-R4-056",
+    "SC-R4-060", "SC-R4-070", "SC-R4-071", "SC-R4-075", "SC-R4-078",
+    "SC-R4-080", "SC-R4-082", "SC-R4-083", "SC-R4-105", "SC-R4-106",
+    "SC-R4-110", "SC-R4-115", "SC-R4-118", "SC-R4-121", "SC-R4-123",
+    "SC-R4-139", "SC-R5-049", "SC-R5-051", "SC-R5-056", "SC-R5-059",
+    "SC-R5-067", "SC-R5-069", "SC-R5-070", "SC-R5-071", "SC-R5-078",
+    "SC-R5-083", "SC-R5-090", "SC-R5-127", "SC-R6-076", "SC-R6-099",
+    "SC-R6-116", "SC-R6-125", "SC-R6-132", "SC-R6-138", "SC-R6-140",
+    "SC-R6-146", "SC-R6-162", "SC-R7-067", "SC-R7-105", "SC-R8-002",
+    "SC-R8-003", "SC-R8-004", "SC-R8-005", "SC-R8-007", "SC-R8-008",
+    "SC-R8-009", "SC-R8-012", "SC-R8-013", "SC-R8-014", "SC-R8-016",
+    "SC-R8-017", "SC-R8-019", "SC-R8-021", "SC-R8-025", "SC-R8-026",
+    "SC-R8-067", "SC-R8-069", "SC-R8-070", "SC-R8-073", "SC-R8-101",
+    "SC-R8-103", "SC-R8-105", "SC-R8-108", "SC-R8-109", "SC-R8-112",
+    "SC-R8-118", "SC-R8-120", "SC-R8-123", "SC-R8-125", "SC-R8-129",
+    "SC-R8-130", "SC-R8-141", "SC-R8-167", "SC-R8-168", "SC-R8-169",
+    "SC-R8-170", "SC-R8-171", "SC-R8-173", "SC-R8-176", "SC-R8-181",
+    "SC-R8-182", "SC-R8-187", "SC-R9-006", "SC-R9-007", "SC-R9-011",
+    "SC-R9-012", "SC-R9-013", "SC-R9-016", "SC-R9-024", "SC-R9-025",
+    "SC-R9-046", "SC-R9-048", "SC-R9-049", "SC-R9-061", "SC-R9-065",
+    "SC-R9-100", "SC-R9-101", "SC-R9-102", "SC-R9-103", "SC-R9-104",
+    "SC-R10-004", "SC-R10-005", "SC-R10-009", "SC-R10-010", "SC-R10-021",
+    "SC-R10-022", "SC-R10-184"
+  ],
+  "structured_support": {
+    "polo_a": {
+      "label": "Polo A — estructuras de tarifas con incentivo de tráfico externo en Etsy y Gumroad",
+      "definition": "Cards que documentan las estructuras de tarifas de Etsy y Gumroad que ofrecen reducción de tarifas a cambio de tráfico externo",
+      "signal_ids": [
+        {"id": "SC-R8-012", "description": "Etsy ofrece reducción del 4% en tarifa de transacción (6.5% a 2.5%) cuando vendedores comparten tráfico rastreable"},
+        {"id": "SC-R8-013", "description": "vendedor debe generar su propio tráfico para calificar para la tarifa reducida de Etsy"},
+        {"id": "SC-R5-049", "description": "para ventas a través de Gumroad Discover el fee es 30% por venta, incluye procesamiento de pago"},
+        {"id": "SC-R10-021", "description": "datos del autor mostraron que solo ~7% de ventas de Gumroad venían del discovery de Gumroad"},
+        {"id": "SC-R8-105", "description": "@robfitz reportó que Gumroad no genera tráfico significativo; el vendedor provee su propio tráfico"},
+        {"id": "SC-R8-118", "description": "tiendas que aparecen en la primera página de búsqueda de Etsy reciben hasta 80% de su tráfico total"},
+        {"id": "SC-R8-120", "description": "para muchas tiendas de productos digitales en Etsy, la mayoría del tráfico viene de búsqueda interna"},
+        {"id": "SC-R8-130", "description": "InsightRaider: 'Etsy genera 4x más tráfico, pero Gumroad retiene 8.5% más por venta'"}
+      ],
+      "mechanical_summary": "Cards documentan la estructura de incentivos de tráfico externo en Etsy (descuento 4% con tráfico rastreable) y Gumroad (fee 30% en Discover vs. 10% directo).",
+      "unit_used": "estructura de tarifas con incentivo de tráfico externo en Etsy y Gumroad"
+    },
+    "polo_b": {
+      "label": "Polo B — experiencias documentadas de vendedores con tráfico externo y decisiones de plataforma",
+      "definition": "Cards que documentan las estrategias y experiencias de vendedores al generar tráfico externo y sus decisiones de cambio de plataforma",
+      "signal_ids": [
+        {"id": "SC-R4-056", "description": "Poonam Sharma: 'Gumroad no es un buen lugar para descubrimiento orgánico'"},
+        {"id": "SC-R4-075", "description": "Hazel Paradise compara: Payhip tiene fee de 5% y pago en 24 horas; Gumroad tiene fee de 10%"},
+        {"id": "SC-R4-078", "description": "Tamzidul Haque cambió de Gumroad a Payhip tras un mes de $500 donde 'las tarifas se comieron las ganancias'"},
+        {"id": "SC-R4-080", "description": "usuario Reddit: 'Gumroad Discover es muy bueno, pero esas tarifas...'"},
+        {"id": "SC-R4-082", "description": "Payhip Pro a $99/mes tiene 0% de tarifas de transacción"},
+        {"id": "SC-R4-083", "description": "Rhonda cambió de Gumroad a Payhip comparando tarifas"},
+        {"id": "SC-R5-069", "description": "Thomas Frank migró de Gumroad a LemonSqueezy después de que Gumroad subió tarifas"},
+        {"id": "SC-R5-070", "description": "Thomas Frank describió el aumento de tarifas de Gumroad como equivalente a 'comprarles un Porsche con el tiempo'"},
+        {"id": "SC-R6-146", "description": "vendedor: 'Tienes que generar tu propio tráfico para destacar. Si dependes de la búsqueda de Etsy...'"},
+        {"id": "SC-R8-123", "description": "Nate McCallister, que vendió $450K+ en Gumroad, reportó que su fuente #1 de tráfico fue afiliados"},
+        {"id": "SC-R8-125", "description": "vendedor Iampaulrose reportó $1,008.89 en ventas recomendadas por Gumroad Discover — excepcional"},
+        {"id": "SC-R8-129", "description": "el punto de inflexión para productos Gumroad es ~100 ventas; productos que cruzan ese umbral aparecen en Discover"},
+        {"id": "SC-R8-141", "description": "Payhip se describe como con 'cero tráfico incorporado' — vendedores son responsables del tráfico"}
+      ],
+      "mechanical_summary": "Cards documentan la dependencia del tráfico externo en Gumroad y Etsy, y las migraciones de plataforma motivadas por comparaciones de tarifas.",
+      "unit_used": "estrategias de tráfico externo de vendedores y migraciones de plataforma por tarifas"
+    }
+  },
+  "additional_context": {
+    "note": "Las siguientes 121 cards documentan el ecosistema de plataformas de distribución sin ser evidencia directa del mecanismo de incentivo de tráfico externo",
+    "signal_ids": [
+      "SC-R1-016", "SC-R1-024", "SC-R2-047", "SC-R2-050", "SC-R2-051",
+      "SC-R2-059", "SC-R2-063", "SC-R2-117", "SC-R2-118", "SC-R3-017",
+      "SC-R3-023", "SC-R3-024", "SC-R3-034", "SC-R3-046", "SC-R3-049",
+      "SC-R3-076", "SC-R3-082", "SC-R3-087", "SC-R3-096", "SC-R3-098",
+      "SC-R3-108", "SC-R3-112", "SC-R3-113", "SC-R3-118", "SC-R3-123",
+      "SC-R3-124", "SC-R3-125", "SC-R3-127", "SC-R3-128", "SC-R3-129",
+      "SC-R4-014", "SC-R4-023", "SC-R4-042", "SC-R4-050", "SC-R4-060",
+      "SC-R4-070", "SC-R4-071", "SC-R4-105", "SC-R4-106", "SC-R4-110",
+      "SC-R4-115", "SC-R4-118", "SC-R4-121", "SC-R4-123", "SC-R4-139",
+      "SC-R5-051", "SC-R5-056", "SC-R5-059", "SC-R5-067", "SC-R5-071",
+      "SC-R5-078", "SC-R5-083", "SC-R5-090", "SC-R5-127", "SC-R6-076",
+      "SC-R6-099", "SC-R6-116", "SC-R6-125", "SC-R6-132", "SC-R6-138",
+      "SC-R6-140", "SC-R6-162", "SC-R7-067", "SC-R7-105", "SC-R8-002",
+      "SC-R8-003", "SC-R8-004", "SC-R8-005", "SC-R8-007", "SC-R8-008",
+      "SC-R8-009", "SC-R8-014", "SC-R8-016", "SC-R8-017", "SC-R8-019",
+      "SC-R8-021", "SC-R8-025", "SC-R8-026", "SC-R8-067", "SC-R8-069",
+      "SC-R8-070", "SC-R8-073", "SC-R8-101", "SC-R8-103", "SC-R8-108",
+      "SC-R8-109", "SC-R8-112", "SC-R8-167", "SC-R8-168", "SC-R8-169",
+      "SC-R8-170", "SC-R8-171", "SC-R8-173", "SC-R8-176", "SC-R8-181",
+      "SC-R8-182", "SC-R8-187", "SC-R9-006", "SC-R9-007", "SC-R9-011",
+      "SC-R9-012", "SC-R9-013", "SC-R9-016", "SC-R9-024", "SC-R9-025",
+      "SC-R9-046", "SC-R9-048", "SC-R9-049", "SC-R9-061", "SC-R9-065",
+      "SC-R9-100", "SC-R9-101", "SC-R9-102", "SC-R9-103", "SC-R9-104",
+      "SC-R10-004", "SC-R10-005", "SC-R10-009", "SC-R10-010",
+      "SC-R10-022", "SC-R10-184"
+    ]
+  },
+  "what_it_supports": {
+    "yes": "La estructura de incentivos de tráfico externo en Etsy (descuento 4%) y Gumroad (fee 30% Discover vs. 10% directo) está documentada. La dependencia de vendedores del tráfico externo está documentada. Migraciones de plataforma motivadas por comparaciones de tarifas están documentadas.",
+    "no": "Que generar tráfico externo sea siempre perjudicial para los vendedores (SC-R8-123 documenta éxito con estrategias de afiliados en Gumroad)."
+  },
+  "what_is_missing": [
+    "Proporción de vendedores exitosos en Etsy que dependen principalmente de tráfico interno vs. externo.",
+    "Datos sobre la efectividad comparativa del descuento de 4% de Etsy para vendedores que generan tráfico externo.",
+    "Análisis de la propiedad de audiencia: qué porcentaje de vendedores con tráfico externo construyen lista de correo vs. tráfico de redes sociales."
+  ],
+  "classification_risk": ["posible sobre-abstracción", "posible mezcla de unidades incompatibles"],
+  "source_patterns": ["COO-009"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}

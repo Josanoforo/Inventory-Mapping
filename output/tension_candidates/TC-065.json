@@ -1,0 +1,40 @@
+{
+  "id": "TC-065",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el requisito de declaración de contenido IA de Amazon KDP bloquea la publicación documentada de obras híbridas donde el porcentaje de IA no es calculable con precisión. El corpus documenta 1 card del bloqueador (requisito de declaración IA en KDP) y 1 card del bloqueado (ambigüedad para autores de obras híbridas).",
+  "analytical_unit": "publicación de obras híbridas en Amazon KDP con contenido parcialmente generado por IA",
+  "signal_ids": ["SC-R7-147", "SC-R7-148"],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — Amazon KDP requiere declaración de contenido IA sin contemplar obras con porcentaje parcial",
+      "definition": "Card que documenta el requisito de declaración de contenido IA en Amazon KDP",
+      "signal_ids": [
+        {"id": "SC-R7-147", "description": "Amazon KDP requiere declaración de contenido IA al publicar, incluyendo texto e imágenes"}
+      ],
+      "mechanical_summary": "Una card documenta el requisito de declaración de IA en KDP para texto e imágenes, sin mecanismo para contenido parcial.",
+      "unit_used": "requisito de declaración de contenido IA en Amazon KDP"
+    },
+    "blocked": {
+      "label": "Blocked — autores de contenido híbrido no pueden declarar con precisión y enfrentan riesgo de incumplimiento",
+      "definition": "Card que documenta la ambigüedad que enfrentan autores de obras con contenido parcialmente generado por IA",
+      "signal_ids": [
+        {"id": "SC-R7-148", "description": "autores de obras híbridas documentan ambigüedad sobre qué declarar cuando el contenido es parcialmente IA"}
+      ],
+      "mechanical_summary": "Una card documenta que autores de contenido híbrido no pueden declarar con precisión qué es IA y qué es humano.",
+      "unit_used": "publicación fluida de obras con contenido parcialmente generado por IA en KDP"
+    }
+  },
+  "what_it_supports": {
+    "yes": "El requisito de declaración de IA en KDP está documentado. La ambigüedad que enfrentan autores de obras híbridas está documentada.",
+    "no": "Que el requisito impida definitivamente la publicación (autores pueden declarar conservadoramente o no declarar, asumiendo riesgo de incumplimiento)."
+  },
+  "what_is_missing": [
+    "Texto completo de SC-R7-147 y SC-R7-148 para verificar los detalles del requisito y los casos documentados.",
+    "Consecuencias específicas documentadas para autores que declaran incorrectamente o no declaran.",
+    "Criterio de KDP para determinar qué porcentaje de contenido IA activa la declaración obligatoria."
+  ],
+  "classification_risk": ["posible falta de grounding", "posible sobre-abstracción"],
+  "source_patterns": ["FRI-031"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}

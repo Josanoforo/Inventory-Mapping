@@ -1,0 +1,66 @@
+{
+  "id": "TC-032",
+  "status": "needs_audit_before_classification",
+  "type": "contradicción",
+  "mechanical_relation": "Las tarjetas se separan en polos sobre el ingreso máximo alcanzable vendiendo prompts en PromptBase. El corpus documenta 3 cards con cifras concretas de techo de ingresos para vendedores top-40 en el rango $200–$600/mes (Polo A) y 1 card con estado de extracción ambiguous que afirma que algunos vendedores ganan cinco cifras mensuales (Polo B). La card del Polo B no cita fuente primaria verificable y tiene extracción marcada como ambiguous en el corpus, lo que requiere auditoría antes de clasificar como contradicción completa.",
+  "analytical_unit": "techo de ingresos mensuales para vendedores de prompts en PromptBase",
+  "signal_ids": [
+    "SC-R7-108",
+    "SC-R7-109",
+    "SC-R7-110",
+    "SC-R7-121"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — ingresos PromptBase techo $200–$600/mes para vendedores top-40",
+        "definition": "Cards que documentan cifras concretas de ingresos para vendedores top-40 en PromptBase con techo en el rango $200–$600/mes",
+        "signal_ids": [
+          {"id": "SC-R7-108", "description": "implo.ai: 'Top-40-ranked sellers earning approximately $200–$400/month after costs'"},
+          {"id": "SC-R7-109", "description": "implo.ai: 'Pure prompt sales on PromptBase appear to cap at approximately $200–$600/month for most top-40-ranked sellers'"},
+          {"id": "SC-R7-121", "description": "ArtDriven (Trustpilot): 'income on PromptBase is negligible for most sellers; significantly more sellers than actual buyers'"}
+        ],
+        "mechanical_summary": "Tres cards documentan el techo de ingresos en PromptBase. SC-R7-108 y SC-R7-109 provienen de implo.ai con cifras numéricas verificadas ($200–$400/mes y $200–$600/mes para top-40). SC-R7-121 proviene de vendedor directo en Trustpilot. Las tres proveen texto verificado con fuente nombrada.",
+        "unit_used": "ingresos mensuales en USD para vendedores en rango top-40 de PromptBase"
+      },
+      {
+        "label": "Polo B — algunos vendedores ganan cinco cifras mensuales",
+        "definition": "Card con estado de extracción ambiguous que afirma ingresos en rango de cinco cifras mensuales para algunos vendedores de PromptBase",
+        "signal_ids": [
+          {"id": "SC-R7-110", "description": "Photoroom: 'some sellers earning five figures monthly' — sin fuente primaria citada, marcado ambiguous en corpus"}
+        ],
+        "mechanical_summary": "Una sola card (SC-R7-110) documenta ingresos de cinco cifras mensuales para algunos vendedores. La card está marcada como ambiguous en el corpus y no cita fuente primaria verificable. La fuente es Photoroom, que no es vendedor directo ni plataforma de prompts.",
+        "unit_used": "rango de ingresos mensuales en USD sin cifra específica verificada"
+      }
+    ]
+  },
+  "audit_flags": [
+    "SC-R7-110 tiene extraction_status 'ambiguous' en el corpus y no cita fuente primaria verificable para la afirmación de cinco cifras mensuales.",
+    "Polo B tiene solo 1 card; soporte insuficiente para contradicción completa por pre-build filter.",
+    "La contradicción puede ser entre fuentes con distinto alcance: implo.ai mide vendedores top-40; Photoroom puede referirse a un subconjunto distinto (fuera del top-40 convencional o en períodos distintos).",
+    "Requiere verificar el texto original de SC-R7-110 para determinar si la afirmación es verificable o si es un error de extracción."
+  ],
+  "what_it_supports": {
+    "yes": "El corpus documenta una afirmación de cinco cifras mensuales (SC-R7-110) que contrasta con el techo documentado de $200–$600/mes para top-40 vendedores (Polo A). La divergencia entre las cifras es documentable como asimetría en el corpus.",
+    "no": "Que SC-R7-110 sea una fuente confiable de la afirmación de cinco cifras mensuales (estado ambiguous, sin fuente primaria). Que los polos describan el mismo conjunto de vendedores."
+  },
+  "what_is_missing": [
+    "Texto original de SC-R7-110 para verificar el contexto y fuente primaria de la afirmación de cinco cifras mensuales.",
+    "Resolución del estado de extracción ambiguous de SC-R7-110.",
+    "Cards adicionales que documenten ingresos superiores a $600/mes en PromptBase para vendors fuera del top-40.",
+    "Separación temporal: si las cifras del Polo A y Polo B corresponden al mismo período."
+  ],
+  "classification_risk": [
+    "posible contradicción falsa",
+    "posible artefacto de fuente",
+    "posible falta de grounding"
+  ],
+  "source_patterns": ["CON-003"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

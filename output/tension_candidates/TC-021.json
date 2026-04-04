@@ -1,0 +1,76 @@
+{
+  "id": "TC-021",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la complejidad técnica de la plantilla de hoja de cálculo se asocia con ventas altas o con problemas de compatibilidad y compras frustradas en el mismo mercado. El corpus documenta una distribución asimétrica: plantillas de baja complejidad técnica se concentran en el polo de ventas altas; plantillas de alta complejidad (macros, VBA) se concentran en el polo de problemas documentados.",
+  "analytical_unit": "asociación entre complejidad técnica de plantillas de hoja de cálculo y resultados comerciales documentados en el corpus",
+  "signal_ids": [
+    "SC-R2-090",
+    "SC-R2-091",
+    "SC-R2-092",
+    "SC-R2-096",
+    "SC-R2-097",
+    "SC-R2-103",
+    "SC-R2-104",
+    "SC-R2-107",
+    "SC-R2-110",
+    "SC-R2-113",
+    "SC-R2-114",
+    "SC-R2-116"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — baja complejidad técnica, alta viabilidad comercial",
+        "definition": "Cards que documentan baja complejidad técnica (sin macros, fórmulas simples) asociada con alta viabilidad comercial en plantillas de hoja de cálculo",
+        "signal_ids": [
+          {"id": "SC-R2-090", "description": "SendOwl blog marzo 2026: features que hacen vender templates — fórmulas bloqueadas, validación de datos, instrucciones claras; sin mencionar macros"},
+          {"id": "SC-R2-091", "description": "simplicidad técnica asociada a alta demanda comercial documentada"},
+          {"id": "SC-R2-092", "description": "Emily McDermott con $280K en ingresos de Etsy se describe como not a spreadsheet expert by any means"},
+          {"id": "SC-R2-096", "description": "demanda concentrada en plantillas sin macros documentada"},
+          {"id": "SC-R2-097", "description": "plantillas simples documentadas como best sellers en la categoría"},
+          {"id": "SC-R2-103", "description": "ventas altas en plantillas de baja complejidad documentadas"},
+          {"id": "SC-R2-104", "description": "fórmulas simples preferidas por compradores documentadas"}
+        ],
+        "mechanical_summary": "Siete cards documentan asociación entre baja complejidad técnica y ventas altas en plantillas de hoja de cálculo. SC-R2-090 provee texto de guía de vendedores. SC-R2-092 provee testimonio verificado de vendedora exitosa. SC-R2-091, SC-R2-096, SC-R2-097, SC-R2-103, SC-R2-104 tienen descripciones genéricas en el scan.",
+        "unit_used": "observaciones cualitativas sobre preferencia de compradores y resultados de ventas, ingresos de vendedor auto-reportados (USD)"
+      },
+      {
+        "label": "Polo B — alta complejidad técnica, problemas documentados",
+        "definition": "Cards que documentan alta complejidad técnica (macros, VBA) asociada con problemas de compatibilidad, reembolsos y disputas",
+        "signal_ids": [
+          {"id": "SC-R2-107", "description": "macros VBA en Excel no compatibles con versiones antiguas; listado observado en Etsy sin mención de compatibilidad"},
+          {"id": "SC-R2-110", "description": "plantillas complejas generan quejas post-compra documentadas"},
+          {"id": "SC-R2-113", "description": "VBA no compatible en versiones antiguas de Excel documentado"},
+          {"id": "SC-R2-114", "description": "problemas de ejecución de macros en distintas versiones documentados"},
+          {"id": "SC-R2-116", "description": "complejidad técnica asociada a reembolsos y disputas documentada"}
+        ],
+        "mechanical_summary": "Cinco cards documentan problemas asociados a alta complejidad técnica en plantillas. SC-R2-107, SC-R2-113 documentan incompatibilidades de VBA con versiones antiguas de Excel. SC-R2-110, SC-R2-114, SC-R2-116 tienen descripciones genéricas en el scan.",
+        "unit_used": "observaciones cualitativas sobre incompatibilidades técnicas y problemas post-compra"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución en el corpus donde plantillas de baja complejidad técnica co-ocurren con señales de alta demanda comercial y plantillas de alta complejidad técnica co-ocurren con señales de problemas de compatibilidad y disputas, en el mismo mercado de plantillas de hoja de cálculo.",
+    "no": "Que todas las plantillas complejas generen problemas ni que todas las plantillas simples sean exitosas. Que la distribución sea representativa del mercado total de plantillas de hoja de cálculo."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R2-091, SC-R2-096, SC-R2-097, SC-R2-103, SC-R2-104, SC-R2-110, SC-R2-114, SC-R2-116 (descripciones genéricas en el scan).",
+    "Datos de ventas de plantillas con macros vs. sin macros en el mismo marketplace.",
+    "Tasas de reembolso por tipo de complejidad técnica para verificar la asociación del Polo B.",
+    "Evidencia de si compradores buscan explícitamente sin macros en sus búsquedas de plantillas."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible artefacto del detector",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["ASY-004"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "TC-026",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la plataforma soporta métodos de pago locales de LATAM o solo métodos de pago globales sin cobertura local en el mismo sistema de distribución de productos digitales. Polo A: 4 cards de plataformas con soporte de pagos locales LATAM. Polo B: 3 cards de plataformas globales sin esa cobertura.",
+  "analytical_unit": "cobertura de métodos de pago locales LATAM en plataformas de productos digitales, separada de ingresos de vendedores",
+  "signal_ids": [
+    "SC-R1-018",
+    "SC-R1-050",
+    "SC-R1-054",
+    "SC-R1-055",
+    "SC-R1-019",
+    "SC-R1-020",
+    "SC-R4-113"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — soporte de pagos locales LATAM en plataformas",
+        "definition": "Cards que documentan plataformas con soporte de métodos de pago locales de mercados latinoamericanos",
+        "signal_ids": [
+          {"id": "SC-R1-018", "description": "plataforma con soporte de pagos locales LATAM documentada"},
+          {"id": "SC-R1-050", "description": "métodos de pago LATAM nativos disponibles en plataforma documentados"},
+          {"id": "SC-R1-054", "description": "cobertura de pago local en mercados latinoamericanos documentada"},
+          {"id": "SC-R1-055", "description": "plataforma con integración de pagos regionales LATAM documentada"}
+        ],
+        "mechanical_summary": "Cuatro cards documentan plataformas con soporte de pagos locales LATAM. Las cuatro tienen descripciones genéricas en el scan sin texto específico verificado ni nombre de plataforma. No se puede verificar qué plataformas específicas son las documentadas.",
+        "unit_used": "observaciones cualitativas sobre disponibilidad de métodos de pago locales en plataformas"
+      },
+      {
+        "label": "Polo B — plataformas globales sin soporte de pagos locales LATAM",
+        "definition": "Cards que documentan plataformas globales sin cobertura de métodos de pago locales para compradores LATAM",
+        "signal_ids": [
+          {"id": "SC-R1-019", "description": "plataforma global sin métodos de pago locales LATAM documentada"},
+          {"id": "SC-R1-020", "description": "Gumroad no soporta métodos de pago locales de LATAM incluyendo Mercado Pago, PIX, etc."},
+          {"id": "SC-R4-113", "description": "plataforma sin cobertura de pagos locales en LATAM documentada"}
+        ],
+        "mechanical_summary": "Tres cards documentan plataformas globales sin soporte de pagos locales LATAM. SC-R1-020 provee texto verificado sobre Gumroad específicamente. SC-R1-019, SC-R4-113 tienen descripciones genéricas.",
+        "unit_used": "observaciones cualitativas sobre ausencia de métodos de pago locales, plataformas específicas nombradas"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución en el corpus entre plataformas con soporte de pagos locales LATAM y plataformas globales sin esa cobertura en el mismo sistema de distribución de productos digitales.",
+    "no": "Que las plataformas del Polo A sean las que los vendedores del corpus usan para el mercado LATAM. Que la ausencia de pagos locales LATAM afecte igualmente a todos los países de la región."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R1-018, SC-R1-050, SC-R1-054, SC-R1-055, SC-R1-019, SC-R4-113 (descripciones genéricas en el scan; solo SC-R1-020 tiene texto verificado).",
+    "Nombres de las plataformas específicas del Polo A que tienen soporte de pagos locales LATAM.",
+    "Datos de proporción de compradores LATAM en plataformas con y sin soporte local.",
+    "Separación por país dentro de LATAM (Brasil, México, Argentina tienen infraestructuras de pago distintas)."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible agrupación disfrazada de tensión"
+  ],
+  "source_patterns": ["ASY-009"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "TC-016",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de resistencia de autores y lectores al contenido generado por IA co-ocurren con señales de viabilidad comercial y crecimiento de contenido generado por IA en las mismas plataformas. Fuerza A: resistencia organizada documentada de autores y lectores contra contenido IA. Fuerza B: viabilidad comercial, ventas documentadas y crecimiento de contenido generado por IA en las mismas plataformas.",
+  "analytical_unit": "señales de resistencia de comunidades de autores y lectores y señales de actividad comercial de contenido IA en el mismo sistema de plataformas",
+  "signal_ids": [
+    "SC-R10-083",
+    "SC-R10-084",
+    "SC-R10-086",
+    "SC-R10-087",
+    "SC-R10-088",
+    "SC-R10-169",
+    "SC-R7-163",
+    "SC-R7-164",
+    "SC-R7-054",
+    "SC-R10-135",
+    "SC-R10-042",
+    "SC-R10-059"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — autores humanos y lectores resistiendo contenido IA",
+        "definition": "Cards que documentan resistencia organizada de autores humanos y lectores contra contenido generado por IA en plataformas",
+        "signal_ids": [
+          {"id": "SC-R10-083", "description": "autores humanos documentados resistiendo activamente contenido IA en plataformas"},
+          {"id": "SC-R10-084", "description": "resistencia de lectores a contenido generado por IA documentada"},
+          {"id": "SC-R10-086", "description": "campañas documentadas contra contenido IA por comunidades de autores"},
+          {"id": "SC-R10-087", "description": "defensa de autores contra contenido IA en plataformas de publicación documentada"},
+          {"id": "SC-R10-088", "description": "sentimiento documentado de lectores contra libros y contenido generados por IA"},
+          {"id": "SC-R10-169", "description": "suscriptor de Kindle Unlimited cancela suscripción por libros generados por IA: usé Kindle Unlimited durante años y lo cancelé"}
+        ],
+        "mechanical_summary": "Seis cards documentan resistencia de autores y lectores contra contenido IA. SC-R10-169 provee testimonio verificado de cancelación de suscripción por razón IA. SC-R10-083, SC-R10-084, SC-R10-086, SC-R10-087, SC-R10-088 tienen descripciones genéricas en el scan. No están normalizadas por plataforma ni por tipo de contenido IA.",
+        "unit_used": "observaciones cualitativas sobre resistencia organizada de autores y lectores"
+      },
+      {
+        "label": "Polo B — contenido generado por IA comercialmente viable y creciendo",
+        "definition": "Cards que documentan viabilidad comercial, ventas y crecimiento de contenido generado por IA en las mismas plataformas",
+        "signal_ids": [
+          {"id": "SC-R7-163", "description": "contenido generado por IA documentado como comercialmente viable en plataformas"},
+          {"id": "SC-R7-164", "description": "ventas documentadas de contenido generado por IA en las mismas plataformas"},
+          {"id": "SC-R7-054", "description": "herramientas de generación de contenido IA documentadas en workflows comerciales de vendedores"},
+          {"id": "SC-R10-135", "description": "rendimiento comercial documentado de contenido IA en plataformas"},
+          {"id": "SC-R10-042", "description": "ingresos de productos generados por IA documentados"},
+          {"id": "SC-R10-059", "description": "contenido generado por IA documentado como creciente y comercialmente activo: entre 10,000 y 40,000 ebooks por mes"}
+        ],
+        "mechanical_summary": "Seis cards documentan actividad comercial de contenido IA. SC-R10-059 provee rango cuantitativo de publicaciones mensuales. SC-R7-163, SC-R7-164, SC-R10-135, SC-R10-042 tienen descripciones genéricas en el scan. SC-R7-054 también aparece en TC-012 (OPP-007). No están normalizadas por tipo de contenido IA ni plataforma.",
+        "unit_used": "ingresos documentados (USD), rango de publicaciones mensuales (conteo), observaciones cualitativas sobre viabilidad comercial"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el corpus de resistencia documentada de comunidades de autores y lectores con actividad comercial y crecimiento de contenido IA en las mismas plataformas durante el período 2023–2026.",
+    "no": "Que la resistencia del Polo A reduzca efectivamente la actividad comercial del Polo B. Que la viabilidad comercial del Polo B persista a pesar de la resistencia del Polo A en el mismo segmento de compradores."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R10-083, SC-R10-084, SC-R10-086, SC-R10-087, SC-R10-088, SC-R7-163, SC-R7-164, SC-R10-135, SC-R10-042 (descripciones genéricas en el scan).",
+    "Datos de si la resistencia del Polo A tiene impacto medible en ventas del contenido IA del Polo B.",
+    "Separación por tipo de plataforma (publicación masiva vs. mercados creativos especializados).",
+    "Evidencia de si los mismos compradores que resisten en el Polo A son los mismos que compran en el Polo B."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["OPP-011"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

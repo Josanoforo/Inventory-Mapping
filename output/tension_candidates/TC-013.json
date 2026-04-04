@@ -1,0 +1,80 @@
+{
+  "id": "TC-013",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de ingresos elevados de vendedores outlier co-ocurren con señales de ingresos típicos o medianos bajos o nulos en el mismo mercado de productos digitales. Fuerza A: casos de ingresos excepcionales documentados que señalan viabilidad comercial alta. Fuerza B: datos de ingresos medianos bajos, distribuciones sesgadas y tasas de salida documentadas que señalan que la mayoría de vendedores no alcanza ingresos viables.",
+  "analytical_unit": "distribución de ingresos de vendedores en plataformas de productos digitales, separada por segmento outlier vs. mediana",
+  "signal_ids": [
+    "SC-R2-070",
+    "SC-R3-033",
+    "SC-R6-093",
+    "SC-R4-068",
+    "SC-R8-171",
+    "SC-R10-042",
+    "SC-R4-035",
+    "SC-R4-036",
+    "SC-R4-013",
+    "SC-R4-150",
+    "SC-R7-106",
+    "SC-R7-121",
+    "SC-R8-127",
+    "SC-R8-128"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — ingresos excepcionales de vendedores outlier",
+        "definition": "Cards que documentan ingresos excepcionales de vendedores outlier en plataformas de productos digitales",
+        "signal_ids": [
+          {"id": "SC-R2-070", "description": "Emily McDermott / PrettyArrow: $280,000 en ingresos vendiendo spreadsheet templates en Etsy"},
+          {"id": "SC-R3-033", "description": "Red Cheeks Girl: AmethystGarnet's productos traen más de $50,000 mensuales"},
+          {"id": "SC-R6-093", "description": "Katya Varbanova: $1.4 millones en ingresos vendiendo Canva templates en menos de 3 años"},
+          {"id": "SC-R4-068", "description": "casos documentados de vendedores con ingresos significativos en datos de plataforma"},
+          {"id": "SC-R8-171", "description": "casos documentados de vendedores con ingresos excepcionales en plataformas"},
+          {"id": "SC-R10-042", "description": "casos de vendedores de alto ingreso en productos digitales documentados"}
+        ],
+        "mechanical_summary": "Seis cards documentan ingresos excepcionales en plataformas. SC-R2-070, SC-R6-093 son ingresos auto-reportados. SC-R3-033 es estimado de tercero. SC-R4-068, SC-R8-171, SC-R10-042 tienen descripciones genéricas en el scan. Los ingresos son brutos sin deducción de fees documentada.",
+        "unit_used": "ingresos brutos auto-reportados y estimados (USD)"
+      },
+      {
+        "label": "Polo B — ingresos medianos bajos y distribución sesgada para mayoría de vendedores",
+        "definition": "Cards que documentan ingresos medianos bajos, distribuciones sesgadas y salidas de plataformas por ingresos insuficientes",
+        "signal_ids": [
+          {"id": "SC-R4-035", "description": "análisis de Marmalead 2023: mediana de ingresos en $1,200/año para todos los vendedores de Etsy"},
+          {"id": "SC-R4-036", "description": "solo el 20% de tiendas de Etsy sostiene ingreso equivalente a tiempo completo"},
+          {"id": "SC-R4-013", "description": "Reddit: vendedor con $300 en un año entero en Etsy; aproximadamente $25/mes"},
+          {"id": "SC-R4-150", "description": "datos de encuesta de ingresos de vendedores muestran medianas bajas"},
+          {"id": "SC-R7-106", "description": "mayoría de vendedores de prompts con ingresos bajos o nulos documentada"},
+          {"id": "SC-R7-121", "description": "distribución de ingresos asimétrica en mercados de prompts"},
+          {"id": "SC-R8-127", "description": "análisis de 146,271 productos de Gumroad: mediana de 28 ventas a $13, ingreso mediano aproximadamente $364 total"},
+          {"id": "SC-R8-128", "description": "solo el 0.5% de productos de Gumroad cruza 1,000 ventas; el 34% inferior tiene 1-10 ventas totales"}
+        ],
+        "mechanical_summary": "Ocho cards documentan la distribución real de ingresos con medianas bajas. SC-R4-035, SC-R8-127, SC-R8-128 son datos de análisis con fuente especificada y base de datos cuantificada. SC-R4-036, SC-R4-013, SC-R7-106, SC-R7-121 son observaciones de fuentes distintas. SC-R4-150 tiene descripción genérica en el scan.",
+        "unit_used": "mediana de ingresos anuales (USD), porcentaje de vendedores por rango de ingresos, mediana de ventas por producto (conteo)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el corpus de casos de ingresos excepcionales con datos de distribución que muestran mediana de ingresos baja para la mayoría de vendedores en las mismas plataformas durante el período del corpus.",
+    "no": "Que los casos del Polo A sean representativos de la mayoría de vendedores. Que los datos del Polo B apliquen exactamente a los mismos tipos de producto que los casos del Polo A."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R4-068, SC-R8-171, SC-R10-042, SC-R4-150 (descripciones genéricas en el scan).",
+    "Datos de ingresos netos (después de fees) para los casos de altos ingresos del Polo A.",
+    "Distribución completa de ingresos por categoría de producto para ver si el patrón varía por tipo.",
+    "Tiempo de operación de los vendedores del Polo A vs. distribución general del Polo B."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible falta de grounding",
+    "posible mezcla de unidades incompatibles"
+  ],
+  "source_patterns": ["OPP-008"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

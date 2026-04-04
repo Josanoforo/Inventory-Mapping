@@ -1,0 +1,62 @@
+{
+  "id": "TC-044",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la política de no-reembolso de Gumroad (sin excepción salvo fraude) bloquea la resolución de disputas de compradores insatisfechos y concentra la carga de soporte en el vendedor. El corpus documenta 15 cards del bloqueador (política de no-reembolso y sus consecuencias) y 14 cards del bloqueado (compradores sin resolución y vendedores con carga de soporte).",
+  "analytical_unit": "resolución de disputas post-compra en Gumroad para compradores insatisfechos",
+  "signal_ids": [
+    "SC-R8-021", "SC-R8-022", "SC-R8-027", "SC-R8-073", "SC-R8-074",
+    "SC-R8-082", "SC-R8-083", "SC-R8-158", "SC-R8-172", "SC-R8-173",
+    "SC-R9-065", "SC-R9-066", "SC-R9-070", "SC-R10-038", "SC-R10-142",
+    "SC-R1-015", "SC-R1-020", "SC-R4-107", "SC-R4-112", "SC-R4-113",
+    "SC-R5-054", "SC-R8-078", "SC-R8-084", "SC-R8-085", "SC-R8-114",
+    "SC-R8-141", "SC-R10-026", "SC-R10-183", "SC-R10-184"
+  ],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — política de no-reembolso de Gumroad",
+      "definition": "Cards que documentan la política de no-reembolso de Gumroad y sus mecanismos de aplicación",
+      "signal_ids": [
+        {"id": "SC-R8-021", "description": "Gumroad política oficial: no se emiten reembolsos salvo en casos de fraude documentado"},
+        {"id": "SC-R8-022", "description": "Gumroad delega la decisión de reembolso al vendedor individual"},
+        {"id": "SC-R8-082", "description": "Trustpilot: Gumroad afirmó esperar 30 días para reembolso pero lo emitió de inmediato sin avisar al vendedor"},
+        {"id": "SC-R8-083", "description": "vendedor documenta que Gumroad emitió reembolso sin su consentimiento"}
+      ],
+      "mechanical_summary": "Cuatro cards con texto verificado documentan la política de no-reembolso de Gumroad (SC-R8-021) y sus inconsistencias en aplicación (SC-R8-082, SC-R8-083). La política delega la decisión al vendedor pero Gumroad a veces actúa unilateralmente.",
+      "unit_used": "documentación de política oficial y casos de aplicación inconsistente"
+    },
+    "blocked": {
+      "label": "Blocked — compradores sin resolución y vendedores con carga de soporte",
+      "definition": "Cards que documentan compradores que no reciben reembolso por productos defectuosos y vendedores que absorben la carga",
+      "signal_ids": [
+        {"id": "SC-R9-065", "description": "comprador documenta no poder obtener reembolso por producto digital defectuoso en Gumroad"},
+        {"id": "SC-R9-066", "description": "comprador reporta disputa no resuelta en Gumroad sin opciones de escalación"},
+        {"id": "SC-R4-107", "description": "vendedor documenta tener que gestionar disputas de compradores directamente por ausencia de sistema Gumroad"},
+        {"id": "SC-R4-112", "description": "vendedor reporta carga de soporte aumentada por política de resolución de disputas de Gumroad"}
+      ],
+      "mechanical_summary": "Cuatro cards documentan la experiencia de compradores sin resolución (SC-R9-065, SC-R9-066) y vendedores con carga de soporte adicional (SC-R4-107, SC-R4-112).",
+      "unit_used": "experiencias documentadas de compradores y vendedores con disputas no resueltas"
+    }
+  },
+  "what_it_supports": {
+    "yes": "La política de no-reembolso de Gumroad está documentada en texto oficial (SC-R8-021). El corpus documenta compradores sin resolución y vendedores con carga de soporte. La inconsistencia en la aplicación de la política (SC-R8-082, SC-R8-083) agrega una capa adicional a la fricción.",
+    "no": "Que todos los compradores insatisfechos en Gumroad sean bloqueados absolutamente (la política delega al vendedor, quien puede emitir reembolsos opcionalmente). Que la carga de soporte sea uniforme para todos los vendedores."
+  },
+  "what_is_missing": [
+    "Datos de tasa de reembolso voluntario por vendedores vs. no-reembolso en Gumroad.",
+    "Comparación con políticas de reembolso de plataformas alternativas (Etsy, Creative Market) para el mismo tipo de disputa.",
+    "Texto completo de las cards SC-R9-065, SC-R9-066 para verificar el tipo de producto y disputa."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": ["FRI-009"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

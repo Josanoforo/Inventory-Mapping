@@ -1,0 +1,70 @@
+{
+  "id": "TC-022",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según el rango de precio de planners digitales: precios bajos individuales con licencia anual versus precios altos en bundles con licencia lifetime en el mismo mercado. Nota de unidades: el Polo A usa precio anual datado; el Polo B usa precio lifetime sin fecha de renovación. Las unidades son incompatibles sin normalización temporal.",
+  "analytical_unit": "rango de precio de planners digitales en plataformas (precio unitario anual vs. bundle lifetime), con unidades declaradas como incomparables sin normalización",
+  "signal_ids": [
+    "SC-R3-052",
+    "SC-R3-054",
+    "SC-R3-072",
+    "SC-R3-003",
+    "SC-R3-056",
+    "SC-R3-069",
+    "SC-R3-039",
+    "SC-R3-073",
+    "SC-R3-065"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — precio bajo individual, licencia anual",
+        "definition": "Cards que documentan precios bajos en planners digitales individuales con esquema de pago anual",
+        "signal_ids": [
+          {"id": "SC-R3-052", "description": "precio bajo individual en planner digital documentado"},
+          {"id": "SC-R3-054", "description": "DigiGirlPlans: planner de estudiante digital a $3.06, precio original $6.12"},
+          {"id": "SC-R3-072", "description": "planner con precio de entrada bajo, licencia anual documentado"},
+          {"id": "SC-R3-003", "description": "Analyzify: planners digitales completos típicamente se venden por $3-$10 en Etsy"}
+        ],
+        "mechanical_summary": "Cuatro cards documentan precios en el rango bajo para planners individuales. SC-R3-054 y SC-R3-003 proveen datos de precio verificados. SC-R3-052, SC-R3-072 tienen descripciones genéricas. Los precios corresponden a planners individuales con esquema de pago por año o por versión.",
+        "unit_used": "precio unitario (USD) por planner con licencia anual o de versión específica"
+      },
+      {
+        "label": "Polo B — precio alto en bundle, licencia lifetime",
+        "definition": "Cards que documentan precios altos en bundles de planners digitales con licencia lifetime",
+        "signal_ids": [
+          {"id": "SC-R3-056", "description": "AmethystGarnet's bundle: precio original $68.95 con frecuentes descuentos al 50%"},
+          {"id": "SC-R3-069", "description": "PhenixDigital listing: incluye lifetime updates como característica central"},
+          {"id": "SC-R3-039", "description": "WcardsGiftShop: bundle de planners a precio $34.74 original $57.90, 40% de descuento"},
+          {"id": "SC-R3-073", "description": "precio de bundle con licencia lifetime documentado"},
+          {"id": "SC-R3-065", "description": "DigitizedPlanner: pack premium de planners en rango superior de precio"}
+        ],
+        "mechanical_summary": "Cinco cards documentan precios en el rango alto para bundles con licencia lifetime. SC-R3-056 y SC-R3-039 proveen precios verificados con datos de descuento. SC-R3-073, SC-R3-065 tienen descripciones genéricas. Los bundles incluyen múltiples planners y actualizaciones perpetuas.",
+        "unit_used": "precio de bundle lifetime (USD) para múltiples planners con actualizaciones perpetuas"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución en el corpus entre planners individuales de precio bajo (anual) y bundles de precio alto (lifetime) en el mismo mercado de planners digitales.",
+    "no": "Que los precios del Polo A y Polo B sean comparables sin normalización temporal. Que la distribución de precios sea representativa de todo el mercado de planners digitales."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R3-052, SC-R3-072, SC-R3-073, SC-R3-065 (descripciones genéricas en el scan).",
+    "Normalización de precios por valor anual para hacer comparable Polo A y Polo B.",
+    "Datos de volumen de ventas por rango de precio.",
+    "Datos de si el modelo de bundle lifetime o precio unitario es predominante en el corpus."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión"
+  ],
+  "source_patterns": ["ASY-005"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

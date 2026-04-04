@@ -1,0 +1,77 @@
+{
+  "id": "TC-069",
+  "status": "pending_review",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre en 7 rounds distintos (47 cards): la imposibilidad de descargar desde la app móvil de Etsy co-ocurre con frustración documentada del comprador y carga de soporte documentada del vendedor. El corpus documenta en múltiples rounds las restricciones técnicas de descarga (Polo A) y el impacto en compradores y vendedores (Polo B).",
+  "analytical_unit": "experiencia de descarga de productos digitales en Etsy desde dispositivos móviles y su impacto en compradores y vendedores",
+  "signal_ids": [
+    "SC-R2-051", "SC-R2-059", "SC-R2-106", "SC-R2-117", "SC-R2-118",
+    "SC-R3-018", "SC-R3-023", "SC-R3-024", "SC-R3-046", "SC-R3-049",
+    "SC-R3-050", "SC-R3-061", "SC-R3-082", "SC-R3-092", "SC-R3-098",
+    "SC-R3-108", "SC-R3-112", "SC-R3-113", "SC-R3-118", "SC-R3-123",
+    "SC-R3-124", "SC-R3-125", "SC-R3-128", "SC-R3-134", "SC-R4-050",
+    "SC-R5-127", "SC-R6-076", "SC-R8-006", "SC-R8-070", "SC-R8-146",
+    "SC-R9-003", "SC-R9-006", "SC-R9-007", "SC-R9-011", "SC-R9-012",
+    "SC-R9-013", "SC-R9-016", "SC-R9-018", "SC-R9-024", "SC-R9-025",
+    "SC-R9-046", "SC-R9-048", "SC-R9-049", "SC-R9-100", "SC-R9-101",
+    "SC-R9-102", "SC-R9-103"
+  ],
+  "structured_support": {
+    "polo_a": {
+      "label": "Polo A — restricción técnica de descarga en app móvil de Etsy",
+      "definition": "Cards que documentan la limitación técnica de descarga de productos digitales desde la app móvil de Etsy",
+      "signal_ids": [
+        {"id": "SC-R3-123", "description": "Etsy Help Center: no se puede descargar una compra digital desde la app de Etsy en el momento de la compra"},
+        {"id": "SC-R3-125", "description": "ForLittleLion FAQ: no es posible descargar ítems digitales desde la app de Etsy"},
+        {"id": "SC-R9-100", "description": "Etsy Help oficial: si nada ocurre al hacer clic en el enlace de descarga puede ser problema del navegador"},
+        {"id": "SC-R9-101", "description": "Etsy Help oficial: el botón Download Files aparece en gris mientras el pago está pendiente"},
+        {"id": "SC-R9-102", "description": "Etsy Help oficial: no se puede descargar una compra digital desde la app de Etsy"}
+      ],
+      "mechanical_summary": "Múltiples fuentes oficiales de Etsy confirman la restricción técnica de descarga en app móvil.",
+      "unit_used": "restricción técnica de descarga en app móvil de Etsy"
+    },
+    "polo_b": {
+      "label": "Polo B — frustración del comprador y carga de soporte del vendedor",
+      "definition": "Cards que documentan el impacto de la restricción técnica en compradores y la carga de soporte resultante para vendedores",
+      "signal_ids": [
+        {"id": "SC-R2-117", "description": "vendedor Etsy reporta ~10% de descargas de productos digitales con problemas de entrega"},
+        {"id": "SC-R2-118", "description": "vendedor Etsy reporta reseñas negativas por incapacidad de compradores para descargar"},
+        {"id": "SC-R3-108", "description": "vendedores Etsy: compradores dejaron reseñas de 1 estrella por descarga fallida"},
+        {"id": "SC-R3-112", "description": "vendedor reporta compradores que no recibieron descarga o no pudieron descargar"},
+        {"id": "SC-R3-113", "description": "vendedor Etsy: algunos compradores dicen que no pudieron descargar sus archivos"},
+        {"id": "SC-R9-003", "description": "reseñador Trustpilot: no recibió el archivo digital después de la compra, solicita reembolso"},
+        {"id": "SC-R9-006", "description": "vendedor reporta que compradores escriben frecuentemente 'nunca recibí el archivo'"},
+        {"id": "SC-R9-007", "description": "vendedor/educador: solicitud más común de soporte es compradores que no pueden acceder a su descarga"},
+        {"id": "SC-R9-018", "description": "vendedores reportan que compradores con Apple ID no pueden acceder a archivos digitales en Etsy"},
+        {"id": "SC-R9-049", "description": "Gold City Ventures: muchos clientes de Etsy no saben que no pueden acceder a descargas digitales desde la app"},
+        {"id": "SC-R9-103", "description": "servicio de impresión: uno de los errores más comunes con descargas digitales de Etsy"}
+      ],
+      "mechanical_summary": "Múltiples cards documentan impacto en compradores (frustración, reseñas negativas, solicitudes de reembolso) y en vendedores (carga de soporte, reseñas injustas).",
+      "unit_used": "impacto en compradores (frustración, reseñas) y carga de soporte en vendedores de Etsy"
+    }
+  },
+  "additional_context": {
+    "note": "Las siguientes 31 cards documentan contexto del ecosistema Etsy de productos digitales sin ser evidencia directa del mecanismo de descarga fallida",
+    "signal_ids": [
+      "SC-R2-051", "SC-R2-059", "SC-R2-106", "SC-R3-018", "SC-R3-023",
+      "SC-R3-024", "SC-R3-046", "SC-R3-049", "SC-R3-050", "SC-R3-061",
+      "SC-R3-082", "SC-R3-092", "SC-R3-098", "SC-R3-118", "SC-R3-124",
+      "SC-R3-128", "SC-R3-134", "SC-R4-050", "SC-R5-127", "SC-R6-076",
+      "SC-R8-006", "SC-R8-070", "SC-R8-146", "SC-R9-011", "SC-R9-012",
+      "SC-R9-013", "SC-R9-016", "SC-R9-024", "SC-R9-025", "SC-R9-046",
+      "SC-R9-048"
+    ]
+  },
+  "what_it_supports": {
+    "yes": "La restricción técnica de descarga en app móvil de Etsy está documentada en múltiples fuentes oficiales. El impacto en compradores (frustración, solicitudes de reembolso, reseñas negativas) está documentado. La carga de soporte en vendedores está documentada.",
+    "no": "Que todos los problemas de descarga sean causados exclusivamente por la restricción de app móvil (otros factores: Apple ID, pago pendiente, problemas de navegador)."
+  },
+  "what_is_missing": [
+    "Proporción de problemas de descarga atribuibles específicamente a la restricción de app móvil vs. otros factores técnicos.",
+    "Datos de cuántos compradores de Etsy usan la app móvil como canal principal de compra.",
+    "Métricas de impacto en ratings de vendedores atribuibles a problemas de descarga."
+  ],
+  "classification_risk": ["posible sobre-abstracción", "posible artefacto de fuente"],
+  "source_patterns": ["COO-001"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}

@@ -1,0 +1,69 @@
+{
+  "id": "TC-002",
+  "status": "pending_review",
+  "type": "contradicción",
+  "mechanical_relation": "Las cards se separan en polos sobre Gumroad Discover: un polo concentra observaciones que documentan ausencia de tráfico orgánico; el polo opuesto concentra observaciones que documentan ventas orgánicas generadas por Discover. Las afirmaciones son sobre el mismo sujeto (Gumroad Discover) y el mismo alcance (ventas sin tráfico propio del vendedor). No converge en una descripción única del comportamiento de Gumroad Discover.",
+  "analytical_unit": "observaciones de vendedores sobre tráfico orgánico de Gumroad Discover, separadas de estrategias de tráfico externo del vendedor",
+  "signal_ids": [
+    "SC-R4-037",
+    "SC-R4-048",
+    "SC-R4-056",
+    "SC-R4-079",
+    "SC-R4-080",
+    "SC-R8-105",
+    "SC-R8-121",
+    "SC-R8-125"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — ausencia de tráfico orgánico desde Gumroad Discover",
+        "definition": "Vendedores en el corpus que documentan ausencia de tráfico orgánico desde Gumroad Discover",
+        "signal_ids": [
+          {"id": "SC-R4-037", "description": "Catherine Insler: Gumroad no tiene motor de descubrimiento interno; listó producto y obtuvo cero ventas"},
+          {"id": "SC-R4-048", "description": "Vemtrac: 'Terrible for discovery. Zero organic traffic unless already selling'"},
+          {"id": "SC-R4-056", "description": "Poonam Sharma: Gumroad no es marketplace que da tráfico orgánico sin trabajo externo"},
+          {"id": "SC-R8-105", "description": "@robfitz, Indie Hackers 2020: Gumroad no genera tráfico significativo; el vendedor lo provee"},
+          {"id": "SC-R8-121", "description": "Vendedor Indie Hackers con 25 productos: $0 en ventas, cero vistas desde búsqueda orgánica"}
+        ],
+        "mechanical_summary": "Cinco vendedores de fuentes distintas (Medium blogs, Indie Hackers forum, rondas 4 y 8) documentan que Gumroad Discover no generó tráfico orgánico para sus productos. Las observaciones abarcan distintos tipos de producto. No están normalizadas por número de productos, precio, categoría ni antigüedad de la cuenta.",
+        "unit_used": "observaciones cualitativas de vendedor sobre tráfico orgánico recibido (ausencia documentada)"
+      },
+      {
+        "label": "Polo B — ventas orgánicas atribuidas a Gumroad Discover",
+        "definition": "Vendedores en el corpus que documentan ventas orgánicas atribuidas a Gumroad Discover",
+        "signal_ids": [
+          {"id": "SC-R4-079", "description": "Tamzidul Haque: 'Gumroad's Discover is fire — landed a surprise $200 sale without lifting a finger'"},
+          {"id": "SC-R4-080", "description": "Reddit user citado: 'Gumroad's Discover is fire, but those fees killed my margins after $10k lifetime'"},
+          {"id": "SC-R8-125", "description": "Iampaulrose: $1,008.89 en ventas recomendadas por Gumroad Discover; caracterizadas como 'add on' a tráfico propio"}
+        ],
+        "mechanical_summary": "Tres observaciones de distintas fuentes (blog personal, Reddit citado en blog, Medium blog; rondas 4 y 8) documentan ventas orgánicas recibidas desde Gumroad Discover. SC-R8-125 matiza que Discover funciona como complemento, no fuente primaria. No están normalizadas por categoría de producto, precio, antigüedad ni volumen de ventas previas.",
+        "unit_used": "ventas atribuidas a Gumroad Discover (USD), observaciones cualitativas de vendedor"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de observaciones de vendedores que documentan ausencia de tráfico orgánico en Gumroad Discover con observaciones que documentan ventas orgánicas reales atribuidas a Discover, sobre el mismo sujeto y período.",
+    "no": "Una explicación de por qué algunos vendedores reciben tráfico de Discover y otros no. Que Discover funcione o no funcione de manera uniforme. El rol del umbral de activación como causa principal de la diferencia."
+  },
+  "what_is_missing": [
+    "Normalización por categoría de producto y precio de venta.",
+    "Separación temporal: las observaciones del Polo A incluyen fuentes de 2020 y 2026; las del Polo B incluyen fuentes de 2023–2025.",
+    "Datos sobre el umbral de activación de Discover y si los vendedores del Polo A lo habían superado.",
+    "Volumen de productos en catálogo de cada vendedor al momento de la observación.",
+    "Fuente primaria oficial de Gumroad sobre el funcionamiento de Discover."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible contradicción falsa",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["CON-001"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

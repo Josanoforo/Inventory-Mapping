@@ -1,0 +1,76 @@
+{
+  "id": "TC-009",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de estructuras de comisiones de plataformas que reducen ingresos de vendedores co-ocurren con señales de ingresos brutos elevados documentados en el mismo sistema de ventas de productos digitales. Fuerza A: comisiones de plataformas, incrementos de fees y compresión de márgenes documentados. Fuerza B: casos de ingresos brutos elevados documentados que señalan viabilidad comercial en las mismas plataformas.",
+  "analytical_unit": "señales de estructura de fees de plataformas y señales de ingresos brutos de vendedores en el mismo mercado, separadas de ingresos netos verificados",
+  "signal_ids": [
+    "SC-R4-105",
+    "SC-R4-118",
+    "SC-R1-030",
+    "SC-R4-078",
+    "SC-R4-110",
+    "SC-R8-016",
+    "SC-R8-025",
+    "SC-R8-034",
+    "SC-R2-070",
+    "SC-R4-068",
+    "SC-R3-033",
+    "SC-R6-093"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — fees de plataforma comprimen márgenes de vendedores",
+        "definition": "Cards que documentan estructuras de comisiones, incrementos de fees y compresión de márgenes que reducen el ingreso neto de vendedores en plataformas",
+        "signal_ids": [
+          {"id": "SC-R4-105", "description": "The LILI Path: Etsy retiene aproximadamente 40-50% del total de ventas para productos digitales incluyendo todos los fees"},
+          {"id": "SC-R4-118", "description": "a precio de $1 en Etsy, el vendedor retiene solo $0.45 después de todos los fees"},
+          {"id": "SC-R1-030", "description": "tasas de comisión de plataformas documentadas"},
+          {"id": "SC-R4-078", "description": "quejas de vendedores sobre impacto de estructura de fees en márgenes documentadas"},
+          {"id": "SC-R4-110", "description": "incrementos de fees por parte de plataformas documentados a lo largo del tiempo"},
+          {"id": "SC-R8-016", "description": "tasa efectiva de Etsy estimada en 10-15% fees estándar y 15-20%+ con Offsite Ads"},
+          {"id": "SC-R8-025", "description": "fees de procesamiento de pagos y afiliados en plataforma documentados"},
+          {"id": "SC-R8-034", "description": "vendedores documentan que ingreso neto tras fees es significativamente menor que bruto"}
+        ],
+        "mechanical_summary": "Ocho cards documentan estructuras de fees acumulados en Etsy principalmente. SC-R4-118 provee dato específico de retención por venta ($0.45 de $1). SC-R1-030, SC-R4-078, SC-R8-025 tienen descripciones genéricas en el scan. No están normalizadas por plataforma ni por nivel de ingresos.",
+        "unit_used": "porcentajes de fee (%), ingresos retenidos por venta (USD), observaciones cualitativas sobre compresión de márgenes"
+      },
+      {
+        "label": "Polo B — ingresos brutos elevados documentados en plataformas",
+        "definition": "Cards que documentan ingresos brutos elevados de vendedores en plataformas de productos digitales",
+        "signal_ids": [
+          {"id": "SC-R2-070", "description": "Emily McDermott / PrettyArrow: $280,000 en ingresos vendiendo spreadsheet templates, principalmente en Etsy"},
+          {"id": "SC-R4-068", "description": "casos documentados de vendedores con ingresos significativos en datos de plataforma"},
+          {"id": "SC-R3-033", "description": "Red Cheeks Girl: AmethystGarnet's productos traen más de $50,000 mensuales"},
+          {"id": "SC-R6-093", "description": "Katya Varbanova: $1.4 millones en ingresos vendiendo Canva templates en menos de 3 años"}
+        ],
+        "mechanical_summary": "Cuatro cards de fuentes distintas documentan ingresos brutos elevados en plataformas. SC-R2-070 y SC-R6-093 son ingresos auto-reportados. SC-R3-033 es estimado de tercero. Los montos son brutos; no se documenta la deducción de fees ni ingresos netos. SC-R4-068 tiene descripción genérica en el scan.",
+        "unit_used": "ingresos brutos auto-reportados (USD), estimados de terceros (USD)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el mismo sistema de señales de fees de plataforma que comprimen márgenes con señales de ingresos brutos elevados documentados en las mismas plataformas durante el período del corpus.",
+    "no": "Que los ingresos brutos elevados del Polo B sean representativos de la mayoría de vendedores. Que los ingresos netos de los casos del Polo B sean elevados tras descontar fees. Que la fuerza A neutralice la posibilidad de rentabilidad."
+  },
+  "what_is_missing": [
+    "Datos de ingresos netos (después de fees) para los casos de altos ingresos del Polo B.",
+    "Distribución de ingresos brutos del conjunto de vendedores, no solo los casos outlier del Polo B.",
+    "Evolución de la tasa efectiva de fees a lo largo del tiempo para capturar el impacto de los incrementos documentados.",
+    "Separación por plataforma: el Polo A es mayoritariamente Etsy; el Polo B mezcla Etsy, Canva Creator program, y otras plataformas."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": ["OPP-004"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

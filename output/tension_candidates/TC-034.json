@@ -1,0 +1,64 @@
+{
+  "id": "TC-034",
+  "status": "needs_audit_before_classification",
+  "type": "contradicción",
+  "mechanical_relation": "Las tarjetas contradicen la disponibilidad de PayPal como método de pago en Gumroad. El corpus documenta 1 card de blog (April 2026) que trata PayPal como opción activa al calcular comisiones efectivas (Polo A) y 2 cards que documentan la eliminación de PayPal por Gumroad en octubre 2024 (Polo B). La discrepancia puede ser un error de fuente desactualizada en SC-R1-016, lo que requiere auditoría antes de clasificar como contradicción directa.",
+  "analytical_unit": "disponibilidad de PayPal como método de pago en Gumroad",
+  "signal_ids": [
+    "SC-R1-016",
+    "SC-R1-019",
+    "SC-R8-076",
+    "SC-R8-108"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — PayPal disponible como opción de pago en Gumroad",
+        "definition": "Card de blog que trata PayPal como opción activa al calcular la comisión efectiva total de Gumroad",
+        "signal_ids": [
+          {"id": "SC-R1-016", "description": "blog (April 2026): calcula comisión total Gumroad incluyendo PayPal como opción disponible (~16% total)"}
+        ],
+        "mechanical_summary": "Una sola card (SC-R1-016) de un blog (April 2026) incluye PayPal en el cálculo de comisiones efectivas de Gumroad. La card puede contener información desactualizada o no verificar el estado actual del procesador. No cita fuente oficial de Gumroad.",
+        "unit_used": "disponibilidad de método de pago en Gumroad según blog de tercero"
+      },
+      {
+        "label": "Polo B — PayPal eliminado de Gumroad desde octubre 2024",
+        "definition": "Cards que documentan la eliminación de PayPal como método de pago en Gumroad en octubre 2024",
+        "signal_ids": [
+          {"id": "SC-R1-019", "description": "anuncio de plataforma: 'Gumroad eliminó PayPal como método de pago en octubre de 2024'"},
+          {"id": "SC-R8-076", "description": "Polycount forum: 'PayPal suspended Gumroad's use of their service entirely, affecting all seller payouts'"},
+          {"id": "SC-R8-108", "description": "Gumroad baneó contenido explícito en marzo 2024 por presión de procesadores de pago Stripe y PayPal (contexto: relación Gumroad-PayPal)"}
+        ],
+        "mechanical_summary": "Tres cards documentan la eliminación de PayPal en Gumroad. SC-R1-019 es un anuncio de la plataforma con fecha (octubre 2024). SC-R8-076 (Polycount) corrobora la eliminación desde perspectiva de vendedor. SC-R8-108 provee contexto de la relación entre Gumroad y PayPal previa a la eliminación.",
+        "unit_used": "eliminación documentada de método de pago con fecha específica"
+      }
+    ]
+  },
+  "audit_flags": [
+    "SC-R1-016 (Polo A) es un blog de April 2026, posterior a la eliminación documentada de PayPal en octubre 2024 (SC-R1-019). La card puede contener información desactualizada o incorrecta sobre la disponibilidad de PayPal.",
+    "Polo A tiene solo 1 card; soporte insuficiente para contradicción completa por pre-build filter.",
+    "La contradicción más probable es un error de fuente en SC-R1-016 (información desactualizada), no una contradicción genuina sobre la disponibilidad actual de PayPal.",
+    "Requiere verificar el texto completo de SC-R1-016 para determinar si la card cita PayPal como activo o lo menciona en contexto histórico."
+  ],
+  "what_it_supports": {
+    "yes": "El corpus documenta una divergencia entre lo que SC-R1-016 trata como disponible (PayPal) y lo que SC-R1-019 y SC-R8-076 documentan como eliminado en octubre 2024. La divergencia es documentable como inconsistencia en el corpus.",
+    "no": "Que SC-R1-016 sea una fuente confiable sobre la disponibilidad actual de PayPal en Gumroad (probable error de información desactualizada en blog de tercero)."
+  },
+  "what_is_missing": [
+    "Texto completo de SC-R1-016 para verificar si la referencia a PayPal es sobre disponibilidad actual o contexto histórico.",
+    "Fecha de publicación exacta del blog en SC-R1-016 para confirmar si es posterior a octubre 2024.",
+    "Cards adicionales que documenten el estado actual de los métodos de pago disponibles en Gumroad post-octubre 2024."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible contradicción falsa"
+  ],
+  "source_patterns": ["CON-006"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

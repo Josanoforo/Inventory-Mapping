@@ -1,0 +1,40 @@
+{
+  "id": "TC-068",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la política de retenciones de pago de Gumroad de hasta 30 días bloquea el acceso documentado de vendedores a fondos generados durante el período de retención. El corpus documenta 1 card del bloqueador (política de retención hasta 30 días) y 1 card del bloqueado (vendedores con retenciones sin notificación de duración).",
+  "analytical_unit": "acceso de vendedores en Gumroad a fondos generados durante el período de retención",
+  "signal_ids": ["SC-R8-027", "SC-R8-078"],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — Gumroad retiene fondos de vendedores hasta 30 días por política de fraude",
+      "definition": "Card que documenta la política de retención de pagos de Gumroad",
+      "signal_ids": [
+        {"id": "SC-R8-027", "description": "Gumroad retiene pagos hasta 30 días por política de fraude y disputas"}
+      ],
+      "mechanical_summary": "Una card documenta la política de retención con dato numérico verificado (hasta 30 días) por razones de fraude y disputas.",
+      "unit_used": "período de retención de fondos en Gumroad: hasta 30 días"
+    },
+    "blocked": {
+      "label": "Blocked — acceso de vendedores a ingresos generados durante el período de retención",
+      "definition": "Card que documenta la experiencia de vendedores con retenciones de fondos sin notificación de duración específica",
+      "signal_ids": [
+        {"id": "SC-R8-078", "description": "vendedores documentan retenciones de fondos sin notificación de duración específica"}
+      ],
+      "mechanical_summary": "Una card documenta la experiencia de vendedores: retenciones activas sin información de plazo de liberación.",
+      "unit_used": "acceso de vendedores a ingresos generados durante el período de retención en Gumroad"
+    }
+  },
+  "what_it_supports": {
+    "yes": "La política de retención de hasta 30 días está documentada con dato numérico verificado. La experiencia de retenciones sin notificación de duración está documentada.",
+    "no": "La frecuencia con que ocurren las retenciones ni la proporción de vendedores en Gumroad que experimentan retenciones de pago."
+  },
+  "what_is_missing": [
+    "Texto completo de SC-R8-027 y SC-R8-078 para verificar el contexto y condiciones de las retenciones.",
+    "Criterios específicos que activan la política de retención de Gumroad (fraude, volumen, cuenta nueva).",
+    "Proporción de transacciones en Gumroad sujetas a retención de pago."
+  ],
+  "classification_risk": ["posible falta de grounding", "posible artefacto de fuente"],
+  "source_patterns": ["FRI-035"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}

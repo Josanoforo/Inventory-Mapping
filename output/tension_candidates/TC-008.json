@@ -1,0 +1,84 @@
+{
+  "id": "TC-008",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de descubrimiento orgánico en plataformas co-ocurren con señales de ausencia de descubrimiento orgánico y requisito de tráfico externo en el mismo sistema de distribución de productos digitales. Fuerza A: plataformas con descubrimiento orgánico integrado documentan que vendedores reciben tráfico y compradores sin acción externa. Fuerza B: vendedores en otras plataformas documentan cero descubrimiento orgánico y requisito de construir audiencia propia fuera de la plataforma.",
+  "analytical_unit": "señales de tráfico orgánico hacia listados de productos digitales, separadas de ingresos totales del vendedor",
+  "signal_ids": [
+    "SC-R4-038",
+    "SC-R4-046",
+    "SC-R4-050",
+    "SC-R8-116",
+    "SC-R8-118",
+    "SC-R8-115",
+    "SC-R4-037",
+    "SC-R4-056",
+    "SC-R6-146",
+    "SC-R4-026",
+    "SC-R4-049",
+    "SC-R8-121",
+    "SC-R8-122",
+    "SC-R8-141",
+    "SC-R8-142",
+    "SC-R10-021"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — descubrimiento orgánico de plataforma activo",
+        "definition": "Cards que documentan descubrimiento orgánico de plataforma como canal de tráfico activo hacia vendedores de productos digitales",
+        "signal_ids": [
+          {"id": "SC-R4-038", "description": "vendedora documenta primera venta en Etsy por búsqueda orgánica de un desconocido"},
+          {"id": "SC-R4-046", "description": "mecanismo de descubrimiento integrado en Etsy documentado"},
+          {"id": "SC-R4-050", "description": "vendedor documenta: Etsy con millones buscando downloads digitales diariamente, tráfico orgánico masivo"},
+          {"id": "SC-R8-116", "description": "más del 53% de compradores de Etsy descubren productos vía barra de búsqueda"},
+          {"id": "SC-R8-118", "description": "shops en primera página de Etsy search reciben hasta 80% de tráfico orgánicamente"},
+          {"id": "SC-R8-115", "description": "Etsy atrae aproximadamente 450 millones de visitantes mensuales con 86.6 millones de compradores activos"}
+        ],
+        "mechanical_summary": "Seis cards documentan plataformas con descubrimiento orgánico integrado, mayoritariamente Etsy. Las fuentes incluyen testimonios de vendedoras (R4), análisis de plataforma (R8). No están normalizadas por categoría de producto ni nivel de optimización SEO del vendedor.",
+        "unit_used": "observaciones cualitativas y datos porcentuales de tráfico de búsqueda en plataforma"
+      },
+      {
+        "label": "Polo B — ausencia de descubrimiento orgánico, tráfico externo requerido",
+        "definition": "Cards que documentan ausencia de descubrimiento orgánico de plataforma y requisito de construir audiencia externa",
+        "signal_ids": [
+          {"id": "SC-R4-037", "description": "Catherine Insler: Gumroad no tiene motor de descubrimiento interno; cero ventas al listar primer producto"},
+          {"id": "SC-R4-056", "description": "Poonam Sharma tras 1 año en Gumroad: no es un marketplace que genere tráfico orgánico como Etsy"},
+          {"id": "SC-R6-146", "description": "vendedora: si dependes solo del search de Etsy, tus listings se quedarán sin vistas"},
+          {"id": "SC-R4-026", "description": "vendedores construyendo audiencias off-platform para generar ventas"},
+          {"id": "SC-R4-049", "description": "relación con el comprador en plataforma retenida por la plataforma, no por el vendedor"},
+          {"id": "SC-R8-121", "description": "vendedor de Gumroad con 25 productos reporta $0 en ventas, cero vistas de búsqueda orgánica"},
+          {"id": "SC-R8-122", "description": "Gumroad Discover requiere al menos una venta para activarse: problema de huevo y gallina documentado"},
+          {"id": "SC-R8-141", "description": "Payhip descrito como con cero tráfico integrado, vendedor totalmente responsable"},
+          {"id": "SC-R8-142", "description": "declive documentado del descubrimiento orgánico impulsado por plataforma a lo largo del tiempo"},
+          {"id": "SC-R10-021", "description": "plataforma directa sin tráfico orgánico documentado"}
+        ],
+        "mechanical_summary": "Diez cards documentan ausencia de descubrimiento en Gumroad, Payhip y otras plataformas de venta directa. Las fuentes incluyen testimonios directos de vendedores, análisis de plataforma. SC-R4-026, SC-R4-049, SC-R8-142, SC-R10-021 tienen resúmenes genéricos en el scan sin texto específico verificable.",
+        "unit_used": "observaciones cualitativas de vendedores sobre ausencia de tráfico orgánico de plataforma"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el corpus de señales de plataformas con descubrimiento orgánico activo (Etsy principalmente) con señales de plataformas sin descubrimiento orgánico donde el vendedor debe generar todo el tráfico (Gumroad, Payhip, plataformas de venta directa).",
+    "no": "Que todas las plataformas funcionen igual para todos los tipos de producto o nivel de optimización del vendedor. Que SC-R6-146 (Etsy sin vistas) contradiga el Polo A: puede referirse a listings mal optimizados, no a ausencia estructural de descubrimiento."
+  },
+  "what_is_missing": [
+    "Separación por plataforma: el Polo A es principalmente Etsy; el Polo B mezcla Gumroad, Payhip y plataformas directas.",
+    "Datos de tráfico orgánico por categoría de producto para controlar el efecto de la optimización SEO del vendedor.",
+    "Comparación de tasas de descubrimiento orgánico entre plataformas con métricas equivalentes.",
+    "Evidencia de si la separación entre polos ha cambiado con el tiempo por cambios de algoritmo."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción",
+    "posible falta de grounding"
+  ],
+  "source_patterns": ["OPP-003"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

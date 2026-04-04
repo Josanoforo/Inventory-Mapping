@@ -1,0 +1,76 @@
+{
+  "id": "TC-010",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de migración de vendedores hacia canales propios co-ocurren con señales de políticas de plataformas que retienen la relación con compradores en el mismo sistema de distribución. Fuerza A: vendedores documentan estrategias activas de reducción de dependencia de plataformas, construcción de listas de email y canales propios. Fuerza B: plataformas documentan políticas, términos de servicio y acciones de enforcement que restringen la autonomía del vendedor.",
+  "analytical_unit": "señales de estrategia de distribución de vendedores y señales de políticas de plataformas en el mismo mercado de productos digitales",
+  "signal_ids": [
+    "SC-R2-049",
+    "SC-R2-050",
+    "SC-R2-052",
+    "SC-R4-090",
+    "SC-R2-047",
+    "SC-R4-122",
+    "SC-R4-126",
+    "SC-R4-106",
+    "SC-R4-103",
+    "SC-R8-064",
+    "SC-R8-071",
+    "SC-R8-073"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — vendedores migrando hacia canales propios",
+        "definition": "Cards que documentan vendedores migrando hacia canales propios, reduciendo dependencia de plataformas",
+        "signal_ids": [
+          {"id": "SC-R2-049", "description": "vendedores documentados migrando de marketplace hacia tienda o website propio"},
+          {"id": "SC-R2-050", "description": "estrategia de vendedor documentada: reducción de dependencia de plataforma via canales propios"},
+          {"id": "SC-R2-052", "description": "casos documentados de vendedores dejando plataformas para venta directa"},
+          {"id": "SC-R4-090", "description": "vendedores construyendo listas de email propias y relaciones directas con compradores"},
+          {"id": "SC-R2-047", "description": "estrategia de salida de plataforma documentada por vendedores que buscan independencia"}
+        ],
+        "mechanical_summary": "Cinco cards documentan estrategias de reducción de dependencia de plataforma. SC-R2-049, SC-R2-050, SC-R2-052, SC-R2-047 tienen descripciones genéricas en el scan sin texto específico de card verificable. SC-R4-090 documenta construcción activa de audiencia propia. No se normalizan por tipo de plataforma de origen ni destino.",
+        "unit_used": "observaciones cualitativas de vendedores sobre estrategias de distribución"
+      },
+      {
+        "label": "Polo B — plataformas retienen relación con compradores via políticas y enforcement",
+        "definition": "Cards que documentan políticas de plataformas, enforcement y términos que restringen la autonomía del vendedor y retienen la relación con el comprador",
+        "signal_ids": [
+          {"id": "SC-R4-122", "description": "políticas de plataforma documentadas que restringen la capacidad del vendedor de contactar compradores fuera de la plataforma"},
+          {"id": "SC-R4-126", "description": "plataforma aplicando términos que capturan la relación con el comprador"},
+          {"id": "SC-R4-106", "description": "suspensiones de cuentas de plataforma documentadas por violaciones de política"},
+          {"id": "SC-R4-103", "description": "términos de plataforma que prohíben a vendedores dirigir compradores a sitios externos"},
+          {"id": "SC-R8-064", "description": "vendedor nuevo en Etsy con cuenta suspendida dentro de las 24 horas del lanzamiento a pesar de seguir las reglas"},
+          {"id": "SC-R8-071", "description": "Thibaut Patel: cuenta de Gumroad suspendida, reinstalada y luego baneada permanentemente sin acción del vendedor"},
+          {"id": "SC-R8-073", "description": "Gumroad: un dispute de cliente generó suspensión de cuenta entera y reembolso de todas las ventas"}
+        ],
+        "mechanical_summary": "Siete cards documentan restricciones de plataformas y acciones de enforcement en Etsy y Gumroad. SC-R4-122, SC-R4-126, SC-R4-103 tienen descripciones genéricas en el scan. SC-R8-064, SC-R8-071, SC-R8-073 tienen texto verificado de card. No están normalizadas por tipo de infracción ni plataforma.",
+        "unit_used": "observaciones cualitativas sobre políticas de plataforma, casos documentados de suspensión"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia en el corpus de señales de vendedores que activamente buscan independencia de plataformas con señales de plataformas que aplican políticas y enforcement que restringen esa independencia.",
+    "no": "Que las acciones del Polo B respondan directamente a las estrategias del Polo A como causa-efecto. Que la mayoría de los vendedores en el corpus aplique estrategias de independencia de plataforma."
+  },
+  "what_is_missing": [
+    "Texto verificado de card para SC-R2-049, SC-R2-050, SC-R2-052, SC-R2-047, SC-R4-122, SC-R4-126, SC-R4-103 (descripciones genéricas en el scan).",
+    "Datos sobre tasas de suspensión relacionadas con intentos de migración fuera de plataforma.",
+    "Separación por plataforma: Polo B mezcla Etsy y Gumroad con políticas de enforcement distintas.",
+    "Evidencia de si las restricciones del Polo B son respuesta a estrategias como las del Polo A o son restricciones independientes."
+  ],
+  "classification_risk": [
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": ["OPP-005"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

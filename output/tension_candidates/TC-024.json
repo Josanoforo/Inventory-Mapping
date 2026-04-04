@@ -1,0 +1,72 @@
+{
+  "id": "TC-024",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según el volumen de listados por categoría en Notion Marketplace: categorías de vida personal con volumen alto versus categorías técnicas o de nicho con volumen bajo en el mismo marketplace. La distribución es asimétrica: categorías de productividad personal (2,927-8,436 plantillas) versus categorías técnicas (29-285 plantillas).",
+  "analytical_unit": "volumen de listados por categoría en Notion Marketplace (categorías de vida personal vs. técnicas/nicho)",
+  "signal_ids": [
+    "SC-R5-006",
+    "SC-R5-007",
+    "SC-R5-008",
+    "SC-R5-009",
+    "SC-R5-010",
+    "SC-R5-015",
+    "SC-R5-016",
+    "SC-R5-017",
+    "SC-R5-018",
+    "SC-R5-019"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A — categorías de vida personal, alto volumen de listados",
+        "definition": "Cards que documentan categorías de vida personal con alto volumen de listados en Notion Marketplace",
+        "signal_ids": [
+          {"id": "SC-R5-006", "description": "categoría Personal Planner en Notion Marketplace: 8,436 plantillas"},
+          {"id": "SC-R5-007", "description": "categoría New Years en Notion Marketplace: 5,708 plantillas"},
+          {"id": "SC-R5-008", "description": "categoría Study Planner en Notion Marketplace: 4,383 plantillas"},
+          {"id": "SC-R5-009", "description": "categoría Personal Finance en Notion Marketplace: 3,681 plantillas"},
+          {"id": "SC-R5-010", "description": "categoría Habit Tracking en Notion Marketplace: 2,927 plantillas"}
+        ],
+        "mechanical_summary": "Cinco cards proveen conteos de listados verificados por categoría en Notion Marketplace al momento de la captura. Los datos son de la página oficial de Notion Marketplace. No se conoce la fecha exacta de captura ni si los conteos son estáticos.",
+        "unit_used": "conteo de plantillas por categoría en Notion Marketplace (número de listados)"
+      },
+      {
+        "label": "Polo B — categorías técnicas o de nicho, bajo volumen de listados",
+        "definition": "Cards que documentan categorías técnicas o de nicho especializado con bajo volumen de listados en Notion Marketplace",
+        "signal_ids": [
+          {"id": "SC-R5-015", "description": "categoría Agent Personalization en Notion Marketplace: 285 plantillas"},
+          {"id": "SC-R5-016", "description": "categoría Trading Journal en Notion Marketplace: 173 plantillas"},
+          {"id": "SC-R5-017", "description": "categoría Vision Board en Notion Marketplace: 166 plantillas"},
+          {"id": "SC-R5-018", "description": "categoría Eisenhower Matrix en Notion Marketplace: 70 plantillas"},
+          {"id": "SC-R5-019", "description": "categoría IT Issue Tracker en Notion Marketplace: 29 plantillas"}
+        ],
+        "mechanical_summary": "Cinco cards proveen conteos de listados verificados por categoría técnica o de nicho. El rango va de 285 (Agent Personalization) a 29 (IT Issue Tracker). SC-R5-017 (Vision Board, 166) puede no ser estrictamente técnica pero tiene volumen bajo.",
+        "unit_used": "conteo de plantillas por categoría en Notion Marketplace (número de listados)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Distribución asimétrica documentada en Notion Marketplace entre categorías de vida personal (2,927-8,436 plantillas) y categorías técnicas o de nicho (29-285 plantillas) en el mismo marketplace.",
+    "no": "Que la asimetría de oferta refleje asimetría de demanda equivalente. Que las categorías de nicho sean menos rentables para vendedores individuales."
+  },
+  "what_is_missing": [
+    "Datos de ventas o duplicaciones por categoría para ver si la asimetría de oferta refleja asimetría de demanda.",
+    "Fecha exacta de captura de los conteos de listados.",
+    "Datos de ingresos por categoría para ver si la asimetría de oferta se correlaciona con rentabilidad diferencial.",
+    "Explicación de por qué Vision Board (166 listados) está clasificada como categoría de nicho técnico."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": ["ASY-007"],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

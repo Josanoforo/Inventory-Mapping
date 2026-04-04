@@ -1,0 +1,42 @@
+{
+  "id": "TC-066",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la tarifa Offsite Ads de Etsy del 15% obligatoria para vendedores con ingresos superiores a $10,000 USD anuales bloquea el margen documentado en ventas provenientes de tráfico externo. El corpus documenta 2 cards del bloqueador (tarifa 15% y obligatoriedad para >$10k USD) y 2 cards del bloqueado (aplicación sobre precio total con envío y reducción de margen neto).",
+  "analytical_unit": "margen neto de vendedores en Etsy con ingresos anuales superiores a $10,000 USD en ventas de tráfico externo",
+  "signal_ids": ["SC-R8-005", "SC-R8-006", "SC-R8-015", "SC-R8-183"],
+  "structured_support": {
+    "blocker": {
+      "label": "Blocker — Etsy hace obligatoria tarifa Offsite Ads 15% para vendedores sobre $10,000 USD anuales",
+      "definition": "Cards que documentan la obligatoriedad de Offsite Ads al 15% para vendedores sobre el umbral de ingresos",
+      "signal_ids": [
+        {"id": "SC-R8-005", "description": "Etsy cobra 15% de Offsite Ads fee en ventas generadas por anuncios externos"},
+        {"id": "SC-R8-006", "description": "vendedores con más de $10,000 USD anuales no pueden desactivar Offsite Ads"}
+      ],
+      "mechanical_summary": "Dos cards documentan la tarifa del 15% y la obligatoriedad sin opción de desactivación para vendedores sobre $10,000 USD anuales.",
+      "unit_used": "tarifa Offsite Ads Etsy: 15% sobre ventas de tráfico externo, obligatoria para >$10k USD anuales"
+    },
+    "blocked": {
+      "label": "Blocked — margen neto en ventas de tráfico externo se reduce por tarifa no controlable por el vendedor",
+      "definition": "Cards que documentan el impacto en margen neto de vendedores por la tarifa Offsite Ads",
+      "signal_ids": [
+        {"id": "SC-R8-015", "description": "la tarifa de Offsite Ads se aplica sobre el precio total incluyendo envío"},
+        {"id": "SC-R8-183", "description": "vendedores documentan reducción de margen neto por tarifa Offsite Ads obligatoria"}
+      ],
+      "mechanical_summary": "Dos cards documentan el mecanismo de aplicación (precio total con envío) y el impacto reportado en margen neto por vendedores afectados.",
+      "unit_used": "margen neto de vendedores afectados por tarifa Offsite Ads en ventas de tráfico externo"
+    }
+  },
+  "what_it_supports": {
+    "yes": "La tarifa de 15% sobre ventas de tráfico externo está documentada. La obligatoriedad para vendedores sobre $10,000 USD anuales está documentada. La aplicación sobre precio total incluyendo envío está documentada. El impacto en margen neto está documentado.",
+    "no": "Que la tarifa impida a los vendedores ser rentables (el impacto varía según el margen del producto y la proporción de ventas de tráfico externo)."
+  },
+  "what_is_missing": [
+    "Texto completo de SC-R8-015 y SC-R8-183 para verificar el contexto del impacto en margen neto.",
+    "Proporción de ventas de vendedores afectados que provienen de tráfico externo vs. interno de Etsy.",
+    "Comparación con costos de publicidad externa que los vendedores controlarían si pudieran desactivar Offsite Ads."
+  ],
+  "classification_risk": ["posible sub-representación de un segmento"],
+  "source_patterns": ["FRI-032"],
+  "human_fields": {"human_context": "", "provisional_tension_name": "", "dt_question_enabled": "", "human_review_decision": "", "decision_rationale": ""}
+}
