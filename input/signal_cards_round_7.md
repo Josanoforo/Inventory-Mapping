@@ -1919,10 +1919,10 @@
 
 ---
 **SC-R7-175**
-- **Observation:** No other prompt-selling-specific startups (PromptHero, ChatX) have raised notable venture funding based on searches across Crunchbase, Tracxn, and news sources.
-- **Source:** Crunchbase, Tracxn, and news searches
+- **Observation:** No other prompt-selling-specific startups (PromptHero, ChatX) have raised notable venture funding based on Tracxn data.
+- **Source:** Tracxn, https://tracxn.com
 - **Date:** 2026
-- **Source type:** other_specified (multiple business intelligence searches)
+- **Source type:** benchmark
 - **Domain:** market
 - **Evidence base:** "No other prompt-selling-specific startups have raised notable venture funding"
 - **Extraction status:** extracted

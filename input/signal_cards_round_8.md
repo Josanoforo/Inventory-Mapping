@@ -2037,7 +2037,7 @@
 
 ---
 **SC-R8-186**
-- **Observation:** Multiple reports describe declining individual Creative Market seller sales and "subpar search algorithms" post-Dribbble acquisition.
+- **Observation:** Photutorial describes declining individual Creative Market seller sales and "subpar search algorithms" following the Dribbble acquisition.
 - **Source:** Photutorial — https://photutorial.com/creative-market-review/
 - **Date:** 2022–2024
 - **Source type:** blog
