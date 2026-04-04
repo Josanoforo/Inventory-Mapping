@@ -1,0 +1,833 @@
+{
+  "scan_type": "asymmetries",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "ASY-001",
+      "description": "Las tarjetas se separan en polos segun si la plataforma provee trafico organico integrado o si el vendedor debe generar su propio trafico externo.",
+      "signal_ids": [
+        "SC-R4-037",
+        "SC-R4-038",
+        "SC-R4-046",
+        "SC-R4-050",
+        "SC-R5-086",
+        "SC-R8-114",
+        "SC-R8-115",
+        "SC-R8-116",
+        "SC-R8-118",
+        "SC-R8-120",
+        "SC-R8-130",
+        "SC-R10-020",
+        "SC-R10-023",
+        "SC-R4-048",
+        "SC-R4-049",
+        "SC-R4-056",
+        "SC-R4-057",
+        "SC-R4-059",
+        "SC-R4-060",
+        "SC-R4-100",
+        "SC-R8-121",
+        "SC-R8-122",
+        "SC-R8-123",
+        "SC-R8-124",
+        "SC-R8-126",
+        "SC-R8-141",
+        "SC-R8-142",
+        "SC-R8-143",
+        "SC-R10-021"
+      ],
+      "signal_summaries": {
+        "SC-R4-037": "Comparacion modelo trafico Etsy vs Gumroad",
+        "SC-R4-038": "Trafico organico de busqueda en Etsy documentado",
+        "SC-R4-046": "Mecanismo de descubrimiento integrado en Etsy",
+        "SC-R4-050": "Audiencia compradora incorporada en Etsy",
+        "SC-R5-086": "Notion marketplace con descubrimiento integrado",
+        "SC-R8-114": "Plataforma con descubrimiento integrado listada",
+        "SC-R8-115": "Trafico de compradores en plataforma documentado",
+        "SC-R8-116": "Mecanismo de descubrimiento en plataforma confirmado",
+        "SC-R8-118": "Trafico organico disponible en plataforma",
+        "SC-R8-120": "Audiencia integrada en marketplace",
+        "SC-R8-130": "Trafico organico de busqueda en marketplace",
+        "SC-R10-020": "Descubrimiento organico en KDP anotado",
+        "SC-R10-023": "Busqueda Amazon genera trafico organico",
+        "SC-R4-048": "Gumroad sin trafico organico documentado",
+        "SC-R4-049": "Vendedor debe generar propio trafico en Gumroad",
+        "SC-R4-056": "Payhip requiere trafico externo",
+        "SC-R4-057": "Modelo de trafico dirigido por vendedor",
+        "SC-R4-059": "Plataforma sin mecanismo de descubrimiento",
+        "SC-R4-060": "Plataforma con trafico organico nulo",
+        "SC-R4-100": "Plataforma de venta directa sin marketplace",
+        "SC-R8-121": "Plataforma de trafico dirigido por vendedor",
+        "SC-R8-122": "Sin descubrimiento integrado documentado",
+        "SC-R8-123": "Trafico externo requerido en plataforma",
+        "SC-R8-124": "Plataforma sin trafico de marketplace",
+        "SC-R8-126": "Vendedor debe adquirir propia audiencia",
+        "SC-R8-141": "Sin modelo de trafico organico",
+        "SC-R8-142": "Promocion externa requerida",
+        "SC-R8-143": "Modelo de trafico dependiente del vendedor",
+        "SC-R10-021": "Plataforma directa sin trafico organico"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos: plataformas con trafico organico integrado vs plataformas donde el vendedor debe generar todo su trafico.",
+      "components": [
+        {
+          "label": "Polo A: trafico organico integrado",
+          "signal_ids": [
+            "SC-R4-037",
+            "SC-R4-038",
+            "SC-R4-046",
+            "SC-R4-050",
+            "SC-R5-086",
+            "SC-R8-114",
+            "SC-R8-115",
+            "SC-R8-116",
+            "SC-R8-118",
+            "SC-R8-120",
+            "SC-R8-130",
+            "SC-R10-020",
+            "SC-R10-023"
+          ],
+          "summary": "Plataformas que proveen descubrimiento organico al vendedor sin accion externa requerida"
+        },
+        {
+          "label": "Polo B: trafico externo requerido",
+          "signal_ids": [
+            "SC-R4-048",
+            "SC-R4-049",
+            "SC-R4-056",
+            "SC-R4-057",
+            "SC-R4-059",
+            "SC-R4-060",
+            "SC-R4-100",
+            "SC-R8-121",
+            "SC-R8-122",
+            "SC-R8-123",
+            "SC-R8-124",
+            "SC-R8-126",
+            "SC-R8-141",
+            "SC-R8-142",
+            "SC-R8-143",
+            "SC-R10-021"
+          ],
+          "summary": "Plataformas donde el vendedor debe generar todo su trafico; sin descubrimiento integrado"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-002",
+      "description": "Las tarjetas se separan en polos segun el volumen de oferta de productos digitales en ingles versus en espanol en los mismos mercados.",
+      "signal_ids": [
+        "SC-R1-025",
+        "SC-R1-041",
+        "SC-R1-045",
+        "SC-R1-010",
+        "SC-R1-042",
+        "SC-R1-044"
+      ],
+      "signal_summaries": {
+        "SC-R1-025": "Oferta en ingles domina en plataformas globales",
+        "SC-R1-041": "Productos digitales en ingles prevalecen en Etsy",
+        "SC-R1-045": "Volumenes de oferta en ingles en mercados digitales",
+        "SC-R1-010": "Brecha de oferta entre idiomas documentada",
+        "SC-R1-042": "Oferta en espanol escasa o ausente en plataformas globales",
+        "SC-R1-044": "Volumen de productos digitales en espanol bajo en Etsy"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion es asimetrica: el corpus documenta mayor volumen de oferta en ingles que en espanol en las mismas plataformas.",
+      "components": [
+        {
+          "label": "Polo A: oferta en ingles dominante",
+          "signal_ids": [
+            "SC-R1-025",
+            "SC-R1-041",
+            "SC-R1-045",
+            "SC-R1-010"
+          ],
+          "summary": "Tarjetas que documentan volumenes altos de productos digitales en ingles"
+        },
+        {
+          "label": "Polo B: oferta en espanol escasa",
+          "signal_ids": [
+            "SC-R1-042",
+            "SC-R1-044",
+            "SC-R1-025",
+            "SC-R1-010"
+          ],
+          "summary": "Tarjetas que documentan baja presencia o ausencia de productos digitales en espanol"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-003",
+      "description": "Las tarjetas se separan en polos segun si la estructura de comision de la plataforma es cero o cuota plana mensual versus porcentaje por venta.",
+      "signal_ids": [
+        "SC-R1-050",
+        "SC-R1-053",
+        "SC-R6-054",
+        "SC-R6-047",
+        "SC-R4-082",
+        "SC-R6-059",
+        "SC-R8-042",
+        "SC-R8-048",
+        "SC-R1-060",
+        "SC-R1-017",
+        "SC-R5-049",
+        "SC-R2-058",
+        "SC-R4-089",
+        "SC-R6-038",
+        "SC-R5-079",
+        "SC-R4-105",
+        "SC-R8-034",
+        "SC-R8-035",
+        "SC-R8-016"
+      ],
+      "signal_summaries": {
+        "SC-R1-050": "Plataforma con cuota cero o plana documentada",
+        "SC-R1-053": "Modelo sin comision por venta en plataforma",
+        "SC-R6-054": "Cuota mensual fija sin porcentaje por transaccion",
+        "SC-R6-047": "Plataforma con tarifa plana mensual",
+        "SC-R4-082": "Modelo de precio plano en plataforma digital",
+        "SC-R6-059": "Sin comision porcentual por venta",
+        "SC-R8-042": "Plataforma con estructura de cuota fija",
+        "SC-R8-048": "Tarifa plana sin comision variable",
+        "SC-R1-060": "Plataforma cobra porcentaje por cada venta",
+        "SC-R1-017": "Comision porcentual estandar documentada",
+        "SC-R5-049": "Porcentaje de comision por transaccion en plataforma",
+        "SC-R2-058": "Tarifa variable por venta documentada",
+        "SC-R4-089": "Comision porcentual en marketplace",
+        "SC-R6-038": "Porcentaje cobrado por cada transaccion",
+        "SC-R5-079": "Comision por venta en plataforma digital",
+        "SC-R4-105": "Tarifa porcentual documentada en plataforma",
+        "SC-R8-034": "Comision variable por venta",
+        "SC-R8-035": "Porcentaje de comision documentado",
+        "SC-R8-016": "Estructura de comision porcentual en marketplace"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre plataformas con cuota cero/plana y plataformas con comision porcentual por venta.",
+      "components": [
+        {
+          "label": "Polo A: cuota cero o plana mensual",
+          "signal_ids": [
+            "SC-R1-050",
+            "SC-R1-053",
+            "SC-R6-054",
+            "SC-R6-047",
+            "SC-R4-082",
+            "SC-R6-059",
+            "SC-R8-042",
+            "SC-R8-048"
+          ],
+          "summary": "Plataformas sin comision porcentual por venta; modelo de tarifa fija o gratuita"
+        },
+        {
+          "label": "Polo B: porcentaje por venta",
+          "signal_ids": [
+            "SC-R1-060",
+            "SC-R1-017",
+            "SC-R5-049",
+            "SC-R2-058",
+            "SC-R4-089",
+            "SC-R6-038",
+            "SC-R5-079",
+            "SC-R4-105",
+            "SC-R8-034",
+            "SC-R8-035",
+            "SC-R8-016"
+          ],
+          "summary": "Plataformas que cobran porcentaje variable sobre cada transaccion al vendedor"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-004",
+      "description": "Las tarjetas se separan en polos segun si la complejidad tecnica de la plantilla de hoja de calculo se asocia con ventas altas o con problemas de compatibilidad y compras frustradas.",
+      "signal_ids": [
+        "SC-R2-090",
+        "SC-R2-091",
+        "SC-R2-092",
+        "SC-R2-096",
+        "SC-R2-097",
+        "SC-R2-103",
+        "SC-R2-104",
+        "SC-R2-107",
+        "SC-R2-110",
+        "SC-R2-113",
+        "SC-R2-114",
+        "SC-R2-116"
+      ],
+      "signal_summaries": {
+        "SC-R2-090": "Plantillas de formulas simples dominan en ventas",
+        "SC-R2-091": "Simplicidad tecnica asociada a alta demanda comercial",
+        "SC-R2-092": "Plantillas basicas lideran mercado de hojas de calculo",
+        "SC-R2-096": "Demanda concentrada en plantillas sin macros",
+        "SC-R2-097": "Plantillas simples documentadas como best sellers",
+        "SC-R2-103": "Ventas altas en plantillas de baja complejidad",
+        "SC-R2-104": "Formulas simples preferidas por compradores",
+        "SC-R2-107": "Macros y VBA causan problemas de compatibilidad",
+        "SC-R2-110": "Plantillas complejas generan quejas post-compra",
+        "SC-R2-113": "VBA no compatible en versiones antiguas de Excel",
+        "SC-R2-114": "Problemas de ejecucion de macros documentados",
+        "SC-R2-116": "Complejidad tecnica asociada a reembolsos y disputas"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa: plantillas simples se concentran en ventas altas; plantillas complejas se concentran en problemas documentados.",
+      "components": [
+        {
+          "label": "Polo A: baja complejidad tecnica, alta viabilidad comercial",
+          "signal_ids": [
+            "SC-R2-090",
+            "SC-R2-091",
+            "SC-R2-092",
+            "SC-R2-096",
+            "SC-R2-097",
+            "SC-R2-103",
+            "SC-R2-104"
+          ],
+          "summary": "Plantillas basadas en formulas simples sin macros asociadas a volumenes altos de venta"
+        },
+        {
+          "label": "Polo B: alta complejidad tecnica, problemas documentados",
+          "signal_ids": [
+            "SC-R2-107",
+            "SC-R2-110",
+            "SC-R2-113",
+            "SC-R2-114",
+            "SC-R2-116"
+          ],
+          "summary": "Plantillas con macros o VBA asociadas a problemas de compatibilidad, reembolsos y disputas"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-005",
+      "description": "Las tarjetas se separan en polos segun el rango de precio de planners digitales: precios bajos individuales con licencia anual versus precios altos en bundles con licencia lifetime. Nota de unidades: Polo A usa precio anual datado; Polo B usa precio lifetime sin fecha de renovacion.",
+      "signal_ids": [
+        "SC-R3-052",
+        "SC-R3-054",
+        "SC-R3-072",
+        "SC-R3-003",
+        "SC-R3-056",
+        "SC-R3-069",
+        "SC-R3-039",
+        "SC-R3-073",
+        "SC-R3-065"
+      ],
+      "signal_summaries": {
+        "SC-R3-052": "Precio bajo individual en planner digital documentado",
+        "SC-R3-054": "Rango de precios bajos en planners unitarios",
+        "SC-R3-072": "Planner con precio de entrada bajo, licencia anual",
+        "SC-R3-003": "Precios de planners digitales individuales en rango bajo",
+        "SC-R3-056": "Bundle de planners con precio alto documentado",
+        "SC-R3-069": "Precio premium en pack de planners lifetime",
+        "SC-R3-039": "Bundle de planners digitales en rango alto",
+        "SC-R3-073": "Precio de bundle con licencia lifetime documentado",
+        "SC-R3-065": "Pack premium de planners en rango superior"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de precio. Unidades mixtas declaradas: Polo A usa precios anuales; Polo B usa precios lifetime. No se normalizan.",
+      "components": [
+        {
+          "label": "Polo A: precio bajo individual, licencia anual",
+          "signal_ids": [
+            "SC-R3-052",
+            "SC-R3-054",
+            "SC-R3-072",
+            "SC-R3-003"
+          ],
+          "summary": "Planners digitales unitarios en rango de precio bajo con esquema de pago anual"
+        },
+        {
+          "label": "Polo B: precio alto en bundle, licencia lifetime",
+          "signal_ids": [
+            "SC-R3-056",
+            "SC-R3-069",
+            "SC-R3-039",
+            "SC-R3-073",
+            "SC-R3-065"
+          ],
+          "summary": "Packs de planners digitales en rango de precio alto con esquema de pago unico lifetime"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-006",
+      "description": "Las tarjetas se separan en polos segun la tasa efectiva de comision de Gumroad: tasa muy alta en transacciones pequenas versus tasa favorable via links de referido o descubrimiento Discover.",
+      "signal_ids": [
+        "SC-R5-059",
+        "SC-R4-110",
+        "SC-R4-121",
+        "SC-R7-029",
+        "SC-R4-079"
+      ],
+      "signal_summaries": {
+        "SC-R5-059": "Tasa efectiva alta en transacciones pequeñas en Gumroad",
+        "SC-R4-110": "Comision real elevada en ventas de bajo monto en Gumroad",
+        "SC-R4-121": "Gumroad tasa efectiva desfavorable en micropagos",
+        "SC-R7-029": "Tasa favorable via link de referido Gumroad Discover",
+        "SC-R4-079": "Gumroad Discover windfall con tasa reducida documentada"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de tasa efectiva segun canal y monto de transaccion en la misma plataforma (Gumroad).",
+      "components": [
+        {
+          "label": "Polo A: tasa efectiva alta en transacciones pequeñas",
+          "signal_ids": [
+            "SC-R5-059",
+            "SC-R4-110",
+            "SC-R4-121"
+          ],
+          "summary": "Transacciones de bajo monto en Gumroad donde la tasa efectiva es elevada por cargos fijos"
+        },
+        {
+          "label": "Polo B: tasa favorable via referido o Discover",
+          "signal_ids": [
+            "SC-R7-029",
+            "SC-R4-079"
+          ],
+          "summary": "Ventas via link de referido o plataforma Discover de Gumroad con tasa efectiva reducida"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-007",
+      "description": "Las tarjetas se separan en polos segun el volumen de listados por categoria en Notion Marketplace: categorias de vida personal con volumen alto versus categorias tecnicas o de nicho con volumen bajo.",
+      "signal_ids": [
+        "SC-R5-006",
+        "SC-R5-007",
+        "SC-R5-008",
+        "SC-R5-009",
+        "SC-R5-010",
+        "SC-R5-015",
+        "SC-R5-016",
+        "SC-R5-017",
+        "SC-R5-018",
+        "SC-R5-019"
+      ],
+      "signal_summaries": {
+        "SC-R5-006": "Categoria vida personal con alto volumen en Notion Marketplace",
+        "SC-R5-007": "Categoria productividad personal domina en listados Notion",
+        "SC-R5-008": "Categoria habitos y rutinas con volumenes altos",
+        "SC-R5-009": "Categoria planificacion personal lidera en Notion",
+        "SC-R5-010": "Categoria finanzas personales con volumen alto en Notion",
+        "SC-R5-015": "Categoria tecnica con bajo volumen en Notion Marketplace",
+        "SC-R5-016": "Categoria desarrollo software con pocos listados en Notion",
+        "SC-R5-017": "Categoria gestion proyectos tecnicos con baja presencia",
+        "SC-R5-018": "Categoria nicho especializado con volumen bajo en Notion",
+        "SC-R5-019": "Categoria tecnica avanzada con escasos listados en Notion"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se concentra en categorias personales; categorias tecnicas y de nicho se separan en polo opuesto con bajo volumen.",
+      "components": [
+        {
+          "label": "Polo A: categorias vida personal, alto volumen",
+          "signal_ids": [
+            "SC-R5-006",
+            "SC-R5-007",
+            "SC-R5-008",
+            "SC-R5-009",
+            "SC-R5-010"
+          ],
+          "summary": "Categorias de productividad personal, habitos y planificacion con mayor concentracion de listados"
+        },
+        {
+          "label": "Polo B: categorias tecnicas o de nicho, bajo volumen",
+          "signal_ids": [
+            "SC-R5-015",
+            "SC-R5-016",
+            "SC-R5-017",
+            "SC-R5-018",
+            "SC-R5-019"
+          ],
+          "summary": "Categorias de software, gestion tecnica y nichos especializados con escasa representacion"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-008",
+      "description": "Las tarjetas se separan en polos segun la demanda relativa de plantillas para Google Sheets versus Excel: Google Sheets con mayor amplitud de demanda versus Excel con demanda menor pero mas especializada.",
+      "signal_ids": [
+        "SC-R2-130",
+        "SC-R2-133",
+        "SC-R2-134",
+        "SC-R2-132",
+        "SC-R2-131",
+        "SC-R2-008",
+        "SC-R2-010"
+      ],
+      "signal_summaries": {
+        "SC-R2-130": "Demanda de plantillas Google Sheets supera a Excel en corpus",
+        "SC-R2-133": "Google Sheets domina busquedas de plantillas en mercados digitales",
+        "SC-R2-134": "Amplitud de demanda mayor en Google Sheets que Excel",
+        "SC-R2-132": "Comparacion demanda Google Sheets vs Excel en plataformas",
+        "SC-R2-131": "Excel con demanda menor pero mas especializada documentada",
+        "SC-R2-008": "Demanda especializada de plantillas Excel en nichos",
+        "SC-R2-010": "Excel demanda concentrada en sectores especificos"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion es asimetrica: mayor volumen de demanda en Google Sheets; Excel se concentra en demanda especializada de nicho.",
+      "components": [
+        {
+          "label": "Polo A: Google Sheets, mayor amplitud de demanda",
+          "signal_ids": [
+            "SC-R2-130",
+            "SC-R2-133",
+            "SC-R2-134",
+            "SC-R2-132"
+          ],
+          "summary": "Tarjetas donde la demanda de plantillas Google Sheets aparece con mayor amplitud y frecuencia"
+        },
+        {
+          "label": "Polo B: Excel, demanda menor y especializada",
+          "signal_ids": [
+            "SC-R2-131",
+            "SC-R2-132",
+            "SC-R2-008",
+            "SC-R2-010"
+          ],
+          "summary": "Tarjetas donde la demanda de plantillas Excel es menor en volumen pero mas concentrada en nichos especializados"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-009",
+      "description": "Las tarjetas se separan en polos segun si la plataforma soporta metodos de pago locales de LATAM o solo metodos de pago globales sin cobertura local.",
+      "signal_ids": [
+        "SC-R1-018",
+        "SC-R1-050",
+        "SC-R1-054",
+        "SC-R1-055",
+        "SC-R1-019",
+        "SC-R1-020",
+        "SC-R4-113"
+      ],
+      "signal_summaries": {
+        "SC-R1-018": "Plataforma con soporte de pagos locales LATAM documentado",
+        "SC-R1-050": "Metodos de pago LATAM nativos disponibles en plataforma",
+        "SC-R1-054": "Cobertura de pago local en mercados latinoamericanos",
+        "SC-R1-055": "Plataforma con integracion de pagos regionales LATAM",
+        "SC-R1-019": "Plataforma global sin metodos de pago locales LATAM",
+        "SC-R1-020": "Ausencia de pagos locales en plataforma global documentada",
+        "SC-R4-113": "Plataforma sin cobertura de pagos locales en LATAM"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre plataformas con cobertura de pago LATAM y plataformas globales sin esa cobertura.",
+      "components": [
+        {
+          "label": "Polo A: soporte de pagos locales LATAM",
+          "signal_ids": [
+            "SC-R1-018",
+            "SC-R1-050",
+            "SC-R1-054",
+            "SC-R1-055"
+          ],
+          "summary": "Plataformas que ofrecen integracion con metodos de pago locales de mercados latinoamericanos"
+        },
+        {
+          "label": "Polo B: sin pagos locales LATAM",
+          "signal_ids": [
+            "SC-R1-019",
+            "SC-R1-020",
+            "SC-R4-113"
+          ],
+          "summary": "Plataformas globales que no cubren metodos de pago locales para compradores en LATAM"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-010",
+      "description": "Las tarjetas se separan en polos segun los ingresos de vendedores en mercados de prompts: la mayoria de vendedores con ingresos negligibles versus un grupo menor con ingresos altos documentados. Sub-eje especifico de mercados de prompts.",
+      "signal_ids": [
+        "SC-R7-106",
+        "SC-R7-108",
+        "SC-R7-109",
+        "SC-R7-095",
+        "SC-R7-121",
+        "SC-R7-131",
+        "SC-R7-102",
+        "SC-R7-103",
+        "SC-R7-135"
+      ],
+      "signal_summaries": {
+        "SC-R7-106": "Mayoria de vendedores de prompts con ingresos bajos o nulos",
+        "SC-R7-108": "Ingresos negligibles documentados en vendedores de prompts",
+        "SC-R7-109": "Vendedores con ingresos minimos en mercados de prompts",
+        "SC-R7-095": "Concentracion de vendedores en rango bajo de ingresos",
+        "SC-R7-121": "Distribicion de ingresos asimetrica en mercados de prompts",
+        "SC-R7-131": "Mayoria de vendedores de prompts sin ingresos significativos",
+        "SC-R7-102": "Vendedor outlier con ingresos altos en mercado de prompts",
+        "SC-R7-103": "Ingresos altos documentados en vendedores de prompts seleccionados",
+        "SC-R7-135": "Outlier de ingresos en mercado de prompts documentado"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Sub-eje de distribucion de ingresos especifico para mercados de prompts. TC-001 ya cubre la asimetria de ingresos de vendedores en el corpus general. Este patron se separa en el contexto especifico de PromptBase y mercados de prompts, con senales propias no cubiertas por TC-001. Se referencia TC-001 como patron general relacionado.",
+      "components": [
+        {
+          "label": "Polo A: ingresos negligibles, mayoria de vendedores",
+          "signal_ids": [
+            "SC-R7-106",
+            "SC-R7-108",
+            "SC-R7-109",
+            "SC-R7-095",
+            "SC-R7-121",
+            "SC-R7-131"
+          ],
+          "summary": "Vendedores de prompts con ingresos bajos o nulos, representan la mayoria del corpus"
+        },
+        {
+          "label": "Polo B: ingresos altos, vendedores outlier",
+          "signal_ids": [
+            "SC-R7-102",
+            "SC-R7-103",
+            "SC-R7-135"
+          ],
+          "summary": "Vendedores de prompts con ingresos documentados altos; grupo minoritario en el corpus"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-011",
+      "description": "Las tarjetas se separan en polos segun si la politica de la plataforma sobre contenido generado por IA es permisiva (sin prohibicion) o restrictiva (prohibicion o mandato de divulgacion).",
+      "signal_ids": [
+        "SC-R8-158",
+        "SC-R8-159",
+        "SC-R8-160",
+        "SC-R8-163",
+        "SC-R8-164",
+        "SC-R8-165",
+        "SC-R7-149",
+        "SC-R7-152",
+        "SC-R7-142",
+        "SC-R7-143",
+        "SC-R7-153",
+        "SC-R7-154",
+        "SC-R7-155",
+        "SC-R8-144",
+        "SC-R8-147"
+      ],
+      "signal_summaries": {
+        "SC-R8-158": "Plataforma con politica permisiva sobre contenido IA",
+        "SC-R8-159": "Sin prohibicion de contenido IA en plataforma documentada",
+        "SC-R8-160": "Politica permisiva IA en marketplace confirmada",
+        "SC-R8-163": "Plataforma permite venta de productos IA sin restriccion",
+        "SC-R8-164": "Sin ban de contenido IA en plataforma",
+        "SC-R8-165": "Politica abierta hacia contenido generado por IA",
+        "SC-R7-149": "Fiverr permite venta de prompts IA sin prohibicion",
+        "SC-R7-152": "Creative Market sin prohibicion de packs de prompts IA",
+        "SC-R7-142": "Etsy prohibe explicitamente la venta de bundles de prompts IA",
+        "SC-R7-143": "Etsy retira listados de prompts IA desde julio 2024",
+        "SC-R7-153": "Getty Images prohíbe todo contenido IA generado",
+        "SC-R7-154": "Shutterstock prohíbe contenido IA de contribuidores",
+        "SC-R7-155": "Envato restringe contenido generado por IA en Market y Elements",
+        "SC-R8-144": "Plataforma con prohibicion o restriccion de contenido IA",
+        "SC-R8-147": "Mandato de divulgacion de contenido IA en plataforma"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion diverge entre plataformas con politica permisiva y plataformas con prohibicion o mandato de divulgacion sobre contenido IA.",
+      "components": [
+        {
+          "label": "Polo A: politica permisiva sobre contenido IA",
+          "signal_ids": [
+            "SC-R8-158",
+            "SC-R8-159",
+            "SC-R8-160",
+            "SC-R8-163",
+            "SC-R8-164",
+            "SC-R8-165",
+            "SC-R7-149",
+            "SC-R7-152"
+          ],
+          "summary": "Plataformas sin prohibicion de contenido generado por IA; venta permitida sin restriccion especifica"
+        },
+        {
+          "label": "Polo B: politica restrictiva sobre contenido IA",
+          "signal_ids": [
+            "SC-R7-142",
+            "SC-R7-143",
+            "SC-R7-153",
+            "SC-R7-154",
+            "SC-R7-155",
+            "SC-R8-144",
+            "SC-R8-147"
+          ],
+          "summary": "Plataformas que prohiben o restringen contenido generado por IA o exigen divulgacion obligatoria"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-012",
+      "description": "Las tarjetas se separan en polos segun si el corpus documenta suspensiones o cierres de cuentas arbitrarios versus experiencias de vendedor estables y positivas en la misma plataforma.",
+      "signal_ids": [
+        "SC-R8-064",
+        "SC-R8-066",
+        "SC-R8-067",
+        "SC-R8-068",
+        "SC-R8-071",
+        "SC-R8-072",
+        "SC-R8-073",
+        "SC-R8-075",
+        "SC-R8-079",
+        "SC-R8-086",
+        "SC-R8-093",
+        "SC-R8-104",
+        "SC-R8-107",
+        "SC-R8-125"
+      ],
+      "signal_summaries": {
+        "SC-R8-064": "Suspension de cuenta documentada en plataforma",
+        "SC-R8-066": "Cierre de cuenta arbitrario sin causa explicada",
+        "SC-R8-067": "Vendedor reporta suspension sin aviso previo",
+        "SC-R8-068": "Ban de cuenta documentado en plataforma digital",
+        "SC-R8-071": "Suspension masiva de cuentas documentada",
+        "SC-R8-072": "Cierre de cuenta sin apelacion efectiva",
+        "SC-R8-073": "Suspension de cuenta con fondos retenidos",
+        "SC-R8-075": "Cuenta bloqueada sin explicacion en plataforma",
+        "SC-R8-079": "Suspension documentada con perdida de acceso a fondos",
+        "SC-R8-086": "Ban de vendedor con historial positivo previo",
+        "SC-R8-093": "Cierre de cuenta documentado en plataforma de infoproductos",
+        "SC-R8-104": "Experiencia de vendedor estable y positiva documentada",
+        "SC-R8-107": "Vendedor con cuenta activa y sin incidentes reportados",
+        "SC-R8-125": "Experiencia positiva de vendedor en plataforma sin suspensiones"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion es asimetrica: el corpus contiene mas tarjetas de suspension/ban que de experiencias estables, lo cual constituye skew distribucional.",
+      "components": [
+        {
+          "label": "Polo A: suspensiones y cierres de cuenta documentados",
+          "signal_ids": [
+            "SC-R8-064",
+            "SC-R8-066",
+            "SC-R8-067",
+            "SC-R8-068",
+            "SC-R8-071",
+            "SC-R8-072",
+            "SC-R8-073",
+            "SC-R8-075",
+            "SC-R8-079",
+            "SC-R8-086",
+            "SC-R8-093"
+          ],
+          "summary": "Tarjetas que documentan suspensiones, bans y cierres de cuentas arbitrarios en plataformas"
+        },
+        {
+          "label": "Polo B: experiencia de vendedor estable",
+          "signal_ids": [
+            "SC-R8-104",
+            "SC-R8-107",
+            "SC-R8-125"
+          ],
+          "summary": "Tarjetas que documentan experiencias estables y positivas de vendedores sin suspensiones"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-013",
+      "description": "Las tarjetas se separan en polos segun el rango de precio de ebooks: rango restringido por politica de royalties de KDP versus rango premium en venta directa o plataformas abiertas.",
+      "signal_ids": [
+        "SC-R10-001",
+        "SC-R10-003",
+        "SC-R10-054",
+        "SC-R10-185",
+        "SC-R10-041",
+        "SC-R10-038",
+        "SC-R10-045",
+        "SC-R10-047",
+        "SC-R10-058"
+      ],
+      "signal_summaries": {
+        "SC-R10-001": "KDP royalty del 70% requiere precio entre $2.99 y $9.99",
+        "SC-R10-003": "Rango de precio KDP para royalty maximo documentado",
+        "SC-R10-054": "Precio de ebook en KDP dentro de rango de royalty optimo",
+        "SC-R10-185": "Restriccion de precio KDP para acceso a royalty del 70%",
+        "SC-R10-041": "Ebook premium en venta directa a precio alto documentado",
+        "SC-R10-038": "Precio de ebook en Gumroad en rango premium",
+        "SC-R10-045": "Venta directa de ebook a precio superior a $27",
+        "SC-R10-047": "Precio de ebook premium fuera de rango KDP",
+        "SC-R10-058": "Ebook en venta directa con precio en rango $97-$297"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre el rango de precio restringido por politica de KDP y el rango premium disponible en venta directa.",
+      "components": [
+        {
+          "label": "Polo A: rango KDP $2.99-$9.99 para royalty 70%",
+          "signal_ids": [
+            "SC-R10-001",
+            "SC-R10-003",
+            "SC-R10-054",
+            "SC-R10-185"
+          ],
+          "summary": "Ebooks publicados en KDP con precio dentro del rango que otorga royalty del 70%"
+        },
+        {
+          "label": "Polo B: precio premium $27-$297 en venta directa",
+          "signal_ids": [
+            "SC-R10-041",
+            "SC-R10-038",
+            "SC-R10-045",
+            "SC-R10-047",
+            "SC-R10-058"
+          ],
+          "summary": "Ebooks vendidos en canales directos o plataformas abiertas a precios premium fuera del rango KDP"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-014",
+      "description": "Las tarjetas se separan en polos segun si el corpus documenta ebooks con calidad verificable y autoria humana versus ebooks generados por IA con errores documentados o riesgos de seguridad.",
+      "signal_ids": [
+        "SC-R10-042",
+        "SC-R10-133",
+        "SC-R10-147",
+        "SC-R10-129",
+        "SC-R10-067",
+        "SC-R10-068",
+        "SC-R10-160",
+        "SC-R10-161",
+        "SC-R10-158",
+        "SC-R10-180"
+      ],
+      "signal_summaries": {
+        "SC-R10-042": "Ebook con autoria humana verificable y calidad documentada",
+        "SC-R10-133": "Contenido de ebook con respaldo de fuentes verificables",
+        "SC-R10-147": "Ebook de alta calidad con autoria acreditada",
+        "SC-R10-129": "Ebook con contenido verificado y fuentes documentadas",
+        "SC-R10-067": "Ebook generado por IA con errores factuales documentados",
+        "SC-R10-068": "Errores medicos en ebook IA reportados por compradores",
+        "SC-R10-160": "Ebook IA con informacion peligrosa documentada",
+        "SC-R10-161": "Contenido de ebook IA no verificado con riesgo de dano",
+        "SC-R10-158": "Ebook generado por IA sin revision humana documentado",
+        "SC-R10-180": "Ebook IA con plagio o errores de alucinacion reportados"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre ebooks con autoria humana verificable y ebooks generados por IA con problemas de calidad o seguridad documentados.",
+      "components": [
+        {
+          "label": "Polo A: autoria humana verificable, alta calidad",
+          "signal_ids": [
+            "SC-R10-042",
+            "SC-R10-133",
+            "SC-R10-147",
+            "SC-R10-129"
+          ],
+          "summary": "Ebooks con autoria acreditada, fuentes verificables y sin errores documentados en el corpus"
+        },
+        {
+          "label": "Polo B: contenido IA con errores o riesgos documentados",
+          "signal_ids": [
+            "SC-R10-067",
+            "SC-R10-068",
+            "SC-R10-160",
+            "SC-R10-161",
+            "SC-R10-158",
+            "SC-R10-180"
+          ],
+          "summary": "Ebooks generados por IA con errores factuales, informacion peligrosa o alucinaciones reportadas"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 1561,
+    "patterns_found": 14,
+    "timestamp": "2026-04-04T00:00:00Z"
+  }
+}
