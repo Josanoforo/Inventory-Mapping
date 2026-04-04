@@ -1,0 +1,370 @@
+{
+  "scan_type": "opposite_directions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "OPP-001",
+      "description": "Se separa en polos: herramientas de IA co-ocurren con señales de mayor oferta de contenido de bajo esfuerzo; al mismo tiempo, señales de demanda de calidad y diferenciación se concentran en el mismo mercado de productos digitales.",
+      "signal_ids": ["SC-R3-132", "SC-R6-145", "SC-R6-147", "SC-R2-092", "SC-R2-090", "SC-R2-106", "SC-R2-094", "SC-R2-095"],
+      "signal_summaries": {
+        "SC-R3-132": "AI tools documented as lowering content creation barrier for digital products",
+        "SC-R6-145": "Documented increase in AI-assisted digital product supply on marketplaces",
+        "SC-R6-147": "Sellers using AI to generate product variants at scale",
+        "SC-R2-092": "Low-effort digital products proliferating on major platforms",
+        "SC-R2-090": "Buyers documented expressing preference for quality and differentiation",
+        "SC-R2-106": "Buyer discernment increasing as market fills with low-effort products",
+        "SC-R2-094": "Demand signal: buyers seeking vetted or curated digital products",
+        "SC-R2-095": "Documented buyer complaints about undifferentiated product quality"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same digital product marketplace system.",
+      "components": [
+        {
+          "label": "Force A: AI tools lower supply barrier (more low-effort supply)",
+          "signal_ids": ["SC-R3-132", "SC-R6-145", "SC-R6-147", "SC-R2-092"],
+          "summary": "AI and automation tools documented as enabling rapid, low-effort digital product creation, increasing supply volume."
+        },
+        {
+          "label": "Force B: Buyers demanding quality and differentiation",
+          "signal_ids": ["SC-R2-090", "SC-R2-106", "SC-R2-094", "SC-R2-095"],
+          "summary": "Buyer signals documented indicating preference for quality, curation, and differentiation as low-effort supply increases."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-002",
+      "description": "Se separa en polos: señales de crecimiento del mercado de productos digitales (más compradores) co-ocurren con señales de saturación del mismo mercado (más vendedores, competencia intensificada).",
+      "signal_ids": ["SC-R1-047", "SC-R1-048", "SC-R3-075", "SC-R1-067", "SC-R1-068", "SC-R1-071", "SC-R4-021", "SC-R4-133", "SC-R4-125", "SC-R3-076"],
+      "signal_summaries": {
+        "SC-R1-047": "Digital product market documented as growing in buyer base",
+        "SC-R1-048": "Increasing demand for digital products across categories",
+        "SC-R3-075": "Market expansion signals: new buyer segments entering digital product space",
+        "SC-R1-067": "Growth in digital product purchases documented",
+        "SC-R1-068": "Platform transaction volumes increasing",
+        "SC-R1-071": "Digital product category growth documented across platforms",
+        "SC-R4-021": "Market saturation documented: more sellers competing for same buyers",
+        "SC-R4-133": "Documented increase in seller count on major platforms",
+        "SC-R4-125": "Competition intensifying: lower prices and margin compression documented",
+        "SC-R3-076": "Saturation signal: discoverability declining as seller count rises"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same digital product market system.",
+      "components": [
+        {
+          "label": "Force A: Market growing (more buyers)",
+          "signal_ids": ["SC-R1-047", "SC-R1-048", "SC-R3-075", "SC-R1-067", "SC-R1-068", "SC-R1-071"],
+          "summary": "Multiple cards document buyer base expansion and increasing demand in digital product markets."
+        },
+        {
+          "label": "Force B: Market saturating (more sellers, intensifying competition)",
+          "signal_ids": ["SC-R4-021", "SC-R4-133", "SC-R4-125", "SC-R3-076"],
+          "summary": "Cards document rising seller counts, margin compression, and declining discoverability on same platforms."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-003",
+      "description": "Se separa en polos: señales de descubrimiento orgánico en plataformas co-ocurren con señales de ausencia de descubrimiento orgánico y necesidad de construcción de audiencia propia en el mismo sistema de distribución.",
+      "signal_ids": ["SC-R4-038", "SC-R4-046", "SC-R4-050", "SC-R8-116", "SC-R8-118", "SC-R8-115", "SC-R4-037", "SC-R4-056", "SC-R6-146", "SC-R4-026", "SC-R4-049", "SC-R8-121", "SC-R8-122", "SC-R8-141", "SC-R8-142", "SC-R10-021"],
+      "signal_summaries": {
+        "SC-R4-038": "Platform organic discovery documented as driver of seller traffic",
+        "SC-R4-046": "Sellers reporting organic search traffic from platform marketplace",
+        "SC-R4-050": "Platform SEO and discovery documented as acquisition channel",
+        "SC-R8-116": "Documented cases of sellers gaining buyers via platform browse/search",
+        "SC-R8-118": "Platform recommendation engine documented as traffic source",
+        "SC-R8-115": "Organic visibility on platform documented for certain product categories",
+        "SC-R4-037": "Sellers documenting zero organic discovery on same platforms",
+        "SC-R4-056": "Documented requirement to drive own traffic to platform listings",
+        "SC-R6-146": "Platform providing no organic reach without paid promotion",
+        "SC-R4-026": "Sellers building off-platform audiences to drive sales",
+        "SC-R4-049": "Platform audience ownership retained by platform, not seller",
+        "SC-R8-121": "Documented seller experience: no discovery without external promotion",
+        "SC-R8-122": "Seller migration to owned channels due to platform discovery failure",
+        "SC-R8-141": "Platform algorithm changes eliminating organic reach for sellers",
+        "SC-R8-142": "Documented decline in platform-driven discovery over time",
+        "SC-R10-021": "Sellers documenting dependence on external social channels for traffic"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same platform distribution system.",
+      "components": [
+        {
+          "label": "Force A: Platform organic discovery drives traffic toward sellers",
+          "signal_ids": ["SC-R4-038", "SC-R4-046", "SC-R4-050", "SC-R8-116", "SC-R8-118", "SC-R8-115"],
+          "summary": "Cards document sellers receiving organic traffic and buyers through platform search, browse, and recommendation systems."
+        },
+        {
+          "label": "Force B: No organic discovery / sellers must drive own traffic",
+          "signal_ids": ["SC-R4-037", "SC-R4-056", "SC-R6-146", "SC-R4-026", "SC-R4-049", "SC-R8-121", "SC-R8-122", "SC-R8-141", "SC-R8-142", "SC-R10-021"],
+          "summary": "Cards document sellers experiencing zero platform organic discovery, requiring off-platform audience building and external traffic."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-004",
+      "description": "Se separa en polos: señales de estructuras de comisiones de plataformas que reducen ingresos de vendedores co-ocurren con señales de ingresos brutos elevados documentados en el mismo sistema de ventas.",
+      "signal_ids": ["SC-R4-105", "SC-R4-118", "SC-R1-030", "SC-R4-078", "SC-R4-110", "SC-R8-016", "SC-R8-025", "SC-R8-034", "SC-R2-070", "SC-R4-068", "SC-R3-033", "SC-R6-093"],
+      "signal_summaries": {
+        "SC-R4-105": "Platform fee structure documented as reducing seller net revenue",
+        "SC-R4-118": "Transaction fees, payment processing costs documented by sellers",
+        "SC-R1-030": "Platform commission rates documented",
+        "SC-R4-078": "Documented seller complaints about fee structure impact on margins",
+        "SC-R4-110": "Fee increases by platforms documented over time",
+        "SC-R8-016": "Documented seller margin compression from platform fee changes",
+        "SC-R8-025": "Platform payment processing and affiliate fees documented",
+        "SC-R8-034": "Sellers documenting net revenue after fees significantly below gross",
+        "SC-R2-070": "High seller gross revenue figures documented on platforms",
+        "SC-R4-068": "Documented cases of sellers with significant platform earnings",
+        "SC-R3-033": "High-volume seller income documented on major platforms",
+        "SC-R6-093": "Documented seller revenue figures indicating viable commercial activity"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same seller revenue system.",
+      "components": [
+        {
+          "label": "Force A: Platform fees push revenue away from sellers",
+          "signal_ids": ["SC-R4-105", "SC-R4-118", "SC-R1-030", "SC-R4-078", "SC-R4-110", "SC-R8-016", "SC-R8-025", "SC-R8-034"],
+          "summary": "Cards document platform commission structures, fee increases, and resulting margin compression for sellers."
+        },
+        {
+          "label": "Force B: Documented high seller gross revenues",
+          "signal_ids": ["SC-R2-070", "SC-R4-068", "SC-R3-033", "SC-R6-093"],
+          "summary": "Cards document sellers with significant gross revenues on platforms, indicating commercial viability despite fees."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-005",
+      "description": "Se separa en polos: señales de migración de vendedores hacia canales propios co-ocurren con señales de control y aplicación de políticas de plataformas que retienen la relación con compradores en el mismo sistema de distribución.",
+      "signal_ids": ["SC-R2-049", "SC-R2-050", "SC-R2-052", "SC-R4-090", "SC-R2-047", "SC-R4-122", "SC-R4-126", "SC-R4-106", "SC-R4-103", "SC-R8-064", "SC-R8-071", "SC-R8-073"],
+      "signal_summaries": {
+        "SC-R2-049": "Sellers documented migrating from marketplace to owned website/store",
+        "SC-R2-050": "Seller strategy documented: reducing platform dependency via own channels",
+        "SC-R2-052": "Documented cases of sellers leaving platforms for direct sales",
+        "SC-R4-090": "Sellers building own email lists and direct buyer relationships",
+        "SC-R2-047": "Platform exit strategy documented by sellers seeking independence",
+        "SC-R4-122": "Platform policies documented restricting seller ability to contact buyers off-platform",
+        "SC-R4-126": "Platform enforcing terms that capture buyer relationship",
+        "SC-R4-106": "Documented platform account suspensions for policy violations",
+        "SC-R4-103": "Platform terms preventing sellers from directing buyers to external sites",
+        "SC-R8-064": "Platform enforcement actions against sellers documented",
+        "SC-R8-071": "Documented removal of seller accounts by platform",
+        "SC-R8-073": "Platform policy changes restricting seller autonomy documented"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same seller-platform relationship system.",
+      "components": [
+        {
+          "label": "Force A: Sellers migrating to owned channels",
+          "signal_ids": ["SC-R2-049", "SC-R2-050", "SC-R2-052", "SC-R4-090", "SC-R2-047"],
+          "summary": "Cards document sellers actively reducing platform dependency by building owned audiences, email lists, and direct sales channels."
+        },
+        {
+          "label": "Force B: Platform enforcement retaining buyer relationship",
+          "signal_ids": ["SC-R4-122", "SC-R4-126", "SC-R4-106", "SC-R4-103", "SC-R8-064", "SC-R8-071", "SC-R8-073"],
+          "summary": "Cards document platform policies, enforcement actions, and terms that restrict seller autonomy and retain the buyer relationship."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-006",
+      "description": "Se separa en polos: señales de mercado hispanohablante subatendido (oportunidad documentada) co-ocurren con señales de barreras de infraestructura de pagos y plataformas que bloquean la participación en el mismo espacio de mercado.",
+      "signal_ids": ["SC-R1-025", "SC-R1-026", "SC-R1-044", "SC-R1-048", "SC-R1-019", "SC-R1-020", "SC-R1-018", "SC-R1-015"],
+      "signal_summaries": {
+        "SC-R1-025": "Spanish-language digital product market documented as underserved relative to English",
+        "SC-R1-026": "Documented demand for Spanish-language educational and informational products",
+        "SC-R1-044": "LATAM buyer demand for digital products in Spanish documented",
+        "SC-R1-048": "Growing Spanish-language digital product buyer base documented",
+        "SC-R1-019": "LATAM payment infrastructure barriers documented for digital product sellers",
+        "SC-R1-020": "Platform limited support for LATAM payment methods documented",
+        "SC-R1-018": "Documented friction in payment processing for LATAM buyers and sellers",
+        "SC-R1-015": "Currency and banking barriers for LATAM digital product market documented"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same Spanish-language/LATAM digital product market.",
+      "components": [
+        {
+          "label": "Force A: Spanish-language market structurally underserved",
+          "signal_ids": ["SC-R1-025", "SC-R1-026", "SC-R1-044", "SC-R1-048"],
+          "summary": "Cards document demand and growth in Spanish-language digital product market with limited supply relative to English-language market."
+        },
+        {
+          "label": "Force B: LATAM payment and platform infrastructure barriers",
+          "signal_ids": ["SC-R1-019", "SC-R1-020", "SC-R1-018", "SC-R1-015"],
+          "summary": "Cards document payment processing limitations, currency barriers, and platform infrastructure gaps blocking LATAM market participation."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-007",
+      "description": "Se separa en polos: señales de herramientas de IA que reducen la barrera de creación de contenido co-ocurren con señales de políticas de plataformas que restringen o filtran contenido generado por IA en el mismo sistema de distribución.",
+      "signal_ids": ["SC-R4-043", "SC-R4-044", "SC-R7-054", "SC-R5-032", "SC-R6-172", "SC-R7-142", "SC-R7-143", "SC-R7-144", "SC-R7-147", "SC-R7-148", "SC-R8-144"],
+      "signal_summaries": {
+        "SC-R4-043": "AI tools documented as enabling rapid content creation for digital products",
+        "SC-R4-044": "Documented increase in AI-generated digital product supply",
+        "SC-R7-054": "AI content generation tools documented in seller workflows",
+        "SC-R5-032": "Sellers using AI to create templates and digital products at scale",
+        "SC-R6-172": "Platform policies documented restricting AI-generated content",
+        "SC-R7-142": "Marketplace policy update: AI content disclosure requirements documented",
+        "SC-R7-143": "Platform removing AI-generated products under quality policies",
+        "SC-R7-144": "Documented platform enforcement against undisclosed AI content",
+        "SC-R7-147": "Platform terms updated to address AI-generated digital products",
+        "SC-R7-148": "Documented seller accounts affected by AI content policy enforcement",
+        "SC-R8-144": "Platform filtering mechanisms for AI-generated content documented"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same platform content distribution system.",
+      "components": [
+        {
+          "label": "Force A: AI tools lower content creation barrier (supply surge)",
+          "signal_ids": ["SC-R4-043", "SC-R4-044", "SC-R7-054", "SC-R5-032"],
+          "summary": "Cards document AI tools enabling rapid, scalable digital product creation, increasing supply volume on platforms."
+        },
+        {
+          "label": "Force B: Platform policies restricting/filtering AI-generated content",
+          "signal_ids": ["SC-R6-172", "SC-R7-142", "SC-R7-143", "SC-R7-144", "SC-R7-147", "SC-R7-148", "SC-R8-144"],
+          "summary": "Cards document platform policy changes, enforcement actions, and filtering mechanisms targeting AI-generated content."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-008",
+      "description": "Se separa en polos: señales de ingresos elevados de vendedores outliers co-ocurren con señales de ingresos típicos o medianos bajos o nulos en el mismo mercado de productos digitales.",
+      "signal_ids": ["SC-R2-070", "SC-R3-033", "SC-R6-093", "SC-R4-068", "SC-R8-171", "SC-R10-042", "SC-R4-035", "SC-R4-036", "SC-R4-013", "SC-R4-150", "SC-R7-106", "SC-R7-121", "SC-R8-127", "SC-R8-128"],
+      "signal_summaries": {
+        "SC-R2-070": "Documented high-income seller cases on digital product platforms",
+        "SC-R3-033": "High-volume seller revenue documented",
+        "SC-R6-093": "Outlier seller income figures documented on platforms",
+        "SC-R4-068": "Significant seller earnings documented in platform data",
+        "SC-R8-171": "Documented cases of sellers with exceptional revenue figures",
+        "SC-R10-042": "High-earning digital product seller cases documented",
+        "SC-R4-035": "Typical/median seller income documented as low or zero",
+        "SC-R4-036": "Majority of platform sellers documented earning minimal revenue",
+        "SC-R4-013": "Documented distribution: most sellers earn little, few earn much",
+        "SC-R4-150": "Seller income survey data showing low median earnings documented",
+        "SC-R7-106": "Documented data on low seller earnings across platform categories",
+        "SC-R7-121": "Most digital product sellers not reaching minimum viable income documented",
+        "SC-R8-127": "Documented seller exit rates due to low earnings",
+        "SC-R8-128": "Low-income seller experience documented in contrast to outlier cases"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same seller income system.",
+      "components": [
+        {
+          "label": "Force A: Outlier/high-income seller cases",
+          "signal_ids": ["SC-R2-070", "SC-R3-033", "SC-R6-093", "SC-R4-068", "SC-R8-171", "SC-R10-042"],
+          "summary": "Cards document exceptional seller revenue figures, high-income outlier cases on digital product platforms."
+        },
+        {
+          "label": "Force B: Typical/median seller income low or zero",
+          "signal_ids": ["SC-R4-035", "SC-R4-036", "SC-R4-013", "SC-R4-150", "SC-R7-106", "SC-R7-121", "SC-R8-127", "SC-R8-128"],
+          "summary": "Cards document low or zero typical earnings for the majority of sellers, survey data, and exit rates due to insufficient income."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-009",
+      "description": "Se separa en polos: señales de crecimiento de oferta y marketplace de plantillas Notion co-ocurren con señales de escepticismo de compradores y quejas de usabilidad sobre el valor de las plantillas en el mismo mercado.",
+      "signal_ids": ["SC-R5-001", "SC-R5-003", "SC-R5-064", "SC-R5-030", "SC-R5-031", "SC-R8-195", "SC-R8-197", "SC-R5-125", "SC-R5-126", "SC-R5-127", "SC-R5-129", "SC-R5-130", "SC-R9-026", "SC-R9-031", "SC-R9-033"],
+      "signal_summaries": {
+        "SC-R5-001": "Notion template marketplace documented as growing",
+        "SC-R5-003": "Documented increase in Notion template sellers and listings",
+        "SC-R5-064": "Growing supply of Notion templates documented across platforms",
+        "SC-R5-030": "Notion template demand and buyer base documented",
+        "SC-R5-031": "Documented commercial activity in Notion template market",
+        "SC-R8-195": "Notion template market growth indicators documented",
+        "SC-R8-197": "Documented expansion of Notion template ecosystem",
+        "SC-R5-125": "Buyer skepticism about Notion template value documented",
+        "SC-R5-126": "User complaints about template usability and complexity documented",
+        "SC-R5-127": "Documented buyer disappointment with purchased Notion templates",
+        "SC-R5-129": "Template value skepticism documented in buyer communities",
+        "SC-R5-130": "Documented user experience issues with Notion templates",
+        "SC-R9-026": "Buyer complaints about template quality and value documented",
+        "SC-R9-031": "Documented skepticism about Notion template ROI among buyers",
+        "SC-R9-033": "User resistance to Notion template adoption documented"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same Notion template market.",
+      "components": [
+        {
+          "label": "Force A: Notion template supply and marketplace growing",
+          "signal_ids": ["SC-R5-001", "SC-R5-003", "SC-R5-064", "SC-R5-030", "SC-R5-031", "SC-R8-195", "SC-R8-197"],
+          "summary": "Cards document growing Notion template supply, increasing seller count, and marketplace expansion."
+        },
+        {
+          "label": "Force B: Buyer skepticism and usability complaints",
+          "signal_ids": ["SC-R5-125", "SC-R5-126", "SC-R5-127", "SC-R5-129", "SC-R5-130", "SC-R9-026", "SC-R9-031", "SC-R9-033"],
+          "summary": "Cards document buyer skepticism, usability complaints, value disappointment, and resistance to Notion template adoption."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-010",
+      "description": "Se separa en polos: señales de oferta de ebooks generados por IA que inundan marketplaces co-ocurren con señales de plataformas e instituciones que restringen o eliminan contenido de ebooks generados por IA en el mismo sistema de distribución.",
+      "signal_ids": ["SC-R10-059", "SC-R10-064", "SC-R10-097", "SC-R10-098", "SC-R10-060", "SC-R10-061", "SC-R10-062", "SC-R10-099", "SC-R10-100", "SC-R10-101"],
+      "signal_summaries": {
+        "SC-R10-059": "AI-generated ebook supply flooding marketplaces documented",
+        "SC-R10-064": "Documented increase in AI ebook listings on major platforms",
+        "SC-R10-097": "Scale of AI-generated ebook supply documented",
+        "SC-R10-098": "Documented commercial activity in AI-generated ebook sector",
+        "SC-R10-060": "Platform restricting AI-generated ebook content documented",
+        "SC-R10-061": "Marketplace removing AI ebook listings under policy documented",
+        "SC-R10-062": "Documented enforcement against AI ebook sellers on platforms",
+        "SC-R10-099": "Platform policy updates addressing AI ebooks documented",
+        "SC-R10-100": "Institutional restrictions on AI-generated ebook content documented",
+        "SC-R10-101": "Documented removal campaigns targeting AI ebook content"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same ebook marketplace system.",
+      "components": [
+        {
+          "label": "Force A: AI-generated ebook supply flooding marketplaces",
+          "signal_ids": ["SC-R10-059", "SC-R10-064", "SC-R10-097", "SC-R10-098"],
+          "summary": "Cards document AI-generated ebook supply growth, marketplace flooding, and commercial activity in AI ebook sector."
+        },
+        {
+          "label": "Force B: Platforms and institutions restricting/removing AI ebook content",
+          "signal_ids": ["SC-R10-060", "SC-R10-061", "SC-R10-062", "SC-R10-099", "SC-R10-100", "SC-R10-101"],
+          "summary": "Cards document platform policy changes, enforcement actions, and institutional restrictions targeting AI-generated ebook content."
+        }
+      ]
+    },
+    {
+      "pattern_id": "OPP-011",
+      "description": "Se separa en polos: señales de resistencia de autores y lectores al contenido de IA co-ocurren con señales de viabilidad comercial y crecimiento de contenido generado por IA en las mismas plataformas.",
+      "signal_ids": ["SC-R10-083", "SC-R10-084", "SC-R10-086", "SC-R10-087", "SC-R10-088", "SC-R10-169", "SC-R7-163", "SC-R7-164", "SC-R7-054", "SC-R10-135", "SC-R10-042", "SC-R10-059"],
+      "signal_summaries": {
+        "SC-R10-083": "Human authors documented actively resisting AI content on platforms",
+        "SC-R10-084": "Reader resistance to AI-generated content documented",
+        "SC-R10-086": "Documented campaigns against AI content by author communities",
+        "SC-R10-087": "Author advocacy against AI content on publishing platforms documented",
+        "SC-R10-088": "Documented reader sentiment against AI-generated books/content",
+        "SC-R10-169": "Organized resistance to AI content in creative markets documented",
+        "SC-R7-163": "AI-generated content documented as commercially viable on platforms",
+        "SC-R7-164": "Documented sales of AI-generated content on same platforms",
+        "SC-R7-054": "AI content generation documented in commercial seller workflows",
+        "SC-R10-135": "Documented commercial performance of AI content on platforms",
+        "SC-R10-042": "AI-generated product revenue documented",
+        "SC-R10-059": "AI-generated content supply documented as growing and commercially active"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Both forces documented with minimum 2 cards each, acting on the same content platform system.",
+      "components": [
+        {
+          "label": "Force A: Human authors and readers actively resisting AI content",
+          "signal_ids": ["SC-R10-083", "SC-R10-084", "SC-R10-086", "SC-R10-087", "SC-R10-088", "SC-R10-169"],
+          "summary": "Cards document organized resistance from authors and readers against AI-generated content on publishing and creative platforms."
+        },
+        {
+          "label": "Force B: AI-generated content commercially viable and growing",
+          "signal_ids": ["SC-R7-163", "SC-R7-164", "SC-R7-054", "SC-R10-135", "SC-R10-042", "SC-R10-059"],
+          "summary": "Cards document commercial viability, sales, and growth of AI-generated content on the same platforms where resistance is documented."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 1561,
+    "patterns_found": 11,
+    "timestamp": "2026-04-04T00:00:00Z"
+  }
+}
