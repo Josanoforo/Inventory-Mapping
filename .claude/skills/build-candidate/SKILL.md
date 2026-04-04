@@ -36,8 +36,20 @@ What it supports (yes/no)
 What is missing
 Classification risk
 Human fields (all empty)
-f. Validate the constructed TC against `schemas/tension_candidate.schema.json`.
-g. Write to `output/tension_candidates/TC-NNN.md`.
+f. structured_support MUST use a `poles` array for ALL TC types. Never use top-level keys like `blocker`, `blocked`, `polo_a`, or `polo_b`. The correct structure is always:
+```json
+"structured_support": {
+  "poles": [
+    { "label": "...", "definition": "...", "signal_ids": [...], "mechanical_summary": "...", "unit_used": "..." },
+    { "label": "...", "definition": "...", "signal_ids": [...], "mechanical_summary": "...", "unit_used": "..." }
+  ]
+}
+```
+For friction TCs: use the pole `label` to indicate the role, e.g. "Blocker — restricción técnica de descarga en app móvil" and "Blocked — compradores sin acceso y vendedores absorbiendo soporte".
+For co-occurrence TCs: use "Polo A — ..." and "Polo B — ...".
+For contradictions, asymmetries, opposite directions: use "Polo A — ..." and "Polo B — ...".
+g. Validate the constructed TC against `schemas/tension_candidate.schema.json`.
+h. Write to `output/tension_candidates/TC-NNN.md`.
 5. Build secondary outputs
 `output/rejected_groupings.md`: all rejected grouping patterns.
 `output/coverage_gaps.md`: all coverage gap patterns.
@@ -75,5 +87,9 @@ additional_context — separate context from direct evidence
 If a TC has >10 Signal IDs, check whether some cards are marketplace context (traffic stats, platform user counts, general pricing data) vs direct evidence of the mechanism (the specific blocker, the specific blocked, the specific contradiction).
 Cards that provide context but are not direct evidence of the poles go in `additional_context`, NOT in the poles.
 This prevents pole inflation with loosely related cards.
+Every Signal ID in additional_context MUST have a parenthetical description. Look up the card in `working/index/card_index.jsonl` and use the `observation` field. Maximum 120 characters, cut at complete word boundary. Never produce bare IDs without descriptions in additional_context.
+In the JSON, additional_context.signal_ids must be an array of objects: `[{"id": "SC-R4-001", "description": "..."}, ...]`.
+In the .md, each context ID must appear as: `- SC-R4-001 (description here)`.
+The top-level signal_ids list in the .md "Signals that support it" section may list IDs without descriptions (they get descriptions inside the poles or additional_context sections), but every ID in the JSON signal_ids array MUST appear with a description somewhere in the .md file — either in a pole or in additional_context.
 Format reference
 Use `reference/TC-001.md` as the exact format template. Match its structure section by section.
