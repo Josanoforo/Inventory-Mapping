@@ -2452,11 +2452,896 @@
           "summary": "buyer — 14 cards"
         }
       ]
+    },
+    {
+      "pattern_id": "FRI-010",
+      "description": "co-ocurre: la falta de hipervinculos funcionales en GoodNotes para Windows y Android bloquea la navegacion en planners digitales documentados como dependientes de hipervinculos.",
+      "signal_ids": [
+        "SC-R9-118",
+        "SC-R9-119",
+        "SC-R9-120",
+        "SC-R9-125"
+      ],
+      "signal_summaries": {
+        "SC-R9-118": "GoodNotes 6 en Windows carece de soporte para hipervinculos en planners digitales",
+        "SC-R9-119": "GoodNotes en Android no soporta hipervinculos interactivos",
+        "SC-R9-120": "Compradores de planners reportan que los hipervinculos no funcionan en sus dispositivos",
+        "SC-R9-125": "Vendedoras documentan quejas de compradores sobre hipervinculos rotos en GoodNotes"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: limitacion tecnica de GoodNotes Windows/Android sin hipervinculos. Bloqueado documentado: planners digitales cuya funcionalidad depende de hipervinculos. Mecanismo claro con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R9-118",
+            "SC-R9-119"
+          ],
+          "summary": "GoodNotes para Windows y Android no implementa hipervinculos interactivos"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R9-120",
+            "SC-R9-125"
+          ],
+          "summary": "Navegacion interna en planners digitales basados en hipervinculos no funciona"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-011",
+      "description": "co-ocurre: la exportacion PDF aplanada de Canva elimina hipervinculos y bloquea la funcionalidad documentada de plantillas interactivas con navegacion interna.",
+      "signal_ids": [
+        "SC-R9-116",
+        "SC-R9-117"
+      ],
+      "signal_summaries": {
+        "SC-R9-116": "Canva exporta PDF aplanado que elimina hipervinculos de plantillas interactivas",
+        "SC-R9-117": "Compradores de planners en Canva reportan hipervinculos no funcionales en PDF exportado"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: Canva aplana PDF al exportar eliminando hipervinculos. Bloqueado documentado: funcionalidad de navegacion interna en plantillas. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R9-116"
+          ],
+          "summary": "Exportacion PDF de Canva aplana el archivo y elimina hipervinculos"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R9-117"
+          ],
+          "summary": "Hipervinculos de navegacion en plantillas de planners dejan de funcionar para compradores"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-012",
+      "description": "co-ocurre: la ausencia de copyright para obras generadas por IA bloquea la proteccion de propiedad intelectual documentada como estrategia de vendedores de prompts.",
+      "signal_ids": [
+        "SC-R7-157",
+        "SC-R7-158",
+        "SC-R7-159",
+        "SC-R7-160"
+      ],
+      "signal_summaries": {
+        "SC-R7-157": "US Copyright Office enero 2025: obras generadas por IA no son registrables",
+        "SC-R7-158": "Fallo judicial confirma que outputs de IA carecen de autoria humana requerida",
+        "SC-R7-159": "Vendedores de prompts documentan incapacidad de proteger sus obras derivadas",
+        "SC-R7-160": "Mercado de prompts opera sin marco de propiedad intelectual aplicable"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: ruling US Copyright Office 2025 que excluye obras IA del copyright. Bloqueado documentado: proteccion IP de productos generados con IA. Mecanismo legal claro con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R7-157",
+            "SC-R7-158"
+          ],
+          "summary": "Marco legal excluye obras generadas por IA del registro de copyright"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R7-159",
+            "SC-R7-160"
+          ],
+          "summary": "Vendedores de prompts e imagenes IA no pueden registrar ni proteger sus outputs"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-013",
+      "description": "co-ocurre: el acantilado de royalties de KDP al precio de 9.99 USD bloquea la estrategia de pricing documentada para ebooks de mayor valor.",
+      "signal_ids": [
+        "SC-R10-001",
+        "SC-R10-002",
+        "SC-R10-003"
+      ],
+      "signal_summaries": {
+        "SC-R10-001": "KDP ofrece 70% de royalty solo para ebooks entre 2.99 y 9.99 USD",
+        "SC-R10-002": "Precios fuera del rango 2.99-9.99 reciben solo 35% de royalty en KDP",
+        "SC-R10-003": "Vendedores documentan constraint de pricing por estructura de royalties de KDP"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: estructura de royalties KDP que penaliza precios fuera de 2.99-9.99. Bloqueado documentado: estrategias de precio alto para ebooks de mayor valor. Mecanismo economico claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R10-001",
+            "SC-R10-002"
+          ],
+          "summary": "KDP reduce royalty de 70% a 35% para precios fuera del rango 2.99-9.99 USD"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R10-003"
+          ],
+          "summary": "Pricing de ebooks especializados o de mayor percepcion de valor queda restringido"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-014",
+      "description": "co-ocurre: el recorte de royalties de KDP para paperbacks bajo 9.99 USD en junio 2025 reduce el margen documentado para libros de bajo precio.",
+      "signal_ids": [
+        "SC-R10-028",
+        "SC-R10-029"
+      ],
+      "signal_summaries": {
+        "SC-R10-028": "KDP junio 2025: royalty de paperback reducido de 60% a 50% para libros bajo 9.99 USD",
+        "SC-R10-029": "Autores documentan reduccion de ingresos por el cambio de estructura de royalties en paperback"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: cambio de politica KDP junio 2025 que reduce royalty paperback. Bloqueado documentado: margen de autores en segmento de bajo precio. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R10-028"
+          ],
+          "summary": "KDP reduce royalty paperback de 60% a 50% para libros bajo 9.99 USD desde junio 2025"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R10-029"
+          ],
+          "summary": "Margen de autores en segmento de paperbacks de bajo precio se reduce"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-015",
+      "description": "co-ocurre: el formato Kindle bloquea la entrega de guias practicas con plantillas y hojas de calculo documentadas como productos principales de vendedores.",
+      "signal_ids": [
+        "SC-R10-025",
+        "SC-R10-026",
+        "SC-R10-027"
+      ],
+      "signal_summaries": {
+        "SC-R10-025": "Kindle no renderiza hojas de calculo ni plantillas interactivas en formato mobi/epub",
+        "SC-R10-026": "Vendedores de guias practicas documentan incompatibilidad de su contenido con Kindle",
+        "SC-R10-027": "Compradores de Kindle reportan que plantillas adjuntas no son accesibles en dispositivo"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: formato Kindle incompatible con plantillas y hojas de calculo. Bloqueado documentado: guias practicas con recursos descargables. Mecanismo tecnico claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R10-025"
+          ],
+          "summary": "Formato Kindle no soporta plantillas interactivas ni hojas de calculo embebidas"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R10-026",
+            "SC-R10-027"
+          ],
+          "summary": "Guias practicas con plantillas como valor central no pueden entregarse via Kindle"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-016",
+      "description": "co-ocurre: el limite de 3 libros diarios de KDP se elude mediante distribuidores como Smashwords y D2D, lo que bloquea la distincion entre contenido humano y contenido IA en el catalogo.",
+      "signal_ids": [
+        "SC-R10-059",
+        "SC-R10-060",
+        "SC-R10-061",
+        "SC-R10-062",
+        "SC-R10-063",
+        "SC-R10-064",
+        "SC-R10-065",
+        "SC-R10-066",
+        "SC-R10-093"
+      ],
+      "signal_summaries": {
+        "SC-R10-059": "KDP establece limite de 3 publicaciones diarias por cuenta para limitar spam IA",
+        "SC-R10-060": "Publicadores de contenido IA documentan uso de Smashwords para eludir limite KDP",
+        "SC-R10-061": "D2D (Draft2Digital) no tiene limite diario equivalente al de KDP",
+        "SC-R10-062": "Flood de ebooks IA documentado en categorias de no ficcion de Amazon",
+        "SC-R10-063": "Titulos IA llegan a Amazon via distribuidores sin pasar por restricciones KDP directas",
+        "SC-R10-064": "Vendedores de contenido humano documentan competencia con titulos IA masivos",
+        "SC-R10-065": "Categorias de ebooks Amazon muestran patron de saturacion por titulos de baja calidad",
+        "SC-R10-066": "Herramientas de publicacion masiva IA documentadas en foros de sellers",
+        "SC-R10-093": "Distribucion indirecta permite publicacion masiva de contenido IA sin limitaciones directas"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: elusión del límite KDP via distribuidores Smashwords/D2D que permite flood IA. Bloqueado documentado: visibilidad de contenido humano en catalogo Amazon. Mecanismo claro con soporte de 9 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R10-059",
+            "SC-R10-060",
+            "SC-R10-061",
+            "SC-R10-066",
+            "SC-R10-093"
+          ],
+          "summary": "Limite KDP 3/dia es eludible via distribuidores sin restriccion equivalente, permitiendo flood de IA"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R10-062",
+            "SC-R10-063",
+            "SC-R10-064",
+            "SC-R10-065"
+          ],
+          "summary": "Visibilidad y posicionamiento de ebooks de contenido humano en catalogo Amazon"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-017",
+      "description": "co-ocurre: la ausencia de etiqueta publica de contenido IA en Amazon bloquea la capacidad del comprador de distinguir obras IA de obras humanas documentada como demanda de mercado.",
+      "signal_ids": [
+        "SC-R10-106",
+        "SC-R10-107",
+        "SC-R10-160",
+        "SC-R10-161"
+      ],
+      "signal_summaries": {
+        "SC-R10-106": "Amazon KDP requiere declaracion interna de contenido IA pero no la muestra al comprador",
+        "SC-R10-107": "Pagina de producto Amazon no incluye indicador visible de contenido generado por IA",
+        "SC-R10-160": "Compradores documentan incapacidad de filtrar ebooks por origen humano vs IA",
+        "SC-R10-161": "Demanda documentada de transparencia sobre contenido IA en libros Amazon"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: Amazon no expone publicamente el flag de IA que si recopila internamente. Bloqueado documentado: decision informada del comprador sobre origen del contenido. Mecanismo claro con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R10-106",
+            "SC-R10-107"
+          ],
+          "summary": "Amazon retiene disclosure de IA internamente sin exponerlo en pagina publica del producto"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R10-160",
+            "SC-R10-161"
+          ],
+          "summary": "Compradores no pueden distinguir ni filtrar obras IA en el catalogo de Amazon"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-018",
+      "description": "co-ocurre: la moderacion automatizada Iffy de Gumroad suspende cuentas de vendedores de contenido IA sin mecanismo de apelacion documentado, bloqueando el acceso a la plataforma.",
+      "signal_ids": [
+        "SC-R8-072",
+        "SC-R8-073",
+        "SC-R8-074"
+      ],
+      "signal_summaries": {
+        "SC-R8-072": "Gumroad implementa sistema Iffy de moderacion automatizada para contenido IA",
+        "SC-R8-073": "Vendedores documentan bans permanentes sin notificacion de causa especifica",
+        "SC-R8-074": "No existe proceso de apelacion documentado para bans por sistema Iffy en Gumroad"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: sistema Iffy que genera bans permanentes sin apelacion. Bloqueado documentado: acceso continuado a plataforma por vendedores de contenido IA. Mecanismo claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-072",
+            "SC-R8-074"
+          ],
+          "summary": "Sistema Iffy de Gumroad emite bans permanentes automatizados sin via de apelacion"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-073"
+          ],
+          "summary": "Acceso de vendedores de contenido IA a plataforma Gumroad y sus productos"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-019",
+      "description": "co-ocurre: la deteccion de contenido IA con falsos positivos de Etsy bloquea listados de arte humano documentados como afectados por el sistema de revision.",
+      "signal_ids": [
+        "SC-R8-149",
+        "SC-R8-150",
+        "SC-R8-151"
+      ],
+      "signal_summaries": {
+        "SC-R8-149": "Etsy implementa deteccion automatizada de contenido IA en listados",
+        "SC-R8-150": "Artistas humanos documentan suspension de listados por falso positivo de deteccion IA",
+        "SC-R8-151": "Proceso de disputa para arte marcado erroneamente como IA no tiene tiempo de resolucion definido"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: sistema de deteccion IA de Etsy con falsos positivos. Bloqueado documentado: listados de arte humano suspendidos incorrectamente. Mecanismo claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-149"
+          ],
+          "summary": "Sistema automatizado de deteccion IA de Etsy genera falsos positivos sobre arte humano"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-150",
+            "SC-R8-151"
+          ],
+          "summary": "Listados de arte humano son suspendidos y el proceso de disputa carece de plazos"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-020",
+      "description": "co-ocurre: el tope de ingresos de 200 000 USD en el plan mas alto de Sellfy bloquea el crecimiento de vendedores documentados con volumenes superiores.",
+      "signal_ids": [
+        "SC-R8-048",
+        "SC-R8-052"
+      ],
+      "signal_summaries": {
+        "SC-R8-052": "Sellfy limita ingresos a 200 000 USD anuales en su plan de mayor precio",
+        "SC-R8-048": "Sellfy estructura planes con topes de ingresos: Starter 10k, Business 50k, Premium 200k USD"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "Bloqueador documentado: tope de 200k USD en plan Premium de Sellfy (SC-R8-048, SC-R8-052). Bloqueado implicado: crecimiento de vendedores con ingresos superiores al tope. Mecanismo documentado con soporte de 2 tarjetas, pero no hay tarjetas de vendedores que superen ese umbral; se enruta a needs_audit.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-052"
+          ],
+          "summary": "Sellfy impone tope de 200 000 USD anuales en su plan premium"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-052"
+          ],
+          "summary": "Escalado de vendedores con ingresos superiores al tope del plan"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-021",
+      "description": "co-ocurre: la tarifa de inactividad de Creative Market de 3.99 USD mensual reduce el saldo documentado de vendedores con cuentas sin actividad reciente.",
+      "signal_ids": [
+        "SC-R8-039",
+        "SC-R8-034",
+        "SC-R8-035"
+      ],
+      "signal_summaries": {
+        "SC-R8-039": "Creative Market cobra 3.99 USD/mes a cuentas inactivas, deducido del saldo del vendedor",
+        "SC-R8-034": "Comision de Creative Market redujo de 80% inicial a 50% actual",
+        "SC-R8-035": "Vendedores documentan reduccion acumulada de margenes en Creative Market"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: tarifa de inactividad 3.99 USD/mes de Creative Market. Bloqueado documentado: saldos de vendedores con actividad esporadica. Mecanismo economico claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-039"
+          ],
+          "summary": "Creative Market aplica tarifa mensual de inactividad que drena saldo de vendedores pasivos"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-034",
+            "SC-R8-035"
+          ],
+          "summary": "Retenciones de vendedores con catalogo establecido pero ventas esporadicas se reducen"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-022",
+      "description": "co-ocurre: la lista de espera del Notion Marketplace que puede extenderse varios meses bloquea el acceso documentado de creadores de plantillas al canal de distribucion oficial.",
+      "signal_ids": [
+        "SC-R5-040",
+        "SC-R8-100",
+        "SC-R8-138"
+      ],
+      "signal_summaries": {
+        "SC-R5-040": "Notion Marketplace requiere aprobacion previa para listar plantillas",
+        "SC-R8-100": "Lista de espera de Notion Marketplace puede tomar varios meses segun documentacion oficial",
+        "SC-R8-138": "Creadores de plantillas Notion documentan esperas prolongadas sin respuesta de aprobacion"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: lista de espera de meses para aprobacion en Notion Marketplace. Bloqueado documentado: acceso de creadores al canal de distribucion oficial. Mecanismo claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-100"
+          ],
+          "summary": "Lista de espera de Notion Marketplace impone demora de meses para aprobacion de vendedores"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R5-040",
+            "SC-R8-138"
+          ],
+          "summary": "Acceso de creadores al canal oficial de distribucion de plantillas Notion"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-023",
+      "description": "co-ocurre: la obsolescencia de versiones de modelos IA bloquea la utilidad de prompts documentados como dependientes de una version especifica.",
+      "signal_ids": [
+        "SC-R7-176",
+        "SC-R7-177",
+        "SC-R7-178"
+      ],
+      "signal_summaries": {
+        "SC-R7-176": "Modelos IA reciben actualizaciones que cambian el comportamiento de prompts existentes",
+        "SC-R7-177": "Vendedores de prompts documentan invalidacion de productos por cambios de version de modelo",
+        "SC-R7-178": "Compradores documentan que prompts adquiridos dejan de funcionar tras actualizaciones de modelo"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: actualizaciones de version de modelo IA que cambian comportamiento. Bloqueado documentado: prompts vendidos vinculados a version especifica. Mecanismo tecnico claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R7-176"
+          ],
+          "summary": "Actualizaciones de modelos IA alteran el comportamiento de prompts existentes sin aviso"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R7-177",
+            "SC-R7-178"
+          ],
+          "summary": "Prompts vendidos pierden funcionalidad al ser ejecutados en versiones actualizadas del modelo"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-024",
+      "description": "co-ocurre: la comision de Creative Market reducida a 50% respecto al 80% inicial reduce el margen documentado de vendedores establecidos en la plataforma.",
+      "signal_ids": [
+        "SC-R8-034",
+        "SC-R8-035",
+        "SC-R8-087"
+      ],
+      "signal_summaries": {
+        "SC-R8-034": "Comision de vendedor en Creative Market ha bajado de 80% a 50% desde el lanzamiento",
+        "SC-R8-035": "Vendedores documentan reduccion acumulada de ingresos por cambios de comision",
+        "SC-R8-087": "Creative Market justifica reduccion de comision por cambios en estructura de costos"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: reduccion de comision de 80% a 50% por Creative Market. Bloqueado documentado: margen de vendedores establecidos en la plataforma. Mecanismo economico claro con soporte de 3 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-034",
+            "SC-R8-087"
+          ],
+          "summary": "Creative Market ha reducido comision de vendedor de 80% a 50% de manera unilateral"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-035"
+          ],
+          "summary": "Margen de vendedores con catalogo en Creative Market se reduce con cada cambio de comision"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-025",
+      "description": "co-ocurre: el enterramiento de productos en Creative Market sin seleccion editorial bloquea la visibilidad documentada de vendedores sin historial de ventas reciente.",
+      "signal_ids": [
+        "SC-R8-134",
+        "SC-R8-135"
+      ],
+      "signal_summaries": {
+        "SC-R8-134": "Creative Market otorga visibilidad preferencial a productos seleccionados editorialmente",
+        "SC-R8-135": "Vendedores sin seleccion editorial documentan descenso de visibilidad organica en Creative Market"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: sistema de seleccion editorial de Creative Market que prioriza un subconjunto. Bloqueado documentado: visibilidad organica de vendedores no seleccionados. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-134"
+          ],
+          "summary": "Seleccion editorial de Creative Market concentra visibilidad en productos destacados"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-135"
+          ],
+          "summary": "Productos de vendedores no seleccionados tienen visibilidad organica reducida"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-026",
+      "description": "co-ocurre: la desconexion de PayPal como opcion de pago en Gumroad bloquea la conversion documentada de compradores que usan PayPal como metodo principal.",
+      "signal_ids": [
+        "SC-R8-076",
+        "SC-R8-077"
+      ],
+      "signal_summaries": {
+        "SC-R8-076": "PayPal corto relacion comercial con Gumroad, eliminando la opcion de pago para compradores",
+        "SC-R8-077": "Vendedores en Gumroad documentan caida de conversion tras eliminacion de PayPal"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: eliminacion de PayPal como metodo de pago en Gumroad. Bloqueado documentado: conversion de compradores que dependen de PayPal. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-076"
+          ],
+          "summary": "PayPal no esta disponible como metodo de pago en Gumroad tras ruptura comercial"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-077"
+          ],
+          "summary": "Conversion de compradores que prefieren o solo usan PayPal en Gumroad"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-027",
+      "description": "co-ocurre: la tarifa plana de Gumroad de 10% mas 0.50 USD por transaccion reduce el margen documentado de vendedores con productos de bajo precio.",
+      "signal_ids": [
+        "SC-R8-017",
+        "SC-R8-018",
+        "SC-R8-024",
+        "SC-R8-025",
+        "SC-R8-101",
+        "SC-R8-103"
+      ],
+      "signal_summaries": {
+        "SC-R8-017": "Gumroad cobra 10% de comision mas 0.50 USD fijo por transaccion",
+        "SC-R8-018": "Estructura de tarifas Gumroad es porcentaje fijo sin escalonado por volumen",
+        "SC-R8-024": "Vendedores con productos bajo 5 USD documentan tarifa fija como proporcion alta del precio",
+        "SC-R8-025": "En productos de 1 USD la tarifa de 0.50 USD representa 50% del precio de venta",
+        "SC-R8-101": "Vendedores documentan que la tarifa fija limita viabilidad de productos de bajo precio",
+        "SC-R8-103": "Comparacion con plataformas de tarifa escalonada muestra desventaja de Gumroad para bajo precio"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: tarifa fija de 0.50 USD por transaccion de Gumroad. Bloqueado documentado: margen viable en productos de precio bajo. Mecanismo economico claro con soporte de 6 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-017",
+            "SC-R8-018"
+          ],
+          "summary": "Gumroad cobra tarifa fija de 0.50 USD por transaccion independientemente del precio del producto"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-024",
+            "SC-R8-025",
+            "SC-R8-101",
+            "SC-R8-103"
+          ],
+          "summary": "Margen de vendedores con productos de precio bajo queda erosionado por la tarifa fija"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-028",
+      "description": "co-ocurre: la suspension automatica de cuentas en Etsy sin apelacion efectiva documentada bloquea el acceso continuado de vendedores a su catalogo y ventas.",
+      "signal_ids": [
+        "SC-R8-064",
+        "SC-R8-065",
+        "SC-R8-066",
+        "SC-R8-067",
+        "SC-R8-068",
+        "SC-R8-069"
+      ],
+      "signal_summaries": {
+        "SC-R8-064": "Etsy emite suspensiones de cuentas de forma automatizada sin intervencion humana inicial",
+        "SC-R8-065": "Apelaciones a suspensiones de Etsy son resueltas negativamente en menos de 24 horas",
+        "SC-R8-066": "Vendedores documentan suspension sin notificacion de la causa especifica",
+        "SC-R8-067": "Fondos retenidos durante el proceso de suspension sin plazo de liberacion definido",
+        "SC-R8-068": "Etsy no ofrece canal de soporte humano para disputar suspensiones automatizadas",
+        "SC-R8-069": "Vendedores con historial largo documentan suspension abrupta sin advertencia previa"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: suspension automatizada sin apelacion efectiva en Etsy. Bloqueado documentado: acceso de vendedores a catalogo, ventas y fondos. Mecanismo claro con soporte de 6 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-064",
+            "SC-R8-065",
+            "SC-R8-068"
+          ],
+          "summary": "Sistema automatizado de Etsy suspende cuentas sin causa clara ni proceso de apelacion efectivo"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-066",
+            "SC-R8-067",
+            "SC-R8-069"
+          ],
+          "summary": "Acceso de vendedores a catalogo, ingresos y fondos retenidos durante suspension"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-029",
+      "description": "co-ocurre: el requisito de una primera venta para acceder al feed de Discover de Gumroad bloquea la visibilidad organica de nuevos vendedores que necesitan esa visibilidad para obtener la primera venta.",
+      "signal_ids": [
+        "SC-R8-122",
+        "SC-R8-154",
+        "SC-R4-049",
+        "SC-R8-121"
+      ],
+      "signal_summaries": {
+        "SC-R8-122": "Gumroad Discover requiere al menos una venta previa para aparecer en el feed",
+        "SC-R8-154": "Nuevos vendedores documentan que no pueden obtener visibilidad organica sin la primera venta",
+        "SC-R4-049": "Gumroad no tiene motor de busqueda externo que dirija trafico organico a nuevos sellers",
+        "SC-R8-121": "Vendedores nuevos en Gumroad dependen de trafico propio para la primera venta"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: requisito de primera venta para acceder a Discover en Gumroad. Bloqueado documentado: acceso al feed de Discover para nuevos vendedores sin ventas previas. Mecanismo circular documentado con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-122",
+            "SC-R4-049"
+          ],
+          "summary": "Gumroad Discover requiere venta previa para listar al vendedor, cerrando el ciclo de descubrimiento"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-154",
+            "SC-R8-121"
+          ],
+          "summary": "Nuevos vendedores sin ventas previas no acceden al feed Discover y carecen de trafico organico"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-030",
+      "description": "co-ocurre: la prohibicion de bundles de prompts de IA en Etsy bloquea la estrategia documentada de vendedores que comercializan colecciones de prompts como producto principal.",
+      "signal_ids": [
+        "SC-R7-142",
+        "SC-R7-143",
+        "SC-R7-144",
+        "SC-R7-145"
+      ],
+      "signal_summaries": {
+        "SC-R7-142": "Etsy actualiza politica de productos digitales prohibiendo la venta de prompts de IA como producto principal",
+        "SC-R7-143": "Vendedores de bundles de prompts documentan eliminacion de listados tras el cambio de politica",
+        "SC-R7-144": "Etsy Creativity Standards de junio 2025 exigen diseno original del vendedor",
+        "SC-R7-145": "Prompts de IA no cumplen el requisito de diseno original segun interpretacion de Etsy"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: politica Etsy Creativity Standards que prohibe prompts IA. Bloqueado documentado: vendedores con catalogo de bundles de prompts en Etsy. Mecanismo claro con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R7-142",
+            "SC-R7-144",
+            "SC-R7-145"
+          ],
+          "summary": "Politica de Etsy Creativity Standards prohibe prompts IA como producto principal desde junio 2025"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R7-143"
+          ],
+          "summary": "Vendedores con catalogo de bundles de prompts IA en Etsy pierden acceso al canal"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-031",
+      "description": "co-ocurre: el requisito de declaracion de contenido IA de Amazon KDP bloquea la publicacion de obras hibridas documentadas donde el porcentaje de IA no es calculable.",
+      "signal_ids": [
+        "SC-R7-147",
+        "SC-R7-148"
+      ],
+      "signal_summaries": {
+        "SC-R7-147": "Amazon KDP requiere declaracion de contenido IA al publicar, incluyendo texto e imagenes",
+        "SC-R7-148": "Autores de obras hibridas documentan ambiguedad sobre que declarar cuando el contenido es parcialmente IA"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: requisito KDP de declaracion binaria de IA. Bloqueado documentado: publicacion fluida de obras con contenido hibrido. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R7-147"
+          ],
+          "summary": "KDP requiere declaracion de contenido IA que no contempla obras con porcentaje parcial de IA"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R7-148"
+          ],
+          "summary": "Autores de contenido hibrido no pueden declarar con precision y enfrentan riesgo de incumplimiento"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-032",
+      "description": "co-ocurre: la tarifa de Offsite Ads de Etsy del 15% obligatoria para vendedores sobre 10 000 USD anuales bloquea el margen documentado en ventas provenientes de trafico externo.",
+      "signal_ids": [
+        "SC-R8-005",
+        "SC-R8-006",
+        "SC-R8-015",
+        "SC-R8-183"
+      ],
+      "signal_summaries": {
+        "SC-R8-005": "Etsy cobra 15% de Offsite Ads fee en ventas generadas por anuncios externos",
+        "SC-R8-006": "Vendedores con mas de 10 000 USD anuales no pueden desactivar Offsite Ads",
+        "SC-R8-015": "La tarifa de Offsite Ads se aplica sobre el precio total incluyendo envio",
+        "SC-R8-183": "Vendedores documentan reduccion de margen neto por tarifa Offsite Ads obligatoria"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: obligatoriedad de Offsite Ads al 15% para vendedores sobre umbral. Bloqueado documentado: margen neto en ventas de trafico externo. Mecanismo claro con soporte de 4 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-005",
+            "SC-R8-006"
+          ],
+          "summary": "Etsy hace obligatoria la tarifa Offsite Ads de 15% para vendedores sobre 10 000 USD anuales"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-015",
+            "SC-R8-183"
+          ],
+          "summary": "Margen neto en ventas de trafico externo se reduce por tarifa no controlable por el vendedor"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-033",
+      "description": "co-ocurre: la incompatibilidad de macros y VBA de Excel con Google Sheets bloquea la funcionalidad documentada de plantillas de spreadsheet basadas en automatizacion.",
+      "signal_ids": [
+        "SC-R2-135",
+        "SC-R2-097"
+      ],
+      "signal_summaries": {
+        "SC-R2-135": "Plantillas Excel con macros VBA no funcionan en Google Sheets por incompatibilidad tecnica",
+        "SC-R2-097": "Vendedores aconsejados a evitar macros complejas por incompatibilidad con Google Sheets"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "Bloqueador documentado: incompatibilidad de macros VBA Excel con Google Sheets (SC-R2-135). Bloqueado documentado: plantillas con automatizaciones VBA al ser usadas en Google Sheets (SC-R2-097). Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R2-135"
+          ],
+          "summary": "Google Sheets no interpreta macros VBA de Excel, rompiendo automatizaciones de plantillas"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R2-135"
+          ],
+          "summary": "Funcionalidad de plantillas Excel con automatizaciones al ser usadas en Google Sheets"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-034",
+      "description": "co-ocurre: el elemento Pro de Canva incrustado en plantillas bloquea el acceso documentado de compradores sin suscripcion Pro al contenido completo de la plantilla.",
+      "signal_ids": [
+        "SC-R6-143",
+        "SC-R6-168"
+      ],
+      "signal_summaries": {
+        "SC-R6-143": "Plantillas Canva que incluyen elementos Pro requieren suscripcion activa del comprador para funcionar",
+        "SC-R6-168": "Vendedores documentan quejas de compradores que no pueden acceder a elementos Pro de plantillas adquiridas"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: elementos Pro de Canva que requieren suscripcion activa del comprador. Bloqueado documentado: acceso completo a plantilla adquirida por compradores sin plan Pro. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R6-143"
+          ],
+          "summary": "Elementos Pro de Canva dentro de plantillas requieren suscripcion activa para ser editados"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R6-168"
+          ],
+          "summary": "Compradores sin plan Pro de Canva no pueden acceder al contenido completo de la plantilla adquirida"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-035",
+      "description": "co-ocurre: las retenciones de pago de Gumroad documentadas bloquean el acceso de vendedores a fondos generados durante el periodo de retencion.",
+      "signal_ids": [
+        "SC-R8-027",
+        "SC-R8-078"
+      ],
+      "signal_summaries": {
+        "SC-R8-027": "Gumroad retiene pagos hasta 30 dias por politica de fraude y disputas",
+        "SC-R8-078": "Vendedores documentan retenciones de fondos sin notificacion de duracion especifica"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador documentado: politica de retencion de pagos de Gumroad hasta 30 dias. Bloqueado documentado: acceso de vendedores a fondos durante el periodo de retencion. Mecanismo claro con soporte de 2 tarjetas.",
+      "components": [
+        {
+          "label": "Blocker",
+          "signal_ids": [
+            "SC-R8-027"
+          ],
+          "summary": "Gumroad retiene fondos de vendedores hasta 30 dias por politica de fraude"
+        },
+        {
+          "label": "Blocked",
+          "signal_ids": [
+            "SC-R8-078"
+          ],
+          "summary": "Acceso de vendedores a ingresos generados durante el periodo de retencion"
+        }
+      ]
     }
   ],
   "metadata": {
     "cards_scanned": 1561,
-    "patterns_found": 9,
-    "timestamp": "2026-04-04T08:37:39Z"
+    "patterns_found": 35,
+    "timestamp": "2026-04-04T00:00:00Z"
   }
 }
