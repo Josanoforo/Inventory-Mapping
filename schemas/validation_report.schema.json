@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ValidationReport",
+  "description": "Result of validating one tension candidate against protocol.",
+  "type": "object",
+  "required": ["candidate_id", "passed", "checks", "timestamp"],
+  "properties": {
+    "candidate_id": { "type": "string", "pattern": "^TC-\\d+$" },
+    "passed": { "type": "boolean" },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["check", "passed"],
+        "properties": {
+          "check": { "type": "string" },
+          "passed": { "type": "boolean" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "timestamp": { "type": "string", "format": "date-time" }
+  }
+}

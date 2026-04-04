@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IndexManifest",
+  "description": "Tracks progress of indexing card batches into card_index.jsonl.",
+  "type": "object",
+  "required": ["status", "batches_processed", "batches_total", "cards_indexed", "cards_total", "issues", "last_updated"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["in_progress", "complete", "failed"]
+    },
+    "batches_processed": { "type": "integer", "minimum": 0 },
+    "batches_total": { "type": "integer", "minimum": 0 },
+    "cards_indexed": { "type": "integer", "minimum": 0 },
+    "cards_total": { "type": "integer", "minimum": 0 },
+    "last_batch_processed": { "type": "string" },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["card_id", "issue"],
+        "properties": {
+          "card_id": { "type": "string" },
+          "issue": { "type": "string" },
+          "severity": { "type": "string", "enum": ["warning", "error"] }
+        }
+      }
+    },
+    "last_updated": { "type": "string", "format": "date-time" }
+  }
+}

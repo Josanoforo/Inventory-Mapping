@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScanArtifact",
+  "description": "Output of one mechanical scan operation.",
+  "type": "object",
+  "required": ["scan_type", "status", "patterns", "metadata"],
+  "properties": {
+    "scan_type": {
+      "type": "string",
+      "enum": ["contradictions", "asymmetries", "frictions", "co_occurrences", "gaps", "opposite_directions", "lexical_overlap"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["complete", "partial", "failed"]
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pattern_id", "description", "signal_ids", "routing"],
+        "properties": {
+          "pattern_id": { "type": "string" },
+          "description": {
+            "type": "string",
+            "description": "Mechanical description using only allowed verbs: aparece, co-ocurre, contradice, se distribuye, no se encontró, se concentra, se separa en polos, no converge."
+          },
+          "signal_ids": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^SC-R\\d+-\\d+$" },
+            "minItems": 2
+          },
+          "signal_summaries": {
+            "type": "object",
+            "description": "Map of signal_id to brief description for traceability.",
+            "additionalProperties": { "type": "string" }
+          },
+          "routing": {
+            "type": "string",
+            "enum": ["tension_candidate", "rejected_grouping", "coverage_gap", "isolated_signal", "needs_audit"],
+            "description": "Where this pattern should go next."
+          },
+          "routing_rationale": { "type": "string" },
+          "components": {
+            "type": "array",
+            "description": "For multi-pole patterns: the poles or components detected.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string" },
+                "signal_ids": {
+                  "type": "array",
+                  "items": { "type": "string", "pattern": "^SC-R\\d+-\\d+$" }
+                },
+                "summary": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["cards_scanned", "patterns_found", "timestamp"],
+      "properties": {
+        "cards_scanned": { "type": "integer" },
+        "patterns_found": { "type": "integer" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}
