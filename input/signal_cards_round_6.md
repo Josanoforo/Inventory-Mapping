@@ -1937,7 +1937,7 @@
 ---
 
 ---
-**SC-R6-177a**
+**SC-R6-177**
 - **Observation:** Reddit-specific searches for buyer-perspective discussions about purchasing Canva templates returned limited results. Search results were dominated by seller-perspective content ("how to sell Canva templates").
 - **Source:** Reddit search (site:reddit.com, multiple query variations)
 - **Date:** Observed April 2026.
@@ -1948,7 +1948,7 @@
 ---
 
 ---
-**SC-R6-177b**
+**SC-R6-178**
 - **Observation:** YouTube searches for buyer-perspective discussions about purchasing Canva templates returned results dominated by seller-perspective content ("how to sell Canva templates").
 - **Source:** YouTube search
 - **Date:** Observed April 2026.

@@ -2,20 +2,9 @@
   "status": "complete",
   "batches_processed": 67,
   "batches_total": 67,
-  "cards_indexed": 1559,
+  "cards_indexed": 1561,
   "cards_total": 1561,
-  "last_batch_processed": "batch_R10_008.md",
-  "issues": [
-    {
-      "card_id": "SC-R6-177a",
-      "issue": "ID 'SC-R6-177a' does not match schema pattern ^SC-R\\d+-\\d+$",
-      "severity": "warning"
-    },
-    {
-      "card_id": "SC-R6-177b",
-      "issue": "ID 'SC-R6-177b' does not match schema pattern ^SC-R\\d+-\\d+$",
-      "severity": "warning"
-    }
-  ],
-  "last_updated": "2026-04-04T06:50:44Z"
+  "last_batch_processed": "batch_R06_008.md",
+  "issues": [],
+  "last_updated": "2026-04-04T06:55:00Z"
 }
