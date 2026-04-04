@@ -1,0 +1,112 @@
+{
+  "id": "TC-114",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de resistencia de autores y lectores al contenido de IA co-ocurren con señales de viabilidad comercial y crecimiento de contenido generado por IA en las mismas plataformas.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same content platform system.",
+  "signal_ids": [
+    "SC-R10-042",
+    "SC-R10-059",
+    "SC-R10-083",
+    "SC-R10-084",
+    "SC-R10-086",
+    "SC-R10-087",
+    "SC-R10-088",
+    "SC-R10-135",
+    "SC-R10-169",
+    "SC-R7-054",
+    "SC-R7-163",
+    "SC-R7-164"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: Human authors and readers actively resisting AI content",
+        "definition": "Cards document organized resistance from authors and readers against AI-generated content on publishing and creative platforms.",
+        "signal_ids": [
+          {
+            "id": "SC-R10-083",
+            "description": "The Authors Guild launched \"Human Authored\" certification in January 2025."
+          },
+          {
+            "id": "SC-R10-084",
+            "description": "By 2026, more than 3,000 authors certified 5,000 titles under the Authors Guild \"Human Authored\" pro"
+          },
+          {
+            "id": "SC-R10-086",
+            "description": "The Authors Guild launched \"Human Authored\" certification in January 2025. By 2026, more than 3,000 "
+          },
+          {
+            "id": "SC-R10-087",
+            "description": "In June 2025, Dennis Lehane, Gregory Maguire, Lauren Groff, and 70+ other authors sent an open lette"
+          },
+          {
+            "id": "SC-R10-088",
+            "description": "The open letter against AI-generated books gathered 1,100+ petition signatures within 24 hours."
+          },
+          {
+            "id": "SC-R10-169",
+            "description": "A Kindle Unlimited subscriber cancelled their subscription due to AI-generated books. \"I used to sub"
+          }
+        ],
+        "mechanical_summary": "Cards document organized resistance from authors and readers against AI-generated content on publishing and creative platforms.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: AI-generated content commercially viable and growing",
+        "definition": "Cards document commercial viability, sales, and growth of AI-generated content on the same platforms where resistance is documented.",
+        "signal_ids": [
+          {
+            "id": "SC-R7-163",
+            "description": "Grand View Research values the global AI Prompt Marketplace Market at $1.40 billion (2024), projecte"
+          },
+          {
+            "id": "SC-R7-164",
+            "description": "Market.us values the AI prompt marketplace market at $1.30 billion (2024), projected $14.09 billion "
+          },
+          {
+            "id": "SC-R7-054",
+            "description": "A third-party analysis reported \"AI Utility transactions up ~150% YoY\" on Gumroad."
+          },
+          {
+            "id": "SC-R10-135",
+            "description": "Vassallo later sold the Small Bets community to Gumroad for $3.6M in April 2025."
+          },
+          {
+            "id": "SC-R10-042",
+            "description": "\"Refactoring UI\" generated $2.3M+ in sales."
+          },
+          {
+            "id": "SC-R10-059",
+            "description": "Between 10,000 and 40,000 e-books per month are released that utilize ChatGPT or other AI platforms,"
+          }
+        ],
+        "mechanical_summary": "Cards document commercial viability, sales, and growth of AI-generated content on the same platforms where resistance is documented.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-011"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

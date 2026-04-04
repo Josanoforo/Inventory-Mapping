@@ -1,0 +1,62 @@
+{
+  "id": "TC-053",
+  "status": "needs_audit_before_classification",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre figura '30 templates' asociada a Etsy en 2 cards de 2 rounds distintos.",
+  "analytical_unit": "possible dedup: figura '30 templates' en contexto Etsy en rounds [2, 6]. Verificar si provienen de la misma fuente original.",
+  "signal_ids": [
+    "SC-R2-072",
+    "SC-R6-099"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R2-072",
+            "description": "Emily McDermott states most profitable ads were on $20-$30 templates and that bundles drove six-figu"
+          }
+        ],
+        "mechanical_summary": "co-ocurre figura '30 templates' asociada a Etsy en 2 cards de 2 rounds distintos.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-099",
+            "description": "Maliha / The Side Blogger has approximately 30 templates in shop and sells across 4 platforms: own w"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "LEX-010"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

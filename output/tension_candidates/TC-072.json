@@ -1,0 +1,67 @@
+{
+  "id": "TC-072",
+  "status": "needs_audit_before_classification",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre figura '3 years' asociada a Etsy en 3 cards de 3 rounds distintos.",
+  "analytical_unit": "possible dedup: figura '3 years' en contexto Etsy en rounds [4, 6, 8]. Verificar si provienen de la misma fuente original.",
+  "signal_ids": [
+    "SC-R4-125",
+    "SC-R6-088",
+    "SC-R8-070"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R4-125",
+            "description": "An Etsy seller quoted in the same aggregation states: \"First time in 3 years without a sale in over "
+          }
+        ],
+        "mechanical_summary": "co-ocurre figura '3 years' asociada a Etsy en 3 cards de 3 rounds distintos.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-088",
+            "description": "JintyTemplates on Etsy: 735 reviews, 3,400 sales, Star Seller, 3 years on the platform; Canva produc"
+          },
+          {
+            "id": "SC-R8-070",
+            "description": "Etsy shut down their largest download shop, which had 300K+ sales in under 3 years, for selling scra"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "LEX-031"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

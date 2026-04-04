@@ -1,0 +1,151 @@
+{
+  "id": "TC-017",
+  "status": "pending_review",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre en 5 rounds distintos (60 cards): Canva Pro element restriction + seller policy + buyer paywall co-ocurren en cards de plataforma y seller.",
+  "analytical_unit": "DT question: ¿Cómo interactúan las restricciones de Canva Pro con las expectativas del comprador y los márgenes del vendedor de templates?",
+  "signal_ids": [
+    "SC-R1-003",
+    "SC-R3-011",
+    "SC-R4-088",
+    "SC-R4-137",
+    "SC-R4-138",
+    "SC-R6-001",
+    "SC-R6-002",
+    "SC-R6-003",
+    "SC-R6-005",
+    "SC-R6-006",
+    "SC-R6-007",
+    "SC-R6-008",
+    "SC-R6-009",
+    "SC-R6-010",
+    "SC-R6-011",
+    "SC-R6-012",
+    "SC-R6-013",
+    "SC-R6-014",
+    "SC-R6-015",
+    "SC-R6-016",
+    "SC-R6-017",
+    "SC-R6-018",
+    "SC-R6-019",
+    "SC-R6-020",
+    "SC-R6-021",
+    "SC-R6-022",
+    "SC-R6-023",
+    "SC-R6-024",
+    "SC-R6-025",
+    "SC-R6-026"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R1-003",
+            "description": "Active products on the Hotmart marketplace include packs of 20-40 editable Canva templates for socia"
+          },
+          {
+            "id": "SC-R3-011",
+            "description": "Large template bundles with Private Label Rights or Master Resell Rights exist on Etsy, including a "
+          },
+          {
+            "id": "SC-R4-088",
+            "description": "Maliha (The Side Blogger) makes \"at least over a hundred bucks\" per month selling Canva templates on"
+          },
+          {
+            "id": "SC-R4-137",
+            "description": "A seller reports: \"I used to love selling Canva templates until I stopped\" because \"virtually every "
+          },
+          {
+            "id": "SC-R4-138",
+            "description": "The same seller switched to selling Notion templates instead of Canva templates, describing Notion t"
+          },
+          {
+            "id": "SC-R6-001",
+            "description": "Social media templates (Instagram posts, stories, reels) for healthcare/medical professionals listed"
+          },
+          {
+            "id": "SC-R6-002",
+            "description": "A 2,100 Instagram templates bundle (640 posts, 640 stories, 450 carousels, 270 quotes, 30 reel cover"
+          },
+          {
+            "id": "SC-R6-003",
+            "description": "111 modern social media posts + 56 stories (minimalist Instagram templates for Canva and Figma) list"
+          }
+        ],
+        "mechanical_summary": "co-ocurre en 5 rounds distintos (60 cards): Canva Pro element restriction + seller policy + buyer paywall co-ocurren en cards de plataforma y seller.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-091",
+            "description": "Ko-fi listing \"Aesthetic Instagram Story Monthly Recap\" free Canva template by Sumin has 5,083 units"
+          },
+          {
+            "id": "SC-R6-092",
+            "description": "\"200+ Ultimate Bundle of Canva Templates\" on Etsy has 1,500 reviews and a 4.8 rating."
+          },
+          {
+            "id": "SC-R6-093",
+            "description": "Katya Varbanova claims $1.4 million in revenue selling Canva templates in under 3 years, working les"
+          },
+          {
+            "id": "SC-R6-094",
+            "description": "Katya Varbanova sold 255 template packs in first few days via presale."
+          },
+          {
+            "id": "SC-R6-095",
+            "description": "Katya Varbanova grew to 13,000 customers and 1,000+ affiliates selling Canva templates."
+          },
+          {
+            "id": "SC-R6-096",
+            "description": "Maliha / The Side Blogger claims $1,000-$3,000/month from Canva templates since 2020 as a side gig ("
+          },
+          {
+            "id": "SC-R6-097",
+            "description": "Maliha / The Side Blogger reports $2,200 in Jan-Feb 2024 from own website alone (WooCommerce screens"
+          },
+          {
+            "id": "SC-R6-098",
+            "description": "Maliha / The Side Blogger reports $7,000+ in Nov-Dec 2023 from website alone during a bundle promoti"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "COO-002",
+    "FRI-002",
+    "FRI-004",
+    "FRI-034",
+    "LEX-050",
+    "LEX-051"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

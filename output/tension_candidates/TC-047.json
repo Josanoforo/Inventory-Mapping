@@ -1,0 +1,81 @@
+{
+  "id": "TC-047",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la prohibicion de bundles de prompts de IA en Etsy bloquea la estrategia documentada de vendedores que comercializan colecciones de prompts como producto principal.",
+  "analytical_unit": "Bloqueador documentado: politica Etsy Creativity Standards que prohibe prompts IA. Bloqueado documentado: vendedores con catalogo de bundles de prompts en Etsy. Mecanismo claro con soporte de 4 tarjetas.",
+  "signal_ids": [
+    "SC-R4-043",
+    "SC-R4-044",
+    "SC-R5-032",
+    "SC-R6-172",
+    "SC-R7-054",
+    "SC-R7-142",
+    "SC-R7-143",
+    "SC-R7-144",
+    "SC-R7-145",
+    "SC-R7-147",
+    "SC-R7-148",
+    "SC-R8-144"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Blocker",
+        "definition": "Politica de Etsy Creativity Standards prohibe prompts IA como producto principal desde junio 2025",
+        "signal_ids": [
+          {
+            "id": "SC-R7-142",
+            "description": "Etsy explicitly prohibits the sale of AI prompt bundles as standalone products. Policy states: \"Whil"
+          },
+          {
+            "id": "SC-R7-144",
+            "description": "In June 2025, Etsy updated its Creativity Standards to require all items to be \"based on a seller's "
+          },
+          {
+            "id": "SC-R7-145",
+            "description": "In June 2025, Etsy updated its Creativity Standards to require all items to be \"based on a seller's "
+          }
+        ],
+        "mechanical_summary": "Politica de Etsy Creativity Standards prohibe prompts IA como producto principal desde junio 2025",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Blocked",
+        "definition": "Vendedores con catalogo de bundles de prompts IA en Etsy pierden acceso al canal",
+        "signal_ids": [
+          {
+            "id": "SC-R7-143",
+            "description": "TechCrunch confirmed Etsy began flagging and removing listings like \"10,000 Midjourney Prompts\" and "
+          }
+        ],
+        "mechanical_summary": "Vendedores con catalogo de bundles de prompts IA en Etsy pierden acceso al canal",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-030",
+    "OPP-007"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

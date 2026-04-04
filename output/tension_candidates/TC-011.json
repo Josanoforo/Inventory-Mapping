@@ -1,0 +1,100 @@
+{
+  "id": "TC-011",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun los ingresos de vendedores en mercados de prompts: la mayoria de vendedores con ingresos negligibles versus un grupo menor con ingresos altos documentados. Sub-eje especifico de mercados de prompts.",
+  "analytical_unit": "Sub-eje de distribucion de ingresos especifico para mercados de prompts. TC-001 ya cubre la asimetria de ingresos de vendedores en el corpus general. Este patron se separa en el contexto especifico de PromptBase y mercados de prompts, con senales propias no cubiertas por TC-001. Se referencia TC-001 como patron general relacionado.",
+  "signal_ids": [
+    "SC-R7-095",
+    "SC-R7-102",
+    "SC-R7-103",
+    "SC-R7-106",
+    "SC-R7-108",
+    "SC-R7-109",
+    "SC-R7-110",
+    "SC-R7-121",
+    "SC-R7-131",
+    "SC-R7-135"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: ingresos negligibles, mayoria de vendedores",
+        "definition": "Vendedores de prompts con ingresos bajos o nulos, representan la mayoria del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R7-106",
+            "description": "implo.ai states \"60–70% of people who list prompts make under $50/month.\""
+          },
+          {
+            "id": "SC-R7-108",
+            "description": "implo.ai states \"Top-40-ranked sellers with hundreds of listings are earning approximately $200–$400"
+          },
+          {
+            "id": "SC-R7-109",
+            "description": "implo.ai states \"Pure prompt sales on PromptBase appear to cap at approximately $200–$600/month for "
+          },
+          {
+            "id": "SC-R7-095",
+            "description": "A seller posted 3 prompts on PromptBase (2 ChatGPT, 1 Midjourney) over one month and received 119 vi"
+          },
+          {
+            "id": "SC-R7-121",
+            "description": "The same seller claims income on PromptBase is \"negligible\" for most sellers and there are \"signific"
+          },
+          {
+            "id": "SC-R7-131",
+            "description": "implo.ai states \"there are more sellers than buyers (confirmed by multiple long-term users)\" on prom"
+          }
+        ],
+        "mechanical_summary": "Vendedores de prompts con ingresos bajos o nulos, representan la mayoria del corpus",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: ingresos altos, vendedores outlier",
+        "definition": "Vendedores de prompts con ingresos documentados altos; grupo minoritario en el corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R7-102",
+            "description": "An author reports making $340 in the first week selling prompts."
+          },
+          {
+            "id": "SC-R7-103",
+            "description": "An author claims $700 selling AI prompts (unspecified timeframe)."
+          },
+          {
+            "id": "SC-R7-135",
+            "description": "A Substack article about a seller who made $50K selling prompts states: \"Even HE was shocked people "
+          }
+        ],
+        "mechanical_summary": "Vendedores de prompts con ingresos documentados altos; grupo minoritario en el corpus",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-010",
+    "CON-003"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

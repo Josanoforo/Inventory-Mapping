@@ -1,0 +1,150 @@
+{
+  "id": "TC-002",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun si la plataforma provee trafico organico integrado o si el vendedor debe generar su propio trafico externo.",
+  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos: plataformas con trafico organico integrado vs plataformas donde el vendedor debe generar todo su trafico.",
+  "signal_ids": [
+    "SC-R10-020",
+    "SC-R10-021",
+    "SC-R10-023",
+    "SC-R4-026",
+    "SC-R4-037",
+    "SC-R4-038",
+    "SC-R4-046",
+    "SC-R4-048",
+    "SC-R4-049",
+    "SC-R4-050",
+    "SC-R4-056",
+    "SC-R4-057",
+    "SC-R4-059",
+    "SC-R4-060",
+    "SC-R4-100",
+    "SC-R5-086",
+    "SC-R6-146",
+    "SC-R8-114",
+    "SC-R8-115",
+    "SC-R8-116",
+    "SC-R8-118",
+    "SC-R8-120",
+    "SC-R8-121",
+    "SC-R8-122",
+    "SC-R8-123",
+    "SC-R8-124",
+    "SC-R8-126",
+    "SC-R8-130",
+    "SC-R8-141",
+    "SC-R8-142"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: trafico organico integrado",
+        "definition": "Plataformas que proveen descubrimiento organico al vendedor sin accion externa requerida",
+        "signal_ids": [
+          {
+            "id": "SC-R4-037",
+            "description": "Catherine Insler reports that when she listed her first product on Gumroad, she got zero sales becau"
+          },
+          {
+            "id": "SC-R4-038",
+            "description": "Catherine Insler reports her first Etsy sale came from someone she had never met who found her produ"
+          },
+          {
+            "id": "SC-R4-046",
+            "description": "A stock photo seller reports making first sales on Creative Market within days of listing, with no e"
+          },
+          {
+            "id": "SC-R4-050",
+            "description": "The seller compares: \"Etsy: millions searching for digital downloads daily. 6.5% fee but massive org"
+          },
+          {
+            "id": "SC-R5-086",
+            "description": "A third-party source claims Notion's official marketplace (notion.com/templates) receives 1,000,000+"
+          },
+          {
+            "id": "SC-R8-114",
+            "description": "Etsy had 95.6 million active buyers in 2024."
+          },
+          {
+            "id": "SC-R8-115",
+            "description": "Etsy attracts approximately 450 million monthly visitors with 86.6 million active buyers."
+          },
+          {
+            "id": "SC-R8-116",
+            "description": "Over 53% of Etsy buyers discovered products through Etsy's search bar."
+          }
+        ],
+        "mechanical_summary": "Plataformas que proveen descubrimiento organico al vendedor sin accion externa requerida",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: trafico externo requerido",
+        "definition": "Plataformas donde el vendedor debe generar todo su trafico; sin descubrimiento integrado",
+        "signal_ids": [
+          {
+            "id": "SC-R4-048",
+            "description": "A seller of a CSV database of 798 marketing agency contacts ($19) reports: \"Gumroad is great for che"
+          },
+          {
+            "id": "SC-R4-049",
+            "description": "The same seller reports that Gumroad Discover requires at least one sale to activate — \"Need a sale "
+          },
+          {
+            "id": "SC-R4-056",
+            "description": "Poonam Sharma reports after 1 year on Gumroad selling Notion templates: \"Gumroad is not a marketplac"
+          },
+          {
+            "id": "SC-R4-057",
+            "description": "Poonam Sharma reports first months on Gumroad yielded \"very few sales because most people launch fre"
+          },
+          {
+            "id": "SC-R4-059",
+            "description": "A creator reports that Ko-fi lacks discoverability: \"Unless you have an existing following, people w"
+          },
+          {
+            "id": "SC-R4-060",
+            "description": "The same creator notes \"Everyone in the world knows Etsy, while only Americans and those in niched s"
+          },
+          {
+            "id": "SC-R4-100",
+            "description": "At the time of writing, Rathes Sachchithananthan had zero sales on Lemon Squeezy. Fees are 5% + 50 c"
+          },
+          {
+            "id": "SC-R8-121",
+            "description": "A Gumroad seller with 25 products reported $0 in sales and zero views from organic search."
+          }
+        ],
+        "mechanical_summary": "Plataformas donde el vendedor debe generar todo su trafico; sin descubrimiento integrado",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-001",
+    "CON-002",
+    "FRI-029",
+    "OPP-003"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

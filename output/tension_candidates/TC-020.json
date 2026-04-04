@@ -1,0 +1,146 @@
+{
+  "id": "TC-020",
+  "status": "pending_review",
+  "type": "co-ocurrencia significativa",
+  "mechanical_relation": "co-ocurre en 7 rounds distintos (32 cards): PLR/MRR resale rights como estrategia de entrada documentada en múltiples plataformas.",
+  "analytical_unit": "DT question: ¿Cómo se distribuyen los productos con derechos PLR/MRR entre plataformas y qué implicaciones tiene para el comprador?",
+  "signal_ids": [
+    "SC-R1-003",
+    "SC-R1-022",
+    "SC-R2-020",
+    "SC-R2-033",
+    "SC-R2-039",
+    "SC-R2-042",
+    "SC-R2-060",
+    "SC-R2-130",
+    "SC-R3-011",
+    "SC-R3-013",
+    "SC-R4-124",
+    "SC-R6-008",
+    "SC-R6-009",
+    "SC-R6-010",
+    "SC-R6-011",
+    "SC-R6-018",
+    "SC-R6-042",
+    "SC-R6-051",
+    "SC-R6-076",
+    "SC-R6-094",
+    "SC-R6-156",
+    "SC-R6-157",
+    "SC-R6-158",
+    "SC-R6-164",
+    "SC-R6-165",
+    "SC-R6-166",
+    "SC-R6-174",
+    "SC-R6-176",
+    "SC-R7-144",
+    "SC-R7-145"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A",
+        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R1-003",
+            "description": "Active products on the Hotmart marketplace include packs of 20-40 editable Canva templates for socia"
+          },
+          {
+            "id": "SC-R1-022",
+            "description": "Spanish digital product categories on Etsy include printable planners, Google Sheets/Excel budget sp"
+          },
+          {
+            "id": "SC-R2-020",
+            "description": "A \"Competency Matrix Template\" listing on Etsy offers Google Sheets format with settings section, co"
+          },
+          {
+            "id": "SC-R2-033",
+            "description": "On Gumroad, JiggySoles (Joel Jerez) sells a \"Reselling Spreadsheet Template Bundle\" described as boo"
+          },
+          {
+            "id": "SC-R2-039",
+            "description": "On Etsy, seller TemplateLifeCo has 119 items total (31 Small Business Tools, 19 Budget Spreadsheets,"
+          },
+          {
+            "id": "SC-R2-042",
+            "description": "On Etsy, one Someka product (Etsy Seller Spreadsheet) is priced at $34.95, and they also sell multi-"
+          },
+          {
+            "id": "SC-R2-060",
+            "description": "On Gumroad, multiple sellers offer large PLR/MRR bundle products (1,000+ or 5,000+ templates) design"
+          },
+          {
+            "id": "SC-R2-130",
+            "description": "The Planner For All PLR blog states: \"Google Sheets templates has more demand on Etsy because they'r"
+          }
+        ],
+        "mechanical_summary": "co-ocurre en 7 rounds distintos (32 cards): PLR/MRR resale rights como estrategia de entrada documentada en múltiples plataformas.",
+        "unit_used": "mixed"
+      },
+      {
+        "label": "Polo B",
+        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "signal_ids": [
+          {
+            "id": "SC-R6-042",
+            "description": "Canva templates on M LaShea & Company Shopify store priced at $9.99 each with commercial license for"
+          },
+          {
+            "id": "SC-R6-051",
+            "description": "\"Ultimate Starter Pack -- 2500+ Pages Canva Templates That You Can Resell!\" listed on Ko-fi by Creat"
+          },
+          {
+            "id": "SC-R6-076",
+            "description": "Canva template sellers bundle (listing images, PLR guide, download instructions) listed on Etsy by R"
+          },
+          {
+            "id": "SC-R6-094",
+            "description": "Katya Varbanova sold 255 template packs in first few days via presale."
+          },
+          {
+            "id": "SC-R6-156",
+            "description": "Canva Content License Agreement grants \"a perpetual, non-exclusive, non-transferable... worldwide li"
+          },
+          {
+            "id": "SC-R6-157",
+            "description": "Canva CLA prohibits: \"sub-license, re-sell, rent, lend, assign, gift or otherwise transfer or distri"
+          },
+          {
+            "id": "SC-R6-158",
+            "description": "Canva CLA Free Content additional permissions include: use in templates for websites, social network"
+          },
+          {
+            "id": "SC-R6-164",
+            "description": "AI-generated content in Canva (Magic Edit, DALL-E, Imagen by Google Cloud) is not covered by Canva's"
+          }
+        ],
+        "mechanical_summary": "contraparte del patrón detectado",
+        "unit_used": "mixed"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible agrupación disfrazada de tensión",
+    "posible artefacto del detector"
+  ],
+  "source_patterns": [
+    "COO-008"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

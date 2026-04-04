@@ -1,0 +1,62 @@
+{
+  "id": "TC-044",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el enterramiento de productos en Creative Market sin seleccion editorial bloquea la visibilidad documentada de vendedores sin historial de ventas reciente.",
+  "analytical_unit": "Bloqueador documentado: sistema de seleccion editorial de Creative Market que prioriza un subconjunto. Bloqueado documentado: visibilidad organica de vendedores no seleccionados. Mecanismo claro con soporte de 2 tarjetas.",
+  "signal_ids": [
+    "SC-R8-134",
+    "SC-R8-135"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Blocker",
+        "definition": "Seleccion editorial de Creative Market concentra visibilidad en productos destacados",
+        "signal_ids": [
+          {
+            "id": "SC-R8-134",
+            "description": "Adrian Pelletier reported that on Creative Market \"you will NOT generate a decent amount of sales un"
+          }
+        ],
+        "mechanical_summary": "Seleccion editorial de Creative Market concentra visibilidad en productos destacados",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Blocked",
+        "definition": "Productos de vendedores no seleccionados tienen visibilidad organica reducida",
+        "signal_ids": [
+          {
+            "id": "SC-R8-135",
+            "description": "Jeremy, a Creative Market seller who earned $100K+, stated: \"Don't rely solely on Creative Market to"
+          }
+        ],
+        "mechanical_summary": "Productos de vendedores no seleccionados tienen visibilidad organica reducida",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible artefacto de fuente",
+    "posible sobre-abstracción"
+  ],
+  "source_patterns": [
+    "FRI-025"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

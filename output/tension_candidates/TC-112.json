@@ -1,0 +1,127 @@
+{
+  "id": "TC-112",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de crecimiento de oferta y marketplace de plantillas Notion co-ocurren con señales de escepticismo de compradores y quejas de usabilidad sobre el valor de las plantillas en el mismo mercado.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same Notion template market.",
+  "signal_ids": [
+    "SC-R5-001",
+    "SC-R5-003",
+    "SC-R5-030",
+    "SC-R5-031",
+    "SC-R5-064",
+    "SC-R5-125",
+    "SC-R5-126",
+    "SC-R5-127",
+    "SC-R5-129",
+    "SC-R5-130",
+    "SC-R8-195",
+    "SC-R8-197",
+    "SC-R9-026",
+    "SC-R9-031",
+    "SC-R9-033"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: Notion template supply and marketplace growing",
+        "definition": "Cards document growing Notion template supply, increasing seller count, and marketplace expansion.",
+        "signal_ids": [
+          {
+            "id": "SC-R5-001",
+            "description": "The Notion template marketplace page title reads \"Choose from 30,000+ Notion templates.\""
+          },
+          {
+            "id": "SC-R5-003",
+            "description": "The Notion marketplace page states \"Browse 18,630 creators.\""
+          },
+          {
+            "id": "SC-R5-064",
+            "description": "As of the 2025 update, searching \"Notion Templates\" on Etsy shows 5,000+ results."
+          },
+          {
+            "id": "SC-R5-030",
+            "description": "Notion officially launched its redesigned \"Marketplace\" at the \"Make with Notion\" conference on Octo"
+          },
+          {
+            "id": "SC-R5-031",
+            "description": "Features announced at the marketplace launch included native payments (via Stripe), creator analytic"
+          },
+          {
+            "id": "SC-R8-195",
+            "description": "Notion reached approximately 100 million users in 2024, up from 30 million in 2023."
+          },
+          {
+            "id": "SC-R8-197",
+            "description": "Notion Marketplace has 30,000+ templates listed."
+          }
+        ],
+        "mechanical_summary": "Cards document growing Notion template supply, increasing seller count, and marketplace expansion.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: Buyer skepticism and usability complaints",
+        "definition": "Cards document buyer skepticism, usability complaints, value disappointment, and resistance to Notion template adoption.",
+        "signal_ids": [
+          {
+            "id": "SC-R5-125",
+            "description": "Hacker News user ChildOfChaos wrote: \"you go on product hunt and there are nonstop 'product' launche"
+          },
+          {
+            "id": "SC-R5-126",
+            "description": "Hacker News user waboremo wrote: \"I also don't get the notion template hype on gumroad/etsy/producth"
+          },
+          {
+            "id": "SC-R5-127",
+            "description": "A verified Etsy buyer wrote: \"I have downloaded a bunch of Notion templates and they are usually too"
+          },
+          {
+            "id": "SC-R5-129",
+            "description": "Notion consultant CJ Wray wrote: \"every template works... until it doesn't. You begin with small twe"
+          },
+          {
+            "id": "SC-R5-130",
+            "description": "CJ Wray wrote: \"One of the core problems with using Notion templates is that they assume too much.\""
+          },
+          {
+            "id": "SC-R9-026",
+            "description": "A Hacker News user criticized Notion templates sold on Product Hunt as overpriced, calling them \"non"
+          },
+          {
+            "id": "SC-R9-031",
+            "description": "A Plannerflix Trustpilot reviewer described the templates as \"overpriced copies of the existing free"
+          },
+          {
+            "id": "SC-R9-033",
+            "description": "Medium author Mil Hoornaert wrote that Notion template sellers' \"entire 'business plan'\" involves te"
+          }
+        ],
+        "mechanical_summary": "Cards document buyer skepticism, usability complaints, value disappointment, and resistance to Notion template adoption.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-009"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

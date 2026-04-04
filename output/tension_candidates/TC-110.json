@@ -1,0 +1,92 @@
+{
+  "id": "TC-110",
+  "status": "pending_review",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de mercado hispanohablante subatendido (oportunidad documentada) co-ocurren con señales de barreras de infraestructura de pagos y plataformas que bloquean la participación en el mismo espacio de mercado.",
+  "analytical_unit": "Both forces documented with minimum 2 cards each, acting on the same Spanish-language/LATAM digital product market.",
+  "signal_ids": [
+    "SC-R1-015",
+    "SC-R1-018",
+    "SC-R1-019",
+    "SC-R1-020",
+    "SC-R1-025",
+    "SC-R1-026",
+    "SC-R1-044",
+    "SC-R1-048"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Force A: Spanish-language market structurally underserved",
+        "definition": "Cards document demand and growth in Spanish-language digital product market with limited supply relative to English-language market.",
+        "signal_ids": [
+          {
+            "id": "SC-R1-025",
+            "description": "Spanish-language printables and worksheets on Etsy total approximately 280,000 listings compared to "
+          },
+          {
+            "id": "SC-R1-026",
+            "description": "Non-English language worksheets on Etsy \"often sell for 20-30% more\" than their English equivalents "
+          },
+          {
+            "id": "SC-R1-044",
+            "description": "Digital planners for iPad/tablets in Spanish are practically nonexistent on Etsy."
+          },
+          {
+            "id": "SC-R1-048",
+            "description": "\"The majority of that growth is outside the English-speaking world,\" according to LessonCraftStudio "
+          }
+        ],
+        "mechanical_summary": "Cards document demand and growth in Spanish-language digital product market with limited supply relative to English-language market.",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Force B: LATAM payment and platform infrastructure barriers",
+        "definition": "Cards document payment processing limitations, currency barriers, and platform infrastructure gaps blocking LATAM market participation.",
+        "signal_ids": [
+          {
+            "id": "SC-R1-019",
+            "description": "Gumroad eliminated PayPal as a payment method in October 2024."
+          },
+          {
+            "id": "SC-R1-020",
+            "description": "Gumroad does not support Latin American local payment methods including Mercado Pago, PIX, Nequi, an"
+          },
+          {
+            "id": "SC-R1-018",
+            "description": "A LaRepublica.es article from March 2026 stated that \"las plataformas americanas como Patreon o Gumr"
+          },
+          {
+            "id": "SC-R1-015",
+            "description": "Gumroad's interface is partially translated to Spanish (purchase buttons and cart are translated; su"
+          }
+        ],
+        "mechanical_summary": "Cards document payment processing limitations, currency barriers, and platform infrastructure gaps blocking LATAM market participation.",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
+  ],
+  "source_patterns": [
+    "OPP-006"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}

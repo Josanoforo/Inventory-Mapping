@@ -1,0 +1,88 @@
+{
+  "id": "TC-010",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos segun si la plataforma soporta metodos de pago locales de LATAM o solo metodos de pago globales sin cobertura local.",
+  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre plataformas con cobertura de pago LATAM y plataformas globales sin esa cobertura.",
+  "signal_ids": [
+    "SC-R1-018",
+    "SC-R1-019",
+    "SC-R1-020",
+    "SC-R1-050",
+    "SC-R1-054",
+    "SC-R1-055",
+    "SC-R4-113"
+  ],
+  "structured_support": {
+    "poles": [
+      {
+        "label": "Polo A: soporte de pagos locales LATAM",
+        "definition": "Plataformas que ofrecen integracion con metodos de pago locales de mercados latinoamericanos",
+        "signal_ids": [
+          {
+            "id": "SC-R1-018",
+            "description": "A LaRepublica.es article from March 2026 stated that \"las plataformas americanas como Patreon o Gumr"
+          },
+          {
+            "id": "SC-R1-050",
+            "description": "Tiendanube offers a free unlimited plan in Argentina and Mexico, integrates Mercado Pago and its own"
+          },
+          {
+            "id": "SC-R1-054",
+            "description": "Empretienda integrates Ualá Bis and Mercado Pago, has a complementary free marketplace called Empres"
+          },
+          {
+            "id": "SC-R1-055",
+            "description": "DropyFile (Argentina) is a platform exclusively for ebooks in the Argentine market, charging in Arge"
+          }
+        ],
+        "mechanical_summary": "Plataformas que ofrecen integracion con metodos de pago locales de mercados latinoamericanos",
+        "unit_used": "mixed (ver classification_risk)"
+      },
+      {
+        "label": "Polo B: sin pagos locales LATAM",
+        "definition": "Plataformas globales que no cubren metodos de pago locales para compradores en LATAM",
+        "signal_ids": [
+          {
+            "id": "SC-R1-019",
+            "description": "Gumroad eliminated PayPal as a payment method in October 2024."
+          },
+          {
+            "id": "SC-R1-020",
+            "description": "Gumroad does not support Latin American local payment methods including Mercado Pago, PIX, Nequi, an"
+          },
+          {
+            "id": "SC-R4-113",
+            "description": "Gumroad Trustpilot reviews report that PayPal was dropped from Gumroad in October 2024, stranding cr"
+          }
+        ],
+        "mechanical_summary": "Plataformas globales que no cubren metodos de pago locales para compradores en LATAM",
+        "unit_used": "mixed (ver classification_risk)"
+      }
+    ]
+  },
+  "what_it_supports": {
+    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
+    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+  },
+  "what_is_missing": [
+    "Normalización por unidad temporal y monetaria entre las cards.",
+    "Separación por plataforma, tipo de producto y geografía.",
+    "Verificación de si este patrón persiste con datos más recientes."
+  ],
+  "classification_risk": [
+    "posible mezcla de unidades incompatibles",
+    "posible sub-representación de un segmento",
+    "posible survivorship bias"
+  ],
+  "source_patterns": [
+    "ASY-009"
+  ],
+  "human_fields": {
+    "human_context": "",
+    "provisional_tension_name": "",
+    "dt_question_enabled": "",
+    "human_review_decision": "",
+    "decision_rationale": ""
+  }
+}
