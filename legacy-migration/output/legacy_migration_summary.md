@@ -104,23 +104,16 @@ Cards: SC-R1-004 (anonymous blog), SC-R1-018 (LaRepublica.es).
 
 ---
 
-## Decision — GO_FOR_SCALE
+## Pilot status
 
-**Status: GO_FOR_SCALE**
+Pilot passed structurally. All 20 records produced and validated against `legacy_signal_card_migration.schema.json` with 0 schema errors. Failure reasons are mechanical and fully documented.
 
-Criteria met:
-- 20 / 20 records produced and validated against `legacy_signal_card_migration.schema.json` — 0 schema errors
-- 0 unresolved cases in `unresolved_cases.md`
-- 70% usable rate (clean_mappable + mappable_with_flags) — above threshold for full-corpus run
-- All failure_reasons are mechanical and documented; no system-level failures
-- Resumability confirmed: `last_processed_id` in manifest enables resume from any interruption point
+**Scale remains pending decisions on:**
+- Social-media source_type: `SC-R1-030` (TikTok self-report) has no canonical `source_type`; ontology decision required before migrating that class of card
+- Benchmark handling visibility: policy for `benchmark`-typed cards (keep `schema_gap` as terminal state, or add URL-pattern reclassification pass) not yet decided
+- Non-destructive URL normalization design: ~460 corpus cards carry domain URLs without `https://`; the approach (pre-processing pass vs. post-processing pass vs. no pass) must be agreed before a full run locks in traceability grades
 
-**Caveats before scaling:**
-- `benchmark`-type cards will reach schema_gap in bulk; expect ~2–5% schema_gap rate from benchmark corpus slice
-- TikTok/social-media cards need ontology decision first; affected count unknown until indexed
-- URL partial cases (~460 in full corpus per prior sample) are mappable_with_flags, not blockers
-
-**Minimal next action:** invoke `legacy-signal-card-migration` without `--sample` to process remaining 1,541 cards from `last_processed_id = SC-R10-023`.
+No scale run has been initiated.
 
 ---
 
