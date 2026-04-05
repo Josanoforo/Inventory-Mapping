@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/data_extraction_validator.schema.json",
+  "title": "Data Extraction Validation Result",
+  "description": "Validation result for one Data Extraction Record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "validation_id",
+    "record_id",
+    "validator_version",
+    "validation_status",
+    "checks",
+    "failures",
+    "notes",
+    "validated_at"
+  ],
+  "properties": {
+    "validation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validator_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_flags",
+        "rework",
+        "reject"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "traceability",
+        "subject_exact",
+        "actor_level",
+        "claim_type",
+        "metric_and_unit",
+        "time_scope",
+        "evidence_role",
+        "qualifiers",
+        "uncertainties",
+        "no_cross_source_synthesis",
+        "single_claim_boundary"
+      ],
+      "properties": {
+        "traceability": { "$ref": "#/$defs/checkResult" },
+        "subject_exact": { "$ref": "#/$defs/checkResult" },
+        "actor_level": { "$ref": "#/$defs/checkResult" },
+        "claim_type": { "$ref": "#/$defs/checkResult" },
+        "metric_and_unit": { "$ref": "#/$defs/checkResult" },
+        "time_scope": { "$ref": "#/$defs/checkResult" },
+        "evidence_role": { "$ref": "#/$defs/checkResult" },
+        "qualifiers": { "$ref": "#/$defs/checkResult" },
+        "uncertainties": { "$ref": "#/$defs/checkResult" },
+        "no_cross_source_synthesis": { "$ref": "#/$defs/checkResult" },
+        "single_claim_boundary": { "$ref": "#/$defs/checkResult" }
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "source_not_traceable",
+          "subject_exact_lost",
+          "actor_level_collapsed",
+          "metric_type_mixed",
+          "time_scope_missing",
+          "qualifier_dropped",
+          "context_as_claim",
+          "cross_source_synthesis_smuggled",
+          "multiple_claims_fused",
+          "evidence_role_unclear",
+          "source_type_unclear",
+          "net_vs_gross_collapsed",
+          "checkout_vs_payout_collapsed",
+          "platform_vs_seller_level_collapsed",
+          "claim_type_interpretive",
+          "metric_unit_invented",
+          "normalized_time_unsafe",
+          "uncertainty_hidden"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rework_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validated_by": {
+      "type": ["string", "null"]
+    }
+  },
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "flag",
+            "fail",
+            "not_applicable"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
