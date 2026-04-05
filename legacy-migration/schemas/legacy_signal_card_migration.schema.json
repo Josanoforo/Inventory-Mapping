@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/legacy_signal_card_migration.schema.json",
+  "title": "Legacy Signal Card Migration Record",
+  "description": "Audit and translation record for one legacy Signal Card. Not a canonical Signal Card. Not validated against signal_card.schema.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "migration_id",
+    "legacy_signal_id",
+    "legacy_source_type_raw",
+    "legacy_evidence_role_raw",
+    "legacy_source_ref_raw",
+    "legacy_source_label_raw",
+    "canonical_source_type",
+    "canonical_source_type_confidence",
+    "canonical_evidence_role",
+    "canonical_evidence_role_confidence",
+    "traceability_grade",
+    "recoverability_status",
+    "checks",
+    "failure_reasons",
+    "migration_notes",
+    "suggested_followup",
+    "migrated_at"
+  ],
+  "properties": {
+    "migration_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique ID for this migration record"
+    },
+    "legacy_signal_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original Signal Card ID from the legacy corpus (e.g. SC-R1-047)"
+    },
+    "legacy_source_type_raw": {
+      "type": ["string", "null"],
+      "description": "Raw value of source_type as it appears in the legacy card. Preserved verbatim."
+    },
+    "legacy_evidence_role_raw": {
+      "type": ["string", "null"],
+      "description": "Raw value of evidence_role or equivalent as it appears in the legacy card. Null if field did not exist."
+    },
+    "legacy_source_ref_raw": {
+      "type": ["string", "null"],
+      "description": "Raw value of source, url, source_ref or equivalent as it appears in the legacy card. Preserved verbatim."
+    },
+    "legacy_source_label_raw": {
+      "type": ["string", "null"],
+      "description": "Raw human-readable label or title of the source as it appears in the legacy card."
+    },
+    "canonical_source_type": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "platform_doc",
+            "help_center",
+            "pricing_page",
+            "policy_page",
+            "blog",
+            "article",
+            "report",
+            "news",
+            "reddit",
+            "seller_forum",
+            "buyer_review",
+            "product_listing",
+            "interview",
+            "video_transcript",
+            "pdf",
+            "database_profile",
+            "search_results_page",
+            "unknown"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Proposed canonical source_type from the new ontology. Null if not mappable."
+    },
+    "canonical_source_type_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "none"],
+      "description": "Confidence in the proposed canonical_source_type mapping."
+    },
+    "canonical_evidence_role": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "direct_claim",
+            "local_context",
+            "downstream_consequence",
+            "anecdotal_example",
+            "official_policy",
+            "comparative_commentary",
+            "derived_calculation",
+            "seller_self_claim",
+            "reported_event",
+            "database_fact",
+            "observed_platform_state",
+            "unknown"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Proposed canonical evidence_role from the new ontology. Null if not mappable."
+    },
+    "canonical_evidence_role_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "none"],
+      "description": "Confidence in the proposed canonical_evidence_role mapping."
+    },
+    "traceability_grade": {
+      "type": "string",
+      "enum": ["complete", "partial", "weak", "none"],
+      "description": "Assessment of how traceable the legacy card is back to its original source."
+    },
+    "recoverability_status": {
+      "type": "string",
+      "enum": [
+        "clean_mappable",
+        "mappable_with_flags",
+        "schema_gap",
+        "needs_source_recovery",
+        "unrecoverable"
+      ],
+      "description": "Overall migration outcome for this legacy card."
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_available",
+        "reference_stable",
+        "source_type_mappable",
+        "evidence_role_mappable",
+        "snippet_verifiability",
+        "legacy_value_requires_enum_extension"
+      ],
+      "properties": {
+        "reference_available": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Is any source reference (URL, label, or partial ref) present in the legacy card?"
+        },
+        "reference_stable": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Is the source reference stable enough to be retrieved or verified?"
+        },
+        "source_type_mappable": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Can legacy_source_type_raw be mapped to a canonical source_type value?"
+        },
+        "evidence_role_mappable": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Can legacy_evidence_role_raw (or inferred role) be mapped to a canonical evidence_role value?"
+        },
+        "snippet_verifiability": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Is the evidence_base or snippet in the legacy card verifiable against a traceable source?"
+        },
+        "legacy_value_requires_enum_extension": {
+          "$ref": "#/$defs/checkResult",
+          "description": "Does the legacy card use a value that was not in the old enum and is not in the new enum either? Signals a schema_gap."
+        }
+      }
+    },
+    "failure_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "source_ref_missing",
+          "source_ref_partial_only",
+          "source_not_verifiable",
+          "source_type_not_in_new_enum",
+          "evidence_role_not_in_new_enum",
+          "benchmark_is_not_source_type",
+          "listing_too_broad_for_new_enum",
+          "report_not_in_new_enum",
+          "news_not_in_new_enum",
+          "database_source_not_represented",
+          "serp_source_not_represented",
+          "third_party_policy_contamination",
+          "snippet_missing",
+          "snippet_not_verifiable",
+          "role_too_ambiguous",
+          "traceability_broken"
+        ]
+      },
+      "uniqueItems": true,
+      "description": "Failure codes triggered during migration. Empty array if clean_mappable."
+    },
+    "migration_notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Operational notes about this migration record. Never market interpretation."
+    },
+    "suggested_followup": {
+      "type": ["string", "null"],
+      "enum": [
+        "reopen_source_for_url",
+        "reopen_source_for_snippet",
+        "reclassify_source_type_manually",
+        "reclassify_evidence_role_manually",
+        "split_into_multiple_records",
+        "mark_as_schema_gap_and_hold",
+        "discard_and_document",
+        "none",
+        null
+      ],
+      "description": "Suggested next action for this record. Null if no follow-up needed."
+    },
+    "migrated_at": {
+      "type": "string",
+      "minLength": 1,
+      "description": "ISO 8601 timestamp or date string of when this migration record was produced."
+    },
+    "migrated_by": {
+      "type": ["string", "null"],
+      "description": "Agent or operator that produced this migration record."
+    }
+  },
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "rationale"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["pass", "flag", "fail", "not_applicable"]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
