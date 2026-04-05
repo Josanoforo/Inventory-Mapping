@@ -1,56 +1,61 @@
 {
   "id": "TC-055",
   "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$17.93' asociada a Etsy en 2 cards de 1 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$17.93' en contexto Etsy en rounds [3]. Verificar si provienen de la misma fuente original.",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el tope de ingresos de $200,000 USD en el plan más alto de Sellfy bloquea el crecimiento de vendedores con volúmenes superiores al tope. El corpus documenta 2 cards del bloqueador (tope de $200k USD en plan Premium de Sellfy) pero no hay cards de vendedores que superen ese umbral en el corpus, lo que requiere auditoría antes de clasificar como fricción activa.",
+  "analytical_unit": "escalabilidad de vendedores en Sellfy ante el tope de ingresos del plan Premium",
   "signal_ids": [
-    "SC-R3-037",
-    "SC-R3-056"
+    "SC-R8-048",
+    "SC-R8-052"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — Sellfy impone tope de $200,000 USD anuales en su plan Premium",
+        "definition": "Cards que documentan la estructura de topes de ingresos de Sellfy por plan",
         "signal_ids": [
           {
-            "id": "SC-R3-037",
-            "description": "KatacosmicDesign shows approximately 4,200 reviews at a sale price of $17.93."
+            "id": "SC-R8-052",
+            "description": "Sellfy limita ingresos a $200,000 USD anuales en su plan de mayor precio"
+          },
+          {
+            "id": "SC-R8-048",
+            "description": "Sellfy estructura planes con topes de ingresos: Starter $10k, Business $50k, Premium $200k USD"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$17.93' asociada a Etsy en 2 cards de 1 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan la estructura de topes de Sellfy con datos numéricos verificados ($10k, $50k, $200k por plan). El bloqueador es documentable pero el lado bloqueado no tiene evidencia directa.",
+        "unit_used": "estructura de topes de ingresos de Sellfy por plan en USD"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
-        "signal_ids": [
-          {
-            "id": "SC-R3-056",
-            "description": "AmethystGarnet's \"Premium Digital Planner Bundle\" has an original price of $68.95 (frequently on sal"
-          }
-        ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "label": "Blocked — escalado de vendedores con ingresos superiores al tope del plan",
+        "definition": "Impacto implícito del tope en vendedores que superan $200,000 USD anuales",
+        "signal_ids": [],
+        "mechanical_summary": "No hay cards en el corpus que documenten vendedores en Sellfy con ingresos superiores a $200,000 USD anuales. El lado bloqueado es inferido del tope documentado, no verificado directamente en el corpus.",
+        "unit_used": "no hay evidencia directa en el corpus"
       }
     ]
   },
+  "audit_flags": [
+    "El lado bloqueado no tiene ninguna card en el corpus que documente un vendedor afectado por el tope de $200k.",
+    "El tope puede ser teórico para el corpus (ningún vendedor documentado en Sellfy parece estar cerca de $200k USD anuales en las rondas del corpus).",
+    "Requiere verificar si existen vendedores en el corpus de Sellfy con ingresos en el rango del tope.",
+    "SC-R8-052 y SC-R8-048 pueden ser la misma card con contenido duplicado."
+  ],
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La estructura de topes de Sellfy está documentada con datos numéricos. El bloqueador es verificable.",
+    "no": "Que el tope de $200k sea una fricción activa para algún vendedor documentado en el corpus (no hay evidencia de vendedor afectado)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Cards de vendedores en Sellfy con ingresos en el rango del tope ($150k-$200k+).",
+    "Información de Sellfy sobre qué ocurre cuando un vendedor supera el tope de su plan.",
+    "Comparación de topes de ingresos con plataformas alternativas (Gumroad no tiene tope)."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión"
   ],
   "source_patterns": [
-    "LEX-012"
+    "FRI-020"
   ],
   "human_fields": {
     "human_context": "",

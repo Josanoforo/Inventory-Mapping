@@ -1,56 +1,61 @@
 {
   "id": "TC-050",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$2.50' asociada a Etsy en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$2.50' en contexto Etsy en rounds [1, 4]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el formato Kindle bloquea la entrega de guías prácticas con plantillas y hojas de cálculo documentadas como productos principales de vendedores. El corpus documenta 1 card del bloqueador (formato Kindle incompatible con plantillas) y 2 cards del bloqueado (guías prácticas con recursos descargables que no pueden entregarse via Kindle).",
+  "analytical_unit": "compatibilidad del formato Kindle con contenidos de guías prácticas que incluyen plantillas descargables",
   "signal_ids": [
-    "SC-R1-023",
-    "SC-R4-119"
+    "SC-R10-025",
+    "SC-R10-026",
+    "SC-R10-027"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — formato Kindle no soporta plantillas interactivas ni hojas de cálculo embebidas",
+        "definition": "Card que documenta la incompatibilidad técnica de Kindle con plantillas y hojas de cálculo",
         "signal_ids": [
           {
-            "id": "SC-R1-023",
-            "description": "Spanish digital product prices on Etsy range from $2.24 to $49: simple cards and printables sell for"
+            "id": "SC-R10-025",
+            "description": "Kindle no renderiza hojas de cálculo ni plantillas interactivas en formato mobi/epub"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$2.50' asociada a Etsy en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta la incompatibilidad técnica de Kindle con plantillas y hojas de cálculo.",
+        "unit_used": "limitación técnica de formato Kindle"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — guías prácticas con plantillas como valor central no pueden entregarse via Kindle",
+        "definition": "Cards que documentan vendedores y compradores afectados por la incompatibilidad de Kindle con plantillas",
         "signal_ids": [
           {
-            "id": "SC-R4-119",
-            "description": "If running Etsy Ads at $0.25/click with 10% conversion, cost-per-sale is $2.50 — a loss on a $1 prod"
+            "id": "SC-R10-026",
+            "description": "vendedores de guías prácticas documentan incompatibilidad de su contenido con Kindle"
+          },
+          {
+            "id": "SC-R10-027",
+            "description": "compradores de Kindle reportan que plantillas adjuntas no son accesibles en dispositivo"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan el impacto: vendedores que no pueden distribuir guías con plantillas via Kindle (SC-R10-026) y compradores que no pueden acceder a plantillas adjuntas (SC-R10-027).",
+        "unit_used": "experiencias documentadas de vendedores y compradores con plantillas en Kindle"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La incompatibilidad técnica del formato Kindle con plantillas y hojas de cálculo está documentada. El impacto en vendedores (SC-R10-026) y compradores (SC-R10-027) tiene texto verificado.",
+    "no": "Que todos los vendedores de guías prácticas en KDP incluyan plantillas incompatibles. Kindle permite enlazar recursos externos aunque no embeber plantillas directamente."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R10-025, SC-R10-026, SC-R10-027 para verificar detalles.",
+    "Estrategias documentadas de vendedores para entregar plantillas junto a ebooks Kindle (links externos, etc.).",
+    "Dato de qué proporción de guías prácticas en KDP incluyen plantillas que requieren descarga separada."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión"
   ],
   "source_patterns": [
-    "LEX-002"
+    "FRI-015"
   ],
   "human_fields": {
     "human_context": "",

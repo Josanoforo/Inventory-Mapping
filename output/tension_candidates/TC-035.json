@@ -1,57 +1,61 @@
 {
   "id": "TC-035",
-  "status": "pending_review",
-  "type": "fricción",
-  "mechanical_relation": "co-ocurre: el recorte de royalties de KDP para paperbacks bajo 9.99 USD en junio 2025 reduce el margen documentado para libros de bajo precio.",
-  "analytical_unit": "Bloqueador documentado: cambio de politica KDP junio 2025 que reduce royalty paperback. Bloqueado documentado: margen de autores en segmento de bajo precio. Mecanismo claro con soporte de 2 tarjetas.",
+  "status": "needs_audit_before_classification",
+  "type": "contradicción",
+  "mechanical_relation": "Las tarjetas contradicen la comisión efectiva neta de Creative Market para vendedores. El corpus documenta 1 card de las condiciones oficiales de la plataforma con comisión nominal del 50% al vendedor (Polo A) y 3 cards de vendedores en Sitejabber que documentan una comisión efectiva neta de aproximadamente 20% después de deducciones adicionales por impuestos sobre el 50% nominal (Polo B). La discrepancia puede ser diferencia entre comisión bruta y neta después de impuestos retenidos, no una contradicción directa.",
+  "analytical_unit": "comisión efectiva neta para vendedores en Creative Market",
   "signal_ids": [
-    "SC-R10-028",
-    "SC-R10-029"
+    "SC-R8-034",
+    "SC-R8-040",
+    "SC-R8-041",
+    "SC-R8-087"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Blocker",
-        "definition": "KDP reduce royalty paperback de 60% a 50% para libros bajo 9.99 USD desde junio 2025",
+        "label": "Polo A — Creative Market paga 50% de comisión nominal al vendedor",
+        "definition": "Card de las condiciones oficiales de Creative Market que establece 50% de comisión al vendedor",
         "signal_ids": [
-          {
-            "id": "SC-R10-028",
-            "description": "Effective June 10, 2025, Amazon KDP paperback/hardcover royalties dropped from 60% to 50% for books "
-          }
+          {"id": "SC-R8-034", "description": "Creative Market Shops Terms (official): 'Creative Market takes 50% commission on all sales'"}
         ],
-        "mechanical_summary": "KDP reduce royalty paperback de 60% a 50% para libros bajo 9.99 USD desde junio 2025",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una sola card (SC-R8-034) de las condiciones oficiales de Creative Market establece 50% de comisión al vendedor. Es fuente oficial verificada. No menciona deducciones adicionales por impuestos ni historial de cambios de comisión.",
+        "unit_used": "porcentaje de comisión nominal al vendedor según condiciones oficiales de la plataforma"
       },
       {
-        "label": "Blocked",
-        "definition": "Margen de autores en segmento de paperbacks de bajo precio se reduce",
+        "label": "Polo B — vendedores reportan retener solo 20% efectivo después de deducciones",
+        "definition": "Cards de vendedores que documentan deducciones adicionales por impuestos que reducen el neto efectivo a aproximadamente 20%, y tendencia histórica de reducción progresiva de comisión",
         "signal_ids": [
-          {
-            "id": "SC-R10-029",
-            "description": "Books at $9.99+ on Amazon KDP remain at 60% paperback/hardcover royalty. Ebooks were not affected by"
-          }
+          {"id": "SC-R8-040", "description": "Sitejabber seller: '$25 sale, $5 balance. They cut $7.50 for taxes on top of 50% commission'"},
+          {"id": "SC-R8-041", "description": "Sitejabber seller: 'I make a measly 20% from a product I created'"},
+          {"id": "SC-R8-087", "description": "Sitejabber seller: comisión bajó de 80% a 70% a 60% a 50% a lo largo de los años, 'quietly slipped in'"}
         ],
-        "mechanical_summary": "Margen de autores en segmento de paperbacks de bajo precio se reduce",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Tres cards de vendedores en Sitejabber documentan una comisión efectiva neta de ~20% después de deducciones adicionales. SC-R8-040 provee cálculo específico ($25 venta, $7.50 en impuestos sobre 50%, $5 neto). SC-R8-041 reporta retener 20%. SC-R8-087 documenta reducción progresiva histórica de comisión (80% → 70% → 60% → 50%).",
+        "unit_used": "comisión efectiva neta en USD y porcentaje después de deducciones fiscales"
       }
     ]
   },
+  "audit_flags": [
+    "La discrepancia puede ser comisión nominal (50%) vs. neto después de impuestos retenidos (~20%), no una contradicción directa sobre el mismo concepto.",
+    "SC-R8-087 documenta reducción histórica de comisión (de 80% a 50%), lo que agrega un componente temporal a la contradicción que requiere separación.",
+    "Polo A tiene solo 1 card (fuente oficial); la afirmación del 50% puede ser correcta como comisión bruta, coexistiendo con el 20% neto del Polo B.",
+    "Requiere verificar si Creative Market retiene impuestos adicionales sobre el 50% base que expliquen la diferencia entre nominal y neto."
+  ],
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El corpus documenta una divergencia documentable entre la comisión nominal de 50% en condiciones oficiales y los ingresos netos efectivos de ~20% reportados por vendedores en Sitejabber. La divergencia es documentable como asimetría entre comisión declarada y comisión percibida.",
+    "no": "Que el 50% nominal y el 20% neto sean afirmaciones sobre el mismo concepto (pueden ser comisión bruta vs. neto después de impuestos, que son categorías distintas). Que la contradicción sea directa y no una diferencia de definición de 'comisión'."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Documentación de Creative Market sobre política de retención de impuestos adicionales sobre la comisión base del 50%.",
+    "Texto completo de SC-R8-034 para verificar si la condición oficial menciona deducciones adicionales.",
+    "Contexto de los vendedores en SC-R8-040 y SC-R8-041: jurisdicción fiscal y tipo de impuesto retenido.",
+    "Verificación independiente de la tendencia histórica de reducción de comisión documentada en SC-R8-087."
   ],
   "classification_risk": [
-    "posible artefacto de fuente",
-    "posible sobre-abstracción"
+    "posible contradicción falsa",
+    "posible mezcla de unidades incompatibles",
+    "posible artefacto de fuente"
   ],
-  "source_patterns": [
-    "FRI-014"
-  ],
+  "source_patterns": ["CON-009"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

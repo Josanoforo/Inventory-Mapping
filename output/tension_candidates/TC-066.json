@@ -1,56 +1,65 @@
 {
   "id": "TC-066",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$2,000' asociada a Gumroad en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$2,000' en contexto Gumroad en rounds [4, 8]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la tarifa Offsite Ads de Etsy del 15% obligatoria para vendedores con ingresos superiores a $10,000 USD anuales bloquea el margen documentado en ventas provenientes de tráfico externo. El corpus documenta 2 cards del bloqueador (tarifa 15% y obligatoriedad para >$10k USD) y 2 cards del bloqueado (aplicación sobre precio total con envío y reducción de margen neto).",
+  "analytical_unit": "margen neto de vendedores en Etsy con ingresos anuales superiores a $10,000 USD en ventas de tráfico externo",
   "signal_ids": [
-    "SC-R4-067",
-    "SC-R8-107"
+    "SC-R8-005",
+    "SC-R8-006",
+    "SC-R8-015",
+    "SC-R8-183"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — Etsy hace obligatoria tarifa Offsite Ads 15% para vendedores sobre $10,000 USD anuales",
+        "definition": "Cards que documentan la obligatoriedad de Offsite Ads al 15% para vendedores sobre el umbral de ingresos",
         "signal_ids": [
           {
-            "id": "SC-R4-067",
-            "description": "Muhammad Zain states: \"I've spent hours posting Reddit, and Instagram to get noticed. No audience = "
+            "id": "SC-R8-005",
+            "description": "Etsy cobra 15% de Offsite Ads fee en ventas generadas por anuncios externos"
+          },
+          {
+            "id": "SC-R8-006",
+            "description": "vendedores con más de $10,000 USD anuales no pueden desactivar Offsite Ads"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$2,000' asociada a Gumroad en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan la tarifa del 15% y la obligatoriedad sin opción de desactivación para vendedores sobre $10,000 USD anuales.",
+        "unit_used": "tarifa Offsite Ads Etsy: 15% sobre ventas de tráfico externo, obligatoria para >$10k USD anuales"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — margen neto en ventas de tráfico externo se reduce por tarifa no controlable por el vendedor",
+        "definition": "Cards que documentan el impacto en margen neto de vendedores por la tarifa Offsite Ads",
         "signal_ids": [
           {
-            "id": "SC-R8-107",
-            "description": "Seller @XCS on Indie Hackers switched from CodeCanyon to Gumroad and sold about $2,000 in 3 months w"
+            "id": "SC-R8-015",
+            "description": "la tarifa de Offsite Ads se aplica sobre el precio total incluyendo envío"
+          },
+          {
+            "id": "SC-R8-183",
+            "description": "vendedores documentan reducción de margen neto por tarifa Offsite Ads obligatoria"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan el mecanismo de aplicación (precio total con envío) y el impacto reportado en margen neto por vendedores afectados.",
+        "unit_used": "margen neto de vendedores afectados por tarifa Offsite Ads en ventas de tráfico externo"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La tarifa de 15% sobre ventas de tráfico externo está documentada. La obligatoriedad para vendedores sobre $10,000 USD anuales está documentada. La aplicación sobre precio total incluyendo envío está documentada. El impacto en margen neto está documentado.",
+    "no": "Que la tarifa impida a los vendedores ser rentables (el impacto varía según el margen del producto y la proporción de ventas de tráfico externo)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R8-015 y SC-R8-183 para verificar el contexto del impacto en margen neto.",
+    "Proporción de ventas de vendedores afectados que provienen de tráfico externo vs. interno de Etsy.",
+    "Comparación con costos de publicidad externa que los vendedores controlarían si pudieran desactivar Offsite Ads."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "LEX-025"
+    "FRI-032"
   ],
   "human_fields": {
     "human_context": "",

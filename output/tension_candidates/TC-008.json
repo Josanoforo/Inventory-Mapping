@@ -1,119 +1,79 @@
 {
   "id": "TC-008",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun el volumen de listados por categoria en Notion Marketplace: categorias de vida personal con volumen alto versus categorias tecnicas o de nicho con volumen bajo.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se concentra en categorias personales; categorias tecnicas y de nicho se separan en polo opuesto con bajo volumen.",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de descubrimiento orgánico en plataformas co-ocurren con señales de ausencia de descubrimiento orgánico y requisito de tráfico externo en el mismo sistema de distribución de productos digitales. Fuerza A: plataformas con descubrimiento orgánico integrado documentan que vendedores reciben tráfico y compradores sin acción externa. Fuerza B: vendedores en otras plataformas documentan cero descubrimiento orgánico y requisito de construir audiencia propia fuera de la plataforma.",
+  "analytical_unit": "señales de tráfico orgánico hacia listados de productos digitales, separadas de ingresos totales del vendedor",
   "signal_ids": [
-    "SC-R4-023",
-    "SC-R4-029",
-    "SC-R4-040",
+    "SC-R4-038",
+    "SC-R4-046",
+    "SC-R4-050",
+    "SC-R8-116",
+    "SC-R8-118",
+    "SC-R8-115",
+    "SC-R4-037",
     "SC-R4-056",
-    "SC-R5-001",
-    "SC-R5-002",
-    "SC-R5-003",
-    "SC-R5-004",
-    "SC-R5-005",
-    "SC-R5-006",
-    "SC-R5-007",
-    "SC-R5-008",
-    "SC-R5-009",
-    "SC-R5-010",
-    "SC-R5-011",
-    "SC-R5-012",
-    "SC-R5-013",
-    "SC-R5-014",
-    "SC-R5-015",
-    "SC-R5-016",
-    "SC-R5-017",
-    "SC-R5-018",
-    "SC-R5-019",
-    "SC-R5-021",
-    "SC-R5-022",
-    "SC-R5-023",
-    "SC-R5-024",
-    "SC-R5-025",
-    "SC-R5-026",
-    "SC-R5-027"
+    "SC-R6-146",
+    "SC-R4-026",
+    "SC-R4-049",
+    "SC-R8-121",
+    "SC-R8-122",
+    "SC-R8-141",
+    "SC-R8-142",
+    "SC-R10-021"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: categorias vida personal, alto volumen",
-        "definition": "Categorias de productividad personal, habitos y planificacion con mayor concentracion de listados",
+        "label": "Polo A — descubrimiento orgánico de plataforma activo",
+        "definition": "Cards que documentan descubrimiento orgánico de plataforma como canal de tráfico activo hacia vendedores de productos digitales",
         "signal_ids": [
-          {
-            "id": "SC-R5-006",
-            "description": "The Personal Planner category on the Notion marketplace shows 8,436 templates."
-          },
-          {
-            "id": "SC-R5-007",
-            "description": "The New Years category on the Notion marketplace shows 5,708 templates."
-          },
-          {
-            "id": "SC-R5-008",
-            "description": "The Study Planner category on the Notion marketplace shows 4,383 templates."
-          },
-          {
-            "id": "SC-R5-009",
-            "description": "The Personal Finance category on the Notion marketplace shows 3,681 templates."
-          },
-          {
-            "id": "SC-R5-010",
-            "description": "The Habit Tracking category on the Notion marketplace shows 2,927 templates."
-          }
+          {"id": "SC-R4-038", "description": "vendedora documenta primera venta en Etsy por búsqueda orgánica de un desconocido"},
+          {"id": "SC-R4-046", "description": "mecanismo de descubrimiento integrado en Etsy documentado"},
+          {"id": "SC-R4-050", "description": "vendedor documenta: Etsy con millones buscando downloads digitales diariamente, tráfico orgánico masivo"},
+          {"id": "SC-R8-116", "description": "más del 53% de compradores de Etsy descubren productos vía barra de búsqueda"},
+          {"id": "SC-R8-118", "description": "shops en primera página de Etsy search reciben hasta 80% de tráfico orgánicamente"},
+          {"id": "SC-R8-115", "description": "Etsy atrae aproximadamente 450 millones de visitantes mensuales con 86.6 millones de compradores activos"}
         ],
-        "mechanical_summary": "Categorias de productividad personal, habitos y planificacion con mayor concentracion de listados",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Seis cards documentan plataformas con descubrimiento orgánico integrado, mayoritariamente Etsy. Las fuentes incluyen testimonios de vendedoras (R4), análisis de plataforma (R8). No están normalizadas por categoría de producto ni nivel de optimización SEO del vendedor.",
+        "unit_used": "observaciones cualitativas y datos porcentuales de tráfico de búsqueda en plataforma"
       },
       {
-        "label": "Polo B: categorias tecnicas o de nicho, bajo volumen",
-        "definition": "Categorias de software, gestion tecnica y nichos especializados con escasa representacion",
+        "label": "Polo B — ausencia de descubrimiento orgánico, tráfico externo requerido",
+        "definition": "Cards que documentan ausencia de descubrimiento orgánico de plataforma y requisito de construir audiencia externa",
         "signal_ids": [
-          {
-            "id": "SC-R5-015",
-            "description": "The Agent Personalization category on the Notion marketplace shows 285 templates."
-          },
-          {
-            "id": "SC-R5-016",
-            "description": "The Trading Journal category on the Notion marketplace shows 173 templates."
-          },
-          {
-            "id": "SC-R5-017",
-            "description": "The Vision Board category on the Notion marketplace shows 166 templates."
-          },
-          {
-            "id": "SC-R5-018",
-            "description": "The Eisenhower Matrix category on the Notion marketplace shows 70 templates."
-          },
-          {
-            "id": "SC-R5-019",
-            "description": "The IT Issue Tracker category on the Notion marketplace shows 29 templates."
-          }
+          {"id": "SC-R4-037", "description": "Catherine Insler: Gumroad no tiene motor de descubrimiento interno; cero ventas al listar primer producto"},
+          {"id": "SC-R4-056", "description": "Poonam Sharma tras 1 año en Gumroad: no es un marketplace que genere tráfico orgánico como Etsy"},
+          {"id": "SC-R6-146", "description": "vendedora: si dependes solo del search de Etsy, tus listings se quedarán sin vistas"},
+          {"id": "SC-R4-026", "description": "vendedores construyendo audiencias off-platform para generar ventas"},
+          {"id": "SC-R4-049", "description": "relación con el comprador en plataforma retenida por la plataforma, no por el vendedor"},
+          {"id": "SC-R8-121", "description": "vendedor de Gumroad con 25 productos reporta $0 en ventas, cero vistas de búsqueda orgánica"},
+          {"id": "SC-R8-122", "description": "Gumroad Discover requiere al menos una venta para activarse: problema de huevo y gallina documentado"},
+          {"id": "SC-R8-141", "description": "Payhip descrito como con cero tráfico integrado, vendedor totalmente responsable"},
+          {"id": "SC-R8-142", "description": "declive documentado del descubrimiento orgánico impulsado por plataforma a lo largo del tiempo"},
+          {"id": "SC-R10-021", "description": "plataforma directa sin tráfico orgánico documentado"}
         ],
-        "mechanical_summary": "Categorias de software, gestion tecnica y nichos especializados con escasa representacion",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Diez cards documentan ausencia de descubrimiento en Gumroad, Payhip y otras plataformas de venta directa. Las fuentes incluyen testimonios directos de vendedores, análisis de plataforma. SC-R4-026, SC-R4-049, SC-R8-142, SC-R10-021 tienen resúmenes genéricos en el scan sin texto específico verificable.",
+        "unit_used": "observaciones cualitativas de vendedores sobre ausencia de tráfico orgánico de plataforma"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de señales de plataformas con descubrimiento orgánico activo (Etsy principalmente) con señales de plataformas sin descubrimiento orgánico donde el vendedor debe generar todo el tráfico (Gumroad, Payhip, plataformas de venta directa).",
+    "no": "Que todas las plataformas funcionen igual para todos los tipos de producto o nivel de optimización del vendedor. Que SC-R6-146 (Etsy sin vistas) contradiga el Polo A: puede referirse a listings mal optimizados, no a ausencia estructural de descubrimiento."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Separación por plataforma: el Polo A es principalmente Etsy; el Polo B mezcla Gumroad, Payhip y plataformas directas.",
+    "Datos de tráfico orgánico por categoría de producto para controlar el efecto de la optimización SEO del vendedor.",
+    "Comparación de tasas de descubrimiento orgánico entre plataformas con métricas equivalentes.",
+    "Evidencia de si la separación entre polos ha cambiado con el tiempo por cambios de algoritmo."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción",
+    "posible falta de grounding"
   ],
-  "source_patterns": [
-    "ASY-007",
-    "COO-004"
-  ],
+  "source_patterns": ["OPP-003"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

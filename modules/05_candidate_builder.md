@@ -17,6 +17,8 @@ Before building a TC from any pattern, apply these filters:
 If the pattern comes from `lexical_overlap` scan and has <3 Signal IDs → route to `rejected_groupings.md`. Do not build TC.
 If the pattern comes from `lexical_overlap` scan and has 3+ Signal IDs but no explicit friction → route to `rejected_groupings.md`. Do not build TC.
 If the pattern comes from another scan and has <3 Signal IDs → build as TC but add "minimal support — only 2 cards" to classification_risk.
+No silent discards
+Every pattern discarded by the pre-build filter MUST be written to `output/rejected_groupings.md` with: pattern_id, scan type of origin, signal_ids, and reason for discard. The filter must never drop a pattern without recording it. After the filter runs, verify: (patterns written to rejected_groupings) + (patterns that passed filter) = (total needs_audit patterns received). If the count does not match, the step has failed.
 Rules
 For each pattern routed as tension_candidate:
 Go back to the original signal cards in `input/`. Do not rely solely on the index.
@@ -43,6 +45,25 @@ What it supports: Distinguish what cards show from what someone might infer. Mus
 What is missing: What would clarify, dissolve, or normalize THIS candidate specifically.
 Classification risk: Select all that apply from the canon's list.
 Human fields: All empty. Never fill them.
+structured_support format
+The `structured_support` field MUST always use a `poles` array, regardless of TC type. Do NOT use top-level keys like `blocker`, `blocked`, `polo_a`, or `polo_b`. The correct JSON structure is:
+```json
+"structured_support": {
+  "poles": [
+    { "label": "...", "definition": "...", "signal_ids": [...], "mechanical_summary": "...", "unit_used": "..." },
+    { "label": "...", "definition": "...", "signal_ids": [...], "mechanical_summary": "...", "unit_used": "..." }
+  ],
+  "additional_context": { ... }
+}
+```
+For friction TCs, use the pole `label` to indicate blocker/blocked role (e.g. "Blocker — restricción técnica" / "Blocked — compradores sin acceso").
+For co-occurrence TCs, use "Polo A — ..." / "Polo B — ...".
+For all other types, use "Polo A — ..." / "Polo B — ...".
+additional_context Signal IDs
+Every Signal ID placed in `additional_context` MUST include a parenthetical description. Look up each ID in `working/index/card_index.jsonl` (field: `observation`). Maximum 120 characters per description, cut at complete word boundary. Never output bare IDs.
+In JSON: `"signal_ids": [{"id": "SC-R4-001", "description": "..."}, ...]`
+In .md: `  - SC-R4-001 (description text here)`
+Every ID in the top-level `signal_ids` array must appear with a description somewhere in the .md — either inside a pole's signal_ids or in additional_context.
 Deduplication
 If two scan artifacts produce patterns that reference >70% of the same Signal IDs, merge ONLY IF the patterns share the same mechanism:
 Verify both patterns describe the same blocker/blocked relationship, the same distributional axis, or the same contradiction.

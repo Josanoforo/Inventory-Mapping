@@ -1,56 +1,56 @@
 {
   "id": "TC-049",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$250' asociada a Gumroad en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$250' en contexto Gumroad en rounds [1, 4]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: el recorte de royalties de KDP para paperbacks bajo $9.99 en junio 2025 reduce el margen documentado para libros de bajo precio. El corpus documenta 1 card del bloqueador (cambio de política KDP junio 2025) y 1 card del bloqueado (reducción de margen de autores en paperbacks de bajo precio).",
+  "analytical_unit": "margen de royalties para paperbacks de bajo precio en KDP después de junio 2025",
   "signal_ids": [
-    "SC-R1-014",
-    "SC-R4-108"
+    "SC-R10-028",
+    "SC-R10-029"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — KDP reduce royalty paperback de 60% a 50% para libros bajo $9.99 desde junio 2025",
+        "definition": "Card que documenta el cambio de política de KDP de junio 2025 reduciendo royalty paperback",
         "signal_ids": [
           {
-            "id": "SC-R1-014",
-            "description": "Prices for Spanish-language products on Gumroad range from free to $250 (a commercial credit guide)."
+            "id": "SC-R10-028",
+            "description": "KDP junio 2025: royalty de paperback reducido de 60% a 50% para libros bajo $9.99 USD"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$250' asociada a Gumroad en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el cambio de política con datos numéricos (60% → 50%) y fecha (junio 2025).",
+        "unit_used": "cambio de porcentaje de royalty paperback en KDP con fecha"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — margen de autores en paperbacks de bajo precio se reduce",
+        "definition": "Card que documenta la reducción de ingresos por el cambio de estructura de royalties en paperbacks",
         "signal_ids": [
           {
-            "id": "SC-R4-108",
-            "description": "A Gumroad Trustpilot reviewer reports: \"Gumroad suddenly suspended my account without sending me any"
+            "id": "SC-R10-029",
+            "description": "autores documentan reducción de ingresos por el cambio de estructura de royalties en paperback"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el impacto en autores de paperbacks de bajo precio. Descripción en el scan sin texto verificado específico.",
+        "unit_used": "observación sobre reducción de ingresos de autores"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El cambio de política de KDP en junio 2025 está documentado con datos numéricos verificados. La reducción del margen para autores de paperbacks de bajo precio es una consecuencia directa documentable.",
+    "no": "Que el cambio afecte igualmente a todos los autores (autores con libros sobre $9.99 no son afectados por este cambio específico)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R10-029 para verificar la fuente de los autores afectados.",
+    "Dato de qué porcentaje del catálogo KDP de paperbacks está bajo $9.99.",
+    "Comparación de impacto por género (ficción vs. no ficción) dado que los rangos de precio difieren."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "LEX-001"
+    "FRI-014"
   ],
   "human_fields": {
     "human_context": "",

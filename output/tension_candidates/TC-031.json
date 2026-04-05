@@ -1,67 +1,65 @@
 {
   "id": "TC-031",
-  "status": "pending_review",
-  "type": "fricción",
-  "mechanical_relation": "co-ocurre: la falta de hipervinculos funcionales en GoodNotes para Windows y Android bloquea la navegacion en planners digitales documentados como dependientes de hipervinculos.",
-  "analytical_unit": "Bloqueador documentado: limitacion tecnica de GoodNotes Windows/Android sin hipervinculos. Bloqueado documentado: planners digitales cuya funcionalidad depende de hipervinculos. Mecanismo claro con soporte de 4 tarjetas.",
+  "status": "needs_audit_before_classification",
+  "type": "contradicción",
+  "mechanical_relation": "Las tarjetas se separan en polos sobre si el search de Etsy es suficiente como fuente de tráfico orgánico para productos digitales. El corpus documenta 6 cards que documentan ventas directas desde Etsy search sin tráfico externo (Polo A) y 1 card que afirma que confiar solo en Etsy search resulta en ausencia de vistas (Polo B). La asimetría de soporte (6 vs. 1) y la posible diferencia de alcance (listings bien posicionados vs. listings sin posicionar) requieren auditoría antes de clasificar como contradicción completa.",
+  "analytical_unit": "eficacia del search de Etsy como canal de tráfico orgánico para productos digitales",
   "signal_ids": [
-    "SC-R9-118",
-    "SC-R9-119",
-    "SC-R9-120",
-    "SC-R9-125"
+    "SC-R4-038",
+    "SC-R4-050",
+    "SC-R6-146",
+    "SC-R8-116",
+    "SC-R8-118",
+    "SC-R8-120",
+    "SC-R8-126"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Blocker",
-        "definition": "GoodNotes para Windows y Android no implementa hipervinculos interactivos",
+        "label": "Polo A — Etsy search genera tráfico orgánico real para productos digitales",
+        "definition": "Cards que documentan que Etsy search es canal primario de descubrimiento para compradores y vendedores de productos digitales",
         "signal_ids": [
-          {
-            "id": "SC-R9-118",
-            "description": "Future ADHD (digital planner seller, 2026 copyright) lists devices and apps explicitly NOT compatibl"
-          },
-          {
-            "id": "SC-R9-119",
-            "description": "Future ADHD reports that GoodNotes on Android is \"currently in BETA\" with limited functionality, and"
-          }
+          {"id": "SC-R4-038", "description": "Catherine Insler: 'someone I'd never met found it in search and bought it' (Etsy)"},
+          {"id": "SC-R4-050", "description": "Vemtrac: 'Etsy: millions searching for digital downloads daily... massive organic traffic'"},
+          {"id": "SC-R8-116", "description": "Yaguara: 'Over 53% of Etsy buyers discovered products through Etsy's search bar'"},
+          {"id": "SC-R8-118", "description": "Listybox: 'Shops that rank on the first page of Etsy search receive up to 80% of their total traffic organically'"},
+          {"id": "SC-R8-120", "description": "Growing Your Craft: 'For many Etsy shops, the majority of your traffic will likely come from Etsy search'"},
+          {"id": "SC-R8-126", "description": "Catherine Insler: mismo toolkit $8 — Etsy search generó primera venta de un desconocido; Gumroad no lo mostró a nadie"}
         ],
-        "mechanical_summary": "GoodNotes para Windows y Android no implementa hipervinculos interactivos",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Seis cards de fuentes distintas (vendedoras, analistas, plataforma) documentan que Etsy search genera tráfico orgánico y ventas directas. Las fuentes proveen texto verificado con datos específicos (53% de compradores, 80% de tráfico en primera página).",
+        "unit_used": "observaciones cualitativas y cuantitativas sobre descubrimiento de productos via Etsy search"
       },
       {
-        "label": "Blocked",
-        "definition": "Navegacion interna en planners digitales basados en hipervinculos no funciona",
+        "label": "Polo B — Etsy search solo no es suficiente para generar vistas",
+        "definition": "Card que afirma que depender solo de Etsy search deja listings sin vistas",
         "signal_ids": [
-          {
-            "id": "SC-R9-120",
-            "description": "Future ADHD states that device/app compatibility is \"our most asked question.\""
-          },
-          {
-            "id": "SC-R9-125",
-            "description": "InMotion Planner states that GoodNotes versions for Windows and Android are \"not recommended for dig"
-          }
+          {"id": "SC-R6-146", "description": "@emilyestheruk: 'If you rely on Etsy search alone, your listings will sit there with no views'"}
         ],
-        "mechanical_summary": "Navegacion interna en planners digitales basados en hipervinculos no funciona",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una sola card (SC-R6-146) documenta que depender exclusivamente de Etsy search resulta en ausencia de vistas. El alcance puede ser distinto al Polo A: SC-R6-146 puede referirse a listings que no están bien posicionados en search, mientras el Polo A documenta listings que sí aparecen en search.",
+        "unit_used": "observación cualitativa sobre estrategia de tráfico en Etsy"
       }
     ]
   },
+  "audit_flags": [
+    "Polo B tiene solo 1 card (SC-R6-146); el requisito de pre-build filter es mínimo 3 IDs para contradicción lexical. Este patrón tiene soporte no lexical en Polo B.",
+    "La afirmación de SC-R6-146 puede no contradecir el Polo A: puede referirse a listings sin posicionamiento SEO, mientras el Polo A describe listings que ya aparecen en search. Diferencia de alcance no verificada.",
+    "Requiere verificar si SC-R6-146 habla de ausencia de optimización SEO (no una contradicción) o afirma que Etsy search no genera tráfico en ningún caso (contradicción directa)."
+  ],
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El corpus documenta distribución asimétrica: múltiples fuentes afirman que Etsy search genera tráfico y una fuente afirma lo contrario. La asimetría de soporte es documentable.",
+    "no": "Que SC-R6-146 contradiga el mismo hecho documentado en el Polo A. Los dos polos pueden referirse a condiciones distintas de uso de Etsy search (posicionado vs. no posicionado)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R6-146 para verificar si la afirmación es sobre listings sin SEO o sobre la eficacia general de Etsy search.",
+    "Cards adicionales que documenten ausencia de tráfico orgánico en Etsy para productos digitales bien posicionados.",
+    "Distinción entre tráfico orgánico (search sin pago) y tráfico total (incluyendo Etsy Ads) en las cards del Polo A."
   ],
   "classification_risk": [
-    "posible artefacto de fuente",
-    "posible sobre-abstracción"
+    "posible contradicción falsa",
+    "posible sub-representación de un segmento",
+    "posible agrupación disfrazada de tensión"
   ],
-  "source_patterns": [
-    "FRI-010"
-  ],
+  "source_patterns": ["CON-002"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

@@ -1,117 +1,94 @@
 # Review Queue
 
-| TC ID | Type | Status | Signals | Validation | Issues |
-|-------|------|--------|---------|------------|--------|
-| TC-002 | asimetría distributiva | pending_review | 30 | PASS | - |
-| TC-003 | asimetría distributiva | pending_review | 6 | PASS | - |
-| TC-004 | asimetría distributiva | pending_review | 19 | PASS | - |
-| TC-005 | asimetría distributiva | pending_review | 12 | PASS | - |
-| TC-006 | asimetría distributiva | pending_review | 9 | PASS | - |
-| TC-007 | asimetría distributiva | pending_review | 5 | PASS | - |
-| TC-008 | asimetría distributiva | pending_review | 30 | PASS | - |
-| TC-009 | asimetría distributiva | pending_review | 7 | PASS | - |
-| TC-010 | asimetría distributiva | pending_review | 7 | PASS | - |
-| TC-011 | asimetría distributiva | pending_review | 10 | PASS | - |
-| TC-012 | asimetría distributiva | pending_review | 15 | PASS | - |
-| TC-013 | asimetría distributiva | pending_review | 16 | PASS | - |
-| TC-014 | asimetría distributiva | pending_review | 9 | PASS | - |
-| TC-015 | asimetría distributiva | pending_review | 10 | PASS | - |
-| TC-016 | co-ocurrencia significativa | pending_review | 30 | PASS | - |
-| TC-017 | co-ocurrencia significativa | pending_review | 30 | PASS | - |
-| TC-018 | co-ocurrencia significativa | pending_review | 19 | PASS | - |
-| TC-019 | co-ocurrencia significativa | pending_review | 30 | PASS | - |
-| TC-020 | co-ocurrencia significativa | pending_review | 30 | PASS | - |
-| TC-021 | contradicción | pending_review | 30 | PASS | - |
-| TC-022 | contradicción | needs_audit_before_classification | 3 | PASS | - |
-| TC-023 | contradicción | pending_review | 5 | PASS | - |
-| TC-024 | contradicción | needs_audit_before_classification | 4 | PASS | - |
-| TC-025 | contradicción | pending_review | 6 | PASS | - |
-| TC-026 | contradicción | needs_audit_before_classification | 4 | PASS | - |
-| TC-027 | fricción | pending_review | 30 | PASS | - |
-| TC-028 | fricción | pending_review | 30 | PASS | - |
-| TC-029 | fricción | needs_audit_before_classification | 2 | PASS | - |
-| TC-030 | fricción | pending_review | 29 | FAIL | mechanical_language |
-| TC-031 | fricción | pending_review | 4 | PASS | - |
-| TC-032 | fricción | pending_review | 2 | PASS | - |
-| TC-033 | fricción | pending_review | 4 | PASS | - |
-| TC-034 | fricción | pending_review | 3 | PASS | - |
-| TC-035 | fricción | pending_review | 2 | PASS | - |
-| TC-036 | fricción | pending_review | 3 | FAIL | mechanical_language |
-| TC-037 | fricción | pending_review | 9 | PASS | - |
-| TC-038 | fricción | pending_review | 3 | PASS | - |
-| TC-039 | fricción | needs_audit_before_classification | 2 | PASS | - |
-| TC-040 | fricción | pending_review | 3 | PASS | - |
-| TC-041 | fricción | pending_review | 3 | PASS | - |
-| TC-042 | fricción | pending_review | 3 | PASS | - |
-| TC-043 | fricción | pending_review | 3 | PASS | - |
-| TC-044 | fricción | pending_review | 2 | PASS | - |
-| TC-045 | fricción | pending_review | 6 | PASS | - |
-| TC-046 | fricción | pending_review | 6 | PASS | - |
-| TC-047 | fricción | pending_review | 12 | PASS | - |
-| TC-048 | fricción | needs_audit_before_classification | 2 | PASS | - |
-| TC-049 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-050 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-051 | co-ocurrencia significativa | needs_audit_before_classification | 6 | PASS | - |
-| TC-052 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-053 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-054 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-055 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-056 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-057 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-058 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-059 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-060 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-061 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-062 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-063 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-064 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-065 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-066 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-067 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-068 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-069 | co-ocurrencia significativa | needs_audit_before_classification | 4 | PASS | - |
-| TC-070 | co-ocurrencia significativa | needs_audit_before_classification | 4 | PASS | - |
-| TC-071 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-072 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-073 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-074 | co-ocurrencia significativa | needs_audit_before_classification | 6 | PASS | - |
-| TC-075 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-076 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-077 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-078 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-079 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-080 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-081 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-082 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-083 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-084 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-085 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-086 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-087 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-088 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-089 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-090 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-091 | co-ocurrencia significativa | needs_audit_before_classification | 4 | PASS | - |
-| TC-092 | co-ocurrencia significativa | needs_audit_before_classification | 9 | PASS | - |
-| TC-093 | co-ocurrencia significativa | needs_audit_before_classification | 5 | PASS | - |
-| TC-094 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-095 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-096 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-097 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-098 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-099 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-100 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-101 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-102 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-103 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-104 | co-ocurrencia significativa | needs_audit_before_classification | 2 | PASS | - |
-| TC-105 | co-ocurrencia significativa | needs_audit_before_classification | 3 | PASS | - |
-| TC-106 | dirección opuesta | pending_review | 8 | PASS | - |
-| TC-107 | dirección opuesta | pending_review | 10 | PASS | - |
-| TC-108 | dirección opuesta | pending_review | 12 | PASS | - |
-| TC-109 | dirección opuesta | pending_review | 12 | PASS | - |
-| TC-110 | dirección opuesta | pending_review | 8 | PASS | - |
-| TC-111 | dirección opuesta | pending_review | 14 | PASS | - |
-| TC-112 | dirección opuesta | pending_review | 15 | PASS | - |
-| TC-113 | dirección opuesta | pending_review | 10 | PASS | - |
-| TC-114 | dirección opuesta | pending_review | 12 | PASS | - |
+Tension Candidates flagged for human review after automated validation.
+Validation run: 2026-04-04T00:00:00Z
+Total: 74 | Passed: 71 | Failed: 3
+
+---
+
+## Candidates Passing All Checks
+
+- TC-002: all 16 checks passed
+- TC-003: all 16 checks passed
+- TC-004: all 16 checks passed
+- TC-005: all 16 checks passed
+- TC-006: all 16 checks passed
+- TC-007: all 16 checks passed
+- TC-008: all 16 checks passed
+- TC-009: all 16 checks passed
+- TC-010: all 16 checks passed
+- TC-011: all 16 checks passed
+- TC-012: all 16 checks passed
+- TC-013: all 16 checks passed
+- TC-014: all 16 checks passed
+- TC-015: all 16 checks passed
+- TC-016: all 16 checks passed
+- TC-017: all 16 checks passed
+- TC-018: all 16 checks passed
+- TC-019: all 16 checks passed
+- TC-020: all 16 checks passed
+- TC-021: all 16 checks passed
+- TC-023: all 16 checks passed
+- TC-024: all 16 checks passed
+- TC-026: all 16 checks passed
+- TC-027: all 16 checks passed
+- TC-028: all 16 checks passed
+- TC-029: all 16 checks passed
+- TC-030: all 16 checks passed
+- TC-031: all 16 checks passed
+- TC-032: all 16 checks passed
+- TC-033: all 16 checks passed
+- TC-034: all 16 checks passed
+- TC-035: all 16 checks passed
+- TC-036: all 16 checks passed
+- TC-037: all 16 checks passed
+- TC-038: all 16 checks passed
+- TC-039: all 16 checks passed
+- TC-040: all 16 checks passed
+- TC-041: all 16 checks passed
+- TC-042: all 16 checks passed
+- TC-043: all 16 checks passed
+- TC-044: all 16 checks passed
+- TC-045: all 16 checks passed
+- TC-046: all 16 checks passed
+- TC-047: all 16 checks passed
+- TC-048: all 16 checks passed
+- TC-049: all 16 checks passed
+- TC-050: all 16 checks passed
+- TC-051: all 16 checks passed
+- TC-052: all 16 checks passed
+- TC-053: all 16 checks passed
+- TC-054: all 16 checks passed
+- TC-055: all 16 checks passed
+- TC-056: all 16 checks passed
+- TC-057: all 16 checks passed
+- TC-058: all 16 checks passed
+- TC-059: all 16 checks passed
+- TC-060: all 16 checks passed
+- TC-061: all 16 checks passed
+- TC-062: all 16 checks passed
+- TC-063: all 16 checks passed
+- TC-064: all 16 checks passed
+- TC-065: all 16 checks passed
+- TC-066: all 16 checks passed
+- TC-068: all 16 checks passed
+- TC-069: all 16 checks passed
+- TC-070: all 16 checks passed
+- TC-071: all 16 checks passed
+- TC-072: all 16 checks passed
+- TC-073: all 16 checks passed
+- TC-074: all 16 checks passed
+- TC-075: all 16 checks passed
+
+---
+
+## Candidates Needing Attention
+
+### TC-022
+- FAIL [mechanical_language]: Forbidden words found: ['central']
+
+### TC-025
+- FAIL [mechanical_language]: Forbidden words found: ['necesidad']
+
+### TC-067
+- FAIL [mechanical_language]: Forbidden words found: ['recomendación']

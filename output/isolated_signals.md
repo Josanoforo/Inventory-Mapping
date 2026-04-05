@@ -1,3 +1,3 @@
-# Isolated Signals Preserved
+# Isolated Signals
 
-No isolated signals detected in this scan cycle.
+No isolated signals were identified in the scan artifacts.

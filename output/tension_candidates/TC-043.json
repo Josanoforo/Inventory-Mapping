@@ -1,61 +1,62 @@
 {
   "id": "TC-043",
-  "status": "pending_review",
+  "status": "needs_audit_before_classification",
   "type": "fricción",
-  "mechanical_relation": "co-ocurre: la comision de Creative Market reducida a 50% respecto al 80% inicial reduce el margen documentado de vendedores establecidos en la plataforma.",
-  "analytical_unit": "Bloqueador documentado: reduccion de comision de 80% a 50% por Creative Market. Bloqueado documentado: margen de vendedores establecidos en la plataforma. Mecanismo economico claro con soporte de 3 tarjetas.",
+  "mechanical_relation": "co-ocurre: la ausencia de precios visibles en páginas de resultados de búsqueda de Hotmart bloquea la comparación de precios por parte del comprador. El corpus documenta 1 card del bloqueador (precios no visibles en Hotmart search) y 1 card del bloqueado (compradores no pueden comparar precios). Soporte mínimo por ambos lados requiere auditoría antes de clasificar como fricción completa.",
+  "analytical_unit": "visibilidad de precios en resultados de búsqueda de Hotmart para compradores",
   "signal_ids": [
-    "SC-R8-034",
-    "SC-R8-035",
-    "SC-R8-087"
+    "SC-R1-006",
+    "SC-R1-005"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Blocker",
-        "definition": "Creative Market ha reducido comision de vendedor de 80% a 50% de manera unilateral",
+        "label": "Blocker — precios no visibles en página de resultados de búsqueda de Hotmart",
+        "definition": "Card que documenta que los precios individuales no son visibles desde la página de resultados de búsqueda de Hotmart",
         "signal_ids": [
           {
-            "id": "SC-R8-034",
-            "description": "Creative Market takes 50% commission on all sales."
-          },
-          {
-            "id": "SC-R8-087",
-            "description": "A Creative Market seller reported that commission was progressively lowered from 80% to 70% to 60% t"
+            "id": "SC-R1-006",
+            "description": "precios individuales de productos no son visibles desde la página de resultados de búsqueda de Hotmart"
           }
         ],
-        "mechanical_summary": "Creative Market ha reducido comision de vendedor de 80% a 50% de manera unilateral",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una sola card documenta el bloqueador. No hay texto verificado adicional sobre este aspecto de Hotmart.",
+        "unit_used": "observación de UX de plataforma Hotmart"
       },
       {
-        "label": "Blocked",
-        "definition": "Margen de vendedores con catalogo en Creative Market se reduce con cada cambio de comision",
+        "label": "Blocked — compradores que no pueden comparar precios antes de hacer clic",
+        "definition": "Card que documenta la ausencia de datos públicos de Hotmart que impide comparación de mercado",
         "signal_ids": [
           {
-            "id": "SC-R8-035",
-            "description": "Creative Market's seller commission was 80% at launch, then reduced to 70%, then 60%, then to the cu"
+            "id": "SC-R1-005",
+            "description": "Hotmart no publica volúmenes de venta por formato de producto, precios promedio por categoría, ni datos de mercado comparativos"
           }
         ],
-        "mechanical_summary": "Margen de vendedores con catalogo en Creative Market se reduce con cada cambio de comision",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una sola card documenta la opacidad de datos de Hotmart, que puede ser la razón de la visibilidad de precios. SC-R1-005 documenta falta de datos de mercado, no directamente la experiencia de comprador sin precios visibles.",
+        "unit_used": "documentación de ausencia de datos públicos en Hotmart"
       }
     ]
   },
+  "audit_flags": [
+    "Polo Blocker tiene solo 1 card y Polo Blocked tiene 1 card; soporte insuficiente por ambos lados según pre-build filter.",
+    "SC-R1-005 documenta ausencia de datos de mercado (precios promedio por categoría) lo que es distinto a la experiencia del comprador de no ver precios en resultados de búsqueda (SC-R1-006). Los dos pueden no documentar el mismo aspecto del bloqueador.",
+    "Requiere verificar el texto completo de SC-R1-006 para confirmar si los precios son invisibles en todos los resultados o solo en algunos formatos de página de Hotmart.",
+    "Requiere cards adicionales que documenten la experiencia de compradores afectados por la invisibilidad de precios."
+  ],
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "SC-R1-006 documenta una característica de UX de Hotmart donde los precios no son visibles desde la página de resultados. La fricción de no poder comparar precios es documentable como consecuencia.",
+    "no": "Que la ausencia de precios en resultados sea una fricción activa para compradores documentados en el corpus (solo 1 card por lado, sin experiencia de comprador verificada)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R1-006 para verificar el alcance exacto de la invisibilidad de precios en Hotmart.",
+    "Cards adicionales que documenten la experiencia de compradores que no pueden comparar precios en Hotmart.",
+    "Comparación con otras plataformas LATAM (Gumroad, Teachable) donde los precios sí son visibles en resultados."
   ],
   "classification_risk": [
-    "posible artefacto de fuente",
-    "posible sobre-abstracción"
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión"
   ],
   "source_patterns": [
-    "FRI-024"
+    "FRI-008"
   ],
   "human_fields": {
     "human_context": "",

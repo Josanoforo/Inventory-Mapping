@@ -1,73 +1,74 @@
 {
   "id": "TC-007",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun la tasa efectiva de comision de Gumroad: tasa muy alta en transacciones pequenas versus tasa favorable via links de referido o descubrimiento Discover.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de tasa efectiva segun canal y monto de transaccion en la misma plataforma (Gumroad).",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separan en polos: señales de crecimiento del mercado de productos digitales co-ocurren con señales de saturación del mismo mercado. Fuerza A: expansión de la base de compradores y aumento de volúmenes de transacciones. Fuerza B: aumento del número de vendedores, compresión de márgenes y caída de descubribilidad. Ambas fuerzas actúan sobre el mismo sistema (mercado de productos digitales en plataformas globales).",
+  "analytical_unit": "métricas de crecimiento de compradores y señales de saturación de vendedores en el mercado de productos digitales, separadas de condiciones específicas de plataforma individual",
   "signal_ids": [
-    "SC-R4-079",
-    "SC-R4-110",
-    "SC-R4-121",
-    "SC-R5-059",
-    "SC-R7-029"
+    "SC-R1-047",
+    "SC-R1-048",
+    "SC-R3-075",
+    "SC-R1-067",
+    "SC-R1-068",
+    "SC-R1-071",
+    "SC-R4-021",
+    "SC-R4-133",
+    "SC-R4-125",
+    "SC-R3-076"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: tasa efectiva alta en transacciones pequeñas",
-        "definition": "Transacciones de bajo monto en Gumroad donde la tasa efectiva es elevada por cargos fijos",
+        "label": "Polo A — crecimiento de compradores y demanda en el mercado de productos digitales",
+        "definition": "Cards que documentan crecimiento de la base de compradores y aumento de demanda en el mercado de productos digitales",
         "signal_ids": [
-          {
-            "id": "SC-R5-059",
-            "description": "A Gumroad creator sold a $1 Notion template and received only $0.05 after all fees were deducted (Gu"
-          },
-          {
-            "id": "SC-R4-110",
-            "description": "A Gumroad Trustpilot reviewer reports selling an ebook for GBP 2.50 and having GBP 1.13 taken in fee"
-          },
-          {
-            "id": "SC-R4-121",
-            "description": "A Gumroad seller reports actual transaction fees of $16.59 from total sales of $110.00, an effective"
-          }
+          {"id": "SC-R1-047", "description": "base de compradores de productos digitales documentada como en crecimiento"},
+          {"id": "SC-R1-048", "description": "demanda creciente de productos digitales en múltiples categorías documentada"},
+          {"id": "SC-R3-075", "description": "Etsy Q4 2023: GMS de aproximadamente $3.6 mil millones"},
+          {"id": "SC-R1-067", "description": "crecimiento de compras de productos digitales documentado"},
+          {"id": "SC-R1-068", "description": "volúmenes de transacciones en plataformas en aumento"},
+          {"id": "SC-R1-071", "description": "crecimiento de la categoría de productos digitales documentado en varias plataformas"}
         ],
-        "mechanical_summary": "Transacciones de bajo monto en Gumroad donde la tasa efectiva es elevada por cargos fijos",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Seis cards documentan señales de expansión del mercado de compradores. SC-R3-075 es dato de GMS de Etsy Q4 2023 ($3.6B). Las demás son observaciones de fuentes de ronda 1 sobre tendencias de mercado. No están normalizadas por plataforma, categoría de producto ni período temporal.",
+        "unit_used": "GMS (USD), observaciones cualitativas de crecimiento de demanda"
       },
       {
-        "label": "Polo B: tasa favorable via referido o Discover",
-        "definition": "Ventas via link de referido o plataforma Discover de Gumroad con tasa efectiva reducida",
+        "label": "Polo B — saturación de vendedores y caída de descubribilidad en el mismo mercado",
+        "definition": "Cards que documentan aumento de número de vendedores, compresión de márgenes y caída de descubribilidad",
         "signal_ids": [
-          {
-            "id": "SC-R7-029",
-            "description": "PromptBase referral link sales: sellers earn 90–100%."
-          },
-          {
-            "id": "SC-R4-079",
-            "description": "Tamzidul Haque reports: \"Gumroad's Discover is fire — landed a surprise $200 sale without lifting a "
-          }
+          {"id": "SC-R4-021", "description": "Quora: mercado digital en Etsy es 'VERY competitive'; éxito concentrado en vendedores con años de experiencia"},
+          {"id": "SC-R4-133", "description": "aumento documentado del número de vendedores en plataformas principales"},
+          {"id": "SC-R4-125", "description": "intensificación de competencia: precios más bajos y compresión de márgenes documentados"},
+          {"id": "SC-R3-076", "description": "Etsy Q4 2024: GMS de aproximadamente $3.3 mil millones, caída del ~9% año a año"}
         ],
-        "mechanical_summary": "Ventas via link de referido o plataforma Discover de Gumroad con tasa efectiva reducida",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards documentan señales de saturación del lado vendedor. SC-R3-076 es dato de GMS de Etsy Q4 2024 ($3.3B, -9% vs. Q4 2023). SC-R4-021 es observación de Quora. No están normalizadas por tipo de producto o plataforma.",
+        "unit_used": "GMS (USD), observaciones cualitativas sobre competencia"
       }
-    ]
+    ],
+    "additional_context": {
+      "signal_ids": [
+        {"id": "SC-R3-075", "description": "Etsy Q4 2023 GMS ~$3.6B — dato de mercado absoluto (también en Polo A como referencia contextual)"},
+        {"id": "SC-R3-076", "description": "Etsy Q4 2024 GMS ~$3.3B, -9% año a año — dato de tendencia (también en Polo B)"}
+      ],
+      "mechanical_summary": "Estas dos cards de GMS de Etsy tienen relevancia contextual dual: Q4 2023 documenta crecimiento y Q4 2024 documenta contracción, lo que enmarca temporalmente ambas fuerzas.",
+      "note": "SC-R3-075 y SC-R3-076 se incluyen en ambos polos y aquí por su relevancia contextual como datos de referencia absolutos."
+    }
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el mismo período (2023–2026) de señales de crecimiento de mercado con señales de saturación de oferta, incluyendo el dato de GMS de Etsy en caída en 2024.",
+    "no": "Que el crecimiento de compradores y la saturación de vendedores sean mutuamente excluyentes. Que el dato de GMS de Etsy sea representativo de todo el mercado de productos digitales."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Métricas de número de vendedores activos en las principales plataformas por año.",
+    "Datos de ingresos promedio por vendedor desagregados por año.",
+    "Separación por plataforma para evitar agregar datos de plataformas con dinámicas distintas.",
+    "Datos de compradores nuevos vs. compradores recurrentes en el período documentado."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible sobre-abstracción",
+    "posible artefacto del detector"
   ],
-  "source_patterns": [
-    "ASY-006"
-  ],
+  "source_patterns": ["OPP-002"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

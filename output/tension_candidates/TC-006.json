@@ -1,94 +1,63 @@
 {
   "id": "TC-006",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun el rango de precio de planners digitales: precios bajos individuales con licencia anual versus precios altos en bundles con licencia lifetime. Nota de unidades: Polo A usa precio anual datado; Polo B usa precio lifetime sin fecha de renovacion.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa en polos de precio. Unidades mixtas declaradas: Polo A usa precios anuales; Polo B usa precios lifetime. No se normalizan.",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separan en polos: herramientas de IA co-ocurren con señales de mayor oferta de productos digitales de bajo esfuerzo; al mismo tiempo, señales de demanda de calidad y diferenciación se concentran en el mismo mercado. Fuerza A: IA y automatización aumentan el volumen de oferta de bajo esfuerzo. Fuerza B: señales de compradores documentan preferencia por calidad y diferenciación conforme aumenta la oferta de bajo esfuerzo.",
+  "analytical_unit": "señales de oferta de productos digitales y señales de demanda de compradores en el mismo mercado, separadas de factores de distribución de plataformas",
   "signal_ids": [
-    "SC-R3-003",
-    "SC-R3-039",
-    "SC-R3-052",
-    "SC-R3-054",
-    "SC-R3-056",
-    "SC-R3-065",
-    "SC-R3-069",
-    "SC-R3-072",
-    "SC-R3-073"
+    "SC-R3-132",
+    "SC-R6-145",
+    "SC-R6-147",
+    "SC-R2-092",
+    "SC-R2-090",
+    "SC-R2-106",
+    "SC-R2-094",
+    "SC-R2-095"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: precio bajo individual, licencia anual",
-        "definition": "Planners digitales unitarios en rango de precio bajo con esquema de pago anual",
+        "label": "Polo A — aumento de oferta de bajo esfuerzo facilitado por IA",
+        "definition": "Cards que documentan aumento de oferta de productos digitales de bajo esfuerzo facilitado por IA en el corpus",
         "signal_ids": [
-          {
-            "id": "SC-R3-052",
-            "description": "\"Grocery List Printable Minimalist\" by melissagraphicdesign is priced at $1.69 on Etsy."
-          },
-          {
-            "id": "SC-R3-054",
-            "description": "Digital Student Planner by DigiGirlPlans is priced at $3.06 (sale from $6.12, 50% off)."
-          },
-          {
-            "id": "SC-R3-072",
-            "description": "Fitnancials.com states that individual printables typically sell for $2–$5 on Etsy."
-          },
-          {
-            "id": "SC-R3-003",
-            "description": "Analyzify states that comprehensive digital planners typically sell for $3–10 on Etsy."
-          }
+          {"id": "SC-R3-132", "description": "Growing Your Craft 2026: mercado con flood de contenido AI-generado de bajo esfuerzo; compradores más inteligentes"},
+          {"id": "SC-R6-145", "description": "@emilyestheruk abril 2026: competencia increíble en Canva templates; mercado completamente inundado"},
+          {"id": "SC-R6-147", "description": "EcommerceFastlane sept. 2025: cada página de Etsy y Gumroad se ve igual: planners y bundles en gradientes pastel"},
+          {"id": "SC-R2-092", "description": "Emily McDermott con $280K en revenue de Etsy se describe como 'not a spreadsheet expert by any means'"}
         ],
-        "mechanical_summary": "Planners digitales unitarios en rango de precio bajo con esquema de pago anual",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards documentan saturación de oferta y homogeneización de productos digitales en Etsy y Gumroad. Las fuentes son blog de análisis, foro y testimonio de seller. No están normalizadas por categoría de producto, plataforma ni período.",
+        "unit_used": "observaciones cualitativas sobre volumen y homogeneización de oferta de productos digitales"
       },
       {
-        "label": "Polo B: precio alto en bundle, licencia lifetime",
-        "definition": "Packs de planners digitales en rango de precio alto con esquema de pago unico lifetime",
+        "label": "Polo B — demanda de calidad y diferenciación de compradores",
+        "definition": "Cards que documentan señales de demanda de calidad y diferenciación de compradores en el mismo mercado",
         "signal_ids": [
-          {
-            "id": "SC-R3-056",
-            "description": "AmethystGarnet's \"Premium Digital Planner Bundle\" has an original price of $68.95 (frequently on sal"
-          },
-          {
-            "id": "SC-R3-069",
-            "description": "PhenixDigital listing (1784469516) advertises lifetime updates as a core feature, meaning new dated "
-          },
-          {
-            "id": "SC-R3-039",
-            "description": "WcardsGiftShop shows approximately 3,600 reviews at sale price $34.74 (original $57.90, 40% off)."
-          },
-          {
-            "id": "SC-R3-073",
-            "description": "Fitnancials.com states that bundle packs with 100+ pages can go into the $50–$100 range on Etsy."
-          },
-          {
-            "id": "SC-R3-065",
-            "description": "DigitizedPlanner offers 93–635 digital covers, lifetime updates, multiple planner types (Life Essent"
-          }
+          {"id": "SC-R2-090", "description": "SendOwl blog marzo 2026: features que hacen vender templates — fórmulas bloqueadas, validación de datos, instrucciones claras"},
+          {"id": "SC-R2-094", "description": "LinkedIn / Michael Belfry: perfil comprador Excel: habilidades limitadas, quieren spreadsheets construidas por otros"},
+          {"id": "SC-R2-095", "description": "LinkedIn / Michael Belfry: compradores quieren 'purpose-built spreadsheet optimized for data entry with summary dashboard'"},
+          {"id": "SC-R2-106", "description": "Marketsy.io: vendedores exitosos crean soluciones para problemas específicos, no diseño genérico"}
         ],
-        "mechanical_summary": "Packs de planners digitales en rango de precio alto con esquema de pago unico lifetime",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards de fuentes analíticas y guías de vendedores documentan que compradores buscan funcionalidad específica, no diseño genérico. Estas señales son de compradores de templates de hojas de cálculo principalmente, no de planners digitales o prompts.",
+        "unit_used": "observaciones sobre características que determinan la decisión de compra de templates de hojas de cálculo"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia de señales de saturación de oferta de bajo esfuerzo con señales de demanda de calidad y especificidad en el mismo mercado de productos digitales durante el período 2025–2026.",
+    "no": "Que la fuerza B neutraliza la fuerza A o que los compradores abandonan plataformas por la saturación. Que las señales de calidad del Polo B corresponden exactamente a los mismos compradores afectados por la saturación del Polo A."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Datos de ventas que distingan productos de bajo esfuerzo de productos de alta calidad en las mismas categorías.",
+    "Señales de compradores sobre sus decisiones ante la saturación.",
+    "Separación por categoría: el Polo A cubre Canva templates y planners; el Polo B cubre principalmente spreadsheets.",
+    "Evidencia temporal de si la demanda de calidad ha aumentado en respuesta al aumento de oferta de bajo esfuerzo."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible agrupación disfrazada de tensión",
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
   ],
-  "source_patterns": [
-    "ASY-005",
-    "LEX-013"
-  ],
+  "source_patterns": ["OPP-001"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

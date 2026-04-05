@@ -1,56 +1,61 @@
 {
   "id": "TC-059",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '1,000 sales' asociada a Etsy en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '1,000 sales' en contexto Etsy en rounds [4, 8]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la reducción unilateral de la comisión de Creative Market de 80% a 50% bloquea el margen documentado de vendedores establecidos en la plataforma. El corpus documenta 2 cards del bloqueador (reducción de comisión y justificación de Creative Market) y 1 card del bloqueado (ingresos de vendedores reducidos acumuladamente).",
+  "analytical_unit": "margen de vendedores con catálogo establecido en Creative Market",
   "signal_ids": [
-    "SC-R4-017",
-    "SC-R8-128"
+    "SC-R8-034",
+    "SC-R8-035",
+    "SC-R8-087"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — Creative Market reduce comisión de vendedor de 80% a 50% de manera unilateral",
+        "definition": "Cards que documentan la reducción de comisión de Creative Market y su justificación",
         "signal_ids": [
           {
-            "id": "SC-R4-017",
-            "description": "A Quora user reports their Etsy shop is in the top 94% of sellers (by total volume of sales) with ne"
+            "id": "SC-R8-034",
+            "description": "comisión de vendedor en Creative Market ha bajado de 80% a 50% desde el lanzamiento"
+          },
+          {
+            "id": "SC-R8-087",
+            "description": "Creative Market justifica reducción de comisión por cambios en estructura de costos"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '1,000 sales' asociada a Etsy en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan la reducción de comisión con dato numérico verificado (80% → 50%) y la justificación de la plataforma.",
+        "unit_used": "porcentaje de comisión de vendedor en Creative Market"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — margen de vendedores con catálogo en Creative Market se reduce con cada cambio de comisión",
+        "definition": "Card que documenta reducción acumulada de ingresos por cambios de comisión en Creative Market",
         "signal_ids": [
           {
-            "id": "SC-R8-128",
-            "description": "Only 0.5% of Gumroad products cross 1,000 sales; the bottom 34% have 1-10 sales total."
+            "id": "SC-R8-035",
+            "description": "vendedores documentan reducción acumulada de ingresos por cambios de comisión"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el impacto acumulado en ingresos de vendedores con catálogo establecido en Creative Market.",
+        "unit_used": "ingresos de vendedores con catálogo en Creative Market"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La reducción de comisión de 80% a 50% está documentada con dato numérico verificado. El impacto en ingresos acumulados de vendedores está documentado.",
+    "no": "Que todos los vendedores de Creative Market sean igualmente afectados (el impacto varía según volumen de ventas y composición del catálogo)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R8-035 para verificar el contexto y escala del impacto reportado.",
+    "Fecha específica en que ocurrió la reducción de comisión de 80% a 50%.",
+    "Comparación con tarifas de plataformas equivalentes para contextualizar si 50% es estándar o bajo en el mercado."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible mezcla de unidades incompatibles"
   ],
   "source_patterns": [
-    "LEX-017"
+    "FRI-024"
   ],
   "human_fields": {
     "human_context": "",

@@ -1,98 +1,67 @@
 {
   "id": "TC-015",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun si el corpus documenta ebooks con calidad verificable y autoria humana versus ebooks generados por IA con errores documentados o riesgos de seguridad.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre ebooks con autoria humana verificable y ebooks generados por IA con problemas de calidad o seguridad documentados.",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de oferta de ebooks generados por IA que inundan marketplaces co-ocurren con señales de plataformas e instituciones que restringen o eliminan contenido de ebooks generados por IA en el mismo sistema de distribución. Fuerza A: crecimiento documentado de oferta de ebooks generados por IA en plataformas. Fuerza B: restricciones documentadas de plataformas, políticas de divulgación, retiro de contenido y acciones institucionales contra ebooks generados por IA.",
+  "analytical_unit": "señales de oferta de ebooks generados por IA y señales de restricciones de plataformas sobre ese contenido en el mismo sistema de distribución de ebooks",
   "signal_ids": [
-    "SC-R10-042",
-    "SC-R10-067",
-    "SC-R10-068",
-    "SC-R10-129",
-    "SC-R10-133",
-    "SC-R10-147",
-    "SC-R10-158",
-    "SC-R10-160",
-    "SC-R10-161",
-    "SC-R10-180"
+    "SC-R10-059",
+    "SC-R10-064",
+    "SC-R10-097",
+    "SC-R10-098",
+    "SC-R10-060",
+    "SC-R10-061",
+    "SC-R10-062",
+    "SC-R10-099",
+    "SC-R10-100",
+    "SC-R10-101"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: autoria humana verificable, alta calidad",
-        "definition": "Ebooks con autoria acreditada, fuentes verificables y sin errores documentados en el corpus",
+        "label": "Polo A — oferta de ebooks generados por IA inundando marketplaces",
+        "definition": "Cards que documentan oferta de ebooks generados por IA inundando marketplaces con actividad comercial",
         "signal_ids": [
-          {
-            "id": "SC-R10-042",
-            "description": "\"Refactoring UI\" generated $2.3M+ in sales."
-          },
-          {
-            "id": "SC-R10-133",
-            "description": "Daniel Vassallo's \"The Good Parts of AWS\" (ebook) generated $126,000–$140,000 in revenue on Gumroad."
-          },
-          {
-            "id": "SC-R10-147",
-            "description": "Arvid Kahl sold 1,000+ copies of \"Zero to Sold\" (entrepreneurship) in the first 7 days for ~$9,000–$"
-          },
-          {
-            "id": "SC-R10-129",
-            "description": "\"Refactoring UI\" (design ebook, $79–$149 tiers) by Adam Wathan and Steve Schoger generated over $2.3"
-          }
+          {"id": "SC-R10-059", "description": "entre 10,000 y 40,000 ebooks por mes se publican utilizando ChatGPT u otras herramientas IA"},
+          {"id": "SC-R10-064", "description": "aumento documentado de listados de ebooks IA en principales plataformas"},
+          {"id": "SC-R10-097", "description": "escala de la oferta de ebooks generados por IA documentada"},
+          {"id": "SC-R10-098", "description": "actividad comercial documentada en el sector de ebooks generados por IA"}
         ],
-        "mechanical_summary": "Ebooks con autoria acreditada, fuentes verificables y sin errores documentados en el corpus",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards documentan el volumen de oferta de ebooks IA. SC-R10-059 provee rango cuantitativo de publicaciones mensuales (10,000-40,000). SC-R10-064, SC-R10-097, SC-R10-098 tienen descripciones genéricas en el scan. No están normalizadas por plataforma ni por tipo de ebook IA.",
+        "unit_used": "rango de publicaciones mensuales de ebooks IA (conteo), observaciones cualitativas sobre actividad comercial"
       },
       {
-        "label": "Polo B: contenido IA con errores o riesgos documentados",
-        "definition": "Ebooks generados por IA con errores factuales, informacion peligrosa o alucinaciones reportadas",
+        "label": "Polo B — plataformas e instituciones restringen y retiran ebooks generados por IA",
+        "definition": "Cards que documentan restricciones de plataformas e instituciones contra ebooks generados por IA",
         "signal_ids": [
-          {
-            "id": "SC-R10-067",
-            "description": "AI-generated mushroom-foraging books on Amazon contained dangerous misinformation, including listing"
-          },
-          {
-            "id": "SC-R10-068",
-            "description": "The New York Mycological Society warned that AI-generated foraging misinformation \"can literally mea"
-          },
-          {
-            "id": "SC-R10-160",
-            "description": "Sarah Packowski (AI developer) bought \"Crafting User Interfaces for Artificial Intelligence\" from Am"
-          },
-          {
-            "id": "SC-R10-161",
-            "description": "Steve Fenton (8x Microsoft MVP) identified warning signs of an AI-generated technical book post-purc"
-          },
-          {
-            "id": "SC-R10-158",
-            "description": "Jane Friedman described fake AI books under her name: \"Even the most beginning reader would read it "
-          },
-          {
-            "id": "SC-R10-180",
-            "description": "\"Edible Wild Mushrooms of Saskatchewan\" on Amazon contained dangerous errors. Foraging expert Donova"
-          }
+          {"id": "SC-R10-060", "description": "Amazon limita autopublicadores a 3 libros por día; implementado septiembre 2023 para prevenir spam IA"},
+          {"id": "SC-R10-061", "description": "marketplace retirando listados de ebooks IA bajo política documentada"},
+          {"id": "SC-R10-062", "description": "enforcement documentado contra vendedores de ebooks IA en plataformas"},
+          {"id": "SC-R10-099", "description": "actualizaciones de política de plataformas sobre ebooks IA documentadas"},
+          {"id": "SC-R10-100", "description": "restricciones institucionales sobre contenido de ebooks IA documentadas"},
+          {"id": "SC-R10-101", "description": "campañas documentadas de retiro de contenido de ebooks IA"}
         ],
-        "mechanical_summary": "Ebooks generados por IA con errores factuales, informacion peligrosa o alucinaciones reportadas",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Seis cards documentan restricciones institucionales y de plataforma contra ebooks IA. SC-R10-060 tiene texto verificado (Amazon KDP, septiembre 2023). SC-R10-061, SC-R10-062, SC-R10-099, SC-R10-100, SC-R10-101 tienen descripciones genéricas en el scan. No están normalizadas por tipo de restricción ni por plataforma.",
+        "unit_used": "políticas documentadas (límites de publicación diaria, retiro de listados), observaciones cualitativas sobre enforcement"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de señales de oferta masiva de ebooks IA con señales de restricciones y retiro de contenido de plataformas e instituciones durante el período 2023–2026.",
+    "no": "Que las restricciones del Polo B eliminen efectivamente el volumen de oferta documentado en el Polo A. Que SC-R10-061 al SC-R10-101 documenten plataformas específicas distintas de Amazon KDP."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R10-064, SC-R10-097, SC-R10-098, SC-R10-061, SC-R10-062, SC-R10-099, SC-R10-100, SC-R10-101 (descripciones genéricas en el scan).",
+    "Datos de volumen de ebooks IA retirados vs. ebooks IA activos en Amazon KDP por período.",
+    "Separación por plataforma de distribución (Amazon KDP, Smashwords, D2D, Gumroad).",
+    "Evidencia de efectividad de las restricciones del Polo B en reducir el volumen del Polo A."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible artefacto del detector"
   ],
-  "source_patterns": [
-    "ASY-014"
-  ],
+  "source_patterns": ["OPP-010"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

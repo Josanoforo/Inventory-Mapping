@@ -1,56 +1,65 @@
 {
   "id": "TC-064",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$400' asociada a Etsy en 2 cards de 1 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$400' en contexto Etsy en rounds [4]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la política Etsy Creativity Standards de junio 2025 que prohíbe prompts de IA como producto principal bloquea el acceso documentado de vendedores con catálogo de bundles de prompts al canal Etsy. El corpus documenta 3 cards del bloqueador (política Creativity Standards, requisito de diseño original, exclusión de prompts IA) y 1 card del bloqueado (eliminación de listados de vendedores afectados).",
+  "analytical_unit": "acceso de vendedores con catálogo de bundles de prompts IA al canal de distribución de Etsy",
   "signal_ids": [
-    "SC-R4-064",
-    "SC-R4-135"
+    "SC-R7-142",
+    "SC-R7-143",
+    "SC-R7-144",
+    "SC-R7-145"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — política Etsy Creativity Standards junio 2025 prohíbe prompts IA como producto principal",
+        "definition": "Cards que documentan la política Etsy Creativity Standards que prohíbe prompts IA",
         "signal_ids": [
           {
-            "id": "SC-R4-064",
-            "description": "Cody Berman opened a brand-new Etsy shop in August 2024. Results: Month 1: $185; Month 2: ~$400; Mon"
+            "id": "SC-R7-142",
+            "description": "Etsy actualiza política de productos digitales prohibiendo la venta de prompts de IA como producto principal"
+          },
+          {
+            "id": "SC-R7-144",
+            "description": "Etsy Creativity Standards de junio 2025 exigen diseño original del vendedor"
+          },
+          {
+            "id": "SC-R7-145",
+            "description": "prompts de IA no cumplen el requisito de diseño original según interpretación de Etsy"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$400' asociada a Etsy en 2 cards de 1 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Tres cards documentan el mecanismo: política Creativity Standards de junio 2025, requisito de diseño original, y exclusión de prompts IA bajo ese criterio.",
+        "unit_used": "política Etsy Creativity Standards junio 2025 sobre prompts IA"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — vendedores con catálogo de bundles de prompts IA pierden acceso al canal Etsy",
+        "definition": "Card que documenta la eliminación de listados de bundles de prompts IA en Etsy tras cambio de política",
         "signal_ids": [
           {
-            "id": "SC-R4-135",
-            "description": "The same Etsy seller's printable planners had been selling 3-4 times/week at $30-$40 each (~$400-$64"
+            "id": "SC-R7-143",
+            "description": "vendedores de bundles de prompts documentan eliminación de listados tras el cambio de política"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el impacto en vendedores: eliminación de listados tras la implementación de la política Creativity Standards.",
+        "unit_used": "listados de bundles de prompts IA eliminados de Etsy"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La política Creativity Standards de junio 2025 que prohíbe prompts IA como producto principal está documentada. La eliminación de listados de vendedores afectados está documentada.",
+    "no": "Que todos los vendedores de prompts en Etsy sean afectados por igual (el impacto depende de si el prompt se vende como producto principal o accesorio)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R7-142 a SC-R7-145 para verificar los detalles de la política y los casos documentados.",
+    "Número de listados eliminados o vendedores afectados cuantificado por la política.",
+    "Casos documentados de vendedores que migraron a otras plataformas (PromptBase, Gumroad) tras la política."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "LEX-023"
+    "FRI-030"
   ],
   "human_fields": {
     "human_context": "",

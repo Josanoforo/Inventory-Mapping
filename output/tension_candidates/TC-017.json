@@ -1,146 +1,75 @@
 {
   "id": "TC-017",
   "status": "pending_review",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre en 5 rounds distintos (60 cards): Canva Pro element restriction + seller policy + buyer paywall co-ocurren en cards de plataforma y seller.",
-  "analytical_unit": "DT question: ¿Cómo interactúan las restricciones de Canva Pro con las expectativas del comprador y los márgenes del vendedor de templates?",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si el corpus documenta suspensiones o cierres de cuentas arbitrarios versus experiencias de vendedor estables y positivas en plataformas de productos digitales. El corpus contiene más tarjetas de suspensión y ban que de experiencias estables (11 vs. 3), lo que constituye un skew distribucional. Las plataformas documentadas incluyen Etsy, Gumroad, Lemon Squeezy y Creative Market.",
+  "analytical_unit": "experiencias operacionales de vendedores en plataformas de productos digitales (suspensiones y estabilidad), separadas de tipo de producto y nivel de ingresos",
   "signal_ids": [
-    "SC-R1-003",
-    "SC-R3-011",
-    "SC-R4-088",
-    "SC-R4-137",
-    "SC-R4-138",
-    "SC-R6-001",
-    "SC-R6-002",
-    "SC-R6-003",
-    "SC-R6-005",
-    "SC-R6-006",
-    "SC-R6-007",
-    "SC-R6-008",
-    "SC-R6-009",
-    "SC-R6-010",
-    "SC-R6-011",
-    "SC-R6-012",
-    "SC-R6-013",
-    "SC-R6-014",
-    "SC-R6-015",
-    "SC-R6-016",
-    "SC-R6-017",
-    "SC-R6-018",
-    "SC-R6-019",
-    "SC-R6-020",
-    "SC-R6-021",
-    "SC-R6-022",
-    "SC-R6-023",
-    "SC-R6-024",
-    "SC-R6-025",
-    "SC-R6-026"
+    "SC-R8-064",
+    "SC-R8-066",
+    "SC-R8-067",
+    "SC-R8-068",
+    "SC-R8-071",
+    "SC-R8-072",
+    "SC-R8-073",
+    "SC-R8-075",
+    "SC-R8-079",
+    "SC-R8-086",
+    "SC-R8-093",
+    "SC-R8-104",
+    "SC-R8-107",
+    "SC-R8-125"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Polo A — suspensiones y cierres de cuenta documentados en plataformas",
+        "definition": "Cards que documentan suspensiones, bans y cierres de cuentas sin explicación en plataformas de productos digitales",
         "signal_ids": [
-          {
-            "id": "SC-R1-003",
-            "description": "Active products on the Hotmart marketplace include packs of 20-40 editable Canva templates for socia"
-          },
-          {
-            "id": "SC-R3-011",
-            "description": "Large template bundles with Private Label Rights or Master Resell Rights exist on Etsy, including a "
-          },
-          {
-            "id": "SC-R4-088",
-            "description": "Maliha (The Side Blogger) makes \"at least over a hundred bucks\" per month selling Canva templates on"
-          },
-          {
-            "id": "SC-R4-137",
-            "description": "A seller reports: \"I used to love selling Canva templates until I stopped\" because \"virtually every "
-          },
-          {
-            "id": "SC-R4-138",
-            "description": "The same seller switched to selling Notion templates instead of Canva templates, describing Notion t"
-          },
-          {
-            "id": "SC-R6-001",
-            "description": "Social media templates (Instagram posts, stories, reels) for healthcare/medical professionals listed"
-          },
-          {
-            "id": "SC-R6-002",
-            "description": "A 2,100 Instagram templates bundle (640 posts, 640 stories, 450 carousels, 270 quotes, 30 reel cover"
-          },
-          {
-            "id": "SC-R6-003",
-            "description": "111 modern social media posts + 56 stories (minimalist Instagram templates for Canva and Figma) list"
-          }
+          {"id": "SC-R8-064", "description": "vendedor nuevo en Etsy con cuenta suspendida dentro de las 24 horas del lanzamiento a pesar de seguir las reglas"},
+          {"id": "SC-R8-066", "description": "cierre de cuenta arbitrario sin causa explicada documentado"},
+          {"id": "SC-R8-067", "description": "vendedor reporta suspensión sin aviso previo"},
+          {"id": "SC-R8-068", "description": "vendedor en UK: casi 10 ventas y más de 100 GBP antes de que cuenta fuera suspendida"},
+          {"id": "SC-R8-071", "description": "Thibaut Patel: cuenta de Gumroad suspendida, reinstalada y luego baneada permanentemente sin acción del vendedor"},
+          {"id": "SC-R8-072", "description": "Gumroad: ban permanente via herramienta IA Iffy sin advertencia ni apelación"},
+          {"id": "SC-R8-073", "description": "Gumroad: un dispute de cliente generó suspensión de cuenta entera y reembolso de todas las ventas"},
+          {"id": "SC-R8-075", "description": "vendedor recibió suspensión permanente de Gumroad sin explicación de causa"},
+          {"id": "SC-R8-079", "description": "Trustpilot marzo 2026: Gumroad 1.4/5, 309 de 372 reviews en 1 estrella — 83%"},
+          {"id": "SC-R8-086", "description": "ban de vendedor con historial positivo previo documentado en Creative Market"},
+          {"id": "SC-R8-093", "description": "cierre de cuenta documentado en plataforma de infoproductos"}
         ],
-        "mechanical_summary": "co-ocurre en 5 rounds distintos (60 cards): Canva Pro element restriction + seller policy + buyer paywall co-ocurren en cards de plataforma y seller.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Once cards de fuentes distintas documentan suspensiones, bans y cierres de cuentas en Etsy, Gumroad, Creative Market y una plataforma no especificada (SC-R8-093). SC-R8-079 agrega contexto distribucional. Los casos son de períodos y categorías de producto distintos. SC-R8-066, SC-R8-067, SC-R8-093 tienen descripciones genéricas en el scan.",
+        "unit_used": "casos de suspensión documentados (posts de foro, reviews), rating de plataforma (escala 1-5)"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Polo B — experiencia de vendedor estable y positiva documentada",
+        "definition": "Cards que documentan experiencias estables y positivas de vendedores sin suspensiones en plataformas de productos digitales",
         "signal_ids": [
-          {
-            "id": "SC-R6-091",
-            "description": "Ko-fi listing \"Aesthetic Instagram Story Monthly Recap\" free Canva template by Sumin has 5,083 units"
-          },
-          {
-            "id": "SC-R6-092",
-            "description": "\"200+ Ultimate Bundle of Canva Templates\" on Etsy has 1,500 reviews and a 4.8 rating."
-          },
-          {
-            "id": "SC-R6-093",
-            "description": "Katya Varbanova claims $1.4 million in revenue selling Canva templates in under 3 years, working les"
-          },
-          {
-            "id": "SC-R6-094",
-            "description": "Katya Varbanova sold 255 template packs in first few days via presale."
-          },
-          {
-            "id": "SC-R6-095",
-            "description": "Katya Varbanova grew to 13,000 customers and 1,000+ affiliates selling Canva templates."
-          },
-          {
-            "id": "SC-R6-096",
-            "description": "Maliha / The Side Blogger claims $1,000-$3,000/month from Canva templates since 2020 as a side gig ("
-          },
-          {
-            "id": "SC-R6-097",
-            "description": "Maliha / The Side Blogger reports $2,200 in Jan-Feb 2024 from own website alone (WooCommerce screens"
-          },
-          {
-            "id": "SC-R6-098",
-            "description": "Maliha / The Side Blogger reports $7,000+ in Nov-Dec 2023 from website alone during a bundle promoti"
-          }
+          {"id": "SC-R8-104", "description": "@robfitz, Indie Hackers julio 2020: vendió aproximadamente $80K en PDFs via Gumroad, basically does what it says on the tin"},
+          {"id": "SC-R8-107", "description": "@XCS, Indie Hackers julio 2020: vendió $2,000 en 3 meses sin incidentes mayores, solo un chargeback"},
+          {"id": "SC-R8-125", "description": "vendedor Iampaulrose: $1,008.89 en ventas recomendadas por Gumroad Discover, sin incidentes documentados"}
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Tres cards documentan experiencias estables en Gumroad. SC-R8-104 y SC-R8-107 son del mismo hilo de Indie Hackers en julio 2020, anteriores a los cambios de política de Gumroad de 2022-2024. SC-R8-125 es posterior pero no documenta ausencia de incidentes sistemáticamente.",
+        "unit_used": "observaciones cualitativas de vendedores sobre estabilidad operacional en Gumroad"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Skew distribucional en el corpus hacia documentación de suspensiones (11 cards) sobre experiencias estables (3 cards) en plataformas de productos digitales durante el período 2020–2026. El skew puede reflejar selección de fuentes o sesgo hacia documentación de experiencias negativas en foros y Trustpilot.",
+    "no": "Que la mayoría de vendedores en plataformas sufra suspensiones. Que la diferencia entre polos no se explique por cambios de política entre 2020 y 2024. Que SC-R8-086 (Creative Market) y SC-R8-093 (plataforma no especificada) sean comparables a los casos de Gumroad y Etsy."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R8-066, SC-R8-067, SC-R8-093 (descripciones genéricas en el scan).",
+    "Tasa de suspensiones como proporción del total de cuentas activas por plataforma.",
+    "Observaciones de vendedores con experiencia estable en Gumroad en el período 2022–2026.",
+    "Separación por plataforma: Etsy, Gumroad, Creative Market y plataforma no especificada tienen políticas de enforcement distintas."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible artefacto de fuente",
+    "posible survivorship bias",
+    "posible sobre-abstracción"
   ],
-  "source_patterns": [
-    "COO-002",
-    "FRI-002",
-    "FRI-004",
-    "FRI-034",
-    "LEX-050",
-    "LEX-051"
-  ],
+  "source_patterns": ["ASY-012"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

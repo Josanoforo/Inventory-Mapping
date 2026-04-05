@@ -1,56 +1,61 @@
 {
   "id": "TC-058",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '10/month' asociada a Etsy en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '10/month' en contexto Etsy en rounds [4, 8]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: las actualizaciones de versiones de modelos IA que cambian el comportamiento de prompts bloquean la utilidad documentada de prompts vendidos vinculados a una versión específica. El corpus documenta 1 card del bloqueador (actualizaciones de modelo que cambian comportamiento de prompts) y 2 cards del bloqueado (prompts vendidos que pierden funcionalidad).",
+  "analytical_unit": "utilidad de prompts comercializados como dependientes de una versión específica de modelo IA",
   "signal_ids": [
-    "SC-R4-014",
-    "SC-R8-010"
+    "SC-R7-176",
+    "SC-R7-177",
+    "SC-R7-178"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — actualizaciones de versión de modelo IA alteran comportamiento de prompts existentes",
+        "definition": "Card que documenta actualizaciones de modelos IA que alteran el comportamiento de prompts existentes",
         "signal_ids": [
           {
-            "id": "SC-R4-014",
-            "description": "Reddit user ricks_flare was spending $10/month on Etsy listing fees and described it as \"wasting.\""
+            "id": "SC-R7-176",
+            "description": "modelos IA reciben actualizaciones que cambian el comportamiento de prompts existentes"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '10/month' asociada a Etsy en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta que las actualizaciones de versión alteran el comportamiento de prompts sin aviso.",
+        "unit_used": "actualizaciones de versión de modelo IA"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — prompts vendidos vinculados a versión específica pierden funcionalidad tras actualizaciones",
+        "definition": "Cards que documentan prompts vendidos que pierden funcionalidad tras actualizaciones de modelo",
         "signal_ids": [
           {
-            "id": "SC-R8-010",
-            "description": "Etsy Plus subscription costs $10/month."
+            "id": "SC-R7-177",
+            "description": "vendedores de prompts documentan invalidación de productos por cambios de versión de modelo"
+          },
+          {
+            "id": "SC-R7-178",
+            "description": "compradores documentan que prompts adquiridos dejan de funcionar tras actualizaciones de modelo"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan el impacto en vendedores (productos invalidados) y compradores (prompts dejan de funcionar) cuando los modelos se actualizan.",
+        "unit_used": "prompts vendidos vinculados a versión específica de modelo IA"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Las actualizaciones de modelos IA que alteran el comportamiento de prompts están documentadas. La invalidación de productos vendidos por cambios de versión está documentada desde la perspectiva de vendedores y compradores.",
+    "no": "Que todos los prompts vendidos sean invalidados por actualizaciones (el impacto depende del grado de cambio en cada actualización y del tipo de prompt)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R7-177 y SC-R7-178 para verificar el contexto de los modelos específicos afectados.",
+    "Proporción de prompts en el mercado que dependen de versiones específicas vs. prompts con instrucciones generales.",
+    "Información sobre si las plataformas de prompts ofrecen mecanismos de actualización o garantía post-venta."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible sobre-abstracción",
+    "posible falta de grounding"
   ],
   "source_patterns": [
-    "LEX-016"
+    "FRI-023"
   ],
   "human_fields": {
     "human_context": "",

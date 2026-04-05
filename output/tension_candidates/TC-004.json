@@ -1,131 +1,60 @@
 {
   "id": "TC-004",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun si la estructura de comision de la plataforma es cero o cuota plana mensual versus porcentaje por venta.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre plataformas con cuota cero/plana y plataformas con comision porcentual por venta.",
+  "type": "contradicción",
+  "mechanical_relation": "Las cards se separan en polos sobre si el volumen de libros generados por IA en Amazon constituye un problema documentado de escala o si el 'tsunami' es más narrativa que evidencia verificable. Un polo documenta cifras de volumen y casos de daño; el polo opuesto argumenta que los datos concretos son escasos y que las cifras incluyen toda la actividad de publicación, no solo IA. Ambos polos refieren al mismo sujeto y al mismo período (2023–2025).",
+  "analytical_unit": "afirmaciones sobre escala del volumen de libros IA en Amazon, separadas de casos individuales de daño a autores específicos",
   "signal_ids": [
-    "SC-R1-017",
-    "SC-R1-050",
-    "SC-R1-053",
-    "SC-R1-060",
-    "SC-R2-058",
-    "SC-R4-082",
-    "SC-R4-089",
-    "SC-R4-105",
-    "SC-R5-049",
-    "SC-R5-079",
-    "SC-R6-038",
-    "SC-R6-047",
-    "SC-R6-054",
-    "SC-R6-059",
-    "SC-R8-016",
-    "SC-R8-034",
-    "SC-R8-035",
-    "SC-R8-042",
-    "SC-R8-048"
+    "SC-R10-059",
+    "SC-R10-064",
+    "SC-R10-071",
+    "SC-R10-094",
+    "SC-R10-095",
+    "SC-R10-096"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: cuota cero o plana mensual",
-        "definition": "Plataformas sin comision porcentual por venta; modelo de tarifa fija o gratuita",
+        "label": "Polo A — volumen de libros IA en Amazon documentado como problema de escala",
+        "definition": "Fuentes en el corpus que documentan el volumen de libros IA en Amazon como problema de escala real",
         "signal_ids": [
-          {
-            "id": "SC-R1-050",
-            "description": "Tiendanube offers a free unlimited plan in Argentina and Mexico, integrates Mercado Pago and its own"
-          },
-          {
-            "id": "SC-R1-053",
-            "description": "Empretienda (Argentina, founded 2017) was acquired by Ualá in 2022 and charges no commissions per sa"
-          },
-          {
-            "id": "SC-R6-054",
-            "description": "Ko-fi takes no cut on shop sales."
-          },
-          {
-            "id": "SC-R6-047",
-            "description": "Stan Store uses a monthly subscription model with no per-sale commission cut."
-          },
-          {
-            "id": "SC-R4-082",
-            "description": "Payhip Pro ($99/month) has 0% transaction fees."
-          },
-          {
-            "id": "SC-R6-059",
-            "description": "Sellfy offers paid plans at $29/month (Starter), $79/month (Business), $159/month (Premium) with no "
-          },
-          {
-            "id": "SC-R8-042",
-            "description": "Payhip charges a 5% transaction fee on the free plan ($0/month), 2% on the Plus plan ($29/month), an"
-          },
-          {
-            "id": "SC-R8-048",
-            "description": "Sellfy charges $29/month Starter (up to $10K/year sales), $79/month Business (up to $50K), and $159/"
-          }
+          {"id": "SC-R10-059", "description": "Good e-Reader, sept. 2025: entre 10,000 y 40,000 ebooks IA por mes en Amazon"},
+          {"id": "SC-R10-064", "description": "Jane Friedman citando D2D COO: actividad de publicación 50% por encima de lo normal"},
+          {"id": "SC-R10-071", "description": "Authors Guild, marzo 2024: cada libro anticipado tiene libros IA scam publicados en días"}
         ],
-        "mechanical_summary": "Plataformas sin comision porcentual por venta; modelo de tarifa fija o gratuita",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Tres fuentes distintas (Good e-Reader noticias, Jane Friedman blog citando a D2D COO, Authors Guild informe) documentan volumen elevado de ebooks IA, aumento de actividad de publicación y casos de suplantación de autores. Las cifras de Good e-Reader son estimaciones; la de D2D (+50%) incluye toda la actividad de publicación.",
+        "unit_used": "volumen estimado de ebooks IA por mes, porcentaje de aumento de actividad de publicación, casos de scam documentados"
       },
       {
-        "label": "Polo B: porcentaje por venta",
-        "definition": "Plataformas que cobran porcentaje variable sobre cada transaccion al vendedor",
+        "label": "Polo B — datos concretos son escasos; narrativa supera evidencia",
+        "definition": "Fuentes en el corpus que argumentan que los datos concretos sobre el flood IA son escasos o que las cifras citadas están sobreinterpretadas",
         "signal_ids": [
-          {
-            "id": "SC-R1-060",
-            "description": "Bubok charges a 50% commission on ebook sales in Spain."
-          },
-          {
-            "id": "SC-R1-017",
-            "description": "Sales arriving via Gumroad's Discover marketplace incur a 30% commission."
-          },
-          {
-            "id": "SC-R5-049",
-            "description": "For sales via Gumroad Discover (marketplace), the fee is 30% per sale (includes payment processing)."
-          },
-          {
-            "id": "SC-R2-058",
-            "description": "Spreadsheet Nut is an online marketplace dedicated to spreadsheet templates, charging 40% commission"
-          },
-          {
-            "id": "SC-R4-089",
-            "description": "Maliha's main frustration with Creative Market is the 40% commission: \"Imagine selling $50 worth of "
-          },
-          {
-            "id": "SC-R6-038",
-            "description": "Creative Market sellers keep 50% of list price; the platform handles marketing and payment processin"
-          },
-          {
-            "id": "SC-R5-079",
-            "description": "Prototion (prototion.com) charges a 30% commission on sales and lists 1,000+ free and paid templates"
-          },
-          {
-            "id": "SC-R4-105",
-            "description": "The LILI Path reports Etsy takes approximately 40-50% of total sales for digital products through co"
-          }
+          {"id": "SC-R10-094", "description": "Mark Williams / The New Publishing Standard, oct. 2025: datos concretos que apoyen el flood IA son escasos"},
+          {"id": "SC-R10-095", "description": "Williams: el límite de 3/día de Amazon es 'gentle speed bump'; el +50% de D2D incluye toda la actividad"},
+          {"id": "SC-R10-096", "description": "Williams: analistas de la industria acordaron que 'el tsunami IA fue más ruido que sustancia'"}
         ],
-        "mechanical_summary": "Plataformas que cobran porcentaje variable sobre cada transaccion al vendedor",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Tres cards de una sola fuente (The New Publishing Standard, Mark Williams, octubre 2025) argumentan que la narrativa del flood supera la evidencia. Williams es analista del sector editorial independiente. El origen de estas tres cards es un solo autor y un solo artículo, lo cual limita la diversidad de este polo.",
+        "unit_used": "evaluaciones cualitativas de analista sobre suficiencia de la evidencia empírica"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de fuentes que documentan el flood IA con cifras concretas y fuentes que argumentan que esas cifras son insuficientes o malinterpretadas, sobre el mismo sujeto y período (Amazon, 2023–2025).",
+    "no": "Cuál polo describe con mayor precisión la escala real del fenómeno. Si los 10,000–40,000 ebooks/mes son verificables. Si el análisis de Williams es representativo del consenso de la industria."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Datos primarios de Amazon sobre volumen total de ebooks publicados vs. ebooks IA declarados.",
+    "Fuente primaria de las estimaciones de Good e-Reader (metodología de conteo).",
+    "Definición operacional usada por cada fuente para 'ebook IA' (totalmente IA vs. asistido por IA).",
+    "Perspectivas de analistas distintos a Mark Williams para el Polo B.",
+    "Datos sobre el impacto en ventas de autores humanos durante el período documentado."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible artefacto de fuente",
+    "posible falta de grounding",
+    "posible agrupación disfrazada de tensión"
   ],
-  "source_patterns": [
-    "ASY-003"
-  ],
+  "source_patterns": ["CON-007"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

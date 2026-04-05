@@ -1,61 +1,61 @@
 {
   "id": "TC-054",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$29.99' asociada a Gumroad en 3 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$29.99' en contexto Gumroad en rounds [2, 10]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la detección de contenido IA con falsos positivos de Etsy bloquea listados de arte humano documentados como afectados por el sistema de revisión. El corpus documenta 1 card del bloqueador (sistema automatizado de detección IA con falsos positivos) y 2 cards del bloqueado (listados de arte humano suspendidos y proceso de disputa sin plazos).",
+  "analytical_unit": "acceso de artistas humanos a sus listados en Etsy ante el sistema de detección automatizada de contenido IA",
   "signal_ids": [
-    "SC-R10-019",
-    "SC-R10-038",
-    "SC-R2-078"
+    "SC-R8-149",
+    "SC-R8-150",
+    "SC-R8-151"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — sistema automatizado de detección IA de Etsy genera falsos positivos sobre arte humano",
+        "definition": "Card que documenta que el sistema de detección IA de Etsy genera falsos positivos suspendiendo arte humano",
         "signal_ids": [
           {
-            "id": "SC-R10-019",
-            "description": "India Lindsey priced subsequent ebooks at $29.99–$39.99 on Gumroad, described as a \"significant leap"
+            "id": "SC-R8-149",
+            "description": "Etsy implementa detección automatizada de contenido IA en listados"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$29.99' asociada a Gumroad en 3 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el sistema de detección automatizada de Etsy. La card tiene descripción en el scan sin texto verificado específico.",
+        "unit_used": "documentación del sistema de detección IA de Etsy"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — listados de arte humano suspendidos y proceso de disputa sin plazos",
+        "definition": "Cards que documentan artistas humanos con listados suspendidos por falso positivo y proceso de disputa sin resolución definida",
         "signal_ids": [
           {
-            "id": "SC-R10-038",
-            "description": "India Lindsey's \"10K in 30 Days\" sold at $29.99, later raised to $39.99 on Gumroad."
+            "id": "SC-R8-150",
+            "description": "artistas humanos documentan suspensión de listados por falso positivo de detección IA"
           },
           {
-            "id": "SC-R2-078",
-            "description": "On Gumroad, AllThingsTemplate sells an \"Ultimate 10-in-One Productivity Bundle (Google Sheets)\" for "
+            "id": "SC-R8-151",
+            "description": "proceso de disputa para arte marcado erróneamente como IA no tiene tiempo de resolución definido"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan el impacto en artistas humanos: suspensión de listados (SC-R8-150) y proceso de disputa sin plazos (SC-R8-151).",
+        "unit_used": "experiencias documentadas de artistas humanos con falsos positivos en Etsy"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El sistema de detección IA de Etsy con falsos positivos y el proceso de disputa sin plazos están documentados. El impacto en artistas humanos con listados suspendidos está documentado en 2 cards.",
+    "no": "Que todos los falsos positivos de Etsy sean no resueltos (SC-R8-152 en TC-036 documenta que Etsy anunció appeals feature en otoño 2025)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado completo de las 3 cards.",
+    "Tasa de falsos positivos del sistema de detección IA de Etsy.",
+    "Tiempo promedio de resolución de disputas de arte marcado erróneamente como IA en Etsy."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "LEX-011"
+    "FRI-019"
   ],
   "human_fields": {
     "human_context": "",

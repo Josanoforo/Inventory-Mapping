@@ -1,61 +1,265 @@
 {
   "id": "TC-073",
-  "status": "needs_audit_before_classification",
+  "status": "pending_review",
   "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$0.40' asociada a Notion en 3 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$0.40' en contexto Notion en rounds [5, 8]. Verificar si provienen de la misma fuente original.",
+  "mechanical_relation": "co-ocurre en 3 rounds distintos (43 cards): el volumen documentado de contenido IA en Amazon KDP co-ocurre con erosión documentada de señales de calidad para compradores y casos documentados de desinformación. El corpus documenta el volumen de contenido IA y medidas de la plataforma (Polo A) y el impacto en compradores por desinformación y erosión de confianza (Polo B).",
+  "analytical_unit": "capacidad del comprador de Amazon KDP para identificar contenido de calidad ante el volumen de contenido generado por IA",
   "signal_ids": [
-    "SC-R5-024",
-    "SC-R8-028",
-    "SC-R8-033"
+    "SC-R1-032",
+    "SC-R7-147",
+    "SC-R7-148",
+    "SC-R10-059",
+    "SC-R10-060",
+    "SC-R10-066",
+    "SC-R10-067",
+    "SC-R10-069",
+    "SC-R10-070",
+    "SC-R10-071",
+    "SC-R10-072",
+    "SC-R10-075",
+    "SC-R10-095",
+    "SC-R10-103",
+    "SC-R10-104",
+    "SC-R10-105",
+    "SC-R10-106",
+    "SC-R10-107",
+    "SC-R10-108",
+    "SC-R10-109",
+    "SC-R10-110",
+    "SC-R10-111",
+    "SC-R10-112",
+    "SC-R10-113",
+    "SC-R10-114",
+    "SC-R10-115",
+    "SC-R10-117",
+    "SC-R10-118",
+    "SC-R10-119",
+    "SC-R10-121",
+    "SC-R10-123",
+    "SC-R10-124",
+    "SC-R10-125",
+    "SC-R10-126",
+    "SC-R10-127",
+    "SC-R10-155",
+    "SC-R10-156",
+    "SC-R10-157",
+    "SC-R10-160",
+    "SC-R10-163",
+    "SC-R10-169",
+    "SC-R10-180"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Polo A — volumen de contenido IA en Amazon KDP y respuesta de la plataforma",
+        "definition": "Cards que documentan el volumen de contenido IA publicado en Amazon KDP y las medidas de la plataforma",
         "signal_ids": [
           {
-            "id": "SC-R5-024",
-            "description": "Notion charges creators a 10% fee plus $0.40 per transaction for marketplace sales."
-          }
-        ],
-        "mechanical_summary": "co-ocurre figura '$0.40' asociada a Notion en 3 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
-      },
-      {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
-        "signal_ids": [
-          {
-            "id": "SC-R8-028",
-            "description": "Notion Marketplace charges 10% fee + $0.40 per transaction."
+            "id": "SC-R10-059",
+            "description": "entre 10,000 y 40,000 ebooks por mes son publicados utilizando ChatGPT u otras IA"
           },
           {
-            "id": "SC-R8-033",
-            "description": "A seller reported selling a $5 Notion template and receiving approximately $3.10 after fees, while o"
+            "id": "SC-R10-060",
+            "description": "Amazon limita a los auto-editores a 3 libros por día; política implementada en septiembre 2023"
+          },
+          {
+            "id": "SC-R10-066",
+            "description": "creadores de ebooks IA evaden el límite de 3 por día distribuyendo a través de Smashwords o Draft2Digital"
+          },
+          {
+            "id": "SC-R10-071",
+            "description": "cada libro de perfil alto anticipado tiene libros scam generados por IA — biografías, resúmenes, clones"
+          },
+          {
+            "id": "SC-R10-095",
+            "description": "Williams caracteriza el límite de 3 por día de Amazon como 'un speed bump suave'"
+          },
+          {
+            "id": "SC-R10-103",
+            "description": "Amazon KDP requiere declaración de contenido IA al publicar"
+          },
+          {
+            "id": "SC-R10-106",
+            "description": "no existe badge público de 'IA' visible para compradores en Amazon; Authors Guild lo ha solicitado"
+          },
+          {
+            "id": "SC-R10-107",
+            "description": "a diciembre 2025, Amazon no ha implementado etiquetas de declaración IA visibles para compradores"
+          },
+          {
+            "id": "SC-R10-108",
+            "description": "Amazon explícitamente permite contenido generado por IA con declaración"
+          },
+          {
+            "id": "SC-R10-109",
+            "description": "límite diario de publicación de KDP de 3 libros confirmado directamente con KDP"
+          },
+          {
+            "id": "SC-R10-110",
+            "description": "límite diario de 3 libros por día en Amazon KDP, implementado en septiembre 2023"
+          },
+          {
+            "id": "SC-R7-147",
+            "description": "Amazon KDP requiere declaración de contenido IA al publicar, incluyendo texto e imágenes"
+          },
+          {
+            "id": "SC-R7-148",
+            "description": "Amazon KDP tiene límite de 3 libros por día para prevenir spam IA"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Cards documentan el volumen de contenido IA (10k-40k ebooks/mes), las medidas de Amazon (límite 3/día, requisito de declaración) y la evasión documentada del límite.",
+        "unit_used": "volumen de contenido IA en Amazon KDP y efectividad de las medidas de control"
+      },
+      {
+        "label": "Polo B — erosión de señales de calidad y casos de desinformación documentados en Amazon KDP",
+        "definition": "Cards que documentan el impacto en compradores: libros fraudulentos, desinformación y erosión de la confianza",
+        "signal_ids": [
+          {
+            "id": "SC-R10-067",
+            "description": "libros de forrajeo de hongos generados por IA en Amazon contenían desinformación peligrosa"
+          },
+          {
+            "id": "SC-R10-069",
+            "description": "libros de forrajeo de hongos generados por IA en Amazon contenían desinformación peligrosa"
+          },
+          {
+            "id": "SC-R10-070",
+            "description": "libros de forrajeo de hongos generados por IA en Amazon contenían desinformación"
+          },
+          {
+            "id": "SC-R10-072",
+            "description": "autora Stephanie Land encontró biografías IA no autorizadas de 180 páginas sobre ella en Amazon"
+          },
+          {
+            "id": "SC-R10-075",
+            "description": "libro IA sobre el incendio forestal de Maui llegó brevemente al bestseller de Amazon antes de ser retirado"
+          },
+          {
+            "id": "SC-R10-111",
+            "description": "en agosto 2023, Jane Friedman descubrió ~6 libros falsos generados por IA bajo su nombre"
+          },
+          {
+            "id": "SC-R10-112",
+            "description": "Amazon inicialmente se negó a retirar libros IA falsos bajo el nombre de Friedman"
+          },
+          {
+            "id": "SC-R10-113",
+            "description": "Amazon implementó políticas de declaración IA y límites de volumen el mes siguiente al caso Friedman"
+          },
+          {
+            "id": "SC-R10-155",
+            "description": "Authors Guild documentó 'cientos' de libros scam IA en Amazon"
+          },
+          {
+            "id": "SC-R10-156",
+            "description": "Authors Guild: resúmenes, libros de trabajo y guías parecen ser la categoría más afectada"
+          },
+          {
+            "id": "SC-R10-157",
+            "description": "Authors Guild alienta a compradores de libros scam a solicitar reembolsos y reportar"
+          },
+          {
+            "id": "SC-R10-160",
+            "description": "Sarah Packowski compró libro IA con errores técnicos graves en Amazon"
+          },
+          {
+            "id": "SC-R10-169",
+            "description": "suscriptor de Kindle Unlimited canceló suscripción por libros generados por IA"
+          },
+          {
+            "id": "SC-R10-180",
+            "description": "'Edible Wild Mushrooms of Saskatchewan' en Amazon contenía errores peligrosos"
+          }
+        ],
+        "mechanical_summary": "Cards documentan casos verificados de desinformación en libros IA (forrajeo de hongos, biografías falsas de autores conocidos) y el impacto en confianza de compradores.",
+        "unit_used": "casos documentados de desinformación y erosión de confianza de compradores en Amazon KDP"
       }
-    ]
+    ],
+    "additional_context": {
+      "note": "Las siguientes cards documentan contexto adicional del ecosistema KDP sin ser evidencia directa del mecanismo de flood/erosión de calidad",
+      "signal_ids": [
+        {
+          "id": "SC-R1-032",
+          "description": "Gerardo Marote (Spain) sold 62 units of his book \"Guía práctica para analizar ideas de negocio\" on Amazon KDP in 30"
+        },
+        {
+          "id": "SC-R10-029",
+          "description": "Books at $9.99+ on Amazon KDP remain at 60% paperback/hardcover royalty. Ebooks were not affected by the June 2025"
+        },
+        {
+          "id": "SC-R10-104",
+          "description": "Amazon defines \"AI-generated\" as content created by an AI tool even if substantially edited afterward, and"
+        },
+        {
+          "id": "SC-R10-105",
+          "description": "Amazon KDP states: \"You are responsible for verifying that all AI-generated and/or AI-assisted content adheres to all"
+        },
+        {
+          "id": "SC-R10-114",
+          "description": "Jane Friedman discovered fake AI-generated books under her name on Amazon in August 2023. Amazon initially refused"
+        },
+        {
+          "id": "SC-R10-115",
+          "description": "Jane Friedman discovered fake AI-generated books under her name on Amazon in August 2023."
+        },
+        {
+          "id": "SC-R10-117",
+          "description": "Reported penalties for non-disclosure of AI content on KDP include: book removal without prior warning, account"
+        },
+        {
+          "id": "SC-R10-118",
+          "description": "Reported penalties for non-disclosure of AI content on KDP include book removal, account suspension, and loss of"
+        },
+        {
+          "id": "SC-R10-119",
+          "description": "Reported penalties for non-disclosure of AI content on KDP include: book removal, account suspension, lifetime ban."
+        },
+        {
+          "id": "SC-R10-121",
+          "description": "AI-generated translations must be disclosed as AI-generated content on Amazon KDP."
+        },
+        {
+          "id": "SC-R10-123",
+          "description": "Inkfluence AI reports that many authors forget AI-translated books count as AI-generated content on KDP."
+        },
+        {
+          "id": "SC-R10-124",
+          "description": "There is no evidence that marking content as \"AI-generated\" on KDP affects search ranking, category placement, or ad"
+        },
+        {
+          "id": "SC-R10-125",
+          "description": "There is no evidence that marking content as \"AI-generated\" on KDP affects search ranking, category placement, or ad"
+        },
+        {
+          "id": "SC-R10-126",
+          "description": "Amazon explicitly considers grammar-checking tools (Grammarly, ProWritingAid) as AI-assisted, not AI-generated; no"
+        },
+        {
+          "id": "SC-R10-127",
+          "description": "Amazon implemented identity authentication as part of anti-fraud measures alongside AI content policies."
+        },
+        {
+          "id": "SC-R10-163",
+          "description": "62 FOIA-obtained complaints against Publishing.com included customers spending $7,000+ on courses, high-pressure sales"
+        }
+      ]
+    }
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El volumen de contenido IA en Amazon KDP (10k-40k ebooks/mes) está documentado. Casos concretos de desinformación en libros IA están documentados con nombres verificados. La ausencia de etiquetas IA visibles para compradores está documentada. La evasión del límite de 3 libros/día está documentada.",
+    "no": "Que todos los libros IA en Amazon contengan desinformación (el corpus documenta casos extremos; la mayoría puede ser contenido genérico sin riesgo de seguridad)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Datos de cuántos libros IA en Amazon han sido retirados por desinformación verificada.",
+    "Tasa de libros IA aprobados por Amazon después del requisito de declaración implementado en 2023.",
+    "Impacto en ventas de autores humanos en categorías donde se documenta flood de IA."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible sobre-abstracción",
+    "posible artefacto de fuente"
   ],
   "source_patterns": [
-    "LEX-032"
+    "COO-006"
   ],
   "human_fields": {
     "human_context": "",

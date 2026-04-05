@@ -2,75 +2,55 @@
   "id": "TC-046",
   "status": "pending_review",
   "type": "fricción",
-  "mechanical_relation": "co-ocurre: la suspension automatica de cuentas en Etsy sin apelacion efectiva documentada bloquea el acceso continuado de vendedores a su catalogo y ventas.",
-  "analytical_unit": "Bloqueador documentado: suspension automatizada sin apelacion efectiva en Etsy. Bloqueado documentado: acceso de vendedores a catalogo, ventas y fondos. Mecanismo claro con soporte de 6 tarjetas.",
+  "mechanical_relation": "co-ocurre: la exportación PDF aplanada de Canva elimina hipervínculos y bloquea la funcionalidad documentada de plantillas interactivas con navegación interna. El corpus documenta 1 card del bloqueador (Canva aplana PDF al exportar) y 1 card del bloqueado (compradores con planners Canva sin hipervínculos).",
+  "analytical_unit": "funcionalidad de hipervínculos en PDFs exportados desde Canva para plantillas interactivas",
   "signal_ids": [
-    "SC-R8-064",
-    "SC-R8-065",
-    "SC-R8-066",
-    "SC-R8-067",
-    "SC-R8-068",
-    "SC-R8-069"
+    "SC-R9-116",
+    "SC-R9-117"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Blocker",
-        "definition": "Sistema automatizado de Etsy suspende cuentas sin causa clara ni proceso de apelacion efectivo",
+        "label": "Blocker — exportación PDF de Canva aplana el archivo y elimina hipervínculos",
+        "definition": "Card que documenta que Canva exporta PDF plano que elimina hipervínculos de plantillas interactivas",
         "signal_ids": [
           {
-            "id": "SC-R8-064",
-            "description": "A new Etsy seller reported shop suspension within 24 hours of launching despite following all rules,"
-          },
-          {
-            "id": "SC-R8-065",
-            "description": "X user @ama_a93 stated Etsy reported $5,000 in income to the IRS that the seller never received."
-          },
-          {
-            "id": "SC-R8-068",
-            "description": "A UK Etsy seller reported making nearly 10 sales and over 100 GBP in one week before account suspens"
+            "id": "SC-R9-116",
+            "description": "Canva exporta PDF aplanado que elimina hipervínculos de plantillas interactivas"
           }
         ],
-        "mechanical_summary": "Sistema automatizado de Etsy suspende cuentas sin causa clara ni proceso de apelacion efectivo",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una card documenta el mecanismo técnico del bloqueador (aplanamiento de PDF en exportación de Canva).",
+        "unit_used": "comportamiento técnico de exportación de Canva"
       },
       {
-        "label": "Blocked",
-        "definition": "Acceso de vendedores a catalogo, ingresos y fondos retenidos durante suspension",
+        "label": "Blocked — hipervínculos de navegación en plantillas de planners dejan de funcionar",
+        "definition": "Card que documenta compradores de planners en Canva que reportan hipervínculos no funcionales en PDF exportado",
         "signal_ids": [
           {
-            "id": "SC-R8-066",
-            "description": "Reddit user u/tale_of_two_wolves reported that after a strong sales month, Etsy froze funds and susp"
-          },
-          {
-            "id": "SC-R8-067",
-            "description": "A seller's Etsy account was suspended after their spouse logged in from a friend's house whose Etsy "
-          },
-          {
-            "id": "SC-R8-069",
-            "description": "The UK seller reported that Etsy would not tell them why they were shut down and expressed uncertain"
+            "id": "SC-R9-117",
+            "description": "compradores de planners en Canva reportan hipervínculos no funcionales en PDF exportado"
           }
         ],
-        "mechanical_summary": "Acceso de vendedores a catalogo, ingresos y fondos retenidos durante suspension",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Una card documenta la experiencia de compradores afectados por el aplanamiento de PDF.",
+        "unit_used": "experiencias de compradores con PDFs exportados de plantillas Canva"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "El mecanismo de aplanamiento de PDF en Canva y su impacto en hipervínculos de plantillas interactivas está documentado en 2 cards con separación clara.",
+    "no": "Que todos los PDFs exportados desde Canva pierdan hipervínculos (puede depender del modo de exportación o versión de Canva)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado completo de SC-R9-116 y SC-R9-117.",
+    "Confirmación de si Canva tiene opciones de exportación que preservan hipervínculos.",
+    "Separación por tipo de dispositivo o app de lectura PDF donde el problema se manifiesta."
   ],
   "classification_risk": [
-    "posible artefacto de fuente",
-    "posible sobre-abstracción"
+    "posible falta de grounding",
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "FRI-028"
+    "FRI-011"
   ],
   "human_fields": {
     "human_context": "",

@@ -1,56 +1,75 @@
 {
   "id": "TC-062",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '18 months' asociada a Etsy en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '18 months' en contexto Etsy en rounds [4, 6]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la tarifa fija de Gumroad de $0.50 USD por transacción bloquea el margen documentado de vendedores con productos de precio bajo. El corpus documenta 2 cards del bloqueador (estructura de tarifas con componente fijo) y 4 cards del bloqueado (impacto en margen de productos bajo $5 USD).",
+  "analytical_unit": "margen de vendedores en Gumroad con productos de precio inferior a $5 USD",
   "signal_ids": [
-    "SC-R4-034",
-    "SC-R6-102"
+    "SC-R8-017",
+    "SC-R8-018",
+    "SC-R8-024",
+    "SC-R8-025",
+    "SC-R8-101",
+    "SC-R8-103"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — Gumroad cobra tarifa fija de $0.50 USD por transacción independientemente del precio",
+        "definition": "Cards que documentan la estructura de tarifas de Gumroad con componente fijo por transacción",
         "signal_ids": [
           {
-            "id": "SC-R4-034",
-            "description": "The same aggregation states intermediate Etsy sellers (6-18 months) earn $1,000-$5,000/month."
+            "id": "SC-R8-017",
+            "description": "Gumroad cobra 10% de comisión más $0.50 USD fijo por transacción"
+          },
+          {
+            "id": "SC-R8-018",
+            "description": "estructura de tarifas Gumroad es porcentaje fijo sin escalonado por volumen"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '18 months' asociada a Etsy en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Dos cards documentan la estructura de tarifas de Gumroad con dato numérico verificado (10% + $0.50 USD fijo).",
+        "unit_used": "estructura de tarifas Gumroad: 10% + $0.50 USD fijo por transacción"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — margen de vendedores con productos de precio bajo queda erosionado por tarifa fija",
+        "definition": "Cards que documentan el impacto de la tarifa fija en el margen de productos de precio bajo en Gumroad",
         "signal_ids": [
           {
-            "id": "SC-R6-102",
-            "description": "Lauren Keys claims $31,000 in 18 months and 1,887 sales selling Canva templates on Etsy, focused on "
+            "id": "SC-R8-024",
+            "description": "vendedores con productos bajo $5 USD documentan tarifa fija como proporción alta del precio"
+          },
+          {
+            "id": "SC-R8-025",
+            "description": "en productos de $1 USD la tarifa de $0.50 USD representa 50% del precio de venta"
+          },
+          {
+            "id": "SC-R8-101",
+            "description": "vendedores documentan que la tarifa fija limita viabilidad de productos de bajo precio"
+          },
+          {
+            "id": "SC-R8-103",
+            "description": "comparación con plataformas de tarifa escalonada muestra desventaja de Gumroad para bajo precio"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Cuatro cards documentan el impacto con dato verificado: $0.50 fijo = 50% de un producto de $1 USD. SC-R8-103 contextualiza con comparación de plataformas.",
+        "unit_used": "proporción de tarifa fija sobre precio de venta en productos de bajo precio"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La estructura de tarifa fija de $0.50 USD por transacción está documentada con dato verificado. El impacto proporcional en productos de $1 USD (50% del precio) está documentado. La comparación con plataformas de tarifa escalonada está documentada.",
+    "no": "Que Gumroad sea la única plataforma con tarifas no escalonadas (SC-R8-103 hace comparación, no afirma exclusividad)."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R8-101 y SC-R8-103 para verificar el contexto de los comparativos con otras plataformas.",
+    "Umbral de precio a partir del cual la tarifa fija deja de ser una fricción significativa para el margen.",
+    "Proporción de vendedores de Gumroad que comercializan productos bajo $5 USD."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible sub-representación de un segmento"
   ],
   "source_patterns": [
-    "LEX-021"
+    "FRI-027"
   ],
   "human_fields": {
     "human_context": "",

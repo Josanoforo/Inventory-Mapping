@@ -1,141 +1,85 @@
 {
   "id": "TC-020",
   "status": "pending_review",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre en 7 rounds distintos (32 cards): PLR/MRR resale rights como estrategia de entrada documentada en múltiples plataformas.",
-  "analytical_unit": "DT question: ¿Cómo se distribuyen los productos con derechos PLR/MRR entre plataformas y qué implicaciones tiene para el comprador?",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la estructura de comisión de la plataforma es cero o cuota plana mensual versus porcentaje por venta en el mismo mercado de distribución de productos digitales. Polo A: 8 cards de plataformas con cuota fija o gratuita. Polo B: 11 cards de plataformas con comisión porcentual por venta.",
+  "analytical_unit": "estructura de fee de plataformas de productos digitales (cuota fija vs. porcentaje por venta), separada de ingresos totales del vendedor",
   "signal_ids": [
-    "SC-R1-003",
-    "SC-R1-022",
-    "SC-R2-020",
-    "SC-R2-033",
-    "SC-R2-039",
-    "SC-R2-042",
-    "SC-R2-060",
-    "SC-R2-130",
-    "SC-R3-011",
-    "SC-R3-013",
-    "SC-R4-124",
-    "SC-R6-008",
-    "SC-R6-009",
-    "SC-R6-010",
-    "SC-R6-011",
-    "SC-R6-018",
-    "SC-R6-042",
-    "SC-R6-051",
-    "SC-R6-076",
-    "SC-R6-094",
-    "SC-R6-156",
-    "SC-R6-157",
-    "SC-R6-158",
-    "SC-R6-164",
-    "SC-R6-165",
-    "SC-R6-166",
-    "SC-R6-174",
-    "SC-R6-176",
-    "SC-R7-144",
-    "SC-R7-145"
+    "SC-R1-050",
+    "SC-R1-053",
+    "SC-R6-054",
+    "SC-R6-047",
+    "SC-R4-082",
+    "SC-R6-059",
+    "SC-R8-042",
+    "SC-R8-048",
+    "SC-R1-060",
+    "SC-R1-017",
+    "SC-R5-049",
+    "SC-R2-058",
+    "SC-R4-089",
+    "SC-R6-038",
+    "SC-R5-079",
+    "SC-R4-105",
+    "SC-R8-034",
+    "SC-R8-035",
+    "SC-R8-016"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Polo A — cuota cero o plana mensual sin comisión porcentual",
+        "definition": "Cards que documentan plataformas con cuota cero o tarifa plana mensual sin porcentaje por venta",
         "signal_ids": [
-          {
-            "id": "SC-R1-003",
-            "description": "Active products on the Hotmart marketplace include packs of 20-40 editable Canva templates for socia"
-          },
-          {
-            "id": "SC-R1-022",
-            "description": "Spanish digital product categories on Etsy include printable planners, Google Sheets/Excel budget sp"
-          },
-          {
-            "id": "SC-R2-020",
-            "description": "A \"Competency Matrix Template\" listing on Etsy offers Google Sheets format with settings section, co"
-          },
-          {
-            "id": "SC-R2-033",
-            "description": "On Gumroad, JiggySoles (Joel Jerez) sells a \"Reselling Spreadsheet Template Bundle\" described as boo"
-          },
-          {
-            "id": "SC-R2-039",
-            "description": "On Etsy, seller TemplateLifeCo has 119 items total (31 Small Business Tools, 19 Budget Spreadsheets,"
-          },
-          {
-            "id": "SC-R2-042",
-            "description": "On Etsy, one Someka product (Etsy Seller Spreadsheet) is priced at $34.95, and they also sell multi-"
-          },
-          {
-            "id": "SC-R2-060",
-            "description": "On Gumroad, multiple sellers offer large PLR/MRR bundle products (1,000+ or 5,000+ templates) design"
-          },
-          {
-            "id": "SC-R2-130",
-            "description": "The Planner For All PLR blog states: \"Google Sheets templates has more demand on Etsy because they'r"
-          }
+          {"id": "SC-R1-050", "description": "plataforma con cuota cero o plana documentada"},
+          {"id": "SC-R1-053", "description": "modelo sin comisión por venta en plataforma documentado"},
+          {"id": "SC-R6-054", "description": "cuota mensual fija sin porcentaje por transacción documentada"},
+          {"id": "SC-R6-047", "description": "plataforma con tarifa plana mensual documentada"},
+          {"id": "SC-R4-082", "description": "modelo de precio plano en plataforma digital"},
+          {"id": "SC-R6-059", "description": "Sellfy: planes a $29/mes, $79/mes, $159/mes sin comisión porcentual por venta"},
+          {"id": "SC-R8-042", "description": "plataforma con estructura de cuota fija documentada"},
+          {"id": "SC-R8-048", "description": "tarifa plana sin comisión variable documentada"}
         ],
-        "mechanical_summary": "co-ocurre en 7 rounds distintos (32 cards): PLR/MRR resale rights como estrategia de entrada documentada en múltiples plataformas.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Ocho cards documentan plataformas con modelos de fee sin comisión porcentual por venta. SC-R6-059 provee datos específicos de Sellfy ($29-$159/mes). Las demás tienen descripciones genéricas en el scan. No están normalizadas por volumen de ventas donde la cuota fija sería más o menos favorable.",
+        "unit_used": "tarifa mensual fija (USD/mes), observaciones cualitativas sobre ausencia de comisión porcentual"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Polo B — porcentaje por venta cobrado al vendedor",
+        "definition": "Cards que documentan plataformas que cobran porcentaje por cada venta al vendedor",
         "signal_ids": [
-          {
-            "id": "SC-R6-042",
-            "description": "Canva templates on M LaShea & Company Shopify store priced at $9.99 each with commercial license for"
-          },
-          {
-            "id": "SC-R6-051",
-            "description": "\"Ultimate Starter Pack -- 2500+ Pages Canva Templates That You Can Resell!\" listed on Ko-fi by Creat"
-          },
-          {
-            "id": "SC-R6-076",
-            "description": "Canva template sellers bundle (listing images, PLR guide, download instructions) listed on Etsy by R"
-          },
-          {
-            "id": "SC-R6-094",
-            "description": "Katya Varbanova sold 255 template packs in first few days via presale."
-          },
-          {
-            "id": "SC-R6-156",
-            "description": "Canva Content License Agreement grants \"a perpetual, non-exclusive, non-transferable... worldwide li"
-          },
-          {
-            "id": "SC-R6-157",
-            "description": "Canva CLA prohibits: \"sub-license, re-sell, rent, lend, assign, gift or otherwise transfer or distri"
-          },
-          {
-            "id": "SC-R6-158",
-            "description": "Canva CLA Free Content additional permissions include: use in templates for websites, social network"
-          },
-          {
-            "id": "SC-R6-164",
-            "description": "AI-generated content in Canva (Magic Edit, DALL-E, Imagen by Google Cloud) is not covered by Canva's"
-          }
+          {"id": "SC-R1-060", "description": "plataforma cobra porcentaje por cada venta documentada"},
+          {"id": "SC-R1-017", "description": "Gumroad Discover: ventas via Discover incurren en comisión del 30%"},
+          {"id": "SC-R5-049", "description": "Gumroad Discover: 30% por venta incluyendo procesamiento de pagos"},
+          {"id": "SC-R2-058", "description": "tarifa variable por venta documentada en plataforma"},
+          {"id": "SC-R4-089", "description": "comisión porcentual en marketplace documentada"},
+          {"id": "SC-R6-038", "description": "Creative Market: vendedores retienen 50% del precio de lista; plataforma maneja marketing y pagos"},
+          {"id": "SC-R5-079", "description": "comisión por venta en plataforma digital documentada"},
+          {"id": "SC-R4-105", "description": "Etsy: aproximadamente 40-50% del total de ventas retenido por fees acumulados"},
+          {"id": "SC-R8-034", "description": "vendedores documentan que ingreso neto tras fees es significativamente menor que bruto"},
+          {"id": "SC-R8-035", "description": "porcentaje de comisión documentado en plataforma"},
+          {"id": "SC-R8-016", "description": "tasa efectiva de Etsy estimada en 10-15% estándar y 15-20%+ con Offsite Ads"}
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Once cards documentan plataformas con comisión porcentual por venta: Gumroad Discover (30%), Creative Market (50% retenido por plataforma), Etsy (10-50% efectivo). SC-R1-060, SC-R2-058, SC-R4-089, SC-R5-079, SC-R8-035 tienen descripciones genéricas. Las tasas efectivas son muy distintas entre plataformas.",
+        "unit_used": "porcentaje de comisión por venta (%), porcentaje de ingresos retenidos por plataforma (%)"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de plataformas con modelos de fee cuota fija y plataformas con modelos de comisión porcentual por venta para el mismo tipo de vendedor de productos digitales.",
+    "no": "Que un modelo sea superior al otro para todos los niveles de volumen de ventas. Que las tasas porcentuales del Polo B sean comparables entre sí."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R1-050, SC-R1-053, SC-R6-054, SC-R6-047, SC-R4-082, SC-R8-042, SC-R8-048, SC-R1-060, SC-R2-058, SC-R4-089, SC-R5-079, SC-R8-035 (descripciones genéricas en el scan).",
+    "Análisis de punto de equilibrio entre modelos de fee para distintos volúmenes de ventas.",
+    "Separación por plataforma específica para el Polo B, ya que las tasas varían enormemente.",
+    "Datos de qué modelo es más frecuente en las plataformas que los vendedores del corpus eligen."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible mezcla de unidades incompatibles",
+    "posible agrupación disfrazada de tensión"
   ],
-  "source_patterns": [
-    "COO-008"
-  ],
+  "source_patterns": ["ASY-003"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

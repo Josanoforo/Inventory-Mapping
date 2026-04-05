@@ -1,95 +1,63 @@
 {
   "id": "TC-011",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun los ingresos de vendedores en mercados de prompts: la mayoria de vendedores con ingresos negligibles versus un grupo menor con ingresos altos documentados. Sub-eje especifico de mercados de prompts.",
-  "analytical_unit": "Sub-eje de distribucion de ingresos especifico para mercados de prompts. TC-001 ya cubre la asimetria de ingresos de vendedores en el corpus general. Este patron se separa en el contexto especifico de PromptBase y mercados de prompts, con senales propias no cubiertas por TC-001. Se referencia TC-001 como patron general relacionado.",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de mercado hispanohablante subatendido co-ocurren con señales de barreras de infraestructura de pagos y plataformas que bloquean la participación en el mismo espacio de mercado. Fuerza A: demanda documentada de productos digitales en español con base de compradores creciente y oferta relativamente escasa. Fuerza B: barreras de infraestructura de pagos, ausencia de métodos de pago locales LATAM y cobertura limitada de plataformas.",
+  "analytical_unit": "señales de demanda de mercado hispanohablante y señales de barreras de infraestructura de plataformas para ese mercado",
   "signal_ids": [
-    "SC-R7-095",
-    "SC-R7-102",
-    "SC-R7-103",
-    "SC-R7-106",
-    "SC-R7-108",
-    "SC-R7-109",
-    "SC-R7-110",
-    "SC-R7-121",
-    "SC-R7-131",
-    "SC-R7-135"
+    "SC-R1-025",
+    "SC-R1-026",
+    "SC-R1-044",
+    "SC-R1-048",
+    "SC-R1-019",
+    "SC-R1-020",
+    "SC-R1-018",
+    "SC-R1-015"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: ingresos negligibles, mayoria de vendedores",
-        "definition": "Vendedores de prompts con ingresos bajos o nulos, representan la mayoria del corpus",
+        "label": "Polo A — mercado hispanohablante con demanda y oferta escasa",
+        "definition": "Cards que documentan demanda de productos digitales en español y mercado hispanohablante con oferta escasa relativa",
         "signal_ids": [
-          {
-            "id": "SC-R7-106",
-            "description": "implo.ai states \"60–70% of people who list prompts make under $50/month.\""
-          },
-          {
-            "id": "SC-R7-108",
-            "description": "implo.ai states \"Top-40-ranked sellers with hundreds of listings are earning approximately $200–$400"
-          },
-          {
-            "id": "SC-R7-109",
-            "description": "implo.ai states \"Pure prompt sales on PromptBase appear to cap at approximately $200–$600/month for "
-          },
-          {
-            "id": "SC-R7-095",
-            "description": "A seller posted 3 prompts on PromptBase (2 ChatGPT, 1 Midjourney) over one month and received 119 vi"
-          },
-          {
-            "id": "SC-R7-121",
-            "description": "The same seller claims income on PromptBase is \"negligible\" for most sellers and there are \"signific"
-          },
-          {
-            "id": "SC-R7-131",
-            "description": "implo.ai states \"there are more sellers than buyers (confirmed by multiple long-term users)\" on prom"
-          }
+          {"id": "SC-R1-025", "description": "printables y worksheets en español en Etsy: aproximadamente 280,000 listados comparados con volúmenes mayores en inglés"},
+          {"id": "SC-R1-026", "description": "demanda documentada de productos educativos e informativos en español"},
+          {"id": "SC-R1-044", "description": "planners digitales para iPad/tablets en español prácticamente inexistentes en Etsy"},
+          {"id": "SC-R1-048", "description": "base creciente de compradores de productos digitales en español documentada"}
         ],
-        "mechanical_summary": "Vendedores de prompts con ingresos bajos o nulos, representan la mayoria del corpus",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards de ronda 1 documentan la asimetría entre demanda de mercado hispanohablante y oferta disponible. SC-R1-025 provee dato cuantitativo de volumen de oferta en español (280,000 listados). SC-R1-044 documenta ausencia en categoría específica (planners digitales). Las fuentes no están normalizadas por país dentro de LATAM.",
+        "unit_used": "volumen de listados (conteo), observaciones cualitativas sobre demanda y escasez de oferta"
       },
       {
-        "label": "Polo B: ingresos altos, vendedores outlier",
-        "definition": "Vendedores de prompts con ingresos documentados altos; grupo minoritario en el corpus",
+        "label": "Polo B — barreras de infraestructura de pagos y plataformas para mercado LATAM",
+        "definition": "Cards que documentan barreras de infraestructura de pagos y cobertura de plataformas que bloquean la participación en el mercado hispanohablante",
         "signal_ids": [
-          {
-            "id": "SC-R7-102",
-            "description": "An author reports making $340 in the first week selling prompts."
-          },
-          {
-            "id": "SC-R7-103",
-            "description": "An author claims $700 selling AI prompts (unspecified timeframe)."
-          },
-          {
-            "id": "SC-R7-135",
-            "description": "A Substack article about a seller who made $50K selling prompts states: \"Even HE was shocked people "
-          }
+          {"id": "SC-R1-019", "description": "barreras de infraestructura de pagos LATAM documentadas para vendedores de productos digitales"},
+          {"id": "SC-R1-020", "description": "soporte limitado de plataformas para métodos de pago locales LATAM documentado"},
+          {"id": "SC-R1-018", "description": "fricción documentada en procesamiento de pagos para compradores y vendedores en LATAM"},
+          {"id": "SC-R1-015", "description": "Gumroad no soporta métodos de pago locales de LATAM incluyendo Mercado Pago, PIX, etc.; interfaz parcialmente traducida al español"}
         ],
-        "mechanical_summary": "Vendedores de prompts con ingresos documentados altos; grupo minoritario en el corpus",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards de ronda 1 documentan barreras de pago e infraestructura de plataformas para el mercado LATAM. SC-R1-015 documenta específicamente la ausencia de métodos de pago locales en Gumroad. SC-R1-019, SC-R1-020, SC-R1-018 tienen descripciones genéricas en el scan. No se normalizan por país ni por tipo de plataforma.",
+        "unit_used": "observaciones cualitativas sobre disponibilidad de métodos de pago locales, cobertura de plataformas"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de señales de demanda del mercado hispanohablante con señales de barreras de infraestructura que limitan la participación de vendedores y compradores LATAM en plataformas globales de productos digitales.",
+    "no": "Que las barreras del Polo B sean la causa de la escasa oferta del Polo A. Que las barreras sean equivalentes en todos los países de LATAM. Que SC-R1-019, SC-R1-020, SC-R1-018 tengan contenido verificado distinto de sus descripciones genéricas del scan."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R1-019, SC-R1-020, SC-R1-018 (descripciones genéricas en el scan).",
+    "Datos de participación de vendedores hispanohablantes en plataformas globales por país.",
+    "Comparación de tasas de conversión de compradores LATAM vs. compradores de otros mercados en las mismas plataformas.",
+    "Evidencia de si la escasa oferta del Polo A responde a las barreras del Polo B o a otras causas."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
-    "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible agrupación disfrazada de tensión"
   ],
-  "source_patterns": [
-    "ASY-010",
-    "CON-003"
-  ],
+  "source_patterns": ["OPP-006"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

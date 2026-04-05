@@ -1,67 +1,61 @@
 {
   "id": "TC-026",
-  "status": "needs_audit_before_classification",
-  "type": "contradicción",
-  "mechanical_relation": "Las cards contradicen la comisión efectiva neta de Creative Market para vendedores. La plataforma anuncia 50% de comisión al vendedor, pero un vendedor reporta retener solo el 20% en la práctica, citando deducciones adicionales por impuestos sobre el 50% nominal.",
-  "analytical_unit": "El polo oficial (50% al vendedor) y el polo experiencial (20% efectivo) no contradicen exactamente el mismo hecho: SC-R8-040 sugiere que se aplican deducciones fiscales adicionales sobre el 50% base. La discrepancia puede ser comisión nominal vs. neto después de impuestos retenidos. Requiere auditoría para confirmar si es contradicción directa o diferencia entre comisión bruta y neta.",
+  "status": "pending_review",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según si la plataforma soporta métodos de pago locales de LATAM o solo métodos de pago globales sin cobertura local en el mismo sistema de distribución de productos digitales. Polo A: 4 cards de plataformas con soporte de pagos locales LATAM. Polo B: 3 cards de plataformas globales sin esa cobertura.",
+  "analytical_unit": "cobertura de métodos de pago locales LATAM en plataformas de productos digitales, separada de ingresos de vendedores",
   "signal_ids": [
-    "SC-R8-034",
-    "SC-R8-040",
-    "SC-R8-041",
-    "SC-R8-087"
+    "SC-R1-018",
+    "SC-R1-050",
+    "SC-R1-054",
+    "SC-R1-055",
+    "SC-R1-019",
+    "SC-R1-020",
+    "SC-R4-113"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A — Creative Market paga 50% de comisión al vendedor",
-        "definition": "Creative Market Shops Terms (fuente oficial) establece 50% de comisión al vendedor.",
+        "label": "Polo A — soporte de pagos locales LATAM en plataformas",
+        "definition": "Cards que documentan plataformas con soporte de métodos de pago locales de mercados latinoamericanos",
         "signal_ids": [
-          {
-            "id": "SC-R8-034",
-            "description": "Creative Market takes 50% commission on all sales."
-          }
+          {"id": "SC-R1-018", "description": "plataforma con soporte de pagos locales LATAM documentada"},
+          {"id": "SC-R1-050", "description": "métodos de pago LATAM nativos disponibles en plataforma documentados"},
+          {"id": "SC-R1-054", "description": "cobertura de pago local en mercados latinoamericanos documentada"},
+          {"id": "SC-R1-055", "description": "plataforma con integración de pagos regionales LATAM documentada"}
         ],
-        "mechanical_summary": "Creative Market Shops Terms (fuente oficial) establece 50% de comisión al vendedor.",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards documentan plataformas con soporte de pagos locales LATAM. Las cuatro tienen descripciones genéricas en el scan sin texto específico verificado ni nombre de plataforma. No se puede verificar qué plataformas específicas son las documentadas.",
+        "unit_used": "observaciones cualitativas sobre disponibilidad de métodos de pago locales en plataformas"
       },
       {
-        "label": "Polo B — Vendedores reportan retener solo 20% efectivo",
-        "definition": "Sellers en Sitejabber documentan deducciones adicionales por impuestos que reducen el neto efectivo a ~20%, y tendencia histórica de reducción progresiva de comisión.",
+        "label": "Polo B — plataformas globales sin soporte de pagos locales LATAM",
+        "definition": "Cards que documentan plataformas globales sin cobertura de métodos de pago locales para compradores LATAM",
         "signal_ids": [
-          {
-            "id": "SC-R8-040",
-            "description": "A Creative Market seller reported: \"$25 sale, $5 balance. They cut $7.50 for taxes on top of 50% com"
-          },
-          {
-            "id": "SC-R8-041",
-            "description": "A Creative Market seller stated: \"Making a sale on Creative Market is one of the least exciting thin"
-          },
-          {
-            "id": "SC-R8-087",
-            "description": "A Creative Market seller reported that commission was progressively lowered from 80% to 70% to 60% t"
-          }
+          {"id": "SC-R1-019", "description": "plataforma global sin métodos de pago locales LATAM documentada"},
+          {"id": "SC-R1-020", "description": "Gumroad no soporta métodos de pago locales de LATAM incluyendo Mercado Pago, PIX, etc."},
+          {"id": "SC-R4-113", "description": "plataforma sin cobertura de pagos locales en LATAM documentada"}
         ],
-        "mechanical_summary": "Sellers en Sitejabber documentan deducciones adicionales por impuestos que reducen el neto efectivo a ~20%, y tendencia histórica de reducción progresiva de comisión.",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Tres cards documentan plataformas globales sin soporte de pagos locales LATAM. SC-R1-020 provee texto verificado sobre Gumroad específicamente. SC-R1-019, SC-R4-113 tienen descripciones genéricas.",
+        "unit_used": "observaciones cualitativas sobre ausencia de métodos de pago locales, plataformas específicas nombradas"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Distribución en el corpus entre plataformas con soporte de pagos locales LATAM y plataformas globales sin esa cobertura en el mismo sistema de distribución de productos digitales.",
+    "no": "Que las plataformas del Polo A sean las que los vendedores del corpus usan para el mercado LATAM. Que la ausencia de pagos locales LATAM afecte igualmente a todos los países de la región."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R1-018, SC-R1-050, SC-R1-054, SC-R1-055, SC-R1-019, SC-R4-113 (descripciones genéricas en el scan; solo SC-R1-020 tiene texto verificado).",
+    "Nombres de las plataformas específicas del Polo A que tienen soporte de pagos locales LATAM.",
+    "Datos de proporción de compradores LATAM en plataformas con y sin soporte local.",
+    "Separación por país dentro de LATAM (Brasil, México, Argentina tienen infraestructuras de pago distintas)."
   ],
   "classification_risk": [
-    "posible contradicción falsa",
-    "posible artefacto de fuente"
+    "posible falta de grounding",
+    "posible sobre-abstracción",
+    "posible agrupación disfrazada de tensión"
   ],
-  "source_patterns": [
-    "CON-009"
-  ],
+  "source_patterns": ["ASY-009"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

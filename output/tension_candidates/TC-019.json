@@ -1,144 +1,61 @@
 {
   "id": "TC-019",
   "status": "pending_review",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre en 3 rounds distintos (43 cards): Amazon KDP AI content flood + erosión de señales de calidad.",
-  "analytical_unit": "DT question: ¿Cómo afecta el volumen de contenido AI-generado en Amazon KDP la capacidad del comprador para identificar contenido de calidad?",
+  "type": "asimetría distributiva",
+  "mechanical_relation": "Las tarjetas se separan en polos según el volumen de oferta de productos digitales en inglés versus en español en los mismos mercados de plataformas globales. El corpus documenta una asimetría: mayor volumen de oferta en inglés que en español en las mismas plataformas (Etsy principalmente). SC-R1-025 y SC-R1-010 aparecen en ambos polos por su relevancia contextual dual.",
+  "analytical_unit": "volumen de oferta de productos digitales en inglés vs. español en plataformas globales, separado de demanda de compradores",
   "signal_ids": [
-    "SC-R1-032",
-    "SC-R10-001",
-    "SC-R10-003",
-    "SC-R10-019",
-    "SC-R10-029",
-    "SC-R10-059",
-    "SC-R10-060",
-    "SC-R10-066",
-    "SC-R10-067",
-    "SC-R10-069",
-    "SC-R10-070",
-    "SC-R10-071",
-    "SC-R10-072",
-    "SC-R10-075",
-    "SC-R10-095",
-    "SC-R10-103",
-    "SC-R10-104",
-    "SC-R10-105",
-    "SC-R10-106",
-    "SC-R10-107",
-    "SC-R10-108",
-    "SC-R10-109",
-    "SC-R10-110",
-    "SC-R10-111",
-    "SC-R10-112",
-    "SC-R10-113",
-    "SC-R10-114",
-    "SC-R10-115",
-    "SC-R10-117",
-    "SC-R10-118"
+    "SC-R1-025",
+    "SC-R1-041",
+    "SC-R1-045",
+    "SC-R1-010",
+    "SC-R1-042",
+    "SC-R1-044"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Polo A — oferta en inglés dominante en plataformas globales",
+        "definition": "Cards que documentan volumen alto de oferta de productos digitales en inglés en plataformas globales",
         "signal_ids": [
-          {
-            "id": "SC-R1-032",
-            "description": "Gerardo Marote (Spain) sold 62 units of his book \"Guía práctica para analizar ideas de negocio\" on A"
-          },
-          {
-            "id": "SC-R10-001",
-            "description": "Amazon KDP offers 70% royalty for ebooks priced $2.99–$9.99 and 35% royalty outside that range."
-          },
-          {
-            "id": "SC-R10-003",
-            "description": "A $14.99 ebook on Amazon KDP earns the author $5.25 (35%), while a $9.99 ebook earns $6.93 (70%)."
-          },
-          {
-            "id": "SC-R10-019",
-            "description": "India Lindsey priced subsequent ebooks at $29.99–$39.99 on Gumroad, described as a \"significant leap"
-          },
-          {
-            "id": "SC-R10-029",
-            "description": "Books at $9.99+ on Amazon KDP remain at 60% paperback/hardcover royalty. Ebooks were not affected by"
-          },
-          {
-            "id": "SC-R10-059",
-            "description": "Between 10,000 and 40,000 e-books per month are released that utilize ChatGPT or other AI platforms,"
-          },
-          {
-            "id": "SC-R10-060",
-            "description": "Amazon limits self-publishers to 3 books per day. The policy was implemented in September 2023 and r"
-          },
-          {
-            "id": "SC-R10-066",
-            "description": "AI ebook creators bypass Amazon's 3-per-day limit by distributing through Smashwords or Draft2Digita"
-          }
+          {"id": "SC-R1-025", "description": "printables y worksheets en español en Etsy: aproximadamente 280,000 listados; en inglés el volumen es sustancialmente mayor"},
+          {"id": "SC-R1-041", "description": "productos digitales en inglés prevalecen en Etsy"},
+          {"id": "SC-R1-045", "description": "planners digitales para iPad/tablets en inglés: categoría número 1 de productos digitales más vendidos en Etsy"},
+          {"id": "SC-R1-010", "description": "brecha de oferta entre idiomas documentada en plataformas globales"}
         ],
-        "mechanical_summary": "co-ocurre en 3 rounds distintos (43 cards): Amazon KDP AI content flood + erosión de señales de calidad.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Cuatro cards documentan dominancia de la oferta en inglés. SC-R1-025 provee dato cuantitativo de oferta en español (280,000 listados) que implica el contraste. SC-R1-045 documenta posición de liderazgo de categoría en inglés. SC-R1-041, SC-R1-010 tienen descripciones genéricas en el scan.",
+        "unit_used": "volumen de listados (conteo), posición de categoría en ranking de plataforma"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Polo B — oferta en español escasa en las mismas plataformas",
+        "definition": "Cards que documentan escasez o ausencia de oferta de productos digitales en español en las mismas plataformas",
         "signal_ids": [
-          {
-            "id": "SC-R10-114",
-            "description": "Jane Friedman discovered fake AI-generated books under her name on Amazon in August 2023. Amazon ini"
-          },
-          {
-            "id": "SC-R10-115",
-            "description": "Jane Friedman discovered fake AI-generated books under her name on Amazon in August 2023."
-          },
-          {
-            "id": "SC-R10-117",
-            "description": "Reported penalties for non-disclosure of AI content on KDP include: book removal without prior warni"
-          },
-          {
-            "id": "SC-R10-118",
-            "description": "Reported penalties for non-disclosure of AI content on KDP include book removal, account suspension,"
-          },
-          {
-            "id": "SC-R10-119",
-            "description": "Reported penalties for non-disclosure of AI content on KDP include: book removal, account suspension"
-          },
-          {
-            "id": "SC-R10-121",
-            "description": "AI-generated translations must be disclosed as AI-generated content on Amazon KDP."
-          },
-          {
-            "id": "SC-R10-123",
-            "description": "Inkfluence AI reports that many authors forget AI-translated books count as AI-generated content on "
-          },
-          {
-            "id": "SC-R10-124",
-            "description": "There is no evidence that marking content as \"AI-generated\" on KDP affects search ranking, category "
-          }
+          {"id": "SC-R1-042", "description": "oferta en español escasa o ausente en plataformas globales documentada"},
+          {"id": "SC-R1-044", "description": "planners digitales para iPad/tablets en español prácticamente inexistentes en Etsy"},
+          {"id": "SC-R1-025", "description": "mismo dato de 280,000 listados en español que señala escasez relativa vs. inglés"},
+          {"id": "SC-R1-010", "description": "brecha de oferta entre idiomas documentada"}
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Cuatro cards documentan escasez de oferta en español. SC-R1-044 provee dato específico de ausencia en categoría de planners digitales. SC-R1-025 y SC-R1-010 aparecen en ambos polos por relevancia contextual dual. SC-R1-042 tiene descripción genérica en el scan.",
+        "unit_used": "observaciones cualitativas sobre escasez de oferta, conteo implícito de listados en español"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Asimetría de oferta en el corpus entre productos digitales en inglés y en español en las mismas plataformas, con la oferta en inglés superando significativamente la oferta en español durante el período documentado.",
+    "no": "Que la asimetría de oferta refleje asimetría equivalente de demanda. Que la escasez de oferta en español no esté cambiando con el tiempo."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R1-041, SC-R1-010, SC-R1-042 (descripciones genéricas en el scan).",
+    "Datos de demanda (búsquedas, ventas) en español vs. inglés en las mismas plataformas.",
+    "Datos de número de vendedores hispanohablantes activos en plataformas globales.",
+    "Separación por categoría de producto para ver si la asimetría varía por tipo."
   ],
   "classification_risk": [
+    "posible falta de grounding",
     "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible mezcla de unidades incompatibles"
   ],
-  "source_patterns": [
-    "COO-006",
-    "FRI-007",
-    "FRI-017",
-    "FRI-031"
-  ],
+  "source_patterns": ["ASY-002"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

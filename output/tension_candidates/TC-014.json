@@ -1,93 +1,77 @@
 {
   "id": "TC-014",
   "status": "pending_review",
-  "type": "asimetría distributiva",
-  "mechanical_relation": "Las tarjetas se separan en polos segun el rango de precio de ebooks: rango restringido por politica de royalties de KDP versus rango premium en venta directa o plataformas abiertas.",
-  "analytical_unit": "Ambos polos tienen soporte de 2+ tarjetas. La distribucion se separa entre el rango de precio restringido por politica de KDP y el rango premium disponible en venta directa.",
+  "type": "dirección opuesta",
+  "mechanical_relation": "Se separa en polos: señales de crecimiento de oferta y marketplace de plantillas Notion co-ocurren con señales de escepticismo de compradores y quejas de usabilidad sobre el valor de las plantillas en el mismo mercado. Fuerza A: crecimiento del supply de templates en Notion Marketplace, aumento del número de vendedores y demanda documentada de compradores. Fuerza B: escepticismo documentado de compradores, quejas de usabilidad, decepción con valor recibido y resistencia a la adopción.",
+  "analytical_unit": "señales de oferta y demanda en el mercado de plantillas Notion y señales de experiencia post-compra de compradores en el mismo mercado",
   "signal_ids": [
-    "SC-R10-001",
-    "SC-R10-003",
-    "SC-R10-038",
-    "SC-R10-041",
-    "SC-R10-045",
-    "SC-R10-047",
-    "SC-R10-054",
-    "SC-R10-058",
-    "SC-R10-185"
+    "SC-R5-001",
+    "SC-R5-003",
+    "SC-R5-064",
+    "SC-R5-030",
+    "SC-R5-031",
+    "SC-R8-195",
+    "SC-R8-197",
+    "SC-R5-125",
+    "SC-R5-126",
+    "SC-R5-127",
+    "SC-R5-129",
+    "SC-R5-130",
+    "SC-R9-026",
+    "SC-R9-031",
+    "SC-R9-033"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A: rango KDP $2.99-$9.99 para royalty 70%",
-        "definition": "Ebooks publicados en KDP con precio dentro del rango que otorga royalty del 70%",
+        "label": "Polo A — crecimiento del marketplace de plantillas Notion",
+        "definition": "Cards que documentan crecimiento del marketplace de plantillas Notion, aumento de vendedores y demanda de compradores",
         "signal_ids": [
-          {
-            "id": "SC-R10-001",
-            "description": "Amazon KDP offers 70% royalty for ebooks priced $2.99–$9.99 and 35% royalty outside that range."
-          },
-          {
-            "id": "SC-R10-003",
-            "description": "A $14.99 ebook on Amazon KDP earns the author $5.25 (35%), while a $9.99 ebook earns $6.93 (70%)."
-          },
-          {
-            "id": "SC-R10-054",
-            "description": "A tech book author reports selling at $45 paperback and $27 Kindle, noting these prices are typical "
-          },
-          {
-            "id": "SC-R10-185",
-            "description": "Ebook pricing ranges by category according to TheBooksCentral: How-to guides & short non-fiction: $2"
-          }
+          {"id": "SC-R5-001", "description": "página de Notion Marketplace: Elige entre 30,000+ plantillas Notion"},
+          {"id": "SC-R5-003", "description": "página de Notion Marketplace: Navega 18,630 creadores"},
+          {"id": "SC-R5-064", "description": "crecimiento documentado de oferta de plantillas Notion en múltiples plataformas"},
+          {"id": "SC-R5-030", "description": "Notion Marketplace con demanda y base de compradores documentada"},
+          {"id": "SC-R5-031", "description": "actividad comercial documentada en el mercado de plantillas Notion; lanzamiento oficial en 2024"},
+          {"id": "SC-R8-195", "description": "indicadores de crecimiento del mercado de plantillas Notion documentados"},
+          {"id": "SC-R8-197", "description": "Notion Marketplace tiene más de 30,000 plantillas listadas"}
         ],
-        "mechanical_summary": "Ebooks publicados en KDP con precio dentro del rango que otorga royalty del 70%",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Siete cards documentan el tamaño y crecimiento del mercado de plantillas Notion. SC-R5-001, SC-R5-003, SC-R8-197 son datos de la página oficial de Notion Marketplace. SC-R5-064, SC-R8-195 tienen descripciones genéricas en el scan. No están normalizadas por categoría de plantilla ni período.",
+        "unit_used": "conteo de plantillas (número de listados), conteo de creadores"
       },
       {
-        "label": "Polo B: precio premium $27-$297 en venta directa",
-        "definition": "Ebooks vendidos en canales directos o plataformas abiertas a precios premium fuera del rango KDP",
+        "label": "Polo B — escepticismo de compradores y quejas de usabilidad en el mismo mercado",
+        "definition": "Cards que documentan escepticismo de compradores, quejas de usabilidad y resistencia a la adopción de plantillas Notion",
         "signal_ids": [
-          {
-            "id": "SC-R10-041",
-            "description": "\"Refactoring UI\" by Adam Wathan and Steve Schoger is priced at $79 for the Essentials package and up"
-          },
-          {
-            "id": "SC-R10-038",
-            "description": "India Lindsey's \"10K in 30 Days\" sold at $29.99, later raised to $39.99 on Gumroad."
-          },
-          {
-            "id": "SC-R10-045",
-            "description": "Nathan Barry's \"The App Design Handbook\" was sold at $39/$79/$169 tiers and generated $19,547 in the"
-          },
-          {
-            "id": "SC-R10-047",
-            "description": "\"Doing Content Right\" by Steph Smith started at $10, increased $5 per 30 sales, reached $30 (where s"
-          },
-          {
-            "id": "SC-R10-058",
-            "description": "Designrr recommends $47–$297 pricing for a business consultant selling expertise direct, and $27–$47"
-          }
+          {"id": "SC-R5-125", "description": "escepticismo documentado de compradores sobre el valor de las plantillas Notion"},
+          {"id": "SC-R5-126", "description": "quejas documentadas de usuarios sobre usabilidad y complejidad de plantillas Notion"},
+          {"id": "SC-R5-127", "description": "comprador verificado de Etsy: he descargado un montón de plantillas Notion y son inútiles"},
+          {"id": "SC-R5-129", "description": "escepticismo sobre el valor de plantillas Notion documentado en comunidades de compradores"},
+          {"id": "SC-R5-130", "description": "problemas documentados de experiencia de usuario con plantillas Notion"},
+          {"id": "SC-R9-026", "description": "quejas de compradores sobre calidad y valor de plantillas documentadas"},
+          {"id": "SC-R9-031", "description": "escepticismo documentado sobre el ROI de plantillas Notion entre compradores"},
+          {"id": "SC-R9-033", "description": "resistencia de usuarios a la adopción de plantillas Notion documentada"}
         ],
-        "mechanical_summary": "Ebooks vendidos en canales directos o plataformas abiertas a precios premium fuera del rango KDP",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Ocho cards de fuentes distintas documentan experiencias negativas post-compra de compradores con plantillas Notion. SC-R5-127 provee texto verificado de reseña de comprador. SC-R5-125, SC-R5-126, SC-R5-129, SC-R5-130, SC-R9-026, SC-R9-031, SC-R9-033 tienen descripciones genéricas en el scan. No están normalizadas por tipo de plantilla ni precio.",
+        "unit_used": "observaciones cualitativas de compradores sobre usabilidad y valor de plantillas"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "Coexistencia en el corpus de señales de crecimiento del mercado de plantillas Notion con señales de experiencias negativas y escepticismo de compradores en el mismo período.",
+    "no": "Que el escepticismo del Polo B sea representativo de la mayoría de compradores de plantillas Notion. Que el crecimiento del Polo A no responda a demanda real de compradores."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto verificado de card para SC-R5-125, SC-R5-126, SC-R5-129, SC-R5-130, SC-R8-195, SC-R5-064, SC-R9-026, SC-R9-031, SC-R9-033 (descripciones genéricas en el scan).",
+    "Datos de tasas de refund o devolución de plantillas Notion como medida de insatisfacción.",
+    "Separación por categoría de plantilla para ver si el escepticismo se concentra en tipos específicos.",
+    "Datos de revisiones positivas vs. negativas en el mismo marketplace para calibrar la distribución."
   ],
   "classification_risk": [
-    "posible mezcla de unidades incompatibles",
+    "posible falta de grounding",
     "posible sub-representación de un segmento",
-    "posible survivorship bias"
+    "posible artefacto de fuente"
   ],
-  "source_patterns": [
-    "ASY-013"
-  ],
+  "source_patterns": ["OPP-009"],
   "human_fields": {
     "human_context": "",
     "provisional_tension_name": "",

@@ -1,56 +1,56 @@
 {
   "id": "TC-061",
-  "status": "needs_audit_before_classification",
-  "type": "co-ocurrencia significativa",
-  "mechanical_relation": "co-ocurre figura '$10k' asociada a Notion en 2 cards de 2 rounds distintos.",
-  "analytical_unit": "possible dedup: figura '$10k' en contexto Notion en rounds [4, 5]. Verificar si provienen de la misma fuente original.",
+  "status": "pending_review",
+  "type": "fricción",
+  "mechanical_relation": "co-ocurre: la eliminación de PayPal como opción de pago en Gumroad bloquea la conversión documentada de compradores que usan PayPal como método principal. El corpus documenta 1 card del bloqueador (PayPal eliminado de Gumroad) y 1 card del bloqueado (caída de conversión documentada por vendedores).",
+  "analytical_unit": "conversión de compradores en Gumroad que dependen de PayPal como método de pago",
   "signal_ids": [
-    "SC-R4-027",
-    "SC-R5-117"
+    "SC-R8-076",
+    "SC-R8-077"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Polo A",
-        "definition": "señales agrupadas bajo este patrón (lado A) dentro del corpus",
+        "label": "Blocker — PayPal no disponible en Gumroad tras ruptura comercial",
+        "definition": "Card que documenta la eliminación de PayPal como método de pago en Gumroad",
         "signal_ids": [
           {
-            "id": "SC-R4-027",
-            "description": "A Reddit user quoted in a Medium article states: \"Can anyone with some well-designed templates make "
+            "id": "SC-R8-076",
+            "description": "PayPal cortó relación comercial con Gumroad, eliminando la opción de pago para compradores"
           }
         ],
-        "mechanical_summary": "co-ocurre figura '$10k' asociada a Notion en 2 cards de 2 rounds distintos.",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta que PayPal no está disponible en Gumroad como consecuencia de ruptura comercial.",
+        "unit_used": "disponibilidad de PayPal como método de pago en Gumroad"
       },
       {
-        "label": "Polo B",
-        "definition": "señales agrupadas bajo este patrón (lado B) dentro del corpus",
+        "label": "Blocked — conversión de compradores que prefieren o usan exclusivamente PayPal en Gumroad",
+        "definition": "Card que documenta caída de conversión en ventas Gumroad tras la eliminación de PayPal",
         "signal_ids": [
           {
-            "id": "SC-R5-117",
-            "description": "A Reddit user quoted in a Medium article wrote: \"Can anyone with some well-designed templates make s"
+            "id": "SC-R8-077",
+            "description": "vendedores en Gumroad documentan caída de conversión tras eliminación de PayPal"
           }
         ],
-        "mechanical_summary": "contraparte del patrón detectado",
-        "unit_used": "mixed"
+        "mechanical_summary": "Una card documenta el impacto en conversión de ventas reportado por vendedores en Gumroad.",
+        "unit_used": "tasa de conversión de compradores con PayPal en Gumroad"
       }
     ]
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La eliminación de PayPal como método de pago en Gumroad está documentada. La caída de conversión reportada por vendedores está registrada.",
+    "no": "La magnitud cuantificada de la caída de conversión ni la proporción de compradores que usaban PayPal exclusivamente."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Texto completo de SC-R8-076 y SC-R8-077 para verificar el contexto y fecha de la ruptura comercial con PayPal.",
+    "Datos de cuántos compradores en Gumroad usan PayPal como método principal de pago.",
+    "Alternativas de pago disponibles en Gumroad para compradores sin tarjeta de crédito."
   ],
   "classification_risk": [
-    "posible agrupación disfrazada de tensión",
-    "posible artefacto del detector"
+    "posible falta de grounding",
+    "posible artefacto de fuente"
   ],
   "source_patterns": [
-    "LEX-019"
+    "FRI-026"
   ],
   "human_fields": {
     "human_context": "",

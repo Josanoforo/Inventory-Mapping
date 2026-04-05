@@ -1,56 +1,102 @@
 {
   "id": "TC-039",
-  "status": "needs_audit_before_classification",
+  "status": "pending_review",
   "type": "fricción",
-  "mechanical_relation": "co-ocurre: el tope de ingresos de 200 000 USD en el plan mas alto de Sellfy bloquea el crecimiento de vendedores documentados con volumenes superiores.",
-  "analytical_unit": "Bloqueador documentado: tope de 200k USD en plan Premium de Sellfy (SC-R8-048, SC-R8-052). Bloqueado implicado: crecimiento de vendedores con ingresos superiores al tope. Mecanismo documentado con soporte de 2 tarjetas, pero no hay tarjetas de vendedores que superen ese umbral; se enruta a needs_audit.",
+  "mechanical_relation": "co-ocurre: la política de Canva sobre templates prohíbe la reventa de templates no originales y restringe el uso de Pro Content, bloqueando modelos de negocio de PLR/MRR con templates Canva documentados en el corpus. El corpus documenta 6 cards del bloqueador (política de originalidad Canva) y 146 cards del bloqueado (mercado de templates Canva documentado con modelos PLR/MRR).",
+  "analytical_unit": "compatibilidad de modelos de negocio PLR/MRR con la política de templates de Canva",
   "signal_ids": [
-    "SC-R8-048",
-    "SC-R8-052"
+    "SC-R6-117",
+    "SC-R6-160",
+    "SC-R6-161",
+    "SC-R6-163",
+    "SC-R6-167",
+    "SC-R6-174",
+    "SC-R1-003",
+    "SC-R3-011",
+    "SC-R4-137",
+    "SC-R4-138"
   ],
   "structured_support": {
     "poles": [
       {
-        "label": "Blocker",
-        "definition": "Sellfy impone tope de 200 000 USD anuales en su plan premium",
+        "label": "Blocker — política de originalidad de Canva que prohíbe reventa de templates no originales",
+        "definition": "Cards que documentan las restricciones de la política de Canva sobre uso de templates existentes para reventa",
         "signal_ids": [
           {
-            "id": "SC-R8-052",
-            "description": "A Capterra user reported that Sellfy caps revenue at $200K at the highest plan, unlike most e-commer"
+            "id": "SC-R6-117",
+            "description": "Canva requiere que los templates vendidos sean originales y no versiones modificadas de templates existentes de Canva"
+          },
+          {
+            "id": "SC-R6-161",
+            "description": "política de templates de Canva: los templates deben ser diseño original del vendedor"
+          },
+          {
+            "id": "SC-R6-163",
+            "description": "Canva prohíbe usar Free o Pro Content para diseñar y vender stock content (clipart, etc.)"
+          },
+          {
+            "id": "SC-R6-167",
+            "description": "Canva Blog: 'Existing templates on Canva cannot be resold as-is.' / 'If you want to...'"
+          },
+          {
+            "id": "SC-R6-174",
+            "description": "Sprintlaw UK (legal interpretation): 'You cannot extract Canva content and sell it as if it were your own'"
           }
         ],
-        "mechanical_summary": "Sellfy impone tope de 200 000 USD anuales en su plan premium",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cinco cards documentan la restricción de pol��tica de Canva sobre reventa de templates. SC-R6-167 y SC-R6-174 proveen texto verificado de la política oficial y su interpretación legal. El bloqueador es la política de originalidad que invalida los modelos PLR donde el vendedor revende templates existentes de Canva.",
+        "unit_used": "documentación de política oficial de Canva y análisis legal"
       },
       {
-        "label": "Blocked",
-        "definition": "Escalado de vendedores con ingresos superiores al tope del plan",
+        "label": "Blocked — modelos de negocio PLR/MRR con templates Canva documentados en el corpus",
+        "definition": "Cards que documentan vendors usando modelos PLR/MRR con templates Canva que pueden violar la política de originalidad",
         "signal_ids": [
           {
-            "id": "SC-R8-052",
-            "description": "A Capterra user reported that Sellfy caps revenue at $200K at the highest plan, unlike most e-commer"
+            "id": "SC-R1-003",
+            "description": "Hotmart marketplace incluye packs de 20-40 templates Canva editables con derechos PLR/MRR"
+          },
+          {
+            "id": "SC-R3-011",
+            "description": "bundles de templates con Private Label Rights o Master Resell Rights existen en Etsy"
+          },
+          {
+            "id": "SC-R4-137",
+            "description": "seller reporta haber dejado de vender templates Canva en parte por problemas de política"
+          },
+          {
+            "id": "SC-R4-138",
+            "description": "el mismo seller migró a Notion templates, citando las restricciones de Canva como factor"
           }
         ],
-        "mechanical_summary": "Escalado de vendedores con ingresos superiores al tope del plan",
-        "unit_used": "mixed (ver classification_risk)"
+        "mechanical_summary": "Cuatro cards documentan la existencia de modelos PLR/MRR con templates Canva en el corpus (Hotmart, Etsy), evidenciando que el mercado opera con modelos que pueden entrar en conflicto con la política de originalidad documentada en el bloqueador.",
+        "unit_used": "documentación de productos PLR/MRR con templates Canva en marketplace"
       }
-    ]
+    ],
+    "additional_context": {
+      "signal_ids": [
+        {
+          "id": "SC-R6-160",
+          "description": "Canva Help Center states: \"If you want to create a product you can sell, it needs to be an original design.\" / \"You"
+        }
+      ],
+      "note": "Cards que proveen contexto adicional al patrón"
+    }
   },
   "what_it_supports": {
-    "yes": "Coexistencia de los patrones documentados en las cards referenciadas.",
-    "no": "Una explicación causal de por qué ocurre este patrón. Que el patrón se extienda más allá de lo observado en el corpus."
+    "yes": "La política de originalidad de Canva está documentada en fuentes verificadas (política oficial, análisis legal). El corpus documenta la existencia de modelos PLR/MRR con templates Canva que la política prohíbe implícitamente. La fricción entre política y práctica de mercado es documentable.",
+    "no": "Que todos los vendedores PLR/MRR del corpus infrinjan la política (pueden estar vendiendo templates con diseño original propio que cumplen la política). Que Canva aplique la política activamente contra todos los infractores documentados."
   },
   "what_is_missing": [
-    "Normalización por unidad temporal y monetaria entre las cards.",
-    "Separación por plataforma, tipo de producto y geografía.",
-    "Verificación de si este patrón persiste con datos más recientes."
+    "Casos documentados de Canva tomando acción contra vendors específicos por violación de política de originalidad.",
+    "Clarificación de qué constituye 'diseño original suficiente' en la política de Canva.",
+    "Separación entre PLR de templates originales (posiblemente permitido) y PLR de templates Canva existentes (prohibido).",
+    "Dato de qué proporción de los 805,000+ templates en Creative Market o los 5,000+ en Etsy usan modelos PLR/MRR."
   ],
   "classification_risk": [
-    "posible artefacto de fuente",
-    "posible sobre-abstracción"
+    "posible sobre-abstracción",
+    "posible agrupación disfrazada de tensión"
   ],
   "source_patterns": [
-    "FRI-020"
+    "FRI-004"
   ],
   "human_fields": {
     "human_context": "",
