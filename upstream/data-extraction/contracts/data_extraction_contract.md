@@ -147,15 +147,21 @@ ID único de la fuente de origen.
 Valores sugeridos:
 - platform_doc
 - help_center
+- pricing_page
+- policy_page
 - blog
 - article
+- report
+- news
 - reddit
 - seller_forum
 - buyer_review
-- marketplace_listing
+- product_listing
 - interview
-- pricing_page
-- policy_page
+- video_transcript
+- pdf
+- database_profile
+- search_results_page
 - unknown
 
 ### `source_ref`
@@ -260,6 +266,10 @@ Valores:
 - official_policy
 - comparative_commentary
 - derived_calculation
+- seller_self_claim
+- reported_event
+- database_fact
+- observed_platform_state
 - unknown
 
 Esto ayuda a no tratar todo como soporte directo.

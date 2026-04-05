@@ -144,13 +144,17 @@ Valores sugeridos:
 - policy_page
 - blog
 - article
+- report
+- news
 - reddit
 - seller_forum
 - buyer_review
-- marketplace_listing
+- product_listing
 - interview
 - video_transcript
 - pdf
+- database_profile
+- search_results_page
 - unknown
 
 ### `source_ref`
