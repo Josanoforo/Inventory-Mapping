@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/signal_card.schema.json",
+  "title": "Signal Card",
+  "description": "Canonical schema for one Signal Card produced by Signal Extraction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "signal_id",
+    "source_record_ids",
+    "source_ids",
+    "round",
+    "signal_text",
+    "signal_type",
+    "subject_exact",
+    "actor_level",
+    "platforms",
+    "product_type_if_explicit",
+    "metric_type",
+    "metric_value_raw",
+    "metric_unit",
+    "time_scope_raw",
+    "time_scope_normalized_if_safe",
+    "geography_if_explicit",
+    "evidence_role",
+    "local_qualifiers",
+    "uncertainties",
+    "traceability_pointers",
+    "normalization_notes",
+    "extraction_notes"
+  ],
+  "properties": {
+    "signal_id": {
+      "type": "string",
+      "pattern": "^SC-R\\d+-\\d+$",
+      "description": "Canonical Signal Card ID"
+    },
+    "source_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Extraction Record IDs used to construct this signal"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Underlying source IDs"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Research or extraction round number"
+    },
+    "signal_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Observationally worded signal text"
+    },
+    "signal_type": {
+      "type": "string",
+      "enum": [
+        "policy_signal",
+        "pricing_signal",
+        "availability_signal",
+        "seller_outcome_signal",
+        "buyer_experience_signal",
+        "discoverability_signal",
+        "traffic_signal",
+        "requirement_signal",
+        "review_signal",
+        "refund_signal",
+        "comparative_local_signal",
+        "unknown"
+      ]
+    },
+    "subject_exact": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Precise local subject preserved from extraction"
+    },
+    "actor_level": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "buyer",
+            "seller",
+            "product",
+            "marketplace",
+            "source",
+            "mixed",
+            "unknown"
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "buyer",
+              "seller",
+              "product",
+              "marketplace",
+              "source",
+              "mixed",
+              "unknown"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Explicit platforms named in the signal"
+    },
+    "product_type_if_explicit": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "notion_template",
+            "ebook",
+            "digital_planner",
+            "prompt",
+            "spreadsheet",
+            "csv_database",
+            "pattern",
+            "design_asset",
+            "stock_photo",
+            "software",
+            "bundle",
+            "unknown"
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "notion_template",
+              "ebook",
+              "digital_planner",
+              "prompt",
+              "spreadsheet",
+              "csv_database",
+              "pattern",
+              "design_asset",
+              "stock_photo",
+              "software",
+              "bundle",
+              "unknown"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "metric_type": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "revenue",
+            "profit",
+            "payout",
+            "fee_rate",
+            "traffic_volume",
+            "active_buyers",
+            "monthly_visitors",
+            "search_discovery",
+            "sales_count",
+            "first_sale",
+            "review_requirement",
+            "activation_requirement",
+            "payment_method_availability",
+            "payout_method_availability",
+            "discoverability_claim",
+            "conversion_rate",
+            "refund_policy",
+            "review_count",
+            "price",
+            "time_to_first_sale",
+            "unknown"
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "revenue",
+              "profit",
+              "payout",
+              "fee_rate",
+              "traffic_volume",
+              "active_buyers",
+              "monthly_visitors",
+              "search_discovery",
+              "sales_count",
+              "first_sale",
+              "review_requirement",
+              "activation_requirement",
+              "payment_method_availability",
+              "payout_method_availability",
+              "discoverability_claim",
+              "conversion_rate",
+              "refund_policy",
+              "review_count",
+              "price",
+              "time_to_first_sale",
+              "unknown"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "metric_value_raw": {
+      "type": ["string", "number", "null"],
+      "description": "Raw metric value as preserved from extraction"
+    },
+    "metric_unit": {
+      "type": ["string", "null"],
+      "description": "Raw or minimally normalized metric unit"
+    },
+    "time_scope_raw": {
+      "type": ["string", "null"],
+      "description": "Original temporal wording if present"
+    },
+    "time_scope_normalized_if_safe": {
+      "type": ["string", "null"],
+      "description": "Normalized time scope only if safely derivable"
+    },
+    "geography_if_explicit": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "evidence_role": {
+      "type": "string",
+      "enum": [
+        "direct_claim",
+        "local_context",
+        "downstream_consequence",
+        "anecdotal_example",
+        "official_policy",
+        "comparative_commentary",
+        "derived_calculation",
+        "unknown"
+      ]
+    },
+    "local_qualifiers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Local limiting qualifiers preserved in the signal"
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "subject_ambiguity",
+          "actor_level_unclear",
+          "time_scope_unclear",
+          "source_date_unclear",
+          "metric_unit_unclear",
+          "context_insufficient",
+          "checkout_vs_payout_ambiguity",
+          "net_vs_gross_ambiguity",
+          "current_vs_historical_ambiguity",
+          "platform_scope_unclear",
+          "product_type_unclear",
+          "geography_unclear",
+          "none"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "traceability_pointers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/traceabilityPointer"
+      },
+      "description": "Pointers back to source and extraction records"
+    },
+    "normalization_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Notes on minimal normalization applied in Signal Extraction"
+    },
+    "extraction_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Carryover or local notes from extraction, never strategic interpretation"
+    }
+  },
+  "$defs": {
+    "traceabilityPointer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pointer_type",
+        "pointer_value"
+      ],
+      "properties": {
+        "pointer_type": {
+          "type": "string",
+          "enum": [
+            "url",
+            "file_path",
+            "document_section",
+            "line_range",
+            "page_reference",
+            "anchor",
+            "internal_ref",
+            "source_record_ref"
+          ]
+        },
+        "pointer_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "secondary_pointer": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

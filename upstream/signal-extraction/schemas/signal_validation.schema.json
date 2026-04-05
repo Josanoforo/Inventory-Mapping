@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/signal_validation.schema.json",
+  "title": "Signal Validation Result",
+  "description": "Validation result for one Signal Card produced by Signal Extraction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "validation_id",
+    "signal_id",
+    "validator_version",
+    "validation_status",
+    "checks",
+    "failures",
+    "notes",
+    "validated_at"
+  ],
+  "properties": {
+    "validation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "signal_id": {
+      "type": "string",
+      "pattern": "^SC-R\\d+-\\d+$"
+    },
+    "validator_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_flags",
+        "rework",
+        "reject"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observational_wording",
+        "subject_exact",
+        "actor_level",
+        "time_scope",
+        "qualifiers",
+        "evidence_role",
+        "single_claim_discreteness",
+        "no_cross_source_meta_observation",
+        "traceability",
+        "no_tension_smuggling"
+      ],
+      "properties": {
+        "observational_wording": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "subject_exact": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "actor_level": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "time_scope": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "qualifiers": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "evidence_role": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "single_claim_discreteness": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "no_cross_source_meta_observation": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "traceability": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "no_tension_smuggling": {
+          "$ref": "#/$defs/checkResult"
+        }
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "signal_not_observational",
+          "downstream_interpretation_smuggled",
+          "subject_exact_lost",
+          "actor_level_collapsed",
+          "platform_vs_seller_level_collapsed",
+          "time_scope_dropped",
+          "normalized_time_unsafe",
+          "current_vs_historical_ambiguity",
+          "qualifier_dropped",
+          "context_promoted_to_signal",
+          "evidence_role_unclear",
+          "multiple_records_fused_unsafely",
+          "local_claim_boundary_broken",
+          "insufficient_discreteness",
+          "cross_source_meta_observation",
+          "traceability_weakened",
+          "checkout_vs_payout_collapsed",
+          "net_vs_gross_collapsed"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rework_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validated_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "flag",
+            "fail",
+            "not_applicable"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

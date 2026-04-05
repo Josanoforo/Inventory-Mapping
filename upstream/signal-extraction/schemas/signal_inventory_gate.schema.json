@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/signal_inventory_gate.schema.json",
+  "title": "Signal to Inventory Gate Result",
+  "description": "Entry-gate routing result for one Signal Card moving from Signal Extraction to Inventory Mapping.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "gate_id",
+    "signal_id",
+    "gate_version",
+    "validation_status",
+    "entry_gate_decision",
+    "checks",
+    "failure_reasons",
+    "notes",
+    "gated_at"
+  ],
+  "properties": {
+    "gate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "signal_id": {
+      "type": "string",
+      "pattern": "^SC-R\\d+-\\d+$"
+    },
+    "gate_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_flags",
+        "rework",
+        "reject"
+      ],
+      "description": "Signal validation status inherited from Signal Extraction Validator"
+    },
+    "entry_gate_decision": {
+      "type": "string",
+      "enum": [
+        "pass_to_inventory_mapping",
+        "preserve_as_isolated_signal",
+        "return_to_signal_rework",
+        "reject_from_inventory_input"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "validation_status_check",
+        "discreteness_check",
+        "observational_boundary_check",
+        "subject_exactness_check",
+        "actor_level_check",
+        "time_and_qualifier_check",
+        "cross_source_contamination_check",
+        "pattern_readiness_check"
+      ],
+      "properties": {
+        "validation_status_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "discreteness_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "observational_boundary_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "subject_exactness_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "actor_level_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "time_and_qualifier_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "cross_source_contamination_check": {
+          "$ref": "#/$defs/checkResult"
+        },
+        "pattern_readiness_check": {
+          "$ref": "#/$defs/checkResult"
+        }
+      }
+    },
+    "failure_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "validation_not_passed",
+          "signal_not_observational",
+          "subject_exact_too_broad",
+          "actor_level_not_safe",
+          "time_scope_not_safe",
+          "qualifier_loss_material",
+          "cross_source_meta_observation",
+          "multiple_claims_fused",
+          "pattern_language_smuggled",
+          "too_weak_for_inventory",
+          "traceability_not_safe",
+          "not_pattern_ready",
+          "isolated_but_valid",
+          "recoverable_signal_structure_problem"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rework_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "isolated_signal_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "rare_but_valid_observation",
+        "too_sparse_for_pattern_detection",
+        "edge_case_worth_preserving",
+        "time_weakness_blocks_grouping",
+        "qualifier_heavy_signal",
+        null
+      ]
+    },
+    "gated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gated_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "flag",
+            "fail",
+            "not_applicable"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

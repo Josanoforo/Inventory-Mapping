@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/source_packet.schema.json",
+  "title": "Source Packet",
+  "description": "Canonical schema for one source-local packet produced by Source Intake.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_id",
+    "source_id",
+    "source_title",
+    "source_type",
+    "source_ref",
+    "source_date_if_available",
+    "author_or_actor_if_available",
+    "retrieval_method",
+    "retrieved_from",
+    "raw_search_context",
+    "snippets",
+    "possible_subjects",
+    "possible_actor_levels",
+    "possible_metric_types",
+    "possible_time_scopes",
+    "possible_geographies",
+    "uncertainties",
+    "priority_for_source_first",
+    "intake_notes",
+    "traceability_status"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique ID for the Source Packet"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable unique source identifier"
+    },
+    "source_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "platform_doc",
+        "help_center",
+        "pricing_page",
+        "policy_page",
+        "blog",
+        "article",
+        "reddit",
+        "seller_forum",
+        "buyer_review",
+        "marketplace_listing",
+        "interview",
+        "video_transcript",
+        "pdf",
+        "unknown"
+      ]
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "URL, file path, document ref, or other stable reference"
+    },
+    "source_date_if_available": {
+      "type": ["string", "null"],
+      "description": "Original visible date if available"
+    },
+    "author_or_actor_if_available": {
+      "type": ["string", "null"],
+      "description": "Author, seller handle, reviewer, platform, or speaker if available"
+    },
+    "retrieval_method": {
+      "type": "string",
+      "enum": [
+        "deep_search",
+        "manual_search",
+        "follow_up_query",
+        "reopened_source",
+        "imported_reference",
+        "unknown"
+      ]
+    },
+    "retrieved_from": {
+      "type": ["string", "null"],
+      "description": "Batch, run, or parent research context where this source was found"
+    },
+    "raw_search_context": {
+      "type": ["string", "null"],
+      "description": "Minimal search-discovery context preserved for auditability"
+    },
+    "snippets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sourceSnippet"
+      },
+      "description": "Relevant local snippets from the same source only"
+    },
+    "possible_subjects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Tentative local subjects for Data Extraction. Not canonical truth."
+    },
+    "possible_actor_levels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "buyer",
+          "seller",
+          "product",
+          "marketplace",
+          "source",
+          "mixed",
+          "unknown"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "possible_metric_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "revenue",
+          "profit",
+          "payout",
+          "fee_rate",
+          "traffic_volume",
+          "active_buyers",
+          "monthly_visitors",
+          "search_discovery",
+          "sales_count",
+          "first_sale",
+          "review_requirement",
+          "activation_requirement",
+          "payment_method_availability",
+          "payout_method_availability",
+          "discoverability_claim",
+          "conversion_rate",
+          "refund_policy",
+          "review_count",
+          "price",
+          "time_to_first_sale",
+          "unknown"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "possible_time_scopes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Tentative temporal scopes visible in the source"
+    },
+    "possible_geographies": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "source_date_unclear",
+          "source_type_unclear",
+          "context_insufficient",
+          "snippet_needs_reopen",
+          "checkout_vs_payout_ambiguity",
+          "net_vs_gross_ambiguity",
+          "current_vs_historical_ambiguity",
+          "subject_ambiguity",
+          "actor_level_unclear",
+          "metric_type_unclear",
+          "time_scope_unclear",
+          "geography_unclear",
+          "none"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "priority_for_source_first": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "intake_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Operational notes only. Never cross-source interpretation."
+    },
+    "traceability_status": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "partial",
+        "weak"
+      ]
+    }
+  },
+  "$defs": {
+    "sourceSnippet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snippet_id",
+        "snippet_text",
+        "context_before",
+        "context_after",
+        "location_pointer"
+      ],
+      "properties": {
+        "snippet_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "snippet_text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relevant local snippet from the source"
+        },
+        "context_before": {
+          "type": ["string", "null"],
+          "description": "Minimal context before the snippet"
+        },
+        "context_after": {
+          "type": ["string", "null"],
+          "description": "Minimal context after the snippet"
+        },
+        "location_pointer": {
+          "$ref": "#/$defs/locationPointer"
+        }
+      }
+    },
+    "locationPointer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pointer_type",
+        "pointer_value"
+      ],
+      "properties": {
+        "pointer_type": {
+          "type": "string",
+          "enum": [
+            "url",
+            "file_path",
+            "document_section",
+            "line_range",
+            "page_reference",
+            "anchor",
+            "internal_ref"
+          ]
+        },
+        "pointer_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "secondary_pointer": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

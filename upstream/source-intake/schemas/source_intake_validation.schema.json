@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/source_intake_validation.schema.json",
+  "title": "Source Intake Validation Result",
+  "description": "Validation result for one Source Packet.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "validation_id",
+    "packet_id",
+    "validator_version",
+    "validation_status",
+    "checks",
+    "failures",
+    "notes",
+    "validated_at"
+  ],
+  "properties": {
+    "validation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "packet_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validator_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_flags",
+        "rework",
+        "parking_lot",
+        "reject"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "single_source_boundary",
+        "source_metadata",
+        "traceability",
+        "local_snippets_present",
+        "snippet_context_sufficient",
+        "no_cross_source_summary",
+        "possible_fields_non_interpretive",
+        "uncertainties_preserved",
+        "priority_assignment_reasonable"
+      ],
+      "properties": {
+        "single_source_boundary": { "$ref": "#/$defs/checkResult" },
+        "source_metadata": { "$ref": "#/$defs/checkResult" },
+        "traceability": { "$ref": "#/$defs/checkResult" },
+        "local_snippets_present": { "$ref": "#/$defs/checkResult" },
+        "snippet_context_sufficient": { "$ref": "#/$defs/checkResult" },
+        "no_cross_source_summary": { "$ref": "#/$defs/checkResult" },
+        "possible_fields_non_interpretive": { "$ref": "#/$defs/checkResult" },
+        "uncertainties_preserved": { "$ref": "#/$defs/checkResult" },
+        "priority_assignment_reasonable": { "$ref": "#/$defs/checkResult" }
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "multiple_sources_fused",
+          "no_local_snippets",
+          "traceability_weak",
+          "cross_source_summary_carried_over",
+          "source_metadata_missing",
+          "snippet_context_missing",
+          "possible_subject_overinterpreted",
+          "possible_metric_overinterpreted",
+          "uncertainty_hidden",
+          "location_pointer_missing",
+          "packet_too_cooked_for_extraction",
+          "source_ref_missing",
+          "source_type_unclear"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rework_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validated_by": {
+      "type": ["string", "null"]
+    }
+  },
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "flag",
+            "fail",
+            "not_applicable"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
