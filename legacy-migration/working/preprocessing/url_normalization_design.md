@@ -57,16 +57,19 @@ Running the transform twice over the same `card_index.jsonl` produces identical 
 
 ---
 
-## Estimated coverage (from pilot analysis)
+## Exact corpus coverage
 
-| Pattern | Count |
-|---|---|
-| Domain + path (strict, `https_prepend`) | ~175 cards |
-| Already has `https://` | ~1,101 cards |
-| Bare domain name only (no URL constructed) | ~124 cards |
-| No identifiable URL | ~161 cards |
+Computed 2026-04-05 against full `card_index.jsonl` (1,561 cards) using the exact rules above.
 
-*Counts are estimates from pilot sampling. Exact counts produced at execution time.*
+| Pattern | Count | Notes |
+|---|---|---|
+| `https_already_present` | 1,101 | Source contains `https?://`; no normalization applied |
+| `https_prepend` | 232 | Domain + at least one path segment, no protocol — `https://` prepended |
+| `domain_name_only` | 27 | Bare domain (e.g., `Marketsy.ai`, `LaRepublica.es`); no URL constructed per Rule 3 |
+| `url_not_identified` | 201 | Free text, methodology notes, or absence findings; no URL pattern found |
+| **Total** | **1,561** | |
+
+**Note on the 299 figure:** an earlier exploratory count using a looser regex (path optional) reported 299 candidates. That run collapsed `https_prepend` and `domain_name_only` into a single bucket. The figures here use the rules as defined above, which treat bare domain names separately and produce no URL for them. 232 is the authoritative count for cards where `https://` will actually be prepended.
 
 ---
 
