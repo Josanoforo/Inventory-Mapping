@@ -110,6 +110,29 @@ Does this packet represent exactly one source?
 #### Typical failure codes
 - `multiple_sources_fused`
 
+#### Edge case: voice_container_mismatch
+
+A page that is directly fetchable may carry claims attributed to a speaker who is not the container's own voice — for example, a blog post paraphrasing a Reddit user's experience without linking to that user's original post.
+
+This is an edge case of the single-source boundary check. The container is one source, but the attributed claim belongs to a different speaker whose words are not actually in the snippet.
+
+**Routing — two paths:**
+
+**Path 1: `pass_with_flags`**
+
+Use when the packet can be reclassified so that the claim is attributed to the container author reporting about the external speaker, rather than attributed to the external speaker directly. The packet continues downstream. Data Extraction must then assign `evidence_role: reported_event` rather than `direct_claim`. This preserves the signal as weaker-than-direct evidence without discarding it.
+
+Example: a blog post says "Reddit user u/foo reported that X" with a link to u/foo's post. The packet is reclassifiable — the container is reporting on the external speaker.
+
+**Path 2: `reject`**
+
+Use when the paraphrase is so weak that it cannot support even a `reported_event` classification. The criterion: the packet cannot anchor any verifiable claim about any specific speaker, even as a reported event.
+
+Example: a blog post says "some sellers on Reddit complain that X" with no link and no named speaker. No verifiable claim can be anchored.
+
+#### Typical failure codes
+- `voice_container_mismatch`
+
 ---
 
 ### 2. Source metadata

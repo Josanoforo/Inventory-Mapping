@@ -81,7 +81,8 @@
           "location_pointer_missing",
           "packet_too_cooked_for_extraction",
           "source_ref_missing",
-          "source_type_unclear"
+          "source_type_unclear",
+          "voice_container_mismatch"
         ]
       },
       "uniqueItems": true

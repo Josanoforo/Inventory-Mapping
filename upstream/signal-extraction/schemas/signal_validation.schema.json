@@ -50,7 +50,8 @@
         "single_claim_discreteness",
         "no_cross_source_meta_observation",
         "traceability",
-        "no_tension_smuggling"
+        "no_tension_smuggling",
+        "notes_locality"
       ],
       "properties": {
         "observational_wording": {
@@ -82,6 +83,9 @@
         },
         "no_tension_smuggling": {
           "$ref": "#/$defs/checkResult"
+        },
+        "notes_locality": {
+          "$ref": "#/$defs/checkResult"
         }
       }
     },
@@ -107,7 +111,8 @@
           "cross_source_meta_observation",
           "traceability_weakened",
           "checkout_vs_payout_collapsed",
-          "net_vs_gross_collapsed"
+          "net_vs_gross_collapsed",
+          "notes_interpretive_content"
         ]
       },
       "uniqueItems": true

@@ -336,6 +336,37 @@ Is the Signal Card doing work that belongs to Inventory Mapping?
 
 ---
 
+### 11. Notes Locality
+
+#### Question
+Do the notes fields contain only local, non-interpretive content?
+
+#### What it verifies
+`normalization_notes` and `extraction_notes` must not contain:
+- references to other records or findings by ID pattern (`F\d+`, `Finding \d+`, `SC-R\d+-\d+`, `record \d+`)
+- cross-source comparison language (`confirmed by`, `consistent with`, `contradicted by`, `corroborated by`, `same as`, `similar to`)
+- version comparison language (`earlier version`, `updated from`, `previously stated`)
+- interpretive math or reconciliation (digit + operator + digit in a context phrase, or phrases like `this implies`, `this means`, `this works out to`)
+
+#### Failure handling
+Route to `pass_with_flags` and emit `notes_interpretive_content` in the failures list. The card continues downstream. The mandatory scrubbing step (below) runs immediately after this validator emits the flag, before the card advances to the Inventory Mapping entry gate.
+
+#### Mandatory scrubbing step
+When `notes_interpretive_content` is emitted, the scrubber runs between Signal Extraction validation and the Inventory Mapping entry gate:
+
+1. Read `normalization_notes` and `extraction_notes`.
+2. Apply regex-replace to remove matched patterns from the four categories above. For each match, remove the matched substring plus any surrounding conjunction or punctuation that becomes dangling (leading "and", trailing semicolon, orphaned parenthesis).
+3. If scrubbing leaves a field empty or reduced to whitespace, set it to an empty array.
+4. Write the scrubbed notes back to the card.
+5. Append one entry to `working/notes_scrubbing/scrubbing_log.jsonl`: `{record_id, original_notes_hash, scrubbed_notes_hash, patterns_matched}`.
+
+The scrubber does not re-run the validator after scrubbing. It does not modify any field other than `normalization_notes` and `extraction_notes`. If the only content was forbidden content, the field is left as an empty array.
+
+#### Typical failure codes
+- `notes_interpretive_content`
+
+---
+
 ## Decision rules
 
 ### Use `pass` when
