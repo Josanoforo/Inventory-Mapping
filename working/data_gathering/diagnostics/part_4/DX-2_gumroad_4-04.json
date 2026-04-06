@@ -1,0 +1,8 @@
+{
+  "shard_id": "DX-2_gumroad",
+  "item_id": "4-04",
+  "seller_or_subject": "Michael King / neonforge (Medium; kingmichael.gumroad.com/l/ewuso)",
+  "attempted": "Found multiple Medium articles documenting development of a Midjourney Automation Bot with ChatGPT prompting integration, sold on Gumroad. Gumroad product page confirmed active.",
+  "why_failed": "Cannot verify article dates are within January 2024 window. Articles describe Midjourney features (zoom out, pan, describe) released in mid-2023, suggesting development blog posts predate the time window. Direct fetch of articles returned 429 error; no date metadata in search snippets.",
+  "urls_mentioned": []
+}

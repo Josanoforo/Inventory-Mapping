@@ -1,15 +1,17 @@
 {
-  "seller": "DataSeller99",
-  "product_type": "spreadsheet",
-  "ai_tools": "ChatGPT",
-  "workflow_claim_what": "Built spreadsheet templates using ChatGPT formula generation",
-  "verbatim_snippet": "\"All formulas built with ChatGPT help\"",
-  "source_url": "https://gumroad.com/l/dataseller99-sheets",
-  "source_type": "product_listing",
-  "date": "2023-11",
-  "verification_state": "blocked_url_index_verified",
-  "notes": "URL blocked, verified via Google index snapshot.",
+  "what": "Seller tested prompts by running them through ChatGPT and Claude, adjusting the wording, improving the structure, and verifying each produced useful output. Describes this testing/refinement step as the most time-consuming part of production. Grouped prompts into categories — content creation, sales and marketing, productivity, business operations — and organized them in a PDF and Google Doc. Product named \"Scaling AI Prompt Pack.\" Seller states total cost to create was $0 and total time was approximately 8–10 hours. Product built over three evenings.",
+  "verbatim_snippet": "\"I spent time actually testing prompts — not just writing them, but running them through ChatGPT and Claude, adjusting the wording, improving the structure, and making sure each one produced something genuinely useful. This part took the longest. But it's what made the product worth buying.\"",
+  "source": "https://simplescale.medium.com/how-i-made-my-first-1-000-selling-ai-prompt-packs-on-gumroad-93663abcc492",
+  "source_type": "blog",
+  "date": "March 2026",
+  "verification_status": "blocked_url_index_verified",
+  "notes": "Direct fetch returned 429 (rate limit) error. Text recovered from search engine index of same URL. Multiple search results returned consistent, extensive text from this article. Seller claims Gumroad dashboard screenshot in article showing $1,000+ revenue in first two months. Additional passage recovered from same source confirming Gumroad and product structure: \"I grouped the prompts into categories — content creation, sales and marketing, productivity, business operations — and organized them inside a clean PDF and a simple Google Doc. Nothing fancy. Just well-organized, clearly labeled, and easy to use.\" No Gumroad store URL visible in recovered text.",
+  "extra_fields": {
+    "seller": "Simple Scale (Medium @simplescale)",
+    "product_type": "AI prompt pack (\"Scaling AI Prompt Pack\"), packaged as PDF and Google Doc",
+    "ai_tools": "ChatGPT, Claude"
+  },
   "finding_id": "DX2-P01",
-  "shard_id": "DX-2_gumroad_ai_workflows",
+  "shard_id": "DX-2_gumroad",
   "part": 2
 }
