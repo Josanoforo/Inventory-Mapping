@@ -82,6 +82,7 @@
       "type": "string",
       "enum": [
         "deep_search",
+        "gpt_custom",
         "manual_search",
         "follow_up_query",
         "reopened_source",
