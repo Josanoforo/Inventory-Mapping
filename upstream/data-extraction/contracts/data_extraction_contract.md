@@ -164,6 +164,8 @@ Valores sugeridos:
 - search_results_page
 - unknown
 
+A blog post page that contains an active comment section is classified as `source_type: blog`. The container determines the type. Individual comments are split into separate records per speaker under the single-source rule, but all carry `source_type: blog`.
+
 ### `source_ref`
 Referencia estable a la fuente:
 - URL

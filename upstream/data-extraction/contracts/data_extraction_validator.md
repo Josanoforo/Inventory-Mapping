@@ -362,6 +362,63 @@ Does the record preserve one coherent local claim, rather than fusing several?
 
 ---
 
+### 12. Claim-Snippet Token Alignment
+
+#### Question
+Does every hard token in the claim fields appear as a substring of `snippet_primary`?
+
+#### What it verifies
+Every hard token appearing in the claim-bearing fields must appear as a substring of `snippet_primary`. The claim-bearing fields are: `subject_exact`, `metric_value_raw`, `metric_unit`, `time_scope_raw`, `geography_if_explicit`, `local_qualifiers`. A token that appears only in `snippet_context_before` or `snippet_context_after` but is used in a claim field is a violation.
+
+Hard tokens are: digit sequences (with optional `%`, `$`, `.`, `,`), date patterns (month names, year patterns like `20\d\d`, ISO dates), capitalized word sequences of length ≥ 1 that are not sentence-initial articles. Common nouns, verbs, and closed-class words are skipped.
+
+#### Pass if
+- all hard tokens in claim-bearing fields are present as substrings in `snippet_primary`
+
+#### Fail if
+- a number, date, monetary amount, or proper noun appears in a claim field but not in `snippet_primary`
+
+#### Failure handling
+Route to `rework` on first failure. The record is not rejected. The extractor may recover by either (a) rewriting the claim fields to use only tokens present in `snippet_primary`, or (b) splitting the record into separate records each anchored to the snippet that supports their token set.
+
+**Escalation on repeated failure:** If a record returns from rework and fails `claim_snippet_token_alignment` a second time with the same failure code (`claim_tokens_not_in_snippet_primary`), route to `reject`. The validator must carry state per record — either a `rework_attempt_count` in the validation result or a check against prior validation results for the same `record_id`. Second failure with the same code overrides the rework routing.
+
+#### Typical failure codes
+- `claim_tokens_not_in_snippet_primary`
+
+---
+
+### 13. Notes Locality
+
+#### Question
+Do the notes fields contain only local, non-interpretive content?
+
+#### What it verifies
+`parser_notes` must not contain:
+- references to other records or findings by ID pattern (`F\d+`, `Finding \d+`, `SC-R\d+-\d+`, `record \d+`)
+- cross-source comparison language (`confirmed by`, `consistent with`, `contradicted by`, `corroborated by`, `same as`, `similar to`)
+- version comparison language (`earlier version`, `updated from`, `previously stated`)
+- interpretive math or reconciliation (digit + operator + digit in a context phrase, or phrases like `this implies`, `this means`, `this works out to`)
+
+#### Failure handling
+Route to `pass_with_flags` and emit `notes_interpretive_content` in the failures list. The record continues downstream. The mandatory scrubbing step (below) runs immediately after this validator emits the flag, before the record advances to Signal Extraction.
+
+#### Mandatory scrubbing step
+When `notes_interpretive_content` is emitted, the scrubber runs between Data Extraction validation and Signal Extraction:
+
+1. Read `parser_notes`.
+2. Apply regex-replace to remove matched patterns from the four categories above. For each match, remove the matched substring plus any surrounding conjunction or punctuation that becomes dangling (leading "and", trailing semicolon, orphaned parenthesis).
+3. If scrubbing leaves the field empty or reduced to whitespace, set it to an empty string.
+4. Write the scrubbed notes back to the record.
+5. Append one entry to `working/notes_scrubbing/scrubbing_log.jsonl`: `{record_id, original_notes_hash, scrubbed_notes_hash, patterns_matched}`.
+
+The scrubber does not re-run the validator after scrubbing. It does not modify any field other than `parser_notes`. If the only content was forbidden content, the field is left empty.
+
+#### Typical failure codes
+- `notes_interpretive_content`
+
+---
+
 ## Decision rules
 
 ### Use `pass` when

@@ -51,7 +51,9 @@
         "qualifiers",
         "uncertainties",
         "no_cross_source_synthesis",
-        "single_claim_boundary"
+        "single_claim_boundary",
+        "claim_snippet_token_alignment",
+        "notes_locality"
       ],
       "properties": {
         "traceability": { "$ref": "#/$defs/checkResult" },
@@ -64,7 +66,9 @@
         "qualifiers": { "$ref": "#/$defs/checkResult" },
         "uncertainties": { "$ref": "#/$defs/checkResult" },
         "no_cross_source_synthesis": { "$ref": "#/$defs/checkResult" },
-        "single_claim_boundary": { "$ref": "#/$defs/checkResult" }
+        "single_claim_boundary": { "$ref": "#/$defs/checkResult" },
+        "claim_snippet_token_alignment": { "$ref": "#/$defs/checkResult" },
+        "notes_locality": { "$ref": "#/$defs/checkResult" }
       }
     },
     "failures": {
@@ -89,7 +93,9 @@
           "claim_type_interpretive",
           "metric_unit_invented",
           "normalized_time_unsafe",
-          "uncertainty_hidden"
+          "uncertainty_hidden",
+          "claim_tokens_not_in_snippet_primary",
+          "notes_interpretive_content"
         ]
       },
       "uniqueItems": true
