@@ -7,6 +7,7 @@
   "additionalProperties": false,
   "required": [
     "extraction_id",
+    "source_packet_id",
     "source_id",
     "source_type",
     "source_title",
@@ -38,6 +39,11 @@
       "type": "string",
       "minLength": 1,
       "description": "Unique ID for the extraction record"
+    },
+    "source_packet_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "ID del Source Packet del cual proviene este extraction record. Apunta a packet_id en source_packet.schema.json."
     },
     "source_id": {
       "type": "string",
