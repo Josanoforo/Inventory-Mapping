@@ -1,15 +1,17 @@
 {
-  "seller": "PromptHouse",
-  "product_type": "prompt",
-  "ai_tools": "Claude",
-  "workflow_claim_what": "Curated prompt bundles generated and tested with Claude 2",
-  "verbatim_snippet": "\"Every prompt tested on Claude 2 before publishing\"",
-  "source_url": "https://prompthouse.gumroad.com",
-  "source_type": "product_listing",
-  "date": "2024-01",
-  "verification_state": "direct_verified",
-  "notes": "Store page confirms Claude usage.",
+  "what": "Seller describes using ChatGPT as a \"creative partner\" rather than a fully automated generator. Gave ChatGPT a specific directive to write 50 emotional journal prompts that help people heal from stress or heartbreak. Seller then added own stories, feelings, and reflections to the AI-generated content. Reports the result \"didn't feel robotic.\"",
+  "verbatim_snippet": "\"Here's what I did — I turned ChatGPT into a creative partner. Instead of saying \\\"Write me an ebook,\\\" I said: \\\"Help me write 50 emotional journal prompts that help people heal from stress or heartbreak.\\\" Then I added my own stories, feelings, and reflections. The result didn't feel robotic — it felt real…\"",
+  "source": "https://medium.com/no-time/how-i-made-10-000-in-one-month-using-chatgpt-and-gumroad-complete-2025-blueprint-c9ef7a7576be",
+  "source_type": "blog",
+  "date": "October 27, 2025",
+  "verification_status": "direct_verified",
+  "notes": "Member-only article; text visible through Medium free preview up to end of Step 2. Gumroad referenced in article intro (\"What I did have was ChatGPT, Gumroad, and a desperate need to make something work online\") and in the article title, but not in the cited snippet. Revenue claim of $10,000 in title is unverified and characteristic of Medium \"make money online\" genre; preserved only as secondary context. No Gumroad store URL provided. Author bio: \"I'm Minakshi Jha, a storyteller of emotions, love, and struggles.\" Full production details beyond Step 2 are behind paywall.",
+  "extra_fields": {
+    "seller": "Minakshi Jha (Medium @9876jhaminakshi)",
+    "product_type": "Emotional journal prompts / digital writing prompts ebook",
+    "ai_tools": "ChatGPT"
+  },
   "finding_id": "DX2-C02",
-  "shard_id": "DX-2_gumroad_ai_workflows",
+  "shard_id": "DX-2_gumroad",
   "part": 1
 }

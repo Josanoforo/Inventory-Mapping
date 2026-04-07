@@ -1,15 +1,17 @@
 {
-  "seller": "Lena Marsh",
-  "product_type": "notion_template",
-  "ai_tools": "ChatGPT, Midjourney",
-  "workflow_claim_what": "Used ChatGPT to draft template copy and Midjourney for cover images",
-  "verbatim_snippet": "\"I wrote all the prompts in ChatGPT then fed the output straight into Notion\"",
-  "source_url": "https://gumroad.com/l/lena-ai-template",
-  "source_type": "product_listing",
-  "date": "2024-03",
-  "verification_state": "direct_verified",
-  "notes": "Seller bio confirms AI toolchain. No conflicting claims.",
+  "what": "Seller used ChatGPT with prompt engineering to generate outlines, templates, and guides targeting common small business challenges such as writing website content or generating marketing ideas. Seller edited and formatted ChatGPT outputs to ensure clarity and usability. Products uploaded to Gumroad with prices set between $7 and $15 depending on product complexity. Seller describes a six-step workflow: research niche problem, create product with ChatGPT, set up Gumroad account, build landing pages with free tools, promote through Medium and social media, iterate based on customer feedback.",
+  "verbatim_snippet": "\"Identify a niche problem: I researched common challenges small business owners face, such as writing website content or generating marketing ideas. Create the product with ChatGPT: Using prompt engineering, I generated outlines, templates, and guides. I edited and formatted them to ensure clarity and usability. Set up Gumroad account: I created a free account and uploaded the product files, setting prices between $7 and $15 depending on product complexity.\"",
+  "source": "https://medium.com/@devdo/0-to-800-month-using-chatgpt-and-gumroad-a-real-use-case-8e2c626f10ad",
+  "source_type": "blog",
+  "date": "July 24, 2025",
+  "verification_status": "direct_verified",
+  "notes": "Full article directly accessed at URL; not behind paywall. Article also contains this passage describing tool roles: \"ChatGPT became my primary tool for content generation, idea validation, and product creation. Gumroad served as the platform for selling and delivering my digital products, chosen for its simplicity and low fees.\" Revenue claim of approximately $800/month is unverified but modest. No Gumroad store URL provided in article or author bio; author bio links to PayPal donation page. Snippet is from a numbered list in the article body. Author pseudonymous (\"Z. Software Engineer\") with 120 Medium followers at time of access.",
+  "extra_fields": {
+    "seller": "Z. Software Engineer (Medium handle @devdo)",
+    "product_type": "Website copywriting templates, AI prompt bundles, guides and planners for entrepreneurs and freelancers",
+    "ai_tools": "ChatGPT"
+  },
   "finding_id": "DX2-C01",
-  "shard_id": "DX-2_gumroad_ai_workflows",
+  "shard_id": "DX-2_gumroad",
   "part": 1
 }
