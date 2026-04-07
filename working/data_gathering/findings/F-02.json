@@ -1,14 +1,14 @@
 {
-  "what": "AI builder and self-described \"vibe coder\" who sells on Gumroad describes using Claude to build and sell digital products, with building (via Vercel MCP, Stripe MCP, Supabase) and selling (via Gumroad MCP) unified in a single AI-driven conversation rather than separate workflows.",
-  "verbatim_snippet": "\"I build apps and sell digital products. Those two things used to live in completely different workflows — code in the terminal, sales in a browser dashboard, payments in another dashboard. Now it's one conversation. When I'm building my apps, Vercel handles everything on the backend side: queries, migrations, cron jobs, error debugging. Stripe MCP handles payment integration, subscription management, and troubleshooting. When there's a bug involving a failed payment, Claude queries Supabase for the erroneous record and checks Stripe for the transaction state. End-to-end debugging without opening three dashboards. When I'm selling, Gumroad MCP lets Claude create offer codes, check sales data, and manage products.\"",
-  "source": "https://buildtolaunch.substack.com/p/best-mcp-servers-claude-code",
-  "source_type": "article",
+  "what": "The commenter says they regret buying the planner, have not found a suitable one, and that Zinnia is not easy to integrate with their calendar.",
+  "verbatim_snippet": "\"I did it too and regret it. I have yet to find one. Zinnia isn't easy to integrate my calendar o to. Just don't waste your money on this one.\"",
+  "source": "https://www.reddit.com/r/DigitalPlanner/comments/1i5se71/comment/nciqljv/",
+  "source_type": "reddit",
   "verification_status": "direct_verified",
-  "date": "March 4, 2026",
-  "signal_type": "behavior_report",
-  "notes": "Author Jenny Ouyang. Gumroad store: buildtolaunch.gumroad.com. Products include MCP Starter Pack, Complete MCP Server Directory, Substack Article MCP. Author bio: \"AI builder behind VibeCoding.Builders and other products with hundreds of paying customers.\" Passage spans both production and operations workflows on same page.",
+  "date": "7mo ago",
+  "signal_type": "complaint",
+  "notes": "Page shows relative date only.",
   "finding_id": "F-02",
-  "shard_id": "DX-2_gumroad_v2",
-  "source_tool": "deep_search",
+  "shard_id": "reddit_buyer_pain_planners_v1",
+  "source_tool": "gpt_custom",
   "part": 1
 }

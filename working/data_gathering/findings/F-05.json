@@ -1,14 +1,14 @@
 {
-  "what": "Author describes asking ChatGPT for product ideas, receiving the suggestion to create \"a simple ebook or digital guide aimed at a specific niche,\" and later receiving a first sale notification on Gumroad.",
-  "verbatim_snippet": "\"Then one night, feeling frustrated and a bit bored, I decided to ask ChatGPT. 'What kind of digital product can I whip up in under 48 hours that people would actually buy?' The AI gave me a list, and one suggestion really grabbed my attention: 'A simple ebook or digital guide aimed at a specific niche.'\"",
-  "source": "https://medium.com/@clementnosa891/i-created-a-digital-product-using-ai-and-sold-it-on-gumroad-heres-what-i-learned-4e0ddf1c0afe",
-  "source_type": "blog",
+  "what": "The commenter says free Google Sheets templates kept breaking when they tried to tweak the formulas.",
+  "verbatim_snippet": "\"i totally get you, i started with the free google sheets templates too, but tbh i always ended up breaking the formulas whenever i tried to tweak them.\n\nwhat finally worked for me was buying a premade family budget spreadsheet on etsy. mine came with recurring bills, monthly tabs, and even a dashboard that shows where the money's going (which was a lifesaver for me cause i'm not formula savvy at all).\"",
+  "source": "https://www.reddit.com/r/budget/comments/1n5gp77/comment/ng5wvb1/",
+  "source_type": "reddit",
   "verification_status": "direct_verified",
-  "date": "July 14, 2025",
-  "signal_type": "behavior_report",
-  "notes": "Member-only story; only introduction visible past paywall. Visible portion covers AI-assisted ideation step only; production workflow details (how product was created after ideation) behind paywall. Same visible text confirms Gumroad sale: \"I never saw it coming that I'd wake up to my first sale notification(on Gumroad).\"",
+  "date": "6mo ago",
+  "signal_type": "complaint",
+  "notes": "Page shows relative date only; thread archived.",
   "finding_id": "F-05",
-  "shard_id": "DX-2_gumroad_v2",
-  "source_tool": "deep_search",
+  "shard_id": "reddit_buyer_pain_planners_v1",
+  "source_tool": "gpt_custom",
   "part": 1
 }

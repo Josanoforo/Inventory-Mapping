@@ -1,14 +1,14 @@
 {
-  "what": "Author describes using ChatGPT to write ebook content and Canva for design, creating an ebook titled \"30 AI Tools That Save 10 Hours a Week\" priced at $15, then uploading the PDF to Gumroad. States first draft was completed in one hour.",
-  "verbatim_snippet": "Stated in layout: \"I opened ChatGPT and had my first draft done in an hour. [Section: My First eBook] I didn't make it complicated. My first eBook was: '30 AI Tools That Save 10 Hours a Week.' ChatGPT assisted me in writing the content. Canva provided me with a refined design. I charged $15. [Section: Setting Up Shop (Quick & Easy)] Uploaded the PDF on Gumroad. Set up a landing page with a clean cover.\"",
-  "source": "https://medium.com/activated-thinker/how-i-made-10-000-in-30-days-by-selling-ai-generated-ebooks-on-gumroad-0962a6b1c98e",
-  "source_type": "article",
+  "what": "The commenter says a bank fraud alert showed duplicate and additional attempted planner purchases plus an auto renewal, and that they could not find any phone number or contact.",
+  "verbatim_snippet": "\"Help. I purchased the ease up digital planner and was alerted by my bank with a \"fraud alert\". when I looked at the alert, it indicated that I had purchased 2 planners. I had not. Only 1. I cleared it up with the bank so I don't have to get a new card (thank God), but was informed that now there are three items attempted to be purchased AND that I needed to call them because it indicated that I have an auto renewal. I cannot find a phone number or contact ANYWHERE.\nDoes anyone have a clue how to contact these people?\"",
+  "source": "https://www.reddit.com/r/DigitalPlanner/comments/1i5se71/comment/niaxrg9/",
+  "source_type": "reddit",
   "verification_status": "direct_verified",
-  "date": "November 3, 2025",
-  "signal_type": "behavior_report",
-  "notes": "Structured layout flag — article uses section headings between production steps and Gumroad upload steps. Author Imran Kabir. No Gumroad product link provided in article. Same page describes scaling to two additional ebooks (\"Freelancer's AI Toolkit\" at $19, \"The Remote Work Productivity Bible\" at $25) and a $45 bundle.",
+  "date": "6mo ago",
+  "signal_type": "complaint",
+  "notes": "Page shows relative date only.",
   "finding_id": "F-04",
-  "shard_id": "DX-2_gumroad_v2",
-  "source_tool": "deep_search",
+  "shard_id": "reddit_buyer_pain_planners_v1",
+  "source_tool": "gpt_custom",
   "part": 1
 }

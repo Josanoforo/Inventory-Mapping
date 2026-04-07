@@ -1,0 +1,12 @@
+{
+  "shard_id": "policy_etsy_fees_v1",
+  "source_tool": "gpt_custom",
+  "findings_forced_to_provisional": "None.",
+  "findings_degraded_to_could_not_verify": "None.",
+  "findings_degraded_due_to_url_not_fixable": "None.",
+  "multi_speaker_pages_split": "None applicable.",
+  "truncated_or_partial_sources": "None.",
+  "source_type_ambiguities": "None.",
+  "categories_expected_no_findings": "None logged in this run.",
+  "inputs_not_searched_without_interpretation": "Input broad; decomposed conservatively by fee type."
+}

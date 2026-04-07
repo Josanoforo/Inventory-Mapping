@@ -1,0 +1,12 @@
+{
+  "shard_id": "reddit_buyer_pain_planners_v1",
+  "source_tool": "gpt_custom",
+  "findings_forced_to_provisional": "None.",
+  "findings_degraded_to_could_not_verify": "None.",
+  "findings_degraded_due_to_url_not_fixable": "None.",
+  "multi_speaker_pages_split": "F-01, F-02, F-03, F-04 from one Reddit thread; F-07, F-08, F-09 from one Reddit thread; F-05 and F-06 from one Reddit thread.",
+  "truncated_or_partial_sources": "None.",
+  "source_type_ambiguities": "None.",
+  "categories_expected_no_findings": "None within the searched spreadsheet and digital-planner comment set.",
+  "inputs_not_searched_without_interpretation": "Broader \"and such\" category was not expanded beyond spreadsheets and planners."
+}
