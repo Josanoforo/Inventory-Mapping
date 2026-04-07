@@ -168,7 +168,7 @@ def parse_header(header_text: str) -> tuple[str, str]:
 FINDING_ID_PAT = re.compile(r"^###\s+([A-Z][A-Z0-9]*-[CP]?\d+)", re.MULTILINE | re.IGNORECASE)
 
 
-def parse_findings(section_text: str, part_number: int, shard_id: str) -> list[dict]:
+def parse_findings(section_text: str, part_number: int, shard_id: str, source_tool: str) -> list[dict]:
     """Parse all findings in a Part 1 or Part 2 section."""
     findings: list[dict] = []
 
@@ -190,6 +190,7 @@ def parse_findings(section_text: str, part_number: int, shard_id: str) -> list[d
 
         record["finding_id"] = finding_id
         record["shard_id"] = shard_id
+        record["source_tool"] = source_tool
         record["part"] = part_number
         findings.append(record)
 
@@ -259,7 +260,7 @@ WHY_FAILED_PAT = re.compile(
 )
 
 
-def parse_part4(section_text: str, shard_id: str) -> list[dict]:
+def parse_part4(section_text: str, shard_id: str, source_tool: str) -> list[dict]:
     items: list[dict] = []
 
     splits = list(PART4_ITEM_PAT.finditer(section_text))
@@ -295,6 +296,7 @@ def parse_part4(section_text: str, shard_id: str) -> list[dict]:
         items.append(
             {
                 "shard_id": shard_id,
+                "source_tool": source_tool,
                 "item_id": raw_num,
                 "seller_or_subject": subject,
                 "attempted": attempted,
@@ -341,9 +343,9 @@ def _canonical_qa_key(title: str) -> str:
     return _slug(title)
 
 
-def parse_qa_notes(section_text: str, shard_id: str) -> dict:
+def parse_qa_notes(section_text: str, shard_id: str, source_tool: str) -> dict:
     """Parse QA Notes section into a flat dict of sections."""
-    record: dict = {"shard_id": shard_id}
+    record: dict = {"shard_id": shard_id, "source_tool": source_tool}
 
     # --- Strategy 1: ### subsections ---
     subsection_re = re.compile(r"^(#{2,4})\s+(.+)$", re.MULTILINE)
@@ -419,7 +421,19 @@ def main(shard_path: str) -> None:
         sys.exit(1)
 
     text = p.read_text(encoding="utf-8")
-    shard_id = p.stem  # e.g. "DX-2_gumroad"
+    shard_id = p.stem  # e.g. "DX-2_gumroad_v2"
+
+    # Determine source_tool from the parent directory name
+    VALID_SOURCE_TOOLS = {"deep_search", "gpt_custom"}
+    parent_dir_name = p.parent.name
+    if parent_dir_name in VALID_SOURCE_TOOLS:
+        source_tool = parent_dir_name
+    else:
+        _warn(
+            f"Shard '{p.name}' is not in a valid source_tool subdirectory "
+            f"(parent dir: '{parent_dir_name}'). Using source_tool='unknown'."
+        )
+        source_tool = "unknown"
 
     sections = split_sections(text)
 
@@ -429,7 +443,7 @@ def main(shard_path: str) -> None:
         sec = sections.get(section_key, "")
         if not sec:
             continue
-        for finding in parse_findings(sec, part_num, shard_id):
+        for finding in parse_findings(sec, part_num, shard_id, source_tool):
             fid = finding.get("finding_id", "UNKNOWN")
             out_path = FINDINGS_DIR / f"{fid}.json"
             write_json(out_path, finding)
@@ -439,7 +453,7 @@ def main(shard_path: str) -> None:
     part4_written = 0
     sec4 = sections.get("part4", "")
     if sec4:
-        for item in parse_part4(sec4, shard_id):
+        for item in parse_part4(sec4, shard_id, source_tool):
             filename = f"{shard_id}_{item['item_id']}.json"
             out_path = PART4_DIR / filename
             write_json(out_path, item)
@@ -449,8 +463,8 @@ def main(shard_path: str) -> None:
     qa_written = 0
     sec_qa = sections.get("qa", "")
     if sec_qa:
-        qa_record = parse_qa_notes(sec_qa, shard_id)
-        qa_keys = len(qa_record) - 1  # subtract shard_id
+        qa_record = parse_qa_notes(sec_qa, shard_id, source_tool)
+        qa_keys = len(qa_record) - 2  # subtract shard_id and source_tool
         out_path = QA_DIR / f"{shard_id}_qa.json"
         write_json(out_path, qa_record)
         qa_written = 1

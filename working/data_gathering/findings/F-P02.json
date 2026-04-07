@@ -9,5 +9,6 @@
   "notes": "429 rate limit on medium.com; content recovered from Google search index. Author pen name \"I'm Someone.\" Same page describes a two-tool workflow: ChatGPT used to generate a detailed prompt specifying template features (schedule, ideas backlog, priority separation, drafts/published/pending), then Notion AI used to build the template from that prompt. Author states \"before selling it on Gumroad, I re-edited it\" as the only manual editing step. No sale reported at time of writing. Google search index used as mirror.",
   "finding_id": "F-P02",
   "shard_id": "DX-2_gumroad_v2",
+  "source_tool": "deep_search",
   "part": 2
 }

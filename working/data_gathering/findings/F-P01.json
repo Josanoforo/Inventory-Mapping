@@ -9,5 +9,6 @@
   "notes": "429 rate limit on medium.com; content recovered from Google search index of same URL. Same page identifies product as \"Scaling AI Prompt Pack\" sold on Gumroad; reports $1,000 revenue in two months; total creation time stated as \"maybe 8–10 hours\" over three evenings; prompts grouped into \"content creation, sales and marketing, productivity, business operations\" categories and packaged as PDF and Google Doc. Google search index used as mirror.",
   "finding_id": "F-P01",
   "shard_id": "DX-2_gumroad_v2",
+  "source_tool": "deep_search",
   "part": 2
 }

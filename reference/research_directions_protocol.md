@@ -237,6 +237,19 @@ Part 3 (pattern candidates) does not introduce new IDs. It references findings f
 
 Global uniqueness across shards is achieved at processing time by combining `shard_id` (derived from the shard filename) with `finding_id` (from the header). The downstream parser stores `shard_id` and `finding_id` as separate fields, so within-Part sequencing inside a single shard is sufficient.
 
+## Filesystem convention for shard inputs
+
+Shards are organized by source tool in the input directory:
+
+- `input/data_gathering/shards/deep_search/` — shards executed via deep research tools
+- `input/data_gathering/shards/gpt_custom/` — shards executed via custom GPT
+
+The parent directory is the structural declaration of source. The parser uses the parent directory name to populate the `source_tool` field in every output JSON. The same value flows downstream to `retrieval_method` in Source Packet.
+
+Valid values match the `retrieval_method` enum in `upstream/source-intake/schemas/source_packet.schema.json`: `deep_search`, `gpt_custom`, plus the existing values for other retrieval methods.
+
+A shard placed directly in `input/data_gathering/shards/` without a sub-directory is malformed. The parser will emit a warning and tag the source as `unknown`.
+
 ## What to skip
 [Explicit exclusions — paid reviews, roundups, tutorials, synthesis blogs, etc.]
 
