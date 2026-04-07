@@ -221,6 +221,22 @@ user_quote, metric, product_fact, complaint, problem_query, behavior_report, gap
 
 Pick exactly one. If unsure between two, prefer the more concrete (metric over user_quote when a number is present; complaint over user_quote when dissatisfaction is explicit; behavior_report over user_quote when an action is described). Never use interpretive labels like high_pain, strong_demand, market_opportunity, etc.
 
+## Finding ID convention
+
+Each finding declares an ID at the section header. Use one of three patterns based on which Part the finding belongs to:
+
+- Part 1 (clean / direct_verified): `F-NN` where NN is sequential starting at 01 (e.g., F-01, F-02, F-03)
+- Part 2 (provisional / blocked_url_index_verified): `F-PNN` where NN is sequential starting at 01 (e.g., F-P01, F-P02)
+- Part 4 (could not verify / out-of-scope): `F-XNN` where NN is sequential starting at 01 (e.g., F-X01, F-X02)
+
+Sequence is per-Part, not global across Parts. Each Part starts at 01.
+
+Header format: `### F-NN` for Part 1 and Part 2 findings. `### F-XNN: <subject>` for Part 4 items (Part 4 items include the subject in the header line, separated by colon, because Part 4 items do not have a verbatim snippet to identify them by content).
+
+Part 3 (pattern candidates) does not introduce new IDs. It references findings from Parts 1 and 2 by their existing IDs.
+
+Global uniqueness across shards is achieved at processing time by combining `shard_id` (derived from the shard filename) with `finding_id` (from the header). The downstream parser stores `shard_id` and `finding_id` as separate fields, so within-Part sequencing inside a single shard is sufficient.
+
 ## What to skip
 [Explicit exclusions — paid reviews, roundups, tutorials, synthesis blogs, etc.]
 

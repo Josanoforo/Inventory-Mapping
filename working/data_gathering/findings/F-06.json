@@ -1,0 +1,13 @@
+{
+  "what": "Author states they used Notion AI and Gumroad to \"launch and earn immediately,\" describing a \"real-world workflow\" of building a full Notion system using Notion AI, turning it into a sellable product, and selling it using Gumroad without a website.",
+  "verbatim_snippet": "\"In this article, I'm going to show you the exact, real-world workflow I used to: 1. Build a full Notion system using Notion AI. 2. Turn it into a sellable product. 3. Sell it using Gumroad (without a website). 4. List it on the Notion Marketplace (using a bridge method). 5. And eventually, upgrade to direct Stripe payments.\"",
+  "source": "https://medium.com/@gaurawsingh/i-sold-notion-templates-with-ai-09a324f99d4f",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "December 8, 2025",
+  "signal_type": "behavior_report",
+  "notes": "Member-only story; only introduction visible past paywall. Visible text includes workflow outline but detailed production steps behind paywall. Same visible text: \"Here is exactly how I used Notion AI and Gumroad to launch and earn immediately.\"",
+  "finding_id": "F-06",
+  "shard_id": "DX-2_gumroad_v2",
+  "part": 1
+}

@@ -165,7 +165,7 @@ def parse_header(header_text: str) -> tuple[str, str]:
 # Finding parser (Part 1 and Part 2)
 # ---------------------------------------------------------------------------
 
-FINDING_ID_PAT = re.compile(r"^###\s+([A-Z0-9]+-[CP]\d+)", re.MULTILINE | re.IGNORECASE)
+FINDING_ID_PAT = re.compile(r"^###\s+([A-Z][A-Z0-9]*-[CP]?\d+)", re.MULTILINE | re.IGNORECASE)
 
 
 def parse_findings(section_text: str, part_number: int, shard_id: str) -> list[dict]:
@@ -248,11 +248,15 @@ def _parse_finding_block(block: str, finding_id: str) -> dict:
 # Part 4 parser
 # ---------------------------------------------------------------------------
 
-PART4_ITEM_PAT = re.compile(r"\*\*(\d+-\d+)\.\s+([^\*]+)\*\*", re.MULTILINE)
+PART4_ITEM_PAT = re.compile(r"^###\s+(F-X\d+):\s+(.+)$", re.MULTILINE | re.IGNORECASE)
 ATTEMPTED_PAT = re.compile(
-    r"Attempted\s*[:\-]\s*(.*?)(?=Why\s+failed|$)", re.IGNORECASE | re.DOTALL
+    r"\*\*(?:What\s+tried|Attempted)\s*[:\-]?\*\*\s*[:\-]?\s*(.*?)(?=\*\*(?:Reason|Why\s+failed)|$)",
+    re.IGNORECASE | re.DOTALL,
 )
-WHY_FAILED_PAT = re.compile(r"Why\s+failed\s*[:\-]\s*(.*?)$", re.IGNORECASE | re.DOTALL)
+WHY_FAILED_PAT = re.compile(
+    r"\*\*(?:Reason|Why\s+failed)\s*[:\-]?\*\*\s*[:\-]?\s*(.*?)$",
+    re.IGNORECASE | re.DOTALL,
+)
 
 
 def parse_part4(section_text: str, shard_id: str) -> list[dict]:
