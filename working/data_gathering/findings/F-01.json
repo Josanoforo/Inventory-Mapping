@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad seller describes routinely going \"back and forth with AI\" when creating digital products, then building a 15-prompt launch kit in two hours and listing it on Gumroad for $1. ChatGPT and Claude named as compatible AI tools elsewhere on the same page.",
+  "verbatim_snippet": "\"For a while I had been thinking about putting together a prompt pack. Something that would make the whole process of building a digital product faster. Every time I sat down to create something I would go back and forth with AI, figure out the right prompts, refine them, build a structure. It worked but it took time. I kept thinking: if I had all of this in one place, in the right order, I could probably do the whole thing in one sitting. But of course I kept postponing actually making it. Then one day I had plans to go out. Rain cancelled everything. So I sat at home, opened my laptop, and thought: okay. Today is the day. I am going to build this prompt pack. Two hours later it was done and live on Gumroad.\"",
+  "source": "https://vinayakramesh1.substack.com/p/tools-thursday-3-zero-to-live-gumroad",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "April 2, 2026",
+  "signal_type": "behavior_report",
+  "notes": "Product \"The 3-Hour Digital Product Launch Kit\" at vinayakramesh.gumroad.com/l/digitalproductlaunchkit, priced at $1. Same page \"Is This For You?\" section states: \"You are comfortable using AI tools like ChatGPT or Claude.\"",
+  "finding_id": "F-01",
+  "shard_id": "DX-2_gumroad_v2",
+  "part": 1
+}

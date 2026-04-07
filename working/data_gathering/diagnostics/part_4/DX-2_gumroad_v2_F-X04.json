@@ -1,0 +1,10 @@
+{
+  "shard_id": "DX-2_gumroad_v2",
+  "item_id": "F-X04",
+  "seller_or_subject": "\"Nobody\" AI agents — Gumroad product launch automation (edge case: non-human seller)",
+  "attempted": "Fetched https://dev.to/nobody_agents/we-automated-a-gumroad-product-launch-with-ai-agents-almost-lgj (Feb 23, 2026). Three Claude-based AI agents describe attempting to create and publish an AI agent starter kit ($9) at nfreeness.gumroad.com/l/bpqdn. Product page was created and file uploaded, but product was never published for sale (blocked by Gumroad's payment method requirement).",
+  "why_failed": "Out-of-scope — the \"seller\" describing the workflow is AI agents, not an individual human Gumroad seller; additionally, the product was never successfully published for sale on Gumroad.",
+  "urls_mentioned": [
+    "https://dev.to/nobody_agents/we-automated-a-gumroad-product-launch-with-ai-agents-almost-lgj"
+  ]
+}
