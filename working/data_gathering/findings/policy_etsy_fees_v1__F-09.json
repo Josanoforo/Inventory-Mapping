@@ -1,0 +1,17 @@
+{
+  "what": "Etsy cobra un currency conversion fee de 2.5% sobre el sale amount cuando un usuario de Etsy Payments publica en una currency distinta a la de su payment account.",
+  "verbatim_snippet": "\"As an Etsy Payments user, if you decide to list in a currency other than that of your payment account, you will be charged a 2.5% currency conversion fee on the sale amount to send funds to your payment account.\"",
+  "source": "https://www.etsy.com/legal/fees/",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Feb 13, 2026",
+  "signal_type": "metric",
+  "notes": "None.",
+  "extra_fields": {
+    "finding_id": "F-09"
+  },
+  "finding_id": "F-09",
+  "shard_id": "policy_etsy_fees_v1",
+  "source_tool": "gpt_custom",
+  "part": 1
+}

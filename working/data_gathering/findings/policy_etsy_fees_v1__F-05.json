@@ -1,0 +1,17 @@
+{
+  "what": "Offsite Ads cobra 15% si el seller hizo menos de $10,000 en Etsy en los últimos 365 días, 12% si hizo al menos $10,000, y el fee no excede $100 por orden.",
+  "verbatim_snippet": "[Stated in layout: \"Offsite Ads\n\n-If you made less than $10,000 on Etsy in the past 365 days, you’ll be charged a 15% fee on the order total.\n\n-If you made at least $10,000, you’ll get a discounted fee of 12%.\n\n-The Offsite Ad fee will never exceed $100 for an order, regardless of the order total.\"]",
+  "source": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated.",
+  "signal_type": "metric",
+  "notes": "Structured layout; page undated.",
+  "extra_fields": {
+    "finding_id": "F-05"
+  },
+  "finding_id": "F-05",
+  "shard_id": "policy_etsy_fees_v1",
+  "source_tool": "gpt_custom",
+  "part": 1
+}
