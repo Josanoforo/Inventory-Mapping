@@ -1,0 +1,13 @@
+{
+  "what": "Author describes testing and refining prompts by running them through ChatGPT and Claude, adjusting wording and structure, and ensuring each produced \"genuinely useful\" output, describing this as the most time-consuming part of creating the product.",
+  "verbatim_snippet": "\"I spent time actually testing prompts — not just writing them, but running them through ChatGPT and Claude, adjusting the wording, improving the structure, and making sure each one produced something genuinely useful. This part took the longest. But it's what made the product worth buying.\"",
+  "source": "https://simplescale.medium.com/how-i-made-my-first-1-000-selling-ai-prompt-packs-on-gumroad-93663abcc492",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "March 2026",
+  "signal_type": "behavior_report",
+  "notes": "429 rate limit on medium.com; content recovered from Google search index of same URL. Same page identifies product as \"Scaling AI Prompt Pack\" sold on Gumroad; reports $1,000 revenue in two months; total creation time stated as \"maybe 8–10 hours\" over three evenings; prompts grouped into \"content creation, sales and marketing, productivity, business operations\" categories and packaged as PDF and Google Doc. Google search index used as mirror.",
+  "finding_id": "F-P01",
+  "shard_id": "DX-2_gumroad_v2",
+  "part": 2
+}
