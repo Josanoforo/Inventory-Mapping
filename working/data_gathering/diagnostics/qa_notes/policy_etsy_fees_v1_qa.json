@@ -7,6 +7,6 @@
   "multi_speaker_pages_split": "None applicable.",
   "truncated_or_partial_sources": "None.",
   "source_type_ambiguities": "None.",
-  "categories_expected_no_findings": "None logged in this run.",
-  "inputs_not_searched_without_interpretation": "Input broad; decomposed conservatively by fee type."
+  "coverage_gaps_where_findings_expected_but_not_found": "None logged in this run.",
+  "cases_where_input_could_not_be_decomposed_without_interpretation": "Input broad; decomposed conservatively by fee type."
 }

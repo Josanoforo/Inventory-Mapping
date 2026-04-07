@@ -1,0 +1,14 @@
+{
+  "what": "Author states they have \"personally written and sold ebooks on Gumroad\" and names ChatGPT, Jasper, and Writesonic as AI writing tools used in ebook creation, describing AI tools as \"a total game-changer for speeding up product creation.\"",
+  "verbatim_snippet": "\"I've personally written and sold ebooks on Gumroad, and let me tell you — writing them from scratch is a grind. But with AI writing tools like ChatGPT, Jasper, or Writesonic, you can draft…\"",
+  "source": "https://medium.com/@rioalbert778/i-make-500-month-on-gumroad-using-ai-heres-exactly-what-i-sell-60d2ee5a14aa",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "June 25, 2025",
+  "signal_type": "behavior_report",
+  "notes": "Member-only story; only introduction visible past paywall. Snippet is truncated mid-sentence by paywall at \"you can draft…\" Same visible text also states: \"Over the past couple of years, I've experimented with different AI tools — some hits, some misses — but when used right, they're a total game-changer for speeding up product creation. Whether it's ebooks, digital art, or even simple SaaS tools, AI lets you launch faster and test ideas with less upfront effort.\" No Gumroad store link provided.",
+  "finding_id": "F-07",
+  "shard_id": "DX-2_gumroad_v2",
+  "source_tool": "deep_search",
+  "part": 1
+}

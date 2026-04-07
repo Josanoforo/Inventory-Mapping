@@ -58,10 +58,11 @@ for _canon, _variants in REQUIRED_FIELD_MAP.items():
 
 REQUIRED_KEYS = set(REQUIRED_FIELD_MAP.keys())
 
-# Regex: match ANY bold field label at start of a line.
-# Handles "**Label:**", "**Label**:", "**Label**-" etc.
+# Regex: match field label at start of a line.
+# Handles both bold ("**Label:**", "**Label**:") and plain ("Label:") formats.
+# Bold markers are fully optional — both formats are valid per contract.
 _FIELD_LABEL_PAT = re.compile(
-    r"^\s*\*\*([^\*]+?)[:\-]?\*\*\s*[:\-]?\s*(.*)",
+    r"^\s*(?:\*\*)?([A-Za-z][A-Za-z0-9_ ()/]+?)(?:\*\*)?[:\-](?:\*\*)?\s*(.*)",
     re.IGNORECASE,
 )
 
@@ -110,11 +111,11 @@ def _warn(msg: str) -> None:
 # ---------------------------------------------------------------------------
 
 PART_HEADERS = {
-    "part1": re.compile(r"^##\s+Part\s+1\b", re.IGNORECASE | re.MULTILINE),
-    "part2": re.compile(r"^##\s+Part\s+2\b", re.IGNORECASE | re.MULTILINE),
-    "part3": re.compile(r"^##\s+Part\s+3\b", re.IGNORECASE | re.MULTILINE),
-    "part4": re.compile(r"^##\s+Part\s+4\b", re.IGNORECASE | re.MULTILINE),
-    "qa":    re.compile(r"^##\s+Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
+    "part1": re.compile(r"^#{0,3}\s*Part\s+1\b", re.IGNORECASE | re.MULTILINE),
+    "part2": re.compile(r"^#{0,3}\s*Part\s+2\b", re.IGNORECASE | re.MULTILINE),
+    "part3": re.compile(r"^#{0,3}\s*Part\s+3\b", re.IGNORECASE | re.MULTILINE),
+    "part4": re.compile(r"^#{0,3}\s*Part\s+4\b", re.IGNORECASE | re.MULTILINE),
+    "qa":    re.compile(r"^#{0,3}\s*Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
 }
 
 
@@ -251,11 +252,12 @@ def _parse_finding_block(block: str, finding_id: str) -> dict:
 
 PART4_ITEM_PAT = re.compile(r"^###\s+(F-X\d+):\s+(.+)$", re.MULTILINE | re.IGNORECASE)
 ATTEMPTED_PAT = re.compile(
-    r"\*\*(?:What\s+tried|Attempted)\s*[:\-]?\*\*\s*[:\-]?\s*(.*?)(?=\*\*(?:Reason|Why\s+failed)|$)",
+    r"(?:\*\*)?(?:What\s+tried|Attempted)\s*[:\-]?(?:\*\*)?\s*[:\-]?\s*(.*?)"
+    r"(?=(?:\*\*)?(?:Reason|Why\s+failed)|$)",
     re.IGNORECASE | re.DOTALL,
 )
 WHY_FAILED_PAT = re.compile(
-    r"\*\*(?:Reason|Why\s+failed)\s*[:\-]?\*\*\s*[:\-]?\s*(.*?)$",
+    r"(?:\*\*)?(?:Reason|Why\s+failed)\s*[:\-]?(?:\*\*)?\s*[:\-]?\s*(.*?)$",
     re.IGNORECASE | re.DOTALL,
 )
 
@@ -368,7 +370,16 @@ def parse_qa_notes(section_text: str, shard_id: str, source_tool: str) -> dict:
         return record
 
     # --- Strategy 2: **Bold label:** value lines (no ### subsections) ---
-    record.update(_parse_qa_bold_labels(section_text))
+    bold_result = _parse_qa_bold_labels(section_text)
+    if bold_result:
+        record.update(bold_result)
+        return record
+
+    # --- Strategy 3: - Key: Value bullet list ---
+    bullet_re = re.compile(r"^\s*[-*]\s+([^:\n]+?):\s*(.+)$", re.MULTILINE)
+    for m in bullet_re.finditer(section_text):
+        key = _canonical_qa_key(m.group(1).strip())
+        record[key] = _clean(m.group(2))
     return record
 
 
@@ -445,7 +456,7 @@ def main(shard_path: str) -> None:
             continue
         for finding in parse_findings(sec, part_num, shard_id, source_tool):
             fid = finding.get("finding_id", "UNKNOWN")
-            out_path = FINDINGS_DIR / f"{fid}.json"
+            out_path = FINDINGS_DIR / f"{shard_id}__{fid}.json"
             write_json(out_path, finding)
             findings_written += 1
 
@@ -454,7 +465,7 @@ def main(shard_path: str) -> None:
     sec4 = sections.get("part4", "")
     if sec4:
         for item in parse_part4(sec4, shard_id, source_tool):
-            filename = f"{shard_id}_{item['item_id']}.json"
+            filename = f"{shard_id}__{item['item_id']}.json"
             out_path = PART4_DIR / filename
             write_json(out_path, item)
             part4_written += 1
