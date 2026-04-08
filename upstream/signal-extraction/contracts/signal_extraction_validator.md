@@ -452,7 +452,6 @@ Good:
 - `Narrow signal_text back to one local observation`
 - `Restore qualifier 'in the US' from extraction`
 - `Split policy statement from seller anecdote into separate Signal Cards`
-- `Keep traffic metric as traffic_signal; do not rewrite as seller discoverability claim`
 
 Bad:
 - `Make it better`
