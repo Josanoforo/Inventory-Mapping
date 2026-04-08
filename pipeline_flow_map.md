@@ -69,7 +69,7 @@ working/source_intake/packets/<packet_id>.json
     ▼
     ┌─ GATE 2: Data Extraction Validator ────────────────────────────────┐
     │  Contrato: upstream/data-extraction/contracts/data_extraction_validator.md │
-    │  13 checks; 4 statuses (sin parking_lot); 19 failure codes         │
+    │  13 checks; 4 statuses (sin parking_lot); 20 failure codes         │
     │  Schema de resultado: upstream/data-extraction/schemas/            │
     │                        data_extraction_validator.schema.json       │
     └────────────────────────────────────────────────────────────────────┘
@@ -78,9 +78,9 @@ working/source_intake/packets/<packet_id>.json
     │              │                   │
     ▼ pass /        ▼ rework            ▼ reject
     pass_with_flags │                   │
-    │               │ retorno           │ sin proceso downstream
-    │               │ [path no espec.]  │ working/data_extraction/rejected_archive/
-    │               ✗                  ✗  (INFERIDO — no declarado en contrato)
+    │               │ retorno           │ working/data_extraction/rejected_archive/
+    │               │ [path no espec.]  │ (INFERIDO — no declarado en contrato)
+    │               ✗                  ✗
     ▼
 working/data_extraction/<record_id>.json
   [28 campos requeridos por Extraction Record]
@@ -122,8 +122,8 @@ working/data_extraction/<record_id>.json
     ┌────┼────────────────────────────────────┐
     │    │                                    │
     ▼    ▼ preserve_as_isolated_signal        ▼ return_to_signal_rework /
-    │    │   isolated_signals.json             │   reject_from_inventory_input
-    │    │   [PATH NO ESPECIFICADO]            │   [PATH NO ESPECIFICADO]
+    │    │   [PATH NO ESPECIFICADO]            │   reject_from_inventory_input
+    │    │                                    │   [PATH NO ESPECIFICADO]
     │    ✗ (guardado, no activo en IM)        ✗
     ▼
   pass_to_inventory_mapping
@@ -274,7 +274,7 @@ Todos los campos del shard son producidos por el agente de investigación siguie
 | Formato | JSON per `upstream/data-extraction/schemas/data_extraction_record.schema.json` |
 | Path | **No declarado en contrato**. Inferido como `working/data_extraction/` por estructura de directorio existente |
 | Campos required (28) | `extraction_id`, `source_packet_id`, `source_id`, `source_type`, `source_title`, `source_ref`, `source_date_if_available`, `author_or_actor_if_available`, `snippet_primary`, `snippet_context_before`, `snippet_context_after`, `claim_type`, `subject_exact`, `actor_level`, `platforms`, `product_type_if_explicit`, `metric_type`, `metric_value_raw`, `metric_unit`, `time_scope_raw`, `time_scope_normalized_if_safe`, `geography_if_explicit`, `evidence_role`, `local_qualifiers`, `uncertainties`, `parser_notes`, `signal_type`, `traceability_pointer` — schema líneas 8–37 |
-| Divergencia contrato/schema | El contrato Section 6 lista 25 campos; el schema requiere 28. `source_packet_id` y `signal_type` aparecen en `required[]` del schema pero están ausentes de la lista del contrato |
+| Divergencia contrato/schema | El contrato Sección 6 lista 25 campos; el schema requiere 28. `source_packet_id` y `signal_type` aparecen en `required[]` del schema pero están ausentes de la lista del contrato |
 | Estado actual | `working/data_extraction/` contiene solo `rejected_archive/` vacío — fase no iniciada |
 
 #### Gates de validación
@@ -284,9 +284,9 @@ Todos los campos del shard son producidos por el agente de investigación siguie
 | Validador | `upstream/data-extraction/contracts/data_extraction_validator.md` |
 | Checks (13) | `traceability`, `subject_exact`, `actor_level`, `claim_type`, `metric_and_unit`, `time_scope`, `evidence_role`, `qualifiers`, `uncertainties`, `no_cross_source_synthesis`, `single_claim_boundary`, `claim_snippet_token_alignment`, `notes_locality` |
 | Statuses (4) | `pass`, `pass_with_flags`, `rework`, `reject` — **sin `parking_lot`**, a diferencia del Source Intake Validator |
-| Failure codes (19) | `source_not_traceable`, `subject_exact_lost`, `actor_level_collapsed`, `metric_type_mixed`, `time_scope_missing`, `qualifier_dropped`, `context_as_claim`, `cross_source_synthesis_smuggled`, `multiple_claims_fused`, `evidence_role_unclear`, `source_type_unclear`, `net_vs_gross_collapsed`, `checkout_vs_payout_collapsed`, `platform_vs_seller_level_collapsed`, `claim_type_interpretive`, `metric_unit_invented`, `normalized_time_unsafe`, `uncertainty_hidden`, `claim_tokens_not_in_snippet_primary`, `notes_interpretive_content` — schema líneas 79–99 (20 valores en schema; contrato lista 19 sin `notes_interpretive_content` por separado) |
+| Failure codes | Schema: 20 (`data_extraction_validator.schema.json` líneas 79–99); Contrato: 19 — `notes_interpretive_content` aparece en schema pero no listado por separado en contrato (divergencia reportada en Sección 5) |
 | Destino de rejects | `working/data_extraction/rejected_archive/validator/` (INFERIDO — existe vacío; no declarado en contrato) |
-| Destino de rework | Path no especificado en contrato |
+| Destino de rework | Path no especificado en contrato; `working/data_extraction/rejected_archive/extraction/` existe vacío (convención inferida) |
 | Schema de resultado | `upstream/data-extraction/schemas/data_extraction_validator.schema.json` |
 
 #### Campos de juicio humano
@@ -323,7 +323,7 @@ Todos los campos del shard son producidos por el agente de investigación siguie
 |-------|---------|
 | Formato | JSON per `upstream/signal-extraction/schemas/signal_card.schema.json` |
 | Path | **No especificado en contrato ni schema**. No existe directorio `working/signal_extraction/` en el repo |
-| Campos required (23) | `signal_id`, `source_record_ids[]`, `source_ids[]`, `round`, `signal_text`, `signal_type`, `subject_exact`, `actor_level`, `platforms`, `product_type_if_explicit`, `metric_type`, `metric_value_raw`, `metric_unit`, `time_scope_raw`, `time_scope_normalized_if_safe`, `geography_if_explicit`, `evidence_role`, `local_qualifiers[]`, `uncertainties[]`, `traceability_pointers[]`, `normalization_notes[]`, `extraction_notes[]` — schema líneas 8–31 |
+| Campos required (22) | `signal_id`, `source_record_ids[]`, `source_ids[]`, `round`, `signal_text`, `signal_type`, `subject_exact`, `actor_level`, `platforms`, `product_type_if_explicit`, `metric_type`, `metric_value_raw`, `metric_unit`, `time_scope_raw`, `time_scope_normalized_if_safe`, `geography_if_explicit`, `evidence_role`, `local_qualifiers[]`, `uncertainties[]`, `traceability_pointers[]`, `normalization_notes[]`, `extraction_notes[]` — schema líneas 8–31 |
 | Patrón de signal_id | `^SC-R\d+-\d+$` p.ej. `SC-R1-001` (schema líneas 33–37) |
 | `signal_type` enum (12) | `policy_signal`, `pricing_signal`, `availability_signal`, `seller_outcome_signal`, `buyer_experience_signal`, `discoverability_signal`, `traffic_signal`, `requirement_signal`, `review_signal`, `refund_signal`, `comparative_local_signal`, `unknown` — schema líneas 68–83 |
 
@@ -359,12 +359,12 @@ Todos los campos del shard son producidos por el agente de investigación siguie
 
 ## Sección 3 — Tabla resumen de gates
 
-| # | Fase | Gate | Contrato | Checks | Statuses posibles | Failure codes | Destino rejects | Destino rework |
-|---|------|------|----------|--------|-------------------|---------------|-----------------|----------------|
+| # | Fase | Gate | Contrato | Checks | Statuses posibles | Failure codes | Destino de rejects | Destino de rework |
+|---|------|------|----------|--------|-------------------|---------------|--------------------|-------------------|
 | 1 | 1a | Source Intake Validator | `upstream/source-intake/contracts/source_intake_validator.md` | 9 | pass, pass_with_flags, rework, parking_lot, reject | 14 (`source_intake_validation.schema.json` líneas 71–86) | No especificado en contrato | No especificado en contrato |
-| 2 | 1b | Data Extraction Validator | `upstream/data-extraction/contracts/data_extraction_validator.md` | 13 | pass, pass_with_flags, rework, reject *(sin parking_lot)* | 19 (`data_extraction_validator.schema.json` líneas 79–99) | `working/data_extraction/rejected_archive/validator/` (INFERIDO) | No especificado en contrato |
+| 2 | 1b | Data Extraction Validator | `upstream/data-extraction/contracts/data_extraction_validator.md` | 13 | pass, pass_with_flags, rework, reject *(sin parking_lot)* | Schema: 20; Contrato: 19 (`data_extraction_validator.schema.json` líneas 79–99) | `working/data_extraction/rejected_archive/validator/` (INFERIDO) | No especificado en contrato |
 | 3 | 2 | Signal Extraction Validator | `upstream/signal-extraction/contracts/signal_extraction_validator.md` | 11 | pass, pass_with_flags, rework, reject | 19 (`signal_validation.schema.json` líneas 96–116) | No especificado | No especificado |
-| 4 | 2 | Signal-to-Inventory Entry Gate | `upstream/signal-extraction/contracts/signal_to_inventory_entry_gate.md` | 8 | pass_to_inventory_mapping, preserve_as_isolated_signal, return_to_signal_rework, reject_from_inventory_input | 14 schema / 11 contrato *(divergencia — ver Sección 5)* | `rejected_signals.json` — PATH NO ESPECIFICADO | `rework_queue.json` — PATH NO ESPECIFICADO |
+| 4 | 2 | Signal-to-Inventory Entry Gate | `upstream/signal-extraction/contracts/signal_to_inventory_entry_gate.md` | 8 | pass_to_inventory_mapping, preserve_as_isolated_signal, return_to_signal_rework, reject_from_inventory_input | Schema: 14 / Contrato: 11 *(divergencia — ver Sección 5)* | `rejected_signals.json` — PATH NO ESPECIFICADO | `rework_queue.json` — PATH NO ESPECIFICADO |
 | 5 | IM | IM Entry Gate | `modules/01_entry_gate.md` | 5 | pass / fail (pipeline se detiene en fail) | No enumerados — se reportan card IDs específicos | Pipeline se detiene; IDs y violaciones reportados en `working/entry_gate/entry_gate_report.json` | N/A — no hay rework, solo pass o halt |
 
 **Nota:** El Gate 1 (Source Intake) es el único que incluye `parking_lot` como status. Los Gates 2, 3 y 4 usan únicamente 4 statuses. El Gate 5 (IM Entry Gate) opera en modo binario: pass o fail total del pipeline.
@@ -406,10 +406,10 @@ Signal Extraction produce Signal Cards en formato JSON (schema: `upstream/signal
 `upstream/data-extraction/contracts/data_extraction_contract.md` no declara dónde se escriben los Extraction Records. El directorio `working/data_extraction/` existe pero contiene únicamente `rejected_archive/` (vacío). El path se infiere de la estructura de directorios, no de un contrato.
 
 **4. Paths de destino para rework/parking_lot/reject en Source Intake no especificados.**
-`upstream/source-intake/contracts/source_intake_validator.md` describe las disposiciones `rework`, `parking_lot` y `reject` conceptualmente (Sección 7) pero no nombra ningún path de filesystem para sus artefactos. No se define ningún archivo de rework queue.
+`upstream/source-intake/contracts/source_intake_validator.md` describe las disposiciones `rework`, `parking_lot` y `reject` conceptualmente pero no nombra ningún path de filesystem para sus artefactos. No se define ningún archivo de rework queue.
 
 **5. Paths de destino para rework/reject en Data Extraction no especificados.**
-Mismo problema: `upstream/data-extraction/contracts/data_extraction_validator.md` describe las disposiciones sin especificar paths de output. `working/data_extraction/rejected_archive/extraction/` y `working/data_extraction/rejected_archive/validator/` existen vacíos — convención inferida, no declarada.
+`upstream/data-extraction/contracts/data_extraction_validator.md` describe las disposiciones sin especificar paths de output. `working/data_extraction/rejected_archive/extraction/` y `working/data_extraction/rejected_archive/validator/` existen vacíos — convención inferida, no declarada.
 
 **6. Paths de artefactos opcionales del Signal-to-IM Entry Gate no especificados.**
 `upstream/signal-extraction/contracts/signal_to_inventory_entry_gate.md` Sección 3 lista cuatro artefactos opcionales (`entry_gate_report.json`, `isolated_signals.json`, `rework_queue.json`, `rejected_signals.json`) sin asignarles ningún path de filesystem.
@@ -421,26 +421,35 @@ Tanto `upstream/data-extraction/contracts/data_extraction_validator.md` (líneas
 `upstream/data-extraction/contracts/data_extraction_contract.md` Sección 6 lista 25 campos para el Extraction Record. `upstream/data-extraction/schemas/data_extraction_record.schema.json` líneas 8–37 requiere 28 campos en `required[]`. Los campos `source_packet_id` y `signal_type` aparecen en el schema `required[]` pero están ausentes de la lista del contrato. No existe nota de reconciliación.
 
 **9. Divergencia entre contrato y schema en Signal-to-IM Gate — count de failure reasons.**
-`upstream/signal-extraction/contracts/signal_to_inventory_entry_gate.md` Sección 7 (líneas 278–292) enumera 11 failure reasons. `upstream/signal-extraction/schemas/signal_inventory_gate.schema.json` líneas 94–109 enumera 14 — los valores `not_pattern_ready`, `isolated_but_valid` y `recoverable_signal_structure_problem` aparecen en el schema pero están ausentes de la sección de failure reasons del contrato.
+`upstream/signal-extraction/contracts/signal_to_inventory_entry_gate.md` Sección 7 (líneas 278–292) enumera 11 failure reasons. `upstream/signal-extraction/schemas/signal_inventory_gate.schema.json` líneas 94–109 enumera 14 — los valores adicionales aparecen en el schema pero están ausentes de la sección de failure reasons del contrato.
+
+**10. Part 3 (Pattern candidates) — handling downstream no declarado.**
+Los shards producen Part 3 (pattern candidates, sellado). El contrato `reference/research_directions_protocol.md` línea 85 dice que Part 3 está sellado y no se parsea. Ningún contrato del pipeline downstream (Source Intake, Data Extraction, Signal Extraction) menciona qué ocurre con el contenido de Part 3. No existe proceso ni artefacto documentado para este material.
 
 ### Archivos activos en el repo no incluidos en la lista de referencia
 
-**10. `/home/user/Inventory-Mapping/section1_flow_map.md`**
+**11. `section1_flow_map.md`**
 Archivo de arquitectura en español ubicado en la raíz del repo. Cubre el pipeline interno de Inventory Mapping (Módulos 01–06), no el pipeline upstream. Contiene datos de ejecución específicos (referencia a 74 TCs, 1,561 cards — diverge de `modules/01_entry_gate.md` línea 9 que declara 1,560 cards). No está referenciado en ningún índice ni instrucción de referencia del repo.
 
-**11. `working/data_gathering/diagnostics/qa_notes/policy_etsy_fees_v1_qa.json` y `reddit_buyer_pain_planners_v1_qa.json`**
+**12. `reference/TC-001.md`**
+Archivo en el directorio `reference/` no incluido en la lista de referencia proporcionada. Su nombre sugiere un test case o contrato. No fue leído para este mapeo.
+
+**13. `reference/protocol_canonical.md`**
+Mencionado en `CLAUDE.md` como la fuente autoritativa máxima del proyecto. No incluido en la lista de referencia de la tarea. No fue leído para este mapeo.
+
+**14. `working/data_gathering/diagnostics/qa_notes/policy_etsy_fees_v1_qa.json` y `reddit_buyer_pain_planners_v1_qa.json`**
 Archivos de output QA activos para los dos shards `gpt_custom`. No están referenciados en ningún contrato ni instrucción de pipeline.
 
-**12. `working/data_extraction/rejected_archive/extraction/` y `working/data_extraction/rejected_archive/validator/`**
+**15. `working/data_extraction/rejected_archive/extraction/` y `working/data_extraction/rejected_archive/validator/`**
 Directorios vacíos cuya convención de nombres implica una ruta de almacenamiento para artefactos rechazados de Data Extraction, pero esta ruta no está declarada en ningún contrato.
 
-**13. `working/source_intake/rejected_archive/`**
+**16. `working/source_intake/rejected_archive/`**
 Directorio vacío con la misma observación: convención de naming no declarada en contrato de Source Intake.
 
 ### Ambigüedades sin resolver
 
-**14. Ausencia de Part 4 en shards gpt_custom.**
+**17. Ausencia de Part 4 en shards gpt_custom.**
 Los 13 archivos en `working/data_gathering/diagnostics/part_4/` provienen únicamente de `DX-2_gumroad_v2` (deep_search). Los dos shards gpt_custom (`policy_etsy_fees_v1`, `reddit_buyer_pain_planners_v1`) no tienen archivos Part-4 ni Part-2 en `working/`. Si esto refleja el contenido de los shards (todos sus findings son `direct_verified`) o un comportamiento del parser no puede determinarse sin leer los archivos fuente directamente.
 
-**15. Discrepancia en conteo de cards entre `section1_flow_map.md` y `modules/01_entry_gate.md`.**
+**18. Discrepancia en conteo de cards entre `section1_flow_map.md` y `modules/01_entry_gate.md`.**
 `modules/01_entry_gate.md` línea 9 declara "1,560 cards expected". `section1_flow_map.md` línea 5 (archivo activo no en lista de referencia) menciona 1,561 cards. La fuente autoritativa según `CLAUDE.md` es `modules/*.md`, por lo que 1,560 es el valor canónico — pero la discrepancia se registra sin resolverla.
