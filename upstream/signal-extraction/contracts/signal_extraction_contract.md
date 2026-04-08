@@ -102,7 +102,6 @@ Cada **Signal Card** debe contener, como mínimo:
 - `source_ids[]`
 - `round`
 - `signal_text`
-- `signal_type`
 - `subject_exact`
 - `actor_level`
 - `platforms`
@@ -165,27 +164,6 @@ Si para redactarla necesitas hablar de:
 - “la mayoría”
 
 ya saliste de fase.
-
----
-
-## 8. Signal types
-
-Valores sugeridos para `signal_type`:
-
-- `policy_signal`
-- `pricing_signal`
-- `availability_signal`
-- `seller_outcome_signal`
-- `buyer_experience_signal`
-- `discoverability_signal`
-- `traffic_signal`
-- `requirement_signal`
-- `review_signal`
-- `refund_signal`
-- `comparative_local_signal`
-- `unknown`
-
-Esto sirve para tipar localmente, no para construir tensiones.
 
 ---
 

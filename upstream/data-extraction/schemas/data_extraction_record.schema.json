@@ -32,8 +32,7 @@
     "local_qualifiers",
     "uncertainties",
     "parser_notes",
-    "traceability_pointer",
-    "signal_type"
+    "traceability_pointer"
   ],
   "properties": {
     "extraction_id": {
@@ -357,19 +356,6 @@
         "type": "string"
       },
       "description": "Implementation or parsing notes. Never strategic interpretation."
-    },
-    "signal_type": {
-      "type": "string",
-      "enum": [
-        "user_quote",
-        "metric",
-        "product_fact",
-        "complaint",
-        "problem_query",
-        "behavior_report",
-        "gap"
-      ],
-      "description": "Structural label classifying the form of the observational unit. See data_gathering_project_instructions_v4_5.md Rule 4 for full enum definition and forbidden values."
     },
     "traceability_pointer": {
       "type": "object",

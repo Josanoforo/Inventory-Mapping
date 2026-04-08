@@ -20,31 +20,7 @@ Per-run controls (platform, directions, allowed source_types per direction, requ
 
 3. **No cross-source synthesis.** No "sources agree," "patterns across findings," "key takeaways," or summary paragraphs. If synthesis appears, place it only in Part 3: Pattern candidates (sealed).
 
-4. **Every finding must include:** What, Verbatim snippet, Source, source_type, verification_status, Date, Signal type, Notes.
-
-### signal_type — closed enum
-
-`signal_type` is a structural label that classifies the form of the observational unit a finding contains. It does not interpret meaning, importance, or strength. It only describes what kind of unit is being captured.
-
-Closed list. Use exactly one value per finding.
-
-- `user_quote` — a first-person statement from a seller, buyer, user, or other named voice in their own words
-- `metric` — a numerical data point or quantitative claim (revenue, fees, counts, percentages, time durations, etc.)
-- `product_fact` — a stated fact or change about a product, platform, feature, or policy
-- `complaint` — an explicit expression of dissatisfaction, friction, or problem
-- `problem_query` — a search, question, or formulation of a problem someone is trying to solve
-- `behavior_report` — a description of an action, workflow, workaround, or behavioral pattern
-- `gap` — an absence finding (used only with the absence finding format below)
-
-**Forbidden values.** `signal_type` must never carry interpretive labels. The following values and any variant of them are prohibited because they import meaning the finding does not establish:
-
-- `high_pain`, `low_pain`, or any pain-strength variant
-- `important_trend`, `emerging_trend`, or any trend-strength variant
-- `strong_demand`, `weak_demand`, or any demand-strength variant
-- `market_opportunity`, `business_case`, or any opportunity variant
-- `clear_tension`, `unresolved_tension`, or any tension variant
-
-If you find yourself wanting to use a value not in the closed list, the finding likely needs better classification at one of the other fields (What, source_type, evidence role downstream) — not a new signal_type.
+4. **Every finding must include:** What, Verbatim snippet, Source, source_type, verification_status, Date, Notes.
 
 5. **Verbatim snippet must be copied character-for-character.** No paraphrase. If the source is a pricing card, table, FAQ card, or structured layout, use the Type B layout format (see Snippet format).
 
@@ -165,7 +141,6 @@ If you searched and found nothing, report as:
 - **source_type:** `unknown`
 - **verification_status:** `could_not_verify`
 - **Date:** search date
-- **Signal type:** `gap`
 - **Notes:** searched locations only
 
 ---

@@ -215,12 +215,6 @@ No references to prior shards. No cross-subject comparisons.
 ## Qualifiers to preserve
 [List — timeframes, units, thresholds, scope restrictions]
 
-## Required finding fields
-Every finding must declare signal_type from the closed enum defined in Rule 4 of data_gathering_project_instructions_v4_5.md:
-user_quote, metric, product_fact, complaint, problem_query, behavior_report, gap.
-
-Pick exactly one. If unsure between two, prefer the more concrete (metric over user_quote when a number is present; complaint over user_quote when dissatisfaction is explicit; behavior_report over user_quote when an action is described). Never use interpretive labels like high_pain, strong_demand, market_opportunity, etc.
-
 ## Finding ID convention
 
 Each finding declares an ID at the section header. Use one of three patterns based on which Part the finding belongs to:
