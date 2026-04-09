@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Josanoforo/Inventory-Mapping/schemas/converter_prepare_manifest.schema.json",
+  "title": "Converter Prepare Manifest",
+  "description": "Manifest written by scripts/converter_prepare.py (Converter stage 1). Tracks skeleton batch production from Data Gathering findings, with checkpoint for resumption and closed vocabulary for issues.",
+  "type": "object",
+  "required": [
+    "status",
+    "findings_read",
+    "unique_urls",
+    "total_skeletons",
+    "skeletons_written",
+    "batches_written",
+    "batch_size",
+    "last_batch_written",
+    "issues",
+    "input_fingerprint",
+    "started_at",
+    "completed_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in_progress", "complete", "failed"],
+      "description": "Current state of the stage 1 run. 'pending' is initial, 'in_progress' means batches are being written, 'complete' means all skeletons are written and input fingerprint is stable, 'failed' means the run stopped with an unrecoverable error."
+    },
+    "findings_read": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of valid findings successfully read from the input directory. Excludes findings that failed initial validation (those go to issues[])."
+    },
+    "unique_urls": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of distinct normalized URLs across all valid findings, before shard-based grouping."
+    },
+    "total_skeletons": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of Source Packet skeletons that will be produced. Equal to the number of unique (shard_id, normalized_url) combinations."
+    },
+    "skeletons_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of skeletons actually written to disk so far. Updated after each batch completes."
+    },
+    "batches_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of batches successfully written to disk."
+    },
+    "batch_size": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of skeletons per batch. Fixed for the duration of a run; changing it requires starting fresh."
+    },
+    "last_batch_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of the last batch written to disk. Used for resumption: on restart, processing continues from last_batch_written + 1."
+    },
+    "issues": {
+      "type": "array",
+      "description": "Non-fatal issues encountered during the run. Findings that trigger issues are either skipped (read errors) or processed with a note (conflicts, multi-shard URLs). The run continues regardless.",
+      "items": {
+        "type": "object",
+        "required": ["issue_type", "detail"],
+        "additionalProperties": false,
+        "properties": {
+          "finding_id": {
+            "type": ["string", "null"],
+            "description": "ID of the finding that triggered the issue, or null if the issue applies to a group or to the run as a whole (e.g., multi_shard_url)."
+          },
+          "issue_type": {
+            "type": "string",
+            "enum": [
+              "json_parse_error",
+              "required_field_missing",
+              "snippet_missing",
+              "url_missing",
+              "invalid_source_type",
+              "grouping_conflict",
+              "date_invalid",
+              "multi_shard_url"
+            ],
+            "description": "Closed vocabulary of issue types. Any new issue type must be added to this enum before the script can register it."
+          },
+          "detail": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Human-readable description of the issue, specific enough that an operator can act on it."
+          }
+        }
+      }
+    },
+    "input_fingerprint": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hex digest computed from sorted finding filenames and file sizes. Detects changes to the input directory between runs. If the fingerprint changes, the script refuses to resume and requires manual cleanup."
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp with timezone, recorded when the run first started. Preserved across resumptions."
+    },
+    "completed_at": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "ISO 8601 timestamp with timezone, recorded when the run finished successfully. Null while the run is in progress or failed."
+    }
+  }
+}
