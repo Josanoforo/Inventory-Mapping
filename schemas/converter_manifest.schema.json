@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Josanoforo/Inventory-Mapping/schemas/converter_manifest.schema.json",
+  "title": "Converter Manifest (Stage 2)",
+  "description": "Manifest written by the convert-findings skill (Converter stage 2). Tracks per-skeleton processing with skeleton-level checkpointing, destination routing, and closed vocabulary for issues. Read by the skill on startup to resume from the last unprocessed skeleton.",
+  "type": "object",
+  "required": [
+    "status",
+    "stage_1_manifest_path",
+    "conversion_template_path",
+    "source_packet_schema_path",
+    "total_skeletons",
+    "skeletons_processed",
+    "packets_written",
+    "recovery_staged",
+    "needs_human_review_count",
+    "processed_skeletons",
+    "skeleton_failures",
+    "stage_1_fingerprint",
+    "started_at",
+    "completed_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "in_progress",
+        "complete",
+        "failed",
+        "blocked_by_stage_1_incomplete"
+      ],
+      "description": "Current state of the stage 2 run. 'pending' is the initial state before any skeleton is processed. 'in_progress' means skeletons are being processed. 'complete' means all skeletons from stage 1 have been routed to either packets/ or source_intake_gpt_recovery/. 'failed' means the run stopped with an unrecoverable error and requires manual intervention. 'blocked_by_stage_1_incomplete' means stage 2 started but detected that stage 1 is not complete and exited without processing anything."
+    },
+    "stage_1_manifest_path": {
+      "type": "string",
+      "description": "Path to the stage 1 manifest that was consumed by this run. Recorded so the operator can trace which stage 1 output produced which stage 2 output."
+    },
+    "conversion_template_path": {
+      "type": "string",
+      "description": "Path to the conversion template that the skill used as reference. Recorded for auditability: if the template changes in the future, this field identifies which version of the template produced these packets."
+    },
+    "source_packet_schema_path": {
+      "type": "string",
+      "description": "Path to the Source Packet schema used for validation. Recorded for auditability."
+    },
+    "total_skeletons": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of skeletons in the input (read from the stage 1 manifest). Equal to skeletons_processed + remaining unprocessed skeletons."
+    },
+    "skeletons_processed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of skeletons that have been processed so far. Equal to the length of processed_skeletons plus the length of skeleton_failures. Updated after each skeleton completes."
+    },
+    "packets_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of packets successfully validated and written to working/source_intake/packets/. Subset of skeletons_processed."
+    },
+    "recovery_staged": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of packets that failed validation and were staged to working/source_intake/source_intake_gpt_recovery/. Subset of skeletons_processed."
+    },
+    "needs_human_review_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of packets that were written to packets/ but are flagged as needing human review (4+ uncertainties or high-severity uncertainty). This is a subset of packets_written, not a separate destination."
+    },
+    "processed_skeletons": {
+      "type": "array",
+      "description": "Per-skeleton record of what happened. Grows by one entry each time a skeleton is processed. Used for resumption: on restart, any skeleton already in this list is skipped. Only contains skeletons that had valid structure and were processed to completion (either written to packets/ or routed to recovery). Skeletons that failed initial structure validation go to skeleton_failures instead.",
+      "items": {
+        "type": "object",
+        "required": [
+          "packet_id",
+          "destination",
+          "issues_for_this_packet",
+          "processed_at"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "packet_id": {
+            "type": "string",
+            "description": "The packet_id as assigned by stage 1. Format: SP-<shard_id>-<NNN>."
+          },
+          "destination": {
+            "type": "string",
+            "enum": [
+              "packets",
+              "source_intake_gpt_recovery"
+            ],
+            "description": "Where this packet was written. 'packets' means it passed validation and is in working/source_intake/packets/. 'source_intake_gpt_recovery' means it failed validation and is staged for GPT recovery."
+          },
+          "issues_for_this_packet": {
+            "type": "array",
+            "description": "Issue types registered for this specific packet during processing. Empty array if the packet was processed cleanly. May contain multiple entries if several issues apply (e.g., template_case_uncovered and needs_human_review).",
+            "items": {
+              "type": "string",
+              "enum": [
+                "template_case_uncovered",
+                "needs_human_review",
+                "schema_validation_failed",
+                "required_field_unfillable",
+                "multiple_required_fields_unfillable",
+                "multiple_uncertainties_high_severity"
+              ]
+            }
+          },
+          "processed_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp with timezone when this skeleton finished processing."
+          }
+        }
+      }
+    },
+    "skeleton_failures": {
+      "type": "array",
+      "description": "Skeletons that failed pre-processing validation and never became packets. These are structural failures of the skeleton file itself (missing mechanical fields, malformed JSON). They do not appear in processed_skeletons because they never reached the judgment-filling stage.",
+      "items": {
+        "type": "object",
+        "required": [
+          "skeleton_filename",
+          "issue_type",
+          "detail",
+          "failed_at"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "skeleton_filename": {
+            "type": "string",
+            "description": "Filename of the skeleton that failed (not packet_id, because the skeleton never became a packet)."
+          },
+          "issue_type": {
+            "type": "string",
+            "enum": [
+              "skeleton_invalid"
+            ],
+            "description": "Only one issue type applies to skeleton failures at this stage: skeleton_invalid. If new failure modes arise, add them to this enum before the skill can register them."
+          },
+          "detail": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Human-readable description of why the skeleton failed (e.g., 'Missing mechanical field: source_ref', 'JSON parse error at line 42')."
+          },
+          "failed_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp with timezone when the failure was detected."
+          }
+        }
+      }
+    },
+    "stage_1_fingerprint": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hex digest computed from the sorted filenames and sizes of all skeleton files in working/source_intake/skeleton_batches/. Recorded so that if stage 1 is re-run (producing different skeletons), stage 2 can detect the change on restart and refuse to resume against a different input set."
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp with timezone, recorded when the run first started. Preserved across resumptions."
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time",
+      "description": "ISO 8601 timestamp with timezone, recorded when the run finished successfully with status='complete'. Null while the run is in progress, failed, or blocked."
+    }
+  }
+}
