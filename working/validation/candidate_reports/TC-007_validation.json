@@ -1,0 +1,23 @@
+{
+  "candidate_id": "TC-007",
+  "passed": true,
+  "checks": [
+    {"check": "signal_ids_verified", "passed": true, "detail": ""},
+    {"check": "candidate_generation_rules", "passed": true, "detail": ""},
+    {"check": "corpus_term_polos", "passed": true, "detail": ""},
+    {"check": "units_declared", "passed": true, "detail": "Polo A declares 'tarifa porcentual de plataforma (%), cargo fijo por transacción (USD) declarado solo en SC-R1-005'; Polo B declares 'tarifa porcentual total (%), desglosada como: tarifa Gumroad (%) más tarifa de tienda de apps (%) en SC-R1-036 y SC-R1-038'. Mixed units explicitly declared."},
+    {"check": "supports_distinction", "passed": true, "detail": ""},
+    {"check": "rejected_groupings_exist", "passed": true, "detail": ""},
+    {"check": "coverage_gaps_reported", "passed": true, "detail": ""},
+    {"check": "mechanical_language", "passed": true, "detail": ""},
+    {"check": "type_matches_relation", "passed": true, "detail": ""},
+    {"check": "signal_ids_source_verified", "passed": true, "detail": "Spot-checked SC-R1-005 (found: pricing page, 10% + $0.50), SC-R1-006 (found: pricing page, 30% Discover fee), SC-R1-044 (found: blog, 8%-20% effective fee range). All three confirmed in round_1.md."},
+    {"check": "human_fields_empty", "passed": true, "detail": ""},
+    {"check": "schema_valid", "passed": true, "detail": ""},
+    {"check": "mechanical_summary_not_definition", "passed": true, "detail": ""},
+    {"check": "unit_used_specific", "passed": true, "detail": ""},
+    {"check": "what_it_supports_not_template", "passed": true, "detail": ""},
+    {"check": "card_polo_relevance", "passed": true, "detail": "TC-007 has 8 Signal IDs, below the >15 threshold. Check not applicable; passes by default."}
+  ],
+  "timestamp": "2026-04-10T00:00:00Z"
+}

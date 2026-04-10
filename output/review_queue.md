@@ -4,29 +4,29 @@ All tension candidates produced in Module 05 (Candidate Builder), Round 1.
 
 | TC ID | Type | Status | Signal IDs count | Source patterns | Validation |
 |-------|------|--------|-----------------|-----------------|------------|
-| TC-002 | contradicción | needs_audit_before_classification | 3 | CONT-001 | pending |
-| TC-003 | contradicción | pending_review | 2 | CONT-002 | pending |
-| TC-004 | contradicción | pending_review | 3 | CONT-003 | pending |
-| TC-005 | contradicción | pending_review | 3 | CONT-004 | pending |
-| TC-006 | asimetría distributiva | pending_review | 7 | ASYM-001 | pending |
-| TC-007 | asimetría distributiva | pending_review | 8 | ASYM-002 + COOC-002 (merge) | pending |
-| TC-008 | asimetría distributiva | pending_review | 5 | ASYM-003 | pending |
-| TC-009 | asimetría distributiva | needs_audit_before_classification | 2 | ASYM-004 | pending |
-| TC-010 | asimetría distributiva | needs_audit_before_classification | 3 | ASYM-005 | pending |
-| TC-011 | fricción | pending_review | 5 | FRIC-001 + COOC-001 (merge) | pending |
-| TC-012 | fricción | pending_review | 4 | FRIC-002 | pending |
-| TC-013 | fricción | needs_audit_before_classification | 2 | FRIC-003 | pending |
-| TC-014 | fricción | needs_audit_before_classification | 2 | FRIC-004 | pending |
-| TC-015 | fricción | pending_review | 3 | FRIC-005 | pending |
-| TC-016 | fricción | pending_review | 4 | FRIC-006 | pending |
-| TC-017 | co-ocurrencia significativa | pending_review | 6 | COOC-003 | pending |
-| TC-018 | co-ocurrencia significativa | pending_review | 10 | COOC-005 | pending |
-| TC-019 | dirección opuesta | pending_review | 6 | OPPO-001 | pending |
-| TC-020 | dirección opuesta | pending_review | 7 | OPPO-002 | pending |
-| TC-021 | dirección opuesta | pending_review | 7 | OPPO-003 | pending |
-| TC-022 | dirección opuesta | pending_review | 6 | OPPO-004 | pending |
-| TC-023 | dirección opuesta | pending_review | 6 | OPPO-005 | pending |
-| TC-024 | fricción | needs_audit_before_classification | 3 | LEX-007 | pending |
+| TC-002 | contradicción | needs_audit_before_classification | 3 | CONT-001 | pass |
+| TC-003 | contradicción | pending_review | 2 | CONT-002 | pass |
+| TC-004 | contradicción | pending_review | 3 | CONT-003 | pass |
+| TC-005 | contradicción | pending_review | 3 | CONT-004 | pass |
+| TC-006 | asimetría distributiva | pending_review | 7 | ASYM-001 | pass |
+| TC-007 | asimetría distributiva | pending_review | 8 | ASYM-002 + COOC-002 (merge) | pass |
+| TC-008 | asimetría distributiva | pending_review | 5 | ASYM-003 | pass |
+| TC-009 | asimetría distributiva | needs_audit_before_classification | 2 | ASYM-004 | pass |
+| TC-010 | asimetría distributiva | needs_audit_before_classification | 3 | ASYM-005 | pass |
+| TC-011 | fricción | pending_review | 5 | FRIC-001 + COOC-001 (merge) | pass |
+| TC-012 | fricción | pending_review | 4 | FRIC-002 | pass |
+| TC-013 | fricción | needs_audit_before_classification | 2 | FRIC-003 | pass |
+| TC-014 | fricción | needs_audit_before_classification | 2 | FRIC-004 | pass |
+| TC-015 | fricción | pending_review | 3 | FRIC-005 | pass |
+| TC-016 | fricción | pending_review | 4 | FRIC-006 | pass |
+| TC-017 | co-ocurrencia significativa | pending_review | 6 | COOC-003 | pass |
+| TC-018 | co-ocurrencia significativa | pending_review | 10 | COOC-005 | pass |
+| TC-019 | dirección opuesta | pending_review | 6 | OPPO-001 | pass |
+| TC-020 | dirección opuesta | pending_review | 7 | OPPO-002 | pass |
+| TC-021 | dirección opuesta | pending_review | 7 | OPPO-003 | pass |
+| TC-022 | dirección opuesta | pending_review | 6 | OPPO-004 | pass |
+| TC-023 | dirección opuesta | pending_review | 6 | OPPO-005 | pass |
+| TC-024 | fricción | needs_audit_before_classification | 3 | LEX-007 | pass |
 
 **Total TCs: 23** (TC-002 through TC-024)
 
