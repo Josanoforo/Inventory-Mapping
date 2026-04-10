@@ -1,6 +1,6 @@
 # Signal Cards — Round 1
 
-Total cards: 75
+Total cards: 76
 
 ---
 
@@ -534,7 +534,23 @@ Evidence base: official_policy
 
 **SC-R1-034**
 
-Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy, and that customers can additionally issue chargebacks at any time through their credit card.
+Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy.
+
+Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
+
+Date: within 90 days of purchase
+
+Source type: help_center
+
+Domain: market
+
+Evidence base: official_policy
+
+---
+
+**SC-R1-076**
+
+Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that customers can issue chargebacks at any time through their credit card.
 
 Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
 
@@ -934,7 +950,7 @@ Evidence base: seller_self_claim
 
 **SC-R1-059**
 
-Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review at the top of a product page degrades buyer trust.
+Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review appears at the top of a product page.
 
 Source: https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me
 
