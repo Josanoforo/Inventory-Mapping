@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-044",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-006-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-006"],
+  "round": 1,
+  "signal_text": "A blog post (source date unclear, content references 2025) states that the author observed an effective fee range of 8% to 20% on Gumroad sales depending on price point and country, from an unnamed combination of fees.",
+  "subject_exact": "Author-observed effective fee range (8%-20%) on Gumroad sales depending on price point and country",
+  "actor_level": "source",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "8% to 20%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": ["anywhere from 8% to 20%", "depending on price point and country"],
+  "uncertainties": ["context_insufficient", "source_date_unclear", "subject_ambiguity", "net_vs_gross_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/@RiseLogan/gumroad-in-2025-fees-features-and-better-alternatives-fef48cecb31d",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-006-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-006"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'This combination' refers to unnamed fees not visible in snippet — context_before is null. Range 8%-20% is author-observed, not official. 'Price point and country' as variables mentioned but not quantified. Unclear whether fee base is gross sale amount or net."]
+}

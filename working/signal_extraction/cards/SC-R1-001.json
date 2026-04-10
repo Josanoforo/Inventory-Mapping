@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-001",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-001-SNP-001"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-001"],
+  "round": 1,
+  "signal_text": "Gumroad's features page describes the platform as a powerful but simple e-commerce platform that enables selling digital services such as books, memberships, and courses directly to an audience.",
+  "subject_exact": "Gumroad platform self-description as e-commerce platform for digital product sales",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/features",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-001-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-001"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Snippet is platform self-description from features page. No metric present. Product types listed (books, memberships, courses) are examples, not exhaustive specification."]
+}

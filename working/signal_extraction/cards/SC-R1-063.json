@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-063",
+  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-001-SNP-001"],
+  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-001"],
+  "round": 1,
+  "signal_text": "A Gumroad Discover search results page (accessed April 2026) for the 3D Character Design subcategory displayed 75 products sorted by hot_and_new, with filter options including tags (e.g., ffxiv with 34 products), file types (e.g., zip with 31), and a Show NSFW toggle.",
+  "subject_exact": "Gumroad Discover 3D Character Design subcategory product count (75 products) and filter/sort UI state",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "design_asset",
+  "metric_type": "sales_count",
+  "metric_value_raw": "75",
+  "metric_unit": "products",
+  "time_scope_raw": "Accessed April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": ["Showing 1-9 of 75 products", "sort=hot_and_new"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://discover.gumroad.com/3d/character-design?sort=hot_and_new",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-gumroad_d1_catalogo_dg_output-001-SNP-001",
+      "secondary_pointer": "SP-gumroad_d1_catalogo_dg_output-001"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Snapshot of search results page accessed April 2026. 75 products in 3D Character Design sorted by hot_and_new. Popular tags: ffxiv (34), ffxiv mod (34), ff14 (31). File types: zip (31), ttmp2 (25). NSFW toggle present. Page undated."]
+}

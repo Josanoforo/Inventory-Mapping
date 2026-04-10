@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-070",
+  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001"],
+  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-007"],
+  "round": 1,
+  "signal_text": "A Gumroad help center article (dated July 26, 2024) stated that products can be free or priced up to USD $5,000, and that sellers can enable pay-what-you-want pricing by adding a '+' to a product's minimum price.",
+  "subject_exact": "Gumroad product type options and maximum price cap (USD $5,000) with pay-what-you-want feature",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": ["ebook", "bundle", "unknown"],
+  "metric_type": "price",
+  "metric_value_raw": "$5,000",
+  "metric_unit": "USD",
+  "time_scope_raw": "July 26, 2024",
+  "time_scope_normalized_if_safe": "2024-07-26",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["as much as USD 5,000", "free or as much as"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/149-adding-a-product",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001",
+      "secondary_pointer": "SP-gumroad_d1_catalogo_dg_output-007"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Maximum product price cap is USD $5,000. Product types listed: digital product, course/tutorial, e-book (schema: ebook), memberships, physical goods, bundle, services. Pay-what-you-want noted as '$' + minimum. July 2024."]
+}

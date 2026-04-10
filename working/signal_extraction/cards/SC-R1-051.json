@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-051",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-013-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-013"],
+  "round": 1,
+  "signal_text": "A blog post (dated November 2, 2025) by a seller reported making approximately $21 in total sales within a week of starting on Gumroad, described as their first few sales.",
+  "subject_exact": "Seller-reported first sales on Gumroad within one week of starting (~$21 total)",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": ["first_sale", "revenue"],
+  "metric_value_raw": "$21",
+  "metric_unit": "USD",
+  "time_scope_raw": "Within a week",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["Within a week", "around $21 total", "first few sales"],
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/write-a-catalyst/how-i-started-making-money-on-gumroad-and-why-most-people-quit-too-early-df33cd913b8b",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-013-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-013"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'Around $21' is approximate. 'Within a week' is relative — start date not specified. 'First few sales' plural; count not given. Source November 2025."]
+}

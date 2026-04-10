@@ -1,0 +1,38 @@
+{
+  "signal_id": "SC-R1-062",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-025-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-025"],
+  "round": 1,
+  "signal_text": "A seller forum post (dated March 31, 2026) reported having 26 products on Gumroad with zero organic views and zero views from Gumroad Discover, with all views coming from the seller's own traffic, and attributed this to Gumroad Discover only showing products after a seller's first sale.",
+  "subject_exact": "Seller-reported zero organic Discover views across 26 Gumroad products, attributing cause to first-sale requirement before Discover eligibility",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": ["discoverability_claim", "activation_requirement"],
+  "metric_value_raw": "0",
+  "metric_unit": "organic views",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "26 products on gumroad",
+    "every single view came from my own traffic",
+    "gumroad discover only shows products after your first sale"
+  ],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-e9c4d8b629",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-025-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-025"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Seller reports Discover eligibility requires first sale — aligns with activation_requirement. 26 products, all with zero organic discovery traffic. 'Catch-22' framing not extracted as claim. March 2026."]
+}

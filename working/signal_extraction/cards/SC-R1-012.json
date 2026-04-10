@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-012",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-001"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-003"],
+  "round": 1,
+  "signal_text": "Gumroad's prohibited items policy page (last revised April 17, 2019) states that prohibited products and activities are disallowed almost always because they violate U.S. federal law, are prohibited by card network rules, or are restricted by payment processing partners.",
+  "subject_exact": "Gumroad prohibited items policy basis (US federal law, card network rules, payment processor restrictions)",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Last revised: April 17, 2019",
+  "time_scope_normalized_if_safe": "2019-04-17",
+  "geography_if_explicit": "U.S.",
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["almost always", "Last revised: April 17, 2019"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/prohibited",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-003"
+    }
+  ],
+  "normalization_notes": ["Date 'April 17, 2019' safely normalized to ISO 2019-04-17 from explicit text."],
+  "extraction_notes": ["Policy dated April 2019 — may be outdated relative to access date of April 2026. 'Almost always' qualifier signals exceptions may exist. US federal law cited as primary jurisdiction."]
+}

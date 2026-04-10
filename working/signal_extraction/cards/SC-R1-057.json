@@ -1,0 +1,35 @@
+{
+  "signal_id": "SC-R1-057",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-020-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-020"],
+  "round": 1,
+  "signal_text": "A blog post (accessed April 2026, undated) stated that a comparison between two platforms shows savings of 30 cents per sale and 5% on the fee, with the compared platforms not named in the snippet.",
+  "subject_exact": "Author-calculated savings of $0.30 per sale and 5% fee difference comparing two platforms (platforms not named in snippet)",
+  "actor_level": "source",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": ["context_insufficient", "source_date_unclear", "subject_ambiguity", "platform_scope_unclear"],
+  "needs_human_review": true,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://rhondaexplains.substack.com/p/payhip-vs-gumroad-which-platform",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-020-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-020"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'You can see' implies comparison shown in source page not visible in snippet. Which platform is compared to Gumroad is not stated in snippet. '$0.30 per sale' and '5%' savings are from an implied comparison. Payhip appears in source title but is not named in snippet itself. Source date unclear."]
+}

@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-056",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-018"],
+  "round": 1,
+  "signal_text": "A blog post (dated November 12, 2025) by a seller stated that in three years on Gumroad they made a grand total of $139.96.",
+  "subject_exact": "Seller-reported total Gumroad earnings of $139.96 over three years",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$139.96",
+  "metric_unit": "USD",
+  "time_scope_raw": "three years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["in three years on Gumroad", "grand total"],
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-018"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'Three years' not anchored to specific dates. Source November 2025 — approximate window 2022–2025. 'Grand total' suggests cumulative. Gross vs net ambiguous."]
+}

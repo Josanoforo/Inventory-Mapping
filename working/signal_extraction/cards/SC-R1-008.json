@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-008",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-004"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-002"],
+  "round": 1,
+  "signal_text": "Gumroad's pricing page states that since January 1, 2025, Gumroad handles all tax obligations for sellers, including worldwide sales tax collection and remittance.",
+  "subject_exact": "Gumroad tax collection and remittance responsibility as merchant of record beginning January 1, 2025",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Since January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01 onwards",
+  "geography_if_explicit": "worldwide",
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["Since January 1, 2025", "worldwide"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/pricing",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-004",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-002"
+    }
+  ],
+  "normalization_notes": ["Explicit date marker 'Since January 1, 2025' allows safe normalization to 2025-01-01 onwards."],
+  "extraction_notes": ["'worldwide' is stated explicitly in source snippet."]
+}

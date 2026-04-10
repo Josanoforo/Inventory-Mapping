@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-038",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-015-SNP-001"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-015"],
+  "round": 1,
+  "signal_text": "A Gumroad help center article on Gumroad Discover (dated July 22, 2024) states that to be eligible for the Discover mobile app, products cannot be free and cannot exceed $100 in sales price; all app sales are final with no refunds from Gumroad or sellers; refund requests for in-app purchases must go to Apple or Google; and there is a 40% fee for all in-app sales.",
+  "subject_exact": "Gumroad Discover mobile app eligibility requirements (price $0.01-$100), no-refund policy, and 40% in-app fee",
+  "actor_level": ["seller", "marketplace", "buyer"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": ["fee_rate", "price"],
+  "metric_value_raw": "40%",
+  "metric_unit": "percent",
+  "time_scope_raw": "July 22, 2024",
+  "time_scope_normalized_if_safe": "2024-07-22",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["cannot be free or have a sales price greater than $100", "All app sales are final", "not including credit card processing fees or PayPal fees"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/79-gumroad-discover",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-015-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-015"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Three distinct claims combined from same source passage: price eligibility range for Discover app, all-app-sales-final policy, and 40% fee rate. Refunds for in-app must go to Apple/Google, not Gumroad."]
+}

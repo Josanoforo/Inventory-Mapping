@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-034",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-012-SNP-001"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-012"],
+  "round": 1,
+  "signal_text": "A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy, and that customers can additionally issue chargebacks at any time through their credit card.",
+  "subject_exact": "Gumroad override of seller no-refund policy via discretionary refund right within 90 days to prevent chargebacks",
+  "actor_level": ["seller", "marketplace", "buyer"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "90",
+  "metric_unit": "days",
+  "time_scope_raw": "within 90 days of purchase",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["at its discretion", "to prevent chargebacks", "within 90 days of purchase"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/51-what-is-gumroads-refund-policy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-012-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-012"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Gumroad can override seller's stated no-refund policy. Separately, buyers can initiate chargebacks via credit card at any time regardless of seller policy. 'Anytime' qualifier for chargebacks noted — no time limit stated for chargebacks in snippet."]
+}

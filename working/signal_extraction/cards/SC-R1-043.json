@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-043",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-005-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-005"],
+  "round": 1,
+  "signal_text": "A blog post (dated January 29, 2026) reported that a seller's Gumroad digital products received a total of 7,068 views during 2025 (January through December).",
+  "subject_exact": "Single seller reported total product page views on Gumroad for calendar year 2025 (7,068 views)",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "7,068",
+  "metric_unit": "views",
+  "time_scope_raw": "During 2025, from January through December",
+  "time_scope_normalized_if_safe": "2025-01-01 to 2025-12-31",
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["During 2025, from January through December"],
+  "uncertainties": ["subject_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://lowcontentprofits.com/gumroad-digital-products-earnings",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-005-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-005"
+    }
+  ],
+  "normalization_notes": ["Time scope 'During 2025, from January through December' safely normalized to 2025-01-01 to 2025-12-31."],
+  "extraction_notes": ["7,068 views is traffic to seller's product pages, not marketplace-level traffic. 'Views' may include repeat visits — ambiguity not resolvable from snippet alone."]
+}

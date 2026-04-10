@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-013",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-002"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-003"],
+  "round": 1,
+  "signal_text": "Gumroad's prohibited items policy page (last revised April 17, 2019) lists item #19 as prohibiting currency exchange, virtual currency, cryptocurrency, NFTs, and monetizable digital credits that can be converted to physical or digital goods or exit the virtual world.",
+  "subject_exact": "Gumroad prohibition on cryptocurrency, NFTs, virtual currency, and monetizable digital credits",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Last revised: April 17, 2019",
+  "time_scope_normalized_if_safe": "2019-04-17",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["Last revised: April 17, 2019"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/prohibited",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-002",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-003"
+    }
+  ],
+  "normalization_notes": ["Date normalized to ISO 2019-04-17 from explicit text."],
+  "extraction_notes": ["Item #19 from prohibited items list. Policy dated 2019, accessed 2026. Snippet extracted from page layout."]
+}

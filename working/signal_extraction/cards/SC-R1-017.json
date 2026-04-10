@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-017",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-003"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-004"],
+  "round": 1,
+  "signal_text": "Gumroad's Terms of Service (effective January 1, 2025) states that the Gumroad Fee is automatically deducted from the buyer's purchase price, with the remainder (less taxes and other charges) paid to the seller as the Supplier Fee on an agreed settlement schedule that is subject to change at Gumroad's discretion.",
+  "subject_exact": "Gumroad fee deduction mechanism from buyer purchase price and Supplier Fee settlement structure",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Effective Date: January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["automatically deducted from the purchase price paid by the Buyer", "subject to change at the discretion of Gumroad"],
+  "uncertainties": ["net_vs_gross_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-003",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-004"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Fee deducted from buyer purchase price (gross), remainder is Supplier Fee (net). Settlement schedule subject to unilateral change. No specific fee percentage stated in this snippet. Net vs gross distinction present: 'remainder less taxes and other charges'."]
+}

@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-019",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-005"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-004"],
+  "round": 1,
+  "signal_text": "Gumroad's Terms of Service (effective January 1, 2025) states that regardless of listed currency, all transactions settle in USD, with exchange rates sourced from openexchangerates.org and the rate accuracy not guaranteed.",
+  "subject_exact": "Gumroad USD settlement policy for multi-currency transactions with exchange rate determination",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": "USD",
+  "time_scope_raw": "Effective Date: January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["Regardless of listed currency, all transactions through the Services will settle in USD"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-005",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-004"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Settlement currency is always USD regardless of listed price currency. Exchange rate source identified as openexchangerates.org. Rate accuracy not guaranteed."]
+}
