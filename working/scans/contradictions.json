@@ -1,0 +1,106 @@
+{
+  "scan_type": "contradictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "CONT-001",
+      "description": "La tarifa base de Gumroad se distribuye en dos descripciones distintas en el corpus: SC-R1-005 co-ocurre con una cifra de 10% + $0.50 por transacción; SC-R1-032 y SC-R1-035 co-ocurren con la cifra de 10% plano sin cargo fijo adicional. Las dos versiones contradice entre sí sobre el componente fijo.",
+      "signal_ids": ["SC-R1-005", "SC-R1-032", "SC-R1-035"],
+      "signal_summaries": {
+        "SC-R1-005": "Pricing page states fee is 10% + $0.50 per transaction",
+        "SC-R1-032": "Help center article states fee is 10% flat per sale, excluding card processing and PayPal fees",
+        "SC-R1-035": "Help center fees article states 10% flat fee for sales on Gumroad website, excluding card processing and PayPal fees"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "SC-R1-005 explicitly states 10% + $0.50 per transaction while SC-R1-032 and SC-R1-035 state 10% flat with no mention of the $0.50 fixed charge. The opposition is explicit in the figures cited across official Gumroad sources. One card documents the $0.50 component; two others omit it. Help center articles may simply omit the fixed component rather than contradict it; needs audit to determine whether this is a true contradiction or an omission.",
+      "components": [
+        {
+          "label": "Fee stated as 10% + $0.50 per transaction",
+          "signal_ids": ["SC-R1-005"],
+          "summary": "Gumroad pricing page states 10% plus $0.50 fixed charge per transaction"
+        },
+        {
+          "label": "Fee stated as 10% flat with no fixed charge mentioned",
+          "signal_ids": ["SC-R1-032", "SC-R1-035"],
+          "summary": "Two Gumroad help center articles state 10% flat fee excluding credit card processing and PayPal fees, with no mention of $0.50 per-transaction charge"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CONT-002",
+      "description": "La política de reembolso de Gumroad se separa en polos según el canal de venta: SC-R1-034 co-ocurre con la descripción de que Gumroad puede emitir reembolsos dentro de 90 días; SC-R1-038 contradice ese polo al documentar que las ventas in-app del canal Discover móvil son finales sin reembolso.",
+      "signal_ids": ["SC-R1-034", "SC-R1-038"],
+      "signal_summaries": {
+        "SC-R1-034": "Gumroad reserves the right to issue refunds within 90 days to prevent chargebacks, even overriding seller no-refund policy",
+        "SC-R1-038": "For Gumroad Discover mobile app, all app sales are final with no refunds from Gumroad or sellers"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-034 documents that Gumroad can issue refunds overriding seller policy on web sales; SC-R1-038 documents that for the Discover mobile app channel all sales are final and Gumroad issues no refunds. These are explicit opposing statements about Gumroad refund behavior in different channels on the same platform. Both poles have card support from official Gumroad sources. The opposition is explicit in the text and changes a design decision: a seller enabling mobile app sales faces different refund exposure than web sales.",
+      "components": [
+        {
+          "label": "Web sales: Gumroad can issue refunds overriding seller no-refund policy",
+          "signal_ids": ["SC-R1-034"],
+          "summary": "Gumroad help center states Gumroad reserves the right to issue refunds within 90 days to prevent chargebacks, even if seller has no-refund policy"
+        },
+        {
+          "label": "Mobile app (Discover) sales: all sales are final, no refunds from Gumroad",
+          "signal_ids": ["SC-R1-038"],
+          "summary": "Gumroad help center states Discover mobile app sales are final with no refunds from Gumroad or sellers; refund requests must go to Apple or Google"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CONT-003",
+      "description": "El acceso a visibilidad orgánica en Gumroad Discover se separa en polos: la documentación de plataforma co-ocurre con la cifra de 1.6 millones de productos disponibles; dos reportes de vendedores contradice ese polo al documentar cero tráfico orgánico y cero vistas desde Discover con 26 y 35 productos listados.",
+      "signal_ids": ["SC-R1-067", "SC-R1-049", "SC-R1-062"],
+      "signal_summaries": {
+        "SC-R1-067": "Gumroad Discover page states 'Browse over 1.6 million free and premium digital products' implying broad discoverability",
+        "SC-R1-049": "Seller with 35 Gumroad product listings reported receiving zero organic traffic",
+        "SC-R1-062": "Seller with 26 products reported zero organic views and zero views from Gumroad Discover, all views from own traffic"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-067 is platform documentation implying broad organic discovery of 1.6M products; SC-R1-049 and SC-R1-062 are independent seller reports of zero organic or Discover traffic with 35 and 26 products respectively. The opposition is explicit: the platform presents Discover as a discovery channel while two independent sellers document receiving no discovery through it. Both poles have card support. This changes a design decision about whether to rely on Discover as a distribution channel.",
+      "components": [
+        {
+          "label": "Platform documentation: Discover presents broad organic discoverability",
+          "signal_ids": ["SC-R1-067"],
+          "summary": "Gumroad Discover page presents over 1.6 million products available for browsing"
+        },
+        {
+          "label": "Seller reports: zero organic discovery from Discover",
+          "signal_ids": ["SC-R1-049", "SC-R1-062"],
+          "summary": "Two independent sellers with 35 and 26 products respectively document zero organic traffic and zero views from Gumroad Discover"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CONT-004",
+      "description": "La disponibilidad de pago para vendedores se separa en polos en el corpus: SC-R1-027 co-ocurre con la afirmación de 160+ países con acceso a pagos; SC-R1-024 y SC-R1-028 contradice ese polo al documentar que si ni depósito directo ni PayPal están disponibles en el país del vendedor, no existe forma de pagarle.",
+      "signal_ids": ["SC-R1-027", "SC-R1-024", "SC-R1-028"],
+      "signal_summaries": {
+        "SC-R1-027": "Help center states platform enables creators in more than 160 countries to accept payments",
+        "SC-R1-024": "Help center states if PayPal is also unavailable in seller's country, there is currently no way to pay the seller",
+        "SC-R1-028": "Help center states if PayPal is not supported in seller's country, Gumroad cannot pay them; lists Payoneer, wire, and bitcoin as unavailable alternatives"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-027 states creators in 160+ countries can accept payments on Gumroad while SC-R1-024 and SC-R1-028 document that in countries where both direct deposit and PayPal are unavailable, there is no payout path. All three cards are from official Gumroad help center sources. The opposition is explicit: broad geographic payment acceptance claim versus documented cases of complete payout unavailability. Both poles have 1 card (SC-R1-027) vs 2 cards (SC-R1-024, SC-R1-028). This changes a design decision for international sellers.",
+      "components": [
+        {
+          "label": "Platform claim: 160+ countries can accept payments",
+          "signal_ids": ["SC-R1-027"],
+          "summary": "Gumroad help center states creators in more than 160 countries can accept payments on the platform"
+        },
+        {
+          "label": "Platform documentation: payout unavailable if direct deposit and PayPal both unsupported",
+          "signal_ids": ["SC-R1-024", "SC-R1-028"],
+          "summary": "Two Gumroad help center articles explicitly state there is no payout path for sellers in countries where both direct deposit and PayPal are unavailable; Payoneer, wire, and bitcoin listed as unavailable alternatives"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 76,
+    "patterns_found": 4,
+    "timestamp": "2026-04-10T00:00:00Z"
+  }
+}
