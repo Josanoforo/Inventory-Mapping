@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/extraction_converter_manifest.schema.json",
+  "title": "Extraction Converter Manifest",
+  "description": "Schema for the stage 2 manifest written by the extract-records skill. Tracks per-skeleton progress, routing decisions, and issues for the LLM judgment-filling step of Data Extraction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "total_skeletons_found",
+    "skeletons_processed",
+    "records_written",
+    "records_recovery_staged",
+    "skeleton_failures",
+    "needs_human_review_count",
+    "processed_skeletons",
+    "issues",
+    "started_at",
+    "completed_at"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "in_progress",
+        "complete",
+        "failed",
+        "blocked_by_stage_1_incomplete"
+      ],
+      "description": "Overall status of the stage 2 run."
+    },
+    "total_skeletons_found": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of skeleton files enumerated across all batch directories at startup."
+    },
+    "skeletons_processed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of skeletons that have been processed (success or routed to recovery), excluding structural failures that produce no output."
+    },
+    "records_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of Extraction Records written to working/data_extraction/records/."
+    },
+    "records_recovery_staged": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of records staged to working/data_extraction/extraction_gpt_recovery/ because they could not be completed automatically."
+    },
+    "skeleton_failures": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of skeletons that failed structural validation (skeleton_invalid) and produced no output."
+    },
+    "needs_human_review_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of records flagged needs_human_review. These are in records/ (valid) but require operator attention."
+    },
+    "processed_skeletons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/processedEntry"
+      },
+      "description": "Per-skeleton log. Appended after each skeleton completes. Enables resumability."
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/issue"
+      },
+      "description": "Run-level issues (e.g., missing contract or schema files). Per-skeleton issues are recorded in processed_skeletons entries."
+    },
+    "started_at": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 UTC timestamp when stage 2 first started. Null if status is pending."
+    },
+    "completed_at": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 UTC timestamp when stage 2 completed. Null while in progress."
+    }
+  },
+  "$defs": {
+    "processedEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extraction_id",
+        "destination",
+        "issues_for_this_record",
+        "processed_at"
+      ],
+      "properties": {
+        "extraction_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "extraction_id of the skeleton that was processed."
+        },
+        "destination": {
+          "type": "string",
+          "enum": [
+            "records",
+            "extraction_gpt_recovery",
+            "skeleton_invalid"
+          ],
+          "description": "Where the record was routed. skeleton_invalid means the skeleton failed structural validation and no output was produced."
+        },
+        "issues_for_this_record": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "skeleton_invalid",
+              "contract_case_uncovered",
+              "needs_human_review",
+              "schema_validation_failed",
+              "required_field_unfillable",
+              "multiple_required_fields_unfillable"
+            ]
+          },
+          "uniqueItems": true,
+          "description": "Issue types registered for this specific record during stage 2 processing."
+        },
+        "issue_detail": {
+          "type": ["string", "null"],
+          "description": "Human-readable detail for the primary issue, if any."
+        },
+        "processed_at": {
+          "type": "string",
+          "description": "ISO 8601 UTC timestamp when this skeleton was processed."
+        }
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "issue_type",
+        "detail"
+      ],
+      "properties": {
+        "issue_type": {
+          "type": "string",
+          "description": "Type of run-level issue."
+        },
+        "detail": {
+          "type": "string",
+          "description": "Human-readable description of the issue."
+        }
+      }
+    }
+  }
+}
