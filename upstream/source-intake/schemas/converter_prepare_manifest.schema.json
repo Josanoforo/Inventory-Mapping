@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/Josanoforo/Inventory-Mapping/schemas/converter_prepare_manifest.schema.json",
+  "$id": "https://github.com/Josanoforo/Inventory-Mapping/upstream/source-intake/schemas/converter_prepare_manifest.schema.json",
   "title": "Converter Prepare Manifest",
-  "description": "Manifest written by scripts/converter_prepare.py (Converter stage 1). Tracks skeleton batch production from Data Gathering findings, with checkpoint for resumption and closed vocabulary for issues.",
+  "description": "Manifest written by upstream/source-intake/scripts/converter_prepare.py (Converter stage 1). Tracks skeleton batch production from Data Gathering findings, with checkpoint for resumption and closed vocabulary for issues.",
   "type": "object",
   "required": [
     "status",

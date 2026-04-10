@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Transform Source Packet skeletons (produced by `scripts/converter_prepare.py`) into complete, validated Source Packets by filling the 8 judgment fields following the conversion template. The 11 mechanical fields are already populated by stage 1 and must not be modified.
+Transform Source Packet skeletons (produced by `upstream/source-intake/scripts/converter_prepare.py`) into complete, validated Source Packets by filling the 8 judgment fields following the conversion template. The 11 mechanical fields are already populated by stage 1 and must not be modified.
 
 This module is executed by the `convert-findings` skill.
 
@@ -18,7 +18,7 @@ This module does not belong to Inventory Mapping. It lives in `upstream/source-i
 |---|---|
 | `working/source_intake/skeleton_batches/batch_NNN/skeleton_*.json` | Skeletons produced by stage 1, one file per packet |
 | `working/source_intake/converter_prepare_manifest.json` | Stage 1 manifest. Must have `status: complete` before stage 2 can run |
-| `reference/source_packet_conversion_template.md` | Conversion guide. Read in full before processing any skeleton |
+| `upstream/source-intake/reference/source_packet_conversion_template.md` | Conversion guide. Read in full before processing any skeleton |
 | `upstream/source-intake/schemas/source_packet.schema.json` | Schema that completed packets must validate against |
 
 ## Outputs
@@ -74,7 +74,7 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 ### 1. Precondition checks
 
 - Read `working/source_intake/converter_prepare_manifest.json`. If it does not exist or `status != complete`, set stage 2 manifest status to `blocked_by_stage_1_incomplete` and exit with a clear message. Do not process anything.
-- Read `reference/source_packet_conversion_template.md` in full. If missing, fail with clear message.
+- Read `upstream/source-intake/reference/source_packet_conversion_template.md` in full. If missing, fail with clear message.
 - Read `upstream/source-intake/schemas/source_packet.schema.json`. If missing, fail with clear message.
 - Create output directories if they do not exist: `working/source_intake/packets/`, `working/source_intake/source_intake_gpt_recovery/`.
 

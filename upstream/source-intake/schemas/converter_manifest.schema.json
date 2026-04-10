@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/Josanoforo/Inventory-Mapping/schemas/converter_manifest.schema.json",
+  "$id": "https://github.com/Josanoforo/Inventory-Mapping/upstream/source-intake/schemas/converter_manifest.schema.json",
   "title": "Converter Manifest (Stage 2)",
   "description": "Manifest written by the convert-findings skill (Converter stage 2). Tracks per-skeleton processing with skeleton-level checkpointing, destination routing, and closed vocabulary for issues. Read by the skill on startup to resume from the last unprocessed skeleton.",
   "type": "object",
