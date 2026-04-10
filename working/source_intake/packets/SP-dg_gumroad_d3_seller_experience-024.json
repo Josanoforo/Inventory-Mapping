@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-024",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-024",
+  "source_title": "Polar vs Lemon Squeezy vs Gumroad",
+  "source_type": "blog",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "March 24, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"To avoid holding off my release, I switched to Gumroad so I could start selling right away. Gumroad worked well. It was easy to set up, and I liked the clean interface. But the fees felt a bit high. So once my Lemon Squeezy store was approved, I moved everything back over.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad vs alternative platforms comparison",
+    "Gumroad setup ease and fee perception"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["March 24 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "source_title inferred from URL slug polar-vs-lemonsqueezy-vs-gumroad; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Qualitative fee complaint ('fees felt a bit high'). Author used Gumroad temporarily while awaiting Lemon Squeezy approval. No specific fee figures cited in snippet."
+  ],
+  "traceability_status": "partial"
+}

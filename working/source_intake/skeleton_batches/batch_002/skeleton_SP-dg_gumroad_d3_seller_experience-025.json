@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-025",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-025",
+  "source_title": null,
+  "source_type": "seller_forum",
+  "source_ref": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-e9c4d8b629",
+  "source_date_if_available": "March 31, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"26 products on gumroad. zero organic views. zero from gumroad discover. every single view came from my own traffic. the problem: gumroad discover only shows products after your first sale. but you cant get your first sale without discover. its a catch-22 designed to reward existing sellers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-e9c4d8b629"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-09"
+  ]
+}

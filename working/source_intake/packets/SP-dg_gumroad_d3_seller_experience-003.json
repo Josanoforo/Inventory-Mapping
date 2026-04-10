@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-003",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-003",
+  "source_title": "Anyone Here Use Gumroad or Lemon Squeezy?",
+  "source_type": "seller_forum",
+  "source_ref": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I'm currently using Gumroad to sell my plunges and sample packs. It's been an overall good experience and I've built a solid business on it over the last 2 years. However, recently they've made several changes that I really don't like so I'm looking to switch.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller platform satisfaction",
+    "platform switch decision after policy changes"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["undated"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "source_title inferred from URL slug anyone-here-use-gumroad-or-lemon-squeezy; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Qualitative experience finding; no metric applies. 'Last 2 years' is relative and undated. 'Recently they've made several changes' is unspecified."
+  ],
+  "traceability_status": "weak"
+}

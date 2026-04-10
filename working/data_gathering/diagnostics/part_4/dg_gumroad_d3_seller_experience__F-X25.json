@@ -1,0 +1,11 @@
+{
+  "shard_id": "dg_gumroad_d3_seller_experience",
+  "source_tool": "deep_search",
+  "item_id": "F-X25",
+  "seller_or_subject": "PissedConsumer — first-time seller permanently banned in 5 days",
+  "attempted": "What: First-time seller reports being permanently banned within 5 days of creating account after using Gumroad as a payment link.\nVerbatim snippet: \"after 5 days I received a message saying 'Your account has been permanently banned'\"\nSource: https://gumroad.pissedconsumer.com/review.html\nsource_type: unknown\nverification_status: could_not_verify\nDate: May 9, 2025\nNotes: Out-of-scope: source_type 'unknown' (PissedConsumer is a public complaint platform; no dedicated taxonomy value) not in shard's allowed source_types. Seller used Gumroad non-standardly (as payment link for a Facebook sale, product called \"test\"). Support response described as adversarial.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://gumroad.pissedconsumer.com/review.html"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-025",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-025",
+  "source_title": "Gumroad Has Zero Organic Discovery: I'm Cross-Listing My Data Product Everywhere",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-e9c4d8b629",
+  "source_date_if_available": "March 31, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"26 products on gumroad. zero organic views. zero from gumroad discover. every single view came from my own traffic. the problem: gumroad discover only shows products after your first sale. but you cant get your first sale without discover. its a catch-22 designed to reward existing sellers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-e9c4d8b629"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad organic discovery barrier",
+    "Discover catch-22 mechanism for new sellers"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["discoverability_claim", "activation_requirement"],
+  "possible_time_scopes": ["March 31 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title inferred from URL slug gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "26 products, zero organic views. Discover catch-22 explicitly stated: no Discover listing without first sale, no first sale without Discover. Very recent (March 2026), consistent with SP-dg_gumroad_d3_seller_experience-017 ($10 threshold) and SP-dg_gumroad_d3_seller_experience-011 (35 listings, zero footfall)."
+  ],
+  "traceability_status": "partial"
+}

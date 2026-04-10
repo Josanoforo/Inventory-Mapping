@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-003",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-003",
+  "source_title": null,
+  "source_type": "seller_forum",
+  "source_ref": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I'm currently using Gumroad to sell my plunges and sample packs. It's been an overall good experience and I've built a solid business on it over the last 2 years. However, recently they've made several changes that I really don't like so I'm looking to switch.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-11"
+  ]
+}

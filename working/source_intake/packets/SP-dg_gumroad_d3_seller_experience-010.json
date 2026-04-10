@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-010",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-010",
+  "source_title": "My Gumroad Strategy Restart",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/activated-thinker/my-gumroad-strategy-restart-215fa2a0423d",
+  "source_date_if_available": "September 7, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I know, it just views and not dollars in sales.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/activated-thinker/my-gumroad-strategy-restart-215fa2a0423d"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller performance tracking",
+    "views vs sales distinction in Gumroad dashboard"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["traffic_volume"],
+  "possible_time_scopes": ["September 7 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "source_title inferred from URL slug my-gumroad-strategy-restart; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "context_insufficient: snippet is a single sentence referencing an unstated number of views. The specific view count and the seller's full context are unknown from this snippet alone."
+  ],
+  "traceability_status": "weak"
+}

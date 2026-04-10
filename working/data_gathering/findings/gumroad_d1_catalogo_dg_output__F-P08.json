@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad Discover's sidebar navigation on the gumroad.com/design/entertainment-design page displays the following categories with their subcategories: Drawing & Painting (Artwork & Commissions, Digital Illustration, Traditional Art); Design (Architecture, Branding, Entertainment Design, Fashion Design, Fonts, Graphics, Icons, Industrial Design, Interior Design, Print & Packaging, UI & Web, Wallpapers); 3D (3D Assets, 3D Modeling, Animating, AR/VR, Avatars, Character Design, Rigging, Textures, VRChat); Music & Sound Design (Dance & Theater, Instruments, Sound Design, Vocal); Films (Comedy, Dance, Documentary, Movie, Performance, Short Film, Sports Events, Theater, Video Production & Editing, Videography); Self Improvement (Cooking, Crafts & DYI, Dating & Relationships, Outdoors, Philosophy, Productivity, Psychology, Spirituality, Travel, Weddings, Wellness); Software Development (App Development, Hardware, Programming, Software & Plugins, Web Development); Education (Classroom, English, History, Math, Science, Social Studies, Specialties, Test Prep).",
+  "verbatim_snippet": "[Stated in layout: \"All Drawing & PaintingArtwork & CommissionsDigital IllustrationTraditional Art · Design · All DesignArchitectureBrandingEntertainment DesignFashion DesignFontsGraphicsIconsIndustrial DesignInterior DesignPrint & PackagingUI & WebWallpapers · 3D · All 3D3D Assets3D ModelingAnimatingAR/VRAvatarsCharacter DesignRiggingTexturesVRChat · Music & Sound Design · All Music & Sound DesignDance & TheaterInstrumentsSound DesignVocal · Films · All FilmsComedyDanceDocumentaryMoviePerformanceShort FilmSports EventsTheaterVideo Production & EditingVideography · Self Improvement · All Self ImprovementCookingCrafts & DYIDating & RelationshipsOutdoorsPhilosophyProductivityPsychologySpiritualityTravelWeddingsWellness · Software Development · All Software DevelopmentApp DevelopmentHardwareProgrammingSoftware & PluginsWeb Development · Education · All EducationClassroomEnglishHistoryMathScienceSocial StudiesSpecialtiesTest Prep\"]",
+  "source": "https://gumroad.com/design/entertainment-design",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Gumroad category pages are JS-rendered and return minimal content on direct fetch. Sidebar navigation content recovered via search engine index of this exact URL. This sidebar rendering shows 8 of 18 total categories. Layout snippet format used because content is structured as sidebar navigation, not prose. Self Improvement subcategory uses \"DYI\" (not \"DIY\") as shown verbatim.",
+  "finding_id": "F-P08",
+  "shard_id": "gumroad_d1_catalogo_dg_output",
+  "source_tool": "deep_search",
+  "part": 2
+}

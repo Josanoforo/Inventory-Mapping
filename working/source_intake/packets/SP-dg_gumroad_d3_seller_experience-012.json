@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-012",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-012",
+  "source_title": "I Earned $61,411 on Gumroad in 2025 and Still Feel Average",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06",
+  "source_date_if_available": "February 6, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Yesterday I got an email from Gumroad. Subject line: 'Your 2025 in review.' I opened it not expecting much. Instead, I saw two numbers that stopped me in my tracks: You earned a total of $61,411. (digital product sales only) You ranked #238 among all creators.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller revenue ranking",
+    "top creator earnings benchmark 2025"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue"],
+  "possible_time_scopes": ["2025 calendar year"],
+  "possible_geographies": null,
+  "uncertainties": ["net_vs_gross_ambiguity", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title inferred from URL slug i-earned-61-411-on-gumroad-in-2025-and-still-feel-average; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$61,411 from Gumroad's own year-end email — platform-verified figure, not self-reported estimate. net_vs_gross_ambiguity: 'earned' may be before or after Gumroad's 10% fee.",
+    "Creator ranked #238 among all Gumroad creators in 2025, providing a relative benchmark for platform-wide earnings distribution."
+  ],
+  "traceability_status": "partial"
+}

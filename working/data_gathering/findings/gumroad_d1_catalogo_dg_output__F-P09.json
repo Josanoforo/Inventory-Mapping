@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad Discover's sidebar navigation on the drawing-and-painting/digital-illustration/courses page displays the following additional categories with their subcategories: Education (Classroom, English, History, Math, Science, Social Studies, Specialties, Test Prep); Business & Money (Accounting, Entrepreneurship, Gigs & Side Projects, Investing, Management & Leadership, Marketing & Sales, Networking, Careers & Jobs, Personal Finance, Real Estate); Photography (Cosplay, Photo Courses, Photo Presets & Actions, Reference Photos, Stock Photos); Writing & Publishing (Courses, Resources); Comics & Graphic Novels (no subcategories visible); Fitness & Health (Exercise & Workout, Running, Sports, Weight Loss & Dieting, Yoga); Fiction Books (Children's Books, Fantasy, Mystery, Romance, Science Fiction, Teen & Young Adult); Audio (ASMR, Healing, Hypnosis, Sleep & Meditation, Subliminal Messages, Voiceover); Recorded Music (Albums, Singles); Other (no subcategories visible).",
+  "verbatim_snippet": "[Stated in layout: \"All EducationClassroomEnglishHistoryMathScienceSocial StudiesSpecialtiesTest Prep · Business & Money · All Business & MoneyAccountingEntrepreneurshipGigs & Side ProjectsInvestingManagement & LeadershipMarketing & SalesNetworking, Careers & JobsPersonal FinanceReal Estate · Photography · All PhotographyCosplayPhoto CoursesPhoto Presets & ActionsReference PhotosStock Photos · Writing & Publishing · All Writing & PublishingCoursesResources · Comics & Graphic Novels · Fitness & Health · All Fitness & HealthExercise & WorkoutRunningSportsWeight Loss & DietingYoga · Fiction Books · All Fiction BooksChildren's BooksFantasyMysteryRomanceScience FictionTeen & Young Adult · Audio · All AudioASMRHealingHypnosisSleep & MeditationSubliminal MessagesVoiceover · Recorded Music · All Recorded MusicAlbumsSingles · Other\"]",
+  "source": "https://gumroad.com/drawing-and-painting/digital-illustration/courses?sort=hot_and_new",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Gumroad category pages are JS-rendered and return minimal content on direct fetch. Sidebar navigation content recovered via search engine index of this exact URL. This sidebar rendering shows 10 categories (with some overlap with F-P08). Layout snippet format used. Together with F-P08, these two findings cover 17 of the 18 Gumroad Discover categories. The 18th category (Gaming) was not captured in any sidebar rendering from these two pages; see F-X01.",
+  "finding_id": "F-P09",
+  "shard_id": "gumroad_d1_catalogo_dg_output",
+  "source_tool": "deep_search",
+  "part": 2
+}

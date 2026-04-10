@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-017",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-017",
+  "source_title": "How I Got My First Sale on Gumroad",
+  "source_type": "blog",
+  "source_ref": "https://najfywrites.substack.com/p/how-i-got-my-first-sale-on-gumroad",
+  "source_date_if_available": "July 20, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Gumroad won't promote your product through their Discover page until you earn your first $10. That means no free exposure from Gumroad unless you prove yourself first.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://najfywrites.substack.com/p/how-i-got-my-first-sale-on-gumroad"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad Discover eligibility threshold",
+    "activation requirement for organic discovery"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["activation_requirement", "discoverability_claim"],
+  "possible_time_scopes": ["July 20 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title inferred from URL slug how-i-got-my-first-sale-on-gumroad; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$10 earnings threshold for Discover listing eligibility. Seller-reported interpretation of Gumroad policy; consistent with SP-dg_gumroad_d3_seller_experience-025 (Indie Hackers post). current_vs_historical_ambiguity applies as policy could change."
+  ],
+  "traceability_status": "partial"
+}
