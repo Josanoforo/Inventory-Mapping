@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-018",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-018",
+  "source_title": "What I Learned from a Digital Products Experiment",
+  "source_type": "blog",
+  "source_ref": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products",
+  "source_date_if_available": "November 12, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Here's where it got personal. I confessed that in three years on Gumroad, I've made a grand total of $139.96.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller cumulative revenue",
+    "long-term seller economics on Gumroad",
+    "Gumroad seller experience"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue"],
+  "possible_time_scopes": ["3 years (approximately 2022–2025)", "through November 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["time_scope_unclear", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
+    "$139.96 over approximately 3 years (relative anchor from November 2025 → ~2022–2025). Net/gross not stated. Low but real revenue — useful contrast to high earners in corpus."
+  ],
+  "traceability_status": "complete"
+}

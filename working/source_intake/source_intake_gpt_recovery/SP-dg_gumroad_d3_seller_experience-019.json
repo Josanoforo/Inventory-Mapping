@@ -1,0 +1,93 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-019",
+  "recovery_type": "source_intake_schema_incomplete",
+  "origin_stage": "source_intake_stage_2",
+  "original_skeleton": {
+    "packet_id": "SP-dg_gumroad_d3_seller_experience-019",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-019",
+    "source_title": null,
+    "source_type": "seller_forum",
+    "source_ref": "https://news.ycombinator.com/item?id=43604378",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "retrieval_method": "deep_search",
+    "retrieved_from": "dg_gumroad_d3_seller_experience",
+    "raw_search_context": null,
+    "snippets": [
+      {
+        "snippet_id": "SNP-001",
+        "snippet_text": "\"I sell templates for a living and have used several of these providers. The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need. Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo.\"",
+        "context_before": null,
+        "context_after": null,
+        "location_pointer": {
+          "pointer_type": "url",
+          "pointer_value": "https://news.ycombinator.com/item?id=43604378"
+        },
+        "source_finding_id": "F-10",
+        "finding_part": 1
+      }
+    ],
+    "intake_notes": [],
+    "possible_subjects": [],
+    "possible_actor_levels": [],
+    "possible_metric_types": [],
+    "possible_time_scopes": [],
+    "possible_geographies": null,
+    "uncertainties": [],
+    "priority_for_source_first": null,
+    "traceability_status": null,
+    "_converter_stage": 1,
+    "_source_finding_ids": ["F-10"]
+  },
+  "partial_packet": {
+    "packet_id": "SP-dg_gumroad_d3_seller_experience-019",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-019",
+    "source_title": null,
+    "source_type": "seller_forum",
+    "source_ref": "https://news.ycombinator.com/item?id=43604378",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "retrieval_method": "deep_search",
+    "retrieved_from": "dg_gumroad_d3_seller_experience",
+    "raw_search_context": null,
+    "snippets": [
+      {
+        "snippet_id": "SNP-001",
+        "snippet_text": "\"I sell templates for a living and have used several of these providers. The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need. Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo.\"",
+        "context_before": null,
+        "context_after": null,
+        "location_pointer": {
+          "pointer_type": "url",
+          "pointer_value": "https://news.ycombinator.com/item?id=43604378"
+        }
+      }
+    ],
+    "possible_subjects": [
+      "Gumroad seller experience comparison",
+      "Gumroad fee structure",
+      "Gumroad checkout design"
+    ],
+    "possible_actor_levels": ["seller"],
+    "possible_metric_types": ["fee_rate"],
+    "possible_time_scopes": ["undated"],
+    "possible_geographies": null,
+    "uncertainties": ["source_date_unclear", "checkout_vs_payout_ambiguity", "metric_type_unclear"],
+    "priority_for_source_first": "medium",
+    "intake_notes": [
+      "source_title could not be filled: HN numeric item URL provides no title information. Requires retrieval of actual thread title via GPT recovery."
+    ],
+    "traceability_status": "partial"
+  },
+  "failure_detail": {
+    "issue_type": "required_field_unfillable",
+    "missing_required_fields": ["source_title"],
+    "validation_error": "source_title is null; schema requires type string with minLength 1",
+    "template_notes": "URL https://news.ycombinator.com/item?id=43604378 is a numeric Hacker News item ID with no slug. The thread title cannot be inferred from the URL alone. The snippet provides enough context to know the thread is about digital product platform comparison (Gumroad vs Lemon Squeezy vs others), but the actual HN thread title is unknown and must be retrieved directly."
+  },
+  "recovery_guidance": {
+    "suggested_direction": "Fetch https://news.ycombinator.com/item?id=43604378 to retrieve the HN thread title (typically the headline of the linked article or a question posed by the submitter). Once the title is known, fill source_title and validate the packet. Also retrieve the thread parent link if this is a comment, not the top-level post.",
+    "source_ref": "https://news.ycombinator.com/item?id=43604378",
+    "source_type": "seller_forum"
+  },
+  "staged_at": "2026-04-10T04:35:00.000000+00:00"
+}

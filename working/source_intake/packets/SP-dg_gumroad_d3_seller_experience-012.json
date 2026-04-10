@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-012",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-012",
+  "source_title": "I Earned $61,411 on Gumroad in 2025 and Still Feel Average",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06",
+  "source_date_if_available": "February 6, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Yesterday I got an email from Gumroad. Subject line: 'Your 2025 in review.' I opened it not expecting much. Instead, I saw two numbers that stopped me in my tracks: You earned a total of $61,411. (digital product sales only) You ranked #238 among all creators.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller revenue reporting",
+    "Gumroad creator rankings",
+    "Gumroad platform scale"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "sales_count"],
+  "possible_time_scopes": ["2025 calendar year"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
+    "Gumroad's own 2025-in-review email is the primary source cited; #238 ranking implies at least 238 active revenue-generating creators. Author is Gasper Crepinsek (referenced in DG finding notes).",
+    "$61,411 labelled 'digital product sales only' — gross Gumroad-reported figure, pre-fee. Downstream should note net amount is lower."
+  ],
+  "traceability_status": "complete"
+}

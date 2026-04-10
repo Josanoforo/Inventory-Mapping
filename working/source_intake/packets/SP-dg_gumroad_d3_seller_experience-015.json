@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-015",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-015",
+  "source_title": "My Honest Gumroad Review After 4 Months: The Truth About My Account Earnings and a Disappointing Experience",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/write-a-catalyst/my-honest-gumroad-review-after-4-months-the-truth-about-my-account-earnings-and-a-disappointing-480f5718e267",
+  "source_date_if_available": "November 16, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I sent multiple emails to Gumroad's support team. I explained the issue. I asked what I needed to do to fix it. I followed every instruction I saw online — verifying, re-verifying, checking settings, checking bank details.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/write-a-catalyst/my-honest-gumroad-review-after-4-months-the-truth-about-my-account-earnings-and-a-disappointing-480f5718e267"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad customer support failures",
+    "Gumroad payout verification",
+    "Gumroad seller frustration"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout"],
+  "possible_time_scopes": ["first 4 months of selling", "current as of November 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient", "time_scope_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
+    "Snippet describes support escalation process but not the outcome — context needed. '4 months' is relative to account creation date, not anchored to calendar."
+  ],
+  "traceability_status": "weak"
+}

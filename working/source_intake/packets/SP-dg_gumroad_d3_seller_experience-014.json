@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-014",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-014",
+  "source_title": "My Gumroad Income Breakdown: $2,539 in Revenue — Here's What Worked",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/write-a-catalyst/my-gumroad-income-breakdown-2-539-in-revenue-heres-what-worked-c0797855df76",
+  "source_date_if_available": "March 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I'm about to show you something most creators won't: my actual Gumroad dashboard with every sale, every failure, and every lesson learned from building 50+ digital products.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/write-a-catalyst/my-gumroad-income-breakdown-2-539-in-revenue-heres-what-worked-c0797855df76"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller revenue reporting",
+    "digital product portfolio economics",
+    "Gumroad seller strategy"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "sales_count"],
+  "possible_time_scopes": ["current as of March 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
+    "$2,539 total revenue; period is not specified in snippet — 'income breakdown' may cover multiple time periods. Net/gross not stated.",
+    "50+ digital products mentioned — useful catalog depth signal for downstream."
+  ],
+  "traceability_status": "complete"
+}

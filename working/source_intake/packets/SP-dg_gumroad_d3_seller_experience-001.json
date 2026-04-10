@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-dg_gumroad_d3_seller_experience-001",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-001",
+  "source_title": "Gumroad Review",
+  "source_type": "blog",
+  "source_ref": "https://bootstrappingecommerce.com/gumroad-review",
+  "source_date_if_available": "June 2, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "dg_gumroad_d3_seller_experience",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"These are real numbers from my POD experiments using Gumroad: $3,271 in total sales in the first six months (selling art prints, a course, and a merch drop).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://bootstrappingecommerce.com/gumroad-review"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad seller revenue reporting",
+    "print-on-demand digital product economics"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "sales_count"],
+  "possible_time_scopes": ["first six months of selling (approximately 2024–2025)"],
+  "possible_geographies": null,
+  "uncertainties": ["time_scope_unclear", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
+    "Time scope 'first six months' is relative to seller start date, not a calendar anchor; estimated 2024–2025 given publication date June 2025.",
+    "$3,271 figure; net or gross unclear — no explicit mention of fees deducted."
+  ],
+  "traceability_status": "complete"
+}
