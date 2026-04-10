@@ -1,0 +1,11 @@
+{
+  "shard_id": "DG_Gumroad_D2_Platform_Mechanics",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "Payout schedule options — daily, weekly, monthly, quarterly",
+  "attempted": "What: The initial research captured a snippet stating sellers can choose daily, weekly, monthly, or quarterly payouts with a customizable threshold, and that daily payouts require US residency and 4+ prior payouts. However, a separate search-index snippet from the same URL states \"it is not possible to customize the payout schedule.\"\nVerbatim snippet: n/a — conflicting snippets from same URL\nSource: https://help.gumroad.com/article/13-getting-paid\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026; page undated\nNotes: Degraded to could_not_verify. Two different search-index passages from the same URL appear to conflict on payout schedule customizability. The full page could not be accessed due to login wall. Cannot resolve without direct access.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://help.gumroad.com/article/13-getting-paid"
+  ]
+}
