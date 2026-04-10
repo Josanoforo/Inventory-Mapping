@@ -1,0 +1,37 @@
+{
+  "status": "fail",
+  "total_cards": 75,
+  "rounds": [{"round": 1, "cards": 75}],
+  "checks": [
+    {
+      "check": "discrete_cards",
+      "passed": false,
+      "violations": [
+        {
+          "card_id": "SC-R1-034",
+          "detail": "Observation contains 'additionally' joining two distinct claims: (1) Gumroad's right to issue refunds within 90 days at its discretion despite a seller's no-refund policy, and (2) customers can additionally issue chargebacks at any time through their credit card. These are separate mechanisms presented as a compound observation."
+        }
+      ]
+    },
+    {
+      "check": "no_interpretation",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "no_meta_observations",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "evidence_preserved",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "ids_traceable",
+      "passed": true,
+      "violations": []
+    }
+  ]
+}
