@@ -46,7 +46,6 @@ REQUIRED_FIELD_MAP: dict[str, list[str]] = {
     "verification_status": ["verification status", "verification_status",
                             "verification state", "verification_state"],
     "date":                ["date"],
-    "signal_type":         ["signal type", "signal_type"],
     "notes":               ["notes"],
 }
 
