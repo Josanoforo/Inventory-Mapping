@@ -1,0 +1,155 @@
+{
+  "scan_type": "lexical_overlap",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "LEX-001",
+      "description": "La figura '10%' co-ocurre en cinco cartas de fuentes distintas del corpus: SC-R1-005, SC-R1-032, SC-R1-033, SC-R1-035 y SC-R1-036 se concentran en la misma cifra aplicada a contextos distintos dentro de la misma plataforma.",
+      "signal_ids": ["SC-R1-005", "SC-R1-032", "SC-R1-033", "SC-R1-035", "SC-R1-036"],
+      "signal_summaries": {
+        "SC-R1-005": "Pricing page: 10% + $0.50 per transaction for all standard sales",
+        "SC-R1-032": "Help center article 303: 10% flat fee per sale, $0 to start",
+        "SC-R1-033": "Help center article 333: affiliates earn 10% commission per sale",
+        "SC-R1-035": "Help center article 66: 10% flat fee for sales on Gumroad website",
+        "SC-R1-036": "Help center article 66: mobile app fee breakdown is 10% to Gumroad + 30% to App Store/Google Play = 40% total"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Five cards share the figure '10%' but apply it to distinct mechanisms: SC-R1-005 documents the standard platform fee; SC-R1-032 and SC-R1-035 document the same standard fee from different help center articles (deduplication signal for these two); SC-R1-033 documents the affiliate commission rate; SC-R1-036 documents the Gumroad component of the mobile app fee. The shared vocabulary ('10%') reflects that Gumroad uses the same percentage rate for multiple distinct purposes. SC-R1-032 and SC-R1-035 are the strongest deduplication signal — both from help.gumroad.com, both stating 10% flat fee, same subject — but the distinction between help center articles is contextual framing, not friction. No explicit friction between these cards. The overlap is a deduplication awareness signal for SC-R1-032 and SC-R1-035; the rest describe distinct mechanisms at the same rate.",
+      "components": [
+        {
+          "label": "Deduplication signal: same fee stated in two help center articles",
+          "signal_ids": ["SC-R1-032", "SC-R1-035"],
+          "summary": "Two help center articles (303 and 66) both state 10% flat fee for web sales; likely the same policy stated in two different help center contexts"
+        },
+        {
+          "label": "Same figure applied to distinct mechanisms",
+          "signal_ids": ["SC-R1-005", "SC-R1-033", "SC-R1-036"],
+          "summary": "Three cards use 10% for different mechanisms: standard platform fee (pricing page), affiliate commission rate, and Gumroad's share of mobile app fee"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-002",
+      "description": "La figura '90 días' y el concepto de chargeback co-ocurre en dos cartas de la misma URL de fuente: SC-R1-034 y SC-R1-076 se concentran en la misma observación sobre la ventana de chargeback del comprador desde el mismo artículo del centro de ayuda.",
+      "signal_ids": ["SC-R1-034", "SC-R1-076"],
+      "signal_summaries": {
+        "SC-R1-034": "Help center article 51 (May 10, 2023): Gumroad reserves right to issue refunds within 90 days to prevent chargebacks, even overriding seller no-refund policy",
+        "SC-R1-076": "Help center article 51 (May 10, 2023): customers can issue chargebacks at any time through their credit card"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Both cards originate from the same source URL (help.gumroad.com/article/51-what-is-gumroads-refund-policy, dated May 10, 2023). SC-R1-034 documents Gumroad's proactive refund authority; SC-R1-076 documents the buyer's chargeback authority. These are two distinct observations from the same article, not two sources describing the same phenomenon. The '90 days' figure appears in SC-R1-034 but not in SC-R1-076 — SC-R1-076 states chargebacks can occur 'at any time'. The shared territory (refunds/chargebacks) makes these complementary rather than in friction. No explicit friction between these cards as observations — the friction pattern they participate in is already documented in FRIC-006. This is a deduplication signal: both cards are from the same article and should be treated as a single source for tension purposes.",
+      "components": [
+        {
+          "label": "Deduplication signal: two cards from the same help center article",
+          "signal_ids": ["SC-R1-034", "SC-R1-076"],
+          "summary": "Both cards extracted from help.gumroad.com/article/51 (same date, same source); they document complementary provisions of the same policy page rather than independent observations"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-003",
+      "description": "Las figuras '250 MB' y '16 GB' co-ocurre en dos cartas de la misma URL de fuente: SC-R1-031 y SC-R1-071 se concentran en la misma observación sobre los límites de tamaño de archivo desde el mismo artículo del centro de ayuda.",
+      "signal_ids": ["SC-R1-031", "SC-R1-071"],
+      "signal_summaries": {
+        "SC-R1-031": "Help center article 289 (November 20, 2023): free products 250 MB limit; products above $0.99 have 16 GB per-file limit; Download all button shows only when total content under 500 MB",
+        "SC-R1-071": "Help center article 289 (November 20, 2023): free products 250 MB limit; products above $0.99 have 16 GB per-file limit with unlimited files"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Both cards originate from the same source URL (help.gumroad.com/article/289-file-size-limits-on-gumroad, November 20, 2023) and report substantially the same figures. SC-R1-031 adds one detail not in SC-R1-071 (the 500 MB threshold for the 'Download all' button), but the core observation is identical. These are duplicate extractions from the same article, not two independent sources describing the same phenomenon from different angles. No friction exists between them. This is a deduplication signal: for any tension pattern involving file size limits, these two cards should be counted as a single-source observation.",
+      "components": [
+        {
+          "label": "Deduplication signal: near-identical extractions from same help center article",
+          "signal_ids": ["SC-R1-031", "SC-R1-071"],
+          "summary": "Both cards from help.gumroad.com/article/289, same date, substantially the same content; SC-R1-031 adds the 500 MB Download all button threshold not present in SC-R1-071"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-004",
+      "description": "La figura '30%' co-ocurre en dos cartas de fuentes distintas que describen contextos distintos: SC-R1-006 documenta la tarifa del 30% para ventas originadas en Gumroad Discover web; SC-R1-036 co-ocurre con la misma cifra como componente de la tarifa de la app móvil (30% a la tienda de apps).",
+      "signal_ids": ["SC-R1-006", "SC-R1-036"],
+      "signal_summaries": {
+        "SC-R1-006": "Pricing page: 30% fee when new customers find and buy from seller through Gumroad Discover marketplace (web)",
+        "SC-R1-036": "Help center article 66: mobile app sales total fee is 40% broken down as 10% to Gumroad + 30% to App Store or Google Play"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Both cards share the figure '30%' but apply it to distinct mechanisms: SC-R1-006 documents Gumroad's 30% Discover web fee (charged entirely by Gumroad); SC-R1-036 documents the App Store/Google Play 30% component of the mobile app total fee (charged by Apple/Google, not Gumroad). The surface vocabulary overlap ('30%') masks a fundamental distinction in who charges the 30% and in what channel. No friction between these cards — they describe different line items in the fee structure that happen to share the same rate. The ASYM-002 pattern already documents the fee-tier asymmetry across channels. This is a vocabulary overlap without friction.",
+      "components": [
+        {
+          "label": "Same figure, distinct mechanisms and parties",
+          "signal_ids": ["SC-R1-006", "SC-R1-036"],
+          "summary": "SC-R1-006: 30% is Gumroad's Discover web fee; SC-R1-036: 30% is Apple/Google's mobile store fee embedded in the 40% mobile total — different parties, different channels, coincident rate"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-005",
+      "description": "El territorio de 'cero tráfico orgánico' co-ocurre en dos cartas de fuentes independientes: SC-R1-049 y SC-R1-062 se concentran en la misma observación de ausencia de tráfico orgánico con conjuntos de productos publicados en Gumroad.",
+      "signal_ids": ["SC-R1-049", "SC-R1-062"],
+      "signal_summaries": {
+        "SC-R1-049": "Medium blog (March 2026): seller with 35 Gumroad product listings receiving zero organic traffic ('zero footfall')",
+        "SC-R1-062": "Indie Hackers forum (March 31, 2026): seller with 26 products on Gumroad reporting zero organic views and zero views from Gumroad Discover; all views from seller's own traffic"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Both cards document sellers with 26-35 products receiving zero organic traffic from Gumroad. These are two independent sources (medium.com and indiehackers.com) describing what appears to be the same underlying phenomenon from their own experience. The vocabulary overlap is significant: both use absence of organic traffic as their core observation. However, there is no explicit friction between these cards — they corroborate rather than contradict each other, and they are not different angles on the same phenomenon but two independent instances of the same experience. The appropriate interpretation is corroborating evidence for the same mechanism (the first-sale Discover threshold). This overlap is already documented as part of CONT-003 and FRIC-001 where these cards participate as corroborating evidence. No friction between these two cards themselves.",
+      "components": [
+        {
+          "label": "Corroborating observations of zero organic traffic from independent sellers",
+          "signal_ids": ["SC-R1-049", "SC-R1-062"],
+          "summary": "Two independent sellers (35 products on Medium blog, 26 products on Indie Hackers) document the same observation of zero organic Gumroad traffic; these are corroborating instances rather than distinct-angle descriptions"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-006",
+      "description": "El territorio de los 'resultados de ventas del vendedor' co-ocurre en múltiples cartas de blog que comparten vocabulario de dashboard y cifras de ingresos: SC-R1-043, SC-R1-047, SC-R1-050, SC-R1-052, SC-R1-054 y SC-R1-060 se concentran en relatos de primera persona con cifras de ventas verificables de Gumroad.",
+      "signal_ids": ["SC-R1-043", "SC-R1-047", "SC-R1-050", "SC-R1-052", "SC-R1-054", "SC-R1-060"],
+      "signal_summaries": {
+        "SC-R1-043": "Blog (January 29, 2026): seller's Gumroad digital products received 7,068 views during 2025",
+        "SC-R1-047": "Blog (October 25, 2025): seller paid $16.59 in fees from $110 total sales on Gumroad",
+        "SC-R1-050": "Blog (February 6, 2026): seller earned $61,411 in 2025, ranked #238 among all creators per Gumroad review email",
+        "SC-R1-052": "Blog (March 2026): seller announced sharing dashboard data for 50+ digital products including sales and failures",
+        "SC-R1-054": "Blog (April 2026): seller reported $65.15 in 4 hours from PDF product; described $50-$200 organic daily revenue",
+        "SC-R1-060": "Blog (December 2025): seller made first sale within hours of first product publish; generated nearly $15,000 in 2025"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Six cards share the territory of seller-reported income and dashboard figures from Gumroad. The vocabulary overlap is substantial — all use Gumroad dashboard data and self-reported revenue figures. However, these are six independent sellers reporting their own distinct outcomes. There is no friction between these cards: they describe different sellers, different time periods, different product types, and different outcomes. The shared vocabulary reflects that they are all drawing on the same platform's data interface. SC-R1-040 (dashboard screenshot manipulation) occupies adjacent territory but documents a deception mechanism rather than a sales outcome — it does not contradict these cards. The distributional asymmetry in outcomes is already captured in ASYM-001 and COOC-004. No friction between these overlapping cards.",
+      "components": [
+        {
+          "label": "Seller income reports sharing dashboard vocabulary and figures",
+          "signal_ids": ["SC-R1-043", "SC-R1-047", "SC-R1-050", "SC-R1-052", "SC-R1-054", "SC-R1-060"],
+          "summary": "Six blog cards from independent sellers document their own Gumroad sales figures; shared vocabulary reflects common data source (Gumroad dashboard), not duplication of the same observation"
+        }
+      ]
+    },
+    {
+      "pattern_id": "LEX-007",
+      "description": "El territorio de 'integridad de datos del dashboard de Gumroad' co-ocurre entre una carta que documenta manipulación de capturas de pantalla y cartas que reportan cifras de dashboard como evidencia: SC-R1-040 co-ocurre con SC-R1-050 y SC-R1-043 en el uso de datos del dashboard de Gumroad como referencia.",
+      "signal_ids": ["SC-R1-040", "SC-R1-050", "SC-R1-043"],
+      "signal_summaries": {
+        "SC-R1-040": "Blog (circa 2025-2026): states Gumroad account dashboard screenshots can be manipulated in Photoshop by changing revenue, dates, currency, and sales count",
+        "SC-R1-050": "Blog (February 6, 2026): seller earned $61,411 in 2025 per Gumroad '2025 in review' email with ranking among all creators",
+        "SC-R1-043": "Blog (January 29, 2026): seller's Gumroad digital products received 7,068 views during 2025"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "SC-R1-040 explicitly documents that Gumroad dashboard screenshots can be fabricated (revenue, dates, currency, sales count). SC-R1-050 and SC-R1-043 report figures sourced from Gumroad data — SC-R1-050 notably cites a Gumroad-issued '2025 in review' email (a server-side document, not a screenshot) rather than a dashboard screenshot. The lexical overlap is in the territory of Gumroad dashboard data as evidence. There is a potential tension: SC-R1-040's documentation of manipulation capability creates an epistemic friction for any pattern relying on seller-reported dashboard figures as evidence. However, SC-R1-040 documents fabrication as possible, not as certain for any specific card. The friction is not between the cards themselves but between the manipulation documentation and the evidentiary status of the entire seller-income cluster. This is the one lexical overlap group that involves explicit friction about the reliability of shared vocabulary (dashboard figures), warranting audit rather than rejection.",
+      "components": [
+        {
+          "label": "Dashboard manipulation documentation",
+          "signal_ids": ["SC-R1-040"],
+          "summary": "One card documents that Gumroad dashboard screenshots can be modified in Photoshop to show false revenue, dates, and sales counts"
+        },
+        {
+          "label": "Cards relying on Gumroad dashboard data as primary evidence",
+          "signal_ids": ["SC-R1-050", "SC-R1-043"],
+          "summary": "Two cards report Gumroad income and view figures; SC-R1-050 cites a Gumroad-issued email rather than a screenshot; SC-R1-043 does not specify the evidence format"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 76,
+    "patterns_found": 7,
+    "timestamp": "2026-04-10T00:00:00Z"
+  }
+}
