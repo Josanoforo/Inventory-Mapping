@@ -11,9 +11,9 @@ Read `upstream/source-intake/modules/converter.md` in full before processing any
 Before touching any skeleton file, load these into context and keep them available throughout the run:
 
 1. `upstream/source-intake/modules/converter.md` — the module contract
-2. `reference/source_packet_conversion_template.md` — the conversion guide, including the field-by-field guidance, fallback rules, and the DX-2 workflow sidebar
+2. `upstream/source-intake/reference/source_packet_conversion_template.md` — the conversion guide, including the field-by-field guidance, fallback rules, and the DX-2 workflow sidebar
 3. `upstream/source-intake/schemas/source_packet.schema.json` — the target schema with closed enums
-4. `schemas/converter_manifest.schema.json` — the manifest schema this skill writes to
+4. `upstream/source-intake/schemas/converter_manifest.schema.json` — the manifest schema this skill writes to
 
 If any of these files cannot be read, stop immediately and report which file is missing. Do not attempt to proceed from memory.
 
@@ -40,7 +40,7 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**Rule 1: The template is the only authority.** For each of the 8 judgment fields, consult the corresponding section of `reference/source_packet_conversion_template.md` before deciding. If the template gives a clear instruction that applies, follow it. Do not substitute your own reasoning for what the template says.
+**Rule 1: The template is the only authority.** For each of the 8 judgment fields, consult the corresponding section of `upstream/source-intake/reference/source_packet_conversion_template.md` before deciding. If the template gives a clear instruction that applies, follow it. Do not substitute your own reasoning for what the template says.
 
 **Rule 2: Closed enums are closed.** Fields with enum values (`possible_actor_levels`, `possible_metric_types`, `uncertainties`, `priority_for_source_first`, `traceability_status`) may only contain values from the enum in `source_packet.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
 
