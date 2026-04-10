@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-058",
+  "source_record_ids": [
+    "ER-SP-dg_gumroad_d3_seller_experience-021-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-dg_gumroad_d3_seller_experience-021"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://thebinjiang.substack.com/p/how-i-got-my-first-gumroad-sale-again",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-021-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-021"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-021-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-021-SNP-001",
+    "source_packet_id": "SP-dg_gumroad_d3_seller_experience-021",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-021",
+    "source_type": "blog",
+    "source_title": "How I Got My First Gumroad Sale Again",
+    "source_ref": "https://thebinjiang.substack.com/p/how-i-got-my-first-gumroad-sale-again",
+    "source_date_if_available": "Accessed April 2026; content references May 1, 2025 sale",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I know Gumroad can be a big earner, but I just haven't got the confidence to sell my stuff yet. The easiest thing to mess with our head is how to price our product or services, and how much the buyer is really willing to pay?\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Seller-reported psychological barrier to pricing on Gumroad and uncertainty about buyer willingness to pay",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "price",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "can be a big earner",
+      "haven't got the confidence"
+    ],
+    "uncertainties": [
+      "none"
+    ],
+    "parser_notes": [
+      "Claim is about pricing uncertainty as a seller barrier, not a platform metric. 'Big earner' is vague and hedged. Source content references May 2025 sale."
+    ]
+  }
+}

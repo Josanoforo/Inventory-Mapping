@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/signal_prepare_manifest.schema.json",
+  "title": "Signal Prepare Manifest",
+  "description": "Schema for the stage 1 manifest written by signal_prepare.py. Tracks progress, fingerprint, round number, and issues for the mechanical skeleton-building step of Signal Extraction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "round",
+    "records_read",
+    "total_skeletons",
+    "skeletons_written",
+    "batches_written",
+    "batch_size",
+    "last_batch_written",
+    "signal_id_counter_at_stage1",
+    "issues",
+    "input_fingerprint",
+    "started_at",
+    "completed_at"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "in_progress",
+        "complete"
+      ],
+      "description": "in_progress while batches are being written; complete when all skeletons have been written."
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Round number assigned to all Signal Card skeletons in this run. Determines the R-segment of signal_id (SC-R{round}-NNN)."
+    },
+    "records_read": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of valid Extraction Records successfully read from the input directory."
+    },
+    "total_skeletons": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of Signal Card skeletons to be written across all batches. Equals the number of valid records (1:1 mapping in stage 1)."
+    },
+    "skeletons_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of skeletons written so far."
+    },
+    "batches_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of batch directories written so far."
+    },
+    "batch_size": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Maximum number of skeletons per batch directory."
+    },
+    "last_batch_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Batch number of the last batch written. 0 if no batch has been written yet. Used to resume interrupted runs."
+    },
+    "signal_id_counter_at_stage1": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The highest signal_id sequence number assigned by stage 1. Stage 2 reads this to know where to start allocating additional IDs when splitting one skeleton into multiple Signal Cards."
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/issue"
+      },
+      "description": "Issues encountered during stage 1. Each entry names the affected record and the issue type."
+    },
+    "input_fingerprint": {
+      "type": "string",
+      "minLength": 1,
+      "description": "SHA-256 fingerprint of the input records directory (names + sizes). If the fingerprint changes between runs, the script refuses to continue to prevent mixing outputs from different inputs."
+    },
+    "started_at": {
+      "type": "string",
+      "description": "ISO 8601 UTC timestamp when stage 1 first started."
+    },
+    "completed_at": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 UTC timestamp when stage 1 completed successfully. Null while in progress."
+    }
+  },
+  "$defs": {
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_id",
+        "issue_type",
+        "detail"
+      ],
+      "properties": {
+        "record_id": {
+          "type": ["string", "null"],
+          "description": "extraction_id of the affected record, or null if the issue is not record-specific."
+        },
+        "issue_type": {
+          "type": "string",
+          "enum": [
+            "json_parse_error",
+            "required_field_missing",
+            "traceability_pointer_malformed"
+          ],
+          "description": "Closed enum of issue types registered by stage 1."
+        },
+        "detail": {
+          "type": "string",
+          "description": "Human-readable detail about the specific issue."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-056",
+  "source_record_ids": [
+    "ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-dg_gumroad_d3_seller_experience-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-018-SNP-001",
+    "source_packet_id": "SP-dg_gumroad_d3_seller_experience-018",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-018",
+    "source_type": "blog",
+    "source_title": "What I Learned from a Digital Products Experience",
+    "source_ref": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products",
+    "source_date_if_available": "November 12, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Here's where it got personal. I confessed that in three years on Gumroad, I've made a grand total of $139.96.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Seller-reported total Gumroad earnings of $139.96 over three years",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "revenue",
+    "metric_value_raw": "$139.96",
+    "metric_unit": "USD",
+    "time_scope_raw": "three years",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "in three years on Gumroad",
+      "grand total"
+    ],
+    "uncertainties": [
+      "net_vs_gross_ambiguity",
+      "time_scope_unclear"
+    ],
+    "parser_notes": [
+      "'Three years' not anchored to specific dates. Source November 2025 — 'three years' would imply approximately 2022-2025. 'Grand total' suggests cumulative. Gross vs net ambiguous."
+    ]
+  }
+}

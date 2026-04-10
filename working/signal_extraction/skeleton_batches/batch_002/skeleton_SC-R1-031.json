@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-031",
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/289-file-size-limits-on-gumroad",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-009-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-009-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-009-SNP-001",
+    "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-009",
+    "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-009",
+    "source_type": "help_center",
+    "source_title": "File Size Limits on Gumroad",
+    "source_ref": "https://help.gumroad.com/article/289-file-size-limits-on-gumroad",
+    "source_date_if_available": "November 20, 2023 (per search index metadata)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Your file size limit depends on how you've decided to price your product. Free products have a file size limit of 250 MB. Products priced higher than $1 have a file size limit of 16 GB. If you price your product at any number greater than $0.99, the largest single file that you can upload to a product is 16 GB in size. We rarely see anyone upload files larger than 5GB, so that shouldn't be an issue for the vast majority of creators. Remember, you can add as many files as you want to each product. If you price your product at $0, then the max product size can be 250 MB. In other words, if you're using our Pay What You Want feature, and setting the lowest possible price to be $0, then the max cumulative size of all your files can be 250 MB. We only show the \"Download all\" button if the total content size of your product is less than 500MB. As a workaround, you may upload a ZIP file directly to the product - this will enable your customers to download all contents at once.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Gumroad file size limits by product pricing tier (free: 250MB, paid >$0.99: 16GB per file)",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "November 20, 2023",
+    "time_scope_normalized_if_safe": "2023-11-20",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Products priced higher than $1",
+      "less than 500MB",
+      "Pay What You Want feature"
+    ],
+    "uncertainties": [
+      "none"
+    ],
+    "parser_notes": [
+      "Two tiers: free products cap at 250MB cumulative; products priced >$0.99 cap at 16GB per single file with unlimited file count. 'Download all' button has separate 500MB threshold. Source November 2023."
+    ]
+  }
+}

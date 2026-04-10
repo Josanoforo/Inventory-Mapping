@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-003",
+  "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-003",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-003",
+  "source_type": "policy_page",
+  "source_title": "Gumroad Prohibited Items",
+  "source_ref": "https://gumroad.com/prohibited",
+  "source_date_if_available": "Last revised: April 17, 2019",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This list is maintained separately from Gumroad's Terms of Service. Gumroad makes every effort to keep this list as current as possible. However, because of the unpredictable nature of card network rules, legislation and payment processor relationships, this list may change abruptly and without notice. Changes to this list take effect immediately.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Gumroad prohibited items list change policy and effective date mechanism",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Last revised: April 17, 2019",
+  "time_scope_normalized_if_safe": "2019-04-17",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["may change abruptly and without notice", "Changes to this list take effect immediately"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": ["Policy states changes take effect immediately. This makes currency of the 2019 date particularly uncertain for downstream use."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/prohibited",
+    "secondary_pointer": null
+  }
+}

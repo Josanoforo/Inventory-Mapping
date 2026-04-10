@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-039",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-001-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-001"],
+  "round": 1,
+  "signal_text": "A blog author reported total sales of $3,271 on Gumroad from POD experiments in the first six months, selling art prints, a course, and a merch drop.",
+  "subject_exact": "Single seller reported total sales on Gumroad from POD experiments over first six months ($3,271)",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$3,271",
+  "metric_unit": "USD",
+  "time_scope_raw": "the first six months",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["my POD experiments", "in the first six months", "selling art prints, a course, and a merch drop"],
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear", "actor_level_unclear"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://bootstrappingecommerce.com/gumroad-review",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-001-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-001"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Seller self-reported revenue. 'POD' (print-on-demand) experiments mentioned. Product types listed: art prints, course, merch drop — none map cleanly to schema enum. $3,271 is stated as 'total sales' — unclear if gross or net of fees. 'First six months' not anchored to a specific date range."]
+}

@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-015",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-001"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-004"],
+  "round": 1,
+  "signal_text": "Gumroad's Terms of Service (effective January 1, 2025) states that the platform enables sellers to appoint Gumroad as their non-exclusive reseller of digital products that Gumroad deems eligible for resale through the services.",
+  "subject_exact": "Gumroad legal role as non-exclusive reseller of eligible digital products on behalf of sellers",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Effective Date: January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["non-exclusive reseller", "Gumroad deems eligible", "Effective Date: January 1, 2025"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-004"
+    }
+  ],
+  "normalization_notes": ["Effective date 'January 1, 2025' safely normalized to 2025-01-01."],
+  "extraction_notes": ["Terms of Service effective 2025-01-01. 'Non-exclusive' and 'deems eligible' qualifiers preserved. Establishes Gumroad's merchant of record legal structure."]
+}

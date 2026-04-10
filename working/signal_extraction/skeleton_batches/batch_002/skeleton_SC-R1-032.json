@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-032",
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/303-sell-digital-products",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-010-SNP-001",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-010-SNP-001",
+    "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-010",
+    "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-010",
+    "source_type": "help_center",
+    "source_title": "Sell Digital Products",
+    "source_ref": "https://help.gumroad.com/article/303-sell-digital-products",
+    "source_date_if_available": "July 31, 2023 (per search index metadata)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"It costs $0 to start selling on Gumroad, and we charge no monthly fees, seriously. When you make a sale, we charge a 10% flat fee. This does not include credit card processing or PayPal fees, but there are no monthly payments or hidden charges.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "pricing_statement",
+    "subject_exact": "Gumroad 10% flat fee per sale with no monthly fee, excluding credit card processing and PayPal fees",
+    "actor_level": "marketplace",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "fee_rate",
+    "metric_value_raw": "10%",
+    "metric_unit": "percent",
+    "time_scope_raw": "July 31, 2023",
+    "time_scope_normalized_if_safe": "2023-07-31",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "This does not include credit card processing or PayPal fees"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Source dated July 2023. States 10% flat fee but notes credit card and PayPal fees are additional. Fee base is per-sale. Contradicts pricing page (which states 10% + $0.50 for profile/direct link sales) — temporal discrepancy possible. Uncertainty flagged."
+    ]
+  }
+}

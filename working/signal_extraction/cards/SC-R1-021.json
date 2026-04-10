@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-021",
+  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-007"],
+  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-004"],
+  "round": 1,
+  "signal_text": "Gumroad's Terms of Service (effective January 1, 2025) states that Gumroad currently uses Stripe, Inc. and its affiliates, and PayPal, as third-party service providers for payment processing including card acceptance and merchant settlement.",
+  "subject_exact": "Gumroad payment processing providers (Stripe and PayPal) for card acceptance and merchant settlement",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Effective Date: January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["currently"],
+  "uncertainties": ["checkout_vs_payout_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-007",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-004"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'Currently' qualifier signals potential for change. Stripe and PayPal named as payment processors. The snippet covers checkout infrastructure (card acceptance, merchant settlement) — not seller payout rails. However, PayPal appears in both checkout and payout contexts on Gumroad; this snippet refers to payment processing (checkout layer). Ambiguity preserved."]
+}

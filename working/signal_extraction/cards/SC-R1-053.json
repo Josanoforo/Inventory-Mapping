@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-053",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-015-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-015"],
+  "round": 1,
+  "signal_text": "A blog post (dated November 16, 2025) by a seller described sending multiple emails to Gumroad support over an unresolved account verification issue, following all instructions seen online including verifying, re-verifying, and checking bank details.",
+  "subject_exact": "Seller-reported support interaction with Gumroad for unresolved account verification issue over multiple emails",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["multiple emails"],
+  "uncertainties": ["context_insufficient"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/write-a-catalyst/my-honest-gumroad-review-after-4-months-the-truth-about-my-account-earnings-and-a-disappointing-480f5718e267",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-015-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-015"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'The issue' refers to unnamed problem — context_before is null. Nature of verification/bank details issue not specified in snippet. Source November 2025."]
+}

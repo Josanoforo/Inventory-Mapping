@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-054",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-016-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-016"],
+  "round": 1,
+  "signal_text": "A blog post (dated April 2026) by a seller reported earning $65.15 in 4 hours from a PDF product and described stacking $50-$200 in organic daily revenue on Gumroad.",
+  "subject_exact": "Seller-reported single-session revenue ($65.15 in 4 hours) and recurring daily organic revenue range ($50-$200) on Gumroad",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$65.15",
+  "metric_unit": "USD",
+  "time_scope_raw": "4 hours",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["organically", "slump-born PDF", "4 hours"],
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/write-a-catalyst/the-truth-about-making-money-on-gumroad-is-it-real-or-just-hype-62418e646a9a",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-016-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-016"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Two metrics present: $65.15 in 4 hours (single session) and $50-$200/day range. 'PDF' product mentioned but not in schema enum. 'Organically' qualifier (no paid ads) preserved. Source April 2026."]
+}

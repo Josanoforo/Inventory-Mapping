@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inventory-mapping.local/schemas/extraction_prepare_manifest.schema.json",
+  "title": "Extraction Prepare Manifest",
+  "description": "Schema for the stage 1 manifest written by extraction_prepare.py. Tracks progress, fingerprint, and issues for the mechanical skeleton-building step of Data Extraction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "packets_read",
+    "snippets_found",
+    "total_skeletons",
+    "skeletons_written",
+    "batches_written",
+    "batch_size",
+    "last_batch_written",
+    "issues",
+    "input_fingerprint",
+    "started_at",
+    "completed_at"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "in_progress",
+        "complete"
+      ],
+      "description": "in_progress while batches are being written; complete when all skeletons have been written."
+    },
+    "packets_read": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of valid Source Packets successfully read from the input directory."
+    },
+    "snippets_found": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total snippet entries found across all valid packets (including any that had issues)."
+    },
+    "total_skeletons": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of Extraction Record skeletons to be written across all batches."
+    },
+    "skeletons_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of skeletons written so far."
+    },
+    "batches_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of batch directories written so far."
+    },
+    "batch_size": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Maximum number of skeletons per batch directory."
+    },
+    "last_batch_written": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Batch number of the last batch written. 0 if no batch has been written yet. Used to resume interrupted runs."
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/issue"
+      },
+      "description": "Issues encountered during stage 1. Each entry names the affected packet or snippet and the issue type."
+    },
+    "input_fingerprint": {
+      "type": "string",
+      "minLength": 1,
+      "description": "SHA-256 fingerprint of the input packet directory (names + sizes). If the fingerprint changes between runs, the script refuses to continue to prevent mixing outputs from different inputs."
+    },
+    "started_at": {
+      "type": "string",
+      "description": "ISO 8601 UTC timestamp when stage 1 first started."
+    },
+    "completed_at": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 UTC timestamp when stage 1 completed successfully. Null while in progress."
+    }
+  },
+  "$defs": {
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packet_id",
+        "issue_type",
+        "detail"
+      ],
+      "properties": {
+        "packet_id": {
+          "type": ["string", "null"],
+          "description": "packet_id of the affected packet, or null if the issue is not packet-specific."
+        },
+        "snippet_id": {
+          "type": ["string", "null"],
+          "description": "snippet_id of the affected snippet, if the issue is snippet-level."
+        },
+        "issue_type": {
+          "type": "string",
+          "enum": [
+            "json_parse_error",
+            "required_field_missing",
+            "no_snippets",
+            "snippet_field_missing"
+          ],
+          "description": "Closed enum of issue types registered by stage 1."
+        },
+        "detail": {
+          "type": "string",
+          "description": "Human-readable detail about the specific issue."
+        }
+      }
+    }
+  }
+}

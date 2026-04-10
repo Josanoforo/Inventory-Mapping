@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-068",
+  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-005-SNP-001"],
+  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-005"],
+  "round": 1,
+  "signal_text": "A Gumroad Discover search results page (accessed April 2026) displayed additional category navigation covering Education, Business & Money, Photography, Writing & Publishing, Comics & Graphic Novels, Fitness & Health, Fiction Books, Audio, and Recorded Music, each with subcategories.",
+  "subject_exact": "Gumroad Discover additional category navigation taxonomy (Education, Business, Photography, Writing, Fiction, Audio, Music sections)",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/drawing-and-painting/digital-illustration/courses?sort=hot_and_new",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-gumroad_d1_catalogo_dg_output-005-SNP-001",
+      "secondary_pointer": "SP-gumroad_d1_catalogo_dg_output-005"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Second portion of Discover category taxonomy. Covers Education, Business & Money, Photography, Writing & Publishing, Comics, Fitness, Fiction Books, Audio, Recorded Music. Complements category data from source 003. Accessed April 2026."]
+}

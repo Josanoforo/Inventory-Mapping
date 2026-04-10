@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-023",
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-009"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-009",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-009",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-009",
+    "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-004",
+    "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-004",
+    "source_type": "policy_page",
+    "source_title": "Gumroad Terms of Service",
+    "source_ref": "https://gumroad.com/terms",
+    "source_date_if_available": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"UNLESS YOU OPT OUT OF THE AGREEMENT TO ARBITRATE WITHIN 30 DAYS: (1) YOU WILL ONLY BE PERMITTED TO PURSUE DISPUTES OR CLAIMS AND SEEK RELIEF AGAINST US ON AN INDIVIDUAL BASIS, NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY CLASS OR REPRESENTATIVE ACTION OR PROCEEDING AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION; AND (2) YOU ARE WAIVING YOUR RIGHT TO PURSUE DISPUTES OR CLAIMS AND SEEK RELIEF IN A COURT OF LAW AND TO HAVE A JURY TRIAL. ANY DISPUTE, CLAIM OR REQUEST FOR RELIEF RELATING IN ANY WAY TO YOUR USE OF THE SITE WILL BE GOVERNED AND INTERPRETED BY AND UNDER THE LAWS OF THE STATE OF CALIFORNIA, CONSISTENT WITH THE FEDERAL ARBITRATION ACT, WITHOUT GIVING EFFECT TO ANY PRINCIPLES THAT PROVIDE FOR THE APPLICATION OF THE LAW OF ANY OTHER JURISDICTION. THE UNITED NATIONS CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS IS EXPRESSLY EXCLUDED FROM THIS AGREEMENT.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Gumroad Terms of Service mandatory arbitration and class action waiver clause with California law jurisdiction",
+    "actor_level": [
+      "seller",
+      "buyer"
+    ],
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Effective Date: January 1, 2025",
+    "time_scope_normalized_if_safe": "2025-01-01",
+    "geography_if_explicit": "California, USA",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "UNLESS YOU OPT OUT OF THE AGREEMENT TO ARBITRATE WITHIN 30 DAYS",
+      "governed and interpreted by and under the laws of the State of California"
+    ],
+    "uncertainties": [
+      "none"
+    ],
+    "parser_notes": [
+      "Mandatory arbitration with opt-out window of 30 days. California law governs. Class action waiver explicit. Not a commercial/pricing claim; this is a legal dispute resolution policy clause."
+    ]
+  }
+}

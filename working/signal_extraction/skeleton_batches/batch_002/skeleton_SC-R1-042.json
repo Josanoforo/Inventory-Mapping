@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-042",
+  "source_record_ids": [
+    "ER-SP-dg_gumroad_d3_seller_experience-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-dg_gumroad_d3_seller_experience-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://jothipm.substack.com/p/a-new-gumroad-feature-to-increase",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-004-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-004-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-004-SNP-001",
+    "source_packet_id": "SP-dg_gumroad_d3_seller_experience-004",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-004",
+    "source_type": "blog",
+    "source_title": "A New Gumroad Feature to Increase Sales: Abandoned Cart Recovery",
+    "source_ref": "https://jothipm.substack.com/p/a-new-gumroad-feature-to-increase",
+    "source_date_if_available": "Accessed April 2026; content consistent with ~July 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I chose to write a separate email for each product left in the abandoned cart to make it more personalized. I know, it's a lot of writing! You just have to write once and then everything is automated.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Seller-reported use of Gumroad abandoned cart recovery email automation with per-product personalization",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Snippet describes seller's personal workflow using Gumroad abandoned cart recovery feature. No metric present. Source date approximate (~July 2025)."
+    ]
+  }
+}

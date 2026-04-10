@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-047",
+  "source_record_ids": ["ER-SP-dg_gumroad_d3_seller_experience-009-SNP-001"],
+  "source_ids": ["SRC-dg_gumroad_d3_seller_experience-009"],
+  "round": 1,
+  "signal_text": "A blog post (dated October 25, 2025) by a seller reported paying $16.59 in fees from $110 total sales on Gumroad, with editorial commentary on how fees grow with higher sales volumes.",
+  "subject_exact": "Seller-reported fee amount ($16.59) from $110 total sales on Gumroad with editorial commentary on fee scaling",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "$16.59",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [],
+  "uncertainties": ["net_vs_gross_ambiguity", "subject_ambiguity"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/@iampaulrose/read-this-before-you-sell-on-gumroad-b704a000e83d",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-009-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-009"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["'Total sales' of $110 likely gross. Author commentary on fee scaling not extracted as claim. The stated fee of $16.59 on $110 sales exceeds the stated 10% Gumroad fee, consistent with additional payment processing fees also being present."]
+}

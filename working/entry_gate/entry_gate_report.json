@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "total_cards": 76,
+  "rounds": [
+    {"round": 1, "cards": 76}
+  ],
+  "checks": [
+    {
+      "check": "discrete_cards",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "no_interpretation",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "no_meta_observations",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "evidence_preserved",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "check": "ids_traceable",
+      "passed": true,
+      "violations": []
+    }
+  ]
+}

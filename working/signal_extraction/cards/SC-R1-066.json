@@ -1,0 +1,34 @@
+{
+  "signal_id": "SC-R1-066",
+  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-003-SNP-001"],
+  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-003"],
+  "round": 1,
+  "signal_text": "A Gumroad Discover page (accessed April 2026) displayed a category navigation structure with top-level categories including Drawing & Painting, Design, 3D, Music & Sound Design, Films, Self Improvement, Software Development, and Education, each with multiple subcategories.",
+  "subject_exact": "Gumroad Discover category taxonomy structure (top-level and subcategory navigation)",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/design/entertainment-design",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-gumroad_d1_catalogo_dg_output-003-SNP-001",
+      "secondary_pointer": "SP-gumroad_d1_catalogo_dg_output-003"
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": ["Snapshot of Discover category navigation accessed April 2026. Top categories visible: Drawing & Painting, Design, 3D, Music & Sound Design, Films, Self Improvement, Software Development, Education. Page undated."]
+}

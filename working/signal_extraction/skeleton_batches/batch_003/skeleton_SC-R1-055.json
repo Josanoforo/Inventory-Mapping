@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-055",
+  "source_record_ids": [
+    "ER-SP-dg_gumroad_d3_seller_experience-017-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-dg_gumroad_d3_seller_experience-017"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://najfywrites.substack.com/p/how-i-got-my-first-sale-on-gumroad",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-017-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-017"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-017-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-017-SNP-001",
+    "source_packet_id": "SP-dg_gumroad_d3_seller_experience-017",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-017",
+    "source_type": "blog",
+    "source_title": "How I Got My First Sale on Gumroad",
+    "source_ref": "https://najfywrites.substack.com/p/how-i-got-my-first-sale-on-gumroad",
+    "source_date_if_available": "July 20, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Gumroad won't promote your product through their Discover page until you earn your first $10. That means no free exposure from Gumroad unless you prove yourself first.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Gumroad Discover promotion eligibility threshold of $10 in earnings for product listing",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "activation_requirement",
+    "metric_value_raw": "$10",
+    "metric_unit": "USD",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "until you earn your first $10"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Author states $10 earnings threshold for Discover promotion. This is a seller-reported claim — not from official Gumroad docs. Cross-reference with SNP-025 (indiehackers.com) which describes first sale as threshold. Source July 2025."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-007-SNP-001",
+  "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-007",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-007",
+  "source_type": "help_center",
+  "source_title": "Account Suspension",
+  "source_ref": "https://help.gumroad.com/article/160-suspension",
+  "source_date_if_available": "July 23, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If your account has been suspended for a high chargeback rate, we are forced to hold onto your balance for 30-45 days to accommodate for further chargebacks. After this period, we will pay you the remaining balance in your account, if given clearance by our banking partners.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Gumroad balance hold policy (30-45 days) for accounts suspended due to high chargeback rate",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "30-45",
+  "metric_unit": "days",
+  "time_scope_raw": "30-45 days",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["for a high chargeback rate", "if given clearance by our banking partners"],
+  "uncertainties": ["none"],
+  "parser_notes": ["Hold period contingent on banking partner clearance — payout not guaranteed after hold period. Applies specifically to accounts suspended for high chargeback rate, not all suspensions."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/160-suspension",
+    "secondary_pointer": null
+  }
+}
