@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-008-SNP-001",
+  "source_packet_id": "SP-dg_gumroad_d3_seller_experience-008",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-008",
+  "source_type": "blog",
+  "source_title": "My Honest Experience with Gumroad",
+  "source_ref": "https://medium.com/@amnakhan123/my-honest-experience-with-gumroad-b40294b6b964",
+  "source_date_if_available": "November 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Many users faced delayed payouts, poor customer support, and even suspended accounts without clear reasons. Some people struggled to get their money back.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Author-reported pattern of delayed payouts, poor support, and unexplained account suspensions among Gumroad users",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": ["Many users", "without clear reasons", "Some people"],
+  "uncertainties": ["subject_ambiguity", "actor_level_unclear"],
+  "parser_notes": ["'Many users' and 'Some people' are vague quantifiers — no specific count provided. Author is summarizing reported experiences of others, not their own. Source November 2025."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@amnakhan123/my-honest-experience-with-gumroad-b40294b6b964",
+    "secondary_pointer": null
+  }
+}

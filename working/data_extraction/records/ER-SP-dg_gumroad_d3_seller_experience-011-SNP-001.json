@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-011-SNP-001",
+  "source_packet_id": "SP-dg_gumroad_d3_seller_experience-011",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-011",
+  "source_type": "blog",
+  "source_title": "My Gumroad Journey",
+  "source_ref": "https://medium.com/never-stop-writing/my-gumroad-journey-d8de945f2474",
+  "source_date_if_available": "March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I had 35 listings and zero footfall. I was very suspicious. Yet another platform where I would put my time and energy and get nothing.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Seller-reported zero organic traffic on 35 Gumroad product listings",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "0",
+  "metric_unit": "views",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["35 listings", "zero footfall"],
+  "uncertainties": ["time_scope_unclear"],
+  "parser_notes": ["'Footfall' used as informal term for traffic/visitors. Duration of zero-traffic period not stated. 35 listings mentioned as context. Source March 2026."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/never-stop-writing/my-gumroad-journey-d8de945f2474",
+    "secondary_pointer": null
+  }
+}

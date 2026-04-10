@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-013-SNP-002",
+  "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-013",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-013",
+  "source_type": "help_center",
+  "source_title": "Gumroad's Fees",
+  "source_ref": "https://help.gumroad.com/article/66-gumroads-fees",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For sales made on the Gumroad mobile app, we charge 40% (10% goes to Gumroad, and 30% goes to the App Store/Google Play Store). There are no additional fees for affiliates – only the affiliate's sales commission\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Gumroad mobile app sale fee breakdown (40% total: 10% Gumroad + 30% App Store/Google Play)",
+  "actor_level": "marketplace",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "40%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["For sales made on the Gumroad mobile app", "10% goes to Gumroad, and 30% goes to the App Store/Google Play Store"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": ["Mobile app fee is 40% total — split identified as 10% Gumroad + 30% platform store. Page undated. Affiliate fees described as separate from platform fee."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/66-gumroads-fees",
+    "secondary_pointer": null
+  }
+}

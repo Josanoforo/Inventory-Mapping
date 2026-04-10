@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-022-SNP-001",
+  "source_packet_id": "SP-dg_gumroad_d3_seller_experience-022",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-022",
+  "source_type": "blog",
+  "source_title": "10 Gumroad Hacks That Brought Me Results",
+  "source_ref": "https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me",
+  "source_date_if_available": "January 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"One salty buyer can tank your entire product page. Gumroad's rating system lives in public, and a single 1-star review sitting at the top of your page destroys trust faster than you can say 'refund.'\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Author claim that single negative public review on Gumroad product page degrades buyer trust",
+  "actor_level": ["buyer", "seller"],
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "review_count",
+  "metric_value_raw": "1",
+  "metric_unit": "review (1-star)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["lives in public"],
+  "uncertainties": ["none"],
+  "parser_notes": ["Claim describes public visibility of Gumroad's rating system and vulnerability of seller product pages to single negative reviews. Observational claim, not verified by data. January 2026."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me",
+    "secondary_pointer": null
+  }
+}

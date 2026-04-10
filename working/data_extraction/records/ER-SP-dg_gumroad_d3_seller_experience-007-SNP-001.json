@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-007-SNP-001",
+  "source_packet_id": "SP-dg_gumroad_d3_seller_experience-007",
+  "source_id": "SRC-dg_gumroad_d3_seller_experience-007",
+  "source_type": "blog",
+  "source_title": "I'm Building 1,000 Gumroad Products: Here's Why That's Not as Insane as It Sounds",
+  "source_ref": "https://medium.com/@ajtracysk/im-building-1-000-gumroad-products-here-s-why-that-s-not-as-insane-as-it-sounds-569c18021d57",
+  "source_date_if_available": "December 7, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I build small. Single-file HTML lessons that work offline. Vocabulary games. Reading comprehension activities. Jeopardy reviews. Things I actually use in my own classroom — then package and ship. Each one takes me 15–30 minutes with AI assistance.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Seller-reported product creation workflow for educational HTML products on Gumroad (15-30 minutes per product with AI)",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "15-30",
+  "metric_unit": "minutes",
+  "time_scope_raw": "15–30 minutes",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["with AI assistance", "Things I actually use in my own classroom"],
+  "uncertainties": ["none"],
+  "parser_notes": ["Product types are educational HTML files — no direct match in schema enum. Time metric here is production time per product, not sales time scope. December 2025 dated."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@ajtracysk/im-building-1-000-gumroad-products-here-s-why-that-s-not-as-insane-as-it-sounds-569c18021d57",
+    "secondary_pointer": null
+  }
+}
