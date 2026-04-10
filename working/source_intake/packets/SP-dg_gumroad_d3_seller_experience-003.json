@@ -22,20 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller experience",
-    "platform switching behavior",
-    "seller satisfaction with Gumroad"
+    "Gumroad seller platform satisfaction",
+    "platform switch decision after policy changes"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["unknown"],
-  "possible_time_scopes": ["undated", "last 2 years prior to April 2026"],
+  "possible_time_scopes": ["undated"],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "time_scope_unclear", "metric_type_unclear"],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "metric_type_unclear"],
   "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Seller reports 2 years on Gumroad; relative anchor — approximately 2024–2026 given access date April 2026.",
-    "Qualitative experience report; no specific metric — metric_type set to unknown."
+    "source_title inferred from URL slug anyone-here-use-gumroad-or-lemon-squeezy; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Qualitative experience finding; no metric applies. 'Last 2 years' is relative and undated. 'Recently they've made several changes' is unspecified."
   ],
-  "traceability_status": "partial"
+  "traceability_status": "weak"
 }

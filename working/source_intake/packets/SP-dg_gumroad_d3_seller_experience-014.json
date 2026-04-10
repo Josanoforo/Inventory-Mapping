@@ -23,19 +23,18 @@
   ],
   "possible_subjects": [
     "Gumroad seller revenue reporting",
-    "digital product portfolio economics",
-    "Gumroad seller strategy"
+    "digital product income breakdown"
   ],
   "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "sales_count"],
-  "possible_time_scopes": ["current as of March 2026"],
+  "possible_metric_types": ["revenue"],
+  "possible_time_scopes": ["March 2026"],
   "possible_geographies": null,
-  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "uncertainties": ["current_vs_historical_ambiguity", "context_insufficient"],
   "priority_for_source_first": "high",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "$2,539 total revenue; period is not specified in snippet — 'income breakdown' may cover multiple time periods. Net/gross not stated.",
-    "50+ digital products mentioned — useful catalog depth signal for downstream."
+    "source_title inferred from URL slug my-gumroad-income-breakdown-2-539-in-revenue-heres-what-worked; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "context_insufficient: the snippet is a teaser/setup sentence; the actual revenue figures and breakdown are in the body of the article (not captured in this snippet). URL title implies $2,539 total revenue.",
+    "50+ digital products referenced. Article published March 2026 reporting historical data."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

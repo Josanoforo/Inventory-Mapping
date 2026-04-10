@@ -1,7 +1,7 @@
 {
   "packet_id": "SP-dg_gumroad_d3_seller_experience-007",
   "source_id": "SRC-dg_gumroad_d3_seller_experience-007",
-  "source_title": "I'm Building 1,000 Gumroad Products. Here's Why That's Not as Insane as It Sounds",
+  "source_title": "I'm Building 1,000 Gumroad Products: Here's Why That's Not as Insane as It Sounds",
   "source_type": "blog",
   "source_ref": "https://medium.com/@ajtracysk/im-building-1-000-gumroad-products-here-s-why-that-s-not-as-insane-as-it-sounds-569c18021d57",
   "source_date_if_available": "December 7, 2025",
@@ -22,19 +22,20 @@
     }
   ],
   "possible_subjects": [
-    "AI-assisted digital product creation workflow",
-    "Gumroad product catalog building strategy",
-    "educational digital product production"
+    "Gumroad product creation workflow",
+    "AI-assisted digital product creation",
+    "high-volume listing strategy"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["unknown"],
-  "possible_time_scopes": ["current as of December 2025"],
+  "possible_time_scopes": ["December 7 2025"],
   "possible_geographies": null,
   "uncertainties": ["metric_type_unclear"],
-  "priority_for_source_first": "medium",
+  "priority_for_source_first": "low",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Workflow/process finding; metric_type enum does not cover production workflow or time-per-unit descriptions — captured as unknown per DX-2 template sidebar."
+    "source_title inferred from URL slug im-building-1-000-gumroad-products-here-s-why-that-s-not-as-insane-as-it-sounds; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Workflow/process finding; metric_type enum does not cover production workflow descriptions. Captured as unknown.",
+    "15-30 minutes per product with AI assistance is the key process claim."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

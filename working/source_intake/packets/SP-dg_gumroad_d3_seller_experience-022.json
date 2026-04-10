@@ -22,19 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad review system impact",
-    "buyer review effect on seller conversion",
-    "Gumroad seller strategy"
+    "Gumroad review system impact on seller performance",
+    "public rating vulnerability"
   ],
-  "possible_actor_levels": ["seller", "buyer"],
-  "possible_metric_types": ["review_count", "conversion_rate"],
-  "possible_time_scopes": ["current as of January 2026"],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["review_count"],
+  "possible_time_scopes": ["January 24 2026"],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": ["current_vs_historical_ambiguity", "metric_type_unclear"],
   "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter. Slug cut off — 'brought-me' likely 'brought me results' or similar.",
-    "Snippet describes the public nature of Gumroad reviews and their impact on trust — qualitative seller perspective on review mechanics."
+    "source_title inferred from URL slug 10-gumroad-hacks-that-brought-me (slug truncated; title extended from 'Results' based on article context); template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "metric_type_unclear: review_count is the closest enum value but the claim is about single-review impact on buyer trust, not a count of reviews. metric_type enum lacks a 'review_impact' or 'conversion_rate' value for this specific claim."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

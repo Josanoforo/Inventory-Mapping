@@ -1,0 +1,69 @@
+{
+  "packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-001",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-001",
+  "source_title": "Gumroad Features",
+  "source_type": "platform_doc",
+  "source_ref": "https://gumroad.com/features",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "DG_Gumroad_D2_Platform_Mechanics",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Gumroad is a powerful, but simple, e-commerce platform that puts a wide selection of tools at your fingertips. Now you can sell the digital services you want—books, memberships, courses, and more—right to your audience.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/features"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"Create a home here — No site? No problem. Use our flexible page editor to build a storefront and customize your site's colors, and more.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/features"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "[Stated in layout: \"Create simple memberships — Give customers access to a library of content for as long as they're subscribed.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/features"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "[Stated in layout: \"Generate license keys — Selling software? We can create your license keys, so you can get back to beta.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/features"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad platform features overview",
+    "digital product types available on Gumroad"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "source_title inferred from URL path /features; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Workflow/feature overview; metric_type enum does not cover platform feature descriptions. Captured as unknown."
+  ],
+  "traceability_status": "partial"
+}

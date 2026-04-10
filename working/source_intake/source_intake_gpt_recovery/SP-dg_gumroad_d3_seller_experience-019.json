@@ -63,31 +63,30 @@
       }
     ],
     "possible_subjects": [
-      "Gumroad seller experience comparison",
-      "Gumroad fee structure",
-      "Gumroad checkout design"
+      "Gumroad vs Lemon Squeezy platform comparison",
+      "Gumroad checkout design complaint"
     ],
     "possible_actor_levels": ["seller"],
     "possible_metric_types": ["fee_rate"],
     "possible_time_scopes": ["undated"],
     "possible_geographies": null,
-    "uncertainties": ["source_date_unclear", "checkout_vs_payout_ambiguity", "metric_type_unclear"],
+    "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity"],
     "priority_for_source_first": "medium",
     "intake_notes": [
-      "source_title could not be filled: HN numeric item URL provides no title information. Requires retrieval of actual thread title via GPT recovery."
+      "source_title cannot be inferred from numeric HN item ID; routed to GPT recovery."
     ],
     "traceability_status": "partial"
   },
   "failure_detail": {
     "issue_type": "required_field_unfillable",
     "missing_required_fields": ["source_title"],
-    "validation_error": "source_title is null; schema requires type string with minLength 1",
-    "template_notes": "URL https://news.ycombinator.com/item?id=43604378 is a numeric Hacker News item ID with no slug. The thread title cannot be inferred from the URL alone. The snippet provides enough context to know the thread is about digital product platform comparison (Gumroad vs Lemon Squeezy vs others), but the actual HN thread title is unknown and must be retrieved directly."
+    "validation_error": "source_title is null; schema requires string with minLength:1",
+    "template_notes": "URL slug is a numeric Hacker News item ID (?id=43604378) containing no title information. Global fallback policy (slug-based title inference) cannot apply to numeric-ID URLs. No fallback rule in the conversion template covers this case. source_title cannot be populated from available information without fetching the actual page."
   },
   "recovery_guidance": {
-    "suggested_direction": "Fetch https://news.ycombinator.com/item?id=43604378 to retrieve the HN thread title (typically the headline of the linked article or a question posed by the submitter). Once the title is known, fill source_title and validate the packet. Also retrieve the thread parent link if this is a comment, not the top-level post.",
+    "suggested_direction": "Fetch https://news.ycombinator.com/item?id=43604378 to retrieve the HN thread title (typically the title of the linked article or discussion subject). The snippet discusses digital product platform options (Gumroad, Lemon Squeezy) from a template seller's perspective. Recovering the title will allow completing source_title and potentially surface additional context (original linked article, post date).",
     "source_ref": "https://news.ycombinator.com/item?id=43604378",
     "source_type": "seller_forum"
   },
-  "staged_at": "2026-04-10T04:35:00.000000+00:00"
+  "staged_at": "2026-04-10T10:00:00Z"
 }

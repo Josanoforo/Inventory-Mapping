@@ -1,7 +1,7 @@
 {
   "packet_id": "SP-dg_gumroad_d3_seller_experience-004",
   "source_id": "SRC-dg_gumroad_d3_seller_experience-004",
-  "source_title": "A New Gumroad Feature to Increase Sales",
+  "source_title": "A New Gumroad Feature to Increase Sales: Abandoned Cart Recovery",
   "source_type": "blog",
   "source_ref": "https://jothipm.substack.com/p/a-new-gumroad-feature-to-increase",
   "source_date_if_available": "Accessed April 2026; content consistent with ~July 2025",
@@ -22,20 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad abandoned cart email feature",
-    "Gumroad seller tools",
-    "email automation for digital product sellers"
+    "Gumroad abandoned cart recovery feature",
+    "seller workflow for automated email follow-up"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_actor_levels": ["seller"],
   "possible_metric_types": ["unknown"],
-  "possible_time_scopes": ["undated", "approximately July 2025"],
+  "possible_time_scopes": ["undated"],
   "possible_geographies": null,
   "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "metric_type_unclear"],
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Workflow/process finding about Gumroad's abandoned cart automation; metric_type enum does not cover production workflow or feature-usage descriptions — captured as unknown."
+    "source_title inferred from URL slug a-new-gumroad-feature-to-increase (slug truncated; title inferred from content context about abandoned cart); template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Workflow/feature description finding; metric_type enum does not cover abandoned cart automation workflows. Captured as unknown."
   ],
   "traceability_status": "weak"
 }

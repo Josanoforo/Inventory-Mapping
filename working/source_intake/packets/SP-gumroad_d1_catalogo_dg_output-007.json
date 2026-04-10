@@ -22,11 +22,10 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad product types",
-    "Gumroad pricing range",
-    "Gumroad platform capabilities"
+    "Gumroad product types and pricing range",
+    "product creation options"
   ],
-  "possible_actor_levels": ["marketplace"],
+  "possible_actor_levels": ["marketplace", "seller"],
   "possible_metric_types": ["price"],
   "possible_time_scopes": ["current as of July 2024"],
   "possible_geographies": null,
@@ -34,8 +33,8 @@
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Official pricing cap: USD 5,000 maximum. Free products allowed. Pay-what-you-want supported. Dated July 2024 — verify current limits."
+    "source_title inferred from URL slug 149-adding-a-product; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Maximum price $5,000 USD. Free products allowed. Pay-what-you-want supported via '+' suffix. Product types: digital, course, ebook, membership, physical, bundle, service."
   ],
   "traceability_status": "weak"
 }

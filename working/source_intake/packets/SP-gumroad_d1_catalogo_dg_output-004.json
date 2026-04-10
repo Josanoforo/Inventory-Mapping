@@ -22,19 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad catalog size",
-    "Gumroad Discover platform"
+    "Gumroad Discover product catalog size",
+    "platform product volume claim"
   ],
   "possible_actor_levels": ["marketplace"],
   "possible_metric_types": ["unknown"],
   "possible_time_scopes": ["current as of April 2026"],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "metric_type_unclear"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "metric_type_unclear"],
   "priority_for_source_first": "low",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL path by stage 2 converter.",
-    "1.6 million products is a catalog count — no enum value covers 'product catalog size'; captured as unknown with metric_type_unclear. Page meta description, may be outdated."
+    "source_title inferred from URL path /discover; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "1.6 million products claim: metric_type enum does not cover product count/catalog volume. Captured as unknown. Discover pages are dynamic; count as of April 2026 snapshot."
   ],
   "traceability_status": "weak"
 }

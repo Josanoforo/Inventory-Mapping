@@ -1,7 +1,7 @@
 {
   "packet_id": "SP-dg_gumroad_d3_seller_experience-006",
   "source_id": "SRC-dg_gumroad_d3_seller_experience-006",
-  "source_title": "Gumroad in 2025: Fees, Features, and Better Alternatives",
+  "source_title": "Gumroad in 2025: Fees, Features and Better Alternatives",
   "source_type": "blog",
   "source_ref": "https://medium.com/@RiseLogan/gumroad-in-2025-fees-features-and-better-alternatives-fef48cecb31d",
   "source_date_if_available": "Accessed April 2026; page undated (content references 2025 throughout)",
@@ -22,27 +22,20 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad fee structure",
-    "seller fee burden by price point and country",
-    "platform fee comparison"
+    "Gumroad effective fee range by price point and country",
+    "combined fee impact on seller revenue"
   ],
   "possible_actor_levels": ["seller", "source"],
   "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": ["undated", "2025"],
+  "possible_time_scopes": ["undated"],
   "possible_geographies": null,
-  "uncertainties": [
-    "snippet_needs_reopen",
-    "source_date_unclear",
-    "checkout_vs_payout_ambiguity",
-    "context_insufficient"
-  ],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "current_vs_historical_ambiguity", "context_insufficient"],
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "'This combination' in snippet requires surrounding text to interpret — what combination of fees/payment processor is being described?",
-    "8%–20% range: unclear if this is checkout (all-in) vs payout (net) fee burden, and whether 'country' refers to seller or buyer country.",
-    "4 uncertainties → flagged needs_human_review."
+    "source_title inferred from URL slug gumroad-in-2025-fees-features-and-better-alternatives; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "context_insufficient: 'this combination' in snippet requires preceding context to understand which fees are being combined (platform fee + payment processor fee?). Range of 8-20% is observed, not authoritative.",
+    "needs_human_review: 4 uncertainties registered."
   ],
   "traceability_status": "weak"
 }

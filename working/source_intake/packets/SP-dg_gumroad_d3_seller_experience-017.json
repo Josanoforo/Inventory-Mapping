@@ -22,19 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad Discover eligibility",
-    "Gumroad first-sale threshold",
-    "platform discoverability mechanics"
+    "Gumroad Discover eligibility threshold",
+    "activation requirement for organic discovery"
   ],
   "possible_actor_levels": ["seller", "marketplace"],
   "possible_metric_types": ["activation_requirement", "discoverability_claim"],
-  "possible_time_scopes": ["current as of July 2025"],
+  "possible_time_scopes": ["July 20 2025"],
   "possible_geographies": null,
   "uncertainties": ["current_vs_historical_ambiguity"],
   "priority_for_source_first": "high",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "$10 earnings threshold for Gumroad Discover listing — seller-reported policy as of July 2025. Should be cross-checked against official help.gumroad.com documentation (SP-gumroad_d1_catalogo_dg_output-010 covers the official Discover article)."
+    "source_title inferred from URL slug how-i-got-my-first-sale-on-gumroad; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$10 earnings threshold for Discover listing eligibility. Seller-reported interpretation of Gumroad policy; consistent with SP-dg_gumroad_d3_seller_experience-025 (Indie Hackers post). current_vs_historical_ambiguity applies as policy could change."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

@@ -22,25 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad income report manipulation",
-    "screenshot fraud on digital product platforms"
+    "Gumroad screenshot fraud",
+    "social proof manipulation via edited revenue screenshots"
   ],
   "possible_actor_levels": ["seller", "source"],
   "possible_metric_types": ["unknown"],
   "possible_time_scopes": ["undated"],
   "possible_geographies": null,
-  "uncertainties": [
-    "snippet_needs_reopen",
-    "source_date_unclear",
-    "metric_type_unclear",
-    "context_insufficient"
-  ],
-  "priority_for_source_first": "low",
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Snippet describes fraudulent manipulation of Gumroad screenshots; 'they' is unspecified — context needed to identify who is described. metric_type enum has no value for fraud/manipulation reporting.",
-    "4 uncertainties → flagged needs_human_review."
+    "source_title inferred from URL slug the-dirty-little-secret-about-gumroads; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Fraud/behavioral finding; metric_type enum does not cover screenshot manipulation claims. Captured as unknown."
   ],
   "traceability_status": "weak"
 }

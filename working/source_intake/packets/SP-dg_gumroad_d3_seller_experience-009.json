@@ -22,20 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad fee burden",
-    "Gumroad fee rate analysis",
-    "seller economics on Gumroad"
+    "Gumroad fee impact on seller revenue",
+    "effective fee rate example"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["fee_rate", "revenue"],
-  "possible_time_scopes": ["current as of October 2025"],
+  "possible_time_scopes": ["October 25 2025"],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "checkout_vs_payout_ambiguity"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "checkout_vs_payout_ambiguity"],
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "$16.59 fees on $110.00 sales ≈ 15.1% effective fee rate; unclear if this is the Gumroad platform fee only or all-in (including payment processor). checkout_vs_payout_ambiguity flagged."
+    "source_title inferred from URL slug read-this-before-you-sell-on-gumroad; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$16.59 fees on $110 gross sales = ~15.1% effective rate. checkout_vs_payout_ambiguity: unclear if $16.59 is Gumroad's 10% + payment processor fee combined, or just one component."
   ],
   "traceability_status": "weak"
 }

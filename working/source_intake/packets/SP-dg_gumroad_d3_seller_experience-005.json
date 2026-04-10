@@ -22,19 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller product views",
-    "digital product traffic metrics",
-    "Gumroad seller economics"
+    "Gumroad seller product listing traffic",
+    "digital product view count 2025"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["traffic_volume"],
-  "possible_time_scopes": ["2025 calendar year", "January 2025 through December 2025"],
+  "possible_time_scopes": ["2025 calendar year", "January through December 2025"],
   "possible_geographies": null,
   "uncertainties": ["current_vs_historical_ambiguity"],
-  "priority_for_source_first": "high",
+  "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "7,068 views across all products in 2025 calendar year; article published January 2026 — data is historical (prior year) but recent. Downstream Data Extraction should note views ≠ sales."
+    "source_title inferred from URL slug gumroad-digital-products-earnings; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "7,068 views across all digital products for full year 2025. Views metric, not sales."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

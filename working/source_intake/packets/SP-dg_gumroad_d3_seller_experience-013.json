@@ -23,19 +23,18 @@
   ],
   "possible_subjects": [
     "Gumroad first sale experience",
-    "Gumroad seller onboarding",
-    "time to first sale on Gumroad"
+    "early seller revenue reporting"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["first_sale", "revenue"],
-  "possible_time_scopes": ["first week of selling", "current as of November 2025"],
+  "possible_time_scopes": ["within first week of publishing", "November 2025"],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "time_scope_unclear"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity"],
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "'Within a week' is relative to listing date — not anchored to a calendar date."
+    "source_title inferred from URL slug how-i-started-making-money-on-gumroad-and-why-most-people-quit-too-early; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "~$21 in first week. Multiple sales implied ('first few sales'). Time-to-first-sale: within one week of publishing first product."
   ],
   "traceability_status": "weak"
 }

@@ -22,20 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad membership product structure",
-    "Gumroad subscription tiers",
-    "Gumroad platform capabilities"
+    "Gumroad membership tier structure",
+    "membership product types and access levels"
   ],
-  "possible_actor_levels": ["marketplace"],
+  "possible_actor_levels": ["marketplace", "seller"],
   "possible_metric_types": ["unknown"],
   "possible_time_scopes": ["current as of June 2024"],
   "possible_geographies": null,
   "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "metric_type_unclear"],
-  "priority_for_source_first": "medium",
+  "priority_for_source_first": "low",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Membership tier structure described — coaching call, community access, license levels. metric_type enum has no value for subscription tier structure — captured as unknown."
+    "source_title inferred from URL slug 82-membership-products; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Feature/product-type description; metric_type enum does not cover membership tier structures. Captured as unknown."
   ],
   "traceability_status": "weak"
 }

@@ -23,8 +23,7 @@
   ],
   "possible_subjects": [
     "Gumroad product category overview",
-    "Gumroad seller FAQ",
-    "Gumroad product types sold"
+    "most common items sold on Gumroad"
   ],
   "possible_actor_levels": ["marketplace"],
   "possible_metric_types": ["unknown"],
@@ -34,8 +33,8 @@
   "priority_for_source_first": "low",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "February 2022 — oldest help center article in corpus. Gumroad product type taxonomy may have expanded significantly since."
+    "source_title inferred from URL slug 65-gumroad-creatorpedia-all-the-answers-in-one-place; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Article dated February 2022; product type list may not reflect current catalog options. Metric_type enum does not cover product type enumeration. Captured as unknown."
   ],
   "traceability_status": "weak"
 }

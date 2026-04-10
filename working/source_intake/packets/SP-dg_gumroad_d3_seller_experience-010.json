@@ -22,20 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller traffic vs revenue",
-    "Gumroad seller strategy",
-    "zero sales experience on Gumroad"
+    "Gumroad seller performance tracking",
+    "views vs sales distinction in Gumroad dashboard"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["traffic_volume"],
-  "possible_time_scopes": ["current as of September 2025"],
+  "possible_time_scopes": ["September 7 2025"],
   "possible_geographies": null,
   "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
   "priority_for_source_first": "low",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Snippet is highly fragmentary ('it just views and not dollars in sales'); requires surrounding context to understand what is being discussed. Downgraded to low priority due to insufficient standalone content."
+    "source_title inferred from URL slug my-gumroad-strategy-restart; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "context_insufficient: snippet is a single sentence referencing an unstated number of views. The specific view count and the seller's full context are unknown from this snippet alone."
   ],
   "traceability_status": "weak"
 }

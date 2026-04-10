@@ -65,31 +65,31 @@
       }
     ],
     "possible_subjects": [
-      "Gumroad seller platform departure",
-      "creator economics after leaving Gumroad"
+      "Gumroad seller departure experience",
+      "creator platform transition difficulties"
     ],
     "possible_actor_levels": ["seller"],
     "possible_metric_types": ["unknown"],
-    "possible_time_scopes": ["January 2026", "2025"],
+    "possible_time_scopes": ["2025", "January 2026"],
     "possible_geographies": null,
-    "uncertainties": ["snippet_needs_reopen", "metric_type_unclear", "context_insufficient"],
-    "priority_for_source_first": "low",
+    "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "metric_type_unclear"],
+    "priority_for_source_first": "medium",
     "intake_notes": [
       "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-      "source_title could not be filled: maidforge.com/post/1816 is a numeric post ID with no slug. Requires retrieval of actual page title via GPT recovery."
+      "source_title cannot be inferred from numeric blog post ID /post/1816; routed to GPT recovery."
     ],
     "traceability_status": "weak"
   },
   "failure_detail": {
     "issue_type": "required_field_unfillable",
     "missing_required_fields": ["source_title"],
-    "validation_error": "source_title is null; schema requires type string with minLength 1",
-    "template_notes": "URL https://www.maidforge.com/post/1816 uses a numeric post ID — no slug is available to infer the title. The snippet describes a creator who left Gumroad in 2025 and hasn't recovered, but the page/post title is unknown."
+    "validation_error": "source_title is null; schema requires string with minLength:1",
+    "template_notes": "URL path is a numeric blog post ID (/post/1816) on maidforge.com containing no title information. Global fallback policy (slug-based title inference) cannot apply to numeric-ID URLs. No fallback rule in the conversion template covers this case. source_title cannot be populated without fetching the actual page."
   },
   "recovery_guidance": {
-    "suggested_direction": "Fetch https://www.maidforge.com/post/1816 to retrieve the page or post title. This appears to be a creator's personal blog or portfolio site. Retrieve the HTML <title> tag or the post headline. Also check whether 'maidforge' is the creator's handle (which could fill author_or_actor_if_available).",
+    "suggested_direction": "Fetch https://www.maidforge.com/post/1816 to retrieve the page title or article headline. The snippet suggests this is a creator's personal blog post reflecting on 2025 after leaving Gumroad. Recovering the title will complete source_title. Also check if the author name appears on the page (maidforge.com appears to be a creator's personal site).",
     "source_ref": "https://www.maidforge.com/post/1816",
     "source_type": "blog"
   },
-  "staged_at": "2026-04-10T04:35:00.000000+00:00"
+  "staged_at": "2026-04-10T10:00:00Z"
 }

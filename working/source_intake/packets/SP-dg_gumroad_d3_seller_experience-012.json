@@ -22,20 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller revenue reporting",
-    "Gumroad creator rankings",
-    "Gumroad platform scale"
+    "Gumroad seller revenue ranking",
+    "top creator earnings benchmark 2025"
   ],
   "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "sales_count"],
+  "possible_metric_types": ["revenue"],
   "possible_time_scopes": ["2025 calendar year"],
   "possible_geographies": null,
-  "uncertainties": ["current_vs_historical_ambiguity", "net_vs_gross_ambiguity"],
+  "uncertainties": ["net_vs_gross_ambiguity", "current_vs_historical_ambiguity"],
   "priority_for_source_first": "high",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Gumroad's own 2025-in-review email is the primary source cited; #238 ranking implies at least 238 active revenue-generating creators. Author is Gasper Crepinsek (referenced in DG finding notes).",
-    "$61,411 labelled 'digital product sales only' — gross Gumroad-reported figure, pre-fee. Downstream should note net amount is lower."
+    "source_title inferred from URL slug i-earned-61-411-on-gumroad-in-2025-and-still-feel-average; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$61,411 from Gumroad's own year-end email — platform-verified figure, not self-reported estimate. net_vs_gross_ambiguity: 'earned' may be before or after Gumroad's 10% fee.",
+    "Creator ranked #238 among all Gumroad creators in 2025, providing a relative benchmark for platform-wide earnings distribution."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

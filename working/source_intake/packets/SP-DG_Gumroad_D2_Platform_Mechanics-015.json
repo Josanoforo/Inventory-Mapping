@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-015",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-015",
+  "source_title": "Gumroad Discover",
+  "source_type": "help_center",
+  "source_ref": "https://help.gumroad.com/article/79-gumroad-discover",
+  "source_date_if_available": "July 22, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "DG_Gumroad_D2_Platform_Mechanics",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Your product cannot be free or have a sales price greater than $100 to be eligible for Discover on the mobile app. Products listed in the app may have a different price to the one you set. Don't worry, there's nothing funny going on here. In-app purchases on IOS and Android have limitations that can affect the product's price on the app. All app sales are final. This means neither creators nor Gumroad support can refund any in-app purchases. If a customer wants a refund for an in-app purchase, they must contact Apple (for IOS devices) or Google support (for Android devices). There is a 40% fee for all sales made on in-app purchases(not including credit card processing fees or PayPal fees).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/79-gumroad-discover"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Gumroad Discover mobile app fee",
+    "in-app purchase refund policy",
+    "mobile price eligibility constraints"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["fee_rate", "refund_policy", "price"],
+  "possible_time_scopes": ["current as of July 2024"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: gumroad_d1_catalogo_dg_output. Packet assigned to this shard by alphabetical order.",
+    "source_title inferred from URL slug 79-gumroad-discover; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Mobile Discover eligibility: price must be $0.01-$100. In-app sales are final (no Gumroad refunds). 40% fee applies. Cross-shard URL duplicate: d1 shard (SP-gumroad_d1_catalogo_dg_output-010) has different snippets (F-P02+F-P03). Both packets retained."
+  ],
+  "traceability_status": "weak"
+}

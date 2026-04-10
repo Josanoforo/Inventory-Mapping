@@ -1,7 +1,7 @@
 {
   "packet_id": "SP-gumroad_d1_catalogo_dg_output-005",
   "source_id": "SRC-gumroad_d1_catalogo_dg_output-005",
-  "source_title": "Gumroad — Drawing & Painting / Digital Illustration / Courses (Hot and New)",
+  "source_title": "Gumroad Discover — Drawing & Painting / Digital Illustration Courses",
   "source_type": "search_results_page",
   "source_ref": "https://gumroad.com/drawing-and-painting/digital-illustration/courses?sort=hot_and_new",
   "source_date_if_available": "Accessed April 2026; page undated",
@@ -23,18 +23,18 @@
   ],
   "possible_subjects": [
     "Gumroad category taxonomy",
-    "Gumroad course and content browsing"
+    "full product category structure"
   ],
   "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["search_discovery"],
+  "possible_metric_types": ["unknown"],
   "possible_time_scopes": ["current as of April 2026"],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "metric_type_unclear"],
   "priority_for_source_first": "low",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL path by stage 2 converter.",
-    "Category navigation showing full taxonomy — lower-level categories listed in sidebar layout. Useful for taxonomy mapping."
+    "source_title inferred from URL path /drawing-and-painting/digital-illustration/courses; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Taxonomy navigation listing. Metric_type enum does not cover category structure. Captured as unknown."
   ],
   "traceability_status": "weak"
 }

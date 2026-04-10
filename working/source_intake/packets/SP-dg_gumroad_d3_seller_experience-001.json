@@ -22,19 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller revenue reporting",
-    "print-on-demand digital product economics"
+    "Gumroad seller revenue report",
+    "print-on-demand experiment economics"
   ],
   "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "sales_count"],
-  "possible_time_scopes": ["first six months of selling (approximately 2024–2025)"],
+  "possible_metric_types": ["revenue"],
+  "possible_time_scopes": ["first six months of POD experiment"],
   "possible_geographies": null,
-  "uncertainties": ["time_scope_unclear", "net_vs_gross_ambiguity"],
-  "priority_for_source_first": "high",
+  "uncertainties": ["current_vs_historical_ambiguity", "net_vs_gross_ambiguity", "time_scope_unclear"],
+  "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Time scope 'first six months' is relative to seller start date, not a calendar anchor; estimated 2024–2025 given publication date June 2025.",
-    "$3,271 figure; net or gross unclear — no explicit mention of fees deducted."
+    "source_title inferred from URL slug gumroad-review; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$3,271 covers art prints, a course, and a merch drop. 'Total sales' likely gross revenue before fees. 'First six months' is relative; start date not specified in snippet."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

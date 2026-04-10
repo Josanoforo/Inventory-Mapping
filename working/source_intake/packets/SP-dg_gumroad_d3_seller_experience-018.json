@@ -1,7 +1,7 @@
 {
   "packet_id": "SP-dg_gumroad_d3_seller_experience-018",
   "source_id": "SRC-dg_gumroad_d3_seller_experience-018",
-  "source_title": "What I Learned from a Digital Products Experiment",
+  "source_title": "What I Learned from a Digital Products Experience",
   "source_type": "blog",
   "source_ref": "https://natashatynes.substack.com/p/what-i-learned-from-a-digital-products",
   "source_date_if_available": "November 12, 2025",
@@ -22,19 +22,19 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad seller cumulative revenue",
-    "long-term seller economics on Gumroad",
-    "Gumroad seller experience"
+    "Gumroad seller cumulative revenue reporting",
+    "long-term low-earnings scenario"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["revenue"],
-  "possible_time_scopes": ["3 years (approximately 2022–2025)", "through November 2025"],
+  "possible_time_scopes": ["three years prior to November 2025"],
   "possible_geographies": null,
-  "uncertainties": ["time_scope_unclear", "net_vs_gross_ambiguity"],
+  "uncertainties": ["current_vs_historical_ambiguity", "net_vs_gross_ambiguity", "time_scope_unclear"],
   "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "$139.96 over approximately 3 years (relative anchor from November 2025 → ~2022–2025). Net/gross not stated. Low but real revenue — useful contrast to high earners in corpus."
+    "source_title inferred from URL slug what-i-learned-from-a-digital-products (slug truncated; full article title uncertain); template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "$139.96 over 3 years. time_scope_unclear: 'three years' without specifying start/end. If article is November 2025, period is approximately 2022-2025.",
+    "net_vs_gross_ambiguity: 'made' likely refers to received payout after Gumroad fee, but unclear."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }

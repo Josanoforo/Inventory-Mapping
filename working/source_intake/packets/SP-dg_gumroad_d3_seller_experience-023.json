@@ -23,19 +23,18 @@
   ],
   "possible_subjects": [
     "Gumroad seller revenue reporting",
-    "Gumroad first sale speed",
-    "digital product success story"
+    "time to first sale and cumulative earnings 2025"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["revenue", "first_sale"],
-  "possible_time_scopes": ["2025 calendar year", "within hours of first listing"],
+  "possible_time_scopes": ["2025 calendar year", "December 2025"],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "net_vs_gross_ambiguity"],
+  "uncertainties": ["snippet_needs_reopen", "net_vs_gross_ambiguity", "current_vs_historical_ambiguity"],
   "priority_for_source_first": "medium",
   "intake_notes": [
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Nearly $15,000 in 2025; author is Travis Nicholson. Net/gross not stated."
+    "source_title inferred from URL slug how-i-made-15-000-selling-digital-products-on-gumroad-in-2025; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "First sale within hours of publishing. ~$15,000 by end of 2025. net_vs_gross_ambiguity: 'sales' is likely gross revenue before Gumroad's 10% fee."
   ],
   "traceability_status": "weak"
 }

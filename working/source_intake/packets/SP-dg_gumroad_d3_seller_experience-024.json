@@ -22,20 +22,18 @@
     }
   ],
   "possible_subjects": [
-    "Gumroad platform comparison",
-    "Gumroad fee perception",
-    "platform switching behavior",
-    "Gumroad ease of setup"
+    "Gumroad vs alternative platforms comparison",
+    "Gumroad setup ease and fee perception"
   ],
   "possible_actor_levels": ["seller"],
   "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": ["current as of March 2026"],
+  "possible_time_scopes": ["March 24 2026"],
   "possible_geographies": null,
-  "uncertainties": ["metric_type_unclear"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
   "priority_for_source_first": "medium",
   "intake_notes": [
-    "source_title null in stage 1 skeleton; inferred from URL slug by stage 2 converter.",
-    "Fees described qualitatively as 'a bit high' — no numeric fee rate given. metric_type_unclear flagged. Seller used Gumroad temporarily while waiting for Lemon Squeezy approval."
+    "source_title inferred from URL slug polar-vs-lemonsqueezy-vs-gumroad; template_case_uncovered: source_title was null in skeleton, slug-based inference applied as global fallback policy.",
+    "Qualitative fee complaint ('fees felt a bit high'). Author used Gumroad temporarily while awaiting Lemon Squeezy approval. No specific fee figures cited in snippet."
   ],
-  "traceability_status": "complete"
+  "traceability_status": "partial"
 }
