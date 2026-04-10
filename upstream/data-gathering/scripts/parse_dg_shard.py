@@ -3,11 +3,11 @@
 parse_dg_shard.py — Data Gathering shard parser.
 
 Contract authority:
-  reference/data_gathering_project_instructions_v4_5.md  (Rule 4 + Rule 7)
-  reference/research_directions_protocol.md              (Sections 3, 4, 5, 9)
+  upstream/data-gathering/reference/data_gathering_project_instructions_v4_5.md  (Rule 4 + Rule 7)
+  upstream/data-gathering/reference/research_directions_protocol.md              (Sections 3, 4, 5, 9)
 
 Usage:
-    python scripts/parse_dg_shard.py input/data_gathering/shards/<filename>.md
+    python upstream/data-gathering/scripts/parse_dg_shard.py input/data_gathering/shards/<filename>.md
 
 Outputs (written relative to repo root):
     working/data_gathering/findings/<ID>.json               — one per finding (Part 1 + Part 2)
@@ -28,7 +28,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parent
+REPO_ROOT = SCRIPT_DIR.parent.parent.parent
 FINDINGS_DIR = REPO_ROOT / "working" / "data_gathering" / "findings"
 PART4_DIR = REPO_ROOT / "working" / "data_gathering" / "diagnostics" / "part_4"
 QA_DIR = REPO_ROOT / "working" / "data_gathering" / "diagnostics" / "qa_notes"
