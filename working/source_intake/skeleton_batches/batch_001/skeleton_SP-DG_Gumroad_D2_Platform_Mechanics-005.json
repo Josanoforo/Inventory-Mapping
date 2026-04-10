@@ -1,0 +1,67 @@
+{
+  "packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-005",
+  "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-005",
+  "source_title": null,
+  "source_type": "help_center",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "DG_Gumroad_D2_Platform_Mechanics",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"How you get paid by Gumroad depends on the country in which you are physically located. If your country is not on the list of direct deposit countries, then you can only receive payouts via PayPal. If PayPal doesn't work in your country, then unfortunately, we have no way to pay you. We don't have alternate payment methods for people in this situation right now.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/13-getting-paid"
+      },
+      "source_finding_id": "F-P05",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"If bank payouts are not supported in your country, you will be paid out via PayPal. You just need to have an individual or business PayPal account without any restrictions. PayPal payouts are always processed in USD, and usually in 1-3 business days. Unfortunately, we do not support alternative payout modes like Payoneer, Wise, check, money order, wire transfer, etc.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/13-getting-paid"
+      },
+      "source_finding_id": "F-P06",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"This means that the sale amount sits in your Gumroad balance for at least 7 days before being paid out. Unfortunately, it is not possible to customize the payout schedule.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/13-getting-paid"
+      },
+      "source_finding_id": "F-P07",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P05",
+    "F-P06",
+    "F-P07"
+  ]
+}
