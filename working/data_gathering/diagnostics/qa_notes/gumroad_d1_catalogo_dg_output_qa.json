@@ -1,0 +1,12 @@
+{
+  "shard_id": "gumroad_d1_catalogo_dg_output",
+  "source_tool": "deep_search",
+  "findings_forced_to_provisional": "F-P01 through F-P11 — all Gumroad help center pages require sign-in and all gumroad.com category/discover pages are JS-rendered. Content recovered via search engine index of the exact URLs in all cases.",
+  "findings_degraded_to_could_not_verify": "F-X02 and F-X03 — membership billing details from help.gumroad.com/article/82-membership-products. Specific billing frequency names (monthly, quarterly, biannual, yearly) appeared across non-continuous snippets in the search index; could not be captured in a single continuous passage without concatenation.",
+  "findings_degraded_due_to_url_not_fixable": "None.",
+  "multi_speaker_pages_split": "None applicable.",
+  "truncated_or_partial_sources": "All help center pages were accessed only via search engine index snippets, which may omit sections of the original page. Gumroad category pages are JS-rendered and only sidebar/meta content was recoverable from search engine index.",
+  "source_type_ambiguities": "The shard declares allowed source_type as `product_listing, search_results_page, platform_doc`. The protocol requires help_center (a more specific value than platform_doc) for help center articles. Used help_center per protocol's specificity rule; downstream operators may map help_center → platform_doc if needed for shard alignment.",
+  "coverage_gaps_where_findings_expected_but_not_found": "(1) Gaming category — 17 of 18 categories verified; Gaming not captured in any sidebar rendering from fetched pages. (2) Listing counts per top-level category — no aggregate counts per category were visible in recovered content. (3) Third-level and fourth-level subcategory pages (e.g., Music & Sound Design → Sound Design → Plugins → Logic Pro) — referenced in previous research but not directly verified in this run from a single specific URL with verbatim snippet.",
+  "cases_where_input_could_not_be_decomposed_without_interpretation": "None."
+}

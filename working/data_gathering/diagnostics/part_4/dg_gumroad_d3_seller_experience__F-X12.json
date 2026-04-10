@@ -1,0 +1,11 @@
+{
+  "shard_id": "dg_gumroad_d3_seller_experience",
+  "source_tool": "deep_search",
+  "item_id": "F-X12",
+  "seller_or_subject": "Trustpilot — anonymous seller — $1,157.75 withheld, $733.50 unauthorized refund",
+  "attempted": "What: Seller with zero chargebacks and zero complaints reports $1,157.75 withheld and $733.50 refunded to a customer without seller consent, flagged by \"HIGH iffy Fraud score\" for the second time.\nVerbatim snippet: \"Gumroad withheld my seller funds and issued unauthorized refunds without my consent. I am a digital product seller with zero chargebacks and zero customer complaints.\"\nSource: https://www.trustpilot.com/review/gumroad.com\nsource_type: unknown\nverification_status: could_not_verify\nDate: 2025\nNotes: Out-of-scope: source_type 'unknown' not in shard's allowed source_types. Multi-speaker page. Specific dollar amounts ($1,157.75 withheld, $733.50 refunded) appear later in the same review but including them would require concatenation.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.trustpilot.com/review/gumroad.com"
+  ]
+}
