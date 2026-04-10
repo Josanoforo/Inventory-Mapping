@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-028",
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-006-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/152-can-i-use-gumroad-in-my-country",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-006-SNP-002",
+      "secondary_pointer": "SP-DG_Gumroad_D2_Platform_Mechanics-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-006-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-DG_Gumroad_D2_Platform_Mechanics-006-SNP-002",
+    "source_packet_id": "SP-DG_Gumroad_D2_Platform_Mechanics-006",
+    "source_id": "SRC-DG_Gumroad_D2_Platform_Mechanics-006",
+    "source_type": "help_center",
+    "source_title": "Can I Use Gumroad in My Country?",
+    "source_ref": "https://help.gumroad.com/article/152-can-i-use-gumroad-in-my-country",
+    "source_date_if_available": "May 12, 2022 (per search index metadata)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"If PayPal is not supported in your country, unfortunately we can not pay you out. We can not use Payoneer, wire deposits, bitcoin, or any other means of money transfer to pay you out.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Gumroad inability to pay sellers in countries where PayPal is unsupported, with no alternative payout method",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "payout_method_availability",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "May 12, 2022",
+    "time_scope_normalized_if_safe": "2022-05-12",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "If PayPal is not supported in your country"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity",
+      "geography_unclear"
+    ],
+    "parser_notes": [
+      "Source dated May 2022. Payoneer, wire deposits, bitcoin explicitly excluded as alternatives. Payout layer."
+    ]
+  }
+}

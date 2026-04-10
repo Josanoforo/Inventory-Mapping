@@ -1,0 +1,81 @@
+{
+  "signal_id": "SC-R1-070",
+  "source_record_ids": [
+    "ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-gumroad_d1_catalogo_dg_output-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/149-adding-a-product",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001",
+      "secondary_pointer": "SP-gumroad_d1_catalogo_dg_output-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-gumroad_d1_catalogo_dg_output-007-SNP-001",
+    "source_packet_id": "SP-gumroad_d1_catalogo_dg_output-007",
+    "source_id": "SRC-gumroad_d1_catalogo_dg_output-007",
+    "source_type": "help_center",
+    "source_title": "Adding a Product",
+    "source_ref": "https://help.gumroad.com/article/149-adding-a-product",
+    "source_date_if_available": "July 26, 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Digital product, Course or tutorial, and E-book type products allow you to sell one-time payment products with digital content in it. You can also sell recurring charge memberships, physical goods that you ship, a bundle of multiple existing products, and service-type products. Products can be free or as much as USD 5,000. You can also let customers pay whatever they want by adding a '+' to a product's minimum price, like \"$5+\".\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Gumroad product type options and maximum price cap (USD $5,000) with pay-what-you-want feature",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": [
+      "ebook",
+      "bundle",
+      "unknown"
+    ],
+    "metric_type": "price",
+    "metric_value_raw": "$5,000",
+    "metric_unit": "USD",
+    "time_scope_raw": "July 26, 2024",
+    "time_scope_normalized_if_safe": "2024-07-26",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "as much as USD 5,000",
+      "free or as much as"
+    ],
+    "uncertainties": [
+      "none"
+    ],
+    "parser_notes": [
+      "Maximum product price cap is USD $5,000. Product types listed: digital product, course/tutorial (no schema match), e-book (schema: ebook), memberships, physical goods (no schema match), bundle, services. Pay-what-you-want noted as '$' + minimum."
+    ]
+  }
+}

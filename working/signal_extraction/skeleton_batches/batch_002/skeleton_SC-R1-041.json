@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-041",
+  "source_record_ids": [
+    "ER-SP-dg_gumroad_d3_seller_experience-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-dg_gumroad_d3_seller_experience-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-dg_gumroad_d3_seller_experience-003-SNP-001",
+      "secondary_pointer": "SP-dg_gumroad_d3_seller_experience-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-dg_gumroad_d3_seller_experience-003-SNP-001",
+    "source_packet_id": "SP-dg_gumroad_d3_seller_experience-003",
+    "source_id": "SRC-dg_gumroad_d3_seller_experience-003",
+    "source_type": "seller_forum",
+    "source_title": "Anyone Here Use Gumroad or Lemon Squeezy?",
+    "source_ref": "https://forum.hise.audio/topic/10689/anyone-here-use-gumroad-or-lemon-squeezy",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I'm currently using Gumroad to sell my plunges and sample packs. It's been an overall good experience and I've built a solid business on it over the last 2 years. However, recently they've made several changes that I really don't like so I'm looking to switch.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Single seller reported 2-year Gumroad use for sample packs with dissatisfaction due to recent platform changes",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "over the last 2 years",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "currently",
+      "over the last 2 years",
+      "recently they've made several changes"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "time_scope_unclear"
+    ],
+    "parser_notes": [
+      "'Plunges and sample packs' are audio products — no exact match in product_type enum. Page undated; 'recently' and 'currently' are relative. 'Several changes' not specified in snippet."
+    ]
+  }
+}
