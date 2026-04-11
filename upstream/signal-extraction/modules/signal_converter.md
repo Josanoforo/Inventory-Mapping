@@ -119,6 +119,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 - Split only if: multiple distinct local claims are present within the same source and subject boundary, the claims do not need comparison between sources, and each split card would individually satisfy the schema.
 - Do NOT split if: the claims share the same subject_exact and actor_level and can be expressed as one coherent observation, or if splitting would require introducing cross-source material.
+  - Exception: observation + causal attribution by the speaker are always two distinct claims, even when they share subject_exact and actor_level. "What happened" and "why the speaker thinks it happened" are never one coherent observation.
 - If splitting, allocate additional `signal_id` values by incrementing `next_signal_id_counter` in the manifest before formulating each additional card. The first card retains the stage 1 `signal_id`. Register `split_performed` in issues for this skeleton. Update manifest counter immediately.
 
 **4.4 Formulate signal_text and fill judgment fields.** For each card to be produced from this skeleton (one unless splitting), formulate the observational signal_text and fill the 16 judgment fields in this order:
@@ -264,6 +265,12 @@ A skeleton may be split into multiple Signal Cards only if:
 2. The claims share the same source (`source_ids`) so cross-source synthesis is not occurring
 3. Each resulting card would independently satisfy the schema
 4. Splitting does not require comparing the claims to each other
+5. If a passage contains both a factual observation AND a causal attribution by the speaker
+   (e.g., "I got zero views [observation] because Discover requires a first sale [attribution]"),
+   split into two cards even if they share subject_exact and actor_level. The observation card
+   describes what happened. The attribution card describes what the speaker claims caused it.
+   Both are extractable — but they are distinct claims that downstream phases must be able
+   to process independently.
 
 When splitting is performed:
 - The first card retains the skeleton's original `signal_id`

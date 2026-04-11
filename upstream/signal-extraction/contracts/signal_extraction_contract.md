@@ -214,6 +214,21 @@ Dos snippets contiguos de una misma policy page que juntos forman un solo requis
 
 Si lo haces, ya estás fabricando señal compuesta.
 
+### Caso especial: observación + atribución causal del hablante
+
+Observation + causal attribution by the speaker are always two distinct claims, even when
+they share subject_exact and actor_level. "What happened" and "why the speaker thinks it
+happened" are never one coherent observation.
+
+Ejemplo:
+"I got zero views because Discover requires a first sale" → dos cards:
+1. seller reports zero views (observación)
+2. seller attributes zero views to first-sale requirement (atribución causal)
+
+Fusionarlas en una sola card oculta la diferencia entre un hecho reportado y una explicación
+subjetiva del hablante — distinción que Inventory Mapping necesita preservar para evaluar
+las claims de forma independiente.
+
 ---
 
 ## 11. Validation Checklist
