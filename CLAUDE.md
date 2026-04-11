@@ -49,9 +49,8 @@ Phase	Converter skill	Reads from	Writes to
 Authority hierarchy
 `phases/03-inventory-mapping/reference/protocol_canonical.md` — the canon for IM. Overrides everything within Phase 3.
 `pipeline_vocabulary.yaml` — canonical enum registry for all phases. Overrides schema and contract enum definitions.
-`phases/*/modules/*.md` — normative specs per step. Override skills.
-`.claude/skills/*/SKILL.md` — executable routines. Follow modules.
-`phases/*/contracts/*.md` — contracts for upstream phases.
+`phases/*/modules/*.md` and `phases/*/contracts/*.md` — normative specs per phase. Override skills.
+`.claude/skills/*/SKILL.md` — executable routines. Follow their module or contract.
 If a skill contradicts its module, the module wins.
 If a module contradicts the canon, the canon wins.
 Scope boundaries — read ONLY when asked
