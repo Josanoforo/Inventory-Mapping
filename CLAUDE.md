@@ -1,45 +1,86 @@
-# Inventory Mapping — Project
-
-## What this is
-
-Automated inventory mapping over 1,560 Signal Cards. One subagent (`inventory-mapping`) runs the full pipeline using skills for each sub-operation.
-
-## Authority hierarchy
-
-1. `reference/protocol_canonical.md` — the canon. Overrides everything.
-2. `modules/*.md` — normative specs per step. Override skills.
-3. `.claude/skills/*/SKILL.md` — executable routines. Follow modules.
-
+DSC Pipeline — Project
+What this is
+Decision System Calibration pipeline for digital product design.
+One repo, multiple phases (0–8). Currently active: Phase 0 through Phase 3.
+Phases 4–8 have blueprints but no repo implementation yet.
+The system assigns who does what — human or AI — at every phase and transition.
+AI executes where it has advantage. Human directs, interprets, and decides.
+The structure scales: early phases default to speed; late phases default to caution.
+Active phase scoping
+Not all phases are built yet. When working in the repo, identify which phase
+is active before reading files. Only load the relevant phase's contracts,
+modules, schemas, and skills.
+Phase	Status	Location
+00 Data Gathering	Implemented	phases/00-data-gathering/
+01 Source Intake + Data Extraction	Implemented	phases/01-source-intake/
+02 Signal Extraction	Implemented	phases/02-signal-extraction/
+03 Inventory Mapping	Implemented	phases/03-inventory-mapping/
+04 Design Thinking	Placeholder	phases/04-design-thinking/
+05 Concept Design	Placeholder	phases/05-concept-design/
+06 Selector	Placeholder	phases/06-selector/
+07 Expression	Placeholder	phases/07-expression/
+08 Expression Research	Placeholder	phases/08-expression-research/
+Pipeline flow
+```
+Phase 0: Data Gathering (shards → findings)
+    ↓
+Phase 1: Source Intake + Data Extraction (findings → source packets → extraction records)
+    ↓
+Phase 2: Signal Extraction (extraction records → signal cards)
+    ↓
+Phase 3: Inventory Mapping (signal cards → tension candidates)
+    ↓
+Phase 4–8: Not yet in repo (blueprints in project knowledge)
+```
+Quick navigation — Phase 3 (Inventory Mapping)
+This is the most developed phase. Here's the full map:
+Step	Module	Skill	Reads from	Writes to
+1. Entry Gate	phases/03-inventory-mapping/modules/01_entry_gate.md	entry-gate	input/signal_cards_round_*.md	working/entry_gate/
+2. Splitter	phases/03-inventory-mapping/modules/02_splitter.md	split-cards	(entry gate output)	working/split/
+3. Indexer	phases/03-inventory-mapping/modules/03_indexer.md	index-cards	(split output)	working/index/card_index.jsonl
+4. Scanner	phases/03-inventory-mapping/modules/04_scanner.md	scan-asymmetries, scan-co-occurrences, scan-contradictions, scan-frictions, scan-gaps, scan-lexical-overlap, scan-opposite-directions	working/index/	working/scans/*.json
+5. Builder	phases/03-inventory-mapping/modules/05_candidate_builder.md	build-candidate	working/scans/	output/tension_candidates/
+6. Validator	phases/03-inventory-mapping/modules/06_validator.md	validate-candidate	output/tension_candidates/	output/tension_candidates/ (validated)
+Quick navigation — upstream phases
+Phase	Converter skill	Reads from	Writes to
+01 Source Intake	p1-convert-findings	working/source_intake/skeleton_batches/	working/source_intake/packets/
+01 Data Extraction	p1-extract-records	working/data_extraction/skeleton_batches/	working/data_extraction/records/
+02 Signal Extraction	p2-extract-signals	working/signal_extraction/skeleton_batches/	working/signal_extraction/cards/
+Authority hierarchy
+`phases/03-inventory-mapping/reference/protocol_canonical.md` — the canon for IM. Overrides everything within Phase 3.
+`phases/*/modules/*.md` — normative specs per step. Override skills.
+`.claude/skills/*/SKILL.md` — executable routines. Follow modules.
+`phases/*/contracts/*.md` — contracts for upstream phases.
 If a skill contradicts its module, the module wins.
 If a module contradicts the canon, the canon wins.
-
-## Pipeline sequence
-
-1. Entry Gate → verify input integrity
-2. Split Cards → raw rounds into discrete card batches
-3. Index Cards → batches into card_index.jsonl
-4. Scanner → 7 mechanical operations over index
-5. Candidate Builder → scan patterns into tension candidates
-6. Validator → each TC against protocol checks
-
-Each step reads from `working/` and writes to `working/`. Final outputs go to `output/`.
-
-## Global rules
-
-- Every Signal ID must be verified against `input/signal_cards_round_*.md` before inclusion.
-- Format: `SC-R[round]-[number]` with brief description in parentheses.
-- No figures without a Signal ID backing them.
-- No valorative adjectives in mechanical descriptions.
-- Allowed verbs: aparece, co-ocurre, contradice, se distribuye, no se encontró, se concentra, se separa en polos, no converge.
-- Forbidden language: importante, fuerte, central, revela que, demuestra que, necesidad, solución, recomendación, sugiere que.
-- Polo definitions in corpus terms, not absolute ranges.
-- Mixed units must be declared, not hidden.
-- Human fields are never filled by the agent.
-
-## Schemas
-
-All intermediate and final outputs must validate against their schema in `schemas/`. If output does not validate, the step has failed.
-
-## Resumability
-
-Every step that processes batches maintains a manifest in `working/`. If interrupted, resume from the last recorded position in the manifest.
+Scope boundaries — read ONLY when asked
+`phases/` subfolders outside the active phase → irrelevant unless asked.
+`working/` → mutable state. Read for diagnostics, not for understanding the process.
+`agents/codex/` → recovery contracts for interrupted runs. Ignore unless resuming a failed phase.
+`input/data_gathering/shards/` → raw deep_search sources. Already processed into Signal Cards.
+`output/repo_study/` → historical self-analysis. Reference only.
+Global rules (apply to all phases)
+Every Signal ID must be verified against `input/signal_cards_round_*.md` before inclusion.
+Format: `SC-R[round]-[number]` with brief description in parentheses.
+No figures without a Signal ID backing them.
+No valorative adjectives in mechanical descriptions.
+Allowed verbs: aparece, co-ocurre, contradice, se distribuye, no se encontró, se concentra, se separa en polos, no converge.
+Forbidden language: importante, fuerte, central, revela que, demuestra que, necesidad, solución, recomendación, sugiere que.
+Polo definitions in corpus terms, not absolute ranges.
+Mixed units must be declared, not hidden.
+Human fields are never filled by the agent.
+Schemas
+All intermediate and final outputs must validate against their schema:
+Phase 3 schemas: `phases/03-inventory-mapping/schemas/`
+Phase 1 schemas: `phases/01-source-intake/schemas/` and `phases/01-source-intake/data-extraction/schemas/`
+Phase 2 schemas: `phases/02-signal-extraction/schemas/`
+If output does not validate, the step has failed.
+Resumability
+Every step that processes batches maintains a manifest in `working/`.
+If interrupted, resume from the last recorded position in the manifest.
+Failure routing
+Failed items route to recovery, never to discard:
+Phase 1: `working/source_intake/source_intake_gpt_recovery/`
+Phase 1 (extraction): `working/data_extraction/rejected_archive/`
+Phase 2: `working/signal_extraction/signal_gpt_recovery/`
+Reject is archived with reason, not discarded.
