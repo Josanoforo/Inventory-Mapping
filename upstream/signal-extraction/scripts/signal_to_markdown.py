@@ -269,6 +269,8 @@ def format_card(card: dict, source_type: str) -> str:
         "",
         f"Domain: {domain}",
         "",
+        f"Actor: {actor_level}",
+        "",
         f"Evidence base: {evidence_role}",
         "",
     ]

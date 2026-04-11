@@ -24,6 +24,12 @@ For each pattern routed as tension_candidate:
 Go back to the original signal cards in `input/`. Do not rely solely on the index.
 Verify every Signal ID against the source file. If the card does not exist, do not include it.
 Build the TC in the format of `reference/TC-001.md`.
+After the Structured support section and before the What this candidate actually supports section, include an Actor composition block:
+  Actor composition:
+  - Polo A: {actor} ({signal_ids})
+  - Polo B: {actor} ({signal_ids})
+  - Cross-actor: YES/NO
+  Look up each Signal ID's `actor` field from `working/index/card_index.jsonl`. List distinct actor value(s) per pole. Cross-actor is YES if Polo A and Polo B have different actor values; NO if all share the same value.
 Validate against `schemas/tension_candidate.schema.json`.
 Write to `output/tension_candidates/TC-NNN.md` as markdown matching TC-001 format.
 TC numbering starts at TC-002 (TC-001 already exists).

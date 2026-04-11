@@ -17,7 +17,8 @@ Transform discrete card batches into a structured JSONL index for mechanical sca
 ## Rules
 
 - Process batches incrementally. Read one batch, extract fields, append to JSONL, update manifest.
-- For each card, extract: id, round, observation, source, date, source_type, domain, evidence_base, extraction_status.
+- For each card, extract: id, round, observation, source, date, source_type, domain, actor, evidence_base, extraction_status.
+- Parse `actor` from the "Actor:" field in the markdown block.
 - Additionally extract: entities (platform names, seller names, product types mentioned) and figures (quantitative data present).
 - Entities and figures are best-effort extraction to aid scanning. They do not need to be exhaustive.
 - Validate each record against `schemas/card_record.schema.json` before appending.

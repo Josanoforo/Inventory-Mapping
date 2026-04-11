@@ -144,15 +144,23 @@ Si hay ambigüedad:
 - no se corrige imaginariamente
 
 ### Principle 3
-**Una Signal Card no debe mezclar niveles de análisis sin declararlo.**
+**`actor_level` identifica QUIÉN HABLA o ACTÚA, no a quién afecta la observación.**
 
-Si la señal es:
-- buyer-level
-- seller-level
-- marketplace-level
-- product-level
+`actor_level` es el actor que es **fuente del claim**, no el actor que resulta impactado por él.
 
-eso debe quedar claro.
+Ejemplos:
+- Un artículo del help center de Gumroad sobre políticas de reembolso para vendedores → `actor_level = platform` (Gumroad habla), **no** `seller` (aunque los vendedores sean los afectados).
+- Un blog post de un vendedor describiendo sus propios ingresos → `actor_level = seller` (el vendedor habla).
+- Una página de precios de la plataforma → `actor_level = platform`.
+- Un foro de vendedores discutiendo una política → `actor_level = seller`.
+
+**Regla de asignación por source_type:**
+- `help_center`, `pricing_page`, `platform_doc`, `policy_page` → siempre `platform`
+- `blog`, `seller_forum`, `reddit` de un vendedor hablando en primera persona → `seller`
+- `search_results_page`, `category_page` (contenido generado por la plataforma) → `marketplace`
+- Comentario o análisis sin actor en primera persona → `source`
+
+Una Signal Card no debe mezclar niveles de análisis sin declararlo. Si la señal involucra más de un nivel, decláralo explícitamente usando `mixed` solo si el source genuinamente involucra múltiples actores hablando (no cuando una fuente habla sobre múltiples actores).
 
 ### Principle 4
 **Una Signal Card no es una mini-síntesis.**

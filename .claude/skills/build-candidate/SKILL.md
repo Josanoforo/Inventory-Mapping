@@ -32,6 +32,12 @@ ID: TC-NNN (starting at TC-002)
 Status, Type, Mechanical relation, Analytical unit
 Signal IDs list
 Structured support with Poles
+Actor composition block (immediately after Structured support, before What this candidate actually supports):
+  Actor composition:
+  - Polo A: {actor} ({signal_ids})
+  - Polo B: {actor} ({signal_ids})
+  - Cross-actor: YES if Polo A and Polo B have different actor values; NO if all share the same actor value.
+  Look up each Signal ID's actor from `working/index/card_index.jsonl`. List the distinct actor value(s) per pole.
 Additional context (if applicable)
 What it supports (yes/no)
 What is missing
