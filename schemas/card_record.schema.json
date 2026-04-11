@@ -3,7 +3,7 @@
   "title": "CardRecord",
   "description": "One indexed signal card. One line in card_index.jsonl.",
   "type": "object",
-  "required": ["id", "round", "observation", "source", "source_type", "domain", "extraction_status"],
+  "required": ["id", "round", "observation", "source", "source_type", "domain", "actor", "extraction_status"],
   "properties": {
     "id": {
       "type": "string",
@@ -17,6 +17,10 @@
     "domain": {
       "type": "string",
       "enum": ["market", "platform", "seller", "buyer", "product", "competition", "not_specified"]
+    },
+    "actor": {
+      "type": "string",
+      "enum": ["buyer", "seller", "product", "marketplace", "platform"]
     },
     "evidence_base": { "type": "string" },
     "extraction_status": {
