@@ -1,0 +1,289 @@
+# pipeline_vocabulary.yaml
+# Source of truth for all closed enums across the DSC pipeline.
+# If a schema or contract diverges from this file, this file wins.
+#
+# Fields are organized by scope: cross-phase first, then phase-specific.
+# Phase-specific fields only appear in one phase and don't need cross-phase alignment.
+
+# =============================================================================
+# CROSS-PHASE FIELDS
+# These appear in multiple phases. Values here are canonical.
+# =============================================================================
+
+actor:
+  # Canonical name: actor
+  # Called "actor_level" in Phase 1-2 schemas (legacy — unification pending)
+  # Called "actor" in Phase 3 schemas and card_index.jsonl
+  values:
+    - buyer
+    - seller
+    - product
+    - marketplace
+    - platform
+    - source
+    - mixed
+    - unknown        # Phase 1-2 only; Phase 3 does not use unknown
+  assignment_rule: |
+    Determined by source_type, not by topic. "Who speaks", not "who is affected."
+    help_center, pricing_page, platform_doc, policy_page → platform
+    blog / seller_forum / reddit (author = seller) → seller
+    blog / reddit (author = buyer) → buyer
+    search_results_page, category_page → marketplace
+    commentary or analysis without first-person actor → source
+    See: signal_extraction_contract §7 Principle 3
+  notes:
+    - "'platform' = official voice, explicit policy."
+    - "'marketplace' = algorithmic output, no explicit commitment."
+    - "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)."
+    - "Collapsing actor without declaring it is a rework-level failure."
+
+metric_type:
+  values:
+    - revenue
+    - profit
+    - payout
+    - fee_rate
+    - traffic_volume
+    - active_buyers
+    - monthly_visitors
+    - search_discovery
+    - sales_count
+    - first_sale
+    - review_requirement
+    - activation_requirement
+    - payment_method_availability
+    - payout_method_availability
+    - discoverability_claim
+    - conversion_rate
+    - refund_policy
+    - review_count
+    - price
+    - time_to_first_sale
+    - unknown
+
+evidence_role:
+  values:
+    - direct_claim
+    - local_context
+    - downstream_consequence
+    - anecdotal_example
+    - official_policy
+    - comparative_commentary
+    - derived_calculation
+    - seller_self_claim
+    - reported_event
+    - database_fact
+    - observed_platform_state
+    - unknown
+
+source_type:
+  values:
+    - platform_doc
+    - help_center
+    - pricing_page
+    - policy_page
+    - blog
+    - article
+    - report
+    - news
+    - reddit
+    - seller_forum
+    - buyer_review
+    - product_listing
+    - interview
+    - video_transcript
+    - pdf
+    - database_profile
+    - search_results_page
+    - unknown
+
+product_type_if_explicit:
+  values:
+    - notion_template
+    - ebook
+    - digital_planner
+    - prompt
+    - spreadsheet
+    - csv_database
+    - pattern
+    - design_asset
+    - stock_photo
+    - software
+    - bundle
+    - unknown
+
+pointer_type:
+  values:
+    - url
+    - file_path
+    - document_section
+    - line_range
+    - page_reference
+    - anchor
+    - internal_ref
+    - source_record_ref  # Signal cards only
+  notes:
+    - "'source_record_ref' is used only in signal cards to reference extraction records."
+
+uncertainties:
+  # Core values shared across phases
+  core:
+    - subject_ambiguity
+    - actor_level_unclear
+    - time_scope_unclear
+    - source_date_unclear
+    - context_insufficient
+    - checkout_vs_payout_ambiguity
+    - net_vs_gross_ambiguity
+    - current_vs_historical_ambiguity
+    - product_type_unclear
+    - geography_unclear
+    - none
+  # Phase-specific extensions
+  phase_1_only:
+    - source_type_unclear
+    - metric_type_unclear
+    - snippet_needs_reopen
+  phase_2_only:
+    - metric_unit_unclear
+    - platform_scope_unclear
+  notes:
+    - "Each phase uses core + its own extensions."
+    - "4+ uncertainties in a single record triggers needs_human_review."
+
+# =============================================================================
+# PHASE 1 — SOURCE INTAKE + DATA EXTRACTION
+# =============================================================================
+
+claim_type:
+  phase: "01"
+  values:
+    - explicit_claim
+    - policy_statement
+    - pricing_statement
+    - anecdotal_report
+    - derived_calculation
+    - comparative_commentary
+    - review_statement
+    - availability_statement
+    - instructional_statement
+    - unknown
+
+retrieval_method:
+  phase: "01"
+  values:
+    - deep_search
+    - gpt_custom
+    - manual_search
+    - follow_up_query
+    - reopened_source
+    - imported_reference
+    - unknown
+
+priority_for_source_first:
+  phase: "01"
+  values: [high, medium, low]
+
+traceability_status:
+  phase: "01"
+  values: [complete, partial, weak]
+
+# =============================================================================
+# PHASE 3 — INVENTORY MAPPING
+# =============================================================================
+
+tension_type:
+  phase: "03"
+  # Called "type" in tension_candidate.schema.json
+  values:
+    - contradicción
+    - fricción
+    - hueco
+    - dirección opuesta
+    - co-ocurrencia significativa
+    - asimetría distributiva
+
+tension_status:
+  phase: "03"
+  # Called "status" in tension_candidate.schema.json
+  values:
+    - pending_review
+    - needs_audit_before_classification
+
+classification_risk:
+  phase: "03"
+  values:
+    - posible contradicción falsa
+    - posible agrupación disfrazada de tensión
+    - posible artefacto de fuente
+    - posible artefacto del detector
+    - posible sobre-abstracción
+    - posible falta de grounding
+    - posible mezcla de unidades incompatibles
+    - posible survivorship bias
+    - posible sub-representación de un segmento
+
+scan_routing:
+  phase: "03"
+  # Called "routing" in scan_artifact.schema.json
+  values:
+    - tension_candidate
+    - rejected_grouping
+    - coverage_gap
+    - isolated_signal
+    - needs_audit
+
+scan_type:
+  phase: "03"
+  values:
+    - contradictions
+    - asymmetries
+    - frictions
+    - co_occurrences
+    - gaps
+    - opposite_directions
+    - lexical_overlap
+
+domain:
+  phase: "03"
+  # NOT the same as actor. Domain = what territory the observation is about.
+  # Actor = who speaks. A help_center article about sellers has domain=seller but actor=platform.
+  values:
+    - market
+    - platform
+    - seller
+    - buyer
+    - product
+    - competition
+    - not_specified
+
+extraction_status:
+  phase: "03"
+  values: [extracted, ambiguous, not_extractable]
+
+# =============================================================================
+# MECHANICAL LANGUAGE RULES (apply to all phases)
+# =============================================================================
+
+allowed_verbs:
+  values:
+    - aparece
+    - co-ocurre
+    - contradice
+    - se distribuye
+    - no se encontró
+    - se concentra
+    - se separa en polos
+    - no converge
+
+forbidden_language:
+  values:
+    - importante
+    - fuerte
+    - central
+    - revela que
+    - demuestra que
+    - necesidad
+    - solución
+    - recomendación
+    - sugiere que
