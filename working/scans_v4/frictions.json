@@ -1,0 +1,144 @@
+{
+  "scan_type": "frictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "FRI-001",
+      "description": "La estructura de fees del canal móvil de Gumroad (40% total: 10% Gumroad + 30% App Store/Google Play) co-ocurre con señales de sellers que perciben los fees como elevados y migran hacia otras plataformas. El bloqueador es la política de fees de app store documentada en cards de plataforma; lo bloqueado son sellers que reportan erosión de margen o migración en cards de seller.",
+      "signal_ids": ["SC-R1-036", "SC-R1-038", "SC-R1-047", "SC-R1-061"],
+      "signal_summaries": {
+        "SC-R1-036": "Gumroad help center: 40% total fee for mobile app sales (10% Gumroad + 30% App Store/Google Play)",
+        "SC-R1-038": "Gumroad Discover mobile app: 40% fee, $100 price cap, no refunds, all app sales final",
+        "SC-R1-047": "Seller paid $16.59 in fees from $110 total sales, commentary on fee growth at higher volumes",
+        "SC-R1-061": "Seller perceived Gumroad fees as high, migrated back to Lemon Squeezy once approved"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Blocker documented in platform cards (SC-R1-036, SC-R1-038): 40% mobile app fee structure. Blocked documented in seller cards (SC-R1-047, SC-R1-061): fee erosion and platform migration. Actor values differ: platform (blocker pole) vs seller (blocked pole). Different actor values → passes same-actor filter. Both sides have card support with documented mechanism.",
+      "components": [
+        {
+          "label": "Blocker — fee structure del canal móvil",
+          "signal_ids": ["SC-R1-036", "SC-R1-038"],
+          "summary": "Platform policy: 40% fee on mobile app sales (10% Gumroad + 30% App Store/Google Play), $100 price cap on Discover mobile app, no seller-issued refunds"
+        },
+        {
+          "label": "Blocked — sellers con margen erosionado o migración documentada",
+          "signal_ids": ["SC-R1-047", "SC-R1-061"],
+          "summary": "Seller self-reports: fee impact on margin ($16.59 from $110), migration away from Gumroad citing high fees"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-002",
+      "description": "La política de Gumroad de no activar Discover hasta que el seller alcanza su primera venta (o $10 en ingresos) co-ocurre con sellers que reportan cero tráfico orgánico a pesar de tener múltiples listings. El bloqueador es la política de eligibilidad de Discover documentada en cards de plataforma; lo bloqueado son sellers sin primera venta que no acceden a exposición orgánica.",
+      "signal_ids": ["SC-R1-055", "SC-R1-062", "SC-R1-049", "SC-R1-073"],
+      "signal_summaries": {
+        "SC-R1-055": "Seller states Gumroad will not promote via Discover until seller earns first $10; no free exposure before threshold",
+        "SC-R1-062": "Seller with 26 products reports zero organic views and zero Discover views; attributes to Discover threshold before first sale",
+        "SC-R1-049": "Seller with 35 listings reports zero organic traffic (zero footfall)",
+        "SC-R1-073": "Gumroad help center: products listed on Discover once unspecified eligibility criteria are satisfied"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Blocker documented in platform card (SC-R1-073) and seller-reported policy (SC-R1-055): Discover eligibility threshold. Blocked documented in seller cards (SC-R1-062, SC-R1-049): zero organic traffic despite multiple products. Actor values differ: platform/seller (blocker pole) vs seller (blocked pole). SC-R1-073 actor=platform, SC-R1-055 actor=seller, SC-R1-062 actor=seller, SC-R1-049 actor=seller. Blocker pole contains platform actor; blocked pole contains seller actor. Different actor values → passes same-actor filter.",
+      "components": [
+        {
+          "label": "Blocker — política de eligibilidad de Discover",
+          "signal_ids": ["SC-R1-073", "SC-R1-055"],
+          "summary": "Platform policy: eligibility criteria required before Discover listing; seller-reported threshold of first $10 earned"
+        },
+        {
+          "label": "Blocked — sellers sin tráfico orgánico pre-primera venta",
+          "signal_ids": ["SC-R1-062", "SC-R1-049"],
+          "summary": "Sellers with 26 and 35 products respectively report zero organic/Discover views"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-003",
+      "description": "La política de pago de Gumroad (solo direct deposit o PayPal; Payoneer, Wise, wire no soportados) co-ocurre con sellers en países donde PayPal no está disponible que no pueden recibir pagos. El bloqueador es la política de payout documentada en cards de plataforma; lo bloqueado son sellers en geografías no cubiertas.",
+      "signal_ids": ["SC-R1-024", "SC-R1-025", "SC-R1-027", "SC-R1-028"],
+      "signal_summaries": {
+        "SC-R1-024": "Gumroad help center: if direct deposit unavailable and PayPal unavailable in seller's country, there is currently no way to pay the seller",
+        "SC-R1-025": "Gumroad help center: Payoneer, Wise, check, money order, wire transfer not supported as payout methods",
+        "SC-R1-027": "Gumroad help center: payout method by country (direct bank or debit in listed countries; verified PayPal for all others)",
+        "SC-R1-028": "Gumroad help center: if PayPal not supported in seller's country, Gumroad cannot pay them; Payoneer, wire, bitcoin unavailable"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Blocker documented in platform cards: payout infrastructure limited to direct deposit and PayPal. Blocked: sellers in countries where both are unavailable receive no payment. All 4 cards have actor=platform. Same actor across all signal IDs → same_actor_discrepancy. Route to rejected_grouping.",
+      "components": [
+        {
+          "label": "Blocker — política de payout limitada a direct deposit y PayPal",
+          "signal_ids": ["SC-R1-024", "SC-R1-025", "SC-R1-027", "SC-R1-028"],
+          "summary": "Platform policy: no payout for sellers in countries without direct deposit or PayPal support"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-003-REJECTED",
+      "description": "FRI-003 re-evaluated: all 4 signal IDs have actor=platform. Same-actor filter applies.",
+      "signal_ids": ["SC-R1-024", "SC-R1-025", "SC-R1-027", "SC-R1-028"],
+      "signal_summaries": {
+        "SC-R1-024": "Gumroad help center: no payout method if neither direct deposit nor PayPal available in seller's country",
+        "SC-R1-025": "Gumroad help center: alternative payout methods not supported",
+        "SC-R1-027": "Gumroad help center: payout method determined by country",
+        "SC-R1-028": "Gumroad help center: no payment possible if PayPal unsupported in country"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "All 4 signal IDs have actor=platform. Same-actor filter: all signals across both potential poles share the same actor value. Route to rejected_grouping with reason same_actor_discrepancy. Note: the affected sellers are not documented in any seller-actor card in this corpus.",
+      "components": []
+    },
+    {
+      "pattern_id": "FRI-004",
+      "description": "La política de reembolsos de Gumroad (plataforma puede emitir reembolsos dentro de 90 días anulando política del seller; sellers responsables de reembolsar a Gumroad por chargebacks) co-ocurre con sellers que reportan suspensiones de cuenta y dificultad para recuperar fondos. El bloqueador es la política de refunds/chargebacks documentada en platform cards; lo bloqueado son sellers afectados documentados en seller cards.",
+      "signal_ids": ["SC-R1-034", "SC-R1-018", "SC-R1-046", "SC-R1-029"],
+      "signal_summaries": {
+        "SC-R1-034": "Gumroad help center: platform reserves right to issue refunds within 90 days even if seller has no-refund policy",
+        "SC-R1-018": "Gumroad ToS: sellers responsible for reimbursing Gumroad for refunds, chargebacks, disputes",
+        "SC-R1-046": "Blog: many Gumroad users faced delayed payouts, poor customer support, account suspensions without clear reasons",
+        "SC-R1-029": "Gumroad help center: on suspension for high chargeback rate, balance held 30-45 days"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Blocker documented in platform cards (SC-R1-034, SC-R1-018, SC-R1-029): Gumroad's unilateral refund/chargeback policy and balance holds. Blocked documented in seller card (SC-R1-046): delayed payouts, suspensions, difficulty recovering funds. Actor values: SC-R1-034=platform, SC-R1-018=platform, SC-R1-029=platform, SC-R1-046=seller. Different actor values → passes same-actor filter.",
+      "components": [
+        {
+          "label": "Blocker — política unilateral de refunds y suspension por chargebacks",
+          "signal_ids": ["SC-R1-034", "SC-R1-018", "SC-R1-029"],
+          "summary": "Platform policy: unilateral refund rights within 90 days, sellers liable for chargebacks, balance held 30-45 days on suspension"
+        },
+        {
+          "label": "Blocked — sellers con pagos retenidos y cuentas suspendidas",
+          "signal_ids": ["SC-R1-046"],
+          "summary": "Seller-reported: delayed payouts, suspensions without clear reasons, difficulty recovering funds"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-005",
+      "description": "La política de Gumroad de que Discover solo está disponible para ventas dentro del precio cap de $100 co-ocurre con sellers con productos de mayor precio que no pueden aprovechar el canal de descubrimiento móvil. Ambos lados documentados en platform cards.",
+      "signal_ids": ["SC-R1-038", "SC-R1-070"],
+      "signal_summaries": {
+        "SC-R1-038": "Gumroad Discover mobile app: products cannot exceed $100 to be eligible for Discover mobile app",
+        "SC-R1-070": "Gumroad help center: products can be priced up to $5,000"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "Both cards have actor=platform. Same-actor filter: all signal IDs share actor=platform → same_actor_discrepancy. Route to rejected_grouping.",
+      "components": []
+    },
+    {
+      "pattern_id": "FRI-005-REJECTED",
+      "description": "FRI-005 same-actor check: both SC-R1-038 and SC-R1-070 have actor=platform.",
+      "signal_ids": ["SC-R1-038", "SC-R1-070"],
+      "signal_summaries": {
+        "SC-R1-038": "Gumroad Discover mobile: $100 price cap for eligibility",
+        "SC-R1-070": "Gumroad help center: products can be priced up to $5,000"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "All signal IDs have actor=platform. Same-actor discrepancy. No seller-side documentation of impact in this corpus.",
+      "components": []
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 6,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}
