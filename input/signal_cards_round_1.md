@@ -1,6 +1,6 @@
 # Signal Cards — Round 1
 
-Total cards: 76
+Total cards: 75
 
 ---
 
@@ -15,6 +15,8 @@ Date:
 Source type: platform_doc
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -32,6 +34,8 @@ Source type: platform_doc
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: observed_platform_state
 
 ---
@@ -47,6 +51,8 @@ Date:
 Source type: platform_doc
 
 Domain: market
+
+Actor: ['seller', 'buyer']
 
 Evidence base: observed_platform_state
 
@@ -64,6 +70,8 @@ Source type: platform_doc
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: observed_platform_state
 
 ---
@@ -79,6 +87,8 @@ Date:
 Source type: pricing_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -96,6 +106,8 @@ Source type: pricing_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -111,6 +123,8 @@ Date:
 Source type: pricing_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -128,6 +142,8 @@ Source type: pricing_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -143,6 +159,8 @@ Date:
 Source type: pricing_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -160,6 +178,8 @@ Source type: pricing_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -175,6 +195,8 @@ Date:
 Source type: pricing_page
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -192,6 +214,8 @@ Source type: policy_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -207,6 +231,8 @@ Date: 2019-04-17
 Source type: policy_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -224,6 +250,8 @@ Source type: policy_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -239,6 +267,8 @@ Date: 2025-01-01
 Source type: policy_page
 
 Domain: market
+
+Actor: ['seller', 'marketplace']
 
 Evidence base: official_policy
 
@@ -256,6 +286,8 @@ Source type: policy_page
 
 Domain: market
 
+Actor: ['seller', 'marketplace']
+
 Evidence base: official_policy
 
 ---
@@ -271,6 +303,8 @@ Date: 2025-01-01
 Source type: policy_page
 
 Domain: market
+
+Actor: ['seller', 'marketplace']
 
 Evidence base: official_policy
 
@@ -288,6 +322,8 @@ Source type: policy_page
 
 Domain: market
 
+Actor: ['seller', 'marketplace', 'buyer']
+
 Evidence base: official_policy
 
 ---
@@ -303,6 +339,8 @@ Date: 2025-01-01
 Source type: policy_page
 
 Domain: market
+
+Actor: ['seller', 'marketplace']
 
 Evidence base: official_policy
 
@@ -320,6 +358,8 @@ Source type: policy_page
 
 Domain: market
 
+Actor: ['marketplace', 'buyer']
+
 Evidence base: official_policy
 
 ---
@@ -335,6 +375,8 @@ Date: 2025-01-01
 Source type: policy_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -352,6 +394,8 @@ Source type: policy_page
 
 Domain: market
 
+Actor: ['seller', 'marketplace', 'buyer']
+
 Evidence base: official_policy
 
 ---
@@ -367,6 +411,8 @@ Date: 2025-01-01
 Source type: policy_page
 
 Domain: market
+
+Actor: ['seller', 'buyer']
 
 Evidence base: official_policy
 
@@ -384,6 +430,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -399,6 +447,8 @@ Date: usually in 1-3 business days
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -416,6 +466,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -431,6 +483,8 @@ Date: 2022-05-12
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -448,6 +502,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -463,6 +519,8 @@ Date: 30-45 days
 Source type: help_center
 
 Domain: market
+
+Actor: ['seller', 'marketplace']
 
 Evidence base: official_policy
 
@@ -480,6 +538,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -495,6 +555,8 @@ Date: 2023-11-20
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -512,6 +574,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -528,13 +592,15 @@ Source type: help_center
 
 Domain: market
 
+Actor: mixed
+
 Evidence base: official_policy
 
 ---
 
 **SC-R1-034**
 
-Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy.
+Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy, and that customers can additionally issue chargebacks at any time through their credit card.
 
 Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
 
@@ -544,21 +610,7 @@ Source type: help_center
 
 Domain: market
 
-Evidence base: official_policy
-
----
-
-**SC-R1-076**
-
-Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that customers can issue chargebacks at any time through their credit card.
-
-Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
-
-Date: within 90 days of purchase
-
-Source type: help_center
-
-Domain: market
+Actor: ['seller', 'marketplace', 'buyer']
 
 Evidence base: official_policy
 
@@ -576,6 +628,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -591,6 +645,8 @@ Date:
 Source type: help_center
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -608,6 +664,8 @@ Source type: help_center
 
 Domain: market
 
+Actor: ['buyer', 'marketplace']
+
 Evidence base: official_policy
 
 ---
@@ -623,6 +681,8 @@ Date: 2024-07-22
 Source type: help_center
 
 Domain: market
+
+Actor: ['seller', 'marketplace', 'buyer']
 
 Evidence base: official_policy
 
@@ -640,6 +700,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -655,6 +717,8 @@ Date:
 Source type: blog
 
 Domain: not_specified
+
+Actor: source
 
 Evidence base: direct_claim
 
@@ -672,6 +736,8 @@ Source type: seller_forum
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -687,6 +753,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -704,6 +772,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -719,6 +789,8 @@ Date:
 Source type: blog
 
 Domain: not_specified
+
+Actor: source
 
 Evidence base: comparative_commentary
 
@@ -736,6 +808,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -751,6 +825,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: comparative_commentary
 
@@ -768,6 +844,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -783,6 +861,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -800,6 +880,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -815,6 +897,8 @@ Date: 2025
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -832,6 +916,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -847,6 +933,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -864,6 +952,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -879,6 +969,8 @@ Date: 4 hours
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -896,6 +988,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -911,6 +1005,8 @@ Date: three years
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -928,6 +1024,8 @@ Source type: blog
 
 Domain: not_specified
 
+Actor: source
+
 Evidence base: comparative_commentary
 
 ---
@@ -944,13 +1042,15 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
 
 **SC-R1-059**
 
-Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review appears at the top of a product page.
+Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review at the top of a product page degrades buyer trust.
 
 Source: https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me
 
@@ -959,6 +1059,8 @@ Date:
 Source type: blog
 
 Domain: market
+
+Actor: ['buyer', 'seller']
 
 Evidence base: seller_self_claim
 
@@ -976,6 +1078,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -991,6 +1095,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: comparative_commentary
 
@@ -1008,6 +1114,8 @@ Source type: seller_forum
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -1023,6 +1131,8 @@ Date: Accessed April 2026
 Source type: search_results_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -1040,6 +1150,8 @@ Source type: platform_doc
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -1055,6 +1167,8 @@ Date: Accessed April 2026
 Source type: platform_doc
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -1072,6 +1186,8 @@ Source type: search_results_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -1087,6 +1203,8 @@ Date: Accessed April 2026
 Source type: search_results_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -1104,6 +1222,8 @@ Source type: search_results_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -1119,6 +1239,8 @@ Date: 2022-07-27
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -1136,6 +1258,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -1151,6 +1275,8 @@ Date: 2023-11-20
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -1168,6 +1294,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -1183,6 +1311,8 @@ Date: 2024-07-22
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -1200,6 +1330,8 @@ Source type: help_center
 
 Domain: market
 
+Actor: ['seller', 'buyer', 'marketplace']
+
 Evidence base: official_policy
 
 ---
@@ -1215,6 +1347,8 @@ Date: 2024-06-29
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 

@@ -14,6 +14,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -29,6 +31,8 @@ Date: 2022-05-12
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -46,6 +50,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -61,6 +67,8 @@ Date: 30-45 days
 Source type: help_center
 
 Domain: market
+
+Actor: ['seller', 'marketplace']
 
 Evidence base: official_policy
 
@@ -78,6 +86,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -93,6 +103,8 @@ Date: 2023-11-20
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -110,6 +122,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -126,13 +140,15 @@ Source type: help_center
 
 Domain: market
 
+Actor: mixed
+
 Evidence base: official_policy
 
 ---
 
 **SC-R1-034**
 
-Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy.
+Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that Gumroad reserves the right to issue refunds within 90 days of purchase at its discretion to prevent chargebacks, even if a seller has a no-refund policy, and that customers can additionally issue chargebacks at any time through their credit card.
 
 Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
 
@@ -142,21 +158,7 @@ Source type: help_center
 
 Domain: market
 
-Evidence base: official_policy
-
----
-
-**SC-R1-076**
-
-Observation: A Gumroad help center article on refund policy (dated May 10, 2023) states that customers can issue chargebacks at any time through their credit card.
-
-Source: https://help.gumroad.com/article/51-what-is-gumroads-refund-policy
-
-Date: within 90 days of purchase
-
-Source type: help_center
-
-Domain: market
+Actor: ['seller', 'marketplace', 'buyer']
 
 Evidence base: official_policy
 
@@ -174,6 +176,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -189,6 +193,8 @@ Date:
 Source type: help_center
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: official_policy
 
@@ -206,6 +212,8 @@ Source type: help_center
 
 Domain: market
 
+Actor: ['buyer', 'marketplace']
+
 Evidence base: official_policy
 
 ---
@@ -221,6 +229,8 @@ Date: 2024-07-22
 Source type: help_center
 
 Domain: market
+
+Actor: ['seller', 'marketplace', 'buyer']
 
 Evidence base: official_policy
 
@@ -238,6 +248,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -253,6 +265,8 @@ Date:
 Source type: blog
 
 Domain: not_specified
+
+Actor: source
 
 Evidence base: direct_claim
 
@@ -270,6 +284,8 @@ Source type: seller_forum
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -285,6 +301,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -302,6 +320,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -317,6 +337,8 @@ Date:
 Source type: blog
 
 Domain: not_specified
+
+Actor: source
 
 Evidence base: comparative_commentary
 
@@ -334,6 +356,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -349,6 +373,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: comparative_commentary
 
@@ -366,6 +392,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -382,6 +410,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -397,6 +427,26 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
+
+Evidence base: seller_self_claim
+
+---
+
+**SC-R1-050**
+
+Observation: A blog post (dated February 6, 2026) reported that a seller received a Gumroad '2025 in review' email stating they earned a total of $61,411 in digital product sales and ranked #238 among all creators.
+
+Source: https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06
+
+Date: 2025
+
+Source type: blog
+
+Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 

@@ -2,22 +2,6 @@
 
 ---
 
-**SC-R1-050**
-
-Observation: A blog post (dated February 6, 2026) reported that a seller received a Gumroad '2025 in review' email stating they earned a total of $61,411 in digital product sales and ranked #238 among all creators.
-
-Source: https://medium.com/rebelpreneurs/i-earned-61-411-on-gumroad-in-2025-and-still-feel-average-8fa603e40f06
-
-Date: 2025
-
-Source type: blog
-
-Domain: seller
-
-Evidence base: seller_self_claim
-
----
-
 **SC-R1-051**
 
 Observation: A blog post (dated November 2, 2025) by a seller reported making approximately $21 in total sales within a week of starting on Gumroad, described as their first few sales.
@@ -29,6 +13,8 @@ Date: Within a week
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -46,6 +32,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -61,6 +49,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -78,6 +68,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -93,6 +85,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: seller_self_claim
 
@@ -110,6 +104,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -125,6 +121,8 @@ Date:
 Source type: blog
 
 Domain: not_specified
+
+Actor: source
 
 Evidence base: comparative_commentary
 
@@ -142,13 +140,15 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
 
 **SC-R1-059**
 
-Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review appears at the top of a product page.
+Observation: A blog post (dated January 24, 2026) stated that Gumroad's rating system is publicly visible on product pages and that a single 1-star review at the top of a product page degrades buyer trust.
 
 Source: https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me
 
@@ -157,6 +157,8 @@ Date:
 Source type: blog
 
 Domain: market
+
+Actor: ['buyer', 'seller']
 
 Evidence base: seller_self_claim
 
@@ -174,6 +176,8 @@ Source type: blog
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -189,6 +193,8 @@ Date:
 Source type: blog
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: comparative_commentary
 
@@ -206,6 +212,8 @@ Source type: seller_forum
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: seller_self_claim
 
 ---
@@ -221,6 +229,8 @@ Date: Accessed April 2026
 Source type: search_results_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -238,6 +248,8 @@ Source type: platform_doc
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -253,6 +265,8 @@ Date: Accessed April 2026
 Source type: platform_doc
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -270,6 +284,8 @@ Source type: search_results_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -285,6 +301,8 @@ Date: Accessed April 2026
 Source type: search_results_page
 
 Domain: platform
+
+Actor: marketplace
 
 Evidence base: observed_platform_state
 
@@ -302,6 +320,8 @@ Source type: search_results_page
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: observed_platform_state
 
 ---
@@ -317,6 +337,8 @@ Date: 2022-07-27
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -334,6 +356,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -349,6 +373,8 @@ Date: 2023-11-20
 Source type: help_center
 
 Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
@@ -366,6 +392,8 @@ Source type: help_center
 
 Domain: platform
 
+Actor: marketplace
+
 Evidence base: official_policy
 
 ---
@@ -382,6 +410,8 @@ Source type: help_center
 
 Domain: seller
 
+Actor: seller
+
 Evidence base: official_policy
 
 ---
@@ -397,6 +427,26 @@ Date: 2024-07-22
 Source type: help_center
 
 Domain: market
+
+Actor: ['seller', 'buyer', 'marketplace']
+
+Evidence base: official_policy
+
+---
+
+**SC-R1-075**
+
+Observation: A Gumroad help center article (dated June 29, 2024) described membership product tiers as seller-configurable versions within a membership that support varying access levels, software license levels (e.g., Individual or Team), and add-on services such as coaching calls or community access.
+
+Source: https://help.gumroad.com/article/82-membership-products
+
+Date: 2024-06-29
+
+Source type: help_center
+
+Domain: seller
+
+Actor: seller
 
 Evidence base: official_policy
 
