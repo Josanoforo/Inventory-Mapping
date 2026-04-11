@@ -1,0 +1,83 @@
+{
+  "scan_type": "contradictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "CON-v2-001",
+      "description": "Las cards sobre condiciones de elegibilidad para Discover contradicen: la card oficial declara criterios sin especificar, mientras cards de vendedores reportan un umbral explícito de $10 en ventas previas como condición de acceso.",
+      "signal_ids": ["SC-R1-073", "SC-R1-055", "SC-R1-062"],
+      "signal_summaries": {
+        "SC-R1-073": "Help center (July 2024): product listed on Discover if category selected and unspecified eligibility criteria satisfied",
+        "SC-R1-055": "Seller blog (July 2025): Gumroad will not promote via Discover until seller earns first $10",
+        "SC-R1-062": "Seller forum (March 2026): 26 products, zero Discover views; attributes to Gumroad Discover only showing products after first sale"
+      },
+      "components": [
+        {
+          "label": "Polo A — criterios de elegibilidad oficiales no especificados",
+          "signal_ids": ["SC-R1-073"],
+          "summary": "Help center states eligibility criteria exist but does not specify them"
+        },
+        {
+          "label": "Polo B — umbral de $10 reportado por vendedores",
+          "signal_ids": ["SC-R1-055", "SC-R1-062"],
+          "summary": "Sellers report specific $10 earning threshold as the Discover eligibility condition"
+        }
+      ],
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter applied: SC-R1-073 actor=seller, SC-R1-055 actor=seller, SC-R1-062 actor=seller. All Signal IDs across both poles share actor value 'seller'. Routed rejected_grouping with reason same_actor_discrepancy."
+    },
+    {
+      "pattern_id": "CON-v2-002",
+      "description": "Las cards sobre el fee de Gumroad Discover se contradicen sobre el porcentaje total: una card de la página de precios declara 30% para ventas vía Discover web, mientras cards del help center declaran 40% para ventas vía app móvil de Discover.",
+      "signal_ids": ["SC-R1-006", "SC-R1-036", "SC-R1-038"],
+      "signal_summaries": {
+        "SC-R1-006": "Pricing page: 30% fee when new customers find and buy via Gumroad Discover marketplace",
+        "SC-R1-036": "Help center: mobile app sales total fee is 40% (10% Gumroad + 30% App Store/Google Play)",
+        "SC-R1-038": "Help center (July 2024): 40% fee for all in-app Gumroad Discover sales; all app sales final"
+      },
+      "components": [
+        {
+          "label": "Polo A — fee Discover declarado en 30% (canal web)",
+          "signal_ids": ["SC-R1-006"],
+          "summary": "Pricing page states 30% fee for Discover-originated sales"
+        },
+        {
+          "label": "Polo B — fee Discover declarado en 40% (canal app móvil)",
+          "signal_ids": ["SC-R1-036", "SC-R1-038"],
+          "summary": "Help center articles state 40% total fee for in-app Discover sales (10% Gumroad + 30% app store)"
+        }
+      ],
+      "routing": "needs_audit",
+      "routing_rationale": "Same-actor filter: SC-R1-006 actor=marketplace, SC-R1-036 actor=marketplace, SC-R1-038 actor=seller. Not all the same actor — filter does not apply. The 30% vs 40% applies to different channels (web Discover vs mobile app Discover). Polo A has only 1 card (pricing page). The pricing page does not clarify the app/web distinction, creating potential seller confusion about actual Discover fees. Routed needs_audit because Polo A has single-card support and the channel distinction may not be obvious to sellers reading the pricing page."
+    },
+    {
+      "pattern_id": "CON-v2-003",
+      "description": "Las cards sobre el control de la plataforma en reembolsos contradicen: cards del ToS y help center declaran que Gumroad puede emitir reembolsos discrecionalmente y que los vendedores deben reembolsar a Gumroad, mientras una card del help center declara que Gumroad como merchant no puede prevenir chargebacks.",
+      "signal_ids": ["SC-R1-018", "SC-R1-034", "SC-R1-037"],
+      "signal_summaries": {
+        "SC-R1-018": "ToS (Jan 2025): Gumroad handles refunds/chargebacks at sole discretion; sellers responsible for reimbursing Gumroad",
+        "SC-R1-034": "Help center (May 2023): Gumroad reserves right to issue refunds within 90 days even overriding seller no-refund policy",
+        "SC-R1-037": "Help center (Oct 2022): Gumroad as merchant cannot prevent chargebacks from happening but will dispute in some cases"
+      },
+      "components": [
+        {
+          "label": "Polo A — Gumroad ejerce discreción unilateral sobre reembolsos",
+          "signal_ids": ["SC-R1-018", "SC-R1-034"],
+          "summary": "ToS and help center state Gumroad has sole discretion and can override seller refund policy"
+        },
+        {
+          "label": "Polo B — Gumroad declara no poder prevenir chargebacks",
+          "signal_ids": ["SC-R1-037"],
+          "summary": "Help center states Gumroad as merchant cannot prevent chargebacks"
+        }
+      ],
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter: SC-R1-018 actor=marketplace, SC-R1-034 actor=seller, SC-R1-037 actor=buyer. Not all same actor — filter does not apply. However, these cards describe different mechanisms: Polo A covers Gumroad-initiated refunds (discretionary action they can take), Polo B covers buyer-initiated chargebacks (external action they cannot block). The opposition is not about the same subject — refunds and chargebacks are distinct mechanisms. Routed rejected_grouping: different subjects, not same claim with opposite assertions."
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 3,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}
