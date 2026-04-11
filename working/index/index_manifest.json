@@ -2,34 +2,9 @@
   "status": "complete",
   "batches_processed": 3,
   "batches_total": 3,
-  "cards_indexed": 71,
+  "cards_indexed": 75,
   "cards_total": 75,
   "last_batch_processed": "batch_R01_003.md",
-  "issues": [
-    {
-      "id": "SC-R1-033",
-      "batch": "batch_R01_002.md",
-      "error": "actor 'mixed' not in schema enum; skipped",
-      "severity": "warning"
-    },
-    {
-      "id": "SC-R1-040",
-      "batch": "batch_R01_002.md",
-      "error": "actor 'source' not in schema enum; skipped",
-      "severity": "warning"
-    },
-    {
-      "id": "SC-R1-044",
-      "batch": "batch_R01_002.md",
-      "error": "actor 'source' not in schema enum; skipped",
-      "severity": "warning"
-    },
-    {
-      "id": "SC-R1-057",
-      "batch": "batch_R01_003.md",
-      "error": "actor 'source' not in schema enum; skipped",
-      "severity": "warning"
-    }
-  ],
-  "last_updated": "2026-04-11T02:40:09.772658Z"
+  "issues": [],
+  "last_updated": "2026-04-11T02:42:34.828386Z"
 }

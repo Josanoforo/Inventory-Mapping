@@ -20,7 +20,7 @@
     },
     "actor": {
       "type": "string",
-      "enum": ["buyer", "seller", "product", "marketplace", "platform"]
+      "enum": ["buyer", "seller", "product", "marketplace", "platform", "source", "mixed"]
     },
     "evidence_base": { "type": "string" },
     "extraction_status": {
