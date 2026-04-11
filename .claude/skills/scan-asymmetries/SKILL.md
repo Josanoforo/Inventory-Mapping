@@ -19,7 +19,8 @@ Read `modules/04_scanner.md` (section: Asymmetries) before executing.
    - Verify both poles have card support (minimum 2 cards per pole).
    - Define poles in corpus terms, not absolute numbers.
    - Record: pattern_id, description, signal_ids per pole, components, signal_summaries.
-4. Route each pattern:
+   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If all Signal IDs across both poles share the same actor value → route to `rejected_grouping` with reason `"same_actor_discrepancy"`. Skip remaining routing steps for this pattern.
+4. Route each pattern (after same-actor filter):
    - Both poles documented, clear distributional skew → `tension_candidate`
    - One pole has only 1 card → `needs_audit`
    - Cards cluster around same range (no real asymmetry) → `rejected_grouping`

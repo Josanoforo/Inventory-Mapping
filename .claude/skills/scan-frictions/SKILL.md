@@ -19,7 +19,8 @@ Read `modules/04_scanner.md` (section: Frictions) before executing.
    - Identify what is being blocked or hindered with card support.
    - Verify both sides have card support (minimum 2 cards total).
    - Record: pattern_id, description, signal_ids, components (blocker + blocked), signal_summaries.
-4. Route each pattern:
+   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If all Signal IDs across both poles share the same actor value → route to `rejected_grouping` with reason `"same_actor_discrepancy"`. Skip remaining routing steps for this pattern.
+4. Route each pattern (after same-actor filter):
    - Both sides documented, mechanism clear → `tension_candidate`
    - Mechanism unclear or single-card support → `needs_audit`
    - Complaints without documented mechanism → `rejected_grouping`

@@ -19,7 +19,8 @@ Read `modules/04_scanner.md` (section: Contradictions) before executing.
    - Verify both cards reference the same entity/topic.
    - Verify the opposition is explicit in the observation text, not inferred.
    - Record: pattern_id, description (mechanical verbs only), signal_ids, signal_summaries, components (the two opposing sides).
-5. Route each pattern:
+   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If all Signal IDs across both poles share the same actor value → route to `rejected_grouping` with reason `"same_actor_discrepancy"`. Skip remaining routing steps for this pattern.
+5. Route each pattern (after same-actor filter):
    - Clear explicit contradiction with 2+ cards per side → `tension_candidate`
    - Apparent contradiction but one side has only 1 card → `needs_audit`
    - Thematic overlap without actual opposition → `rejected_grouping`
