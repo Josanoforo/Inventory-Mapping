@@ -19,7 +19,11 @@ Read `modules/04_scanner.md` (section: Asymmetries) before executing.
    - Verify both poles have card support (minimum 2 cards per pole).
    - Define poles in corpus terms, not absolute numbers.
    - Record: pattern_id, description, signal_ids per pole, components, signal_summaries.
-   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If all Signal IDs across both poles share the same actor value → route to `rejected_grouping` with reason `"same_actor_discrepancy"`. Skip remaining routing steps for this pattern.
+   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If ALL Signal IDs across BOTH poles have the SAME actor value → route to rejected_grouping with reason "same_actor_discrepancy".
+
+     This check is purely mechanical: compare actor values only. Do NOT evaluate whether the cards in each pole refer to the same mechanism, sub-topic, or channel. Grounding evaluation is the human's job during review, not the scanner's.
+
+     If the poles contain different actor values, the pattern passes this filter regardless of any other consideration.
 4. Route each pattern (after same-actor filter):
    - Both poles documented, clear distributional skew → `tension_candidate`
    - One pole has only 1 card → `needs_audit`
