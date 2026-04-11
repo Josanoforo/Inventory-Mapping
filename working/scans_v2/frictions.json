@@ -1,0 +1,155 @@
+{
+  "scan_type": "frictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "FRIC-001",
+      "description": "El umbral de primera venta co-ocurre con la exclusión de productos de Gumroad Discover: SC-R1-055 y SC-R1-062 se concentran en documentar que sin la primera venta, Discover no distribuye los productos del vendedor. El elemento bloqueante y lo bloqueado aparecen documentados en múltiples cartas.",
+      "signal_ids": ["SC-R1-055", "SC-R1-062", "SC-R1-073", "SC-R1-069"],
+      "signal_summaries": {
+        "SC-R1-055": "Blog states Gumroad will not promote through Discover until seller earns first $10",
+        "SC-R1-062": "Seller forum: 26 products with zero Discover views; attributes zero discovery to Discover requiring first sale before showing products",
+        "SC-R1-073": "Help center: products listed on Discover once unspecified eligibility criteria satisfied and category selected",
+        "SC-R1-069": "Help center: adding category and tags helps Gumroad show products on Discover"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter applied: SC-R1-055 actor=seller, SC-R1-062 actor=seller, SC-R1-073 actor=seller, SC-R1-069 actor=seller. All signal IDs across both poles share the same actor value (seller). Routed rejected_grouping, reason: same_actor_discrepancy.",
+      "components": [
+        {
+          "label": "Blocking element: first-sale threshold gates Discover access",
+          "signal_ids": ["SC-R1-055", "SC-R1-062"],
+          "summary": "Two cards document that Discover does not show new seller products until the first $10 earned or first sale is made"
+        },
+        {
+          "label": "Blocked: organic discovery and traffic from Discover for new sellers",
+          "signal_ids": ["SC-R1-062", "SC-R1-073", "SC-R1-069"],
+          "summary": "Three cards document that Discover is the platform organic discovery channel but access is blocked for sellers who have not met the first-sale threshold"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRIC-002",
+      "description": "La restricción de pago en ciertos países co-ocurre con la incapacidad de cobrar ventas realizadas: SC-R1-024 y SC-R1-028 se concentran en documentar que para vendedores en países sin depósito directo ni PayPal, no hay mecanismo de pago disponible. Lo bloqueado aparece en SC-R1-027 que documenta la capacidad de aceptar pagos en 160+ países.",
+      "signal_ids": ["SC-R1-024", "SC-R1-028", "SC-R1-025", "SC-R1-027"],
+      "signal_summaries": {
+        "SC-R1-024": "Help center: if direct deposit and PayPal both unavailable, there is currently no way to pay the seller",
+        "SC-R1-028": "Help center: if PayPal not supported in seller's country, Gumroad cannot pay them; Payoneer, wire, bitcoin listed as unavailable",
+        "SC-R1-025": "Help center: PayPal payouts in USD only; Payoneer, Wise, check, money order, wire transfer not supported",
+        "SC-R1-027": "Help center: creators in 160+ countries can accept payments on Gumroad"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter applied: SC-R1-024 actor=seller, SC-R1-028 actor=seller, SC-R1-025 actor=seller, SC-R1-027 actor=seller. All signal IDs across both poles share the same actor value (seller). Routed rejected_grouping, reason: same_actor_discrepancy.",
+      "components": [
+        {
+          "label": "Blocking element: no payout method available for sellers in unsupported countries",
+          "signal_ids": ["SC-R1-024", "SC-R1-028", "SC-R1-025"],
+          "summary": "Three cards document that sellers in countries without direct deposit or PayPal support have no payout path; alternatives (Payoneer, Wise, wire, bitcoin) explicitly listed as unavailable"
+        },
+        {
+          "label": "Blocked: seller ability to receive payment despite platform operating in their country",
+          "signal_ids": ["SC-R1-027"],
+          "summary": "Card documents platform operates in 160+ countries for payment acceptance, but payout availability is constrained by a separate set of supported countries"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRIC-003",
+      "description": "La retención de fondos durante suspensión de cuenta co-ocurre con la incapacidad del vendedor de acceder a su balance: SC-R1-029 documenta el mecanismo de retención de 30-45 días; SC-R1-046 co-ocurre con relatos de vendedores que no pudieron recuperar su dinero tras suspensión.",
+      "signal_ids": ["SC-R1-029", "SC-R1-046"],
+      "signal_summaries": {
+        "SC-R1-029": "Help center: account suspension for high chargeback rate holds balance 30-45 days; remaining balance paid if banking partner grants clearance",
+        "SC-R1-046": "Blog: many Gumroad users faced delayed payouts and account suspensions without clear reasons; some struggled to get their money back"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter applied: SC-R1-029 actor=seller, SC-R1-046 actor=seller. All signal IDs across both poles share the same actor value (seller). Routed rejected_grouping, reason: same_actor_discrepancy.",
+      "components": [
+        {
+          "label": "Blocking element: account suspension holds seller balance 30-45 days",
+          "signal_ids": ["SC-R1-029"],
+          "summary": "Official help center documents suspension process: balance held 30-45 days, released only if banking partner grants clearance"
+        },
+        {
+          "label": "Blocked: seller access to earned balance during and after suspension",
+          "signal_ids": ["SC-R1-046"],
+          "summary": "Blog commentary documents sellers struggling to recover funds after suspension events"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRIC-004",
+      "description": "La restricción de formato de archivo de productos gratuitos co-ocurre con limitaciones para creadores que distribuyen contenido de gran tamaño sin cobro: SC-R1-031 y SC-R1-071 se concentran en documentar que el límite de 250 MB aplica a productos gratuitos mientras que productos de pago permiten hasta 16 GB.",
+      "signal_ids": ["SC-R1-031", "SC-R1-071"],
+      "signal_summaries": {
+        "SC-R1-031": "Help center: free products 250 MB limit; products above $0.99 have 16 GB per-file limit",
+        "SC-R1-071": "Help center: free products 250 MB limit; products above $0.99 have 16 GB per-file limit"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Same-actor filter applied: SC-R1-031 actor=seller, SC-R1-071 actor=seller. All signal IDs across both poles share the same actor value (seller). Routed rejected_grouping, reason: same_actor_discrepancy.",
+      "components": [
+        {
+          "label": "Blocking element: 250 MB file size cap on free products",
+          "signal_ids": ["SC-R1-031", "SC-R1-071"],
+          "summary": "Two cards (same source) document the 250 MB file size limit specifically applying to free products"
+        },
+        {
+          "label": "Blocked: distribution of large files via free products",
+          "signal_ids": ["SC-R1-031", "SC-R1-071"],
+          "summary": "Same cards document that paid products above $0.99 allow 16 GB per file, making the 250 MB limit specifically a constraint on the free product tier"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRIC-005",
+      "description": "La política de cambios abruptos en artículos prohibidos co-ocurre con la incapacidad del vendedor de anticipar restricciones: SC-R1-014 documenta que cambios a la lista de productos prohibidos ocurren sin aviso y con efecto inmediato; SC-R1-016 co-ocurre con la discreción exclusiva de Gumroad para cambiar categorías elegibles.",
+      "signal_ids": ["SC-R1-014", "SC-R1-016", "SC-R1-012"],
+      "signal_summaries": {
+        "SC-R1-014": "Policy page: changes to prohibited items list may occur abruptly and without notice due to unpredictable card network rules; changes take effect immediately",
+        "SC-R1-016": "ToS: Gumroad holds sole discretion to determine and change eligible product categories for resale at any time",
+        "SC-R1-012": "Policy page: prohibited items are disallowed because they violate US federal law, card network rules, or payment processor restrictions"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Same-actor filter applied: SC-R1-014 actor=marketplace, SC-R1-016 actor=seller, SC-R1-012 actor=marketplace. Not all same actor (marketplace + seller). Filter does not apply. Blocking element: abrupt no-notice policy changes and sole discretion to change eligible categories (SC-R1-014, SC-R1-016). What is blocked: seller ability to plan and maintain product listings in a stable policy environment (SC-R1-012, SC-R1-014). Both sides documented across 3 cards from 2 source URLs. Mechanism is clear.",
+      "components": [
+        {
+          "label": "Blocking element: abrupt no-notice policy changes and sole discretion to change eligible categories",
+          "signal_ids": ["SC-R1-014", "SC-R1-016"],
+          "summary": "Two cards document that prohibited items changes take effect immediately without notice, and that Gumroad holds sole discretion to change eligible product categories at any time"
+        },
+        {
+          "label": "Blocked: seller ability to maintain product listings in stable policy environment",
+          "signal_ids": ["SC-R1-012", "SC-R1-014"],
+          "summary": "Two cards document the mechanism of prohibition (US federal law, card network rules, payment processor restrictions) and its unpredictable nature"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRIC-006",
+      "description": "La política de reembolso a discreción de Gumroad co-ocurre con la obligación del vendedor de reembolsar a Gumroad: SC-R1-034 y SC-R1-018 se concentran en documentar que Gumroad puede emitir reembolsos anulando la política del vendedor y que el vendedor debe cubrir esos montos. SC-R1-037 documenta que el comprador puede iniciar chargebacks en cualquier momento.",
+      "signal_ids": ["SC-R1-034", "SC-R1-018", "SC-R1-037"],
+      "signal_summaries": {
+        "SC-R1-034": "Help center: Gumroad reserves right to issue refunds within 90 days even if seller has no-refund policy, to prevent chargebacks",
+        "SC-R1-018": "ToS: Gumroad handles refunds/chargebacks at sole discretion; sellers must reimburse Gumroad for any amounts paid to buyers",
+        "SC-R1-037": "Help center: customers have specified amount of time (usually 90 days) to request chargeback; Gumroad as merchant cannot prevent chargebacks"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Same-actor filter applied: SC-R1-034 actor=seller, SC-R1-018 actor=seller, SC-R1-037 actor=buyer. Not all same actor (seller + buyer). Filter does not apply. Note: SC-R1-076 referenced in prior run does not exist in the card index (only 75 cards, SC-R1-001 through SC-R1-075); excluded. Remaining 3 verified cards document the friction: blocking element (Gumroad and buyer can initiate reversals regardless of seller policy) and blocked element (seller ability to enforce no-refund policy and retain revenue) are both documented. Both sides have documented support.",
+      "components": [
+        {
+          "label": "Blocking element: Gumroad and buyer can initiate refunds/chargebacks regardless of seller policy",
+          "signal_ids": ["SC-R1-034", "SC-R1-037"],
+          "summary": "Two cards document that Gumroad can override seller no-refund policy within 90 days, and buyers can request chargebacks through their credit card; Gumroad as merchant cannot prevent chargebacks"
+        },
+        {
+          "label": "Blocked: seller ability to enforce no-refund policy and retain revenue from completed sales",
+          "signal_ids": ["SC-R1-018", "SC-R1-034"],
+          "summary": "Two cards document that sellers must reimburse Gumroad for refund and chargeback amounts, making seller revenue from any sale reversible regardless of stated policy"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 6,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}

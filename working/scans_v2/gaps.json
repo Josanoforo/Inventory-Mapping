@@ -1,0 +1,138 @@
+{
+  "scan_type": "gaps",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "GAP-001",
+      "description": "La perspectiva del comprador no se encontró en el corpus: el conjunto de cartas se concentra en la perspectiva del vendedor y de la plataforma; ninguna carta documenta experiencias, motivaciones, o comportamientos del comprador al adquirir productos en Gumroad.",
+      "signal_ids": ["SC-R1-038", "SC-R1-034"],
+      "signal_summaries": {
+        "SC-R1-038": "Discover mobile app: all app sales are final with no refunds from Gumroad or sellers; refund requests must go to Apple or Google",
+        "SC-R1-034": "Gumroad reserves the right to issue refunds within 90 days to prevent chargebacks, even overriding seller no-refund policy"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "Both SC-R1-034 and SC-R1-038 reference buyer-side actions (chargeback requests, refund requests) from the platform or seller perspective, creating an expectation for buyer-side documentation. No card in the corpus documents buyer motivations, buyer conversion behavior, buyer satisfaction, or the buyer decision-making process. The absence limits reading of tension patterns involving refunds, chargebacks, and discovery because buyer behavior can only be inferred from seller and platform accounts.",
+      "components": [
+        {
+          "label": "Cards creating expectation for buyer perspective",
+          "signal_ids": ["SC-R1-034", "SC-R1-038"],
+          "summary": "Cards reference buyer refund and chargeback actions but document them only from Gumroad or seller vantage point; no buyer-side cards present in corpus"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-002",
+      "description": "La cobertura de plataformas alternativas no se encontró en el corpus: el conjunto de cartas se concentra exclusivamente en Gumroad; las menciones de plataformas competidoras aparecen únicamente como entidades nombradas sin cartas propias.",
+      "signal_ids": ["SC-R1-061", "SC-R1-041"],
+      "signal_summaries": {
+        "SC-R1-061": "Seller described temporarily switching to Gumroad while Lemon Squeezy approval was pending; migrated back to Lemon Squeezy once approved",
+        "SC-R1-041": "Seller described dissatisfaction with recent Gumroad changes and stated intent to switch platforms"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-061 and SC-R1-041 document seller behavior of migrating away from Gumroad to alternative platforms. These cards create an expectation for comparative data on the alternatives, but no cards document the terms, fees, policies, or seller experiences of Lemon Squeezy, Payhip, or other platforms mentioned. The absence limits reading of patterns about platform switching and competitive positioning.",
+      "components": [
+        {
+          "label": "Cards creating expectation for alternative platform coverage",
+          "signal_ids": ["SC-R1-061", "SC-R1-041"],
+          "summary": "Two cards document seller migration away from Gumroad, naming or implying alternatives, but no cards in corpus document those alternatives from primary sources"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-003",
+      "description": "Los datos post-compra no se encontró en el corpus: las cartas de plataforma co-ocurren con descripciones de entrega de producto al comprador; ninguna carta documenta lo que ocurre después de la entrega desde la perspectiva de uso, satisfacción, o retención de clientes.",
+      "signal_ids": ["SC-R1-022", "SC-R1-003"],
+      "signal_summaries": {
+        "SC-R1-022": "ToS: sellers must upload files in Gumroad-approved formats; Gumroad facilitates delivery upon purchase",
+        "SC-R1-003": "Features page: sellers can create memberships giving customers access to a library of content for as long as they are subscribed"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-022 documents the delivery mechanism at point of purchase; SC-R1-003 describes membership access as a post-purchase relationship. Both cards create an expectation for documentation of post-purchase dynamics: whether buyers complete or consume purchased content, repeat purchase rates, membership retention, or product return rates. No card in the corpus documents any of these post-purchase outcomes.",
+      "components": [
+        {
+          "label": "Cards creating expectation for post-purchase data",
+          "signal_ids": ["SC-R1-022", "SC-R1-003"],
+          "summary": "Two cards describe product delivery and ongoing membership access mechanisms, creating expectation for post-delivery outcome data not present in corpus"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-004",
+      "description": "La cobertura geográfica de vendedores no angloparlantes no se encontró en el corpus: las cartas de vendedores se concentran en relatos en inglés sin referencia a mercados hispanohablantes, de Asia-Pacífico, u otros mercados no angloparlantes, a pesar de que cartas de plataforma documentan disponibilidad en 160+ países.",
+      "signal_ids": ["SC-R1-027", "SC-R1-019"],
+      "signal_summaries": {
+        "SC-R1-027": "Help center states platform enables creators in more than 160 countries to accept payments",
+        "SC-R1-019": "ToS: all transactions settle in USD regardless of listed currency; exchange rates sourced from openexchangerates.org"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-027 documents 160+ country availability and SC-R1-019 documents non-USD currency conversion, both creating an expectation for seller experience data from non-English-language markets. No card documents seller experiences in Spanish-speaking markets, Asian markets, or other geographies where the USD settlement and payout restrictions would have distinct effects. All seller-perspective blog and forum cards are from English-language sources.",
+      "components": [
+        {
+          "label": "Cards creating expectation for non-English market seller coverage",
+          "signal_ids": ["SC-R1-027", "SC-R1-019"],
+          "summary": "Two cards document global platform reach and USD-only settlement mechanism, creating expectation for seller data from affected non-English-language markets"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-005",
+      "description": "Los ingresos en rangos intermedios no se encontró en el corpus como categoría documentada: las cartas de vendedores se separa en polos entre resultados bajos (bajo $200) y resultados altos (sobre $15,000); el rango intermedio entre $500 y $15,000 no converge en múltiples cartas independientes.",
+      "signal_ids": ["SC-R1-056", "SC-R1-050", "SC-R1-039"],
+      "signal_summaries": {
+        "SC-R1-056": "Seller reported $139.96 total in three years on Gumroad",
+        "SC-R1-050": "Seller reported $61,411 in digital product sales in 2025, ranked #238 among all creators",
+        "SC-R1-039": "Blog author reported $3,271 in total sales in first six months from POD experiments"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-056 documents a low outcome ($139.96 over 3 years), SC-R1-050 documents a high outcome ($61,411 annual), and SC-R1-039 documents a mid-range outcome ($3,271 over 6 months). The mid-range is represented by only SC-R1-039 as a single card; two or more independent cards with outcomes in the $500-$15,000 range are absent. The absence limits reading of seller income distribution patterns (ASYM-001) because the shape of the distribution between the poles is not documented with sufficient density.",
+      "components": [
+        {
+          "label": "Cards creating expectation for intermediate income range documentation",
+          "signal_ids": ["SC-R1-056", "SC-R1-050", "SC-R1-039"],
+          "summary": "Three cards document outcomes at the extremes and one mid-point; the intermediate range ($500-$15,000) is not represented by two or more independent seller accounts"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-006",
+      "description": "La experiencia del vendedor con tipos de producto específicos (plantillas, planillas, prompts de IA) no se encontró en el corpus: las cartas de plataforma co-ocurren con listas de categorías que incluyen estos tipos; las cartas de vendedores se concentran en PDFs, cursos y arte sin documentar esos formatos específicos.",
+      "signal_ids": ["SC-R1-065", "SC-R1-072"],
+      "signal_summaries": {
+        "SC-R1-065": "Gumroad homepage Discover section features category tags including notion template, font, mockup, brushes, and others",
+        "SC-R1-072": "Help center states most common items sold are e-books, films, music, software, and tutorials; memberships and physical products also available"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-065 documents Discover category tags including notion template, mockup, and others; SC-R1-072 lists platform-common product types. Both create an expectation for seller experience data with templates, Notion products, AI prompts, spreadsheets, and planners. No seller-side card specifically documents experience selling these product types. The absence limits reading of product-type-specific patterns around discoverability and fee impact.",
+      "components": [
+        {
+          "label": "Cards creating expectation for template and prompt product type coverage",
+          "signal_ids": ["SC-R1-065", "SC-R1-072"],
+          "summary": "Two cards document platform support for template, mockup, and software product types without any corresponding seller-side documentation of those product types"
+        }
+      ]
+    },
+    {
+      "pattern_id": "GAP-007",
+      "description": "Los datos sobre la dinámica de membresías y suscriptores no se encontró en el corpus: las cartas de plataforma co-ocurren con descripciones de funcionalidades de membresía; ninguna carta documenta retención de suscriptores, facturación recurrente fallida, o cancelaciones.",
+      "signal_ids": ["SC-R1-003", "SC-R1-075"],
+      "signal_summaries": {
+        "SC-R1-003": "Features page: sellers can create memberships giving customers access to a library of content for as long as they are subscribed",
+        "SC-R1-075": "Help center: membership product tiers support varying access levels, software license levels, and add-on services such as coaching calls or community access"
+      },
+      "routing": "coverage_gap",
+      "routing_rationale": "SC-R1-003 and SC-R1-075 document Gumroad membership features including tiered access and subscription-based content libraries, creating an expectation for data on membership retention, churn, failed renewal billing, and subscriber economics. No card in the corpus documents any of these membership-specific outcomes.",
+      "components": [
+        {
+          "label": "Cards creating expectation for membership dynamics data",
+          "signal_ids": ["SC-R1-003", "SC-R1-075"],
+          "summary": "Two cards describe membership feature capabilities without any corresponding cards documenting membership performance, retention, or billing outcomes"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 7,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}
