@@ -246,9 +246,9 @@ Date:
 
 Source type: platform_doc
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -264,9 +264,9 @@ Date: Accessed April 2026
 
 Source type: platform_doc
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -336,9 +336,9 @@ Date: 2022-07-27
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -354,9 +354,9 @@ Date: 2024-07-26
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -372,9 +372,9 @@ Date: 2023-11-20
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -390,9 +390,9 @@ Date: 2022-02-21
 
 Source type: help_center
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -408,9 +408,9 @@ Date: 2024-07-22
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -426,9 +426,9 @@ Date: 2024-07-22
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'buyer', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -444,9 +444,9 @@ Date: 2024-06-29
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 

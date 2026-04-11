@@ -1,13 +1,22 @@
 {
   "signal_id": "SC-R1-010",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-006"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-002"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-006"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-002"
+  ],
   "round": 1,
   "signal_text": "Gumroad's pricing page describes the platform as supporting sales of digital products, e-books, courses, tutorials, and memberships, and states that creators across industries including digital artists, writers, musicians, entrepreneurs, and SaaS creators use it, with the qualifier 'almost anything' applied to scope.",
   "subject_exact": "Gumroad product type breadth claim covering digital products, e-books, courses, tutorials, memberships",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
-  "product_type_if_explicit": ["ebook", "unknown"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": [
+    "ebook",
+    "unknown"
+  ],
   "metric_type": "unknown",
   "metric_value_raw": null,
   "metric_unit": null,
@@ -15,8 +24,12 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "observed_platform_state",
-  "local_qualifiers": ["almost anything"],
-  "uncertainties": ["product_type_unclear"],
+  "local_qualifiers": [
+    "almost anything"
+  ],
+  "uncertainties": [
+    "product_type_unclear"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +43,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Snippet lists product types as examples, not exhaustive. 'e-books' maps to ebook in schema. 'courses', 'tutorials', 'memberships' do not map cleanly to schema enum. 'almost anything' qualifier preserved."]
+  "extraction_notes": [
+    "Snippet lists product types as examples, not exhaustive. 'e-books' maps to ebook in schema. 'courses', 'tutorials', 'memberships' do not map cleanly to schema enum. 'almost anything' qualifier preserved."
+  ]
 }

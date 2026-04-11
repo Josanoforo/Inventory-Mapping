@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-014",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-003"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-003"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-003-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-003"
+  ],
   "round": 1,
   "signal_text": "Gumroad's prohibited items policy page (last revised April 17, 2019) states that changes to the prohibited items list may occur abruptly and without notice due to unpredictable card network rules, legislation, and payment processor relationships, and that changes take effect immediately.",
   "subject_exact": "Gumroad prohibited items list change policy and effective date mechanism",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -15,8 +21,13 @@
   "time_scope_normalized_if_safe": "2019-04-17",
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["may change abruptly and without notice", "Changes to this list take effect immediately"],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "local_qualifiers": [
+    "may change abruptly and without notice",
+    "Changes to this list take effect immediately"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +41,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Policy states changes take effect immediately. This makes currency of the 2019 date particularly uncertain for downstream use."]
+  "extraction_notes": [
+    "Policy states changes take effect immediately. This makes currency of the 2019 date particularly uncertain for downstream use."
+  ]
 }

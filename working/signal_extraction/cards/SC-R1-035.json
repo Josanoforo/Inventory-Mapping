@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-035",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-013-SNP-001"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-013"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-013-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-013"
+  ],
   "round": 1,
   "signal_text": "A Gumroad help center article on fees states a 10% flat fee for sales made on Gumroad's website, excluding credit card processing and PayPal fees. The snippet appears truncated.",
   "subject_exact": "Gumroad 10% flat fee for website sales excluding credit card processing and PayPal fees",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": "10%",
@@ -15,8 +21,14 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["For sales made on Gumroad's website", "This does not include: Credit card processing PayPal fees"],
-  "uncertainties": ["context_insufficient", "current_vs_historical_ambiguity"],
+  "local_qualifiers": [
+    "For sales made on Gumroad's website",
+    "This does not include: Credit card processing PayPal fees"
+  ],
+  "uncertainties": [
+    "context_insufficient",
+    "current_vs_historical_ambiguity"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +42,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Snippet appears truncated ('There are' at end). Missing content not available. Scope is 'Gumroad's website' sales. Page undated."]
+  "extraction_notes": [
+    "Snippet appears truncated ('There are' at end). Missing content not available. Scope is 'Gumroad's website' sales. Page undated."
+  ]
 }

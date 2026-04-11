@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-004",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-001-SNP-004"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-001"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-001-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-001"
+  ],
   "round": 1,
   "signal_text": "Gumroad's features page states that the platform can generate license keys for sellers of software products.",
   "subject_exact": "Gumroad license key generation feature for software products",
-  "actor_level": "seller",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "software",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -16,7 +22,9 @@
   "geography_if_explicit": null,
   "evidence_role": "observed_platform_state",
   "local_qualifiers": [],
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +38,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Snippet extracted from page layout description. Software product type explicit from snippet ('Selling software?')."]
+  "extraction_notes": [
+    "Snippet extracted from page layout description. Software product type explicit from snippet ('Selling software?')."
+  ]
 }

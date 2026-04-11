@@ -132,7 +132,16 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 2. **`subject_exact`** — Preserve from `_extraction_context.subject_exact` unless the extraction record's subject must be narrowed further for this specific card. Never broaden. Never flatten meaningful distinctions (checkout ≠ payout, fee base ≠ net retained, active buyers ≠ discoverability).
 
-3. **`actor_level`** — Inherit from `_extraction_context.actor_level`. If the extraction record already has a valid enum value, carry it forward. Adjust only if the signal formulation reveals a different level. Declare `mixed` explicitly when appropriate.
+3. **`actor_level`** — Identifies **who speaks or acts** in the observation — the entity that is the **source of the claim**, not who is affected by it. A help_center article about seller fees has `actor_level = platform` (Gumroad is speaking), not `seller` (even though sellers are affected). A seller blog post about their own earnings has `actor_level = seller` (the seller is speaking).
+
+   Assignment rules by source type:
+   - `help_center`, `pricing_page`, `platform_doc`, `policy_page` → always `platform`
+   - `blog`, `seller_forum`, `reddit` where the author is a seller → `seller`
+   - `blog`, `reddit` where the author is a buyer → `buyer`
+   - `search_results_page`, `category_page` (platform-generated content) → `marketplace`
+   - Commentary or analysis with no first-person actor → `source`
+
+   Inherit from `_extraction_context.actor_level` as a starting point, but override whenever the source type rule above applies. Never set `actor_level` based on who is *affected* by the observation.
 
 4. **`platforms`** — Inherit from `_extraction_context.platforms`. Only platforms explicitly named in the local snippet; never infer.
 

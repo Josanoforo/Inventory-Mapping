@@ -12,9 +12,9 @@ Date:
 
 Source type: platform_doc
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -30,9 +30,9 @@ Date:
 
 Source type: platform_doc
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -48,9 +48,9 @@ Date:
 
 Source type: platform_doc
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'buyer']
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -66,9 +66,9 @@ Date:
 
 Source type: platform_doc
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -84,9 +84,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -102,9 +102,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -120,9 +120,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -138,9 +138,9 @@ Date: 2025-01-01 onwards
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -156,9 +156,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -174,9 +174,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: observed_platform_state
 
@@ -192,9 +192,9 @@ Date:
 
 Source type: pricing_page
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -210,9 +210,9 @@ Date: 2019-04-17
 
 Source type: policy_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -228,9 +228,9 @@ Date: 2019-04-17
 
 Source type: policy_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -246,9 +246,9 @@ Date: 2019-04-17
 
 Source type: policy_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -264,9 +264,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -282,9 +282,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -300,9 +300,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -318,9 +318,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -336,9 +336,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -354,9 +354,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['marketplace', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -372,9 +372,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -390,9 +390,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -408,9 +408,9 @@ Date: 2025-01-01
 
 Source type: policy_page
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -426,9 +426,9 @@ Date:
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -444,9 +444,9 @@ Date: usually in 1-3 business days
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 

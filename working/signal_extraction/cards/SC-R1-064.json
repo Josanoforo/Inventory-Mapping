@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-064",
-  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-002-SNP-001"],
-  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-002"],
+  "source_record_ids": [
+    "ER-SP-gumroad_d1_catalogo_dg_output-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-gumroad_d1_catalogo_dg_output-002"
+  ],
   "round": 1,
   "signal_text": "The Gumroad homepage (accessed April 2026) displayed the headline 'Sell anything' with supporting copy citing video lessons and monthly subscriptions as examples of formats the platform was created to support.",
   "subject_exact": "Gumroad platform breadth claim supporting multiple product formats including video lessons and subscriptions",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -15,8 +21,12 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "observed_platform_state",
-  "local_qualifiers": ["Sell anything"],
-  "uncertainties": ["none"],
+  "local_qualifiers": [
+    "Sell anything"
+  ],
+  "uncertainties": [
+    "none"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +40,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Homepage marketing copy. 'Sell anything' is marketing language, not an enumerated constraint. Product examples (video lessons, subscriptions) are illustrative. Page accessed April 2026, undated."]
+  "extraction_notes": [
+    "Homepage marketing copy. 'Sell anything' is marketing language, not an enumerated constraint. Product examples (video lessons, subscriptions) are illustrative. Page accessed April 2026, undated."
+  ]
 }

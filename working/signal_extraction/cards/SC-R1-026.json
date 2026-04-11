@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-026",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-005-SNP-003"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-005"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-005-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-005"
+  ],
   "round": 1,
   "signal_text": "Gumroad's help center article on Getting Paid states that sale amounts sit in the seller's Gumroad balance for at least 7 days before being paid out, and that it is not possible to customize the payout schedule.",
   "subject_exact": "Gumroad minimum payout hold period of 7 days with non-customizable schedule",
-  "actor_level": "seller",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "payout",
   "metric_value_raw": "7",
@@ -15,8 +21,13 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["at least 7 days", "not possible to customize the payout schedule"],
-  "uncertainties": ["context_insufficient"],
+  "local_qualifiers": [
+    "at least 7 days",
+    "not possible to customize the payout schedule"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +41,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["'At least 7 days' indicates minimum hold period. No upper bound stated. Context of what 'this means' refers to is absent (snippet_context_before is null). Hold period likely linked to fraud prevention or settlement window."]
+  "extraction_notes": [
+    "'At least 7 days' indicates minimum hold period. No upper bound stated. Context of what 'this means' refers to is absent (snippet_context_before is null). Hold period likely linked to fraud prevention or settlement window."
+  ]
 }

@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-024",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-005-SNP-001"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-005"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-005-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-005"
+  ],
   "round": 1,
   "signal_text": "Gumroad's help center article on Getting Paid states that seller payout method depends on the country in which the seller is physically located; if direct deposit is unavailable in that country, payouts occur via PayPal; and if PayPal is also unavailable in that country, there is currently no way to pay the seller.",
   "subject_exact": "Gumroad seller payout method determination by country with no alternative if PayPal unavailable",
-  "actor_level": "seller",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "payout_method_availability",
   "metric_value_raw": null,
@@ -15,8 +21,14 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["in which you are physically located", "right now"],
-  "uncertainties": ["geography_unclear", "current_vs_historical_ambiguity"],
+  "local_qualifiers": [
+    "in which you are physically located",
+    "right now"
+  ],
+  "uncertainties": [
+    "geography_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +42,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Payout layer (seller receiving funds). PayPal is fallback for non-direct-deposit countries. 'Right now' signals potential future change. Countries not enumerated. Page undated."]
+  "extraction_notes": [
+    "Payout layer (seller receiving funds). PayPal is fallback for non-direct-deposit countries. 'Right now' signals potential future change. Countries not enumerated. Page undated."
+  ]
 }

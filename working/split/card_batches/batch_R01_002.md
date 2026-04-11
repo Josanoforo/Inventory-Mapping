@@ -12,9 +12,9 @@ Date: at least 7 days
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -30,9 +30,9 @@ Date: 2022-05-12
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -48,9 +48,9 @@ Date: 2022-05-12
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -66,9 +66,9 @@ Date: 30-45 days
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -84,9 +84,9 @@ Date: 2023-11-27
 
 Source type: help_center
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -102,9 +102,9 @@ Date: 2023-11-20
 
 Source type: help_center
 
-Domain: seller
+Domain: not_specified
 
-Actor: seller
+Actor: platform
 
 Evidence base: official_policy
 
@@ -120,9 +120,9 @@ Date: 2023-07-31
 
 Source type: help_center
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -138,9 +138,9 @@ Date: This cookie will only be active for 7 days
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: mixed
+Actor: platform
 
 Evidence base: official_policy
 
@@ -156,9 +156,9 @@ Date: within 90 days of purchase
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -174,9 +174,9 @@ Date:
 
 Source type: help_center
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -192,9 +192,9 @@ Date:
 
 Source type: help_center
 
-Domain: platform
+Domain: not_specified
 
-Actor: marketplace
+Actor: platform
 
 Evidence base: official_policy
 
@@ -210,9 +210,9 @@ Date: usually 90 days
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: ['buyer', 'marketplace']
+Actor: platform
 
 Evidence base: official_policy
 
@@ -228,9 +228,9 @@ Date: 2024-07-22
 
 Source type: help_center
 
-Domain: market
+Domain: not_specified
 
-Actor: ['seller', 'marketplace', 'buyer']
+Actor: platform
 
 Evidence base: official_policy
 

@@ -1,13 +1,23 @@
 {
   "signal_id": "SC-R1-072",
-  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-009-SNP-001"],
-  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-009"],
+  "source_record_ids": [
+    "ER-SP-gumroad_d1_catalogo_dg_output-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-gumroad_d1_catalogo_dg_output-009"
+  ],
   "round": 1,
   "signal_text": "A Gumroad help center article (dated February 21, 2022) stated that the most common items sold on Gumroad are e-books, films, music, software, and tutorials, and that memberships and one-time purchase products (both digital and physical) are also available.",
   "subject_exact": "Gumroad most commonly sold product types (e-books, films, music, software, tutorials) as stated by platform",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
-  "product_type_if_explicit": ["ebook", "software", "unknown"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": [
+    "ebook",
+    "software",
+    "unknown"
+  ],
   "metric_type": "unknown",
   "metric_value_raw": null,
   "metric_unit": null,
@@ -15,8 +25,12 @@
   "time_scope_normalized_if_safe": "2022-02-21",
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["most common"],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "local_qualifiers": [
+    "most common"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +44,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Source dated February 2022. 'Most common' is the platform's claim, not independently verified. Films, music, tutorials do not map to schema product_type enum. Source is creatorpedia FAQ page."]
+  "extraction_notes": [
+    "Source dated February 2022. 'Most common' is the platform's claim, not independently verified. Films, music, tutorials do not map to schema product_type enum. Source is creatorpedia FAQ page."
+  ]
 }

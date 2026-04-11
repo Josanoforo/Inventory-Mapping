@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-033",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-011-SNP-001"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-011"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-011"
+  ],
   "round": 1,
   "signal_text": "A Gumroad help center article on affiliates (dated July 11, 2024) states that Gumroad affiliates earn a fixed 10% commission per sale, can generate affiliate links from a dashboard, and that tracking cookies are only active for 7 days.",
   "subject_exact": "Gumroad affiliate commission rate (10% fixed per sale) and cookie tracking duration (7 days)",
-  "actor_level": "mixed",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": "10%",
@@ -15,8 +21,13 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["fixed 10% commission", "This cookie will only be active for 7 days"],
-  "uncertainties": ["none"],
+  "local_qualifiers": [
+    "fixed 10% commission",
+    "This cookie will only be active for 7 days"
+  ],
+  "uncertainties": [
+    "none"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +41,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Affiliate commission is separate from Gumroad platform fee. Cookie duration 7 days limits attribution window. 'Fixed' qualifier preserved."]
+  "extraction_notes": [
+    "Affiliate commission is separate from Gumroad platform fee. Cookie duration 7 days limits attribution window. 'Fixed' qualifier preserved."
+  ]
 }

@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-073",
-  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-010-SNP-001"],
-  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-010"],
+  "source_record_ids": [
+    "ER-SP-gumroad_d1_catalogo_dg_output-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-gumroad_d1_catalogo_dg_output-010"
+  ],
   "round": 1,
   "signal_text": "A Gumroad help center article (dated July 22, 2024) stated that once unspecified eligibility criteria are satisfied, a product will be listed on Discover if a category has been selected for it in the product edit page share tab.",
   "subject_exact": "Gumroad Discover listing requirement of category selection after other eligibility criteria satisfied",
-  "actor_level": "seller",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "activation_requirement",
   "metric_value_raw": null,
@@ -15,8 +21,13 @@
   "time_scope_normalized_if_safe": "2024-07-22",
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["Once the above criteria are satisfied", "A category has been selected for your product"],
-  "uncertainties": ["context_insufficient"],
+  "local_qualifiers": [
+    "Once the above criteria are satisfied",
+    "A category has been selected for your product"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +41,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["'Above criteria' not visible in snippet — context_before is null. Ellipsis in snippet indicates truncation. Category selection is named as the final listing requirement. July 2024."]
+  "extraction_notes": [
+    "'Above criteria' not visible in snippet — context_before is null. Ellipsis in snippet indicates truncation. Category selection is named as the final listing requirement. July 2024."
+  ]
 }

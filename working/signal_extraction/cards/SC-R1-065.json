@@ -1,13 +1,22 @@
 {
   "signal_id": "SC-R1-065",
-  "source_record_ids": ["ER-SP-gumroad_d1_catalogo_dg_output-002-SNP-002"],
-  "source_ids": ["SRC-gumroad_d1_catalogo_dg_output-002"],
+  "source_record_ids": [
+    "ER-SP-gumroad_d1_catalogo_dg_output-002-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-gumroad_d1_catalogo_dg_output-002"
+  ],
   "round": 1,
   "signal_text": "The Gumroad homepage (accessed April 2026) displayed a Discover section featuring a list of category tags including blender, meditation, comic, notion template, textures, procreate, 3d model, hypnosis, manga, investing, mockup, brushes, font, art, after effects, education, fitness, vrchat, ableton, yoga, fiction, assets, sheet music, and others.",
   "subject_exact": "Gumroad homepage featured product category/tag list displayed on Discover section",
-  "actor_level": "marketplace",
-  "platforms": ["Gumroad"],
-  "product_type_if_explicit": ["notion_template", "unknown"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": [
+    "notion_template",
+    "unknown"
+  ],
   "metric_type": "unknown",
   "metric_value_raw": null,
   "metric_unit": null,
@@ -15,8 +24,12 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "observed_platform_state",
-  "local_qualifiers": ["best-selling products and creators"],
-  "uncertainties": ["none"],
+  "local_qualifiers": [
+    "best-selling products and creators"
+  ],
+  "uncertainties": [
+    "none"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +43,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Enumerated tags from homepage Discover section. 'notion template' maps to notion_template in schema. April 2026 access snapshot. Page undated."]
+  "extraction_notes": [
+    "Enumerated tags from homepage Discover section. 'notion template' maps to notion_template in schema. April 2026 access snapshot. Page undated."
+  ]
 }

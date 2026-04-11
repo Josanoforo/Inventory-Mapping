@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-020",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-006"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-004"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-004-SNP-006"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-004"
+  ],
   "round": 1,
   "signal_text": "Gumroad's Terms of Service (effective January 1, 2025) states that Gumroad, as the merchant of record, is responsible for indirect tax administration, collection, reporting, and remittance, except in limited circumstances where the buyer may be responsible as outlined in Section 10.5.",
   "subject_exact": "Gumroad indirect tax responsibility as merchant of record with limited buyer-side exceptions",
-  "actor_level": ["marketplace", "buyer"],
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -15,8 +21,13 @@
   "time_scope_normalized_if_safe": "2025-01-01",
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["except in limited circumstances where the Buyer may be responsible", "subject to as provided pursuant to these Terms of Services"],
-  "uncertainties": ["none"],
+  "local_qualifiers": [
+    "except in limited circumstances where the Buyer may be responsible",
+    "subject to as provided pursuant to these Terms of Services"
+  ],
+  "uncertainties": [
+    "none"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +41,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Indirect tax responsibility assigned to Gumroad as MOR with exceptions per Section 10.5 (not in snippet). Buyer-side exceptions exist but are not enumerated here."]
+  "extraction_notes": [
+    "Indirect tax responsibility assigned to Gumroad as MOR with exceptions per Section 10.5 (not in snippet). Buyer-side exceptions exist but are not enumerated here."
+  ]
 }

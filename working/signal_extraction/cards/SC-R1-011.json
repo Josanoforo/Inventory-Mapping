@@ -1,12 +1,18 @@
 {
   "signal_id": "SC-R1-011",
-  "source_record_ids": ["ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-007"],
-  "source_ids": ["SRC-DG_Gumroad_D2_Platform_Mechanics-002"],
+  "source_record_ids": [
+    "ER-SP-DG_Gumroad_D2_Platform_Mechanics-002-SNP-007"
+  ],
+  "source_ids": [
+    "SRC-DG_Gumroad_D2_Platform_Mechanics-002"
+  ],
   "round": 1,
   "signal_text": "Gumroad's pricing page states that how sellers are paid—whether through direct deposit or PayPal—varies by country.",
   "subject_exact": "Gumroad seller payout method availability (direct deposit vs PayPal) varying by country",
-  "actor_level": "seller",
-  "platforms": ["Gumroad"],
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "payout_method_availability",
   "metric_value_raw": null,
@@ -15,8 +21,12 @@
   "time_scope_normalized_if_safe": null,
   "geography_if_explicit": null,
   "evidence_role": "official_policy",
-  "local_qualifiers": ["varies by country"],
-  "uncertainties": ["geography_unclear"],
+  "local_qualifiers": [
+    "varies by country"
+  ],
+  "uncertainties": [
+    "geography_unclear"
+  ],
   "traceability_pointers": [
     {
       "pointer_type": "url",
@@ -30,5 +40,7 @@
     }
   ],
   "normalization_notes": [],
-  "extraction_notes": ["Payout layer (seller receiving funds), not checkout layer (buyer paying). Direct deposit and PayPal named as payout rails. Specific countries not enumerated. 'varies by country' qualifier preserved."]
+  "extraction_notes": [
+    "Payout layer (seller receiving funds), not checkout layer (buyer paying). Direct deposit and PayPal named as payout rails. Specific countries not enumerated. 'varies by country' qualifier preserved."
+  ]
 }
