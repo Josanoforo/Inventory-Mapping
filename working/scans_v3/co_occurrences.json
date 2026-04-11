@@ -1,0 +1,77 @@
+{
+  "scan_type": "co_occurrences",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "COO-001",
+      "description": "Las cards sobre Gumroad Discover co-ocurren consistentemente alrededor del tema de visibilidad, criterios de elegibilidad y tráfico orgánico: SC-R1-055, SC-R1-062, SC-R1-049, SC-R1-069, SC-R1-073, SC-R1-074, SC-R1-067, SC-R1-038. Provienen de fuentes diversas (blog, seller_forum, help_center, search_results_page) y actores distintos (seller, platform, marketplace).",
+      "signal_ids": ["SC-R1-055", "SC-R1-062", "SC-R1-049", "SC-R1-069", "SC-R1-073", "SC-R1-074", "SC-R1-067", "SC-R1-038"],
+      "signal_summaries": {
+        "SC-R1-055": "Seller blog: Gumroad no promueve en Discover hasta primer $10",
+        "SC-R1-062": "Seller forum: 26 productos, cero vistas de Discover; todo tráfico es propio",
+        "SC-R1-049": "Seller blog: 35 listados, cero tráfico orgánico",
+        "SC-R1-069": "Platform help center: categorías y tags ayudan a aparecer en Discover",
+        "SC-R1-073": "Platform help center: criterios de elegibilidad no especificados para listado en Discover",
+        "SC-R1-074": "Platform help center: sellers pueden aumentar placement en Discover pagando fee adicional",
+        "SC-R1-067": "Gumroad Discover: 1.6 millones de productos en catálogo",
+        "SC-R1-038": "Platform help center: Discover app tiene 40% fee, ventas finales"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "8 cards co-ocurren alrededor de Gumroad Discover. Fuentes múltiples: blog, seller_forum, help_center, search_results_page. Actores múltiples: seller, platform, marketplace. Genera pregunta de DT: ¿Cómo diseñar para sellers que esperan visibilidad orgánica de la plataforma pero la plataforma no la garantiza (o la condiciona a primera venta y fee adicional)? La respuesta a esta pregunta cambiaría decisiones de diseño sobre onboarding de nuevos sellers."
+    },
+    {
+      "pattern_id": "COO-002",
+      "description": "Las cards sobre fees de Gumroad co-ocurren consistentemente: SC-R1-005, SC-R1-006, SC-R1-007, SC-R1-032, SC-R1-035, SC-R1-036, SC-R1-038, SC-R1-044, SC-R1-047, SC-R1-061. Provienen de fuentes diversas (pricing_page, help_center, blog) y actores distintos (platform, seller, source).",
+      "signal_ids": ["SC-R1-005", "SC-R1-006", "SC-R1-007", "SC-R1-032", "SC-R1-035", "SC-R1-036", "SC-R1-038", "SC-R1-044", "SC-R1-047", "SC-R1-061"],
+      "signal_summaries": {
+        "SC-R1-005": "Pricing page: 10% + $0.50 para ventas directas",
+        "SC-R1-006": "Pricing page: 30% para nuevos compradores vía Discover",
+        "SC-R1-007": "Pricing page: sin fee mensual",
+        "SC-R1-032": "Help center: 10% flat fee para ventas en website",
+        "SC-R1-035": "Help center: 10% flat fee para ventas en website (fuente distinta)",
+        "SC-R1-036": "Help center: 40% total para ventas en app móvil",
+        "SC-R1-038": "Help center Discover app: 40% fee en app",
+        "SC-R1-044": "Blog/source: rango efectivo 8%-20% según precio y país",
+        "SC-R1-047": "Seller blog: $16.59 en fees de $110 en ventas",
+        "SC-R1-061": "Seller blog: percibió fees de Gumroad como altos vs Lemon Squeezy"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "Co-ocurrencia de cards sobre fees no genera pregunta de DT por sí sola: es principalmente frecuencia de un tema. La variación de fees por canal (10% vs 30% vs 40%) ya está capturada en CON-001 (contradicción) y FRI-001. La co-ocurrencia de información sobre fees es un tema frecuente, no una tensión DT específica sin cobertura en otros patrones."
+    },
+    {
+      "pattern_id": "COO-003",
+      "description": "Las cards sobre payout y gestión de dinero de sellers co-ocurren: SC-R1-011, SC-R1-024, SC-R1-025, SC-R1-026, SC-R1-028, SC-R1-029, SC-R1-046, SC-R1-053. Provienen de fuentes help_center y blog. Actores: platform y seller.",
+      "signal_ids": ["SC-R1-011", "SC-R1-024", "SC-R1-025", "SC-R1-026", "SC-R1-028", "SC-R1-029", "SC-R1-046", "SC-R1-053"],
+      "signal_summaries": {
+        "SC-R1-011": "Pricing: pago por depósito directo o PayPal según país",
+        "SC-R1-024": "Help center: si depósito y PayPal no disponibles, no hay pago",
+        "SC-R1-025": "Help center: PayPal payouts siempre en USD; Payoneer/Wise/wire no soportados",
+        "SC-R1-026": "Help center: saldo en balance mínimo 7 días antes de payout; no se puede personalizar el schedule",
+        "SC-R1-028": "Help center: si PayPal no disponible, Gumroad no puede pagar; Payoneer/wire/bitcoin no disponibles",
+        "SC-R1-029": "Help center: en suspensión por chargeback, balance retenido 30-45 días",
+        "SC-R1-046": "Seller blog: payouts retrasados, soporte pobre, suspensiones sin razón",
+        "SC-R1-053": "Seller blog: verificación de cuenta no resuelta"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "8 cards co-ocurren en el tema de payout y acceso al dinero de sellers. Fuentes: help_center (platform) y blog (seller). Actores distintos. Genera pregunta de DT: ¿Cómo diseñar la experiencia de payout para sellers que dependen de recibir su dinero de forma predecible cuando la plataforma documenta múltiples escenarios de retención, bloqueo o retraso? La respuesta cambiaría decisiones de diseño sobre comunicación de estado de payout y transparencia de reglas."
+    },
+    {
+      "pattern_id": "COO-004",
+      "description": "Las cards sobre credibilidad/confianza en el ecosistema Gumroad co-ocurren: SC-R1-040, SC-R1-059, SC-R1-048, SC-R1-052. Provienen de fuentes blog y buyer. Actores: source, buyer, seller.",
+      "signal_ids": ["SC-R1-040", "SC-R1-059", "SC-R1-048", "SC-R1-052"],
+      "signal_summaries": {
+        "SC-R1-040": "Blog/source: screenshots de dashboard de Gumroad pueden ser manipulados en Photoshop",
+        "SC-R1-059": "Buyer blog: sistema de ratings de Gumroad es públicamente visible; una reseña 1-estrella degrada confianza del comprador",
+        "SC-R1-048": "Seller blog: métricas de tráfico (views) no se traducen en ventas",
+        "SC-R1-052": "Seller blog: vendedor anuncia compartir datos reales de dashboard incluyendo fracasos"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "4 cards co-ocurren en el tema de credibilidad y confianza en la plataforma. Actores múltiples: source, buyer, seller. Fuentes: blog, buyer blog, seller forum. Genera pregunta de DT: ¿Cómo diseñar para la verificabilidad de claims de sellers cuando la misma plataforma facilita manipulación de métricas visibles y el sistema de ratings puede erosionar trust con una sola reseña? La respuesta afectaría diseño de sistema de confianza para compradores y sellers nuevos."
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 4,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}

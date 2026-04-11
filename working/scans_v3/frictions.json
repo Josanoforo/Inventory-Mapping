@@ -1,0 +1,96 @@
+{
+  "scan_type": "frictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "FRI-001",
+      "description": "SC-R1-036 y SC-R1-038 documentan que las ventas a través de la app móvil de Gumroad generan un fee total del 40% (10% Gumroad + 30% App Store/Google Play), lo cual bloquea o encarece documentadamente la venta en ese canal; SC-R1-005 y SC-R1-061 documentan que el fee estándar para ventas directas es 10% + $0.50 y que sellers perciben ese fee como alto.",
+      "signal_ids": ["SC-R1-036", "SC-R1-038", "SC-R1-005", "SC-R1-047", "SC-R1-061"],
+      "signal_summaries": {
+        "SC-R1-036": "Gumroad help center: ventas en app móvil tienen fee total de 40% (10% Gumroad + 30% App Store/Google Play)",
+        "SC-R1-038": "Gumroad help center Discover app: fee del 40% para todas las ventas en app; ventas finales sin reembolso",
+        "SC-R1-005": "Gumroad pricing page: 10% + $0.50 por transacción para ventas directas",
+        "SC-R1-047": "Seller blog: pagó $16.59 en fees de $110 en ventas en Gumroad; comenta que los fees crecen con mayor volumen",
+        "SC-R1-061": "Seller blog: percibió fees de Gumroad como altos comparado con Lemon Squeezy; migró a Lemon Squeezy una vez aprobado"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy para el mecanismo bloqueador: SC-R1-036 actor=platform, SC-R1-038 actor=platform. El bloqueador (fee 40% en app) proviene de actor=platform. Lo bloqueado (viabilidad económica de ese canal) no tiene card de seller documentando específicamente el impacto del canal app. SC-R1-047 y SC-R1-061 se refieren a fees en general, no al canal app específicamente. El mecanismo específico de fricción (fee app) no tiene soporte cross-actor suficiente."
+    },
+    {
+      "pattern_id": "FRI-002",
+      "description": "SC-R1-046 y SC-R1-053 documentan fricciones en soporte y operación de cuenta: sellers reportan payouts retrasados, suspensiones sin razón clara y problemas no resueltos de verificación de cuenta. SC-R1-029 documenta que en suspensiones por chargeback el balance se retiene 30-45 días. El mecanismo bloqueador (política de retención y suspensión) está documentado en fuente official; el bloqueado (seller operando normalmente) está documentado en experiencias de seller.",
+      "signal_ids": ["SC-R1-046", "SC-R1-053", "SC-R1-029"],
+      "signal_summaries": {
+        "SC-R1-046": "Seller blog (nov 2025): usuarios de Gumroad enfrentaron payouts retrasados, soporte pobre y suspensiones sin razón clara; algunos no pudieron recuperar su dinero",
+        "SC-R1-053": "Seller blog (nov 2025): seller envió múltiples emails a soporte de Gumroad por problema no resuelto de verificación de cuenta",
+        "SC-R1-029": "Gumroad help center: en suspensión por chargeback alto, balance retenido 30-45 días antes de liquidación"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador: SC-R1-029 (actor=platform) documenta retención de 30-45 días y suspensiones discrecionales. Bloqueado: SC-R1-046, SC-R1-053 (actor=seller) documentan payouts retrasados, soporte no responsivo y verificación no resuelta. Actores distintos: Polo bloqueador = platform, Polo bloqueado = seller. Pasa filtro same-actor. Mecanismo documentado en ambos lados: la política de suspensión y la experiencia de sellers atrapados en ella.",
+      "components": [
+        {
+          "label": "Bloqueador — políticas de suspensión y retención de balance de Gumroad",
+          "signal_ids": ["SC-R1-029"],
+          "summary": "Gumroad retiene balance 30-45 días en suspensiones por chargeback; soporte y verificación son procesos sin garantía de resolución"
+        },
+        {
+          "label": "Bloqueado — sellers con operación interrumpida, payouts retenidos y soporte no responsivo",
+          "signal_ids": ["SC-R1-046", "SC-R1-053"],
+          "summary": "Sellers documentan payouts retrasados, suspensiones sin explicación y problemas de verificación sin resolver a través de soporte"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-003",
+      "description": "SC-R1-031 documenta que el botón 'Download all' en Gumroad solo aparece cuando el contenido total es menor de 500 MB; SC-R1-038 documenta que productos en la app móvil tienen restricciones adicionales. No hay card de seller documentando el impacto específico de este límite.",
+      "signal_ids": ["SC-R1-031", "SC-R1-038"],
+      "signal_summaries": {
+        "SC-R1-031": "Gumroad help center: botón 'Download all' solo disponible cuando contenido total < 500 MB; free products 250 MB limit; paid products 16 GB/file",
+        "SC-R1-038": "Gumroad help center Discover app: ventas en app finales, sin reembolsos, 40% fee"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy: SC-R1-031 actor=platform, SC-R1-038 actor=platform. No hay card de seller documentando impacto del límite de descarga en la experiencia del comprador. El mecanismo de fricción (límite 500 MB para Download All) no tiene soporte cross-actor que documente qué está siendo bloqueado."
+    },
+    {
+      "pattern_id": "FRI-004",
+      "description": "SC-R1-016 documenta que Gumroad tiene discreción exclusiva para determinar y cambiar categorías elegibles en cualquier momento; SC-R1-014 documenta que cambios en la lista de items prohibidos ocurren de forma abrupta y sin previo aviso; SC-R1-041 documenta que un seller experimentado expresó insatisfacción con cambios recientes no especificados y la intención de cambiar de plataforma.",
+      "signal_ids": ["SC-R1-016", "SC-R1-014", "SC-R1-041"],
+      "signal_summaries": {
+        "SC-R1-016": "Gumroad ToS: Gumroad tiene discreción exclusiva para cambiar categorías elegibles para reventa en cualquier momento",
+        "SC-R1-014": "Gumroad policy: cambios en lista de items prohibidos pueden ocurrir abruptamente y sin aviso; cambios tienen efecto inmediato",
+        "SC-R1-041": "Seller forum: seller con 2 años en Gumroad vendiendo sample packs reporta experiencia general buena pero insatisfacción con cambios recientes y planea cambiar de plataforma"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Bloqueador: SC-R1-016 y SC-R1-014 (actor=platform) documentan que la plataforma puede cambiar reglas de eligibilidad de productos y lista de prohibidos de forma unilateral, abrupta y sin aviso. Bloqueado: SC-R1-041 (actor=seller) documenta que un seller con historial establece respuesta comportamental (intención de migrar) ante cambios recientes no especificados. Actores distintos: platform vs seller. Pasa filtro same-actor. SC-R1-041 tiene soporte de 1 sola card para el polo bloqueado; clasificado como needs_audit.",
+      "components": [
+        {
+          "label": "Bloqueador — políticas de cambio unilateral y sin aviso de reglas de producto",
+          "signal_ids": ["SC-R1-016", "SC-R1-014"],
+          "summary": "Gumroad puede cambiar unilateralmente categorías elegibles y lista de items prohibidos de forma abrupta y sin aviso previo"
+        },
+        {
+          "label": "Bloqueado — seller con historial de operación expuesto a riesgo de cambio de reglas",
+          "signal_ids": ["SC-R1-041"],
+          "summary": "Seller con 2 años en plataforma expresa insatisfacción ante cambios recientes y planea migrar"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRI-005",
+      "description": "SC-R1-024 y SC-R1-028 documentan que sellers en países sin depósito directo ni PayPal no pueden recibir pagos de Gumroad. SC-R1-027 documenta que la plataforma acepta pagos de compradores en 160+ países. La brecha entre recepción de ingresos del buyer y pago al seller en ciertos países constituye una fricción documentada.",
+      "signal_ids": ["SC-R1-024", "SC-R1-028", "SC-R1-027"],
+      "signal_summaries": {
+        "SC-R1-024": "Gumroad help center: si depósito y PayPal ambos no disponibles en país del seller, no hay forma de pagarle",
+        "SC-R1-028": "Gumroad help center: si PayPal no soportado en país del seller, Gumroad no puede pagarle; Payoneer/wire/bitcoin no disponibles",
+        "SC-R1-027": "Gumroad help center: creadores en 160+ países pueden aceptar pagos"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy: SC-R1-024 actor=platform, SC-R1-028 actor=platform, SC-R1-027 actor=platform. Todos comparten actor=platform. El bloqueador y el bloqueado están documentados por el mismo actor (la plataforma describiendo sus propias limitaciones geográficas)."
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 5,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}

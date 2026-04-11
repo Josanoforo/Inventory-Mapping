@@ -1,0 +1,80 @@
+{
+  "scan_type": "asymmetries",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "ASY-001",
+      "description": "Las cards de seller outcomes en Gumroad se separan en polos: un polo documenta ingresos altos ($15,000–$61,411) y otro polo documenta ingresos bajos ($21 en la primera semana, $139.96 en tres años, $65.15 en 4 horas como primer experimento). La distribución dentro del corpus es asimétrica.",
+      "signal_ids": ["SC-R1-050", "SC-R1-060", "SC-R1-051", "SC-R1-056", "SC-R1-054", "SC-R1-039"],
+      "signal_summaries": {
+        "SC-R1-050": "Seller blog: email de revisión 2025 de Gumroad indica $61,411 en ventas digitales y ranking #238 entre todos los creadores",
+        "SC-R1-060": "Seller blog: primera venta dentro de horas de publicar; experimento generó casi $15,000 en ventas para fin de 2025",
+        "SC-R1-051": "Seller blog (nov 2025): aproximadamente $21 en ventas totales en la primera semana en Gumroad",
+        "SC-R1-056": "Seller blog (nov 2025): en tres años en Gumroad, total de $139.96",
+        "SC-R1-054": "Seller blog (abr 2026): $65.15 en 4 horas de un producto PDF; describió $50-$200 en ingresos orgánicos diarios",
+        "SC-R1-039": "Seller blog: $3,271 en primeros 6 meses vendiendo art prints, curso y merch drop en Gumroad"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy: SC-R1-050, SC-R1-060, SC-R1-051, SC-R1-056, SC-R1-054, SC-R1-039 — todos tienen actor=seller. Todos los Signal IDs en ambos polos comparten actor=seller. Este patrón es asimetría dentro del mismo actor. Nota: TC-001 ya cubre asimetría de seller income. Si este patrón pasara el filtro, sería referenciado a TC-001."
+    },
+    {
+      "pattern_id": "ASY-002",
+      "description": "Las cards sobre fees de Gumroad se distribuyen asimétricamente: múltiples cards documentan el fee estándar (10% para ventas directas); una card documenta el fee del canal Discover (30%); dos cards documentan el fee del canal app móvil (40% total). La distribución de fees por canal es altamente asimétrica.",
+      "signal_ids": ["SC-R1-005", "SC-R1-006", "SC-R1-036", "SC-R1-038", "SC-R1-032", "SC-R1-035"],
+      "signal_summaries": {
+        "SC-R1-005": "Gumroad pricing: 10% + $0.50 para ventas directas",
+        "SC-R1-006": "Gumroad pricing: 30% cuando compradores nuevos llegan a través de Gumroad Discover",
+        "SC-R1-036": "Gumroad help center: 40% total para ventas en app móvil (10% + 30% App Store/Google Play)",
+        "SC-R1-038": "Gumroad Discover app help center: 40% fee para todas las ventas en app",
+        "SC-R1-032": "Gumroad help center: 10% flat fee para ventas en website",
+        "SC-R1-035": "Gumroad help center: 10% flat fee para ventas en website de Gumroad"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy: SC-R1-005, SC-R1-006, SC-R1-036, SC-R1-038, SC-R1-032, SC-R1-035 — todos tienen actor=platform. La asimetría de fees por canal es documentada completamente por el mismo actor. No hay polo cross-actor."
+    },
+    {
+      "pattern_id": "ASY-003",
+      "description": "Las cards sobre visibilidad de productos en Gumroad Discover se distribuyen asimétricamente: el corpus documenta 1.6 millones de productos disponibles en Discover, mientras que sellers individuales documentan cero vistas orgánicas desde ese canal. La distribución de atención/tráfico orgánico es altamente asimétrica.",
+      "signal_ids": ["SC-R1-067", "SC-R1-049", "SC-R1-062", "SC-R1-043", "SC-R1-048"],
+      "signal_summaries": {
+        "SC-R1-067": "Gumroad Discover: 'Browse over 1.6 million free and premium digital products'",
+        "SC-R1-049": "Seller blog: 35 listados, cero tráfico orgánico ('zero footfall')",
+        "SC-R1-062": "Seller forum: 26 productos, cero vistas desde Gumroad Discover; todo el tráfico viene del propio seller",
+        "SC-R1-043": "Seller blog: 7,068 vistas totales de sus productos durante 2025 (enero a diciembre)",
+        "SC-R1-048": "Seller blog: métricas de tráfico (views) no se traducen en ventas en Gumroad"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "Polo A (SC-R1-067, actor=marketplace): marketplace documenta 1.6 millones de productos en Discover. Polo B (SC-R1-049, SC-R1-062, actor=seller): sellers documentan cero vistas orgánicas desde ese canal. SC-R1-043 y SC-R1-048 (actor=seller) muestran que incluso 7,068 vistas no generan conversión automática. Actores distintos: marketplace vs seller. Pasa filtro same-actor. La asimetría distributiva en acceso a tráfico orgánico de Discover está documentada en ambos polos con actores diferentes.",
+      "components": [
+        {
+          "label": "Polo A — marketplace documenta catálogo masivo en Discover (1.6M productos)",
+          "signal_ids": ["SC-R1-067"],
+          "summary": "Gumroad Discover presenta 1.6 millones de productos disponibles para browsing"
+        },
+        {
+          "label": "Polo B — sellers documentan cero o mínima visibilidad orgánica desde Discover",
+          "signal_ids": ["SC-R1-049", "SC-R1-062", "SC-R1-043", "SC-R1-048"],
+          "summary": "Sellers individuales documentan cero tráfico orgánico desde Discover, todo tráfico viene del propio seller; vistas no se traducen en ventas"
+        }
+      ]
+    },
+    {
+      "pattern_id": "ASY-004",
+      "description": "Las cards sobre capacidad de payout de Gumroad se distribuyen asimétricamente según geografía: sellers en países con depósito directo tienen payout disponible; sellers en países sin depósito ni PayPal no tienen método de cobro.",
+      "signal_ids": ["SC-R1-011", "SC-R1-024", "SC-R1-025", "SC-R1-028"],
+      "signal_summaries": {
+        "SC-R1-011": "Gumroad pricing: pago a sellers vía depósito directo o PayPal según país",
+        "SC-R1-024": "Gumroad help center: si depósito y PayPal ambos no disponibles, no hay forma de pagar al seller",
+        "SC-R1-025": "Gumroad help center: PayPal payouts siempre en USD; Payoneer, Wise, cheque y wire no soportados",
+        "SC-R1-028": "Gumroad help center: si PayPal no soportado en país del seller, Gumroad no puede pagarle"
+      },
+      "routing": "rejected_grouping",
+      "routing_rationale": "same_actor_discrepancy: SC-R1-011, SC-R1-024, SC-R1-025, SC-R1-028 — todos tienen actor=platform. La asimetría geográfica de payout está documentada completamente por el mismo actor."
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 4,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}
