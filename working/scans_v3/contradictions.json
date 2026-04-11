@@ -1,0 +1,108 @@
+{
+  "scan_type": "contradictions",
+  "status": "complete",
+  "patterns": [
+    {
+      "pattern_id": "CON-001",
+      "description": "Las cards sobre la política de reembolsos de Gumroad se separan en polos: una card documenta que Gumroad puede emitir reembolsos a discreción dentro de 90 días incluso si el seller tiene política de no-reembolso, mientras que otra card documenta que para ventas en la app móvil todos los reembolsos son finales y Gumroad no los procesa.",
+      "signal_ids": ["SC-R1-034", "SC-R1-038"],
+      "signal_summaries": {
+        "SC-R1-034": "Gumroad puede emitir reembolsos dentro de 90 días a su discreción para prevenir chargebacks, incluso si el seller tiene política de no-reembolso",
+        "SC-R1-038": "Para ventas en la app móvil (Gumroad Discover), todas las ventas son finales, no hay reembolsos de Gumroad ni de sellers; solicitudes van a Apple/Google"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-034 afirma que Gumroad puede reembolsar a su discreción dentro de 90 días incluso contra la política del seller. SC-R1-038 afirma que para ventas en app, todas las ventas son finales y Gumroad no emite reembolsos. Mismo sujeto (política de reembolso de Gumroad), afirmaciones opuestas. Ambas son fuentes platform_doc/help_center con actor=platform. Actores diferentes (platform vs marketplace) — pasa filtro same-actor ya que marketplace ≠ platform. Contradicción explícita con ambas cards teniendo soporte de fuente oficial; el scope difiere (web vs app) lo que genera la tensión.",
+      "components": [
+        {
+          "label": "Polo A — reembolsos discrecionales en ventas web",
+          "signal_ids": ["SC-R1-034"],
+          "summary": "Gumroad reserva el derecho de emitir reembolsos dentro de 90 días a su discreción para prevenir chargebacks, incluso si el seller tiene política de no-reembolso"
+        },
+        {
+          "label": "Polo B — ventas finales en app móvil",
+          "signal_ids": ["SC-R1-038"],
+          "summary": "Para ventas en la app móvil/Gumroad Discover, todas las ventas son finales; Gumroad no procesa reembolsos y solicitudes deben ir a Apple o Google"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CON-002",
+      "description": "Las cards sobre visibilidad orgánica en Gumroad Discover se separan en polos: una card documenta que agregar categorías y etiquetas ayuda a que Gumroad muestre productos en Discover, mientras que múltiples cards de sellers documentan cero vistas orgánicas y cero tráfico desde Discover, incluso con productos listados y categorizados.",
+      "signal_ids": ["SC-R1-069", "SC-R1-049", "SC-R1-062", "SC-R1-055"],
+      "signal_summaries": {
+        "SC-R1-069": "Agregar categoría y etiquetas ayuda a que Gumroad muestre productos en Discover (fuente: help center oficial)",
+        "SC-R1-049": "Seller con 35 productos reporta cero tráfico orgánico ('zero footfall') desde Gumroad",
+        "SC-R1-062": "Seller con 26 productos reporta cero vistas orgánicas y cero vistas desde Gumroad Discover; atribuye a requisito de primera venta",
+        "SC-R1-055": "Gumroad no promociona productos en Discover hasta que el seller gana su primer $10"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-069 (actor=platform, help_center) afirma que categorías y etiquetas ayudan a aparecer en Discover. SC-R1-049 y SC-R1-062 (actor=seller, blogs/forum) documentan cero tráfico orgánico desde Discover. SC-R1-055 (actor=seller, blog) documenta un umbral de $10 antes de exposición en Discover. Actores distintos (platform vs seller) — pasa filtro same-actor. La oposición es entre la afirmación del platform (las etiquetas ayudan) y la experiencia documentada de sellers (cero tráfico). Contradicción con soporte en ambos polos.",
+      "components": [
+        {
+          "label": "Polo A — plataforma afirma que etiquetas generan visibilidad en Discover",
+          "signal_ids": ["SC-R1-069"],
+          "summary": "Gumroad help center oficial: agregar categoría y etiquetas ayuda a que Gumroad muestre productos en Discover"
+        },
+        {
+          "label": "Polo B — sellers reportan cero tráfico orgánico desde Discover",
+          "signal_ids": ["SC-R1-049", "SC-R1-062", "SC-R1-055"],
+          "summary": "Sellers documentan cero vistas orgánicas desde Gumroad Discover, incluso con productos listados; se documenta umbral de primera venta o $10 como requisito no anunciado"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CON-003",
+      "description": "Las cards sobre la tasa de fee de Gumroad se separan en polos: cards oficiales de plataforma documentan 10% flat más $0.50 por transacción, mientras que una card de seller documenta un rango observado de 8% a 20% efectivo dependiendo del precio y país.",
+      "signal_ids": ["SC-R1-005", "SC-R1-032", "SC-R1-035", "SC-R1-044"],
+      "signal_summaries": {
+        "SC-R1-005": "Pricing page oficial: 10% + $0.50 por transacción en todas las ventas directas",
+        "SC-R1-032": "Help center: $0 para empezar, Gumroad cobra 10% flat por venta (excl. procesamiento de tarjeta)",
+        "SC-R1-035": "Help center: 10% flat fee para ventas en website de Gumroad (excl. tarjeta y PayPal)",
+        "SC-R1-044": "Blog/source: rango efectivo observado de 8% a 20% según precio y país"
+      },
+      "routing": "needs_audit",
+      "routing_rationale": "SC-R1-005, SC-R1-032, SC-R1-035 (actor=platform) afirman 10% flat. SC-R1-044 (actor=source, comparative_commentary) afirma 8%-20% efectivo. La diferencia puede explicarse por el $0.50 adicional (que reduce el porcentaje efectivo en ventas altas) y por variaciones geográficas mencionadas en SC-R1-019. No es contradicción directa sino posible diferencia entre fee nominal y fee efectivo. Necesita auditoría para determinar si el rango 8-20% es calculado o declarado.",
+      "components": [
+        {
+          "label": "Polo A — fee nominal oficial declarado como 10% flat",
+          "signal_ids": ["SC-R1-005", "SC-R1-032", "SC-R1-035"],
+          "summary": "Sources oficiales de Gumroad (pricing page, help center) declaran 10% flat fee por venta, excl. procesamiento de tarjeta"
+        },
+        {
+          "label": "Polo B — fee efectivo observado en rango 8%-20%",
+          "signal_ids": ["SC-R1-044"],
+          "summary": "Source comparativo (blog) documenta rango efectivo de 8% a 20% según precio y país"
+        }
+      ]
+    },
+    {
+      "pattern_id": "CON-004",
+      "description": "Las cards sobre la capacidad de pago a sellers según país se separan en polos: una card documenta que Gumroad opera en más de 160 países con pago por depósito o PayPal, mientras que otras cards documentan que si ninguno de los dos métodos está disponible, no hay forma de pagar al seller.",
+      "signal_ids": ["SC-R1-027", "SC-R1-024", "SC-R1-028"],
+      "signal_summaries": {
+        "SC-R1-027": "Gumroad permite a creadores en más de 160 países aceptar pagos; pago por depósito directo o PayPal según país",
+        "SC-R1-024": "Si depósito directo no está disponible en el país del seller, se usa PayPal; si PayPal tampoco está disponible, no hay manera de pagar al seller",
+        "SC-R1-028": "Si PayPal no está soportado en el país del seller, Gumroad no puede pagarle; Payoneer, wire y bitcoin no están disponibles"
+      },
+      "routing": "tension_candidate",
+      "routing_rationale": "SC-R1-027 afirma cobertura en 160+ países. SC-R1-024 y SC-R1-028 documentan que en países donde ni depósito ni PayPal funcionan, el seller no puede cobrar. La contradicción está en la brecha entre la afirmación de cobertura amplia y la documentación explícita de escenarios sin solución de pago. Actores: todos platform (help_center). Same-actor: todos son actor=platform. Por lo tanto, filtro same-actor se aplica → rejected_grouping con reason same_actor_discrepancy.",
+      "components": [
+        {
+          "label": "Polo A — afirmación de cobertura en 160+ países",
+          "signal_ids": ["SC-R1-027"],
+          "summary": "Gumroad help center: plataforma disponible para creadores en más de 160 países"
+        },
+        {
+          "label": "Polo B — ausencia de método de pago para algunos países",
+          "signal_ids": ["SC-R1-024", "SC-R1-028"],
+          "summary": "Gumroad help center: si ni depósito ni PayPal disponibles en el país del seller, no existe método de pago"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "cards_scanned": 75,
+    "patterns_found": 4,
+    "timestamp": "2026-04-11T00:00:00Z"
+  }
+}
