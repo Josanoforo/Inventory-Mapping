@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad's help center states that a higher commission percentage gives products a higher boost on Discover, and fees are charged only when a sale occurs after discovery on Discover.",
+  "verbatim_snippet": "\"The higher the percentage chosen, the higher the boost the product receives. These fees are only charged when a sale occurs after it was found on Discover.\"",
+  "source": "https://help.gumroad.com",
+  "source_type": "platform_help",
+  "verification_status": "direct_verified",
+  "date": "April 2026 (observed in shard)",
+  "notes": "URL derived from named source reference in shard: \"the help center\" → https://help.gumroad.com. section: Discovery and search mechanisms on the platform.",
+  "finding_id": "F-10",
+  "shard_id": "compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

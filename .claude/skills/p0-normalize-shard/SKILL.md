@@ -46,6 +46,24 @@ A block qualifies as a finding if and only if it contains:
 
 Blocks that contain only narrative summary, cross-source comparison, or data with no single-source anchor are **not findings** — they are either pattern candidates (Part 3) or discarded context.
 
+**Aggregated section lists — special handling:**
+
+Some shards organize content as an aggregated category section: a bolded or heading-level topic label (e.g., "Analytics and market intelligence tools:", "Listing optimization and AI writing tools:") followed by a flat bulleted list where every item is homogeneous — each bullet names a distinct entity, provides verbatim text cited from that entity's own source, and includes a URL either explicitly in parentheses immediately after the name (e.g., `(gumtrends.com)`, `(putler.com/integrations/gumroad)`) or as an inline domain string matching the entity name.
+
+Treat each bullet in such a list as an **individual finding**, not as part of a single aggregate block. Apply the standard finding qualification test (verbatim snippet + source URL + at least one of What/Date/source_type) to each bullet individually.
+
+The section-level topic label (e.g., "Third-party tools and services built around Gumroad") is **not a finding** and its URL, if any, is not inherited by the bullets. Record it in the Notes of each child finding as: `"section: [label]"`.
+
+A section qualifies as an aggregated section list only when **all** of the following hold:
+1. The section header or sub-header describes a topic category — not a specific named source.
+2. Each bullet names a distinct entity different from the others.
+3. Each bullet contains its own verbatim excerpt in quotation marks cited from that entity's material.
+4. Each bullet includes a URL or a named source reference resolvable to a URL (see Step 3 for derivation rules).
+
+Contrast with aggregate tables (pricing tables, cross-source statistics, multi-source comparison blocks): those remain pattern candidates routed to Part 3, PC-NN. Sub-headers within a section (e.g., "Analytics tools:" then "SEO tools:") are organizational scaffolding only; the bullets beneath them are still individual findings if the four conditions above hold.
+
+Inline named-source citations in prose (e.g., "Gumroad's help documentation states: '...'", "A GitHub issue (#682) reveals: '...'") also qualify as individual findings when they name a specific source, carry a verbatim quote, and the URL is derivable (see Step 3). They are not aggregated section list items structurally, but follow the same per-item extraction and URL derivation rules.
+
 ---
 
 ### Step 3 — Determine verification_status for each finding
@@ -64,8 +82,20 @@ For each finding block:
 | GROUP C or GROUP D heading | `could_not_verify` |
 | `Accessibility: direct fetch` or `Access: direct web_fetch` | `direct_verified` |
 | `Accessibility: blocked` or `access: 403` or `search snippet only` | `blocked_url_index_verified` |
+| Item from an aggregated section list AND has a per-item URL (explicit in parentheses or as inline domain) AND has verbatim content cited from that specific source | `direct_verified` |
+| Item from an aggregated section list AND named source reference present but URL must be derived (e.g., "Gumroad's help documentation", "GitHub issue #NNN") AND has verbatim content from that source | `direct_verified` |
 | No verification signal AND URL present | `could_not_verify` (conservative default) |
 | No URL | `could_not_verify` |
+
+**URL derivation for aggregated section list items:** When a bullet item or inline named-source citation provides a named reference rather than an explicit URL, derive the URL using these patterns and document in Notes:
+
+- Domain in parentheses: prepend `https://`. Example: `(gumtrends.com)` → `https://gumtrends.com`.
+- Path in parentheses: prepend `https://`. Example: `(putler.com/integrations/gumroad)` → `https://putler.com/integrations/gumroad`.
+- "Gumroad's help documentation" or "the help center" with no further qualifier → `https://help.gumroad.com`. Note: `"URL derived from named source reference in shard: 'Gumroad's help documentation' → help.gumroad.com"`.
+- "GitHub issue #NNN" or "A GitHub issue (#NNN)" → `https://github.com/[org]/[repo]/issues/NNN` where org/repo are determinable from the shard's research context. Note: `"URL derived from named source reference in shard: 'GitHub issue #682' → github.com/gumroad/gumroad/issues/682"`.
+- Tool name that is itself a domain (e.g., "fullStats.io" as the item name) → `https://fullstats.io`.
+
+Write `"URL derived from named source reference in shard: [rationale]"` in Notes. Do **not** use the word "inferred" for derivations — reserve "inferred" solely for the conservative-default `could_not_verify` case below.
 
 When assigning conservatively, add to the finding's Notes field: `"verification_status inferred during normalization: [reason]"`
 
