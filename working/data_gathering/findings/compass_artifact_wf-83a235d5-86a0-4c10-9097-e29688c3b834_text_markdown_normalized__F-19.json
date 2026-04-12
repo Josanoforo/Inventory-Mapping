@@ -1,0 +1,13 @@
+{
+  "what": "The $10,000 threshold is calculated by multiplying item price by quantity minus discounts or formally cancelled orders, excluding Pattern orders, In Person Payment orders, Etsy fees, shipping, taxes, or gift wrap.",
+  "verbatim_snippet": "\"For the purpose of calculating this $10,000 USD threshold, sales are calculated by multiplying item price by quantity (minus any discounts or formally cancelled orders), but excluding Pattern orders, In Person Payment orders, Etsy fees, or separately charged shipping, taxes, or gift wrap. For sellers with shop currencies other than USD, the $10,000 USD threshold is calculated with the currency exchange rates used by Etsy at the time that the relevant sales were processed. Exchange rates used are variable and are provided by a third party financial services company.\"",
+  "source": "https://www.etsy.com/legal/fees/",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Current as of April 2026",
+  "notes": "Threshold is re-evaluated on the first day of each month. Original ID: F-21.",
+  "finding_id": "F-19",
+  "shard_id": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

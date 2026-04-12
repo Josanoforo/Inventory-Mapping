@@ -1,0 +1,13 @@
+{
+  "what": "Country-specific regulatory operating fee percentages as currently listed by Etsy.",
+  "verbatim_snippet": "\"Sellers in certain countries are charged a small Regulatory Operating fee in addition to current selling costs. This fee is charged on the item price and shipping costs (including gift wrap and personalization costs, if applicable) and will vary based on seller location.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/1500011073202-What-is-a-Regulatory-Operating-Fee",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Current as of March 2026",
+  "notes": "The specific country rates are: **Turkey 2.27%**, **Vietnam 1.24%**, **Canada 1.15%**, **Spain 0.72%**, **France 0.47%**, **United Kingdom 0.32%**, **Italy 0.32%**, **India 0.29%**. Rates have increased over time (e.g., UK was 0.25% at introduction, Turkey was 1.1%). These rates were corroborated across multiple sources but the official Etsy help page table could not be directly scraped due to 403 errors and JavaScript rendering. Original ID: F-27.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

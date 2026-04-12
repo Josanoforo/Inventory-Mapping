@@ -1,0 +1,13 @@
+{
+  "what": "La página /productos de Kichink presenta navegación por categorías con opción \"Navegar por tienda\" y controles de paginación para mostrar 24, 36 o 48 resultados. Muestra texto \"Cargando productos\" sin productos individuales visibles en el índice.",
+  "verbatim_snippet": "[Stated in layout: \"Categorías · Encuentra el producto perfecto para ti · Navegar por tienda · Sin Filtros · Cargando productos · Navegar por tienda · Mostrar: 24 · 36 · 48\"]",
+  "source": "https://www.kichink.com/productos",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accedido abril 2026; copyright de la página @2024",
+  "notes": "Acceso directo a esta URL específica no se intentó, pero 7 URLs probadas en kichink.com retornan HTTP 403 Forbidden. Snippet del índice de Google para la misma URL. El texto \"Cargando productos\" indica contenido JS-rendered no capturado en el indexado estático. Los nombres de categorías específicas no son visibles.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

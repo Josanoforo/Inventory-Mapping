@@ -1,0 +1,18 @@
+{
+  "what": "Detailed payment flow (PayPal and Stripe)",
+  "verbatim_snippet": "> \"When a customer buys from your Payhip store, the payment is instantly transferred to your PayPal or Stripe account (minus PayPal/Stripe's fees as well as Payhip's fees, which we'll go into below).\"\n\n> \"The transfer to PayPal/Stripe is instant - you'll get paid after every transaction as it happens.\"\n\n> \"If you have both PayPal and Stripe linked, then PayPal payments will be processed through PayPal and credit/debit card payments will be processed through Stripe.\"",
+  "source": "https://help.payhip.com/article/173-how-do-i-get-paid",
+  "source_type": "help_article",
+  "verification_status": "direct_verified",
+  "date": "Last updated April 19, 2024",
+  "notes": "Original ID: Finding 7. Accessibility: Directly accessible Layout: Prose with subheadings",
+  "extra_fields": {
+    "verbatim_text_withdrawing_from_stripe": "> \"Stripe payments will stay as 'pending' for a few days. The length of this pending period depends on your location (see here).\"\n\n> \"Once that period has passed, payouts will be sent to your connected bank account on a daily basis by default. In your Stripe dashboard, you're able to change this to weekly, monthly, or manual.\"",
+    "verbatim_text_withdrawing_from_paypal": "> \"Please note that, by default, PayPal withdrawals need to be manually initiated. To enable automatic payouts, you'll want to switch on auto transfers (available for Premier/Business accounts only).\"",
+    "verbatim_text_holding_funds": "> \"Can you hold onto the money for me? You may be wondering whether Payhip can hold off on sending you the money for each transaction in order to minimize Stripe/PayPal fees. Sadly that isn't possible at this point in time.\""
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

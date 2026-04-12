@@ -1,0 +1,13 @@
+{
+  "what": "Seller discovers that Etsy's AI modified over 16 of their listing titles by inserting colons, triggering search visibility warnings on their dashboard despite never having used colons in titles.",
+  "verbatim_snippet": "\"Seems it was my titles, for some unknown reason, each affected one had a 'Colon' after the first few words of the title instead of the comma. I would never use : in my titles and suddenly it has appeared on over 16 of my listings? Which then affected my shop in the search visibility section. Thanks Etsy!\"",
+  "source": "https://community.etsy.com/t5/Technical-Issues/Double-check-your-quot-Etsy-Search-Visibility-quot/td-p/148988942",
+  "source_type": "seller_forum",
+  "verification_status": "blocked_url_index_verified",
+  "date": "August 26, 2025",
+  "notes": "community.etsy.com requires login. Content retrieved from Google search index. 16+ listings affected. AI-modified titles without seller consent. Search visibility warnings triggered. Thread received multiple responses from other sellers confirming similar experiences. A later post in the same thread from the same seller notes that manually rewriting titles over a 2-week period led to noticeable increases in views and visits.",
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

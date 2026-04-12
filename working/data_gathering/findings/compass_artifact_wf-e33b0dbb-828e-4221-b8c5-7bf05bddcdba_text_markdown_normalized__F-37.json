@@ -1,0 +1,13 @@
+{
+  "what": "Currency matching requirement (universal across non-Stripe/PayPal gateways)",
+  "verbatim_snippet": "> \"Note that the currency used in your Payhip account must match the currency in your [gateway name] account.\"\n\n---\n\n## Payment methods accepted",
+  "source": "https://help.payhip.com/article/342-connecting-your-square-account",
+  "source_type": "help_article",
+  "verification_status": "direct_verified",
+  "date": "Undated",
+  "notes": "Original ID: Finding 37. Additional URLs: https://help.payhip.com/article/341-connecting-your-mollie-account; https://help.payhip.com/article/344-connecting-your-paystack-account; https://help.payhip.com/article/367-connect-your-flutterwave-account; https://help.payhip.com/article/343-connecting-your-mercado-pago-account; https://help.payhip.com/article/366-connect-your-xendit-account; https://help.payhip.com/article/365-connect-your-midtrans-account; https://help.payhip.com/article/370-connect-your-payu-account; https://help.payhip.com/article/368-connect-your-razorpay-account; https://help.payhip.com/article/371-connect-your-iyzico-account; https://help.payhip.com/article/372-connect-your-paytabs-account Accessibility: All directly accessible Layout: Structured prose",
+  "finding_id": "F-37",
+  "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,13 @@
+{
+  "what": "When a customer purchases more than one variation from a single listing, each additional item triggers a $0.20 USD listing fee.",
+  "verbatim_snippet": "\"There is a $0.20 fee for creating or renewing a listing on Etsy. There is no fee for editing a listing.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/360000344908-Fees-and-Listing-Multiple-Quantities",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Current as of April 2026",
+  "notes": "Fee appears in payment account as \"multi-quantity fee\" or \"auto-renew sold fee\" depending on context. Original ID: F-02.",
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

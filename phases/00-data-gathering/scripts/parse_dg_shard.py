@@ -61,7 +61,7 @@ REQUIRED_KEYS = set(REQUIRED_FIELD_MAP.keys())
 # Handles both bold ("**Label:**", "**Label**:") and plain ("Label:") formats.
 # Bold markers are fully optional — both formats are valid per contract.
 _FIELD_LABEL_PAT = re.compile(
-    r"^\s*(?:\*\*)?([A-Za-z][A-Za-z0-9_ ()/]+?)(?:\*\*)?[:\-](?:\*\*)?\s*(.*)",
+    r"^\s*(?:[-*]\s+)?(?:\*\*)?([A-Za-z][A-Za-z0-9_ ()/]+?)(?:\*\*)?[:\-](?:\*\*)?\s*(.*)",
     re.IGNORECASE,
 )
 

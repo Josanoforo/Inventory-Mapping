@@ -1,0 +1,13 @@
+{
+  "what": "Stripe-specific payment methods",
+  "verbatim_snippet": "> \"Stripe supports all major debit and credit cards, including Visa, Mastercard, American Express, and more. This also includes a wide range of local and alternative payment methods, such as:\n> * Digital wallets: Apple Pay, Google Pay, Link, Samsung Pay, Cash App Pay, Alipay, WeChat Pay\n> * Bank redirects / transfers: iDEAL, Bancontact, EPS, Przelewy24, BLIK, FPX, Pay by Bank, Multibanco, MB WAY, OXXO, Konbini\n> * Real-time payments: Pix, Swish, PayNow, PromptPay, PayTo\n> * Mobile payments: TWINT, Kakao Pay, Naver Pay, PAYCO, MobilePay, Satispay, Revolut Pay\n> * Buy Now, Pay Later: Afterpay / Clearpay, Klarna, Affirm, Alma, Zip, Billie\"\n\n---\n\n## Refund policies",
+  "source": "https://help.payhip.com/article/65-connecting-your-stripe-account",
+  "source_type": "help_article",
+  "verification_status": "direct_verified",
+  "date": "Last updated February 25, 2026",
+  "notes": "Original ID: Finding 41. Accessibility: Directly accessible Layout: Structured bulleted lists",
+  "finding_id": "F-41",
+  "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}
