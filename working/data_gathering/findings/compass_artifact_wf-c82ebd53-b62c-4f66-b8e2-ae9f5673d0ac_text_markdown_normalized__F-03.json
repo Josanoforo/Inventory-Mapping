@@ -1,0 +1,13 @@
+{
+  "what": "When the purchase currency differs from the commission currency, Hotmart converts the transaction value into USD to perform fee calculations. Evaluated value excludes taxes and credit card fees.",
+  "verbatim_snippet": "\"In the scenario where the purchase currency is different from the commission currency, the transaction value is converted into US dollars (USD) to perform the calculations.\" And: \"Important: in all the scenarios described above, the evaluated value does not include taxes and credit card fee.\"",
+  "source": "https://help.hotmart.com/en/article/208298448",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "No visible date",
+  "notes": "Page was accessible directly. Original ID: none assigned in source.",
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}
