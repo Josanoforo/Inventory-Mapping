@@ -1,0 +1,13 @@
+{
+  "what": "The marketplace homepage has a \"Featured products\" section, but product cards are dynamically loaded via JavaScript and are not visible in static HTML. The fallback text shown is \"Loading results...\" followed by \"No products found / Could not find products with your current filters, please try expanding your filters.\"",
+  "verbatim_snippet": "\"### Featured products\" followed by \"Loading results...\" and \"No products found\"",
+  "source": "https://payhip.com/marketplace",
+  "source_type": "search_results_page",
+  "date": "Accessed April 2026; page undated",
+  "notes": "This is an architectural finding — marketplace product grids use client-side JS rendering, while individual store pages render product listings server-side. Original ID: A7.",
+  "verification_status": "direct_verified",
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}
