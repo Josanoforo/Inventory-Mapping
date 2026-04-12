@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-777044ad-002",
+  "finding_id": "F-X02",
+  "shard_id": "compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown (1)",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Contenido de la página \"Precios &amp; Planes\"",
+    "raw_text": "El menú de navegación de kichink.com incluye un enlace a \"Precios &amp; Planes\" pero la URL exacta no pudo ser determinada (se probaron /precios, /planes sin éxito). Si esta página existe, podría contener la tabla de tiers de comisión. **Búsqueda activa realizada; resultado: ausencia confirmada de contenido accesible.**"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-b9dbadd2-125",
+  "finding_id": "F-X05",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "CrestaProject as Etsy auxiliary tool",
+    "raw_text": "**What:** CrestaProject (crestaproject.com) is NOT an Etsy-specific tool. It is a WordPress themes and plugins company offering themes (Fortunato, Semplicemente, Ansia) and plugins (Cresta Social Share Counter, Cresta Addons for Elementor). No Etsy connection found.  \n**Verbatim snippet:** n/a — absence finding (out-of-scope correction)  \n**Source:** Searched crestaproject.com and found \"CrestaProject - Modern and Responsive Premium and Free WordPress Themes & Plugins with fast support.\"  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Accessed April 2026  \n**Notes:** The task's WHERE TO LOOK FIRST section listed CrestaProject as a potential Etsy auxiliary tool. Research confirms it has no relationship to Etsy. This is recorded to document the search and prevent future re-investigation. SD-07."
+  }
+}

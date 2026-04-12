@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-7d70982c-090",
+  "finding_id": "F-X01",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "original_url": "https://gumroad.com/discover/notion-templates",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Gumroad /discover/notion-templates",
+    "raw_text": "web_fetch of https://gumroad.com/discover/notion-templates; web_search for \"site:gumroad.com notion-templates\"; Google index search\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Searched locations only. The /discover/{category-name} URL pattern does not exist on Gumroad. Actual category URLs use the pattern gumroad.com/{category-slug} (e.g., gumroad.com/design) or query parameters on /discover."
+  }
+}

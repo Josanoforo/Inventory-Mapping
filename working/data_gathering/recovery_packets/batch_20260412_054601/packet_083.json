@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-fa4ba897-083",
+  "finding_id": "F-X14",
+  "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "original_url": "https://payhip.com/explore",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "No /explore URL exists on Payhip",
+    "raw_text": "**Searched for:** https://payhip.com/explore and all /explore/ sub-paths (ebooks, templates, courses, software, music, memberships).\n**Where searched:** Direct fetch attempts, Google \"site:payhip.com/explore\" search.\n**Result:** The /explore path does not exist on Payhip's website. The equivalent discovery feature is the Marketplace at https://payhip.com/marketplace. Individual stores may have /explore endpoints (e.g., payhip.com/somnetwork/explore) but there is no platform-level explore page.\n**Notes:** Absence finding — no data found. Original ID: D3.\n**verification_status:** could_not_verify"
+  }
+}

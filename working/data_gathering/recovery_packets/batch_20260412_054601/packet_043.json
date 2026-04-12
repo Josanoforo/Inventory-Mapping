@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-043",
+  "finding_id": "F-X02",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": "https://medium.com/tag/hotmart",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Medium tag/hotmart — absence finding",
+    "raw_text": "**What:** No qualifying first-hand Spanish-language seller blog posts found on Medium within April 2025–April 2026.  \n**Verbatim snippet:** n/a — absence finding  \n**Source:** Fetch of https://medium.com/tag/hotmart returned permissions error. Searches: `site:medium.com hotmart experiencia vendedor`; `site:medium.com hotmart ventas ingresos español`. Results returned were affiliate promotional content, generic tutorials, or posts from 2019–2020.  \n**Notes:** SD-04 (Medium). Medium tag page blocked. Search results showed primarily affiliate promos and older content. No first-hand producer accounts within the timeframe."
+  }
+}

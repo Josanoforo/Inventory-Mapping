@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-cab18fb3-030",
+  "finding_id": "F-X02",
+  "shard_id": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "original_url": "https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Reddit sellers describe Q4 2025 revenue collapse",
+    "raw_text": "**What:** Reddit post describes sellers going from 30+ sales per day to zero during Q4 2025, with the poster reporting people unable to pay bills and small businesses collapsing overnight.\n**Verbatim snippet:** \"Sellers going from 30+ sales/day to ZERO. Peak Q4 season completely destroyed. People unable to pay their bills. Small businesses built over years vanishing overnight.\"\n**Source:** https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/\n**source_type:** reddit\n**verification_status:** could_not_verify\n**Date:** November 2025\n**Notes:** Same thread as F-X01. Reddit inaccessible directly. Snippet sourced via intermediary article (ValueAddedResource). Same URL, appears to be same poster as F-X01 (separate passage describing impact vs. pattern). Not valid per protocol because intermediary was used."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-fa4ba897-085",
+  "finding_id": "F-X16",
+  "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "No dedicated Payhip analytics dashboard tools found",
+    "raw_text": "**Searched for:** Third-party analytics dashboards specifically for Payhip.\n**Where searched:** Google searches for \"payhip analytics dashboard tool,\" \"payhip sales dashboard.\"\n**Result:** No third-party dashboard specifically for Payhip analytics exists beyond GA4 integration and the built-in analytics. Fathom Analytics was recommended for Payhip stores but is a generic tool, not Payhip-specific.\n**Notes:** Absence finding — no data found. Original ID: D5.\n**verification_status:** could_not_verify"
+  }
+}
