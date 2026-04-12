@@ -1,0 +1,16 @@
+{
+  "what": "Etsy's category directory page lists 16 top-level product categories: Accessories, Art & Collectibles, Bags & Purses, Bath & Beauty, Books Movies & Music, Clothing, Craft Supplies & Tools, Electronics & Accessories, Home & Living, Jewelry, Paper & Party Supplies, Pet Supplies, Shoes, Toys & Games, Weddings, Kids & Baby. An additional \"Gifts\" section appears as a browsing/merchandising category with sub-sections.",
+  "verbatim_snippet": "n/a — content recovered via research subagent direct fetch of URL; verbatim character-for-character accuracy cannot be independently confirmed.",
+  "source": "https://www.etsy.com/categories",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL is fixed. Page was fetched by research subagent using web_fetch tool on exact URL; page loaded successfully per subagent report. The 16-category list is structural/navigational content unlikely to differ from rendering. Subcategory counts were also reported (e.g., Jewelry: 12 subcategories; Home & Living: 16 subcategories; Clothing: 6 subcategories) but verbatim for those could not be independently confirmed. Recovery method: subagent direct fetch. SD-01.",
+  "extra_fields": {
+    "finding_id": "F-P01"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

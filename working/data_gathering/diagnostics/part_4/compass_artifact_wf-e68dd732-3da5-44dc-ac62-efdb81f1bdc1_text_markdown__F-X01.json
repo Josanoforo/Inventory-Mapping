@@ -1,0 +1,9 @@
+{
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Complete list of direct deposit countries",
+  "attempted": "**What:** \"No data found on the complete list of countries eligible for direct deposit payouts.\"\n\n**Verbatim snippet:** \"n/a — absence finding\"\n\n**Source:** Searched help.gumroad.com via Google with queries: `site:help.gumroad.com supported countries`, `site:help.gumroad.com direct deposit countries`; articles 13 and 152 reference a list of direct deposit countries but the full enumeration was not captured in available search index snippets. Direct fetch of both article URLs returned authentication walls.\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Multiple help center articles reference a list of countries eligible for direct deposit, but the full list was not surfaced in any search index snippet or directly fetchable page.",
+  "why_failed": "",
+  "urls_mentioned": []
+}

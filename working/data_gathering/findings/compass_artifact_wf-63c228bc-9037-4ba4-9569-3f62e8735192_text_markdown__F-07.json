@@ -1,0 +1,13 @@
+{
+  "what": "Creator's account was suspended with zero products published. Support gave repeated canned response (\"non compliance with Terms of Service\"). Only after creator threatened to write a review did a human named Steve respond, admitting their \"new content review system is a little too highly strung and mistakenly flagged your content.\" Creator had zero content for anything to be flagged.",
+  "verbatim_snippet": "\"I created an account and did absolutely nothing else… I didn't even publish a single product. After a few days, I found my account suspended and my entire dashboard completely frozen. No access to the help center, no access to any section at all. I searched for the support email and requested an explanation. A BOT replied: Your account was suspended due to non compliance with our Terms of Service. I asked for clarification and for an escalation to a human. Sherry replied: Your account was suspended due to non compliance with our Terms of Service. I asked again for detailed explanations, because there was absolutely no reason to be non compliant. Sherry replied once more: Your account was suspended due to non compliance with our Terms of Service. I complained about the unacceptable service and informed them that I would leave a review. Steve replied: Sorry for any confusion and frustration! Our new content review system is a little too highly strung and mistakenly flagged your content. Your account is unsuspended.\"",
+  "source": "https://www.trustpilot.com/review/gumroad.com",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "November 17, 2025",
+  "notes": "Reviewer: Paolo De Rose. From Italy. 1-star review. Full text confirmed visible (not truncated). Documents both the AI moderation system misfiring and the support workflow: bot → \"Sherry\" (likely scripted/AI) → \"Steve\" (human, only after escalation threat).",
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

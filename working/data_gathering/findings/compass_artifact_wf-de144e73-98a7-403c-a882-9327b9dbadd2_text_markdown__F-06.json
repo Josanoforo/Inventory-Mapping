@@ -1,0 +1,16 @@
+{
+  "what": "Koalanda states it tracks all Etsy listings: currently more than 125 million. Of those, approximately 8 million had sales in the last 30 days. Listing sales history is 89% accurate on average.",
+  "verbatim_snippet": "\"Koalanda tracks all Etsy listings: currently more than 125 million. Out of all listings, there are about 8 million that have sales in the last 30 days.\"",
+  "source": "https://koalanda.pro/etsy-product-research",
+  "source_type": "database_profile",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page directly fetched via web_fetch. The \"125 million\" figure is Koalanda's own tracking count, presented on Koalanda's product page FAQ. The \"89% accurate\" claim appears in a separate FAQ answer on the same page (\"The listing sales history is 89% accurate on average\") and is not included in this verbatim. Koalanda states its primary data source is the Etsy API. SD-08.",
+  "extra_fields": {
+    "finding_id": "F-06"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

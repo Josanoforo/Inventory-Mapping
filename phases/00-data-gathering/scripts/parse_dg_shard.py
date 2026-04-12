@@ -110,11 +110,11 @@ def _warn(msg: str) -> None:
 # ---------------------------------------------------------------------------
 
 PART_HEADERS = {
-    "part1": re.compile(r"^#{0,3}\s*Part\s+1\b", re.IGNORECASE | re.MULTILINE),
-    "part2": re.compile(r"^#{0,3}\s*Part\s+2\b", re.IGNORECASE | re.MULTILINE),
-    "part3": re.compile(r"^#{0,3}\s*Part\s+3\b", re.IGNORECASE | re.MULTILINE),
-    "part4": re.compile(r"^#{0,3}\s*Part\s+4\b", re.IGNORECASE | re.MULTILINE),
-    "qa":    re.compile(r"^#{0,3}\s*Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
+    "part1": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\b", re.IGNORECASE | re.MULTILINE),
+    "part2": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\b", re.IGNORECASE | re.MULTILINE),
+    "part3": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+3\b", re.IGNORECASE | re.MULTILINE),
+    "part4": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+4\b", re.IGNORECASE | re.MULTILINE),
+    "qa":    re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
 }
 
 
@@ -165,7 +165,7 @@ def parse_header(header_text: str) -> tuple[str, str]:
 # Finding parser (Part 1 and Part 2)
 # ---------------------------------------------------------------------------
 
-FINDING_ID_PAT = re.compile(r"^###\s+([A-Z][A-Z0-9]*-[CP]?\d+)", re.MULTILINE | re.IGNORECASE)
+FINDING_ID_PAT = re.compile(r"^(?:#{1,3}\s+|\*\*)([A-Z][A-Z0-9]*-[CP]?\d+)", re.MULTILINE | re.IGNORECASE)
 
 
 def parse_findings(section_text: str, part_number: int, shard_id: str, source_tool: str) -> list[dict]:
@@ -249,7 +249,7 @@ def _parse_finding_block(block: str, finding_id: str) -> dict:
 # Part 4 parser
 # ---------------------------------------------------------------------------
 
-PART4_ITEM_PAT = re.compile(r"^###\s+(F-X\d+):\s+(.+)$", re.MULTILINE | re.IGNORECASE)
+PART4_ITEM_PAT = re.compile(r"^(?:#{1,3}\s+|\*\*)(F-X\d+)(?:\*\*)?:[ \t]*(?:\*\*)?\s*(.+?)(?:\*\*)?$", re.MULTILINE | re.IGNORECASE)
 ATTEMPTED_PAT = re.compile(
     r"(?:\*\*)?(?:What\s+tried|Attempted)\s*[:\-]?(?:\*\*)?\s*[:\-]?\s*(.*?)"
     r"(?=(?:\*\*)?(?:Reason|Why\s+failed)|$)",

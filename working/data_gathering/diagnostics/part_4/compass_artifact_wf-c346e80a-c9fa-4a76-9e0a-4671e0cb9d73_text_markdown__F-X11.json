@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X11",
+  "seller_or_subject": "Kichink platform status — 403 Forbidden, nominally indexed",
+  "attempted": "- **Finding ID:** F-X11\n- **What:** Kichink.com returns HTTP 403 Forbidden to direct requests but remains indexed by Google with a 2025 copyright footer, active product listings, and a \"Crea tu tienda\" page advertising 15% commission.\n- **Verbatim snippet:** n/a — platform status finding, not seller voice\n- **Source:** Direct fetch of `https://www.kichink.com` (403 Forbidden); `site:kichink.com` search results show indexed pages including footer \"@2025 Kichink Servicios S.A. de C.V.\"\n- **source_type:** unknown\n- **verification_status:** direct_verified\n- **Date:** Accessed April 2026\n- **Notes:** kichink.com resolves (DNS active) but serves 403 to direct fetch. Google indexes the site with 2025 copyright and active store listings. ZoomInfo shows a Director of Technology hire (Liliana Fernandez) joining October 8, 2025. RocketReach claims $16.9M revenue in 2025 — this figure is likely an automated estimate, not verified financial data. No formal shutdown announcement found. No news coverage of Kichink from 2021 through April 2026.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.kichink.com`"
+  ]
+}
