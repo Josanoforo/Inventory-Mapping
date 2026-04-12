@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "total_items": 142,
+    "generated": "2026-04-12",
+    "classification_basis": "keyword matching on attempted, why_failed, seller_or_subject fields plus domain and shard-id fallbacks",
+    "note": "142 total items (includes 11 added to wf-91f3e7a0-normalized during integrity verification; user count of 131 predates that repair)"
+  },
+  "breakdown": {
+    "snippet_only_unverified": {
+      "count": 68,
+      "pct": 47.9,
+      "top_domains": [
+        {
+          "domain": "medium.com",
+          "count": 11
+        },
+        {
+          "domain": "es.trustpilot.com",
+          "count": 10
+        },
+        {
+          "domain": "trustpilot.com",
+          "count": 7
+        },
+        {
+          "domain": "domestika.org",
+          "count": 7
+        },
+        {
+          "domain": "reddit.com",
+          "count": 6
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+        "item_id": "F-X26",
+        "seller_or_subject": "Desdelaraíz seller reports no payment received since first sale in October 2019 (OUT OF WINDOW — Feb",
+        "url": "https://mecate.mx",
+        "reason": "- **Finding ID:** F-X26 - **What:** Seller operating \"Desdelaraíz\" brand reports making first sale in October 2019 on Kichink and never receiving any "
+      }
+    },
+    "content_absent": {
+      "count": 32,
+      "pct": 22.5,
+      "top_domains": [
+        {
+          "domain": "payhip.com",
+          "count": 4
+        },
+        {
+          "domain": "reddit.com",
+          "count": 2
+        },
+        {
+          "domain": "medium.com",
+          "count": 2
+        },
+        {
+          "domain": "youtube.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+        "item_id": "F-X20",
+        "seller_or_subject": "No pricing distribution data found",
+        "url": "(no URL)",
+        "reason": "**Searched for:** Statistical distributions of product prices across Payhip's catalog (e.g., median price, price percentiles, average price by categor"
+      }
+    },
+    "no_url_inferred": {
+      "count": 11,
+      "pct": 7.7,
+      "top_domains": [
+        {
+          "domain": "help.gumroad.com",
+          "count": 4
+        },
+        {
+          "domain": "fullstats.io",
+          "count": 2
+        },
+        {
+          "domain": "gumtrends.com",
+          "count": 2
+        },
+        {
+          "domain": "marketsy.ai",
+          "count": 2
+        },
+        {
+          "domain": "putler.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized",
+        "item_id": "F-X11",
+        "seller_or_subject": "GitHub issue #682 — spam listings problem on Gumroad Discover",
+        "url": "https://github.com",
+        "reason": "**What:** A GitHub issue (#682, labeled \"$1K priority\") describes a spam problem where fake products containing only affiliate links to popular Discov"
+      }
+    },
+    "blocked_403": {
+      "count": 8,
+      "pct": 5.6,
+      "top_domains": [
+        {
+          "domain": "crunchbase.com",
+          "count": 4
+        },
+        {
+          "domain": "etsy.com",
+          "count": 3
+        },
+        {
+          "domain": "medium.com",
+          "count": 2
+        },
+        {
+          "domain": "trustpilot.com",
+          "count": 2
+        },
+        {
+          "domain": "reclameaqui.com.br",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+        "item_id": "F-X11",
+        "seller_or_subject": "Kichink platform status — 403 Forbidden, nominally indexed",
+        "url": "https://kichink.com`",
+        "reason": "- **Finding ID:** F-X11 - **What:** Kichink.com returns HTTP 403 Forbidden to direct requests but remains indexed by Google with a 2025 copyright foot"
+      }
+    },
+    "unverified_third_party": {
+      "count": 6,
+      "pct": 4.2,
+      "top_domains": [
+        {
+          "domain": "toolsstackpro.com",
+          "count": 1
+        },
+        {
+          "domain": "medium.com",
+          "count": 1
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown (1)",
+        "item_id": "F-X01",
+        "seller_or_subject": "Sistema de tiers de comisión basado en calificación de vendedor (escala 4.0–5.0)",
+        "url": "(no URL)",
+        "reason": "Múltiples fuentes de terceros (EstiloMXMedia, MarketHax, Terrabionic, comentarios de vendedores) describen un sistema de tiers donde la comisión varía"
+      }
+    },
+    "source_defunct": {
+      "count": 5,
+      "pct": 3.5,
+      "top_domains": [
+        {
+          "domain": "trustpilot.com",
+          "count": 2
+        },
+        {
+          "domain": "uk.trustpilot.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+        "item_id": "F-X07",
+        "seller_or_subject": "Trustpilot Star Seller reports permanent ban from overnight policy change",
+        "url": "https://trustpilot.com",
+        "reason": "**What:** Star Seller with perfect 5/5 reviews reports being permanently banned overnight due to a policy change regarding plastic props, with no oppo"
+      }
+    },
+    "url_not_found": {
+      "count": 4,
+      "pct": 2.8,
+      "top_domains": [
+        {
+          "domain": "trustpilot.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown (1)",
+        "item_id": "F-X02",
+        "seller_or_subject": "Contenido de la página \"Precios &amp; Planes\"",
+        "url": "(no URL)",
+        "reason": "El menú de navegación de kichink.com incluye un enlace a \"Precios &amp; Planes\" pero la URL exacta no pudo ser determinada (se probaron /precios, /pla"
+      }
+    },
+    "blocked_robots_login": {
+      "count": 4,
+      "pct": 2.8,
+      "top_domains": [
+        {
+          "domain": "es.quora.com",
+          "count": 6
+        },
+        {
+          "domain": "reddit.com",
+          "count": 2
+        },
+        {
+          "domain": "twitter.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+        "item_id": "F-X19",
+        "seller_or_subject": "Quora ES — multiple blocked URLs with uncertain or affiliate-only roles",
+        "url": "https://es.quora.com",
+        "reason": "**What:** Multiple Quora ES answers about Hotmart experience found in search snippets but URLs blocked by robots.txt; of those with visible snippets, "
+      }
+    },
+    "js_rendered": {
+      "count": 4,
+      "pct": 2.8,
+      "top_domains": [
+        {
+          "domain": "domestika.org",
+          "count": 8
+        },
+        {
+          "domain": "gumroad.com",
+          "count": 3
+        },
+        {
+          "domain": "app.gumroad.com",
+          "count": 2
+        }
+      ],
+      "example": {
+        "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+        "item_id": "F-X13",
+        "seller_or_subject": "No review counts or star ratings visible in static HTML",
+        "url": "(no URL)",
+        "reason": "**Searched for:** Review counts, star ratings, review text on product listings and store pages. **Where searched:** payhip.com/virtualink/ebooks (dire"
+      }
+    }
+  }
+}
