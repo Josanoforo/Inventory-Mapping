@@ -1,11 +1,11 @@
 {
   "what": "Missing payment or payout troubleshooting",
-  "verbatim_snippet": "> \"When a sale is made on Payhip, the payment is processed and sent directly to your connected payment processor at the time of purchase.\"\n\n> \"Payment processors will occasionally hold a transaction and mark it as pending, on hold, or processing, which means the funds won't be available until the payment works its way through. You can check the status in your payment processor account. If it's been pending for more than 48 hours, you'll need to reach out to them directly to get further clarification.\"\n\n> \"Sometimes you may expect the full sale amount to be credited to your account, but keep in mind that platform and payment processor fees may apply. Because of this, the net amount you receive may be lower than expected.\"\n\n> \"Payments are always routed to whichever account was connected at the exact moment a purchase was made.\"\n\n---\n\n## Payment processor fees (collected by each gateway, not Payhip)",
+  "verbatim_snippet": "> \"When a sale is made on Payhip, the payment is processed and sent directly to your connected payment processor at the time of purchase.\"\n\n> \"Payment processors will occasionally hold a transaction and mark it as pending, on hold, or processing, which means the funds won't be available until the payment works its way through. You can check the status in your payment processor account. If it's been pending for more than 48 hours, you'll need to reach out to them directly to get further clarification.\"\n\n> \"Sometimes you may expect the full sale amount to be credited to your account, but keep in mind that platform and payment processor fees may apply. Because of this, the net amount you receive may be lower than expected.\"\n\n> \"Payments are always routed to whichever account was connected at the exact moment a purchase was made.\"",
   "source": "https://help.payhip.com/article/374-missing-payment-or-payout",
   "source_type": "help_article",
   "verification_status": "direct_verified",
   "date": "Last updated March 17, 2026",
-  "notes": "Original ID: Finding 9. Accessibility: Directly accessible Layout: Structured numbered sections + prose",
+  "notes": "Original ID: Finding 9. Accessibility: Directly accessible. Layout: Structured numbered sections + prose.",
   "finding_id": "F-09",
   "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
   "source_tool": "deep_search",

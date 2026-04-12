@@ -1,6 +1,6 @@
 # Payhip platform fees, payments, and payouts — first-party documentation
 
-**Payhip operates a three-tier pricing model where all plans share identical features, differentiated solely by the transaction fee Payhip charges on each sale: 5% (Free), 2% (Plus, $29/mo), or 0% (Pro, $99/mo).** Payment processor fees from Stripe, PayPal, or any of the other 11 supported gateways are always additional and collected by those processors, not by Payhip. Payouts flow directly to sellers' connected processor accounts — Payhip itself never holds funds, cannot issue refunds, and does not impose minimum payout thresholds for standard sellers. All findings below come exclusively from payhip.com and help.payhip.com.
+**Payhip operates a three-tier pricing model where all plans share identical features, differentiated solely by the transaction fee Payhip charges on each sale: 5% (Free), 2% (Plus, $29/mo), or 0% (Pro, $99/mo).** Payment processor fees from Stripe, PayPal, or any of the other 11 supported gateways are always additional and collected by those processors, not by Payhip. Payouts flow directly to sellers’ connected processor accounts — Payhip itself never holds funds, cannot issue refunds, and does not impose minimum payout thresholds for standard sellers. All findings below come exclusively from payhip.com and help.payhip.com.
 
 ---
 
@@ -124,13 +124,11 @@
 
 **What:** Alternative billing model for non-Stripe/PayPal gateways
 **Verbatim snippet:** > "[Gateway name] payments are processed instantly, so you receive funds immediately after each transaction. [Gateway name] payments work a little differently compared to Stripe or PayPal on Payhip. You will get your full payment (without Payhip fees deducted) instantly after each transaction has been processed. At the end of each month, you'll be billed for your Payhip fees using your preferred credit card."
-
-This establishes **two distinct billing models**: for Stripe and PayPal, Payhip deducts its fee from each transaction before depositing the remainder to the seller. For all other 11 gateways, the seller receives the full payment (minus only the gateway's own fees) instantly, and Payhip bills the seller's credit card for accumulated platform fees at month-end.
 **Source:** https://help.payhip.com/article/342-connecting-your-square-account
 **source_type:** help_article
 **verification_status:** direct_verified
 **Date:** Undated
-**Notes:** Original ID: Finding 8. Additional URLs: https://help.payhip.com/article/341-connecting-your-mollie-account; https://help.payhip.com/article/344-connecting-your-paystack-account; https://help.payhip.com/article/367-connect-your-flutterwave-account; https://help.payhip.com/article/343-connecting-your-mercado-pago-account; https://help.payhip.com/article/366-connect-your-xendit-account; https://help.payhip.com/article/365-connect-your-midtrans-account; https://help.payhip.com/article/370-connect-your-payu-account; https://help.payhip.com/article/368-connect-your-razorpay-account; https://help.payhip.com/article/371-connect-your-iyzico-account; https://help.payhip.com/article/372-connect-your-paytabs-account Accessibility: All directly accessible. Layout: Structured prose + FAQ.
+**Notes:** Original ID: Finding 8. Additional URLs: https://help.payhip.com/article/341-connecting-your-mollie-account; https://help.payhip.com/article/344-connecting-your-paystack-account; https://help.payhip.com/article/367-connect-your-flutterwave-account; https://help.payhip.com/article/343-connecting-your-mercado-pago-account; https://help.payhip.com/article/366-connect-your-xendit-account; https://help.payhip.com/article/365-connect-your-midtrans-account; https://help.payhip.com/article/370-connect-your-payu-account; https://help.payhip.com/article/368-connect-your-razorpay-account; https://help.payhip.com/article/371-connect-your-iyzico-account; https://help.payhip.com/article/372-connect-your-paytabs-account. Researcher note: This establishes **two distinct billing models**: for Stripe and PayPal, Payhip deducts its fee from each transaction before depositing the remainder to the seller. For all other 11 gateways, the seller receives the full payment (minus only the gateway's own fees) instantly, and Payhip bills the seller's credit card for accumulated platform fees at month-end. Accessibility: All directly accessible. Layout: Structured prose + FAQ.
 
 ---
 
@@ -492,7 +490,7 @@ This establishes **two distinct billing models**: for Stripe and PayPal, Payhip 
 **source_type:** help_article
 **verification_status:** direct_verified
 **Date:** Undated
-**Notes:** Original ID: Finding 37. Additional URLs: https://help.payhip.com/article/341-connecting-your-mollie-account; https://help.payhip.com/article/344-connecting-your-paystack-account; https://help.payhip.com/article/367-connect-your-flutterwave-account; https://help.payhip.com/article/343-connecting-your-mercado-pago-account; https://help.payhip.com/article/366-connect-your-xendit-account; https://help.payhip.com/article/365-connect-your-midtrans-account; https://help.payhip.com/article/370-connect-your-payu-account; https://help.payhip.com/article/368-connect-your-razorpay-account; https://help.payhip.com/article/371-connect-your-iyzico-account; https://help.payhip.com/article/372-connect-your-paytabs-account Accessibility: All directly accessible. Layout: Structured prose.
+**Notes:** Original ID: Finding 37. Additional URLs: https://help.payhip.com/article/341-connecting-your-mollie-account; https://help.payhip.com/article/344-connecting-your-paystack-account; https://help.payhip.com/article/367-connect-your-flutterwave-account; https://help.payhip.com/article/343-connecting-your-mercado-pago-account; https://help.payhip.com/article/366-connect-your-xendit-account; https://help.payhip.com/article/365-connect-your-midtrans-account; https://help.payhip.com/article/370-connect-your-payu-account; https://help.payhip.com/article/368-connect-your-razorpay-account; https://help.payhip.com/article/371-connect-your-iyzico-account; https://help.payhip.com/article/372-connect-your-paytabs-account. Accessibility: All directly accessible. Layout: Structured prose.
 
 ---
 
