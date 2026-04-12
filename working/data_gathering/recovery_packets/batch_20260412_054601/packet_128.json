@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-81f1bdc1-128",
+  "finding_id": "F-X03",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Fee caps or maximum fee amounts",
+    "raw_text": "**What:** \"No data found on fee caps or maximum fee amounts for any fee type.\"\n\n**Verbatim snippet:** \"n/a — absence finding\"\n\n**Source:** Searched gumroad.com/pricing (directly fetched, full content reviewed), gumroad.com/terms (directly fetched, full content reviewed), and help.gumroad.com/article/66-gumroads-fees (via Google search index). None mentions fee caps or maximum fee amounts.\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** All three primary fee-related sources were reviewed. No cap, ceiling, or maximum amount is stated for any fee type."
+  }
+}

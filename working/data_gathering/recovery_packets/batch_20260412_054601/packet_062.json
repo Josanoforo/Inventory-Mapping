@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-062",
+  "finding_id": "F-X21",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": "https://es.trustpilot.com/review/hotmart.com?page=7",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Ri (Trustpilot) — seller role not isolated",
+    "raw_text": "**What:** Reviewer describes both buying a course and selling, stating \"cuando vendes ni te pagan.\"  \n**Verbatim snippet:** \"estafadores. me chuparon dinero para un curso que no existe y al final cuando vendes ni te pagan. Absurdo que legalmente puedan hacer esto. Robo legalizado.\"  \n**Source:** https://es.trustpilot.com/review/hotmart.com?page=7  \n**source_type:** buyer_review  \n**Date:** 12 marzo 2026  \n**Notes:** Reviewer \"Ri.\" Dual buyer/seller perspective in single review — the seller voice (\"cuando vendes ni te pagan\") is mixed with buyer complaint (\"me chuparon dinero para un curso\"). Seller role cannot be isolated from buyer experience in this passage. Degraded per rule 6."
+  }
+}

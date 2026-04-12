@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-cab18fb3-038",
+  "finding_id": "F-X10",
+  "shard_id": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "original_url": "https://www.trustpilot.com/review/etsy.de",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Trustpilot seller reports all completed orders auto-cancelled post-delivery",
+    "raw_text": "**What:** Seller reports that Etsy automatically cancelled all completed, shipped, and delivered orders due to a supposed identity verification issue, resulting in customers keeping items and receiving refunds while the seller never received payouts.\n**Verbatim snippet:** \"My orders were completed, shipped, and customers received their items and even left positive reviews. However, Etsy automatically cancelled all orders due to a supposed identity verification issue, even though I submitted my ID multiple times. Customers kept the items AND received refunds, while I never received my sales payout.\"\n**Source:** https://www.trustpilot.com/review/etsy.de\n**source_type:** buyer_review\n**verification_status:** could_not_verify\n**Date:** 2025–2026\n**Notes:** Trustpilot review found via Google search snippet (etsy.de Trustpilot page). Exact review date not confirmed. Identity verification issue. Financial loss from auto-cancelled orders where goods were already delivered. Degraded to Part 4 due to imprecise date."
+  }
+}

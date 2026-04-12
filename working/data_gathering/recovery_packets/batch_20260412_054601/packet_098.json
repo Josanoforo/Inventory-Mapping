@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-e0cb9d73-098",
+  "finding_id": "F-X04",
+  "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+  "original_url": "https://twitter.com/search?q=kichink+vendedor`",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "No Kichink seller voices on Twitter/X (in-window)",
+    "raw_text": "direct fetch of `https://twitter.com/search?q=kichink+vendedor` (blocked); `site:twitter.com kichink vendedor`; `site:x.com kichink vendedor`; `site:twitter.com kichink seller`; `kichink vendedor twitter 2025`; `twitter kichink experiencia vendedor 2025`. @Kichink and @KichinkAyuda accounts found but appear dormant. All seller-voice tweets found date from 2019–2020 (#KichinkNoPaga era).\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Twitter/X content is poorly indexed by search engines since post-2023 crawling restrictions. Recent tweets may exist but be undiscoverable via web search. The @KichinkNoPaga protest account was active in 2019–2020 but no recent activity detected."
+  }
+}

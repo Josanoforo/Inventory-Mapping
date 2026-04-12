@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-053",
+  "finding_id": "F-X12",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": "https://hotmart.com/es/blog/reto-de-creadores-hotmart",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Hotmart blog \"Reto de Creadores\" — platform marketing content",
+    "raw_text": "**What:** Hotmart's own blog retells seller success stories (Aron Brener, Dayhana Correa, Henry Ackerman) with embedded quotes.  \n**Verbatim snippet:** \"Hotmart se siente como un aliado en mi negocio digital\" (attributed to Aron Brener)  \n**Source:** https://hotmart.com/es/blog/reto-de-creadores-hotmart  \n**source_type:** article  \n**Notes:** Platform marketing content. Excluded per SKIP rules: \"Hotmart marketing content.\" Embedded quotes are curated by Hotmart editorial team — secondary retelling."
+  }
+}
