@@ -1,0 +1,17 @@
+{
+  "source": "https://support.domestika.org/hc/en-us/articles/360007285737-What-is-Domestika-for-Business-and-how-does-it-work",
+  "verbatim_snippet": "\"Domestika for Business is the way to offer your company, group, or educational center the possibility to learn with Domestika online courses. From Domestika for Business, you can purchase 10, 20, or 50 logins plans*, which you can then assign to the members of your organization.\"",
+  "what": "Business plans in tiers of **10, 20, or 50 logins**. Includes control panel for tracking. No pricing disclosed in this article.",
+  "date": "Page undated",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified\n\n---\n\n## Critical gaps: what Domestika does not publicly disclose\n\nThe following information was systematically searched across all official domestika.org pages (teachers page, terms of service, privacy policy, help center, plus page, affiliates page, forums, FAQ) and **is not publicly disclosed anywhere**:\n\n- **Teacher commission percentage or revenue share split** — no percentage or formula appears on any official page\n- **Advance fee amounts** paid to teachers upon course creation — not mentioned\n- **Royalty rate or formula** — not mentioned\n- **Minimum withdrawal/payout threshold** for teachers — not mentioned\n- **Payment schedule for teachers** (frequency, timing) — not mentioned beyond \"you'll receive payments\"\n- **Teacher tiers or differentiated plans** — no tier system described publicly\n- **Who sets the course price** — Terms say Domestika can change fees; no mention of teacher input on pricing\n- **How refunds affect teacher payments** — not addressed in any public document",
+  "notes": "Original ID: Finding B-1. Access: Google search snippet (403 on direct fetch).",
+  "extra_fields": {
+    "country": "specific teacher payment variations** — not mentioned\n- **Alternative payment methods for teachers beyond PayPal** — none mentioned\n\nThese details appear to be governed entirely by individual, confidential teacher contracts, likely under NDA, separate from the public Terms of Use.\n\n---\n\n## Source access notes\n\n| Source | Access method | Status |\n|--------|--------------|--------|\n| domestika.org/en/teachers | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/en/terms | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/es/terms | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/es/privacy | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/en/privacy | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/en/affiliates | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/en/plus | Direct web_fetch | ✅ Full content retrieved |\n| domestika.org/es/courses | Direct web_fetch | ✅ Partial (no prices visible without login) |\n| support.domestika.org (all articles) | Direct web_fetch | ❌ 403 errors; content recovered via Google search index snippets |\n| domestika.org/es/forums (official replies) | Google search snippets | ✅ Partial |",
+    "dated_documents": "Terms of Use (January 31, 2024); Privacy Policy (July 10, 2024). All other pages undated."
+  },
+  "finding_id": "F-P16",
+  "shard_id": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}
