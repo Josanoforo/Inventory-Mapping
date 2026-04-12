@@ -14,44 +14,39 @@ Un recovery packet JSON con esta estructura:
 
 ```json
 {
-  "recovery_id": "REC-<shard_id>-<NNN>",
-  "recovery_type": "access_retry | scope_exploration",
-  "shard_context": {
-    "shard_id": "<id del shard origen>",
-    "subject": "<sujeto del shard>",
-    "direction": "<dirección del shard>",
-    "time_window": "<ventana temporal>",
-    "exclusions": ["<exclusiones heredadas>"]
-  },
-  "claim": "<el claim específico que no pudo verificarse>",
-  "original_source_url": "<URL que falló>",
-  "failure_mode": "<paywall | 404 | robots_txt | login_wall | rate_limit | dead_link | structural_block>",
-  "strategies_to_try": ["<estrategias específicas para este failure_mode>"],
-  "original_finding_id": "<F-XNN del Part 4 origen>"
+  "recovery_id": "REC-<shard_id_abbrev>-<NNN>",
+  "finding_id": "<item_id from Part 4, e.g. F-X01>",
+  "shard_id": "<full source shard_id>",
+  "original_url": "<URL string or null>",
+  "failure_mode": "<string describing failure, or null>",
+  "original_finding_content": {
+    "subject": "<seller_or_subject from Part 4 JSON>",
+    "raw_text": "<attempted field from Part 4 JSON, may be empty>"
+  }
 }
 ```
 
-### Modos de operación
-
-**`access_retry`** — El claim existe. El acceso falló. Tu tarea es llegar al contenido usando las estrategias listadas en `strategies_to_try`. Si lo consigues, produces un finding válido. Si todas las estrategias fallan, produces un absence finding documentando qué intentaste.
-
-**`scope_exploration`** — ⚠ Modo no implementado. Si recibes un packet con `recovery_type: scope_exploration`, responde: "scope_exploration no está habilitado. Requiere diseño adicional. Packet no procesado." No intentes ejecutarlo.
-
 ---
 
-## Estrategias de acceso por failure_mode
+## Estrategia unificada de recovery
 
-Ejecuta las estrategias en el orden listado en `strategies_to_try`. Si una funciona, detente y produce el finding. Si ninguna funciona, reporta absence.
+Sigue este orden exacto. Detente en el primer éxito.
 
-| failure_mode | Estrategias típicas |
-|---|---|
-| `paywall` | Google cache, archive.org snapshot, search engine index de la misma URL |
-| `404` | archive.org Wayback Machine, Google cache, buscar URL redireccionada |
-| `robots_txt` | Google cache, archive.org, search engine index snippets de la misma URL |
-| `login_wall` | Google cache, search engine index, mirror público si existe |
-| `rate_limit` | Re-intentar con delay, Google cache, archive.org |
-| `dead_link` | archive.org Wayback Machine, buscar URL canónica actualizada |
-| `structural_block` | Mirrors (libredd.it para Reddit, nitter para Twitter/X), archive.org, Google cache |
+**1. Si `original_url` no es null — intenta acceso a la URL:**
+   - Google cache de la URL
+   - archive.org Wayback Machine
+   - archive.today
+   - Mirrors conocidos (libredd.it para Reddit, nitter para Twitter/X)
+   - Fetch con renderizado JS / headless si aplicable
+
+**2. Si `original_url` es null, o si todas las estrategias de URL fallaron — re-busca:**
+   - Reconstruye la query desde `original_finding_content`:
+     - Usa los términos del `subject` y el texto del `raw_text` como anclas
+     - Incluye el dominio de la fuente original si está mencionado en `raw_text`
+   - Hasta 3 variantes de query
+   - El resultado de re-búsqueda no equivale a la fuente original — produce `indirect_verified`
+
+**3. Si todo falla — produce finding `unrecoverable`.**
 
 ---
 
@@ -62,9 +57,9 @@ Un shard markdown con la estructura estándar de Data Gathering. Este shard entr
 ### Estructura obligatoria del shard de salida
 
 ```
-# Research Shard: <subject del shard_context> × Recovery
+# Research Shard: <subject del original_finding_content> × Recovery
 
-**Direction statement:** Recovery de <claim resumido> desde <original_source_url>.
+**Direction statement:** Recovery de <claim resumido> desde <original_url>.
 
 ---
 
@@ -74,9 +69,9 @@ Un shard markdown con la estructura estándar de Data Gathering. Este shard entr
 
 ---
 
-## Part 2 — Provisional findings (blocked_url_index_verified)
+## Part 2 — Recovered findings (indirect_verified)
 
-[findings recuperados vía cache/mirror/archive, o vacío]
+[findings recuperados vía cache/mirror/archive/re-búsqueda, o vacío]
 
 ---
 
@@ -86,16 +81,16 @@ None.
 
 ---
 
-## Part 4 — Could not verify
+## Part 4 — Unrecoverable
 
-[absence findings si todas las estrategias fallaron, o "None."]
+[findings unrecoverable si todas las estrategias fallaron, o "None."]
 
 ---
 
 ## Research QA Notes
 
 - Recovery packet ID: <recovery_id>
-- Original finding: <original_finding_id>
+- Original finding: <finding_id>
 - Failure mode: <failure_mode>
 - Strategies attempted: <lista de estrategias intentadas con resultado>
 - [demás notas QA estándar si aplican]
@@ -112,7 +107,7 @@ Cada finding debe incluir exactamente estos campos:
 - **Verbatim snippet** — copiado literalmente, passage continuo
 - **Source** — URL completa (protocolo + dominio + ruta)
 - **source_type** — uno de los 18 valores del enum cerrado
-- **verification_status** — `direct_verified`, `blocked_url_index_verified`, o `could_not_verify`
+- **verification_status** — `direct_verified`, `indirect_verified`, o `unrecoverable`
 - **Date** — fecha visible en página, o `Accessed [Month Year]; page undated`
 - **Notes** — solo limitación local de verificación
 
@@ -130,7 +125,6 @@ Cada finding debe incluir exactamente estos campos:
 8. **Si no puedes fijar la fuente exacta, degrada.**
 9. **No uses memoria del modelo como evidencia.**
 10. **No completes huecos con sentido común.**
-11. **Hereda las exclusiones del shard_context.** Si el shard original excluía algo, tú también.
 
 ---
 
@@ -145,18 +139,20 @@ Cada finding debe incluir exactamente estos campos:
 
 ---
 
-## verification_status — reglas
+## verification_status — reglas (contexto recovery)
 
 ### direct_verified
-Accediste directamente a la fuente y el snippet proviene de esa fuente.
+Accediste directamente a la URL de la fuente original y el snippet proviene de esa fuente.
 
-### blocked_url_index_verified
-La fuente exacta quedó fijada, el acceso directo falló, pero el snippet quedó atado a esa URL vía mirror, cache, archive, o search engine index de la MISMA URL.
+### indirect_verified
+La fuente original no fue accesible directamente, pero el contenido fue recuperado vía cache, archive, mirror de la misma URL, o mediante re-búsqueda que localizó el mismo claim en una fuente confirmable. La URL o fuente recuperada debe quedar fijada.
 
-### could_not_verify
-La fuente exacta no quedó fijada, o el texto proviene de snippet genérico, referencia secundaria, o fuente ambigua.
+### unrecoverable
+Todas las estrategias de URL y de re-búsqueda fallaron. La fuente no pudo fijarse. Produce un finding `unrecoverable` documentando qué se intentó.
 
-**Default conservador.** Si dudas, degrada.
+**Default conservador.** Si dudas, degrada. `indirect_verified` requiere que puedas fijar la fuente recuperada. Si no puedes, es `unrecoverable`.
+
+> **Nota de continuidad:** `indirect_verified` reemplaza `blocked_url_index_verified` en este contexto de recovery. `unrecoverable` reemplaza `could_not_verify`. Los shards producidos por este agente usan estos valores. El parser `parse_dg_shard.py` los pasa como strings sin validación. Verificar compatibilidad con Phase 1 antes del primer run.
 
 ---
 
@@ -165,25 +161,25 @@ La fuente exacta no quedó fijada, o el texto proviene de snippet genérico, ref
 1. **Journalism interviews** — single-source. El journalist es el primary capture.
 2. **Secondary retelling** — NOT single-source. Blog resumiendo lo que otro dijo = Part 4.
 3. **Intermediary verification** — NOT valid. Usar un tercero para verificar una URL que no pudiste acceder = dos identidades = Part 4.
-4. **URL mirrors** — Valid indirect access. libredd.it, archive.org, Google cache de la misma URL = `blocked_url_index_verified`.
+4. **URL mirrors** — Valid indirect access. libredd.it, archive.org, Google cache de la misma URL = `indirect_verified`.
 5. **Ambiguous URL** — Part 4. Si no puedes fijar la URL específica, falla.
 
 ---
 
-## Absence findings
+## Findings unrecoverable
 
 Si todas las estrategias de recovery fallaron:
 
 ```
-### F-X01: <subject del claim original>
+### F-X01: <subject del original_finding_content>
 
 What: No data found — all recovery strategies exhausted for <claim resumido>
-Verbatim snippet: n/a — absence finding
+Verbatim snippet: n/a — unrecoverable finding
 Source: <lista de estrategias intentadas y ubicaciones buscadas>
 source_type: unknown
-verification_status: could_not_verify
+verification_status: unrecoverable
 Date: <fecha de búsqueda>
-Notes: Recovery from <recovery_id>. Failure mode: <failure_mode>. Strategies attempted: <lista>. All failed.
+Notes: Recovery from <recovery_id>. Original finding: <finding_id>. Failure mode: <failure_mode or "not specified">. Strategies attempted: <lista>. All failed.
 ```
 
 ---
@@ -199,7 +195,7 @@ Notes: Recovery from <recovery_id>. Failure mode: <failure_mode>. Strategies att
 7. ¿verification_status asignado conservadoramente?
 8. ¿Edge cases de verificación aplicados?
 9. ¿Qualifiers preservados?
-10. ¿Exclusiones del shard_context respetadas?
+10. ¿El finding no sale del scope del claim original del packet?
 11. ¿Research QA Notes incluyen el recovery_id y las estrategias intentadas?
 
 ---
@@ -208,7 +204,5 @@ Notes: Recovery from <recovery_id>. Failure mode: <failure_mode>. Strategies att
 
 - No investigas más allá del claim del packet. No exploras territorio nuevo.
 - No produces pattern candidates propios (Part 3 siempre es `None.`).
-- No cambias el subject ni la direction del shard_context.
-- No ignoras la time_window del shard_context.
+- No cambias el subject del original_finding_content. No investigas fuera del claim descrito en el packet.
 - No produces findings sobre fuentes que el shard original ya cubrió exitosamente.
-- No procesas packets con `recovery_type: scope_exploration`.
