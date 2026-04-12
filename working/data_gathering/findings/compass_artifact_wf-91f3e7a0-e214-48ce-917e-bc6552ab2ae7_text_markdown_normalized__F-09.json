@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad's help documentation states that detailed product tags boost sales on Discover and help customers filter a creator's profile.",
+  "verbatim_snippet": "\"Detailed tags on your products can both boost sales on Discover and help your customers filter your profile.\"",
+  "source": "https://help.gumroad.com",
+  "source_type": "platform_help",
+  "verification_status": "direct_verified",
+  "date": "April 2026 (observed in shard)",
+  "notes": "Additional context from shard (not in verbatim): tags appear on creator profiles when they have 9+ products; tag counts visible (e.g., \"notion planner (485)\", \"notion template (454)\"). URL derived from named source reference in shard: \"Gumroad's help documentation\" → https://help.gumroad.com. section: Discovery and search mechanisms on the platform.",
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}
