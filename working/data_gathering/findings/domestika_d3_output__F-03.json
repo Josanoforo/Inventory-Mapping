@@ -1,0 +1,13 @@
+{
+  "what": "La página principal de cursos de Domestika lista 8 tipos de vista de catálogo en su navegación: Todos los cursos, Cursos guiados, Intensivo (marcado como Nuevo), Especializaciones, Domestika Basics, Cursos nuevos, Cursos mejor valorados, y Cursos populares, más un enlace a Cursos gratis con Plus.",
+  "verbatim_snippet": "[Stated in layout: \"Todos los cursos · Cursos guiados · Intensivo Nuevo · Especializaciones · Domestika Basics · Cursos nuevos · Cursos mejor valorados · Cursos populares · Cursos gratis con\"]",
+  "source": "https://www.domestika.org/es/courses",
+  "source_type": "product_listing",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Structured layout navigation. El enlace \"Cursos en promoción\" aparece en el footer pero no en esta navegación principal.",
+  "finding_id": "F-03",
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "part": 1
+}

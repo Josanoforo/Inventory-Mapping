@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad discover page provides 7 sort options for browsing products: Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low).",
+  "verbatim_snippet": "[From Google search index snippet of discover.gumroad.com/discover: \"Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)\"]",
+  "source": "https://gumroad.com/discover",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Sort options verified from Google's rendered index of the Gumroad discover page. URL parameter format: ?sort=featured, ?sort=hot_and_new, etc. Additional sort/browse tabs observed: \"Trending\", \"Best Sellers\", \"Hot & New\" — these appear as navigation tabs, distinct from the sort dropdown. Page is JS-rendered SPA; direct fetch returned no content.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,13 @@
+{
+  "what": "StoreLeads reports historical growth of active Gumroad stores from 2,661 (2022 Q3) to 19,321 (2025 Q4), with year-over-year growth of 12% in 2025 Q4. Product count distribution: 12.7% of stores sell 1–9 products (1,218 stores), 0.2% sell 10–24 products (18 stores), 0.1% sell 25–49 products (7 stores). Top countries: United States 2,434 stores (25.3%), United Kingdom 147 (1.5%), India 54 (0.6%), Canada 48 (0.5%).",
+  "verbatim_snippet": "[Stated in layout: \"Quarter | Active Stores: 2022 Q3 | 2,661; 2022 Q4 | 4,399; 2023 Q1 | 5,551; 2023 Q2 | 9,726; 2023 Q3 | 11,595; 2023 Q4 | 13,347; 2024 Q1 | 14,543; 2024 Q2 | 16,656; 2024 Q3 | 17,016; 2024 Q4 | 17,213; 2025 Q1 | 17,607; 2025 Q2 | 18,126; 2025 Q3 | 18,871; 2025 Q4 | 19,321; 2026 Q1 (to date) | 9,605\"]",
+  "source": "https://storeleads.app/reports/gumroad",
+  "source_type": "report",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Updated Mar 13 2026 (visible on page)",
+  "notes": "Forced to Provisional because the \"What\" field combines data from three separate tables on the same page (growth, products sold, and countries), which extends beyond the single verbatim snippet from the growth table. The growth table was directly fetched. StoreLeads notes: \"the store counts displayed in this section are based on actual historical store counts\" and \"we use a heuristic that includes historical DNS data which provides a reasonable approximation.\"",
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

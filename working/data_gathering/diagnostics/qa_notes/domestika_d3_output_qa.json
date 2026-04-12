@@ -1,0 +1,12 @@
+{
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "findings_forced_to_provisional": "None. No findings met criteria for blocked_url_index_verified.",
+  "findings_degraded_to_could_not_verify": "F-X01 (precios individuales no visibles en HTML estático), F-X03 (best-sellers page no fetched).",
+  "findings_degraded_due_to_url_not_fixable": "None.",
+  "multi_speaker_pages_split": "None applicable. Domestika pages are platform-generated, not multi-speaker.",
+  "truncated_or_partial_sources": "F-09 reports only one of three \"Destacados\" courses in the verbatim snippet to maintain continuous passage rule; the other two are visible on the same page but in separate blocks.",
+  "source_type_ambiguities": "Domestika platform pages (catálogo, Plus, curso individual) classified as `product_listing` rather than `pricing_page` or `platform_doc` because those types are not in the shard's allowed source_type list. Category pages classified as `search_results_page` when functioning as filtered result views.",
+  "coverage_gaps_where_findings_expected_but_not_found": "(1) Precios individuales de cursos no capturables por renderizado JS; (2) No se encontraron servicios auxiliares de terceros alrededor de Domestika; (3) No se accedió al blog de Domestika para señales de mercado sobre catálogo; (4) No se accedieron datos de agregadores o bases de datos (Crunchbase, SimilarWeb) para señales externas sobre el catálogo.",
+  "cases_where_input_could_not_be_decomposed_without_interpretation": "None."
+}

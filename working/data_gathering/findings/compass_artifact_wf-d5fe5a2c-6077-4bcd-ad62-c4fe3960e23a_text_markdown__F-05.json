@@ -1,0 +1,16 @@
+{
+  "what": "El blog oficial de Hotmart indica que la comisión estándar de la plataforma para productos con precio superior a US$15.00 es 9.90% del precio del producto más US$0.50 por transacción. No hay cuotas mensuales ni costos iniciales.",
+  "verbatim_snippet": "\"The standard fee applies to products priced over US$ 15,00. The fee Hotmart gets is 9.90% of the price of the product plus US$ 0.50.\"",
+  "source": "https://hotmart.com/en/blog/hotmart-prices",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "11/06/2023",
+  "notes": "Página accedida directamente; contenido confirmado. Fuente en inglés (versión EN del blog). El mismo artículo indica \"there are no monthly fees or upfront costs.\" La estructura de comisiones para micro-transacciones (≤US$15) se documenta por separado.",
+  "extra_fields": {
+    "finding_id": "F-05"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

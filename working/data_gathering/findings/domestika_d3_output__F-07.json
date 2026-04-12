@@ -1,0 +1,13 @@
+{
+  "what": "La página de Domestika Plus muestra dos planes de suscripción: mensual a $33.90/mes, y anual a $14.59/mes con cobro anual de $174.50. Indica que después de un año el precio de renovación será $349. Incluye acceso a más de 1.000 cursos gratis y 12 créditos anuales canjeables por cualquier curso.",
+  "verbatim_snippet": "\"$33.90/mes $14.59/mes Cobro anual de $174.50 Suscríbete a Plus $33.90/mes Suscríbete a Plus Aplican términos y condiciones. Puedes cancelar la renovación de la suscripción cuando quieras. Después de un año, el precio de renovación será el monto total de $349\"",
+  "source": "https://www.domestika.org/es/plus",
+  "source_type": "product_listing",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Los montos se muestran con símbolo \"$\" sin especificación de moneda en la página. La moneda mostrada puede variar según la geolocalización del usuario (acceso desde México).",
+  "finding_id": "F-07",
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,13 @@
+{
+  "what": "StoreLeads reports top store categories on Gumroad by store count: Computers (1,038 stores, 10.8%), Arts & Entertainment (864, 9.0%), People & Society (847, 8.8%), Jobs & Education (438), Business & Industrial (434), Books & Literature (328), Finance (317), Beauty & Fitness (300), Internet (282), Health (274), Science (213), Games (170).",
+  "verbatim_snippet": "[Stated in layout: \"Category | Stores: Computers | 1,038; Arts & Entertainment | 864; People & Society | 847; Jobs & Education | 438; Business & Industrial | 434; Books & Literature | 328; Finance | 317; Beauty & Fitness | 300; Internet | 282; Health | 274; Science | 213; Games | 170; Food & Drink | 161; Sports | 133; Home & Garden | 106; Apparel | 104; Toys & Hobbies | 92; Travel | 89; Consumer Electronics | 71\"]",
+  "source": "https://storeleads.app/reports/gumroad",
+  "source_type": "report",
+  "verification_status": "direct_verified",
+  "date": "Updated Mar 13 2026 (visible on page)",
+  "notes": "Page directly fetched and full content rendered. Category taxonomy (Computers, Arts & Entertainment, etc.) is StoreLeads' own classification system, not Gumroad's native 18-category taxonomy. These are store-level categories, not product-level categories.",
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,13 @@
+{
+  "what": "InsightRaider reports price tier distribution across 12,952 Gumroad products with sales, broken into 8 ranges. $200+ tier (316 products) holds 65.7% of all tracked revenue ($135.3M). $0.01–$4.99 tier (2,084 products) holds only 0.8% of revenue ($1.7M). $10–$19.99 tier is the most crowded (3,365 products) with 5.5% of revenue. $30–$49.99 tier shows 268 avg sales at 7.3% of revenue ($15M).",
+  "verbatim_snippet": "[Stated in layout: \"Price Range | # Products | % of Revenue | Avg Sales | Total Revenue: $0.01–$4.99 | 2,084 | 0.8% | 313 | $1.7M; $5–$9.99 | 2,896 | 3% | 328 | $6.2M; $10–$19.99 | 3,365 | 5.5% | 241 | $11.4M; $20–$29.99 | 1,760 | 4.7% | 235 | $9.7M; $30–$49.99 | 1,409 | 7.3% | 268 | $15M; $50–$99.99 | 857 | 7% | 239 | $14.5M; $100–$199.99 | 265 | 6% | 318 | $12.4M; $200+ | 316 | 65.7% | 154 | $135.3M\"]",
+  "source": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+  "source_type": "report",
+  "verification_status": "direct_verified",
+  "date": "Updated March 21, 2026 (visible on page)",
+  "notes": "Page directly fetched and full content rendered. Same methodology caveat applies as F-03. The 12,952 products analyzed are a subset of the 146,271 total tracked — only products with sales. Revenue figures are estimates.",
+  "finding_id": "F-04",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

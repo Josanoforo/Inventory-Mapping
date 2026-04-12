@@ -1,0 +1,13 @@
+{
+  "what": "StoreLeads reports 9,605 live stores on the Gumroad platform as of Mar 13 2026. Year-over-year growth was 12% in 2025 Q4. Quarter-over-quarter change in 2025 Q4 was −50.3%. Historical active store counts ranged from 2,661 (2022 Q3) to 19,321 (2025 Q4), with 2026 Q1 (to date) at 9,605.",
+  "verbatim_snippet": "\"At present, there are 9,605 live stores running on the Gumroad platform.\"",
+  "source": "https://storeleads.app/reports/gumroad",
+  "source_type": "report",
+  "verification_status": "direct_verified",
+  "date": "Updated Mar 13 2026 (visible on page)",
+  "notes": "Page directly fetched and full content rendered. Page titled \"The State of Gumroad in 2026.\" StoreLeads counts \"stores\" defined as seller accounts with custom domains tracked via DNS heuristics, not all Gumroad seller accounts. The 2026 Q1 figure (9,605) is explicitly labeled \"to date,\" indicating a partial quarter. The −50.3% QoQ change compares partial 2026 Q1 to full 2025 Q4.",
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

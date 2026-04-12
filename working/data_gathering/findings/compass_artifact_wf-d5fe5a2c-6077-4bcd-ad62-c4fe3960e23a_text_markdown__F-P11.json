@@ -1,0 +1,16 @@
+{
+  "what": "Hotmart dispone de un portal para desarrolladores (Hotmart Developers) con APIs REST que utilizan autenticación OAuth 2.0. Las APIs permiten acceso a datos de suscripciones, compras de suscriptores, cancelaciones, reactivaciones y facturación. La plataforma de integración Pipedream lista triggers específicos incluyendo: Cart abandonment, Subscription cancellation, Plan change event, Purchase approved, Purchase overdue, Purchase refunded, Purchase chargeback, Purchase expired, Purchase completed, Purchase canceled.",
+  "verbatim_snippet": "\"Hotmart Developers is the website where you check out Hotmart's APIs. This data is ideal for Creators who have their own team of developers and want to create an even more personalized analysis with their own systems.\"",
+  "source": "https://help.hotmart.com/en/article/4403617024013/discover-hotmart-s-apis",
+  "source_type": "article",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Contenido del help center obtenido vía snippet. Los triggers específicos de la API provienen de una fuente separada (pipedream.com/apps/hotmart, también vía snippet) y se incluyen en What como contexto del ecosistema API, no como dato del help center. La URL del endpoint de autenticación (api-sec-vlc.hotmart.com/security/oauth/token) fue observada en snippet de terceros (rollout.com).",
+  "extra_fields": {
+    "finding_id": "F-P11"
+  },
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

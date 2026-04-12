@@ -1,0 +1,16 @@
+{
+  "what": "La página de taxonomía de categorías del marketplace de Hotmart muestra actualmente 18 categorías principales bajo el encabezado \"All categories\" / \"Mostrando: Todas las categorías\": Animals and pets, Self-knowledge and spirituality, Career and personal development, Cooking and gastronomy, Design and photography, Childhood and family, Engineering and architecture, Academic studies, Finance and business, Hobby and leisure, Maintenance and repair, Marketing and sales, Fashion and beauty, Music and arts, Plants and ecology, Relationships, Health and sports, Technology and software development. Cada categoría tiene entre 1 y 9 subcategorías (53 subcategorías totales observadas).",
+  "verbatim_snippet": "\"Showing: All categories\"",
+  "source": "https://hotmart.com/en/marketplace/category",
+  "source_type": "product_listing",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Página accedida directamente pero renderizada en inglés/portugués pese a intentar parámetro de locale español. La clasificación aquí es direct_verified por acceso directo, pero se ubica en Part 2 porque el renderizado multilingüe introduce incertidumbre sobre si la vista española del marketplace podría mostrar una taxonomía diferente. Los nombres de las 18 categorías se transcribieron del contenido de la página en inglés.",
+  "extra_fields": {
+    "finding_id": "F-P01"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

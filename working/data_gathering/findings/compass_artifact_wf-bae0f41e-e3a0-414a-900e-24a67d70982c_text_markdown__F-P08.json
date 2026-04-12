@@ -1,0 +1,13 @@
+{
+  "what": "InsightRaider reports product format distribution on Gumroad: digital downloads account for 85% of Gumroad products (11,033 products, 293 avg sales, $47.14 avg price), followed by e-books (1,049 products, 214 avg sales, $50.91 avg price), courses (348 products, 115 avg sales, $95.74 avg price), bundles (250 products, 73 avg sales, $52.43 avg price), memberships (143 products, 115 avg sales, $33.83/month avg price), and physical products (106 products, 55 avg sales, $32.38 avg price).",
+  "verbatim_snippet": "\"Digital downloads are 85% of Gumroad. They average 293 sales at $47.14 — the highest volume of any format. Templates, presets, design assets, and code snippets live here.\"",
+  "source": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+  "source_type": "report",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Updated March 21, 2026 (visible on page)",
+  "notes": "Forced to Provisional despite direct page fetch because the \"What\" field includes table data (product format breakdown table) that extends beyond the single continuous verbatim snippet. The 85% figure and digital download stats are directly stated in the snippet. The full table was visible in my direct fetch but capturing both the narrative passage AND the full table would violate the single-passage verbatim rule. Revenue estimates apply (same methodology caveat as F-03).",
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

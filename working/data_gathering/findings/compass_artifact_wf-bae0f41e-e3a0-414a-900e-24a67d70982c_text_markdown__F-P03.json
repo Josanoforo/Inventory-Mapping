@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad discover page shows 18 main product categories in sidebar navigation: 3D, Audio, Business & Money, Comics & Graphic Novels, Design, Drawing & Painting, Education, Fiction Books, Films, Fitness & Health, Gaming, Music & Sound Design, Other, Photography, Recorded Music, Self Improvement, Software Development, Writing & Publishing. Each category has subcategories (e.g., Design includes Architecture, Branding, Entertainment Design, Fashion Design, Fonts, Graphics, Icons, Industrial Design, Interior Design, Print & Packaging, UI & Web, Wallpapers).",
+  "verbatim_snippet": "[From Google search index snippet of gumroad.com/discover: \"Browse over 1.6 million free and premium digital products in education, tech, design, and more categories from Gumroad creators and online entrepreneurs.\"]",
+  "source": "https://gumroad.com/discover",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Gumroad discover page is a JavaScript-rendered SPA. Direct web_fetch returned only the title \"Gumroad\" with no rendered content. Category names verified via multiple Google index snippets of the page. The meta description \"1.6 million\" claim is Gumroad's own marketing language and is noted but NOT treated as an observable catalog count per protocol rules (skip Gumroad's own marketing claims about catalog size). Category names ARE treated as observable structural elements. Subcategory names verified via multiple Google-cached renders and corroborated by Gumtrends (F-P01) and InsightRaider (F-03) which list the same 18 categories.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,23 @@
+{
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "fp01_gumtrends": "Key date (\"Last Update: April 6, 2026\") and price ($99) claims appeared only in search snippets, not in directly fetched page body.",
+  "fp02_gumtrends": "Dynamic figure (374 new products) that changes daily; snapshot not reproducible.",
+  "fp03_through_fp07_gumroad_discover": "All Gumroad pages are JavaScript-rendered SPAs. Direct web_fetch returned only the page title \"Gumroad\" with no rendered content. Category names, sort options, filter options, tag counts, and file type counts were verified via Google's indexed/rendered snippets of these pages.",
+  "fp08_fp09_insightraider": "Forced to Provisional because \"What\" fields extend beyond the single continuous verbatim snippet by incorporating data from tables on the same page.",
+  "fp10_storeleads": "Forced to Provisional because \"What\" field combines data from three separate tables (growth, products, countries) beyond the single verbatim passage.",
+  "fp11_gumtrends_sample": "Dynamic table; exact snapshot not reproducible.",
+  "fp12_6sense": "\"What\" extends beyond verbatim snippet with geographic and industry breakdown data.",
+  "fx01_fx02": "Requested URL paths (/discover/notion-templates, /discover/ebooks) do not exist on Gumroad.",
+  "fx03": "app.gumroad.com/discover does not exist as a web-accessible page.",
+  "fx04": "Auxiliary tools identified by subagent but not independently fetched/verified.",
+  "fx05": "Crunchbase profile blocked (403).",
+  "insightraider": "Classified as \"report\" (data analysis with disclosed methodology), not \"article\" or \"blog.\" InsightRaider is a subscription service that publishes data analysis reports.",
+  "gumtrends": "Classified as \"database_profile\" (product database with querying capability), not \"report.\"",
+  "storeleads": "Classified as \"report\" (titled \"The State of Gumroad in 2026\"), not \"database_profile.\"",
+  "6sense": "Classified as \"database_profile\" (technology tracking database with market share profiles).",
+  "gumroad_discover": "Classified as \"search_results_page\" (product browse/search interface).",
+  "sd02_notiontemplates_sd03_ebooks": "These URL paths do not exist on Gumroad. Decomposition was based on user-provided URLs that turned out to be invalid paths. Covered as absence findings (F-X01, F-X02).",
+  "sd04_design": "Valid as a category but URL /discover/design does not exist; actual URL is gumroad.com/design. Category observations were captured via Google index of the correct URL.",
+  "sd06_auxiliary_tools": "Partially covered. Multiple tools identified by subagent but not independently verified. Listed in F-X04 for future verification."
+}

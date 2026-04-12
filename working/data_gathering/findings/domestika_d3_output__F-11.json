@@ -1,0 +1,13 @@
+{
+  "what": "Domestika mantiene una sección dedicada de \"Cursos en promoción\" accesible desde el footer de su catálogo en la ruta /es/courses/on_sale.",
+  "verbatim_snippet": "[Stated in layout: \"Cursos en promoción\"]",
+  "source": "https://www.domestika.org/es/courses/on_sale",
+  "source_type": "search_results_page",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Los precios de los cursos en promoción no fueron visibles en el HTML estático; probablemente renderizados por JavaScript.",
+  "finding_id": "F-11",
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "part": 1
+}

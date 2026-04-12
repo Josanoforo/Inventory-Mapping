@@ -1,0 +1,16 @@
+{
+  "what": "El perfil de Crunchbase para Hotmart muestra una ronda Serie C de $127,305,793 con fecha 2021-03-30. El perfil lista 4 adquisiciones: Teachable (2020-03-16), ENotas (2022-07-05), Reshape (2024-01-18), y una adicional no especificada en el snippet. Entidad legal: Hotmart B.V. CEO y cofundador: João Pedro Resende.",
+  "verbatim_snippet": "\"Hotmart raised $127305793 on 2021-03-30 in Series C\"",
+  "source": "https://www.crunchbase.com/organization/hotmart",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; database profile",
+  "notes": "La página completa de Crunchbase retornó error 403 al intentar acceso directo; datos obtenidos exclusivamente de snippets de búsqueda. Los montos de las adquisiciones no fueron revelados (\"undisclosed\") según los snippets. La cifra de funding podría no reflejar rondas o inversiones adicionales posteriores.",
+  "extra_fields": {
+    "finding_id": "F-P08"
+  },
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Un artículo del centro de ayuda de Hotmart define la Temperatura como un indicador propietario que informa simbólicamente cómo un producto está siendo aceptado en el mercado, basado en frecuencia de ventas, blueprint y tasa de reembolso. El algoritmo no se revela públicamente.",
+  "verbatim_snippet": "\"La temperatura es un concepto utilizado por Hotmart con el fin de informar, simbólicamente, cómo el producto está siendo aceptado en el mercado y cómo les está yendo a los afiliados.\"",
+  "source": "https://help.hotmart.com/es/article/209209447/-que-es-temperatura-de-un-producto-",
+  "source_type": "article",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Contenido obtenido por subagente de investigación; el status de acceso directo vs. snippet no fue confirmado explícitamente. En la misma página se indica: \"El algoritmo del sistema de temperatura no se revela, porque es una fórmula interna de Hotmart\" y que implica \"frecuencia de ventas\", \"blueprint\" y \"tasa de reembolso\" (pasajes separados, no incluidos en el snippet principal).",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

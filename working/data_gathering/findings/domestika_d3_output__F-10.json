@@ -1,0 +1,13 @@
+{
+  "what": "La página principal de cursos de Domestika incluye una barra de búsqueda con el placeholder \"Buscar cursos\" visible en la cabecera del sitio.",
+  "verbatim_snippet": "[Stated in layout: \"Buscar cursos\"]",
+  "source": "https://www.domestika.org/es/courses",
+  "source_type": "product_listing",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "La barra de búsqueda es visible en todas las páginas accedidas (catálogo, categoría, curso individual). No se pudo determinar si la búsqueda soporta filtros avanzados sin interacción con JS.",
+  "finding_id": "F-10",
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "part": 1
+}
