@@ -1,0 +1,13 @@
+{
+  "what": "Purchasing power parity (PPP) lets creators set dynamic discounts based on customer location. Discounts range from 20% to 60%, are sourced from the World Bank, and refresh weekly.",
+  "verbatim_snippet": "\"Purchasing power parity (PPP) lets Gumroad creators set up dynamic discounts based on where the customer lives, ensuring that the price is proportional to their local currency and cost of living.\"",
+  "source": "https://help.gumroad.com/article/327-purchasing-power-parity",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page date not visible in search index",
+  "notes": "Direct fetch returned authentication wall. Snippet recovered via Google search index attributed to this exact URL. A second continuous passage from the same article, confirmed via separate search query, states: \"The discounts range from 20% to 60%, are sourced from the World Bank, and refresh weekly.\" That passage is not concatenated here per contract rules but supports the What field's claim about discount range.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

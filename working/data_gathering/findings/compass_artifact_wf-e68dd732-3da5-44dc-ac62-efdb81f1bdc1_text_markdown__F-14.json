@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad may offset funds owed but not yet paid to suppliers against sums due, or reasonably likely to become due, to Gumroad.",
+  "verbatim_snippet": "\"Notwithstanding the forgoing, Gumroad may also offset against funds owed but not yet paid to Supplier via the Services any sums due, or reasonably likely to become due, to Gumroad pursuant to these Terms of Service.\"",
+  "source": "https://gumroad.com/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+  "notes": "From Section 6.4 (Gumroad Fee and Supplier Fee). The published text contains \"forgoing\" which appears to be a typo in the original Terms of Service (likely intended: \"foregoing\").",
+  "finding_id": "F-14",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

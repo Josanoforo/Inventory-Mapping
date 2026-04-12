@@ -1,0 +1,13 @@
+{
+  "what": "La página /colecciones de Kichink describe sus colecciones como curadas y ofrece navegación por producto y por colección, con opción de filtrar sólo productos disponibles. Muestra textos \"Cargando artículos...\", \"Cargando tiendas...\" y \"Cargando colecciones...\" sin contenido cargado.",
+  "verbatim_snippet": "\"Una Colección por Kichink · Mostrar sólo productos disponibles · Cargando artículos... Navegar por producto · Navegar por coleccion · Cargando tiendas... Cargando colecciones... Regresar a colecciones\"",
+  "source": "https://www.kichink.com/colecciones/4819",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accedido abril 2026; página sin fecha visible",
+  "notes": "Acceso directo a esta URL específica no se intentó, pero 7 URLs probadas en kichink.com retornan HTTP 403. Snippet del índice de Google para la misma URL. Los textos \"Cargando...\" indican contenido JS-rendered no cargado en el indexado.",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

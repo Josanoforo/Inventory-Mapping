@@ -1,0 +1,13 @@
+{
+  "what": "Domestika muestra un banner de urgencia con cuenta regresiva en la parte superior de su sitio con el texto \"Este precio tiene las horas contadas...\" seguido de un contador.",
+  "verbatim_snippet": "\"Este precio tiene las horas contadas... 00h:00m:00s 00 horas • 00 mins • 00 segs\"",
+  "source": "https://www.domestika.org/es/courses",
+  "source_type": "product_listing",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "El contador aparece en ceros posiblemente porque la renderización del timer requiere JavaScript. El banner fue observado de forma consistente en todas las páginas accedidas (catálogo, categoría, curso individual, promociones, Plus).",
+  "finding_id": "F-12",
+  "shard_id": "domestika_d3_output",
+  "source_tool": "deep_search",
+  "part": 1
+}

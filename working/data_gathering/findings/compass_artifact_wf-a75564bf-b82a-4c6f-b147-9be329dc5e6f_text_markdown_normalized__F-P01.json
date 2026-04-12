@@ -1,0 +1,13 @@
+{
+  "what": "La página principal de Kichink muestra productos con precios de $220.00 MXN y $80.00 MXN, cada uno con nombre de producto, nombre de tienda vendedora, selectores de opciones y botón \"Agregar al carrito\".",
+  "verbatim_snippet": "\"Ver más productos · Ramones Libreta Pasta Dura 1/2 carta por Ed Vill $220.00 MXN · Ramones Libreta Pasta Dura 1/2 carta · option 1 · option 2 · Cantidad · Agregar al carrito · papá Star Wars por El Regalito $80.00 MXN\"",
+  "source": "https://www.kichink.com/",
+  "source_type": "product_listing",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accedido abril 2026; copyright del sitio @2025",
+  "notes": "Acceso directo a www.kichink.com retorna HTTP 403 Forbidden. Snippet recuperado del índice de búsqueda de Google para la misma URL exacta (búsqueda \"kichink tienda exitosa\"). Contenido de la página es JS-rendered; los productos visibles en el snippet del índice no representan la totalidad del catálogo. Los precios no muestran descuentos ni precios originales tachados.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

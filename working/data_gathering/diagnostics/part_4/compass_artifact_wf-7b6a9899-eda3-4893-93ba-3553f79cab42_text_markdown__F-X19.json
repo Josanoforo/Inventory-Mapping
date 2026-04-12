@@ -1,0 +1,13 @@
+{
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X19",
+  "seller_or_subject": "Quora ES — multiple blocked URLs with uncertain or affiliate-only roles",
+  "attempted": "**What:** Multiple Quora ES answers about Hotmart experience found in search snippets but URLs blocked by robots.txt; of those with visible snippets, most are affiliate perspectives, not producer/seller.  \n**Verbatim snippet:** n/a — consolidated absence/exclusion finding  \n**Source:** Searches: `site:quora.com hotmart experiencia vendedor español`; URLs blocked include https://es.quora.com/Experiencia-Como-Afiliado-de-Marketing-en-HotMart-Un-Relato-Personal (affiliate, not producer); https://es.quora.com/Alguien-con-alguna-experiencia-positiva-o-negativa-trabajando-con-Hotmart (role uncertain); https://es.quora.com/Cómo-vender-por-Marketplace-paso-a-paso (self-identified \"Super Afiliado,\" $5K/month — affiliate, not producer).  \n**Notes:** Quora answers consistently blocked by robots.txt. Snippets visible in search results only. Most identified speakers are affiliates, not product creators/producers — excluded per scope (\"not affiliate marketing without substantive seller experience\"). One producer voice captured as F-P01.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://es.quora.com/Experiencia-Como-Afiliado-de-Marketing-en-HotMart-Un-Relato-Personal",
+    "https://es.quora.com/Alguien-con-alguna-experiencia-positiva-o-negativa-trabajando-con-Hotmart",
+    "https://es.quora.com/Cómo-vender-por-Marketplace-paso-a-paso"
+  ]
+}

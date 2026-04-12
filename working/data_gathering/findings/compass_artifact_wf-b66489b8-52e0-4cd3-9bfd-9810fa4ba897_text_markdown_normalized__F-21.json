@@ -1,0 +1,13 @@
+{
+  "what": "Payhip supports 4 webhook events for developer integrations.",
+  "verbatim_snippet": "\"Webhooks allow you to set up integrations which subscribe to certain events from your Payhip store. There are 4 webhook events available for you to listen from.\" Events: paid, refunded, subscription.created, subscription.deleted. \"If your endpoint does not return a 200 HTTP status code, the POST is retried once an hour for up to 3 hours.\"",
+  "source": "https://help.payhip.com/article/115-webhooks",
+  "source_type": "article",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Original ID: A21.",
+  "verification_status": "direct_verified",
+  "finding_id": "F-21",
+  "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

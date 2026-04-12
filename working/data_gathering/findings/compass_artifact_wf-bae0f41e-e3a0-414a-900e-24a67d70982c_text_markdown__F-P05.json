@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad discover page filter sidebar includes: price range filters (Minimum price $, Maximum price $ input fields), rating filter (four threshold levels displayed as \"and up\"), tag filter section labeled \"Showing\" with tag counts in parentheses, file type filter labeled \"Contains\" with file format counts, and a \"Show NSFW\" toggle.",
+  "verbatim_snippet": "[From Google search index snippet: \"Minimum price $, Maximum price $, Rating: and up, and up, and up, and up\"]",
+  "source": "https://gumroad.com/discover",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Filter options verified from Google's rendered index of the Gumroad discover page. The exact filter UI has five sections: price (min/max input fields), rating (star threshold buttons), tags (with product counts), file type (with product counts), and NSFW toggle. Direct page fetch returned no content due to JS rendering.",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

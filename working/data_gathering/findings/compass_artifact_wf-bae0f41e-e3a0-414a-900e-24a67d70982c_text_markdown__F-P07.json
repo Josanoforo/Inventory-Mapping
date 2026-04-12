@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad discover page file type filter (\"Contains\" section) shows product counts by included file type: \"zip (30047)\", \"pdf (5644)\", \"rar (4527)\", \"png (2716)\", \"jpg (2289)\", with a \"Load more...\" option.",
+  "verbatim_snippet": "[From Google search index snippet of discover.gumroad.com/discover: \"zip (30047), pdf (5644), rar (4527), png (2716), jpg (2289), Load more...\"]",
+  "source": "https://gumroad.com/discover",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated. File type counts are from Google's cached render (cache date unknown).",
+  "notes": "The file type filter allows buyers to filter products by the file formats they contain. Counts are dynamic. The zip count (30,047) is the highest, suggesting most Gumroad products are delivered as zip archives. Direct page fetch returned no content due to JS rendering.",
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

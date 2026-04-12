@@ -1,0 +1,13 @@
+{
+  "what": "For sales made on Gumroad's website, Gumroad charges a 10% flat fee. This does not include credit card processing or PayPal fees.",
+  "verbatim_snippet": "\"For sales made on Gumroad's website, we charge a 10% flat fee. This does not include: Credit card processing PayPal fees\"",
+  "source": "https://help.gumroad.com/article/66-gumroads-fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Page last updated July 18, 2024 (per search index metadata)",
+  "notes": "Direct fetch of this URL returned an authentication wall (\"Please sign in to continue\"). Snippet recovered via Google search index, attributed to this exact URL in multiple independent search results. The items after \"This does not include:\" may be formatted as a list on the original page; search index flattened the formatting.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

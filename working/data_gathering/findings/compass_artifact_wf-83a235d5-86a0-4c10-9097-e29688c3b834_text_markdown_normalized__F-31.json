@@ -1,0 +1,13 @@
+{
+  "what": "Some countries have a minimum deposit amount. If a deposit exceeds the minimum but falls below a fee threshold, a deposit fee is charged. If the deposit exceeds the fee threshold, no deposit fee applies.",
+  "verbatim_snippet": "\"For some Etsy Payments countries, there is a minimum deposit amount, along with a fee threshold and a deposit fee: Deposit Minimum: Your funds available for deposit must be above the deposit minimum to be deposited. Fee Threshold: If your deposit is above the deposit minimum but below the fee threshold, you will be charged a deposit fee. If your deposit exceeds the fee threshold, you won't be charged a deposit fee. Deposit Fee: This fee is charged if your deposit is below the fee threshold. Your available for deposit total will show your available sales minus the deposit fee. This fee is deducted from your Payment account at the time of the deposit and is subject to VAT, where applicable.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Current as of April 2026",
+  "notes": "Country-specific amounts are in a dynamically rendered table on the help page. Original ID: F-34.",
+  "finding_id": "F-31",
+  "shard_id": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

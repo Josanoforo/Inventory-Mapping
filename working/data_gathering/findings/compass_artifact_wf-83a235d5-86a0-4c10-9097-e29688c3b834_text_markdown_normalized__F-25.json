@@ -1,0 +1,13 @@
+{
+  "what": "A **2.5% currency conversion fee** on the sale amount when a seller's listing currency differs from their payment account currency.",
+  "verbatim_snippet": "\"As an Etsy Payments user, if you decide to list in a currency other than that of your payment account, you will be charged a 2.5% currency conversion fee on the sale amount to send funds to your payment account. Learn more about currency conversion here. Currency conversion is handled automatically by our payment processing service and further described in our Etsy Payments Policy.\"",
+  "source": "https://www.etsy.com/legal/fees/",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Current as of April 2026",
+  "notes": "Conversion uses current market rates from Open Exchange + 2.5%. Only applies when listing and payment account currencies differ. Original ID: F-28.",
+  "finding_id": "F-25",
+  "shard_id": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

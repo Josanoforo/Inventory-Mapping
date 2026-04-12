@@ -1,0 +1,16 @@
+{
+  "what": "Los pagos a la tienda se realizan por medio de transferencia bancaria a la cuenta registrada por el administrador, una vez que la tienda haya solicitado la acción desde el portal de administrador (Kontrol).",
+  "verbatim_snippet": "\"KICHINK o el Agregador que designe realizará los pagos a La TIENDA, correspondientes a las órdenes de venta concretadas una vez que La TIENDA haya solicitado esta acción desde el portal de administrador; los pagos se realizan por medio de transferencia bancaria a la cuenta registrada por el administrador de La TIENDA.\"",
+  "source": "https://www.kichink.com/legales/terminos",
+  "source_type": "policy_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL confirmada en índice de Google. Fetch directo devolvió 403. Establece que el pago NO es automático: la tienda debe solicitarlo.",
+  "extra_fields": {
+    "finding_id": "F-P08"
+  },
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

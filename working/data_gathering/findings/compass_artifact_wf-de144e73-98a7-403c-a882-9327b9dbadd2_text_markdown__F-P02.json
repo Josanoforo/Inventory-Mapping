@@ -1,0 +1,16 @@
+{
+  "what": "The Etsy Jewelry category page (etsy.com/c/jewelry) displays \"1,000+ items with ads\" as the result count. Sort options available: Relevancy (default), Lowest Price, Highest Price, Top Customer Reviews, Most Recent. An \"All Filters\" button with \"Refine your search\" panel is present. Subcategory tiles shown include: Rings, Necklaces, Earrings, Bracelets, Jewelry Sets, Watches, Body Jewelry, Cremation & Memorial Jewelry, Jewelry Storage, Smart Jewelry, Cuff Links & Tie Clips, Brooches Pins & Clips, with \"Show more (6)\" indicating 6 additional hidden subcategories.",
+  "verbatim_snippet": "n/a — content recovered via research subagent direct fetch of URL; verbatim character-for-character accuracy cannot be independently confirmed.",
+  "source": "https://www.etsy.com/c/jewelry",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL is fixed. Page was fetched by research subagent using web_fetch tool on exact URL; page loaded successfully per subagent report. The sort options and subcategory structure are structural UI elements. The \"1,000+ items with ads\" count is the platform's stated display count, not a total catalog count. Recovery method: subagent direct fetch. SD-05, SD-01.",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Un post del blog de Hotmart describe el sistema Blueprint como un indicador de calidad que evalúa parámetros como calidad del contenido (clasificación por debajo/dentro/encima del promedio), existencia de página de ventas externa, páginas alternativas, HotLeads habilitado, y formato del producto (e-ticket y suscripción obtienen puntos extra).",
+  "verbatim_snippet": "\"Calidad del contenido: en el proceso de revisión de productos, el equipo los clasifica con relación a la calidad (por debajo del promedio, dentro del promedio, por encima del promedio).\"",
+  "source": "https://hotmart.com/es/blog/blueprints-y-politicas-de-desaprobacion-guia-de-calidad-para-el-productor",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Contenido obtenido por subagente; fetch status no confirmado explícitamente. Los parámetros adicionales del Blueprint (página de ventas externa, páginas alternativas, HotLeads, formato) aparecen en pasajes separados de la misma página. El campo What incluye solo los parámetros listados en la fuente; no se observó escala numérica en el snippet citado, aunque una fuente de terceros (afiliadoempresa.com) describe Blueprint como \"del 0 al 100%\".",
+  "extra_fields": {
+    "finding_id": "F-P03"
+  },
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,13 @@
+{
+  "what": "VAT calculation examples",
+  "verbatim_snippet": "> \"Your customer will be charged: $10 + (0.20 × $10) = $12\"\n\n> \"We will charge 5% and will collect the EU VAT amount: (0.05 × $10) + (0.20 × $10) = $2.50\"\n\n> \"You will receive the remaining amount: $12 – $2.50 = $9.50 (Note: PayPal will deduct it's fees as well)\"\n\n**Verbatim text (VAT included in price, same scenario):**\n\n> \"Your customer will be charged: $10\"\n\n> \"Price before VAT applied: $10 ÷ 1.20 = $8.33\"\n\n> \"We will charge 5% and will collect the EU VAT amount: (0.05 × $8.33) + ($10 – $8.33) = $2.09\"\n\n> \"You will receive the remaining amount: $10 – $2.09 = $7.91 (Note: PayPal will deduct its fees as well)\"",
+  "source": "https://help.payhip.com/article/127-digital-eu-vat",
+  "source_type": "help_article",
+  "verification_status": "direct_verified",
+  "date": "Last updated February 21, 2026",
+  "notes": "Original ID: Finding 48. Accessibility: Directly accessible. Layout: Structured numerical examples.",
+  "finding_id": "F-48",
+  "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

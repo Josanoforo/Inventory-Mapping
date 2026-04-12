@@ -1,0 +1,13 @@
+{
+  "what": "Each marketplace category page provides sorting (7 options), price filtering (6 tiers), and rating filtering (5 levels) as discovery mechanisms.",
+  "verbatim_snippet": "Sort options: \"Sort by / Default / Recently added / Hot and new / Highest rated / Most reviewed / Price: Low to high / Price: High to low\" | Price filter: \"Price / All prices / Free / Under $5 / $5 - $25 / $25 - $40 / $40 - $60 / $60 and above\" | Rating filter: \"Rating / All ratings / 4 stars and up / 3 stars and up / 2 stars and up / 1 star and up\" | Additional controls: \"Related tags\" and \"[More filters]\" and \"Filter\" button.",
+  "source": "https://payhip.com/marketplace/design",
+  "source_type": "search_results_page",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Identical filter UI confirmed on /marketplace/3d, /marketplace/crafts, /marketplace/roblox. Products themselves are JavaScript-rendered and not visible in static HTML fetch. Original ID: A2.",
+  "verification_status": "direct_verified",
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

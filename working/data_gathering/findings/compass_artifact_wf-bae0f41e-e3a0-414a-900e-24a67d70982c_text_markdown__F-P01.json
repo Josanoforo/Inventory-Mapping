@@ -1,0 +1,13 @@
+{
+  "what": "Gumtrends reports a dataset of 250k+ Gumroad products across 18 categories and 300+ subcategories. Categories listed: 3d, Audio, Business And Money, Comics And Graphic Novels, Design, Drawing And Painting, Education, Fiction Books, Films, Fitness And Health, Gaming, Music And Sound Design, Other, Photography, Recorded Music, Self Improvement, Software Development, Writing And Publishing. Price is $99 one-time for lifetime access. Only ~10% of Gumroad products display the number of sales.",
+  "verbatim_snippet": "\"Gumtrends is a dataset of 250k+ Gumroad products. The dataset contains useful information like estimated revenue, ratio of mixed reviews, number of sales and more. Our data is updated weekly.\"",
+  "source": "https://gumtrends.com/",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated (search results reference \"Last Update: April 6, 2026\" but this text was not visible in the directly fetched page content)",
+  "notes": "Page was directly fetched and most content rendered; however, the \"Last Update: April 6, 2026\" timestamp and the $99 price appeared only in search snippets (not in my fetched page body), so verification is indirect for those specific claims. Forced to Provisional because key date/price claims could not be confirmed in direct fetch. The 18 categories match Gumroad's native taxonomy exactly. The \"250k+\" figure is from Gumtrends' own count, not Gumroad's.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,13 @@
+{
+  "what": "Refund process for sellers",
+  "verbatim_snippet": "> \"In order to refund a customer, you'll want to log into your PayPal/Stripe account and find the user's details/transaction.\"\n\n> \"Please be aware that your refunds in PayPal/Stripe will also be reflected in Payhip. Since the refunded amount is taken into consideration in all places, the numbers shown on your monthly sales report and analytics will reflect that.\"",
+  "source": "https://help.payhip.com/article/147-how-do-i-refund-a-transaction",
+  "source_type": "help_article",
+  "verification_status": "direct_verified",
+  "date": "Last updated April 10, 2024",
+  "notes": "Original ID: Finding 44. Accessibility: Directly accessible. Layout: Prose with instructional steps.",
+  "finding_id": "F-44",
+  "shard_id": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 1
+}

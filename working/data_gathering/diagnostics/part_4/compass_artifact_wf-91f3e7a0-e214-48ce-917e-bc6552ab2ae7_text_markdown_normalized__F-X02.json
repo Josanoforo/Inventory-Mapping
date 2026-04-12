@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "GumTrends — dataset of 250K+ Gumroad products",
+  "attempted": "**What:** GumTrends provides a growing dataset of 250,000+ Gumroad products with estimated revenue, sales counts, and mixed review ratios across 300+ subcategories. One-time $99 for lifetime access.\n**Verbatim snippet:** \"Build your next digital product using data no one else has. Get access to a growing dataset of 250k+ Gumroad products.\"\n**Source:** https://gumtrends.com\n**source_type:** marketplace_tool\n**verification_status:** could_not_verify\n**Date:** April 2026 (observed in shard; updated weekly per source)\n**Notes:** 150+ business owner users per shard. verification_status inferred during normalization: no per-finding access method in source shard.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://gumtrends.com"
+  ]
+}

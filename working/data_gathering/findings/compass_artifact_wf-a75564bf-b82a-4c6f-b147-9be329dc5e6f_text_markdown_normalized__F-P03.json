@@ -1,0 +1,13 @@
+{
+  "what": "La página de búsqueda de Kichink (/search/ropa) presenta filtros por Categorias, Sub categorias, Precio, Pais y Otros, con pestañas para resultados de PRODUCTOS, TIENDAS y COLECCIONES.",
+  "verbatim_snippet": "[Stated in layout: \"Categorias · Sub categorias · Precio · Pais · Otros · Filtros · PRODUCTOS · TIENDAS · COLECCIONES · Done\"]",
+  "source": "https://www.kichink.com/search/ropa",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accedido abril 2026; copyright de la página @2024",
+  "notes": "Acceso directo a www.kichink.com/search/ropa retorna HTTP 403 Forbidden. Snippet recuperado del índice de Google para la misma URL exacta. Los filtros aparecen como elementos de UI en layout estructurado; no es observable si los filtros despliegan opciones funcionales con contenido dinámico. Método de recuperación: búsqueda Google \"kichink tienda exitosa\".",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

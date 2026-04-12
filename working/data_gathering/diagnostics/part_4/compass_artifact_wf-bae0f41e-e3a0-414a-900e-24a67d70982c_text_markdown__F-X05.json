@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X05",
+  "seller_or_subject": "Crunchbase profile for Gumroad",
+  "attempted": "**What:** Crunchbase profile at https://www.crunchbase.com/organization/gumroad exists but returned HTTP 403 on fetch. Search snippets reference funding data (Series A $7M, 2012; Seed $1.1M, 2012; Angel $1M at $99M pre-money, 2021) and historical metrics (\"about 20,000 creators on Gumroad made a sale\" in January 2021, \"more than half a million customers\"), but these could not be directly verified.\n\n**Verbatim snippet:** n/a — blocked URL, could not verify content\n\n**Source:** https://www.crunchbase.com/organization/gumroad (403 blocked)\n\n**source_type:** database_profile\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** URL exists in search results but page content is access-restricted. Funding and historical metrics in search snippets are from Crunchbase News articles dated March 2021, not current catalog data. These metrics describe historical state, not current catalog composition.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.crunchbase.com/organization/gumroad",
+    "https://www.crunchbase.com/organization/gumroad"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Seller on Hotmart mobile app reports minimum withdrawal of $50 but effective minimum is higher because the available-to-withdraw amount shown is less than the balance; describes producers not providing affiliate marketing materials and requiring affiliates to source their own.",
+  "verbatim_snippet": "\"es una porquería vender, muchos de los productores no te dan material y te dicen que lo busques tu mismo para vender sus cursos. retiro mínimo de 50, pero debes tener más de 60 porque sino entonces no puedes retirar nada (cuando vas a retirar te dice que lo válido que posees para retirar son cuarenta y dele) tanto esforzarme para que a la larga se queden con esa plata ellos.\"",
+  "source": "https://play.google.com/store/apps/details?id=hotmart.afiliadosyproductores&hl=es_419",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL appeared in search results; page not directly fetched. Verbatim from search engine snippet. Speaker role is ambiguous: language suggests affiliate/seller hybrid (\"vender,\" \"productores no te dan material,\" \"retiro mínimo\"). The speaker could be an affiliate rather than a product creator/producer. If affiliate-only without seller experience, this would move to Part 4. Degradation note: retained as provisional because the withdrawal complaint (\"retiro mínimo de 50,\" \"se queden con esa plata\") reflects seller-side platform friction regardless of exact role. Minimum withdrawal: $50 stated, effective minimum higher per speaker's account. App: \"Hotmart — Afiliados y Productores\" (Google Play).",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Etsy digital download search results",
+  "attempted": "direct fetch of https://www.etsy.com/search?q=digital+download (returned 403/blocked); subagent search-index recovery of the same URL yielded partial filter labels but no product listings with prices or result counts.  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Accessed April 2026  \n**Notes:** Etsy actively blocks automated fetching of /search? query pages with 403 errors. The subagent recovered some filter labels from search-index cached snippets (e.g., \"Exclude digital items,\" \"Under $25,\" \"Star Seller\") but these could not be attached to specific product listings or verified for currency. SD-02.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.etsy.com/search?q=digital+download",
+    "https://www.etsy.com/search?q=digital+download"
+  ]
+}

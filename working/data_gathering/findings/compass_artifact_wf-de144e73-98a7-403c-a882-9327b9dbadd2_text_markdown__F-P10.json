@@ -1,0 +1,16 @@
+{
+  "what": "EverBee is a third-party Etsy analytics tool claiming to track 170M+ listings and 50M+ keywords. It offers product analytics (monthly sales, revenue, views, conversion rate, favorites, reviews, tag analyzer), keyword research (monthly search volume, competition, keyword score), email marketing with 1-click Etsy integration, Chrome extension, and trademark checker. Pricing: Free (Hobby, 10 analytic searches/month), Growth $19.99/month annual. Claims to be used by 900,000+ creators (elsewhere stated as 600,000+).",
+  "verbatim_snippet": "\"Access 170M+ listings and 50M+ keywords to find high-demand, profitable products fast\"",
+  "source": "https://everbee.io/",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL is fixed. Verbatim and feature list recovered via subagent search-index retrieval. The discrepancy in user count claims (900,000+ vs. 600,000+) appeared across different pages of the same site per subagent report. EverBee states its sales estimate algorithm maintains \"an average accuracy rate of approximately 80%.\" Recovery method: subagent search-index retrieval. SD-07.",
+  "extra_fields": {
+    "finding_id": "F-P10"
+  },
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

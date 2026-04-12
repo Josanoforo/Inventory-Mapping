@@ -1,0 +1,13 @@
+{
+  "what": "Gumtrends sample data from Design (Graphics) subcategory shows 10 observable product listings. Products include: \"Old Book Cover & Spread Mockup\" by Design Syndrome priced at $13.00 with 5.0 rating, 118 reviews, 20,221 sales, $262,873.00 est. revenue. Nine of 10 sample products priced at $0.00 with sales ranging from 11,518 to 30,112. \"Procreate Line Art and Architecture Brush Suite (Lite Edition)\" by archfloyd shows $0.00 price, 4.7 rating, 260 reviews, 30,112 sales.",
+  "verbatim_snippet": "[Stated in layout: \"Name | Category | Average rating | Reviews | Mixed reviews | Price | Sales | Est. Revenue: Old Book Cover & Spread Mockup Design Syndrome | design / graphics | 5.0 ⭐ | 118 | 2% | $13.00 | 20,221 | $262,873.00\"]",
+  "source": "https://gumtrends.com/",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Forced to Provisional because the sample table is a dynamic preview that changes; the exact snapshot may not be reproducible. Data was visible in my direct fetch. The sample explicitly labeled \"This is a sample of real data from the Design (Graphics) subcategory.\" Only 10 rows shown in the sample; full database behind paywall.",
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

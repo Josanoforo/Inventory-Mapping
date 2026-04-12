@@ -1,0 +1,13 @@
+{
+  "what": "Suppliers pay Gumroad a per-transaction fee (the \"Gumroad Fee\") for each resale, automatically deducted from the purchase price paid by the Buyer. The remainder, less taxes and other charges, is the \"Supplier Fee\" paid to the supplier.",
+  "verbatim_snippet": "\"In consideration of Gumroad's MOR Services, in respect of each resale of your Products through the Services, you agree to pay Gumroad a per-transaction fee (the, \"Gumroad Fee\") for each resale made by Gumroad through the Services. The Gumroad Fee owed for each resale through the Services is automatically deducted from the purchase price paid by the Buyer, with the remainder (less any amounts in respect of taxes and any other charges payable by you pursuant to this Agreement) owed and paid to you by Gumroad (such remainder amount, the \"Supplier Fee\").\"",
+  "source": "https://gumroad.com/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+  "notes": "From Section 6.4 (Gumroad Fee and Supplier Fee). The original text contains a comma after \"the,\" before \"Gumroad Fee\" which appears to be a typographical error in the Terms of Service as published.",
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

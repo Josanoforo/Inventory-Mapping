@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad discover page tag filter section shows product counts per tag: \"3d model (1626)\", \"free (1557)\", \"mockup (1452)\", \"template (1433)\", \"design (1359)\", with a \"Load more...\" option for additional tags.",
+  "verbatim_snippet": "[From Google search index snippet of discover.gumroad.com/discover: \"3d model (1626), free (1557), mockup (1452), template (1433), design (1359), Load more...\"]",
+  "source": "https://gumroad.com/discover",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated. Tag counts are from Google's cached render (cache date unknown).",
+  "notes": "Tag counts represent the number of products tagged with each label at the time of Google's render. These counts are dynamic and will differ from current live values. The \"(1626)\" format indicates tag counts are shown in parentheses next to tag names. Direct page fetch returned no content due to JS rendering.",
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

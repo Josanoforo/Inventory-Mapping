@@ -1,0 +1,13 @@
+{
+  "what": "Gumtrends shows 374 new products added in the last 30 days across all Gumroad categories, with a total estimated revenue of $372,894 from those new products. Sample data visible from Design (Graphics) subcategory includes products priced at $0.00 and $13.00, with review counts ranging from 26 to 260 and sales counts ranging from 11,518 to 30,112.",
+  "verbatim_snippet": "\"374 new products added in the last 30 days making a total of $372,894\"",
+  "source": "https://gumtrends.com/",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "The \"374 new products\" figure was visible in my direct fetch. Forced to Provisional because the figure is dynamic (changes daily) and could not be re-verified at the exact moment of report compilation. The $372,894 revenue figure is Gumtrends' estimate, not Gumroad-reported.",
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

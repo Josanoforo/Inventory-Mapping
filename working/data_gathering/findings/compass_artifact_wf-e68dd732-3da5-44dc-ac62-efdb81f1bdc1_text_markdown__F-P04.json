@@ -1,0 +1,13 @@
+{
+  "what": "In the case of refunds, Gumroad returns the Gumroad fee minus the fee charged by their payments processor, which is not returned to Gumroad.",
+  "verbatim_snippet": "\"In the case of refunds, we return the Gumroad fee minus the fee charged by our payments processor (which is not returned to us).\"",
+  "source": "https://help.gumroad.com/article/66-gumroads-fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Page last updated July 18, 2024 (per search index metadata)",
+  "notes": "Direct fetch returned authentication wall. Snippet recovered via Google search index attributed to this exact URL.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

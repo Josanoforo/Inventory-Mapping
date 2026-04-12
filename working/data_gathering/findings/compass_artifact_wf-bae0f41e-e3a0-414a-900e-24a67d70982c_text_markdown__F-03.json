@@ -1,0 +1,13 @@
+{
+  "what": "InsightRaider reports analysis of 146,271 products across 18 categories on Gumroad. Top 10 categories by estimated revenue: Software Development ($65.8M est., 1,083 products, $39.95 avg price, 293 avg sales, $60,814 rev/product), Other ($64.2M, 729 products, $128.91 avg price, 419 avg sales, $88,048 rev/product), Business & Money ($15.4M, 1,520 products, $49.49 avg price, 247 avg sales), 3D Assets ($13.9M, 2,082 products, $40.71 avg price, 290 avg sales), Design ($8.8M, 1,202 products, $29.35 avg price, 331 avg sales), Self-Improvement ($8.7M, 1,016 products), Education ($6.5M, 747 products), Drawing & Painting ($6.0M, 1,028 products), Films ($4.3M, 550 products), Fitness & Health ($4.2M, 379 products).",
+  "verbatim_snippet": "[Stated in layout: \"Category | Est. Revenue | Avg Price | Median Price | # Products | Avg Sales | Rev/Product: Software Development | $65.8M | $39.95 | $11.97 | 1,083 | 293 | $60,814; Other | $64.2M | $128.91 | $20 | 729 | 419 | $88,048; Business & Money | $15.4M | $49.49 | $15 | 1,520 | 247 | $10,130; 3D Assets | $13.9M | $40.71 | $15 | 2,082 | 290 | $6,675; Design | $8.8M | $29.35 | $17.98 | 1,202 | 331 | $7,365; Self-Improvement | $8.7M | $26.67 | $14.99 | 1,016 | 273 | $8,536; Education | $6.5M | $235.12 | $19.99 | 747 | 249 | $8,664; Drawing & Painting | $6.0M | $18.19 | $10 | 1,028 | 401 | $5,866; Films | $4.3M | $27.95 | $12 | 550 | 241 | $7,905; Fitness & Health | $4.2M | $37.45 | $15 | 379 | 243 | $11,046\"]",
+  "source": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+  "source_type": "report",
+  "verification_status": "direct_verified",
+  "date": "Updated March 21, 2026 (visible on page)",
+  "notes": "Page directly fetched and full content rendered. Page states: \"Revenue figures are estimates based on publicly visible sales data. Actual creator earnings may differ due to refunds, private sales, and promotional pricing not captured in our dataset.\" InsightRaider is a subscription analytics service (€29/month). Revenue figures are estimates, not Gumroad-reported actuals. The 18 categories match Gumroad's native taxonomy.",
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

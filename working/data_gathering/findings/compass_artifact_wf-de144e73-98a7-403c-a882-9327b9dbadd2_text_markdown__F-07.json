@@ -1,0 +1,16 @@
+{
+  "what": "Koalanda states its primary data source is the Etsy API, and that it uses machine learning and statistical algorithms to calculate each displayed metric. Shop sales history is claimed 100% accurate for the past year. Keyword search scores are 90% accurate measured by relative keyword popularity.",
+  "verbatim_snippet": "\"Our primary source of data is the Etsy API, which enables us to retrieve real Etsy data and statistics. We use advanced machine learning and statistical algorithms to carefully design and calculate each metric that we show, based on the data coming from Etsy.\"",
+  "source": "https://koalanda.pro/",
+  "source_type": "database_profile",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page directly fetched via web_fetch. The 100% shop accuracy and 90% keyword accuracy claims appear in separate sentences in the same FAQ answer block but were in paragraph-separated lines in the rendered page; only the above continuous paragraph is cited as verbatim. Self-reported accuracy figures cannot be independently verified from this source alone. SD-07, SD-08.",
+  "extra_fields": {
+    "finding_id": "F-07"
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

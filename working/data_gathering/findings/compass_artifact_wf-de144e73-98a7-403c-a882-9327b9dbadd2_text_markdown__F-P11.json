@@ -1,0 +1,16 @@
+{
+  "what": "Alura is a third-party Etsy analytics tool claiming 121,119+ Etsy sellers using the platform. It offers keyword and tag analysis, sales and revenue estimates, AI writing assistant, AI review analysis, shop analyzer, listing helper, financial analytics dashboard, follow-up reminder, post automator, Pinterest marketing integration, and Chrome extension. Pricing: Free plan available; Growth plan $19.99/month (or $9.99/month billed yearly at $120/year); Professional plan $49.99/month (or $29.99/month billed yearly).",
+  "verbatim_snippet": "\"Join 121,119+ Etsy sellers using Alura\"",
+  "source": "https://www.alura.io",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "URL is fixed. Content recovered via subagent search-index retrieval; alura.io homepage returned permissions error on direct fetch. User count figure and feature list from Chrome Web Store listing and search-index snippets. Alura states it estimates sales using \"a combination of different data like views, favourites and more.\" Recovery method: subagent search-index retrieval. SD-07.",
+  "extra_fields": {
+    "finding_id": "F-P11"
+  },
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

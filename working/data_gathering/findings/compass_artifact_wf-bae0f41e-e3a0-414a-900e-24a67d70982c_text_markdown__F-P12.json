@@ -1,0 +1,13 @@
+{
+  "what": "6sense reports top countries using Gumroad: United States 44,582 customers (60.42%), United Kingdom 7,119 (9.65%), Canada 4,211 (5.71%). Top customer industries: Marketing (1,519), Digital Marketing (1,225), Social Media (1,159). Customer company size: 20–49 employees (25,226 companies), 100–249 employees (20,007), 0–9 employees (19,854).",
+  "verbatim_snippet": "\"Around the world in 2026, over 95752 companies have started using Gumroad as Social Commerce tool.\"",
+  "source": "https://6sense.com/tech/social-commerce/gumroad-market-share",
+  "source_type": "database_profile",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page references \"in 2026\"",
+  "notes": "Forced to Provisional because the \"What\" field includes geographic/industry/size breakdown data from later sections of the page that extend beyond the single verbatim snippet. The customer count (95,752 in text vs 96,111 in header) is a minor discrepancy within the same page. 6sense's \"customer\" definition refers to domains detected using Gumroad, not end consumers.",
+  "finding_id": "F-P12",
+  "shard_id": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}
