@@ -526,6 +526,45 @@ Names marked with * are pseudonyms assigned by Class Central to protect instruct
 
 ---
 
+### F-P17: Domestika dashboard notification — the "inactivity" message
+- **What:** Domestika dashboard notification: The "inactivity" message pausing instructor commissions
+- **Verbatim snippet:** "Your students are waiting for you! We have temporarily paused your commission due to a period of inactivity in the forum and course comments. But don't worry: your classroom is still open and your students are hoping to hear from you. As soon as we see that you're available for your students and participating regularly in your course community during the next 90 days, your commissions will automatically reactivate. Come back and reconnect: your guidance makes all the difference! Go to your Community →"
+- **Source:** https://www.classcentral.com/report/domestika-unpaid-instructors/
+- **source_type:** investigative_report
+- **verification_status:** blocked_url_index_verified
+- **Date**: Summer 2025
+
+---
+- **Notes:** Original ID: Finding 13. Speaker: Domestika (platform notification to instructors); Platform: Domestika instructor dashboard, reported by Class Central; Category: frustration; Key data: 90-day reactivation period required; unclear if back-payments would be honored; Access method: Search snippet. Verbatim label in original: "Verbatim quote (translated from Spanish)"; original was in Spanish, translation provided in original shard.
+
+---
+
+### F-P18: Tyler Edlin — all courses on hold indefinitely
+- **What:** Tyler Edlin: All courses on hold indefinitely citing Domestika legal dispute
+- **Verbatim snippet:** "A day later, Tyler Edlin, an Illustrator and CGMA instructor, also put all of his courses on hold indefinitely, noting that the reason teachers are not being paid is Domestika's involvement in an ongoing legal dispute."
+- **Source:** https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn
+- **source_type:** industry_news
+- **verification_status:** blocked_url_index_verified
+- **Date**: September 30, 2025
+
+---
+- **Notes:** Original ID: Finding 18. Speaker: Tyler Edlin, Illustrator / CGMA instructor; Platform: Instagram (reported via 80 Level); Category: frustration; Access method: Via 80 Level article. Verbatim label in original: "Verbatim quote (paraphrased in report)"; content is 80 Level's paraphrase of Edlin's statement.
+
+---
+
+### F-P19: "Denzel Alvares" (pseudonym) — before/after studio evolution
+- **What:** "Denzel Alvares" (pseudonym): Before/after studio evolution — apartment (2016) to state-of-the-art Madrid studio (2020)
+- **Verbatim snippet:** "Denzel Alvares* has two courses on the platform. One was shot in 2016 (without a contract), in his own apartment. The other one, in 2020, was shot in a 'state-of-the-art' studio in a 'fantastic' three-story building in Madrid. He remembered the organized chaos of the space; the team was shooting for multiple courses simultaneously. They were launching more and launching fast."
+- **Source:** https://www.classcentral.com/report/domestika-unpaid-instructors/
+- **source_type:** investigative_report
+- **verification_status:** blocked_url_index_verified
+- **Date**: November 4, 2025
+
+---
+- **Notes:** Original ID: Finding 34. Speaker: Denzel Alvares* (pseudonym), Domestika instructor since 2016; Platform: Class Central; Category: before_after; Key data: 2016: no contract, filmed in apartment. 2020: state-of-the-art Madrid studio; Access method: Search snippet. Verbatim label in original: "Verbatim quote (paraphrased)"; content is Class Central's narrative paraphrase of Alvares's account.
+
+---
+
 ## Part 3 — Pattern candidates (sealed)
 
 None.

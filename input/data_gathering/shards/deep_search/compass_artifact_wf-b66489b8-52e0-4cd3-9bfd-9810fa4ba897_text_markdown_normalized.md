@@ -42,15 +42,7 @@ Normalized from non-canonical GROUP A/B/C/D format. Original file preserved unch
 
 **What:** Each marketplace category page provides sorting (7 options), price filtering (6 tiers), and rating filtering (5 levels) as discovery mechanisms.
 
-**Verbatim snippet (from /marketplace/design, identical structure on /marketplace/3d, /marketplace/crafts, /marketplace/roblox):**
-
-Sort options: "Sort by / Default / Recently added / Hot and new / Highest rated / Most reviewed / Price: Low to high / Price: High to low"
-
-Price filter: "Price / All prices / Free / Under $5 / $5 - $25 / $25 - $40 / $40 - $60 / $60 and above"
-
-Rating filter: "Rating / All ratings / 4 stars and up / 3 stars and up / 2 stars and up / 1 star and up"
-
-Additional controls: "Related tags" and "[More filters]" and "Filter" button.
+**Verbatim snippet:** Sort options: "Sort by / Default / Recently added / Hot and new / Highest rated / Most reviewed / Price: Low to high / Price: High to low" | Price filter: "Price / All prices / Free / Under $5 / $5 - $25 / $25 - $40 / $40 - $60 / $60 and above" | Rating filter: "Rating / All ratings / 4 stars and up / 3 stars and up / 2 stars and up / 1 star and up" | Additional controls: "Related tags" and "[More filters]" and "Filter" button.
 
 **Source:** https://payhip.com/marketplace/design
 **source_type:** search_results_page
@@ -64,7 +56,7 @@ Additional controls: "Related tags" and "[More filters]" and "Filter" button.
 
 **What:** The Design marketplace category contains 13 subcategories, with further sub-subcategories under some (e.g., Graphics breaks down into Assets & Templates, Marketing & Social, Mockups, Textures & Patterns (2D), Vector Graphics).
 
-**Verbatim snippet (subcategory list from sidebar):** "Architecture, Branding, Entertainment Design, Fashion Design, Fonts, Graphics, Icons, Interior Design, Premade Book Cover, Print & Packaging, Printable, UI & Web, Wallpapers"
+**Verbatim snippet:** "Architecture, Branding, Entertainment Design, Fashion Design, Fonts, Graphics, Icons, Interior Design, Premade Book Cover, Print & Packaging, Printable, UI & Web, Wallpapers"
 
 **Source:** https://payhip.com/marketplace/design
 **source_type:** search_results_page
@@ -148,9 +140,9 @@ Additional controls: "Related tags" and "[More filters]" and "Filter" button.
 
 **What:** Payhip's homepage lists five product types (Digital Downloads, Online Courses, Coaching, Memberships, Physical Products) and showcases 9 featured digital download products with prices ranging from £4.50 to $30.00.
 
-**Verbatim snippet (product types):** "Sell digital downloads, courses, coaching and more from one simple platform. We make it easy for you to sell anything online anywhere." … "Sell any type of digital download such as ebooks, software, design assets, templates, video, music and more. If you can save it, you can sell it." … "Create online courses with rich features such as videos, digital files, quizzes and assignments. Publish drip courses and provide completion certificates." … "Sell your expertise through 1:1 coaching sessions. Easily set up online meetings with clients using Zoom, Calendly and more." … "Allow your customers to pay you on a recurring basis to access your digital downloads or membership group. Manage your members easily." … "Sell and manage inventory for any physical products. Manage your store, fulfill orders, run promotions and more."
+**Verbatim snippet:** "Sell digital downloads, courses, coaching and more from one simple platform. We make it easy for you to sell anything online anywhere." … "Sell any type of digital download such as ebooks, software, design assets, templates, video, music and more. If you can save it, you can sell it." … "Create online courses with rich features such as videos, digital files, quizzes and assignments. Publish drip courses and provide completion certificates." … "Sell your expertise through 1:1 coaching sessions. Easily set up online meetings with clients using Zoom, Calendly and more." … "Allow your customers to pay you on a recurring basis to access your digital downloads or membership group. Manage your members easily." … "Sell and manage inventory for any physical products. Manage your store, fulfill orders, run promotions and more."
 
-**Verbatim snippet (featured prices):** Transitioning Vegan Cookbook $15.00 | Tales Of The Greatcoats $11.99 | Dujitsu Font $19.00 | Keto Cookbook Volume 2.0 $14.99 | Love to Cook Again Weekly Meal Planners $5.95 | Master Handstand $30.00 | Simple Science Fitness $5.99 | Breakfast Eats and Protein £4.50 | Planting Our Roots $10.00
+**Verbatim snippet:** Transitioning Vegan Cookbook $15.00 | Tales Of The Greatcoats $11.99 | Dujitsu Font $19.00 | Keto Cookbook Volume 2.0 $14.99 | Love to Cook Again Weekly Meal Planners $5.95 | Master Handstand $30.00 | Simple Science Fitness $5.99 | Breakfast Eats and Protein £4.50 | Planting Our Roots $10.00
 
 **Source:** https://payhip.com/
 **source_type:** product_listing
@@ -164,17 +156,7 @@ Additional controls: "Related tags" and "[More filters]" and "Filter" button.
 
 **What:** The Virtual Ink store (payhip.com/virtualink/ebooks) lists 6 ebook products. Prices range from $4.99 to $5.99. Two items show "On Sale" with struck-through original prices. One product (Ultimate AI Bundle) displays seller-written text "OVER 10,000 COPIES SOLD!!!" and a "Get 40% Off Now" promotional banner.
 
-**Verbatim snippet (products and prices):**
-- SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place — $4.99
-- Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through)
-- Top 50 Questions About AI — $4.99
-- Top 50 Questions People Ask AI — $4.99
-- Book About AI — $4.99
-- Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI — $5.99 (On Sale; was $11.99, struck through)
-
-Popularity text: "OVER 10,000 COPIES SOLD!!!"
-Promo banner: "⇊ Get 40% Off Now ⇊"
-Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
+**Verbatim snippet:** - SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place — $4.99 | - Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through) | - Top 50 Questions About AI — $4.99 | - Top 50 Questions People Ask AI — $4.99 | - Book About AI — $4.99 | - Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI — $5.99 (On Sale; was $11.99, struck through) | Popularity text: "OVER 10,000 COPIES SOLD!!!" | Promo banner: "⇊ Get 40% Off Now ⇊" | Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **Source:** https://payhip.com/virtualink/ebooks
 **source_type:** product_listing
@@ -188,7 +170,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** Sol Store (NTT Solmare) lists 16 products on page 1 of 2. Products are ASMR audio for the mobile game "Obey Me!" and side stories for "Ex and Bee." Prices: $14.99 (ASMR items), $9.99 (side stories), $29.97 (bundle of 3 side stories), and Free (4 "Quick Cast Talk" items). Both English and Japanese versions are sold.
 
-**Verbatim snippet (selected products and prices):**
+**Verbatim snippet:**
 - Obey Me! ASMR - Leviathan: The Bathtub and You — $14.99
 - Obey Me! ASMR - Belphegor To Wish Upon a Star With You — $14.99
 - Side Story: Meeting in the Rain with Bee — $9.99
@@ -208,13 +190,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** The Purge it with Patti store lists 4 products in its "E-books & Digital Journals" collection. Three products priced at $14.95, one at $7.99. Store has 5 collections visible.
 
-**Verbatim snippet (collections):** "All Products | Purge it with Patti | Paperback Books & Journals | E-books & Digital Journals | My Next Chapter Habit Trackers"
-
-**Verbatim snippet (products and prices):**
-- Purge it Plan E-Book | Detoxify Your Body Digital Download E-Book | Recipes for Detoxing Your Body | Weight Loss | Reset Your Body and Mind — $14.95
-- Detox Diary Prep for the Purge, Digital Journal with Unlimited Pages, Printable, Goodnotes, Journal Mind, Body, Soul, Faith Based, Declutter Pantry, Reflection Journal — $7.99
-- Pray it Like You Mean It - Digital Prayer Journal — $14.95
-- Read it Like You Mean It - Digital Bible Study Journal — $14.95
+**Verbatim snippet:** Collections: "All Products | Purge it with Patti | Paperback Books & Journals | E-books & Digital Journals | My Next Chapter Habit Trackers" | Products in E-books & Digital Journals: - Purge it Plan E-Book | Detoxify Your Body Digital Download E-Book | Recipes for Detoxing Your Body | Weight Loss | Reset Your Body and Mind — $14.95 | - Detox Diary Prep for the Purge, Digital Journal with Unlimited Pages, Printable, Goodnotes, Journal Mind, Body, Soul, Faith Based, Declutter Pantry, Reflection Journal — $7.99 | - Pray it Like You Mean It - Digital Prayer Journal — $14.95 | - Read it Like You Mean It - Digital Bible Study Journal — $14.95
 
 **Source:** https://payhip.com/purgeitwithpatti
 **source_type:** product_listing
@@ -228,7 +204,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** The Serviceform Design & Print store (product page for "Pricing List, Price List Flyer") shows £1.99 pricing. The "You Might Also Like" section shows 10 additional products, ALL priced at £1.99, all Canva template products.
 
-**Verbatim snippet (You Might Also Like products, all £1.99):**
+**Verbatim snippet:**
 - Canva Newsletter Template Fashion — £1.99
 - Unicorn Sparkle with Heart Monogram — £1.99
 - CANVA Workout Planner - Fitness Logbook — £1.99
@@ -280,7 +256,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** The Payhip blog's most recent posts (April 2026) are predominantly competitor-comparison articles, not marketplace/catalog feature announcements. Blog has 20 pages of posts.
 
-**Verbatim snippet (recent titles and dates):**
+**Verbatim snippet:**
 - "5 Amazon KDP Alternatives for Self-Published Authors" — Nicole Martins Ferreira, April 9, 2026
 - "5 Sellfy Alternatives That Are Clearly Better Replacements" — Nicole Martins Ferreira, April 8, 2026
 - "6 Selly Alternatives for Selling Online in 2026" — Nicole Martins Ferreira, April 7, 2026
@@ -681,11 +657,11 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** A third-party article lists recommended tools for Payhip store optimization, including Canva Pro, TidyCal, MailerLite, Carrd ($19/year), TinyPNG, Fathom Analytics, and SurferSEO.
 
-**Verbatim snippet (TidyCal):** "Payhip supports coaching and online sessions, but if you're offering calls or coaching packages, TidyCal is a great external tool that plays nicely with Payhip. Embed booking links directly on your product or confirmation pages."
+**Verbatim snippet:** "Payhip supports coaching and online sessions, but if you're offering calls or coaching packages, TidyCal is a great external tool that plays nicely with Payhip. Embed booking links directly on your product or confirmation pages."
 
-**Verbatim snippet (MailerLite):** "while Payhip has a basic email marketing tool, it's not built for automation-heavy campaigns or serious segmentation. That's where MailerLite comes in."
+**Verbatim snippet:** "while Payhip has a basic email marketing tool, it's not built for automation-heavy campaigns or serious segmentation. That's where MailerLite comes in."
 
-**Verbatim snippet (Carrd):** "Payhip gives you a solid storefront, but sometimes you need something a bit more flexible—especially if you're doing affiliate marketing, blogging, or just want a branded homepage that links to your Payhip store... Create one-page websites in minutes (no coding). Embed your Payhip products or link directly to them." Pricing: "$19/year"
+**Verbatim snippet:** "Payhip gives you a solid storefront, but sometimes you need something a bit more flexible—especially if you're doing affiliate marketing, blogging, or just want a branded homepage that links to your Payhip store... Create one-page websites in minutes (no coding). Embed your Payhip products or link directly to them." Pricing: "$19/year"
 
 **Source:** https://techhubinsider.com/best-tools-to-customize-and-optimize-your-payhip-store-in-2025/
 **source_type:** article
@@ -699,7 +675,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** A VRChat avatar product on Payhip uses time-limited promotional pricing in EUR.
 
-**Verbatim snippet (from search index):** "Available for 35€ until March 1th, After that — the price rises to 65€"
+**Verbatim snippet:** "Available for 35€ until March 1th, After that — the price rises to 65€"
 
 **Source:** https://payhip.com/b/75OWj
 **source_type:** product_listing
@@ -713,7 +689,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** A Roland Boutique JU-06A Editor software product is listed at €6.90.
 
-**Verbatim snippet (from search index):** "Price 6,90 € (About 7 US Dollars)"
+**Verbatim snippet:** "Price 6,90 € (About 7 US Dollars)"
 
 **Source:** https://payhip.com/b/jLFv4
 **source_type:** product_listing
@@ -727,7 +703,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** An "Electric Skylines shawl pattern" uses pay-what-you-want pricing where the listed price is the minimum.
 
-**Verbatim snippet (from search index):** "pay what you feel program... price listed is the minimum"
+**Verbatim snippet:** "pay what you feel program... price listed is the minimum"
 
 **Source:** https://payhip.com/b/AKMI
 **source_type:** product_listing
@@ -911,7 +887,7 @@ Stock display: "Only -1 left" (likely a bug or unlimited stock indicator)
 
 **What:** Search results show a Payhip store called "The Product Store" with categories including New Arrivals, ON SALE!, Dj's Diggin in the Crates, Women's Products, Mens Products, Books, Furniture, Dog Products, Toys.
 
-**Verbatim snippet (from search index):** Prices: $7.49, $8.50, $4.99, $55.00, $80.00, "On Sale", $17.48. Categories: "All Products, New Arrivals, ON SALE!, Dj's Diggin in the Crates, Women's Products, Mens Products, Books, Furniture, Dog Products, Toys"
+**Verbatim snippet:** Prices: $7.49, $8.50, $4.99, $55.00, $80.00, "On Sale", $17.48. Categories: "All Products, New Arrivals, ON SALE!, Dj's Diggin in the Crates, Women's Products, Mens Products, Books, Furniture, Dog Products, Toys"
 
 **Source:** https://payhip.com/theproductstore
 **source_type:** product_listing
