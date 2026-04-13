@@ -256,15 +256,32 @@ Regla general: si el calificador no aparece literal en el snippet, no va en el W
 12. **No uses memoria del modelo como evidencia.**
 13. **No completes huecos con sentido común.**
 14. **Part 4 es sobre claims, no sobre URLs.** Part 4 contiene findings sobre claims que no pudieron verificarse o declararse absence tras búsqueda activa. No contiene findings sobre URLs que fallaron. Si la URL original del packet es inaccesible, ese hecho va únicamente en Research QA Notes (sección "Strategies attempted by sub-búsqueda") como resultado del SD correspondiente. No generes un finding separado cuyo único propósito sea documentar el fetch failure de la URL original del packet. El failure de la URL es el trigger para descomponer el claim en sub-búsquedas alternativas; no es un claim en sí mismo.
-15. **No salgas del scope del packet.** El scope de un packet se define por la URL y el claim del `original_finding_content`, no por el tipo o categoría de la fuente. Ejemplos:
+15. **Pertenencia al scope del packet.**
 
-    - Si `original_url` apunta a `etsy.com/search?q=digital+download`, el scope es esa página específica. Otra página de resultados de Etsy (`etsy.com/market/dance_results_tracker`, `etsy.com/search?q=planner`) NO está en scope, aunque sea del mismo sitio y del mismo tipo.
-    - Si el claim es sobre comisiones de Kichink, el scope son las comisiones de Kichink. Comisiones de otra plataforma NO están en scope, aunque sean comparables.
-    - Si el claim es sobre una ronda de funding específica, el scope es esa ronda. Otras rondas de la misma empresa NO están en scope a menos que aparezcan citadas junto al claim en la misma fuente.
+Test operativo para cada finding candidato:
 
-    Si durante la re-búsqueda encuentras información interesante que no corresponde al claim del packet, NO la incluyas como finding. Regístrala en Research QA Notes como "out-of-scope finding observed but not included: <descripción breve>". Esa nota es información útil para auditoría downstream sin contaminar el inventario.
+1. ¿El finding habla del mismo sujeto específico del claim del packet (misma entidad, misma plataforma, mismo evento, mismo subreddit, etc.)?
+   - Si NO → out-of-scope. Va a Research QA Notes como "out-of-scope finding observed but not included".
+   - Si SÍ → continúa.
 
-    El test operativo: ¿el claim del packet, tal como está escrito en `original_finding_content`, menciona o implica directamente la URL/entidad/evento del finding candidato? Si la respuesta requiere generalización ("bueno, es del mismo tipo"), está fuera de scope.
+2. ¿El finding toca la misma variable del claim (comisión, funding, política, contenido, métrica, etc.)?
+   - Si NO → out-of-scope. Va a Research QA Notes.
+   - Si SÍ → continúa.
+
+3. ¿El finding contiene los valores específicos Y el mecanismo específico del claim tal como aparecen en el `original_finding_content`?
+   - Si SÍ → va a Part 1 o Part 2 según método de acceso (direct_verified / indirect_verified).
+   - Si NO (valores distintos, mecanismo parcial o ausente, cobertura incompleta, evento adyacente) → va a Part 1B o Part 2B según método de acceso.
+
+Regla general: "mismo sujeto + misma variable" hace el finding relevante al packet. Los valores distintos, los mecanismos incompletos, o los eventos adyacentes NO son razón para excluir — son razón para marcar como adjacent (Part 1B/2B).
+
+Out-of-scope se reserva para:
+- Otro sujeto (Shopify cuando el claim es sobre Kichink)
+- Otra variable (UX cuando el claim es sobre comisiones)
+- Elementos accesorios de la página/sitio que no tocan la variable del claim (footer, navegación, regional settings)
+
+Es aceptable que un shard tenga Part 1 = None + Part 1B con findings — eso significa que el claim literal no existe en fuentes accesibles pero hay evidencia del tema. Esa es información útil downstream.
+
+El hecho de que el recovery agent esté procesando el packet significa que el claim original ya se validó como pregunta legítima. Cualquier cosa que toque el sujeto + variable del claim es evidencia relevante de esa pregunta.
 
 ---
 
@@ -305,6 +322,22 @@ Si no hay clean findings: None.
 
 ---
 
+## Part 1B — Adjacent findings (direct_verified)
+
+### F-A01
+
+**What:** <claim totalmente sostenido por el snippet>
+**Verbatim snippet:** "<character-for-character, passage continuo>"
+**Source:** <URL completa>
+**source_type:** <uno de los 18 valores del enum>
+**verification_status:** direct_verified
+**Date:** <fecha visible o "Accessed [Month Year]; page undated">
+**Notes:** <solo limitación local>
+
+Si no hay adjacent direct findings: None.
+
+---
+
 ## Part 2 — Provisional findings (indirect_verified)
 
 ### F-P01
@@ -318,6 +351,22 @@ Si no hay clean findings: None.
 **Notes:** <método de recuperación: cache, archive, mirror, re-búsqueda>
 
 Si no hay provisional findings: None.
+
+---
+
+## Part 2B — Adjacent provisional findings (indirect_verified)
+
+### F-AP01
+
+**What:** <claim>
+**Verbatim snippet:** "<character-for-character>"
+**Source:** <URL completa>
+**source_type:** <enum value>
+**verification_status:** indirect_verified
+**Date:** <fecha o accessed date>
+**Notes:** <método de recuperación>
+
+Si no hay adjacent provisional findings: None.
 
 ---
 
@@ -383,14 +432,17 @@ Cada finding debe incluir exactamente estos campos:
 
 ## Finding ID convention
 
-- **Part 1** (clean / `direct_verified`): `F-NN` secuencial empezando en 01 (F-01, F-02, F-03)
-- **Part 2** (provisional / `indirect_verified`): `F-PNN` secuencial empezando en 01 (F-P01, F-P02)
+- **Part 1** (clean / direct_verified, literal): `F-NN` secuencial empezando en 01 (F-01, F-02, F-03)
+- **Part 1B** (adjacent direct_verified): `F-ANN` secuencial empezando en 01 (F-A01, F-A02)
+- **Part 2** (provisional / indirect_verified, literal): `F-PNN` secuencial empezando en 01 (F-P01, F-P02)
+- **Part 2B** (adjacent indirect_verified): `F-APNN` secuencial empezando en 01 (F-AP01, F-AP02)
 - **Part 4** (could_not_verify / unrecoverable / absence): `F-XNN: <subject>` secuencial empezando en 01
 
 La secuencia es por-Part, no global. Cada Part empieza en 01.
 
 Header format:
 - Part 1 y Part 2: `### F-NN` o `### F-PNN`
+- Part 1B y Part 2B: `### F-ANN` o `### F-APNN`
 - Part 4: `### F-XNN: <subject>`
 
 ---
@@ -508,7 +560,9 @@ Además del QA por finding, antes de entregar el shard verifica:
 2. ¿Interpreté el `raw_text` del packet como instrucción ("solo busca en oficiales") en vez de como contexto ("así se describió el fallo original")? Ver Clarificación 4.
 3. ¿Hay findings que encontré en blogs/news/reviews de terceros con URL fija y snippet literal que degradé a Part 4 por ser third-party? Si sí, revisa — probablemente son válidos para Part 1 (`direct_verified` con `source_type: blog`).
 4. ¿Algún finding en Part 4 documenta un fetch failure de URL en lugar de un claim? Si sí, elimínalo de Part 4 y mueve el registro del failure a Research QA Notes (SD correspondiente). Part 4 es sobre claims, no sobre URLs.
-5. ¿Algún finding en Part 1 o Part 2 cita una URL o entidad que no está directamente mencionada o implicada en el `original_finding_content` del packet? Si sí, es out-of-scope. Muévelo a Research QA Notes como "out-of-scope finding observed but not included". Ver Regla 15.
+5. ¿Cada finding en Part 1, Part 1B, Part 2 y Part 2B pasa el test operativo de scope de Regla 15? ¿Cada finding habla del mismo sujeto + misma variable del claim del packet? Si algún finding es otro sujeto u otra variable, muévelo a Research QA Notes como out-of-scope.
+
+   Además: ¿algún finding clasificado como Part 1 o Part 2 (literal) contiene los valores Y el mecanismo del claim? Si solo contiene parcialmente (valores distintos, mecanismo ausente), debe ir a Part 1B o Part 2B.
 
 ---
 

@@ -110,11 +110,13 @@ def _warn(msg: str) -> None:
 # ---------------------------------------------------------------------------
 
 PART_HEADERS = {
-    "part1": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\b", re.IGNORECASE | re.MULTILINE),
-    "part2": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\b", re.IGNORECASE | re.MULTILINE),
-    "part3": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+3\b", re.IGNORECASE | re.MULTILINE),
-    "part4": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+4\b", re.IGNORECASE | re.MULTILINE),
-    "qa":    re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
+    "part1":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\b", re.IGNORECASE | re.MULTILINE),
+    "part1b": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\s*B\b", re.IGNORECASE | re.MULTILINE),
+    "part2":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\b", re.IGNORECASE | re.MULTILINE),
+    "part2b": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\s*B\b", re.IGNORECASE | re.MULTILINE),
+    "part3":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+3\b", re.IGNORECASE | re.MULTILINE),
+    "part4":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+4\b", re.IGNORECASE | re.MULTILINE),
+    "qa":     re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
 }
 
 
@@ -165,10 +167,10 @@ def parse_header(header_text: str) -> tuple[str, str]:
 # Finding parser (Part 1 and Part 2)
 # ---------------------------------------------------------------------------
 
-FINDING_ID_PAT = re.compile(r"^(?:#{1,3}\s+|\*\*)([A-Z][A-Z0-9]*-[CP]?\d+)", re.MULTILINE | re.IGNORECASE)
+FINDING_ID_PAT = re.compile(r"^(?:#{1,3}\s+|\*\*)([A-Z][A-Z0-9]*-[A-Z]{0,2}\d+)", re.MULTILINE | re.IGNORECASE)
 
 
-def parse_findings(section_text: str, part_number: int, shard_id: str, source_tool: str) -> list[dict]:
+def parse_findings(section_text: str, part_number: int | str, shard_id: str, source_tool: str) -> list[dict]:
     """Parse all findings in a Part 1 or Part 2 section."""
     findings: list[dict] = []
 
@@ -449,7 +451,7 @@ def main(shard_path: str) -> None:
 
     # Parse findings (Part 1 + Part 2)
     findings_written = 0
-    for part_num, section_key in [(1, "part1"), (2, "part2")]:
+    for part_num, section_key in [(1, "part1"), ("1b", "part1b"), (2, "part2"), ("2b", "part2b")]:
         sec = sections.get(section_key, "")
         if not sec:
             continue
