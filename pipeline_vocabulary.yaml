@@ -152,6 +152,27 @@ uncertainties:
     - "4+ uncertainties in a single record triggers needs_human_review."
 
 # =============================================================================
+# PHASE 0 — DATA GATHERING
+# =============================================================================
+
+verification_status:
+  phase: "00"
+  source: "phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md"
+  values:
+    - direct_verified      # URL accesible; snippet confirmado directamente
+    - indirect_verified    # URL bloqueada; contenido recuperado vía cache/archive/mirror/re-búsqueda (recovery agent)
+    - unrecoverable        # Todas las estrategias fallaron; fuente no fijable (recovery agent)
+  deprecated:
+    - blocked_url_index_verified  # Reemplazado por indirect_verified en el recovery agent;
+                                  # aún válido en shards producidos antes del recovery agent
+    - could_not_verify            # Reemplazado por unrecoverable en el recovery agent;
+                                  # aún válido en shards producidos antes del recovery agent
+  notes:
+    - "parse_dg_shard.py no valida este enum — pasa strings sin restricción."
+    - "indirect_verified → traceability_status: complete en Phase 1 (ver source_packet_conversion_template.md)."
+    - "unrecoverable → working/source_intake/rejected_archive/ (interceptado antes de converter_prepare.py)."
+
+# =============================================================================
 # PHASE 1 — SOURCE INTAKE + DATA EXTRACTION
 # =============================================================================
 

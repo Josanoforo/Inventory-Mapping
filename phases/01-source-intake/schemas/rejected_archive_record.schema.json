@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RejectedArchiveRecord",
+  "description": "Registro de finding interceptado antes de Phase 1 por ser unrecoverable tras el recovery agent. additionalProperties: false to prevent silent drift in records that feed Inventory Mapping operations downstream.",
+  "type": "object",
+  "required": [
+    "reason_code",
+    "source_finding_id",
+    "shard_id",
+    "source_tool",
+    "seller_or_subject",
+    "attempted",
+    "archived_at"
+  ],
+  "properties": {
+    "reason_code": {
+      "type": "string",
+      "enum": ["unrecoverable_after_recovery"],
+      "description": "Reason this finding was routed to rejected_archive. unrecoverable_after_recovery means the recovery agent exhausted all strategies; distinct from could_not_verify (pre-recovery, no attempt made)."
+    },
+    "source_finding_id": {
+      "type": "string",
+      "description": "item_id from the part_4 finding (e.g. F-X01). Together with shard_id, uniquely identifies this record."
+    },
+    "shard_id": {
+      "type": "string",
+      "description": "shard_id from the part_4 finding. Together with source_finding_id, uniquely identifies this record."
+    },
+    "source_tool": {
+      "type": "string",
+      "description": "source_tool value from the part_4 finding. Expected value: gpt_custom (recovery agent output)."
+    },
+    "seller_or_subject": {
+      "type": "string",
+      "description": "Subject of the failed finding, verbatim from the part_4 finding."
+    },
+    "attempted": {
+      "type": "string",
+      "description": "Strategies attempted by the recovery agent, verbatim from the part_4 finding attempted field."
+    },
+    "why_failed": {
+      "type": ["string", "null"],
+      "description": "Failure mode, verbatim from the part_4 finding why_failed field. May be empty string or null."
+    },
+    "urls_mentioned": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "URLs encountered during recovery attempts, verbatim from the part_4 finding."
+    },
+    "archived_at": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date when this record was written to rejected_archive (YYYY-MM-DD)."
+    }
+  },
+  "additionalProperties": false
+}

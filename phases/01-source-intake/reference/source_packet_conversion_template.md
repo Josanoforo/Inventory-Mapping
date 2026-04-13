@@ -154,8 +154,18 @@ Heurística:
 
 Equivalencia con DG verification states:
 - `direct_verified` en DG → `complete` o `partial` (depende de si la fecha está)
+- `indirect_verified` en DG → `complete` (misma confianza epistemológica que direct_verified;
+  la limitación es de la herramienta, no de la información; la distinción de método queda
+  en el campo verification_status del finding original)
 - `blocked_url_index_verified` en DG → `partial` o `weak`
+  [DEPRECATED — producido por shards pre-recovery; no aparece en output del recovery agent]
 - `could_not_verify` en DG → no debería llegar a esta conversión, queda en Part 4 de DG
+  [DEPRECATED — reemplazado por unrecoverable en el recovery agent]
+- `unrecoverable` en DG → NO entra al inventario activo de Phase 1. Interceptado en
+  working/data_gathering/diagnostics/part_4/ antes de que converter_prepare.py corra.
+  El paso route_unrecoverable escribe a working/source_intake/rejected_archive/ con
+  reason_code: unrecoverable_after_recovery, preservando los campos attempted y why_failed
+  del finding original.
 
 ## Fallback rules
 
