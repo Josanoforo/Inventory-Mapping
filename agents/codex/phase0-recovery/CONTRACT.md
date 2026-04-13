@@ -125,6 +125,38 @@ Los metadatos del packet (`recovery_id`, `finding_id`, `shard_id`, `failure_mode
 
 ---
 
+## Herramientas de acceso web — independencia
+
+El agente tiene múltiples herramientas para acceder a contenido web. Las principales son:
+
+- `open` (web tool nativa) — abre URLs directamente y devuelve contenido renderizado.
+- `search_query` (web tool nativa) — ejecuta queries sobre índice de buscador y devuelve snippets.
+- `curl` u otras herramientas de shell — hacen HTTP requests desde el environment del shell.
+
+**Regla:** estas herramientas son independientes. El resultado de una NO predice el resultado de otra. Específicamente:
+
+- Si `curl` devuelve 403, timeout, o error, eso NO significa que `open` o `search_query` vayan a fallar. Debes intentar las web tools nativas antes de clasificar una URL como inaccesible.
+- Si `open` falla por timeout, eso NO significa que `search_query` no pueda recuperar el contenido vía índice de la misma URL.
+- Si `search_query` no devuelve snippet, eso NO significa que `open` no pueda acceder directamente a la URL.
+
+**Orden de preferencia obligatorio cuando tienes una URL específica para verificar:**
+
+1. Primero: `open` sobre la URL exacta.
+2. Si `open` falla: `search_query` con `site:<dominio>` + términos del claim para recuperar snippet indexado de la misma URL.
+3. Si ambos fallan: archive.org Wayback, archive.today, Google cache de la misma URL.
+4. Solo después de que los cuatro fallen, la URL se clasifica como inaccesible para ese claim.
+
+Si el shell devuelve error en `curl` o similar, ese resultado no cuenta como evidencia de inaccesibilidad. El shell y las web tools operan en redes distintas con capacidades distintas.
+
+**Clasificación según método exitoso:**
+
+- `open` exitoso sobre URL exacta → `direct_verified`.
+- `search_query` recupera snippet atado a la URL exacta (edge case 4: mirror/cache/index de la misma URL) → `indirect_verified`.
+- Archive/cache de la misma URL → `indirect_verified`.
+- Fuente distinta encontrada por re-búsqueda, que no es mirror de la URL original → es un finding separado con su propia URL como `Source`, clasificado según el método de acceso a esa fuente nueva.
+
+---
+
 ## Search decomposition
 
 ### Regla central
@@ -224,6 +256,15 @@ Regla general: si el calificador no aparece literal en el snippet, no va en el W
 12. **No uses memoria del modelo como evidencia.**
 13. **No completes huecos con sentido común.**
 14. **Part 4 es sobre claims, no sobre URLs.** Part 4 contiene findings sobre claims que no pudieron verificarse o declararse absence tras búsqueda activa. No contiene findings sobre URLs que fallaron. Si la URL original del packet es inaccesible, ese hecho va únicamente en Research QA Notes (sección "Strategies attempted by sub-búsqueda") como resultado del SD correspondiente. No generes un finding separado cuyo único propósito sea documentar el fetch failure de la URL original del packet. El failure de la URL es el trigger para descomponer el claim en sub-búsquedas alternativas; no es un claim en sí mismo.
+15. **No salgas del scope del packet.** El scope de un packet se define por la URL y el claim del `original_finding_content`, no por el tipo o categoría de la fuente. Ejemplos:
+
+    - Si `original_url` apunta a `etsy.com/search?q=digital+download`, el scope es esa página específica. Otra página de resultados de Etsy (`etsy.com/market/dance_results_tracker`, `etsy.com/search?q=planner`) NO está en scope, aunque sea del mismo sitio y del mismo tipo.
+    - Si el claim es sobre comisiones de Kichink, el scope son las comisiones de Kichink. Comisiones de otra plataforma NO están en scope, aunque sean comparables.
+    - Si el claim es sobre una ronda de funding específica, el scope es esa ronda. Otras rondas de la misma empresa NO están en scope a menos que aparezcan citadas junto al claim en la misma fuente.
+
+    Si durante la re-búsqueda encuentras información interesante que no corresponde al claim del packet, NO la incluyas como finding. Regístrala en Research QA Notes como "out-of-scope finding observed but not included: <descripción breve>". Esa nota es información útil para auditoría downstream sin contaminar el inventario.
+
+    El test operativo: ¿el claim del packet, tal como está escrito en `original_finding_content`, menciona o implica directamente la URL/entidad/evento del finding candidato? Si la respuesta requiere generalización ("bueno, es del mismo tipo"), está fuera de scope.
 
 ---
 
@@ -467,13 +508,14 @@ Además del QA por finding, antes de entregar el shard verifica:
 2. ¿Interpreté el `raw_text` del packet como instrucción ("solo busca en oficiales") en vez de como contexto ("así se describió el fallo original")? Ver Clarificación 4.
 3. ¿Hay findings que encontré en blogs/news/reviews de terceros con URL fija y snippet literal que degradé a Part 4 por ser third-party? Si sí, revisa — probablemente son válidos para Part 1 (`direct_verified` con `source_type: blog`).
 4. ¿Algún finding en Part 4 documenta un fetch failure de URL en lugar de un claim? Si sí, elimínalo de Part 4 y mueve el registro del failure a Research QA Notes (SD correspondiente). Part 4 es sobre claims, no sobre URLs.
+5. ¿Algún finding en Part 1 o Part 2 cita una URL o entidad que no está directamente mencionada o implicada en el `original_finding_content` del packet? Si sí, es out-of-scope. Muévelo a Research QA Notes como "out-of-scope finding observed but not included". Ver Regla 15.
 
 ---
 
 ## Lo que NO haces
 
 - No produces pattern candidates propios. Part 3 siempre es `None`.
-- No investigas más allá del scope del `original_finding_content`. Si descomponer el contenido te lleva a una sub-búsqueda que ya está fuera del claim original, no la persigas — regístrala en Research QA Notes como "out-of-scope sub-search not pursued".
+- No investigas más allá del scope del `original_finding_content`. Ver Regla 15 para la definición operativa de scope y el manejo de findings out-of-scope.
 - No cambias el subject del `original_finding_content`.
 - No inventas findings para llenar la salida. Si no hay findings válidos, entrega la estructura completa con cada Part marcada como `None`.
 - No interpretas significado, importancia, fuerza o implicación de los hallazgos.
