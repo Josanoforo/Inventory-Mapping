@@ -202,7 +202,18 @@ Si una sub-búsqueda no rindió ningún finding válido (buscaste activamente en
 1. **One finding = one source only.** No mezcles múltiples URLs, páginas, posts, comentarios, speakers o contenedores.
 2. **Multi-speaker = multi-finding.** Si una página contiene commenters, reviewers, forum participants o accounts distintos, cada voz va en finding separado aunque la URL sea la misma.
 3. **No cross-source synthesis fuera de Part 3.**
-4. **What sostenido por snippet.** El campo What debe estar totalmente sostenido por el Verbatim snippet. No añadas números, qualifiers, países, mecanismos, tiers, fechas, ni implicaciones que no estén en el snippet. No añadas calificadores contextuales (ej. "new shops", "small sellers", "in certain cases") aunque aparezcan en otra parte de la página.
+4. **What sostenido por snippet, sin aritmética ni calificadores agregados.** El campo What debe estar totalmente sostenido por el Verbatim snippet. No añadas números, qualifiers, países, mecanismos, tiers, fechas, ni implicaciones que no estén en el snippet.
+
+**Sin aritmética sobre el snippet.** El What no puede depender de cálculo, ni siquiera trivial, sobre los valores del snippet. Si el snippet dice "$8M total investment" y "$1.1M seed", no puedes reportar "$7M Series A" en el What aunque la resta sea obvia. Dos opciones válidas: (a) extrae un segundo snippet del mismo source que contenga el valor derivado literal, o (b) reformula el What usando solo los valores que sí aparecen literales ("$8M total outside investment, $1.1M seed"). Aritmética trivial sigue siendo interpretación.
+
+**Sin calificadores contextuales agregados.** No añadas al What calificadores que no estén literales en el snippet, aunque sean ciertos por contexto externo. Esto incluye (lista no exhaustiva):
+- calificadores de scope: *new, small, certain, specific, established*
+- calificadores temporales: *en 2021, post-IPO, after the change, during the pandemic*
+- calificadores regulatorios: *post-Reg CF, under SEC rules, under GDPR*
+- calificadores geográficos: *in the US, Latam-wide, EU-only*
+- calificadores causales: *due to, as a result of, because of*
+
+Regla general: si el calificador no aparece literal en el snippet, no va en el What, aunque sea cierto.
 5. **Verbatim snippet character-for-character.** No paráfrasis. No concatenación de quotes de partes distintas del source con "..." o "and". Si viene de tabla, pricing card, FAQ block o structured layout, márcalo como `[Stated in layout: "..."]`.
 6. **Source = URL completa.** Protocolo + dominio + ruta. No es aceptable título, nombre del sitio, ni referencia narrativa. Si no puedes fijar la URL exacta, degrada a `could_not_verify`.
 7. **Notes solo locales.** Permitido: limitación local de verificación, bloqueo de fetch, page undated, structured layout, container limitation, source weakness local, método de recuperación. Prohibido: evidencia extra, interpretación, comparación, contradicción, corroboración, reconciliación, hipótesis, referencias a otros findings.
@@ -212,6 +223,7 @@ Si una sub-búsqueda no rindió ningún finding válido (buscaste activamente en
 11. **No infieras ausencia por página inaccesible.** Si buscaste activamente (en oficiales y terceros) y no encontraste, es absence finding. Si no pudiste fijar la fuente, es `could_not_verify` regular. Son distintos.
 12. **No uses memoria del modelo como evidencia.**
 13. **No completes huecos con sentido común.**
+14. **Part 4 es sobre claims, no sobre URLs.** Part 4 contiene findings sobre claims que no pudieron verificarse o declararse absence tras búsqueda activa. No contiene findings sobre URLs que fallaron. Si la URL original del packet es inaccesible, ese hecho va únicamente en Research QA Notes (sección "Strategies attempted by sub-búsqueda") como resultado del SD correspondiente. No generes un finding separado cuyo único propósito sea documentar el fetch failure de la URL original del packet. El failure de la URL es el trigger para descomponer el claim en sub-búsquedas alternativas; no es un claim en sí mismo.
 
 ---
 
@@ -433,7 +445,7 @@ Las absences son información valiosa downstream — dicen qué no encontramos y
 ## QA antes de cerrar cada finding
 
 1. ¿Todo lo importante del What está visible en el snippet?
-2. ¿El What añade calificadores contextuales (new, small, certain, specific) que no estén en el snippet?
+2. ¿El What añade calificadores contextuales (de scope, temporales, regulatorios, geográficos, causales) que no estén literales en el snippet? ¿Depende de aritmética o cálculo sobre los valores del snippet? Si cualquiera aplica, re-extrae snippet adicional o reformula el What con valores literales. Ver Regla 4.
 3. ¿El campo Source es URL completa, no título?
 4. ¿El finding contiene una sola identidad de fuente?
 5. ¿Si la página tenía múltiples speakers/accounts, este finding quedó separado por speaker/account?
@@ -454,6 +466,7 @@ Además del QA por finding, antes de entregar el shard verifica:
 1. ¿Busqué en fuentes primarias de terceros además de oficiales para cada sub-búsqueda, o solo en oficiales? Si solo en oficiales, la búsqueda no está completa y los absence findings no son válidos.
 2. ¿Interpreté el `raw_text` del packet como instrucción ("solo busca en oficiales") en vez de como contexto ("así se describió el fallo original")? Ver Clarificación 4.
 3. ¿Hay findings que encontré en blogs/news/reviews de terceros con URL fija y snippet literal que degradé a Part 4 por ser third-party? Si sí, revisa — probablemente son válidos para Part 1 (`direct_verified` con `source_type: blog`).
+4. ¿Algún finding en Part 4 documenta un fetch failure de URL en lugar de un claim? Si sí, elimínalo de Part 4 y mueve el registro del failure a Research QA Notes (SD correspondiente). Part 4 es sobre claims, no sobre URLs.
 
 ---
 
