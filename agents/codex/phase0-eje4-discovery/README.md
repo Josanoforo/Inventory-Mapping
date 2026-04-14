@@ -21,7 +21,7 @@ Este agente usa la arquitectura modular compartida introducida en D-167. El `CON
 
 **Lo que vive solo en `phase0-eje4-discovery/CONTRACT.md`:**
 - Cómo tratar una query del xlsx como input de research.
-- Camino A de surfaces (D-166): Reddit primario + blog/medium/forum secundarios.
+- Enum de 4 surfaces soportados.
 - **Reddit-specific operating rules** — multi-speaker split de threads, comments anidados con blockquotes, one-continuous-passage trap (Pattern B), handling de posts removidos/eliminados, regional/subreddit scope.
 - Paths de input y output.
 - Convención de naming del shard (un shard por query).
@@ -31,31 +31,13 @@ Este agente usa la arquitectura modular compartida introducida en D-167. El `CON
 
 ## Fuentes del catálogo
 
-**Catálogo canónico:** `catalogos_eje4_canal_descubrimiento.xlsx` en project files del operador. 186 queries en 4 hojas:
+**Catálogo canónico:** `catalogos_eje4_canal_descubrimiento.xlsx` en project files del operador. El catálogo está distribuido en 4 hojas (`catalogo_1`, `catalogo_2`, `catalogo_3a`, `catalogo_3b`). Los conteos actuales por catálogo y por surface se derivan del xlsx al momento del pre-procesamiento y quedan registrados en el `batch_manifest.json` del batch generado.
 
-| Catálogo | Queries | Foco |
-|---|---|---|
-| `catalogo_1` | 60 | Fricción declarada |
-| `catalogo_2` | 47 | Fricción por migración |
-| `catalogo_3a` | 40 | Presión acumulada sin resolución |
-| `catalogo_3b` | 39 | Búsqueda de resolución operativa |
+**Schema de 12 columnas por query:** `query_id`, `catalogo`, `tema_semilla`, `pattern_id`, `query_text`, `idioma`, `region`, `surface`, `metodo_pago_variable`, `canal_alternativo`, `ventana_temporal`, `notes_operador`. La columna `metodo_pago_variable` está reservada y se llena caso por caso cuando aplique; típicamente es null. Ver CONTRACT.md sección "Qué recibes" para la semántica de cada columna.
 
-**Schema de 12 columnas por query:** `query_id`, `catalogo`, `tema_semilla`, `pattern_id`, `query_text`, `idioma`, `region`, `surface`, `metodo_pago_variable`, `canal_alternativo`, `ventana_temporal`, `notes_operador`.
+**Surfaces soportados (enum cerrado de 4 valores):** `reddit`, `blog`, `medium`, `forum`. Todas las queries del xlsx caen dentro de este enum. El script de pre-procesamiento valida esto y emite warning al manifest si alguna query tiene un surface fuera del enum.
 
-**Distribución por surface:**
-
-| Surface | Queries | % | Status |
-|---|---|---|---|
-| `reddit` | 155 | 83.3% | Ejecutable |
-| `blog` | 11 | 5.9% | Ejecutable |
-| `medium` | 3 | 1.6% | Ejecutable |
-| `forum` | 3 | 1.6% | Ejecutable |
-| `facebook_search` | 6 | 3.2% | Gap (D-166) |
-| `instagram_search` | 4 | 2.2% | Gap (D-166) |
-| `discord` | 2 | 1.1% | Gap (D-166) |
-| `tiktok_search` | 2 | 1.1% | Gap (D-166) |
-
-**Total ejecutable primer pase: 172 queries (92.5%). Total gap-declarado: 14 queries (7.5%).**
+**Nota histórica:** D-166 (sesión 16) declaró como gap del primer pase los surfaces autenticados (`facebook_search`, `instagram_search`, `discord`, `tiktok_search`) por anti-scraping agresivo y auth walls. D-169 (sesión 18, post-D-168) removió físicamente del xlsx las queries con esos surfaces porque el agente no tiene rutas diseñadas para ellos. Si en el futuro alguna de esas surfaces se vuelve accesible, habrá que re-diseñar las queries desde los patterns originales (los patterns viven en los catálogos de seed del proyecto, no en el xlsx limpio).
 
 ---
 
@@ -67,13 +49,13 @@ Este agente usa la arquitectura modular compartida introducida en D-167. El `CON
 python phases/00-data-gathering/scripts/eje4_xlsx_to_json_batch.py
 ~~~
 
-*(El script aún no existe en el repo. Su creación es parte del primer run del agente. Ver sección "Script de pre-procesamiento" más abajo para especificación.)*
+*(El script aún no existe en el repo. Su creación es Tarea 1 del handoff de sesión 18 → 19. Ver sección "Script de pre-procesamiento" más abajo para especificación.)*
 
 ### Output esperado
 
 ~~~
-Total queries in xlsx: 186 | ejecutables: 172 | gap-declarado: 14
-Done — batch: batch_YYYYMMDD_HHMMSS | queries: 172 | gap: 14 | dir: working/eje4/queries/batch_YYYYMMDD_HHMMSS
+Total queries in xlsx: <N> | processed: <N>
+Done — batch: batch_YYYYMMDD_HHMMSS | queries: <N> | dir: working/eje4/queries/batch_YYYYMMDD_HHMMSS
 ~~~
 
 ### Estructura del batch
@@ -81,11 +63,11 @@ Done — batch: batch_YYYYMMDD_HHMMSS | queries: 172 | gap: 14 | dir: working/ej
 ~~~
 working/eje4/queries/
 └── batch_YYYYMMDD_HHMMSS/
-    ├── batch_manifest.json        # metadatos + lista de las 14 gap queries
+    ├── batch_manifest.json        # metadatos + distribución por catálogo y surface
     ├── query_Q-C1-001.json
     ├── query_Q-C1-002.json
     │   ...
-    └── query_Q-C3b-039.json        # 172 archivos de query ejecutables
+    └── query_Q-C3b-NNN.json
 ~~~
 
 ### Formato de `query_Q-XXX-NNN.json`
@@ -116,43 +98,43 @@ Serialización directa del xlsx row como JSON:
   "batch_id": "batch_YYYYMMDD_HHMMSS",
   "generated_at": "YYYY-MM-DDTHH:MM:SSZ",
   "xlsx_source": "catalogos_eje4_canal_descubrimiento.xlsx",
-  "total_queries_in_xlsx": 186,
-  "ejecutables": 172,
-  "gap_declarado": 14,
-  "distribution_by_surface": {
-    "reddit": 155,
-    "blog": 11,
-    "medium": 3,
-    "forum": 3,
-    "facebook_search": 6,
-    "instagram_search": 4,
-    "discord": 2,
-    "tiktok_search": 2
+  "total_queries": <N>,
+  "distribution_by_catalogo": {
+    "catalogo_1": <N>,
+    "catalogo_2": <N>,
+    "catalogo_3a": <N>,
+    "catalogo_3b": <N>
   },
-  "gap_queries": [
-    {"query_id": "Q-CX-XXX", "surface": "facebook_search", "reason": "D-166 auth wall"}
-  ]
+  "distribution_by_surface": {
+    "reddit": <N>,
+    "blog": <N>,
+    "medium": <N>,
+    "forum": <N>
+  },
+  "warnings": []
 }
 ~~~
+
+El campo `warnings` se llena si alguna query tiene surface fuera del enum de 4 valores, o si algún campo obligatorio del schema está nulo. Un manifest sin warnings indica que el xlsx está limpio para el batch.
 
 ### Verificación
 
 ~~~bash
-# Debe retornar 172
+# Debe retornar el total de queries del xlsx
 ls working/eje4/queries/<batch_id>/query_*.json | wc -l
 
-# Debe retornar 172 y 14
-python3 -c "import json; m=json.load(open('working/eje4/queries/<batch_id>/batch_manifest.json')); print(m['ejecutables'], m['gap_declarado'])"
+# Debe coincidir con el contenido del manifest
+python3 -c "import json; m=json.load(open('working/eje4/queries/<batch_id>/batch_manifest.json')); print(m['total_queries'])"
 
-# Debe retornar 0 (ninguna gap query entró como archivo ejecutable)
-ls working/eje4/queries/<batch_id>/query_*.json | xargs -I{} python3 -c "import json,sys; q=json.load(open(sys.argv[1])); print(q['query_id']) if q['surface'] in ['facebook_search','instagram_search','discord','tiktok_search'] else None" {} | wc -l
+# Debe retornar 0 si el xlsx está limpio
+python3 -c "import json; m=json.load(open('working/eje4/queries/<batch_id>/batch_manifest.json')); print(len(m['warnings']))"
 ~~~
 
 ---
 
 ## Paso 2 — Validación técnica antes de escalar
 
-**No correr las 172 queries en un solo run.** Esta validación viene directo de Tarea 2 del handoff de sesión 17.
+**No correr todas las queries del catálogo en un solo run.** Esta validación viene directo de Tarea 2 del handoff de sesión 17.
 
 ### 2.1 — Smoke test con 3-5 queries diversas
 
@@ -178,7 +160,7 @@ Para cada shard, verificar:
 
 ### 2.4 — Decisión de escalar
 
-Si la validación técnica pasa (formato OK + drift ratio bajo + guardrails respetados), escalar a batches más grandes (20 → 50 → 100 → 172).
+Si la validación técnica pasa (formato OK + drift ratio bajo + guardrails respetados), escalar a batches más grandes en incrementos (20 → 50 → 100 → catálogo completo).
 
 Si el contrato tiene problemas, iterar sobre los protocolos compartidos (no sobre el CONTRACT específico del agente) para que la corrección beneficie también al recovery agent. Ver nota en handoff sesión 17 Tarea 2.
 
@@ -196,14 +178,14 @@ working/eje4_discovery/
     ├── compass_artifact_eje4_Q-C1-001_text_markdown.md
     ├── compass_artifact_eje4_Q-C1-002_text_markdown.md
     │   ...
-    └── compass_artifact_eje4_Q-C3b-039_text_markdown.md
+    └── compass_artifact_eje4_Q-C3b-NNN_text_markdown.md
 ~~~
 
-Un shard por query ejecutable. Las queries gap-declarado del `batch_manifest.json` no producen shards.
+Un shard por query. El total depende del xlsx al momento del pre-procesamiento — ver `batch_manifest.json` del batch para el conteo exacto.
 
 ### Resultado esperado
 
-**172 shards** (uno por query ejecutable) por un run del catálogo completo. Un shard con las 4 Parts marcadas como `None` y Research QA Notes completas es un output válido — significa que la query no rindió evidencia accesible en los surfaces buscados. Cero findings NO es un fracaso del agente, y **no** se registra como absence finding en Part 4 (Part 4 del eje4 siempre es `None` — ver CONTRACT.md sección "Comportamiento si la query no rinde").
+Un shard por query ejecutable del batch. Un shard con las 4 Parts marcadas como `None` y Research QA Notes completas es un output válido — significa que la query no rindió evidencia accesible en los surfaces buscados. Cero findings NO es un fracaso del agente, y **no** se registra como absence finding en Part 4 (Part 4 del eje4 siempre es `None` — ver CONTRACT.md sección "Comportamiento si la query no rinde").
 
 ---
 
@@ -217,7 +199,7 @@ input/data_gathering/shards/eje4_discovery/
 
 *(Nuevo directorio. Crear antes del primer run. `parse_dg_shard.py` deriva `source_tool` del nombre del directorio padre, así que los shards depositados en `eje4_discovery/` reciben `source_tool = "eje4_discovery"`.)*
 
-**Pre-flight antes del primer run:** verificar que `parse_dg_shard.py` acepta `eje4_discovery` como valor válido de `source_tool`. Esta verificación ya se hizo en la ejecución de D-167: el `VALID_SOURCE_TOOLS` set en línea 439 del parser fue actualizado para incluir `"eje4_discovery"`. Si en futuras sesiones se crea otro agente Codex, habrá que repetir este pre-flight.
+**Pre-flight antes del primer run:** verificar que `parse_dg_shard.py` acepta `eje4_discovery` como valor válido de `source_tool`. Esta verificación ya se hizo en la ejecución de D-167/D-168: el `VALID_SOURCE_TOOLS` set en línea 439 del parser fue actualizado para incluir `"eje4_discovery"`. Si en futuras sesiones se crea otro agente Codex, habrá que repetir este pre-flight.
 
 ### Ejecutar el parser en bucle sobre todos los shards del batch
 
@@ -244,8 +226,8 @@ Donde `shard_id = "compass_artifact_eje4_Q-C1-001_text_markdown"` (uno por query
 
 ~~~
 1. Script pre-procesa xlsx a JSON por query + manifest
-   working/eje4/queries/<batch_id>/query_Q-XXX-NNN.json  (172 archivos)
-   working/eje4/queries/<batch_id>/batch_manifest.json   (1 archivo con las 14 gap)
+   working/eje4/queries/<batch_id>/query_Q-XXX-NNN.json  (N archivos según xlsx)
+   working/eje4/queries/<batch_id>/batch_manifest.json   (1 archivo con distribución)
 
 2. Smoke test con 3-5 queries → auditoría → decisión de escalar
 
@@ -310,7 +292,7 @@ Auditar manualmente 10 shards al azar buscando Verbatim snippets que hayan conca
 
 ## Script de pre-procesamiento — especificación pendiente
 
-El script `eje4_xlsx_to_json_batch.py` no existe en el repo al cierre de D-167. Su creación es parte del primer run del agente. Especificación:
+El script `eje4_xlsx_to_json_batch.py` no existe en el repo al cierre de D-168. Su creación es Tarea 1 del handoff de sesión 18 → 19. Especificación:
 
 **Input:** `catalogos_eje4_canal_descubrimiento.xlsx` (project files del operador, copiado al working dir del repo).
 
@@ -318,10 +300,10 @@ El script `eje4_xlsx_to_json_batch.py` no existe en el repo al cierre de D-167. 
 
 1. Leer las 4 hojas del xlsx (`catalogo_1`, `catalogo_2`, `catalogo_3a`, `catalogo_3b`).
 2. Validar schema de 12 columnas por hoja.
-3. Para cada row: generar un dict con las 12 columnas como pares clave-valor.
-4. Filtrar rows con `surface in ['facebook_search', 'instagram_search', 'discord', 'tiktok_search']` hacia el manifest (gap-declarado), no hacia archivos de query.
-5. Escribir cada row ejecutable a `working/eje4/queries/batch_YYYYMMDD_HHMMSS/query_<query_id>.json`.
-6. Escribir el `batch_manifest.json` con metadatos agregados + lista de las 14 queries gap.
+3. Validar que cada row tiene los campos obligatorios no-nulos (`query_id`, `catalogo`, `query_text`, `idioma`, `region`, `surface`, `ventana_temporal`). Campos opcionales (`metodo_pago_variable`, `canal_alternativo`, `notes_operador`, `tema_semilla`, `pattern_id`) pueden ser null.
+4. Validar que `surface` de cada row cae dentro del enum de 4 valores (`reddit`, `blog`, `medium`, `forum`). Cualquier row con surface fuera del enum se registra en `warnings` del manifest pero NO se procesa al JSON individual — emitir warning y saltar.
+5. Para cada row válido: generar un dict con las 12 columnas como pares clave-valor y escribirlo a `working/eje4/queries/batch_YYYYMMDD_HHMMSS/query_<query_id>.json`.
+6. Escribir el `batch_manifest.json` con `total_queries`, `distribution_by_catalogo`, `distribution_by_surface`, `warnings`, y timestamp del batch.
 
 **Dependencias:** `openpyxl` (lectura de xlsx), `json` (stdlib), `pathlib` (stdlib), `datetime` (stdlib para timestamp del batch).
 
