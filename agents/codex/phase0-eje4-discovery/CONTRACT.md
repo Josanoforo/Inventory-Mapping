@@ -34,8 +34,8 @@ Un batch de queries del catálogo del eje 4, en forma de rows del archivo `catal
 | `query_text` | **El texto literal a buscar** |
 | `idioma` | `es` / `en` |
 | `region` | `mx` / `co` / `ar` / `us` / `latam_general` |
-| `surface` | Surface primario (`reddit`, `blog`, `medium`, `forum`, etc.) |
-| `metodo_pago_variable` | Opcional — método de pago específico |
+| `surface` | Surface primario donde buscar (ver sección de surfaces) |
+| `metodo_pago_variable` | **Reservado.** Opcional, llenar caso por caso cuando aplique. |
 | `canal_alternativo` | Opcional — canal alternativo específico |
 | `ventana_temporal` | `last_12_months` / `no_filter` / etc. |
 | `notes_operador` | Notas operativas del operador (contexto, no instrucción) |
@@ -47,7 +47,7 @@ El input real de research es **el `query_text`**. Los otros campos son restricci
 - `idioma` — el query está formulado en ese idioma, y las sources esperadas probablemente están en ese idioma. No es restricción dura (un thread en inglés puede contener evidencia relevante), pero es la prior.
 - `region` — geografía del buyer/seller probable. Hint para interpretar findings, no filtro de búsqueda.
 - `surface` — surface primario donde buscar. Ver sección de surfaces más abajo.
-- `metodo_pago_variable` / `canal_alternativo` — cuando están presentes, son dimensiones adicionales del query que deben preservarse en la descomposición. No son filtros: un finding que menciona Stripe es relevante para una query donde `metodo_pago_variable = Stripe` aunque no sea el único método mencionado.
+- `metodo_pago_variable` / `canal_alternativo` — cuando están presentes, son dimensiones adicionales del query que deben preservarse en la descomposición. No son filtros: un finding que menciona Stripe es relevante para una query donde `metodo_pago_variable = Stripe` aunque no sea el único método mencionado. `metodo_pago_variable` está actualmente reservado — típicamente null, se llena caso por caso.
 - `ventana_temporal` — hint de recencia. `last_12_months` significa preferir contenido reciente pero no excluir contenido más viejo si es la evidencia disponible. `no_filter` significa sin restricción temporal.
 - `tema_semilla` — contexto del catálogo, ayuda a interpretar la query pero NO la reemplaza como input. La query_text es el input.
 - `notes_operador` — contexto adicional, no instrucción.
@@ -62,7 +62,7 @@ El input real de research es **el `query_text`**. Los otros campos son restricci
 
 2. **Descompón el `query_text` en sub-búsquedas** aplicando `search_decomposition_rules.md` cuando aplique. Muchas queries del catálogo son atómicas (una sola afirmación, una sola entidad, un solo mecanismo) y no requieren descomposición — en ese caso, `SD-01 = query_text` y procedes directo. Descompón cuando la query contenga múltiples claims, entidades, mecanismos o geografías.
 
-3. **Ejecuta la búsqueda en el surface primario** (ver sección de surfaces). Si el surface primario no rinde, intenta surfaces secundarios. Si todo falla, documenta en absence finding.
+3. **Ejecuta la búsqueda en el surface primario** (ver sección de surfaces). Si el surface primario no rinde, intenta surfaces secundarios. Si todo falla, documenta en Research QA Notes con el `Query outcome` correspondiente.
 
 4. **Multi-speaker split obligatorio para threads.** Reddit threads y blog posts con comentarios activos requieren split por speaker. Ver sección "Reddit-specific operating rules" más abajo.
 
@@ -74,45 +74,26 @@ El input real de research es **el `query_text`**. Los otros campos son restricci
 
 ## Surfaces del catálogo eje 4
 
-El catálogo está distribuido en múltiples surfaces con accesibilidad heterogénea. La decisión D-166 del proyecto DSC establece **Camino A** para el primer pase: Reddit-first, con blog/medium/forum como secundarios, y los 14 queries de surfaces autenticados declarados como gap del primer pase.
+El catálogo contiene queries distribuidas en 4 surfaces accesibles: `reddit`, `blog`, `medium`, `forum`. Todas las queries del xlsx están dentro de este enum de 4 valores — el pre-procesamiento xlsx→JSON valida esto y emite warning al manifest si alguna query tiene un `surface` fuera del enum.
 
-### Surfaces primarios (ejecutar)
+Los conteos específicos por surface y por catálogo viven en el `batch_manifest.json` que genera el script de pre-procesamiento — ver README del agente para el formato del manifest. El agente procesa todas las queries del batch recibido sin aplicar filtros adicionales de surface.
 
-| Surface | % del catálogo | Acceso |
-|---|---|---|
-| `reddit` | 83% (155 queries) | old.reddit.com, www.reddit.com, mirrors (libredd.it) |
-| `blog` | ~6% (11 queries) | Acceso directo con `open` |
-| `medium` | ~2% (3 queries) | medium.com, acceso directo |
-| `forum` | ~2% (3 queries) | Foros públicos específicos, acceso directo |
+### Herramientas de acceso por surface
 
-**Total primarios:** 172 de 186 queries (92.5%).
-
-### Surfaces gap-declarado (NO ejecutar en el primer pase)
-
-Los siguientes surfaces están declarados como gap del primer pase en D-166:
-
-| Surface | Queries | Razón del gap |
-|---|---|---|
-| `facebook_search` | 6 | Auth wall estructural, anti-scraping agresivo |
-| `instagram_search` | 4 | Auth wall estructural, anti-scraping agresivo |
-| `discord` | 2 | Auth wall estructural (requiere membership) |
-| `tiktok_search` | 2 | Auth wall estructural, anti-scraping agresivo |
-
-**Total gap:** 14 queries (7.5%).
-
-Las 14 queries de surfaces gap-declarado **no llegan al agente**. El script de pre-procesamiento xlsx→JSON las filtra y las registra en el `batch_manifest.json` del batch, pero no genera archivos `query_*.json` para ellas. Ver sección "Queries ejecutables vs queries gap-declarado" más abajo.
-
-La decisión de reabrir estos 14 queries en un pase futuro queda pendiente de evidencia del primer pase.
+- **`reddit`** — old.reddit.com, www.reddit.com, mirrors (libredd.it). Ver sección "Reddit-specific operating rules" más abajo para reglas específicas.
+- **`blog`** — acceso directo con `open` a la URL del post.
+- **`medium`** — medium.com, acceso directo con `open`. Paywall ocasional; fallback a `search_query` con `site:medium.com` o archive.org.
+- **`forum`** — foros públicos específicos (Indie Hackers, Gumroad community, etc.), acceso directo.
 
 ### Cuándo intentar surfaces secundarios
 
-Si el surface primario declarado en la query rindió cero findings después de búsqueda activa, intenta los otros surfaces primarios (blog, medium, forum) con los mismos términos antes de declarar absence. Por ejemplo, una query con `surface = reddit` que no rindió nada en reddit puede intentarse en blogs de creadores o medium posts. Documenta el intento en Research QA Notes bajo "Secondary surface attempted for SD-NN".
+Si el surface primario declarado en la query rindió cero findings después de búsqueda activa, intenta los otros surfaces del enum con los mismos términos antes de declarar `Query outcome: query empty`. Por ejemplo, una query con `surface = reddit` que no rindió nada en reddit puede intentarse en blogs de creadores o medium posts. Documenta el intento en Research QA Notes bajo "Secondary surface attempted for SD-NN".
 
 ---
 
 ## Reddit-specific operating rules
 
-Estas reglas aplican porque Reddit es el surface dominante (83% del catálogo) y tiene particularidades operativas que afectan cómo se cumple la regla de single-source.
+Estas reglas aplican porque Reddit es el surface dominante del catálogo y tiene particularidades operativas que afectan cómo se cumple la regla de single-source.
 
 ### Herramientas de acceso
 
@@ -139,10 +120,10 @@ Un thread de Reddit contiene típicamente:
 
 Un comment anidado frecuentemente contiene una quote del comment al que responde, con el formato de blockquote de Reddit:
 
-```
+~~~
 > original comment text
 my response
-```
+~~~
 
 **Regla:** el finding se basa en el contenido propio del commenter, no en el text que está quoting. La quote es contexto del speaker al que responde, pero el commenter no es source primario de lo que dijo el otro. Si quieres un finding sobre el text quoted, tienes que navegar al comment original y extraerlo de ahí como un finding separado con el speaker correspondiente.
 
@@ -154,9 +135,9 @@ Esta trampa se observó empíricamente en los shards archivados del eje 4. Ocurr
 
 **Ejemplo de lo que NO hacer:**
 
-```
+~~~
 Verbatim snippet: "karma: 12,450 ... antes compraba en Etsy ahora compro por Instagram"
-```
+~~~
 
 Eso es concatenación de dos layout regions distintas (profile metadata + body text). La regla de passage continuo lo prohíbe. Aunque ambas partes estén en la misma página, no forman un passage.
 
@@ -198,50 +179,40 @@ La mayoría de queries del catálogo eje 4 son **queries atómicas**: un pattern
 
 ### Input
 
-El agente lee queries del catálogo del xlsx **pre-procesadas como JSON individuales, una por query**. El pre-procesamiento lo hace un script operador-side que convierte `catalogos_eje4_canal_descubrimiento.xlsx` a la estructura de batch:
+El agente lee queries del catálogo del xlsx **pre-procesadas como JSON individuales, una por query**. El pre-procesamiento lo hace un script operador-side (`eje4_xlsx_to_json_batch.py`) que convierte `catalogos_eje4_canal_descubrimiento.xlsx` a la estructura de batch:
 
-```
+~~~
 working/eje4/queries/batch_YYYYMMDD_HHMMSS/
-├── batch_manifest.json        # metadatos del batch (total queries, gap queries, surfaces)
+├── batch_manifest.json        # metadatos del batch (total queries, distribución por surface y catálogo)
 ├── query_Q-C1-001.json        # una query row serializada
 ├── query_Q-C1-002.json
 │   ...
-└── query_Q-C3b-040.json
-```
+└── query_Q-C3b-NNN.json
+~~~
 
-Cada query JSON contiene las 12 columnas del xlsx row como pares clave-valor. El `batch_manifest.json` contiene los metadatos globales del batch: total de queries, número de queries ejecutables, número de queries gap-declarado, distribución por surface, timestamp de generación.
+Cada query JSON contiene las 12 columnas del xlsx row como pares clave-valor. El `batch_manifest.json` contiene los metadatos globales del batch: total de queries, distribución por catálogo, distribución por surface, timestamp de generación. El agente procesa todas las queries del batch recibido sin aplicar filtros adicionales.
 
-### Queries ejecutables vs queries gap-declarado
-
-De las 186 queries del catálogo, **172 son ejecutables en el primer pase** (surfaces `reddit`, `blog`, `medium`, `forum`) y **14 son gap-declarado** (surfaces `facebook_search`, `instagram_search`, `discord`, `tiktok_search`, por D-166). El agente:
-
-- **Ejecuta y produce un shard** por cada una de las 172 queries ejecutables.
-- **No produce shard** para las 14 queries gap-declarado.
-- **Registra las 14 queries gap en el `batch_manifest.json`** (o en un archivo dedicado `batch_gaps.json` dentro del directorio del batch), no dentro de shards individuales.
-
-El script de pre-procesamiento xlsx→JSON es el responsable de separar queries ejecutables de queries gap, para que el agente reciba solo las 172 ejecutables como archivos `query_*.json`. Las 14 gap quedan listadas en el manifest pero no generan archivos de query.
-
-**Total esperado de shards producidos por un run del catálogo completo: 172.**
+El script valida que todas las queries caigan en el enum de 4 surfaces accesibles (`reddit`, `blog`, `medium`, `forum`) y emite warning al manifest si alguna cae fuera. El xlsx actual no contiene queries con surfaces fuera del enum.
 
 ### Output
 
 El shard markdown producido por el agente se deposita en:
 
-```
+~~~
 working/eje4_discovery/batch_YYYYMMDD_HHMMSS/
-```
+~~~
 
 ### Naming del shard
 
-```
+~~~
 compass_artifact_eje4_<query_id>_text_markdown.md
-```
+~~~
 
 **Ejemplo:**
 
-```
+~~~
 compass_artifact_eje4_Q-C1-001_text_markdown.md
-```
+~~~
 
 **Rationale:**
 - `compass_artifact_` — prefijo consistente con el resto del pipeline.
@@ -255,9 +226,11 @@ Un shard por query. Si una query genera múltiples findings, todos van en el mis
 
 Después de que el agente produce el batch de shards:
 
-1. Los shards se copian a `input/data_gathering/shards/gpt_custom/` (o un directorio equivalente para `phase0-eje4-discovery`, TBD).
-2. `parse_dg_shard.py` procesa cada shard y escribe los findings a `working/data_gathering/findings/` y los items de Part 4 a `working/data_gathering/diagnostics/part_4/`.
+1. Los shards se copian a `input/data_gathering/shards/eje4_discovery/`.
+2. `parse_dg_shard.py` procesa cada shard y escribe los findings a `working/data_gathering/findings/` y las QA notes a `working/data_gathering/diagnostics/qa_notes/`.
 3. Los findings re-entran al pipeline Phase 1 sin routing especial.
+
+Eje4-discovery **nunca produce items en `working/data_gathering/diagnostics/part_4/`** porque Part 4 siempre es `None` en sus shards. Ver sección "Comportamiento si la query no rinde" más abajo.
 
 ---
 
@@ -265,7 +238,7 @@ Después de que el agente produce el batch de shards:
 
 Usa el template base de `output_template.md` sin extensiones. Un ejemplo concreto de cómo queda el shard de una query del catálogo:
 
-```
+~~~
 # Research Shard: Eje 4 × Q-C1-001
 
 **Direction statement:** Discovery para query `Q-C1-001` del catálogo eje 4: "no encuentro plantillas en español Etsy" (catalogo 1, pattern C1-P1, surface=reddit, idioma=es, region=latam_general, ventana_temporal=last_12_months).
@@ -332,7 +305,7 @@ None.
 - Removed or deleted posts encountered: <list, o "None">
 - Secondary surface attempted for SD-NN: <si aplica>
 - Cases where query could not be decomposed without interpretation: <list o "None">
-```
+~~~
 
 ---
 
@@ -357,7 +330,7 @@ Además del QA de 12 puntos por finding y del QA de shard completo definidos en 
 2. ¿Algún finding concatenó profile metadata con body text en un Verbatim snippet no-continuo? Si sí, degradar o re-extraer.
 3. ¿Algún finding cita contenido de un comment `[removed]` o `[deleted]`? Si sí, eliminar.
 4. ¿Algún finding agregó la `region` del query row al `What` sin que el speaker la declare literalmente?
-5. ¿El Research QA Notes incluye `query_id`, `pattern_id`, surface attempted, y strategies attempted?
+5. ¿El Research QA Notes incluye `query_id`, `pattern_id`, surface attempted, strategies attempted, y `Query outcome` con uno de los tres estados definidos?
 6. ¿Part 4 quedó marcada como `None`? Eje4-discovery nunca produce absence findings ni ningún otro contenido en Part 4. Si algún finding o anotación se filtró a Part 4, muévelo a Research QA Notes (si era un finding rechazado por edge case) o elimínalo (si era síntesis interpretativa). Ver guardrails anti-drift en `core_protocol.md`. Este agente tiene riesgo elevado de drift porque las queries del catálogo son exploratorias y la tentación de "interpretar" los hallazgos es alta.
 
 ---
