@@ -436,7 +436,7 @@ def main(shard_path: str) -> None:
     shard_id = p.stem  # e.g. "DX-2_gumroad_v2"
 
     # Determine source_tool from the parent directory name
-    VALID_SOURCE_TOOLS = {"deep_search", "gpt_custom"}
+    VALID_SOURCE_TOOLS = {"deep_search", "gpt_custom", "eje4_discovery"}
     parent_dir_name = p.parent.name
     if parent_dir_name in VALID_SOURCE_TOOLS:
         source_tool = parent_dir_name
