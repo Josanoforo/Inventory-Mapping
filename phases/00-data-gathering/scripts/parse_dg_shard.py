@@ -111,13 +111,13 @@ def _warn(msg: str) -> None:
 # ---------------------------------------------------------------------------
 
 PART_HEADERS = {
-    "part1":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\b", re.IGNORECASE | re.MULTILINE),
-    "part1b": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+1\s*B\b", re.IGNORECASE | re.MULTILINE),
-    "part2":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\b", re.IGNORECASE | re.MULTILINE),
-    "part2b": re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+2\s*B\b", re.IGNORECASE | re.MULTILINE),
-    "part3":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+3\b", re.IGNORECASE | re.MULTILINE),
-    "part4":  re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Part\s+4\b", re.IGNORECASE | re.MULTILINE),
-    "qa":     re.compile(r"^#{0,3}\s*(?:\d+\.\s*)?Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
+    "part1":  re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+1\b", re.IGNORECASE | re.MULTILINE),
+    "part1b": re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+1\s*B\b", re.IGNORECASE | re.MULTILINE),
+    "part2":  re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+2\b", re.IGNORECASE | re.MULTILINE),
+    "part2b": re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+2\s*B\b", re.IGNORECASE | re.MULTILINE),
+    "part3":  re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+3\b", re.IGNORECASE | re.MULTILINE),
+    "part4":  re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Part\s+4\b", re.IGNORECASE | re.MULTILINE),
+    "qa":     re.compile(r"^#{0,3}\s*(?:\d+\s*[.·•]\s*)?Research\s+QA\s+Notes", re.IGNORECASE | re.MULTILINE),
 }
 
 
