@@ -91,6 +91,53 @@ Si el surface primario declarado en la query rindió cero findings después de b
 
 ---
 
+## Voz de territorio vs voz editorial
+
+Este agente existe porque deep_search y el recovery agent no capturan cierto tipo de evidencia. Deep_search opera sobre documentación, blogs comparativos, artículos y reports — fuentes donde alguien habla *sobre* el territorio. Recovery verifica claims que ya existen. Ninguno de los dos entra sistemáticamente a conversaciones donde sellers o buyers hablan desde su experiencia directa. El eje 4 existe para capturar esa voz.
+
+Por eso, **no todo passage verificable y tópicamente relevante califica como finding en este agente.** La distinción crítica es:
+
+**Voz de territorio (válido como finding):**
+- Seller o buyer escribiendo desde experiencia personal directa.
+- Conversación entre pares en reddit, foros, Discord, comment sections donde los participantes describen su práctica, problemas, workflows, decisiones.
+- Posts tipo "my journey" donde el autor narra qué probó, abandonó, retuvo — con detalle concreto que solo alguien con experiencia directa conocería.
+- Quejas, preguntas, descripciones de workflow, reports de incidentes, comparaciones vividas en primera persona.
+
+**Voz editorial (NO válido como finding en este agente, aunque sea tópicamente relevante):**
+- Autores de blogs comparativos o "how to choose" en estructura de recomendación retórica.
+- Posts de marketing de afiliados estructurados como reseña-con-call-to-action.
+- Voz corporativa de plataformas (blogs oficiales, páginas de producto, comunicados).
+- Content marketing estructurado como guía al lector, no como descripción propia.
+- Artículos de publicaciones editoriales (tech-business press, industry magazines) sobre el territorio.
+
+La distinción es sobre **quién está hablando y con qué estructura**, no sobre el source_type ni el URL. Un post de Medium puede ser cualquiera de las dos. Un blog personal puede ser cualquiera de las dos. Lo que importa es si el passage proviene de experiencia directa vivida o de producción editorial para consumo externo.
+
+### Casos borde frecuentes
+
+- **Blog oficial de plataforma describiendo sus features.** Voz editorial. Excluir — deep_search ya lo cubre.
+- **Seller con blog personal promocionando su propio producto.** Borderline. Si hay detalle operacional concreto (ventas reales, workflow, decisión vivida), incluir. Si es genérico tipo "yo uso X porque es el mejor", excluir.
+- **Post de "my journey" con varias plataformas probadas.** Voz de territorio típica del eje 4. Incluir aunque no matchee el pattern literal del query — revealed preference es exactamente lo que el eje 4 busca.
+- **Artículo de publicación tech-business sobre el territorio.** Voz editorial. Excluir.
+- **Review de afiliado.** Borderline. Si muestra uso genuino con detalles que no se infieren de documentación, incluir. Si es reseña estructurada por features sin experiencia vivida visible, excluir.
+
+### Regla operativa
+
+Antes de registrar cualquier candidate finding, aplicar el test:
+
+> ¿Este speaker está hablando desde su experiencia directa, o está produciendo content para consumo externo?
+
+- **Experiencia directa** → finding válido, registrar.
+- **Content producido** → no válido en este agente. Documentar en Research QA Notes bajo "Content rejected as editorial voice" con razón específica. No registrar como finding.
+- **Ambiguo** → default a excluir y documentar la ambigüedad en QA Notes. Es mejor perder un finding ambiguo que contaminar el shard con voz editorial.
+
+### Consecuencia para el Query outcome
+
+Si después de buscar, todo el contenido accesible tópicamente relevante resultó ser voz editorial, el shard se entrega con las 4 Parts en `None` y el Query outcome toma un cuarto estado: `"content found but all editorial voice — excluded as not matching eje4 scope"`. Las Research QA Notes deben enumerar qué sources se exploraron y por qué se excluyeron.
+
+**Esto es output válido.** Un shard con cero findings de voz de territorio no es un fracaso — es señal diagnóstica de que el territorio existe como conversación editorial pero no como voz orgánica en las rutas exploradas, lo cual es información accionable sobre el pattern de la query.
+
+---
+
 ## Reddit-specific operating rules
 
 Estas reglas aplican porque Reddit es el surface dominante del catálogo y tiene particularidades operativas que afectan cómo se cumple la regla de single-source.
@@ -299,7 +346,7 @@ None.
 - **Ventana temporal:** last_12_months
 - **Strategies attempted by sub-búsqueda:**
   - SD-01: <summary + result + fetch failures encountered>
-- **Query outcome:** <"findings produced" | "query empty — no evidence in searched locations" | "query empty — surfaces all blocked">
+- **Query outcome:** <"findings produced" | "query empty — no evidence in searched locations" | "query empty — surfaces all blocked" | "content found but all editorial voice — excluded as not matching eje4 scope">
 - Findings rejected due to verification edge case: <list of intended findings + reason (edge case 2/3/5, removed/deleted, one-continuous-passage trap, etc.), o "None">
 - Multi-speaker threads split into separate findings: <list threads y número de findings por thread, o "None applicable">
 - Removed or deleted posts encountered: <list, o "None">
@@ -344,6 +391,7 @@ Además del QA de 12 puntos por finding y del QA de shard completo definidos en 
 - **No cruzas findings entre queries.** Cada query produce su propio shard. No comparas findings de Q-C1-001 con findings de Q-C1-002 dentro de un mismo shard — eso es cross-source synthesis prohibida fuera de Part 3.
 - **No cambias el `query_text` del row.** Si la query está mal formulada (ambigüedad, typo), documéntalo en Research QA Notes como "Query ambiguity observed" pero no reescribas la query.
 - **No inventas findings para llenar la salida.** Si una query no rinde findings, entrega el shard con las 4 Parts marcadas como `None` y Research QA Notes explicando el outcome. Un shard con cero findings y Research QA Notes completas es un output válido.
+- **No registras findings de voz editorial**, aunque el passage sea tópicamente relevante, verificable y esté en un passage continuo. La distinción voz de territorio vs voz editorial está definida en la sección "Voz de territorio vs voz editorial". Deep_search y el recovery agent ya cubren voz editorial — este agente existe específicamente para lo que esas herramientas no alcanzan. Incluir findings de voz editorial en los shards del eje4 contamina el pipeline downstream con evidencia redundante.
 
 ---
 
@@ -357,7 +405,7 @@ Una query que rinde cero findings **no es un fracaso del agente**. Es informaci�
 
 - Entrega el shard con las 4 Parts marcadas como `None`.
 - Completa Research QA Notes con detalle:
-  - **Query outcome:** marca explícita del resultado (ej. "query empty — no evidence in searched locations", "query empty — all attempted URLs returned no direct reports", "query empty — surfaces all blocked").
+  - **Query outcome:** marca explícita del resultado. Estados posibles: "findings produced", "query empty — no evidence in searched locations", "query empty — all attempted URLs returned no direct reports", "query empty — surfaces all blocked", "content found but all editorial voice — excluded as not matching eje4 scope". Ver sección "Voz de territorio vs voz editorial" para el criterio del último estado.
   - **Strategies attempted by sub-búsqueda:** lista las queries ejecutadas, URLs intentadas, rutas probadas (acceso directo, mirrors, archives), y qué falló en cada paso.
   - **Findings rejected due to verification edge case** (si aplica): si viste contenido relevante pero alguno cayó en edge case 2/3/5, one-continuous-passage trap, o `[removed]`/`[deleted]`, documéntalo acá con la razón.
 
