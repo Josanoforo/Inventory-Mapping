@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-29dc5e6f-064",
+  "finding_id": "F-X05",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Conteo de reseñas por producto**",
+    "raw_text": "**What:** No se encontraron datos sobre conteos de reseñas en productos individuales de Kichink.  \n**Verbatim snippet:** n/a — absence finding  \n**Source:** www.kichink.com/buy/213967/ (índice Google), www.kichink.com/buy/994311/ (índice Google), www.kichink.com/buy/1541421/ (índice Google), búsqueda Google \"site:kichink.com categorias\"  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Abril 2026  \n**Notes:** Buscado en las ubicaciones listadas en Source. Las páginas de producto indexadas muestran campos de Categorías, Tamaño, Color, Cantidad, Disponibilidad y Formas de pago, pero no contienen campos de reseñas ni calificaciones visibles en los snippets."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-043",
+  "finding_id": "F-X07",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Facebook groups — blocked (login walls)",
+    "raw_text": "**What:** Facebook group content for Hotmart sellers/producers is behind login walls and not publicly accessible.  \n**Verbatim snippet:** n/a — access blocked  \n**Source:** Searches: `site:facebook.com hotmart vendedor experiencia español`; `facebook hotmart productores grupo experiencia`. Results indicated groups exist but content requires Facebook login.  \n**Notes:** SD-09. Content exists but cannot be accessed or verified without authentication."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-29dc5e6f-060",
+  "finding_id": "F-X01",
+  "shard_id": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "original_url": null,
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Número total de productos activos en el catálogo**",
+    "raw_text": "**What:** No se encontraron datos sobre el número total de productos activos actualmente en el catálogo de Kichink.  \n**Verbatim snippet:** n/a — absence finding  \n**Source:** www.kichink.com (HTTP 403), www.kichink.com/productos (índice Google, muestra \"Cargando productos\"), búsqueda Google \"kichink catálogo\", búsqueda Google \"site:kichink.com categorias\"  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Abril 2026  \n**Notes:** Buscado en las ubicaciones listadas en Source. Las páginas de catálogo retornan HTTP 403 en acceso directo. En el índice de Google muestran \"Cargando productos\" sin conteos observables."
+  }
+}

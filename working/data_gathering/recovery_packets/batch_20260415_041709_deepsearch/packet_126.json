@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-d3output-126",
+  "finding_id": "F-X03",
+  "shard_id": "domestika_d3_output",
+  "original_url": "https://www.domestika.org/es/courses/best-sellers",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Cursos más vendidos / best-sellers como listado dedicado",
+    "raw_text": "navigation to https://www.domestika.org/es/courses/best-sellers (not fetched separately); observed \"Top ventas\" labels in https://www.domestika.org/es/courses and https://www.domestika.org/es/courses/category/11-ilustracion\nsource_type: unknown\nverification_status: could_not_verify\nDate: April 2026\nNotes: La URL /best-sellers sugerida en el shard no fue fetched como página separada. Los resultados de \"Cursos populares\" podrían ser equivalentes funcionales. No se puede confirmar ni negar la existencia de /best-sellers como ruta válida sin fetch directo."
+  }
+}

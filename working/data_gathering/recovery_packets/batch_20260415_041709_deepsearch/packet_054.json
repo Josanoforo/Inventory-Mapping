@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-054",
+  "finding_id": "F-X18",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": "https://www.youtube.com/watch?v=IoyBG0GPEGk",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Jorge Garcia Wit YouTube — transcript not captured verbatim",
+    "raw_text": "**What:** YouTube video by Peruvian Hotmart seller/affiliate/producer with stated 4-year tenure; third-party AI summary references total billings of $60,000+ and ~$98 in recent 7-day period, but raw verbatim transcript could not be obtained.  \n**Verbatim snippet:** \"¿Quieres empezar en Hotmart en 2025 y tener éxito sin cometer errores? En este video te enseño cómo iniciar en Hotmart desde cero, paso a paso, hasta que logres tus primeras ventas.\"  \n**Source:** https://www.youtube.com/watch?v=IoyBG0GPEGk  \n**source_type:** video_transcript  \n**Notes:** YouTube page not directly fetchable. Video description accessed via third-party mirror (videohighlight.com). Description text captured above is verbatim but contains only generic promotional text, not seller experience data. Income figures ($60,000 total, $98/7 days) come from AI-generated transcript summaries on videohighlight.com — these are paraphrased, NOT verbatim transcript. Per rules: What field cannot include figures not supported by verbatim snippet. Finding cannot be properly constructed with available data."
+  }
+}

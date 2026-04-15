@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-e0cb9d73-094",
+  "finding_id": "F-X05",
+  "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+  "original_url": "https://www.youtube.com/results?search_query=kichink+experiencia+vendedor`",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "No Kichink seller videos on YouTube (in-window)",
+    "raw_text": "direct fetch of `https://www.youtube.com/results?search_query=kichink+experiencia+vendedor` (blocked); `site:youtube.com kichink vendedor experiencia`; `site:youtube.com kichink seller experience`; `youtube kichink experiencia vendedor 2025`; `youtube kichink experiencia vendedor 2026`; `youtube kichink opiniones vendedor`; `youtube kichink comisiones`; `kichink youtube review vendedor 2025 2026`; `\"kichink\" site:youtube.com 2025`. All returned zero YouTube results.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** YouTube search page blocked by permissions. `site:youtube.com kichink` queries returned zero results at any date, indicating near-total absence of Kichink content on YouTube."
+  }
+}

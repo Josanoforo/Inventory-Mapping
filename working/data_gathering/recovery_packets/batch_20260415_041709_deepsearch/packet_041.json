@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-f79cab42-041",
+  "finding_id": "F-X05",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "original_url": "https://www.reclameaqui.com.br/empresa/hotmart/",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Reclame Aqui — out of scope (language)",
+    "raw_text": "fetch of https://www.reclameaqui.com.br/empresa/hotmart/ returned permissions error. Reclame Aqui is a Brazilian consumer complaint platform; content is primarily Portuguese.  \n**Notes:** SD-06. Out of scope per language requirement (Spanish only). Site blocked on fetch."
+  }
+}
