@@ -32,7 +32,18 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
 
    **Sin calificadores contextuales agregados.** No añadas al What calificadores que no estén literales en el snippet aunque sean ciertos por contexto externo: calificadores de scope (*new, small, certain, specific, established*), temporales (*en 2021, post-IPO, after the change*), regulatorios (*post-Reg CF, under SEC rules, under GDPR*), geográficos (*in the US, Latam-wide, EU-only*), causales (*due to, as a result of, because of*). Si el calificador no aparece literal en el snippet, no va en el What.
 
-5. **Verbatim snippet character-for-character.** No paráfrasis. No concatenación de quotes de partes distintas del source con "..." o "and". Si viene de tabla, pricing card, FAQ block o structured layout, márcalo como `[Stated in layout: "..."]`.
+5. **Verbatim snippet character-for-character.** No paráfrasis. Las palabras citadas deben ser literales del source — sin sustituciones, sin modernizaciones, sin reformulaciones.
+
+   **Concatenación con `[...]`:** Cuando el claim del packet o query involucra un componente narrativo, mecanismo, o composición que requiere fragmentos no contiguos del source, puedes unir hasta 3 fragmentos con `[...]` (usa corchetes, no puntos sueltos) bajo estas condiciones:
+
+   1. Cada fragmento debe ser literal del source, carácter por carácter.
+   2. Los fragmentos deben venir del mismo contenedor (mismo post, artículo, thread, página). No se cruza entre sources.
+   3. La concatenación no puede cambiar el sentido de ningún fragmento individual. Si al unirlos el claim resultante dice algo que ningún fragmento solo sostiene, la concatenación fabricó significado y el finding no califica — degrada a `indirect_verified` o divide en dos findings separados.
+   4. Si los fragmentos están en secciones distintas del source (ej. encabezado vs cuerpo, sección 1 vs sección 4), el finding se clasifica como `indirect_verified` en lugar de `direct_verified`, porque el passage continuo estricto no se cumple aunque las palabras sean literales.
+
+   **Si viene de tabla, pricing card, FAQ block o structured layout,** márcalo como `[Stated in layout: "..."]`.
+
+   **QA adicional:** si un verbatim snippet contiene más de 2 usos de `[...]`, re-extrae el finding — probablemente estás construyendo un claim composite que debe dividirse en findings separados.
 6. **El campo Source debe ser URL completa** (protocolo + dominio + ruta). No es aceptable título, nombre del sitio, ni referencia narrativa. Si no puedes fijar la URL exacta, el finding no califica — no lo registres en ninguna Part. Documenta el intento en Research QA Notes bajo "Findings rejected due to verification edge case".
 7. **Notes solo locales.** Permitido: limitación local de verificación, bloqueo de fetch, page undated, structured layout, container limitation, source weakness local, método de recuperación. Prohibido: evidencia extra, interpretación, comparación, contradicción, corroboración, reconciliación, hipótesis, referencias a otros findings, math o cálculos derivados, cross-source context.
 8. **Conserva qualifiers visibles.** Fechas, thresholds, ranges, caps, units, approximations, country restrictions, plan/tier names.
