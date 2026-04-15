@@ -1,0 +1,16 @@
+{
+  "what": "Producer in Spain reports a customer-initiated chargeback of $536.35 on a specific transaction; states both Klarna and Stripe Support have confirmed information about the case.",
+  "verbatim_snippet": "\"Soy productor en Hotmart y una clienta ha solicitado un chargeback de $536.35 en la transacción HP3116820252. He contactado con Klarna (caso 100836111) y con Stripe Support. Ambos han confirmado que...\"",
+  "source": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "29 marzo 2026",
+  "notes": "Reviewer \"Javier Serrano,\" location tag ES (Spain). Truncated by Trustpilot. Seller identity confirmed by \"Soy productor en Hotmart.\" Amount: $536.35 — currency symbol \"$\" visible; this is the chargeback amount, not income. Transaction code: HP3116820252. Payment processors mentioned: Klarna (case 100836111), Stripe. Review rated 1 star.",
+  "extra_fields": {
+    "finding_id": "F-12"
+  },
+  "finding_id": "F-12",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}
