@@ -1,0 +1,16 @@
+{
+  "what": "A Brazil-based seller (Carlos Becker) reports that Gumroad only accepted PayPal for payouts in Brazil — no bank accounts, no Stripe — and that support repeatedly said they were \"working on it\" over multiple years. The seller had approximately $98K USD in lifetime sales and $10K USD in fees paid to Gumroad.",
+  "verbatim_snippet": "\"Speaking of alternatives, there aren't any depending on your country. Where I live (Brazil), they only accept PayPal. No bank accounts, no Stripe. I've been wanting to use any of the other two options for years now (they are cheaper), and asked their support about it many times, but always replied something along the lines of 'we are working on it'.\"",
+  "source": "https://carlosbecker.com/posts/gumroad/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "October 2024 (with updates through October 29, 2024)",
+  "notes": "Page returned 403 Forbidden on direct fetch; verbatim confirmed via multiple search engine index entries. Author: Carlos Becker, creator of GoReleaser (software), based in southern Brazil. Direction: Brazil seller → global buyers (outgoing). The post documents a payout crisis starting October 4, 2024, when weekly PayPal payouts stopped with no notice. After public pressure (blog post, X/Twitter, direct message to CEO Sahil Lavingia), Becker received Stripe payouts starting October 24, 2024 and a PayPal balance transfer on October 29, 2024 — described as a one-off workaround, not a systemic change.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

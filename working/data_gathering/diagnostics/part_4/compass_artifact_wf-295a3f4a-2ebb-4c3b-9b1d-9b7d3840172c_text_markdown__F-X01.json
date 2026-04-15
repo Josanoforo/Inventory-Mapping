@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Términos legales de EE.UU. inaccesibles",
+  "attempted": "What: Existe una URL de términos y condiciones específica para compradores en Estados Unidos en kichink.com/us/legal/termsandconditions, con título indexado en inglés \"Terms and Conditions for Buyers\", pero su contenido es inaccesible.\nVerbatim snippet: [Título indexado por Google: \"Terms and Conditions for Buyers\"]\nSource: https://www.kichink.com/us/legal/termsandconditions\nsource_type: policy_page\nverification_status: could_not_verify\nDate: Acceso abril 2026\nNotes: La página devuelve HTTP 403 Forbidden. No se infiere contenido específico de la página inaccesible.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.kichink.com/us/legal/termsandconditions"
+  ]
+}

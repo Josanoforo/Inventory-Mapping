@@ -1,0 +1,13 @@
+{
+  "what": "Buyer reports two payments taken by Lemon Squeezy without their knowledge; has never heard of Lemon Squeezy or how they gained access to the account; none of the buyer's email addresses appear in Lemon Squeezy records; states there is no phone number to contact; demands money back.",
+  "verbatim_snippet": "\"They have taken two payments, but I have never heard of them or how they gained access to my account. When trying to figure out which email is attached, I found that none of my emails are on their records to recover the account, if I have one. There is no number to contact to speak to someone to stop this. I want my money back.\"",
+  "source": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "2025-12-03",
+  "notes": "Reviewer: Nkechi-Vivien Commettant. Buyer does not recognize Lemon Squeezy as a company they purchased from — consistent with merchant-of-record model where \"Lemon Squeezy\" appears on bank statements rather than the actual product seller's name. Beginning of text confirmed in search index; full text sourced from subagent direct page access.",
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

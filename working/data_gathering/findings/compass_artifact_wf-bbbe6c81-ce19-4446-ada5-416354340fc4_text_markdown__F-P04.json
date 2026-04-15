@@ -1,0 +1,13 @@
+{
+  "what": "Buyer purchased course \"ADS LUCRATIVO\" by producer Maria Virgínia. Ad promised 12-month refund guarantee. When buyer tried to request refund, system showed guarantee period expired. Hotmart confirms only 7-day guarantee exists. Purchase used \"parcelamento inteligente\" (smart installment).",
+  "verbatim_snippet": "\"Foi comprado um curso da Maria Virgínia ads lucrativo falando comprando o curso tinha garantia de 12 meses para o reembolso ao tentar solicitar o reembolso já mostra como o prazo do reembolso fora do prazo sendo que no anúncio garantia o prazo de 12 meses gostaria do meu reembolso pois não me identifiquei com o curso\"",
+  "source": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV/",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+  "notes": "Specific complaint URL returned 403; verbatim from Google search snippet. Speaker: Raisa. Product: ADS LUCRATIVO course. Producer: Maria Virgínia. Payment: parcelamento inteligente. Outcome: refund denied (guarantee expired). Reason: buyer did not identify with the course. Seller's ad falsely promised 12-month guarantee vs. platform's 7-day. Complaint predates time window.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

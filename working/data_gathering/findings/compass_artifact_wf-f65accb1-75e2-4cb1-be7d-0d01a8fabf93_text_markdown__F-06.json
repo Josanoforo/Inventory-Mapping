@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad's sales tax help page confirms MoR handles all sales tax collection and remittance worldwide. Sellers with existing indirect tax filing obligations are told to report Gumroad sales as \"sales to other retailers for purposes of resale\" (non-taxable) and to download a Reseller Certificate.",
+  "verbatim_snippet": "\"Gumroad now acts as the Merchant of Record for all sales. This means we automatically handle all sales tax collection and remittance worldwide. You don't need to manage any tax settings or applications - we take care of everything.\"",
+  "source": "https://gumroad.com/help/article/121-sales-tax-on-gumroad",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "The same page adds: \"Some creators may have an obligation to file sales tax (or other indirect tax) returns already, and will need to report their sales on Gumroad as 'sales to other retailers for purposes of resale', which are not taxable.\" This is relevant for LatAm sellers who file IVA returns. The page links EU & UK VAT and Singaporean GST articles but has no LatAm-specific article.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

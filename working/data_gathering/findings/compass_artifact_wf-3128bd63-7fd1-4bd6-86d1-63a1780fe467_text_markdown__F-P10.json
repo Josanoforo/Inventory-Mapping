@@ -1,0 +1,13 @@
+{
+  "what": "Envato may add tax to Author Fees if the author's billing address is in Canada, Mexico, South Africa, Türkiye, or Chile.",
+  "verbatim_snippet": "\"You may see tax added to your Author Fees if your billing address is in: Canada, Mexico, South Africa, Türkiye, or Chile.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/47853405391385-Global-Tax-Collection-VAT-GST-More-Information-for-Authors",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"Mexico\" and \"Chile\" explicitly named as LatAm countries affected. Dimension: TAX. Flow: LatAm→US (tax on Author Fees charged to LatAm-based authors). Mexico and Chile are the only two LatAm countries in this list. Separate passage on same page states authors can add \"tax registration number (e.g. VAT, GST, or RFC number) to your Envato billing details.\"",
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

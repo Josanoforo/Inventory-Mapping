@@ -1,0 +1,16 @@
+{
+  "what": "Etsy payment processing fees for LatAm countries: Argentina 6.5% + $0.30 USD; Brazil 6.5% + $0.30 USD; Chile 6.5% + $0.30 USD; Mexico 4.5% + 8 MXN. Peru is absent from the table. All Payoneer-based LatAm countries (Argentina, Brazil, Chile) have fees denominated in USD. Mexico's fee is denominated in MXN.",
+  "verbatim_snippet": "[Stated in layout: \"Argentina | 6.5% + 0.30 USD\"; \"Brazil | 6.5% + 0.30 USD\"; \"Chile | 6.5% + 0.30 USD\"; \"Mexico | 4.5% + 8 MXN\"]",
+  "source": "https://investomatica.com/etsy-calculator",
+  "source_type": "pricing_page",
+  "verification_status": "direct_verified",
+  "date": "Last reviewed April 4, 2026 (per page header). Source attribution on page: \"Source: etsy.com\"",
+  "notes": "Third-party calculator citing etsy.com as data source. Table contains ~48 countries; Peru is not listed despite being an eligible Etsy Payments/Payoneer country. Mexico flat fee of 8 MXN conflicts with 10.00 MXN shown on Etsy's own etsy.com/mx/payments page — see F-04 and QA Note 1. Dimension: Payout. Cross-border cut: Argentina (ARS/USD), Brazil (BRL/USD), Chile (CLP/USD), Mexico (MXN). Direction: outgoing (LatAm seller → any buyer).",
+  "extra_fields": {
+    "finding_id": "F-01"
+  },
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

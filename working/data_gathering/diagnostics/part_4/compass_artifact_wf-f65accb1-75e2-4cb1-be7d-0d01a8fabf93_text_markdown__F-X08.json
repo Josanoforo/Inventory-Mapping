@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X08",
+  "seller_or_subject": "Payout currencies for specific LatAm countries",
+  "attempted": "**What:** The specific payout currencies for each LatAm direct-deposit country could not be verified directly. The help center's country-currency table is behind a JavaScript-rendered page that could not be extracted. The policy states payouts are in \"native currency,\" and the implied currencies are MXN (Mexico), ARS (Argentina), COP (Colombia), CLP (Chile), PEN (Peru), CRC (Costa Rica), TTD (Trinidad & Tobago), USD (Ecuador — which uses USD officially).\n**Source:** https://help.gumroad.com/article/13-getting-paid\n**source_type:** help_center\n**verification_status:** could_not_verify\n**Date:** Accessed April 2026\n**Notes:** Covers SD-03. The help page states: \"We can only pay out to a local bank account and in your local currency. We cannot pay you out in USD if you are not from the US.\" The country-currency table referenced on the page could not be fully extracted due to login requirements and JS rendering. The specific currencies listed above are inferred from the \"native currency\" policy combined with official national currencies, not directly confirmed from the table.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://help.gumroad.com/article/13-getting-paid"
+  ]
+}

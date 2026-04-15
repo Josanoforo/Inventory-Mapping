@@ -1,0 +1,13 @@
+{
+  "what": "Lemon Squeezy charges a consolidated platform transaction fee of 5% + 50¢ per transaction, with the possibility of small additional fees in edge cases.",
+  "verbatim_snippet": "\"We consolidate complex platform fees into one simple transaction fee of 5% + 50¢, but there are edge cases where small additional fees may need to be applied.\"",
+  "source": "https://www.lemonsqueezy.com/pricing",
+  "source_type": "pricing_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Recovery method: Google search index snippet of the same URL; direct fetch returned 403. Snippet appears consistently across multiple independent search queries.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

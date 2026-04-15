@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy adds +1.5% for international (outside of the US) transactions to the platform fee.",
+  "verbatim_snippet": "\"There are certain times when an additional fee might be added to the platform fee to cover processing fees: +1.5% for international (outside of the US) transactions\"",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. The same page provides an example using \"someone in France (20% VAT)\" as the buyer, confirming the fee is triggered by the buyer's location outside the US, not the seller's location. This means: US seller → LatAm buyer = +1.5% applies; LatAm seller → US buyer = +1.5% does NOT apply.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-P15",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://noda.live/articles/lemonsqueezy-vs-stripe",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "2025-04-28",
+  "verbatim_snippet": "\"Lemon Squeezy is great if you're a digital creator and needs a quick and simple setup. But it's limited—you can't accept pay-by-bank, offline payments, or many other payment methods. Subscriptions run through PayPal, which doesn't give you full control. Stripe gives you more flexibility. You can accept 100+ payment methods, including bank transfers and in-person payments. It supports advanced subscription billing and has tools for custom checkouts. If you just want to sell digital products fast in the US, Lemon Squeezy works. But if you're planning to grow or need more options, Stripe is the better choice.\"",
+  "what": "LS good for digital creators needing quick setup. LS limited: no pay-by-bank, no offline payments, subscriptions through PayPal reduce control. Stripe offers 100+ payment methods, advanced billing, custom checkouts. LS suited for US digital product sellers; Stripe better for growth.",
+  "notes": "Competitor-authored. Author is Senior Fintech Editor at Noda. Despite competitive bias, payment method comparison is factual.",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe",
+    "dimension": "features, payment flexibility, audience fit",
+    "numbers": "100+ payment methods (Stripe)",
+    "stance": "anti-LS (Stripe positioned as better for growth)",
+    "affiliation": "yes — Noda is a payment platform competing in this space"
+  },
+  "finding_id": "F-17",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

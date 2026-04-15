@@ -1,0 +1,13 @@
+{
+  "what": "For international purchases, the price of the product can only be converted into dollar, euro, mexican peso, and peruvian soles at the time of purchase, depending on the country the buyer is in.",
+  "verbatim_snippet": "\"Besides, the price of the product can only be converted into dollar, euro, mexican peso, and peruvian soles at the time of the purchase, depending on the country the buyer is.\"",
+  "source": "https://help.hotmart.com/en/article/213026287/how-does-the-international-purchase-process-work-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "accessed April 14, 2026",
+  "notes": "Verified via direct fetch by two independent subagents. MXN and PEN are explicitly supported as buyer checkout display currencies. Other LatAm currencies (COP, ARS, CLP) are not listed as checkout conversion options in this source.",
+  "finding_id": "F-13",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

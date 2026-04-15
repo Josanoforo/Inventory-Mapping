@@ -1,0 +1,16 @@
+{
+  "what": "PayPal Connect (instant per-sale PayPal payouts) is excluded for Brazil, India, Israel, Japan, Federated States of Micronesia, and Türkiye. Brazilian sellers cannot use either Stripe Connect or PayPal Connect on Gumroad.",
+  "verbatim_snippet": "\"It's available to all creators from countries where PayPal operates, except Brazil, India, Israel, Japan, Federated States of Micronesia, and Türkiye.\"",
+  "source": "https://help.gumroad.com/article/275-paypal-connect",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via search engine index. Brazil is the only LatAm country on this exclusion list. Combined with F-P01 (Stripe Connect exclusion for Brazil), this means Brazilian sellers are excluded from both Connect payout mechanisms and are limited to Gumroad's standard payout cycle.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

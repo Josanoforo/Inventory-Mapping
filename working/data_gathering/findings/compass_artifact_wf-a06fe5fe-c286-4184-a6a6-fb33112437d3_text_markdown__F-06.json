@@ -1,0 +1,16 @@
+{
+  "what": "Issues buyers encounter when downloading files include running out of download credits. Other documented buyer download problems: not having the proper app or tool to open the file, having exceeded download attempts, not having enough space to save the file, having browser extensions enabled (e.g. ad blockers or VPN), and not having a good internet connection. Download credits can be reset by buyer via a \"Reset download credits\" button using their purchase email.",
+  "verbatim_snippet": "\"One of the issues that buyers encounter when downloading files is running out of download credits. A message similar to the one below will appear notifying you that you have already exceeded your download attempts.\\n\\nThis can easily be resolved by simply resetting your credits for this transaction. All you need to do is click the \\\"Reset download credits\\\" button and enter the email you used to make this purchase. [...] If you have any extensions or add-ons running in the background (e.g. ad blockers or VPN), you might run into some issues whilst downloading large files. [...] Another reason that may be preventing you from successfully downloading the files is your internet speed.\"",
+  "source": "https://help.payhip.com/article/228-unable-to-open-file",
+  "source_type": "platform_doc",
+  "verification_status": "direct_verified",
+  "date": "Updated October 21, 2025",
+  "notes": "Buyer-facing help center article. Page title: \"Unable to Download or Open File.\" Article lists five common buyer download issues with solutions. Includes file-type compatibility table (RAR/ZIP, PDF, MP3/MP4, DOCX) with recommended apps per OS. File size displayed next to download button on buyer's download page. Fallback support: contact@payhip.com. [...] marks indicate non-contiguous excerpts within the same article.",
+  "extra_fields": {
+    "finding_id": "F-06"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

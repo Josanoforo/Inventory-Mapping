@@ -1,0 +1,13 @@
+{
+  "what": "Indie software developer launched a niche Windows desktop tool on Payhip with a $49/month subscription. Received first paying customer 2 days after launch via SaaSHub, not Product Hunt. Reports that Payhip's referral/analytics logs are unclear — could not definitively confirm the customer's traffic source.",
+  "verbatim_snippet": "\"On Wednesday morning, while brewing coffee, an alert pops up - Payhip notifies me. A customer signed up for the monthly package costing forty-nine bucks. I honestly believed it was junk mail or some trial charge I'd overlooked. Looked into it again - twice more - to be sure. Nope. Actual buyer. Seems they arrived via SaaSHub, judging by the ref link - though truthfully, I can't say for certain; Payhip's logs aren't that clear.\"",
+  "source": "https://www.indiehackers.com/post/got-my-first-paying-customer-2-days-after-launch-wasnt-where-i-expected-d905b39341",
+  "source_type": "seller_forum",
+  "verification_status": "direct_verified",
+  "date": "December 11, 2025",
+  "notes": "Author is Alex Chen (username: Toolbox). Product is a Reddit data tool for Windows. A discrepancy exists later in the same post: summary line lists \"$4.99\" which conflicts with \"forty-nine bucks\" in the main text. Verbatim snippet preserves the main passage; discrepancy is in a different section.",
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

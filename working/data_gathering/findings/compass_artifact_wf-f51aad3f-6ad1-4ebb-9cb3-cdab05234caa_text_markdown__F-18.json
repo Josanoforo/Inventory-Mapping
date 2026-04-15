@@ -1,0 +1,21 @@
+{
+  "source": "https://dodopayments.com/blogs/lemonsqueezy-review",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "2026",
+  "verbatim_snippet": "\"Feature Gaps: Compared to a full Stripe integration or larger platforms like FastSpring, LemonSqueezy has a narrower focus. It also lacks some advanced funnel customization. So if you need sophisticated checkout flows or alternative business models, you may outgrow it.\" and \"Limited Payment Flexibility: LemonSqueezy's checkout is simpler, but that means fewer options. If you later need to expand beyond card/wallet payments, it may be restrictive. USD-Centric & Fees: All transactions settle in USD. This is fine for US-based creators, but non-US sellers pay extra due to currency fluctuations.\"",
+  "what": "LS has narrower focus than Stripe/FastSpring, lacks advanced funnel customization. Checkout is simpler but fewer payment options. All transactions settle in USD; non-US sellers pay extra.",
+  "notes": "Competitor-authored. USD-centric settlement critique corroborated by multiple independent sources.",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe, FastSpring, Dodo Payments",
+    "dimension": "features, payment flexibility, geographic fit",
+    "numbers": "5% + $0.50 per transaction; up to 21 payment methods",
+    "stance": "anti-LS (promotes Dodo Payments)",
+    "affiliation": "yes — Dodo Payments is a direct competitor"
+  },
+  "finding_id": "F-18",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

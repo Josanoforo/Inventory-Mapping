@@ -1,0 +1,13 @@
+{
+  "what": "For purposes other than EU VAT, including selling to non-EU customers, the Envato Market Author is selling directly to the customer and receiving sale income; the Author subsequently pays an Author fee to Envato.",
+  "verbatim_snippet": "\"For all other purposes, including selling to non-EU customers, and including income tax purposes, the Author is selling directly to the customer and receiving a sale income. Subsequently, the Author pays an Author fee to Envato.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471323-VAT-for-Envato-Market",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"non-EU customers\" (which includes all LatAm countries). Dimension: TAX. This establishes that Envato is NOT the merchant-of-record / supplier-of-record for LatAm transactions on Market — the author is the seller. Separate passage on same page states: \"For EU VAT purposes only, Envato is shown as the supplier of record.\" No equivalent supplier-of-record statement for any LatAm country was found anywhere on this page or on any other Envato page. Cross-border cut is implicit (LatAm is definitionally non-EU) rather than naming a specific LatAm country.",
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

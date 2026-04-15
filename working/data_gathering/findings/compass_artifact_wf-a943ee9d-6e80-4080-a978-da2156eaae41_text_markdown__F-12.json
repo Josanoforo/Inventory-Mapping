@@ -1,0 +1,13 @@
+{
+  "what": "Trustpilot aggregate rating for Etsy is 1.5 out of 5 based on 19,506 reviews; 79% of reviews are 1-star and 14% are 5-star; platform classifies Etsy as \"Bad.\"",
+  "verbatim_snippet": "\"Etsy Reviews 19,506 • TrustScore 1.5 out of 5 • 1.5\"",
+  "source": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026",
+  "notes": "Page directly fetched. Star distribution: 5-star 14%, 4-star 2%, 3-star 2%, 2-star 3%, 1-star 79%. Aggregated rating data. Self-selection bias: dissatisfied customers disproportionately likely to review on third-party sites. Review count showed minor variability across page loads (19,506–19,723 range observed).",
+  "finding_id": "F-12",
+  "shard_id": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

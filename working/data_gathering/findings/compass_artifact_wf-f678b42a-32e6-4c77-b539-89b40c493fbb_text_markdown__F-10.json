@@ -1,0 +1,16 @@
+{
+  "what": "Compras en Chile tienen IVA del 19%. Hotmart recauda el IVA para ventas a compradores en Chile cuando el productor está fuera de Chile. Empresas con RUT válido están exentas.",
+  "verbatim_snippet": "\"Conforme a las regulaciones fiscales locales, a partir de agosto de 2021, Hotmart recauda el IVA (Impuesto al Valor Agregado) en las ventas realizadas a compradores en Chile. [...] El impuesto se aplicará en todas las ventas realizadas a personas físicas con una tasa del 19%. Para compras realizadas por empresas, será posible ingresar un RUT (Rol Único Tributario) válido en la página de pago y, así, obtener la exención del impuesto.\"",
+  "source": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Vigente desde agosto 2021",
+  "notes": "Dimensión Tax. Dirección: cualquier seller fuera de Chile → CL buyer. Hotmart gestiona recaudación de IVA (Escenario 7 del artículo de responsabilidades fiscales). Snippet contiene \"[...]\" porque hay texto intermedio de contexto; ambos pasajes están en la misma sección del artículo.",
+  "extra_fields": {
+    "finding_id": "F-10"
+  },
+  "finding_id": "F-10",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

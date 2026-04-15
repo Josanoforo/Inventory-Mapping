@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy charges an additional +1.5% for international transactions on top of its standard platform fee.",
+  "verbatim_snippet": "[Stated in layout: \"Additional Fees: +1.5% for international transactions, +1.5% for PayPal transactions, +0.5% for subscription payments\"]",
+  "source": "https://sourcefees.com/detail/lemonsqueezy",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Third-party fee aggregation site. The +1.5% international fee applies when the buyer is outside the US per Lemon Squeezy's official documentation (see F-P15). The +1.5% PayPal and +0.5% subscription fees in the same layout element are not cross-border-specific.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

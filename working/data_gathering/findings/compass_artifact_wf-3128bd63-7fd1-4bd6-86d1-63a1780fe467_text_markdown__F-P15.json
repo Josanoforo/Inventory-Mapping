@@ -1,0 +1,13 @@
+{
+  "what": "Payoneer Global Bank Transfer from Envato converts from USD at a cost of $1.50 per transfer plus a 2% Foreign Exchange conversion fee on top of the daily mid-market rate.",
+  "verbatim_snippet": "\"Currency conversions take place from USD and costs $1.50 per transfer, plus 2% Foreign Exchange (FX) conversion fee on top of the daily mid-market rate.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471963-Payoneer-FAQs",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"from USD\" + currency conversion mechanism. Dimension: PAYOUT. Applies to all LatAm authors using Payoneer Global Bank Transfer to receive in local currency (MXN, BRL, ARS, COP, CLP, PEN, etc.). Separate passage on same page: \"Payments sent via USD SWIFT transfers to your bank account via Payoneer will incur a flat fee of $15.00.\" Also: \"Payoneer offers payments in over 200 countries and more than 150 currencies.\"",
+  "finding_id": "F-P15",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

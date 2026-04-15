@@ -1,0 +1,13 @@
+{
+  "what": "Competitor blog calculates Patreon's total effective fee at ~13% (10% platform + 2.9% + $0.30 processing), showing that at $10,000/month revenue the annual fee burden reaches $15,600.",
+  "verbatim_snippet": "\"Patreon now charges a flat 10% platform fee (people joining after August 4, 2025) plus 2.9% + $0.30 payment processing on every transaction. That's 13% total. The math: At $5,000/month revenue, you're paying $650 monthly in fees, $7,800 annually. Scale to $10,000/month and you're losing $15,600 per year.\"",
+  "source": "https://buddyboss.com/blog/best-patreon-alternatives/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; references August 2025 pricing change",
+  "notes": "Third-party comparative (sub-type b). Author: BuddyBoss editorial. Other platforms: BuddyBoss, Ghost, Mighty Networks, Ko-fi (mentioned elsewhere in article). Dimension: total fee calculation and cost at scale. Disclosed affiliation: BuddyBoss is a competitor to Patreon. Text from search engine snippet. \"Losing\" framing reflects competitive bias.",
+  "finding_id": "F-P14",
+  "shard_id": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

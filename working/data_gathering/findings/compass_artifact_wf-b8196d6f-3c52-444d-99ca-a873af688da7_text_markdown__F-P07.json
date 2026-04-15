@@ -1,0 +1,16 @@
+{
+  "what": "TechCrunch reported that Lemon Squeezy co-founder and CEO JR Farr described the company as a 13-person entity that publicly launched in 2021.",
+  "verbatim_snippet": "\"Lemon Squeezy co-founder and CEO JR Farr noted that since his 13-person company's public launch in 2021\"",
+  "source": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy/",
+  "source_type": "article",
+  "verification_status": "blocked_url_index_verified",
+  "date": "July 26, 2024",
+  "notes": "TechCrunch article covering Stripe's acquisition of Lemon Squeezy. Unable to confirm whether the page was directly fetched or data came from search snippet; degraded to provisional. The 13-person figure reflects team size at time of reporting (July 2024), not necessarily current state. The same article separately states Lemon Squeezy surpassed $1 million in annual recurring revenue nine months after its public launch, but that appears in a different passage and is therefore not included in this finding's verbatim. Journalism single-source rule applies (TechCrunch is primary reporting with direct CEO quotation).",
+  "extra_fields": {
+    "finding_id": "F-P07"
+  },
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

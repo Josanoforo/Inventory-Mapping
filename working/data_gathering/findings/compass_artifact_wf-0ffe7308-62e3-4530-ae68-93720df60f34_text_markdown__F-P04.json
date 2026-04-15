@@ -1,0 +1,16 @@
+{
+  "what": "Starting January 1, 2026, Etsy increased ISR withholding rate for individual Mexico sellers from 1% to 2.5%. No changes to the 20% ISR rate for sellers without valid RFC. New for 2026: legal entity sellers with valid RFC are now also subject to 2.5% ISR and 8% IVA withholding on Etsy sales.",
+  "verbatim_snippet": "\"Starting January 1, 2026, Etsy will start collecting and remitting the revised Income tax withholding (ISR) rate for Individual sellers, which is increasing from 1% to 2.5%, on your sales on Etsy platform. There will be no changes to the 20% ISR rate or the IVA rate applied in cases where no RFC ID is provided or the RFC ID provided is invalid. For legal entity sellers, Etsy will also start withholding 2.5% Income tax (ISR) and 8% VAT (IVA), on sales on the Etsy platform, provided a valid RFC ID is provided.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Content references effective date January 1, 2026. URL returned 403; content verified via search engine index snippet, including Google Search result viewed April 14, 2026.",
+  "notes": "Same source as F-P03 but distinct finding (2026 rate changes). Before 2026, legal entity sellers with valid RFC had 0% withholding; now they are subject to 2.5% ISR + 8% IVA. Individual sellers with valid RFC: ISR increased from 1% to 2.5%. The 8% IVA equals 50% of Mexico's 16% VAT rate, consistent with Mexico's digital platform tax framework per KPMG and Fonoa analyses. Dimension: Tax. Cross-border cut: Mexico (ISR/IVA 2026 update). Direction: outgoing (Mexico seller → any buyer).",
+  "extra_fields": {
+    "finding_id": "F-P04"
+  },
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

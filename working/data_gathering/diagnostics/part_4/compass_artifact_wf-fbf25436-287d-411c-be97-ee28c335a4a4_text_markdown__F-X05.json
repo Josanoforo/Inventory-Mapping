@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X05",
+  "seller_or_subject": "SimilarWeb traffic and behavior data for gumroad.com",
+  "attempted": "- **What:** Partial SimilarWeb data recovered from search snippets: 64.55% male / 35.45% female visitors; largest age group 18–24; direct traffic 58.05% of desktop visits; YouTube is top social traffic source; chatgpt.com accounts for 3.48% of referral traffic.\n- **Verbatim snippet:** \"gumroad.com's audience is 64.55% male and 35.45% female. The largest age group of visitors are 18 - 24 year olds.\" (from search snippet of SimilarWeb page)\n- **Source:** https://www.similarweb.com/website/gumroad.com/\n- **source_type:** database_profile\n- **verification_status:** could_not_verify\n- **Date:** February 2026 (data period per snippet); source URL not directly accessed\n- **Notes:** Direct fetch of SimilarWeb URL failed (permissions error). All data obtained from search engine result snippets only. Per Edge 3 (intermediary verification not valid indirect access), degraded to could_not_verify. SimilarWeb data is estimated, not GA4-verified. Desktop-only for traffic source breakdown. The chatgpt.com referral at 3.48% is a notable data point about buyer discovery channels if verified.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.similarweb.com/website/gumroad.com/"
+  ]
+}

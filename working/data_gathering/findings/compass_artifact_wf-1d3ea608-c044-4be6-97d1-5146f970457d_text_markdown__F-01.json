@@ -1,0 +1,13 @@
+{
+  "what": "Domestika declares that display currency is based on user's location at account creation, but all final charges are always calculated in USD, with exchange rates applied by payment providers.",
+  "verbatim_snippet": "«Las tarifas pueden variar según su ubicación y otros factores. Si tiene la sesión iniciada en su cuenta, la moneda que verá seleccionada se basará en su ubicación en el momento de crear la cuenta. No obstante, las tarifas finales que le cobremos se calcularán siempre en USD; por tanto, dichas tarifas finales pueden variar en función de las tasas de cambio de divisas prevalentes que nuestros proveedores de pago ofrezcan.»",
+  "source": "https://www.domestika.org/es/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "31 de enero de 2024 (stated on page: «Estas Condiciones de uso se actualizaron por última vez el 31 de enero de 2024.»)",
+  "notes": "None.",
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

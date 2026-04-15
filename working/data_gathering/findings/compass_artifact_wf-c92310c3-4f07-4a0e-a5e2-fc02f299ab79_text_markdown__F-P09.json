@@ -1,0 +1,13 @@
+{
+  "what": "Domestika identifies dLocal as the processor for local payment methods (cash, bank transfer) on the website, requiring buyers to provide proof of payment or receipt from the store where the deposit was made.",
+  "verbatim_snippet": "\"Payment on the website through local methods (cash, bank transfer) processed by dLocal: proof of payment or receipt from the store where the deposit was made.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003052038-I-can-t-find-my-course-in-my-profile",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. dLocal is a publicly traded LatAm-focused cross-border payment processor (NASDAQ: DLO), confirming Domestika uses specialized LatAm payment infrastructure for local cash/bank-transfer flows in Mexico, Colombia, and Brazil. The same passage also appears on https://support.domestika.org/hc/en-us/articles/4406236005137.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

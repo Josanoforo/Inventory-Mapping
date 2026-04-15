@@ -1,0 +1,13 @@
+{
+  "what": "Venezuelan citizens who currently work for the Venezuelan Government are prohibited by US sanctions from transacting on Envato platforms as authors or customers.",
+  "verbatim_snippet": "\"Additionally, current US sanctions against Venezuela also prohibit us from allowing authors and customers who are citizens of Venezuela and who currently work for the Venezuelan Government to transact on our platforms.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471303-What-Countries-Can-I-Not-Use-Envato-From",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"Venezuela\" + \"US sanctions\" + geographic restriction. Dimension: AVAILABILITY. Flow: Applies to both directions (LatAm→US and US→LatAm). Same page states general payout-blocked countries: \"if your residential address is located in Russia, Belarus, Afghanistan, Sudan, or Libya, we will not be able to pay you\" — no LatAm country appears in the payout-blocked list. Also: \"Due to payment restrictions, we are not accepting new author signups from Russia, Belarus, Afghanistan, Sudan, or Libya\" — no LatAm country is blocked from signup.",
+  "finding_id": "F-P16",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

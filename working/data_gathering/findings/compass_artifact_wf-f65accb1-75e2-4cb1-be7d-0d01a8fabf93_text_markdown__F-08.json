@@ -1,0 +1,16 @@
+{
+  "what": "On October 16, 2024, Gumroad emailed sellers that PayPal had suspended Gumroad's use of their service, that PayPal payouts could no longer be processed, and urged sellers to connect a bank account. Sellers in countries without direct bank transfer support were told to change their country to one where they have identity verification and a bank account.",
+  "verbatim_snippet": "\"We wanted to inform you that PayPal has suspended Gumroad's use of their service. As a result, we can no longer process payouts to PayPal accounts. We've invested heavily in direct bank transfers for nearly every country. We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts.\"",
+  "source": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+  "source_type": "seller_forum",
+  "verification_status": "direct_verified",
+  "date": "October 16, 2024 (email timestamp: Wed, 16 Oct 2024 22:11:34 UTC)",
+  "notes": "Posted verbatim by Polycount user \"RN.\" The email also states: \"If you're based in a country where we don't yet support direct bank transfers (such as (...)), you can change your country to one where you have identity verification and a bank account.\" The \"(...)\" is a redaction by the poster, not the original email. A separate Gumroad auto-reply from agent \"Jayson\" in the same thread stated: \"We've removed PayPal as a payment option to lower technical complexity prior to open sourcing Gumroad and to mitigate fraud\" — contradicting the email's framing that PayPal initiated the suspension.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-08",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

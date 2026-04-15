@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy bank payout fees for international (non-US) users are 1%; US bank payouts are free (0%).",
+  "verbatim_snippet": "\"Lemon Squeezy has slashed its fees for stores that get payouts via Stripe. Payouts to U.S. bank accounts will now be free, while international users will pay 1%.\"",
+  "source": "https://www.indiehackers.com/post/tech/lemon-squeezy-is-slashing-its-payout-fees-so-long-as-you-use-stripe-s5aeYKsIj9dWWq7TlaBb",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "October 24, 2024",
+  "notes": "Article by Katie Hignett (Indie Hackers). Edge 1 applied: journalism article = single-source (article). \"International\" means non-US in this context. Effective October 28, 2024 per same article. Applies to all LatAm sellers using bank payouts.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

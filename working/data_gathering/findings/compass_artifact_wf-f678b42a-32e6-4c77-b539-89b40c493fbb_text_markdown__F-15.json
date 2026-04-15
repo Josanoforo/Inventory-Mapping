@@ -1,0 +1,16 @@
+{
+  "what": "La cuenta bancaria para retiros debe estar registrada en el mismo país de residencia del usuario. No es posible registrar cuentas bancarias de países diferentes al registrado en la plataforma.",
+  "verbatim_snippet": "\"Tu cuenta bancaria debe estar registrada en el mismo país donde resides. No es posible registrar cuentas bancarias de países diferentes a los que están registrados en la plataforma.\"",
+  "source": "https://help.hotmart.com/es/article/23867226765709/-como-registrar-mi-cuenta-bancaria-para-retiros-fuera-de-brasil-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Availability. Implicación cross-border directa: un vendedor en Venezuela no puede vincular una cuenta bancaria en US; un vendedor en Argentina no puede recibir en cuenta colombiana. Restringe opciones de payout cross-border de facto.",
+  "extra_fields": {
+    "finding_id": "F-15"
+  },
+  "finding_id": "F-15",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

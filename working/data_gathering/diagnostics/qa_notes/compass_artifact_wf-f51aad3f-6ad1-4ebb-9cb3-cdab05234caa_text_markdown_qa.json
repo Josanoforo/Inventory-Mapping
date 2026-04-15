@@ -1,0 +1,17 @@
+{
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "additional_thirdparty_sources_discovered_beyond_starting_points": "ruul.io, oitia.com, wearefounders.uk, userjot.com, hise.audio forum, metacto.com, wpsmartpay.com.",
+  "part_1_findings": "URLs were accessed via web_search and web_fetch tools. Snippets confirmed against rendered page content or search engine index showing the same URL.",
+  "part_2_findings": "LS pages returned 403. Content captured from Google search result snippets displaying content from the blocked URLs. Verification status set to blocked_url_index_verified per conservative degradation rule.",
+  "all_findings_passed_the_strict_name_test": "\"Lemon Squeezy\" or \"LemonSqueezy\" or \"lmsqueezy\" appears explicitly in each source.",
+  "sources_with_explicit_competitive_affiliation": "swell.is (F-11), fungies.io (F-12, F-13), polar.sh (F-16), noda.live (F-17), dodopayments.com (F-18), boathouse.co (F-20 — Paddle partner).",
+  "sources_with_affiliatereferral_links": "anotherwrapper.com (F-05, F-06, F-07), dev.to/devtoolpicks (F-08).",
+  "sources_with_personal_platform_preference": "veloxthemes.com (F-01–F-04, now sells on Polar).",
+  "founder_statement": "F-P11 (Jason Schuller, LS founder).",
+  "competitor_product_builder": "HN user ben_makes_stuff (identified but not included as clean finding due to competing product affiliation and indirect access).",
+  "reddit_comparative_discussions": "the single largest content gap. Multiple substantive threads confirmed to exist but not directly accessible.",
+  "ls_comparison_pages_for_competitors_beyond_gumroad_and_paddle": "none exist. No /stripe-alternative, /chargebee-alternative, etc.",
+  "postacquisition_july_2024_official_ls_statements_comparing_to_specific_competitors": "none found beyond the pre-existing /gumroad-alternative and /paddle-alternative pages.",
+  "hacker_news_comments_beyond_the_primary_thread_itemid43604378": "additional threads (item?id=41080018 — Stripe acquires LS, 250 points, 205 comments) were identified but individual comment verification was limited."
+}

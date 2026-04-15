@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad requires sellers to physically live in and prove residence in their payout country. Sellers with a bank account in a different country cannot receive payouts there. Business sellers must have the business registered in the same country as their residence.",
+  "verbatim_snippet": "\"Also, if you are selling as a business, the business must be registered in the same country. Having a bank account based in another country will not, unfortunately, allow us to pay you out to that bank account unless you physically live (and can prove residence) in that country.\"",
+  "source": "https://help.gumroad.com/article/13-getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via search engine index. This residency requirement prevents LatAm sellers from routing payouts through US bank accounts or accounts in other countries. The same page adds: \"Due to restrictions from our payment partners, you may have to forfeit your balance if you want to change your country in the future. Choose carefully!\" — imposing a country-lock with potential balance forfeiture.",
+  "extra_fields": {
+    "dimension": "Availability"
+  },
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

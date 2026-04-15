@@ -1,0 +1,16 @@
+{
+  "what": "When sales tax has been applied to an order, Lemon Squeezy deducts it from the seller's next payout and then reports and remits it.",
+  "verbatim_snippet": "\"Sales tax will appear in your orders and invoices in Lemon Squeezy so you can see when we've charged sales tax. If sales tax has been applied to an order, we will deduct it from your next payout so that we can report and remit it.\"",
+  "source": "https://docs.lemonsqueezy.com/help/payments/sales-tax-vat",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. This mechanism applies to all cross-border sales. For a US buyer purchasing from a LatAm seller, US sales tax collected by LS would be deducted and remitted by LS.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

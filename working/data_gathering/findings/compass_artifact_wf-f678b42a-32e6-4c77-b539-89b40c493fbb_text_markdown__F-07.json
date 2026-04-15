@@ -1,0 +1,16 @@
+{
+  "what": "El Productor es responsable de gestionar impuestos y emitir facturas para TODAS las ventas a compradores en Colombia, sin importar la ubicación del productor.",
+  "verbatim_snippet": "\"Escenario 14 Si tu comprador está en Colombia y tú, Productor(a), tienes tu cuenta registrada en Colombia u otro país, sea personal o empresarial, tendrás la responsabilidad de gestionar los impuestos y emitir las facturas.\"",
+  "source": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Efectivo desde 1 de enero de 2024 / 1 de abril de 2025",
+  "notes": "Dimensión Tax. Dirección: US seller → CO buyer y CO seller → US buyer (ambos). A diferencia de las ventas a US (F-06), aquí Hotmart NO gestiona impuestos; el productor asume toda la responsabilidad fiscal.",
+  "extra_fields": {
+    "finding_id": "F-07"
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

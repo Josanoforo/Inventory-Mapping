@@ -1,0 +1,16 @@
+{
+  "what": "Etsy announced in late 2022 that starting January 1, 2023, it would begin withholding ISR and IVA from Mexico sellers. The maximum withholding of 36% breaks down as 20% income tax (ISR) on all sales plus 16% IVA on domestic orders when no RFC is provided. Registering a valid RFC significantly reduces withholding.",
+  "verbatim_snippet": "\"Starting Jan 1, 2023, to comply with local laws, Etsy will start withholding taxes from the sales of sellers in Mexico to cover impuesto sobre la renta (ISR) and impuesto al valor agregado (IVA). These funds will then go to the Servicio de Administración Tributaria (SAT). The amount Etsy is required to withhold can be as high as 36% of the order total, however if you register for a Registro Federal de Contribuyentes (RFC) identification number and add it to your Etsy account, significantly less tax (see more below) will be withheld from your Etsy sales.\"",
+  "source": "https://community.etsy.com/t5/Announcements/Important-New-tax-requirements-for-sellers-in-Mexico/td-p/140124123",
+  "source_type": "seller_forum",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Posted late 2022; policy effective January 1, 2023. Page now behind community login wall; content verified via search engine index.",
+  "notes": "Additional snippet from same announcement: \"Why can the withholding amount be as high as 36% of the order total? This is because the income tax on all sales can be up to 20% and then there is an additional tax of 16% on domestic orders if you have not provided Etsy with your RFC ID.\" This community announcement is the official Etsy communication channel for this policy change. Dimension: Tax. Cross-border cut: Mexico (ISR/IVA). Direction: outgoing (Mexico seller → any buyer; IVA only on Mexico-to-Mexico domestic).",
+  "extra_fields": {
+    "finding_id": "F-P11"
+  },
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

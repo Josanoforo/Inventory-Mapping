@@ -1,0 +1,16 @@
+{
+  "what": "Un vendedor hispanohablante con audiencia en LatAm reporta que el sistema de comisiones de Hotmart obliga a pasar dos veces por conversión de moneda (moneda del comprador → USD de Hotmart → moneda del vendedor), generando pérdidas significativas para quienes venden mayoritariamente a países latinoamericanos.",
+  "verbatim_snippet": "\"Tienes que retirar tu saldo en dólares. Antes solo estaba en euros y ahora en dólares. No sé. Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+  "source": "https://bigbangconversion.com/blog/opinion-hotmart/",
+  "source_type": "seller_forum",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Post original: octubre 2020; blog activo con comentarios hasta 2024",
+  "notes": "Dimensión Currency. Dirección: EU/ES seller → LatAm buyers. El mecanismo descrito es consistente con la documentación oficial (F-01, F-02): comisiones solo en BRL/USD/EUR/GBP, nunca en moneda local LatAm, lo que fuerza doble conversión. Fuente: blog de productor experimentado, no documentación oficial.",
+  "extra_fields": {
+    "finding_id": "F-P03"
+  },
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

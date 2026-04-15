@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy bank payouts are converted to the seller's local currency using the mid-market exchange rate at the time of payout.",
+  "verbatim_snippet": "\"Payouts made using bank transfers will be converted to your local currency using the mid-market exchange rate at the time of payout.\"",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. \"Your local currency\" applies to LatAm sellers receiving payouts in MXN, BRL, ARS, COP, CLP, PEN, etc. Corroborates F-P02 from a different LS docs page.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P14",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

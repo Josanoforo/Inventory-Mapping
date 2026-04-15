@@ -1,0 +1,13 @@
+{
+  "what": "Domestika help center states that refunds for local/cash payment methods are processed via bank transfer requiring country-specific identification: No. de cédula (Colombia), CURP (Mexico), CPF (Brazil), and for Mexico a CLABE bancaria de 18 dígitos.",
+  "verbatim_snippet": "[Stated in layout: «Si has utilizado este método de pago, por favor envíanos (a través de este formulario) los datos que a continuación te detallamos, ya que se tramitará mediante transferencia bancaria: Nombre completo del beneficiario. Número de identificación (No. de cédula, CURP, CPF). Número de cuenta (*si estás en México: clabe bancaria de 18 dígitos). Tipo de cuenta (de ahorros o corriente). Número de sucursal. Nombre de tu entidad bancaria.»]",
+  "source": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Direct access returned 403. Snippet recovered from search engine index for this exact URL. Structured layout content. Same page as F-P01; split by dimension (this finding covers payout/refund mechanics).",
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

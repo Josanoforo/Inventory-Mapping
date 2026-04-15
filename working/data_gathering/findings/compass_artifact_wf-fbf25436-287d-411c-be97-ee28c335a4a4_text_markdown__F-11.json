@@ -1,0 +1,13 @@
+{
+  "what": "Investigation of Gumroad's review display system found that product reviews are sorted positive-first (not chronologically), with no user-accessible filter for negative reviews; on MacWhisper (223,515 sales, 1,715 ratings), only 349 ratings include text reviews; Gumroad rounds a real average of 4.37 stars to a displayed 5-star score; sellers can remove negative reviews by refunding the purchase or revoking product access.",
+  "verbatim_snippet": "\"Gumroad reviews are not sorted by most recent. It is positive reviews first with no way to see negative reviews for a popular product except clicking and clicking and clicking. This is what I meant about a fairly dodge platform. Sahil Lavingia has set up Gumroad to make it very difficult for potential buyers to even see negative reviews.\"",
+  "source": "https://foliovision.com/2025/06/negative-reviews-gumroad",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "June 10, 2025",
+  "notes": "Author (Alec Kinnear, Foliovision founder) is a prospective buyer investigating MacWhisper software before purchase. Article includes verifiable observations about platform behavior affecting buyer information access. Additional data in article: MacWhisper review breakdown — 5★: 259, 4★: 31, 3★: 22, 2★: 4, 1★: 33. Author notes ~22 anonymous reviews appear astroturfed, and that creator (Jordi Bruin) reportedly refunded/closed accounts of negative reviewers. Article provides a bookmarklet tool for buyers to load all reviews at once. The finding qualifies as a data point about buyer behavior (review patterns and information access) published by a third-party source.",
+  "finding_id": "F-11",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

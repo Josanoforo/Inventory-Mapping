@@ -1,0 +1,16 @@
+{
+  "what": "Un blog de terceros reporta que Nicaragua y Venezuela están bloqueados para operar en Hotmart por sanciones políticas y económicas, y que se requiere VPN para registrarse desde esos países.",
+  "verbatim_snippet": "\"Elegir la VPN premium más apropiada te permitirá registrarte en Hotmart en países como Venezuela o Nicaragua, donde no es posible acceder al servicio por culpa de vetos tanto políticos como económicos.\"",
+  "source": "https://es.vpnpro.com/guias-y-tutoriales/como-trabajar-con-hotmart-con-una-vpn/",
+  "source_type": "article",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Fecha de publicación no visible; contenido vigente al momento de consulta",
+  "notes": "Dimensión Availability. Fuente de terceros, no oficial de Hotmart. La restricción de Venezuela se corrobora parcialmente por F-14 (help center confirma \"restricciones de pago en Venezuela\"). Nicaragua no aparece mencionada en el help center oficial. La recomendación de usar VPN implica que la restricción es por IP geográfico.",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

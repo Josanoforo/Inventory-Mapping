@@ -1,0 +1,16 @@
+{
+  "shard_id": "compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "GraphicRiver individual product price ranges with verbatim evidence",
+  "attempted": "direct access to https://graphicriver.net/, https://graphicriver.net/category, https://graphicriver.net/category/all, https://graphicriver.net/graphics, https://graphicriver.net/fonts, https://graphicriver.net/print-templates — all returned 403 errors. Google search index snippets referenced price filter labels (e.g., \"$2-$6 $7+\") but no continuous verbatim passage containing individual product prices and their contexts was captured.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** April 2026\n- **Notes:** All direct fetch attempts to graphicriver.net returned 403 Forbidden. Search index snippets referenced prices in summary form but could not be confirmed as continuous, character-for-character passages from the pages.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://graphicriver.net/,",
+    "https://graphicriver.net/category,",
+    "https://graphicriver.net/category/all,",
+    "https://graphicriver.net/graphics,",
+    "https://graphicriver.net/fonts,",
+    "https://graphicriver.net/print-templates"
+  ]
+}

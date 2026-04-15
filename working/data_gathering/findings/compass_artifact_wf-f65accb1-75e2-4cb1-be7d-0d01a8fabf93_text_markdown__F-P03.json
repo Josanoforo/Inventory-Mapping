@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad does not support PayPal payouts for countries without direct bank deposit support. PayPal payouts are always processed in USD with a 2% processing fee and usually arrive within 1–3 business days.",
+  "verbatim_snippet": "\"If bank payouts aren't supported in your country, we will pay you via PayPal. You just need an individual or business PayPal account without any restrictions. All PayPal payouts are processed in USD and usually arrive within 1–3 business days. PayPal payouts have a 2% processing fee.\"",
+  "source": "https://help.gumroad.com/article/13-getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via search engine index. The 2% fee applies to the USD payout amount. For LatAm countries without direct deposit (e.g., Brazil, historically), PayPal in USD is the sole payout mechanism. PayPal then applies its own currency conversion fees when the seller converts USD to local currency.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

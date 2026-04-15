@@ -1,0 +1,16 @@
+{
+  "what": "Etsy's eligible countries list for Etsy Payments includes five LatAm countries: Argentina*, Brazil*, Chile*, Mexico, and Peru*. Countries marked with asterisk (*) require a Payoneer Payment Account. Etsy states it can only offer payment services in certain countries and is working to support additional countries.",
+  "verbatim_snippet": "\"Sellers in countries with * next to their names can accept Etsy Payments with a Payoneer Payment Account. Learn more. Etsy can only offer payment services in certain countries at this time. We are working to support additional countries in the future.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/115015710408-Countries-Eligible-for-Etsy-Payments",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found on page. URL returned 403 on direct fetch; content verified via search engine index.",
+  "notes": "The eligible countries list was observed in search engine snippets showing the full alphabetical list with asterisks. Mexico has no asterisk (direct Etsy Payments). Argentina, Brazil, Chile, Peru all have asterisks (Payoneer required). Colombia does not appear on the list. Dimension: Availability. Cross-border cut: Argentina*, Brazil*, Chile*, Mexico, Peru*.",
+  "extra_fields": {
+    "finding_id": "F-P01"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

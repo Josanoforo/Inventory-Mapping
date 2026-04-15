@@ -1,0 +1,16 @@
+{
+  "what": "Mexico sellers listed in MXN receive deposits in MXN directly to bank accounts. The supported deposit currencies list explicitly includes Mexican Peso (MXN). For Payoneer countries (Argentina, Brazil, Chile, Peru), deposits go to Payoneer in USD only; local currencies BRL, ARS, CLP, PEN are NOT listed as direct deposit currencies.",
+  "verbatim_snippet": "\"In the United States, Australia, Canada, the European Union, Hong Kong, Indonesia, Israel, Malaysia, Mexico, Morocco, New Zealand, Norway, Philippines, Singapore, South Africa, Switzerland, Türkiye, United Kingdom and Vietnam, Available Funds can only be deposited into bank accounts, in the domestic currency of the account, which includes the following currencies: US Dollars (USD), Australian Dollars (AUD), Canadian Dollars (CAD), Swiss Francs (CHF), Danish Krone (DKK), Euros (EUR), British Pounds (GBP), Hong Kong Dollars (HKD), Indonesian Rupiah (IDR), Israeli Shekel (ILS), Moroccan Dirham (MAD), Mexican Peso (MXN), Malaysian Ringgit (MYR), New Zealand Dollars (NZD), Norwegian Krone (NOK), Philippine Peso (PHP), Swedish Krona (SEK), Singapore Dollars (SGD), Turkish Lira (TRY), South African Rand (ZAR) and Vietnamese Dong (VND).\"",
+  "source": "https://www.etsy.com/legal/etsy-payments/",
+  "source_type": "policy_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Effective from October 9, 2025. Content from search engine index; some attempts to fetch page returned 403.",
+  "notes": "This snippet was cut off in search results after listing direct deposit currencies but before describing Payoneer countries. The absence of BRL, ARS, CLP, PEN from the supported deposit currencies list confirms that Payoneer LatAm sellers cannot receive local-currency deposits from Etsy directly — they must go through the USD→Payoneer→local bank pathway. Dimension: Currency. Cross-border cut: Mexico (MXN direct), Argentina/Brazil/Chile/Peru (no direct local-currency deposit).",
+  "extra_fields": {
+    "finding_id": "F-P12"
+  },
+  "finding_id": "F-P12",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

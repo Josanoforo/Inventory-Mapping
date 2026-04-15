@@ -1,0 +1,16 @@
+{
+  "what": "En compras internacionales, Hotmart convierte automáticamente el precio del producto a la moneda local del comprador, dólar o euro, según su ubicación geográfica.",
+  "verbatim_snippet": "\"En caso de compras internacionales, el sistema identifica la ubicación del comprador y el valor del producto se convertirá automáticamente a la moneda local, Dólar o Euro (dependiendo del país).\"",
+  "source": "https://help.hotmart.com/es/article/213026287/-como-es-el-proceso-de-compra-internacional-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Currency. Dirección: cualquier seller → cualquier buyer cross-border. Comprador en US ve USD; comprador en MX ve MXN; comprador en CO ve COP. Seller no necesita configurar nada.",
+  "extra_fields": {
+    "finding_id": "F-03"
+  },
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

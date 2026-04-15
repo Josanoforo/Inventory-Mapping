@@ -1,0 +1,21 @@
+{
+  "source": "https://dev.to/deltacraft/-i-built-a-3d-audio-visualizer-and-monetized-it-with-lemon-squeezy-in-a-week-2d69",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "2025 (exact date not captured)",
+  "verbatim_snippet": "\"For a solo developer shipping a SaaS MVP with zero infrastructure, Lemon Squeezy was the clear winner. They handle VAT/tax compliance across regions, which would otherwise be a legal headache. [...] At $10/sale, here's what you actually take home: Stripe direct → $9.41, Lemon Squeezy → $9.00, Gumroad → $8.50. Once you're past $2,000/month, Stripe direct starts making more sense — but until then, Lemon Squeezy's tax handling and license key generation more than make up for the fee difference.\"",
+  "what": "On a $10 sale: Stripe nets $9.41, LS nets $9.00, Gumroad nets $8.50. LS described as clear winner for solo dev with zero infrastructure. Stripe becomes better past $2,000/month. LS tax handling and license key generation offset fee difference below that threshold.",
+  "notes": "Author is a solo developer with direct implementation experience. Build-log format with first-person comparative data.",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe, Gumroad",
+    "dimension": "fees, tax compliance, audience fit",
+    "numbers": "$9.41 (Stripe), $9.00 (LS), $8.50 (Gumroad) per $10 sale; $2,000/mo breakeven point",
+    "stance": "pro-LS (for early stage)",
+    "affiliation": "no"
+  },
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

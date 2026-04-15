@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center lists nine LatAm currencies supported for price display on the website: Mexican peso (MXN), Argentine peso (ARG), Colombian peso (COP), Chilean peso (CLP), Peruvian sol (PEN), Panamanian balboa (PAB), Brazilian real (BRL), Uruguayan peso (UYU), and Costa Rica colón (CRC).",
+  "verbatim_snippet": "[Stated in layout: \"Mexican peso (MXN) Argentine peso (ARG) Colombian peso (COP) Chilean peso (CLP) Peruvian sol (PEN) Panamanian balboa (PAB) Brazilian real (BRL) Uruguayan peso (UYU) Costa Rica colón (CRC)\"]",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. The page lists \"ARG\" rather than the ISO-standard \"ARS\" for the Argentine peso code. Additional non-LatAm currencies (EUR, GBP, CAD, AUD, JPY, INR, and others) are also listed on the same page but are outside D6 scope.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

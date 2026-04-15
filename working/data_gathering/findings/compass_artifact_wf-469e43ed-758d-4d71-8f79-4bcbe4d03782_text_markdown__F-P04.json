@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy is the merchant of record for all sales, handling collection and remittance of sales tax including international tax like VAT so sellers do not need to manage it.",
+  "verbatim_snippet": "\"Lemon Squeezy is known as the merchant of record for all sales through our platform. That means we take care of a lot of the headaches that are normally associated with selling goods online. For example, you don't have to worry about collecting and remitting sales tax (including international tax like VAT) as Lemon Squeezy simply takes care of it for you. This is possible because Lemon Squeezy is technically selling products on your behalf and therefore we are liable for all of the complicated bits.\"",
+  "source": "https://docs.lemonsqueezy.com/help/payments/sales-tax-vat",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. \"International tax like VAT\" is the cross-border mechanism. The page does not use the term \"IVA\" (standard LatAm term for VAT).",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

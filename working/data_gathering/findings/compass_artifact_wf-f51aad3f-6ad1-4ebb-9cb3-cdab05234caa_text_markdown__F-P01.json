@@ -1,0 +1,21 @@
+{
+  "source": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "not dated (page live as of 2026-04-14)",
+  "verbatim_snippet": "\"Lemon Squeezy only charges a 5% + 50¢ fee per transaction, compared to 10% + payment processing fees (~3% + 30¢) at Gumroad. This means you get to keep more of your hard-earned money.\"",
+  "what": "LS charges 5% + 50¢ per transaction. Gumroad charges 10% + ~3% + 30¢ payment processing. LS positions this as keeping more earnings.",
+  "notes": "Page returned HTTP 403 on direct fetch. Content recovered from search engine index. This is the central fee-comparison claim on the Gumroad alternative page.",
+  "extra_fields": {
+    "sub": "type: (a) self-positioning",
+    "competitors": "Gumroad",
+    "dimension": "fees (direct numerical comparison)",
+    "numbers": "LS 5% + 50¢; Gumroad 10% + ~3% + 30¢",
+    "stance": "pro-LS (self-positioning)",
+    "affiliation": "Lemon Squeezy's own page"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

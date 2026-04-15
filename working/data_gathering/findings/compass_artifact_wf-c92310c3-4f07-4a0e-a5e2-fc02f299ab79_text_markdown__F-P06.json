@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's Payment methods help page states that buyers located in Mexico, Colombia, or Brazil can use local payment methods such as paying in cash or via bank transfer, and that the buyer's profile location must be updated for this option to appear.",
+  "verbatim_snippet": "\"If you are in Mexico, Colombia, or Brazil, you can use local payment methods such as paying in cash or via bank transfer.* In order for this payment option to appear for you, you should have your location updated in your profile.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. Only Mexico, Colombia, and Brazil are named as having local payment methods. No other LatAm countries (e.g., Argentina, Chile, Peru) have this option documented.",
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

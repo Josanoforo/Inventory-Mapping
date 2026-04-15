@@ -1,0 +1,13 @@
+{
+  "what": "Buyer attempted to download purchased files from Gumroad but experienced download speeds below 10 kB/s; a 100 MB file required hours to download and the download canceled repeatedly; buyer verified their own connection speed at 100 MB/s on another platform (Steam).",
+  "verbatim_snippet": "\"Trying to download bought fiels ... Download speed of gumroad <10kB/s ... you have to sit for hours trying to download 100MB that take verywhere els just a second ... and it cancels the download every few minutes... unable to get my purchase ... and i checked ... if i go somewhere else like steam i download at 100MB/s\"",
+  "source": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "source_type": "unknown",
+  "verification_status": "direct_verified",
+  "date": "November 2, 2025",
+  "notes": "Trustpilot buyer review (reviewer: Dominik Konter). Purchase outcome: unable to access purchased files due to download speed and stability. Reviewer location: DE (Germany). Rating: 1/5. Ellipses (\"...\") are reviewer's original punctuation, not editorial truncation. Full text verified on page 2.",
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

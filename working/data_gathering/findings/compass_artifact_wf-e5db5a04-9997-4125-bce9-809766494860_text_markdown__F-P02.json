@@ -1,0 +1,13 @@
+{
+  "what": "Kichink's own website claims it has the lowest shipping rates on the market, starting at $79 MXN domestically and $30 USD internationally.",
+  "verbatim_snippet": "\"Kichink tiene las tarifas más bajas del mercado, empezando en $79 pesos. También hacemos envíos internacionales, empezando en $30 USD. Los costos varían dependiendo del peso y el lugar al que se envían.\"",
+  "source": "https://www.kichink.com/crea-tu-tienda",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",
+  "notes": "kichink.com returned HTTP 403. Content from Google search index. Explicit competitive claim (\"las tarifas más bajas del mercado\"). Self-positioning statement (logistics differentiator).",
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

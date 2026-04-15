@@ -1,0 +1,16 @@
+{
+  "what": "A Lemon Squeezy user reports that adding a Wise USD account was not accepted by Stripe, but a Wise IBAN account works for receiving payouts.",
+  "verbatim_snippet": "\"Tried to add Wise USD account but seems like Stripe is not accepting it but on the other hand Wise IBAN account is working fine\"",
+  "source": "https://lemonsqueezy.nolt.io/519",
+  "source_type": "seller_forum",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine snippet. Anonymous user on Nolt feedback board. Single speaker (multi-speaker split applied). Relevant to LatAm sellers who commonly use Wise for international USD receipts. User-reported experience, not confirmed by Lemon Squeezy.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P17",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

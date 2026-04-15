@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "US Stripe bank transfer payout fee",
+  "attempted": "What: No specific payout fee amount for US-based creators using Stripe bank transfer was found in recoverable search snippets.\nVerbatim snippet: n/a — absence finding\nSource: https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview (references payout fee tables) and https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work (references Stripe for US but no fee amount)\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Both pages reference payout fee tables that were embedded in the original page content but could not be retrieved from search index snippets. The How payouts work page states Stripe bank transfer is available for US creators but does not state the fee in recoverable text.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+    "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+  ]
+}

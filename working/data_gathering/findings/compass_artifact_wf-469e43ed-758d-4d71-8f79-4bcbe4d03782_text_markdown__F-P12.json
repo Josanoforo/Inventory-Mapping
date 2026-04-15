@@ -1,0 +1,16 @@
+{
+  "what": "LatAm countries confirmed in the Lemon Squeezy bank payout supported countries list include Argentina, Bolivia, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Guyana, Jamaica, and Mexico.",
+  "verbatim_snippet": "[Stated in layout: bank payout country list including \"Argentina · ... · Bolivia · Bosnia and Herzegovina · Botswana · Brunei Darussalam · ... · Chile · Colombia · Costa Rica · ... · Dominican Republic · Ecuador · ... · El Salvador · ... · Guatemala · Guyana · ... · Jamaica · ... · Mexico\"]",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Country list partially recovered from cached/translated version. Full list contains 79 bank payout countries. Brazil is notably absent from the visible alphabetical sequence (list reads \"Bolivia · Bosnia and Herzegovina · Botswana · Brunei Darussalam\" with no Brazil between Bolivia and Botswana). Peru, Uruguay, Paraguay, Venezuela, Honduras, Nicaragua, and Panama were not confirmed in the visible portion of the list.",
+  "extra_fields": {
+    "dimension": "Availability"
+  },
+  "finding_id": "F-P12",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,13 @@
+{
+  "what": "Non-US Envato authors who want to receive USD via bank transfer must use a Money Transfer Provider with a virtual US routing account, such as Payoneer or Wise.",
+  "verbatim_snippet": "\"If you would prefer a bank transfer, but are not in the USA and still want to receive USD, you will need to use a Money Transfer Provider that offers a virtual US routing account, such as Payoneer or Wise.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/20535795834393-Getting-Started-with-the-Envato-Payout-System",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "December 18, 2025 (page date visible in separate search index snippet)",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"not in the USA\" + \"USD\" + \"virtual US routing account.\" Dimension: PAYOUT. Flow: LatAm→US (payout delivery mechanism for non-US authors). Separate passage on same page lists full method set: \"Set your Payout method–either Bank Transfer or PayPal. If you want to select a virtual provider like Payoneer, Wise or Revolut, you need to select the Bank Transfer option.\" Also: \"Please note that all PayPal payments are sent in USD.\"",
+  "finding_id": "F-P14",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

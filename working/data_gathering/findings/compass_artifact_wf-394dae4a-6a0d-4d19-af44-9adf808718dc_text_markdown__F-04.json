@@ -1,0 +1,13 @@
+{
+  "what": "Brazil-domiciled users who make sales outside Brazilian territory and generate a balance in Dollars receive automatic daily transfers of that Dollar balance to their Payment Account, converted to Reais, via a third-party Payment Services Provider.",
+  "verbatim_snippet": "\"For Users who declare their domicile in Brazil, who make sales outside Brazilian territory and who generate a balance in Dollars, Hotmart together with its Third Party Partner (Payment Services Provider) will carry out automatic daily transfers of this available balance in Dollars to the Payment Account and issue electronic currency held by the User at SCD in Reais\"",
+  "source": "https://hotmart.com/en/legal/payments-policy",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "November 28, 2025 (policy version date)",
+  "notes": "Verified via direct fetch by two independent subagents. Section 4.7.1.1. Direction: Brazil seller → international buyer. Brazil sellers cannot hold USD balances; daily forced conversion USD→BRL.",
+  "finding_id": "F-04",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

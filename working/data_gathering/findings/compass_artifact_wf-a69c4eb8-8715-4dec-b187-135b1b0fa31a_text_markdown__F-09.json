@@ -1,0 +1,13 @@
+{
+  "what": "Creator writes that Apple has told Patreon that by November 2026, subscriptions sold inside the iOS app must use Apple's In-App Purchase system, which keeps 30% of the subscription price or 15% after one year of recurring subscriptions. States the workaround is that Apple cannot control payments made outside the iOS app (via web browser, desktop, or third-party checkout).",
+  "verbatim_snippet": "\"If you're a Patreon creator and you've seen the recent news about Apple forcing Patreon to use in-app purchases on iOS, you probably had the same reaction everyone else did: 'Wait… does Apple now take 30% of my income?' Short answer: only if you let them. Apple has told Patreon that by November 2026, subscriptions sold inside the iOS app must use Apple's In-App Purchase system. Their system keeps 30% of the subscription price or 15% after one year of recurring subscriptions.\"",
+  "source": "https://medium.com/@sakalakis/patreon-creators-heres-how-to-stop-apple-from-keeping-30-fee-0ffe63aaae1f",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "January 29, 2026",
+  "notes": "Partial access — article behind Medium paywall; only intro section visible and fetched. Author self-identifies as \"31-year-old Web Developer, Writer, Podcaster.\" Workaround advice (direct patrons to web checkout) is consistent with Patreon's own documentation.",
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

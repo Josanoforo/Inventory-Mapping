@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Patreon /explore main page — blocked",
+  "attempted": ", returned 403)\n\n**source_type:** search_results_page\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 14, 2026.\n\n**Notes:** The page is entirely JavaScript-rendered (client-side SPA). Server-side HTML contains only skeleton elements: \"Topic placeholder\" (repeated), \"Dummy creator name,\" \"This is a dummy creator description,\" \"Loading content.\" No actual category names, creator names, tier prices, or counts are present in the server-rendered HTML visible to search engine crawlers. All 7 primary explore URLs and all 10 secondary category explore URLs returned identical 403 errors.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.patreon.com/explore",
+    "https://www.patreon.com/explore"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "what": "Hotpay processes transactions in three currencies: Brazilian Real (BRL) between users both domiciled in Brazil, Euro (EUR) between users both domiciled in the EU, and US Dollars (USD) as the purchase currency between all other users.",
+  "verbatim_snippet": "\"Hotmart makes payment transactions on Hotpay with the following currencies: (a) with purchase currency in Brazilian Real (BRL), between Users that declare that both are domiciled in Brazil; (b) with purchase currency in Euro (EUR), between Users that declare that both are domiciled in the European Union; or, (c) in American dollars (USD) as the purchase currency, between any other Users.\"",
+  "source": "https://hotmart.com/en/legal/payments-policy",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "November 28, 2025 (policy version date)",
+  "notes": "Verified via direct fetch by two independent subagents. Section 4.6 of Payments Policy. All LatAm↔US transactions settle in USD under rule (c).",
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

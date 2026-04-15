@@ -1,0 +1,16 @@
+{
+  "what": "Hotmart ofrece solo 4 monedas de comisión: BRL, USD, EUR y GBP. Las monedas locales de LatAm (MXN, COP, ARS, CLP, PEN) no son monedas de comisión.",
+  "verbatim_snippet": "\"Puedes obtener tus comisiones en Hotmart en 4 monedas: Reales (BRL), Dólares (USD), Euros (EUR), Libras (GBP)\"",
+  "source": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026 (página activa, copyright 2011–2026)",
+  "notes": "Dimensión Currency. Implicación directa para vendedores LatAm: sus comisiones por ventas cross-border a US siempre serán en USD, nunca en moneda local.",
+  "extra_fields": {
+    "finding_id": "F-01"
+  },
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

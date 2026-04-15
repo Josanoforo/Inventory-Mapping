@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "Complete enumerated list of all accepted payment methods",
+  "attempted": "What: The full list of all payment methods accepted at checkout (beyond cards and subscription-specific methods) could not be fully verified from the payment methods help center page. Partial list includes cards (Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay), PayPal, Apple Pay, Google Pay, and bank debits, but the complete list and regional availability was not fully captured.\nVerbatim snippet: \"n/a — search index snippets captured partial content only\"\nSource: https://docs.lemonsqueezy.com/help/checkout/payment-methods\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Multiple search queries returned fragments from this page but no single snippet contained the complete payment method list. The pricing page references \"16 different payment methods\" and \"up to 21 payment methods\" in different passages, creating ambiguity about the current count.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://docs.lemonsqueezy.com/help/checkout/payment-methods"
+  ]
+}

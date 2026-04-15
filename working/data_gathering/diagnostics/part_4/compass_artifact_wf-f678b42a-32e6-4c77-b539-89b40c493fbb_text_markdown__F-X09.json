@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X09",
+  "seller_or_subject": "Porcentaje tarifa BCRA Argentina (9.5%) — fuente en inglés",
+  "attempted": "**Subject:** El porcentaje exacto de la tarifa estandarizada Argentina BCRA ARS↔USD.\n**Source encontrada:** https://help.hotmart.com/en/article/15325356406925/ (INGLÉS — reporta 9.5%)\n**Classification:** Coverage gap idiomático — dato encontrado en inglés pero no en español. La versión española del help center (F-05) confirma la existencia de la tarifa pero no su porcentaje. Conforme a reglas del shard, contenido en inglés no se usa como finding.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://help.hotmart.com/en/article/15325356406925/"
+  ]
+}

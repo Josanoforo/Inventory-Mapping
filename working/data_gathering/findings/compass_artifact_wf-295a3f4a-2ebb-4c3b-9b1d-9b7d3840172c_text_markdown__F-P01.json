@@ -1,0 +1,13 @@
+{
+  "what": "La homepage de Kichink presenta un selector de país con dos opciones: KICHINK México y KICHINK United States.",
+  "verbatim_snippet": "[Stated in layout: \"Por favor seleccione un país · KICHINK México · KICHINK United States\"]",
+  "source": "https://www.kichink.com/",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Acceso abril 2026; copyright @2025 Kichink Servicios S.A. de C.V.",
+  "notes": "Página devuelve HTTP 403 al fetch directo. Snippet obtenido del índice de búsqueda de Google para la URL exacta. El mismo selector aparece consistentemente en múltiples páginas de kichink.com indexadas por Google. Dimensión: availability.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

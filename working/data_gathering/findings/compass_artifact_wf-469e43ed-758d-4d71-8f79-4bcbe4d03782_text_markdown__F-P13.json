@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy accepts purchases from all countries except 18 listed as unsupported. No Latin American country appears on the unsupported list.",
+  "verbatim_snippet": "\"We cannot accept payments from customers in the following countries: Central African Republic · Cuba · Democratic People's Republic of Korea · Democratic Republic of the Congo · Eritrea · Guinea-Bissau · Iran · Iraq · Lebanon · Libya · Mali · North Korea · Russian Federation · Somalia · South Sudan · Sudan · Syrian Arab Republic · Yemen\"",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. The complete unsupported list is 18 countries. No LatAm country is listed, confirming LatAm buyers can purchase on Lemon Squeezy.",
+  "extra_fields": {
+    "dimension": "Availability"
+  },
+  "finding_id": "F-P13",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

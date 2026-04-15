@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad's help center states Stripe Connect is available in all countries where Stripe operates except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand. This excludes two major LatAm markets (Brazil and Mexico) from using Stripe Connect for payouts.",
+  "verbatim_snippet": "\"You can connect your Stripe account to receive payments for credit card sales directly to your Stripe account. This feature is available in all countries where Stripe operates, except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand.\"",
+  "source": "https://help.gumroad.com/article/13-getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via multiple search engine index results and corroborated by wise.com/us/blog/gumroad-fees which quotes the same exclusion list. Brazil and Mexico are the LatAm countries on this exclusion list.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

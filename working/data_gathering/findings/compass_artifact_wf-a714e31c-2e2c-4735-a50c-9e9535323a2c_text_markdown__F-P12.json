@@ -1,0 +1,16 @@
+{
+  "what": "Systeme.io calculates that earning $10,000/month on Hotmart means paying ~$1,000/month in platform fees, increasing further with high transaction volume due to the $0.50-per-sale surcharge",
+  "verbatim_snippet": "\"Si te ganas $10.000 al mes con Hotmart, tendrás que pagar cerca de $1.000 al mes por usar la plataforma. Estarás pagando mucho más si estás vendiendo un gran número de ofertas debido a su comisión de 50c por venta.\"",
+  "source": "https://systeme.io/es/hotmart-alternative",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; evergreen page",
+  "notes": "Third-party comparative (sub-type b). BIAS NOTE: Published by Systeme.io, a direct Hotmart competitor; this is a marketing/comparison landing page. Competitors named: Systeme.io (self-positioning against Hotmart). Dimension: fees. Stance: anti-Hotmart. Specific numbers: $10K revenue → ~$1K fees, $0.50 per sale. Content confirmed from search snippet; direct page fetch returned server error.",
+  "extra_fields": {
+    "finding_id": "F-P12"
+  },
+  "finding_id": "F-P12",
+  "shard_id": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

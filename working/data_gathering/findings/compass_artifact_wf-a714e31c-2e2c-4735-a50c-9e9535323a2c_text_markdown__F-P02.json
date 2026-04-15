@@ -1,0 +1,16 @@
+{
+  "what": "Hotmart's double currency conversion (buyer's currency → Hotmart's currency → seller's currency) causes elevated income loss for sellers focused on Latin American markets",
+  "verbatim_snippet": "\"Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+  "source": "https://bigbangconversion.com/blog/opinion-hotmart/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "October 2020",
+  "notes": "Third-party comparative (sub-type b). Same source as F-P01 but distinct positioning statement on a specific limitation. Dimension: fees/constraints (currency conversion). Stance: anti-Hotmart on this point. No competitor named — framing is Hotmart vs. self-managed payment.",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

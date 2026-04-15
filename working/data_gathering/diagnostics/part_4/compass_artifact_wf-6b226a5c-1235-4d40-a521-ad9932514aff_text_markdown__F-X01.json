@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Stripe payout fee for US bank accounts",
+  "attempted": "What: The Stripe (bank transfer) payout fee for US-based bank accounts is reported as 0% per payout, but this could not be verified from the fees help center page via search index snippets. The claim appears only in a blog post (excluded source type for this shard).\nVerbatim snippet: \"n/a — search index snippet of the fees page did not capture the US Stripe payout rate line item\"\nSource: https://docs.lemonsqueezy.com/help/getting-started/fees\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: The fees page's table of contents includes \"→ Payouts via Stripe\" as a subsection, and the non-US rate (1%) was captured. The US rate likely appears on the same page but was truncated in all search index snippets retrieved. A blog post at https://www.lemonsqueezy.com/blog/payout-fees-sliced states \"0% per payout for bank accounts in the US\" but blogs are an excluded source type.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://docs.lemonsqueezy.com/help/getting-started/fees",
+    "https://www.lemonsqueezy.com/blog/payout-fees-sliced"
+  ]
+}

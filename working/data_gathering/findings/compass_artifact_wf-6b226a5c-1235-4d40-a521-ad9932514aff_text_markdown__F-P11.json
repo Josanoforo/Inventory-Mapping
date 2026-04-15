@@ -1,0 +1,13 @@
+{
+  "what": "Bank payouts are made in USD and converted to local currency using the mid-market exchange rate at the time of payout. PayPal payouts are always in USD.",
+  "verbatim_snippet": "\"Payouts made using bank transfers will be converted to your local currency using the mid-market exchange rate at the time of payout.\"",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Recovery method: Google search index snippet of the same URL; direct fetch returned 403. The \"What\" field statement about PayPal payouts in USD is supported by a separate passage from the same page appearing in the same search result: \"Payouts made using PayPal are always in USD.\" These are two separate passages; only the bank transfer snippet is cited as the verbatim passage.",
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

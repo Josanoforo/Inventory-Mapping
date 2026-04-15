@@ -1,0 +1,21 @@
+{
+  "source": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "2025-04-06",
+  "verbatim_snippet": "\"With Lemon Squeezy, we were able to implement a complete checkout flow in under 2 hours, while a comparable Stripe implementation took nearly 2 days of development time.\"",
+  "what": "Complete checkout flow implemented in under 2 hours with LS vs nearly 2 days with Stripe.",
+  "notes": "Specific quantified comparison from hands-on implementation work.",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe",
+    "dimension": "developer experience, setup time",
+    "numbers": "under 2 hours (LS) vs ~2 days (Stripe)",
+    "stance": "pro-LS",
+    "affiliation": "yes — SaaS boilerplate seller"
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,13 @@
+{
+  "what": "First-time Gumroad visitor attempted to acquire a free ($0) product but was blocked at checkout by a message claiming an active chargeback on past Gumroad purchases; the buyer was not logged in, had not entered card information, and had never used Gumroad before.",
+  "verbatim_snippet": "\"I was trying to purchase something on Gumroad for $0, but as I got to the checkout, it said that I have an active chargeback on one of my past Gumroad purchases. However, I wasn't logged in, I didn't give them my card information AND I HAVEN'T USED GUMROAD BEFORE. So, even if I did have an active chargeback, how would they know?\"",
+  "source": "https://www.trustpilot.com/review/gumroad.com?page=3",
+  "source_type": "unknown",
+  "verification_status": "direct_verified",
+  "date": "August 12, 2025",
+  "notes": "Trustpilot buyer review (reviewer: James Mirth). Price: $0 (free product). Purchase outcome: abandoned — blocked by false chargeback flag. Reviewer location: NO (Norway). Rating: 1/5. Review title: \"False claims about chargebacks\". Implies Gumroad's risk detection may use IP-based or browser-fingerprint blocking. Full text verified on page 3.",
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,13 @@
+{
+  "what": "An additional +1.5% fee is added to the platform fee for international (outside of the US) transactions, an additional +1.5% fee is added for PayPal transactions, and an additional +0.5% fee is added for subscription payments.",
+  "verbatim_snippet": "[Stated in layout: \"There are certain times when an additional fee might be added to the platform fee to cover processing fees: +1.5% for international (outside of the US) transactions · +1.5% for PayPal transactions · +0.5% for subscription payments\"]",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Recovery method: Google search index snippet of the same URL; direct fetch returned 403. Items separated by \"·\" appear as a bulleted list on the source page. All three surcharges appeared together in search results and are presented as a single layout passage following the colon.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

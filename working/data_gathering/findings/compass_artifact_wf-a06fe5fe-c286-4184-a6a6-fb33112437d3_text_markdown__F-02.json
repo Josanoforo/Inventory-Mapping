@@ -1,0 +1,16 @@
+{
+  "what": "Reviewer states Payhip supports sellers who are scammers. A seller agreed for refunds according to his refund policy but did not issue refunds. Text truncated by page display.",
+  "verbatim_snippet": "\"They support sellers who are scammers. I have evidences if you want to check. A seller agreed for refunds according to his refund policy but didn't issue refu...\"",
+  "source": "https://www.trustpilot.com/review/payhip.com?page=3",
+  "source_type": "unknown",
+  "verification_status": "direct_verified",
+  "date": "Updated Dec 4, 2025",
+  "notes": "Public review/complaint site; no dedicated taxonomy value in current schema. Reviewer: OA wholesale FBA. No location tag displayed. Star rating: 1 out of 5. Review text truncated on page behind JavaScript \"See more\" button; the visible portion above is the full directly-verifiable text. Expanded text captured separately via Google search index — see F-P01. The expanded version (F-P01) identifies the product as BOTT Price Action Indicator at USD 499, but those facts are NOT in this truncated snippet and are therefore excluded from this finding's What field. QA: buyer-speaker test passed on expanded text; truncated text alone does not contain explicit \"I bought/purchased\" but expanded version confirms buyer status.",
+  "extra_fields": {
+    "finding_id": "F-02"
+  },
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

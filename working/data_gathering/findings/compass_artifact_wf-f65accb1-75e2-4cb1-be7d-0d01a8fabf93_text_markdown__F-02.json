@@ -1,0 +1,16 @@
+{
+  "what": "As merchant of record, Gumroad is treated as the supplier for indirect tax purposes on all resales through the platform, and is responsible for administration, collection, reporting, and remittance of relevant indirect tax in any jurisdiction. Buyers may be responsible in limited circumstances.",
+  "verbatim_snippet": "\"As the merchant of record, Gumroad will be treated as the supplier or principal, for relevant Indirect Tax purposes, in respect of Products resold by Gumroad through the Services, and, subject to as provided pursuant to these Terms of Services, will be responsible for the administration, collection, reporting and remittance of any relevant Indirect Tax (except in limited circumstances where the Buyer may be responsible, for example as outlined in Section 10.5 below).\"",
+  "source": "https://gumroad.com/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective January 1, 2025; last updated December 10, 2024",
+  "notes": "Section 10.2. \"Indirect Tax\" is defined in Section 10.1 as including \"any sales, use, value added or goods and services tax, any similar tax on sales, turnover or consumption, and any import, customs and similar taxes, duties and tariffs.\" This encompasses IVA in Mexico, Colombia, Argentina, and Chile. MoR status is a first-class finding per shard specification.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

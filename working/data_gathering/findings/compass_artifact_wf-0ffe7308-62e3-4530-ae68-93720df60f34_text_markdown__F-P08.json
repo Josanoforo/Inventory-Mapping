@@ -1,0 +1,16 @@
+{
+  "what": "Etsy automatically calculates, collects, and remits US state sales tax as a marketplace facilitator on behalf of sellers located anywhere in the world, including LatAm sellers, when applicable US state laws require it. No action is required from the seller.",
+  "verbatim_snippet": "\"Based on applicable US State enacted marketplace facilitator tax laws, Etsy automatically calculates, collects, and remits US sales tax on behalf of sellers located anywhere in the world when:\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Additional snippet: \"No action is required on your part to collect sales tax from buyers where Etsy collects and remits sales tax on your behalf.\" This applies to all five LatAm seller countries (Mexico, Argentina, Brazil, Chile, Peru) shipping to US buyers. Etsy acts as the merchant of record for US sales tax. The tax is charged to the US buyer, not deducted from the seller. Dimension: Tax. Cross-border cut: all LatAm countries → US buyers. Direction: outgoing (LatAm seller → US buyer).",
+  "extra_fields": {
+    "finding_id": "F-P08"
+  },
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

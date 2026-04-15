@@ -1,0 +1,16 @@
+{
+  "what": "Por regulación del BCRA (Argentina), Hotmart estandarizó una tarifa en conversiones ARS↔USD, tanto para compras en ARS de ofertas en USD como para conversiones de comisiones USD de productos en ARS.",
+  "verbatim_snippet": "\"Debido a la nueva normativa del Banco Central de la República Argentina (BCRA), que amplió el plazo para las remesas al exterior y afectó la liquidación de operaciones, se estandarizó la aplicación de una tarifa en los pagos con conversión de compra con pesos argentinos (ARS) para ofertas en dólares estadounidenses (USD), o conversiones de comisiones en dólares estadounidenses (USD) para productos ofertados en pesos argentinos (ARS).\"",
+  "source": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Currency. País: Argentina. El porcentaje exacto de la tarifa no aparece en la versión en español. Una versión en inglés reporta 9.5%, pero conforme a las reglas del shard, contenido en inglés no se incluye como finding — se anota como gap en Part 4. Dirección: bidireccional AR seller ↔ US buyer cuando hay conversión ARS/USD.",
+  "extra_fields": {
+    "finding_id": "F-05"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

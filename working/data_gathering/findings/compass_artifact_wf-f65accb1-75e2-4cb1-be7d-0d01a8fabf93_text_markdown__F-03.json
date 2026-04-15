@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad's ToS authorizes the platform to withhold or deduct tax from supplier payments if required by applicable law, with no obligation to gross-up or increase payments to offset the withholding.",
+  "verbatim_snippet": "\"If Gumroad considers that any withholding or deduction on account of tax is required by applicable law to be made from any payment pursuant to this Agreement, it shall be entitled to make such withholding or deduction (and, for the avoidance of doubt, shall not be required to increase or gross-up any payment on account of such withholding or deduction).\"",
+  "source": "https://gumroad.com/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective January 1, 2025; last updated December 10, 2024",
+  "notes": "Section 10.8. This clause is the legal basis for applying US withholding tax to non-US seller payments, including LatAm sellers. The no-gross-up provision means any withholding reduces the seller's net payout. The ToS does not name W-8BEN or specify withholding rates.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

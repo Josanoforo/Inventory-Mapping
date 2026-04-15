@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad explicitly does not support Payoneer, Wise, checks, money orders, wire transfers, or any alternative payout methods. If a seller's country is not supported by direct bank deposits or PayPal, Gumroad has no way to pay them.",
+  "verbatim_snippet": "\"We do not support alternative payout modes like Payoneer, Wise, check, money order, wire transfer, etc. If your country is not supported by direct bank deposits or PayPal, then unfortunately, we have no way to pay you out for now.\"",
+  "source": "https://help.gumroad.com/article/13-getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via search engine index. This restriction is significant for LatAm sellers in countries where PayPal operates under limitations (e.g., Venezuela, Cuba) or where direct bank deposit is not listed. The absence of Wise/Payoneer is notable because these are widely used by LatAm freelancers and creators to receive USD.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

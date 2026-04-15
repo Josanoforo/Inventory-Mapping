@@ -1,0 +1,16 @@
+{
+  "what": "Etsy charges VAT on digital items to buyers in Chile and Mexico (among other countries), regardless of where the seller's shop is located. Sellers are not responsible for adding VAT to digital listing prices. Etsy remits the VAT to relevant tax authorities.",
+  "verbatim_snippet": "\"If you sell digital items, no matter where your shop is located, buyers in Australia, Belarus, Chile, the EU, Georgia (country), Iceland, India, Indonesia, Kenya, Malaysia, Mexico, Moldova, New Zealand, Norway, Russia, Saudi Arabia, Serbia, Singapore, South Africa, South Korea, Switzerland, Taiwan, Thailand, Türkiye, Ukraine, United Arab Emirates, or Vietnam will be charged VAT.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/115015587567-How-VAT-Works-on-Digital-Items",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Additional snippets: \"Sellers are not responsible for adding VAT to their digital listing prices.\" And: \"In all cases, Etsy will take the VAT paid by the buyer and remit to the relevant tax authorities.\" This affects US sellers selling digital items to Chile/Mexico buyers (incoming direction) and LatAm sellers selling digital items to Chile/Mexico buyers (intra-LatAm). Brazil, Argentina, Peru, Colombia are NOT on this list. Dimension: Tax. Cross-border cut: Chile, Mexico (buyers charged VAT on digital items). Direction: incoming (any seller → Chile/Mexico buyer).",
+  "extra_fields": {
+    "finding_id": "F-P06"
+  },
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

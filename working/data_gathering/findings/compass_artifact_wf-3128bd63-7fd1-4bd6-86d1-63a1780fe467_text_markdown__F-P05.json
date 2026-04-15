@@ -1,0 +1,13 @@
+{
+  "what": "Envato annually sends non-US authors and the IRS a summary of US-customer earnings via Form 1042, enabling local tax reporting and claiming of credits for taxes withheld.",
+  "verbatim_snippet": "\"At the end of each calendar year we'll send to you and the IRS a summary of your earnings from US customers, Form 1042, so that you can accurately report your income to your local tax Authorities and claim any credits for the taxes withheld and remitted to the IRS.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"US customers\" + \"IRS\" + \"local tax Authorities.\" Dimension: TAX. Flow: LatAm→US (reporting). Envato uses \"Form 1042\" in this passage; the individual author statement is technically Form 1042-S. Separate passage on same page states: \"You will be provided a copy of your Form 1042 from 15th March in the year following the year you made your earnings.\"",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

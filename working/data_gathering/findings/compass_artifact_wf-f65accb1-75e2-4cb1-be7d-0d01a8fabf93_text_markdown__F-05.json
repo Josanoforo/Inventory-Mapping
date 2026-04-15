@@ -1,0 +1,16 @@
+{
+  "what": "Since January 1, 2025, Gumroad's pricing page states the platform handles all tax obligations worldwide as merchant of record, including sales tax collection and remittance, and that sellers need not manage VAT, GST, or other international tax requirements.",
+  "verbatim_snippet": "\"Since January 1, 2025, Gumroad handles ALL your tax obligations. Yes, you read that right – we manage sales tax collection and remittance worldwide.\"",
+  "source": "https://gumroad.com/pricing",
+  "source_type": "pricing_page",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; page references January 1, 2025 effective date",
+  "notes": "The pricing page also states \"You don't need to worry about VAT, GST, or any other international tax requirements.\" This claim of \"worldwide\" coverage implies LatAm jurisdictions, but no LatAm-specific confirmation (e.g., Mexico IVA, Colombia IVA) is provided on this page. See F-X07 for the unresolved gap between this claim and older help center documentation.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

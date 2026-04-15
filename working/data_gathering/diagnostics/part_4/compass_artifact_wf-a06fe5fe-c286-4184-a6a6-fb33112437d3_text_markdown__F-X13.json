@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X13",
+  "seller_or_subject": "Seller BV reporting buyer download failures — D2 voice",
+  "attempted": "**Finding ID:** F-X13\n**What:** Seller reports that some customers purchased their e-book and couldn't download it due to broken download link. Seller had to send file manually.\n**Verbatim snippet:** \"Some customers purchased my e-book and couldn't download it. The download link was broken, even though the files I uploaded were perfectly fine. I contacted Payhip and had to send the file manually ju...\"\n**Source:** https://www.trustpilot.com/review/payhip.com\n**source_type:** unknown\n**verification_status:** direct_verified\n**Date:** Sep 7, 2025\n**Notes:** Public review/complaint site; no dedicated taxonomy value in current schema. OUT OF SCOPE: D2 (seller voice), not D4. Speaker is a seller describing what happened to their buyers. Per direction-specific rule 2 (buyer-speaker test): \"Sellers on Payhip report buyers do X\" is D2, not D4. Reviewer: BV. Star rating: 1 out of 5. Review text truncated on page. The observation about broken download links affecting buyers is relevant context but does not qualify as buyer voice.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.trustpilot.com/review/payhip.com"
+  ]
+}

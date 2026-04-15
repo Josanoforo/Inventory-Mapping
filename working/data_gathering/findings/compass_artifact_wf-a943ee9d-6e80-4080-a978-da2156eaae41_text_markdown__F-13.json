@@ -1,0 +1,13 @@
+{
+  "what": "Sitejabber aggregate rating for Etsy is 1.8 out of 5 based on 1,569 reviews; 62% of reviews are 1-star; 0% positive reviews in the last 12 months; 26% of reviewers recommend Etsy.",
+  "verbatim_snippet": "\"Etsy Reviews 1,569\"",
+  "source": "https://www.sitejabber.com/reviews/etsy.com",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026",
+  "notes": "Page directly fetched. Star distribution: 5-star 20%, 4-star 7%, 3-star 4%, 2-star 7%, 1-star 62%. \"Positive reviews (last 12 months): 0%\" is displayed prominently on the page. Same self-selection bias caveat applies as with Trustpilot. Verbatim is the visible page header text; rating data (1.8 stars) is displayed in page title element.",
+  "finding_id": "F-13",
+  "shard_id": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

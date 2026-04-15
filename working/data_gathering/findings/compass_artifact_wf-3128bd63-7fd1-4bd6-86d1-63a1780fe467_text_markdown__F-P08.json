@@ -1,0 +1,13 @@
+{
+  "what": "Mexican business buyers on Envato Market with a valid RFC may recover Envato-charged VAT by claiming it as input tax on their Mexican VAT return.",
+  "verbatim_snippet": "\"If you are a business customer with a valid RFC, you may be able to recover the VAT charged by Envato by claiming it as input tax on your Mexican VAT return.\"",
+  "source": "https://help.market.envato.com/hc/en-us/articles/46566990286745-Mexico-VAT-Information-for-Buyers",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page states VAT visible on statements \"for all purchases completed after 15 May 2025\" (separate passage)",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"Mexico\" + \"RFC\" + \"Mexican VAT return.\" Dimension: TAX. Flow: US→LatAm (platform → Mexican buyer). Same page states \"Envato is registered for VAT in Mexico and charges VAT to buyers resident in Mexico from May 2025\" and \"Providing a valid RFC (Registro Federal de Contribuyentes) number will not exempt you from VAT charges\" (separate passages). Page contains apparent typo \"Meixan\" for \"Mexican.\"",
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}
