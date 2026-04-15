@@ -1,0 +1,16 @@
+{
+  "what": "Seller reports inability to complete facial recognition and DNI scan required for fund withdrawal; states balance is $60 USD and support provides no help; mentions removing all products from platform.",
+  "verbatim_snippet": "\"No puedo hacer el reconocimiento facial ni el escaneo del DNI para poder retirar el saldo de MI dinero. Son sólo 60 dólares, pero son MÍOS. El soporte no me brinda ninguna ayuda. Retiré todos mis pro...\"",
+  "source": "https://es.trustpilot.com/review/hotmart.com?page=5",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "1 octubre 2025",
+  "notes": "Reviewer \"Roxmar Luz.\" Truncated by Trustpilot. Seller identity confirmed by \"retirar el saldo,\" \"$60 dólares\" (earnings balance), and \"Retiré todos mis pro...\" (likely \"productos\"). Amount: $60 USD as visible. \"Retiré todos mis pro...\" truncated — full word not visible; likely \"productos\" based on context but not confirmed in visible text. Review rated 1 star.",
+  "extra_fields": {
+    "finding_id": "F-06"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

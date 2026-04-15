@@ -1,0 +1,11 @@
+{
+  "recovery_id": "REC-e0cb9d73-114",
+  "finding_id": "F-X25",
+  "shard_id": "compass_artifact_wf-c346e80a-c9fa-4a76-9e0a-4671e0cb9d73_text_markdown",
+  "original_url": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink/",
+  "failure_mode": null,
+  "original_finding_content": {
+    "subject": "Seller reviews Kichink positively at 7.5% commission, notes social sharing bug (OUT OF WINDOW — undated, likely 2017)",
+    "raw_text": "- **Finding ID:** F-X25\n- **What:** Seller Angel Decuir reviews Kichink's seller interface positively, noting 7.5% commission is acceptable, but reports that social media sharing fails to capture product images, showing only the Kichink logo.\n- **Verbatim snippet:** \"Obviamente es gratis todo, pero el inconveniente obligatorio es que Kichink se lleva un pequeño porcentaje de cada venta que realices (7.5%), por mi parte es aceptable, es como el pago por usar la plataforma\"\n- **Source:** https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink/\n- **source_type:** blog\n- **verification_status:** blocked_url_index_verified\n- **Date:** Accessed April 2026; page undated\n- **Notes:** OUT OF WINDOW. Seller: Angel Decuir (graphic designer, ~20 years experience). Commission: 7.5%. First-impression review before making sales. Positive/neutral tone. Page returned server error on direct fetch; content verified from search engine snippets. Content likely from 2017 based on 7.5% commission rate (pre-increase)."
+  }
+}

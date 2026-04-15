@@ -136,7 +136,8 @@ def split_sections(text: str) -> dict[str, str]:
 
     for i, (start, key) in enumerate(anchors):
         end = anchors[i + 1][0] if i + 1 < len(anchors) else len(text)
-        sections[key] = text[start:end]
+        if key not in sections:  # only use first occurrence; ignore duplicates in prose
+            sections[key] = text[start:end]
 
     return sections
 
