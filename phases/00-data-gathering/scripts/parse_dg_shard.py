@@ -40,11 +40,12 @@ QA_DIR = REPO_ROOT / "working" / "data_gathering" / "diagnostics" / "qa_notes"
 
 REQUIRED_FIELD_MAP: dict[str, list[str]] = {
     "what":                ["workflow claim (what)", "what", "workflow claim"],
-    "verbatim_snippet":    ["verbatim snippet", "verbatim"],
+    "verbatim_snippet":    ["verbatim snippet", "verbatim", "snippet"],
     "source":              ["source url", "source"],
     "source_type":         ["source type", "source_type"],
     "verification_status": ["verification status", "verification_status",
-                            "verification state", "verification_state"],
+                            "verification state", "verification_state",
+                            "verification"],
     "date":                ["date"],
     "notes":               ["notes"],
 }
