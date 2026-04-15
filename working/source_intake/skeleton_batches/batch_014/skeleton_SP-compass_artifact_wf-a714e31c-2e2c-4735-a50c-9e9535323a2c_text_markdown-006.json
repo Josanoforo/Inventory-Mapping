@@ -1,0 +1,78 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_title": "Precios",
+  "source_type": "pricing_page",
+  "source_ref": "https://hotmart.com/es/precios",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"La solución All in One ¡Por el mismo precio! Sin tarifas. Sin softwares extra. Sin fronteras.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/precios"
+      },
+      "source_finding_id": "F-01",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Olvida el resto de aplicaciones y plugins. Con Hotmart, puedes crear, acelerar, gestionar y crecer junto a tu negocio en una misma plataforma sin coste. Solo pagas un porcentaje cuando realizas una venta.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/precios"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"¿Por qué Hotmart es mejor que otras plataformas? Todas nuestras soluciones están diseñadas y creadas exclusivamente para nuestros clientes. Eso quiere decir que las herramientas de integración de Hotmart están hechas para adaptarse a tu negocio y no al contrario.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/precios"
+      },
+      "source_finding_id": "F-03",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"¿Por qué es mejor pagar una tarifa por venta que una cuota mensual? A diferencia de muchas otras plataformas que cobran cuotas mensuales, Hotmart se preocupa mucho por tu negocio. Trabajamos para ofrecerte las mejores soluciones y el mejor servicio al cliente ahora y durante el crecimiento de tu emprendimiento porque nuestro negocio depende de tu éxito. Por ello, todas nuestras soluciones están diseñadas para que vendas más y mejor. Con las automatizaciones y facilidades que te ofrecemos, puedes escalar tu crecimiento y tus estrategias de una forma que sería inimaginable en otras plataformas.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/precios"
+      },
+      "source_finding_id": "F-04",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-01",
+    "F-02",
+    "F-03",
+    "F-04"
+  ]
+}

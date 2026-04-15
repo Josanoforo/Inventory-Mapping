@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007",
+  "source_title": "M P",
+  "source_type": "seller_forum",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/US-tariff-pricing-should-not-impact-my-global-pricing/m-p/149049550",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Etsy needs to add a separate area for US pricing without including it in global pricing. My global buyers are paying the same price as the US. I've priced myself out of other markets because I need to raise my prices for the US market to cover the tariffs. I'm based in Canada. Is anyone else having this issue?\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Technical-Issues/US-tariff-pricing-should-not-impact-my-global-pricing/m-p/149049550"
+      },
+      "source_finding_id": "F-P06",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P06"
+  ]
+}

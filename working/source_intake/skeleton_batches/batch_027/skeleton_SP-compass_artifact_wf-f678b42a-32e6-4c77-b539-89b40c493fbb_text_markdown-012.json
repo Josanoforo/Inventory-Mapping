@@ -1,0 +1,78 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Según las regulaciones fiscales locales, plataformas como Hotmart no son responsables de recaudar impuestos de consumidores y comerciantes en Argentina. Esta función corresponde a los operadores de tarjetas de crédito o Instituciones de Pago (PIs), que aplican los impuestos directamente en el pago al proveedor extranjero. Desde el 23 de diciembre de 2024, el Impuesto País ha sido eliminado, pero algunos impuestos aún pueden aplicarse: 21% de IVA (Impuesto al Valor Agregado), 30% de Impuesto a las Ganancias, IIBB (Impuesto sobre los Ingresos Brutos), cuyo valor puede variar según la provincia.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Conforme a las regulaciones fiscales locales, a partir de agosto de 2021, Hotmart recauda el IVA (Impuesto al Valor Agregado) en las ventas realizadas a compradores en Chile. [...] El impuesto se aplicará en todas las ventas realizadas a personas físicas con una tasa del 19%. Para compras realizadas por empresas, será posible ingresar un RUT (Rol Único Tributario) válido en la página de pago y, así, obtener la exención del impuesto.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Las compras realizadas por residentes de México en sitios web extranjeros están sujetas a un impuesto del 16%, según la ley del Impuesto al Valor Agregado (IVA), en vigor desde junio de 2020.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Conforme a las leyes tributarias locales, Hotmart comenzó a recaudar impuestos en 14 estados a partir de marzo de 2022: Connecticut, Nueva Jersey, Texas, Maryland, Washington, Pensilvania, Ohio, Minnesota, Arizona, Colorado, Carolina del Norte, Distrito de Columbia, Rhode Island y Wisconsin.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-"
+      },
+      "source_finding_id": "F-13",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-09",
+    "F-10",
+    "F-11",
+    "F-13"
+  ]
+}

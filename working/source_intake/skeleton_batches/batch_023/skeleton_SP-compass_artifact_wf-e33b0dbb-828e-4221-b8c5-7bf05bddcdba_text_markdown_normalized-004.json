@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-004",
+  "source_title": "Paypal Disputes",
+  "source_type": "help_article",
+  "source_ref": "https://help.payhip.com/article/159-paypal-disputes",
+  "source_date_if_available": "Last updated July 30, 2021",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"As a seller using PayPal, there is a possibility that a client might not be happy with your product/service and that they could dispute the payment. Whilst this is not common, PayPal does provide you and the customer with a system called the Resolution Center to assist both parties.\"\n\n> \"Please be aware that you will only have 30 days to dispute the claim before PayPal will automatically refund the buyer.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/159-paypal-disputes"
+      },
+      "source_finding_id": "F-46",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-46"
+  ]
+}

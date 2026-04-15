@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+  "source_title": "Compra Do Curso Ads Lucrativo Us Cql4Ubdtb09Ev",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV",
+  "source_date_if_available": "Purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Foi comprado um curso da Maria Virgínia ads lucrativo falando comprando o curso tinha garantia de 12 meses para o reembolso ao tentar solicitar o reembolso já mostra como o prazo do reembolso fora do prazo sendo que no anúncio garantia o prazo de 12 meses gostaria do meu reembolso pois não me identifiquei com o curso\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV"
+      },
+      "source_finding_id": "F-P04",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P04"
+  ]
+}

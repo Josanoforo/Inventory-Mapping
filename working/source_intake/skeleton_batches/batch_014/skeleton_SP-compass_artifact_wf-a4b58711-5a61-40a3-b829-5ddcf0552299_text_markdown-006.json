@@ -1,0 +1,93 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_title": "How Payouts Work",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) – available for creators based in the U.S · Bank transfer (processed by Payoneer) – available to creators who reside outside of the U.S — please see full country eligibility list here\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      },
+      "source_finding_id": "F-P13",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"When enabled, automatic payouts are initiated on the 5th of each month as long as you have a positive balance. You can enable or disable automatic payouts from your Payouts page.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      },
+      "source_finding_id": "F-P17",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Once a payout is initiated, it typically takes 1-5 days for the funds to appear in your personal account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      },
+      "source_finding_id": "F-P18",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"If you are a brand new creator on Patreon, please note that there will be a 5-day hold in place from the date of adding your first payout method or from the date of receiving your first payment.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      },
+      "source_finding_id": "F-P19",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"Funds from products purchased through Commerce on Web and Android will appear as pending for up to 7 days before they can be withdrawn from your balance. Funds from product sales made via iOS in-app purchases will remain pending for up to 75 days before they will be available for payout, accounting for the time Apple requires to process and confirm the funds.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      },
+      "source_finding_id": "F-P20",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P13",
+    "F-P17",
+    "F-P18",
+    "F-P19",
+    "F-P20"
+  ]
+}

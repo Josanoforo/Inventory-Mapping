@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-005",
+  "source_title": "Patreon S Refund Policy",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Fans can go to their Billing History and select the payment they'd like refunded. They must request a refund within 60 days of the original payment. If they are outside this window, they will be directed to contact Patreon Product Support for further assistance.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy"
+      },
+      "source_finding_id": "F-P22",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P22"
+  ]
+}

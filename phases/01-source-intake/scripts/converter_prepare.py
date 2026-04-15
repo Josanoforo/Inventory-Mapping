@@ -211,6 +211,93 @@ def group_findings_by_shard_and_url(findings):
 
 
 # ====================================================================
+# Derivación de source_title desde URL
+# ====================================================================
+
+def derive_title_from_url(url: str) -> str:
+    """
+    Deriva un source_title legible desde el path del URL.
+
+    Lógica:
+    1. Toma el último segmento significativo del path (ignorando segmentos
+       vacíos y segmentos puramente numéricos de un solo componente).
+    2. Quita prefijo numérico del estilo "32-" (número + guión al inicio).
+    3. Reemplaza guiones y underscores por espacios.
+    4. Title-case.
+    5. Fallback al dominio si el path es vacío o solo "/".
+
+    Ejemplos:
+      https://help.payhip.com/article/32-getting-started → "Getting Started"
+      https://backlinko.com/patreon-users               → "Patreon Users"
+      https://reddit.com/r/Etsy/                        → "R Etsy"
+      https://example.com/                              → "example.com"
+    """
+    if not url:
+        return "Unknown Source"
+
+    # Separar esquema + host + path
+    if "://" in url:
+        _, rest = url.split("://", 1)
+    else:
+        rest = url
+
+    if "/" in rest:
+        host, path = rest.split("/", 1)
+        path = "/" + path
+    else:
+        host = rest
+        path = ""
+
+    # Quitar query params del path para este propósito
+    if "?" in path:
+        path = path.split("?", 1)[0]
+
+    import re as _re
+
+    # Extraer segmentos no vacíos del path
+    segments = [s for s in path.split("/") if s.strip()]
+
+    def _domain_fallback():
+        domain = host.lower()
+        if domain.startswith("www."):
+            domain = domain[4:]
+        return domain
+
+    if not segments:
+        return _domain_fallback()
+
+    # Buscar el último segmento significativo (no puramente numérico,
+    # no un dominio embebido en el path como "www.etsy.com")
+    chosen = None
+    for seg in reversed(segments):
+        # Saltar segmentos puramente numéricos
+        if _re.fullmatch(r"\d+", seg):
+            continue
+        # Saltar segmentos que parecen dominios (contienen punto + al menos 2 chars después)
+        if _re.search(r"\.\w{2,}", seg):
+            continue
+        chosen = seg
+        break
+
+    if not chosen:
+        return _domain_fallback()
+
+    # Quitar prefijo numérico tipo "32-" o "123_"
+    chosen = _re.sub(r"^\d+[-_]", "", chosen)
+
+    # Reemplazar guiones y underscores por espacios
+    chosen = chosen.replace("-", " ").replace("_", " ")
+
+    # Limpiar espacios múltiples
+    chosen = " ".join(chosen.split())
+
+    if not chosen:
+        return _domain_fallback()
+
+    return chosen.title()
+
+
+# ====================================================================
 # Construcción de skeleton
 # ====================================================================
 
@@ -291,7 +378,7 @@ def build_skeleton(packet_id, source_id, shard_id, normalized_url, findings_in_g
         "source_id": source_id,
 
         # Campos mecánicos
-        "source_title": None,  # No viene del parser; stage 2 o revisión humana puede llenarlo
+        "source_title": derive_title_from_url(normalized_url),
         "source_type": source_type,
         "source_ref": normalized_url,
         "source_date_if_available": source_date,

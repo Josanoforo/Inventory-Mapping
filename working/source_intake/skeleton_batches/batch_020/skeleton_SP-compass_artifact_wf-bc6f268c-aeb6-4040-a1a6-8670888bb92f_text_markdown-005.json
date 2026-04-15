@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-005",
+  "source_title": "Top Sellers",
+  "source_type": "search_results_page",
+  "source_ref": "https://codecanyon.net/top-sellers",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Home · / Best Sellers · Price is in US dollars and excludes tax and handling fees · by NinjaTeam in Media · $49 · (1K) 66 Sales · Live Preview · by Stepasyuk in WooCommerce · $49 · (311) 62 Sales · Live Preview · by MSTdev in Project Management Tools · $65 · (1.5K) 37 Sales · Live Preview · by Brainstorm_Force in Add Ons · $29 · (2.8K) 33 Sales · Live Preview · by agilelogix in WooCommerce · $59 · (414) 32 Sales · Live Preview · by creativeinteractivemedia in Galleries · $69 · (555) 27 Sales · Live Preview · by nickys in Media · $39 · (598) 23 Sales · Live Preview · by villatheme in Products\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://codecanyon.net/top-sellers"
+      },
+      "source_finding_id": "F-P03",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P03"
+  ]
+}

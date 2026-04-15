@@ -1,0 +1,54 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_title": "Herramientas Para Vender Cursos Online Cual Es La Mejor",
+  "source_type": "blog",
+  "source_ref": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"No sirve para cursos pequeños o ebooks de bajo coste. Está pensado para cursos de más de 200€ en adelante. Si vendes ebooks de 9,99€, entre impuestos y comisión del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor"
+      },
+      "source_finding_id": "F-P10",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Resumen: es IDEAL para hacer pruebas de concepto con cero inversión. Si nunca has vendido cursos online, puedes cargarlos en Hotmart y ver cómo va esto de la venta de contenido digital. Pero no es una plataforma para crecer contigo porque con facturaciones de 5.000€, el coste es muy superior al de plataformas más completas.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor"
+      },
+      "source_finding_id": "F-P11",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P10",
+    "F-P11"
+  ]
+}

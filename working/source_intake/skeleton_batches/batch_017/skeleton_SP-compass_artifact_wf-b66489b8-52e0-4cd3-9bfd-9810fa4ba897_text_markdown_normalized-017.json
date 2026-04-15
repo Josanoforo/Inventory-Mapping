@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-017",
+  "source_title": "Blog",
+  "source_type": "blog",
+  "source_ref": "https://payhip.com/blog",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "- \"5 Amazon KDP Alternatives for Self-Published Authors\" — Nicole Martins Ferreira, April 9, 2026\n- \"5 Sellfy Alternatives That Are Clearly Better Replacements\" — Nicole Martins Ferreira, April 8, 2026\n- \"6 Selly Alternatives for Selling Online in 2026\" — Nicole Martins Ferreira, April 7, 2026\n- \"Payhip Vs Etsy: Which is Better in 2026?\" — Nicole Martins Ferreira, April 7, 2026\n- \"6 Lemon Squeezy Alternatives for Selling Digital Products\" — Nicole Martins Ferreira, April 6, 2026\n- \"Top Ebook Topic Ideas in 2026: What do readers want?\" — Abs @ Payhip, April 2, 2026",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/blog"
+      },
+      "source_finding_id": "F-16",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-16"
+  ]
+}

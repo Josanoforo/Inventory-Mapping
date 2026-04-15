@@ -1,0 +1,93 @@
+{
+  "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+  "source_title": "Pricing",
+  "source_type": "pricing_page",
+  "source_ref": "https://gumroad.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page references January 1, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Unlike other platforms, Gumroad doesn't charge you a monthly fee. Instead, our fees are deducted as a small percentage of every sale, so we only make money when you do.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/pricing"
+      },
+      "source_finding_id": "F-01",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"10% + $0.50 Per transaction for all sales through your profile or direct links to your customers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/pricing"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"30% Per transaction when new customers find and buy from you through our discover marketplace.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/pricing"
+      },
+      "source_finding_id": "F-03",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Since January 1, 2025, Gumroad handles ALL your tax obligations. Yes, you read that right – we manage sales tax collection and remittance worldwide.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/pricing"
+      },
+      "source_finding_id": "F-04",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"We believe in transparent pricing that helps you grow. No hidden fees, no monthly charges.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/pricing"
+      },
+      "source_finding_id": "F-05",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown, compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-01",
+    "F-02",
+    "F-03",
+    "F-04",
+    "F-05"
+  ]
+}

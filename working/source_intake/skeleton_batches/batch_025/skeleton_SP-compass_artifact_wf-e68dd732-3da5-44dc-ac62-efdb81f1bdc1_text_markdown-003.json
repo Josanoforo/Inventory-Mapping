@@ -1,0 +1,119 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003",
+  "source_title": "Terms",
+  "source_type": "policy_page",
+  "source_ref": "https://gumroad.com/terms",
+  "source_date_if_available": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You acknowledge and agree that Gumroad is the merchant of record for the resale of your Products to the Buyers, and that you shall not issue any invoice or make any demand for payment to any Buyer in relation to any completed resale of your Products through the Services.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"In consideration of Gumroad's MOR Services, in respect of each resale of your Products through the Services, you agree to pay Gumroad a per-transaction fee (the, \"Gumroad Fee\") for each resale made by Gumroad through the Services. The Gumroad Fee owed for each resale through the Services is automatically deducted from the purchase price paid by the Buyer, with the remainder (less any amounts in respect of taxes and any other charges payable by you pursuant to this Agreement) owed and paid to you by Gumroad (such remainder amount, the \"Supplier Fee\").\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Gumroad does not assess or collect \"listing\" or \"insertion\" fees, but will collect the Gumroad Fee from buyer proceeds as described in section 6.4. The Gumroad Fees vary depending on whether a Product is resold on the Website or on the applicable Supplier Property that leverages the Services. The current Gumroad Fees can be viewed on the page \"Pricing\". We may change the Gumroad Fees from time to time by posting the changes on the Website.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Regardless of listed currency, all transactions through the Services will settle in USD.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"Gumroad will handle Buyers' requests for refunds, chargebacks and other disputes with Buyers in Gumroad's sole discretion. The Supplier shall, at Gumroad's request, provide all information as may be requested by Gumroad to resolve Buyers' requests or disputes. Supplier is responsible for reimbursing Gumroad for the amount of any monies paid by Gumroad to Buyers or Third-Party Service Providers, or any other parties, in connection with refunds, chargebacks or disputes, as well as for any other reasonable costs incurred by Gumroad in resolving these requests.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-12",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-006",
+      "snippet_text": "\"Supplier Fees owed to you by Gumroad will be paid to you after a completed resale transaction based on an agreed upon settlement schedule, which is subject to change at the discretion of Gumroad.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-13",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-007",
+      "snippet_text": "\"Notwithstanding the forgoing, Gumroad may also offset against funds owed but not yet paid to Supplier via the Services any sums due, or reasonably likely to become due, to Gumroad pursuant to these Terms of Service.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      },
+      "source_finding_id": "F-14",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-08",
+    "F-09",
+    "F-10",
+    "F-11",
+    "F-12",
+    "F-13",
+    "F-14"
+  ]
+}

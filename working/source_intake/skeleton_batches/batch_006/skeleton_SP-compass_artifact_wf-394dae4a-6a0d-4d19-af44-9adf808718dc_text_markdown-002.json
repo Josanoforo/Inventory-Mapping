@@ -1,0 +1,91 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_title": "How To Withdraw My Commission",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You can withdraw commissions in Euros or US Dollars normally through HotPay International. This option allows you to receive the money by transfer directly to the registered bank account. The procedure for withdrawing these commissions is the same as indicated above, and the minimum withdrawal amount is US$ 50.00 or € 50.00 + fees.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-"
+      },
+      "source_finding_id": "F-05",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"If the country registered in your account is Colombia, you can withdraw sales in US Dollars to Colombian Pesos (COP). To do this, you need to register a Colombian bank account on the platform.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-"
+      },
+      "source_finding_id": "F-06",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Wise account: Wise uses SWIFT codes tied to banks in the United States and the European Union. For personal accounts, the SWIFT must match the country of registration; therefore, producers located outside the U.S. and the EU cannot use Wise accounts for withdrawals. For business accounts outside Brazil, the SWIFT may belong to other countries; therefore, a Wise business account can be used for payouts.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-"
+      },
+      "source_finding_id": "F-07",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Due to new regulations from the Central Bank of Argentina (BCRA), there has been a standardization of a fee for payments with conversions of purchases in Argentine Pesos (ARS) to offers in US Dollars (USD) or conversions of commissions in US Dollars (USD) to products offered in Argentine Pesos (ARS).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"Since February 2024, we have been automatically transferring all sales commissions available for withdrawal in currencies other than Brazilian Real (BRL) on a monthly basis.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-05",
+    "F-06",
+    "F-07",
+    "F-08",
+    "F-10"
+  ]
+}

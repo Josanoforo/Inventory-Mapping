@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-002",
+  "source_title": "Td P",
+  "source_type": "seller_forum",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/Double-check-your-quot-Etsy-Search-Visibility-quot/td-p/148988942",
+  "source_date_if_available": "August 26, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Seems it was my titles, for some unknown reason, each affected one had a 'Colon' after the first few words of the title instead of the comma. I would never use : in my titles and suddenly it has appeared on over 16 of my listings? Which then affected my shop in the search visibility section. Thanks Etsy!\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Technical-Issues/Double-check-your-quot-Etsy-Search-Visibility-quot/td-p/148988942"
+      },
+      "source_finding_id": "F-P07",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P07"
+  ]
+}

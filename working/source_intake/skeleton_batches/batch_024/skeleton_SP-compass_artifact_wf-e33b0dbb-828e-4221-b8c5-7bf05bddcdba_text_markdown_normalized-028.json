@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-028",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-028",
+  "source_title": "Vat Taxes",
+  "source_type": "feature_page",
+  "source_ref": "https://payhip.com/features/vat-taxes",
+  "source_date_if_available": "Undated (footer © 2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"Dealing with the digital EU & UK VAT laws are an administrative and legal nightmare. However, Payhip can take this burden off your shoulders and take on full responsibility for complying with these laws. If your customer is buying a digital product in the EU/UK we act as your reseller which means we're 100% responsible for digital EU/UK VAT.\"\n\n> \"We detect if a customer is based in the EU or UK\"\n\n> \"Apply the correct VAT amount to their transaction based on the tax rate of their country\"\n\n> \"Each quarter we report and submit any VAT amounts collected to the relevant tax authorities\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/features/vat-taxes"
+      },
+      "source_finding_id": "F-49",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-49"
+  ]
+}

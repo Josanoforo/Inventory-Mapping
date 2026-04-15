@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010",
+  "source_title": "Portal",
+  "source_type": "news",
+  "source_ref": "https://www.sernac.cl/portal/604/w3-article-85909.html",
+  "source_date_if_available": "27 de mayo de 2025 (stated on page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«Dado que Domestika es un proveedor sin presencia formal en Chile, el llamado que hace el SERNAC es a que las y los consumidores que estén interesados en sus servicios tomen todas las precauciones necesarias. El SERNAC recomienda a los consumidores informarse de los posibles riesgos de contratar servicios con esta empresa, instándolos a buscar referencias previas y a revisar el detalle de los términos y condiciones a los que están accediendo. Es importante indicar que la Ley del Consumidor tiene alcance territorial. Por ende, si un consumidor realiza una compra o contrata un servicio en el extranjero a través de internet, nuestra legislación no aplica, de ahí la relevancia de tomar las precauciones señaladas anteriormente.»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.sernac.cl/portal/604/w3-article-85909.html"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-08"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005",
+  "source_title": "Pago De Cursos",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.domestika.org/es/forums/2-domestika/topics/152040-pago-de-cursos",
+  "source_date_if_available": "08.05.2020 (post date visible on fetched page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«El aumento en el monto es debido al tipo de cambio que aplica la plataforma de pago para métodos en efectivo o locales o vuestro banco al cambiar de dólares a vuestra moneda local. Tal y como se indica en el carrito de compra, el cobro se realiza en dólares por el importe que os mostramos en la web (se refleja tanto en vuestra moneda local como en USD).»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/es/forums/2-domestika/topics/152040-pago-de-cursos"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-10"
+  ]
+}

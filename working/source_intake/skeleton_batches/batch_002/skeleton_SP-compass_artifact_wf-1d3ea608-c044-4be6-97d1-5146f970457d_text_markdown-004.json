@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004",
+  "source_title": "Domestika No Quiere Devolver Una Suscripcion Que Hacen Automaticamente",
+  "source_type": "unknown",
+  "source_ref": "https://tuquejasuma.com/domestika/reclamos/domestika-no-quiere-devolver-una-suscripcion-que-hacen-automaticamente",
+  "source_date_if_available": "Accessed April 2026; post undated in search snippet",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«Me dieron una suscripción gratis por un mes, y ahora me descontaron una suscripción anual, que no me interesa (no es un buen servicio y no vale lo que sale). Son 60usd, pero con los impuestos son unos 90mil pesos argentinos, es muchísimo dinero para nosotros.»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://tuquejasuma.com/domestika/reclamos/domestika-no-quiere-devolver-una-suscripcion-que-hacen-automaticamente"
+      },
+      "source_finding_id": "F-P06",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P06"
+  ]
+}

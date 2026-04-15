@@ -1,0 +1,67 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_title": "Gumroad",
+  "source_type": "report",
+  "source_ref": "https://storeleads.app/reports/gumroad",
+  "source_date_if_available": "Updated Mar 13 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"At present, there are 9,605 live stores running on the Gumroad platform.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://storeleads.app/reports/gumroad"
+      },
+      "source_finding_id": "F-01",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"Category | Stores: Computers | 1,038; Arts & Entertainment | 864; People & Society | 847; Jobs & Education | 438; Business & Industrial | 434; Books & Literature | 328; Finance | 317; Beauty & Fitness | 300; Internet | 282; Health | 274; Science | 213; Games | 170; Food & Drink | 161; Sports | 133; Home & Garden | 106; Apparel | 104; Toys & Hobbies | 92; Travel | 89; Consumer Electronics | 71\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://storeleads.app/reports/gumroad"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "[Stated in layout: \"Quarter | Active Stores: 2022 Q3 | 2,661; 2022 Q4 | 4,399; 2023 Q1 | 5,551; 2023 Q2 | 9,726; 2023 Q3 | 11,595; 2023 Q4 | 13,347; 2024 Q1 | 14,543; 2024 Q2 | 16,656; 2024 Q3 | 17,016; 2024 Q4 | 17,213; 2025 Q1 | 17,607; 2025 Q2 | 18,126; 2025 Q3 | 18,871; 2025 Q4 | 19,321; 2026 Q1 (to date) | 9,605\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://storeleads.app/reports/gumroad"
+      },
+      "source_finding_id": "F-P10",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-01",
+    "F-02",
+    "F-P10"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-004",
+  "source_title": "Why I Switched From Patreon To Memberful",
+  "source_type": "blog",
+  "source_ref": "https://danielmiessler.com/blog/why-i-switched-from-patreon-to-memberful",
+  "source_date_if_available": "March 31, 2018",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"My problem with Patreon is that it's not really a direct connection between the supporter and the content creator. Patreon simply isn't direct enough. It has too much going on in the middle. It has it's own business model, it's own values, it's own culture, and it's own rules. And these rules have caused them to start shutting down content creators that they don't agree with. So it's not really a connection between you as a content creator and your followers—it's more like their own thing that happens to live on the connection between you two. It feels parasitic.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://danielmiessler.com/blog/why-i-switched-from-patreon-to-memberful"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-11"
+  ]
+}

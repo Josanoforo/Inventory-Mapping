@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-010",
+  "source_title": "Productos Digitales Mas Vendidos",
+  "source_type": "blog",
+  "source_ref": "https://hotmart.com/es/blog/productos-digitales-mas-vendidos",
+  "source_date_if_available": "19/02/2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En el Mercado de Afiliación de Hotmart puedes identificar los productos digitales más vendidos y sus nichos usando los filtros \\\"Más queridos\\\" o \\\"Más calientes\\\". A partir de allí, puedes evaluar los nichos más buscados por el público.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/blog/productos-digitales-mas-vendidos"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-02"
+  ]
+}

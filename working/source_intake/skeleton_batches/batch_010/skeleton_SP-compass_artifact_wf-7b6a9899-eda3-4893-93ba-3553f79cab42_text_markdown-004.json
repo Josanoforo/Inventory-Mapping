@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=4",
+  "source_date_if_available": "7 octubre 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Cerraron mi cuenta supuestamente por plagio, cuando yo cree mi ebook completamente con inteligencia artificial. Se quedaron con $2,000 que habian en mi cuenta, que gane con mucho esfuerzo y ahora no me permiten ingresar y sacar los fondos. Tengo campañas de Facebook por pagar y no tengo respuesta de ellos\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=4"
+      },
+      "source_finding_id": "F-07",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-07"
+  ]
+}

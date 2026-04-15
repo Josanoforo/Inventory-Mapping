@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-005",
+  "source_title": "Thread",
+  "source_type": "blog",
+  "source_ref": "https://www.side7.com/forums/thread/1156/1",
+  "source_date_if_available": "Jun 13, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I use Payhip mostly because I heard they handle additional EU VAT prices, despite them having 5% take off of prices [...] But I noticed that very few people actually interact with any Payhip stores, at all, meanwhile people with Patreon and Ko-fi get all the visitors. I know people avoid using Payhip to sell items due to poor customer service and all, but I haven't heard anything from the buyer's side? I see more seller than buyer review posts. And very little buyer interaction.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.side7.com/forums/thread/1156/1"
+      },
+      "source_finding_id": "F-P02",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P02"
+  ]
+}

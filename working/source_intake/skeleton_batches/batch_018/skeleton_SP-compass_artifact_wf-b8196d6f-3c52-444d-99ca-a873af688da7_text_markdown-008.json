@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-008",
+  "source_title": "Stripe Acquires Payment Processing Startup Lemon Squeezy",
+  "source_type": "article",
+  "source_ref": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy",
+  "source_date_if_available": "July 26, 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Lemon Squeezy co-founder and CEO JR Farr noted that since his 13-person company's public launch in 2021\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy"
+      },
+      "source_finding_id": "F-P07",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P07"
+  ]
+}

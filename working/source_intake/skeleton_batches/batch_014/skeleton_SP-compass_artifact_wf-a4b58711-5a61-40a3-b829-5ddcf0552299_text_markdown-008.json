@@ -1,0 +1,67 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_title": "A Standard Platform Fee For New Creators Effective After August 4 2025",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+  "source_date_if_available": "Updated January 28, 2026 15:05 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"This policy is effective for creators who publish their creator page after August 4, 2025. If you are a creator who publishes your page on or before August 4, 2025, you will keep your existing platform pricing — this new plan will not apply to you, and you will not see a change in price as a result of this change.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025"
+      },
+      "source_finding_id": "F-P02",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"U.S. customers Due to ongoing legal developments, iOS users in the United States do not have to use Apple's in-app purchase (IAP) flow. Instead, they have the option to complete purchases directly through Patreon's mobile web checkout and are not subject to the 30% IAP fee. This experience reflects the outcome of the Epic v. Apple ruling, which prohibits Apple from blocking alternative payment methods\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025"
+      },
+      "source_finding_id": "F-P10",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "[Stated in layout: \"It's free to list your work for sale on Patreon (e.g., digital products, posts, and collections). One-time purchases are subject to the same fees as membership payments: Platform fee Between 5% and 12% of successfully processed sales + applicable taxes, depending on your platform plan · Payment processing fee Varies by currency (e.g., 2.9% + $0.30 USD) standard payment process rate\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025"
+      },
+      "source_finding_id": "F-P12",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P02",
+    "F-P10",
+    "F-P12"
+  ]
+}

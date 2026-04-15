@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-004",
+  "source_title": "Overview",
+  "source_type": "report",
+  "source_ref": "https://www.semrush.com/website/payhip.com/overview",
+  "source_date_if_available": "February 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"In February payhip.com received 10.55M visits with the average session duration 08:04. Compared to January traffic to payhip.com has decreased by -13.38%. [...] On payhip.com, visitors mainly come from Direct (55.05% of traffic), followed by youtube.com (9.5%). In most cases, after visiting payhip.com, users go to youtube.com and google.com. [...] Payhip.com's core audience is located in United States followed by United Kingdom, and India. [...] In February the number of backlinks to payhip.com has dropped by -0.5% and equals 17.16M. The amount of referring domains has increased by 0.79% and equals 105.54K.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.semrush.com/website/payhip.com/overview"
+      },
+      "source_finding_id": "F-P04",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P04"
+  ]
+}
