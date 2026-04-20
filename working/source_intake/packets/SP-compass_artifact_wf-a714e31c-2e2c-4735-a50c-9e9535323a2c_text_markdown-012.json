@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012",
+  "source_title": "Plataformas Para Vender Infoproductos",
+  "source_type": "blog",
+  "source_ref": "https://vendemebonito.com/plataformas-para-vender-infoproductos",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hotmart actualmente está en el número de las plataformas para vender cursos en forma de infoproductos digitales por su fácil uso, formación gratuita, y registro gratis. Desbancando así a ClickBank. [...] Realmente Clickbank prácticamente no se utilizar en el mundo hispano, pues el mercado hispano se ha trasladado a Hotmart, muchísimo mejor con diferencia.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://vendemebonito.com/plataformas-para-vender-infoproductos"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart market displacement of ClickBank in Spanish-speaking regions (undated): described as having displaced ClickBank as the dominant platform for digital infoproduct sales among Spanish-speaking users; cited for free registration, free training, and ease of use"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

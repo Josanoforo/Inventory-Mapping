@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-016",
+  "source_title": "Hotmart Opiniones",
+  "source_type": "blog",
+  "source_ref": "https://www.lifestylealcuadrado.com/hotmart-opiniones",
+  "source_date_if_available": "Accessed April 2026; page undated (post-2018 context)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Plataformas como Hotmart, Udemy o Amazon serían buenos ejemplos. Todas ellas prestan un servicio online valioso y quitan muchos dolores de cabeza tecnológicos, pero además… facturan para ti. Tú no vendes. Lo hacen ellos por ti. Y, ahora dime, si no controlas las ventas ni los clientes, que son el alma de un proyecto emprendedor, ¿sigues siendo el dueño de tu propio negocio?\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.lifestylealcuadrado.com/hotmart-opiniones"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart platform control dynamics (undated): described alongside Udemy and Amazon as platforms that handle billing and customer relationships on behalf of sellers; framed as loss of business autonomy since sellers do not control sales or customer data"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}
