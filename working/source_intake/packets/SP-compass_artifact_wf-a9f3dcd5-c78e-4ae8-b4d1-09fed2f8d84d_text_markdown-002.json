@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-002",
+  "source_title": "Complaints",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/internet-service/patreon-inc-1116-546225/complaints",
+  "source_date_if_available": "November 13, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I bought a yearly subscription (finishing January 31st 2026) for $227.05 to a content provider called Chasing Bourbon. Patreon decided to take this content provider off their platform for their own decision/policy and now they refuse to reimburse me for the unused portion or $75.63. I happened to know the content provider and they are not paying him either so Patreon is just keeping my money. I want my money back since they are not providing the service that they terminated at their own decision\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/internet-service/patreon-inc-1116-546225/complaints"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Patreon refund policy on platform-terminated creator (November 2025): buyer paid $227.05 annual subscription; Patreon removed creator and refused $75.63 pro-rated refund for unused portion"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["refund_policy", "price"],
+  "possible_time_scopes": ["2025-Q4"],
+  "possible_geographies": ["US"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

@@ -1,0 +1,55 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-015",
+  "source_title": "Reviews",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.sitejabber.com/reviews/etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Seller requested more time to complete two custom handmade items. SEVEN MONTHS later, I am still without my refund or items after a refund was requested back in December 2024. Shop is now closed and Etsy is stating that my refund request wasn't valid, even though I was following their prompts. Unfortunately I will no longer be purchasing on Etsy due to the companies inability to protect their customers against scammers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.sitejabber.com/reviews/etsy.com"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"I bought something from a seller and noticed that not only was it not handmade but it was cheap and came from a company in China. The owner tried to say that he only made the wooden bases for these cheap lights that one had to glue together but he lied about that too & made an excuse, saying he had run out & had to order it from his supplier in China. I supplied proof to Etsy when I reported the shop owner along with pictures, the packaging from China, etc. & Etsy did nothing about it.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.sitejabber.com/reviews/etsy.com"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Etsy Reviews 1,569\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.sitejabber.com/reviews/etsy.com"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy buyer review patterns on Sitejabber (accessed April 2026): 1,569 reviews; buyer reports 7-month refund failure after shop closure; buyer reports non-handmade items from China with no Etsy enforcement action"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["refund_policy", "review_count"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
