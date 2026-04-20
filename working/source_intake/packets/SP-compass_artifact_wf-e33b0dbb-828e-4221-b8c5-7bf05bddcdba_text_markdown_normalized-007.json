@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-007",
+  "source_title": "Becoming An Affiliate",
+  "source_type": "help_center",
+  "source_ref": "https://help.payhip.com/article/214-becoming-an-affiliate",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"At this point in time, Payhip does not automatically process payouts for affiliates. The sellers handle the payments to affiliates themselves. We make this process easier for them though. We provide monthly affiliate sales reports that include the PayPal email of the affiliate and the commission they earned for each month.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/214-becoming-an-affiliate"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip help center article on becoming an affiliate (undated): Payhip does not automatically process affiliate payouts; sellers are responsible for paying affiliates manually; Payhip provides monthly affiliate sales reports with each affiliate's PayPal email and commission earned"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,65 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-013",
+  "source_title": "Connecting Your Square Account",
+  "source_type": "help_center",
+  "source_ref": "https://help.payhip.com/article/342-connecting-your-square-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"[Gateway name] payments are processed instantly, so you receive funds immediately after each transaction. [Gateway name] payments work a little differently compared to Stripe or PayPal on Payhip. You will get your full payment (without Payhip fees deducted) instantly after each transaction has been processed. At the end of each month, you'll be billed for your Payhip fees using your preferred credit card.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/342-connecting-your-square-account"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "> \"The standard Square fee for online credit card transactions is 2.8% + $0.30 per transaction. Please check Square's pricing page for the latest updates. There are no chargeback fees. Note that these fees are collected by Square and do not go to Payhip.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/342-connecting-your-square-account"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "> \"Square is available in Australia, Canada, France, Ireland, Japan, Spain, United Kingdom, and the United States.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/342-connecting-your-square-account"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "> \"Note that the currency used in your Payhip account must match the currency in your [gateway name] account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/342-connecting-your-square-account"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip help center article on connecting Square payment processor (undated): Square online transaction fee is 2.8% + $0.30 with no chargeback fees; billing model differs from PayPal/Stripe — seller receives full payment instantly and Payhip fees are billed separately at end of month; Square available in Australia, Canada, France, Ireland, Japan, Spain, UK, and US; Payhip and Square account currencies must match"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": [],
+  "possible_geographies": ["AU", "CA", "FR", "IE", "JP", "ES", "GB", "US"],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "weak"
+}
