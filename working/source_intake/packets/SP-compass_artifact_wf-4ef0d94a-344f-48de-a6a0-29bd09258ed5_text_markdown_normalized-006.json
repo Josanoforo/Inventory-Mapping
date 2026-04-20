@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-006",
+  "source_title": "Does It Cost To Teach A Course In Domestika",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003373718-Does-it-cost-to-teach-a-course-in-Domestika",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You don't have to worry about anything, Domestika will take care of the production expenses for your course once it has been approved.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003373718-Does-it-cost-to-teach-a-course-in-Domestika"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Domestika creator costs help article (undated). Domestika covers production expenses for approved courses; no upfront cost to creator.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Domestika creator model: production costs covered by platform for approved courses (no upfront creator cost)"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

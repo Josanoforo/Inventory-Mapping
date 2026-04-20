@@ -1,0 +1,62 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_title": "Refunds And Exchanges Policy",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you are not satisfied with the content within the first 14 calendar days of purchasing a course, Domestika will refund the full amount and revoke your access to the course. Refunds will not be accepted after this 14-day period. If you purchased a course using Plus credits, you may exchange it for another course of your choice, but refunds are not permitted.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Refunds will not be granted to accounts that violate our Terms of Use or that, at Domestika's sole discretion, are considered unacceptable. For instance, refunds will be denied if a substantial portion of the course content has been downloaded or consumed prior to submitting the refund request. If Domestika determines that there has been an inappropriate or abusive use of the refund policy, we reserve the right to suspend or cancel your account, as well as to deny or restrict any current or future use of the service.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"*Right of withdrawal (applicable only to residents of the European Union, the United Kingdom, and other countries where this is established by law) If you reside in the European Union, the United Kingdom, or another country where national consumer protection laws recognize the right of withdrawal, you may cancel your purchase and receive a refund within 14 calendar days from the conclusion of the contract (or within the timeframe stipulated by the applicable regulations in your country of residence), without providing any justification. This right does not apply if you have started accessing the digital content before the end of this period, as by doing so, you expressly consent to the commencement of the service and acknowledge that you lose your right of withdr[awal]\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Domestika Refunds and Exchanges Policy (undated). 14-day full refund window; no refund if substantial content consumed; EU/UK withdrawal right lost once digital content accessed.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Domestika refund policy: 14-day full refund window; access revoked on refund",
+    "Domestika refund denial: substantial content consumed or ToU violation",
+    "Domestika EU/UK withdrawal right: 14 days, forfeited once digital content accessed"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["refund_policy"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["EU", "United Kingdom"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
