@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010",
+  "source_title": "Upcoming Change 139808918",
+  "source_type": "blog",
+  "source_ref": "https://www.patreon.com/posts/upcoming-change-139808918",
+  "source_date_if_available": "Accessed April 2026; page undated. Post references upcoming November 2025 billing deadline, suggesting authorship between April and November 2025.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"It appears that no Patreon 'creators' were consulted or notified of this (I was not, and none of the fellow creators that I know were either); rather it was presented to us by Patreon as a fait accompli\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.patreon.com/posts/upcoming-change-139808918"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon legacy billing migration (2025): creator reports creators were not consulted or notified before billing system change announcement — presented as fait accompli"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

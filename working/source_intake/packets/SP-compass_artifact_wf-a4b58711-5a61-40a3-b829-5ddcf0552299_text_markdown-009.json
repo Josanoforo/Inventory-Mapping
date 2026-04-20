@@ -1,0 +1,57 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-009",
+  "source_title": "Payouts Guide For Creators Outside Of The Us",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Fees: A small flat fee (e.g., about $0.50 local equivalent per payout, varies by currency). Minimum payout of $10 or local equivalent.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"Fees: 1.55% of payout amount + $0.25 per payout. No additional currency conversion fee is applied. Minimum payout of $10. Conversion: Patreon handles the conversion from USD → local currency before sending to your bank.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "[Stated in layout: \"Fees: $0.50 per payout. Conversion: No additional currency conversion happens at payout time, since the transfer is from USD to a USD bank account.\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon payout fees for non-US creators: Payoneer flat fee ~$0.50 local equivalent per payout, min $10; Stripe bank transfer 1.55%+$0.25 per payout with Patreon handling USD-to-local conversion; USD bank account $0.50 flat fee per payout, no conversion"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout_method_availability", "fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
