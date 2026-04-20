@@ -37,15 +37,16 @@
     "Payhip vs Shopify pricing"
   ],
   "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["fee_rate", "active_sellers"],
+  "possible_metric_types": ["fee_rate", "unknown"],
   "possible_time_scopes": ["2026"],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "metric_type_unclear"],
   "priority_for_source_first": "high",
   "intake_notes": [
     "Payhip's own platform_doc page. Self-promotional primary source with concrete fee data: Payhip 5% (free plan) vs Gumroad 10% vs Shopify $29/month base. Claims 130,000+ creators worldwide.",
     "source_date_unclear: page undated; access date only (April 2026).",
-    "current_vs_historical_ambiguity: undated page; '130,000 creators' figure and fee rates may not reflect the moment of publication."
+    "current_vs_historical_ambiguity: undated page; '130,000 creators' figure and fee rates may not reflect the moment of publication.",
+    "metric_type_unclear: '130,000 creators worldwide' is a seller/creator base count; no enum value covers active_sellers specifically ('unknown' used as fallback)."
   ],
   "traceability_status": "weak"
 }
