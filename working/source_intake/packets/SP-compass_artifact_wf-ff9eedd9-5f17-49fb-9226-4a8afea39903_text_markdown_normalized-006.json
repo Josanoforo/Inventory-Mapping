@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-006",
+  "source_title": "Is Gumroad For Me",
+  "source_type": "platform_doc",
+  "source_ref": "https://help.gumroad.com/article/64-is-gumroad-for-me",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Gumroad is perfect for anyone who makes and sells products. Writers, musicians, filmmakers, SaaS developers, educators (and all in-between) can sell on Gumroad to a worldwide audience.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/64-is-gumroad-for-me"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Gumroad help center article (accessed April 2026, undated) describing target sellers: writers, musicians, filmmakers, SaaS developers, and educators can sell to a worldwide audience on Gumroad"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": [],
+  "possible_time_scopes": ["2026-Q2"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}
