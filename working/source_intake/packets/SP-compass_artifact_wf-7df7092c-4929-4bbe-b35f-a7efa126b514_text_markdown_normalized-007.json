@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-007",
+  "source_title": "Refund Request Pending Safebyte Theme Not Working On Iphone Safari",
+  "source_type": "buyer_review",
+  "source_ref": "https://forums.envato.com/t/refund-request-pending-safebyte-theme-not-working-on-iphone-safari/517176",
+  "source_date_if_available": "May 2025 (date stated in text: \"May 14, 2025\").",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hello Envato Community, I'm posting here regarding a refund request I submitted on May 14, 2025 for the theme: \\\"Safebyte - Technology & IT Solutions WordPress Theme\\\" Shortly after purchase, I discovered a responsiveness issue on Safari for iPhone, which severely affects mobile usability.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://forums.envato.com/t/refund-request-pending-safebyte-theme-not-working-on-iphone-safari/517176"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Envato ThemeForest: buyer submitted refund request May 14, 2025 for WordPress theme with Safari iPhone responsiveness issue; refund outcome unknown from snippet"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["refund_policy"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
