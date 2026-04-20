@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-015",
+  "source_title": "Etsy To Shopify",
+  "source_type": "blog",
+  "source_ref": "https://www.jameelaghann.com/shopify-lab/etsy-to-shopify",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Etsy to Shopify is comparing renting a space in a busy mall to a lone building on the side of the highway. Shopify isn't a marketplace; it's a platform for you to find and drive your own traffic.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.jameelaghann.com/shopify-lab/etsy-to-shopify"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Blog post (undated). Etsy = marketplace with built-in traffic; Shopify = standalone platform requiring seller-driven traffic.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Etsy vs Shopify: Etsy provides built-in marketplace traffic; Shopify requires seller to drive own traffic"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["discoverability_claim"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
