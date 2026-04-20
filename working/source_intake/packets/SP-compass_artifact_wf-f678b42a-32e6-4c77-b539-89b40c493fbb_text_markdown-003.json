@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-003",
+  "source_title": "Ventas Globales Que Debo Saber Sobre Las Actualizaciones Del Modelo De Negocio De Hotmart",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/es/article/20420081457549/ventas-globales-que-debo-saber-sobre-las-actualizaciones-del-modelo-de-negocio-de-hotmart",
+  "source_date_if_available": "Efectivo 1 de julio de 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"A partir del 1 de julio de 2024, Hotmart actuará en algunas regiones como agente de los Productores, representándolos ante Compradores, Coproductores y Afiliados. Este cambio es resultado de actualizaciones en el modelo de negocio de Hotmart que se aplicará independientemente de la ubicación del Productor.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/20420081457549/ventas-globales-que-debo-saber-sobre-las-actualizaciones-del-modelo-de-negocio-de-hotmart"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart help center article (effective July 1, 2024): Hotmart will act as agent for Producers in some regions starting July 1, 2024, representing them before Buyers, Co-producers and Affiliates; applies regardless of Producer's location"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": [],
+  "possible_time_scopes": ["2024-Q3"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient", "geography_unclear"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}
