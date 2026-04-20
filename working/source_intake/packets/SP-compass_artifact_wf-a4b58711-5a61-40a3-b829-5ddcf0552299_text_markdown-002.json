@@ -1,0 +1,47 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_title": "Taxes On Creator Fees",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees",
+  "source_date_if_available": "Updated March 03, 2026 20:41 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Depending on your location and business status, Patreon may be required to apply sales tax/VAT to the service fees it charges creators. These tax obligations are based on local laws, including how intermediary platforms are treated, the type of service, and whether any exemptions apply in your jurisdiction.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Also, note that in certain countries (e.g., South Africa, Switzerland, Indonesia, Malaysia) Patreon will generally charge VAT irrespective of your VAT ID registration status.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon VAT on creator service fees (March 2026): applied based on creator location and business status; South Africa, Switzerland, Indonesia, and Malaysia charge VAT regardless of creator VAT ID registration status"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["2026-Q1"],
+  "possible_geographies": ["ZA", "CH", "ID", "MY"],
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
