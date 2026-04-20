@@ -1,0 +1,48 @@
+{
+  "packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-005",
+  "source_title": "Payment Methods",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you are in Mexico, Colombia, or Brazil, you can use local payment methods such as paying in cash or via bank transfer.* In order for this payment option to appear for you, you should have your location updated in your profile.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Mexico: After following the necessary steps to make the purchase, please choose the option \\\"Pay in cash and other payment methods\\\" and insert your CURP number (if you don't know it, you can always find out what it is in this link. Take into account that we only request this information for security reasons). Select the bank or commercial entity of your choice in order to generate a proof of purchase and once you have it, please go to the bank or commercial entity to make the payment. Colombia: After following the necessary steps to make the purchase, please choose the option \\\"Pay in cash and other payment methods\\\" and insert the CC number. Select the bank or commercial entity of your choice in order to generate a proof of purchase and once you have it, please go to the bank or commercial entity to make the payment. Brazil: After following the necessary steps to make the purchase, please choose the option \\\"Pay in Cash and other payment methods\\\" and introduce the CPF/CNPJ number.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Domestika payment methods help article (accessed April 2026): cash and bank transfer available in Mexico, Colombia, Brazil via dLocal; requires location set in profile; Mexico needs CURP, Colombia needs CC number, Brazil needs CPF/CNPJ; buyer generates proof then completes payment at bank or commercial entity"
+  ],
+  "possible_actor_levels": ["buyer", "marketplace"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["MX", "CO", "BR"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

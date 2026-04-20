@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_title": "Patreon Vs Kofi Musicians 2025",
+  "source_type": "article",
+  "source_ref": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+  "source_date_if_available": "September 5, 2025 (updated April 2, 2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For most independent musicians in 2026, Ko-fi is the better starting point. It charges 0% on one-time donations and only 5% on memberships, compared to Patreon's 5-12% plus processing fees. On $500 in monthly fan support, a Ko-fi Gold creator keeps roughly $475 while a Patreon Pro creator nets around $400. However, Patreon wins on community-building tools and structured membership tiers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Patreon's strength lies in its established reputation and widespread fan recognition. In recent polls, 50% of followers preferred Patreon over Ko-fi's 30%, indicating stronger brand awareness and trust among potential supporters. Many fans already maintain Patreon accounts for other creators, reducing friction for new subscriptions.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Chartlex article comparing Patreon vs Ko-fi for musicians (September 5, 2025, updated April 2, 2026): Ko-fi charges 0% on one-time donations and 5% on memberships; Patreon charges 5–12% plus processing; at $500/month Ko-fi Gold creator keeps ~$475 vs Patreon Pro ~$400; fan preference survey: 50% prefer Patreon, 30% prefer Ko-fi"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate", "revenue"],
+  "possible_time_scopes": ["2025-Q3", "2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

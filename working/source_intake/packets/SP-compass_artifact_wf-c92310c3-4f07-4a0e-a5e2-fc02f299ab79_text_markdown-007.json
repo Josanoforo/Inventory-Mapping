@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007",
+  "source_title": "Privacy",
+  "source_type": "policy_page",
+  "source_ref": "https://www.domestika.org/en/privacy",
+  "source_date_if_available": "July 10, 2024 (last updated date stated on page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"the Personal Data provided (the 'Personal Data') will be processed by Domestika Inc. ('Domestika') as the owner of the Platform and data controller of the Personal Data provided therein, whose contact details are as follows: Registered Office: 2001 Addison St., Suite 300 Berkeley, CA, 94704, United States.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/privacy"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Domestika privacy policy (last updated July 10, 2024): Domestika Inc. is data controller and platform owner; registered at 2001 Addison St., Suite 300, Berkeley, CA 94704, United States"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2024-Q3"],
+  "possible_geographies": ["US"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}
