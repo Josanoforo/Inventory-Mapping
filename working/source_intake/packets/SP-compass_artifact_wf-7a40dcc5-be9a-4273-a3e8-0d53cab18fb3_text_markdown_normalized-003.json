@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-003",
+  "source_title": "Td P",
+  "source_type": "seller_forum",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/My-store-s-visibility-suddenly-dropped-by-80/td-p/147207063",
+  "source_date_if_available": "November–December 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Something is definitely going on, I have experienced just the opposite but with no sales. My views and visits have gone through the roof at 800 to a 1,000 by 7:00 in the morning, with a 15% sale off in my shop and no sales. This is the worst time of the year this could happen. I don't know what is happening to my shop but I'm not happy because I'm not making any sales. November was the worst month I had this year and it should have been the best.?????\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Technical-Issues/My-store-s-visibility-suddenly-dropped-by-80/td-p/147207063"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Etsy seller: 800–1,000 daily views with 15% shop discount but zero sales in November 2025; worst month of year for that seller"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["traffic_volume", "sales_count"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

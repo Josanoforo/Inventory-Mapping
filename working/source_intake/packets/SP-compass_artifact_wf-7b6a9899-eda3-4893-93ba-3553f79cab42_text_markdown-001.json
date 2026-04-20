@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-001",
+  "source_title": "Qué Tal Ha Sido Tu Experiencia En Marketing De Afiliados Por Hotmart",
+  "source_type": "seller_forum",
+  "source_ref": "https://es.quora.com/Qué-tal-ha-sido-tu-experiencia-en-marketing-de-afiliados-por-Hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Como productor, te puedo decir que en general, te ahorra mucho tiempo en el proceso de llevar tu infoproducto al mercado. Sin embargo, te cobra una comisión del 10% por cada venta, más lo que te cobre la pasarela de pagos.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.quora.com/Qué-tal-ha-sido-tu-experiencia-en-marketing-de-afiliados-por-Hotmart"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart: charges producers 10% commission per sale plus additional payment gateway fee"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

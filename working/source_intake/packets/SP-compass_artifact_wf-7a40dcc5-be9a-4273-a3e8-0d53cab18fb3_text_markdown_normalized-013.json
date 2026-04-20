@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-013",
+  "source_title": "Solved Sudden Drop In Etsy Sales And No Search Visibility 6 9Th November 2025",
+  "source_type": "blog",
+  "source_ref": "https://srcreativestudio.com/solved-sudden-drop-in-etsy-sales-and-no-search-visibility-6-9th-november-2025",
+  "source_date_if_available": "November 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"On the 6th of November, our sales went from 1.2k per day, to £20 -Etsy support were no help, stating it was just our SEO. It was clear that it wasn't, as we just weren't visible in search. Our shop name wasn't coming up, nada.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://srcreativestudio.com/solved-sudden-drop-in-etsy-sales-and-no-search-visibility-6-9th-november-2025"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Etsy seller (UK): daily revenue dropped from ~£1,200 to £20 on November 6, 2025 due to search invisibility; Etsy support attributed to SEO despite shop name not appearing in search"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "search_discovery"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,46 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-010",
+  "source_title": "Is Etsy Still Worth It In 2026",
+  "source_type": "blog",
+  "source_ref": "https://loveeattravelrepeat.com/is-etsy-still-worth-it-in-2026",
+  "source_date_if_available": "February 23, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Here is where I get honest in a way that a lot of content creators do not. My revenue went down. In 2024, I did $135,000 in revenue from my Etsy print on demand shop. In 2025, that number dropped to $109,000. My profit margin is around 45%. And yes, I know that is still a lot of money, and I know that some people reading this would be absolutely thrilled with $49,050 profit from a side business they run from their laptop.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://loveeattravelrepeat.com/is-etsy-still-worth-it-in-2026"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"The rise of AI tools made it incredibly easy to generate designs, write product descriptions, and spin up listings at a pace that was simply not possible before. That sounds great on the surface, right? Faster creation, more listings, more opportunities to be found. The problem is that ease of creation applies to everyone equally. So now you have an enormous volume of shops listing products at a rate the market has never seen before.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://loveeattravelrepeat.com/is-etsy-still-worth-it-in-2026"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy seller (print-on-demand): $135,000 revenue in 2024 dropped to $109,000 in 2025 (~19% year-over-year decline); ~45% profit margin",
+    "Etsy: AI-generated designs increased listing saturation; competitive advantage diluted as AI creation tools are accessible to all sellers equally"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "profit"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

@@ -1,0 +1,66 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_date_if_available": "24 marzo 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En general la plataforma es estupenda para los productores y por supuesto para los afiliados. Creo que la plataforma seguirá creciendo y yo quero estar presente. Estoy empezando con mis productos y estoy trabajando para los buenos resultados.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"¡Me encanta! Tiene todas las herramientas para crear un negocio digital completo, se encarga de gestionar todas las ventas en todos los países, le ofrece a nuestros clientes una experiencia de usuario perfecta y si tienes algún problema puedes abrir un ticket de soporte y en unos minutos te resuelven el inconveniente. Y lo mejor es que tiene una interfaz amigable y tiene todas las opciones para gestionar nuestros productos, nuestros alumnos y personalizar cada aspecto. 10/10\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Soy productor en Hotmart y una clienta ha solicitado un chargeback de $536.35 en la transacción HP3116820252. He contactado con Klarna (caso 100836111) y con Stripe Support. Ambos han confirmado que...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Me sacaron el programa de la venta !! Malisima la experiencia hasta ahora, tienen miles de trabas, no te explican bien que es lo que debes agregar o corregir y para colmo ahora me sacan de la venta el...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart: chargeback of $536.35 (transaction HP3116820252) initiated by buyer; producer disputes via Klarna and Stripe",
+    "Hotmart seller: removed from sale program unexpectedly without clear explanation"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["refund_policy"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

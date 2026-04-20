@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-009",
+  "source_title": "Etsy Isnt What It Used To Be Here S The Hard Reality Of Selling In 2025 0680Ebbcad17",
+  "source_type": "blog",
+  "source_ref": "https://edward-foster23.medium.com/etsy-isnt-what-it-used-to-be-here-s-the-hard-reality-of-selling-in-2025-0680ebbcad17",
+  "source_date_if_available": "August 26, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"At first, I ignored the fees. It was just cents, right? But by the time I was actually making steady sales, I realized the math didn't add up. Listing fees, transaction fees, ad pushes I never asked for—it felt like Etsy was nickeling and diming me until I was running in circles. One month, I sold about $400 worth of products. After fees and shipping, I barely saw $150. That was the month I stopped calling Etsy my 'business' and started calling it my 'hobby tax.'\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://edward-foster23.medium.com/etsy-isnt-what-it-used-to-be-here-s-the-hard-reality-of-selling-in-2025-0680ebbcad17"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy seller: $400 gross sales resulted in ~$150 net after fees and shipping (~62.5% combined deduction from fees and shipping costs)"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate", "revenue"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}
