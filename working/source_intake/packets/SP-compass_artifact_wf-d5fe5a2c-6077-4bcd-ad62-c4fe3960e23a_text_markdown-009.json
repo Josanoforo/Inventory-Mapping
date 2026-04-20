@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-009",
+  "source_title": "Hotmart Marketplace",
+  "source_type": "blog",
+  "source_ref": "https://hotmart.com/es/blog/hotmart-marketplace",
+  "source_date_if_available": "15/07/2021",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En Hotmart Marketplace, puedes navegar por categoría: Animales y Plantas, Apps y Software, Casa y Construcción, Culinaria y Gastronomía, Desarrollo Personal, Diseño, Derecho, Ecología y Medio Ambiente, Educación, Espiritualidad, Finanzas e Inversiones, General, Literatura, Idiomas, Internet, Moda y Belleza, Música y Artes, Negocios y Carrera, Salud y Deportes, Tecnología de la Información.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/blog/hotmart-marketplace"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart blog article on Hotmart Marketplace (15/07/2021, in Spanish): lists 20 product categories available for navigation in Hotmart Marketplace including Animals/Plants, Apps/Software, Personal Development, Education, Finance/Investments, Health/Sports, Information Technology, and others"
+  ],
+  "possible_actor_levels": ["buyer", "marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2021-Q3"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}
