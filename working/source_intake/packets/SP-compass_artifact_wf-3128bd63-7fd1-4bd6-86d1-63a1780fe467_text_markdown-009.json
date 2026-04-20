@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009",
+  "source_title": "Mexico Vat Information For Envato Elements Subscribers",
+  "source_type": "help_center",
+  "source_ref": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers",
+  "source_date_if_available": "Accessed April 2026; page states effective date February 20, 2024 in separate passage (\"effective from the 20th of February, 2024\") not continuous with this snippet",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Subscribers in Mexico will see a change in their recurring Envato Elements billing to include Value Added Tax (VAT) of 16%.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"If you do not provide a RFC, then the default 'General Public' RFC ('XAXX010101000') will be saved with your billing information.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Envato Elements Mexico VAT help center. SNP-001: 16% VAT added to recurring billing for Mexico subscribers. SNP-002: RFC (Mexican tax ID) required; defaults to general public RFC if not provided.",
+    "source_date_unclear: effective date February 20, 2024 is from a separate passage not in this snippet.",
+    "possible_geographies: ['Mexico'] — Mexico-specific VAT policy."
+  ],
+  "possible_subjects": [
+    "Envato Elements Mexico VAT 16% on subscriber billing",
+    "Envato Elements Mexico RFC requirement"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["February 2024"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

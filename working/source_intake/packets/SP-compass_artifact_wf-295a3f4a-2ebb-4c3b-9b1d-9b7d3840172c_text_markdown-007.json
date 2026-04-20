@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-007",
+  "source_title": "Politicaprivacidad",
+  "source_type": "policy_page",
+  "source_ref": "https://www.kichink.com/legales/politicaprivacidad",
+  "source_date_if_available": "Acceso abril 2026; copyright @2024 en página",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Kichink puede ofrecer servicios a usuarios en todo el mundo. Si usa nuestros servicios dentro o fuera de México, Kichink Servicios, S.A. de C.V. es el responsable de la administración de sus datos personales.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.kichink.com/legales/politicaprivacidad"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Kichink privacy policy page (copyright @2024, accessed April 2026). States Kichink can offer services worldwide; Kichink Servicios S.A. de C.V. is data controller for use inside or outside Mexico.",
+    "source_date_unclear: copyright @2024 indicates recent update but no specific effective date.",
+    "possible_metric_types: ['unknown'] — privacy policy clause, no measurable metric."
+  ],
+  "possible_subjects": [
+    "Kichink global service availability",
+    "Kichink data controller (Kichink Servicios S.A. de C.V.)"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2024"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

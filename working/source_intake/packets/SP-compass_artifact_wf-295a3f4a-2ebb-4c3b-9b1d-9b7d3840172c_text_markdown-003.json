@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+  "source_title": "Hola Mundo Esto Es Kichink 830997Eef2A",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+  "source_date_if_available": "17 de marzo de 2017",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En tu nueva tienda de Kichink podrás aceptar pagos de forma segura con tarjetas de crédito: Visa, MasterCard y American Express (nacionales e internacionales).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"De esta forma tus consumidores nacionales e internacionales pueden comprar en tu tienda desde cualquier lugar de México y del mundo.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Kichink official Medium blog post (@Kichink), March 17, 2017. SNP-001: payment methods available — Visa, MasterCard, American Express (domestic and international). SNP-002: buyers from Mexico and worldwide can purchase.",
+    "URL also appears in other shards (compass_artifact_wf-e5db5a04); packet assigned to this shard by alphabetical order.",
+    "Source is 9 years old (2017); priority set to low per age heuristic.",
+    "possible_geographies: ['Mexico'] — Kichink is a Mexican platform; international reach mentioned but Mexico is primary."
+  ],
+  "possible_subjects": [
+    "Kichink payment method availability (Visa, MC, Amex)",
+    "Kichink international buyer access"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": ["March 2017"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

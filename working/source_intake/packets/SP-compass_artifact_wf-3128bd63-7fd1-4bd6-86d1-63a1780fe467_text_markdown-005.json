@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-005",
+  "source_title": "Vat For Envato Market",
+  "source_type": "help_center",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000471323-VAT-for-Envato-Market",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For all other purposes, including selling to non-EU customers, and including income tax purposes, the Author is selling directly to the customer and receiving a sale income. Subsequently, the Author pays an Author fee to Envato.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000471323-VAT-for-Envato-Market"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Envato VAT for Market help center. Describes commercial structure: for non-EU buyers (and income tax purposes), Author sells directly to customer and pays an Author fee to Envato. Establishes fee-based commission structure.",
+    "source_date_unclear: page undated; accessed April 2026.",
+    "possible_geographies: ['European Union'] — EU VAT is the context of the distinction."
+  ],
+  "possible_subjects": [
+    "Envato Market author-direct sale structure (author fee to Envato)",
+    "Envato Market VAT treatment (non-EU buyer sales)"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["European Union"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

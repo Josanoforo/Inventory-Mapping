@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-002",
+  "source_title": "Claudia De Heredia Fundadora Kichink",
+  "source_type": "interview",
+  "source_ref": "https://hotbook.mx/claudia-de-heredia-fundadora-kichink",
+  "source_date_if_available": "4 de marzo de 2018",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Me encantaría que Kichink tuviera presencia en más países de Latinoamérica y de Estados Unidos.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotbook.mx/claudia-de-heredia-fundadora-kichink"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotbook.mx interview with Kichink founder Claudia De Heredia, March 4, 2018. Founder expresses aspiration to expand Kichink to more Latin American countries and the United States.",
+    "Source is 8 years old (2018); priority set to low per age heuristic.",
+    "possible_geographies: ['Mexico', 'Latin America', 'United States'] from founder's expansion aspirations.",
+    "possible_metric_types: ['unknown'] — snippet contains no measurable metric."
+  ],
+  "possible_subjects": [
+    "Kichink international expansion aspiration (Latin America, US)"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["March 2018"],
+  "possible_geographies": ["Mexico", "Latin America", "United States"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}
