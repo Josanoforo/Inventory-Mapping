@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_title": "idearupt.lemonsqueezy.com",
+  "source_type": "product_listing",
+  "source_ref": "https://idearupt.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Idearupt \u00b7 Bhavesh AI Pro \u00b7 $9.00/month \u00b7 Idearupt Pro \u00b7 $19.00/month \u00b7 Idearupt Pro+ - 7 Day Free Trial \u00b7 $49.00/month \u00b7 Powered by Lemon Squeezy\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://idearupt.lemonsqueezy.com/"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Lemon Squeezy seller idearupt (April 2026): AI subscription products at $9/mo, $19/mo, $49/mo; 7-day free trial on highest tier"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["price"],
+  "possible_time_scopes": ["2026-Q2"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}
