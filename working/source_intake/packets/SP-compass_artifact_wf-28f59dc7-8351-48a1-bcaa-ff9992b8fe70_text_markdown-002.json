@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-002",
+  "source_title": "Reviews",
+  "source_type": "unknown",
+  "source_ref": "https://domestika.pissedconsumer.com/reviews/RT-P.html",
+  "source_date_if_available": "Charge date August 6, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Me pongo en contacto con ustedes desde una situación muy sensible para mi familia. El 6 de agosto de 2025 se me realizó un cargo de $193.02 USD por una suscripción Domestika Plus (ID de transacción: 30N29347HU427601C). Este cargo me tomó totalmente por sorpresa, pues nunca lo autoricé de manera consciente. Lo que realmente sucedió es que, con mucha ilusión, compré un curso de pulseras por 19 MXN porque mi hija quiere aprender a hacerlas.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://domestika.pissedconsumer.com/reviews/RT-P.html"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika 0.99 subscription deceptive enrollment",
+    "Domestika Plus unauthorized charge Mexico"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["price"],
+  "possible_time_scopes": ["August 2025"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "PissedConsumer complaint in Spanish. Buyer in Mexico purchased a bracelet course for 19 MXN; charged $193.02 USD for Domestika Plus on August 6, 2025 without authorization.",
+    "possible_geographies: ['Mexico'] inferred from MXN currency and complaint in Spanish on a Latin American consumer platform.",
+    "source_date_unclear: review publication date unknown; only charge date (August 6, 2025) is stated."
+  ],
+  "traceability_status": "weak"
+}

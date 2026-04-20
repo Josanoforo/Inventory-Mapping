@@ -1,0 +1,62 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_title": "Compre Curso Domestika Noviembre Mes Despues Me Llego Cobro Casi 300 Euros Consegui Recuperar Mi Dinero",
+  "source_type": "article",
+  "source_ref": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+  "source_date_if_available": "17 diciembre 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En noviembre compré un curso de crónicas de viajes en Domestika que costaba menos de dos euros. Yo estaba viajando por Marruecos, muy inspirada, y me pareció una buena idea retomar una escritura más personal que tenía bastante abandonada por mi trabajo del día a día. No le di muchas vueltas: ya había comprado otros cursos en la plataforma años atrás sin ningún problema.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Intentar contactar con Domestika no fue sencillo. Hay un chat en la esquina inferior, pero es para hablar con una IA... y esta te remite a una página donde se indica que no es posible cancelar la suscripción una vez activada.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cocargo-casi-300-euros-consegui-recuperar-mi-dinero"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Días después, PayPal aceptó mi reclamación y me devolvió el dinero al considerar que yo, efectivamente, no había autorizado ese pago.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika 0.99 subscription deceptive enrollment",
+    "Domestika cancellation impossibility via support",
+    "Domestika Plus PayPal chargeback success"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["price"],
+  "possible_time_scopes": ["November 2025", "December 2025"],
+  "possible_geographies": ["Spain"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "Spanish tech article (genbeta.com), December 17, 2025. First-person buyer account: purchased a course for under €2 in November; charged ~€300 a month later; Domestika support redirected to AI chat that says cancellation is impossible once activated; buyer recovered money via PayPal chargeback.",
+    "Provides three key data points: (1) deceptive enrollment mechanism, (2) Domestika's AI-only support and no-cancellation policy, (3) successful PayPal dispute resolution.",
+    "possible_geographies: ['Spain'] from Spanish language and genbeta.com (Spanish tech publication).",
+    "priority 'high': detailed first-person account with specific support interaction details and refund mechanism."
+  ],
+  "traceability_status": "partial"
+}
