@@ -1,0 +1,63 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+  "source_title": "Etsy Calculator",
+  "source_type": "pricing_page",
+  "source_ref": "https://investomatica.com/etsy-calculator",
+  "source_date_if_available": "Last reviewed April 4, 2026 (per page header). Source attribution on page: \"Source: etsy.com\"",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Argentina | 6.5% + 0.30 USD\"; \"Brazil | 6.5% + 0.30 USD\"; \"Chile | 6.5% + 0.30 USD\"; \"Mexico | 4.5% + 8 MXN\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://investomatica.com/etsy-calculator"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"Mexico | 40.00 MXN | 2,000.00 MXN | 40.00 MXN\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://investomatica.com/etsy-calculator"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"By default, the base currency of an etsy shop is set to be the same as that of the seller's native currency. However, sellers have an option to change the base currency used by their shops and thus their listings. If you change your shop's base currency to something other than your native currency, an extra 2.5% conversion fee will be charged on all deposits.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://investomatica.com/etsy-calculator"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Etsy fee structure by country",
+    "Etsy seller fee calculator"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": ["Argentina", "Brazil", "Chile", "Mexico"],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "Third-party fee calculator last reviewed April 4, 2026, citing etsy.com as source. Provides per-country fee rates for Payoneer-based countries in Latin America.",
+    "SNP-001: Argentina, Brazil, Chile at 6.5% + $0.30 USD; Mexico at 4.5% + 8 MXN — these appear to be Etsy Payments processing fee rates.",
+    "SNP-002: Mexico-specific layout row showing 40 MXN / 2,000 MXN / 40 MXN — likely listing fee structure but column labels not captured in snippet; context_for_SNP-002 requires reopening.",
+    "SNP-003: 2.5% currency conversion fee for sellers using non-native base currency.",
+    "current_vs_historical_ambiguity: third-party calculator; though reviewed April 4, 2026, rates could lag Etsy's actual current policy.",
+    "source_date_unclear: 'last reviewed' date reflects calculator maintainer review, not necessarily an Etsy policy update date."
+  ],
+  "traceability_status": "partial"
+}

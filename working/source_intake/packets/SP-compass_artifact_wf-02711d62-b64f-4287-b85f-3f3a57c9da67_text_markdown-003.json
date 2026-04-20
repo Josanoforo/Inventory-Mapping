@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-003",
+  "source_title": "Plfnafajhhphflcaonfmgllfoofciild",
+  "source_type": "product_listing",
+  "source_ref": "https://chromewebstore.google.com/detail/patreon-assistant/plfnafajhhphflcaonfmgllfoofciild",
+  "source_date_if_available": "Accessed April 2026; page undated in snippet.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"PATREON ASSISTANT ---- This extension helps to track latests posts of creators on Patreon. Especially developed for tracking your creators that release STL miniature for 3d printing. No login required. Just copy and paste a creator link to Patreon Assistant, then all latest posts of the creator will be shown on 'Last Posts' section, See all latest posts of your creators on the same section, ordered by puslish date, Easly adding and removing creators, Icon notification helps to show how many new posts there are.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://chromewebstore.google.com/detail/patreon-assistant/plfnafajhhphflcaonfmgllfoofciild"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon creator tracking tool",
+    "digital content subscription management"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["undated"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "metric_type_unclear", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Workflow/process finding; metric_type enum does not cover browser extension feature descriptions. Captured as unknown.",
+    "Source title is the Chrome extension ID hash, not a human-readable title — actual extension name is Patreon Assistant. Needs correction on reopen.",
+    "4 uncertainties flagged; needs_human_review."
+  ],
+  "traceability_status": "weak"
+}

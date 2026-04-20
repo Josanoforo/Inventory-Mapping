@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007",
+  "source_title": "Argentina Impuesto Pais",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.domestika.org/es/forums/939-off-topic/topics/168092-argentina-impuesto-pais",
+  "source_date_if_available": "17.11.2020 (thread creation date; staff response visible in search engine index)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«Hola @victordg! Domestika es una empresa basada en EEUU y todos los cobros se realizan en dólares. Te invito a visitar este artículo de la página de ayuda para obtener más información. ¡Un saludo!»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/es/forums/939-off-topic/topics/168092-argentina-impuesto-pais"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika USD billing Argentina",
+    "Domestika corporate entity location"
+  ],
+  "possible_actor_levels": ["marketplace", "source"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": ["November 2020"],
+  "possible_geographies": ["Argentina"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Staff response confirming Domestika is US-based and charges in USD. Thread topic is Argentina's 'impuesto pais' (country tax on foreign currency transactions), indicating Argentine buyers face additional FX charges on USD-denominated purchases.",
+    "current_vs_historical_ambiguity: November 2020 post; Argentina tax regulations and Domestika's billing approach may have changed significantly.",
+    "snippet_needs_reopen: Part 2 provisional finding; full thread context not captured — may contain more detail about the tax amount or impact."
+  ],
+  "traceability_status": "weak"
+}

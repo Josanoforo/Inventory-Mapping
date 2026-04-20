@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_title": "Top Patreon Creators",
+  "source_type": "database_profile",
+  "source_ref": "https://graphtreon.com/top-patreon-creators",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"127,986 Paid Members 1 Patreon Rank Matt and Shane's Secret Podcast Creating Hot Casts\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/top-patreon-creators"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"$269,922 Per month 42,523 Paid Members 9 Patreon Rank the yard Creating a podcast\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/top-patreon-creators"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon top creator rankings",
+    "Patreon creator revenue",
+    "Patreon paid membership"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["active_buyers", "revenue"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "SNP-001: top-ranked creator (Matt and Shane's Secret Podcast) at 127,986 paid members, no revenue figure given for rank 1.",
+    "SNP-002: rank 9 (the yard) at $269,922/month with 42,523 paid members — provides both revenue and membership data point.",
+    "Net vs gross ambiguity: Graphtreon revenue figures are estimates and may or may not reflect Patreon's 8% platform fee deduction.",
+    "Page updates daily; snapshot accessed April 14, 2026."
+  ],
+  "traceability_status": "partial"
+}

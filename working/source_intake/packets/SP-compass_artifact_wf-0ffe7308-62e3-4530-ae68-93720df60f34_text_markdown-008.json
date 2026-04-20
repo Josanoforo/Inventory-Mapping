@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-008",
+  "source_title": "What Do I Need To Know About My 1099 K Tax Form",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000336447-What-Do-I-Need-to-Know-About-My-1099-K-Tax-Form",
+  "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you're not a US seller, you won't be issued a 1099-K from Etsy. However, if the information on your Legal and tax information page identifies you as a US seller (your address on file is US or you receive payments in USD), we're required to issue you a 1099-K form. To remove yourself or your business from this filing obligation, we'll need a completed W-8BEN form. To start the W-8 form request, contact Etsy support.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000336447-What-Do-I-Need-to-Know-About-My-1099-K-Tax-Form"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Etsy seller tax compliance",
+    "Etsy 1099-K reporting"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["ongoing"],
+  "possible_geographies": ["United States"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Workflow/process finding; metric_type enum does not cover tax form issuance policy. Captured as unknown with metric_type_unclear.",
+    "Relevant for sellers receiving USD payments from Etsy regardless of location — triggers 1099-K even for non-US sellers if payment address is US-based."
+  ],
+  "traceability_status": "weak"
+}

@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009",
+  "source_title": "How Us State Sales Tax And Fees Applies To Etsy Orders",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+  "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Based on applicable US State enacted marketplace facilitator tax laws, Etsy automatically calculates, collects, and remits US sales tax on behalf of sellers located anywhere in the world when:\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Etsy seller policy",
+    "Etsy US state sales tax collection"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["ongoing"],
+  "possible_geographies": ["United States"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized. Packet assigned to this shard by alphabetical order.",
+    "context_insufficient: snippet cuts off mid-sentence ('when:') — the conditions for automatic tax collection are not captured. Downstream Data Extraction will require the reopened source to get the complete policy statement.",
+    "Marketplace facilitator model means sellers do not handle US sales tax directly; Etsy handles it."
+  ],
+  "traceability_status": "weak"
+}

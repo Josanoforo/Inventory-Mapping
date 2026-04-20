@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009",
+  "source_title": "Podcasts",
+  "source_type": "database_profile",
+  "source_ref": "https://graphtreon.com/top-patreon-creators/podcasts",
+  "source_date_if_available": "Accessed April 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Matt and Shane's Secret Podcast — Creating Hot Casts — 118,491 Paid Members\" and \"Chapo Trap House — Creating Chapo Trap House Podcast — 47,046 Paid Members — $199,298 Per month\" and \"TrueAnon Podcast — The ONLY Anti-Pedophile Podcast fighting the Sicko Elite — 45,985 Paid Members — $203,188 Per month\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/top-patreon-creators/podcasts"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon podcast creator rankings",
+    "Patreon creator revenue by category"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["active_buyers", "revenue"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Three top podcast creators listed with paid member counts and monthly revenue. Net vs gross ambiguity applies to revenue figures (Graphtreon estimates may not account for Patreon fee deductions).",
+    "Page updates daily; exact date of snapshot not pinned beyond 'April 2026'."
+  ],
+  "traceability_status": "weak"
+}
