@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-006",
+  "source_title": "Lemonsqueezy Vs Paddle",
+  "source_type": "article",
+  "source_ref": "https://fungies.io/lemonsqueezy-vs-paddle",
+  "source_date_if_available": "not dated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"TL;DR: If you're seeking a user-friendly platform for SaaS businesses and creators, Lemon Squeezy stands out. However, Paddle is the better choice for comprehensive solutions for enterprises with complex billing needs.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fungies.io/lemonsqueezy-vs-paddle"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Advanced Retention Management: Paddle reduces churn through automated dunning, customer retention tools, and proration for mid-cycle changes. This gives businesses a competitive edge in retaining subscriptions. Lemon Squeezy's refund and retention tools are basic in comparison.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fungies.io/lemonsqueezy-vs-paddle"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Article comparing Lemon Squeezy vs Paddle (undated): Lemon Squeezy recommended for user-friendly SaaS and creator use cases; Paddle preferred for enterprises with complex billing needs; Paddle has advanced automated dunning, retention, and subscription proration tools; Lemon Squeezy's refund and retention tools are more basic"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}
