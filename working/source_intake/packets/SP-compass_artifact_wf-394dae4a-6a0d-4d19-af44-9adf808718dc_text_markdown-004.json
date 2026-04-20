@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004",
+  "source_title": "In Which Currency Will My Commission Be Paid",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/en/article/360015794612/in-which-currency-will-my-commission-be-paid-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you don't live or pay taxes in Brazil, you can withdraw your balance directly to your local bank account in the currency of your country (as long as it is US Dollars, Euros, or Pounds).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/360015794612/in-which-currency-will-my-commission-be-paid-"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotmart help center article (accessed April 14, 2026; no publication date). Non-Brazil creators: payout currencies limited to USD, EUR, or GBP.",
+    "source_date_unclear: only access date available; no publication date on page.",
+    "possible_metric_types: ['payout_method_availability'] — payout currency options for non-Brazil creators."
+  ],
+  "possible_subjects": [
+    "Hotmart payout currencies for non-Brazil creators: USD, EUR, or GBP only"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

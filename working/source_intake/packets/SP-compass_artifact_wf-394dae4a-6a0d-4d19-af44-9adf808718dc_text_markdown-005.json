@@ -1,0 +1,38 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-005",
+  "source_title": "Hotmart Card Policies",
+  "source_type": "policy_page",
+  "source_ref": "https://hotmart.com/en/legal/hotmart-card-policies",
+  "source_date_if_available": "July 2, 2025 (policy version date)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"These Hotmart Card Policies regulate the request and use of the Hotmart Card for transactions carried out in U.S. dollars (USD) by approved Users who declare domicile outside Brazil in their Platform account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/hotmart-card-policies"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotmart policy page (July 2, 2025 version date). Hotmart Card operates in USD for users domiciled outside Brazil.",
+    "possible_metric_types: ['payout_method_availability'] — Hotmart Card as a payout/transaction method for non-Brazil users."
+  ],
+  "possible_subjects": [
+    "Hotmart Card Policies: USD transactions for non-Brazil users (July 2025)"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": null,
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

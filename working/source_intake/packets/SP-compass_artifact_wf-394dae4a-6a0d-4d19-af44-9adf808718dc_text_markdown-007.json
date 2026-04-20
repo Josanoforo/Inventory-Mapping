@@ -1,0 +1,38 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007",
+  "source_title": "Terms Of Use",
+  "source_type": "policy_page",
+  "source_ref": "https://hotmart.com/en/legal/terms-of-use",
+  "source_date_if_available": "October 6, 2025 (document version date)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Registering or transferring amounts to a bank account of the same ownership but located outside the Creator, Co-producer or Affiliate's country of residence is also prohibited.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/terms-of-use"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotmart Terms of Use (October 6, 2025 version). Bank account for payout must be registered in creator's country of residence; cross-border same-owner accounts prohibited.",
+    "possible_metric_types: ['payout_method_availability'] — payout restriction based on bank account residency matching."
+  ],
+  "possible_subjects": [
+    "Hotmart payout restriction: bank account must be in creator's country of residence (October 2025)"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": null,
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

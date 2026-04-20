@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-001",
+  "source_title": "Fees",
+  "source_type": "help_center",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"There are certain times when an additional fee might be added to the platform fee to cover processing fees: +1.5% for international (outside of the US) transactions\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/fees"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown. Packet assigned to this shard by alphabetical order.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "LemonSqueezy fees help page (undated; accessed April 2026). International surcharge: +1.5% for transactions outside the US.",
+    "source_date_unclear: page undated; accessed April 2026."
+  ],
+  "possible_subjects": [
+    "LemonSqueezy international surcharge: +1.5% for non-US transactions"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["United States"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

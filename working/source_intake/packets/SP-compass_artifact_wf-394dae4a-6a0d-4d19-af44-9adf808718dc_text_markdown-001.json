@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001",
+  "source_title": "How Does The International Purchase Process Work",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/en/article/213026287/how-does-the-international-purchase-process-work-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Besides, the price of the product can only be converted into dollar, euro, mexican peso, and peruvian soles at the time of the purchase, depending on the country the buyer is.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/213026287/how-does-the-international-purchase-process-work-"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotmart help center article (accessed April 14, 2026; no publication date). Describes international buyer purchase currencies: USD, EUR, MXN, PEN.",
+    "source_date_unclear: only access date available; no publication date on page.",
+    "possible_metric_types: ['payment_method_availability'] — currencies available for international buyers."
+  ],
+  "possible_subjects": [
+    "Hotmart international purchase currencies: USD, EUR, MXN, PEN"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["Mexico", "Peru"],
+  "uncertainties": ["source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

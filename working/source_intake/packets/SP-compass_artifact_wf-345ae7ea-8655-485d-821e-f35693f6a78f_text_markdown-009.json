@@ -1,0 +1,48 @@
+{
+  "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009",
+  "source_title": "Diy Book Sales Selling Direct",
+  "source_type": "blog",
+  "source_ref": "https://myimaginaryfriends.substack.com/p/diy-book-sales-selling-direct",
+  "source_date_if_available": "May 2, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Payhip – This was my go-to for years. Even though I'm a professional web developer and build ecommerce websites for clients, I went with the simplest and cheapest option for myself for quite a long time. With Payhip, there's nothing to install on your website and very little barrier to entry. It's definitely my recommendation for beginners. There's no monthly fee, but they charge a 5% transaction fee. Reporting and statistics are not the best in the business, and exporting addresses for shipping was a bit of a headache, but I still recommend them. Perfect is the enemy of done.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://myimaginaryfriends.substack.com/p/diy-book-sales-selling-direct"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Shipping: I use PirateShip for discounted postage. (With US Postal Service shipping always choose media mail if possible—it's the cheapest option.) Shopify and WooCommerce both integrate directly with PirateShip. You'll be copying and pasting or importing addresses from Payhip.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://myimaginaryfriends.substack.com/p/diy-book-sales-selling-direct"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Substack blog post (May 2, 2025). Seller recommends Payhip for beginners: 5% transaction fee, no monthly fee; shipping address export noted as a friction point."
+  ],
+  "possible_subjects": [
+    "Payhip 5% transaction fee (seller recommendation for beginners)",
+    "Payhip shipping address export: manual copy-paste friction"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": ["United States"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

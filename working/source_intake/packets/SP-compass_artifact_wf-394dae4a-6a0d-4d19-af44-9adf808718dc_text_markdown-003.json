@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_title": "What Payment Methods Are Available And How Can I Enable Them For My Product",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Creators who live in other countries have limited payment methods available to Brazilian Buyers. This is because the commission will be paid in dollars. In addition, payment via bank slip and bank transfer, for example, does not convert on the platform. Therefore, the payment option available on the payment page will be by credit card and PIX.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Hotmart help center article (accessed April 14, 2026; no publication date). Non-Brazil creators selling to Brazil buyers: only credit card and PIX available; bank slip and transfer not supported across currency boundary.",
+    "source_date_unclear: only access date available; no publication date on page.",
+    "possible_metric_types: ['payment_method_availability'] — describes which payment methods work for non-Brazil creators selling to Brazil buyers."
+  ],
+  "possible_subjects": [
+    "Hotmart Brazil buyer payment methods for non-Brazil creators: credit card + PIX only"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["Brazil"],
+  "uncertainties": ["source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

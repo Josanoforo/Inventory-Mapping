@@ -4,8 +4,8 @@
   "conversion_template_path": "phases/01-source-intake/reference/source_packet_conversion_template.md",
   "source_packet_schema_path": "phases/01-source-intake/schemas/source_packet.schema.json",
   "total_skeletons": 688,
-  "skeletons_processed": 125,
-  "packets_written": 125,
+  "skeletons_processed": 150,
+  "packets_written": 150,
   "recovery_staged": 0,
   "needs_human_review_count": 10,
   "processed_skeletons": [
@@ -778,6 +778,156 @@
       "destination": "packets",
       "issues_for_this_packet": [],
       "processed_at": "2026-04-20T00:05:24+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:00+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:01+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:02+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:03+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:04+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:05+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-011",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:06+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-012",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:07+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-013",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:08+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:09+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:10+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:11+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:12+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:13+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-005",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:14+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:15+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:16+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:17+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-009",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:18+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:19+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:20+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-012",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:21+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-001",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:22+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-002",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:23+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:06:24+00:00"
     }
   ],
   "skeleton_failures": [],
