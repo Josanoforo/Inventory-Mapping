@@ -1,0 +1,49 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+  "source_title": "Payhip Vs Podia",
+  "source_type": "blog",
+  "source_ref": "https://fetchprofits.com/payhip-vs-podia",
+  "source_date_if_available": "Sep 19, 2022",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Podia pricing is still one of the more affordable options out there (compared to others). Further, Podia doesn't charge transactions on sales (Payhip does charge for transactions, unless you are on their Payhip Pro plan).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fetchprofits.com/payhip-vs-podia"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Payhip doesn't come with extra features such as communities, live chat, and a full-fledged email marketing system built-in (that Podia comes with). Payhip does integrate with MailChimp out of the box though.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fetchprofits.com/payhip-vs-podia"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Payhip transaction fee structure",
+    "Payhip vs Podia feature comparison"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["September 2022"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Third-party comparison blog (fetchprofits.com) from September 19, 2022. SNP-001 confirms Payhip charges transaction fees unless on Payhip Pro plan; Podia does not charge transactions. SNP-002 notes Payhip lacks community/live chat/email marketing features vs Podia.",
+    "current_vs_historical_ambiguity: September 2022 data; Payhip fee structure and plan names may have changed."
+  ],
+  "traceability_status": "partial"
+}

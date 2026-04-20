@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-012",
+  "source_title": "Payhip Vs Ko Fi Which Platform Is Best For Creators In 2025",
+  "source_type": "blog",
+  "source_ref": "https://techhubinsider.com/payhip-vs-ko-fi-which-platform-is-best-for-creators-in-2025",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Ko-fi = casual coffee shop table. People drop by, leave tips, maybe grab a sticker. Great for social-first creators and light support. Payhip = your own pop-up store. You can build it out, expand your product line, customize it, and actually run a business.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://techhubinsider.com/payhip-vs-ko-fi-which-platform-is-best-for-creators-in-2025"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Payhip vs Ko-fi use case positioning"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2026"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Third-party comparison blog (techhubinsider.com). Snippet uses metaphor-based positioning (Ko-fi as casual table, Payhip as pop-up store); no quantitative metric data.",
+    "source_date_unclear: page undated; access date only (April 2026).",
+    "metric_type_unclear: metaphor/positioning description only; no specific metric applies."
+  ],
+  "traceability_status": "weak"
+}

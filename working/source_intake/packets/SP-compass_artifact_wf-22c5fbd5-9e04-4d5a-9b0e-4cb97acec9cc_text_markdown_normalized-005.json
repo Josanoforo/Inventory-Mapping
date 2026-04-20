@@ -1,0 +1,43 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_title": ")",
+  "source_type": "blog",
+  "source_ref": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)",
+  "source_date_if_available": "Undated (~2021–2022)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Cuando ellos publicaron su curso el modelo era recibir una comisión por cada venta del curso. A día de hoy, se paga una cantidad inicial al instructor por la realización del curso y posteriormente se recibe una comisión por cada venta, pero esa comisión seguramente es inferior.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika instructor compensation model evolution",
+    "Domestika royalty structure historical change"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["fee_rate", "payout"],
+  "possible_time_scopes": ["undated", "~2021-2022"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "context_insufficient", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "low",
+  "intake_notes": [
+    "Source from instructoresonline.es describing Domestika's commission model shift: originally per-sale commission only; current model (as of ~2021-2022) is upfront payment to instructor plus lower per-sale commission. Snippet in Spanish.",
+    "Stage 1 data quality issues (mechanical fields, cannot modify): source_title is truncated to ')' and source_ref concatenates two URLs. Downstream should treat primary source as instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri.",
+    "source_date_unclear: post is undated, estimated ~2021-2022.",
+    "current_vs_historical_ambiguity: ~2021-2022 description of commission model; structure has evolved further since (2025 payment crises).",
+    "context_insufficient: 'they' in snippet ('when they published their course') has no clear antecedent within this snippet alone.",
+    "net_vs_gross_ambiguity: commission rates not specified as net or gross."
+  ],
+  "traceability_status": "weak"
+}

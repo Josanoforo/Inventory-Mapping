@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_title": "Cgma Missed Payments For Instructors Future Of The Art Academy Is Foggy",
+  "source_type": "report",
+  "source_ref": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy",
+  "source_date_if_available": "Late September/Early October 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"It is extremely unfortunate that my decade long collaboration with the school ends like this. Aside from the money they owe to all of us instructors, they have both let down teachers, students and staff. I would like to point out that the old CGMA staff were always kind and helpful to me, so this is for sure a consequence of Domestika's purchasing the school. This might also mean the end for my online teaching activity at online academies for now. From this moment, I will only be doing private mentorships through my Patreon.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "CGMA instructor payment owed",
+    "Domestika CGMA acquisition instructor fallout"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout"],
+  "possible_time_scopes": ["Late September 2025", "Early October 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "ComicsBeat article reporting on CGMA instructor payment failure. Snippet is a direct statement from an unnamed instructor with 10+ years at CGMA, attributing the payment failure to Domestika's acquisition and announcing a move to Patreon-only mentorships.",
+    "source_date_unclear: article date is given as a range 'Late September/Early October 2025'; no exact publication date."
+  ],
+  "traceability_status": "partial"
+}

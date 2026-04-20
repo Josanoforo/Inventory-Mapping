@@ -4,10 +4,10 @@
   "conversion_template_path": "phases/01-source-intake/reference/source_packet_conversion_template.md",
   "source_packet_schema_path": "phases/01-source-intake/schemas/source_packet.schema.json",
   "total_skeletons": 688,
-  "skeletons_processed": 38,
-  "packets_written": 38,
+  "skeletons_processed": 75,
+  "packets_written": 75,
   "recovery_staged": 0,
-  "needs_human_review_count": 5,
+  "needs_human_review_count": 10,
   "processed_skeletons": [
     {
       "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001",
@@ -236,6 +236,228 @@
       "destination": "packets",
       "issues_for_this_packet": [],
       "processed_at": "2026-04-20T00:01:12+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-001",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:00+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:01+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:02+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:03+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+      "destination": "packets",
+      "issues_for_this_packet": ["needs_human_review"],
+      "processed_at": "2026-04-20T00:02:04+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:05+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-007",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:06+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-008",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:07+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-009",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:02:08+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+      "destination": "packets",
+      "issues_for_this_packet": ["needs_human_review"],
+      "processed_at": "2026-04-20T00:02:09+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+      "destination": "packets",
+      "issues_for_this_packet": ["needs_human_review"],
+      "processed_at": "2026-04-20T00:02:10+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-012",
+      "destination": "packets",
+      "issues_for_this_packet": ["needs_human_review"],
+      "processed_at": "2026-04-20T00:02:11+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:00+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:01+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-015",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:02+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:03+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-017",
+      "destination": "packets",
+      "issues_for_this_packet": ["needs_human_review"],
+      "processed_at": "2026-04-20T00:03:04+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-018",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:05+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-019",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:06+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:07+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:08+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-022",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:09+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:10+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-002",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:11+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:12+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-004",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:13+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-005",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:14+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-006",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:15+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-007",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:16+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-008",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:17+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-009",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:18+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-010",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:19+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:20+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-012",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:21+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-013",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:22+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:23+00:00"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-015",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T00:03:24+00:00"
     }
   ],
   "skeleton_failures": [],

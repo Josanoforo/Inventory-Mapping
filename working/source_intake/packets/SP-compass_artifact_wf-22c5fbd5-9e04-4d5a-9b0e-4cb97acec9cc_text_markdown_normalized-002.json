@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002",
+  "source_title": "The Truth About Domestika",
+  "source_type": "blog",
+  "source_ref": "https://artdesignbytc.com/2025/11/20/the-truth-about-domestika",
+  "source_date_if_available": "November 20, 2025 (updated March 24, 2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Instructors notice royalty percentages quietly declining for new contracts. Older contracts (30–50% earnings) are no longer offered. Deep discounting (frequent $10 or $0.99 sales) makes many instructors feel undervalued... Domestika stops paying many instructors across both Domestika and CGMA. New clause introduced tying payment to forum activity, even for instructors who: Were never required to respond before, Had older contracts, Had thousands of students (making constant replies impossible).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://artdesignbytc.com/2025/11/20/the-truth-about-domestika"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika instructor royalty structure decline",
+    "Domestika instructor payment halt",
+    "Domestika discount pricing strategy"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["fee_rate", "payout", "price"],
+  "possible_time_scopes": ["pre-2023", "2023-2026", "current as of March 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "Blog post dated November 20, 2025, updated March 24, 2026. Covers royalty decline from older 30-50% contracts to lower current rates, frequent $10 and $0.99 deep discount sales, and payment halts tied to new forum activity clause affecting both new and legacy contracts.",
+    "current_vs_historical_ambiguity: article covers span from older contracts (30-50% royalties) to 2025-2026 conditions; pre-2023 and current figures appear together.",
+    "net_vs_gross_ambiguity: royalty percentages (30-50% older; current rates lower) do not specify net or gross revenue basis."
+  ],
+  "traceability_status": "complete"
+}

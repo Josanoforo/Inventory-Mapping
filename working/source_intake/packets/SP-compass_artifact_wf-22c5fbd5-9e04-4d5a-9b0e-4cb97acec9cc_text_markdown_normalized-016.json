@@ -1,0 +1,61 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_title": "Caida Domestika Millones Despedir Sustituir Tareas Chatgpt",
+  "source_type": "report",
+  "source_ref": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+  "source_date_if_available": "June 2, 2023",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Todo ha cambiado mucho desde que empecé: yo tenía un primer contrato en el que ellos pagaban un fijo por preparar el curso y entregarles los derechos del mismo, y después la comisión por curso vendido. Pero ahora ya no nos pagan ese fijo sino un adelanto de comisión. Básicamente, no nos pagan por un trabajo que puede llevar en ocasiones hasta seis meses.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Si el profesor cobra 50 céntimos por curso vendido y la empresa te da 2.000 euros de adelanto, ¿cuántos cursos tienes que vender hasta que empieces a ganar algo de dinero? Hay profesores que me pedían ayuda para difundir su curso porque hasta que le ven color… Al menos antes el fijo era algo justo por todo el trabajo que uno invierte. Entre los profesores y los chicos hemos sacado adelante la empresa, por eso es súper injusto.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Pasaron en muy poco tiempo de tener 200 empleados a alrededor de 800 en todo el mundo y, en año y medio, se van a quedar otra vez con 200. Ahí evidentemente hay algo raro.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika instructor compensation model change",
+    "Domestika instructor breakeven economics",
+    "Domestika employee headcount trajectory"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["fee_rate", "payout", "revenue"],
+  "possible_time_scopes": ["pre-2022", "early 2022", "June 2023"],
+  "possible_geographies": ["Spain"],
+  "uncertainties": ["net_vs_gross_ambiguity", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "El Español (major Spanish newspaper) investigative article from June 2, 2023 on Domestika's decline. Three snippets in Spanish from instructor interviews (anonymous). All snippets translated context: SNP-001 describes payment model shift from fixed fee + commission to advance-only + commission ('basically not paying for 6 months of work'); SNP-002 quantifies breakeven: 50 cents/sale at €2,000 advance; SNP-003 reports Domestika headcount went from 200 → 800 → ~200 employees in ~18 months.",
+    "net_vs_gross_ambiguity: '50 cents per course sold' and '€2,000 advance' — unclear if these are net to instructor or before any further deductions.",
+    "current_vs_historical_ambiguity: June 2023 data; conditions evolved further by 2025 (payment halts, 0.99 pricing)."
+  ],
+  "traceability_status": "complete"
+}
