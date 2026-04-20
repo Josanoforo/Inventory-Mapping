@@ -1,0 +1,49 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-012",
+  "source_title": "Sell",
+  "source_type": "platform_doc",
+  "source_ref": "https://www.etsy.com/sell",
+  "source_date_if_available": "Undated (page live as of April 2026; copyright 2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: subhero heading] \"Join the creative marketplace where millions of shoppers spend billions each year purchasing directly from creative entrepreneurs like you.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/sell"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: FAQ block — \"How do fees work on Etsy?\"] \"There are three basic selling fees: a listing fee, a transaction fee, and a payment processing fee. There's also an advertising fee for sales that come from Offsite Ads. It costs $0.20 to publish a listing to the marketplace. A listing lasts for four months or until the item is sold. Once an item sells, there is a 6.5% transaction fee on the sale price (including the shipping price you set). If you accept payments through Etsy Payments, we also collect a 3% + $0.25 payment processing fee when an item is sold.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/sell"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Etsy sell page (undated, copyright 2026). Etsy fees: $0.20 listing (4 months); 6.5% transaction fee on sale price including shipping; 3% + $0.25 Etsy Payments processing fee. Offsite Ads fee also applies on resulting sales.",
+    "source_date_unclear: page undated; fee structure could reflect prior or current state."
+  ],
+  "possible_subjects": [
+    "Etsy fees: $0.20 listing fee per 4-month period; 6.5% transaction fee on sale price including shipping; 3% + $0.25 Etsy Payments processing fee",
+    "Etsy: Offsite Ads advertising fee applies on sales from offsite ad referrals"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

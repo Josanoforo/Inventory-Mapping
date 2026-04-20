@@ -1,0 +1,59 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_title": "Shopify Vs Etsy Comparison",
+  "source_type": "blog",
+  "source_ref": "https://mercury.com/blog/shopify-vs-etsy-comparison",
+  "source_date_if_available": "2025-09-18",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If Etsy is like a table at a craft fair, Shopify is like your own brick-and-mortar store with full control over how it looks, feels, and operates. From the moment you set up, you're not just selling products; you're building a brand and setting the foundation for scalable ecommerce. Shopify gives you the flexibility to design your site, customize checkout, integrate apps, and create a unique experience that customers associate specifically with your brand.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://mercury.com/blog/shopify-vs-etsy-comparison"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Fees stack up quickly because sellers pay listing fees, transaction fees, and payment processing fees on each sale. Many small business owners researching Shopify fees vs. Etsy fees find that Shopify's predictable monthly costs become more attractive as sales volume grows.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://mercury.com/blog/shopify-vs-etsy-comparison"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Do you want to own your customer data? If building a brand and nurturing long-term relationships is important, Shopify gives you that ownership. Etsy keeps customer information within its marketplace.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://mercury.com/blog/shopify-vs-etsy-comparison"
+      }
+    }
+  ],
+  "intake_notes": [
+    "mercury.com Shopify vs Etsy comparison blog (September 18, 2025). Etsy fees stack: listing + transaction + payment processing per sale. Etsy retains customer data; seller has no direct access. Shopify offers brand customization and customer data ownership."
+  ],
+  "possible_subjects": [
+    "Etsy: fees stack per sale (listing + transaction + payment processing)",
+    "Etsy: customer data retained by marketplace; not accessible to individual sellers",
+    "Shopify vs Etsy: Shopify offers brand customization and customer data ownership"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate", "discoverability_claim"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

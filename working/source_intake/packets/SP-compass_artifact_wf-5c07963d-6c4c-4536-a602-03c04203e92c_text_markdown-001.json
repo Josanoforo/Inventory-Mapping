@@ -1,0 +1,50 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-001",
+  "source_title": "Shopify Vs Etsy",
+  "source_type": "blog",
+  "source_ref": "https://lovable.dev/guides/shopify-vs-etsy",
+  "source_date_if_available": "2026-02-26",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Most makers frame this as marketplace convenience versus storefront control. The decision comes down to business trajectory: are you testing whether people will buy your hand-poured candles, or are you building a candle brand that customers seek out by name? That distinction shapes everything from your fee structure (10.4% on Etsy vs. 3.89% on Shopify at higher volumes) to your customer relationships (marketplace traffic vs. owned email lists) to your ceiling for growth (70-variant limits on Etsy vs. 2,048 on Shopify).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://lovable.dev/guides/shopify-vs-etsy"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Etsy confines every shop to the same marketplace template. Sellers can upload a banner, add a logo, and arrange featured items within shop customization. However, they cannot modify page layouts, change typography, access HTML or CSS code, customize checkout pages, or control navigation structure. Every Etsy product page uses a consistent template structure, and the store URL remains at etsy.com/shop/yourname.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://lovable.dev/guides/shopify-vs-etsy"
+      }
+    }
+  ],
+  "intake_notes": [
+    "lovable.dev Shopify vs Etsy comparison blog (February 26, 2026). Etsy total effective fee ~10.4% vs Shopify ~3.89% at higher volumes. Etsy: 70-variant limit vs Shopify 2,048. Etsy shop: fixed template, no HTML/CSS/checkout customization, URL locked to etsy.com/shop/name.",
+    "Source is from lovable.dev, a Shopify ecosystem tooling company; potential framing bias toward Shopify."
+  ],
+  "possible_subjects": [
+    "Etsy total effective fee rate ~10.4% vs Shopify ~3.89% at higher volumes",
+    "Etsy: 70-product variant limit vs Shopify 2,048 variants",
+    "Etsy: fixed marketplace template; no HTML/CSS/checkout customization available to sellers"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["2026"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}
