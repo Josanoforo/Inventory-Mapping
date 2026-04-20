@@ -1,0 +1,57 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+  "source_title": "What Is Etsy Payments",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For some Etsy Payments countries, there is a minimum deposit amount, along with a fee threshold and a deposit fee: Deposit Minimum: Your funds available for deposit must be above the deposit minimum to be deposited. Fee Threshold: If your deposit is above the deposit minimum but below the fee threshold, you will be charged a deposit fee. If your deposit exceeds the fee threshold, you won't be charged a deposit fee. Deposit Fee: This fee is charged if your deposit is below the fee threshold. Your available for deposit total will show your available sales minus the deposit fee. This fee is deducted from your Payment account at the time of the deposit and is subject to VAT, where applicable.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Sellers in Argentina, Brazil, Chile, Egypt, Georgia, Japan, Kazakhstan, Pakistan, Peru, Serbia, South Korea, Thailand, Ukraine, and the United Arab Emirates can sign up for Etsy Payments with a Payoneer Payment Account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Starting May 8, 2025, new sellers in Germany, Austria, and the Netherlands are required to have a credit or debit card added to their account to enroll in Etsy Payments.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Payments: deposit fee structure — deposit minimum, fee threshold, deposit fee apply in certain countries; deposit fee deducted at time of transfer and subject to VAT",
+    "Etsy Payments: Payoneer account available for sellers in Argentina, Brazil, Chile, Egypt, Georgia, Japan, Kazakhstan, Pakistan, Peru, Serbia, South Korea, Thailand, Ukraine, UAE",
+    "Etsy Payments: starting May 8, 2025, new sellers in Germany, Austria, Netherlands required to have credit or debit card to enroll"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["payout_method_availability", "fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": ["DE", "AT", "NL"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

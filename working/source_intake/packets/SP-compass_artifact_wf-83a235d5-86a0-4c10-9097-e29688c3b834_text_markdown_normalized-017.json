@@ -1,0 +1,46 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-017",
+  "source_title": "Pattern",
+  "source_type": "policy_page",
+  "source_ref": "https://www.etsy.com/legal/pattern",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You're welcome to try Pattern for free for 30 days. Your free trial will begin when you select 'Start Free Trial' from the Pattern dashboard. After 30 days, you can continue to use Pattern at the monthly subscription fee of $15.00 USD.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/legal/pattern"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Pattern-only listings (that is, listings that you only make available on your Pattern site) do not incur listing or transaction fees and never expire.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/legal/pattern"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Pattern: 30-day free trial; $15.00 USD/month after trial",
+    "Etsy Pattern-only listings: no listing fees, no transaction fees, listings never expire"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate", "price"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

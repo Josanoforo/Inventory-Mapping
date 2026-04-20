@@ -1,0 +1,56 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-014",
+  "source_title": "Advertising",
+  "source_type": "policy_page",
+  "source_ref": "https://www.etsy.com/legal/advertising",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you opt out of, or are otherwise removed from, Offsite Ads, you will still be charged the advertising fee for any orders placed within 30 days of a buyer's click on your offsite ad, even if that ad is later no longer displayed as part of Offsite Ads (subject to the Last Click Attribution).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/legal/advertising"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Etsy Ads fees are charged on a cost-per-click (or 'CPC') basis via a bidding system such as described above, and you are responsible for paying for any clicks your ad receives. This means that you will be charged only when your ad is clicked, not simply when it is displayed. By providing a budget for Etsy to enter bids on your behalf (or providing bid amounts yourself if available), you agree to pay any amount up to and including the bid amount for a click on your ad.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/legal/advertising"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Your daily maximum budget can be set at or above a predetermined minimum determined by Etsy and you will not be charged more than your maximum budget on a daily basis. All bids are made in United States dollars (USD). You may pause an ad campaign at any time, but you will still be responsible for any charges incurred prior to pausing your campaign. Etsy is not able to grant refunds for any charges related to clicked ads.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/legal/advertising"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Offsite Ads: fee charged on orders within 30-day attribution window even after seller opts out or ad is removed",
+    "Etsy Ads: cost-per-click billing with daily budget cap; no refunds for clicked ads; campaigns can be paused"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

@@ -1,0 +1,46 @@
+{
+  "packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-005",
+  "source_title": "fixthephoto.com",
+  "source_type": "article",
+  "source_ref": "https://fixthephoto.com/adobe-stock-vs-envato-elements.html",
+  "source_date_if_available": "Accessed April 2026; approximately April 3, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"This Envato Elements vs Adobe Stock helped me see that the latter comes with a variety of licensing options. Adobe Stock enables me to choose between Standard, Enhanced, and Extended licenses, which allows me to select the most suitable license for my project. Each license covers different usage rights. For instance, the Standard license has up to $10,000 in legal coverage. At the same time, Envato Elements includes only one license type.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fixthephoto.com/adobe-stock-vs-envato-elements.html"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Working as a content creator, I often utilize both Adobe Stock and Envato Elements. After comparing them, I discovered that Adobe Stock is more suitable for beginners, as it integrates with other Adobe CC software. Due to this, I can quickly access any asset I need and continue to work on my projects in Photoshop and Premiere Pro. At the same time, Envato Elements is suitable for novices who want to find a more affordable service with unlimited downloads. It has an extensive collection of assets, including templates and audio tracks.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://fixthephoto.com/adobe-stock-vs-envato-elements.html"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Adobe Stock vs Envato Elements: Adobe Stock offers multiple license tiers (Standard, Enhanced, Extended); Standard license includes $10,000 legal coverage; Envato Elements uses single license type",
+    "Adobe Stock better for CC-integrated workflows; Envato Elements better for affordability and asset breadth including templates, audio tracks"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["price"],
+  "possible_time_scopes": null,
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}
