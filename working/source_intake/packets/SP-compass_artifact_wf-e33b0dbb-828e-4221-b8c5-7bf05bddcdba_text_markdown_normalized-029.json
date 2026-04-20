@@ -1,0 +1,87 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_title": "Pricing",
+  "source_type": "pricing_page",
+  "source_ref": "https://payhip.com/pricing",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> **Free Forever** — $0 /mo — +5% transaction fee — All features — Unlimited products — Unlimited revenue\n\n> **Plus** — $29 /mo — +2% transaction fee — All features — Unlimited products — Unlimited revenue\n\n> **Pro** — $99 /mo — No transaction fee — All features — Unlimited products — Unlimited revenue",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "> \"At Payhip, our goal is to make pricing as simple and transparent as possible. So, no feature-gating here! You'll get access to all of our amazing features to help you grow your business, even on our free plan.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "> \"For sure, we love to support great causes of all kinds so please get in touch with us and we'll help setup a discount for your account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "> \"We will deposit your sales to you immediately after a transaction has been completed. Not quite the speed of light, but close.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "> \"Customers can pay with their PayPal account or their card. Visa, MasterCard, American Express, JCB, Discover, and Diners Club and more.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    },
+    {
+      "snippet_id": "SNP-006",
+      "snippet_text": "> \"Payhip is fully compliant to collect and remit EU VAT and UK on your behalf automatically. You can also set up any other taxes with Payhip and we report these to you.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/pricing"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized, compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Payhip pricing page (undated): three tiers — Free ($0/mo, +5% transaction fee), Plus ($29/mo, +2% transaction fee), Pro ($99/mo, 0% transaction fee); all features available on all plans with no feature-gating; nonprofit discounts available on request; payouts deposited immediately after transaction; payment via PayPal or major cards (Visa, Mastercard, Amex, JCB, Discover, Diners Club); EU/UK VAT collected and remitted automatically; other taxes configurable"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate", "subscription_fee"],
+  "possible_time_scopes": [],
+  "possible_geographies": ["EU", "GB"],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "weak"
+}

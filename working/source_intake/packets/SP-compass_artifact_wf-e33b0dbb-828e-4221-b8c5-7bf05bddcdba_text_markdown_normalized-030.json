@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-030",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-030",
+  "source_title": "Privacy",
+  "source_type": "policy_page",
+  "source_ref": "https://payhip.com/privacy",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"Payment is handled separately, and securely, through the payment processor you have selected during checkout ('Payment Processor'). Your payment card details are never collected by Us.\"\n\n> \"We will hold details relating to any transaction you make, such as your name, e-mail address, IP address, billing address, location data for 10 years from the date of the transaction for EU VAT purposes in respect of digital products.\"\n\n> \"All information We hold about you is stored on secure servers in the EU.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/privacy"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip privacy policy (undated): payment handled by selected payment processor; Payhip does not collect card details; transaction data (name, email, IP, billing address, location) retained for 10 years for EU VAT purposes; data stored on secure servers in the EU"
+  ],
+  "possible_actor_levels": ["buyer", "seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": [],
+  "possible_geographies": ["EU"],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}
