@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-015",
+  "source_title": "Propaganda Enganosa E Oferta De Ferramenta De Ia Com Mensalidade Abusiva 26Msd 1Wlpui9 3G",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/propaganda-enganosa-e-oferta-de-ferramenta-de-ia-com-mensalidade-abusiva_26msD_1WlPuI9_3g",
+  "source_date_if_available": "January 2026 (refund processed 07/01/2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"O @cleitonquerobin oferta uma ferramenta de ia e aí você compra e quando chega dentro da compra que seria a ferramenta ele te ensina como comprar outra ferramenta com a mensalidade 1000% do valor que ele te vendeu. É isso tudo dentro do Hotmart. Quero meu dinheiro de volta\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.reclameaqui.com.br/hotmart/propaganda-enganosa-e-oferta-de-ferramenta-de-ia-com-mensalidade-abusiva_26msD_1WlPuI9_3g"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart complaint on ReclameAqui (January 2026, refund January 7, 2026): buyer reports misleading AI tool offer on Hotmart — product delivered instructions to buy another tool with subscription 1000% more expensive than advertised price; refund requested"
+  ],
+  "possible_actor_levels": ["buyer", "marketplace", "seller"],
+  "possible_metric_types": ["price", "refund_policy"],
+  "possible_time_scopes": ["2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

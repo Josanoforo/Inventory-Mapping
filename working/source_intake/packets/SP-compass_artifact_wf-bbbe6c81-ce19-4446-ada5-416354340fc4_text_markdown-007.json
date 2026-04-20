@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-007",
+  "source_title": "News Releases",
+  "source_type": "report",
+  "source_ref": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+  "source_date_if_available": "24 Sep 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hotmart revealed a 32 percentage point uplift in customer retention for recurring payments via Pix following the launch of Pix Automático.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "PR Newswire (September 24, 2025): Hotmart reported 32 percentage point increase in customer retention for recurring payments via Pix Automático enabled by EBANX"
+  ],
+  "possible_actor_levels": ["marketplace", "buyer"],
+  "possible_metric_types": ["payment_method_availability", "conversion_rate"],
+  "possible_time_scopes": ["2025-Q3"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}
