@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_title": "Gumroad Vs Payhip",
+  "source_type": "article",
+  "source_ref": "https://whop.com/blog/gumroad-vs-payhip",
+  "source_date_if_available": "January 24, 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Gumroad offers easier product setup and a flat 10% fee, while Payhip provides more store customization options. Gumroad has minimal customer support and requires creators to handle refunds and customer inquiries themselves.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://whop.com/blog/gumroad-vs-payhip"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "whop.com blog article (January 24, 2024) comparing Gumroad vs Payhip: Gumroad easier product setup, flat 10% fee; Payhip has more store customization options; Gumroad has minimal customer support; sellers must handle refunds and customer inquiries themselves"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate", "refund_policy"],
+  "possible_time_scopes": ["2024-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

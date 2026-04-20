@@ -1,11 +1,11 @@
 {
-  "status": "in_progress",
+  "status": "complete",
   "stage_1_manifest_path": "working/source_intake/converter_prepare_manifest.json",
   "conversion_template_path": "phases/01-source-intake/reference/source_packet_conversion_template.md",
   "source_packet_schema_path": "phases/01-source-intake/schemas/source_packet.schema.json",
   "total_skeletons": 688,
-  "skeletons_processed": 675,
-  "packets_written": 675,
+  "skeletons_processed": 688,
+  "packets_written": 688,
   "recovery_staged": 0,
   "needs_human_review_count": 10,
   "processed_skeletons": [
@@ -4080,10 +4080,88 @@
       "destination": "packets",
       "issues_for_this_packet": [],
       "processed_at": "2026-04-20T23:42:37Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-012",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-016",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-domestika_d3_output-001",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-domestika_d3_output-002",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-domestika_d3_output-003",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-domestika_d3_output-004",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
+    },
+    {
+      "packet_id": "SP-domestika_d3_output-005",
+      "destination": "packets",
+      "issues_for_this_packet": [],
+      "processed_at": "2026-04-20T23:51:22Z"
     }
   ],
   "skeleton_failures": [],
   "stage_1_fingerprint": "7f534a1868e192ac39a16aab7e7646d3c7bef18e554ca2a7333d58070e35af88",
   "started_at": "2026-04-16T00:00:00+00:00",
-  "completed_at": null
+  "completed_at": "2026-04-20T23:51:22Z"
 }
