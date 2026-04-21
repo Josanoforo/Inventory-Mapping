@@ -10,10 +10,12 @@
   "snippet_primary": "\"O @cleitonquerobin oferta uma ferramenta de ia e aí você compra e quando chega dentro da compra que seria a ferramenta ele te ensina como comprar outra ferramenta com a mensalidade 1000% do valor que ele te vendeu. É isso tudo dentro do Hotmart. Quero meu dinheiro de volta\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui complaint (January 2026; refund January 7, 2026) reports: seller '@cleitonquerobin' advertised an AI tool but delivered a course teaching how to purchase a different tool at a monthly subscription 1,000% of the original purchase price; buyer characterizes as false advertising and requests refund",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses (AI tools/software)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Bait-and-switch: advertised as AI tool; content was a course teaching how to buy another subscription at 1,000% upsell price",
     "Refund processed January 7, 2026"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (January 2026; refund January 7, 2026). False advertising: AI tool ad → course teaching purchase of 1000%-priced subscription. Portuguese-language Hotmart complaint (Brazil)."
   ],

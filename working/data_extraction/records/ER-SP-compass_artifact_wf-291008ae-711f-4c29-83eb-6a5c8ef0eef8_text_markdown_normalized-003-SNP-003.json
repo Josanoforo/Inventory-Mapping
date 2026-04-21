@@ -10,10 +10,12 @@
   "snippet_primary": "\"trying to get invoice, but its impossible. (since there is no way to login, they are not sending magic link)\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy invoice retrieval impossible — login unavailable because magic link authentication is not being sent",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "no way to login",
     "not sending magic link"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports invoice retrieval impossible because LemonSqueezy magic login link is not being sent — authentication infrastructure broken. Documents barrier to basic account access for customers."
   ],

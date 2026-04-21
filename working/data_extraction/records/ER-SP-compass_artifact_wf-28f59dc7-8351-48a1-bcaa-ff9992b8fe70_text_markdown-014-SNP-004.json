@@ -10,10 +10,12 @@
   "snippet_primary": "\"I am writing this to warn others about Domestika's deceptive billing practices. What started as a small, one-off purchase has turned into a nightmare of unauthorized, high-value charges. In March 2025, I was charged $175 without any prior notification, renewal reminder, or receipt. Most recently, they hit my account for a staggering $361.70—a massive \\\"price hike\\\" that was also taken without consent or notice.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports Domestika charged $175 in March 2025 and $361.70 most recently — both without prior notification, renewal reminder, or receipt; buyer characterizes pattern as deceptive billing practices",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "361.70",

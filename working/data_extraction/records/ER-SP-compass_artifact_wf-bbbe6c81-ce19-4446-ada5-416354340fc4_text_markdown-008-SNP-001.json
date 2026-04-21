@@ -10,10 +10,12 @@
   "snippet_primary": "\"Olá, comprei esse produto no ano passado mas não sabia que tinha assinatura automática. Solicitei ao produtor para cancelar pois não estava conseguindo acessar o link, mandei e-mail e mesmo assim foi cobrado no meu cartão 208,56. Peço por gentileza de me reembolsar pois não vou utilizar o produto.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui complaint (~January 2026; cancellation requested November 12, 2025) reports unwanted automatic subscription charge of R$208.56 after cancellation request; buyer was unaware of automatic renewal; product link was inaccessible; refund requested",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "R$208.56",
@@ -26,7 +28,9 @@
     "Unexpected auto-subscription charge of R$208.56 after cancellation request; product link inaccessible",
     "Portuguese-language Reclame Aqui complaint (Brazil consumer platform)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (January 2026; cancelled November 12, 2025). Hotmart auto-subscription charge R$208.56 after cancellation. Buyer unaware of auto-renewal; link inaccessible."
   ],

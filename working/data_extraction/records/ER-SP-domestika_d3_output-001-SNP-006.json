@@ -13,7 +13,9 @@
   "claim_type": "explicit_claim",
   "subject_exact": "Domestika course catalog page (accessed April 2026) uses countdown timer pricing promotions labeled 'Este precio tiene las horas contadas' (This price has its hours counted), with a timer display in hours/minutes/seconds; timer showed 00:00:00 at time of access (expired or placeholder state)",
   "actor_level": "platform",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Domestika courses page (accessed Apr 2026): countdown pricing promotion — 'Este precio tiene las horas contadas' (This price has its hours counted); timer at 00:00:00 at time of access (likely expired or placeholder)"
   ],
-  "uncertainties": ["source_date_unclear", "scope_ambiguous"],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "domestika.org/es/courses (accessed Apr 2026, undated). Spanish. Urgency pricing mechanism: countdown timer labeled 'Este precio tiene las horas contadas' (This price has its hours counted). Timer shows 00:00:00 — likely expired or in placeholder state at access time. Confirms Domestika employs time-limited price promotions."
   ],

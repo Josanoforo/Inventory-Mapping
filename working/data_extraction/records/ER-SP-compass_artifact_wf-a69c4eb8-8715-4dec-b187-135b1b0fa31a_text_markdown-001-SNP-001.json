@@ -10,10 +10,12 @@
   "snippet_primary": "\"Many reasons, first of all, it's a platform that is well known and used by many other Skyrim modders like me, so it's easier to get a following since many of the players already have an account and are following other creators. My Skyrim mods are and will always be free for everyone, but I needed a place where I have full control of my content, were the rules are clear and I don't have to change my way of making and sharing mods to adapt to a 'mysterious algorithm', and it has the best integration with other platforms.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Skyrim modder chose Patreon citing: existing user base among modders, full content control, clear rules, no opaque algorithm, and best cross-platform integration",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -28,7 +30,9 @@
     "best integration with other platforms cited",
     "single creator perspective from game modding community"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "allisonwade.substack.com (May 13, 2025). Skyrim modder explains Patreon choice: network effect within niche community, creator control, rule clarity, platform integrations. Single anecdote from modding creator."
   ],

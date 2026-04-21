@@ -10,10 +10,12 @@
   "snippet_primary": "\"i buy this plugin Lemon Squeezy they send email to use this termprary code then we send actual code when all set but ist beeen more then 1 month still waiting i send them lot of emails no response\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports purchasing plugin via LemonSqueezy — received only temporary code; permanent license code not delivered after 1+ month despite multiple support emails with no response",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -28,7 +30,9 @@
     "been more than 1 month still waiting",
     "send them lot of emails no response"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (April 22, 2025): buyer reports LemonSqueezy sent temporary code for plugin purchase but permanent license code not delivered after 1+ month; multiple support emails unanswered. context_insufficient: no pricing or plugin name stated."
   ],

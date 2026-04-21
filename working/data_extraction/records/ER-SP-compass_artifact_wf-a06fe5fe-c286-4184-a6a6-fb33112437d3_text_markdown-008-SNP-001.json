@@ -10,10 +10,12 @@
   "snippet_primary": "\"They support sellers who are scammers. I have evidences if you want to check. A seller agreed for refunds according to his refund policy but didn't issue refu...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer alleges Payhip supports scammer sellers; claims a seller agreed to a refund per their own policy but did not issue it",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,10 @@
     "seller agreed to refund per own policy but did not issue it",
     "snippet truncated; full detail in SNP-002 from same source"
   ],
-  "uncertainties": ["context_insufficient", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "context_insufficient",
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Trustpilot review of Payhip (Dec 4, 2025). Buyer accuses Payhip of supporting scam sellers; refund agreed then denied. Snippet truncated; complementary detail in SNP-002 from same source packet."
   ],

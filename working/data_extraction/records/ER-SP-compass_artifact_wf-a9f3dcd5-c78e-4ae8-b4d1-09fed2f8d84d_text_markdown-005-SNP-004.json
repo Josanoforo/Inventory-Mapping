@@ -10,10 +10,12 @@
   "snippet_primary": "\"website does not use the standard conversion rates the rest of the world does, if im advertised a patreon subscription for $3 i want to pay $3 not £3 currently £3 is more then $3 this is a scam\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) reports Patreon charges £3 for a subscription advertised as $3; reviewer states Patreon does not use standard USD/GBP conversion rates, resulting in UK patrons paying more than the advertised USD price",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$3 USD advertised; £3 GBP charged (above market conversion rate)",

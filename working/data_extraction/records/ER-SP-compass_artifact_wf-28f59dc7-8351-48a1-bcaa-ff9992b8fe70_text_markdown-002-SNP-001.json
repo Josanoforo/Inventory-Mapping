@@ -10,10 +10,12 @@
   "snippet_primary": "\"Me pongo en contacto con ustedes desde una situación muy sensible para mi familia. El 6 de agosto de 2025 se me realizó un cargo de $193.02 USD por una suscripción Domestika Plus (ID de transacción: 30N29347HU427601C). Este cargo me tomó totalmente por sorpresa, pues nunca lo autoricé de manera consciente. Lo que realmente sucedió es que, con mucha ilusión, compré un curso de pulseras por 19 MXN porque mi hija quiere aprender a hacerlas.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports $193.02 USD Domestika Plus subscription charge after purchasing 19 MXN bracelet course — states charge was not consciously authorized",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "193.02",

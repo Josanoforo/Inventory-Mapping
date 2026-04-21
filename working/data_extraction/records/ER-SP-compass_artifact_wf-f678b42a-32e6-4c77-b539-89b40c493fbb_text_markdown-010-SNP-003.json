@@ -13,7 +13,9 @@
   "claim_type": "explicit_claim",
   "subject_exact": "Hotmart commission currency help center (help.hotmart.com/es, as of April 2026) states that due to Argentine Central Bank (BCRA) regulations extending remittance timelines abroad, Hotmart standardized a fee on payments involving ARS-to-USD conversions (Argentine buyers purchasing USD-priced products) or USD-to-ARS conversions (USD commissions for ARS-priced products)",
   "actor_level": "platform",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "rate",
   "metric_value_raw": "standardized conversion fee for ARS/USD conversions; exact rate not specified",
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Hotmart help (as of Apr 2026): BCRA regulations triggered standardized fee for ARS/USD conversions in Argentina; affects both ARS purchases of USD products and USD commissions for ARS products"
   ],
-  "uncertainties": ["source_date_unclear", "scope_ambiguous"],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "help.hotmart.com (as of Apr 2026). Spanish. Argentina-specific BCRA conversion fee. BCRA extended remittance timelines, affecting ARS/USD operations. Fee amount not disclosed in snippet."
   ],

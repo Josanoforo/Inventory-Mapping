@@ -110,6 +110,7 @@
         "policy_statement",
         "pricing_statement",
         "anecdotal_report",
+        "statistical_data",
         "derived_calculation",
         "comparative_commentary",
         "review_statement",
@@ -345,6 +346,9 @@
           "platform_scope_unclear",
           "product_type_unclear",
           "geography_unclear",
+          "methodology_unclear",
+          "anecdotal_single_source",
+          "author_conflict_of_interest_possible",
           "none"
         ]
       },

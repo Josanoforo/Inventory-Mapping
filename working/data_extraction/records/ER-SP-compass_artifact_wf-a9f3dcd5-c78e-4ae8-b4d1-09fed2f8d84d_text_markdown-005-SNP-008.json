@@ -10,10 +10,12 @@
   "snippet_primary": "\"Patreon's service has been terrible and exhausting. I cancelled my membership in Feb 2025, but they kept charging me for 5 months for nothing. Later, they claimed my card was linked to a 'ghost account' with an email I've never owned — likely tied to their Telegram subscription link — which caused double billing. For months, support kept asking me for more and more 'evidence,' even after I had already sent bank statements, approval codes, and screenshots. Their replies were slow and contradictory. Eventually, they admitted the ghost account existed and deleted it — but still refused to refund me. Now there is no response at all. This entire process has been torture. Patreon charges you for accounts you don't know exist, offers no protection for customers, and leaves you to chase after your own money. Feels like a scam — check your statements carefully if you ever use Patreon.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) cancelled Patreon February 2025 but was charged for 5 months afterward; Patreon cited ghost account with unknown email tied to Telegram subscription link causing double billing; months of evidence requests despite bank statements/screenshots provided; ghost account confirmed and deleted but refund refused; support subsequently unresponsive",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

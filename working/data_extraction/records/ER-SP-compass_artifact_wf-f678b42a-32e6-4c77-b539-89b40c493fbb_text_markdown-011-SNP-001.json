@@ -13,7 +13,9 @@
   "claim_type": "explicit_claim",
   "subject_exact": "Hotmart international purchase spread help center (help.hotmart.com/es, as of April 2026) explains the spread on international purchases is the difference between buy and sell rates for foreign currency; Hotmart uses an official exchange operator from the Central Bank that updates rates every 24 hours; the displayed rate includes IOF (Imposto sobre Operações Financeiras, a mandatory Brazilian financial operations tax) and other operational costs",
   "actor_level": "platform",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "rate",
   "metric_value_raw": "FX spread includes IOF (Brazilian financial operations tax) + operational costs; exchange rate updated every 24 hours by official Central Bank exchange operator",
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Hotmart help (as of Apr 2026): FX spread includes IOF (Brazilian mandatory tax) + operational costs; rate updated every 24h by official Central Bank exchange operator"
   ],
-  "uncertainties": ["source_date_unclear", "scope_ambiguous"],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "help.hotmart.com (as of Apr 2026). Spanish. FX spread: IOF (Brazilian tax) + operational costs embedded in displayed rate. Exchange rate updated every 24h via official Central Bank operator. Scope beyond Brazil not specified."
   ],

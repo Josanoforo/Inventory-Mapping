@@ -10,10 +10,12 @@
   "snippet_primary": "\"I also started observing specific patterns. I saw creators with YouTube channels exceeding 100,000 subscribers bring in only a small fraction of that audience to Patreon. In some cases, thousands of viewers would watch their videos consistently, yet only a handful converted into paying members.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Blog author observes that YouTube creators with 100,000+ subscribers converted only a small fraction of viewers into paying Patreon members, with thousands of consistent viewers yielding only a handful of paying patrons",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -28,7 +30,10 @@
     "thousands of consistent viewers yielding only handful of paying patrons",
     "observational claim — no methodology or sample size cited"
   ],
-  "uncertainties": ["methodology_unclear", "context_insufficient"],
+  "uncertainties": [
+    "methodology_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "twinflamescorpio.com (March 3, 2026). Author observes low YouTube-to-Patreon conversion: 100k+ subscriber channels converted only handful of viewers to paying patrons. No methodology or sample size; informal observation from single blogger."
   ],

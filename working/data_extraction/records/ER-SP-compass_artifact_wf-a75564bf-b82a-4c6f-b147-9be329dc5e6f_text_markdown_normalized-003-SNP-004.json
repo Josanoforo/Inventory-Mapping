@@ -10,10 +10,12 @@
   "snippet_primary": "\"Ver más tiendas · zona organikum · Ser sano sí es una opción · Conejo en la Luna · Productos sanos y artesanales · juanfutbol · DESDE EUROPA, UNA INCREÍBLE COLECCIÓN · STEVIA SUPER LIFE® · ENDULZANTES NATURALES\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Kichink homepage displays seller storefronts across niches: organic health products (zona organikum), artisanal goods (Conejo en la Luna), sports (juanfutbol), European collection (labeled 'DESDE EUROPA, UNA INCREÍBLE COLECCIÓN'), natural sweeteners (STEVIA SUPER LIFE)",
   "actor_level": "platform",
-  "platforms": ["Kichink"],
+  "platforms": [
+    "Kichink"
+  ],
   "product_type_if_explicit": "physical goods (organic health products, artisanal goods, sports goods, natural sweeteners)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "one store explicitly labeled 'DESDE EUROPA, UNA INCREÍBLE COLECCIÓN'",
     "kichink.com homepage, accessed April 2026"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "kichink.com (copyright 2025, accessed April 2026). Homepage displays seller storefronts across niches including organic health, artisanal goods, sports, and one labeled 'DESDE EUROPA'. Indicates cross-border seller presence on the platform."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Payhip gives you a solid storefront, but sometimes you need something a bit more flexible—especially if you're doing affiliate marketing, blogging, or just want a branded homepage that links to your Payhip store... Create one-page websites in minutes (no coding). Embed your Payhip products or link directly to them.\" Pricing: \"$19/year\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "direct_claim",
+  "claim_type": "explicit_claim",
   "subject_exact": "Third-party article (TechHubInsider, 2025) describes Payhip's built-in storefront as limited for affiliate marketing and blogging use cases; recommends third-party one-page website builders ($19/year) to create branded homepages that embed or link to Payhip products",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$19/year for recommended third-party one-page website tool",
@@ -26,7 +28,9 @@
     "Payhip storefront described as 'solid but sometimes inflexible' for affiliate marketing and blogging",
     "third-party one-page website builder at $19/year recommended for branded homepage with Payhip product embedding"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "techhubinsider.com (2025; exact date not captured). Third-party assessment: Payhip storefront adequate but limited for affiliate/blogging; external tools needed for branded landing pages."
   ],

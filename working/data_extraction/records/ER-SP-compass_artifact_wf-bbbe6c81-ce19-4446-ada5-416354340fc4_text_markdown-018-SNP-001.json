@@ -10,10 +10,12 @@
   "snippet_primary": "\"Fiz uma compra pela hotmart do Mestres do Algoritmo dia 20/10 e o curso não tem o q promete,pedi o reembolso no dia 21/10 o vendedor entrou em contato comigo e falei paracele q queria o reembolso ele aceitou e até hoje o reembolso não caiu ,fiz o pagamento via pix e a hotmart não me devolveu o dinheiro ,gostaria q vcs resolvessem isso para mim obrigado.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Reclame Aqui complaint (October 23, 2025) reports Hotmart course 'Mestres do Algoritmo' purchased October 20 did not deliver promised content; refund requested October 21 with seller agreement; Pix payment refund not received by October 23 complaint date",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Course 'Mestres do Algoritmo' did not deliver promised content; purchased Oct 20, refund requested Oct 21 with seller agreement",
     "Pix payment refund not received by Oct 23 complaint date despite seller's acceptance"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (October 23, 2025). 'Mestres do Algoritmo' course: content not as promised; refund agreed by seller Oct 21; Pix refund not received by Oct 23. Portuguese-language (Brazil)."
   ],

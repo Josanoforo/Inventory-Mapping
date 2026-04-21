@@ -10,10 +10,12 @@
   "snippet_primary": "\"Price 6,90 € (About 7 US Dollars)\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/jLFv4 priced at €6.90 with seller-provided USD approximation of 'About 7 US Dollars'",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "€6.90 (approximately $7 USD per seller note)",
@@ -26,7 +28,9 @@
     "product priced at €6.90; seller added USD approximation 'About 7 US Dollars'",
     "illustrates seller-side currency transparency practice on Payhip"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/b/jLFv4 (accessed April 2026; page undated). EUR-priced product with seller-provided USD approximation. Illustrates multi-currency transparency approach used by sellers on Payhip."
   ],

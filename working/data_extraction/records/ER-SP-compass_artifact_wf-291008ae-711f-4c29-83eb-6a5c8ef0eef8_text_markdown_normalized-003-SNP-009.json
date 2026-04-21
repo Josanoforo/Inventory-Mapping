@@ -10,10 +10,12 @@
   "snippet_primary": "\"The experience I had with Lemon Squeezy was simply disappointing in its sheer inefficiency. The core problem was trivial: During a purchase via the platform, my email address was saved incorrectly due to a simple typo.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports email address saved incorrectly during LemonSqueezy purchase due to typo — characterized resolution process as highly inefficient",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "my email address was saved incorrectly due to a simple typo",
     "sheer inefficiency"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports email address saved incorrectly during LemonSqueezy purchase due to typo; describes resolution as highly inefficient. context_insufficient: no details on resolution path or timeline in snippet."
   ],

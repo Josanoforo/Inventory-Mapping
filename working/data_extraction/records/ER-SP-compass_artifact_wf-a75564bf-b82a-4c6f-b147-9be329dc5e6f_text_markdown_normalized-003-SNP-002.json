@@ -10,10 +10,12 @@
   "snippet_primary": "\"YO CREO MI REALIDAD. por The Wizard Shop $500.00 MXN · YO CREO MI REALIDAD. option 1 · option 2 · Cantidad · Agregar al carrito · Falda Orion por Lacayo Pez $1200.00 MXN · Falda Orion · option 1 · option 2 · Cantidad · Agregar al carrito · Jabón Menta & Romero Aceite Coco Orgánico por sinolorperruno.com.mx $60.00 MXN · Jabón Menta & Romero Aceite Coco Orgánico · option 1 · option 2 · Cantidad · Agregar al carrito · GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE por TEQUILA ORENDAIN $529.00 MXN · GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE · option 1 · option 2 · Cantidad · Agregar al carrito · Frutero por Serpentina Shop $820.00 MXN\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Kichink homepage displays diverse product listings in MXN: apparel (skirt MXN 1,200), artisanal goods (soap MXN 60), spirits (tequila MXN 529), home decor (centerpiece MXN 820), accessories (tote MXN 500)",
   "actor_level": "platform",
-  "platforms": ["Kichink"],
+  "platforms": [
+    "Kichink"
+  ],
   "product_type_if_explicit": "physical goods (apparel, artisanal goods, spirits, home decor, accessories)",
   "metric_type": "price",
   "metric_value_raw": "MXN 60 to MXN 1,200 (sample range from listing)",
@@ -27,7 +29,9 @@
     "price range: MXN 60 (artisan soap) to MXN 1,200 (apparel)",
     "kichink.com homepage, accessed April 2026"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "kichink.com (copyright 2025, accessed April 2026). Homepage listings across categories; price range MXN 60–1,200. Illustrates Kichink's product mix and price range in Mexican market."
   ],

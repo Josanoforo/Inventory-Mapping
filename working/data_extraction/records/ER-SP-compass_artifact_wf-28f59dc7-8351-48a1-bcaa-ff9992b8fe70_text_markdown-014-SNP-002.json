@@ -10,10 +10,12 @@
   "snippet_primary": "\"Edit. They charged me an unrequested 370 CAD subscription, but they refunded me, so all good, just stop charging unrequested subscriptions to people please\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports 370 CAD unrequested Domestika subscription charge subsequently refunded after complaint",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "370",
@@ -27,7 +29,9 @@
     "they refunded me",
     "just stop charging unrequested subscriptions"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Trustpilot review edit (accessed April 2026): Canadian buyer (CAD) reports 370 CAD unrequested Domestika subscription charge that was subsequently refunded. Documents that refunds are achievable in some cases. geography_if_explicit inferred from CAD currency."
   ],

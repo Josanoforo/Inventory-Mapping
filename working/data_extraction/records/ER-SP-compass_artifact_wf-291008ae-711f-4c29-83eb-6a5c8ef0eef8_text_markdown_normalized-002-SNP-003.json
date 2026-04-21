@@ -10,10 +10,12 @@
   "snippet_primary": "\"This is the payment processor for revid.ai. They are both scams. One star because I can't give 0. Impossible to speak with a live person, impossible to cancel your revid.ai account with an active Lemonsqueezy account, and impossible to cancel. Fraud.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports cancellation of revid.ai account impossible when linked to active LemonSqueezy account — no live customer support available; buyer characterizes both as fraud",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

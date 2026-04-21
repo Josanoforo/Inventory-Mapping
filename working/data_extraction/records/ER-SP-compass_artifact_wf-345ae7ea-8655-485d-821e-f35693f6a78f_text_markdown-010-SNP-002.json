@@ -10,10 +10,13 @@
   "snippet_primary": "\"I tried shopify and felt like I needed a PhD. I couldn't figure it out. I like the ease of Payhip, plus I don't need 67 plugins to do simple things.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Author contrasts Payhip (easy, no excess plugins) favorably with Shopify (too complex to set up) for direct book sales",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Shopify"],
+  "platforms": [
+    "Payhip",
+    "Shopify"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "unknown",
   "metric_value_raw": null,

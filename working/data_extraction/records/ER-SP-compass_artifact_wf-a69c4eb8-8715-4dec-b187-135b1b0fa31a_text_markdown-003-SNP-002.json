@@ -10,10 +10,12 @@
   "snippet_primary": "\"I've been on Patreon for more than six years, on Substack for six months. I trust in Patreon's consistency, I wonder about Substack's algorithm and how they'll change to make more money. Patreon's method of payment (to creators) is way more elegant and transparent than Substack's, which is a mess.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator with 6+ years on Patreon and 6 months on Substack describes Patreon as consistent with more transparent and elegant creator payment method; expresses concern about Substack's algorithm unpredictability",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "Patreon: consistency and transparent creator payments cited as strengths",
     "Substack: payment method described as 'a mess'; algorithm uncertainty concerns"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "krissyteegerstrom.substack.com — Substack vs Patreon (September 2, 2025). Mixed assessment: Patreon stronger on payment transparency and consistency; Substack weaker on payment clarity and algorithm predictability. Single creator's subjective comparison."
   ],

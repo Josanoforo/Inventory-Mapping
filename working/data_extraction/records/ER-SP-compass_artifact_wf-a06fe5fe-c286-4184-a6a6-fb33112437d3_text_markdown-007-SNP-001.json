@@ -10,10 +10,12 @@
   "snippet_primary": "\"I bought a WordPress plugin from Payhip (WP Optimal State Pro WordPress Plugin)\\n\\nI was skeptical because I didn't really know anything about Payhip or the plugin developer.\\n\\nEverything worked out just fine. Payment was quick and easy, and the plugin works great.\\n\\n100% satisfied.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer reports buying a WordPress plugin on Payhip; initial skepticism about platform and developer; payment described as quick and easy; product worked as expected; 100% satisfied",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "plugin",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -28,7 +30,9 @@
     "positive outcome: product worked, 100% satisfied",
     "product type: WordPress plugin (digital software)"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Trustpilot review of Payhip (Dec 13, 2025). Buyer purchased WordPress plugin; positive experience — quick payment, product functional. Single anecdote; indicates buyer-side experience can be positive despite platform's low prominence."
   ],

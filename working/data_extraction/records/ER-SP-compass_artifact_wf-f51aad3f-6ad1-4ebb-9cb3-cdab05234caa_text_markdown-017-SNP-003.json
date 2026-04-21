@@ -10,10 +10,12 @@
   "snippet_primary": "\"I make over $110,000/mo selling Notion templates on Lemon Squeezy - one for content creators, and one for folks who want to use Notion as a second brain. As a high-volume seller, I didn't choose Lemon Squeezy lightly. I compared over 40 tools beforehand. ‍ · TLDR - Lemon Squeezy is the best option for creators. No other tool combines hands-off sales tax compliance with the same feature set.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Lemon Squeezy comparison page (lemonsqueezy.com/gumroad-alternative, undated) features customer testimonial: seller claims $110,000/month revenue from Notion templates on LS; compared 40+ tools before choosing; endorses LS as best option for creators combining tax compliance with features",
   "actor_level": "unknown",
-  "platforms": ["Lemon Squeezy"],
+  "platforms": [
+    "Lemon Squeezy"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "revenue",
   "metric_value_raw": "$110,000/month (Notion template seller on LS)",
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "LS testimonial: customer earns $110K/month selling Notion templates; LS best for creators for tax compliance and features"
   ],
-  "uncertainties": ["source_date_unclear", "author_conflict_of_interest_possible"],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
   "parser_notes": [
     "lemonsqueezy.com/gumroad-alternative (undated). Customer testimonial: $110K/month on LS from Notion templates; 40+ tools compared. Source is LS marketing page."
   ],

@@ -10,10 +10,13 @@
   "snippet_primary": "\"This year, over 50% of my income will be from my direct stores, so friends, that's just not true. You do have to market your direct store, and you need to learn how to market like an e-commerce business owner, which is different than how you market on Amazon, Kobo and others. But if I can do it, you can too!\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Author reports over 50% of 2025 annual income from direct stores, emphasizing direct sales require distinct e-commerce marketing skills compared to retailer-platform marketing (Amazon, Kobo)",
   "actor_level": "seller",
-  "platforms": ["Amazon", "Kobo"],
+  "platforms": [
+    "Amazon",
+    "Kobo"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "revenue",
   "metric_value_raw": "50",

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Soy usuario en DOMESTIKA desde hace años. He invertido en varios cursos de temas diversos. Todos (TODOS) han resultado muy enriquecedores.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Long-term Domestika buyer reports all courses purchased across diverse topics as enriching",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased a digital product (BOTT Price Action Indicator) for USD 499 through a Payhip link promoted by the seller \\\"BO Turbo Trader.\\\" At the time of purchase, the seller's refund policy clearly stated that cancellations made within 7 days were eligible for a 100% refund. I requested a refund within this period, and the seller accepted my request in writing. [...] Payhip refused to intervene in any meaningful way. [...] Even if Payhip cannot physically reverse a transaction, they absolutely can: Take action against sellers who violate their own policies, Freeze or suspend accounts, Warn buyers, Cooperate with banks and payment processors, Demand accountability from sellers operating on their platform. In my case, Payhip did none of this. [...] The seller clearly acted in bad faith: accepted the refund request and then delayed and disappeared. At a minimum, Payhip should have contacted the seller formally, demanded compliance with their stated policy, and taken action when the seller refused. Instead, they told me to \\\"contact the seller\\\" – even after I confirmed the seller had stopped replying completely.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer paid USD 499 for digital product on Payhip; seller had 7-day 100% refund policy; seller accepted refund in writing then stopped responding; Payhip refused to intervene, suspend the seller, or cooperate with payment processors; reviewer argues Payhip should enforce seller policy compliance",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "499",
@@ -29,7 +31,10 @@
     "Payhip response: directed buyer to contact seller; no account action taken",
     "buyer argues Payhip could freeze accounts, warn buyers, cooperate with payment processors"
   ],
-  "uncertainties": ["methodology_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "methodology_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Trustpilot review of Payhip (Dec 4, 2025). Detailed buyer dispute: $499 digital product, seller honored refund in writing then disappeared. Payhip declined to intervene beyond pointing to seller. Documents Payhip's non-intervention stance in seller-buyer disputes — consistent with official policy (help center SNP-001 in same shard)."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Foi comprado um curso da Maria Virgínia ads lucrativo falando comprando o curso tinha garantia de 12 meses para o reembolso ao tentar solicitar o reembolso já mostra como o prazo do reembolso fora do prazo sendo que no anúncio garantia o prazo de 12 meses gostaria do meu reembolso pois não me identifiquei com o curso\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui complaint (purchase February 6, 2025) reports course 'Ads Lucrativo' advertised a 12-month refund guarantee; Hotmart system shows guarantee expired February 13, 2025 (7 days after purchase); discrepancy between advertised 12-month guarantee and platform-enforced 7-day window",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses (marketing/paid ads)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Course 'Ads Lucrativo' advertised 12-month guarantee; Hotmart shows expired 7 days after purchase",
     "Discrepancy between creator's advertised refund policy and Hotmart-enforced guarantee window"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (purchase February 6, 2025). Course advertised 12-month guarantee; Hotmart expired it February 13, 2025 (7 days). Dispute: advertised vs. platform-enforced refund window."
   ],

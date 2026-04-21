@@ -10,10 +10,12 @@
   "snippet_primary": "\"No llegó el último producto, es de anatomía, envié varios correos y nadie dio solución, y tampoco devolución del dinero.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026; experience March 12, 2026) reports anatomy-related digital product not delivered; multiple emails sent with no resolution and no refund",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "digital educational content (anatomy)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Anatomy digital product not delivered; multiple emails ignored; no refund issued"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). Anatomy content not delivered; emails unanswered; no refund."
   ],

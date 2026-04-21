@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased a course for €0.99 which, through an unclear process, automatically signed me up for a \\\"Plus\\\" annual subscription. I never received any notification regarding the initial activation (€119 in 2025). Furthermore, on January 9th, 2026, I was charged €298.93 for a renewal.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports automatic Domestika Plus annual subscription enrollment after purchasing €0.99 course — initially charged €119 (2025), then €298.93 renewal in January 2026 without explicit consent or notification",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "298.93",

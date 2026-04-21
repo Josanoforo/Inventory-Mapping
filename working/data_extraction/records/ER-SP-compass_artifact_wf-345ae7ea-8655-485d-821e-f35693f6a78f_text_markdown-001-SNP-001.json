@@ -10,10 +10,13 @@
   "snippet_primary": "\"I'm going all in with digital products right now, selling in multiple niches and building several pages on Payhip and Gumroad. I set up a new page on Payhip 3 months ago. For this, I focus on providing information for new mums. I've built this page using several platforms: ✅Vocal media ✅Pinterest ✅Facebook Groups ✅Reddit ✅Flipboard ✅YouTube I post daily on all platforms. It's a lot of work, I can't lie, but eventually, I'll outsource the whole process. The truth is, to make $33,000 from low ticket digital products in 3 months, I'll do this again without hesitation. That's more than $10,000 a month, not bad!\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator self-reports $33,000 revenue from Payhip in 3 months (~$10,000+/month) selling low-ticket digital products to new mothers niche via multi-platform organic traffic",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Gumroad"],
+  "platforms": [
+    "Payhip",
+    "Gumroad"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "revenue",
   "metric_value_raw": "33000",
@@ -28,7 +31,9 @@
     "selling in multiple niches",
     "focus on providing information for new mums"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Medium blog (May 14, 2025). Creator self-reports $33,000 in 3-month Payhip revenue (~$10K/month) from low-ticket digital products targeting new mothers, using multi-platform organic traffic (Pinterest, Reddit, YouTube, etc.). Self-reported; no external verification."
   ],

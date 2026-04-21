@@ -10,10 +10,12 @@
   "snippet_primary": "\"Original es una tienda de suministros para manualidades, de marca propia como de otras marcas, empresa 100% mexicana que nace bajo la necesidad de brindar alternativas de desarrollo a procesos creativos con calidad. Aqui en encontraras productos digitales para descarga y fisicos.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Kichink seller 'Original' describes itself as a 100% Mexican craft supplies store offering both physical products and digital downloads under own brand and other brands",
   "actor_level": "unknown",
-  "platforms": ["Kichink"],
+  "platforms": [
+    "Kichink"
+  ],
   "product_type_if_explicit": "physical goods and digital downloads (craft supplies/manualidades)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "product mix: both digital downloads and physical goods",
     "seller identifies as 100% Mexican company"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "kichink.com seller store page (undated, accessed April 2026). Seller 'Original' self-describes as 100% Mexican craft supplies company offering physical and digital download products. Illustrates seller type and product mix available on Kichink."
   ],

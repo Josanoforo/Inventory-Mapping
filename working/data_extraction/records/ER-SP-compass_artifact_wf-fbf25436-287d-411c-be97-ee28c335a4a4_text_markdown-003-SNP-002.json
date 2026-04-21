@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased a digital product on Gumroad for approximately $200. The seller failed to deliver the product properly, and I could not access the content from the day of purchase. The link/pages were unavailable and did not function. I contacted the seller many times, but they stopped responding and provided no solution at all. I then contacted Gumroad support and provided full evidence, including screenshots, purchase receipts, and the entire message history. Gumroad repeatedly told me to contact the seller directly and refused to intervene, even though their own policy states that Gumroad may step in when a seller does not respond for 30 days.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "BBB complaint (July 10, 2025) describes a buyer who paid approximately $200 for a digital product on Gumroad; product link was non-functional from purchase date; after seller became unresponsive, Gumroad support declined to intervene despite Gumroad's stated policy allowing intervention after 30 days of seller non-response",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "approximately $200 digital product purchase",
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "BBB complaint (Jul 10, 2025): ~$200 Gumroad digital product non-functional from purchase; seller unresponsive; Gumroad support refused to intervene despite own 30-day seller non-response policy"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "bbb.org (Jul 10, 2025). English. Gumroad BBB complaint: ~$200 digital product link broken from day 1; seller unresponsive; Gumroad support refused to intervene, directing buyer to contact seller despite Gumroad policy allowing platform intervention after 30 days of seller non-response."
   ],

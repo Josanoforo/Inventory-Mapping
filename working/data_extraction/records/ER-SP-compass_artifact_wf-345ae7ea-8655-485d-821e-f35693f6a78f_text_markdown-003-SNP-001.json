@@ -10,10 +10,12 @@
   "snippet_primary": "\"I uploaded it on Payhip, linked it to my Medium post, shared the product page, and waited. Days passed. Then weeks. Views trickled in… but no sales. At first, I felt discouraged. Had I done something wrong? Was the pricing off? Was it the topic?\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator reports zero sales after weeks of listing digital journal on Payhip — views without conversions, uncertainty about pricing or topic",
   "actor_level": "seller",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "count",
   "metric_value_raw": "0",
@@ -27,7 +29,9 @@
     "Views trickled in… but no sales",
     "felt discouraged"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Medium blog (June 2025). Creator uploaded digital journal to Payhip, shared via Medium link, received views but zero sales over weeks. Uncertainty expressed about pricing, topic, and discoverability. Anecdotal failure/learning case."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"I made an order for a leather jacket with Etsy, by a \"company\" called LeatherWorkNY, and I paid 160usd or 140euros. The sellers name is Zahida. I payed my order on 07/02/2026 and I never received anything from them! Etsy is a fraud, don't fall for their lies!\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (April 2026) paid $160 USD / €140 for a leather jacket from Etsy seller 'LeatherWorkNY' on February 7, 2026; item never received as of April 4, 2026 (~2 months)",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (leather jacket)",
   "metric_type": "price",
   "metric_value_raw": "$160 USD / €140 for leather jacket",

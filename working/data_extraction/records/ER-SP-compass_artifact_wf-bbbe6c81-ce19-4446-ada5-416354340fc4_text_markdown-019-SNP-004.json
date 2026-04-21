@@ -10,10 +10,12 @@
   "snippet_primary": "\"I ordered their qigong course and when I checked my account they has taken payment for 3 other courses and memebership. They advertise course in English then process it in Portuguese so its impossible...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review (November 20, 2025) reports ordering one qigong course via Hotmart but finding 3 additional courses and a membership charged to account without authorization; course advertised in English but administered in Portuguese, creating a language barrier that impedes dispute resolution (snippet truncated)",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Ordered one qigong course; account charged for 3 additional courses and a membership without authorization",
     "Course advertised in English but processed/administered in Portuguese; language barrier impedes resolution (snippet truncated)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "trustpilot.com/review/hotmart.com (November 20, 2025). Unauthorized charges for 3 additional courses + membership when ordering one qigong course; English ad but Portuguese processing creates barrier (snippet truncated)."
   ],

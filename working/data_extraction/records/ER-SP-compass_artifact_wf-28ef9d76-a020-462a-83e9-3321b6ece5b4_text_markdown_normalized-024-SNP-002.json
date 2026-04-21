@@ -10,10 +10,13 @@
   "snippet_primary": "\"I have been using Payhip for about two years and it's a great alternative to Shopify. When you start a business, you're not really able to pay a monthly subscription. Payhip only charges a tiny percen...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Individual seller (2 years using Payhip): Payhip cited as Shopify alternative with no monthly subscription — charges only a small transaction fee instead (snippet truncated)",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Shopify"],
+  "platforms": [
+    "Payhip",
+    "Shopify"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": null,
@@ -28,7 +31,9 @@
     "not really able to pay a monthly subscription",
     "only charges a tiny percen..."
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (Kyle, January 2026): seller notes ~2 years of Payhip use, positions it as Shopify alternative without monthly subscription. Snippet truncated ('tiny percen...') — exact transaction fee percentage not captured. context_insufficient flagged for truncated fee data."
   ],

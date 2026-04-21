@@ -10,10 +10,12 @@
   "snippet_primary": "\"I love Gumroad because it can't be any simpler. I upload a file, set a price, and I can start selling on the internet. The money I make from my sales lands directly in my bank account every Friday.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Gumroad homepage (gumroad.com, accessed April 2026) features a creator testimonial describing the platform as simple: upload file, set price, start selling; sales revenue deposited directly to bank account every Friday",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Gumroad homepage (accessed Apr 2026): creator testimonial — simple workflow (upload, price, sell); sales revenue deposited to bank account every Friday"
   ],
-  "uncertainties": ["source_date_unclear", "author_conflict_of_interest_possible"],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
   "parser_notes": [
     "gumroad.com (accessed Apr 2026, undated). English. Creator testimonial on Gumroad homepage: upload file + set price = start selling; payouts deposited every Friday. Testimonial curated and displayed by Gumroad."
   ],

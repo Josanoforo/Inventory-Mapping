@@ -10,10 +10,12 @@
   "snippet_primary": "\"I went on this platform to purchase a course that costs 15$ but upon checking out I was shocked to notice that another transaction worth over 100$ that I neither initiated nor confirmed passed simult...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports that while checking out a $15 course, an unauthorized transaction of over $100 was processed simultaneously without the buyer initiating or confirming it [snippet truncated]",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$15 course + unauthorized $100+ simultaneous charge",
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): unauthorized $100+ transaction processed simultaneously with intended $15 course purchase on Gumroad, without buyer confirmation [snippet truncated]"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: unauthorized $100+ charge appeared simultaneously with $15 course checkout; buyer neither initiated nor confirmed the extra charge. Snippet truncated — outcome unknown."
   ],

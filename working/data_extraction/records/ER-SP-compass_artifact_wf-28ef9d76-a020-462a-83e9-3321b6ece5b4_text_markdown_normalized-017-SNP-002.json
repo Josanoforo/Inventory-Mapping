@@ -10,10 +10,14 @@
   "snippet_primary": "\"keep gumroad as primary checkout (existing links everywhere) list on etsy for organic discovery · list on payhip as backup\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller describes cross-listing strategy: Gumroad as primary checkout (existing link inertia), Etsy for organic discovery, Payhip as backup",
   "actor_level": "seller",
-  "platforms": ["Gumroad", "Etsy", "Payhip"],
+  "platforms": [
+    "Gumroad",
+    "Etsy",
+    "Payhip"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

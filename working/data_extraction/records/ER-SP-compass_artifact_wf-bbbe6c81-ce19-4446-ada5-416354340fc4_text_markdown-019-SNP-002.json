@@ -10,10 +10,12 @@
   "snippet_primary": "\"Ordered digital course from creator via Hotmart platform. When accessing the course it was empty. Asked for a refund same day. Which the bot processed straight away. Refund showed pending on my accoun...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review (November 20, 2025) reports digital course purchased via Hotmart was empty on first access; same-day refund requested; automated bot processed refund immediately; refund appeared as 'pending' on buyer's account (snippet truncated — final resolution unclear)",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Course content was empty on first access; same-day refund requested",
     "Automated bot processed refund immediately; refund showed 'pending' status (snippet truncated — final outcome unclear)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "trustpilot.com/review/hotmart.com (November 20, 2025). Empty course content; bot-processed same-day refund; pending status shown (snippet truncated, outcome unclear)."
   ],

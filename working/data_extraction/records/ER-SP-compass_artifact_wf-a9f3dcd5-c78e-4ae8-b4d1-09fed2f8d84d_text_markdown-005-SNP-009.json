@@ -10,10 +10,12 @@
   "snippet_primary": "\"Essentially a scam website that tricks you into paying way more than you realised you committed to. I found an awesome map making creator, who sold their assets via an all-in membership, on Patreon. I signed up, happy to support the talented artist. What I didn't know and was never explained to me is that I would then be later charged £52 in the same month, because the creator made seven separate 'posts' which amounted to written updates about what they'd be doing. Ironically, it amounted to just short of a full years membership. I would have subscribed for ever. Not now. I have cancelled and requested a charge back from my bank.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) signed up for map-making creator's all-in membership on Patreon; charged £52 in the same month because creator posted 7 separate posts (written updates); total charge described as near-equivalent to a full year's membership; reviewer cancelled and initiated bank chargeback",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "£52 charged in single month for 7 creator posts under all-in membership",

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Ver más productos · Ramones Libreta Pasta Dura 1/2 carta por Ed Vill $220.00 MXN · Ramones Libreta Pasta Dura 1/2 carta · option 1 · option 2 · Cantidad · Agregar al carrito · papá Star Wars por El Regalito $80.00 MXN\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Kichink homepage displays product listings in MXN pricing: notebook MXN 220, greeting card MXN 80; illustrates small consumer goods price range",
   "actor_level": "platform",
-  "platforms": ["Kichink"],
+  "platforms": [
+    "Kichink"
+  ],
   "product_type_if_explicit": "physical goods (stationery, greeting cards)",
   "metric_type": "price",
   "metric_value_raw": "MXN 80 to MXN 220 (sample range from listing)",
@@ -27,7 +29,9 @@
     "sample: hardcover notebook MXN 220; greeting card MXN 80",
     "kichink.com homepage, accessed April 2026"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "kichink.com (copyright 2025, accessed April 2026). Homepage product listings show MXN pricing; sample range MXN 80–220. Illustrates price range and Mexico-focused market context for Kichink."
   ],

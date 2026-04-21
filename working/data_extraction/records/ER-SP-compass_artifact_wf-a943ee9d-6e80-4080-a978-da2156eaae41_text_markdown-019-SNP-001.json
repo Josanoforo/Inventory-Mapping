@@ -10,10 +10,12 @@
   "snippet_primary": "\"I certainly don't recommend purchasing anything from this company because you can't take a complaint to a real person directly by phone, email or text. I was scammed in relation to a supplement I bought & there was just no way to quickly query this without going through a ridiculous procedure. Furthermore, ETSY should vet these supplement sellers before accrediting them - in this case it was a bogus company not located in the country ETSY said it was; the product was not sent from the country ETSY said it would be; & the parcel labels showed it was sent from China while the parcel tracking showed it was en route from Thailand (which it wasn't!).\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (April 2026) reports supplement purchase from Etsy seller misrepresenting location (not in stated country); shipping labels showed China, tracking showed Thailand; no direct customer service contact; buyer had to use complex complaint procedure",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (dietary supplement)",
   "metric_type": "unknown",
   "metric_value_raw": null,

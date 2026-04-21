@@ -10,10 +10,12 @@
   "snippet_primary": "\"I bought a single course for 155 JPY in Dec 2025. On Jan 1, 2026, I was charged 49,522 JPY (300 times the original price!) for a subscription I tried to cancel.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports 49,522 JPY Domestika Plus charge on January 1, 2026 after purchasing 155 JPY single course in December 2025 — approximately 300x course price; attempted cancellation noted",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "49522",

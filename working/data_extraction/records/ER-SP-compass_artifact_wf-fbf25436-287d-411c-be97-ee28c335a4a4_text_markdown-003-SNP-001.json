@@ -10,10 +10,12 @@
   "snippet_primary": "\"On May 31, 2025, I placed two separate orders totaling $900 through the Gumroad platform from the seller digitalebooks1. The seller promoted physical clothing merchandise via Instagram and instructed buyers to complete their orders through Gumroad. However, the invoices falsely labeled the purchases as digital books, even though I never received any digital content or the actual clothing products I paid for.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "BBB complaint (filed July 10, 2025) against Gumroad describes a buyer who paid $900 through Gumroad for physical clothing promoted via Instagram; invoices falsely labeled purchases as digital books; no physical goods or digital content were delivered",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$900 total across two orders on May 31, 2025",
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "BBB complaint (filed Jul 10, 2025): buyer paid $900 via Gumroad for Instagram-promoted physical clothing; invoices labeled digital books; neither physical goods nor digital content delivered; seller: digitalebooks1"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "bbb.org (filed Jul 10, 2025). English. Gumroad BBB complaint: $900 across two orders for physical clothing marketed via Instagram but processed through Gumroad; invoices falsely labeled as digital books; no delivery of any product. Seller: digitalebooks1."
   ],

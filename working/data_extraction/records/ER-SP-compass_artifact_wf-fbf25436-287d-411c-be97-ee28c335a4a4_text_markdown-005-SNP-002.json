@@ -10,10 +10,12 @@
   "snippet_primary": "\"DONT GO NEAR THIS COMPANY. SMOKESCREENS AND MIRRORS EXPERIENCE . ZERO CUSTOMER SUPPORT , NOT EVEN A BOT GENERATED COURTESY MAILMTOMSAY WE HAVE RECEIVED YOUR QUERY/COMPLAINT AND RE LOOKING INTO IT. I HAVE REPORTED THEM TO MASTERCARD WITH A REFUND REQUEST AND A RECOMMENDATION TO BLACK LIST THEM . WETHER IT IS INCOMPETENCE OR DELIBERATE FRAUDULENCE IS DIFFICULT TO TELL, BUT THE RESULT IS THE SAME. YOU WASTE TIME AND MONEY ON A PRODUCT THAT YOU PAY FOR BUT NEVER RECEIVE.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (November 19, 2025) reports zero customer support for a paid but undelivered product; reviewer reported Gumroad to Mastercard requesting a refund and recommending blacklisting; reviewer characterizes the outcome as either incompetence or deliberate fraud",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Trustpilot review (Nov 19, 2025): Gumroad — zero customer support response; product paid but not received; buyer reported to Mastercard with refund request and blacklist recommendation"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com?page=2 (Nov 19, 2025). English. Gumroad support failure: no response at all (not even automated); product paid but never delivered; buyer filed Mastercard dispute and recommended platform blacklisting. Reviewer frames as deliberate fraud or incompetence."
   ],

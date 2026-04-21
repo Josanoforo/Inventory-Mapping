@@ -10,10 +10,12 @@
   "snippet_primary": "\"I have paid money to this address for a shutter count on my camera and i didn't receive any information on it. Very annoyed !\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports paying LemonSqueezy for camera shutter count report and receiving no information",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "paid money to this address for a shutter count on my camera",
     "didn't receive any information on it"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports paying LemonSqueezy for camera shutter count report and receiving nothing. No amounts stated. context_insufficient: no pricing or delivery timeline in snippet."
   ],

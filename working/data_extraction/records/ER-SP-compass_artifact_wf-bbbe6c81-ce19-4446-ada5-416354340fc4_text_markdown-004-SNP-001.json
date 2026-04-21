@@ -10,10 +10,12 @@
   "snippet_primary": "\"No pude bajar un e book que compre en la plataforma y no me respondieron aún. Compre en otras ocasiones y fue todo bien pero en esta compra al contrario.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026; experience March 12, 2026) reports ebook download failure with no support response; notes previous purchases on platform worked fine, inconsistency in this case",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "ebooks",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Ebook download failed; no support response; reviewer notes past purchases worked fine (inconsistent experience)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). Ebook download failure; no support response. Prior purchases had worked — isolated incident."
   ],

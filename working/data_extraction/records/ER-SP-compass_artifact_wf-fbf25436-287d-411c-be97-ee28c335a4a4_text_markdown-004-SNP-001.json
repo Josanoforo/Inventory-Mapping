@@ -10,10 +10,12 @@
   "snippet_primary": "\"everybody says its a scam blah blah blah, i bought my piano sheet + MIDI with no problems or anything, its about the buyer who ripps you off not the site, dont start bombing it with 1 star reviews jus...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports a positive purchase experience buying piano sheet music and MIDI files with no problems; reviewer argues that fraud on Gumroad is attributable to individual sellers rather than the platform and discourages negative reviews",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): positive Gumroad experience buying piano sheets + MIDI; reviewer attributes platform fraud to sellers not Gumroad; discourages 1-star reviews"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Positive buyer review: piano sheets + MIDI purchased without issues. Reviewer defends Gumroad against scam accusations and frames fraud as seller-level, not platform-level. Single anecdotal counter-narrative."
   ],

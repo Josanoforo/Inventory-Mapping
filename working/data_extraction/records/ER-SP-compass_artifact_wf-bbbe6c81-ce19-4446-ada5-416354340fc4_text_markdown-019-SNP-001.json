@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased a program on Facebook. They claimed that I could make money rating videos on YouTube. I paid them $37 . They ended up billing me for $46 , $97, and $67 dollars for some sort of gardening c...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review (November 20, 2025) reports buyer purchased a program via Facebook advertisement claiming income from rating YouTube videos ($37 initial charge); subsequently billed unauthorized additional amounts of $46, $97, and $67 for unrelated content (snippet truncated; appears gardening-related)",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "price",
   "metric_value_raw": "$37, $46, $97, $67",
@@ -26,7 +28,9 @@
     "Facebook ad promised income from rating YouTube videos; initial charge $37",
     "Subsequent unauthorized charges: $46, $97, $67 for unrelated content (snippet truncated, content type unclear)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "trustpilot.com/review/hotmart.com (November 20, 2025). Facebook ad scam pattern: $37 'rate YouTube videos' program → unauthorized charges $46/$97/$67 for unrelated content (snippet truncated). USD amounts."
   ],

@@ -10,10 +10,13 @@
   "snippet_primary": "\"Once the eBook was complete, I uploaded a PDF to PayHip (similar to Gumroad, but UK based) and shouted about it on Facebook, Twitter, and LinkedIn.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller reports publishing ebook PDF via Payhip, characterizing it as similar to Gumroad but UK-based; promoted via social media",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Gumroad"],
+  "platforms": [
+    "Payhip",
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +29,9 @@
     "similar to Gumroad, but UK based",
     "uploaded a PDF"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Indie Hackers post (July 2020): seller shares first ebook publishing experience using Payhip (PDF upload), characterizing it briefly as similar to Gumroad but UK-based. Social media promotion noted as context. geography_if_explicit set to UK (Payhip's base, explicitly stated)."
   ],

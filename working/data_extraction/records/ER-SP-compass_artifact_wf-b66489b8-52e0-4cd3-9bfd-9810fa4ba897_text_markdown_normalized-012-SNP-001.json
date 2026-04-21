@@ -10,10 +10,12 @@
   "snippet_primary": "- Obey Me! ASMR - Leviathan: The Bathtub and You — $14.99\n- Obey Me! ASMR - Belphegor To Wish Upon a Star With You — $14.99",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip seller NTTsolmare (accessed April 2026) lists two ASMR digital audio products from Obey Me! franchise: 'Leviathan: The Bathtub and You' and 'Belphegor To Wish Upon a Star With You', both priced at $14.99 USD",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital audio (ASMR)",
   "metric_type": "price",
   "metric_value_raw": "$14.99 per ASMR audio product (two titles listed)",
@@ -26,7 +28,9 @@
     "ASMR audio products from Obey Me! franchise; both priced $14.99 USD",
     "seller NTTsolmare: likely NTT Solmare (Japanese mobile game developer)"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/NTTsolmare (accessed April 2026; page undated). ASMR audio product listings from Obey Me! franchise at $14.99 per title. Illustrates entertainment IP / Japanese brand direct digital sales via Payhip."
   ],

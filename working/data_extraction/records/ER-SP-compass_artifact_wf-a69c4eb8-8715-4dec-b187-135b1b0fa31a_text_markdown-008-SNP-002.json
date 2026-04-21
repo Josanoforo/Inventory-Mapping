@@ -10,10 +10,12 @@
   "snippet_primary": "\"It's no secret that it's been falling severely over the last year, and while I understand that people no longer have as much disposable income, I think I haven't been mentioning it as much as I should be during videos.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator reports Patreon revenue falling significantly over the prior year; attributes decline to reduced audience disposable income and insufficient self-promotion in videos",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "revenue",
   "metric_value_raw": "falling severely over last year",
@@ -27,7 +29,10 @@
     "attributed to reduced audience disposable income",
     "creator acknowledges insufficient video promotion of Patreon as contributing factor"
   ],
-  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "uncertainties": [
+    "methodology_unclear",
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "patreon.com/posts (April 2025). Creator describes sustained Patreon revenue decline over prior year; cites audience disposable income reduction and insufficient self-promotion. No quantified decline rate."
   ],

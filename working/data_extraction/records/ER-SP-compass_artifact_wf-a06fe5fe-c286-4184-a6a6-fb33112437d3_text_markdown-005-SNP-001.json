@@ -10,10 +10,13 @@
   "snippet_primary": "\"I use Payhip mostly because I heard they handle additional EU VAT prices, despite them having 5% take off of prices [...] But I noticed that very few people actually interact with any Payhip stores, at all, meanwhile people with Patreon and Ko-fi get all the visitors. I know people avoid using Payhip to sell items due to poor customer service and all, but I haven't heard anything from the buyer's side? I see more seller than buyer review posts. And very little buyer interaction.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Forum poster uses Payhip for EU VAT handling despite 5% fee; observes very low buyer interaction on Payhip stores compared to Patreon and Ko-fi; notes reputation for poor customer service among sellers; questions whether buyer experience is a concern",
   "actor_level": "unknown",
-  "platforms": ["Payhip", "Patreon"],
+  "platforms": [
+    "Payhip",
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -29,7 +32,10 @@
     "reported: sellers avoid Payhip due to poor customer service",
     "forum question: no data on buyer-side experience"
   ],
-  "uncertainties": ["methodology_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "methodology_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "side7.com forum (Jun 13, 2025). Seller perspective: uses Payhip for EU VAT; 5% fee acknowledged. Observes low buyer traffic vs Patreon/Ko-fi. Reports seller complaints about customer service; no systematic buyer-side data. Single anecdotal forum post."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Compré un producto en Hotmart y me hicieron el cobro inmediatamente, pero nunca recibí ningún correo de confirmación, acceso al producto ni forma de entrar a la plataforma. Revisé spam, intenté recuperar el acceso, busqué por todos los medios posibles… nada. Contacté al soporte de Hotmart varias veces y solo me dieron respuestas automáticas inútiles, sin resolver absolutamente nada. Me están dando largas y siguen sin entregarme lo que compré. Incluso su sistema me marcó un 'error desconocido' cuando intenté recuperar el acceso.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (page 11, accessed April 2026) reports: charged immediately on purchase but received no confirmation email, no product access, no platform entry; multiple support contacts yielded only automated responses; system returned 'unknown error' on access recovery attempt",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,10 @@
     "No product delivery after payment; support gave only automated responses; 'unknown error' on access recovery",
     "Spanish-language review (Hotmart Trustpilot Spanish; likely Latin America buyer)"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=11 (accessed April 2026). Hotmart buyer: paid but no delivery, no confirmation email, support automated-only, system error on recovery. Spanish-language review."
   ],

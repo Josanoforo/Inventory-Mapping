@@ -10,10 +10,12 @@
   "snippet_primary": "\"Best payhip freelance services online. Outsource your payhip project and get it quickly done and delivered remotely online\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Fiverr (accessed April 2026) has a dedicated gigs search category for Payhip-related freelance services (store setup, customization, etc.)",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Fiverr has searchable category for Payhip-related freelance services delivered remotely"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "fiverr.com/gigs/payhip (accessed April 2026; page undated). Fiverr marketplace for Payhip freelance services. Indicates ecosystem of third-party service providers around Payhip store setup and customization."
   ],

@@ -10,10 +10,13 @@
   "snippet_primary": "\"With Lemon Squeezy, we were able to implement a complete checkout flow in under 2 hours, while a comparable Stripe implementation took nearly 2 days of development time.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Blog post (anotherwrapper.com, Apr 6, 2025) reports author implemented complete checkout flow in under 2 hours with Lemon Squeezy vs. nearly 2 days with comparable Stripe implementation",
   "actor_level": "unknown",
-  "platforms": ["Stripe", "Lemon Squeezy"],
+  "platforms": [
+    "Stripe",
+    "Lemon Squeezy"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +28,9 @@
   "local_qualifiers": [
     "LS checkout implementation under 2 hours vs nearly 2 days for comparable Stripe implementation (single developer experience)"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "anotherwrapper.com blog (2025-04-06). Single developer anecdote: LS checkout <2h vs Stripe ~2 days."
   ],

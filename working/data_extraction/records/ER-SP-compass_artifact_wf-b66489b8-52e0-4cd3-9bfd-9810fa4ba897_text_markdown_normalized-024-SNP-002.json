@@ -10,10 +10,12 @@
   "snippet_primary": "\"### Featured products\" followed by \"Loading results...\" and \"No products found\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip marketplace (accessed April 2026) 'Featured products' section displayed 'Loading results... No products found' at time of capture, indicating dynamic loading not completed during static crawl",
   "actor_level": "platform",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,10 @@
     "marketplace 'Featured products' section returned 'No products found' at time of capture",
     "likely dynamic content not loaded by static crawler"
   ],
-  "uncertainties": ["context_insufficient", "source_date_unclear"],
+  "uncertainties": [
+    "context_insufficient",
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/marketplace (accessed April 2026; page undated). Featured products section empty at capture time — dynamic content not loaded by static crawler. Low signal value."
   ],

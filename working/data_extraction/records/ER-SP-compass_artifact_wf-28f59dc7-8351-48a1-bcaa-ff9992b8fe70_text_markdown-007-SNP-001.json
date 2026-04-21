@@ -10,10 +10,12 @@
   "snippet_primary": "\"Como muchas personas, he sido víctima de los patrones oscuros de Domestika.org. Ya había comprado tres cursos en la plataforma anteriormente y nunca he tenido ningún problema. Pero la última compra venía con sorpresa: una suscripción anual a Domestika Plus por tan solo 228 euros\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Consumer reports Domestika Plus 228 EUR annual subscription charged after regular course purchase — characterized as a 'dark pattern'; prior purchases had no issue",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "228",

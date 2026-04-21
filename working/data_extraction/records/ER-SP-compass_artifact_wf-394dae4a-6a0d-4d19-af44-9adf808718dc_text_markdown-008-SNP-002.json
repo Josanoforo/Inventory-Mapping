@@ -10,10 +10,12 @@
   "snippet_primary": "\"'Hotmart has a really good advantage: They accept all payment processors, credit cards, even cash payments in cornershops like Oxxo,' Sofía Macías, a personal finance creator, told Rest of World.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Personal finance creator praises Hotmart for broad payment acceptance — all processors, credit cards, and Oxxo cash payments at Mexican convenience stores",
   "actor_level": "seller",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "accept all payment processors, credit cards",
     "even cash payments in cornershops like Oxxo"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Rest of World article (June 19, 2023). Creator Sofía Macías cites Hotmart's broad payment acceptance: all processors, credit cards, Oxxo cash payments. Mexico context. Historical (2023); current payment options may differ."
   ],

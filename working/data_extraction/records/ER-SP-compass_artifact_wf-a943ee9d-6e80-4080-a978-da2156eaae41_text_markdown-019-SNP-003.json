@@ -10,10 +10,12 @@
   "snippet_primary": "\"Had a horrible experience with etsy. Ordered a gold chain. Received delivery date and then few hours later told that order was cancelled. No reason given- asked to contact the seller. Sorry but do not have time for that !! Thankfully have been refunded. Avoid this company as their average review score is 1.5!!. Should have checked before I ordered\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (April 2026) had gold chain order cancelled by seller hours after receiving a delivery date, with no reason given; Etsy directed buyer to contact seller; buyer was eventually refunded; cites Etsy's 1.5 average Trustpilot score",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (gold chain jewelry)",
   "metric_type": "unknown",
   "metric_value_raw": null,

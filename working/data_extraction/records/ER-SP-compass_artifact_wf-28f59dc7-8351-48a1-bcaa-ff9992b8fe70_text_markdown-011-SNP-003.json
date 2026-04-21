@@ -10,10 +10,12 @@
   "snippet_primary": "\"I was charged $259.64 by Domestika without ever subscribing to anything. I only bought two individual courses, and suddenly I'm being billed for a subscription I never signed up for. I have reached out multiple times, and all I get are automated replies—there's no customer service, no phone number, no human reply.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports $259.64 Domestika subscription charge after purchasing only two individual courses; support is automated replies only with no phone or human contact",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "259.64",

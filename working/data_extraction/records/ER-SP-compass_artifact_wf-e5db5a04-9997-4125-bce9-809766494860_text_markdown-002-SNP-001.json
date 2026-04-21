@@ -10,10 +10,13 @@
   "snippet_primary": "\"Hola! hace casi tres semanas que lancé mi tienda de shopify, deje kichink porque el servicio era muy malo y acaban de subir la comisión de ventas, estuve unos 3 años en kichink y tenía buenas ventas mensuales, a veces más a veces menos y en verdad esperaba tener la misma respuesta con la nueva tienda, pero al parecer no es así y eso que hice el cambio pensando en poder otorgar un mejor servicio\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Shopify community post (community.shopify.com, Oct 24, 2018) by a seller who left Kichink after approximately 3 years due to poor service quality and a commission increase; seller reported good monthly sales on Kichink but migrated to Shopify to offer better service; early Shopify results were lower than expected",
   "actor_level": "unknown",
-  "platforms": ["Kichink", "Shopify"],
+  "platforms": [
+    "Kichink",
+    "Shopify"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

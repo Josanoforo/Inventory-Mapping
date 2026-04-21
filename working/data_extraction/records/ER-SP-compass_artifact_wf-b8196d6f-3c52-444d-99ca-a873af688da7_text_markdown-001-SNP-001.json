@@ -10,10 +10,12 @@
   "snippet_primary": "\"Anime Tracker | Notion Template · TZS15,000 · Apple Slides | Figma Slides Template · TZS0+ · Bookworm Library | Notion Template · TZS25,000 · Min-folio | Notion Template · My Skin | Notion Template\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller 'amdesigns' on Lemon Squeezy (accessed April 2026) offers Notion and Figma templates priced in Tanzanian Shillings: TZS15,000 (Anime Tracker Notion Template), TZS0+ pay-what-you-want (Figma Slides Template), TZS25,000 (Bookworm Library Notion Template)",
   "actor_level": "unknown",
-  "platforms": ["Lemon Squeezy"],
+  "platforms": [
+    "Lemon Squeezy"
+  ],
   "product_type_if_explicit": "digital templates (Notion templates, Figma templates)",
   "metric_type": "price",
   "metric_value_raw": "TZS15,000; TZS0+; TZS25,000",
@@ -27,7 +29,9 @@
     "prices: TZS15,000 / TZS0+ (pay-what-you-want) / TZS25,000",
     "seller 'amdesigns' on Lemon Squeezy custom storefront"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "amdesigns.lemonsqueezy.com (April 2026). Lemon Squeezy seller store: Notion/Figma templates priced in TZS (Tanzanian Shilling). TZS15,000, TZS0+ (pay-what-you-want), TZS25,000. Platform supports TZS currency."
   ],

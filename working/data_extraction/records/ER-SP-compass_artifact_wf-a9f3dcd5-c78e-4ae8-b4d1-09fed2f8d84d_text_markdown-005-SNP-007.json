@@ -10,10 +10,12 @@
   "snippet_primary": "\"Patreon's billing system feels like a scam. I cancelled my membership, yet charges kept coming every month. When I asked why, support claimed there was another subscription tied to my payment details — one I never signed up for or even had access to. Instead of fixing it quickly, they dragged me through weeks of back-and-forth emails, kept asking for the same evidence, and still refused to refund the extra charges. Their explanations made no sense and gave me zero confidence that my payment info was safe. This experience shows Patreon can charge you without consent and leave you chasing your own money.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) cancelled Patreon membership but charges continued; Patreon support claimed an unknown subscription was tied to the payment details; weeks of back-and-forth, same evidence requested repeatedly, refund ultimately denied",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

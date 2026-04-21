@@ -10,10 +10,12 @@
   "snippet_primary": "\"I keep asking to cancel. I'm only getting generic email responses telling me why I can't cancel. Meanwhile, I've been charged over $500 and they are not responding to my requests for cancellation.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports persistent failure to cancel Domestika subscription: charged over $500, receiving only generic emails stating cancellation is not possible",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "500",

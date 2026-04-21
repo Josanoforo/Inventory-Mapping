@@ -10,10 +10,12 @@
   "snippet_primary": "\"Speaking of alternatives, there aren't any depending on your country. Where I live (Brazil), they only accept PayPal. No bank accounts, no Stripe. I've been wanting to use any of the other two options for years now (they are cheaper), and asked their support about it many times, but always replied something along the lines of 'we are working on it'.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Blog post (carlosbecker.com, October 2024, updated through Oct 29, 2024) by Gumroad seller in Brazil states Gumroad only accepts PayPal in Brazil with no bank account or Stripe payout options available; seller has requested alternatives from Gumroad support multiple times over years and received only responses indicating they are working on it",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "carlosbecker.com (Oct 2024): Gumroad seller in Brazil: PayPal only; no bank accounts or Stripe payout; support says 'working on it' for years"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "carlosbecker.com (Oct 2024, updates through Oct 29, 2024). Personal blog: Gumroad seller in Brazil, PayPal only; no bank accounts or Stripe available for payouts. Support repeatedly says 'working on it'. Single seller experience."
   ],

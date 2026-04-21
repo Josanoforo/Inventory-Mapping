@@ -10,10 +10,12 @@
   "snippet_primary": "\"I contacted Patreon Support regarding a refund for an item that was not delivered. Under their own Refund Policy ('item not received' / 'product mismatch'), my case should have qualified. Agent Sam handled my ticket: the response was rude, dismissive, and unhelpful. My refund was denied without any clear, clause-specific explanation, and I was told the decision was final with no further communication. As an EU customer, I find this very concerning and not in line with expected consumer protections. Due to this experience, I have cancelled all my subscriptions and will be using alternative platforms instead.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot EU reviewer (December 2025) had refund denied by Patreon support for undelivered item despite Patreon's own refund policy coverage; support response described as rude and dismissive; reviewer cites non-compliance with EU consumer protection expectations",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

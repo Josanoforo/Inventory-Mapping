@@ -10,10 +10,12 @@
   "snippet_primary": "\"She appreciated that when readers have subscriptions issues, they can talk to an 'actual support person — not a bot.'\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator who migrated from Substack to Patreon cites human customer support (not bots) for subscription issues as an appreciated Patreon feature",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "creator appreciation cited after Substack-to-Patreon migration",
     "Nieman Lab journalism article, October 2025"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "niemanlab.org (October 29, 2025). Creator cites Patreon human customer support as key advantage after migrating from Substack; contrasts with bot-based support. Single creator perspective via journalism article."
   ],

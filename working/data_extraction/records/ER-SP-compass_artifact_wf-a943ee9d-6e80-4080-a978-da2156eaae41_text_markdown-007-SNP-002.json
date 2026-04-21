@@ -10,10 +10,12 @@
   "snippet_primary": "\"I find most Etsy sellers to be very honest and helpful. I can find very unusual and high-quality items not available elsewhere. The site is sometimes challenging to navigate, but worth the effort. Sure, there are some dishonest sellers, but I find Etsy sellers far more honest than those on eBay. Also when a recent purchase did not arrive both Etsy and the seller got a refund to my credit card in 48 hours, 30 minutes. That is why I prefer Etsy.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "ConsumerAffairs reviewer (2025) praises Etsy for unique/high-quality items unavailable elsewhere, seller honesty compared to eBay, and fast refund (48h30m) for undelivered purchase; notes site navigation is sometimes challenging",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "refund for undelivered purchase in 48 hours 30 minutes",
     "site navigation noted as sometimes challenging"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "consumeraffairs.com buyer review (2025, accessed April 2026). Positive Etsy review citing unique items, seller honesty vs eBay, and fast dispute resolution. Contrasts with negative review in SNP-001 (same source packet)."
   ],

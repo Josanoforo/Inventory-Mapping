@@ -10,10 +10,13 @@
   "snippet_primary": "\"A Eduzz cobra mais barato, mas não tem tudo o que a hotmart tem, pra criar um quiz, por exemplo, para os alunos eu tive que contratar um plano a parte. Sendo assim, considero que a Hotmart tem o melhor custo benefício para tudo o que oferece. A Eduzz está no caminho certo, mas como cobra tudo a parte, acaba saindo mais caro no final.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Capterra reviewer states Hotmart offers better cost-benefit than Eduzz; Eduzz has a lower base price but charges extra for individual features (e.g., quizzes require separate plan), making it more expensive overall",
   "actor_level": "unknown",
-  "platforms": ["Hotmart", "Eduzz"],
+  "platforms": [
+    "Hotmart",
+    "Eduzz"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +30,10 @@
     "Eduzz: lower base price but quizzes require separate plan — more expensive overall",
     "Capterra review, December 2022"
   ],
-  "uncertainties": ["methodology_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "methodology_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "capterra.com (December 23, 2022). Portuguese-language review compares Hotmart (all-inclusive) vs. Eduzz (lower base price, à la carte features); reviewer finds Hotmart better cost-benefit overall. 2022 review; current pricing may differ."
   ],

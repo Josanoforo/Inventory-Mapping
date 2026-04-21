@@ -10,10 +10,13 @@
   "snippet_primary": "\"If you are a maker, you have to consider Lemon Squeezy for your business. For my previous product, I tried Paddle and waited 3 weeks for approval. This time, I opted for LemonSqueezy and got the approval in less than 48 hours!\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Lemon Squeezy Paddle alternative page (lemonsqueezy.com/paddle-alternative, undated) quotes customer testimonial: LS application approved in under 48 hours compared to approximately 3 weeks waiting for Paddle approval",
   "actor_level": "unknown",
-  "platforms": ["Lemon Squeezy", "Paddle"],
+  "platforms": [
+    "Lemon Squeezy",
+    "Paddle"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": "LS: <48h approval; Paddle: ~3 weeks approval",
@@ -25,7 +28,10 @@
   "local_qualifiers": [
     "LS Paddle alternative (undated): customer testimonial: LS approval <48h vs Paddle ~3 weeks"
   ],
-  "uncertainties": ["source_date_unclear", "author_conflict_of_interest_possible"],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
   "parser_notes": [
     "lemonsqueezy.com/paddle-alternative (undated). Customer testimonial curated by LS: LS approval <48h vs Paddle ~3 weeks. Source is LS own marketing page; testimonials are platform-selected."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"I bought something from a seller and noticed that not only was it not handmade but it was cheap and came from a company in China. The owner tried to say that he only made the wooden bases for these cheap lights that one had to glue together but he lied about that too & made an excuse, saying he had run out & had to order it from his supplier in China. I supplied proof to Etsy when I reported the shop owner along with pictures, the packaging from China, etc. & Etsy did nothing about it.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "SiteJabber reviewer reports purchasing a product listed as handmade that arrived from China drop-shipped; seller falsely claimed partial handmade origin; buyer reported with photo evidence to Etsy and Etsy took no action",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (lights/lamp kit; packaging from China)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "seller provided false claims about handmade origin",
     "buyer reported with photo evidence; Etsy took no enforcement action"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "sitejabber.com buyer review (accessed April 2026, date not stated). Reports non-handmade item listed as handmade; seller from China; Etsy did not act on buyer complaint with evidence. Illustrates Etsy's enforcement gap on handmade policy."
   ],

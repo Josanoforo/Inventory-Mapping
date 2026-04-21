@@ -10,10 +10,12 @@
   "snippet_primary": "\"I have bought a face yoga program which they launched as the original program from Valeriia Veksler. Which it is not!! They have misused her content, her own set-up, her face and her brand.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy-sold face yoga program misrepresented as original content from creator Valeriia Veksler — buyer alleges unauthorized use of creator's content, setup, image, and brand",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "Which it is not!!",
     "misused her content, her own set-up, her face and her brand"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports face yoga program sold via LemonSqueezy misrepresented as original content from creator Valeriia Veksler — buyer alleges content, setup, face image, and brand were misappropriated. Distinct complaint type: counterfeit/misrepresented digital content rather than billing/cancellation issue. context_insufficient: no pricing or seller identity details."
   ],

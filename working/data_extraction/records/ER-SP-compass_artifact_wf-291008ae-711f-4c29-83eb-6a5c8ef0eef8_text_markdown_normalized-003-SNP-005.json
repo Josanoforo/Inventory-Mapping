@@ -10,10 +10,12 @@
   "snippet_primary": "\"Plugin doesn't work correctly, won't refund my money. I have to file a chargeback… Stupid. I should have looked at the reviews before trying this company out.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports malfunctioning plugin sold via LemonSqueezy — refund refused; buyer forced to file chargeback",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "won't refund my money",
     "I have to file a chargeback"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports malfunctioning plugin sold via LemonSqueezy with refund refused; chargeback filed as sole recourse. context_insufficient: no amounts, plugin name, or timeline stated."
   ],

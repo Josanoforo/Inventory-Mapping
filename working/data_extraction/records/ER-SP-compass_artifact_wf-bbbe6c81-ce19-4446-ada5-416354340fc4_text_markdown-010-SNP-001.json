@@ -10,10 +10,12 @@
   "snippet_primary": "\"No dia 25/04 comprei o curso, Ruptura Viral IA, do produtor *****, esse curso veio incompleto, está faltando a aula \\\"Vídeo Dark Horizontal - Animando e Gerando Narração (Parte 04)\\\", na descrição das aulas tem vários comentários de outros alunos relatando a falta da aula, eu mandei mensagem e email para o ***** e suporte, sem resposta, tentei contato com a Hotmart que também não dá suporte a esse tipo de problema, a Hotmart apenas passa o email do produtor, que não responde ninguém, vi reclamação de outras pessoas com o mesmo relato, o curso está incompleto.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui complaint (May 19, 2025; purchase April 25, 2025) reports course 'Ruptura Viral IA' delivered incomplete — missing one class; producer unresponsive; Hotmart support only redirects to producer email without resolving; multiple students report same missing class in course comments",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses (AI video content creation)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Incomplete course: missing one class; producer unresponsive; Hotmart redirects to producer without direct support",
     "Multiple students report same issue in course description comments (not isolated)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (complaint May 19, 2025; purchase April 25, 2025). 'Ruptura Viral IA' course missing one class. Hotmart only redirects to unresponsive producer. Confirmed by multiple student complaints."
   ],

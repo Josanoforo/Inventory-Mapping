@@ -10,10 +10,12 @@
   "snippet_primary": "\"It was initially good, but I cancelled my account. Impossible to get these people to stop taking my money. Be VERY careful here and if you signup and cancel be willing to go through the process of canceling your credit card afterwards. I cancelled my membership around one year ago. And since then Ive been trying to get them to stop taking money. So even though I give them my full name and they are able to cancel my account to block me from seeing more videos they are apparently NOT able to cancel my payments and keep taking and taking and taking and taking my money from my card via applepay - of course its only 6.50€ per month, but what do I have to do to get them to stop? Cancel my debit card\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) cancelled Patreon membership approximately one year prior; €6.50/month charges via Apple Pay continued; Patreon can disable account access but reportedly unable to stop charges; reviewer considers cancelling debit card",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "€6.50 per month (continued charges after cancellation)",
@@ -27,7 +29,9 @@
     "Patreon can block account access but not stop linked payment charges per reviewer",
     "reviewer advises cancelling payment card as only recourse"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "trustpilot.com (December 11, 2025). Post-cancellation billing: €6.50/month continuing ~1 year after cancellation; Patreon cannot stop Apple Pay charges per reviewer. Illustrates subscription cancellation and billing control issues."
   ],

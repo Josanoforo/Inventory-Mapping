@@ -10,10 +10,12 @@
   "snippet_primary": "\"I didn't know that this site was for some eCourses instead of making money on TikTok. I'm still Waiting on my refund. This isn't what I was signing up for. Now I have to wait to be able to buy groceri...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review (November 20, 2025) reports being misled by advertisement promising 'make money on TikTok' program; product was an eCourse on Hotmart platform; refund pending at time of review; financial hardship — unable to purchase groceries while awaiting refund (snippet truncated)",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Bait-and-switch: advertised as 'make money on TikTok' program; product was eCourse on Hotmart platform",
     "Refund pending at time of review; financial hardship — unable to buy groceries while waiting (snippet truncated)"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "trustpilot.com/review/hotmart.com (November 20, 2025). TikTok money-making ad → eCourse platform; refund pending; financial hardship reported (snippet truncated)."
   ],

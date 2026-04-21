@@ -10,10 +10,12 @@
   "snippet_primary": "\"Charged me through Paypal unknowingly -no purchase I received two Paypal charges from this company when I haven't purchased anything from them. They say it is a \\\"subscription charge\\\" . the page to look up the charge is invalid and of course no reply to my support request. I guess I'll have to go to my bank to try and get them blocked. I doubt I'll ever recoup the money. I don't know how this happened.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports two unauthorized LemonSqueezy PayPal charges labeled as 'subscription charge' without having made any purchase — charge lookup page invalid; no support response; buyer considering bank block",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

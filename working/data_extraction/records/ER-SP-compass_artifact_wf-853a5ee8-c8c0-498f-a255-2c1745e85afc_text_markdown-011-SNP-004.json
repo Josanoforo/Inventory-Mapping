@@ -10,10 +10,13 @@
   "snippet_primary": "\"If I had to choose one, for most independent graphic designers and freelancers in 2026, Envato Elements delivers more value per dollar.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "weandthecolor.com blog author states Envato Elements delivers more value per dollar than Adobe Stock for most independent graphic designers and freelancers in 2026",
   "actor_level": "unknown",
-  "platforms": ["Envato", "Adobe Stock"],
+  "platforms": [
+    "Envato",
+    "Adobe Stock"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +28,9 @@
   "local_qualifiers": [
     "author verdict: Envato Elements delivers more value per dollar for independent graphic designers and freelancers in 2026"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "weandthecolor.com blog (March 2026). Author verdict: Envato Elements better value per dollar for independent designers/freelancers. Single author opinion with no cited methodology."
   ],

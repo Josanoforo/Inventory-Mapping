@@ -10,10 +10,12 @@
   "snippet_primary": "\"I ordered a year subscription for nanobanana and they gave me the cheaper one but i paid for the expensive one So much less credits and way to much paid I paid much more than promised So watch out its a scam\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy delivered cheaper tier of 'nanobanana' annual subscription than what was paid for — received fewer credits than promised; characterized as scam",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,10 @@
     "So much less credits",
     "I paid much more than promised"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (page date 2025-09-25; individual review date unclear). Buyer reports purchasing expensive annual subscription tier for 'nanobanana' via LemonSqueezy but receiving cheaper tier with fewer credits — price/tier mismatch. No dollar amounts or tier names stated. context_insufficient: no pricing details in snippet."
   ],

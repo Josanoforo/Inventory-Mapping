@@ -10,10 +10,12 @@
   "snippet_primary": "\"0.94 CTW Pear Lab Grown Diamond Halo Engagement Ring in 10K Gold | Teardrop Diamond Ring | Classic Halo Bridal Ring | Gift For Women — Sale Price $1,959.30, Original Price $2,799.00 (30% off), Shop: VOWANDCARAT, Ad, FREE shipping\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Etsy jewelry category page (etsy.com/c/jewelry, accessed April 2026) shows a sample listing: a 0.94 CTW pear lab-grown diamond halo engagement ring in 10K gold by VOWANDCARAT, sale price $1,959.30 (30% off from $2,799 original), with free shipping and promoted as an Ad",
   "actor_level": "platform",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$1,959.30 sale price (30% off $2,799.00)",
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Example Etsy jewelry listing: VOWANDCARAT lab diamond ring, $1,959.30 (30% off $2,799), free shipping, promoted Ad"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "etsy.com/c/jewelry (Apr 2026). Sample listing: VOWANDCARAT lab diamond ring, $1,959.30 (30% off), Ad."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased 2 albums. One is apparently being censored by them even though they allow it to be listed. When I checked out with Paypal it told me on the final checkout screen that there was an issue...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) describes purchasing 2 digital albums; one was listed on the platform but appeared to be censored by Gumroad preventing access; PayPal checkout displayed an error on the final screen [snippet truncated]",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): 2 digital albums purchased on Gumroad; one listed but access blocked/censored; PayPal checkout error at final screen [snippet truncated]"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: digital album listed on platform but access blocked by Gumroad; PayPal checkout error at final screen. Snippet truncated — outcome and resolution unknown."
   ],

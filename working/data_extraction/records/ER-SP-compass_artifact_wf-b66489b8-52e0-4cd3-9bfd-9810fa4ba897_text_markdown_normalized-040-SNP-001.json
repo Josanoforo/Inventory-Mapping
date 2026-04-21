@@ -10,10 +10,13 @@
   "snippet_primary": "\"Check out our payhip template selection for the very best in unique or custom, handmade pieces from our templates shops.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Etsy marketplace (accessed April 2026) has a searchable category for 'payhip template' products sold by template shop sellers on Etsy",
   "actor_level": "platform",
-  "platforms": ["Payhip", "Etsy"],
+  "platforms": [
+    "Payhip",
+    "Etsy"
+  ],
   "product_type_if_explicit": "digital templates (Payhip store templates)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +29,10 @@
     "Etsy has a searchable category for 'Payhip templates' sold by Etsy template shop sellers",
     "cross-platform: Payhip-branded templates sold on Etsy"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "etsy.com/market/payhip_template (accessed April 2026; page undated). Etsy category for Payhip-branded templates. Indicates cross-platform market: Etsy sellers creating and selling Payhip store setup templates."
   ],

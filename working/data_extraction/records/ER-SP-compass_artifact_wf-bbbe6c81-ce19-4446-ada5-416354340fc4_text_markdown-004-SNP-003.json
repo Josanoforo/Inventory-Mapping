@@ -10,10 +10,12 @@
   "snippet_primary": "\"Me quisieron vender un curso de alto ticket, siendo mediocre. Al segundo día lo cancelé. Un gran ayuda su respuesta e inmediatez de devolución de mi dinero en cuestión de unos 10 dias.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026; experience March 12, 2026) purchased a high-ticket course found to be mediocre; cancelled on day 2; received refund within approximately 10 days; praised Hotmart's responsiveness",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses (high-ticket)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "High-ticket course rated mediocre; cancelled day 2; refund processed in ~10 days",
     "Hotmart praised for responsiveness and speed of refund"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). High-ticket course refund: cancelled day 2, refund in ~10 days. Positive outcome despite poor product."
   ],

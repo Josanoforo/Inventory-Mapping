@@ -10,10 +10,12 @@
   "snippet_primary": "\"uipress · UiPress 3 Lite · $0.00 · UiPress 3 Pro · $47.00 - $999.00 · uiXpress · $57.00 - $297.00 · Powered by Lemon Squeezy\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller 'uipress' on Lemon Squeezy (accessed April 2026) offers WordPress UI plugins: UiPress 3 Lite (free, $0), UiPress 3 Pro ($47–$999), uiXpress ($57–$297); storefront labeled 'Powered by Lemon Squeezy'",
   "actor_level": "unknown",
-  "platforms": ["Lemon Squeezy"],
+  "platforms": [
+    "Lemon Squeezy"
+  ],
   "product_type_if_explicit": "software plugins (WordPress UI plugins)",
   "metric_type": "price",
   "metric_value_raw": "$0.00 (lite); $47.00 - $999.00 (Pro); $57.00 - $297.00 (uiXpress)",
@@ -26,7 +28,9 @@
     "WordPress UI plugins on Lemon Squeezy: free tier + paid tiers $47–$999",
     "seller 'uipress' with free/paid plugin model; 'Powered by Lemon Squeezy'"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "uipress.lemonsqueezy.com (April 2026). Lemon Squeezy seller store: WordPress UI plugins. Lite free ($0), Pro $47–$999, uiXpress $57–$297."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"A lo largo de algunos años, he adquirido diferentes productos y servicios a través de hotmart y siempre he sentido la tranquilidad de que hotmart me respalda si por alguna razón el producto no es lo que esperaba y si cancelo en tiempo y forma, siempre he obtenido la devolución de mi dinero.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (~April 10, 2026; experience March 12, 2026) reports multi-year positive experience: Hotmart consistently honored refund requests when product was not as expected, provided refund was cancelled within the required timeframe",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Multi-year Hotmart buyer: refunds granted when product not as expected if cancelled on time",
     "Spanish-language reviewer; positive experience with Hotmart refund policy"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=2 (~April 10, 2026; experience March 12, 2026). Multi-year buyer: Hotmart honored refunds when product not as expected and cancelled within timeframe."
   ],

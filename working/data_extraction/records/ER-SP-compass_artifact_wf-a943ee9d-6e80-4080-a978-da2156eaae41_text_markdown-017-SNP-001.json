@@ -10,10 +10,12 @@
   "snippet_primary": "\"Update 24/11/2025: Today I received an email from Etsy to raise a Case for the order #3863799705 however following the link in the email or by opening the order on the web site I am unable to open a Case. When I press the open Case button it redirects me to the Order page and if I press the help with the order page it redirects me back to the Open Case page. It is impossible. In the meantime I have raised a case with Paypal.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot UK reviewer (November 2025) reports Etsy dispute UI is broken: 'Open Case' button and 'Help with Order' page redirect to each other in an infinite loop, making it impossible to file a case; buyer escalated to PayPal instead",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

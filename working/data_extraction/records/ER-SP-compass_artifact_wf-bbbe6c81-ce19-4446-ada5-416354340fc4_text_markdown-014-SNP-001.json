@@ -10,10 +10,12 @@
   "snippet_primary": "\"Estou sem comprar mais cursos da Hotmart pq simplesmente retiraram as datas dos vencimentos de cada curso comprado, e para piorar, falam que temos que enviar e-mail para cada vendedor do curso para sabermos isso, sendo que é algo fácil de ser implementado, e antes havia na plataforma. Agora querem dar trabalho à toa para o vendedor e para o comprador. Além de terem piorado toda a usabilidade da plataforma, agora temos que dar jeito de gravar todos os cursos por receio de perdermos o prazo de aprendizado\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui reviewer (accessed April 2026; undated) reports Hotmart removed course expiration date display from buyer dashboard — a feature that previously existed; buyers must now email each seller individually to learn expiration; reviewer stopped buying new courses and began recording courses to avoid losing access",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,10 @@
     "Hotmart removed course expiration date visibility from buyer interface (was previously available)",
     "Buyers must email sellers individually to learn expiration dates; reviewer stopped new purchases in protest"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (accessed April 2026; undated). Hotmart removed course expiration date from buyer dashboard. Must email seller per course. Reviewer stopped buying and now records content defensively."
   ],

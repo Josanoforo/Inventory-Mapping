@@ -10,10 +10,12 @@
   "snippet_primary": "\"Fast forward to almost a YEAR of negotiations they have dicked me around & put things in the contract they sent me that they did not put in any else's contracts they've sent on Patreon (other creators). They essentially are trying to CONTROL MY BOOK RELEASE, and how fkn dare they. They have NO part in my life story. Not only they, they are trying to take credit for why all 350,000 of you are here.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator with 350,000 followers describes approximately one year of contract negotiations with Patreon; alleges Patreon inserted unique contract terms seeking to control book release and claiming credit for follower growth; stated reason for leaving Patreon",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "subscriber_count",
   "metric_value_raw": "350,000 followers",
@@ -28,7 +30,11 @@
     "Patreon allegedly sought to control creator's book release",
     "creator claims Patreon inserted terms not present in other creators' contracts"
   ],
-  "uncertainties": ["methodology_unclear", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "methodology_unclear",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "patreon.com/posts (undated, ~2025). Creator with 350,000 followers describes leaving Patreon after ~1 year of contract negotiations; alleges Patreon sought to control book release and claimed credit for follower growth. One-sided account; no contract or third-party verification."
   ],

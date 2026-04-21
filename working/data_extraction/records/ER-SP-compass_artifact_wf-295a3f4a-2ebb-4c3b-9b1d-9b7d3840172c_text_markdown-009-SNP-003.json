@@ -10,10 +10,12 @@
   "snippet_primary": "\"Hacer entregas nacionales e internacionales es fundamental, una amiga mía vive en Bután y le compró dos kilos de chocolate a una marca mexicana y nosotros se lo mandamos\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Kichink founder cites completed delivery of 2kg chocolate from Mexican brand to Bhutan as example of international shipping reach (June 2016)",
   "actor_level": "platform",
-  "platforms": ["Kichink"],
+  "platforms": [
+    "Kichink"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "le compró dos kilos de chocolate a una marca mexicana",
     "nosotros se lo mandamos"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Milenio news (June 21, 2016): Kichink founder gives example of completed delivery to Bhutan — 2kg Mexican chocolate — as evidence of international shipping reach. Spanish snippet preserved in local_qualifiers. current_vs_historical_ambiguity: example from 2016."
   ],

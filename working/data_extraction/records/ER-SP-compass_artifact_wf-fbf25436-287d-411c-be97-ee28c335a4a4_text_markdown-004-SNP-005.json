@@ -10,10 +10,12 @@
   "snippet_primary": "\"Purchased a book from Depths manifestation.gumroad.com. Had no idea about the company needless to say my book has not arrived. I have emailed 3 times with no response. Mid April was my purchase....I'...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports purchasing a book from Gumroad seller Depths Manifestation; product was not delivered; three emails to seller received no response; reviewer was unfamiliar with Gumroad as a company [snippet truncated]",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): book not delivered by Gumroad seller (Depths Manifestation); 3 emails unanswered; buyer unaware of Gumroad as platform [snippet truncated]"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: book not delivered by seller Depths Manifestation; seller unresponsive to 3 contact attempts; buyer discovered Gumroad only via purchase flow. Snippet truncated."
   ],

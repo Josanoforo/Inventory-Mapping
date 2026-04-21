@@ -10,10 +10,12 @@
   "snippet_primary": "\"Hotmart is a great company, I've had awesome experiences every time I acquired digital products using credit card and other payment methods. Trustworthy!\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review (November 20, 2025) reports positive experience purchasing digital products via Hotmart using credit card and other payment methods; characterizes platform as trustworthy across multiple purchases",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "digital products",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Positive experience: multiple digital product purchases via credit card and other payment methods; characterizes Hotmart as trustworthy"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "trustpilot.com/review/hotmart.com (November 20, 2025). Positive review: multiple digital product purchases via credit card; trustworthy characterization."
   ],

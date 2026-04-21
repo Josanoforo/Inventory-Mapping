@@ -10,10 +10,12 @@
   "snippet_primary": "\"Hola Javi , soy de Argentina , monotributista mi cuenta de banco es tanto en pesos como en dolar , ,lei que el pago es en dolar? , acá es un problema ingresar dolares a la cuenta , ya que AFIP nos controla en la compra de esa moneda ,,, como seriaseste sistema para Argentina?\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Comment in Spanish-language review forum (bigbangconversion.com, Jun 20, 2023) by an Argentine monotributista states Hotmart pays in USD and asks how the system works in Argentina given that Argentine tax authority AFIP controls foreign currency purchases, making it problematic to receive USD directly into a bank account",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "bigbangconversion.com (Jun 20, 2023): Argentine monotributista: USD Hotmart payouts problematic due to AFIP foreign currency controls; question about Argentine workaround"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "bigbangconversion.com (Jun 20, 2023). Spanish forum comment: Argentine seller question about USD Hotmart payout friction under AFIP FX controls. Single account."
   ],

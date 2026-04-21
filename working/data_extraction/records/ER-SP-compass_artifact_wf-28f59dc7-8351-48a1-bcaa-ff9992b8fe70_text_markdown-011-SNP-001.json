@@ -10,10 +10,12 @@
   "snippet_primary": "\"LISTEN TO THE NEGATIVE REVIEWS. I am out hundreds of dollars because of this company's predatory \\\"Plus\\\" trap. They lure you in with a $1 course and then the nightmare begins. They secretly enroll you in a trial that auto-renews for a massive annual fee without sending a single reminder email or warning. By the time you see the charge on your bank statement, they've already locked your account settings so you can't even remove your credit card. I spent hours following their \\\"cancellation steps\\\" only to find out they point to menus that don't even exist. It's a gaslighting loop designed to keep your money. Their \\\"support\\\" is just a wall of automated bots that repeat the same \\\"no refund\\\" script over and over. They are literally stealing from people and hiding behind fine print. If you give them your card info, you are giving them permission to empty your account. GET OUT NOW.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer characterizes Domestika Plus as predatory trap: $1 course entry, auto-renewing annual fee with no notification, credit card locked after enrollment, cancellation menus non-existent, support is automated 'no refund' bots",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Antes vendía apenas en México, pero desde que descubrí que Hotmart cuenta con esta herramienta, todo ha cambiado. Lo que más me llamó la atención fue el beneficio de poder convertir el precio de mi producto a la moneda del cliente y que automáticamente detecte cuál es el país. Esto cambió profundamente la manera de gestionar mi negocio porque pudimos expandirnos a los mercados de Colombia, España, Argentina y Chile.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart payments page (hotmart.com/es/pagos, undated) features a creator testimonial stating that Hotmart's automatic currency conversion and country detection enabled expansion from Mexico to Colombia, Spain, Argentina, and Chile",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Hotmart payments page (undated): creator testimonial — auto currency conversion + country detection enabled expansion from Mexico to Colombia, Spain, Argentina, Chile"
   ],
-  "uncertainties": ["source_date_unclear", "author_conflict_of_interest_possible"],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
   "parser_notes": [
     "hotmart.com/es/pagos. Spanish. Undated. Creator testimonial on Hotmart marketing page: automatic currency conversion to buyer's local currency + automatic country detection; enabled market expansion (Mexico to Colombia, Spain, Argentina, Chile). Author COI: testimonial selected and displayed by Hotmart."
   ],

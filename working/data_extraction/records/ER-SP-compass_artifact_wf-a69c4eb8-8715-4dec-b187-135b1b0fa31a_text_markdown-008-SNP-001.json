@@ -10,10 +10,12 @@
   "snippet_primary": "\"YouTube Ad & Premium revenue: $88.34 •YouTube Super Chat donations: $8.11 •Patreon revenue: $117.50 •Paypal donations: none •Twitch revenue: $0.98\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator self-reports April 2025 revenue breakdown: Patreon $117.50, YouTube Ad & Premium $88.34, YouTube Super Chat $8.11, Twitch $0.98, PayPal $0",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "revenue",
   "metric_value_raw": "Patreon: $117.50; YouTube Ad & Premium: $88.34; YouTube Super Chat: $8.11; Twitch: $0.98; PayPal: $0",
@@ -28,7 +30,10 @@
     "Twitch $0.98; PayPal $0",
     "creator's own Patreon public post"
   ],
-  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "uncertainties": [
+    "methodology_unclear",
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "patreon.com/posts (April 2025). Creator self-reports monthly revenue breakdown: Patreon $117.50 (top source), YouTube combined $96.45, Twitch $0.98, PayPal $0. Single creator income report; no independent verification."
   ],

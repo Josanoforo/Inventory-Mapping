@@ -10,10 +10,12 @@
   "snippet_primary": "\"I want to report my extremely disappointing experiences with Etsy. 1. I purchased a \"Winter\" set including hand gloves, a scarf, and a hat, which was advertised as cashmere but was not. I had to return it. 2. I also purchased items with \"sapphire\" glass stones sold as genuine sapphires, which they clearly were not. Etsy allows sellers to mislead buyers and ignores legitimate complaints. Because of this, I have closed my account and will no longer shop on Etsy.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer reports two Etsy purchases involving material misrepresentation: winter set advertised as cashmere was not, and glass stones sold as genuine sapphires; reviewer states Etsy allows sellers to mislead buyers and ignores complaints; closed account",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (winter accessories: gloves, scarf, hat; jewelry with glass stones)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "glass stones sold as genuine sapphires",
     "reviewer closed account citing Etsy's failure to address complaints"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "trustpilot.com (accessed April 2026, date not stated). Two material misrepresentation cases; buyer closed account citing Etsy inaction on complaints. Illustrates material description enforcement gap."
   ],

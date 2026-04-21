@@ -10,10 +10,12 @@
   "snippet_primary": "\"This is the worst online purchasing experience I have ever had. I paid for my purchase, post payment I was given the option to send the book to kindle - this didn't work. I set up an account and to...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports a failed digital book purchase: post-payment Kindle delivery option was non-functional; reviewer describes it as their worst online purchasing experience [snippet truncated]",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): ebook purchase on Gumroad; post-payment Kindle delivery option non-functional [snippet truncated]"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: ebook purchased; Kindle delivery option broken post-payment; described as worst online purchase experience. Snippet truncated — full context unavailable."
   ],

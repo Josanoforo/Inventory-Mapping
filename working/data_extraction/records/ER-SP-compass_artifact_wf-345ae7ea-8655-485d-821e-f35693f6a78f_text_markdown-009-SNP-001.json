@@ -10,10 +10,12 @@
   "snippet_primary": "\"Payhip – This was my go-to for years. Even though I'm a professional web developer and build ecommerce websites for clients, I went with the simplest and cheapest option for myself for quite a long time. With Payhip, there's nothing to install on your website and very little barrier to entry. It's definitely my recommendation for beginners. There's no monthly fee, but they charge a 5% transaction fee. Reporting and statistics are not the best in the business, and exporting addresses for shipping was a bit of a headache, but I still recommend them. Perfect is the enemy of done.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Web developer/author recommends Payhip for beginners — no monthly fee, 5% transaction fee, no-install setup; negatives are weak reporting and address export friction for physical shipping",
   "actor_level": "seller",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "commission_rate",
   "metric_value_raw": "5",

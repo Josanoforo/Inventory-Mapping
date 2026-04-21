@@ -10,10 +10,13 @@
   "snippet_primary": "\"In a nutshell, Patreon is a platform for paying content creators of all types, but it's not really a blogging platform. Substack is designed as a blogging platform, and it's much more intuitive for readers to use as well.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Patreon creator post (patreon.com, July 30, 2025) announcing migration to Substack characterizes Patreon as a payment platform for all creator types but not a blogging platform; describes Substack as purpose-built for blogging and more intuitive for readers",
   "actor_level": "unknown",
-  "platforms": ["Patreon", "Substack"],
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

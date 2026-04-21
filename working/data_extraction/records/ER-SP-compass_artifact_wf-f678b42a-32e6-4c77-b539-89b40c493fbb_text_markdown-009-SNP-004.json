@@ -13,7 +13,9 @@
   "claim_type": "explicit_claim",
   "subject_exact": "Hotmart fiscal responsibilities help center (help.hotmart.com/es, effective January 1, 2024 / April 1, 2025) states in Scenario 2: when a buyer is in Mexico and the producer is registered in any country except Mexico, Hotmart manages taxes and issues invoices",
   "actor_level": "platform",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Hotmart help (eff. Jan 1, 2024 / Apr 1, 2025): Scenario 2 — Mexico buyer (producer from any country except Mexico): Hotmart handles taxes and invoicing"
   ],
-  "uncertainties": ["scope_ambiguous"],
+  "uncertainties": [
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "help.hotmart.com (eff. Jan 1, 2024 / Apr 1, 2025). Spanish. Table: Scenario 2 — Mexico buyer, non-Mexico producer: Hotmart handles tax/invoice. Contrast with Colombia/Peru where producer bears responsibility. Snippet is table-extracted."
   ],

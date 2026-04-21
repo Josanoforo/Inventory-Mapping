@@ -10,10 +10,12 @@
   "snippet_primary": "\"Bought a book about veganism and it's entirely written by chatgpt. How do i know? It consists only of bullet-point lists and it has emojis before every heading. Gumroad won't do anything about it and...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports buying a vegan-themed ebook that the reviewer believes was entirely AI-generated (ChatGPT), evidenced by bullet-point-only format and emojis before every heading; reviewer states Gumroad took no action when reported [snippet truncated]",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Apr 1, 2026): vegan ebook on Gumroad appeared AI-generated (ChatGPT); Gumroad took no action on complaint [snippet truncated]"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: ebook product described as AI-generated (ChatGPT) based on formatting (bullet lists, emoji headings); Gumroad did not act. AI content quality concern and platform enforcement gap. Snippet truncated."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Even one star is too much. I have cancelled subscriptions and they are still taking money off my card. Customer Support doesn't answer. Do not use REVID Ai or Lemon Squeezy.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy charges continued after subscription cancellation — customer support unresponsive; warning against both revid.ai and LemonSqueezy",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

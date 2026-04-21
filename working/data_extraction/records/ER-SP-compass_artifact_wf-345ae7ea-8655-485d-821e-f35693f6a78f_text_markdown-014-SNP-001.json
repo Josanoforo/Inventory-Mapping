@@ -10,10 +10,13 @@
   "snippet_primary": "\"25 products on gumroad. $0 in sales. zero views from organic search. gumroad is great for checkout. terrible for discovery. if nobody knows your product exists, the best checkout page wont help. gumroad discover requires at least one sale to activate. need a sale to get discovery, need discovery to get a sale. chicken and egg. payhip: free plan, 5% fee, growing marketplace. gumroad: 10% fee, zero organic traffic unless already selling.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller with 25 Gumroad products reports zero sales and zero organic search views — cites Gumroad Discover chicken-and-egg activation problem; contrasts Payhip (5% fee, growing marketplace) vs Gumroad (10% fee, no organic discovery)",
   "actor_level": "seller",
-  "platforms": ["Gumroad", "Payhip"],
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "count",
   "metric_value_raw": "25",
@@ -28,7 +31,9 @@
     "payhip: free plan, 5% fee, growing marketplace",
     "gumroad: 10% fee, zero organic traffic unless already selling"
   ],
-  "uncertainties": ["metric_ambiguous"],
+  "uncertainties": [
+    "metric_unit_unclear"
+  ],
   "parser_notes": [
     "Indie Hackers forum (March 30, 2026). Seller with 25 Gumroad products reports $0 sales, zero organic views. Gumroad Discover chicken-and-egg: needs sale to activate discovery. Contrasts Payhip (5% fee, marketplace) vs Gumroad (10% fee, no organic). metric_ambiguous: fee figures are seller's characterization."
   ],

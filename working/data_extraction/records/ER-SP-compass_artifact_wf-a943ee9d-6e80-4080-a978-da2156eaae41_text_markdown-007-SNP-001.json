@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased a piece of wall art on Etsy that stated a 14 day return window so I felt it was safe to order the product. Upon opening the product, I immediately knew it was poor quality and did not appear as the Etsy photo. I immediately placed it back in the box and contacted the seller for return. After a few correspondence and her trying to talk me into keeping it, I stood firm and reminded her of the return policy as stated on the website. She then gave me her return address. It was in the county of Turkey, I was not aware if this prior to purchase or I would have never bought it. I took it up to UPS to get a price to send it back and it was over $1100.00.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "ConsumerAffairs reviewer (2025) received low-quality Etsy wall art; seller's return address was in Turkey; international return shipping quoted over $1,100 at UPS, making the stated 14-day return policy effectively cost-prohibitive",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (wall art)",
   "metric_type": "price",
   "metric_value_raw": "over $1,100 return shipping to Turkey",
@@ -27,7 +29,9 @@
     "seller return address in Turkey; buyer unaware of seller location at purchase",
     "UPS international return quoted over $1,100"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "consumeraffairs.com buyer review (2025, accessed April 2026). Buyer received poor-quality wall art from Turkey-based seller; $1,100+ return shipping made 14-day return policy cost-prohibitive. Illustrates cross-border seller transparency and return cost friction on Etsy."
   ],

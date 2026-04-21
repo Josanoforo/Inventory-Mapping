@@ -10,10 +10,12 @@
   "snippet_primary": "\"Some of ther worst support I've ever received in my entire life. I keep having bot like responses even though ironically chat GPT would respond better. I randomly had lessons from 2 subscriptions stop sending me lessons despite being charged, the support refuses to help I've never had such poor quality support.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (November 19, 2025) reports two subscription products that continued charging while lesson delivery stopped; Gumroad support responded only with bot-like automated replies and refused to help",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Trustpilot review (Nov 19, 2025): 2 Gumroad subscriptions charged but lessons stopped being delivered; support automated/bot-like only; refused to help"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com?page=2 (Nov 19, 2025). English. Gumroad subscription complaint: 2 subscriptions continued charging while lesson delivery stopped; support automated-only and refused to help. Documents subscription billing vs. delivery disconnect."
   ],

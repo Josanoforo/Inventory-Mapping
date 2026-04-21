@@ -10,10 +10,13 @@
   "snippet_primary": "\"As I understand it it's also not possible to avoid the fees by receiving payouts to USD accounts (Wise or Revolut for example) if your business is based outside of the US.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "implicit_claim",
+  "claim_type": "explicit_claim",
   "subject_exact": "Creator interprets that using Wise or Revolut USD accounts does not allow non-US-based Lemon Squeezy sellers to avoid international payout fees",
   "actor_level": "creator",
-  "platforms": ["Lemon Squeezy", "Wise"],
+  "platforms": [
+    "Lemon Squeezy",
+    "Wise"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +29,10 @@
     "not possible to avoid the fees by receiving payouts to USD accounts (Wise or Revolut for example)",
     "if your business is based outside of the US"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Lemon Squeezy Nolt forum (accessed April 2026; undated). Creator interpretation: non-US businesses cannot avoid international conversion fees via Wise/Revolut USD accounts. Unverified user understanding; not confirmed by platform documentation."
   ],

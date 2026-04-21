@@ -10,10 +10,12 @@
   "snippet_primary": "\"Terrible experience, they do not care about people using their platforms at all. I used to be subscribed to a creator charging a staggering amount of 39$ a month and patreon just wiped their account and refused to refund me my money. The creator also kept deleting, hiding, reposting same exact posts over and over again. It's truly hilarious how people just blindly trust patreon\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer (December 2025) paid $39/month on Patreon; Patreon removed creator account without warning; refused to refund patron; creator had been recycling the same content by deleting/reposting",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$39/month Patreon subscription",

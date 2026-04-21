@@ -10,10 +10,13 @@
   "snippet_primary": "\"Lenz said she is already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on the new platform.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Writer Lenz reports reaching ~70% of prior Substack paid subscriber rate within two weeks of migrating to Patreon",
   "actor_level": "unknown",
-  "platforms": ["Patreon", "Substack"],
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "subscriber_count",
   "metric_value_raw": "~70% of prior Substack paid subscriber rate within 2 weeks",
@@ -27,7 +30,9 @@
     "migration context: Substack to Patreon",
     "Nieman Lab journalism article, October 2025"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "niemanlab.org (October 29, 2025). Article on top Substack writers migrating to Patreon: writer Lenz reports reaching ~70% of prior Substack paid subscriber rate within 2 weeks on Patreon. Single creator self-report via journalism article."
   ],

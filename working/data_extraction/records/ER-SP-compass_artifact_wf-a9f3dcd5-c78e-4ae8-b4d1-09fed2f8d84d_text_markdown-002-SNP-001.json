@@ -10,10 +10,12 @@
   "snippet_primary": "\"I bought a yearly subscription (finishing January 31st 2026) for $227.05 to a content provider called Chasing Bourbon. Patreon decided to take this content provider off their platform for their own decision/policy and now they refuse to reimburse me for the unused portion or $75.63. I happened to know the content provider and they are not paying him either so Patreon is just keeping my money. I want my money back since they are not providing the service that they terminated at their own decision\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "BBB complaint (November 2025): patron paid $227.05 annual subscription to creator 'Chasing Bourbon'; Patreon removed creator mid-subscription; refused to refund patron's unused $75.63 or pay creator",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$227.05 annual subscription; $75.63 unused portion (refund denied)",

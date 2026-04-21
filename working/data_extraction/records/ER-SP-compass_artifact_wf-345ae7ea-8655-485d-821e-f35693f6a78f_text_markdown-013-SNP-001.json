@@ -10,10 +10,12 @@
   "snippet_primary": "\"On Wednesday morning, while brewing coffee, an alert pops up - Payhip notifies me. A customer signed up for the monthly package costing forty-nine bucks. I honestly believed it was junk mail or some trial charge I'd overlooked. Looked into it again - twice more - to be sure. Nope. Actual buyer. Seems they arrived via SaaSHub, judging by the ref link - though truthfully, I can't say for certain; Payhip's logs aren't that clear.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Developer reports first Payhip subscription sale ($49/month) 2 days after launch — likely attributed to SaaSHub referral though Payhip attribution logs described as unclear",
   "actor_level": "seller",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "subscription",
   "metric_type": "revenue",
   "metric_value_raw": "49",
@@ -27,7 +29,9 @@
     "arrived via SaaSHub",
     "Payhip's logs aren't that clear"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Indie Hackers forum (December 11, 2025). Developer reports first Payhip sale 2 days after launch: $49/month subscription, likely from SaaSHub referral. Notes Payhip attribution logs are unclear. Anecdotal early-traction story."
   ],

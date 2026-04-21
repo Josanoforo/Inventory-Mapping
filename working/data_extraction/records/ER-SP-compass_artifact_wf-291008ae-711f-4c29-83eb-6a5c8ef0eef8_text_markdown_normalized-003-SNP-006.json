@@ -10,10 +10,12 @@
   "snippet_primary": "\"They have taken two payments, but I have never heard of them or how they gained access to my account. When trying to figure out which email is attached, I found that none of my emails are on their records to recover the account, if I have one. There is no number to contact to speak to someone to stop this. I want my money back.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports two LemonSqueezy payments taken without any prior relationship — no account found under any email address; no phone support to stop charges",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

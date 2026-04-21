@@ -10,10 +10,12 @@
   "snippet_primary": "\"I provided full proof that I was blocked by the seller within the refund period, yet Gumroad kept sending automated AI replies saying \\\"contact the seller.\\\" Now, they simply ignore my emails — not even a single human response. This platform protects scammers, not creators or customers. I've already reported this to FTC and my local bank.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (November 19, 2025) reports being blocked by a seller within the refund window; Gumroad support responded only with automated AI replies directing the buyer to contact the seller; subsequent emails to Gumroad were ignored with no human response; buyer filed complaints with FTC and their bank",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Trustpilot review (Nov 19, 2025): seller blocked buyer within refund period; Gumroad support automated AI replies only ('contact seller'); subsequent emails ignored; FTC and bank dispute filed"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com?page=2 (Nov 19, 2025). English. Gumroad support: seller blocked buyer within refund window; platform support responded with automated AI-only replies; ignored follow-up; no human escalation. Buyer filed FTC complaint and bank dispute. Documents automated-only support pattern."
   ],

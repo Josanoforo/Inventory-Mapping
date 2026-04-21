@@ -10,10 +10,12 @@
   "snippet_primary": "Transitioning Vegan Cookbook $15.00 | Tales Of The Greatcoats $11.99 | Dujitsu Font $19.00 | Keto Cookbook Volume 2.0 $14.99 | Love to Cook Again Weekly Meal Planners $5.95 | Master Handstand $30.00 | Simple Science Fitness $5.99 | Breakfast Eats and Protein £4.50 | Planting Our Roots $10.00",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip homepage (accessed April 2026) displays 9 sample product listings across categories (cookbooks, fiction, font, fitness guides, meal planners) with prices ranging from $5.95 to $30.00 USD; one listing priced in GBP at £4.50",
   "actor_level": "platform",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital products (ebooks, fonts, fitness guides, meal planners, cookbooks)",
   "metric_type": "price",
   "metric_value_raw": "Prices range from $5.95 to $30.00 (USD); one listing at £4.50 (GBP); 9 example products shown",
@@ -27,7 +29,9 @@
     "price range $5.95–$30.00 USD; one GBP listing at £4.50",
     "multi-currency listings visible on same homepage"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com homepage (accessed April 2026; page undated). Sample product listings: digital goods ranging $5.95–$30.00 USD; GBP listing present. Illustrates product type diversity and pricing range on Payhip."
   ],

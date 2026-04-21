@@ -10,10 +10,12 @@
   "snippet_primary": "\"Durante el mes de marzo compré un curso en Domestika por $845 pesos chilenos. El 2 de mayo recibí un cobro de $164780 pesos, por cobro de una suscripción a Domestika plus, que no solicité y que por supuesto que no aparecía en la descripción del anuncio.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Chilean buyer reports $164,780 CLP Domestika Plus subscription charge in May 2025 after purchasing $845 CLP course in March 2025 — subscription not advertised or requested",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "164780",

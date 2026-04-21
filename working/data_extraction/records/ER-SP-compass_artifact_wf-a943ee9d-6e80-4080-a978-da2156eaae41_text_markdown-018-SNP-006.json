@@ -10,10 +10,12 @@
   "snippet_primary": "\"Used to be handmade items, made with love and care. Now its just a platform for lots of rubbish from China which is incorrectly sized, poor material (unlikely to conform to UK H&S) and awful service. Have to pay through the nose to return items to other countries and no cover for items that go missing. Better off throwing money in the bin.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot UK reviewer describes Etsy's shift from handmade items to cheap Chinese goods with sizing issues and poor materials; notes high international return costs and no coverage for lost items",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (clothing/accessories from China)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "incorrect sizing; poor materials (UK H&S concerns cited)",
     "high cost to return items internationally; no coverage for lost shipments"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "trustpilot.com (accessed April 2026, date not stated). UK buyer perceives Etsy quality decline; Chinese dropshipping criticism; return cost and lost item coverage critique. Illustrates UK buyer perspective on Etsy's platform drift."
   ],

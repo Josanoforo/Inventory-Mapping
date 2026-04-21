@@ -10,10 +10,12 @@
   "snippet_primary": "\"As a seller in the 3% tier I'm now paying around 750 USD per month in fees. This is going to 3250 USD / month in February. Around 40K a year. I don't know what they're smoking.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Indie Hackers post (December 2022) documents a seller's fee impact from Gumroad's pricing change: from the 3% tier at approximately $750/month fees to $3,250/month (~$40,000/year) after the flat 10% fee takes effect in February 2023",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "3% tier: ~$750/month fees → flat 10%: $3,250/month (~$40K/year) effective February 2023",
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Indie Hackers post (Dec 2022): seller at 3% tier (~$750/month) → flat 10% fee ($3,250/month = ~$40K/year) effective February 2023; 4.3x fee increase"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "indiehackers.com (Dec 2022). English. Gumroad pricing change impact: seller at 3% tier ($750/mo fees) would pay $3,250/mo (~$40K/yr) under flat 10% fee effective February 2023. Documents real-world fee multiplier (4.3x) for a high-volume seller at the lowest previous tier."
   ],

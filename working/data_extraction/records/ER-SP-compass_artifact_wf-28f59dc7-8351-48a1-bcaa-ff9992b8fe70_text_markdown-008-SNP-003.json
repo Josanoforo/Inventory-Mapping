@@ -10,10 +10,12 @@
   "snippet_primary": "\"Días después, PayPal aceptó mi reclamación y me devolvió el dinero al considerar que yo, efectivamente, no había autorizado ese pago.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "reported_event",
+  "claim_type": "anecdotal_report",
   "subject_exact": "PayPal accepted buyer's dispute and refunded Domestika Plus charge, ruling the payment had not been authorized by the buyer",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

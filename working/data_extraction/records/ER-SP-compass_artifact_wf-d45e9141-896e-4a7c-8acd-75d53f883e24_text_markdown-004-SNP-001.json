@@ -10,10 +10,12 @@
   "snippet_primary": "\"My problem with Patreon is that it's not really a direct connection between the supporter and the content creator. Patreon simply isn't direct enough. It has too much going on in the middle... it has it's own rules. And these rules have caused them to start shutting down content creators that they don't agree with... It feels parasitic.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator blog post (danielmiessler.com, March 31, 2018) describes switching from Patreon to Memberful, citing Patreon's role as an intermediary with its own values and rules, including shutting down creators it disagrees with; characterizes the dynamic as 'parasitic'",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,

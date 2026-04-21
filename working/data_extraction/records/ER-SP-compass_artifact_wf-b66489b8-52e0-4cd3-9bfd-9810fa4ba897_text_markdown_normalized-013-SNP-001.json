@@ -10,10 +10,12 @@
   "snippet_primary": "\"Available for 35€ until March 1th, After that — the price rises to 65€\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/75OWj uses early access pricing: €35 until March 1, price rising to €65 afterward",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "Early access €35; post-deadline price €65 (price increase of €30)",
@@ -26,7 +28,9 @@
     "early access price: €35 until March 1; standard price: €65 afterward",
     "price increase of €30 (85.7% premium) for post-deadline buyers"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/b/75OWj (accessed April 2026; page undated). Early access tiered pricing: €35 introductory vs €65 standard. Illustrates time-limited pricing capability available to Payhip sellers."
   ],

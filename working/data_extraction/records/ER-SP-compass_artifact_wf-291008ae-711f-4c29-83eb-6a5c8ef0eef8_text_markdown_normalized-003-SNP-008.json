@@ -10,10 +10,12 @@
   "snippet_primary": "\"Bought a digital license, but can't register it. It says to \\\"check my Internet connection and try again\\\". I tried to use the contact form but it says \\\"Error, cant do that\\\", or something similar.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports purchased LemonSqueezy digital license cannot be registered — activation returns connection error; contact form also returns error",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "check my Internet connection and try again",
     "Error, cant do that"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (July 29, 2025): buyer reports purchased digital license cannot be activated — activation server returns connectivity error; contact form also non-functional. Both delivery and support infrastructure broken simultaneously."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"Solicitei o reembolso, pois se trata de ARREPENDIMENTO DE COMPRA e de acordo com a LEI NO ARTIGO 49 o estorno do cartão deve ser feito IMEDIATAMENTE. Mas, já se passaram mais de 7 dias e não obtive nenhum estorno. A minha fatura do cartão irá vencer em breve vocês acham justo eu ter que pagar por algo que não estou tendo acesso?\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Reclame Aqui complaint (date unclear, ~July, year unconfirmed) reports buyer requested refund citing Brazilian Consumer Code Article 49 (arrependimento/buyer's remorse), which requires immediate card reversal; card reversal not processed after 7+ days; buyer's credit card bill approaching due date with unresolved charge",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Buyer invoked Brazilian Consumer Code Article 49 (arrependimento/buyer's remorse) requiring immediate card reversal",
     "Refund not processed after 7+ days; credit card bill approaching due date"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (refund released ~25/07; year unconfirmed). Buyer invoked Article 49 of Brazilian Consumer Code; card reversal not processed within 7 days. Portuguese-language Hotmart complaint (Brazil)."
   ],

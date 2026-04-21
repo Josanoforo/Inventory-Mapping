@@ -10,10 +10,12 @@
   "snippet_primary": "\"On December 10, 2025, I purchased one course from Domestika and paid a total of 49 TL for this transaction. The description of the transaction reflected on my credit card statement was \\\"Order C5110**19T33503436\\\". During the purchase, I only made payment for this single course and did not consent to any subscription or recurring payment. However, on January 10, 2026, I noticed an unauthorized deduction of 6,400 TL from my credit card by Domestika under the code \\\"Order C5158**62T33959279\\\".\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Turkish buyer reports 6,400 TL Domestika charge on January 10, 2026 after purchasing 49 TL single course on December 10, 2025 — subscription not consented to",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "6400",

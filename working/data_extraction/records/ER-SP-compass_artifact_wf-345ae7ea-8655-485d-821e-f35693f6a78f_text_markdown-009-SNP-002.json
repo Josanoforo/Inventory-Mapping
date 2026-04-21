@@ -10,10 +10,14 @@
   "snippet_primary": "\"Shipping: I use PirateShip for discounted postage. (With US Postal Service shipping always choose media mail if possible—it's the cheapest option.) Shopify and WooCommerce both integrate directly with PirateShip. You'll be copying and pasting or importing addresses from Payhip.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator notes Payhip lacks direct PirateShip shipping integration — requires manual address copy-paste or import, unlike Shopify and WooCommerce which integrate directly",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Shopify", "WooCommerce"],
+  "platforms": [
+    "Payhip",
+    "Shopify",
+    "WooCommerce"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

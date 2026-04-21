@@ -10,10 +10,13 @@
   "snippet_primary": "\"I mentioned that I have a Payhip store too where I sell my software-related products. I promote the store only my on Faceless-Voiceless YouTube Channel. And so far, I have made 7 sales. Currently, I have only 68 subscribers on this channel.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator reports 7 total Payhip sales from software-related products promoted exclusively via a 68-subscriber faceless YouTube channel",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Gumroad"],
+  "platforms": [
+    "Payhip",
+    "Gumroad"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "count",
   "metric_value_raw": "7",
@@ -29,7 +32,9 @@
     "68 subscribers",
     "7 sales"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Medium blog (undated). Creator reports 7 total Payhip sales for software-related products promoted exclusively via 68-subscriber faceless YouTube channel. Used as context in article advocating Gumroad over Payhip."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"This is the thing most Payhip reviews gloss over. The platform is excellent at processing a transaction once someone has decided to buy. What it cannot do is bring that person to you in the first place. This is the central challenge of Test 02 for us. We have created three digital products — a ChatGPT prompt workbook, an AI tools directory and a Whiteout Survival strategy guide — listed them on Payhip and priced them reasonably. The products are live. The checkout works. But without traffic, nothing sells.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Reviewer notes Payhip excels at checkout processing but provides no organic discovery — 3 live products with working checkout but zero sales without external traffic",
   "actor_level": "seller",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -28,7 +30,9 @@
     "three digital products live on Payhip — checkout works",
     "without traffic, nothing sells"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Digital Revenue Studio blog (2026, exact date unconfirmed). Payhip rated excellent for checkout processing but zero for organic discovery. 3 products live (ChatGPT workbook, AI tools directory, game strategy guide) — no sales without external traffic."
   ],

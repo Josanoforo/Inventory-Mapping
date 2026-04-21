@@ -10,10 +10,12 @@
   "snippet_primary": "\"Wouldn't cancel payment until 10 months after my first request, poor communications, still no refund, avoid them if you can.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy took 10 months to process payment cancellation after initial request — no refund issued; poor communications throughout",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "poor communications",
     "still no refund"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (April 22, 2025): buyer reports 10-month delay before LemonSqueezy processed payment cancellation; no refund issued; poor communications. Brief snippet — no amounts or product details stated. context_insufficient: no pricing or subscription details in snippet."
   ],

@@ -10,10 +10,12 @@
   "snippet_primary": "\"pay what you feel program... price listed is the minimum\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/AKMI uses 'pay what you feel' pricing model; listed price is stated as the minimum floor",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "'pay what you feel' pricing: listed price is minimum floor; buyer can pay more",
     "flexible voluntary pricing model available on Payhip"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/b/AKMI (accessed April 2026; page undated). 'Pay what you feel' pricing with minimum floor. Illustrates flexible/voluntary pricing model available to Payhip sellers."
   ],

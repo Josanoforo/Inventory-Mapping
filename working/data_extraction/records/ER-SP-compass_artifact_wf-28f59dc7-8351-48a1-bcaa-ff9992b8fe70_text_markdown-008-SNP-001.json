@@ -10,10 +10,12 @@
   "snippet_primary": "\"En noviembre compré un curso de crónicas de viajes en Domestika que costaba menos de dos euros. Yo estaba viajando por Marruecos, muy inspirada, y me pareció una buena idea retomar una escritura más personal que tenía bastante abandonada por mi trabajo del día a día. No le di muchas vueltas: ya había comprado otros cursos en la plataforma años atrás sin ningún problema.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Author bought a travel writing course on Domestika for under €2 in November 2025, with prior positive purchase history — contextual setup for subsequent unexpected ~€300 charge",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

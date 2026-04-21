@@ -10,10 +10,13 @@
   "snippet_primary": "\"Ko-fi is better in every way, so many options, way cheaper fees, can even do the subscription thing of Patreon. But Patreon is more popular, so authors usually go for patreon rather than ko fi because readers are familiar with it.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "ScribbleHub forum post (forum.scribblehub.com, undated, ~2023) states Ko-fi has better options and cheaper fees than Patreon including subscription capability, but authors choose Patreon because readers are already familiar with the platform",
   "actor_level": "unknown",
-  "platforms": ["Ko-fi", "Patreon"],
+  "platforms": [
+    "Ko-fi",
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +28,9 @@
   "local_qualifiers": [
     "Ko-fi characterized as superior in features and fees; Patreon preferred by authors due to reader brand familiarity"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "forum.scribblehub.com (undated, ~2023). Ko-fi vs Patreon: Ko-fi better features/fees but Patreon wins on reader familiarity; author adoption driven by reader platform habits."
   ],

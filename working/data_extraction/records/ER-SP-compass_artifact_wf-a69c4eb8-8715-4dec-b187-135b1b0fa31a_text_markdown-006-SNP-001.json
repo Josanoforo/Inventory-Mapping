@@ -10,10 +10,12 @@
   "snippet_primary": "\"Even at my highest point — 17 patrons — and later when I closed it with four remaining, I realized something important: the people who stayed were there for me, not just the content. That meant a lot. But it also revealed something deeper. The model itself wasn't aligned with how I create. I don't create best from obligation. I create best from clarity and energetic overflow. Over time, Patreon began to feel more like maintenance than expansion.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator peaked at 17 patrons then closed Patreon with 4 remaining; describes subscription obligation model as misaligned with creative process; characterized Patreon as feeling like 'maintenance rather than expansion'",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "subscriber_count",
   "metric_value_raw": "17 patrons (peak); 4 at close",
@@ -27,7 +29,9 @@
     "creator describes subscription obligation as misaligned with creative process",
     "Patreon characterized as 'maintenance rather than expansion'"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "twinflamescorpio.com (March 3, 2026). Creator describes closing Patreon after peaking at 17 patrons; cites mismatch between obligation-based subscription model and creative process. Single creator's subjective account."
   ],

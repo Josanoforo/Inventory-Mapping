@@ -10,10 +10,12 @@
   "snippet_primary": "\"BUYERS BEWARE: I purchased a chrome extension for $17 that didn't work. I never received a receipt and the extension didn't work with no contact info for the developer. I contacted support after multiple AI email responses, was forced to open a chargeback. TERRIBLE customer service. I wish I'd checked into this website before purchasing this extension.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (August 12, 2025) reports purchasing a $17 Chrome extension that was non-functional; no purchase receipt was issued; developer had no contact information; Gumroad support gave only automated AI email responses; buyer was forced to file a chargeback",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$17 Chrome extension purchase",
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Trustpilot review (Aug 12, 2025): $17 Chrome extension non-functional; no purchase receipt; developer unreachable; Gumroad AI-only support; buyer filed chargeback"
   ],
-  "uncertainties": ["anecdotal_single_source"],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com?page=3 (Aug 12, 2025). English. Gumroad review: $17 Chrome extension broken; no purchase receipt issued; no developer contact info on listing; Gumroad support automated AI responses only; buyer forced to file chargeback."
   ],

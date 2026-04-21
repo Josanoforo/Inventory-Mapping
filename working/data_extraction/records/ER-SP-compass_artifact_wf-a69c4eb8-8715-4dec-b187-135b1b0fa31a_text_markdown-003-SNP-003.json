@@ -10,10 +10,12 @@
   "snippet_primary": "\"My favorite tier I've made is my Snail Mail tier. For $12 a month, I send you something in the mail. Every month it's different. I've sent postcards, collages, paintings, seeds. Each year I send all of my Patreon supporters a handmade holiday gift. I've really enjoyed it.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator describes a $12/month Patreon 'Snail Mail' tier involving monthly physical mail (postcards, collages, paintings, seeds) plus an annual handmade holiday gift to all supporters",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "price",
   "metric_value_raw": "$12/month",
@@ -27,7 +29,9 @@
     "physical mail items sent monthly: postcards, collages, paintings, seeds",
     "annual handmade holiday gift to all supporters"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "krissyteegerstrom.substack.com (September 2, 2025). Creator describes $12/month physical-mail Patreon tier — monthly rotating items (postcards, collages, paintings, seeds) plus annual handmade holiday gift. Single creator's personal tier example."
   ],

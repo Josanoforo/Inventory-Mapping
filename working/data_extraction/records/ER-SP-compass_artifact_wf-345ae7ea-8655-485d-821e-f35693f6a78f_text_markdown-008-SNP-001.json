@@ -10,10 +10,14 @@
   "snippet_primary": "\"Personally when I first started my business online and selling my digital planners. I jumped from Etsy to Gumroad to Payhip trying to find out which one of the three platforms could help me make consistent sales. After testing all the three, I realized something which is very crucial for every seller must know and that is: Each platform works differently, depending on your goals.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator tested Etsy, Gumroad, and Payhip for digital planners and concludes each platform serves different seller goals differently",
   "actor_level": "seller",
-  "platforms": ["Etsy", "Gumroad", "Payhip"],
+  "platforms": [
+    "Etsy",
+    "Gumroad",
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital_download",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +31,9 @@
     "testing all three",
     "Each platform works differently, depending on your goals"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Medium article (2025, exact date unconfirmed). Creator tested Etsy, Gumroad, Payhip for digital planners — concludes each platform serves different seller goals. Anecdotal multi-platform comparison without quantified outcomes."
   ],

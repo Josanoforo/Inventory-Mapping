@@ -10,10 +10,12 @@
   "snippet_primary": "- Canva Newsletter Template Fashion — £1.99\n- Unicorn Sparkle with Heart Monogram — £1.99",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/gniq2 lists two digital template products at £1.99 GBP each: Canva Newsletter Template Fashion and Unicorn Sparkle with Heart Monogram",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital templates (Canva, monogram design)",
   "metric_type": "price",
   "metric_value_raw": "£1.99 GBP per template (two products listed)",
@@ -26,7 +28,9 @@
     "two digital template products at £1.99 each: Canva newsletter template and monogram design",
     "sub-£2 digital product pricing on Payhip"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/b/gniq2 (accessed April 2026; page undated). Low-priced GBP digital templates (£1.99 each): Canva newsletter and monogram design. Illustrates low-price digital template category on Payhip."
   ],

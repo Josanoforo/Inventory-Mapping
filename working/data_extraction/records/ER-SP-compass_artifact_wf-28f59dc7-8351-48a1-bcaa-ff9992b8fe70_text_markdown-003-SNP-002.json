@@ -10,10 +10,12 @@
   "snippet_primary": "\"El día 2 de julio de 2025 compré un curso individual en la plataforma Domestika por 0,99 €. En el mes de agosto de 2025 se cargó en mi cuenta bancaria un importe de 313,41 €, correspondiente\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports €313.41 bank charge in August 2025 after purchasing €0.99 individual Domestika course in July 2025 — snippet truncated",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "313.41",
@@ -27,7 +29,9 @@
     "por 0,99 €",
     "se cargó en mi cuenta bancaria un importe de 313,41 €"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Spanish Trustpilot review (Nov 2025): buyer reports €313.41 charge after €0.99 individual course purchase. Snippet truncated at 'correspondiente' — charge type not confirmed in snippet but pattern matches Domestika Plus auto-enrollment. context_insufficient flagged for truncated claim. Local qualifiers in original Spanish."
   ],

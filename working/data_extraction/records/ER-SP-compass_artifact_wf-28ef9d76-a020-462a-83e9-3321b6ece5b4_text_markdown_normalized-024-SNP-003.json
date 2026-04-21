@@ -10,10 +10,16 @@
   "snippet_primary": "\"I've been using Payhip as an alternative to the usual suspects (Teachable, Coursera, Thinkific, Kajabi) and I'm very happy with it. The free version is very powerful and not limiting me in any...\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Individual seller reports using Payhip as alternative to Teachable, Coursera, Thinkific, and Kajabi: free version described as powerful and non-limiting (snippet truncated)",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Teachable", "Coursera", "Thinkific", "Kajabi"],
+  "platforms": [
+    "Payhip",
+    "Teachable",
+    "Coursera",
+    "Thinkific",
+    "Kajabi"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +33,9 @@
     "very happy with it",
     "the free version is very powerful and not limiting me in any..."
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Trustpilot review (Kyle, January 2026): seller uses Payhip as alternative to course platform stack (Teachable, Coursera, Thinkific, Kajabi), reports free plan as powerful and non-limiting. Snippet truncated at 'in any...'. context_insufficient flagged for truncated claim."
   ],

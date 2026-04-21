@@ -10,10 +10,12 @@
   "snippet_primary": "\"This seems to be a scam. They charged 2 $ for getting a translated document which I then never received. They wanted me to stop the Paypal issue which I have created afterwards.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports $2 LemonSqueezy charge for translated document never delivered — LemonSqueezy subsequently asked buyer to drop PayPal dispute",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "2",

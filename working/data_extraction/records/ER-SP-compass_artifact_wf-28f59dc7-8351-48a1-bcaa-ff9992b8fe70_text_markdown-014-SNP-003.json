@@ -10,10 +10,12 @@
   "snippet_primary": "\"Domestika charged me $349, up from $169 last year. Their website says no refunds. I requested a refund anyway and notified PayPal. I canceled my subscription today.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports Domestika Plus subscription price increased from $169 to $349 year-over-year; no-refund policy stated on website; buyer opened PayPal dispute and manually canceled subscription",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "349",
@@ -29,7 +31,9 @@
     "notified PayPal",
     "I canceled my subscription today"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Trustpilot review (accessed April 2026): buyer reports Domestika Plus annual subscription price increase from $169 to $349 (~2x year-over-year). No-refund policy stated on website; buyer pursued PayPal dispute and manually canceled. metric_value_raw captures current year $349; prior year $169 noted here."
   ],

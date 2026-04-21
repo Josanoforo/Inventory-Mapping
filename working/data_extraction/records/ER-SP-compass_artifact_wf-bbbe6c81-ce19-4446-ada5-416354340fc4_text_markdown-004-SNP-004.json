@@ -10,10 +10,12 @@
   "snippet_primary": "\"Una vez compre un curso de pago unico y pude descargarlo pero a los meses noto que empiezan a llegarme unos cobros de hotmart de otros cursos que nunca compre, nunca me soluccionaron me toco bloquear la tarjeta para generar una nueva y asi no siguieran robando , OJO CON DEJAR DATOS DE TU TARJETA , MUCHO OJO..\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026) reports unauthorized charges for courses they never purchased appearing months after a one-time course purchase; support did not resolve it; reviewer had to block and replace card; warns others against saving card data on Hotmart",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses (one-time payment)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Unauthorized charges for unpurchased courses months after one-time purchase; support unresponsive",
     "Reviewer forced to block and replace card; warns: 'careful with leaving card details'"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). Post-purchase unauthorized charges; support unresponsive; card blocked. May indicate subscription misactivation or fraud."
   ],

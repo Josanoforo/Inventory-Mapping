@@ -10,10 +10,12 @@
   "snippet_primary": "\"I purchased items from a seller that were delivered well beyond the expected delivery time. When they arrived they were damaged due to poor packaging. I contacted seller who said they would refund and then they ghosted me. I got Etsy involved and Etsy cancelled the order and refunded me but also covered the sellers cost. Now I am unable to leave a review on the sellers account? Even though I went three months waiting for this item that was for a wedding. I think that is crazy that future buyers won't be able to see accurate reviews on the seller\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot reviewer waited 3 months for wedding order; items arrived damaged; seller ghosted after promising refund; Etsy refunded buyer but suppressed reviewer's ability to leave a seller review after cancellation",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (wedding items)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "seller ghosted after promising refund",
     "Etsy refunded but buyer could not leave seller review after order cancellation"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "trustpilot.com (accessed April 2026, date not stated). Damaged wedding items; seller ghosted; Etsy refunded but review suppressed after cancellation. Illustrates review integrity gap when orders are cancelled."
   ],

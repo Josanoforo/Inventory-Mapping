@@ -10,10 +10,12 @@
   "snippet_primary": "\"Fiz uma compra na Hortmart que não era o proposto. Imediatamente, pedi o reembolso do valor. Porém, até agora nada foi feito, inclusive recebi um quiz se havia gostado da compra (???). Espero que façam meu ressarcimento o quanto antes.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Reclame Aqui complaint (refund solicited March 7, 2026) reports Hotmart product not as described; immediate refund request made but not fulfilled; Hotmart sent a satisfaction quiz about the purchase instead of processing the refund",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -26,7 +28,9 @@
     "Product not as described; immediate refund request unfulfilled",
     "Hotmart sent satisfaction quiz about purchase instead of processing refund"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (March 7, 2026). Product not as described; refund request ignored; Hotmart sent satisfaction quiz. Portuguese-language (Brazil)."
   ],

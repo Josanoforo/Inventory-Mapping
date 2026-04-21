@@ -10,10 +10,12 @@
   "snippet_primary": "\"Seller requested more time to complete two custom handmade items. SEVEN MONTHS later, I am still without my refund or items after a refund was requested back in December 2024. Shop is now closed and Etsy is stating that my refund request wasn't valid, even though I was following their prompts. Unfortunately I will no longer be purchasing on Etsy due to the companies inability to protect their customers against scammers.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "SiteJabber reviewer reports 7-month unresolved refund dispute on Etsy for custom handmade items; seller shop closed; Etsy denied refund claim despite buyer following platform prompts",
   "actor_level": "unknown",
-  "platforms": ["Etsy"],
+  "platforms": [
+    "Etsy"
+  ],
   "product_type_if_explicit": "physical goods (custom handmade items)",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "seller shop closed after dispute; Etsy denied refund claim",
     "buyer reports following platform prompts throughout process"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "sitejabber.com buyer review (accessed April 2026, refund requested December 2024). 7-month unresolved refund dispute; closed seller shop; Etsy platform decision against buyer. Illustrates buyer protection limitations for custom/delayed orders."
   ],

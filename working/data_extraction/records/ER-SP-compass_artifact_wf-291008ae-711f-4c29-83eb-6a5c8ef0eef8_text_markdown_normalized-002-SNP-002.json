@@ -10,10 +10,12 @@
   "snippet_primary": "\"Avoid this payment processor at ALL COST! I was using an SEO tool, relying on it, and cancelled my subscription in March. Since March, they have kept on taking money every single month from my account, despite the subscription being stopped. Bad payment processor.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports LemonSqueezy continued charging monthly after subscription cancellation in March — monthly charges persisted despite confirmed cancellation",
   "actor_level": "buyer",
-  "platforms": ["LemonSqueezy"],
+  "platforms": [
+    "LemonSqueezy"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "kept on taking money every single month",
     "despite the subscription being stopped"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Trustpilot review (April 22, 2025): buyer reports LemonSqueezy continued charging monthly after subscription cancellation in March (likely March 2025). SEO tool referenced but not named. No amounts stated. Pattern: cancellation not honored, charges continue post-cancellation."
   ],

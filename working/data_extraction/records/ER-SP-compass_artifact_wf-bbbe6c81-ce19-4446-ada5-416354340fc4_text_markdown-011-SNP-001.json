@@ -10,10 +10,12 @@
   "snippet_primary": "\"Comprei 02 cursos. Porém, não consigo acessar. A plataforma de ensino. O mesmo informa que preciso pagar o curso novamente.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hotmart Reclame Aqui complaint (August 1, 2025) reports inability to access 2 purchased courses; learning platform displays message requiring repayment despite prior purchase",
   "actor_level": "unknown",
-  "platforms": ["Hotmart"],
+  "platforms": [
+    "Hotmart"
+  ],
   "product_type_if_explicit": "online courses",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,9 @@
   "local_qualifiers": [
     "Purchased courses inaccessible; platform prompts repayment despite prior purchase"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "reclameaqui.com.br (August 1, 2025). 2 purchased courses inaccessible; platform demands repayment. Portuguese-language (Brazil)."
   ],

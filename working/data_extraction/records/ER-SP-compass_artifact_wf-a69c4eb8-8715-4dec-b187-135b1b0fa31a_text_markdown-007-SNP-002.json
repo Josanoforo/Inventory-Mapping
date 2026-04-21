@@ -10,10 +10,13 @@
   "snippet_primary": "\"Sole-Smith said almost 50% of her subscribers had made the transition.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Writer Sole-Smith reports approximately 50% of prior subscribers transitioned when migrating from Substack to Patreon",
   "actor_level": "unknown",
-  "platforms": ["Patreon", "Substack"],
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "subscriber_count",
   "metric_value_raw": "~50% of prior subscribers transitioned to Patreon",
@@ -27,7 +30,9 @@
     "migration context: Substack to Patreon",
     "Nieman Lab journalism article, October 2025"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "niemanlab.org (October 29, 2025). Writer Sole-Smith reports ~50% of her Substack subscribers transitioned to Patreon upon migration. Single creator self-report via journalism article."
   ],

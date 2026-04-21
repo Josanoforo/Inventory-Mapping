@@ -10,10 +10,12 @@
   "snippet_primary": "\"I bought a course, thinking it was a one-time payment. What they didn't make clear was that they were also signing me up for an expensive subscription. Suddenly, I realized they had charged me without my clear consent. That was my first shock. The second shock was worse: even after I canceled the subscription, my credit card stayed locked inside their system. There was no button to remove it, no option to take back control over my own financial data. The only thing they offered was to replace the card with another – as if they own my details forever.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports two issues: (1) opaque subscription enrollment during course purchase; (2) credit card cannot be removed from Domestika account after cancellation — only option is replacement with another card",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

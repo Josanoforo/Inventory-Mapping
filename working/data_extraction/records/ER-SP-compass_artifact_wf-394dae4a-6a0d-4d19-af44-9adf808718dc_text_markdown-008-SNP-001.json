@@ -10,10 +10,13 @@
   "snippet_primary": "\"Before joining Hotmart, Martínez, the car repair creator, hadn't been able to charge clients outside of his native market of Costa Rica. Although many were willing to pay his $20 monthly subscription fee, they couldn't find a way around PayPal's geographic payment restrictions.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_claim",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Costa Rica car repair creator reports Hotmart enabled international subscription payments ($20/month) that PayPal geographic restrictions had previously blocked",
   "actor_level": "seller",
-  "platforms": ["Hotmart", "PayPal"],
+  "platforms": [
+    "Hotmart",
+    "PayPal"
+  ],
   "product_type_if_explicit": "subscription",
   "metric_type": "revenue",
   "metric_value_raw": "20",
@@ -27,7 +30,9 @@
     "$20 monthly subscription fee",
     "couldn't find a way around PayPal's geographic payment restrictions"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Rest of World article (June 19, 2023). Costa Rica car repair creator: Hotmart solved international subscription billing ($20/month) that PayPal geographic restrictions had blocked. Historical (2023); current PayPal restrictions may differ."
   ],

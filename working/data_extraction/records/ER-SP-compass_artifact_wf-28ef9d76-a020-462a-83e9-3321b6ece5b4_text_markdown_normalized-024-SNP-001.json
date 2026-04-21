@@ -10,10 +10,14 @@
   "snippet_primary": "\"After trying Shopify, Gumroad, and others, Payhip is the clear winner for digital products. It handles everything I need without worrying about plugins or coding.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Individual seller (after using Shopify and Gumroad) reports Payhip as best option for digital products: all-in-one without requiring plugins or coding",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Shopify", "Gumroad"],
+  "platforms": [
+    "Payhip",
+    "Shopify",
+    "Gumroad"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,

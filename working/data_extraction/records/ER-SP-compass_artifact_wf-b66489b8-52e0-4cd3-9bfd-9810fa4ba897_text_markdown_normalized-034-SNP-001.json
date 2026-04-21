@@ -10,10 +10,12 @@
   "snippet_primary": "- SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place — $4.99 | - Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through) | - Top 50 Questions About AI — $4.99 | - Top 50 Questions People Ask AI — $4.99 | - Book About AI — $4.99 | - Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI — $5.99 (On Sale; was $11.99, struck through) | Popularity text: \"OVER 10,000 COPIES SOLD!!!\" | Promo banner: \"⇊ Get 40% Off Now ⇊\" | Stock display: \"Only -1 left\" (likely a bug or unlimited stock indicator)",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Payhip seller 'virtualink' (accessed April 2026) ebooks collection: AI/tech e-books priced $4.99–$5.99 (some on sale from $9.99–$11.99 originals); banner claims 'OVER 10,000 COPIES SOLD'; 40% discount promotion active; stock display shows 'Only -1 left' (likely data bug)",
   "actor_level": "unknown",
-  "platforms": ["Payhip"],
+  "platforms": [
+    "Payhip"
+  ],
   "product_type_if_explicit": "digital products (e-books, AI/tech guides)",
   "metric_type": "price",
   "metric_value_raw": "Sale prices $4.99–$5.99 USD; original prices $9.99–$11.99; seller claims 10,000+ copies sold",
@@ -27,7 +29,9 @@
     "seller claims 10,000+ copies sold; 40% off promotion active",
     "'Only -1 left' stock display likely a platform bug or unlimited stock indicator"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "payhip.com/virtualink/ebooks (accessed April 2026; page undated). AI/tech e-book store: $4.99–$5.99 sale prices; 10,000+ copies sold claim; '-1 left' stock display is likely a platform rendering bug."
   ],

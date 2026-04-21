@@ -10,10 +10,12 @@
   "snippet_primary": "\"I was trying to purchase something on Gumroad for $0, but as I got to the checkout, it said that I have an active chargeback on one of my past Gumroad purchases. However, I wasn't logged in, I didn't give them my card information AND I HAVEN'T USED GUMROAD BEFORE. So, even if I did have an active chargeback, how would they know?\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Trustpilot review of Gumroad (August 12, 2025) reports a checkout block message claiming an active chargeback on past purchases for a user who was not logged in, had not provided card information, and had never used Gumroad before",
   "actor_level": "unknown",
-  "platforms": ["Gumroad"],
+  "platforms": [
+    "Gumroad"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +27,10 @@
   "local_qualifiers": [
     "Trustpilot review (Aug 12, 2025): Gumroad blocked $0 checkout citing 'active chargeback on past purchases' for a user with no account, no card data, and no prior Gumroad use"
   ],
-  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "subject_ambiguity"
+  ],
   "parser_notes": [
     "trustpilot.com/review/gumroad.com?page=3 (Aug 12, 2025). English. Gumroad fraud detection: false positive chargeback flag for first-time user with no login or card data. Documents potential fingerprinting-based block affecting users with no purchase history."
   ],

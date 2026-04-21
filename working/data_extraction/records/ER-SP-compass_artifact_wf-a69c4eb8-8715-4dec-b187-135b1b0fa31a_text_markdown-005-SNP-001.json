@@ -10,10 +10,12 @@
   "snippet_primary": "\"Once I had a small YouTube channel, I invited my viewers to Patreon. I offered: Behind-the-scenes videos, Monthly Q&A sessions, Bonus digital downloads. Result: 45 patrons signed up (most at $3/month). Around $180/month in earnings. But I had to consistently deliver extra content. I realized that Patreon can work — but it demands more ongoing effort.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator reports converting YouTube viewers to 45 Patreon patrons (mostly at $3/month) yielding ~$180/month, with ongoing extra content delivery required",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "revenue",
   "metric_value_raw": "45 patrons, ~$180/month",
@@ -28,7 +30,9 @@
     "~$180/month in earnings",
     "required consistent ongoing extra content delivery"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "medium.com (May 20, 2025). Creator reports 45 Patreon patrons via YouTube conversion, ~$180/month; notes high ongoing content effort required. Single creator self-report; no verification of figures."
   ],

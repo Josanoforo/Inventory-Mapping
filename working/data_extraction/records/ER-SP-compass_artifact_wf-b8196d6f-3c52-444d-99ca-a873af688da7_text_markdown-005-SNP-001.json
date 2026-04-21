@@ -10,10 +10,12 @@
   "snippet_primary": "\"Idearupt · Bhavesh AI Pro · $9.00/month · Idearupt Pro · $19.00/month · Idearupt Pro+ - 7 Day Free Trial · $49.00/month · Powered by Lemon Squeezy\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Seller 'Idearupt' on Lemon Squeezy (accessed April 2026) offers SaaS subscription tiers: 'Bhavesh AI Pro' at $9.00/month, 'Idearupt Pro' at $19.00/month, 'Idearupt Pro+' at $49.00/month with 7-day free trial; storefront labeled 'Powered by Lemon Squeezy'",
   "actor_level": "unknown",
-  "platforms": ["Lemon Squeezy"],
+  "platforms": [
+    "Lemon Squeezy"
+  ],
   "product_type_if_explicit": "SaaS subscriptions (AI software)",
   "metric_type": "price",
   "metric_value_raw": "$9.00/month; $19.00/month; $49.00/month",
@@ -27,7 +29,9 @@
     "Idearupt Pro+ includes 7-day free trial",
     "storefront labeled 'Powered by Lemon Squeezy'"
   ],
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "parser_notes": [
     "idearupt.lemonsqueezy.com (April 2026). Lemon Squeezy seller store: SaaS AI subscriptions. $9/month (Bhavesh AI Pro), $19/month (Idearupt Pro), $49/month (Idearupt Pro+ with 7-day trial)."
   ],

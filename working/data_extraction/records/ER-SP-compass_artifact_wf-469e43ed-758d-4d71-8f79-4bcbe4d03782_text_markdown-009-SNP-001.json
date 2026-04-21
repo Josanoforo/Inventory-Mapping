@@ -10,10 +10,13 @@
   "snippet_primary": "\"Add support for Payoneer payouts.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "implicit_claim",
+  "claim_type": "explicit_claim",
   "subject_exact": "Lemon Squeezy seller forum feature request for Payoneer payout support implies Payoneer is not a supported payout method",
   "actor_level": "creator",
-  "platforms": ["Lemon Squeezy", "Payoneer"],
+  "platforms": [
+    "Lemon Squeezy",
+    "Payoneer"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +28,10 @@
   "local_qualifiers": [
     "Add support for Payoneer payouts"
   ],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "parser_notes": [
     "Lemon Squeezy Nolt feature request board (accessed April 2026; undated). Feature request for Payoneer payout support implies it was unavailable at time of request. Single post; no vote count or status captured."
   ],

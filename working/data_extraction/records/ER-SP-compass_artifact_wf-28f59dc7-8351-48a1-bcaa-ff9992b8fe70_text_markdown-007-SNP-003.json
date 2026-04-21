@@ -10,10 +10,12 @@
   "snippet_primary": "\"Compré un curso de Canva 0,99 dólares y me apareció un mes después un débito en mi tarjeta de 167,01 dólares por otro curso que no he pedido. Exijo un reembolso y que me den de baja mi cuenta\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Buyer reports $167.01 charge one month after purchasing $0.99 Canva-topic course on Domestika — describes charge as 'another course not ordered'; demands refund and account cancellation",
   "actor_level": "buyer",
-  "platforms": ["Domestika"],
+  "platforms": [
+    "Domestika"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": "167.01",

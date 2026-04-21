@@ -10,10 +10,12 @@
   "snippet_primary": "\"I aim to integrate Substack with Patreon to obtain optimal results. I did it myself and helped many creators who enjoyed it and found it lucrative and more sustainable. After successfully using Patreon for over 6 years for creative, professional, and community-building purposes, I decided to share my experiences and observations in a book titled Patreon Mastery, which was published last month.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Creator describes 6+ years using Patreon for creative, professional, and community-building purposes; integrates Substack with Patreon; published book on Patreon strategies",
   "actor_level": "unknown",
-  "platforms": ["Patreon"],
+  "platforms": [
+    "Patreon"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +29,9 @@
     "Substack-Patreon integration cited as optimal approach",
     "describes helping other creators with same strategy"
   ],
-  "uncertainties": ["methodology_unclear"],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
   "parser_notes": [
     "drmehmetyildiz.substack.com (October 26, 2025). Long-term Patreon creator (6+ years); advocates Substack-Patreon integration. Published 'Patreon Mastery' book September 2025. Single creator's experience."
   ],

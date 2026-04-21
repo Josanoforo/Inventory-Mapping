@@ -10,10 +10,14 @@
   "snippet_primary": "\"The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need · Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Hacker News comment (news.ycombinator.com, approximately May 2025) describes seller experience: Gumroad has high fees and ugly design but solid system; Lemon Squeezy had good design and slightly better but hidden fees; many serious bugs and bad support since Stripe acquisition; commenter prefers LS over Gumroad due to Gumroad's checkout design losing sales",
   "actor_level": "unknown",
-  "platforms": ["Gumroad", "Lemon Squeezy", "Stripe"],
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy",
+    "Stripe"
+  ],
   "product_type_if_explicit": null,
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -25,7 +29,9 @@
   "local_qualifiers": [
     "HN seller: Gumroad high fees/ugly design but solid; LS better design/slightly lower fees but many bugs/bad support post-Stripe; prefers LS for checkout conversion"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "news.ycombinator.com (approx. May 2025). HN comment: Gumroad = high fees/ugly but solid; LS = nice design, slightly better fees, bugs/bad support post-acquisition."
   ],

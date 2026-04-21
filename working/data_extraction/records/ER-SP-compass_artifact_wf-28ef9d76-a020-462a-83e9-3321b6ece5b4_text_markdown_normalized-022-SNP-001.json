@@ -10,10 +10,13 @@
   "snippet_primary": "\"Every new entrepreneur selling digital products needs to use this product. I've seen online gurus recommending other platforms (probably because they have an ongoing partnerships), but Payhip is the BEST one for small entrepreneurs who can't afford the $XX per month fees that most platforms like Shopify charge. Their pricing starts at $0 per month with 5% transaction fee, I can't find any other platforms that have prices as low as this.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Individual seller recommends Payhip as best option for small entrepreneurs: $0/month entry with 5% transaction fee, contrasting with monthly subscription fees of platforms like Shopify",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Shopify"],
+  "platforms": [
+    "Payhip",
+    "Shopify"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": "5",
@@ -28,7 +31,9 @@
     "I can't find any other platforms that have prices as low as this",
     "online gurus recommending other platforms (probably because they have an ongoing partnerships)"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "SiteJabber review of Payhip (reviewer: Helena, review date unknown, accessed April 2026): strong seller endorsement citing $0/month + 5% transaction fee as best-in-class for small entrepreneurs. Reviewer also flags perceived affiliate bias in competitor recommendations. metric_value_raw captures 5% fee."
   ],

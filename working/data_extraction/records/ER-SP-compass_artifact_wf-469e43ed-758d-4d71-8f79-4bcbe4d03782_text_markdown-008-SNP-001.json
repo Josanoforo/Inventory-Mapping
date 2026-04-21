@@ -13,7 +13,10 @@
   "claim_type": "explicit_claim",
   "subject_exact": "Competitor source (Freemius) claims Lemon Squeezy total fees often reach 10-18% when additional charges for subscriptions, PayPal, international payments, affiliates, and cart recovery are included above the marketed 5% + 50¢",
   "actor_level": "platform",
-  "platforms": ["Lemon Squeezy", "Freemius"],
+  "platforms": [
+    "Lemon Squeezy",
+    "Freemius"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": "10",
@@ -28,7 +31,10 @@
     "Extra charges for subscriptions, PayPal, international payments, affiliates, and cart recovery",
     "push fees into the 10-18% range"
   ],
-  "uncertainties": ["source_date_unclear", "metric_ambiguous"],
+  "uncertainties": [
+    "source_date_unclear",
+    "metric_unit_unclear"
+  ],
   "parser_notes": [
     "Freemius competitor article (accessed April 2026; undated). Competitor estimate of Lemon Squeezy true total fee: 10-18% when all add-ons included above base 5% + 50¢. Source is a direct competitor with commercial interest in unfavorable portrayal; not an official Lemon Squeezy source. metric_value_raw: 10 (lower bound of stated range 10-18%)."
   ],

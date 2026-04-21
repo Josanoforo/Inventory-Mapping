@@ -10,10 +10,15 @@
   "snippet_primary": "\"How can I accept payments on a website as an individual with something similar to stripe or more complex e-commerce solutions like Shopify? Gumroad and PayHip look like good alternatives.\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Gumroad and Payhip cited as potential alternatives to Stripe/Shopify for individual payment acceptance on a website (July 2019)",
   "actor_level": "seller",
-  "platforms": ["Gumroad", "Payhip", "Stripe", "Shopify"],
+  "platforms": [
+    "Gumroad",
+    "Payhip",
+    "Stripe",
+    "Shopify"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "unknown",
   "metric_value_raw": null,
@@ -27,7 +32,9 @@
     "as an individual",
     "without a company"
   ],
-  "uncertainties": ["current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
   "parser_notes": [
     "Indie Hackers forum (July 2019): individual without a company exploring payment options mentions Gumroad and Payhip as possible alternatives to Stripe/Shopify. Impressionistic assessment from over 5 years ago; platforms have evolved significantly since."
   ],

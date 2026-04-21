@@ -10,10 +10,13 @@
   "snippet_primary": "\"I'm still fairly new to using Payhip and have two stores on their platform. What I most like about them is that you can set up your store with no upfront costs. You just pay 5% commission to Payhip on sales. So it's great for beginners. You can build blogs on their platform and custom pages. On one of my stores, I have set up my own Ebook products, where Payhip handles the UK and EU VAT. (As a comparison, on Amazon's KDP system you'd be paying them 30% on sales instead of 5%, and only if you price your Ebooks below $10.)\"",
   "snippet_context_before": null,
   "snippet_context_after": null,
-  "claim_type": "anecdotal_example",
+  "claim_type": "anecdotal_report",
   "subject_exact": "Individual seller reports: Payhip 5% commission with no upfront costs, UK/EU VAT handling for ebooks, blog and custom page builder; compared to Amazon KDP 30% commission (stated to apply when ebooks priced below $10)",
   "actor_level": "seller",
-  "platforms": ["Payhip", "Amazon KDP"],
+  "platforms": [
+    "Payhip",
+    "Amazon KDP"
+  ],
   "product_type_if_explicit": "unknown",
   "metric_type": "fee_rate",
   "metric_value_raw": "5",
@@ -30,7 +33,9 @@
     "Payhip handles the UK and EU VAT",
     "only if you price your Ebooks below $10"
   ],
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "parser_notes": [
     "Trustpilot review of Payhip (review date unknown, accessed April 2026): individual seller recounts personal experience — 5% commission, no upfront costs, UK/EU VAT handling, blog/custom page builder. Amazon KDP comparison: seller cites 30% vs 5%, noting the 30% applies when ebooks priced below $10 (aligns with KDP standard royalty range). product_type left unknown as ebook is the seller's specific use, not a platform-level product type claim."
   ],
