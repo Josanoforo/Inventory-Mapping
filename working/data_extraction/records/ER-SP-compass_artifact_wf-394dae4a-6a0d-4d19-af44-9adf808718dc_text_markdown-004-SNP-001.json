@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "In Which Currency Will My Commission Be Paid",
+  "source_ref": "https://help.hotmart.com/en/article/360015794612/in-which-currency-will-my-commission-be-paid-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you don't live or pay taxes in Brazil, you can withdraw your balance directly to your local bank account in the currency of your country (as long as it is US Dollars, Euros, or Pounds).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart allows non-Brazil creators to withdraw commissions to local bank accounts — restricted to USD, EUR, or GBP only",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Global (excluding Brazil)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "don't live or pay taxes in Brazil",
+    "withdraw your balance directly to your local bank account in the currency of your country",
+    "as long as it is US Dollars, Euros, or Pounds"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Hotmart help center (accessed April 14, 2026). Non-Brazil creators: local bank account withdrawals restricted to USD, EUR, or GBP. Creators in countries with other base currencies must receive one of these three."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/360015794612/in-which-currency-will-my-commission-be-paid-",
+    "secondary_pointer": null
+  }
+}
