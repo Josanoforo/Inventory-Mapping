@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-018",
+  "source_type": "unknown",
+  "source_title": "Reviews",
+  "source_ref": "https://www.capterra.com/p/230186/Patreon/reviews",
+  "source_date_if_available": "August 27, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon gave me more creative freedom. This is really important to artists.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Capterra user review (capterra.com, August 27, 2022) states Patreon provided the reviewer with greater creative freedom, characterizing this as important to artists",
+  "actor_level": "unknown",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "August 27, 2022",
+  "time_scope_normalized_if_safe": "2022-08",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Creator review: Patreon provides creative freedom; cited as important to artists"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "capterra.com Patreon review (Aug 27, 2022). Creator testimonial: creative freedom; relevant to artist creator segment."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.capterra.com/p/230186/Patreon/reviews",
+    "secondary_pointer": null
+  }
+}

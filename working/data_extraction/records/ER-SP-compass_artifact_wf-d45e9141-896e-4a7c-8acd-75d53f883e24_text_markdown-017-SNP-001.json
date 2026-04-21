@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-017",
+  "source_type": "help_center",
+  "source_title": "What Is Patreon",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/204606315-What-is-Patreon",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You fully own your direct relationship with your fans, and we build the tools to help you grow over time.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon help center (support.patreon.com, undated) states creators fully own their direct relationship with fans, and Patreon provides tools to help creators grow over time",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Patreon: creator owns direct fan relationship; Patreon provides growth tools"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "support.patreon.com (undated). Patreon value proposition: creator ownership of fan relationships; platform provides growth tools."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/204606315-What-is-Patreon",
+    "secondary_pointer": null
+  }
+}
