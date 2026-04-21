@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-002",
+  "source_type": "seller_forum",
+  "source_title": "Item",
+  "source_ref": "https://news.ycombinator.com/item?id=43606206",
+  "source_date_if_available": "Accessed April 2026; displayed as \"11 months ago,\" approximately May 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I sell templates for a living and have used several of these providers. The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need. Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo. Paddle - haven't used it but I think it's probably as good as Gumroad or Lemon. Polar.sh - the trendy new option, most creators abandoning Lemon Squeezy are moving there. Has lots of innovation in features beyond payments such as selling private GitHub access. All of these platforms are MOR as far as I know, all provide the checkout UI etc. all handle digital asset file delivery. They are perfect for creators selling digital products that want a turn key solution and don't want to do any development work.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hacker News template seller compares Gumroad (high fees, ugly checkout, solid), Lemon Squeezy (buggy post-Stripe acquisition, hidden fees, better design), Paddle (untested), and Polar.sh (emerging, gaining Lemon Squeezy refugees); all classified as Merchant of Record platforms for digital products",
+  "actor_level": "seller",
+  "platforms": ["Gumroad", "Lemon Squeezy", "Polar", "Paddle"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "approximately May 2025",
+  "time_scope_normalized_if_safe": "2025-05",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "template seller with multi-platform experience",
+    "Gumroad: high fees, ugly checkout design, solid system with no issues",
+    "Lemon Squeezy: serious bugs and bad support post-Stripe acquisition, hidden fees, better design than Gumroad, still preferred over Gumroad due to checkout UX impact on sales",
+    "Paddle: untested by this seller, estimated comparable to Gumroad/Lemon",
+    "Polar.sh: emerging option, creators migrating from Lemon Squeezy",
+    "all platforms categorized as Merchant of Record (MOR)"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Hacker News comment (~May 2025, accessed April 2026; date approximated from '11 months ago'). Template seller compares Gumroad (high fees, ugly checkout, solid), Lemon Squeezy (buggy post-Stripe acquisition, hidden fees, better design), Paddle (untested), Polar.sh (emerging, gaining Lemon Squeezy refugees). All classified as MOR platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.ycombinator.com/item?id=43606206",
+    "secondary_pointer": null
+  }
+}
