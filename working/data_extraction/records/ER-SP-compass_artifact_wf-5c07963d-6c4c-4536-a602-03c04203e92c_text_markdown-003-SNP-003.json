@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Shopify Vs Etsy Comparison",
+  "source_ref": "https://mercury.com/blog/shopify-vs-etsy-comparison",
+  "source_date_if_available": "2025-09-18",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Do you want to own your customer data? If building a brand and nurturing long-term relationships is important, Shopify gives you that ownership. Etsy keeps customer information within its marketplace.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy retains customer data within its marketplace while Shopify sellers have ownership of customer information",
+  "actor_level": "platform",
+  "platforms": ["Etsy", "Shopify"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "own your customer data",
+    "Shopify gives you that ownership",
+    "Etsy keeps customer information within its marketplace"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Blog post (Mercury.com, 2025-09-18). Customer data ownership: Shopify sellers own customer data; Etsy retains customer information within its marketplace."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://mercury.com/blog/shopify-vs-etsy-comparison",
+    "secondary_pointer": null
+  }
+}
