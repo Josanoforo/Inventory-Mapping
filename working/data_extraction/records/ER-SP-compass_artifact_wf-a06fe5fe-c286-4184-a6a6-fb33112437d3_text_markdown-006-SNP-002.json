@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+  "source_type": "report",
+  "source_title": "Website",
+  "source_ref": "https://www.similarweb.com/website/payhip.com",
+  "source_date_if_available": "December 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"payhip.com's web traffic has increased by 14.16% compared to last month [...] Global ranking has changed from 8,988 to 8,064 [...] Bounce Rate: 42.15% [...] Pages per Visit: 4.40 [...] Avg Visit Duration: 00:03:16 [...] The top traffic source to payhip.com is Direct traffic, driving 54.46% of desktop visits last month [...] payhip.com's audience is 58.73% male and 41.27% female [...] United States: 41.62%\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "SimilarWeb (second data point, same source, December 2025) reports payhip.com traffic +14.16% MoM; global rank improved from 8,988 to 8,064; bounce rate 42.15%; avg duration 00:03:16; Direct traffic 54.46%; audience 58.73% male; US 41.62%",
+  "actor_level": "unknown",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "traffic",
+  "metric_value_raw": null,
+  "metric_unit": "global rank 8,064 (December 2025)",
+  "time_scope_raw": "December 2025",
+  "time_scope_normalized_if_safe": "2025-12",
+  "geography_if_explicit": "United States (41.62% of traffic)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Payhip: +14.16% MoM traffic; global rank 8,988→8,064",
+    "bounce rate 42.15%; pages/visit 4.40; avg duration 00:03:16",
+    "Direct traffic 54.46%; audience 58.73% male; US 41.62%",
+    "second data point from same SimilarWeb page as SNP-001; slight metric variations suggest different observation periods within same page"
+  ],
+  "uncertainties": ["methodology_unclear", "current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "SimilarWeb report on payhip.com (December 2025). Second snippet from same source as SNP-001; metric values differ slightly (e.g., bounce rate 42.15% vs 41.48%, US share 41.62% vs 38.5%), suggesting the page captures data for two different observation periods. Global rank improved 8,988→8,064."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.similarweb.com/website/payhip.com",
+    "secondary_pointer": null
+  }
+}
