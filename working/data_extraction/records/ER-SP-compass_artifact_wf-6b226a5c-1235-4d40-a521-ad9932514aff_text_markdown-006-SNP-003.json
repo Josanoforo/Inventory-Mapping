@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Refunds Chargebacks",
+  "source_ref": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The refunded amount (minus our platform fee) will be deducted from your next payout.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "When Lemon Squeezy issues a refund, the refunded amount minus the platform fee is deducted from seller's next payout; platform retains its fee on refunded transactions",
+  "actor_level": "platform",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "refunded amount minus platform fee deducted from next payout",
+    "platform retains its fee on refunded transactions"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Lemon Squeezy help center (undated, accessed April 2026). Official refund deduction policy: refunded amount net of platform fee is deducted from seller's next payout; platform fee is retained by Lemon Squeezy."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+    "secondary_pointer": null
+  }
+}
