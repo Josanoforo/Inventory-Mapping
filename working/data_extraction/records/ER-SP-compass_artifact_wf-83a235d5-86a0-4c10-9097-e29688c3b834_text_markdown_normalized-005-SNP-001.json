@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-005",
+  "source_type": "help_center",
+  "source_title": "How To Save On Etsy Fees With The Share Save Program",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/16981332744087-How-to-Save-on-Etsy-Fees-with-the-Share-Save-Program",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With Share &amp; Save, you can save on Etsy fees when you drive your own traffic to your shop and listings. Once you enroll in Share &amp; Save, if a buyer places an order within 30 days of clicking a link you've shared, you get an instant refund of 4% off the eligible order total from your Etsy Payment account balance.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy Share & Save program offers sellers a 4% instant refund off eligible order total when seller-driven traffic results in a purchase within 30 days of link click",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "4",
+  "metric_unit": "percent refund of eligible order total via Etsy Share & Save program (seller-driven traffic)",
+  "time_scope_raw": "30 days (conversion window for Share & Save credit)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "seller shares links to drive own traffic to shop/listings",
+    "4% instant refund on eligible order total when buyer purchases within 30 days of clicking seller's link",
+    "refund applied to Etsy Payment account balance"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Etsy Help Center (current as of April 2026). Share & Save program: 4% refund of eligible order total for seller-driven traffic resulting in purchase within 30-day conversion window."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/16981332744087-How-to-Save-on-Etsy-Fees-with-the-Share-Save-Program",
+    "secondary_pointer": null
+  }
+}
