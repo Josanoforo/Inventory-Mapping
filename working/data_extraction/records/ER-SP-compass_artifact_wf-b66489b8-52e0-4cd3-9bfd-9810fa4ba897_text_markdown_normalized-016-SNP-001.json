@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016",
+  "source_type": "product_listing",
+  "source_title": "Jlfv4",
+  "source_ref": "https://payhip.com/b/jLFv4",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Price 6,90 € (About 7 US Dollars)\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/jLFv4 priced at €6.90 with seller-provided USD approximation of 'About 7 US Dollars'",
+  "actor_level": "unknown",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "€6.90 (approximately $7 USD per seller note)",
+  "metric_unit": "EUR; USD (approx.)",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "product priced at €6.90; seller added USD approximation 'About 7 US Dollars'",
+    "illustrates seller-side currency transparency practice on Payhip"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com/b/jLFv4 (accessed April 2026; page undated). EUR-priced product with seller-provided USD approximation. Illustrates multi-currency transparency approach used by sellers on Payhip."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/b/jLFv4",
+    "secondary_pointer": null
+  }
+}

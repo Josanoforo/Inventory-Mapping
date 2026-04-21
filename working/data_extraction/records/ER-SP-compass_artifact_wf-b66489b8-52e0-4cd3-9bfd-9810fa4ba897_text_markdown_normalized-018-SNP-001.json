@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018",
+  "source_type": "blog",
+  "source_title": "Ebook Pricing",
+  "source_ref": "https://payhip.com/blog/ebook-pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"While pricing your ebook between 2.99 and 9.99 might feel a bit low, consider having an upsell in your ebook... On Payhip, you can sell any digital products, not just ebooks.\" … \"a Payhip survey found that more than 43% of buyers pay above the minimum price set by the seller.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Payhip blog cites internal survey finding: more than 43% of Payhip buyers pay above the minimum price set by the seller; ebook pricing guidance recommends $2.99–$9.99 range with upsell strategy",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "digital products (ebooks)",
+  "metric_type": "rate",
+  "metric_value_raw": "43%+ of buyers pay above minimum price per internal Payhip survey",
+  "metric_unit": "percentage of buyers",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Payhip internal survey: 43%+ buyers pay above seller-set minimum price",
+    "ebook pricing guidance: $2.99–$9.99 range; upsell strategy recommended"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com/blog (accessed April 2026; page undated). Payhip internal survey: 43%+ of buyers pay above minimum price. Supports pay-what-you-feel model viability; survey methodology and date not disclosed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/blog/ebook-pricing",
+    "secondary_pointer": null
+  }
+}
