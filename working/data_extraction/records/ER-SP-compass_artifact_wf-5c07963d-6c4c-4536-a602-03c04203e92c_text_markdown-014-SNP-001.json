@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-014",
+  "source_type": "blog",
+  "source_title": "Etsy Vs Ebay",
+  "source_ref": "https://www.godaddy.com/resources/skills/etsy-vs-ebay",
+  "source_date_if_available": "2025-09-09",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"While Etsy is a smaller platform than eBay, it draws in about 100 million buyers who are on the hunt for unique, handmade, and artisanal goods. If your products resonate with customers who appreciate high-quality craftsmanship, Etsy may be the perfect fit for you. Etsy is also a strong choice if customer loyalty is part of your growth plan. More than 40% of sales come from repeat buyers, and about 80% of its traffic is direct or organic, which can help reduce your reliance on paid ads.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Third-party blog cites Etsy as having ~100 million buyers, 40%+ repeat buyer sales, and ~80% direct or organic traffic",
+  "actor_level": "platform",
+  "platforms": ["Etsy", "eBay"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "count",
+  "metric_value_raw": "100000000",
+  "metric_unit": "buyers (Etsy platform, third-party estimate as of 2025)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "about 100 million buyers",
+    "more than 40% of sales come from repeat buyers",
+    "about 80% of its traffic is direct or organic"
+  ],
+  "uncertainties": ["methodology_unclear"],
+  "parser_notes": [
+    "Blog post (GoDaddy, 2025-09-09). Etsy platform metrics: ~100M buyers, 40%+ repeat buyer sales, ~80% direct/organic traffic. methodology_unclear: no source citations for figures."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.godaddy.com/resources/skills/etsy-vs-ebay",
+    "secondary_pointer": null
+  }
+}
