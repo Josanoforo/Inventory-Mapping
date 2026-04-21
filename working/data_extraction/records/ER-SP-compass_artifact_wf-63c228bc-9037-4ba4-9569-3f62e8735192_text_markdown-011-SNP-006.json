@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad is a scam. They are withholding my payout from sales made even though my account is fully verified and compliant. Support is non-existent — only a chatbot that gives no help, emails go unanswered, and even the CEO ignored my message.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Seller reports Gumroad withholds payout from fully verified and compliant account; support is a non-functional chatbot; emails and CEO message unanswered",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "account fully verified and compliant",
+    "payout from sales withheld",
+    "support is only a non-functional chatbot",
+    "emails unanswered",
+    "CEO ignored direct message"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Trustpilot review (August 23, 2025). Seller reports payout withheld despite verified and compliant account; all support channels non-functional (chatbot, unanswered emails, CEO contact ignored)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

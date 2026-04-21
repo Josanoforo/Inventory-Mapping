@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-010",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The setup, protection, customer support, and putting your products in Gumroad is great. 5 star. But the fees are incredibly high, I sold an ebook for £2.50, and £1.13 (with add ons) were taken of...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Seller reports £1.13 taken from £2.50 ebook sale (~45% effective fee including add-ons); praises platform setup and support but criticizes fees as too high",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "1.13",
+  "metric_unit": "GBP taken from £2.50 ebook sale (~45% effective fee rate with add-ons, Trustpilot, August 2025)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "sold ebook for £2.50",
+    "£1.13 taken with add-ons (~45% effective fee)",
+    "praises setup, product protection, and customer support",
+    "snippet truncated"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review (August 23, 2025). Seller reports £1.13 taken from £2.50 ebook sale (~45% effective fee rate including 'add ons'); rates platform setup/support highly but criticizes fee level. Snippet truncated; 'add ons' may include payment processor or VAT components beyond Gumroad base fee."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}
