@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"(Earlier) The team was great, and my first two courses didn't even have a contract. They did all the production, helped me set up my first course, and it even became a best-seller. Then they started to downgrade these royalties. Their last proposal was 5% (royalties) for a new course, which I refused.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Domestika instructor reported royalty rate proposal decline to 5% for new course contracts; early courses had no contract",
+  "actor_level": "seller",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "5",
+  "metric_unit": "percent (royalty rate, rejected proposal)",
+  "time_scope_raw": "Earlier",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["(Earlier)", "Their last proposal was 5%", "which I refused"],
+  "uncertainties": ["time_scope_unclear", "net_vs_gross_ambiguity"],
+  "parser_notes": ["Class Central report. Instructor describes progression: no contract (early), royalty downgrades, final proposal of 5% refused. '(Earlier)' bracket suggests this quote is from an earlier time period within the article."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}

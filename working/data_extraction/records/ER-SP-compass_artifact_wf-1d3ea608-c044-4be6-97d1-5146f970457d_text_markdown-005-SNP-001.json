@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005",
+  "source_type": "seller_forum",
+  "source_title": "Pago De Cursos",
+  "source_ref": "https://www.domestika.org/es/forums/2-domestika/topics/152040-pago-de-cursos",
+  "source_date_if_available": "08.05.2020 (post date visible on fetched page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«El aumento en el monto es debido al tipo de cambio que aplica la plataforma de pago para métodos en efectivo o locales o vuestro banco al cambiar de dólares a vuestra moneda local. Tal y como se indica en el carrito de compra, el cobro se realiza en dólares por el importe que os mostramos en la web (se refleja tanto en vuestra moneda local como en USD).»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika price display in local currency with USD charge base, exchange rate applied by payment platform or buyer bank",
+  "actor_level": ["marketplace", "buyer"],
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "08.05.2020",
+  "time_scope_normalized_if_safe": "2020-05-08",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["el cobro se realiza en dólares", "se refleja tanto en vuestra moneda local como en USD"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": ["Response from Domestika staff on forum (2020). Explains that price shown in local currency but charged in USD; exchange rate gap applies."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/forums/2-domestika/topics/152040-pago-de-cursos",
+    "secondary_pointer": null
+  }
+}

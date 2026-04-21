@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-001",
+  "source_type": "news",
+  "source_title": "Exclusive Cgma Might Be On The Verge Of Shutting Down Instructors Warn",
+  "source_ref": "https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn",
+  "source_date_if_available": "September 30, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"A day later, Tyler Edlin, an Illustrator and CGMA instructor, also put all of his courses on hold indefinitely, noting that the reason teachers are not being paid is Domestika's involvement in an ongoing legal dispute.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "CGMA instructor Tyler Edlin placed courses on hold citing Domestika's legal dispute as reason teachers are not being paid",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Domestika", "CGMA"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "September 30, 2025",
+  "time_scope_normalized_if_safe": "2025-09-30",
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": ["put all of his courses on hold indefinitely", "Domestika's involvement in an ongoing legal dispute"],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": ["News article. Nature of legal dispute not specified in this snippet. CGMA (Computer Graphics Master Academy) involved as platform partner."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn",
+    "secondary_pointer": null
+  }
+}

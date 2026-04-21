@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-007",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In August 2025, when Diego Gomez*, a Madrid-based Domestika instructor, checked his instructor dashboard, he found that the billion-dollar company had stopped paying him since July. The reason was his inactivity in the forum. He didn't understand why the online creative learning platform had halted his payments now. He had stopped replying to comments four years ago (his contract never stated it as a payment condition), and he was still getting paid until June 2025.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Domestika halted instructor Diego's payments from July 2025 citing forum inactivity, despite contract not requiring it; instructor had been inactive for four years",
+  "actor_level": "seller",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "August 2025; stopped paying since July; paid until June 2025; stopped replying four years ago",
+  "time_scope_normalized_if_safe": "2025-07",
+  "geography_if_explicit": ["Spain"],
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": ["his contract never stated it as a payment condition", "he was still getting paid until June 2025"],
+  "uncertainties": [],
+  "parser_notes": ["Class Central report. Instructor pseudonymized (asterisk). Madrid-based. Payment halt July 2025, discovered August 2025. Forum activity introduced as retroactive payment condition."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}

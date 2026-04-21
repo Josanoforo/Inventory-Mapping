@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "How Us State Sales Tax And Fees Applies To Etsy Orders",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+  "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Based on applicable US State enacted marketplace facilitator tax laws, Etsy automatically calculates, collects, and remits US sales tax on behalf of sellers located anywhere in the world when:\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Etsy marketplace facilitator sales tax collection and remittance on behalf of sellers in US states",
+  "actor_level": "marketplace",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": ["United States"],
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["Based on applicable US State enacted marketplace facilitator tax laws", "sellers located anywhere in the world"],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "context_insufficient"],
+  "parser_notes": ["Snippet ends with 'when:' — conditions list not captured in this snippet."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+    "secondary_pointer": null
+  }
+}

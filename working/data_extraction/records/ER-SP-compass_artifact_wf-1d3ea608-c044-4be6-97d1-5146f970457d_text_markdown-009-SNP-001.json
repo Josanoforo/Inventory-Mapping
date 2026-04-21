@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/es/terms",
+  "source_date_if_available": "31 de enero de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Las tarifas pueden variar según su ubicación y otros factores. Si tiene la sesión iniciada en su cuenta, la moneda que verá seleccionada se basará en su ubicación en el momento de crear la cuenta. No obstante, las tarifas finales que le cobremos se calcularán siempre en USD; por tanto, dichas tarifas finales pueden variar en función de las tasas de cambio de divisas prevalentes que nuestros proveedores de pago ofrezcan.»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika pricing policy: final charges calculated in USD regardless of displayed local currency, subject to exchange rates from payment providers",
+  "actor_level": ["marketplace", "buyer"],
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "31 de enero de 2024",
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["según su ubicación y otros factores", "las tarifas finales que le cobremos se calcularán siempre en USD", "en función de las tasas de cambio de divisas prevalentes que nuestros proveedores de pago ofrezcan"],
+  "uncertainties": [],
+  "parser_notes": ["Terms of service document. Explicitly states USD as final charge currency with payment provider exchange rates applying."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/terms",
+    "secondary_pointer": null
+  }
+}
