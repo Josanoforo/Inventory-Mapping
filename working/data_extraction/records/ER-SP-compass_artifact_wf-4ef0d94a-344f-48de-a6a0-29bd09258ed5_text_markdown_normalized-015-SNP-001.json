@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/en/terms",
+  "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Fees may vary based on your location and other factors. If you are logged into your account, the currency you will see is based on your location when you created your account. However, the final fees charged to you will always be calculated in US dollars; therefore the final fees charged to you may vary depending on prevailing currency exchange rates offered by our payment providers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Domestika fees always calculated in USD; displayed currency set by account creation location; final charge varies with payment provider exchange rates",
+  "actor_level": "platform",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Global",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Fees may vary based on your location and other factors",
+    "currency you will see is based on your location when you created your account",
+    "final fees charged to you will always be calculated in US dollars",
+    "may vary depending on prevailing currency exchange rates offered by our payment providers"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Domestika Terms of Use (last updated January 31, 2024). Settlement currency: USD always. Displayed currency: set at account creation by location. Final buyer charge varies with payment provider FX rates."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/terms",
+    "secondary_pointer": null
+  }
+}
