@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payouts are created twice monthly on the 1st and 15th of the month and include all sales since the last payout. Net sales are held for 13 days before becoming available for payout on the 14th and 28th of the month. Payouts can take 1-5 days to appear in your bank account. For example, if you make a sale on the 4th of the month, it will be included in the payout created on the 15th, and paid out on the 28th.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lemon Squeezy pays out twice monthly (1st and 15th); net sales held 13 days before payout availability on 14th and 28th; bank transfers take an additional 1–5 business days",
+  "actor_level": "platform",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "13 days",
+  "time_scope_normalized_if_safe": "P13D",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "payouts created twice monthly on 1st and 15th",
+    "13-day holding period before payout availability",
+    "payouts available on 14th and 28th",
+    "bank transfer takes additional 1–5 days",
+    "example: sale on 4th → batch 15th → received 28th"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Lemon Squeezy help center (undated, accessed April 2026). Official payout schedule: twice monthly with 13-day holding period. Sale on 4th → batch created 15th → funds released 28th (+1–5 days to reach bank)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+    "secondary_pointer": null
+  }
+}
