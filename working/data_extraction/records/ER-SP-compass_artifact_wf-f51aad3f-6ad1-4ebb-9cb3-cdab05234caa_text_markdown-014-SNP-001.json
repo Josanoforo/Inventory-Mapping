@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014",
+  "source_type": "seller_forum",
+  "source_title": "Whats New Clubhouse S New Marketplace 2729331E9F",
+  "source_ref": "https://www.indiehackers.com/post/whats-new-clubhouse-s-new-marketplace-2729331e9f",
+  "source_date_if_available": "~2021",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Right now, to be honest, our MVP is on par with Gumroad in terms of functionality. Our user experience diversifies us, but the true value in what Lemon Squeezy can do for you beyond what already exists is yet to come.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Indie Hackers post (indiehackers.com, approximately 2021) by apparent Lemon Squeezy team member states LS MVP was functionally on par with Gumroad at the time; UX was the key differentiator; additional features beyond Gumroad were planned for the future",
+  "actor_level": "unknown",
+  "platforms": ["Lemon Squeezy", "Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "~2021",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "LS team (~2021): LS MVP on par with Gumroad; UX differentiates; more features to come"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "indiehackers.com (~2021). Appears to be LS team comment: LS MVP on par with Gumroad; UX differentiates; future features planned. Author identity not confirmed from source metadata."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/whats-new-clubhouse-s-new-marketplace-2729331e9f",
+    "secondary_pointer": null
+  }
+}
