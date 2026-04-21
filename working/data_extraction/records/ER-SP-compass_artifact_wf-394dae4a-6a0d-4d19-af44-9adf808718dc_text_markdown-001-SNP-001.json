@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "How Does The International Purchase Process Work",
+  "source_ref": "https://help.hotmart.com/en/article/213026287/how-does-the-international-purchase-process-work-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Besides, the price of the product can only be converted into dollar, euro, mexican peso, and peruvian soles at the time of the purchase, depending on the country the buyer is.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart limits purchase currency conversion to four options — US dollar, euro, Mexican peso, and Peruvian soles — determined by buyer's country",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexico; Peru; United States; European Union",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "price of the product can only be converted into dollar, euro, mexican peso, and peruvian soles",
+    "depending on the country the buyer is"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Hotmart help center (accessed April 14, 2026). International purchase currency conversion limited to 4 currencies: USD, EUR, MXN, PEN — determined by buyer's country. Other buyer geographies receive original product currency."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/213026287/how-does-the-international-purchase-process-work-",
+    "secondary_pointer": null
+  }
+}

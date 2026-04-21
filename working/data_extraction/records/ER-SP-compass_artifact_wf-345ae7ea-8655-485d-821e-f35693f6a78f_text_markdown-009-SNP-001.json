@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009",
+  "source_type": "blog",
+  "source_title": "Diy Book Sales Selling Direct",
+  "source_ref": "https://myimaginaryfriends.substack.com/p/diy-book-sales-selling-direct",
+  "source_date_if_available": "May 2, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip – This was my go-to for years. Even though I'm a professional web developer and build ecommerce websites for clients, I went with the simplest and cheapest option for myself for quite a long time. With Payhip, there's nothing to install on your website and very little barrier to entry. It's definitely my recommendation for beginners. There's no monthly fee, but they charge a 5% transaction fee. Reporting and statistics are not the best in the business, and exporting addresses for shipping was a bit of a headache, but I still recommend them. Perfect is the enemy of done.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_claim",
+  "subject_exact": "Web developer/author recommends Payhip for beginners — no monthly fee, 5% transaction fee, no-install setup; negatives are weak reporting and address export friction for physical shipping",
+  "actor_level": "seller",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "commission_rate",
+  "metric_value_raw": "5",
+  "metric_unit": "percent (Payhip transaction fee, free plan)",
+  "time_scope_raw": "for years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "no monthly fee",
+    "5% transaction fee",
+    "nothing to install on your website",
+    "very little barrier to entry",
+    "Reporting and statistics are not the best in the business",
+    "exporting addresses for shipping was a bit of a headache"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Substack blog (May 2, 2025). Web developer/author used Payhip for years as primary store. Recommends for beginners: no monthly fee, 5% transaction fee, no install. Weak reporting and address export for physical shipping noted as negatives. metric_value_raw: 5."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://myimaginaryfriends.substack.com/p/diy-book-sales-selling-direct",
+    "secondary_pointer": null
+  }
+}
