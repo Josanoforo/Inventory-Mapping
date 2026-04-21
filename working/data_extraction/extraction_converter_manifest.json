@@ -1,8 +1,8 @@
 {
-  "status": "in_progress",
+  "status": "complete",
   "total_skeletons_found": 1178,
-  "skeletons_processed": 1170,
-  "records_written": 1170,
+  "skeletons_processed": 1178,
+  "records_written": 1178,
   "records_recovery_staged": 0,
   "skeleton_failures": 0,
   "needs_human_review_count": 0,
@@ -8029,9 +8029,83 @@
       ],
       "issue_detail": null,
       "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-005",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-006",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear",
+        "scope_ambiguous"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-002-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-002-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-003-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-004-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-005-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-005-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear",
+        "methodology_unclear"
+      ],
+      "issue_detail": null,
+      "processed_at": "2026-04-21T00:00:00Z"
     }
   ],
   "issues": [],
   "started_at": "2026-04-21T00:00:00Z",
-  "completed_at": null
+  "completed_at": "2026-04-21T00:00:00Z"
 }
