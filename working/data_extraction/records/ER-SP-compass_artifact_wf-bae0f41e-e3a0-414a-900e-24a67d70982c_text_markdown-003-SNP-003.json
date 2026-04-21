@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-003-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-003",
+  "source_type": "database_profile",
+  "source_title": "gumtrends.com",
+  "source_ref": "https://gumtrends.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Name | Category | Average rating | Reviews | Mixed reviews | Price | Sales | Est. Revenue: Old Book Cover & Spread Mockup Design Syndrome | design / graphics | 5.0 ⭐ | 118 | 2% | $13.00 | 20,221 | $262,873.00\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Gumtrends (accessed April 2026) identifies top Gumroad product: 'Old Book Cover & Spread Mockup Design Syndrome' (design/graphics) at $13.00 with 20,221 sales and estimated $262,873 revenue; 5.0★ rating from 118 reviews with 2% mixed reviews",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": "digital templates (book cover mockup design)",
+  "metric_type": "revenue",
+  "metric_value_raw": "$262,873 estimated revenue; 20,221 sales; $13.00 price",
+  "metric_unit": "USD estimated revenue; sales count",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Top Gumroad product: $13 mockup template with 20,221 sales and ~$263k estimated revenue",
+    "5.0★ rating; 2% mixed reviews (very low dissatisfaction rate)"
+  ],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "parser_notes": [
+    "gumtrends.com (accessed April 2026; page undated). Top Gumroad product example: $13 book cover mockup design, 20,221 sales, $262,873 est. revenue, 5.0★ from 118 reviews."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumtrends.com/",
+    "secondary_pointer": null
+  }
+}

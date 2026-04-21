@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_type": "report",
+  "source_title": "Gumroad",
+  "source_ref": "https://storeleads.app/reports/gumroad",
+  "source_date_if_available": "Updated Mar 13 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"At present, there are 9,605 live stores running on the Gumroad platform.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Storeleads.app report (updated March 13, 2026) records 9,605 live stores on the Gumroad platform (Q1 2026 partial count through March 13)",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "9,605",
+  "metric_unit": "live stores",
+  "time_scope_raw": "Updated Mar 13 2026; Q1 2026 to date",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "9,605 live Gumroad stores as of March 13, 2026 (Q1 partial)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "storeleads.app/reports/gumroad (updated March 13, 2026). 9,605 live Gumroad stores as of report date (Q1 2026 partial). See SNP-003 for full quarterly trend."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://storeleads.app/reports/gumroad",
+    "secondary_pointer": null
+  }
+}
