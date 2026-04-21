@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011",
+  "source_type": "blog",
+  "source_title": "Celebrating The Women Of Patreon",
+  "source_ref": "https://news.patreon.com/articles/celebrating-the-women-of-patreon",
+  "source_date_if_available": "Accessed April 2026; likely March 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It would be easy to follow the same playbook as other platforms, but we're intentionally taking a different (and arguably more challenging) path. We're building a space where creators can keep doing what they love, forge meaningful connections with their communities, and actually make a living.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon news blog (news.patreon.com, likely March 2025) states Patreon is intentionally taking a differentiated path from other platforms, building a space where creators can sustain their craft, connect with their communities, and earn a living",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; likely March 2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Patreon positions itself as intentionally differentiated from other platforms; focus on creator livelihood and community connection"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "news.patreon.com (likely March 2025, exact date unconfirmed). Patreon differentiating positioning: different path from other platforms; creator livelihood + community focus."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/celebrating-the-women-of-patreon",
+    "secondary_pointer": null
+  }
+}
