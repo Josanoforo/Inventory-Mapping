@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We do not support alternative payout modes like Payoneer, Wise, check, money order, wire transfer, etc. If your country is not supported by direct bank deposits or PayPal, then unfortunately, we have no way to pay you out for now.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad Getting Paid help center (help.gumroad.com/article/13-getting-paid, undated, accessed April 2026) states Gumroad does not support payout methods including Payoneer, Wise, check, money order, or wire transfer; sellers in countries without bank deposit or PayPal support cannot receive payouts",
+  "actor_level": "platform",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Gumroad help center (accessed Apr 2026): no Payoneer, Wise, check, money order, or wire transfer payouts; sellers in unsupported countries with no bank/PayPal cannot receive payouts"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.gumroad.com/article/13-getting-paid (undated, accessed Apr 2026). Only bank and PayPal payouts available; no Payoneer/Wise/wire. Countries without either option: no payout possible."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}

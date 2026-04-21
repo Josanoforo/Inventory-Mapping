@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You can connect your Stripe account to receive payments for credit card sales directly to your Stripe account. This feature is available in all countries where Stripe operates, except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad Getting Paid help center (help.gumroad.com/article/13-getting-paid, undated, accessed April 2026) states sellers can connect a Stripe account to receive credit card sales directly; this feature is available in all Stripe-supported countries except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand",
+  "actor_level": "platform",
+  "platforms": ["Gumroad", "Stripe"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazil, India, Indonesia, Malaysia, Mexico, Philippines, Thailand (excluded from Stripe payout feature)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Gumroad help center (accessed Apr 2026): Stripe account connection for direct credit card payouts available in all Stripe countries except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, Thailand"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.gumroad.com/article/13-getting-paid (undated, accessed Apr 2026). Stripe payout connection: 7 countries excluded. Corroborates carlosbecker.com personal account of Brazil PayPal-only situation."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}
