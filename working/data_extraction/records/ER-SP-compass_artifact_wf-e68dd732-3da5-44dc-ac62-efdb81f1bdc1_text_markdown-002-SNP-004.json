@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://gumroad.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Since January 1, 2025, Gumroad handles ALL your tax obligations. Yes, you read that right – we manage sales tax collection and remittance worldwide.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad pricing page (gumroad.com/pricing, accessed Apr 2026, undated) states that since January 1, 2025, Gumroad handles all tax obligations including sales tax collection and remittance worldwide",
+  "actor_level": "platform",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated; effective date referenced: January 1, 2025",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Gumroad: handles all tax obligations worldwide since Jan 1, 2025; collects and remits sales tax"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "gumroad.com/pricing (accessed Apr 2026, undated). Gumroad as worldwide tax handler since 2025-01-01."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/pricing",
+    "secondary_pointer": null
+  }
+}
