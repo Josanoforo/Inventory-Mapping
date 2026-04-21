@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_date_if_available": "24 marzo 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"En general la plataforma es estupenda para los productores y por supuesto para los afiliados. Creo que la plataforma seguirá creciendo y yo quero estar presente. Estoy empezando con mis productos y estoy trabajando para los buenos resultados.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart producer endorses platform as great for both producers and affiliates, and expresses intent to continue as an early-stage creator working toward results",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "platform described as 'great' for producers and affiliates",
+    "creator at early stage, working toward results",
+    "positive overall sentiment"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (March 24, 2026). New Hotmart producer gives positive overall assessment; calls platform great for producers and affiliates; describes self as early-stage creator."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6",
+    "secondary_pointer": null
+  }
+}

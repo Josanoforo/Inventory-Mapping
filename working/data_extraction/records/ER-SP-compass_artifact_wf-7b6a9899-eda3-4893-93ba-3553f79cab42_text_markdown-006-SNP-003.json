@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_date_if_available": "24 marzo 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Soy productor en Hotmart y una clienta ha solicitado un chargeback de $536.35 en la transacción HP3116820252. He contactado con Klarna (caso 100836111) y con Stripe Support. Ambos han confirmado que...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart producer reports $536.35 chargeback filed by a client, with both Klarna and Stripe payment processors contacted; outcome truncated",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "revenue",
+  "metric_value_raw": "536.35",
+  "metric_unit": "USD chargeback amount on Hotmart producer account (Klarna and Stripe involved in dispute)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "$536.35 chargeback filed by client on Hotmart",
+    "Klarna and Stripe both contacted; confirmation truncated",
+    "snippet truncated before outcome"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (March 24, 2026). Hotmart producer reports $536.35 chargeback from a client; Klarna and Stripe both contacted and both confirmed something (snippet truncated before outcome is stated)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6",
+    "secondary_pointer": null
+  }
+}

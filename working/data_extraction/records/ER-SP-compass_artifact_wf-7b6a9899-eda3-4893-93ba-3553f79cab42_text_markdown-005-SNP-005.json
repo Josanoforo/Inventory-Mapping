@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+  "source_date_if_available": "1 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es una experiencia desagradable para creadores. Aca estoy usando su paygate para mi plataforma de Kajabi, para aceptar pagos en monedas locales en Latinoamérica y se han tardado más de un mes en aprobar mis documentos y darme entrada para poder registrar cuenta bancaria y aceptar pagos en dólares aunque ya estaba vendiendo mi producto digital. Estoy poniendo quejas en el BBB de los EEUU. Es falta de ética el tomarse 5 días cada vez para \\\"analizar\\\" documentos legales que ni me piden acá en EEUU. Al poner mis quejas finalmente aprobaron los documentos pero no puedo retirar todo el dinero que he hecho a pesar de que ellos se quedan con un porcentaje. Piénsalo bien antes de usar su plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "US-based digital seller reports 1+ month document approval delays on Hotmart for LatAm payment setup via Kajabi, multiple 5-day review cycles per document, BBB complaint filed, and post-approval inability to withdraw all earned funds despite platform commission retention",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "more than one month (document approval); 5 days per review cycle",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "US, Latin America",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "US-based seller using Hotmart paygate with Kajabi for Latin American payments",
+    "1+ month document approval delay; 5-day cycles per document review",
+    "BBB complaint filed (US)",
+    "post-approval: unable to withdraw all earned funds despite platform commission retention"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (October 1, 2025). US-based Hotmart seller reports 1+ month document approval delay for LatAm payment setup via Kajabi; BBB complaint filed; post-approval withdrawal restrictions persist despite platform commission retention."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "secondary_pointer": null
+  }
+}

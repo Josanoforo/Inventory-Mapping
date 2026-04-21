@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "total_skeletons_found": 1178,
-  "skeletons_processed": 440,
-  "records_written": 440,
+  "skeletons_processed": 450,
+  "records_written": 450,
   "records_recovery_staged": 0,
   "skeleton_failures": 0,
   "needs_human_review_count": 0,
@@ -2781,6 +2781,101 @@
       "destination": "records",
       "issues_for_this_record": [],
       "processed_at": "2026-04-21T05:21:52Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-004",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "context_insufficient",
+          "detail": "snippet truncated; Brazil geography from R$ BRL mention"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-005",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-006",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "context_insufficient",
+          "detail": "snippet truncated after seller removes products"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-003",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "context_insufficient",
+          "detail": "snippet truncated before chargeback outcome"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-004",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "context_insufficient",
+          "detail": "snippet truncated"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "context_insufficient",
+          "detail": "snippet truncated"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "source_date_unclear",
+          "detail": "Google Play review undated; accessed April 2026"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-001-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "methodology_unclear",
+          "detail": "qualitative claim; no specific percentages for search-to-download improvement"
+        }
+      ],
+      "processed_at": "2026-04-21T05:26:24Z"
     }
   ],
   "issues": [],
