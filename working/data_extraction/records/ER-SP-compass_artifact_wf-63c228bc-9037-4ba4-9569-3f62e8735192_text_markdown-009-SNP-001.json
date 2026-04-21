@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Gumroad Hacks That Brought Me",
+  "source_ref": "https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me",
+  "source_date_if_available": "January 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I've made over 8,000 sales and created over 45+ Gumroad products. Most creators leave thousands of dollars on the table. The difference between you getting a $500/month payout or a $2,000/month payout often comes down to a few settings most creators don't even know exist.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Seller reports 8,000+ sales and 45+ products on Gumroad; claims most creators forfeit significant revenue due to unknown platform settings, with payout difference ranging from $500 to $2,000 per month",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "count",
+  "metric_value_raw": "8000",
+  "metric_unit": "total sales on Gumroad (seller personal account, Substack, January 2026)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "8,000+ sales on Gumroad",
+    "45+ Gumroad products",
+    "$500/month vs $2,000/month payout range attributed to unknown platform settings"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Substack article (January 24, 2026). Seller with 8,000+ sales and 45+ products claims most creators miss significant revenue due to unknown platform settings; cites $500–$2,000/month payout range as illustrative of earnings potential gap."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://timomason.substack.com/p/10-gumroad-hacks-that-brought-me",
+    "secondary_pointer": null
+  }
+}

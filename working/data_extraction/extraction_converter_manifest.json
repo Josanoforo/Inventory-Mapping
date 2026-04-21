@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "total_skeletons_found": 1178,
-  "skeletons_processed": 370,
-  "records_written": 370,
+  "skeletons_processed": 380,
+  "records_written": 380,
   "records_recovery_staged": 0,
   "skeleton_failures": 0,
   "needs_human_review_count": 0,
@@ -1483,13 +1483,17 @@
     {
       "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008-SNP-001",
       "destination": "records",
-      "issues_for_this_record": ["current_vs_historical_ambiguity"],
+      "issues_for_this_record": [
+        "current_vs_historical_ambiguity"
+      ],
       "processed_at": "2026-04-21T04:15:03Z"
     },
     {
       "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008-SNP-002",
       "destination": "records",
-      "issues_for_this_record": ["current_vs_historical_ambiguity"],
+      "issues_for_this_record": [
+        "current_vs_historical_ambiguity"
+      ],
       "processed_at": "2026-04-21T04:15:04Z"
     },
     {
@@ -1513,7 +1517,9 @@
     {
       "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-012-SNP-001",
       "destination": "records",
-      "issues_for_this_record": ["current_vs_historical_ambiguity"],
+      "issues_for_this_record": [
+        "current_vs_historical_ambiguity"
+      ],
       "processed_at": "2026-04-21T04:20:03Z"
     },
     {
@@ -1609,7 +1615,9 @@
     {
       "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-008-SNP-001",
       "destination": "records",
-      "issues_for_this_record": ["metric_ambiguous"],
+      "issues_for_this_record": [
+        "metric_ambiguous"
+      ],
       "processed_at": "2026-04-21T04:35:04Z"
     },
     {
@@ -1669,7 +1677,9 @@
     {
       "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-014-SNP-003",
       "destination": "records",
-      "issues_for_this_record": ["current_vs_historical_ambiguity"],
+      "issues_for_this_record": [
+        "current_vs_historical_ambiguity"
+      ],
       "processed_at": "2026-04-21T04:45:04Z"
     },
     {
@@ -2301,6 +2311,66 @@
       "destination": "records",
       "issues_for_this_record": [],
       "processed_at": "2026-04-21T08:30:10Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:30:11Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:30:12Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-006-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:30:13Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-007-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:30:14Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-008-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:30:15Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-009-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:45:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:45:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:45:03Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:45:04Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T08:45:05Z"
     }
   ],
   "issues": [],
