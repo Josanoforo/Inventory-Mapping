@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://payhip.com/terms",
+  "source_date_if_available": "\"Last updated: 19 February 2018\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"All payments will be made directly to you by the End User via Paypal or Stripe or any other payment gateway we choose to support.\"\n\n> \"You must have an active Paypal or Stripe account to use our service and you must abide by and adhere to their respective terms, conditions and policies (Paypal terms, Stripe terms) in order to use our site.\"\n\n**Verbatim text (Section 2 — Licence, VAT):**\n\n> \"Once you have uploaded your file, you will set the sale price and decide whether the price includes or excludes VAT for EU customers.\"\n\n**Verbatim text (Section 5 — VAT Obligations):**\n\n> \"We will comply with all applicable laws in performing our rights and obligations under these terms and conditions and we shall obtain, at our own cost, all clearances consents and provisions required in connection with distributing copies of Your Digital Content. This includes dealing with HMRC in respect of the place of supply rules for VAT supplies made within in the European Union.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip terms of service (payhip.com/terms, Feb 19, 2018) states payments are made directly to sellers by end users via PayPal, Stripe, or other supported gateways; sellers must have an active PayPal or Stripe account and comply with their terms; sellers set prices as VAT-inclusive or VAT-exclusive for EU customers; Payhip handles HMRC and EU VAT supply rule compliance at its own cost",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Last updated: 19 February 2018",
+  "time_scope_normalized_if_safe": "2018-02",
+  "geography_if_explicit": "EU/UK",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Payhip ToS (Feb 2018): payments via PayPal/Stripe; active PayPal/Stripe required; seller sets VAT-incl/excl price; Payhip handles EU VAT compliance"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "payhip.com/terms (Feb 19, 2018). TOS pre-dates many later gateways; may be superseded by current policy. Payments via PayPal/Stripe; EU VAT handled by Payhip."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/terms",
+    "secondary_pointer": null
+  }
+}

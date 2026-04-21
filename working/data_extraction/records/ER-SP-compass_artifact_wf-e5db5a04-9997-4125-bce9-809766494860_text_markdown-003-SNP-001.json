@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Shopify O Kichink",
+  "source_ref": "https://e-commerce.terrabionic.mx/shopify/shopify-o-kichink",
+  "source_date_if_available": "April 26, 2017",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Kichink, puede ser una solución atractiva para comercios pequeños, nuevos emprendedores que desean probar en el negocio electrónico, pero Shopify es la plataforma en la que un emprendedor puede crear su tienda, crecer con ella, sin la necesidad de migrar a un nuevo servidor de alojamiento.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Third-party blog (e-commerce.terrabionic.mx/shopify/shopify-o-kichink, Apr 26, 2017) characterizes Kichink as suitable for small businesses and new entrepreneurs testing e-commerce, while Shopify is described as a scalable platform where entrepreneurs can grow without needing to migrate to a different hosting solution",
+  "actor_level": "unknown",
+  "platforms": ["Kichink", "Shopify"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 26, 2017",
+  "time_scope_normalized_if_safe": "2017-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Third-party: Kichink suits small/new merchants; Shopify better for long-term growth without migration"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "terrabionic.mx (Apr 26, 2017). Kichink vs Shopify: Kichink for entry-level; Shopify for scalable growth."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://e-commerce.terrabionic.mx/shopify/shopify-o-kichink",
+    "secondary_pointer": null
+  }
+}
