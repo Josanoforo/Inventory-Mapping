@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008",
+  "source_type": "seller_forum",
+  "source_title": "Td P",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/suspended-wrong-and-no-help/td-p/148160252",
+  "source_date_if_available": "April 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"My account suspended incorrectly :'We let you know on Sep 06, 2024 that your account was suspended. It looks like you didn't appeal your suspension within six months of this date, so your account is now permanently suspended.' today is april 2025 · absolutely incorrect , I have 5 emails sent to etsy rep with requested information ... I did nothing wrong -they doubt i make my items myself and i sent them video of process and other proof, please help to reinstate USA manufacturer account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy US manufacturer seller reports account permanently suspended in April 2025 after Etsy claimed seller missed the 6-month appeal window from September 2024 suspension; seller disputes this and provided video proof of manufacturing process",
+  "actor_level": "seller",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "six months",
+  "time_scope_normalized_if_safe": "P6M",
+  "geography_if_explicit": "US",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "account suspended September 6, 2024 for doubted handmade status",
+    "sent video proof of manufacturing process and 5 emails with requested information",
+    "April 2025: told 6-month appeal window expired; account permanently suspended",
+    "seller disputes timeline, claims appeals were submitted"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Etsy seller forum (April 2025). US manufacturer reports account suspended September 2024 (doubted handmade status); sent video proof and 5 emails to Etsy. Told in April 2025 that 6-month appeal window expired, resulting in permanent suspension despite seller's claimed appeals."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://community.etsy.com/t5/Technical-Issues/suspended-wrong-and-no-help/td-p/148160252",
+    "secondary_pointer": null
+  }
+}
