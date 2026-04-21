@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "total_skeletons_found": 1178,
-  "skeletons_processed": 540,
-  "records_written": 540,
+  "skeletons_processed": 550,
+  "records_written": 550,
   "records_recovery_staged": 0,
   "skeleton_failures": 0,
   "needs_human_review_count": 0,
@@ -3506,6 +3506,98 @@
         "source_date_unclear"
       ],
       "issue_detail": "Envato Elements landing page undated",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-004-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": "Envato Elements pricing page undated",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-005-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear"
+      ],
+      "issue_detail": "Third-party comparison article; methodology not cited",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-005-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear"
+      ],
+      "issue_detail": "Author's personal assessment; no cited methodology",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-006-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "source_date_unclear"
+      ],
+      "issue_detail": "Envato Elements help center page undated",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-007-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "current_vs_historical_ambiguity"
+      ],
+      "issue_detail": "Shutterstock acquisition press release July 2024",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-008-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear"
+      ],
+      "issue_detail": "Blog author strategy advice; no cited traffic/conversion data",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-009-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear",
+        "source_date_unclear"
+      ],
+      "issue_detail": "2025 article; no specific date or methodology cited",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear",
+        "source_date_unclear"
+      ],
+      "issue_detail": "2025 article; no specific date; $200 coverage unverified",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-011-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear"
+      ],
+      "issue_detail": "Blog pricing comparison March 2026; not primary source",
+      "processed_at": "2026-04-21T00:00:01Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-011-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [
+        "methodology_unclear"
+      ],
+      "issue_detail": "'ADI' metric undefined; author's qualitative assessment",
       "processed_at": "2026-04-21T00:00:01Z"
     }
   ],
