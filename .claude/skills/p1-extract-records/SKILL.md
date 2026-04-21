@@ -4,16 +4,16 @@ Executes Module — Extraction Converter (Data Extraction stage 2). Reads skelet
 
 ## Module this skill executes
 
-Read `upstream/data-extraction/modules/extraction_converter.md` in full before processing anything. The module is the contract. This skill is the execution instruction layered on top.
+Read `phases/01-source-intake/data-extraction/modules/extraction_converter.md` in full before processing anything. The module is the contract. This skill is the execution instruction layered on top.
 
 ## Mandatory reading before any skeleton is processed
 
 Before touching any skeleton file, load these into context and keep them available throughout the run:
 
-1. `upstream/data-extraction/modules/extraction_converter.md` — the module contract
-2. `upstream/data-extraction/contracts/data_extraction_contract.md` — the extraction guide, including field definitions, quality rules, and failure taxonomy
-3. `upstream/data-extraction/schemas/data_extraction_record.schema.json` — the target schema with closed enums
-4. `upstream/data-extraction/schemas/extraction_converter_manifest.schema.json` — the manifest schema this skill writes to
+1. `phases/01-source-intake/data-extraction/modules/extraction_converter.md` — the module contract
+2. `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` — the extraction guide, including field definitions, quality rules, and failure taxonomy
+3. `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json` — the target schema with closed enums
+4. `phases/01-source-intake/data-extraction/schemas/extraction_converter_manifest.schema.json` — the manifest schema this skill writes to
 
 If any of these files cannot be read, stop immediately and report which file is missing. Do not attempt to proceed from memory.
 
@@ -51,7 +51,7 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**Rule 1: The contract is the only authority.** For each of the 15 judgment fields, consult the corresponding section of `upstream/data-extraction/contracts/data_extraction_contract.md` before deciding. If the contract gives clear instruction that applies, follow it. Do not substitute your own reasoning for what the contract says.
+**Rule 1: The contract is the only authority.** For each of the 15 judgment fields, consult the corresponding section of `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` before deciding. If the contract gives clear instruction that applies, follow it. Do not substitute your own reasoning for what the contract says.
 
 **Rule 2: Closed enums are closed.** Fields with enum values (`claim_type`, `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties`) may only contain values from the enums in `data_extraction_record.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
 
