@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=4",
+  "source_date_if_available": "7 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Cerraron mi cuenta supuestamente por plagio, cuando yo cree mi ebook completamente con inteligencia artificial. Se quedaron con $2,000 que habian en mi cuenta, que gane con mucho esfuerzo y ahora no me permiten ingresar y sacar los fondos. Tengo campañas de Facebook por pagar y no tengo respuesta de ellos\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart seller reports account closed for alleged plagiarism of AI-generated ebook, with $2,000 in sales funds withheld and no support response",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "revenue",
+  "metric_value_raw": "2000",
+  "metric_unit": "USD withheld from seller account following Hotmart account closure for AI-generated ebook (October 2025)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "account closed for alleged plagiarism of AI-created ebook",
+    "$2,000 in sales funds withheld after closure",
+    "no response from Hotmart support",
+    "pending Facebook ad bills without access to funds"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (October 7, 2025). Hotmart seller reports account closed for alleged plagiarism of AI-generated ebook; $2,000 in sales funds withheld with no support response."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=4",
+    "secondary_pointer": null
+  }
+}
