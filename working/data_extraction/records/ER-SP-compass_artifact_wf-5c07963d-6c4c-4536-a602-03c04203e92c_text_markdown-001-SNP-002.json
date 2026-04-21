@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Shopify Vs Etsy",
+  "source_ref": "https://lovable.dev/guides/shopify-vs-etsy",
+  "source_date_if_available": "2026-02-26",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy confines every shop to the same marketplace template. Sellers can upload a banner, add a logo, and arrange featured items within shop customization. However, they cannot modify page layouts, change typography, access HTML or CSS code, customize checkout pages, or control navigation structure. Every Etsy product page uses a consistent template structure, and the store URL remains at etsy.com/shop/yourname.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy restricts all stores to a fixed marketplace template; sellers cannot modify layouts, typography, HTML/CSS, checkout, or navigation; store URL is fixed at etsy.com/shop/yourname",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "confines every shop to the same marketplace template",
+    "cannot modify page layouts, change typography, access HTML or CSS code",
+    "URL remains at etsy.com/shop/yourname"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Blog post (lovable.dev, 2026-02-26). Describes Etsy store customization constraints: fixed template, no layout/typography/HTML/checkout/navigation control; URL locked to etsy.com/shop/yourname."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://lovable.dev/guides/shopify-vs-etsy",
+    "secondary_pointer": null
+  }
+}
