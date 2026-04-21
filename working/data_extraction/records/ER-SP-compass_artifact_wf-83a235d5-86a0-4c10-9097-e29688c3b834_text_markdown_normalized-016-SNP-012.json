@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-012",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sellers in certain countries will be charged a Regulatory Operating fee on each transaction. A Regulatory Operating fee is a fixed percentage of the price you display for each listing plus the amount you charge for shipping (including gift wrapping and personalization, if applicable) and is charged, where applicable, in addition to other fees described in this Policy. Regulatory Operating fees may vary per country and are charged as a result of the increased cost of operating in the relevant country, for example, as a result of additional costs of compliance with applicable regulation(s).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy policy states a Regulatory Operating Fee (fixed %, varies by country) is charged on listing price plus shipping in certain countries, in addition to all other fees; attributed to increased compliance costs in those markets",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Regulatory Operating Fee: fixed % on listing price + shipping (incl. gift wrap and personalization)",
+    "applies to sellers in certain countries (specific countries not named in this snippet)",
+    "rate varies by country",
+    "charged in addition to all other fees"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Etsy legal/fees page (current as of April 2026). Regulatory Operating Fee: fixed %, assessed on listing price + shipping; charged in unspecified countries in addition to other fees; rate varies by country."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}
