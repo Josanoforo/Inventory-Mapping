@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-007",
+  "source_type": "pricing_page",
+  "source_title": "Precios",
+  "source_ref": "https://hotmart.com/es-es/precios",
+  "source_date_if_available": "No visible date; copyright 2011–2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Solo pagas un porcentaje cuando realizas una venta... si tu producto cuesta más de 15 euros, pagarás 9,90% + 0.50 céntimos; si vale 15 euros o menos, pagarás 9,90% + 0.10 céntimos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart European pricing page (Spanish, undated, copyright 2011-2026) states EUR transaction fee structure: products priced above €15 — 9.90% + €0.50; products priced €15 or less — 9.90% + €0.10",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": ">€15: 9.90% + €0.50; ≤€15: 9.90% + €0.10",
+  "metric_unit": "% + EUR",
+  "time_scope_raw": "No visible date; copyright 2011–2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "EUR transaction fee for products >€15: 9.90% + €0.50",
+    "EUR transaction fee for products ≤€15: 9.90% + €0.10"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "hotmart.com/es-es/precios (undated; copyright 2011-2026, Spanish). EUR transaction fees: >€15 → 9.90% + €0.50; ≤€15 → 9.90% + €0.10."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es-es/precios",
+    "secondary_pointer": null
+  }
+}

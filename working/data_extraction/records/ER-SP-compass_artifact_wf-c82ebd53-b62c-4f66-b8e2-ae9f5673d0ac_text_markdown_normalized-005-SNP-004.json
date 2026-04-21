@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+  "source_type": "policy_page",
+  "source_title": "Payments Policy",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "Updated 28/11/2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart does not offer any protection against chargebacks or payment blocking by the user. The balance available in a user's account may suffer deductions due to refunded, blocked or charged back transactions at any time.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart Payments Policy (updated November 28, 2025) states: no chargeback or payment blocking protection is offered; account balance may be deducted at any time due to refunded, blocked, or charged-back transactions",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Updated 28/11/2025",
+  "time_scope_normalized_if_safe": "2025-11",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "No chargeback or payment blocking protection offered by Hotmart",
+    "Account balance may be deducted at any time for refunded, blocked, or charged-back transactions"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "hotmart.com/en/legal/payments-policy (updated Nov 28, 2025). No chargeback protection; account deductions possible at any time for refunds/blocks/chargebacks."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+    "secondary_pointer": null
+  }
+}
