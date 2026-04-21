@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.patreon.com",
+  "source_date_if_available": "December 11, 2025 (experience: December 2, 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I am writing this to express my deep dissatisfaction with Patreons service and support. I am giving a 1-star because the platform has refused to issue a refund despite clear evidence that I was scammed. I subscribed to a creator who didt deliver the promised content and misled their patrons. Despite reporting this fraud, Patreon's support team chose to hide behind rigid policies rather than protecting me from a clear scam. By allowing such creators to keep the money without consequences, Patreon is failing its community and enabling fraudulent behavior.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Trustpilot reviewer (December 2025) subscribed to Patreon creator who did not deliver promised content; Patreon refused refund despite reported fraud; reviewer states Patreon hides behind rigid policies rather than protecting patrons from creator fraud",
+  "actor_level": "unknown",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Experience December 2, 2025; review December 11, 2025",
+  "time_scope_normalized_if_safe": "2025-12-02",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "creator did not deliver promised content",
+    "Patreon refund denied despite reported fraud evidence",
+    "reviewer states Patreon 'enables fraudulent behavior' by creators"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com (December 11, 2025). Patron defrauded by creator; Patreon refund denied; platform cited for protecting creators over patrons. Illustrates creator accountability gap on Patreon."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.patreon.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.patreon.com",
+  "source_date_if_available": "December 11, 2025 (experience: December 2, 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I was supporting a content provider on YouTube named The Next Layer. I sent my money to this crooked website and I'm still not able to get access to the content promised. The site is totally devoid of any place to contact them. The YouTube channel for the content provider has a Gestapo AI that will not allow any questions outside of the video content. I don't know if they know that this rip off provider is affecting their business. I'm done with them. I would suggest staying away from patreon!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Trustpilot reviewer (December 2025) paid Patreon for YouTube creator 'The Next Layer'; unable to access promised content; Patreon site has no visible contact option; YouTube channel uses AI moderation that blocks off-topic questions",
+  "actor_level": "unknown",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": "digital content (YouTube creator content)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Experience December 2, 2025; review December 11, 2025",
+  "time_scope_normalized_if_safe": "2025-12-02",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "patron unable to access promised content after payment",
+    "Patreon platform described as having no visible contact mechanism",
+    "YouTube channel AI moderation prevents off-topic questions"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com (December 11, 2025). Patron paid for YouTube creator 'The Next Layer'; no content access; no Patreon contact visible; YouTube channel AI blocks patron questions. Illustrates content access failure and Patreon support inaccessibility."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.patreon.com",
+    "secondary_pointer": null
+  }
+}

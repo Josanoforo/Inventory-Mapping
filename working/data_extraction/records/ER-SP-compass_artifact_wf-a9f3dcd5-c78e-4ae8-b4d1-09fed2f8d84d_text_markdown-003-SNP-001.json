@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-003",
+  "source_type": "article",
+  "source_title": "How Patreon And Kajabi Have Helped Creators Earn A Combined 20 Billion",
+  "source_ref": "https://www.inc.com/annabel-burba/how-patreon-and-kajabi-have-helped-creators-earn-a-combined-20-billion/91223212",
+  "source_date_if_available": "August 6, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon has more than 25 million paying subscribers, which results in $2 billion-plus of annual revenue for creators, according to Conte. The platform also boasts 100 million free memberships—of which about 700,000 convert to paid a month, he said.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Inc.com quotes Patreon CEO Jack Conte (August 2025): 25M+ paying subscribers, $2B+ annual creator revenue, 100M free memberships with ~700k converting to paid per month",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "subscriber_count",
+  "metric_value_raw": "25M+ paying subscribers; $2B+ annual creator revenue; 100M free memberships; ~700k free-to-paid conversions/month",
+  "metric_unit": "subscribers; USD/year; memberships; conversions/month",
+  "time_scope_raw": "August 6, 2025; metrics attributed to CEO statement",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "25M+ paying subscribers on Patreon",
+    "$2B+ annual creator revenue",
+    "100M free memberships; ~700k/month convert to paid"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "inc.com (August 6, 2025). CEO Conte quoted on Patreon scale: 25M+ paying subscribers, $2B+ creator revenue, 100M free members. CEO statement via third-party article."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.inc.com/annabel-burba/how-patreon-and-kajabi-have-helped-creators-earn-a-combined-20-billion/91223212",
+    "secondary_pointer": null
+  }
+}
