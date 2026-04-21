@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043",
+  "source_type": "report",
+  "source_title": "Overview",
+  "source_ref": "https://www.semrush.com/website/payhip.com/overview",
+  "source_date_if_available": "Last updated March 12, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In February payhip.com received 10.55M visits with the average session duration 08:04\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "payhip.com received 10.55M visits in February 2026 with average session duration of 08:04 per SEMrush (last updated March 12, 2026)",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "10.55M visits; avg session 08:04",
+  "metric_unit": "visits per month; session duration (mm:ss)",
+  "time_scope_raw": "February (last updated March 12, 2026)",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "payhip.com received 10.55M visits in February 2026",
+    "average session duration 08:04"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "semrush.com/website/payhip.com/overview (last updated March 12, 2026). payhip.com traffic: 10.55M monthly visits in February 2026; avg session duration 08:04."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.semrush.com/website/payhip.com/overview",
+    "secondary_pointer": null
+  }
+}
