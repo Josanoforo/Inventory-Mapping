@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009",
+  "source_type": "database_profile",
+  "source_title": "Podcasts",
+  "source_ref": "https://graphtreon.com/top-patreon-creators/podcasts",
+  "source_date_if_available": "Accessed April 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Matt and Shane's Secret Podcast — Creating Hot Casts — 118,491 Paid Members\" and \"Chapo Trap House — Creating Chapo Trap House Podcast — 47,046 Paid Members — $199,298 Per month\" and \"TrueAnon Podcast — The ONLY Anti-Pedophile Podcast fighting the Sicko Elite — 45,985 Paid Members — $203,188 Per month\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Graphtreon top Patreon podcast creator rankings with paid member counts and monthly earnings as accessed April 2026",
+  "actor_level": "seller",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": null,
+  "metric_unit": "USD/month and paid members (multiple creators)",
+  "time_scope_raw": "Accessed April 2026; Updated daily",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": ["Updated daily"],
+  "uncertainties": ["net_vs_gross_ambiguity", "time_scope_unclear"],
+  "parser_notes": ["Three top podcast creators listed with mixed metrics; Matt and Shane's shows 118,491 members here vs 127,986 on main top-creators page (same source, different pages, slight discrepancy possibly due to different cached values or access timing); dollar amounts likely represent gross patron pledges before Patreon fee"],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphtreon.com/top-patreon-creators/podcasts",
+    "secondary_pointer": null
+  }
+}
