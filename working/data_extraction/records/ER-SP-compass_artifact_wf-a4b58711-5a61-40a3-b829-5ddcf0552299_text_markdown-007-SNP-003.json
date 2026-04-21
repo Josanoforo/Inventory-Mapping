@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Faq",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+  "source_date_if_available": "Updated August 05, 2025 16:00 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"There are no additional fees for refunding. When you initiate a refund, you only give back the amount you originally received, and we return any remaining amount retained by Patreon to the paid member/customer, including Patreon's share and any sales tax/VAT.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon Creator Fees FAQ states no additional fees for refunds; creator returns only their received amount; Patreon returns its share plus sales tax/VAT to the member",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "0",
+  "metric_unit": "additional refund fee (none charged by Patreon)",
+  "time_scope_raw": "Updated August 05, 2025",
+  "time_scope_normalized_if_safe": "2025-08-05",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "no additional fees for initiating refunds",
+    "creator returns only what they originally received",
+    "Patreon refunds its own share + sales tax/VAT to member automatically"
+  ],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "Patreon Creator Fees FAQ (updated August 5, 2025). Refund mechanism: creator only returns their net amount; Patreon handles returning its own fee share and tax to member. No extra refund fee charged to creator."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+    "secondary_pointer": null
+  }
+}

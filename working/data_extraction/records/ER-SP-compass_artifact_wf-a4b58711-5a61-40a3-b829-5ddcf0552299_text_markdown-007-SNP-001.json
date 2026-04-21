@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Faq",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+  "source_date_if_available": "Updated August 05, 2025 16:00 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Platform fee – A percentage of successfully processed payments. This depends on your plan: creators on the standard plan pay 10%, while legacy plan creators may pay 5%, 8% or 11%. You can check which plan you're on in your Account Settings\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon Creator Fees FAQ states platform fee rates: standard plan 10%; legacy plans 5%, 8%, or 11% depending on plan",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "10",
+  "metric_unit": "% platform fee (standard plan; legacy plans: 5%, 8%, or 11%)",
+  "time_scope_raw": "Updated August 05, 2025",
+  "time_scope_normalized_if_safe": "2025-08-05",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "standard plan: 10% platform fee",
+    "legacy plans: 5%, 8%, or 11% (plan-dependent)",
+    "creators can check their plan in Account Settings"
+  ],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "Patreon Creator Fees FAQ (updated August 5, 2025). Platform fee schedule: standard 10%; legacy plans 5/8/11%. August 2025 date; may not reflect current rates."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+    "secondary_pointer": null
+  }
+}
