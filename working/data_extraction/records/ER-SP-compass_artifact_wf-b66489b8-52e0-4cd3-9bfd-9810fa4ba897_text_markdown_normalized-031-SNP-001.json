@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-031-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-031",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-031",
+  "source_type": "product_listing",
+  "source_title": "Purgeitwithpatti",
+  "source_ref": "https://payhip.com/purgeitwithpatti",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Collections: \"All Products | Purge it with Patti | Paperback Books & Journals | E-books & Digital Journals | My Next Chapter Habit Trackers\" | Products in E-books & Digital Journals: - Purge it Plan E-Book | Detoxify Your Body Digital Download E-Book | Recipes for Detoxing Your Body | Weight Loss | Reset Your Body and Mind — $14.95 | - Detox Diary Prep for the Purge, Digital Journal with Unlimited Pages, Printable, Goodnotes, Journal Mind, Body, Soul, Faith Based, Declutter Pantry, Reflection Journal — $7.99 | - Pray it Like You Mean It - Digital Prayer Journal — $14.95 | - Read it Like You Mean It - Digital Bible Study Journal — $14.95",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Payhip seller 'purgeitwithpatti' (accessed April 2026) organizes products in 5 collections; e-books and digital journals include: detox/body reset e-book ($14.95), detox digital journal with unlimited pages/Goodnotes compatibility ($7.99), digital prayer journal ($14.95), digital Bible study journal ($14.95)",
+  "actor_level": "unknown",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "digital journals, e-books (health/wellness, faith-based)",
+  "metric_type": "price",
+  "metric_value_raw": "Products priced at $7.99 and $14.95 USD; 4 digital products listed",
+  "metric_unit": "USD",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "5 collections: all products, brand, paperback books/journals, e-books/digital journals, habit trackers",
+    "digital products: detox/wellness e-books at $14.95; digital journal at $7.99; faith-based journals at $14.95"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com/purgeitwithpatti (accessed April 2026; page undated). Health/wellness and faith-based digital journal/e-book seller: 4 digital products priced $7.99–$14.95. Illustrates niche wellness digital content store on Payhip."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/purgeitwithpatti",
+    "secondary_pointer": null
+  }
+}
