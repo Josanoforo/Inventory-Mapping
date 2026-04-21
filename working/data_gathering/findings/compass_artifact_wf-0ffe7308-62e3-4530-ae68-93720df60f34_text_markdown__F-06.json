@@ -1,0 +1,16 @@
+{
+  "what": "Payoneer withdrawal fees for Etsy sellers are typically up to 3% of the transaction amount. Sellers in Argentina, Brazil, Chile, Peru are required to use Payoneer and are subject to these fees when withdrawing USD to local bank accounts in local currency.",
+  "verbatim_snippet": "\"Sellers who use Payoneer's payment service may be subject to Payoneer withdrawal minimums and additional Payoneer fees, including Payoneer withdrawal fees typically up to 3% of the transaction amount.\"",
+  "source": "https://www.etsy.com/legal/etsy-payments/",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective from October 9, 2025",
+  "notes": "Official Etsy Payments Policy. Same access note as F-05 (QA Note 3). The \"up to 3%\" applies on top of Etsy's own payment processing fee (6.5% + $0.30 for Payoneer countries — see F-01). This means LatAm Payoneer sellers face a cumulative fee layer not present for Mexico sellers who receive direct MXN deposits. Dimension: Payout. Cross-border cut: Argentina (ARS), Brazil (BRL), Chile (CLP), Peru (PEN) — all converting from USD Payoneer deposits.",
+  "extra_fields": {
+    "finding_id": "F-06"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

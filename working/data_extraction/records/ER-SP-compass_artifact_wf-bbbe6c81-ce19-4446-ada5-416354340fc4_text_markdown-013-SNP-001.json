@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-013",
+  "source_type": "buyer_review",
+  "source_title": "Nao Consigo Comprar Produtos Na Hotmart Vyiq1Ww5Qzy4 Drr",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/nao-consigo-comprar-produtos-na-hotmart_vYIQ1Ww5qZY4_drr",
+  "source_date_if_available": "02/02/2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Estou há alguns meses sem conseguir comprar nenhum curso da hotmart, consigo acessar os que estão ativos, mas não consigo comprar novos. Ele diz que há uma falha no pagamento, mas não há, pois tento trocar para outras opções de pagamento e continua dando o mesmo erro. Nesse meio tempo já tentei comprar cursos de vários valores e todos dão esse mesmo erro. Mesmo tendo limite/dinheiro, não consigo efetuar a compra no pix, no boleto, no cartão e nenhuma outra forma. Quando tento pedir ajuda no site, sou respondida por inteligência artificial.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Hotmart Reclame Aqui complaint (February 2, 2025) reports months-long inability to purchase any new course across all payment methods (Pix, boleto, credit card); platform shows false 'payment failure' error despite sufficient funds; Hotmart support provided only AI responses",
+  "actor_level": "unknown",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "02/02/2025",
+  "time_scope_normalized_if_safe": "2025-02",
+  "geography_if_explicit": "Brazil",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Months-long purchase failure across all payment methods (Pix, boleto, credit card) despite sufficient funds",
+    "False 'payment failure' error; Hotmart support is AI-only"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "reclameaqui.com.br (February 2, 2025). Months-long purchase failure on Hotmart across all Brazil payment methods (Pix, boleto, card). AI-only support. Portuguese-language."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/nao-consigo-comprar-produtos-na-hotmart_vYIQ1Ww5qZY4_drr",
+    "secondary_pointer": null
+  }
+}

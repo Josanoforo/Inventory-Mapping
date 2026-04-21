@@ -1,0 +1,13 @@
+{
+  "what": "Buyer in Turkey purchased a course for 49 TL on December 10, 2025, then found an unauthorized charge of 6,400 TL on January 10, 2026, describing it as a practice that \"misleads and victimizes users\" under the guise of low-cost course sales",
+  "verbatim_snippet": "\"On December 10, 2025, I purchased one course from Domestika and paid a total of 49 TL for this transaction. The description of the transaction reflected on my credit card statement was \\\"Order C5110**19T33503436\\\". During the purchase, I only made payment for this single course and did not consent to any subscription or recurring payment. However, on January 10, 2026, I noticed an unauthorized deduction of 6,400 TL from my credit card by Domestika under the code \\\"Order C5158**62T33959279\\\".\"",
+  "source": "https://www.trustpilot.com/review/domestika.it",
+  "source_type": "unknown",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; charge date January 10, 2026",
+  "notes": "Public review/complaint site (Trustpilot); no dedicated taxonomy value in current schema. Text from search index of specific URL (domestika.it Trustpilot page). Prices in Turkish Lira (TL).",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

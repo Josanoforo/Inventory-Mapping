@@ -1,0 +1,235 @@
+{
+  "status": "complete",
+  "findings_read": 1178,
+  "unique_urls": 640,
+  "total_skeletons": 688,
+  "skeletons_written": 688,
+  "batches_written": 28,
+  "batch_size": 25,
+  "last_batch_written": 28,
+  "issues": [
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://backlinko.com/patreon-users appears in shards: ['compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown', 'compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.etsy.com/legal/etsy-payments appears in shards: ['compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown', 'compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments appears in shards: ['compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown', 'compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders appears in shards: ['compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown', 'compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.domestika.org/es/terms appears in shards: ['compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown', 'compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.domestika.org/es/privacy appears in shards: ['compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown', 'compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://payhip.com/pricing appears in shards: ['compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized', 'compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized', 'compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://whop.com/blog/gumroad-vs-payhip appears in shards: ['compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://sellfy.com/blog/best-gumroad-alternatives appears in shards: ['compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba appears in shards: ['compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized', 'compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://bootstrappingecommerce.com/best-gumroad-alternatives appears in shards: ['compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a appears in shards: ['compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown', 'compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.kichink.com/ appears in shards: ['compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown', 'compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.kichink.com/crea-tu-tienda appears in shards: ['compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown', 'compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown', 'compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.kichink.com/legales/terminos appears in shards: ['compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown', 'compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink appears in shards: ['compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown', 'compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://medium.com/@hazelparadise/why-i-chose-gumroad-over-payhip-8821ae348d45 appears in shards: ['compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://hotmart.com/en/legal/payments-policy appears in shards: ['compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown', 'compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html appears in shards: ['compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown', 'compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy appears in shards: ['compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown', 'compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://docs.lemonsqueezy.com/help/getting-started/getting-paid appears in shards: ['compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown', 'compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://docs.lemonsqueezy.com/help/getting-started/fees appears in shards: ['compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown', 'compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.domestika.org/en/terms appears in shards: ['compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized', 'compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.domestika.org/es/courses appears in shards: ['compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized', 'domestika_d3_output']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown appears in shards: ['compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized', 'compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus appears in shards: ['compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized', 'compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods appears in shards: ['compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized', 'compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.trustpilot.com/review/gumroad.com appears in shards: ['compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown', 'compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints appears in shards: ['compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown', 'compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.lemonsqueezy.com/pricing appears in shards: ['compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown', 'compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.trustpilot.com/review/www.etsy.com appears in shards: ['compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized', 'compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad appears in shards: ['compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown', 'compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://elements.envato.com/pricing appears in shards: ['compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown', 'compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://help.payhip.com/article/281-refund-request appears in shards: ['compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown', 'compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.semrush.com/website/payhip.com/overview appears in shards: ['compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown', 'compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://bigbangconversion.com/blog/opinion-hotmart appears in shards: ['compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown', 'compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://markethax.com/kichink-opinion appears in shards: ['compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized', 'compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.similarweb.com/website/etsy.com appears in shards: ['compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown', 'compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://gumroad.com/discover appears in shards: ['compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown', 'compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://gumroad.com/pricing appears in shards: ['compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown', 'compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://gumroad.com/features appears in shards: ['compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://gumroad.com/terms appears in shards: ['compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown', 'compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://help.gumroad.com/article/13-getting-paid appears in shards: ['compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown', 'compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown']"
+    },
+    {
+      "finding_id": null,
+      "issue_type": "multi_shard_url",
+      "detail": "URL https://www.lemonsqueezy.com/gumroad-alternative appears in shards: ['compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown', 'compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized']"
+    }
+  ],
+  "input_fingerprint": "7f534a1868e192ac39a16aab7e7646d3c7bef18e554ca2a7333d58070e35af88",
+  "started_at": "2026-04-20T18:17:14.981311+00:00",
+  "completed_at": "2026-04-20T18:17:15.081973+00:00"
+}

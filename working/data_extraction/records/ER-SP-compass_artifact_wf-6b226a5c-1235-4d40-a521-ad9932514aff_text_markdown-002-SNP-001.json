@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Fees",
+  "source_ref": "https://docs.lemonsqueezy.com/help/affiliates/fees",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"A small 2% fee will be taken from each referral, which will be deducted from your payouts.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lemon Squeezy deducts a 2% fee from affiliate payouts for each referred sale",
+  "actor_level": "platform",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "2",
+  "metric_unit": "% fee deducted from affiliate payouts per referral (Lemon Squeezy)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "2% fee per referral",
+    "deducted from affiliate payouts"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Lemon Squeezy help center for affiliates (undated, accessed April 2026). Official policy: 2% fee deducted from affiliate payouts per referred sale. Distinct from the 3% merchant-side affiliate fee documented in a separate help page."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/affiliates/fees",
+    "secondary_pointer": null
+  }
+}

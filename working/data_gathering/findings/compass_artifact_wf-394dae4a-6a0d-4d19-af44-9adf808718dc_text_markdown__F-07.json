@@ -1,0 +1,13 @@
+{
+  "what": "Wise personal accounts require the SWIFT code to match the country of registration, so producers located outside the U.S. and the EU cannot use Wise personal accounts for withdrawals; Wise business accounts outside Brazil can use SWIFT codes from other countries and can be used for payouts.",
+  "verbatim_snippet": "\"Wise account: Wise uses SWIFT codes tied to banks in the United States and the European Union. For personal accounts, the SWIFT must match the country of registration; therefore, producers located outside the U.S. and the EU cannot use Wise accounts for withdrawals. For business accounts outside Brazil, the SWIFT may belong to other countries; therefore, a Wise business account can be used for payouts.\"",
+  "source": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "accessed April 14, 2026",
+  "notes": "Verified via direct fetch by two independent subagents. LatAm sellers (outside US/EU) cannot use personal Wise; must use Wise business account or alternative methods (Payoneer, local bank where supported).",
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

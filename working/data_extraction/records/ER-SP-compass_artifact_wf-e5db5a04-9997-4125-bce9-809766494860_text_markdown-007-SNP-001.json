@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-007",
+  "source_type": "blog",
+  "source_title": "Probando La Tienda Online Kichink",
+  "source_ref": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink",
+  "source_date_if_available": "Not visible on page",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Obviamente es gratis todo, pero el inconveniente obligatorio es que Kichink se lleva un pequeño porcentaje de cada venta que realices (7.5%), por mi parte es aceptable, es como el pago por usar la plataforma, ese es una ventaja en contra de Shopify, ellos manejan precios como de suscripción, eso si, tiene mejores herramientas pero en lo personal prefiero pagar la comisión que estar pagando cada mes.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Personal blog review (angeldecuir.com.mx/probando-la-tienda-online-kichink, date not visible) describes Kichink as free to use but taking 7.5% commission per sale; author accepts this as payment for platform use; prefers this commission model over Shopify's subscription pricing, despite Shopify having better tools",
+  "actor_level": "unknown",
+  "platforms": [
+    "Kichink",
+    "Shopify"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "7.5% per sale",
+  "metric_unit": "% per transaction",
+  "time_scope_raw": "Not visible on page",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Kichink: 7.5% commission per sale; free otherwise; reviewer prefers commission over monthly subscription"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "angeldecuir.com.mx (date not visible). User review: 7.5% Kichink commission; prefers vs Shopify subscription."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink",
+    "secondary_pointer": null
+  }
+}

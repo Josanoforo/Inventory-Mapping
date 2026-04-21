@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+  "source_date_if_available": "Accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Too obsessed with AI to the point you can not even speak to a real person anymore, even submitted a ticket for someone to get back to me and it has been 3 days, wanted to cancel my account but they re-took a payment and and can not get a refund as I tried for 1 month and it is not for me realised other platforms offering the same thing is cheaper.. overall if you encounter problems all you will be doing is talking to AI chat bots with no real supprt\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato subscriber reports AI chatbot replacing human support with 3-day ticket delay, unauthorized payment re-taken after cancellation attempt, failed refund over 1 month, and competing platforms identified as cheaper",
+  "actor_level": "unknown",
+  "platforms": ["Envato"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "3 days (ticket delay); 1 month (refund attempt)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "AI chatbot only; no human agent access",
+    "3-day ticket delay with no response",
+    "payment re-taken after attempted account cancellation",
+    "refund attempt failed over 1 month",
+    "competitor platforms identified as cheaper"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Trustpilot review (accessed April 14, 2026; individual review date unknown). Envato subscriber reports AI-only support replacing humans; 3-day ticket delay; unauthorized payment after cancellation attempt; 1-month failed refund; notes cheaper alternatives exist."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Compradores en Argentina están sujetos a impuestos aplicados por operadores de tarjetas/instituciones de pago (no por Hotmart): 21% IVA, 30% Impuesto a las Ganancias, y un IIBB variable por provincia. El Impuesto País fue eliminado el 23 de diciembre de 2024.",
+  "verbatim_snippet": "\"Según las regulaciones fiscales locales, plataformas como Hotmart no son responsables de recaudar impuestos de consumidores y comerciantes en Argentina. Esta función corresponde a los operadores de tarjetas de crédito o Instituciones de Pago (PIs), que aplican los impuestos directamente en el pago al proveedor extranjero. Desde el 23 de diciembre de 2024, el Impuesto País ha sido eliminado, pero algunos impuestos aún pueden aplicarse: 21% de IVA (Impuesto al Valor Agregado), 30% de Impuesto a las Ganancias, IIBB (Impuesto sobre los Ingresos Brutos), cuyo valor puede variar según la provincia.\"",
+  "source": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "notes": "Dimensión Tax. Dirección: cualquier seller cross-border → AR buyer. Hotmart explícitamente NO es responsable de recaudar estos impuestos en Argentina; los aplican los operadores de tarjetas. EBANX procesa localmente en ARS.",
+  "extra_fields": {
+    "finding_id": "F-09"
+  },
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

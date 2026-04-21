@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011",
+  "source_title": "Gumroad Vs Payhip",
+  "source_type": "blog",
+  "source_ref": "https://sellfy.com/blog/gumroad-vs-payhip",
+  "source_date_if_available": "Jan 20, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For one, Payhip offers a wider range of built-in features including a course builder, product variants, marketing tools, an affiliate program, and more advanced customization. Gumroad, on the other hand, is a bit easier to use since it's mainly a solution that allows creators to accept payments online.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sellfy.com/blog/gumroad-vs-payhip"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"That being said, Payhip does have one key advantage over Gumroad: slightly lower fees. With Payhip, you'll have to pay a 5% transaction fee, whereas Gumroad charges a 10% fee on all sales.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sellfy.com/blog/gumroad-vs-payhip"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-10",
+    "F-11"
+  ]
+}

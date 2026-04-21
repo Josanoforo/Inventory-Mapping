@@ -1,0 +1,54 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_title": "Etsy Statistics",
+  "source_type": "report",
+  "source_ref": "https://capitaloneshopping.com/research/etsy-statistics",
+  "source_date_if_available": "Last updated March 29, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"In 2025, 93.539 million consumers purchased items from Etsy. An estimated 5.90 million Etsy consumers (7%) are habitual buyers. There was a 2.01% YoY decrease in repeat buyers in 2025. The average Etsy consumer spends $127.40 on the marketplace in a year. Approximately 40% of GMS in 2025 came from habitual buyers, down 2.44% YoY. Mobile users (through the Etsy app) purchased 45% of consolidated GMS in 2025, up 7.14% YoY.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://capitaloneshopping.com/research/etsy-statistics"
+      },
+      "source_finding_id": "F-P13",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Most Etsy shoppers (64.7%) are under 44 years old. 28.9% of Etsy users are between the ages of 25 and 34 years. 17.5% of Etsy users are aged 18 to 25, and 18.3% are aged 35 to 44. Female shoppers account for 58.4% of Etsy users.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://capitaloneshopping.com/research/etsy-statistics"
+      },
+      "source_finding_id": "F-P17",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P13",
+    "F-P17"
+  ]
+}

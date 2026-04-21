@@ -1,0 +1,43 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-006",
+  "source_title": "How Do I Use A Payoneer Account With Etsy Payments",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Available funds are sent to your Payoneer Payment Account each Monday.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Etsy Payments: Payoneer deposits sent each Monday"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "none"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

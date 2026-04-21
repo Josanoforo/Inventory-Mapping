@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011",
+  "source_title": "News Releases",
+  "source_type": "article",
+  "source_ref": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+  "source_date_if_available": "September 24, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hotmart, a global technology company and leader in digital business in the Creator Economy, announced strong performance results following the adoption of Pix Automático, Brazil's new recurring feature within the real-time payment system Pix.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html"
+      },
+      "source_finding_id": "F-P05",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P05"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Patreon Vs Kofi Musicians 2025",
+  "source_ref": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+  "source_date_if_available": "September 5, 2025 (updated April 2, 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon's strength lies in its established reputation and widespread fan recognition. In recent polls, 50% of followers preferred Patreon over Ko-fi's 30%, indicating stronger brand awareness and trust among potential supporters. Many fans already maintain Patreon accounts for other creators, reducing friction for new subscriptions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Chartlex article (chartlex.com, Sep 5, 2025, updated Apr 2, 2026) reports poll results: 50% of followers preferred Patreon vs 30% who preferred Ko-fi; attributes Patreon advantage to stronger brand recognition and existing account base reducing subscription friction",
+  "actor_level": "unknown",
+  "platforms": ["Patreon", "Ko-fi"],
+  "product_type_if_explicit": null,
+  "metric_type": "share",
+  "metric_value_raw": "50% Patreon preference vs 30% Ko-fi in follower polls",
+  "metric_unit": "% of poll respondents",
+  "time_scope_raw": "September 5, 2025 (updated April 2, 2026)",
+  "time_scope_normalized_if_safe": "2025-09",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Poll-based: Patreon 50% vs Ko-fi 30% follower preference; poll methodology not specified in article"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "chartlex.com (Sep 5, 2025, updated Apr 2, 2026). Poll: Patreon 50% vs Ko-fi 30% follower preference; methodology not disclosed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+    "secondary_pointer": null
+  }
+}

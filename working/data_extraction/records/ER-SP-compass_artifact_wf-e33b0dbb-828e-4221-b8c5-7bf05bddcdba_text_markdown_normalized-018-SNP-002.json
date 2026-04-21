@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_type": "help_center",
+  "source_title": "Connect Your Flutterwave Account",
+  "source_ref": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Flutterwave is available in Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania, and Cameroon.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip help center (help.payhip.com/article/367-connect-your-flutterwave-account, undated) states Flutterwave is available in 9 countries: Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania, and Cameroon",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "9 countries",
+  "metric_unit": "country count",
+  "time_scope_raw": "Undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Africa",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Flutterwave country coverage (via Payhip): Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania, Cameroon"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.payhip.com (undated). Flutterwave: 9 African countries listed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+    "secondary_pointer": null
+  }
+}

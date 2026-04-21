@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=3",
+  "source_date_if_available": "August 12, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Bought a product from a seller who uses the site. Had a small problem which to be fair was down to me. Seller never responded to multiple requests for help. Gumroad gave me reassurance that they would help and give a refund. The best they did until lately was answer my emails reasonably quick, despite my earlier thoughts that they would help. Now they seem to be trying to get out of their earlier positive position. All I can say is, don't have any issues as you won't get any responseable conclusions\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot review of Gumroad (August 12, 2025) describes Gumroad initially responding quickly and promising a refund for a support case, then backtracking from that position; seller was unresponsive throughout; reviewer warns buyers not to expect resolution of any issues",
+  "actor_level": "unknown",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "August 12, 2025",
+  "time_scope_normalized_if_safe": "2025-08-12",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Trustpilot review (Aug 12, 2025): Gumroad initially responsive and promised refund; later reversed that position; seller never responded; warns buyers not to expect issue resolution"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "trustpilot.com/review/gumroad.com?page=3 (Aug 12, 2025). English. Gumroad support: initially quick to respond and promised refund; then backtracked. Seller unresponsive. Documents inconsistent support position over time."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3",
+    "secondary_pointer": null
+  }
+}

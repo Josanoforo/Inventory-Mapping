@@ -1,0 +1,69 @@
+{
+  "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003",
+  "source_title": "Supported Countries",
+  "source_type": "help_center",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"PayPal payouts are supported in 200+ countries and regions.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: bank payout country list including \"Argentina \u00b7 ... \u00b7 Bolivia \u00b7 Bosnia and Herzegovina \u00b7 Botswana \u00b7 Brunei Darussalam \u00b7 ... \u00b7 Chile \u00b7 Colombia \u00b7 Costa Rica \u00b7 ... \u00b7 Dominican Republic \u00b7 Ecuador \u00b7 ... \u00b7 El Salvador \u00b7 ... \u00b7 Guatemala \u00b7 Guyana \u00b7 ... \u00b7 Jamaica \u00b7 ... \u00b7 Mexico\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"We cannot accept payments from customers in the following countries: Central African Republic \u00b7 Cuba \u00b7 Democratic People's Republic of Korea \u00b7 Democratic Republic of the Congo \u00b7 Eritrea \u00b7 Guinea-Bissau \u00b7 Iran \u00b7 Iraq \u00b7 Lebanon \u00b7 Libya \u00b7 Mali \u00b7 North Korea \u00b7 Russian Federation \u00b7 Somalia \u00b7 South Sudan \u00b7 Sudan \u00b7 Syrian Arab Republic \u00b7 Yemen\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "LemonSqueezy Supported Countries help page (undated; accessed April 2026). PayPal payouts: 200+ countries; bank payouts: partial LatAm country list; 18 sanctioned countries restricted from buyer payments.",
+    "source_date_unclear: page undated; accessed April 2026."
+  ],
+  "possible_subjects": [
+    "LemonSqueezy PayPal payout: 200+ countries supported",
+    "LemonSqueezy bank payout: partial LatAm country list (Argentina, Chile, Colombia, Mexico, etc.)",
+    "LemonSqueezy restricted buyer countries: 18 sanctioned countries (Cuba, Iran, Russia, etc.)"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

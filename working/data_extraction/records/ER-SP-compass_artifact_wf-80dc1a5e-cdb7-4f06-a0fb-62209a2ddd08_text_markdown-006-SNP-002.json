@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com",
+  "source_date_if_available": "August 27, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I've been trying to transfer my money from the store for 3 months now. Customer support is slow and just deflects the questions. Stay away.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lemon Squeezy seller reports 3-month failed payout transfer attempt with slow support that deflects questions",
+  "actor_level": "seller",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "3 months (payout transfer delay)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "3-month failed payout transfer attempt",
+    "support described as slow and deflecting questions"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Trustpilot review (August 27, 2025). Lemon Squeezy seller: 3-month failed payout transfer attempt; support slow and deflects questions."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com",
+    "secondary_pointer": null
+  }
+}

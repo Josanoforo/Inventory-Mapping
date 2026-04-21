@@ -1,0 +1,16 @@
+{
+  "what": "Etsy withholds taxes from Mexico sellers' sales to remit to SAT (Servicio de Administración Tributaria). The withholding may be as high as 36% of the order total without a valid RFC. With a valid individual RFC, withholding is significantly lower. With a business RFC, Etsy previously withheld nothing (pre-2026 for legal entities). Without RFC: 20% ISR + 16% IVA on domestic orders = up to 36%.",
+  "verbatim_snippet": "\"To comply with local laws, Etsy withholds a percentage of sales for Mexico sellers to remit to the Servicio de Administración Tributaria (SAT), the Mexico tax authority. The amount Etsy is required to withhold may be as high as 36%, but will be significantly lower if you have a valid individual Registro Federal de Contribuyentes (RFC) identification number on file with your Etsy account.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No access date on page. URL returned 403; content verified via search engine index. Policy has been in effect since January 1, 2023.",
+  "notes": "The 36% breakdown: 20% ISR (income tax) + 16% IVA (VAT) on orders shipping to Mexico, when no valid RFC is on file. IVA applies only to domestic orders (shipping within Mexico); ISR applies to all orders. Dimension: Tax. Cross-border cut: Mexico (ISR/IVA withholding). Direction: outgoing (Mexico seller → any buyer, with IVA only on domestic).",
+  "extra_fields": {
+    "finding_id": "F-P03"
+  },
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

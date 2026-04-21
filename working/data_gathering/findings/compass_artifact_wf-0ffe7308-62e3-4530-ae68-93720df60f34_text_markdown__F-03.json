@@ -1,0 +1,16 @@
+{
+  "what": "Etsy charges a 2.5% currency conversion fee on all deposits when a seller's shop listing currency differs from their payment account currency. Relevant to LatAm sellers: Payoneer countries (Argentina, Brazil, Chile, Peru) whose payment account currency is USD can avoid this fee by listing in USD. Mexico sellers receiving MXN payouts would incur this fee if listing in USD or another non-MXN currency.",
+  "verbatim_snippet": "\"By default, the base currency of an etsy shop is set to be the same as that of the seller's native currency. However, sellers have an option to change the base currency used by their shops and thus their listings. If you change your shop's base currency to something other than your native currency, an extra 2.5% conversion fee will be charged on all deposits.\"",
+  "source": "https://investomatica.com/etsy-calculator",
+  "source_type": "pricing_page",
+  "verification_status": "direct_verified",
+  "date": "Last reviewed April 4, 2026. Source attribution: \"Source: etsy.com\"",
+  "notes": "Third-party calculator describing Etsy policy. This is corroborated by blocked Etsy help page snippets (see F-P02). Dimension: Currency. Cross-border cut: all LatAm countries — affects currency decisions for sellers in Mexico (MXN), Argentina/Brazil/Chile/Peru (USD via Payoneer).",
+  "extra_fields": {
+    "finding_id": "F-03"
+  },
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

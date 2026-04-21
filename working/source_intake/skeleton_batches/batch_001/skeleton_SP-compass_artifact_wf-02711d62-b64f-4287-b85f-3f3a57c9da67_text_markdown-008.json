@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_title": "Top Patreon Creators",
+  "source_type": "database_profile",
+  "source_ref": "https://graphtreon.com/top-patreon-creators",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"127,986 Paid Members 1 Patreon Rank Matt and Shane's Secret Podcast Creating Hot Casts\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/top-patreon-creators"
+      },
+      "source_finding_id": "F-04",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"$269,922 Per month 42,523 Paid Members 9 Patreon Rank the yard Creating a podcast\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/top-patreon-creators"
+      },
+      "source_finding_id": "F-05",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-04",
+    "F-05"
+  ]
+}

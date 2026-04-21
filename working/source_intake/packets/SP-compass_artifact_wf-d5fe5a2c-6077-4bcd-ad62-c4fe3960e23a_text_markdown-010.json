@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-010",
+  "source_title": "Productos Digitales Mas Vendidos",
+  "source_type": "blog",
+  "source_ref": "https://hotmart.com/es/blog/productos-digitales-mas-vendidos",
+  "source_date_if_available": "19/02/2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"En el Mercado de Afiliación de Hotmart puedes identificar los productos digitales más vendidos y sus nichos usando los filtros \\\"Más queridos\\\" o \\\"Más calientes\\\". A partir de allí, puedes evaluar los nichos más buscados por el público.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/blog/productos-digitales-mas-vendidos"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart blog article on identifying best-selling digital products (19/02/2024, in Spanish): Hotmart affiliate marketplace offers 'Más queridos' (most beloved) and 'Más calientes' (most hot/trending) filters to identify top-selling digital products and evaluate which niches are most sought after by audiences"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2024-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

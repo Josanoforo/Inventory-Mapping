@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+  "source_title": "Teachable Is Joining Forces With Hotmart Afad5Bd144Fc",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc",
+  "source_date_if_available": "March 16, 2020",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For those of you not in the know, Hotmart is analogous to the 'Teachable of Brazil,' while operating profitably at a scale three times our size. Over the last nine years, they have built an absolutely incredible business in Latin America and Europe empowering 60,000+ creators to sell 150,000+ digital products.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart scale at Teachable acquisition (March 2020): Teachable described Hotmart as the 'Teachable of Brazil,' operating at approximately 3x Teachable's scale with 60,000+ creators and 150,000+ digital products across Latin America and Europe"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["sales_count", "active_buyers"],
+  "possible_time_scopes": ["2020-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

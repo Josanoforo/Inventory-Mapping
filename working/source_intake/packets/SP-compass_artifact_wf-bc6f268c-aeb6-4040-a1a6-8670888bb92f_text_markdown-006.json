@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-006",
+  "source_title": "elements.envato.com",
+  "source_type": "platform_doc",
+  "source_ref": "https://elements.envato.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Make your best work yet with a comprehensive library of high-quality, creative assets \u2014 video, audio, photos, graphics, templates, and more from talented global artists. Access to AI tools like VideoGen, MusicGen, and ImageGen, powered by the latest models.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://elements.envato.com/"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Envato Elements homepage (accessed April 2026): subscription library of creative assets (video, audio, photos, graphics, templates) from global artists; includes AI generation tools VideoGen, MusicGen, ImageGen"
+  ],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

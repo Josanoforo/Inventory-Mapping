@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-011",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"They profit off of fees and for small creators set limits that's hard to get when trying to get s payout 100 dollar payout requirement on your own money is freaking crazy when last week I could do it...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Small creator reports Gumroad minimum payout threshold recently changed to $100, up from a lower amount; describes threshold as unreasonable barrier for small creators",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "100",
+  "metric_unit": "USD (Gumroad minimum payout threshold as reported by seller, Trustpilot, August 2025)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "$100 payout requirement described as 'freaking crazy'",
+    "threshold lower the previous week",
+    "described as barrier for small creators",
+    "snippet truncated"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review (August 23, 2025). Seller reports $100 minimum payout threshold as recently introduced or increased; previously could withdraw at a lower amount. Snippet truncated. Note: other Trustpilot reviews report a $10 minimum; the $100 may apply to a specific payout type (e.g., instant payouts) or reflect a recent policy change."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

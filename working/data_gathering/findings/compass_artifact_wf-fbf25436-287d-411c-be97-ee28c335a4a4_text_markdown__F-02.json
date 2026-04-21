@@ -1,0 +1,13 @@
+{
+  "what": "Buyer attempted to purchase on Gumroad using 4 different bank cards from major European banks; all were declined — either by the bank (flagging Gumroad as suspicious) or by Gumroad's website (claiming the card \"isn't supported\") — despite all being regular international VISA cards.",
+  "verbatim_snippet": "\"The worst shopping experience I've ever had. I tried 4 different cards from different banks – either the bank declines the transaction because it considers Gumroad suspicious, or the website itself says the card isn't supported. What exactly isn't supported? It's a regular international VISA card from a major European bank. How do you even operate like this?\"",
+  "source": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "source_type": "unknown",
+  "verification_status": "direct_verified",
+  "date": "November 28, 2025",
+  "notes": "Trustpilot buyer review (reviewer: Alexey Kolin). Payment method attempted: international VISA. Reviewer location: RS (Serbia). Purchase outcome: abandoned — could not complete checkout with any of 4 cards. Rating: 1/5. Full review text verified on Trustpilot listing page 2 (sorted most recent).",
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

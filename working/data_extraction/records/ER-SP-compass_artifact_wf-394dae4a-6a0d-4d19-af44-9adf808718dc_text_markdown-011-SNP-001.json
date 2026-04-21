@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-011",
+  "source_type": "article",
+  "source_title": "News Releases",
+  "source_ref": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+  "source_date_if_available": "September 24, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart, a global technology company and leader in digital business in the Creator Economy, announced strong performance results following the adoption of Pix Automático, Brazil's new recurring feature within the real-time payment system Pix.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart reports 32-point retention increase following adoption of Pix Automático for Brazil recurring payments via EBANX",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "subscription",
+  "metric_type": "count",
+  "metric_value_raw": "32",
+  "metric_unit": "percentage points (subscription retention increase from Pix Automático adoption, Brazil)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazil",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "adoption of Pix Automático, Brazil's new recurring feature within the real-time payment system Pix",
+    "strong performance results",
+    "32-point retention increase"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "PR Newswire (September 24, 2025). Hotmart + EBANX press release: 32-point retention increase after adopting Pix Automático (Brazilian recurring PIX). Self-reported press release metric; no independent verification. metric_value_raw: 32 percentage points."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+    "secondary_pointer": null
+  }
+}

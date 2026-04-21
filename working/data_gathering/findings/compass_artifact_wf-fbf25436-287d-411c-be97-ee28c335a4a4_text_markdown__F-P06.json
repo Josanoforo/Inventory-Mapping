@@ -1,0 +1,13 @@
+{
+  "what": "Buyer attempted to purchase a $15 course on Gumroad; during checkout, an additional unauthorized transaction worth over $100 was processed simultaneously without the buyer's initiation or confirmation.",
+  "verbatim_snippet": "\"I went on this platform to purchase a course that costs 15$ but upon checking out I was shocked to notice that another transaction worth over 100$ that I neither initiated nor confirmed passed simult...\"",
+  "source": "https://www.trustpilot.com/review/gumroad.com",
+  "source_type": "unknown",
+  "verification_status": "blocked_url_index_verified",
+  "date": "April 1, 2026",
+  "notes": "Trustpilot buyer review (reviewer: Yawovi Holonou). Product type: course. Price: $15 USD (intended purchase); $100+ USD (unauthorized additional charge). Purchase outcome: unauthorized simultaneous transaction during checkout. Rating: 1/5. Review truncated after \"simult...\" (likely \"simultaneously\"). Individual review URL not accessible.",
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

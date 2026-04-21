@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "**What:** Buyer reports being charged twice since August from Lemon Squeezy, totaling more than €30, without having authorized any payment; states they do not receive responses to messages.",
+  "attempted": "**Verbatim snippet — version A (from subagent 1):** \"Beware of the scam and the fraud: I have been charged twice since August from this site. More than 30€. I have never authorized a payment and don't understand where these charges come from. They don't respond to my e-mails.\"\n**Verbatim snippet — version B (from subagent 2):** \"Beware of the scam and the fraud: I have been charged twice since August from this site. More than 30€. I have never authorized a payment and don't understand where these charges come from. They don't answer when I send them messages.\"\n**Source:** https://www.trustpilot.com/review/lemonsqueezy.com?page=5\n**source_type:** buyer_review\n**verification_status:** could_not_verify\n**Date:** 2025-11-11\n**Notes:** Reviewer: KB. Price: more than €30. Currency in EUR suggests European location. Two separate research passes returned different final sentences for this review (\"They don't respond to my e-mails\" vs \"They don't answer when I send them messages\"). Because the verbatim text could not be confirmed character-for-character, this finding is degraded to could_not_verify. The beginning of the review (\"Beware of the scam and the fraud: I have been charged twice since August from this site.\") is independently confirmed in search index.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.trustpilot.com/review/lemonsqueezy.com?page=5"
+  ]
+}

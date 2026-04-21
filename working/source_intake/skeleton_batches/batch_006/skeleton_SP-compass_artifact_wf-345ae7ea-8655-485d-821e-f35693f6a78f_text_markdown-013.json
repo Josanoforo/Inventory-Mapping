@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-013",
+  "source_title": "Got My First Paying Customer 2 Days After Launch Wasnt Where I Expected D905B39341",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.indiehackers.com/post/got-my-first-paying-customer-2-days-after-launch-wasnt-where-i-expected-d905b39341",
+  "source_date_if_available": "December 11, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"On Wednesday morning, while brewing coffee, an alert pops up - Payhip notifies me. A customer signed up for the monthly package costing forty-nine bucks. I honestly believed it was junk mail or some trial charge I'd overlooked. Looked into it again - twice more - to be sure. Nope. Actual buyer. Seems they arrived via SaaSHub, judging by the ref link - though truthfully, I can't say for certain; Payhip's logs aren't that clear.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.indiehackers.com/post/got-my-first-paying-customer-2-days-after-launch-wasnt-where-i-expected-d905b39341"
+      },
+      "source_finding_id": "F-05",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-05"
+  ]
+}

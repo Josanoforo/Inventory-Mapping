@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-009",
+  "source_type": "help_center",
+  "source_title": "How Us State Sales Tax And Fees Applies To Etsy Orders",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy is required by the state of Colorado to charge buyers an additional 29 cent fee for orders of physical goods shipped to addresses within the state of Colorado. The fee is not charged for sales of digital goods. Etsy collects this fee from the buyer for each applicable order at checkout and remits it to the Colorado Department of Revenue.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy policy states Colorado requires a $0.29 fee per order of physical goods shipped to Colorado, collected from buyers at checkout and remitted to state; digital goods are exempt",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "0.29",
+  "metric_unit": "USD fee per order of physical goods shipped to Colorado (buyer fee)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Colorado, US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "$0.29 fee per order of physical goods shipped to Colorado",
+    "fee collected from buyer at checkout",
+    "remitted to Colorado Department of Revenue",
+    "not charged for sales of digital goods"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Etsy Help Center (current as of April 2026). Colorado retail delivery fee: $0.29 per order of physical goods to Colorado addresses, collected from buyer and remitted to state. Digital goods exempt."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000343968-How-US-State-Sales-Tax-and-Fees-Applies-to-Etsy-Orders",
+    "secondary_pointer": null
+  }
+}

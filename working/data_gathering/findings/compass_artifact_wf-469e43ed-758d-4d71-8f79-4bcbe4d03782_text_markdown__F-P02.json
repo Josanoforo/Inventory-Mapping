@@ -1,0 +1,16 @@
+{
+  "what": "Payouts are always made in USD. Sellers can select a non-USD payout currency for bank payouts, which is converted at the mid-market exchange rate at the time of payout.",
+  "verbatim_snippet": "\"Payouts are always made in USD. If you set up bank payouts, you can select a payout currency (we recommend this matches your bank account). If you select a currency other than USD, our payout processor will convert the payout amount to your selected currency using the mid-market exchange rate at the time of payout.\"",
+  "source": "https://docs.lemonsqueezy.com/help/payments/currencies",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content verified via search engine index. \"Mid-market exchange rate\" implies no additional FX markup at payout. LatAm sellers selecting MXN, BRL, ARS, COP, etc. as payout currency would receive conversion at this rate.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

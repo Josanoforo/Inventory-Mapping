@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002",
+  "source_title": "Ya Realicé El Pago Y Aún No Tengo Mi Curso Disponible Pago En Efectivo",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/es/articles/360003447337-Ya-realicé-el-pago-y-aún-no-tengo-mi-curso-disponible-pago-en-efectivo-",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«Si has elegido realizar tu pago a través de dLocal (plataforma que gestiona los pagos en efectivo y otros métodos locales), es necesario esperar un tiempo a que ellos verifiquen el cobro y nos lo informen, es por ello que tu compra no se activa de forma inmediata. Este es un proceso automático y el plazo máximo de activación es de 2 a 3 días laborables»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/es/articles/360003447337-Ya-realicé-el-pago-y-aún-no-tengo-mi-curso-disponible-pago-en-efectivo-"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika dLocal payment processing delay",
+    "Domestika course activation time for local payment methods"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["activation_requirement", "payment_method_availability"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Confirms Domestika uses dLocal for cash and local payment processing in relevant markets. Activation delay up to 2-3 business days for dLocal payments.",
+    "source_date_unclear: page undated; dLocal integration may have changed.",
+    "No specific geography mentioned in the snippet but dLocal is a LATAM-focused payment processor, context is implicitly LATAM."
+  ],
+  "traceability_status": "weak"
+}

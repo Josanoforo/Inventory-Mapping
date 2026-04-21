@@ -1,0 +1,13 @@
+{
+  "what": "Buyer reports Hotmart is obstructing refund requests. The \"I can't find my transaction code\" workflow on refund.hotmart.com returned no eligible purchases, but entering the code manually worked. Accuses Hotmart of deliberately hiding eligible purchases.",
+  "verbatim_snippet": "\"Hotmart está dificultando a solicitação de reembolso! Muito me impressiona que a Hotmart não está ajudando o comprador a solicitar o reembolso da compra feita! O processo é bem simples, basta ir no link: https://refund.hotmart.com/, clicar em Não encontrei o código da transação, digitar seu email, digitar o código de 6 dígitos que chega no email e pronto, aparecem as compras elegíveis para reembolso. Fiz este procedimento e pasmem, ele retornou a mensagem que não há compras disponíveis para reembolso!\"",
+  "source": "https://www.reclameaqui.com.br/hotmart/dificuldade-em-solicitar-reembolso-na-hotmart-e-possivel-ocultacao-de-compras-elegiveis_MGEwiV_0kqFRmGE0/",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Refund approved 21/11/2025; refund processed 28/11/2025",
+  "notes": "Specific complaint URL returned 403; verbatim from Google search snippet. Speaker: Cayo. Outcome: refund eventually approved and processed. Describes specific refund.hotmart.com workflow failure.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

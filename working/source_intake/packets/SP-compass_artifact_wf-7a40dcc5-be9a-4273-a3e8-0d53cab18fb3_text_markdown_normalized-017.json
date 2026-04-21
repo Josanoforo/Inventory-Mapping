@@ -1,0 +1,57 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "March 22, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I am basted in EU and have a small vintage business on this platform. Since the law changes about tariffs from US, I have a very bad experience with customers reviews. Now buyers leaving 3 ; 2 stars just because of shipping cost and additional fees. Its nothing to do with my shop and its out my control. This is really frustrating that the customer writing reviews only about the taxes, without mentioning the item or the service. My shops rating dropped because of this. PLEASE DO THE OPTION TO RATE THE BUYERS!!!\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/www.etsy.com"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Etsy fees are an absolute joke, charging over 32% for various fees. Transaction fee, Operating fee, Regulatory fee, Off Site ad fee and all plus VAT. Put postage on top and you get around 50% of th...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/www.etsy.com"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Etsy seller (EU): US tariff implementation caused buyers to leave low-star reviews about shipping costs and taxes rather than product/service quality; seller shop rating dropped",
+    "Etsy seller (EU): combined fees exceed 32% (transaction + operating + regulatory + off-site ad + VAT); approximately 50% when postage included"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "EU"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

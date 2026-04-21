@@ -1,0 +1,21 @@
+{
+  "source": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "2025-04-06",
+  "verbatim_snippet": "\"Development time: Lemon Squeezy implementations were 70% faster · Operational overhead: Stripe required about 5 hours/month for maintenance vs. 1 hour for Lemon Squeezy · Customer support issues: 40% fewer payment-related support tickets with Lemon Squeezy\"",
+  "what": "Lemon Squeezy implementation 70% faster than Stripe. Stripe requires ~5 hrs/month maintenance vs ~1 hr for LS. 40% fewer payment support tickets with LS.",
+  "notes": "[Stated in layout: comparison data table.] Performance data from author's own client implementations. Affiliate context noted.",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe",
+    "dimension": "developer experience, operational overhead",
+    "numbers": "70% faster implementation; 5 hrs/mo vs 1 hr/mo; 40% fewer tickets",
+    "stance": "pro-LS (on implementation efficiency)",
+    "affiliation": "yes — AnotherWrapper sells a SaaS boilerplate integrating with Lemon Squeezy; affiliate link present at top of page"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

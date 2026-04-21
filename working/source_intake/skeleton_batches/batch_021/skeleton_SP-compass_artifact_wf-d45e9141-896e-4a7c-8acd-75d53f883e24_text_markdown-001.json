@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-001",
+  "source_title": "Best Patreon Alternatives",
+  "source_type": "blog",
+  "source_ref": "https://buddyboss.com/blog/best-patreon-alternatives",
+  "source_date_if_available": "Accessed April 2026; references August 2025 pricing change",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Patreon now charges a flat 10% platform fee (people joining after August 4, 2025) plus 2.9% + $0.30 payment processing on every transaction. That's 13% total. The math: At $5,000/month revenue, you're paying $650 monthly in fees, $7,800 annually. Scale to $10,000/month and you're losing $15,600 per year.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://buddyboss.com/blog/best-patreon-alternatives"
+      },
+      "source_finding_id": "F-P14",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P14"
+  ]
+}

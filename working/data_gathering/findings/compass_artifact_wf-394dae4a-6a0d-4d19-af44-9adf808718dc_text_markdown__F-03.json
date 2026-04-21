@@ -1,0 +1,13 @@
+{
+  "what": "When a user contracts with Hotmart B.V., Hotmart acts as a commercial agent on behalf of the Creators, except for individual Creators residing in Mexico, in which case Hotmart acts as a reseller.",
+  "verbatim_snippet": "\"If the User contracts with Hotmart B.V., Hotmart will act as a commercial agent on behalf of the Creators, except for individual Creators residing in Mexico, in which case Hotmart will act as a reseller.\"",
+  "source": "https://hotmart.com/en/legal/payments-policy",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "November 28, 2025 (policy version date)",
+  "notes": "Verified via direct fetch by two independent subagents. Section C. All non-Brazil, non-US-domestic transactions are processed by Hotmart BV (Netherlands entity). This determines MoR vs agent role for LatAm↔US flows.",
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

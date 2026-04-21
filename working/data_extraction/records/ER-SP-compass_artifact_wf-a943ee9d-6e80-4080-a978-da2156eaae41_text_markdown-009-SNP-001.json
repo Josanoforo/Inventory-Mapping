@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Etsy Revenue Gms",
+  "source_ref": "https://www.digitalcommerce360.com/article/etsy-revenue-gms",
+  "source_date_if_available": "February 20, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Orders originating from ChatGPT also tend to skew higher value compared to some of our more mature acquisition channels\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy executive (quoted via DigitalCommerce360) states ChatGPT-originated orders skew higher value compared to more mature acquisition channels",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "revenue",
+  "metric_value_raw": "ChatGPT orders 'skew higher value' vs mature acquisition channels (qualitative)",
+  "metric_unit": null,
+  "time_scope_raw": "February 20, 2026 (article); quote context Q4 2025 earnings",
+  "time_scope_normalized_if_safe": "2025-Q4",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "ChatGPT-originated orders skew higher order value",
+    "compared to 'more mature acquisition channels'",
+    "quote attributed to Etsy management via earnings coverage"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "digitalcommerce360.com (February 20, 2026). Quotes Etsy executive on ChatGPT as an acquisition channel with higher-value orders. Snippet is brief; full context of quote not available in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.digitalcommerce360.com/article/etsy-revenue-gms",
+    "secondary_pointer": null
+  }
+}

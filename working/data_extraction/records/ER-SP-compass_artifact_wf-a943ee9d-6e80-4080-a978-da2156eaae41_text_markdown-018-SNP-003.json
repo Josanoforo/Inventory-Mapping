@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I want to report my extremely disappointing experiences with Etsy. 1. I purchased a \"Winter\" set including hand gloves, a scarf, and a hat, which was advertised as cashmere but was not. I had to return it. 2. I also purchased items with \"sapphire\" glass stones sold as genuine sapphires, which they clearly were not. Etsy allows sellers to mislead buyers and ignores legitimate complaints. Because of this, I have closed my account and will no longer shop on Etsy.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot reviewer reports two Etsy purchases involving material misrepresentation: winter set advertised as cashmere was not, and glass stones sold as genuine sapphires; reviewer states Etsy allows sellers to mislead buyers and ignores complaints; closed account",
+  "actor_level": "unknown",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "physical goods (winter accessories: gloves, scarf, hat; jewelry with glass stones)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; exact review date not stated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "cashmere winter set: not cashmere",
+    "glass stones sold as genuine sapphires",
+    "reviewer closed account citing Etsy's failure to address complaints"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "trustpilot.com (accessed April 2026, date not stated). Two material misrepresentation cases; buyer closed account citing Etsy inaction on complaints. Illustrates material description enforcement gap."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

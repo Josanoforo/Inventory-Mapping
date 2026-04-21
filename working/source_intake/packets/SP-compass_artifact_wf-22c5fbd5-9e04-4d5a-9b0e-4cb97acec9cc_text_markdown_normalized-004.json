@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004",
+  "source_title": "Crear Un Curso Para Domestika Con Christian Beltri",
+  "source_type": "blog",
+  "source_ref": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri",
+  "source_date_if_available": "Undated (~2021–2022)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Su experiencia fue muy buena y sobre todo destaca el nivel de exposición que obtienes y oportunidades que llegan una vez publicas un curso en la plataforma.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika instructor onboarding experience",
+    "Domestika platform exposure for instructors"
+  ],
+  "possible_actor_levels": ["seller", "source"],
+  "possible_metric_types": ["discoverability_claim"],
+  "possible_time_scopes": ["undated", "~2021-2022"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity", "subject_ambiguity"],
+  "priority_for_source_first": "low",
+  "intake_notes": [
+    "Blog/podcast from instructoresonline.es (Spanish-language instructor community) covering Christian Beltri's experience as a Domestika instructor. Snippet translates: 'His experience was very good and above all he highlights the level of exposure you get and opportunities that arrive once you publish a course on the platform.' Estimated ~2021-2022.",
+    "source_date_unclear: post is undated; ~2021-2022 is an estimate based on content context.",
+    "current_vs_historical_ambiguity: 2021-2022 positive experience; Domestika's instructor economics have changed significantly since (payment crises documented 2025).",
+    "subject_ambiguity: snippet covers both positive onboarding experience and discoverability/exposure as distinct claims."
+  ],
+  "traceability_status": "weak"
+}

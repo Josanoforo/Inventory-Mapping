@@ -1,0 +1,68 @@
+{
+  "packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_title": "Refunds Chargebacks",
+  "source_type": "help_center",
+  "source_ref": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Generally, Lemon Squeezy is responsible for handling any chargebacks made against your sales. In most cases, we will offer a full refund on your behalf and deduct the refunded amount (minus our platform fee) plus a $15 dispute fee from your next payout.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"That being said, Lemon Squeezy reserves the right to issue refunds within 60 days of purchase, at its own discretion, in order to prevent chargebacks.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"The refunded amount (minus our platform fee) will be deducted from your next payout.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Lemon Squeezy refunds/chargebacks help center (undated). Chargeback: Lemon Squeezy handles; refund amount (minus platform fee) + $15 dispute fee deducted from seller's next payout. Lemon Squeezy can issue refunds within 60 days at own discretion.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Lemon Squeezy chargeback: platform handles dispute; seller's next payout debited for refund (minus platform fee) + $15 dispute fee",
+    "Lemon Squeezy: reserves right to issue refunds within 60 days at discretion to prevent chargebacks"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "refund_policy",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

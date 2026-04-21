@@ -1,0 +1,13 @@
+{
+  "what": "Buyer made a purchase via Lemon Squeezy during which their email address was saved incorrectly due to a simple typo; describes the overall experience as \"simply disappointing in its sheer inefficiency\" and calls the core problem trivial.",
+  "verbatim_snippet": "\"The experience I had with Lemon Squeezy was simply disappointing in its sheer inefficiency. The core problem was trivial: During a purchase via the platform, my email address was saved incorrectly due to a simple typo.\"",
+  "source": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "2025-11-14",
+  "notes": "Reviewer: Mariano Desole. Full review on this Trustpilot page is substantially longer and structured with sections. The concluding section of the full review is independently confirmed in search index, containing the statement: \"The fact that the customer service is apparently only willing to correct such a simple matter under massive pressure and the threat of financial repercussions (a PayPal case) is absolutely unacceptable.\" The full review describes a support timeline from Oct 29, 2025 first contact through Nov 12, 2025 resolution after PayPal dispute threat — these dates are in portions of the review not captured in the snippet. Snippet sourced from the opening sentences confirmed by subagent direct page access.",
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

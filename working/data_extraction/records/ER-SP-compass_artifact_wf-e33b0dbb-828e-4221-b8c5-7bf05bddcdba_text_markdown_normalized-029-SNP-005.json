@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://payhip.com/pricing",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Customers can pay with their PayPal account or their card. Visa, MasterCard, American Express, JCB, Discover, and Diners Club and more.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip pricing page (payhip.com/pricing, undated) states customers can pay with PayPal or cards: Visa, Mastercard, American Express, JCB, Discover, Diners Club, and more",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Payhip: accepts PayPal + cards (Visa, MC, Amex, JCB, Discover, Diners Club)"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com/pricing (undated). Payment methods: PayPal + major card networks."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/pricing",
+    "secondary_pointer": null
+  }
+}

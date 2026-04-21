@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018",
+  "source_type": "blog",
+  "source_title": "Vender Tu Curso En Hotmart O En Una Academia Propia",
+  "source_ref": "https://www.taisa-designer.com/vender-tu-curso-en-hotmart-o-en-una-academia-propia",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"En Hotmart: La comisión para un curso de 199€ es 9,9% + 0,50€, lo que equivale a 20,85€ por cada venta. En tu web propia: Usando Stripe/PayPal, la comisión sería del 2,9% + 0,30€, es decir, 5,08€ por cada venta.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog calculates Hotmart fee for €199 course as €20.85 per sale (9.9% + €0.50) versus own website using Stripe/PayPal at €5.08 per sale (2.9% + €0.30)",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "Hotmart: 9.9% + €0.50/sale = €20.85 for €199 course; own website (Stripe/PayPal): 2.9% + €0.30/sale = €5.08 for €199 course",
+  "metric_unit": "EUR per sale",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Europe (EUR amounts)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Hotmart: 9.9% + €0.50/sale = €20.85 per €199 course sale",
+    "Own website (Stripe/PayPal): 2.9% + €0.30/sale = €5.08 per €199 course sale",
+    "third-party fee calculation comparison, undated"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "parser_notes": [
+    "taisa-designer.com (undated). Calculates Hotmart fee for €199 course: €20.85/sale vs. own website (Stripe/PayPal) €5.08/sale. Third-party calculation; not verified against current official Hotmart rates."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.taisa-designer.com/vender-tu-curso-en-hotmart-o-en-una-academia-propia",
+    "secondary_pointer": null
+  }
+}

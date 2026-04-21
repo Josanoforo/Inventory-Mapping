@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_title": "Did Gumroad Just Get Dumped By Paypal",
+  "source_type": "seller_forum",
+  "source_ref": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+  "source_date_if_available": "October 16, 2024 (email timestamp: Wed, 16 Oct 2024 22:11:34 UTC)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"We wanted to inform you that PayPal has suspended Gumroad's use of their service. As a result, we can no longer process payouts to PayPal accounts. We've invested heavily in direct bank transfers for nearly every country. We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Polycount forum discussion (October 16, 2024) reproducing Gumroad email: PayPal suspended Gumroad's use of their service as of October 2024; Gumroad can no longer process PayPal payouts; sellers encouraged to connect bank accounts directly"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": ["2024-Q4"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

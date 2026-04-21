@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009",
+  "source_type": "unknown",
+  "source_title": "Domestika Estafa Suscripci N No Autorizada",
+  "source_ref": "https://www.reclamos.cl/domestika/reclamo/2025/may/domestika-estafa-suscripci-n-no-autorizada",
+  "source_date_if_available": "Published May 5, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Durante el mes de marzo compré un curso en Domestika por $845 pesos chilenos. El 2 de mayo recibí un cobro de $164780 pesos, por cobro de una suscripción a Domestika plus, que no solicité y que por supuesto que no aparecía en la descripción del anuncio.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Chilean buyer reports $164,780 CLP Domestika Plus subscription charge in May 2025 after purchasing $845 CLP course in March 2025 — subscription not advertised or requested",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "164780",
+  "metric_unit": "CLP (Domestika Plus subscription charge)",
+  "time_scope_raw": "May 2, 2025",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": "Chile",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "$845 pesos chilenos",
+    "que no solicité",
+    "que no aparecía en la descripción del anuncio"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "reclamos.cl consumer complaint (May 2025): Chilean buyer (CLP currency) reports $164,780 CLP Domestika Plus charge after $845 CLP course purchase — approximately 195x ratio. geography_if_explicit set to Chile (CLP currency and Chilean consumer platform). Subscription described as neither requested nor advertised. Snippet in Spanish."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclamos.cl/domestika/reclamo/2025/may/domestika-estafa-suscripci-n-no-autorizada",
+    "secondary_pointer": null
+  }
+}

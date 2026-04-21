@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy supports 14 LatAm currencies for store display: ARS (Argentine Peso), BOB (Boliviano), BRL (Brazilian Real), CLP (Chilean Peso), COP (Colombian Peso), CRC (Costa Rican Colon), DOP (Dominican Peso), GTQ (Guatemalan Quetzal), HNL (Honduran Lempira), MXN (Mexican Peso), NIO (Nicaraguan Córdoba), PEN (Peruvian Nuevo Sol), PYG (Paraguayan Guarani), and UYU (Uruguayan Peso). VES (Venezuelan Bolívar) is absent.",
+  "verbatim_snippet": "[Stated in layout: currency list of 130+ items including \"ARS - Argentine Peso\", \"BOB - Boliviano\", \"BRL - Brazilian Real\", \"CLP - Chilean Peso\", \"COP - Colombian Peso\", \"CRC - Costa Rican Colon\", \"DOP - Dominican Peso\", \"GTQ - Guatemalan Quetzal\", \"HNL - Honduran Lempira\", \"MXN - Mexican Peso\", \"NIO - Nicaraguan Córdoba\", \"PEN - Peruvian Nuevo Sol\", \"PYG - Paraguayan Guarani\", \"UYU - Uruguayan Peso\"; list ends at \"ZMW - Zambian Kwacha\" with no VES entry between UZS and VND]",
+  "source": "https://docs.lemonsqueezy.com/help/payments/currencies",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Individual currencies confirmed via multiple search engine index queries targeting the same URL's content. VES absence confirmed by observing the alphabetical list jumps from \"UZS - Uzbekistan Som\" to \"VND - Vietnamese Dong.\"",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+  "source_title": "Amazon Handmade Vs Etsy",
+  "source_type": "blog",
+  "source_ref": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Amazon Handmade enables a reach of 300 million potential customers while Etsy covers 'only' 90 million. Amazon's fees are high (15% referral on each sale) and the in-house regulations when it comes to marketing your products are stricter. Etsy ($0.20 per item) tends to be more economical and offers you more freedom when it comes to branding.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy"
+      },
+      "source_finding_id": "F-P06",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P06"
+  ]
+}

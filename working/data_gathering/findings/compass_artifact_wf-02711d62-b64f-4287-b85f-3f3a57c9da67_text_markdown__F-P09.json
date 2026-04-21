@@ -1,0 +1,13 @@
+{
+  "what": "Apify hosts a \"Patreon Analytics\" scraping tool for extracting comprehensive analytics for top Patreon creators, including earnings, membership stats, growth trends, and historical changes.",
+  "verbatim_snippet": "\"Extract comprehensive analytics for top Patreon creators. Get detailed insights into earnings, membership stats, growth trends, and historical changes. Perfect for market research, competitor analysis, and understanding the creator economy. 📊\"",
+  "source": "https://apify.com/easyapi/patreon-analytic",
+  "source_type": "product_listing",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in snippet.",
+  "notes": "URL not directly fetched by lead agent; snippet retrieved from search engine index of the same URL. Retrieval method: Google search engine index. Subagent reports pricing as \"from $2.99 / 1,000 results\" and developer as \"EasyApi\" with \"11 total users, 0 monthly active users\"; these details are from a separate fetch by research assistant.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

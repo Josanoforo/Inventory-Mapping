@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006",
+  "source_title": "Why Can T I Open A Shop In My Country",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/1500006519562-Why-Can-t-I-Open-a-Shop-in-My-Country",
+  "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"At this time, sellers in certain locations where Etsy Payments isn't available won't be able to sign up to sell on Etsy. If you don't see your country in the dropdown menu during the shop opening process, then selling on Etsy isn't available in your country at this time. We're working on expanding the availability of Etsy Payments so we can offer the benefits Etsy Payments provides to sellers in more countries.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/1500006519562-Why-Can-t-I-Open-a-Shop-in-My-Country"
+      },
+      "source_finding_id": "F-P10",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P10"
+  ]
+}

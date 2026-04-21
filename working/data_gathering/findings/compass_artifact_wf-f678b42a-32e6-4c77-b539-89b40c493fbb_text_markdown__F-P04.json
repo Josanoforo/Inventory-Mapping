@@ -1,0 +1,16 @@
+{
+  "what": "Un vendedor argentino describe el flujo de retiro: recibir USD vía Payoneer, retirar a través de una \"financiera\" local (en billete dólar o pesos), depositar en cuenta bancaria, y facturar como monotributista.",
+  "verbatim_snippet": "\"hola! ingresas los dolares a traves de payoneer, retiras por financiera ya sea en billete dolar)para despues cambiar y vender tu antojo) o en pesos. Si es en pesos la misma financiera te los puede depositar a tu cuenta bancaria o si no vos te los depositas por el cajero. Despues facturas tu monotributo normalmente y listo, todo blanqueado.\"",
+  "source": "https://bigbangconversion.com/blog/opinion-hotmart/#comment-7941",
+  "source_type": "seller_forum",
+  "verification_status": "blocked_url_index_verified",
+  "date": "20 de junio de 2023",
+  "notes": "Dimensión Payout. País: Argentina. Método: Payoneer → financiera → ARS banco local. Dirección: comisiones USD de ventas cross-border → retiro en Argentina. Experiencia individual, no documentación oficial. Consistente con F-16 (Wise no disponible para cuentas personales LatAm) que deja Payoneer como canal principal para AR.",
+  "extra_fields": {
+    "finding_id": "F-P04"
+  },
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

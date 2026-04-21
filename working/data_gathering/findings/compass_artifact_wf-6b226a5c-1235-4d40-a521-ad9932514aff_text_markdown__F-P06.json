@@ -1,0 +1,13 @@
+{
+  "what": "Payout fee via PayPal is a flat fee of $0.50 per payout for accounts in the US and 3% capped at $30 per payout for accounts outside the US.",
+  "verbatim_snippet": "[Stated in layout: \"A flat fee of $0.50 per payout for accounts in the US · 3% capped at $30 per payout for accounts outside the US\"]",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Recovery method: Google search index snippet of the same URL; direct fetch returned 403. These items appear under the \"→ Payouts via PayPal\" subsection based on the page's table of contents structure. Both items appeared consecutively in a single search snippet.",
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

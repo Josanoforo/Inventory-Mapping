@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_type": "pricing_page",
+  "source_title": "Precios",
+  "source_ref": "https://hotmart.com/es/precios",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Olvida el resto de aplicaciones y plugins. Con Hotmart, puedes crear, acelerar, gestionar y crecer junto a tu negocio en una misma plataforma sin coste. Solo pagas un porcentaje cuando realizas una venta.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart pricing page describes a free all-in-one platform with revenue-share pricing model: no monthly fee, no extra apps or plugins; pay a percentage only per sale",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "percentage per sale; no monthly fee",
+  "metric_unit": "% per sale",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "no monthly fee; pay percentage per sale only",
+    "all-in-one: no extra apps or plugins needed",
+    "Hotmart official pricing page, undated"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "hotmart.com/precios (undated). Hotmart pricing: free all-in-one platform; revenue-share model (percentage per sale, no subscription fee). Official pricing page; publication date not verifiable."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/precios",
+    "secondary_pointer": null
+  }
+}

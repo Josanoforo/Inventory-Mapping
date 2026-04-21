@@ -1,0 +1,13 @@
+{
+  "what": "Authors in countries without a US tax treaty cannot reduce the 30% US royalty withholding tax rate on Envato.",
+  "verbatim_snippet": "\"If you're in a country that has no tax treaty with the US, unfortunately, we won't be able to reduce the royalty withholding tax rate of 30%.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"country\" + \"tax treaty with the US\" + \"30%.\" Dimension: TAX. Flow: LatAm→US. Applies to the majority of LatAm countries that lack US tax treaties.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

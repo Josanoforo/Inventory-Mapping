@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_type": "help_center",
+  "source_title": "Que Es El Spread De Las Compras Internacionales",
+  "source_ref": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"El spread es la diferencia entre el precio de compra y el de venta de moneda extranjera. Para llegar al valor de la tarifa que ves en la plataforma, Hotmart cuenta con una operadora de cambio oficial del Banco Central, que fija un valor de cambio alterado cada 24 horas. Además, el número que ves ya considera, por ejemplo, el IOF (Impuesto sobre Operaciones Financieras), que es obligatorio, entre otros costos operacionales del proceso de pago.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart international purchase spread help center (help.hotmart.com/es, as of April 2026) explains the spread on international purchases is the difference between buy and sell rates for foreign currency; Hotmart uses an official exchange operator from the Central Bank that updates rates every 24 hours; the displayed rate includes IOF (Imposto sobre Operações Financeiras, a mandatory Brazilian financial operations tax) and other operational costs",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "FX spread includes IOF (Brazilian financial operations tax) + operational costs; exchange rate updated every 24 hours by official Central Bank exchange operator",
+  "metric_unit": "unspecified % spread",
+  "time_scope_raw": "as of April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazil (IOF is a Brazilian financial operations tax)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help (as of Apr 2026): FX spread includes IOF (Brazilian mandatory tax) + operational costs; rate updated every 24h by official Central Bank exchange operator"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "help.hotmart.com (as of Apr 2026). Spanish. FX spread: IOF (Brazilian tax) + operational costs embedded in displayed rate. Exchange rate updated every 24h via official Central Bank operator. Scope beyond Brazil not specified."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-",
+    "secondary_pointer": null
+  }
+}

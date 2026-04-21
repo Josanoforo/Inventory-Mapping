@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-009",
+  "source_type": "article",
+  "source_title": "Collections",
+  "source_ref": "https://help.payhip.com/article/74-collections",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Collections allow your customers to buy your products based on categories easily. You might have a particular group of products that naturally fit together, and it could make a lot of sense to display them as a collection on your store page, making shopping easier for your customers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip help documentation describes Collections feature: allows grouping related products into categories displayed on the store page; enables category-based browsing for customers",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Collections: group related products into categories for store page display",
+    "enables category-based browsing for customers"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.payhip.com (accessed April 2026; page undated). Payhip Collections feature: product category grouping and store display for buyer navigation."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/74-collections",
+    "secondary_pointer": null
+  }
+}

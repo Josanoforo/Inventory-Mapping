@@ -1,0 +1,16 @@
+{
+  "what": "Etsy deposits only in USD to Payoneer Payment Accounts. Sellers can then withdraw to local bank accounts in local currencies via Payoneer's bank transfer service. Payoneer may charge a fee. Funds are sent to Payoneer every Monday; 2–5 business days for withdrawal to local bank. Payoneer users cannot schedule deposits for a different time. Sellers can avoid Etsy's 2.5% currency conversion fee by listing items in the same currency as their Etsy Payment account (i.e., USD for Payoneer countries).",
+  "verbatim_snippet": "\"Etsy only supports deposits in United States Dollars (USD) to your Payoneer Payment Account. However, you can withdraw earnings from your Payoneer Payment Account to your local bank account in over 150 countries and currencies with Payoneer's bank transfer withdrawal service. Payoneer may charge a fee for this service.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Directly relevant to Argentina, Brazil, Chile, Peru sellers who receive USD and must convert to ARS, BRL, CLP, PEN via Payoneer. Additional snippet from same page: \"It typically takes 2–5 business days for the funds to appear in your bank account after you have requested withdrawal to your bank.\" And: \"You can list your items in the same currency as your Etsy Payment account to avoid a currency conversion fee charged by Etsy.\" Dimension: Payout + Currency. Cross-border cut: Argentina (ARS), Brazil (BRL), Chile (CLP), Peru (PEN) — all receiving USD, converting to local currency.",
+  "extra_fields": {
+    "finding_id": "F-P02"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

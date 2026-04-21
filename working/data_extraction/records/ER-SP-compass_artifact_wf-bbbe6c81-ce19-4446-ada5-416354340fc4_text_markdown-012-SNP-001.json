@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-012",
+  "source_type": "buyer_review",
+  "source_title": "Dificuldade Em Solicitar Reembolso Na Hotmart E Possivel Ocultacao De Compras Elegiveis Mgewiv 0Kqfrmge0",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/dificuldade-em-solicitar-reembolso-na-hotmart-e-possivel-ocultacao-de-compras-elegiveis_MGEwiV_0kqFRmGE0",
+  "source_date_if_available": "Refund approved 21/11/2025; refund processed 28/11/2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart está dificultando a solicitação de reembolso! Muito me impressiona que a Hotmart não está ajudando o comprador a solicitar o reembolso da compra feita! O processo é bem simples, basta ir no link: https://refund.hotmart.com/, clicar em Não encontrei o código da transação, digitar seu email, digitar o código de 6 dígitos que chega no email e pronto, aparecem as compras elegíveis para reembolso. Fiz este procedimento e pasmem, ele retornou a mensagem que não há compras disponíveis para reembolso!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Hotmart Reclame Aqui complaint (refund processed November 28, 2025) reports refund portal (refund.hotmart.com) returned 'no purchases available for refund' after correctly completing the refund procedure (email + 6-digit verification code); buyer suspects system is hiding eligible purchases; issue eventually resolved",
+  "actor_level": "unknown",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Refund approved 21/11/2025; refund processed 28/11/2025",
+  "time_scope_normalized_if_safe": "2025-11",
+  "geography_if_explicit": "Brazil",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Refund portal (refund.hotmart.com) returned 'no purchases available' despite eligible purchases",
+    "Refund procedure: email + 6-digit code at refund.hotmart.com; eventually approved Nov 21 and processed Nov 28"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "reclameaqui.com.br (refund approved Nov 21, processed Nov 28, 2025). Hotmart refund portal (refund.hotmart.com) incorrectly returned 'no eligible purchases'. Issue eventually resolved."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/dificuldade-em-solicitar-reembolso-na-hotmart-e-possivel-ocultacao-de-compras-elegiveis_MGEwiV_0kqFRmGE0",
+    "secondary_pointer": null
+  }
+}

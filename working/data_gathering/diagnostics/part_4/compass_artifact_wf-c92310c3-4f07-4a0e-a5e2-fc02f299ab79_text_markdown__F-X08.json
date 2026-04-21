@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X08",
+  "seller_or_subject": "US vs non-US instructor payment disparity (Class Central, not LatAm-specific)",
+  "attempted": "What: A Class Central investigative article reports that a US-based (Florida) Domestika instructor continued receiving payments while non-US instructors had payments stopped, but the non-US instructors referenced are based in Spain (Madrid), not in Latin America.\nVerbatim snippet: \"Domestika hasn't stopped paying every inactive instructor. Liam Filler*, a Florida-based instructor, has been getting paid until now, despite not replying to students for a year and a half.\"\nSource: https://www.classcentral.com/report/domestika-unpaid-instructors/\nsource_type: article\nverification_status: could_not_verify\nDate: November 4, 2025 (article date per search snippet)\nNotes: Page returned 403 on direct fetch; snippet captured from Google search index. Degraded to could_not_verify because: (1) the 403 access issue, (2) snippet may be truncated, and (3) the geographic comparison is US vs. Spain, not US vs. LatAm, placing it outside strict D6 scope. The article uses pseudonyms (asterisked names). The finding is included as contextual evidence of possible geographic differential in Domestika's payout enforcement, but no LatAm instructor is specifically named or discussed.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.classcentral.com/report/domestika-unpaid-instructors/"
+  ]
+}

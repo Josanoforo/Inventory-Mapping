@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center acknowledges that in some countries, local or national taxes are applied to international purchases or to currencies different from the buyer's local currency, which can result in additional charges or declined payments.",
+  "verbatim_snippet": "\"In some countries, there are local/national taxes that are applied to international purchases or to currencies that are different from that of your local currency which can result in an additional charge.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. This passage immediately precedes the Argentina-specific passage captured in F-P05. No specific LatAm countries are named in this passage itself, but the \"international purchases\" and \"currencies that are different\" language confirms the cross-border cut.",
+  "finding_id": "F-P04",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

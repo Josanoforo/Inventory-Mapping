@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "March 22, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy fees are an absolute joke, charging over 32% for various fees. Transaction fee, Operating fee, Regulatory fee, Off Site ad fee and all plus VAT. Put postage on top and you get around 50% of th...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy seller claims combined fees (transaction, operating, regulatory, Offsite Ads, VAT) exceed 32%, rising to approximately 50% when postage is added",
+  "actor_level": "seller",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "32",
+  "metric_unit": "percent combined fee rate (transaction + operating + regulatory + Offsite Ads + VAT), before postage (with postage ~50%)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "combined fees exceed 32% (transaction, operating, regulatory, Offsite Ads, VAT)",
+    "with postage approximately 50% retained by platform/costs",
+    "snippet truncated after 'around 50% of th...'"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review (March 22, 2026). Seller claims Etsy combined fees (transaction + operating + regulatory + Offsite Ads + VAT) exceed 32%; with postage approximately 50% of sale retained by platform/costs. Snippet truncated; VAT mention suggests non-US seller."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-016",
+  "source_title": "Reembolso Hotmart Sr3Qxstnwoacpfcw",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/reembolso-hotmart_Sr3qxsTnWOacpfcW",
+  "source_date_if_available": "Hotmart response states refund released 25/07; year not confirmed in snippet",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Solicitei o reembolso, pois se trata de ARREPENDIMENTO DE COMPRA e de acordo com a LEI NO ARTIGO 49 o estorno do cart\u00e3o deve ser feito IMEDIATAMENTE. Mas, j\u00e1 se passaram mais de 7 dias e n\u00e3o obtive nenhum estorno. A minha fatura do cart\u00e3o ir\u00e1 vencer em breve voc\u00eas acham justo eu ter que pagar por algo que n\u00e3o estou tendo acesso?\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.reclameaqui.com.br/hotmart/reembolso-hotmart_Sr3qxsTnWOacpfcW"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart complaint on ReclameAqui (refund released July 25, year unconfirmed): buyer invokes Brazilian consumer law Article 49 (right of withdrawal) demanding immediate card reversal; refund not received after 7+ days"
+  ],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

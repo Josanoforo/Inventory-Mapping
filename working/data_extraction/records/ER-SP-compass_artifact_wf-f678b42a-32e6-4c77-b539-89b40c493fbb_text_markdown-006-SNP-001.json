@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Como Funciona La Transferencia Automatica De Mis Comisiones Disponibles Para Retiro",
+  "source_ref": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+  "source_date_if_available": "Vigente desde febrero 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"A partir de febrero de 2024, todas las comisiones de ventas disponibles para retiro en cualquier moneda, excepto BRL (real), se transfieren automáticamente y sin tarifa de retiro, una vez al mes, a la cuenta bancaria registrada por ti en nuestra plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart automatic transfer help center (help.hotmart.com/es, effective February 2024) states that from February 2024 all commissions available for withdrawal in any currency except Brazilian Real (BRL) are automatically transferred once per month to the registered bank account with no withdrawal fee",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "0% withdrawal fee; monthly automatic transfer; all currencies except BRL",
+  "metric_unit": "% withdrawal fee; monthly frequency",
+  "time_scope_raw": "Vigente desde febrero 2024",
+  "time_scope_normalized_if_safe": "2024-02",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help (eff. Feb 2024): all non-BRL commissions auto-transferred monthly to bank account; no withdrawal fee"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "help.hotmart.com (eff. Feb 2024). Spanish. Auto payout: monthly, no fee, all currencies except BRL. BRL exception implies different rules for Brazilian Real balances."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "what": "Non-US Envato authors' sales to US buyers may be subject to US royalty withholding tax of up to 30%, with possible reduction if the author resides in a country with a US income tax treaty.",
+  "verbatim_snippet": "\"Accordingly, if you are a non-U.S. person, your sales to US buyers may be subject to royalty withholding tax of up to 30%. However, if you are a resident of a country that has an income tax treaty with the U.S., you may be eligible for a reduced withholding tax rate.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in available index recovery",
+  "notes": "Page returned 403 on direct fetch; verbatim recovered from Google search index snippet of same URL. Recovery method: search index. Cross-border cut: \"non-U.S. person\" + \"US buyers\" + \"royalty withholding tax.\" Dimension: TAX. Flow: LatAm→US (LatAm seller earning from US buyer). Applies to all LatAm countries; most (Brazil, Argentina, Colombia, Chile, Peru, Ecuador, Bolivia, Paraguay, Uruguay, Costa Rica, Panama, Guatemala, Dominican Republic) lack US tax treaties and face the full 30%, per IRS Treaty Table 1 (Rev. May 2023) — that country-specific enumeration is external to this snippet.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

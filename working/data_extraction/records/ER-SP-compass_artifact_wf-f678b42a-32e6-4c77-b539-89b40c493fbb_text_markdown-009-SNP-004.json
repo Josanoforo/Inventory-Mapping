@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "Ventas Globales Responsabilidades Fiscales Sobre Las Ventas Realizadas A Traves De Hotmart",
+  "source_ref": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "source_date_if_available": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Contenido de tabla; múltiples subagentes confirman la fila: Escenario 2 — Productor: cualquier país excepto México — Comprador: México — Responsable: Hotmart gestiona impuestos y emite facturas]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart fiscal responsibilities help center (help.hotmart.com/es, effective January 1, 2024 / April 1, 2025) states in Scenario 2: when a buyer is in Mexico and the producer is registered in any country except Mexico, Hotmart manages taxes and issues invoices",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "time_scope_normalized_if_safe": "2024-01-01",
+  "geography_if_explicit": "Mexico",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help (eff. Jan 1, 2024 / Apr 1, 2025): Scenario 2 — Mexico buyer (producer from any country except Mexico): Hotmart handles taxes and invoicing"
+  ],
+  "uncertainties": [
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "help.hotmart.com (eff. Jan 1, 2024 / Apr 1, 2025). Spanish. Table: Scenario 2 — Mexico buyer, non-Mexico producer: Hotmart handles tax/invoice. Contrast with Colombia/Peru where producer bears responsibility. Snippet is table-extracted."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+  "source_title": "I Tried Selling A Digital Journal On Payhip No Sales Yet But Heres What I M Learning 239546B63F63",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63",
+  "source_date_if_available": "June 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I uploaded it on Payhip, linked it to my Medium post, shared the product page, and waited. Days passed. Then weeks. Views trickled in… but no sales. At first, I felt discouraged. Had I done something wrong? Was the pricing off? Was it the topic?\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Medium blog post (June 2025). Seller uploaded digital journal to Payhip, got views but zero sales over weeks. Questioning pricing and topic choice.",
+    "possible_metric_types: ['sales_count'] — zero sales is an explicit sales count outcome."
+  ],
+  "possible_subjects": [
+    "Payhip seller zero sales outcome (digital journal)",
+    "Payhip traffic without conversion pattern"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["sales_count"],
+  "possible_time_scopes": ["June 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

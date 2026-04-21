@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-005",
+  "source_title": "Lemonsqueezy Review",
+  "source_type": "article",
+  "source_ref": "https://dodopayments.com/blogs/lemonsqueezy-review",
+  "source_date_if_available": "2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Feature Gaps: Compared to a full Stripe integration or larger platforms like FastSpring, LemonSqueezy has a narrower focus. It also lacks some advanced funnel customization. So if you need sophisticated checkout flows or alternative business models, you may outgrow it.\" and \"Limited Payment Flexibility: LemonSqueezy's checkout is simpler, but that means fewer options. If you later need to expand beyond card/wallet payments, it may be restrictive. USD-Centric & Fees: All transactions settle in USD. This is fine for US-based creators, but non-US sellers pay extra due to currency fluctuations.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://dodopayments.com/blogs/lemonsqueezy-review"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Lemon Squeezy review by Dodo Payments (2026): Lemon Squeezy has narrower feature set compared to Stripe or FastSpring; lacks advanced checkout customization; limited payment method options beyond card and wallet; all transactions settle in USD, creating currency conversion costs for non-US sellers"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

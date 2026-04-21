@@ -1,0 +1,48 @@
+{
+  "packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-002",
+  "source_title": "How Can I Download The Invoice For My Purchase",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003164078-How-can-I-download-the-invoice-for-my-purchase",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"We remind you that as we are a company based in the United States, all charges are processed in dollars and invoices are issued without taxes because we do not charge them.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003164078-How-can-I-download-the-invoice-for-my-purchase"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Domestika help article on invoice download (accessed April 2026): platform is US-based; all charges processed in USD; invoices issued without taxes"
+  ],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

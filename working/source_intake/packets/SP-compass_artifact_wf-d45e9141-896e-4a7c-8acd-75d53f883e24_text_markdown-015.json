@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-015",
+  "source_title": "Patreon Will Take Membership To The Next Level With 60 M In Funding",
+  "source_type": "blog",
+  "source_ref": "https://news.patreon.com/articles/patreon-will-take-membership-to-the-next-level-with-60-m-in-funding",
+  "source_date_if_available": "2019 (Series D announcement)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"When Sam and I launched Patreon, it was in response to a broken system where creative work on the internet was being used to funnel massive profits to big companies without valuing or rewarding the creators. This core problem has only intensified despite others launching Patreon-like membership features. Yet the fundamental system remains broken; other companies still continue to prioritize advertising dollars over creators.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://news.patreon.com/articles/patreon-will-take-membership-to-the-next-level-with-60-m-in-funding"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon Series D funding announcement (2019): co-founders describe Patreon as response to internet creative economy where large companies profit from creators without fair reward; despite competitors launching similar membership features, founders say the core problem (advertising over creators) persists"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2019"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad's Terms of Service mandate that all transactions settle in USD regardless of the display currency chosen by the seller. Gumroad calculates USD prices using exchange rates from openexchangerates.org and does not guarantee rate accuracy. No markup or spread is disclosed in the ToS.",
+  "verbatim_snippet": "\"If the retail price of a Product is listed in a currency other than United States Dollars (USD), Gumroad will calculate a USD price based upon an exchange rate determined by Gumroad. Gumroad uses exchange rates obtained from http://openexchangerates.org/api. Gumroad cannot and does not guarantee that the exchange rate displayed reflects the most up to date rate due to the fluctuating nature of exchange rates. Accordingly, Gumroad recommends that you confirm current rates before engaging in any transactions on the Platform. Regardless of listed currency, all transactions through the Services will settle in USD.\"",
+  "source": "https://gumroad.com/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective January 1, 2025; last updated December 10, 2024",
+  "notes": "Section 9 of the Terms of Service. Applies to all non-USD display currencies including MXN, BRL, COP, ARS, CLP, PEN. The FX source (openexchangerates.org) is named; no spread or markup is mentioned in this section.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

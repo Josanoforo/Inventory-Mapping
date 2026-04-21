@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007",
+  "source_type": "blog",
+  "source_title": "How I Started A Digital Business In Just One Day With Payhip 376035B928A9",
+  "source_ref": "https://medium.com/@reennamatovu/how-i-started-a-digital-business-in-just-one-day-with-payhip-376035b928a9",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Created a 'reading log template' in half an hour. Designed a small set of motivational quote posters (A4 JPGs). Wrote a short guide: '5 Tricks to Build a Micro‑business in a Weekend.' Within 24 hours I had three live products. Tested $1 prices, $5, and the pay‑what‑you‑want model. I shared links in Facebook groups for writers, on LinkedIn, even in a Slack community. One sale here, two there. By day end, $20 in revenue — not earth‑shattering, but a proof of concept.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Creator launched 3 Payhip products in one day (reading log template, quote posters, micro-business guide) and generated $20 day-one revenue via social sharing — framed as proof of concept",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "revenue",
+  "metric_value_raw": "20",
+  "metric_unit": "USD (self-reported day-one Payhip revenue, 3 digital products, $1/$5/pay-what-you-want pricing)",
+  "time_scope_raw": "within 24 hours",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "within 24 hours I had three live products",
+    "Tested $1 prices, $5, and the pay-what-you-want model",
+    "$20 in revenue — not earth-shattering, but a proof of concept"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Medium blog (undated). Creator launched 3 Payhip products in one day: reading log template, quote posters, micro-business guide. Tested $1/$5/PWYW pricing. Generated $20 day-one via Facebook groups, LinkedIn, Slack. Framed as proof-of-concept."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@reennamatovu/how-i-started-a-digital-business-in-just-one-day-with-payhip-376035b928a9",
+    "secondary_pointer": null
+  }
+}

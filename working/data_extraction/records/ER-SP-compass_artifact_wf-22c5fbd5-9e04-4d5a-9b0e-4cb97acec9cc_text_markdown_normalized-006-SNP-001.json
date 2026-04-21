@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006",
+  "source_type": "blog",
+  "source_title": "Our Brand New Food Writing Course",
+  "source_ref": "https://julskitchen.substack.com/p/our-brand-new-food-writing-course",
+  "source_date_if_available": "July 12, 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It was August 2022 when I was first contacted by the Creative Acquisition Team at Domestika. The email object read: Giulia + DOMESTIKA Collaboration Opportunity... 'Based on what we see in your portfolio, we would love to produce a course in the realm of Food Blogging/ Writing, but we are totally open to your ideas :)' They were asking ME to produce a food writing course.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Domestika instructor acquisition process: Creative Acquisition Team outreach based on portfolio review, August 2022",
+  "actor_level": ["marketplace", "seller"],
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "August 2022",
+  "time_scope_normalized_if_safe": "2022-08",
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["August 2022", "Based on what we see in your portfolio"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": ["Instructor blog post (July 2023) describing outreach in August 2022. 'Creative Acquisition Team' is the Domestika unit that contacts potential instructors."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://julskitchen.substack.com/p/our-brand-new-food-writing-course",
+    "secondary_pointer": null
+  }
+}

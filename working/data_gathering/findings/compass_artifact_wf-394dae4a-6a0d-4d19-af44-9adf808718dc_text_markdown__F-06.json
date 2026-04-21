@@ -1,0 +1,13 @@
+{
+  "what": "Users with Colombia as registered account country can withdraw sales in US Dollars to Colombian Pesos (COP) by registering a Colombian bank account on the platform.",
+  "verbatim_snippet": "\"If the country registered in your account is Colombia, you can withdraw sales in US Dollars to Colombian Pesos (COP). To do this, you need to register a Colombian bank account on the platform.\"",
+  "source": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "accessed April 14, 2026",
+  "notes": "Verified via direct fetch by two independent subagents. Colombia is the only non-Brazil LatAm country with an explicitly documented local-currency withdrawal option in this source.",
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

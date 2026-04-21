@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy payouts may be blocked or paused if required tax information is missing. Funds cannot be transferred externally, but payments continue to be received.",
+  "verbatim_snippet": "\"Payouts may be blocked or paused if we are missing required tax information. Funds cannot be transferred externally, but payments will continue to be received.\"",
+  "source": "https://docs.lemonsqueezy.com/help/tax-forms",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. Directly impacts LatAm sellers who have not yet submitted W-8BEN or W-8BEN-E forms. Sales accumulate but cannot be paid out until tax documentation is complete.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009",
+  "source_title": "Shutterstock Reports Full Year 2024 And Fourth Quarter Financial",
+  "source_type": "report",
+  "source_ref": "https://investor.shutterstock.com/news-releases/news-release-details/shutterstock-reports-full-year-2024-and-fourth-quarter-financial",
+  "source_date_if_available": "February 25, 2025 (published). OUT-OF-WINDOW.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"The increase in Content revenue was driven by revenue generated from Envato, offset by weakness in new customer acquisition.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://investor.shutterstock.com/news-releases/news-release-details/shutterstock-reports-full-year-2024-and-fourth-quarter-financial"
+      },
+      "source_finding_id": "F-14",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-14"
+  ]
+}

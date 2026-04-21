@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004",
+  "source_type": "buyer_review",
+  "source_title": "Envato Elements Subscription",
+  "source_ref": "https://forums.envato.com/t/envato-elements-subscription/502870",
+  "source_date_if_available": "Accessed April 2026; page undated. Thread ID (~502870) suggests approximately 2025; date not confirmable.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I had my client buy a Envato elements subscription for a project we're working on, I do not want him to be billed for it once we're done working & it is a yearly subs, I don't think I'll remember to cancel it a year from...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato Elements user reports procuring a yearly subscription for a client project and expresses concern about managing auto-renewal to prevent unintended billing",
+  "actor_level": "unknown",
+  "platforms": ["Envato"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "yearly",
+  "time_scope_normalized_if_safe": "P1Y",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "yearly Envato Elements subscription purchased for client project",
+    "concern about forgetting to cancel before auto-renewal",
+    "snippet truncated"
+  ],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "parser_notes": [
+    "Envato forum (undated, accessed April 2026). User reports yearly Envato Elements subscription purchased for client project; concerned about auto-renewal management. Thread date not confirmable; snippet truncated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://forums.envato.com/t/envato-elements-subscription/502870",
+    "secondary_pointer": null
+  }
+}

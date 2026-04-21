@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-010",
+  "source_title": "Google Analytics",
+  "source_type": "article",
+  "source_ref": "https://help.payhip.com/article/93-google-analytics",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"By default, we send a 'Purchase' key event to Google Analytics whenever someone completes the checkout process on your Payhip store... Whilst Payhip has some built-in Analytics features, we recommend connecting your store to Google Analytics for more advanced insights.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/93-google-analytics"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip Google Analytics integration (undated): Purchase key event sent to GA on checkout completion by default; native analytics available with GA recommended for deeper insights"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

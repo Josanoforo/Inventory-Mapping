@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-007",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+  "source_date_if_available": "Accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I had 3 accounts over the years and as a result want nothing to do with this horrendous company. I went to Template Monster for easier access.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato user with 3 historical accounts reports negative overall experience and migration to Template Monster for easier access",
+  "actor_level": "unknown",
+  "platforms": ["Envato"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "over the years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "3 accounts held over the years",
+    "departed for Template Monster",
+    "cites easier access as reason for migration",
+    "specific complaints not detailed"
+  ],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review (accessed April 14, 2026; individual review date unknown). Envato user with 3 prior accounts reports negative experience; migrated to Template Monster for easier access. Specific complaints not detailed in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+    "secondary_pointer": null
+  }
+}

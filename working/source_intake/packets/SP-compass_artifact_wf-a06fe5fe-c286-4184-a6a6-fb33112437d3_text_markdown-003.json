@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-003",
+  "source_title": "Refund Request",
+  "source_type": "platform_doc",
+  "source_ref": "https://help.payhip.com/article/281-refund-request",
+  "source_date_if_available": "Updated March 17, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you would like to request a refund for a product you purchased from a Payhip seller, you'll need to contact the seller directly. In this article, we'll show you how to get in touch with the seller and what to expect during the process.\\n\\nPayhip does not hold funds and cannot issue refunds directly. [...] Each seller sets and manages their own refund policy. Some sellers may offer refunds, while others may not, especially if the product has already been downloaded or accessed. [...] Many sellers on Payhip are individual creators or small businesses, so response times may vary. Most sellers typically reply within 24 to 72 hours. [...] If you believe a seller is acting in bad faith, misrepresenting their products, or violating Payhip's policies, please get in touch with our support team at contact@payhip.com.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/281-refund-request"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Payhip refund policy (March 2026): Payhip does not hold funds and cannot issue refunds directly; each seller sets their own refund policy; seller response time typically 24-72 hours; policy violations can be reported to Payhip support"
+  ],
+  "possible_actor_levels": ["buyer", "marketplace"],
+  "possible_metric_types": ["refund_policy"],
+  "possible_time_scopes": ["2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

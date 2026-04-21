@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_title": "Withholding Taxes With Envato Elements And Envato Market",
+  "source_type": "help_center",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"With Envato Market, you are selling directly to the customer. When you sell to a buyer based in a country with royalty withholding taxes, they will apply. For example, when you sell to a US buyer, the US royalty withholding tax applies.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Envato author help center on withholding taxes. Explains that sellers on Envato Market sell directly to customers; royalty withholding taxes apply based on buyer's country (e.g., US withholding tax for US buyers).",
+    "source_date_unclear: page undated; accessed April 2026.",
+    "possible_geographies: ['United States'] from explicit US withholding tax example."
+  ],
+  "possible_subjects": [
+    "Envato Market royalty withholding tax (buyer country dependent)",
+    "Envato seller-direct sale structure (author sells to buyer)"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-015",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/domestika.org?page=3",
+  "source_date_if_available": "Accessed April 2026; review appears to be from early 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In January 2025 I contacted Domestika to cancel my subscription and request a refund for an unexpected charge of €125.46. They never responded. Not once. Based on their silence, I assumed the subscription was cancelled. In January 2026 they charged me again — this time $347.52 — with no prior renewal notification whatsoever. I have now sent 7+ emails over 13 months. Zero responses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Buyer reports Domestika charged €125.46 unexpectedly in January 2025 then $347.52 in January 2026 despite 7+ cancellation requests over 13 months — zero responses from Domestika throughout",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "347.52",
+  "metric_unit": "USD (January 2026 Domestika charge; prior charge €125.46 in January 2025)",
+  "time_scope_raw": "January 2025; January 2026; 13 months",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "unexpected charge of €125.46",
+    "They never responded. Not once.",
+    "charged me again — this time $347.52",
+    "no prior renewal notification whatsoever",
+    "7+ emails over 13 months",
+    "Zero responses"
+  ],
+  "uncertainties": [
+    "metric_unit_unclear"
+  ],
+  "parser_notes": [
+    "Trustpilot review (accessed April 2026, early 2026): buyer reports two Domestika charges — €125.46 unexpectedly in January 2025, then $347.52 in January 2026 despite 7+ cancellation requests with zero responses over 13 months. Mixed EUR and USD currencies in same account — ambiguous geography. metric_value_raw captures January 2026 USD charge; prior EUR charge noted here."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/domestika.org?page=3",
+    "secondary_pointer": null
+  }
+}

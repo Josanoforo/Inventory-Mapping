@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center states that as a US-based company, all charges are processed in dollars and invoices are issued without taxes because Domestika does not charge them.",
+  "verbatim_snippet": "\"We remind you that as we are a company based in the United States, all charges are processed in dollars and invoices are issued without taxes because we do not charge them.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003164078-How-can-I-download-the-invoice-for-my-purchase",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. Confirms Domestika does not collect VAT/IVA/sales tax on behalf of any jurisdiction. Any local tax obligations (e.g., Argentine impuesto PAIS, Mexican IVA on digital services) fall on the buyer or are applied by the buyer's bank/payment processor.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

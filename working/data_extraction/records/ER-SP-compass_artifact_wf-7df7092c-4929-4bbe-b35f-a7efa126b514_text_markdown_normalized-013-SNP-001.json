@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.themeforest.net",
+  "source_date_if_available": "November 20, 2025 (posted), 1-star rating.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We've been using ThemeForest for years and all the products we've purchased have always worked well. However, our last product didn't work and was completely broken. We opened a dispute on PayPal for a refund and were blocked from our account. ThemeForest support requested a pause in the PayPal dispute. And now they claim they won't issue a refund even after reviewing our case and hundreds of negative reviews from the seller? This is an illegal practice since the product arrived completely broken. We no longer trust any Envato service.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "ThemeForest long-time buyer reports broken product purchase, account blocked upon opening PayPal dispute, refund denied despite seller negative review history, characterizing practice as illegal",
+  "actor_level": "unknown",
+  "platforms": ["Envato"],
+  "product_type_if_explicit": "digital_download",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 20, 2025 (posted)",
+  "time_scope_normalized_if_safe": "2025-11-20",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "long-time ThemeForest customer; prior purchases worked well",
+    "most recent product arrived completely broken",
+    "PayPal dispute opened; account blocked by ThemeForest",
+    "ThemeForest support requested pause in PayPal dispute",
+    "refund denied after case review despite seller having 'hundreds of negative reviews' (buyer claim, unverified count)",
+    "buyer characterizes practice as illegal"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review of ThemeForest (posted November 20, 2025, 1-star). Long-time buyer: product arrived broken; PayPal dispute opened, account blocked; ThemeForest requested dispute pause; refund denied. 'Hundreds of negative reviews from seller' is buyer's unverified characterization. ThemeForest is an Envato marketplace."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.themeforest.net",
+    "secondary_pointer": null
+  }
+}

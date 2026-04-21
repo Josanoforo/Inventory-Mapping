@@ -1,0 +1,16 @@
+{
+  "what": "PayPal payouts from Lemon Squeezy are made in USD. PayPal may charge the recipient a fee to convert or withdraw.",
+  "verbatim_snippet": "\"Bank payouts will be made in USD. For bank payouts to a currency other than USD, the total will be converted to your chosen currency. PayPal payouts will be made in USD. Note that PayPal may charge you a fee to convert or withdraw your money once it's in your PayPal account.\"",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. LatAm sellers receiving PayPal payouts get USD; subsequent conversion to MXN, BRL, ARS, COP, etc. would occur within PayPal at PayPal's own rates, which are not controlled by Lemon Squeezy.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

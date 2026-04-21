@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_type": "report",
+  "source_title": "Etsy Statistics",
+  "source_ref": "https://capitaloneshopping.com/research/etsy-statistics",
+  "source_date_if_available": "Last updated March 29, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In 2025, 93.539 million consumers purchased items from Etsy. An estimated 5.90 million Etsy consumers (7%) are habitual buyers. There was a 2.01% YoY decrease in repeat buyers in 2025. The average Etsy consumer spends $127.40 on the marketplace in a year. Approximately 40% of GMS in 2025 came from habitual buyers, down 2.44% YoY. Mobile users (through the Etsy app) purchased 45% of consolidated GMS in 2025, up 7.14% YoY.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Capital One Shopping research: Etsy 2025 buyer metrics — 93.539M buyers total, 5.90M habitual buyers (7%), 2.01% YoY decrease in repeat buyers, $127.40 avg annual spend per buyer, 40% GMS from habitual buyers (-2.44% YoY), 45% GMS via mobile app (+7.14% YoY)",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "buyer_count",
+  "metric_value_raw": "93.539M buyers in 2025; 5.90M habitual buyers (7%); avg spend $127.40/year; 40% GMS from habitual buyers; 45% GMS from mobile app",
+  "metric_unit": "buyers; USD; % of GMS",
+  "time_scope_raw": "2025 full year; report last updated March 29, 2026",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "93.539M buyers purchased from Etsy in 2025",
+    "5.90M habitual buyers = 7% of buyer base",
+    "repeat buyers down 2.01% YoY",
+    "avg annual spend $127.40 per buyer",
+    "40% GMS from habitual buyers, down 2.44% YoY",
+    "45% GMS via mobile app, up 7.14% YoY"
+  ],
+  "uncertainties": ["methodology_unclear"],
+  "parser_notes": [
+    "capitaloneshopping.com research (updated March 29, 2026). Aggregates Etsy buyer metrics for 2025: 93.5M buyers, 7% habitual, $127.40 avg spend, 40% GMS from habitual buyers, 45% via mobile. Third-party aggregator; methodology not disclosed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://capitaloneshopping.com/research/etsy-statistics",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+  "source_date_if_available": "April 4, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I certainly don't recommend purchasing anything from this company because you can't take a complaint to a real person directly by phone, email or text. I was scammed in relation to a supplement I bought & there was just no way to quickly query this without going through a ridiculous procedure. Furthermore, ETSY should vet these supplement sellers before accrediting them - in this case it was a bogus company not located in the country ETSY said it was; the product was not sent from the country ETSY said it would be; & the parcel labels showed it was sent from China while the parcel tracking showed it was en route from Thailand (which it wasn't!).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot reviewer (April 2026) reports supplement purchase from Etsy seller misrepresenting location (not in stated country); shipping labels showed China, tracking showed Thailand; no direct customer service contact; buyer had to use complex complaint procedure",
+  "actor_level": "unknown",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "physical goods (dietary supplement)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 4, 2026",
+  "time_scope_normalized_if_safe": "2026-04-04",
+  "geography_if_explicit": "China and Thailand (actual shipping origin vs stated country)",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "supplement seller location misrepresented on Etsy listing",
+    "parcel labels: China; tracking: Thailand — inconsistent with listed country",
+    "no direct phone/email/text customer service accessible"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com (April 4, 2026). Supplement scam with location misrepresentation and contradictory shipping labels. Illustrates seller vetting and customer service accessibility issues."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+    "secondary_pointer": null
+  }
+}

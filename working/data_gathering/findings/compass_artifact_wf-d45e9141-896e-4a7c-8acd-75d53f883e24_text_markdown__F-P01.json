@@ -1,0 +1,13 @@
+{
+  "what": "Patreon's pricing page positions its payments infrastructure as uniquely creator-protective by absorbing payment complexity and risk, using explicit \"unlike other platforms\" competitive framing.",
+  "verbatim_snippet": "\"Patreon's payments infrastructure is built to protect and empower creators. Unlike other platforms, Patreon takes on payments complexity and risk so you don't have to. We meet top global standards for safety and compliance so your earnings are protected and hassle-free.\"",
+  "source": "https://www.patreon.com/pricing",
+  "source_type": "pricing_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Self-positioning (sub-type a). Direct page fetch returned 403; text confirmed via search engine index rendering full pricing page content (verified independently). \"Unlike other platforms\" is explicit competitive framing. Dimension: payments infrastructure. No specific competitor named.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

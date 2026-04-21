@@ -1,0 +1,16 @@
+{
+  "what": "Buyers visit seller's store or may be taken directly to a product page via a direct purchase link. Buyers can add to cart and continue browsing or click Buy Now to proceed directly to checkout. At checkout, buyer enters email address and selects payment method. Buyer can pay using PayPal or debit or credit card, depending on seller's setup. Digital products delivered instantly after purchase via download page. Receipt sent to email. Payments processed through Stripe and PayPal. Payhip does not store full payment details. Sellers receive buyer's email and, for physical products, shipping details.",
+  "verbatim_snippet": "\"To get started, visit the seller's store. In some cases, you may be taken directly to a product page or checkout if the seller has shared a direct purchase link.\\n\\nOnce you're on the seller's store, click on the product you're interested in to view more details. You can either add it to your cart and continue browsing or click Buy Now to proceed directly to checkout.\\n\\nAt checkout, you'll be asked to enter your email address and select a payment method. You can typically pay using PayPal or a debit or credit card, depending on the seller's setup.\\n\\nOnce your payment is successful, your purchase is complete. [...] Digital products are delivered instantly after purchase via a download page. [...] Yes. After your purchase, you will receive an email receipt that includes your order details, a download or login link, and the seller's contact email. [...] Sellers will receive basic information needed to fulfill your order, such as your email address and, for physical products, your shipping details. They do not have access to your full payment details.\"",
+  "source": "https://help.payhip.com/article/158-buying-from-payhip",
+  "source_type": "platform_doc",
+  "verification_status": "direct_verified",
+  "date": "Updated March 17, 2026",
+  "notes": "Buyer-facing help center article. Page title: \"Buying from Payhip.\" Article also states: \"Yes, payments are processed securely through trusted providers like Stripe and PayPal. Payhip does not store your full payment details.\" Mentions Payhip marketplace for discovery: \"you can browse the Payhip marketplace to discover similar digital products from other creators.\" Two checkout paths described: Add to Cart (continue browsing) and Buy Now (direct checkout). For memberships/subscriptions, buyer is \"prompted to log in and access your content right away.\" [...] marks indicate non-contiguous excerpts from the same article.",
+  "extra_fields": {
+    "finding_id": "F-05"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Direct fee calculation: Hotmart takes €20.85 per €199 course sale vs €5.08 via Stripe/PayPal on a self-hosted site — roughly 4× the cost",
+  "verbatim_snippet": "\"En Hotmart: La comisión para un curso de 199€ es 9,9% + 0,50€, lo que equivale a 20,85€ por cada venta. En tu web propia: Usando Stripe/PayPal, la comisión sería del 2,9% + 0,30€, es decir, 5,08€ por cada venta.\"",
+  "source": "https://www.taisa-designer.com/vender-tu-curso-en-hotmart-o-en-una-academia-propia/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Third-party comparative (sub-type b). Competitors named: self-hosted with Stripe/PayPal. Dimension: fees. Stance: anti-Hotmart. Specific numbers: €20.85 vs €5.08 per sale on a €199 product. Content confirmed from search snippet.",
+  "extra_fields": {
+    "finding_id": "F-P05"
+  },
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

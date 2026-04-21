@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "I Left Gumroad For Payhip And Why You Should Too B616A2612B1B",
+  "source_ref": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you sell a course for $100, Gumroad takes $10. If you make $5,000 a month, you are handing them $500. That is a car payment. That is a nice weekend getaway. That is your money. I looked at my dashboard and realized I was paying premium prices for a platform that treated me like a line item, not a partner. So I started looking for alternatives. I found Payhip. And honestly? I am angry I didn't switch sooner.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Creator cites Gumroad 10% fee ($10 per $100 sale, $500/month on $5K revenue) as reason for switching to Payhip — characterizes Gumroad as premium-priced and non-partner",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "commission_rate",
+  "metric_value_raw": "10",
+  "metric_unit": "percent (Gumroad fee per sale, as cited by seller — may not reflect current Gumroad pricing)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "sell a course for $100, Gumroad takes $10",
+    "make $5,000 a month, you are handing them $500",
+    "paying premium prices for a platform that treated me like a line item",
+    "switched to Payhip"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "metric_unit_unclear"
+  ],
+  "parser_notes": [
+    "Medium blog (undated). Creator cites Gumroad 10% fee as motivation for switching to Payhip. metric_value_raw: 10. Note: Gumroad fee structure varies by plan; this is one seller's characterization. metric_ambiguous flagged as fee may not reflect current Gumroad pricing."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+    "secondary_pointer": null
+  }
+}

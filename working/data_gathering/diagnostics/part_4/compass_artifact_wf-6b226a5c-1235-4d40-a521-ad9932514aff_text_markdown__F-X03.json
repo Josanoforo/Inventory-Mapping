@@ -1,0 +1,14 @@
+{
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X03",
+  "seller_or_subject": "Terms of service fee-related provisions",
+  "attempted": "What: The full terms of service could not be verified. The URL https://www.lemonsqueezy.com/legal/terms does not appear to exist; the actual URL is https://www.lemonsqueezy.com/terms. Search snippets captured partial terms content including liability caps and governing law, but no specific fee schedule or fee-change provisions were found in the terms.\nVerbatim snippet: \"n/a — page blocked; partial content from search index\"\nSource: https://www.lemonsqueezy.com/terms\nsource_type: policy_page\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Direct fetch returned 403. Multiple search queries retrieved excerpts from the SaaS Service Agreement and End User Terms but did not surface any specific clauses governing fee changes, fee caps, or billing dispute resolution beyond the liability limitation clause. The provided URL (https://www.lemonsqueezy.com/legal/terms) does not resolve; the correct path appears to be /terms.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.lemonsqueezy.com/legal/terms",
+    "https://www.lemonsqueezy.com/terms.",
+    "https://www.lemonsqueezy.com/terms",
+    "https://www.lemonsqueezy.com/legal/terms"
+  ]
+}

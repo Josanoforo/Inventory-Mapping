@@ -1,0 +1,65 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-010",
+  "source_title": "En Que Moneda Obtendre Mi Comision",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Puedes obtener tus comisiones en Hotmart en 4 monedas: Reales (BRL), Dólares (USD), Euros (EUR), Libras (GBP)\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-"
+      },
+      "source_finding_id": "F-01",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"En caso de que tu venta no cumpla ninguna de las reglas mencionadas anteriormente, la comisión será en dólares (USD).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Debido a la nueva normativa del Banco Central de la República Argentina (BCRA), que amplió el plazo para las remesas al exterior y afectó la liquidación de operaciones, se estandarizó la aplicación de una tarifa en los pagos con conversión de compra con pesos argentinos (ARS) para ofertas en dólares estadounidenses (USD), o conversiones de comisiones en dólares estadounidenses (USD) para productos ofertados en pesos argentinos (ARS).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-"
+      },
+      "source_finding_id": "F-05",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-01",
+    "F-02",
+    "F-05"
+  ]
+}

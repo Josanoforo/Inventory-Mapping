@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001",
+  "source_title": "Td P",
+  "source_type": "seller_forum",
+  "source_ref": "https://community.etsy.com/t5/Announcements/Important-New-tax-requirements-for-sellers-in-Mexico/td-p/140124123",
+  "source_date_if_available": "Posted late 2022; policy effective January 1, 2023. Page now behind community login wall; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Starting Jan 1, 2023, to comply with local laws, Etsy will start withholding taxes from the sales of sellers in Mexico to cover impuesto sobre la renta (ISR) and impuesto al valor agregado (IVA). These funds will then go to the Servicio de Administración Tributaria (SAT). The amount Etsy is required to withhold can be as high as 36% of the order total, however if you register for a Registro Federal de Contribuyentes (RFC) identification number and add it to your Etsy account, significantly less tax (see more below) will be withheld from your Etsy sales.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Announcements/Important-New-tax-requirements-for-sellers-in-Mexico/td-p/140124123"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Etsy seller policy",
+    "Etsy Mexico tax withholding"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["ongoing", "January 2023"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Source is an official Etsy announcement posted in seller community forum (late 2022), now behind a login wall. Content verified via search engine index snippet.",
+    "current_vs_historical_ambiguity: This 2022/2023 policy has been updated by later Etsy announcements (see SP-...-0ffe7308-...-011 which covers January 2026 rate changes). The 36% max withholding is still in effect but rates have been revised.",
+    "Source title 'Td P' is the forum thread ID segment, not a meaningful title — may be incomplete capture from search index."
+  ],
+  "traceability_status": "weak"
+}

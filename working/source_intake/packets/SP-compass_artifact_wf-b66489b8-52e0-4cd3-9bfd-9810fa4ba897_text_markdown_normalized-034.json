@@ -1,0 +1,43 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_title": "Ebooks",
+  "source_type": "product_listing",
+  "source_ref": "https://payhip.com/virtualink/ebooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "- SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place \u2014 $4.99 | - Ultimate AI Bundle \u2014 $4.99 (On Sale; was $9.99, struck through) | - Top 50 Questions About AI \u2014 $4.99 | - Top 50 Questions People Ask AI \u2014 $4.99 | - Book About AI \u2014 $4.99 | - Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI \u2014 $5.99 (On Sale; was $11.99, struck through) | Popularity text: \"OVER 10,000 COPIES SOLD!!!\" | Promo banner: \"\u21ca Get 40% Off Now \u21ca\" | Stock display: \"Only -1 left\" (likely a bug or unlimited stock indicator)",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://payhip.com/virtualink/ebooks"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip seller virtualink ebooks listing (accessed April 2026): AI/SaaS ebooks priced $4.99\u2013$5.99 (sale prices; originals $9.99\u2013$11.99); 10,000+ copies sold; 40% discount promo active"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price",
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

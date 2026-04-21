@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_type": "article",
+  "source_title": "Top Substack Writers Depart For Patreon",
+  "source_ref": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+  "source_date_if_available": "October 29, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lenz said she is already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on the new platform.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Writer Lenz reports reaching ~70% of prior Substack paid subscriber rate within two weeks of migrating to Patreon",
+  "actor_level": "unknown",
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "subscriber_count",
+  "metric_value_raw": "~70% of prior Substack paid subscriber rate within 2 weeks",
+  "metric_unit": "% of prior paid subscriber rate",
+  "time_scope_raw": "October 29, 2025; within two weeks of migration",
+  "time_scope_normalized_if_safe": "2025-10-29",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Lenz recovered ~70% of Substack paid subscriber rate within 2 weeks on Patreon",
+    "migration context: Substack to Patreon",
+    "Nieman Lab journalism article, October 2025"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "niemanlab.org (October 29, 2025). Article on top Substack writers migrating to Patreon: writer Lenz reports reaching ~70% of prior Substack paid subscriber rate within 2 weeks on Patreon. Single creator self-report via journalism article."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+    "secondary_pointer": null
+  }
+}

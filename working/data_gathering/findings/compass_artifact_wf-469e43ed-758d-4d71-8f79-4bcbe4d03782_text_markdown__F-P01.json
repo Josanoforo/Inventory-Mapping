@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy processes all transactions in USD using real-time, mid-market exchange rates. No additional fees are charged for this conversion.",
+  "verbatim_snippet": "\"Although we display your products in one of the many currencies we offer, ultimately we charge your customers the equivalent cost in USD. We do this using real-time, mid-market exchange rates to convert purchases to USD for processing. We do not charge any additional fees for this conversion.\"",
+  "source": "https://docs.lemonsqueezy.com/help/payments/currencies",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content verified via search engine index. USD-centric processing is the core cross-border FX mechanism. LatAm buyers see local-currency prices but are charged the USD equivalent.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

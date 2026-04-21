@@ -1,0 +1,57 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_title": "Top Substack Writers Depart For Patreon",
+  "source_type": "article",
+  "source_ref": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+  "source_date_if_available": "October 29, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Lenz said she is already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on the new platform.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Sole-Smith said almost 50% of her subscribers had made the transition.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"She appreciated that when readers have subscriptions issues, they can talk to an 'actual support person — not a bot.'\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Top Substack writers migrating to Patreon (October 2025): one writer achieved 70% of prior Substack paid subscriber count within two weeks; another achieved ~50% migration rate; Patreon cited for human customer support"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["active_buyers", "conversion_rate"],
+  "possible_time_scopes": ["2025-Q4"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

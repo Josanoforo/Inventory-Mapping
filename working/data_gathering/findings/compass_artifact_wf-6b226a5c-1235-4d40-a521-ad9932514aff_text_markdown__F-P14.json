@@ -1,0 +1,13 @@
+{
+  "what": "When a seller issues a refund, the refunded amount minus the platform fee is deducted from the seller's next payout. Refunds can take up to 10 days to appear on the customer's statement.",
+  "verbatim_snippet": "\"The refunded amount (minus our platform fee) will be deducted from your next payout.\"",
+  "source": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Recovery method: Google search index snippet of the same URL; direct fetch returned 403. The 10-day processing time for customer-facing refunds is stated in a separate passage from the same page (\"Refunds can take up to 10 days to appear on your customer's statement\") but is not included in this verbatim snippet to avoid concatenation.",
+  "finding_id": "F-P14",
+  "shard_id": "compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

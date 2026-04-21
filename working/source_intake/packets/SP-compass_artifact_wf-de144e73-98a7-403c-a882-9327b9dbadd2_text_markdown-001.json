@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001",
+  "source_title": "Etsy Policy Updates",
+  "source_type": "blog",
+  "source_ref": "https://blog.marmalead.com/etsy-policy-updates",
+  "source_date_if_available": "18 February 2026 (last updated per subagent report)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Etsy launched its own keyword research tool, Marketplace Insights, built into Shop Manager under the Stats tab.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://blog.marmalead.com/etsy-policy-updates"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Marmalead blog article on Etsy policy updates (last updated February 18, 2026): Etsy launched its own native keyword research tool 'Marketplace Insights' built into Shop Manager under the Stats tab"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X08",
+  "seller_or_subject": "English-language help center payment methods article",
+  "attempted": "**What:** Domestika's help center article on payment methods exists at an English-language URL and describes country-specific payment method availability, but no equivalent Spanish-language article was found accessible.\n\n**Verbatim snippet:** n/a — coverage gap finding (English-language source; Spanish shard only)\n\n**Source:** https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods (English); Spanish equivalent at /hc/es/ returned 403.\n\n**source_type:** help_center\n\n**verification_status:** could_not_verify\n\n**Date:** April 2026\n\n**Notes:** Coverage gap. English-language article exists with country-specific payment method details. Spanish equivalent at support.domestika.org/hc/es/ not accessible (403). Per shard rules, English-only content cannot be used as a finding in this Spanish shard.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://support.domestika.org/hc/en-us/articles/360018788378-Payment-methods"
+  ]
+}

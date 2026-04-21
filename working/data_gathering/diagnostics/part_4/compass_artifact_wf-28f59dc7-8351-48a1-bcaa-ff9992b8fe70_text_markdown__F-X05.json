@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X05",
+  "seller_or_subject": "ByRATINGS Domestika buyer behavior case study",
+  "attempted": "- **What:** ByRATINGS case study \"How Domestika identifies customers who will buy more\" referenced in search results with metrics including \"30% increase in conversion in segmented campaigns\" and \"70% of revenue was achieved with just 35% of the user base\" but page returned 404\n- **Verbatim snippet:** n/a — could not verify\n- **Source:** URL https://byratings.com/success-case/how-domestika-identifies-customers-who-will-buy-more/ returned 404 on direct fetch. Metrics appeared in search index snippets and on https://byratings.com/customer-stories/ but without date, scope, or sample information.\n- **source_type:** report\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026; page date unknown\n- **Notes:** Page returned 404 error. Search snippets reference \"community of over 1M users\" which predates current 8M+ figure, suggesting case study may be from an earlier period. Metrics lack the required source + scope + period attribution per direction rules (Rule 4).",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://byratings.com/success-case/how-domestika-identifies-customers-who-will-buy-more/",
+    "https://byratings.com/customer-stories/"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Compre Curso Domestika Noviembre Mes Despues Me Llego Cobro Casi 300 Euros Consegui Recuperar Mi Dinero",
+  "source_ref": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+  "source_date_if_available": "17 diciembre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"En noviembre compré un curso de crónicas de viajes en Domestika que costaba menos de dos euros. Yo estaba viajando por Marruecos, muy inspirada, y me pareció una buena idea retomar una escritura más personal que tenía bastante abandonada por mi trabajo del día a día. No le di muchas vueltas: ya había comprado otros cursos en la plataforma años atrás sin ningún problema.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Author bought a travel writing course on Domestika for under €2 in November 2025, with prior positive purchase history — contextual setup for subsequent unexpected ~€300 charge",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "noviembre 2025",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "costaba menos de dos euros",
+    "años atrás sin ningún problema"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Genbeta article (December 2025): author sets narrative context — travel writing course for <€2 bought in November 2025 while traveling in Morocco, following prior uneventful Domestika purchases. This snippet is contextual background; article title indicates a ~€300 charge was subsequently received and ultimately recovered via PayPal. Snippet in Spanish."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+    "secondary_pointer": null
+  }
+}

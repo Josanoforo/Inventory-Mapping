@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_title": "domestika.pissedconsumer.com",
+  "source_type": "buyer_review",
+  "source_ref": "https://domestika.pissedconsumer.com/review.html",
+  "source_date_if_available": "~2025\n\n---\n\n## Category 4: Strategies and positive experiences (primarily pre-2023)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you have been scammed please sign the Change Org petition called Domestika Estafadores (with 12+ K signatures and counting), to help get a class action off the ground.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://domestika.pissedconsumer.com/review.html"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika buyer/instructor fraud complaints",
+    "Domestika consumer petition"
+  ],
+  "possible_actor_levels": ["buyer", "seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["~2025"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "metric_type_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Review aggregation page on PissedConsumer for Domestika. Snippet is a user comment calling for a class action via Change.org petition titled 'Domestika Estafadores' with 12K+ signatures.",
+    "source_date_unclear: source_date_if_available in skeleton contains a stage 1 data extraction artifact — embedded markdown text appended after '~2025'. Actual date is approximately 2025. Cannot modify mechanical field.",
+    "metric_type_unclear: petition signature count (12K+) does not map to any metric_type enum value. Captured as unknown.",
+    "context_insufficient: snippet is a call to action without explaining the specific fraud allegations; full page context needed."
+  ],
+  "traceability_status": "weak"
+}

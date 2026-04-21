@@ -1,0 +1,16 @@
+{
+  "what": "The Form W-8 is used by foreign individuals and entities to certify their foreign status for U.S. tax purposes, declaring they are not U.S. persons.",
+  "verbatim_snippet": "\"The Form W-8 is used by foreign individuals and entities to certify their foreign status for U.S. tax purposes, allowing them to declare that they are not U.S. persons and are not subject to U.S. taxation.\"",
+  "source": "https://docs.lemonsqueezy.com/help/tax-forms/w8-w9-forms",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. This is the form required for all LatAm sellers. The phrase \"not subject to U.S. taxation\" appears in the form's purpose description; actual tax treatment may differ based on income characterization and treaty.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

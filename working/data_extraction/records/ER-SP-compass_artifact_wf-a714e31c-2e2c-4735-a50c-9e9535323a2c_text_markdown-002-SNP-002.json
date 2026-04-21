@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002",
+  "source_type": "blog",
+  "source_title": "Plataformas Para Vender Cursos Online",
+  "source_ref": "https://bit4learn.com/plataformas-para-vender-cursos-online",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Desde que fue adquirida por Hotmart en el 2019 dejo de desarrollar nuevas funcionalidades y se quedó estancada.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog describes a platform acquired by Hotmart in 2019 as having ceased new feature development and stagnated after the acquisition",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "2025; acquisition referenced as 2019",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "acquired platform ceased new feature development after 2019 Hotmart acquisition",
+    "described as having stagnated post-acquisition",
+    "acquired platform name not specified in snippet"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear", "context_insufficient"],
+  "parser_notes": [
+    "bit4learn.com (2025). Describes a platform acquired by Hotmart in 2019 as stagnated; ceased new feature development post-acquisition. Acquired platform name absent from snippet; context insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bit4learn.com/plataformas-para-vender-cursos-online",
+    "secondary_pointer": null
+  }
+}

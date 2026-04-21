@@ -1,0 +1,13 @@
+{
+  "what": "Patreon's search page displays six category labels: Art, Podcast, Music, Games, Writing, Photography.",
+  "verbatim_snippet": "[Stated in layout: \"Art · Podcast · Music · Games · Writing · Photography\"]",
+  "source": "https://www.patreon.com/search",
+  "source_type": "search_results_page",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated.",
+  "notes": "Direct fetch of URL returned 403 error. Category labels retrieved from search engine index of the same URL. Page title indexed as \"Search | Patreon.\" Retrieval method: search engine index snippet via research assistant.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

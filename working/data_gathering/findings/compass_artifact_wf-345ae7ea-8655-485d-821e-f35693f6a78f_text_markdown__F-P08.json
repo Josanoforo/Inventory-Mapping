@@ -1,0 +1,13 @@
+{
+  "what": "Author switched entire author website from WordPress to Payhip after a plugin conflict broke the shopping cart during launch week. Reports specific limitations traded: limited number of themes and layout blocks, no Yoast or keyword-analysis SEO dashboards, not a blog-first platform. States the trade-off was worth it for \"peace of mind and writing time.\"",
+  "verbatim_snippet": "\"Deep customization – PayHip has a limited number of themes and layout blocks. Advanced SEO tools – No Yoast or keyword analysis dashboards. Traditional blogging features – You can post updates, but PayHip isn't a blog-first platform. But I gained peace of mind and writing time. And honestly? That was the trade I needed to make.\"",
+  "source": "https://writersinthestormblog.com/2025/06/why-i-dropped-wordpress-for-payhip/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "June 2025",
+  "notes": "Direct fetch returned 403; snippet recovered via Google search index of same URL. Author is Kris Maze (pen name Krissy Knoxx), speculative fiction author. Date from URL path (/2025/06/). In a separate passage on same page, states \"For a 0.5% transaction fee, I can use all of their features\" — the 0.5% figure does not match any known Payhip plan (free = 5%, Plus = 2%, Pro = 0%); likely author error. Reports setup completed in a weekend. Previously hosted on Bluehost then SiteGround.",
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

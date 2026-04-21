@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013",
+  "source_type": "product_listing",
+  "source_title": "75Owj",
+  "source_ref": "https://payhip.com/b/75OWj",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Available for 35€ until March 1th, After that — the price rises to 65€\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Payhip product listing (accessed April 2026) at payhip.com/b/75OWj uses early access pricing: €35 until March 1, price rising to €65 afterward",
+  "actor_level": "unknown",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "Early access €35; post-deadline price €65 (price increase of €30)",
+  "metric_unit": "EUR",
+  "time_scope_raw": "Price increase after March 1 (year not specified); accessed April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "early access price: €35 until March 1; standard price: €65 afterward",
+    "price increase of €30 (85.7% premium) for post-deadline buyers"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "payhip.com/b/75OWj (accessed April 2026; page undated). Early access tiered pricing: €35 introductory vs €65 standard. Illustrates time-limited pricing capability available to Payhip sellers."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/b/75OWj",
+    "secondary_pointer": null
+  }
+}

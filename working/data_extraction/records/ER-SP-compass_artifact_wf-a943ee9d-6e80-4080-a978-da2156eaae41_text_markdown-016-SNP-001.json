@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-016",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/etsy.co.uk",
+  "source_date_if_available": "March 2026 (referencing November 2025 order)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I ordered a Christmas preasant from Twice As Nice Digitals on 25/11/2025 via Etsy. I have still not recieved it as of 18/03/2026 despite messaging Michael, the owner. His web site is now unavailable. Looks like yet another scam. Dont use either company if you want to keep your money.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot UK reviewer ordered from Etsy seller 'Twice As Nice Digitals' on November 25, 2025; item not received as of March 18, 2026 (nearly 4 months); seller website now unavailable; buyer suspects scam",
+  "actor_level": "unknown",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "digital goods (Christmas present from seller 'Twice As Nice Digitals')",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Order November 25, 2025; review March 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "United Kingdom (etsy.co.uk)",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "order placed November 25, 2025; not received ~4 months later",
+    "seller website unavailable at time of review",
+    "UK buyer via etsy.co.uk"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com/review/etsy.co.uk (March 2026 review). UK buyer reports non-delivery ~4 months after order; seller site offline. Illustrates cross-border seller accountability gap on Etsy."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/etsy.co.uk",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-004",
+  "source_title": "Dealing With Vat",
+  "source_type": "help_center",
+  "source_ref": "https://help.gumroad.com/article/10-dealing-with-vat",
+  "source_date_if_available": "Accessed April 2026; page date not visible in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Gumroad handles VAT on behalf of creators for all digital product sales in the EU and the UK. We collect, remit, and even allow buyers to refund VAT without sellers having to lift a finger.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.gumroad.com/article/10-dealing-with-vat"
+      },
+      "source_finding_id": "F-P10",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P10"
+  ]
+}

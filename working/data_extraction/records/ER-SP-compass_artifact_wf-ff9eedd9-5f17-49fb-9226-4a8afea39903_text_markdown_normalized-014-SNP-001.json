@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_type": "article",
+  "source_title": "Gumroad Vs Payhip",
+  "source_ref": "https://whop.com/blog/gumroad-vs-payhip",
+  "source_date_if_available": "January 24, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad offers easier product setup and a flat 10% fee, while Payhip provides more store customization options. Gumroad has minimal customer support and requires creators to handle refunds and customer inquiries themselves.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "whop.com blog (January 24, 2024) compares Gumroad and Payhip: Gumroad offers easier product setup and a flat 10% fee; Payhip offers more store customization; Gumroad has minimal customer support with creators responsible for handling refunds and customer inquiries",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad", "Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "Gumroad: 10% flat fee; minimal customer support (creator handles refunds/inquiries)",
+  "metric_unit": "% per sale",
+  "time_scope_raw": "January 24, 2024",
+  "time_scope_normalized_if_safe": "2024-01-24",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "whop.com blog (Jan 24, 2024): Gumroad — easier setup, 10% flat fee, minimal customer support (creator handles refunds/inquiries); Payhip — more store customization"
+  ],
+  "uncertainties": ["author_conflict_of_interest_possible"],
+  "parser_notes": [
+    "whop.com/blog/gumroad-vs-payhip (Jan 24, 2024). English. Gumroad vs Payhip: Gumroad easier setup + 10% flat fee + minimal support (creator self-handles refunds and customer inquiries); Payhip more customizable storefront. Source is competing marketplace (Whop — COI)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://whop.com/blog/gumroad-vs-payhip",
+    "secondary_pointer": null
+  }
+}

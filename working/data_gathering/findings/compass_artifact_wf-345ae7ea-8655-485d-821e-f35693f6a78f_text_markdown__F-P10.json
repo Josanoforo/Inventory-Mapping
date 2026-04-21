@@ -1,0 +1,13 @@
+{
+  "what": "UK-based seller using Payhip free plan to test a digital product business (\"Test 02\"). Created three products: a ChatGPT prompt workbook, an AI tools directory, and a Whiteout Survival strategy guide. Reports that products are live and checkout works, but without traffic, nothing sells. Identifies this as the central challenge: Payhip handles transactions once a buyer arrives but cannot bring buyers to the seller.",
+  "verbatim_snippet": "\"This is the thing most Payhip reviews gloss over. The platform is excellent at processing a transaction once someone has decided to buy. What it cannot do is bring that person to you in the first place. This is the central challenge of Test 02 for us. We have created three digital products — a ChatGPT prompt workbook, an AI tools directory and a Whiteout Survival strategy guide — listed them on Payhip and priced them reasonably. The products are live. The checkout works. But without traffic, nothing sells.\"",
+  "source": "https://www.digitalrevenuestudio.co.uk/drs-blog-08-payhip-review",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "2026 (from article title \"Payhip Review 2026\"; exact date not confirmed)",
+  "notes": "Direct fetch returned 403; snippet recovered via Google search index of same URL. Author is Digital Revenue Studio (UK-based; organizational byline, no individual name). Contains disclosed affiliate links. In a separate passage, states: \"We are on the free plan... The 5% fee on the free plan is completely reasonable — it only costs you anything when you are actually making money.\" Calculates crossover point for upgrading to Plus plan at ~£580/month in sales. Pre-revenue at time of writing.",
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

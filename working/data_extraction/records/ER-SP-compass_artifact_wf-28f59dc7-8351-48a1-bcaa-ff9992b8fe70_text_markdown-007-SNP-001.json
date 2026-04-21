@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007",
+  "source_type": "article",
+  "source_title": "Tecnologia",
+  "source_ref": "https://www.consumidorglobal.com/tecnologia/todas-opiniones-estafa-domestika-suscripcion_15595_102.html",
+  "source_date_if_available": "8 julio 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Como muchas personas, he sido víctima de los patrones oscuros de Domestika.org. Ya había comprado tres cursos en la plataforma anteriormente y nunca he tenido ningún problema. Pero la última compra venía con sorpresa: una suscripción anual a Domestika Plus por tan solo 228 euros\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Consumer reports Domestika Plus 228 EUR annual subscription charged after regular course purchase — characterized as a 'dark pattern'; prior purchases had no issue",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "228",
+  "metric_unit": "EUR (Domestika Plus annual subscription)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "como muchas personas",
+    "patrones oscuros",
+    "nunca he tenido ningún problema",
+    "venía con sorpresa"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "consumidorglobal.com article/review section (July 2025): consumer explicitly labels Domestika's enrollment practices as 'dark patterns' ('patrones oscuros'); reports €228 Domestika Plus annual subscription charge emerging from a routine course purchase. Three prior purchases without issue makes the contrast notable. Snippet in Spanish; local qualifiers preserved."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.consumidorglobal.com/tecnologia/todas-opiniones-estafa-domestika-suscripcion_15595_102.html",
+    "secondary_pointer": null
+  }
+}

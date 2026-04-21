@@ -1,0 +1,46 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-007",
+  "source_title": "Threads",
+  "source_type": "seller_forum",
+  "source_ref": "https://forum.scribblehub.com/threads/patreon-vs-ko-fi.15563",
+  "source_date_if_available": "Accessed April 2026; thread undated (context suggests ~2023)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Ko-fi is better in every way, so many options, way cheaper fees, can even do the subscription thing of Patreon. But Patreon is more popular, so authors usually go for patreon rather than ko fi because readers are familiar with it.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://forum.scribblehub.com/threads/patreon-vs-ko-fi.15563"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "ScribbleHub forum thread on Patreon vs Ko-fi (~2023): forum member states Ko-fi has cheaper fees and more options including subscriptions; Patreon chosen by authors for its popularity and reader familiarity"
+  ],
+  "possible_actor_levels": [
+    "seller",
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

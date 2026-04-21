@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_date_if_available": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Una vez compre un curso de pago unico y pude descargarlo pero a los meses noto que empiezan a llegarme unos cobros de hotmart de otros cursos que nunca compre, nunca me soluccionaron me toco bloquear la tarjeta para generar una nueva y asi no siguieran robando , OJO CON DEJAR DATOS DE TU TARJETA , MUCHO OJO..\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026) reports unauthorized charges for courses they never purchased appearing months after a one-time course purchase; support did not resolve it; reviewer had to block and replace card; warns others against saving card data on Hotmart",
+  "actor_level": "unknown",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "online courses (one-time payment)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Unauthorized charges for unpurchased courses months after one-time purchase; support unresponsive",
+    "Reviewer forced to block and replace card; warns: 'careful with leaving card details'"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). Post-purchase unauthorized charges; support unresponsive; card blocked. May indicate subscription misactivation or fraud."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=9",
+    "secondary_pointer": null
+  }
+}

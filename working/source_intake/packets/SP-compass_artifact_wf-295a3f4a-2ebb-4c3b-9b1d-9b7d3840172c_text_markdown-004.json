@@ -1,0 +1,53 @@
+{
+  "packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004",
+  "source_title": "Probando La Tienda Online Kichink",
+  "source_type": "blog",
+  "source_ref": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink",
+  "source_date_if_available": "Acceso abril 2026; p\u00e1gina sin fecha visible; circa 2015\u20132017 por contexto",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Otra cosa interesante, es que podemos tener nuestra versi\u00f3n en ingles, ya que hacen env\u00edos a Estados Unidos, eso si, tienes que traducir tu mismo por cada articulo que hagas.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "URL also appears in other shards (compass_artifact_wf-e5db5a04); packet assigned to this shard by alphabetical order.",
+    "angeldecuir.com.mx blog post reviewing Kichink (circa 2015\u20132017). Describes Kichink's English version and US shipping capability; seller must translate each product listing manually.",
+    "source_date_unclear: page has no visible date; circa 2015\u20132017 estimated from context.",
+    "possible_geographies: ['Mexico', 'United States'] \u2014 Kichink Mexico platform shipping to the US."
+  ],
+  "possible_subjects": [
+    "Kichink US shipping capability",
+    "Kichink English language store option (seller self-translated)"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico",
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

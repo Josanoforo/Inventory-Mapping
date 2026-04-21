@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014",
+  "source_type": "blog",
+  "source_title": "Shopify Vs Payhip",
+  "source_ref": "https://webappmeister.com/shopify-vs-payhip",
+  "source_date_if_available": "March 9, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This is one of the clearest wins in the comparison. Payhip has built-in EU VAT and UK VAT handling for digital products. It collects and remits VAT automatically, and provides tax reporting to keep you compliant. For EU or UK-based creators selling digital goods, this removes a significant administrative burden.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip built-in automatic EU VAT and UK VAT collection, remittance, and tax reporting for digital products — cited as clear competitive advantage for EU/UK creators",
+  "actor_level": "third_party_observer",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "EU, UK",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "clearest wins in the comparison",
+    "collects and remits VAT automatically",
+    "tax reporting to keep you compliant",
+    "removes a significant administrative burden"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Independent blog (March 2026): describes Payhip's automatic EU/UK VAT collection and remittance for digital products as a clear competitive advantage, particularly for EU/UK creators. Corroborates what Payhip's own pages state. geography_if_explicit set to EU, UK as scope is explicit."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://webappmeister.com/shopify-vs-payhip",
+    "secondary_pointer": null
+  }
+}

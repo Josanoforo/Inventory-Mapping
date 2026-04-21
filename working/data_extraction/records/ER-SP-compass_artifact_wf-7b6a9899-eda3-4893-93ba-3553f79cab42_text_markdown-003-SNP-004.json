@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+  "source_date_if_available": "6 abril 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"HOTMART no me entrega el dinero de mis ventas, llevo mas de 13 dias esperando que analisen los documentos, nadie me da respuesta ni garantias. no Seguire vendiendo a traves de ustedes, retienen dinero...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart seller reports sales proceeds withheld for 13+ days pending document review with no support response, and declares intent to leave the platform",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "more than 13 days",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "sales proceeds withheld 13+ days for document analysis",
+    "no response from Hotmart support",
+    "seller declares intent to leave platform",
+    "snippet truncated"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (April 6, 2026). Hotmart seller reports sales proceeds withheld 13+ days for document review with no support response; declares intent to leave platform. Snippet truncated after 'retienen dinero...'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "secondary_pointer": null
+  }
+}

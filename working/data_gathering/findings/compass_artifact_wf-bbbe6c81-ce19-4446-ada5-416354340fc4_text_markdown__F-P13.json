@@ -1,0 +1,13 @@
+{
+  "what": "Buyer purchased a product on Hotmart, was charged immediately, but never received confirmation email, product access, or any form of platform access. Multiple support contacts yielded only automated responses. System showed \"error desconocido.\"",
+  "verbatim_snippet": "\"Compré un producto en Hotmart y me hicieron el cobro inmediatamente, pero nunca recibí ningún correo de confirmación, acceso al producto ni forma de entrar a la plataforma. Revisé spam, intenté recuperar el acceso, busqué por todos los medios posibles… nada. Contacté al soporte de Hotmart varias veces y solo me dieron respuestas automáticas inútiles, sin resolver absolutamente nada. Me están dando largas y siguen sin entregarme lo que compré. Incluso su sistema me marcó un 'error desconocido' cuando intenté recuperar el acceso.\"",
+  "source": "https://es.trustpilot.com/review/hotmart.com?page=11",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; review undated in snippet (likely 2025–2026)",
+  "notes": "Page 11 not directly fetched; verbatim from Google search snippet indexing Trustpilot page. Reviewer name not captured. Outcome: charged but no product, no access, automated support only.",
+  "finding_id": "F-P13",
+  "shard_id": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

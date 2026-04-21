@@ -49,6 +49,31 @@ MANIFEST_FILENAME = "converter_prepare_manifest.json"
 # Valores válidos de source_tool heredados del parser de Phase 0
 VALID_RETRIEVAL_METHODS = {"deep_search", "gpt_custom", "unknown"}
 
+# Enum cerrado de source_type definido en source_packet.schema.json
+SOURCE_TYPE_ENUM = {
+    "platform_doc", "help_center", "pricing_page", "policy_page",
+    "blog", "article", "report", "news", "reddit", "seller_forum",
+    "buyer_review", "product_listing", "interview", "video_transcript",
+    "pdf", "database_profile", "search_results_page", "unknown",
+}
+
+# Sinónimos: valores no estándar que aparecen en findings → valor canónico del enum
+SOURCE_TYPE_SYNONYMS = {
+    "help_article":          "help_center",
+    "blog_post":             "blog",
+    "marketplace_tool":      "platform_doc",
+    "investigative_report":  "report",
+    "industry_news":         "news",
+    "review_platform":       "buyer_review",
+    "social_media":          "unknown",
+    "feature_page":          "platform_doc",
+    "platform_help":         "help_center",
+    "faq_page":              "help_center",
+    "privacy_page":          "policy_page",
+    "terms_page":            "policy_page",
+    "developer_community":   "seller_forum",
+}
+
 # Nota estándar que se inserta en intake_notes cuando un packet viene de
 # findings Part 2. El stage 2 la lee y aplica las consecuencias:
 # - traceability_status -> weak
@@ -59,6 +84,42 @@ PART_2_INHERITED_NOTE = (
     "traceability_status to weak, add snippet_needs_reopen to uncertainties, "
     "and cap priority_for_source_first at medium."
 )
+
+
+# ====================================================================
+# Normalización de source_type
+# ====================================================================
+
+def normalize_source_type(raw: str) -> str:
+    """
+    Normaliza un valor de source_type al enum cerrado del schema.
+
+    Orden de resolución:
+    1. Si ya está en el enum → devolver tal cual.
+    2. Si tiene sufijo parentético (ej. "platform_doc (official forum response)"),
+       quitar el paréntesis y verificar el stem contra el enum.
+    3. Buscar en SOURCE_TYPE_SYNONYMS (valor completo y stem sin paréntesis).
+    4. Si no hay match → emitir warning a stderr y devolver el valor original
+       (para que Stage 2 o el operador lo detecte como schema_validation_failed).
+    """
+    if not raw:
+        return "unknown"
+    if raw in SOURCE_TYPE_ENUM:
+        return raw
+    # Quitar sufijo parentético
+    stem = raw.split("(")[0].strip()
+    if stem in SOURCE_TYPE_ENUM:
+        return stem
+    # Buscar en sinónimos (valor completo primero, luego stem)
+    canonical = SOURCE_TYPE_SYNONYMS.get(raw) or SOURCE_TYPE_SYNONYMS.get(stem)
+    if canonical:
+        return canonical
+    print(
+        f"WARNING: source_type '{raw}' not in schema enum and not in synonym map; "
+        "keeping original value. Add to SOURCE_TYPE_SYNONYMS if recurrent.",
+        file=sys.stderr,
+    )
+    return raw
 
 
 # ====================================================================
@@ -211,6 +272,93 @@ def group_findings_by_shard_and_url(findings):
 
 
 # ====================================================================
+# Derivación de source_title desde URL
+# ====================================================================
+
+def derive_title_from_url(url: str) -> str:
+    """
+    Deriva un source_title legible desde el path del URL.
+
+    Lógica:
+    1. Toma el último segmento significativo del path (ignorando segmentos
+       vacíos y segmentos puramente numéricos de un solo componente).
+    2. Quita prefijo numérico del estilo "32-" (número + guión al inicio).
+    3. Reemplaza guiones y underscores por espacios.
+    4. Title-case.
+    5. Fallback al dominio si el path es vacío o solo "/".
+
+    Ejemplos:
+      https://help.payhip.com/article/32-getting-started → "Getting Started"
+      https://backlinko.com/patreon-users               → "Patreon Users"
+      https://reddit.com/r/Etsy/                        → "R Etsy"
+      https://example.com/                              → "example.com"
+    """
+    if not url:
+        return "Unknown Source"
+
+    # Separar esquema + host + path
+    if "://" in url:
+        _, rest = url.split("://", 1)
+    else:
+        rest = url
+
+    if "/" in rest:
+        host, path = rest.split("/", 1)
+        path = "/" + path
+    else:
+        host = rest
+        path = ""
+
+    # Quitar query params del path para este propósito
+    if "?" in path:
+        path = path.split("?", 1)[0]
+
+    import re as _re
+
+    # Extraer segmentos no vacíos del path
+    segments = [s for s in path.split("/") if s.strip()]
+
+    def _domain_fallback():
+        domain = host.lower()
+        if domain.startswith("www."):
+            domain = domain[4:]
+        return domain
+
+    if not segments:
+        return _domain_fallback()
+
+    # Buscar el último segmento significativo (no puramente numérico,
+    # no un dominio embebido en el path como "www.etsy.com")
+    chosen = None
+    for seg in reversed(segments):
+        # Saltar segmentos puramente numéricos
+        if _re.fullmatch(r"\d+", seg):
+            continue
+        # Saltar segmentos que parecen dominios (contienen punto + al menos 2 chars después)
+        if _re.search(r"\.\w{2,}", seg):
+            continue
+        chosen = seg
+        break
+
+    if not chosen:
+        return _domain_fallback()
+
+    # Quitar prefijo numérico tipo "32-" o "123_"
+    chosen = _re.sub(r"^\d+[-_]", "", chosen)
+
+    # Reemplazar guiones y underscores por espacios
+    chosen = chosen.replace("-", " ").replace("_", " ")
+
+    # Limpiar espacios múltiples
+    chosen = " ".join(chosen.split())
+
+    if not chosen:
+        return _domain_fallback()
+
+    return chosen.title()
+
+
+# ====================================================================
 # Construcción de skeleton
 # ====================================================================
 
@@ -219,13 +367,13 @@ def build_skeleton(packet_id, source_id, shard_id, normalized_url, findings_in_g
     Construye un skeleton de Source Packet.
     Los 11 campos mecánicos se llenan, los 8 de juicio quedan vacíos/null.
     """
-    # Heredar source_type del primer finding; detectar inconsistencias
+    # Heredar source_type del primer finding; normalizar al enum; detectar inconsistencias
     source_types = {f.get("source_type") for f in findings_in_group}
     if len(source_types) > 1:
-        source_type = findings_in_group[0].get("source_type")
+        source_type = normalize_source_type(findings_in_group[0].get("source_type") or "")
         source_type_conflict = True
     else:
-        source_type = findings_in_group[0].get("source_type")
+        source_type = normalize_source_type(findings_in_group[0].get("source_type") or "")
         source_type_conflict = False
 
     # source_date: la más antigua disponible, o null
@@ -291,7 +439,7 @@ def build_skeleton(packet_id, source_id, shard_id, normalized_url, findings_in_g
         "source_id": source_id,
 
         # Campos mecánicos
-        "source_title": None,  # No viene del parser; stage 2 o revisión humana puede llenarlo
+        "source_title": derive_title_from_url(normalized_url),
         "source_type": source_type,
         "source_ref": normalized_url,
         "source_date_if_available": source_date,

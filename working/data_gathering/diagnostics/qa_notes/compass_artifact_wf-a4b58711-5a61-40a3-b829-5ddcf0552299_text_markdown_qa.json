@@ -1,0 +1,13 @@
+{
+  "shard_id": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "source_tool": "deep_search",
+  "findings_forced_to_provisional": "** F-P01 through F-P28 — all 28 findings. Reason: all Patreon Help Center pages (support.patreon.com) returned HTTP 403 Forbidden on direct automated fetch. Content was recovered exclusively via Google search engine index snippets attributed to the exact source URLs. This satisfies the blocked_url_index_verified criteria (exact URL fixed, direct fetch failed, snippet retrieved via search index of the same URL).",
+  "findings_degraded_to_could_not_verify": "** F-X01 (processing rate table inaccessible), F-X02 (US payout fee amount not found in snippets), F-X03 (PayPal/Payoneer payout fee tables inaccessible), F-X04 (conflicting rates across sources), F-X05 (pricing page content inaccessible).",
+  "findings_degraded_due_to_url_not_fixable": "** None. All URLs are fixed and verified as Patreon Help Center articles.",
+  "multi_speaker_pages_split": "** None applicable. All sources are Patreon's own help center articles in Patreon's editorial voice.",
+  "truncated_or_partial_sources": "** All sources are partial — search engine index snippets only capture portions of each page. Embedded tables (processing rates by currency, payout fees by currency/method) were not captured in any search snippet. This is the primary data gap for this shard.",
+  "source_type_ambiguities": "** None. All support.patreon.com articles are clearly help_center. The patreon.com/pricing page (F-X05) would be pricing_page if accessible.",
+  "coverage_gaps_where_findings_expected_but_not_found": "**",
+  "cases_where_input_could_not_be_decomposed_without_interpretation": "** None.",
+  "0_direct_verified_findings": "** This is an unusual shape for the shard. The entire Patreon Help Center (support.patreon.com) blocks automated HTTP requests with 403 responses. All 28 findings were recovered from Google search index snippets for the exact source URLs. The search snippets are generally reliable representations of page content but may have minor formatting differences from the original pages. No findings were elevated to direct_verified to avoid inflating the clean count."
+}

@@ -1,0 +1,16 @@
+{
+  "what": "El mínimo de retiro manual en Hotmart es US$50 o €50, más tarifas que varían según monto: €3.00 (>€200), €4.50 (€150–€199.99), €6.00 (€100–€150), €7.50 (€50–€100). Solo se publica tabla en EUR.",
+  "verbatim_snippet": "\"el valor mínimo para retiro es de US$ 50,00 o € 50,00 + tarifas.\"",
+  "source": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Payout. Clasificado provisional porque la tabla de tarifas solo muestra EUR, no USD. Un blog de terceros (ganarenlared.com) afirma que las mismas cifras aplican en dólares, pero esto no está confirmado en el help center. El mínimo de $50 aplica uniformemente; no hay umbrales diferenciados por país.",
+  "extra_fields": {
+    "finding_id": "F-P07"
+  },
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

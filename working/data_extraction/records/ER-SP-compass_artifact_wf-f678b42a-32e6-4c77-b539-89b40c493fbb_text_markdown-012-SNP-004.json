@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_type": "help_center",
+  "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+  "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Conforme a las leyes tributarias locales, Hotmart comenzó a recaudar impuestos en 14 estados a partir de marzo de 2022: Connecticut, Nueva Jersey, Texas, Maryland, Washington, Pensilvania, Ohio, Minnesota, Arizona, Colorado, Carolina del Norte, Distrito de Columbia, Rhode Island y Wisconsin.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart tax help center (help.hotmart.com/es) states Hotmart began collecting taxes in 14 US states from March 2022: Connecticut, New Jersey, Texas, Maryland, Washington, Pennsylvania, Ohio, Minnesota, Arizona, Colorado, North Carolina, District of Columbia, Rhode Island, and Wisconsin",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "time_scope_normalized_if_safe": "2022-03",
+  "geography_if_explicit": "United States (Connecticut, New Jersey, Texas, Maryland, Washington, Pennsylvania, Ohio, Minnesota, Arizona, Colorado, North Carolina, District of Columbia, Rhode Island, Wisconsin)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help: US tax collection in 14 states from March 2022: Connecticut, New Jersey, Texas, Maryland, Washington, Pennsylvania, Ohio, Minnesota, Arizona, Colorado, North Carolina, DC, Rhode Island, Wisconsin"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.hotmart.com. Spanish. US: Hotmart collects taxes in 14 states since March 2022. Tax rates per state not specified in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+    "secondary_pointer": null
+  }
+}

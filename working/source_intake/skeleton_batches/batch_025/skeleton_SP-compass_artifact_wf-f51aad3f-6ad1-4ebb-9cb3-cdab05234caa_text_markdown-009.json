@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009",
+  "source_title": "Lemon Squeezy",
+  "source_type": "article",
+  "source_ref": "https://polar.sh/resources/comparison/lemon-squeezy",
+  "source_date_if_available": "not dated (current as of April 2026)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"While Lemon Squeezy caters to solo creators and indie hackers, Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements.\" and \"At $50,000 monthly revenue, Polar saves you $500/month. At $100,000, you save $1,000/month compared to Lemon Squeezy.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://polar.sh/resources/comparison/lemon-squeezy"
+      },
+      "source_finding_id": "F-16",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-16"
+  ]
+}

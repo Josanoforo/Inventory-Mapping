@@ -1,0 +1,9 @@
+{
+  "shard_id": "compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "item_id": "F-X08",
+  "seller_or_subject": "**What:** [ABSENCE — SD-06] Hacker News contains multiple Lemon Squeezy discussions within the time window (e.g., HN items 43604378, 44296422), but all identified comments are from the seller/developer perspective. Zero buyer-voice comments were found.",
+  "attempted": "**Verbatim snippet:** N/A — absence finding\n**Source:** N/A — multiple HN search queries executed (see SD-06)\n**source_type:** article\n**verification_status:** could_not_verify\n**Date:** 2026-04-14 (search date)\n**Notes:** Searches included: site:news.ycombinator.com \"lemon squeezy\" buyer OR purchase OR bought; site:news.ycombinator.com lemonsqueezy. Results included seller-voice threads (Gumroad alternatives, May 2025; DownloadPage Show HN, June 2025) but no end-customer purchase discussions. HN audience profile skews toward developers and founders who discuss LS as a selling platform, not as end-buyers.",
+  "why_failed": "",
+  "urls_mentioned": []
+}

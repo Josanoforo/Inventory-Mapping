@@ -1,0 +1,16 @@
+{
+  "what": "Un blog de consultora fiscal española confirma que desde julio 2024 Hotmart envía factura al productor con 0% IVA por sus servicios de plataforma, y el productor debe emitir factura directamente al comprador final.",
+  "verbatim_snippet": "\"Hotmart te hará una factura con 0% IVA y ahí entra que tienes que hacer tu las facturas al cliente que te compra. Tu haces la factura al cliente tras la compra - luego Hotmart te manda a ti una factura de la tarifa y comisión de la venta.\"",
+  "source": "https://keys4leaders.com/cambios-globales-en-la-facturacion-con-hotmarten-2024-y-que-hacer-al-respecto/",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "2024",
+  "notes": "Dimensión Tax. Fuente de terceros (consultora fiscal), no documentación oficial Hotmart. Consistente con F-12 (modelo agente desde Jul 2024). El flujo descrito (Hotmart factura 0% IVA al productor; productor factura al comprador) aplica a ventas cross-border donde el productor es responsable fiscal.",
+  "extra_fields": {
+    "finding_id": "F-P06"
+  },
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

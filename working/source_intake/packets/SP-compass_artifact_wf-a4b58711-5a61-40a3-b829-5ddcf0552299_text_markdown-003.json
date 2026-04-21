@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-003",
+  "source_title": "How Ios In App Payment Works For One Time Purchases",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/20009513905933-How-iOS-in-app-payment-works-for-one-time-purchases",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"As with all one-time purchases, successfully processed sales on iOS in-app purchases are also subject to Patreon's 10% standard platform fee and currency conversion fees (if applicable), applied to the sale amount before sales tax. Patreon does not charge a payment processing fee on iOS in-app purchase transactions.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/20009513905933-How-iOS-in-app-payment-works-for-one-time-purchases"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon iOS in-app purchase fees: subject to 10% standard platform fee and currency conversion fees; no separate payment processing fee charged on iOS IAP transactions"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

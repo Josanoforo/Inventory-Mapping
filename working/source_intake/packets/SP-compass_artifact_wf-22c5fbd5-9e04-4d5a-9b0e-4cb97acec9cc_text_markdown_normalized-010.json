@@ -1,0 +1,44 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_title": "Finally My Domestika Course Is Live",
+  "source_type": "blog",
+  "source_ref": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live",
+  "source_date_if_available": "~2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"In the Domestika forum you can display your final pieces and I will be lurking there and commenting on your results! Hope to see you there!\" (uses affiliate link with note ensuring \"most of your support actually benefits me\")",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika affiliate link commission structure",
+    "Domestika course forum engagement requirement",
+    "Domestika instructor affiliate vs direct sale earnings"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["~2024"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "metric_type_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Substack post by schmoedraws announcing a live Domestika course. Snippet mentions the Domestika forum for student work display and an affiliate link where instructor notes 'most of your support actually benefits me,' implying higher commission via affiliate vs. direct platform purchase.",
+    "source_date_unclear: no explicit post date; estimated ~2024.",
+    "metric_type_unclear: affiliate commission differential (affiliate vs. direct purchase split) is the closest match to fee_rate; captured as fee_rate with this caveat.",
+    "context_insufficient: snippet compresses forum engagement mention and affiliate link note; the commission differential between affiliate and direct purchase is implied but not stated explicitly."
+  ],
+  "traceability_status": "weak"
+}

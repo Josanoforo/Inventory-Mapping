@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007",
+  "source_type": "blog",
+  "source_title": "Plataformas Para Crear Cursos Online",
+  "source_ref": "https://jeansaldana.com/plataformas-para-crear-cursos-online",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"También toma en cuenta que las comisiones que ofrece Udemy pueden ir desde el 25% al 50% de las ventas, que en comparación con otras plataformas como Hotmart, es mucho más alto. En Hotmart la comisión por venta de un curso es del 10%.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog compares Udemy commission (25%–50% of sales) to Hotmart commission (10% per course sale), stating Hotmart's fee is significantly lower",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart", "Udemy"],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "Udemy: 25%–50% of sales; Hotmart: 10% per course sale",
+  "metric_unit": "% of sales",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Udemy commissions cited as 25%–50% of sales",
+    "Hotmart commission cited as 10% per course sale",
+    "third-party blog comparison, undated"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "parser_notes": [
+    "jeansaldana.com (undated). Blog compares Udemy (25%–50%) vs. Hotmart (10%) per-sale commission; presents Hotmart as significantly lower. Third-party comparison; not verified against official platform sources."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://jeansaldana.com/plataformas-para-crear-cursos-online",
+    "secondary_pointer": null
+  }
+}

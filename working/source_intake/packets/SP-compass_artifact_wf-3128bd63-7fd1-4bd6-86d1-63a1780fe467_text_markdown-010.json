@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010",
+  "source_title": "Mexico Vat Information For Buyers",
+  "source_type": "help_center",
+  "source_ref": "https://help.market.envato.com/hc/en-us/articles/46566990286745-Mexico-VAT-Information-for-Buyers",
+  "source_date_if_available": "Accessed April 2026; page states VAT visible on statements \"for all purchases completed after 15 May 2025\" (separate passage)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you are a business customer with a valid RFC, you may be able to recover the VAT charged by Envato by claiming it as input tax on your Mexican VAT return.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.market.envato.com/hc/en-us/articles/46566990286745-Mexico-VAT-Information-for-Buyers"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Envato Market Mexico VAT info for buyers. Business customers with valid RFC can recover Envato-charged VAT as input tax on Mexican VAT return. Effective date May 15, 2025 (from separate passage not in snippet).",
+    "source_date_unclear: effective date (May 15, 2025) from separate passage not continuous with snippet.",
+    "possible_geographies: ['Mexico'] — Mexico-specific VAT recovery policy."
+  ],
+  "possible_subjects": [
+    "Envato Market Mexico VAT recovery for business buyers (RFC)"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["May 2025"],
+  "possible_geographies": ["Mexico"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

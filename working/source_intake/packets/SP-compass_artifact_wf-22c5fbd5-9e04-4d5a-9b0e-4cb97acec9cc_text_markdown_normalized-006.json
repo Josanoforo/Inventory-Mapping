@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-006",
+  "source_title": "Our Brand New Food Writing Course",
+  "source_type": "blog",
+  "source_ref": "https://julskitchen.substack.com/p/our-brand-new-food-writing-course",
+  "source_date_if_available": "July 12, 2023",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"It was August 2022 when I was first contacted by the Creative Acquisition Team at Domestika. The email object read: Giulia + DOMESTIKA Collaboration Opportunity... 'Based on what we see in your portfolio, we would love to produce a course in the realm of Food Blogging/ Writing, but we are totally open to your ideas :)' They were asking ME to produce a food writing course.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://julskitchen.substack.com/p/our-brand-new-food-writing-course"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika instructor recruitment process",
+    "Domestika Creative Acquisition Team outreach"
+  ],
+  "possible_actor_levels": ["marketplace", "seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["August 2022", "July 2023"],
+  "possible_geographies": null,
+  "uncertainties": ["metric_type_unclear", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Substack blog post by julskitchen (Italian food blogger Giulia) published July 12, 2023. Describes receiving an unsolicited outreach email from Domestika's Creative Acquisition Team in August 2022, offering a food writing/blogging course collaboration.",
+    "metric_type_unclear: instructor recruitment and course collaboration process does not map to any metric_type enum value. Captured as unknown.",
+    "current_vs_historical_ambiguity: describes August 2022 outreach; Domestika's Creative Acquisition Team operations and instructor recruitment strategy may differ in 2025-2026."
+  ],
+  "traceability_status": "complete"
+}

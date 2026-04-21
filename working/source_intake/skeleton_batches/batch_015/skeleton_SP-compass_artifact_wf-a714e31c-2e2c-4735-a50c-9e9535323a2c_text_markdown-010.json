@@ -1,0 +1,78 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_title": "Thinkific Vs Hotmart",
+  "source_type": "blog",
+  "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hotmart aplica una comisión por cada venta (típicamente 9,9% + €0,05) y además cobra al retirar tu saldo. Por ejemplo, si retiras entre €50 y €100, pueden quedarse con unos €7,5 adicionales. Traducción: cuanto más vendes, más pagas en comisiones. Thinkific trabaja con tarifa fija. Las pasarelas de pago (Stripe, PayPal, Thinkific Payments) tienen sus propias comisiones por transacción, pero no hay una estructura de comisiones de plataforma que limite tus ingresos al escalar.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart"
+      },
+      "source_finding_id": "F-07",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"En Hotmart, con el plan básico verás su logo en los correos de confirmación y en varios puntos del proceso de compra. Esto puede diluir tu marca justo cuando el alumno debe conectar contigo. En Thinkific, tu logo y tu nombre aparecen en todas las comunicaciones. Tienes control total de la experiencia de marca sin marcas de agua ni logos ajenos en los planes básicos.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Hotmart es un marketplace con millones de usuarios, especialmente en Latinoamérica. Esto te da opciones de visibilidad pasiva, pero también significa competencia directa dentro de la plataforma. Tu curso aparece junto a cientos de alternativas similares. Thinkific no es marketplace: no te entrega tráfico orgánico masivo desde el primer día, pero sí te ofrece herramientas para crear comunidad (como membresías) y captar tu propia audiencia.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"En el uso diario, Thinkific resulta más intuitivo y ordenado. Todo está donde esperas encontrarlo. Hotmart cubre muchas funciones, pero su navegación puede resultar confusa. En ocasiones incluso mezcla idiomas en la interfaz, lo que no ayuda.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-07",
+    "F-08",
+    "F-09",
+    "F-10"
+  ]
+}

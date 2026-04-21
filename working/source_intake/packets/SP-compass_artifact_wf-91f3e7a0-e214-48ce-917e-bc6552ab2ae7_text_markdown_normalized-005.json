@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-005",
+  "source_title": "gumtrends.com",
+  "source_type": "platform_doc",
+  "source_ref": "https://gumtrends.com",
+  "source_date_if_available": "April 2026 (observed in shard; dataset updated weekly per source)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Build your next digital product using data no one else has. Get access to a growing dataset of 250k+ Gumroad products.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumtrends.com"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Third-party Gumroad data tool (gumtrends.com): dataset of 250,000+ Gumroad products updated weekly, for digital product research and trend identification"
+  ],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

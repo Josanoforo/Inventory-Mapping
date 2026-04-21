@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+  "source_type": "report",
+  "source_title": "Website",
+  "source_ref": "https://www.similarweb.com/website/etsy.com",
+  "source_date_if_available": "Accessed April 2026; data labeled March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"etsy.com's audience is 41.74% male and 58.26% female. The largest age group of visitors are 25 - 34 year olds.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "SimilarWeb reports Etsy.com March 2026 audience demographics: 41.74% male, 58.26% female; largest age group 25-34 year olds",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "buyer_count",
+  "metric_value_raw": "41.74% male; 58.26% female; largest age group 25-34",
+  "metric_unit": "% of audience",
+  "time_scope_raw": "March 2026; accessed April 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "audience: 41.74% male, 58.26% female",
+    "largest age group: 25-34 year olds"
+  ],
+  "uncertainties": ["methodology_unclear"],
+  "parser_notes": [
+    "SimilarWeb (accessed April 2026, March 2026 data). Etsy.com audience: female-skewed (58.26%), 25-34 largest age group. SimilarWeb panel-based estimates."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.similarweb.com/website/etsy.com",
+    "secondary_pointer": null
+  }
+}

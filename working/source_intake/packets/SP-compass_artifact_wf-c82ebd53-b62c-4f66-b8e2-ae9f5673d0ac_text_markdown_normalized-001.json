@@ -1,0 +1,64 @@
+{
+  "packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-001",
+  "source_title": "Article",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/en/article/208298448",
+  "source_date_if_available": "No visible date",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"At Hotmart, you can create your account, register your digital products, and start using our tools for promotion and sales without any initial cost. Platform fees are only charged when you make a sale.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/208298448"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"In the scenario where the purchase currency is different from the commission currency, the transaction value is converted into US dollars (USD) to perform the calculations.\" And: \"Important: in all the scenarios described above, the evaluated value does not include taxes and credit card fee.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/208298448"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Are there different fees for different legal entities? There are no different fees for accounts with different legal entities.\" And: \"Are buyers charged platform usage fees? No.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/en/article/208298448"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart help article on fees (no visible date): no setup cost; platform fees charged per sale only; multi-currency purchases converted to USD for fee calculation; fees exclude taxes and credit card charges; no fee differences by legal entity type; buyers not charged platform usage fees"
+  ],
+  "possible_actor_levels": [
+    "seller",
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

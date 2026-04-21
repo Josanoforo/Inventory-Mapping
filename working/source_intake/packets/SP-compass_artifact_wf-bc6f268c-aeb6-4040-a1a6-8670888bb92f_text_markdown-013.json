@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-013",
+  "source_title": "Category",
+  "source_type": "search_results_page",
+  "source_ref": "https://themeforest.net/category",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Site Templates (23980)\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://themeforest.net/category"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"WordPress (12586)\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://themeforest.net/category"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "ThemeForest category page (accessed April 2026): Site Templates category 23,980 items; WordPress category 12,586 items"
+  ],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

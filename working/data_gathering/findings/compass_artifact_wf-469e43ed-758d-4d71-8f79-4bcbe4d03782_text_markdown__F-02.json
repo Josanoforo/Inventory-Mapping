@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy charges a flat fee of $0.50 for US PayPal payouts and 3% (up to $30) for international PayPal payouts.",
+  "verbatim_snippet": "\"Lemon Squeezy will still charge a flat fee of $0.50 for U.S. payouts sent through Paypal, and 3% (up to $30) for international accounts.\"",
+  "source": "https://www.indiehackers.com/post/tech/lemon-squeezy-is-slashing-its-payout-fees-so-long-as-you-use-stripe-s5aeYKsIj9dWWq7TlaBb",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "October 24, 2024",
+  "notes": "Same article as F-01 (Katie Hignett). Separate continuous passage covering PayPal-specific payout fees. The 3% cap at $30 applies to LatAm sellers choosing PayPal.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-007",
+  "source_title": "Envato Market Author Terms",
+  "source_type": "policy_page",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/41371538488473-Envato-Market-Author-Terms",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Currency: Your earnings will be paid to you in US dollars. You are responsible for all costs of currency conversion relating to your earnings.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.author.envato.com/hc/en-us/articles/41371538488473-Envato-Market-Author-Terms"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Envato Market Author Terms policy page. States earnings paid in USD only; authors bear all currency conversion costs.",
+    "source_date_unclear: page undated; accessed April 2026.",
+    "possible_metric_types: ['payout_method_availability'] \u2014 describes payout currency structure (USD-only)."
+  ],
+  "possible_subjects": [
+    "Envato Market USD-only earnings payout",
+    "Envato Market author bears currency conversion costs"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

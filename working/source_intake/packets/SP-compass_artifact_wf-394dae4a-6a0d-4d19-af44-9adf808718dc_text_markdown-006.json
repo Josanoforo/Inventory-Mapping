@@ -1,0 +1,71 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_title": "Payments Policy",
+  "source_type": "policy_page",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "November 28, 2025 (policy version date)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Hotmart makes payment transactions on Hotpay with the following currencies: (a) with purchase currency in Brazilian Real (BRL), between Users that declare that both are domiciled in Brazil; (b) with purchase currency in Euro (EUR), between Users that declare that both are domiciled in the European Union; or, (c) in American dollars (USD) as the purchase currency, between any other Users.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/payments-policy"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"For individual Creators residing in Mexico, Hotmart, acting as a reseller, will be responsible for issuing invoices to the Buyers, as well as issuing a self-invoice to the Creators. Notwithstanding the foregoing, such Creators remain responsible for all other tax obligations in their country of residence.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/payments-policy"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"If the User contracts with Hotmart B.V., Hotmart will act as a commercial agent on behalf of the Creators, except for individual Creators residing in Mexico, in which case Hotmart will act as a reseller.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/payments-policy"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"For Users who declare their domicile in Brazil, who make sales outside Brazilian territory and who generate a balance in Dollars, Hotmart together with its Third Party Partner (Payment Services Provider) will carry out automatic daily transfers of this available balance in Dollars to the Payment Account and issue electronic currency held by the User at SCD in Reais\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/legal/payments-policy"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized. Packet assigned to this shard by alphabetical order.",
+    "Hotmart Payments Policy (November 28, 2025 version). BRL/EUR/USD routing by domicile; Mexico reseller model; non-Mexico commercial agent arrangement; Brazil auto daily USD→BRL transfer for international sales."
+  ],
+  "possible_subjects": [
+    "Hotmart payment currency routing: BRL (Brazil-Brazil), EUR (EU-EU), USD (all others)",
+    "Hotmart Mexico: reseller model for individual creators (invoicing responsibility)",
+    "Hotmart non-Mexico commercial agent arrangement via Hotmart B.V.",
+    "Hotmart Brazil: automatic daily USD→BRL transfer for international sales"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": ["Brazil", "Mexico", "EU"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

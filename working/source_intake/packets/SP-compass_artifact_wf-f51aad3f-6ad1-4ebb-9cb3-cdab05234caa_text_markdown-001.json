@@ -1,0 +1,55 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "source_type": "blog",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_date_if_available": "2025-04-06",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Development time: Lemon Squeezy implementations were 70% faster · Operational overhead: Stripe required about 5 hours/month for maintenance vs. 1 hour for Lemon Squeezy · Customer support issues: 40% fewer payment-related support tickets with Lemon Squeezy\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"For most early-stage SaaS founders, Lemon Squeezy provides the path of least resistance with sufficient functionality. As you scale past $50K MRR or need more complex billing models, Stripe's flexibility becomes more valuable despite the additional development complexity.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"With Lemon Squeezy, we were able to implement a complete checkout flow in under 2 hours, while a comparable Stripe implementation took nearly 2 days of development time.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Blog post comparing Stripe vs Lemon Squeezy for SaaS (April 6, 2025): Lemon Squeezy implementations reported as 70% faster; Stripe requires ~5 hrs/month maintenance vs 1 hr for Lemon Squeezy; 40% fewer payment-related support tickets with Lemon Squeezy; Lemon Squeezy recommended for early-stage SaaS; Stripe flexibility more valuable above $50K MRR or with complex billing models"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2025-Q2"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

@@ -1,0 +1,13 @@
+{
+  "what": "Domestika states it does not apply commissions or taxes relating to the exchange rate between currencies, but notes that the buyer's bank or payment processor may add an additional fee.",
+  "verbatim_snippet": "\"Domestika doesn't apply commissions or taxes relating to the exchange rate between currencies. However, your bank or payment processor may add an additional fee and so we suggest that you contact them directly to confirm their policy regarding this.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. This means Domestika does not add an FX markup on top of the USD charge, but LatAm buyers may still face bank-imposed conversion fees.",
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

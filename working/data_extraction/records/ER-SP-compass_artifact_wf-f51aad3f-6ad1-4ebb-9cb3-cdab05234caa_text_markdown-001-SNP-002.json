@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_date_if_available": "2025-04-06",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For most early-stage SaaS founders, Lemon Squeezy provides the path of least resistance with sufficient functionality. As you scale past $50K MRR or need more complex billing models, Stripe's flexibility becomes more valuable despite the additional development complexity.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog post (anotherwrapper.com, Apr 6, 2025) states Lemon Squeezy is preferred for most early-stage SaaS founders; Stripe's flexibility becomes more valuable above $50K MRR or with complex billing models despite greater development complexity",
+  "actor_level": "unknown",
+  "platforms": ["Stripe", "Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "revenue",
+  "metric_value_raw": "$50K MRR threshold where Stripe becomes more valuable than Lemon Squeezy",
+  "metric_unit": "USD MRR",
+  "time_scope_raw": "2025-04-06",
+  "time_scope_normalized_if_safe": "2025-04-06",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "LS preferred for early-stage SaaS; Stripe more valuable above $50K MRR despite added development complexity"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "anotherwrapper.com blog (2025-04-06). LS vs Stripe: LS for early stage; Stripe better above $50K MRR."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "secondary_pointer": null
+  }
+}

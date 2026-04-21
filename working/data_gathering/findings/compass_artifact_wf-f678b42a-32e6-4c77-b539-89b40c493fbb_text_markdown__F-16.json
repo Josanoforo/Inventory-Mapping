@@ -1,0 +1,16 @@
+{
+  "what": "Productores con cuentas personales de Wise fuera de EE.UU. y la UE no pueden usarlas para retiros en Hotmart (el SWIFT debe coincidir con el país de registro). Cuentas empresariales de Wise fuera de Brasil sí pueden usarse.",
+  "verbatim_snippet": "\"Wise: Wise utiliza códigos SWIFT vinculados a bancos en Estados Unidos y en la Unión Europea. En cuentas personales, el SWIFT debe corresponder al país de registro; por lo tanto, los productores ubicados fuera de EE. UU. y la UE no pueden usar cuentas Wise para retiros. En cuentas empresariales fuera de Brasil, el SWIFT puede pertenecer a otros países; por eso, la cuenta Wise sí puede utilizarse para retiros.\"",
+  "source": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Payout. Afecta a TODOS los vendedores LatAm con cuentas personales Wise. Un productor en México, Colombia o Argentina con cuenta personal Wise NO puede usarla para retirar de Hotmart. Solo cuentas empresariales Wise (fuera de Brasil) funcionan. Método alternativo: HotPay Internacional o Payoneer.",
+  "extra_fields": {
+    "finding_id": "F-16"
+  },
+  "finding_id": "F-16",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Non-US Etsy sellers generally do not receive a 1099-K form. However, if a non-US seller receives payments in USD or has a US address on file, Etsy may treat them as a US seller and issue a 1099-K. A W-8BEN form can be submitted to establish non-US status and remove this filing obligation. This is relevant to Argentina, Brazil, Chile, and Peru sellers who receive Payoneer deposits in USD.",
+  "verbatim_snippet": "\"If you're not a US seller, you won't be issued a 1099-K from Etsy. However, if the information on your Legal and tax information page identifies you as a US seller (your address on file is US or you receive payments in USD), we're required to issue you a 1099-K form. To remove yourself or your business from this filing obligation, we'll need a completed W-8BEN form. To start the W-8 form request, contact Etsy support.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/360000336447-What-Do-I-Need-to-Know-About-My-1099-K-Tax-Form",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Since Argentina, Brazil, Chile, Peru sellers receive deposits in USD via Payoneer, the \"receive payments in USD\" trigger is directly relevant. These sellers may be incorrectly flagged as US sellers and need to file W-8BEN via Track1099 (no-reply@track1099.com) on behalf of Etsy. Mexico sellers receiving MXN are less likely to trigger this issue. Dimension: Tax. Cross-border cut: Argentina, Brazil, Chile, Peru (USD via Payoneer → potential 1099-K trigger → W-8BEN resolution).",
+  "extra_fields": {
+    "finding_id": "F-P07"
+  },
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Etsy collects VAT on seller fees for sellers based in Chile, Colombia, Peru (one group) and Mexico (a separate group), among other countries. Etsy provides downloadable VAT invoices to sellers in Chile, Colombia, and Peru.",
+  "verbatim_snippet": "\"Depending on your business status and location, Etsy may be required to collect VAT on seller fees accrued each month and remit it to the relevant tax authority. Etsy may also need to collect VAT on Etsy Payments processing fees for sellers located in eligible Etsy Payments countries where required.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/360040584433-How-VAT-Is-Collected-on-Seller-Fees",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Search engine snippets also showed: \"Etsy provides downloadable VAT invoices to sellers in Australia, Chile, Colombia, Egypt, the EU (excluding Ireland), Georgia (country), India, Kazakhstan, Malaysia, New Zealand, Norway, Peru, The Philippines, Singapore, South Korea, Tanzania, Thailand, Türkiye, the UK, Ukraine, and United Arab Emirates.\" Colombia appears in the VAT-on-seller-fees context despite not being eligible for Etsy Payments — this may apply to pre-existing shops or buyer-side implications. Dimension: Tax. Cross-border cut: Chile (CLP), Colombia (COP), Peru (PEN), Mexico (MXN) — VAT on seller fees.",
+  "extra_fields": {
+    "finding_id": "F-P05"
+  },
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

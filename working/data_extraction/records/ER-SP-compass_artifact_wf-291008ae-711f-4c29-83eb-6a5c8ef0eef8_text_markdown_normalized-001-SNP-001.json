@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=2",
+  "source_date_if_available": "2025-09-25",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I would not recommend doing business with any company that uses this service as their payment processor I've paid for years subscription to revid on November 29th 2025 and it did not post I have tried every help form both on lemon squeezy and revid and have needed to email the owners of both lemon squeezy and revid to try to get this resolved so I don't have to initiate a chargeback on my American Express card. Buyer beware!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Buyer reports LemonSqueezy payment for annual 'revid' subscription on November 29th 2025 did not activate — support channels exhausted; escalated to owners of both LemonSqueezy and revid; chargeback via American Express threatened",
+  "actor_level": "buyer",
+  "platforms": [
+    "LemonSqueezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 29th 2025",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "paid for years subscription to revid",
+    "it did not post",
+    "tried every help form both on lemon squeezy and revid",
+    "needed to email the owners of both",
+    "initiate a chargeback on my American Express card"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Trustpilot review (page date 2025-09-25 but snippet references November 29th 2025 event — date inconsistency flagged; source_date likely page scrape date, not review date). Buyer reports LemonSqueezy payment for 'revid' annual subscription failed to activate; all support channels exhausted; escalation to company owners; chargeback threatened via American Express. 'years subscription' interpreted as 'year's subscription' (annual)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=2",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006",
+  "source_type": "product_listing",
+  "source_title": "Category",
+  "source_ref": "https://hotmart.com/en/marketplace/category",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Showing: All categories\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart marketplace category page (hotmart.com/en/marketplace/category, accessed April 2026) displays an 'All categories' product listing view",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Marketplace category page shows all-categories view of listed products"
+  ],
+  "uncertainties": ["context_insufficient", "source_date_unclear"],
+  "parser_notes": [
+    "hotmart.com/en/marketplace/category (accessed April 2026). Minimal UI label only: 'Showing: All categories'; limited extractable claim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/marketplace/category",
+    "secondary_pointer": null
+  }
+}

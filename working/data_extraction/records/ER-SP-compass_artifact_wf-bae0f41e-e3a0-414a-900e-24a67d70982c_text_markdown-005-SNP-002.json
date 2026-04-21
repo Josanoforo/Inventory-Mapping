@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_type": "report",
+  "source_title": "What Digital Products Sell Best On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Digital downloads are 85% of Gumroad. They average 293 sales at $47.14 — the highest volume of any format. Templates, presets, design assets, and code snippets live here.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "InsightRaider report (updated March 21, 2026) states digital downloads represent 85% of Gumroad's catalog, averaging 293 sales at $47.14 — highest volume of any format; types include templates, presets, design assets, and code snippets",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "share",
+  "metric_value_raw": "85% of Gumroad catalog; avg 293 sales; avg price $47.14",
+  "metric_unit": "percentage; sales count; USD",
+  "time_scope_raw": "Updated March 21, 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Digital downloads = 85% of Gumroad catalog; avg 293 sales at $47.14",
+    "Highest volume format on Gumroad; includes templates, presets, design assets, code snippets"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad (updated March 21, 2026). Digital downloads = 85% of Gumroad; avg 293 sales at $47.14 avg price — highest volume format."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+    "secondary_pointer": null
+  }
+}

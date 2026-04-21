@@ -1,0 +1,16 @@
+{
+  "what": "Payoneer sellers must register with government-issued ID and selfie for identity verification. Etsy additionally uses a service called Persona for identity verification that matches selfie to government ID. These KYC requirements apply to all Payoneer countries including Argentina, Brazil, Chile, Peru.",
+  "verbatim_snippet": "\"If you need to sign up for a new Payoneer Payment Account, you'll be asked to enter your personal details and upload a government-issued ID and selfie. This is done to verify your identity and your financial information to receive your sale funds.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "No date found. URL returned 403; content verified via search engine index.",
+  "notes": "Additional snippet from same page: \"To help keep our marketplace safe, Payoneer may verify your identity periodically. If you need to complete verification steps, Etsy and Payoneer will notify you.\" Payoneer also separately requires proof of residence (utility bill), bank account verification, and phone verification per Payoneer's own documentation. This creates a dual KYC layer (Payoneer + Etsy/Persona) for Argentina, Brazil, Chile, Peru sellers. Mexico sellers undergo standard Etsy Payments verification (name, DOB, address, bank account) without Payoneer involvement. Dimension: Availability. Cross-border cut: Argentina, Brazil, Chile, Peru (Payoneer KYC), Mexico (standard KYC).",
+  "extra_fields": {
+    "finding_id": "F-P13"
+  },
+  "finding_id": "F-P13",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

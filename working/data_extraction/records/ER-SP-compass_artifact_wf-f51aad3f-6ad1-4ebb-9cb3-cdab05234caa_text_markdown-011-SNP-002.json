@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "source_type": "article",
+  "source_title": "Lemon Squeezy Vs Gumroad Which Platform Is Right For You",
+  "source_ref": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you",
+  "source_date_if_available": "not dated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy charges lower transaction fees but has more variables (e.g., international payments). Gumroad's 10% flat fee simplifies pricing but can add up for high-ticket items.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Article (toolfolio.io, undated) states Lemon Squeezy charges lower transaction fees than Gumroad but with more variables including international payment fees; Gumroad's 10% flat fee simplifies pricing but becomes significant for high-ticket items",
+  "actor_level": "unknown",
+  "platforms": ["Lemon Squeezy", "Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "LS: lower than Gumroad 10% flat but with variables (international); Gumroad: 10% flat",
+  "metric_unit": "% per transaction",
+  "time_scope_raw": "not dated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "LS lower fees than Gumroad 10% flat but more variables; Gumroad 10% flat simple but significant for high-ticket"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "toolfolio.io (undated). LS vs Gumroad fees: LS lower but variable (international); Gumroad 10% flat."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you",
+    "secondary_pointer": null
+  }
+}

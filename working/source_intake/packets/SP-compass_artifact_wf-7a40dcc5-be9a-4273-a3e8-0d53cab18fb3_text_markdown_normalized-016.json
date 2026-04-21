@@ -1,0 +1,47 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/etsy.de",
+  "source_date_if_available": "August 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Since 2017, I have run a small Etsy shop from Jordan, completing over 5,900 orders and fully complying with Etsy's rules. I was notified that (my Etsy shop will be forcibly closed on 5 August 2025), due to Etsy's decision to remove PayPal as a payment option and the absence of Etsy Payments in Jordan - leaving me no means to receive payments.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/etsy.de"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Etsy seller (Jordan): shop forced to close August 5, 2025 after Etsy removed PayPal as payment option; Etsy Payments unavailable in Jordan; over 5,900 orders completed since 2017"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability",
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Jordan"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

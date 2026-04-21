@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001",
+  "source_title": "Marketing Para Plataforma De Ecommerce Entrevista Con Kichink",
+  "source_type": "article",
+  "source_ref": "https://blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink",
+  "source_date_if_available": "April 19, 2017",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Y la segunda gran diferencia es nuestro modelo de negocio. Donde poner una tienda en línea tiene un coste cero de inversión: cero mensualidades, cero anualidades. Trabajamos por comisión por transacción, es decir; que para que Kichink gane, tú tienes que vender. Cada tienda tiene que vender sus productos y/o servicios; y esto nos hace ser prácticamente socios comerciales. Y este modelo de negocio parece que está siendo un diferenciador importante.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Una es poder atender el ciclo completo de comercio electrónico desde la administración de servidores y poder tener los catálogos en línea. Después está la parte de procesamiento de pagos, pudiendo recibir pagos con cualquier tarjeta de crédito, débito o incluso efectivo. Encargarnos de la parte logística, a través de nuestros aliados estratégicos; somos responsables de recolectar y entregar todos los productos que se venden en la plataforma. Y finalmente, tener un servicio al cliente que es la cara de todo ese ciclo. De tal forma que si algo sale mal, al único lugar que tienes que preguntar es Kichink. Esto ayuda mucho a que la gente confíe en que las cosas son de calidad y les van a llegar. Esto es lo que hace que haya una gran diferencia en primer lugar.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Blog article on Kichink e-commerce platform marketing interview (April 19, 2017, in Spanish): Kichink business model has zero monthly or annual fees; charges commission per transaction only; provides full e-commerce cycle — catalog hosting, payment processing (credit/debit/cash), logistics via strategic partners, customer service; positioned as commercial partner model differentiated by commission-only structure"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["2017-Q2"],
+  "possible_geographies": ["MX"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

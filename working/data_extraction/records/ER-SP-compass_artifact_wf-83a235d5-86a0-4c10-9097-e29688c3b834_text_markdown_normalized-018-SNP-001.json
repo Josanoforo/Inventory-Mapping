@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-018",
+  "source_type": "pricing_page",
+  "source_title": "Payments",
+  "source_ref": "https://www.etsy.com/payments",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It's free to set up and you'll pay just 3% + 0.25 USD for each sale.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy Payments pricing page states setup is free and the processing fee is 3% + $0.25 USD per sale",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "3",
+  "metric_unit": "% + 0.25 USD per sale",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Etsy Payments: free setup",
+    "processing fee: 3% + $0.25 USD per sale",
+    "geographic scope of this specific rate not stated in snippet (USD denomination suggests non-EU)"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Etsy Payments pricing page (current as of April 2026). Fee: free setup; 3% + $0.25 USD per sale. Geographic scope of this rate unclear from snippet (USD suggests non-EU market)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/payments",
+    "secondary_pointer": null
+  }
+}

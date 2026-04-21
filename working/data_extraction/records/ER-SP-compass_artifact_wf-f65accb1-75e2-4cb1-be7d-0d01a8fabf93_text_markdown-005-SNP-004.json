@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://gumroad.com/terms",
+  "source_date_if_available": "Effective January 1, 2025; last updated December 10, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Buyers may in some circumstances be responsible for Indirect Taxes. Buyers outside the United States may also, in some circumstances, be required to account for value added tax or goods and services tax under a 'reverse charge' mechanism.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad Terms of Service (gumroad.com/terms, effective January 1, 2025, updated December 10, 2024) states buyers may in some circumstances be responsible for indirect taxes; buyers outside the United States may be required to account for VAT or GST under a reverse charge mechanism",
+  "actor_level": "platform",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Effective January 1, 2025; last updated December 10, 2024",
+  "time_scope_normalized_if_safe": "2025-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Gumroad ToS (eff. Jan 1, 2025): buyers may be responsible for indirect taxes in some circumstances; non-US buyers may face VAT/GST reverse charge"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "gumroad.com/terms (eff. Jan 1, 2025, updated Dec 10, 2024). ToS: buyer indirect tax liability possible in some jurisdictions; reverse charge mechanism for non-US buyers. Exception to Gumroad's standard MoR tax handling."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/terms",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Patreon And A New Adventure Begins",
+  "source_ref": "https://allisonwade.substack.com/p/patreon-and-a-new-adventure-begins",
+  "source_date_if_available": "May 13, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I already have a plugin to connect with my website so I can give users access to the protected posts with their Patreon login, based on their tier, for better formatting and an optimized reading experience.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Creator describes using a WordPress plugin to connect their website with Patreon, gating protected posts by patron tier using Patreon login",
+  "actor_level": "unknown",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "May 13, 2025",
+  "time_scope_normalized_if_safe": "2025-05-13",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "creator uses third-party plugin to connect own website with Patreon login",
+    "tier-based access control for protected posts on own website",
+    "demonstrates Patreon integration capability with external sites"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "allisonwade.substack.com (May 13, 2025). Creator uses website-Patreon integration plugin; tier-gated protected content on own domain via Patreon login. Illustrates Patreon's integration use case for creators with external web presence."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://allisonwade.substack.com/p/patreon-and-a-new-adventure-begins",
+    "secondary_pointer": null
+  }
+}

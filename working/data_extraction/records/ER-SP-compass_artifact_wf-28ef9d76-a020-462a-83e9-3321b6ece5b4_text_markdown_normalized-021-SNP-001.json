@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-021-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-021",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-021",
+  "source_type": "blog",
+  "source_title": "Buy Me A Coffee Pricing",
+  "source_ref": "https://www.schoolmaker.com/blog/buy-me-a-coffee-pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"But if you're earning $500+ per month, the 5% cut can start to feel heavy. That's when platforms with 0% transaction fees (like Ko-fi Gold or Payhip's paid plan) may be better.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "At $500+/month revenue, Payhip paid plan (0% transaction fee) and Ko-fi Gold cited as better alternatives to platforms charging 5% transaction fees",
+  "actor_level": "third_party_observer",
+  "platforms": ["Payhip", "Ko-fi"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5",
+  "metric_unit": "percent (transaction fee threshold discussed)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "earning $500+ per month",
+    "the 5% cut can start to feel heavy",
+    "0% transaction fees",
+    "Ko-fi Gold or Payhip's paid plan"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Schoolmaker.com blog (undated, accessed April 2026): discusses fee threshold — at $500+/month, 5% fees become significant enough to justify paid plans. Cites Payhip paid plan and Ko-fi Gold as 0% fee alternatives. Schoolmaker is itself a course platform competitor; note competitive context. metric_value_raw captures the 5% fee threshold under discussion."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.schoolmaker.com/blog/buy-me-a-coffee-pricing",
+    "secondary_pointer": null
+  }
+}

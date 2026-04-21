@@ -1,0 +1,16 @@
+{
+  "what": "Previous Lemon Squeezy bank payout fees were 0.5% + $2.50 for US users and 3% + $2.50 for international users.",
+  "verbatim_snippet": "\"It's a major drop for both U.S. and international users, who previously sacrificed 0.5% + $2.50 or 3% + $2.50 of to access their income, respectively.\"",
+  "source": "https://www.indiehackers.com/post/tech/lemon-squeezy-is-slashing-its-payout-fees-so-long-as-you-use-stripe-s5aeYKsIj9dWWq7TlaBb",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "October 24, 2024",
+  "notes": "Same article as F-01/F-02. \"Respectively\" maps 0.5% + $2.50 to US, 3% + $2.50 to international. These were the fees prior to the October 28, 2024 reduction.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-03",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

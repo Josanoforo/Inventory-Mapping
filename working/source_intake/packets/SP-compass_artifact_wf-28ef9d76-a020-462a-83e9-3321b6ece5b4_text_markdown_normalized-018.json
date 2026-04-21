@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-018",
+  "source_title": "Has Anyone Started Blogging With Substack Successfully Cc68Ba5C47",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.indiehackers.com/post/has-anyone-started-blogging-with-substack-successfully-cc68ba5c47",
+  "source_date_if_available": "July 5, 2020",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Thanks so much, PayHip are very similar to Gumroad, but are UK based. Good luck on publishing your book and I hope it goes well for you.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.indiehackers.com/post/has-anyone-started-blogging-with-substack-successfully-cc68ba5c47"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Hey, figured I'd chime in here since you mentioned you'll be publishing your 1st book this year. Would love for you to sign up for the waitlist for JemSplash.com to provide us some feedback during beta. It's a alternative to both GumRoad and Payhip\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.indiehackers.com/post/has-anyone-started-blogging-with-substack-successfully-cc68ba5c47"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Payhip geographic origin (UK based)",
+    "Payhip vs Gumroad similarity"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["July 2020"],
+  "possible_geographies": ["United Kingdom"],
+  "uncertainties": ["current_vs_historical_ambiguity", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Indie Hackers forum post, July 5, 2020. SNP-001 describes Payhip as 'similar to Gumroad, but UK based.' SNP-002 is an unrelated product promotion using Payhip as a reference point.",
+    "possible_geographies: ['United Kingdom'] from explicit 'UK based' claim for Payhip in SNP-001.",
+    "current_vs_historical_ambiguity: July 2020 data; 6+ years old. Payhip's geographic status and similarity claims may have changed.",
+    "metric_type_unclear: snippets describe geographic origin and similarity positioning; no specific metric applies."
+  ],
+  "traceability_status": "partial"
+}

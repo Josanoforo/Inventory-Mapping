@@ -1,0 +1,16 @@
+{
+  "what": "Lemon Squeezy set payout fees at 0% per payout for US bank accounts and 1% per payout for bank accounts outside the US.",
+  "verbatim_snippet": "\"New payout fees are now 0% per payout for bank accounts in the US and 1% per payout for bank accounts outside the US.\"",
+  "source": "https://www.lemonsqueezy.com/blog/payout-fees-sliced",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "October 22, 2024",
+  "notes": "Blog post by JR Farr (CEO). Page returned 403. Content from search engine index. Corroborates F-01 from the official Lemon Squeezy source. The same blog states effective date as \"Starting October 28th (next payout cycle).\"",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-P16",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

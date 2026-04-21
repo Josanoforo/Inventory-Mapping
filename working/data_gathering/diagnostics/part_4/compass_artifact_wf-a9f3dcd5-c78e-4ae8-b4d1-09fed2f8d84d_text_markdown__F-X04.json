@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X04",
+  "seller_or_subject": "Graphtreon live dashboard — aggregate patron membership data",
+  "attempted": "- **What:** Graphtreon dashboard displays: Paid Memberships: 17,552,811 (excludes hidden memberships); Estimated Monthly Payouts: $25,448,702 (excludes hidden earnings); Number of Paid Creators: 325,722.\n- **Verbatim snippet:** [Stated in layout: \"Paid Memberships: 17,552,811\" / \"Estimated Monthly Payouts: $25,448,702\" / \"Number of Paid Creators: 325,722\"]\n- **Source:** https://graphtreon.com/patreon-stats\n- **source_type:** report\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026; page states \"Updated daily\" but no explicit date stamp on data points\n- **Notes:** Aggregate data missing explicit period on page. Source and scope visible but no fixed date stamp on the dashboard values, only \"Updated daily.\" Degraded per aggregate data rule (source, scope, period all required).",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://graphtreon.com/patreon-stats"
+  ]
+}

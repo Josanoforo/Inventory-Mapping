@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-003",
+  "source_title": "I Have A Discount Code How Do I Use It",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003076257-I-have-a-discount-code-how-do-I-use-it",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Furthermore, please remember that the discount codes are not accumulative and cannot be applied to the purchase of bundles, Domestika Plus (unless otherwise indicated), Plus credits, gift cards, in conjunction with Plus credits or any purchase made in the app. If you encounter any problems or are unable to apply your code, please visit the following article: The code or promotion does not apply to my order, what do I do? Remember that only one discount code can be applied per order\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003076257-I-have-a-discount-code-how-do-I-use-it"
+      },
+      "source_finding_id": "F-P13",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P13"
+  ]
+}

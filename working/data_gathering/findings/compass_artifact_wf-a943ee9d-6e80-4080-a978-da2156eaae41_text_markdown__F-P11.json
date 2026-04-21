@@ -1,0 +1,13 @@
+{
+  "what": "Buyer raised a case on Etsy for an undelivered order but the website's case system was broken — pressing buttons redirected in a loop between the order page and the case page; buyer eventually recovered money by raising a PayPal case instead.",
+  "verbatim_snippet": "\"Update 24/11/2025: Today I received an email from Etsy to raise a Case for the order #3863799705 however following the link in the email or by opening the order on the web site I am unable to open a Case. When I press the open Case button it redirects me to the Order page and if I press the help with the order page it redirects me back to the Open Case page. It is impossible. In the meantime I have raised a case with Paypal.\"",
+  "source": "https://www.trustpilot.com/review/etsy.co.uk?page=4",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Updated December 3, 2025 (original case from November 2025)",
+  "notes": "Trustpilot etsy.co.uk profile page 4; not confirmed directly fetched. Buyer eventually recovered funds via PayPal. Describes a specific UX bug in Etsy's dispute resolution interface. Purchase outcome: refunded via PayPal, not Etsy.",
+  "finding_id": "F-P11",
+  "shard_id": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

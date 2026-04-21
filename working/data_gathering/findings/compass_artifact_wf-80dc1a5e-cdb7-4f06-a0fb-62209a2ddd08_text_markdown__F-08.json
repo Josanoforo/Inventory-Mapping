@@ -1,0 +1,13 @@
+{
+  "what": "Seller used to sell a digital product through Lemon Squeezy. Reports it was full of bugs, the fees were high, and payouts were slow. When seller switched to Stripe, started saving money and got paid faster. Built DownloadPage to simplify selling digital downloads via Stripe.",
+  "verbatim_snippet": "\"Hey HN, I'm Ben, the founder of DownloadPage Let me share a quick story... I used to sell a digital product through Lemon Squeezy. It was full of bugs, the fees were high, and payouts were slow. When I switched to Stripe, I started saving money and got paid faster. The only problem? Selling directly meant stitching together a bunch of tools just to deliver a file. So I built DownloadPage to make it simple. You connect Stripe, upload your product, and share a link. That's it. If you're tired of giving up a cut to your payment processor, this is for you! Let me know what you think. P.S. I'll personally do the work of migrating you from your old payment processor to DownloadPage via Stripe! Free white-glove service is included with all plans.\"",
+  "source": "https://news.ycombinator.com/item?id=44296422",
+  "source_type": "seller_forum",
+  "verification_status": "direct_verified",
+  "date": "Accessed April 2026; displayed as \"10 months ago,\" approximately June 2025",
+  "notes": "Show HN post. Seller is also promoting their own alternative product (DownloadPage). The LS critique serves as motivation for building a competing tool. Date approximated from relative timestamp. Tools used outside platform: Stripe, DownloadPage. Workaround: migrated to Stripe and built custom delivery layer.",
+  "finding_id": "F-08",
+  "shard_id": "compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

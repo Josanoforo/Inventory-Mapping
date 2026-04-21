@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Withholding Taxes With Envato Elements And Envato Market",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With Envato Market, you are selling directly to the customer. When you sell to a buyer based in a country with royalty withholding taxes, they will apply. For example, when you sell to a US buyer, the US royalty withholding tax applies.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato Market states royalty withholding taxes apply when selling to buyers in countries with such taxes — US royalty withholding tax applies for sales to US buyers",
+  "actor_level": "platform",
+  "platforms": ["Envato"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "United States (example)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "selling directly to the customer",
+    "royalty withholding taxes",
+    "when you sell to a US buyer, the US royalty withholding tax applies"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Envato Author help center (accessed April 2026; undated). Explains royalty withholding tax applicability on Envato Market — direct-to-customer model means buyer-country withholding applies; US royalty withholding applies for US buyer sales. Documents tax complexity for digital marketplace sellers."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market",
+    "secondary_pointer": null
+  }
+}

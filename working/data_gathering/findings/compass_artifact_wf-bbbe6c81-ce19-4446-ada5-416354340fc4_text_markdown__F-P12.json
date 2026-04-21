@@ -1,0 +1,13 @@
+{
+  "what": "Buyer purchased a one-time course and downloaded it; months later received recurring charges from Hotmart for courses never purchased. Had to block credit card to stop charges.",
+  "verbatim_snippet": "\"Una vez compre un curso de pago unico y pude descargarlo pero a los meses noto que empiezan a llegarme unos cobros de hotmart de otros cursos que nunca compre, nunca me soluccionaron me toco bloquear la tarjeta para generar una nueva y asi no siguieran robando , OJO CON DEJAR DATOS DE TU TARJETA , MUCHO OJO..\"",
+  "source": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_type": "buyer_review",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; review undated in snippet (likely 2025–2026 based on page position)",
+  "notes": "Page 9 was directly fetched but this specific review's date was not captured in the subagent report; reviewer name not captured from search snippet processing. Product: one-time payment course (successfully downloaded). Outcome: unauthorized recurring charges for unordered courses; blocked credit card.",
+  "finding_id": "F-P12",
+  "shard_id": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

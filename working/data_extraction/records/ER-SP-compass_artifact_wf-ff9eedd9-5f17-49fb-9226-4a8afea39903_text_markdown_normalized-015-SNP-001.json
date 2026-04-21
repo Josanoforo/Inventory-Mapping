@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015",
+  "source_type": "unknown",
+  "source_title": "Reviews",
+  "source_ref": "https://www.g2.com/products/gumroad/reviews",
+  "source_date_if_available": "References \"as of March 2023\"; reviewer mentions starting with Gumroad in 2016",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Their 10% flat fee is too much of a cut. This is not including the fees Stripe/Paypal take away. So if you have a $50 product, you'd get less than $45. Comparing this to platforms like Snappy Checkout, which is just $0.50 per transaction. Or a professional selling platform like Paykickstart, where if you sold 10 products at $100, you'd have made back the subscription fee compared to Gumroad. As in, you can continue selling and technically pay no more fees to Paykickstart on their Starter tier, up to $10k/mth, while you still have to pay that 10% to Gumroad. Gumroad also does not have any order bumps or upsells as of March 2023, so it's not possible to build a sales funnel. If you plan to earn more than $1000, it doesn't make financial sense to use Gumroad.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "G2 review of Gumroad (as of March 2023) argues the 10% fee combined with Stripe/PayPal fees leaves less than $45 from a $50 sale; compares to cheaper alternatives; notes Gumroad lacked order bumps and upsells as of March 2023; concludes Gumroad is not financially viable for sellers earning more than $1,000",
+  "actor_level": "unknown",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "$50 product → less than $45 net after 10% Gumroad fee + Stripe/PayPal processing fees",
+  "metric_unit": "USD net after platform + payment processing fees",
+  "time_scope_raw": "References \"as of March 2023\"; reviewer mentions starting with Gumroad in 2016",
+  "time_scope_normalized_if_safe": "2023-03",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "G2 review (as of Mar 2023): Gumroad 10% + Stripe/PayPal fees → less than $45 net on $50 product; no order bumps/upsells as of Mar 2023; not financially viable above $1K/month"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "g2.com (references Mar 2023; reviewer on Gumroad since 2016). English. Fee critique: 10% + CC/PayPal processing → <$45 net on $50 product. No order bumps or upsells as of March 2023. Argues not financially viable above $1K/month. Note: Gumroad added $0.50 per-transaction flat fee in January 2025; order bump/upsell availability may have changed since 2023."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.g2.com/products/gumroad/reviews",
+    "secondary_pointer": null
+  }
+}

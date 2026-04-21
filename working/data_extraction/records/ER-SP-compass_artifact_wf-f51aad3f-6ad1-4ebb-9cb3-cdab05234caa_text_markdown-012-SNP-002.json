@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "2026-03-24",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy is a solid middle ground if you want built-in email marketing and affiliate tools without paying for separate software. The approval delay is frustrating for new launches, but once approved, it runs smoothly.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Article (veloxthemes.com, Mar 24, 2026) states Lemon Squeezy is a solid middle ground option for built-in email marketing and affiliate tools; there is an approval delay for new product launches that is frustrating, but the platform runs smoothly once approved",
+  "actor_level": "unknown",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "2026-03-24",
+  "time_scope_normalized_if_safe": "2026-03-24",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "LS: built-in email marketing and affiliate tools; approval delay for new launches frustrating but runs smoothly once approved"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "veloxthemes.com (2026-03-24). LS: built-in email/affiliate; approval delay frustrating for new launches."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

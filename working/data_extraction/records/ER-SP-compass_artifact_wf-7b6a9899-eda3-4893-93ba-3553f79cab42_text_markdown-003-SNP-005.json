@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+  "source_date_if_available": "6 abril 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me parece inadecuado el sistema de transferencia de las ventas donde retienen el dinero hasra alcanzar un minimo que supera hasta tres veces el valor del producto vendido. La pregunta es¿ si no se lle...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart seller claims payout minimum threshold can exceed three times the value of individual products sold, effectively trapping funds for low-price products",
+  "actor_level": "seller",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "payout minimum threshold can exceed 3x individual product sale price",
+    "seller questions what happens if threshold is never reached",
+    "snippet truncated"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Spanish-language Trustpilot review (April 6, 2026). Hotmart seller reports payout minimum threshold can be 3x or more the price of individual products sold, effectively trapping funds for low-price sellers. Snippet truncated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "secondary_pointer": null
+  }
+}

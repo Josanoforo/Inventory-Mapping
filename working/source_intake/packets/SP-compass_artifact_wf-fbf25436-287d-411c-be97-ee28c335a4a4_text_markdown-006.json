@@ -1,0 +1,65 @@
+{
+  "packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_title": "Review",
+  "source_type": "unknown",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=3",
+  "source_date_if_available": "August 12, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"BUYERS BEWARE: I purchased a chrome extension for $17 that didn't work. I never received a receipt and the extension didn't work with no contact info for the developer. I contacted support after multiple AI email responses, was forced to open a chargeback. TERRIBLE customer service. I wish I'd checked into this website before purchasing this extension.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Bought a product from a seller who uses the site. Had a small problem which to be fair was down to me. Seller never responded to multiple requests for help. Gumroad gave me reassurance that they would help and give a refund. The best they did until lately was answer my emails reasonably quick, despite my earlier thoughts that they would help. Now they seem to be trying to get out of their earlier positive position. All I can say is, don't have any issues as you won't get any responseable conclusions\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"I was trying to purchase something on Gumroad for $0, but as I got to the checkout, it said that I have an active chargeback on one of my past Gumroad purchases. However, I wasn't logged in, I didn't give them my card information AND I HAVEN'T USED GUMROAD BEFORE. So, even if I did have an active chargeback, how would they know?\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"I got scammed for 20$ don't buy from bailey Richardson they are the biggest thing\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Trustpilot reviews page 3 for Gumroad (August 12, 2025): negative buyer reviews citing non-functional product with no receipt and AI-only support forcing chargeback; seller non-response with Gumroad initially promising refund then backing down; account blocked citing alleged prior chargeback despite no prior Gumroad use; seller scam for $20"
+  ],
+  "possible_actor_levels": ["buyer", "seller", "marketplace"],
+  "possible_metric_types": ["refund_policy"],
+  "possible_time_scopes": ["2025-Q3"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

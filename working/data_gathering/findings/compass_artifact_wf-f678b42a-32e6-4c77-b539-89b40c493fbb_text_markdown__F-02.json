@@ -1,0 +1,16 @@
+{
+  "what": "Cuando la moneda del país del productor, la moneda de la oferta y la moneda del país del comprador no coinciden, la comisión se paga en USD por defecto.",
+  "verbatim_snippet": "\"En caso de que tu venta no cumpla ninguna de las reglas mencionadas anteriormente, la comisión será en dólares (USD).\"",
+  "source": "https://help.hotmart.com/es/article/360015794612/-en-que-moneda-obtendre-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Currency. Para el flujo LatAm seller → US buyer: la moneda del productor (ej. MXN) ≠ moneda de la oferta (USD) ≠ moneda del comprador (USD en US), por lo que la regla de tres monedas nunca se cumple → comisión siempre en USD.",
+  "extra_fields": {
+    "finding_id": "F-02"
+  },
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

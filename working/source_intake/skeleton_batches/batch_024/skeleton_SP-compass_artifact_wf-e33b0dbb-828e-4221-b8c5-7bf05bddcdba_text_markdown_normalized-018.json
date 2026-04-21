@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_title": "Connect Your Flutterwave Account",
+  "source_type": "help_center",
+  "source_ref": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "> \"Flutterwave's standard fee for online credit card transactions ranges from 2.6% - 4.8% per transaction depending on your country/region and where your customer is paying from. Fees vary by payment methods, please check Flutterwave's pricing page for the latest updates. Note that these fees are collected by Flutterwave and do not go to Payhip.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/367-connect-your-flutterwave-account"
+      },
+      "source_finding_id": "F-17",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "> \"Flutterwave is available in Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania, and Cameroon.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/367-connect-your-flutterwave-account"
+      },
+      "source_finding_id": "F-29",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-17",
+    "F-29"
+  ]
+}

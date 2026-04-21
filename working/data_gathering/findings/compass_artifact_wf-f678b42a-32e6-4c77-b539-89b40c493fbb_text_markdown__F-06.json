@@ -1,0 +1,16 @@
+{
+  "what": "Hotmart gestiona los impuestos y emite facturas para TODAS las ventas a compradores en Estados Unidos, sin importar la ubicación, tipo de cuenta o naturaleza del producto del Productor.",
+  "verbatim_snippet": "\"Escenario 5 Si tu comprador está en Estados Unidos y tú, Productor(a), tienes tu cuenta registrada en Estados Unidos u otro país, sea personal o empresarial, Hotmart se encargará de gestionar los impuestos y emitir las facturas.\"",
+  "source": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "notes": "Dimensión Tax. Dirección: cualquier seller (incluido LatAm) → US buyer. Hotmart actúa en rol de gestión fiscal equivalente a MoR para ventas con destino US. Este es un finding de primera clase para la mecánica cross-border LatAm→US.",
+  "extra_fields": {
+    "finding_id": "F-06"
+  },
+  "finding_id": "F-06",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

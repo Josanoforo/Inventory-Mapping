@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's Terms of Use state that displayed currency is based on user location at account creation, but all fees are always calculated in US dollars, with final charges varying depending on prevailing currency exchange rates offered by payment providers.",
+  "verbatim_snippet": "\"Fees may vary based on your location and other factors. If you are logged into your account, the currency you will see is based on your location when you created your account. However, the final fees charged to you will always be calculated in US dollars; therefore the final fees charged to you may vary depending on prevailing currency exchange rates offered by our payment providers.\"",
+  "source": "https://www.domestika.org/en/terms",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "January 31, 2024 (last updated date stated on page)",
+  "notes": "Section 11 \"FEES\" of the Terms of Use. The explicit mention of currency exchange rates and location-based currency display establishes the cross-border billing mechanism that affects all non-US buyers, including LatAm.",
+  "finding_id": "F-01",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

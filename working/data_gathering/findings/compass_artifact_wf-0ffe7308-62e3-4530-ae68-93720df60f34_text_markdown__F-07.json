@@ -1,0 +1,16 @@
+{
+  "what": "Craftybase added Argentina, Brazil, and Chile (among other countries) to its Etsy fee calculator as Payoneer-based countries where Etsy processes fees in USD. Peru is absent from this list of additions.",
+  "verbatim_snippet": "\"Added 9 new countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand are now supported. These are Payoneer-based countries where Etsy processes fees in USD.\"",
+  "source": "https://craftybase.com/etsy/fee-calculator",
+  "source_type": "pricing_page",
+  "verification_status": "direct_verified",
+  "date": "March 2026 (changelog entry)",
+  "notes": "Third-party fee calculator. Confirms that Argentina, Brazil, Chile are categorized as Payoneer-based with USD-denominated fee processing. Peru is notably absent from this list of 9 newly added countries despite being an eligible Payoneer country on Etsy. Dimension: Payout / Currency. Cross-border cut: Argentina, Brazil, Chile (USD fee processing via Payoneer).",
+  "extra_fields": {
+    "finding_id": "F-07"
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

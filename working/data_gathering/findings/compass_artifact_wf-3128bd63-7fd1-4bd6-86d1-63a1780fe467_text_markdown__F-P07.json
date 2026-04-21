@@ -1,0 +1,13 @@
+{
+  "what": "Envato Elements subscribers in Mexico see their recurring billing adjusted to include Value Added Tax (VAT) of 16%.",
+  "verbatim_snippet": "\"Subscribers in Mexico will see a change in their recurring Envato Elements billing to include Value Added Tax (VAT) of 16%.\"",
+  "source": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page states effective date February 20, 2024 in separate passage (\"effective from the 20th of February, 2024\") not continuous with this snippet",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"Mexico\" + \"VAT\" + \"16%.\" Dimension: TAX. Flow: US→LatAm (platform → Mexican subscriber, buyer side). Same page provides pricing example: \"$33 per month\" → \"$38.28 representing $5.28 of VAT that Envato Elements will pay to the Servicio de Administracion Tributaria.\"",
+  "finding_id": "F-P07",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-010",
+  "source_title": "Etsy Etsy Q4 2025 Earnings Call Transcript",
+  "source_type": "article",
+  "source_ref": "https://www.fool.com/earnings/call-transcripts/2026/02/19/etsy-etsy-q4-2025-earnings-call-transcript",
+  "source_date_if_available": "February 19, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Notably, our trailing twelve-month active buyer count in the United States increased slightly from Q3 to Q4, and US buyer GMS grew 0.3% year over year, marking the first quarter of positive growth in four years.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.fool.com/earnings/call-transcripts/2026/02/19/etsy-etsy-q4-2025-earnings-call-transcript"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Our personalized owned marketing programs are doing a better job engaging, with push and email clicks up more than 25% while message volume stayed disciplined.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.fool.com/earnings/call-transcripts/2026/02/19/etsy-etsy-q4-2025-earnings-call-transcript"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Q4 2025 US market performance (February 2026): US active buyer count increased Q3-to-Q4; US buyer GMS grew 0.3% YoY marking first quarter of positive growth in four years; push and email clicks up 25%+ YoY"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["active_buyers", "revenue"],
+  "possible_time_scopes": ["2025-Q4"],
+  "possible_geographies": ["US"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

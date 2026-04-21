@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=7",
+  "source_date_if_available": "12 marzo 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"El servicio de atenci\u00f3n al productor es una aut\u00e9ntica basura. Los tiempos de espera son una locura y te vas sin soluci\u00f3n. Puedes volver a intentarlo varias veces y da lo mismo, es penoso. No se lo re...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=7"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart seller: customer support described as poor quality with unreasonable wait times and no resolution"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

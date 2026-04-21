@@ -1,0 +1,13 @@
+{
+  "what": "A G2 reviewer compares Gumroad's 10% flat fee unfavorably to Snappy Checkout's $0.50/transaction and Paykickstart's subscription model, and states Gumroad lacks order bumps and upsells, concluding it doesn't make financial sense for sellers earning over $1,000.",
+  "verbatim_snippet": "\"Their 10% flat fee is too much of a cut. This is not including the fees Stripe/Paypal take away. So if you have a $50 product, you'd get less than $45. Comparing this to platforms like Snappy Checkout, which is just $0.50 per transaction. Or a professional selling platform like Paykickstart, where if you sold 10 products at $100, you'd have made back the subscription fee compared to Gumroad. As in, you can continue selling and technically pay no more fees to Paykickstart on their Starter tier, up to $10k/mth, while you still have to pay that 10% to Gumroad. Gumroad also does not have any order bumps or upsells as of March 2023, so it's not possible to build a sales funnel. If you plan to earn more than $1000, it doesn't make financial sense to use Gumroad.\"",
+  "source": "https://www.g2.com/products/gumroad/reviews",
+  "source_type": "unknown",
+  "verification_status": "blocked_url_index_verified",
+  "date": "References \"as of March 2023\"; reviewer mentions starting with Gumroad in 2016",
+  "notes": "G2 review aggregator; \"review_aggregator\" not in closed 18-value enum, mapped to \"unknown.\" G2 page confirmed accessible with visible individual reviews (G2 reports 4.2/5 stars, ~16 reviews). Specific review text extracted by research subagent but not independently re-verified character-for-character. Competitors named: Snappy Checkout, Paykickstart. Dimension: fees, sales funnel features. Stance: anti-Gumroad. Specific numbers: 10% fee, Snappy Checkout $0.50/tx, Paykickstart Starter tier up to $10K/month, $50 product nets <$45 on Gumroad.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized",
+  "source_tool": "deep_search",
+  "part": 2
+}

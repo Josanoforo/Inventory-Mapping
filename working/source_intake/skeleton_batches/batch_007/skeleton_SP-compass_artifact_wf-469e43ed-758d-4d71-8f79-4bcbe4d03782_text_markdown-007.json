@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-007",
+  "source_title": "W8 W9 Forms",
+  "source_type": "help_center",
+  "source_ref": "https://docs.lemonsqueezy.com/help/tax-forms/w8-w9-forms",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"The Form W-8 is used by foreign individuals and entities to certify their foreign status for U.S. tax purposes, allowing them to declare that they are not U.S. persons and are not subject to U.S. taxation.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://docs.lemonsqueezy.com/help/tax-forms/w8-w9-forms"
+      },
+      "source_finding_id": "F-P09",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P09"
+  ]
+}

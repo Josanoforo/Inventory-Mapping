@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Paypal Connect",
+  "source_ref": "https://help.gumroad.com/article/275-paypal-connect",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It's available to all creators from countries where PayPal operates, except Brazil, India, Israel, Japan, Federated States of Micronesia, and Türkiye.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad PayPal Connect help center (help.gumroad.com/article/275-paypal-connect, undated, accessed April 2026) states PayPal Connect is available in all PayPal-supported countries except Brazil, India, Israel, Japan, Federated States of Micronesia, and Türkiye",
+  "actor_level": "platform",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazil, India, Israel, Japan, Federated States of Micronesia, Türkiye (excluded from PayPal Connect)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Gumroad help center (accessed Apr 2026): PayPal Connect available except Brazil, India, Israel, Japan, Federated States of Micronesia, Türkiye"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.gumroad.com/article/275-paypal-connect (undated, accessed Apr 2026). PayPal Connect excludes 6 countries including Brazil. Combined with Stripe exclusion of Brazil, both direct payout methods unavailable there."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/275-paypal-connect",
+    "secondary_pointer": null
+  }
+}

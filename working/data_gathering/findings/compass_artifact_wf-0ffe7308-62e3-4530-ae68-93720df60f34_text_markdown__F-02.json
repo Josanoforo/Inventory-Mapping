@@ -1,0 +1,16 @@
+{
+  "what": "Mexico-specific deposit minimum is 40.00 MXN; fee threshold is 2,000.00 MXN; deposit fee is 40.00 MXN. Deposits below 2,000 MXN but above 40 MXN incur a 40 MXN deposit fee. No other LatAm country appears in this table — only Indonesia, Israel, Malaysia, Mexico, Morocco, Philippines, South Africa, and Turkey are listed.",
+  "verbatim_snippet": "[Stated in layout: \"Mexico | 40.00 MXN | 2,000.00 MXN | 40.00 MXN\"]",
+  "source": "https://investomatica.com/etsy-calculator",
+  "source_type": "pricing_page",
+  "verification_status": "direct_verified",
+  "date": "Last reviewed April 4, 2026. Source attribution: \"Source: etsy.com\"",
+  "notes": "Third-party calculator citing etsy.com. Absence of Argentina, Brazil, Chile, Peru from this table is consistent with those countries using Payoneer (where Payoneer's own withdrawal minimums apply instead of Etsy's deposit fee structure). Mexico is the only LatAm country with Etsy-imposed deposit thresholds and fees. Dimension: Payout. Cross-border cut: Mexico (MXN).",
+  "extra_fields": {
+    "finding_id": "F-02"
+  },
+  "finding_id": "F-02",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

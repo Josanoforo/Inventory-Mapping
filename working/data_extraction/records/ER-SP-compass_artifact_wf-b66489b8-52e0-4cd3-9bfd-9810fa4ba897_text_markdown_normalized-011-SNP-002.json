@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_type": "product_listing",
+  "source_title": "payhip.com",
+  "source_ref": "https://payhip.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Resources: Marketing ideas tool, How to write an ebook, How to sell presets, How to sell printables, How to sell ebooks, How to sell canva templates, Online Course Ideas, Content Creator, Digital Products, Resource Hub\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip homepage resources section (accessed April 2026) lists creator resources: marketing ideas tool, how-to guides for selling ebooks, presets, printables, Canva templates; online course ideas; content creator and digital products resource hub",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "digital products (presets, printables, ebooks, Canva templates)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "resources hub covers: marketing ideas, ebook/preset/printable/Canva template guides, online course ideas",
+    "resource hub targets content creators and digital product sellers"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com homepage (accessed April 2026; page undated). Creator resources section: how-to guides and tools for selling digital product categories (ebooks, presets, printables, Canva templates, courses)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/",
+    "secondary_pointer": null
+  }
+}

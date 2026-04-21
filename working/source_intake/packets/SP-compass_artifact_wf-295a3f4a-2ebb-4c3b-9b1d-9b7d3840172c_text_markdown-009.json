@@ -1,0 +1,61 @@
+{
+  "packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_title": "Un Solo Sitio Para Venderlo Todo",
+  "source_type": "news",
+  "source_ref": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+  "source_date_if_available": "21 de junio de 2016",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Aparte de las compras nacionales, un segmento importante de las transacciones provienen de Estados Unidos y Latinoamérica: \\\"La idea es seguir creciendo, consolidarnos en todo México y explorar la expansión a otros países. Tenemos compradores interesantes en Estados Unidos, centro y Suramérica que se parecen a México en términos de mercado y confianza. Hacia allá vamos\\\", finalizó De Heredia.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Y si es una compra internacional el tiempo estándar de envío es de 5 a 7 días\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Hacer entregas nacionales e internacionales es fundamental, una amiga mía vive en Bután y le compró dos kilos de chocolate a una marca mexicana y nosotros se lo mandamos\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Milenio business news article, June 21, 2016. Three snippets: SNP-001 — founder De Heredia says significant transactions from US and Latin America; expansion plans to Mexico consolidation then US/Central/South America. SNP-002 — standard international shipping 5–7 days. SNP-003 — anecdote of shipping to Bhutan.",
+    "Source is 10 years old (2016); priority set to low per age heuristic.",
+    "possible_geographies: ['Mexico', 'United States', 'Latin America'] from content.",
+    "possible_metric_types: ['unknown'] — snippets describe qualitative aspects; no measurable metrics in the enum."
+  ],
+  "possible_subjects": [
+    "Kichink cross-border buyer base (US, Latin America)",
+    "Kichink international shipping lead time (5–7 days)"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["June 2016"],
+  "possible_geographies": ["Mexico", "United States", "Latin America"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

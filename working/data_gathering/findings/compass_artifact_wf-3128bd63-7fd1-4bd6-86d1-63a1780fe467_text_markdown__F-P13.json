@@ -1,0 +1,13 @@
+{
+  "what": "Envato offers bank transfers into 137 currencies, 83 of which use local IACH routes enabling same-currency transfers to authors' local bank accounts with faster payouts and fewer fees.",
+  "verbatim_snippet": "\"Envato now offers bank transfers into 137 currencies, 83 of which are transferred via local routes called International Automated Clearing Houses (IACHs). These are cross-border transfer services that enable electronic transfer payments using your local currency. This means faster payouts and fewer fees.\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/20535795834393-Getting-Started-with-the-Envato-Payout-System",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "December 18, 2025 (page date \"December 18, 2025 23:02 Updated\" visible in search index snippet from a separate query)",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"137 currencies\" + \"cross-border transfer services\" + \"local currency.\" Dimension: CURRENCY. LatAm currencies (MXN, BRL, COP, CLP, PEN, and potentially ARS) are likely among the 83 IACH-supported currencies, but the page does not enumerate specific currencies. Separate passage on same page: \"Landing times for local currency payments are typically within 1-2 business days, as opposed to 5 business days with the SWIFT network.\"",
+  "finding_id": "F-P13",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-002",
+  "source_type": "blog",
+  "source_title": "Best Gumroad Alternatives",
+  "source_ref": "https://bootstrappingecommerce.com/best-gumroad-alternatives",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip is ideal for digital product creators, authors, or coaches who want a simple, free solution to start selling files, courses, and memberships with global tax handling.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip as a free starting solution for digital product creators (files, courses, memberships) with global tax handling capability",
+  "actor_level": "source",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "simple, free solution to start selling",
+    "global tax handling"
+  ],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "Blog recommendation excerpt from Gumroad alternatives comparison (undated, accessed April 2026); positions Payhip as 'ideal for... simple, free solution' covering files, courses, and memberships with global tax support."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bootstrappingecommerce.com/best-gumroad-alternatives",
+    "secondary_pointer": null
+  }
+}

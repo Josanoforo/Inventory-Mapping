@@ -1,0 +1,48 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-005",
+  "source_title": "Pagos",
+  "source_type": "pricing_page",
+  "source_ref": "https://www.kichink.com/pagos",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Recuerda que la cadena te cobra una comisi\u00f3n de $8.00\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.kichink.com/pagos"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Kichink payments page (Spanish, undated). Convenience store (chain) payment option charges buyer $8.00 MXP fee.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Kichink: convenience store (chain) payment option charges $8 MXP fee to buyer"
+  ],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

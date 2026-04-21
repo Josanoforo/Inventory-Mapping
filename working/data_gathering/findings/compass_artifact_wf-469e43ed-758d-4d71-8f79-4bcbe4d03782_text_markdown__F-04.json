@@ -1,0 +1,16 @@
+{
+  "what": "As a merchant of record, Lemon Squeezy calculates and pays global sales tax for digital products, handling legal processing and fees in every country.",
+  "verbatim_snippet": "\"As a merchant of record, Lemon Squeezy calculates and pays global sales tax for digital products, handling legal processing and fees in every country. It primarily serves SaaS and software businesses.\"",
+  "source": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy/",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "July 26, 2024",
+  "notes": "TechCrunch article on Stripe's acquisition of Lemon Squeezy. Edge 1 applied: journalism article = single-source (article). \"In every country\" encompasses LatAm countries. Does not name specific LatAm jurisdictions or IVA.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-04",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

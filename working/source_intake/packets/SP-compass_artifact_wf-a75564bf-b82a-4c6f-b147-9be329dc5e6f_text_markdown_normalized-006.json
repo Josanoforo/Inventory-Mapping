@@ -1,0 +1,47 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-006",
+  "source_title": "Productos",
+  "source_type": "search_results_page",
+  "source_ref": "https://www.kichink.com/productos",
+  "source_date_if_available": "Accedido abril 2026; copyright de la p\u00e1gina @2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Categor\u00edas \u00b7 Encuentra el producto perfecto para ti \u00b7 Navegar por tienda \u00b7 Sin Filtros \u00b7 Cargando productos \u00b7 Navegar por tienda \u00b7 Mostrar: 24 \u00b7 36 \u00b7 48\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.kichink.com/productos"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Kichink product catalog interface (2024): marketplace product listing page with category-based navigation, store browsing, and configurable display count (24/36/48 items)"
+  ],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,9 @@
+{
+  "shard_id": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X03",
+  "seller_or_subject": "YouTube video transcript comparisons",
+  "attempted": "SD-15. Searched for \"etsy vs shopify youtube comparison,\" \"etsy vs amazon handmade youtube transcript.\"\n**Outcome:** Search results returned YouTube video titles and descriptions but no transcript content. Video pages were not fetched due to tool limitations with video content. No transcript service was accessible.",
+  "why_failed": "for failure:** Tool cannot extract video transcripts; no transcript text available via web search or web fetch.",
+  "urls_mentioned": []
+}

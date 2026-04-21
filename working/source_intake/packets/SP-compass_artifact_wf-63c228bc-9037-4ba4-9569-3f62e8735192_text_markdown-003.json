@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-003",
+  "source_title": "Gumroad Digital Products Earnings",
+  "source_type": "blog",
+  "source_ref": "https://lowcontentprofits.com/gumroad-digital-products-earnings",
+  "source_date_if_available": "January 29, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"These 609 sales made me a total of just over $304 in passive income. As most of my products are freebies, the total income is much lower when compared to total sales.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://lowcontentprofits.com/gumroad-digital-products-earnings"
+      }
+    }
+  ],
+  "intake_notes": [
+    "lowcontentprofits.com blog (January 29, 2026). Individual Gumroad seller: 609 sales, $304+ total revenue; most products are free downloads, resulting in low average revenue per sale."
+  ],
+  "possible_subjects": [
+    "Gumroad seller: 609 sales, $304+ revenue; heavy freemium product mix results in low average revenue per sale"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["revenue", "sales_count"],
+  "possible_time_scopes": ["2026"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

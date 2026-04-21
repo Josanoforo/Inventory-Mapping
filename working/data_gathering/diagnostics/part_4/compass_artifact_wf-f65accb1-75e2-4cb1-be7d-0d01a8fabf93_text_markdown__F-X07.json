@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X07",
+  "seller_or_subject": "IVA/VAT handling for LatAm countries",
+  "attempted": "**What:** No confirmation was found that Gumroad actively collects or remits IVA for Mexico (16%), Colombia (19%), Argentina (21%), Chile (19%), Brazil (various), or any other LatAm country. The post-MoR pricing page claims \"worldwide\" tax handling (F-05), but the help center sales tax article lists only US, EU/UK, Canada, Australia, Singapore, and India — explicitly stating \"We don't calculate or remit sales tax for other countries or regions at this time.\" These statements appear contradictory; the help center article may be outdated.\n**Source:** https://gumroad.com/help/article/121-sales-tax-on-gumroad (confirmed fetched); https://gumroad.com/pricing (confirmed fetched)\n**source_type:** help_center / pricing_page\n**verification_status:** could_not_verify\n**Date:** Accessed April 2026; help center page undated; pricing page references January 1, 2025\n**Notes:** Covers SD-06. The help center article was fetched and confirmed to list only US, EU/UK, Canada, Australia, Singapore, and India for tax handling — with no mention of any LatAm country or IVA. The pricing page's \"worldwide\" claim may reflect aspirational scope or the legal MoR structure (which covers any jurisdiction \"where Gumroad has tax obligations\"), but this is not verified for LatAm. No search results were found for \"gumroad IVA Mexico,\" \"gumroad IVA Colombia,\" or \"gumroad IVA Brazil.\"",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://gumroad.com/help/article/121-sales-tax-on-gumroad",
+    "https://gumroad.com/pricing"
+  ]
+}

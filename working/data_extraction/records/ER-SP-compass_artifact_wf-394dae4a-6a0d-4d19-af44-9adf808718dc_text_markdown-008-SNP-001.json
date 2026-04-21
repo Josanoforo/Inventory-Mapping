@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Hotmart Get Rich Without Going Viral",
+  "source_ref": "https://restofworld.org/2023/hotmart-get-rich-without-going-viral",
+  "source_date_if_available": "June 19, 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Before joining Hotmart, Martínez, the car repair creator, hadn't been able to charge clients outside of his native market of Costa Rica. Although many were willing to pay his $20 monthly subscription fee, they couldn't find a way around PayPal's geographic payment restrictions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Costa Rica car repair creator reports Hotmart enabled international subscription payments ($20/month) that PayPal geographic restrictions had previously blocked",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "subscription",
+  "metric_type": "revenue",
+  "metric_value_raw": "20",
+  "metric_unit": "USD per month (monthly subscription fee for car repair content)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Costa Rica (creator)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "hadn't been able to charge clients outside of his native market of Costa Rica",
+    "$20 monthly subscription fee",
+    "couldn't find a way around PayPal's geographic payment restrictions"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "Rest of World article (June 19, 2023). Costa Rica car repair creator: Hotmart solved international subscription billing ($20/month) that PayPal geographic restrictions had blocked. Historical (2023); current PayPal restrictions may differ."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://restofworld.org/2023/hotmart-get-rich-without-going-viral",
+    "secondary_pointer": null
+  }
+}

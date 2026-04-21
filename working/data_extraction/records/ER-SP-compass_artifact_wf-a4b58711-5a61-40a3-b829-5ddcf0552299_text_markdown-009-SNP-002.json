@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-009-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "Payouts Guide For Creators Outside Of The Us",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Fees: 1.55% of payout amount + $0.25 per payout. No additional currency conversion fee is applied. Minimum payout of $10. Conversion: Patreon handles the conversion from USD → local currency before sending to your bank.\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon help center states a non-US payout option with fee 1.55% + $0.25 per payout; no additional currency conversion fee; minimum $10; Patreon converts USD to local currency before transfer",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "1.55",
+  "metric_unit": "% + $0.25 flat per payout (non-US local-currency bank transfer option)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "non-US (local currency bank accounts)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "fee: 1.55% + $0.25 per payout",
+    "no additional currency conversion fee",
+    "minimum payout: $10",
+    "Patreon handles USD → local currency conversion before bank transfer"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Patreon help center — Payouts Guide for Creators Outside US (accessed April 2026; undated). Second non-US payout option: percentage-based 1.55% + $0.25; includes currency conversion by Patreon. Distinct from SNP-001 (~$0.50 flat, Payoneer)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US",
+    "secondary_pointer": null
+  }
+}

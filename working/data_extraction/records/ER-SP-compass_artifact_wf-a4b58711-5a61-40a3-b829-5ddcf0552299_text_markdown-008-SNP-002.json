@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_type": "help_center",
+  "source_title": "A Standard Platform Fee For New Creators Effective After August 4 2025",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+  "source_date_if_available": "Updated January 28, 2026 15:05 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"U.S. customers Due to ongoing legal developments, iOS users in the United States do not have to use Apple's in-app purchase (IAP) flow. Instead, they have the option to complete purchases directly through Patreon's mobile web checkout and are not subject to the 30% IAP fee. This experience reflects the outcome of the Epic v. Apple ruling, which prohibits Apple from blocking alternative payment methods\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon help center states US iOS users can bypass Apple IAP and use Patreon's mobile web checkout instead, avoiding the 30% Apple fee; this follows the Epic v. Apple ruling prohibiting Apple from blocking alternative payment methods",
+  "actor_level": "platform",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "0",
+  "metric_unit": "% Apple IAP fee for US iOS users using Patreon web checkout (instead of 30%)",
+  "time_scope_raw": "Updated January 28, 2026",
+  "time_scope_normalized_if_safe": "2026-01-28",
+  "geography_if_explicit": "United States",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "US only: iOS users can use Patreon mobile web checkout instead of Apple IAP",
+    "result: 30% Apple IAP fee not applied for US users choosing web checkout",
+    "legal basis: Epic v. Apple ruling prohibiting Apple from blocking alternative payment"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Patreon help center — Standard Platform Fee (updated January 28, 2026). US iOS carveout: mobile web checkout bypasses Apple IAP 30% fee. Applies to US users only per Epic v. Apple ruling. Non-US iOS users still subject to Apple IAP."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+    "secondary_pointer": null
+  }
+}

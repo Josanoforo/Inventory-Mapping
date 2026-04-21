@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-012",
+  "source_type": "search_results_page",
+  "source_title": "Categories",
+  "source_ref": "https://www.etsy.com/categories",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "n/a — content recovered via research subagent direct fetch of URL; verbatim character-for-character accuracy cannot be independently confirmed.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy categories page (etsy.com/categories, accessed April 2026) represents the platform's main category browse navigation; verbatim content could not be independently confirmed",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Etsy main categories page; snippet flagged non-verbatim — accuracy unverifiable"
+  ],
+  "uncertainties": ["context_insufficient", "source_date_unclear"],
+  "parser_notes": [
+    "etsy.com/categories (Apr 2026). Snippet flagged as non-verbatim; content accuracy unverifiable per stage-1 note."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/categories",
+    "secondary_pointer": null
+  }
+}

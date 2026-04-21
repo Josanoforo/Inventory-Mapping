@@ -1,0 +1,13 @@
+{
+  "what": "Seller who left Gumroad for Payhip. Uses hypothetical example of $5,000/month revenue to illustrate fee impact: Gumroad's 10% takes $500/month vs lower Payhip cost. Reports looking at own Gumroad dashboard and realizing the fees were excessive. References Gumroad's \"massive fallout with PayPal\" that disrupted sellers. Notes Payhip pays sellers almost instantly via their own Stripe/PayPal accounts.",
+  "verbatim_snippet": "\"If you sell a course for $100, Gumroad takes $10. If you make $5,000 a month, you are handing them $500. That is a car payment. That is a nice weekend getaway. That is your money. I looked at my dashboard and realized I was paying premium prices for a platform that treated me like a line item, not a partner. So I started looking for alternatives. I found Payhip. And honestly? I am angry I didn't switch sooner.\"",
+  "source": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+  "source_type": "blog",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Direct fetch blocked by Medium (403); snippet recovered via Google search index of same URL. Author is Ahmed Naji. The $5,000/month figure is a hypothetical illustration (\"If you make $5,000 a month\"), not an explicit statement of the author's own revenue. However, the phrase \"I looked at my dashboard\" implies the author's own experience with significant Gumroad fees. Separately notes Payhip Plus plan ($29/month + 2%) as saving \"$1,572 a year\" vs Gumroad at same revenue level.",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

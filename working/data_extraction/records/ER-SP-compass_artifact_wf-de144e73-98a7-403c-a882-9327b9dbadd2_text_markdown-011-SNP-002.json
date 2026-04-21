@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+  "source_type": "search_results_page",
+  "source_title": "Jewelry",
+  "source_ref": "https://www.etsy.com/c/jewelry",
+  "source_date_if_available": "Accessed April 2026; listing undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Custom Name Necklace, 18K Gold Plated Name Necklace, Personalized Name Necklace, Birthday Gift for Her, Mother's Day Gift, Gift for Mom — (55,428 reviews), Star Seller — Sale Price $14.05, Original Price $28.11 (50% off), Shop: AnyaShopStudio, Ad, FREE shipping\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Etsy jewelry category page (etsy.com/c/jewelry, accessed April 2026) shows a sample listing: a custom name necklace by AnyaShopStudio with 55,428 reviews and Star Seller status, sale price $14.05 (50% off from $28.11 original), with free shipping and promoted as an Ad",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "$14.05 sale price (50% off $28.11); 55,428 reviews",
+  "metric_unit": "USD; review count; % discount",
+  "time_scope_raw": "Accessed April 2026; listing undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Example Etsy jewelry listing: AnyaShopStudio name necklace, 55,428 reviews, Star Seller, $14.05 (50% off), free shipping, promoted Ad"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "etsy.com/c/jewelry (Apr 2026). Sample listing: AnyaShopStudio name necklace, 55,428 reviews, $14.05 (50% off), Star Seller, Ad."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/c/jewelry",
+    "secondary_pointer": null
+  }
+}

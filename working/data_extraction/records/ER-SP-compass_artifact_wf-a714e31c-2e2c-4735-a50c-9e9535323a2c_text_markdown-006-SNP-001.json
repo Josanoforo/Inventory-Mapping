@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_type": "pricing_page",
+  "source_title": "Precios",
+  "source_ref": "https://hotmart.com/es/precios",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La solución All in One ¡Por el mismo precio! Sin tarifas. Sin softwares extra. Sin fronteras.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart pricing page describes an all-in-one solution with no separate fees, no extra software required, and global availability",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "no separate fees",
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "global",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart pricing page: 'no fees, no extra software, no borders'",
+    "all-in-one platform positioning",
+    "undated pricing page, accessed April 2026"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "hotmart.com/precios (undated, accessed April 2026). Hotmart pricing page tagline: all-in-one solution, no separate fees, no additional software, global availability. Official platform pricing claim; publication date not verifiable."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/precios",
+    "secondary_pointer": null
+  }
+}

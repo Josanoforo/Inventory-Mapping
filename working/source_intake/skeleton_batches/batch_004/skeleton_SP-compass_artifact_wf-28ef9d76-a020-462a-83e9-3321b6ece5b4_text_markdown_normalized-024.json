@@ -1,0 +1,65 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024",
+  "source_title": "Review",
+  "source_type": "unknown",
+  "source_ref": "https://www.trustpilot.com/review/payhip.com?page=2",
+  "source_date_if_available": "January 21, 2026 (reviewer: Kyle)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"After trying Shopify, Gumroad, and others, Payhip is the clear winner for digital products. It handles everything I need without worrying about plugins or coding.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      },
+      "source_finding_id": "F-29",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"I have been using Payhip for about two years and it's a great alternative to Shopify. When you start a business, you're not really able to pay a monthly subscription. Payhip only charges a tiny percen...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      },
+      "source_finding_id": "F-30",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"I've been using Payhip as an alternative to the usual suspects (Teachable, Coursera, Thinkific, Kajabi) and I'm very happy with it. The free version is very powerful and not limiting me in any...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      },
+      "source_finding_id": "F-31",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-29",
+    "F-30",
+    "F-31"
+  ]
+}

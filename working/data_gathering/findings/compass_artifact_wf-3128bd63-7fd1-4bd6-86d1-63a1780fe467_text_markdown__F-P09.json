@@ -1,0 +1,13 @@
+{
+  "what": "Mexico-based Envato Elements subscribers who do not provide an RFC get the default \"General Public\" RFC code ('XAXX010101000') saved with their billing information.",
+  "verbatim_snippet": "\"If you do not provide a RFC, then the default 'General Public' RFC ('XAXX010101000') will be saved with your billing information.\"",
+  "source": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated in this snippet",
+  "notes": "Page returned 403; recovered from search index. Cross-border cut: \"Mexico\" + \"RFC\" (Registro Federal de Contribuyentes, Mexico-specific tax ID). Dimension: TAX. Flow: US→LatAm (platform billing for Mexican subscriber). XAXX010101000 is Mexico's SAT generic public RFC.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

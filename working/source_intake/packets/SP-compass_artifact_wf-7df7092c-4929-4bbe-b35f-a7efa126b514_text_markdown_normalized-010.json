@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-010",
+  "source_title": "Reviews",
+  "source_type": "unknown",
+  "source_ref": "https://sitejabber.com/reviews/www.market.envato.com",
+  "source_date_if_available": "October 14, 2025 (posted); date of experience October 10, 2025.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I have purchased this template and made a payment, it didn't worked out and I filed a refund but envato never response to me. They are just selling illegal items to people. I strongly recommend not to purchase any products from them, ever.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://sitejabber.com/reviews/www.market.envato.com"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Envato Market: buyer review reporting no response to refund request after template purchase failed (October 2025)"
+  ],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "partial"
+}

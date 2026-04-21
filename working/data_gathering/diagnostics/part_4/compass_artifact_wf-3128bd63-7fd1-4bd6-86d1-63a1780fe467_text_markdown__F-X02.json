@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X02",
+  "seller_or_subject": "Australian Royalty Withholding Tax rates for LatAm Envato Elements authors (LatAm↔AU, out of D6 scope)",
+  "attempted": "What: Envato Elements authors sell to Envato (an Australian company), triggering Australian Royalty Withholding Tax (AU RWT) at 0–30% depending on Australia–country tax treaties. Mexico and Argentina have AU treaties (reduced rates); Brazil, Colombia, Peru, Venezuela do not (30% default).\nVerbatim snippet: \"With Envato Elements, you are selling your items to Envato, an Australian company. Therefore the Australian royalty withholding tax applies. If your country does not have a tax treaty with Australia, the royalty withholding tax is 30%.\"\nSource: https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026; page returned 403\nNotes: Content recovered from search index. Degraded to Part 4 because this describes LatAm↔AU flow direction, not LatAm↔US as required by the D6 shard scope. However, this directly affects the total tax burden of LatAm Envato authors. AU treaty rates for specific LatAm countries (Mexico 10%, Argentina 10–15%, Chile 5–10%) sourced from PwC Australia WHT table (external, not Envato).",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market"
+  ]
+}

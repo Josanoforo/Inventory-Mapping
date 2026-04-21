@@ -1,0 +1,54 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001",
+  "source_title": "C%C3%B3Mo Puedo Pedir El Reembolso De Mi Pedido",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: «Método de pago local o efectivo / transferencia* (a través de la web) *Este método de pago únicamente está disponible en: México, Colombia y Brasil.»]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido"
+      },
+      "source_finding_id": "F-P01",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: «Si has utilizado este método de pago, por favor envíanos (a través de este formulario) los datos que a continuación te detallamos, ya que se tramitará mediante transferencia bancaria: Nombre completo del beneficiario. Número de identificación (No. de cédula, CURP, CPF). Número de cuenta (*si estás en México: clabe bancaria de 18 dígitos). Tipo de cuenta (de ahorros o corriente). Número de sucursal. Nombre de tu entidad bancaria.»]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido"
+      },
+      "source_finding_id": "F-P02",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P01",
+    "F-P02"
+  ]
+}

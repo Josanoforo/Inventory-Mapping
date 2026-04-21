@@ -1,0 +1,21 @@
+{
+  "source": "https://www.swell.is/content/lemon-squeezy-alternatives",
+  "source_type": "article",
+  "verification_status": "direct_verified",
+  "date": "2026-01-07",
+  "verbatim_snippet": "\"Lemon Squeezy established itself as a creator-friendly merchant of record (MoR) platform with an elegant interface and all-in-one approach to digital commerce. However, since the Stripe acquisition in July 2024, the landscape has shifted considerably. Users now report extended onboarding times, unclear product roadmaps, and fee structures that can climb to 10-18% with add-ons—well above the advertised 5% + 50¢ base rate.\"",
+  "what": "LS described as creator-friendly MoR with elegant interface. Post-Stripe-acquisition: extended onboarding, unclear roadmaps. Fee structures reportedly climb to 10-18% with add-ons vs advertised 5% + 50¢.",
+  "notes": "Competitor-authored. The 10-18% range is attributed to Freemius analysis and derived from stacking LS's published surcharges (international +1.5%, PayPal +1.5%, subscriptions +0.5%, payout fees).",
+  "extra_fields": {
+    "sub": "type: (b) third-party comparative",
+    "competitors": "Stripe (acquirer); article compares Swell, Paddle, Gumroad, Dodo Payments",
+    "dimension": "fees, post-acquisition concerns, onboarding",
+    "numbers": "5% + 50¢ base; 10-18% effective with add-ons",
+    "stance": "anti-LS (promotes Swell as alternative)",
+    "affiliation": "yes — Swell is a direct competitor platform; this is Swell's own blog"
+  },
+  "finding_id": "F-11",
+  "shard_id": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

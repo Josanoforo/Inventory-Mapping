@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "source_title": "Gumroad Alternative",
+  "source_type": "article",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"We provide all-inclusive pricing of 5% + 50¢ per transaction. We'd say that's pretty competitive compared with Gumroad.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative"
+      },
+      "source_finding_id": "F-15",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-15"
+  ]
+}

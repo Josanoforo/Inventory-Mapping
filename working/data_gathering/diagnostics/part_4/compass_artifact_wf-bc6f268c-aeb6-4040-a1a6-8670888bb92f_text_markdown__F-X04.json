@@ -1,0 +1,12 @@
+{
+  "shard_id": "compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X04",
+  "seller_or_subject": "CodeCanyon total catalog item count",
+  "attempted": "direct access to https://codecanyon.net/category/all and https://codecanyon.net/category. Google search index snippets of these pages showed individual subcategory counts (e.g., \"Flutter (3754),\" \"Full Applications (1187)\") but no aggregate \"Choose from over X\" total count was captured comparable to ThemeForest (F-06) or AudioJungle (F-09).\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** April 2026\n- **Notes:** JavaScript-dependent rendering may prevent the total count from appearing in search index snippets. Subcategory-level counts were visible in the search index but could not be summed (derived math prohibited).",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://codecanyon.net/category/all",
+    "https://codecanyon.net/category."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-005",
+  "source_title": "How To Save On Etsy Fees With The Share Save Program",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/16981332744087-How-to-Save-on-Etsy-Fees-with-the-Share-Save-Program",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"With Share &amp; Save, you can save on Etsy fees when you drive your own traffic to your shop and listings. Once you enroll in Share &amp; Save, if a buyer places an order within 30 days of clicking a link you've shared, you get an instant refund of 4% off the eligible order total from your Etsy Payment account balance.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/16981332744087-How-to-Save-on-Etsy-Fees-with-the-Share-Save-Program"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Share & Save: enrolled sellers receive 4% fee refund on eligible orders placed within 30 days of buyer clicking a seller-shared link"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

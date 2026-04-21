@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017",
+  "source_type": "help_center",
+  "source_title": "Connect Your Xendit Account",
+  "source_ref": "https://help.payhip.com/article/366-connect-your-xendit-account",
+  "source_date_if_available": "Last updated December 17, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Xendit supports payment processing in Indonesia, Malaysia, Philippines, Thailand, and Vietnam.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip help center (help.payhip.com/article/366-connect-your-xendit-account, Dec 17, 2025) states Xendit supports payment processing in 5 countries: Indonesia, Malaysia, Philippines, Thailand, and Vietnam",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "5 countries",
+  "metric_unit": "country count",
+  "time_scope_raw": "Last updated December 17, 2025",
+  "time_scope_normalized_if_safe": "2025-12",
+  "geography_if_explicit": "Southeast Asia",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Xendit country coverage (via Payhip): Indonesia, Malaysia, Philippines, Thailand, Vietnam"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "help.payhip.com (Dec 17, 2025). Xendit: 5 SEA countries listed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/366-connect-your-xendit-account",
+    "secondary_pointer": null
+  }
+}

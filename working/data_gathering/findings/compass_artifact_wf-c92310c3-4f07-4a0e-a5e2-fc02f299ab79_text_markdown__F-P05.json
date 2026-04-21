@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center specifically identifies Argentina as a country where there is a monthly limit for transactions in dollars, and states that reaching this limit will cause payment rejections on the platform.",
+  "verbatim_snippet": "\"Likewise in places like Argentina, there's a monthly limit for transactions in dollars. If you reach this limit and attempt to complete a new purchase, the payment will be rejected.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. This passage follows the one captured in F-P04 on the same page. Argentina is the only LatAm country explicitly named in this context. The dollar transaction limit references Argentine Central Bank (BCRA) restrictions on foreign-currency purchases.",
+  "finding_id": "F-P05",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

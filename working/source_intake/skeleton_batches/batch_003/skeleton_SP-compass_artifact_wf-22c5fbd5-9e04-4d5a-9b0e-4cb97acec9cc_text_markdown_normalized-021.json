@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/domestika.org?page=35",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I have been a Domestika customer for 3 years with 30+ courses in my library. I thought they were good. Clearly not. Like everyone else, I got an ad for £0.99 courses, bought it. No mention of a free trial or annual subscription at all... As a customer, my trust has been utterly betrayed. The cracks in their business practices had been showing for years with the way they treated their teachers. But this is a new low.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/domestika.org?page=35"
+      },
+      "source_finding_id": "F-P12",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P12"
+  ]
+}

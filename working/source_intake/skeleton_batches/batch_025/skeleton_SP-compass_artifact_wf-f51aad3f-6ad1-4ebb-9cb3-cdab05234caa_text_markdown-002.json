@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-002",
+  "source_title": "I Built A 3D Audio Visualizer And Monetized It With Lemon Squeezy In A Week 2D69",
+  "source_type": "blog",
+  "source_ref": "https://dev.to/deltacraft/-i-built-a-3d-audio-visualizer-and-monetized-it-with-lemon-squeezy-in-a-week-2d69",
+  "source_date_if_available": "2025 (exact date not captured)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"For a solo developer shipping a SaaS MVP with zero infrastructure, Lemon Squeezy was the clear winner. They handle VAT/tax compliance across regions, which would otherwise be a legal headache. [...] At $10/sale, here's what you actually take home: Stripe direct → $9.41, Lemon Squeezy → $9.00, Gumroad → $8.50. Once you're past $2,000/month, Stripe direct starts making more sense — but until then, Lemon Squeezy's tax handling and license key generation more than make up for the fee difference.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://dev.to/deltacraft/-i-built-a-3d-audio-visualizer-and-monetized-it-with-lemon-squeezy-in-a-week-2d69"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-09"
+  ]
+}

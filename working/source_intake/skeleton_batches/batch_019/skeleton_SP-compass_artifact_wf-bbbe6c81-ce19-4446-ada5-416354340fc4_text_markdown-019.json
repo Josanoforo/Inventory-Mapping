@@ -1,0 +1,117 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I purchased a program on Facebook. They claimed that I could make money rating videos on YouTube. I paid them $37 . They ended up billing me for $46 , $97, and $67 dollars for some sort of gardening c...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-06",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Ordered digital course from creator via Hotmart platform. When accessing the course it was empty. Asked for a refund same day. Which the bot processed straight away. Refund showed pending on my accoun...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-07",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Hotmart is a great company, I've had awesome experiences every time I acquired digital products using credit card and other payment methods. Trustworthy!\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"I ordered their qigong course and when I checked my account they has taken payment for 3 other courses and memebership. They advertise course in English then process it in Portuguese so its impossible...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-09",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"An initial payment of US$ 27.00 was done by paypall, followed by 2 extra (non-autorized) payments of US$ 67.00 and US$ 19.90\\nDigital product received had nothing to do with the add on Facebook. Tried...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-006",
+      "snippet_text": "\"I ordered something for under $3.00 and by the next day I began receiving charges from $9.99 to $89.99. I was able to get a partial refund because I showed PayPal how many times I tried to contact th...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-11",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-007",
+      "snippet_text": "\"I didn't know that this site was for some eCourses instead of making money on TikTok. I'm still Waiting on my refund. This isn't what I was signing up for. Now I have to wait to be able to buy groceri...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/hotmart.com"
+      },
+      "source_finding_id": "F-12",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-06",
+    "F-07",
+    "F-08",
+    "F-09",
+    "F-10",
+    "F-11",
+    "F-12"
+  ]
+}

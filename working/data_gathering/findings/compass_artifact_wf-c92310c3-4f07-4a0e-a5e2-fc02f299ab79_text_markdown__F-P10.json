@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center states that payments processed from App Stores (not by Domestika) are generally considered local transactions, and suggests buyers with problems completing international purchases consider using the Domestika app as an alternative.",
+  "verbatim_snippet": "\"Payments processed from the App Stores (not by Domestika) are generally considered local transactions. If you have problems with international purchases, please consider trying to complete your order using the Domestika app.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. Same page as F-P04 and F-P05. This establishes that LatAm buyers whose cards are blocked for international/USD purchases can use the Apple App Store or Google Play as an alternative payment path, where the transaction is processed as local by the respective app store rather than as an international USD charge by Domestika.",
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

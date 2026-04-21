@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005",
+  "source_title": "creatormetrics.io",
+  "source_type": "product_listing",
+  "source_ref": "https://creatormetrics.io/",
+  "source_date_if_available": "Accessed April 14, 2026; page footer states \"©2026 Creator Metrics.\"",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You're losing patrons every month. We can help you with that. Creator Metrics is the ultimate analytics dashboard, specifically created for Patreon creators. Monitor your community trends, learn how your supporters behave and act strategically to grow your patronage. Start your free 14-day trial\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://creatormetrics.io/"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon creator analytics dashboard",
+    "patron retention analytics"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["undated"],
+  "possible_geographies": null,
+  "uncertainties": ["metric_type_unclear", "source_date_unclear"],
+  "priority_for_source_first": "low",
+  "intake_notes": [
+    "Workflow/process finding; metric_type enum does not cover analytics dashboard product descriptions. Captured as unknown.",
+    "Source is a SaaS product landing page targeting Patreon creators. No concrete metric is stated — only a marketing claim about patron loss.",
+    "priority_for_source_first set to low: tool description with no direct metric claim, tangential to core project questions about seller revenue and platform economics."
+  ],
+  "traceability_status": "partial"
+}

@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_title": "domestika.pissedconsumer.com",
+  "source_type": "buyer_review",
+  "source_ref": "https://domestika.pissedconsumer.com/review.html",
+  "source_date_if_available": "~2025\n\n---\n\n## Category 4: Strategies and positive experiences (primarily pre-2023)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you have been scammed please sign the Change Org petition called Domestika Estafadores (with 12+ K signatures and counting), to help get a class action off the ground.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://domestika.pissedconsumer.com/review.html"
+      },
+      "source_finding_id": "F-10",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-10"
+  ]
+}

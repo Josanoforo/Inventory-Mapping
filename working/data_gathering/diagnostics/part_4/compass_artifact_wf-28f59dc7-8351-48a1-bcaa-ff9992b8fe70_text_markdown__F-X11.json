@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X11",
+  "seller_or_subject": "SimilarWeb Domestika detailed buyer/conversion data",
+  "attempted": "fetch by subagent; data reported but two different visit counts (8.2M and 6.9M) from same source raise consistency concerns\n- **source_type:** report\n- **verification_status:** could_not_verify\n- **Date:** Reported as January 2026 data by subagent\n- **Notes:** SimilarWeb data is estimated, not GA4-validated. Conflicting visit figures from same source (8.2M vs 6.9M) may reflect different months or measurement updates. Could not independently verify which snapshot applies. Degraded to Part 4 due to inconsistency.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.similarweb.com/website/domestika.org/"
+  ]
+}

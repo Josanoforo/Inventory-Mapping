@@ -1,0 +1,47 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_title": "How To Price Digital Products On Gumroad",
+  "source_type": "report",
+  "source_ref": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Price Range | # Products | % of Revenue | Avg Sales | Total Revenue: $0.01–$4.99 | 2,084 | 0.8% | 313 | $1.7M; $5–$9.99 | 2,896 | 3% | 328 | $6.2M; $10–$19.99 | 3,365 | 5.5% | 241 | $11.4M; $20–$29.99 | 1,760 | 4.7% | 235 | $9.7M; $30–$49.99 | 1,409 | 7.3% | 268 | $15M; $50–$99.99 | 857 | 7% | 239 | $14.5M; $100–$199.99 | 265 | 6% | 318 | $12.4M; $200+ | 316 | 65.7% | 154 | $135.3M\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"Metric | Pay What You Want | Fixed Price: Products | 4,792 | 8,160; Avg Sales | 287 | 265; Avg Price | $18.74 | $66.77; Avg Rating | 3.25 | 2.76\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Insightraider analysis of Gumroad pricing (updated March 21, 2026): $200+ tier holds 65.7% of revenue ($135.3M); $10–$19.99 most common tier (3,365 products); pay-what-you-want avg price $18.74 vs fixed-price avg $66.77; PWYW avg rating 3.25 vs fixed 2.76"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["price", "revenue", "sales_count"],
+  "possible_time_scopes": ["2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

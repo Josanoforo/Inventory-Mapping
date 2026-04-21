@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-013",
+  "source_title": "What Is A Payment Account Reserve",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360058722214-What-is-a-Payment-Account-Reserve",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"When you have a Payment account reserve on your account, a percentage of your earnings on orders are set aside and your sales aren't available for deposit until 45 days have passed from the date of the sale.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/360058722214-What-is-a-Payment-Account-Reserve"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Payments: payment account reserve withholds a percentage of earnings; reserved funds unavailable for deposit until 45 days after sale date"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

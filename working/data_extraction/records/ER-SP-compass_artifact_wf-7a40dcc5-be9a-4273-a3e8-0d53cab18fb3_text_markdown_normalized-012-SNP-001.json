@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-012",
+  "source_type": "blog",
+  "source_title": "Etsys Creativity Standards Update",
+  "source_ref": "https://sarahsewell.substack.com/p/etsys-creativity-standards-update",
+  "source_date_if_available": "June 13, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This is HUGE. Etsy is home to thousands, maybe tens of thousands, of supply sellers offering blanks like tumblers, shirts, and hats. Many of those may now be considered noncompliant.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy's creativity standards update may render thousands to tens of thousands of blank/supply sellers (tumblers, shirts, hats) noncompliant",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "count",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "thousands to tens of thousands of Etsy blank/supply sellers affected",
+    "products: tumblers, shirts, hats",
+    "Etsy creativity standards update may make many noncompliant"
+  ],
+  "uncertainties": ["methodology_unclear"],
+  "parser_notes": [
+    "Substack blog (June 13, 2025). Third-party commentator assesses Etsy creativity standards update as potentially making thousands to tens of thousands of blank/supply sellers noncompliant. Estimate is speculative, not sourced."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sarahsewell.substack.com/p/etsys-creativity-standards-update",
+    "secondary_pointer": null
+  }
+}

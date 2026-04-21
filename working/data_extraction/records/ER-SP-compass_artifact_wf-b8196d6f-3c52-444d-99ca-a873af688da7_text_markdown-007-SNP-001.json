@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007",
+  "source_type": "product_listing",
+  "source_title": "notioneverything.lemonsqueezy.com",
+  "source_ref": "https://notioneverything.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Notion Everything · Notion Complete Bundle · $199.00 - $279.00 · Notion Finance Tracker Pro · $34.00 - $69.00 · Notion Freelance OS · $79.00 - $149.00 · Notion Second Brain 3.5 · $64.00 - $124.00 · Small Business OS\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Seller 'Notion Everything' on Lemon Squeezy (accessed April 2026) offers premium Notion templates: Complete Bundle $199–$279, Finance Tracker Pro $34–$69, Freelance OS $79–$149, Second Brain 3.5 $64–$124; also Small Business OS (price not shown)",
+  "actor_level": "unknown",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "digital templates (Notion productivity templates)",
+  "metric_type": "price",
+  "metric_value_raw": "$199.00 - $279.00 (bundle); $34.00 - $69.00; $79.00 - $149.00; $64.00 - $124.00",
+  "metric_unit": "USD",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Notion productivity templates on Lemon Squeezy: $34–$279 USD",
+    "seller 'Notion Everything' with multiple premium Notion template products"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "notioneverything.lemonsqueezy.com (April 2026). Lemon Squeezy seller store: premium Notion templates. Complete Bundle $199–$279; Finance Tracker Pro $34–$69; Freelance OS $79–$149; Second Brain 3.5 $64–$124."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://notioneverything.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

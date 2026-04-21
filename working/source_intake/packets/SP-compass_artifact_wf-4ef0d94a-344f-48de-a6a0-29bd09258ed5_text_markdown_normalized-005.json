@@ -1,0 +1,60 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005",
+  "source_title": "In Which Currency Are The Prices Shown",
+  "source_type": "help_center",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Domestika doesn't apply commissions or taxes relating to the exchange rate between currencies. However, your bank or payment processor may add an additional fee and so we suggest that you contact them directly to confirm their policy regarding this.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Upon completing your purchase, we will send you the corresponding receipt showing the price in your local currency. If you want to download an invoice, the price will appear in US dollars, consistent with the currency in which you were charged.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "URL also appears in other shards: compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown. Packet assigned to this shard by alphabetical order.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Domestika currency help article (undated). No exchange rate commission; bank may add fee; receipts in local currency; invoices in USD.",
+    "source_date_unclear: page undated."
+  ],
+  "possible_subjects": [
+    "Domestika: no exchange rate commission charged; bank/processor may add conversion fee",
+    "Domestika invoices in USD regardless of local currency display"
+  ],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

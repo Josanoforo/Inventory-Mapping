@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-fd57fb8a-bde4-47d4-be1e-db036eec4e88_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "Reddit r/learnart — Domestika comparative threads",
+  "attempted": "`\"domestika vs\" site:reddit.com`, `\"domestika\" r/learnart`, `https://www.reddit.com/r/learnart/search/?q=domestika+vs`. All Reddit site-restricted searches returned zero results. Direct Reddit URL fetching was blocked by permissions error. No comparative threads from r/learnart could be retrieved.\n**Source:** Searches listed above.\n**source_type:** reddit\n**verification_status:** could_not_verify\n**Date:** n/a\n**Notes:** Reddit appears to block programmatic access entirely. The absence of results does not mean comparative threads do not exist on r/learnart — it means they could not be retrieved or verified.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://www.reddit.com/r/learnart/search/?q=domestika+vs`."
+  ]
+}

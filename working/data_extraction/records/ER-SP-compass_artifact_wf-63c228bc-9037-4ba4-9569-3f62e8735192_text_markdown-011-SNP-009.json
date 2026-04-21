@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-009",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The site takes 83,66% of creators' income. This does not support creators, but only the website. Avoid if your goal is to sell products. Out of €20, I only received €3, and the worst part is tha...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Seller reports receiving only €3 from a €20 sale; calculates Gumroad effective take rate as 83.66% of creator income",
+  "actor_level": "seller",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "83.66",
+  "metric_unit": "% effective take rate claimed by seller (€3 received from €20 sale, Trustpilot, August 2025)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "received €3 from €20 sale",
+    "claims platform takes 83.66% of creator income",
+    "snippet truncated"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Trustpilot review (August 23, 2025). Seller claims Gumroad takes 83.66% of income, reporting only €3 received from €20 sale. Snippet truncated. Unusually high effective rate may include VAT, taxes, or payment processor fees in addition to Gumroad platform fee."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006",
+  "source_type": "product_listing",
+  "source_title": "laragon.lemonsqueezy.com",
+  "source_ref": "https://laragon.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Laragon · Laragon 1-year (Annual license) · $49.00 - $69.00 · Laragon Education license (Non-Commercial) · $96.00 - $192.00 · Laragon Lifetime (Perpetual license) · $149.00 - $199.00 · Laragon Lifetime for Team (Perpetual license) · $995.00 · Laragon Non-Commercial license - Extended\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Seller 'Laragon' on Lemon Squeezy (accessed April 2026) offers software license tiers: Annual $49–$69, Education/Non-Commercial $96–$192, Lifetime perpetual $149–$199, Lifetime for Team $995; also non-commercial extended license",
+  "actor_level": "unknown",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "software licenses (desktop development tool)",
+  "metric_type": "price",
+  "metric_value_raw": "$49.00 - $69.00 (annual); $96.00 - $192.00 (education); $149.00 - $199.00 (lifetime); $995.00 (lifetime team)",
+  "metric_unit": "USD",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Software license tiers on Lemon Squeezy: annual, education, lifetime, lifetime-team",
+    "Laragon (local server/dev tool): $49–$995 USD depending on license type"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "laragon.lemonsqueezy.com (April 2026). Lemon Squeezy seller store: Laragon software licenses. Annual $49–$69, Education $96–$192, Lifetime $149–$199, Lifetime team $995. Multiple license model types including non-commercial."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://laragon.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

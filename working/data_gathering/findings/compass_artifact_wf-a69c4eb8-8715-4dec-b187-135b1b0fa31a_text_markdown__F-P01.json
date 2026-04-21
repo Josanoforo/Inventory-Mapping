@@ -1,0 +1,13 @@
+{
+  "what": "Nieman Lab reports that newsletter writer Lyz Lenz, after moving from Substack to Patreon, was already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on Patreon.",
+  "verbatim_snippet": "\"Lenz said she is already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on the new platform.\"",
+  "source": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon/",
+  "source_type": "article",
+  "verification_status": "blocked_url_index_verified",
+  "date": "October 29, 2025",
+  "notes": "Source returned 403 on direct fetch; passage extracted from Google search index of the same URL. This is journalism reporting what a creator said (edge case 1: journalism quoting a seller = single-source article). The ~70% figure is Nieman Lab's paraphrase of Lenz, not a direct quotation. Lenz also stated via Bluesky (quoted in same article): \"No one was getting my newsletter. There was no tech support.\" — that is a separate passage about Substack frustrations, not Patreon outcomes.",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

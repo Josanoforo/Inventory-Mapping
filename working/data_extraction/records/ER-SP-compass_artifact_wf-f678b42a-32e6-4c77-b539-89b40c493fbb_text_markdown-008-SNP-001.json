@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008",
+  "source_type": "help_center",
+  "source_title": "Cuales Son Los Metodos De Pago Disponibles Para Comprar En Hotmart",
+  "source_ref": "https://help.hotmart.com/es/article/25648853025037/-cuales-son-los-metodos-de-pago-disponibles-para-comprar-en-hotmart-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Actualmente, existen algunas restricciones de pago en Venezuela.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart payment methods help center (help.hotmart.com/es, as of April 2026) states there are currently some payment restrictions in Venezuela",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "as of April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Venezuela",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help (as of Apr 2026): payment restrictions currently apply in Venezuela"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "help.hotmart.com (as of Apr 2026). Spanish. Venezuela: payment restrictions acknowledged; nature not specified. Corroborates VPN article claiming Hotmart blocked in Venezuela."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/25648853025037/-cuales-son-los-metodos-de-pago-disponibles-para-comprar-en-hotmart-",
+    "secondary_pointer": null
+  }
+}

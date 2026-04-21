@@ -1,0 +1,13 @@
+{
+  "what": "Domestika's help center states that the Plus subscription cannot be purchased in cash or via bank transfer (the local payment methods available in Mexico, Colombia, and Brazil), because it requires a payment method that enables automatic renewal.",
+  "verbatim_snippet": "\"**The Plus subscription cannot be purchased in cash or via bank transfer (available in Mexico, Colombia and Brazil), as it must have a means of payment that enables automatic renewal.\"",
+  "source": "https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403 on direct fetch; content captured from Google search index snippet tied to this exact URL. The leading \"**\" appears in the search snippet and may be formatting from the original page. This means buyers in Mexico, Colombia, and Brazil who rely on cash/bank-transfer payments cannot subscribe to Domestika Plus, effectively restricting the subscription product for those using local-only payment methods.",
+  "finding_id": "F-P08",
+  "shard_id": "compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

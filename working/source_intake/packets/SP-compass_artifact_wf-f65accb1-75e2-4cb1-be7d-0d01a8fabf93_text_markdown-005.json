@@ -1,0 +1,67 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005",
+  "source_title": "Terms",
+  "source_type": "policy_page",
+  "source_ref": "https://gumroad.com/terms",
+  "source_date_if_available": "Effective January 1, 2025; last updated December 10, 2024",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If the retail price of a Product is listed in a currency other than United States Dollars (USD), Gumroad will calculate a USD price based upon an exchange rate determined by Gumroad. Gumroad uses exchange rates obtained from http://openexchangerates.org/api. Gumroad cannot and does not guarantee that the exchange rate displayed reflects the most up to date rate due to the fluctuating nature of exchange rates. Accordingly, Gumroad recommends that you confirm current rates before engaging in any transactions on the Platform. Regardless of listed currency, all transactions through the Services will settle in USD.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"As the merchant of record, Gumroad will be treated as the supplier or principal, for relevant Indirect Tax purposes, in respect of Products resold by Gumroad through the Services, and, subject to as provided pursuant to these Terms of Services, will be responsible for the administration, collection, reporting and remittance of any relevant Indirect Tax (except in limited circumstances where the Buyer may be responsible, for example as outlined in Section 10.5 below).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"If Gumroad considers that any withholding or deduction on account of tax is required by applicable law to be made from any payment pursuant to this Agreement, it shall be entitled to make such withholding or deduction (and, for the avoidance of doubt, shall not be required to increase or gross-up any payment on account of such withholding or deduction).\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"Buyers may in some circumstances be responsible for Indirect Taxes. Buyers outside the United States may also, in some circumstances, be required to account for value added tax or goods and services tax under a 'reverse charge' mechanism.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://gumroad.com/terms"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Gumroad ToS (effective January 1, 2025; last updated December 10, 2024): (1) non-USD transactions converted at openexchangerates.org rate and all transactions settle in USD; (2) Gumroad is Merchant of Record responsible for indirect tax collection and remittance worldwide; (3) Gumroad may withhold taxes without grossing up payments; (4) buyers outside the US may be responsible for VAT/GST under reverse charge mechanism"
+  ],
+  "possible_actor_levels": ["buyer", "seller", "marketplace"],
+  "possible_metric_types": [],
+  "possible_time_scopes": ["2024-Q4", "2025-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

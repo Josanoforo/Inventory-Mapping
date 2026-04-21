@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004",
+  "source_title": "Will I Have To Pay For Tax Customs Or Tariffs On My Order",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/115015691007-Will-I-Have-to-Pay-for-Tax-Customs-or-Tariffs-on-My-Order",
+  "source_date_if_available": "Content references August 29, 2025 effective date. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"As of August 29, 2025, most packages shipped to the US will be subject to tariffs. Tariffs are taxes applied by a country's government on imported goods. How these tariffs are paid depends on the shipping method the seller uses. Delivered Duty Paid (DDP): The seller pays the tariffs up front, and the cost is included in the total at checkout. This ensures a smoother delivery process with no surprise fees at the time of delivery. Delivered Duty Unpaid (DDU): The buyer is responsible for paying any tariffs and associated fees directly to the shipping carrier upon delivery.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015691007-Will-I-Have-to-Pay-for-Tax-Customs-or-Tariffs-on-My-Order"
+      },
+      "source_finding_id": "F-P09",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P09"
+  ]
+}

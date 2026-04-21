@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-001",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://ca.trustpilot.com/review/domestika.org?page=8",
+  "source_date_if_available": "Accessed April 2026; charge date January 9, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased a course for €0.99 which, through an unclear process, automatically signed me up for a \\\"Plus\\\" annual subscription. I never received any notification regarding the initial activation (€119 in 2025). Furthermore, on January 9th, 2026, I was charged €298.93 for a renewal.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Buyer reports automatic Domestika Plus annual subscription enrollment after purchasing €0.99 course — initially charged €119 (2025), then €298.93 renewal in January 2026 without explicit consent or notification",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "298.93",
+  "metric_unit": "EUR (Domestika Plus annual renewal charge)",
+  "time_scope_raw": "January 9, 2026",
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "through an unclear process",
+    "automatically signed me up",
+    "never received any notification",
+    "I never received any notification regarding the initial activation"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Trustpilot Canada review (accessed April 2026, charge date January 9, 2026): buyer reports auto-enrollment in Domestika Plus annual subscription after purchasing €0.99 course. Charges: €119 initial (2025) + €298.93 renewal (January 2026). Documents unclear enrollment flow and absence of notification. metric_value_raw captures 2026 renewal charge; initial €119 noted here."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://ca.trustpilot.com/review/domestika.org?page=8",
+    "secondary_pointer": null
+  }
+}

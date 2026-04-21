@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+  "source_type": "policy_page",
+  "source_title": "Etsy Payments",
+  "source_ref": "https://www.etsy.com/legal/etsy-payments",
+  "source_date_if_available": "Effective from October 9, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sellers who use Payoneer's payment service may be subject to Payoneer withdrawal minimums and additional Payoneer fees, including Payoneer withdrawal fees typically up to 3% of the transaction amount.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Payoneer withdrawal fees for Etsy sellers using Payoneer payout method, up to 3% of transaction amount",
+  "actor_level": ["seller", "marketplace"],
+  "platforms": ["Etsy", "Payoneer"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "3",
+  "metric_unit": "percent (maximum withdrawal fee)",
+  "time_scope_raw": "Effective from October 9, 2025",
+  "time_scope_normalized_if_safe": "2025-10-09",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": ["may be subject to", "typically up to 3%"],
+  "uncertainties": ["checkout_vs_payout_ambiguity", "net_vs_gross_ambiguity"],
+  "parser_notes": ["Fee described as 'typically up to 3%' — actual fee may vary. Withdrawal minimums also mentioned but not quantified."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/etsy-payments",
+    "secondary_pointer": null
+  }
+}

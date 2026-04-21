@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Ordered digital course from creator via Hotmart platform. When accessing the course it was empty. Asked for a refund same day. Which the bot processed straight away. Refund showed pending on my accoun...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot review (November 20, 2025) reports digital course purchased via Hotmart was empty on first access; same-day refund requested; automated bot processed refund immediately; refund appeared as 'pending' on buyer's account (snippet truncated — final resolution unclear)",
+  "actor_level": "unknown",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "20 Nov 2025",
+  "time_scope_normalized_if_safe": "2025-11",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Course content was empty on first access; same-day refund requested",
+    "Automated bot processed refund immediately; refund showed 'pending' status (snippet truncated — final outcome unclear)"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "trustpilot.com/review/hotmart.com (November 20, 2025). Empty course content; bot-processed same-day refund; pending status shown (snippet truncated, outcome unclear)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "source_title": "Lemon Squeezy Vs Gumroad Which Platform Is Right For You",
+  "source_type": "article",
+  "source_ref": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you",
+  "source_date_if_available": "not dated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Lemon Squeezy excels in handling subscriptions, abandoned carts, and email marketing but lacks a marketplace for additional exposure. Gumroad offers more visibility through its marketplace and robust community features, while also supporting a range of product types, including physical goods.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Lemon Squeezy charges lower transaction fees but has more variables (e.g., international payments). Gumroad's 10% flat fee simplifies pricing but can add up for high-ticket items.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Article comparing Lemon Squeezy vs Gumroad (undated): Lemon Squeezy handles subscriptions, abandoned carts, email marketing but lacks a marketplace; Gumroad offers marketplace visibility, community features, physical goods support; Lemon Squeezy described as lower transaction fees with more complexity for international payments; Gumroad 10% flat fee is simpler but costly for high-ticket items"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

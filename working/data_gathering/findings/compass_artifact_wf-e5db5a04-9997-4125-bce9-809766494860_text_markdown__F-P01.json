@@ -1,0 +1,13 @@
+{
+  "what": "Kichink's own website states that opening a store has no cost, with Kichink charging a per-transaction commission starting at 15%.",
+  "verbatim_snippet": "\"Abrir tu tienda NO TIENE COSTO. Kichink sólo cobra una comisión por transacción a partir del 15%.\"",
+  "source": "https://www.kichink.com/crea-tu-tienda",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",
+  "notes": "kichink.com returned HTTP 403 Forbidden on direct fetch. Content preserved in Google search index. The 15% starting commission represents a significant increase from earlier rates: 7.5% cited in 2013–2017 press and interviews (F-02, F-P04), and 9.5% cited by MarketHax circa 2020–2023 (F-04). Self-positioning statement (pricing differentiator).",
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

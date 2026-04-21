@@ -1,0 +1,57 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-004",
+  "source_title": "M P",
+  "source_type": "seller_forum",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/Navigating-US-Tariffs-as-an-International-Seller-A-Workaround/m-p/149044160",
+  "source_date_if_available": "September 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"At the end of August, I had to cancel 7 orders to the USA because I wasn't yet set up with a proper solution for handling the new US tariff/duty requirements. It was a really difficult decision, but I didn't want to risk non-compliance or surprise charges for my customers. Thankfully, 4 of those customers asked me to reserve their items and were very understanding.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Technical-Issues/Navigating-US-Tariffs-as-an-International-Seller-A-Workaround/m-p/149044160"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"I got set up with Zonos (for direct billing of duties and taxes) and verified and integrated with Canada Post for shipping on their platform. I created dozens of duplicate shipping profiles within Etsy to reflect estimated tariff costs based on various items with different Country of Origin (COO)\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://community.etsy.com/t5/Technical-Issues/Navigating-US-Tariffs-as-an-International-Seller-A-Workaround/m-p/149044160"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Etsy seller (Canada): cancelled 7 US orders in August 2025 due to new US tariff/duty requirements; adopted Zonos for duty billing and duplicate shipping profiles per Country of Origin"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

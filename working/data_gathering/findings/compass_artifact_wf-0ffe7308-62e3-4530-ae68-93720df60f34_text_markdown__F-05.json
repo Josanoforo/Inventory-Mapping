@@ -1,0 +1,16 @@
+{
+  "what": "Etsy Payments operates a two-tier system for LatAm countries. Tier 1 (direct bank deposits in domestic currency): Mexico receives deposits in MXN. Tier 2 (Payoneer required, USD deposits): Argentina, Brazil, Chile, Peru must register with Payoneer to receive deposits in USD.",
+  "verbatim_snippet": "\"Etsy Payments is currently available to sellers in Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, Indonesia, Ireland, Israel, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Morocco, Netherlands, New Zealand, Norway, Philippines, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, Türkiye, United Kingdom, United States and Vietnam. Etsy Payments via Payoneer is currently available to sellers in Argentina, Brazil, Chile, China, Egypt, Georgia, India, Japan, Kazakhstan, Pakistan, Peru, Serbia, South Korea, Thailand, United Arab Emirates, & Ukraine.\"",
+  "source": "https://www.etsy.com/legal/etsy-payments/",
+  "source_type": "policy_page",
+  "verification_status": "direct_verified",
+  "date": "Effective from October 9, 2025 (per page title in search results)",
+  "notes": "Official Etsy Payments Policy. One research agent confirmed direct access; a separate attempt returned 403 — noted in QA Note 3. Mexico is in the direct-deposit tier; Argentina, Brazil, Chile, Peru are in the Payoneer tier. Colombia is absent from both tiers. Dimension: Availability + Currency. Cross-border cut: Mexico (MXN, direct), Argentina (USD, Payoneer), Brazil (USD, Payoneer), Chile (USD, Payoneer), Peru (USD, Payoneer).",
+  "extra_fields": {
+    "finding_id": "F-05"
+  },
+  "finding_id": "F-05",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

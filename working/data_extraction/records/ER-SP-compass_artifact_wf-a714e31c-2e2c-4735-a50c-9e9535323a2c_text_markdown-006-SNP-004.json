@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_type": "pricing_page",
+  "source_title": "Precios",
+  "source_ref": "https://hotmart.com/es/precios",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"¿Por qué es mejor pagar una tarifa por venta que una cuota mensual? A diferencia de muchas otras plataformas que cobran cuotas mensuales, Hotmart se preocupa mucho por tu negocio. Trabajamos para ofrecerte las mejores soluciones y el mejor servicio al cliente ahora y durante el crecimiento de tu emprendimiento porque nuestro negocio depende de tu éxito. Por ello, todas nuestras soluciones están diseñadas para que vendas más y mejor. Con las automatizaciones y facilidades que te ofrecemos, puedes escalar tu crecimiento y tus estrategias de una forma que sería inimaginable en otras plataformas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart pricing page argues per-sale fee model aligns platform success with creator success (unlike monthly-fee platforms); claims unique automation capabilities for scaling unavailable on competitor platforms",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "fee_rate",
+  "metric_value_raw": "per-sale percentage fee; no monthly subscription",
+  "metric_unit": "% per sale",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "per-sale fee model: Hotmart success tied to creator success",
+    "contrasts with monthly-fee competitor platforms",
+    "automation capabilities claimed as unique scaling advantage"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "hotmart.com/precios (undated). Hotmart justifies per-sale model vs. monthly fees: aligns platform incentives with creator success; claims unique automation for scaling. Self-promotional official pricing page; date not verifiable."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/precios",
+    "secondary_pointer": null
+  }
+}

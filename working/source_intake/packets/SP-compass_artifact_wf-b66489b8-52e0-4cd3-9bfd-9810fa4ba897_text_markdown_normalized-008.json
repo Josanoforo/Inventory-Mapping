@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008",
+  "source_title": "Adding A Digital Product",
+  "source_type": "article",
+  "source_ref": "https://help.payhip.com/article/59-adding-a-digital-product",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"You can upload multiple files, including ebooks, PDFs, audio, video, or other file types. Each file can be up to 5GB in size.\" \u2026 \"We support most file types, including PDFs, audio, video, ZIP files, and more. However, certain file types such as EXE, ISO, DMG, VBS, SCR, and JAR are not supported.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/59-adding-a-digital-product"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip digital product upload specifications (undated): multiple files per product; up to 5GB per file; PDFs, audio, video, ZIP supported; EXE, ISO, DMG, VBS, SCR, JAR not supported"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

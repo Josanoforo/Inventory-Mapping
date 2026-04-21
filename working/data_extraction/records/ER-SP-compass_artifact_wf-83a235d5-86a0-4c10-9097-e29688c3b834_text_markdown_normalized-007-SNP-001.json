@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-007",
+  "source_type": "help_center",
+  "source_title": "Usps Shipping Labels On Etsy",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000336887-USPS-Shipping-Labels-on-Etsy",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"When you purchase USPS shipping labels for your Etsy packages, you may receive discounted volume shipping rates. Aside from Etsy's standard fees, there are no additional membership fees to use shipping labels purchased on Etsy.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy policy states USPS shipping labels purchased on Etsy may qualify for discounted volume rates, with no additional membership fees beyond standard Etsy fees",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "USPS shipping labels on Etsy may qualify for discounted volume rates (amount unspecified)",
+    "no additional membership fees for shipping labels beyond Etsy's standard fees"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "Etsy Help Center (current as of April 2026). USPS shipping labels: potential discounted volume rates (amount unspecified); no membership fee beyond standard Etsy fees. USPS applies to US sellers/shipments."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000336887-USPS-Shipping-Labels-on-Etsy",
+    "secondary_pointer": null
+  }
+}

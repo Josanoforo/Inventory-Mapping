@@ -1,0 +1,16 @@
+{
+  "what": "En México, no es posible incluir impuestos en el precio del producto en Hotmart; el precio siempre se trata como tax-exclusive.",
+  "verbatim_snippet": "\"En México no es posible incluir impuestos en el precio del producto.\"",
+  "source": "https://help.hotmart.com/es/article/4423635238413/-que-es-vat-",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Tax. País: México. Clasificado provisional porque el snippet es una nota breve dentro de un artículo más amplio sobre VAT, y su implicación cross-border es indirecta (afecta cómo un vendedor MX muestra precios a compradores US vs MX). Hotmart añade el 16% IVA automáticamente al precio mostrado a compradores mexicanos (ver F-11).",
+  "extra_fields": {
+    "finding_id": "F-P10"
+  },
+  "finding_id": "F-P10",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

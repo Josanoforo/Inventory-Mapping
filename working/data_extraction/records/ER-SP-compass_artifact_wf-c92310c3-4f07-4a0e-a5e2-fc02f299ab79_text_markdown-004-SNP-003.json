@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "What Should I Do If I Can T Complete The Payment",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payments processed from the App Stores (not by Domestika) are generally considered local transactions. If you have problems with international purchases, please consider trying to complete your order using the Domestika app.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Domestika help center (article 360003447297, undated) states App Store payments are processed as local transactions (not by Domestika) and recommends the Domestika app as a workaround for international payment failures",
+  "actor_level": "platform",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "App Store purchases processed as local transactions, not by Domestika; recommended workaround for international payment issues"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "support.domestika.org article 360003447297 (undated). App Store = local transaction workaround for international payment failures."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005",
+  "source_title": "Complaints",
+  "source_type": "unknown",
+  "source_ref": "https://www.bbb.org/us/ca/berkeley/profile/art-and-culture/domestika-inc-1116-953820/complaints",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"298 total complaints (last 3 years); 181 complaints closed in last 12 months; 291 unanswered\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.bbb.org/us/ca/berkeley/profile/art-and-culture/domestika-inc-1116-953820/complaints"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika BBB complaint volume",
+    "Domestika complaint response rate"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["review_count"],
+  "possible_time_scopes": ["2023-2026"],
+  "possible_geographies": ["United States"],
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "BBB (Better Business Bureau) complaints page for Domestika Inc (Berkeley, CA). Layout data: 298 total complaints in last 3 years; 181 closed in last 12 months; 291 unanswered (97.7% non-response rate).",
+    "possible_geographies: ['United States'] from BBB US listing (Berkeley, CA).",
+    "possible_metric_types: 'review_count' used as closest enum for complaint volume counts; no specific dispute_rate value in enum.",
+    "source_date_unclear: page is live/ongoing complaint portal; date of access is April 2026 but data accumulation period is unclear.",
+    "possible_time_scopes: '2023-2026' approximated from 'last 3 years' relative to April 2026 access."
+  ],
+  "traceability_status": "weak"
+}

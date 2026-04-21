@@ -1,0 +1,87 @@
+{
+  "packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_title": "Plus",
+  "source_type": "pricing_page",
+  "source_ref": "https://www.domestika.org/en/plus",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"$14.59/month \u2014 Yearly payment of $174.50\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/plus"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"$33.90/month\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/plus"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Terms and conditions apply. You can cancel your subscription renewal whenever you want. After one year renewal price will the full amount $349\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/plus"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"The benefits are exactly the same, but if you pay in one yearly payment we offer a 14% discount.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/plus"
+      }
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"Buy credits and use them to pay for courses. With this payment method, you always save at least 20%.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/en/plus"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Domestika Plus pricing page (undated). Annual plan: $14.59/month ($174.50/year); monthly plan: $33.90/month; renewal at full price $349 after year 1; 14% discount for annual; credits save \u226520% on courses.",
+    "source_date_unclear: page undated; pricing pages update frequently."
+  ],
+  "possible_subjects": [
+    "Domestika Plus pricing: $14.59/month (annual) or $33.90/month",
+    "Domestika Plus annual plan: $174.50 first year, $349 renewal price",
+    "Domestika Plus: 14% discount for annual payment vs monthly",
+    "Domestika credits: minimum 20% savings on course prices"
+  ],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

@@ -1,0 +1,87 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_title": "How Payouts Work",
+  "source_type": "help_center",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) \u2013 available for creators based in the U.S \u00b7 Bank transfer (processed by Payoneer) \u2013 available to creators who reside outside of the U.S \u2014 please see full country eligibility list here\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"When enabled, automatic payouts are initiated on the 5th of each month as long as you have a positive balance. You can enable or disable automatic payouts from your Payouts page.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Once a payout is initiated, it typically takes 1-5 days for the funds to appear in your personal account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"If you are a brand new creator on Patreon, please note that there will be a 5-day hold in place from the date of adding your first payout method or from the date of receiving your first payment.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      }
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"Funds from products purchased through Commerce on Web and Android will appear as pending for up to 7 days before they can be withdrawn from your balance. Funds from product sales made via iOS in-app purchases will remain pending for up to 75 days before they will be available for payout, accounting for the time Apple requires to process and confirm the funds.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Patreon payout mechanics: US creators via Stripe bank transfer; non-US creators via Payoneer; automatic payouts on 5th of month; 1-5 days settlement; 5-day hold for new creators; Commerce/Android pending up to 7 days; iOS in-app purchases pending up to 75 days"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

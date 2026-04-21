@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008",
+  "source_title": "Cobranca Indevida De Assinatura Automatica Apos Solicitacao De Cancelamento E Pedido De Reembolso Wijr8Wuvjt6Ah0Hg",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/cobranca-indevida-de-assinatura-automatica-apos-solicitacao-de-cancelamento-e-pedido-de-reembolso_WIJr8wuVjt6ah0hg",
+  "source_date_if_available": "~January 2026 (subscription cancelled 11/12/2025)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Olá, comprei esse produto no ano passado mas não sabia que tinha assinatura automática. Solicitei ao produtor para cancelar pois não estava conseguindo acessar o link, mandei e-mail e mesmo assim foi cobrado no meu cartão 208,56. Peço por gentileza de me reembolsar pois não vou utilizar o produto.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.reclameaqui.com.br/hotmart/cobranca-indevida-de-assinatura-automatica-apos-solicitacao-de-cancelamento-e-pedido-de-reembolso_WIJr8wuVjt6ah0hg"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart complaint on ReclameAqui (circa January 2026): buyer charged R$208.56 for automatic subscription renewal after requesting cancellation; product access unavailable; refund requested"
+  ],
+  "possible_actor_levels": ["buyer", "marketplace"],
+  "possible_metric_types": ["refund_policy", "price"],
+  "possible_time_scopes": ["2025-Q4", "2026-Q1"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

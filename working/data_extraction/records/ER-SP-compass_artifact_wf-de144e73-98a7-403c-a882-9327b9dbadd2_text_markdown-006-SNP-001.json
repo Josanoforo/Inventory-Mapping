@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-006",
+  "source_type": "database_profile",
+  "source_title": "Etsy Product Research",
+  "source_ref": "https://koalanda.pro/etsy-product-research",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Koalanda tracks all Etsy listings: currently more than 125 million. Out of all listings, there are about 8 million that have sales in the last 30 days.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Koalanda (koalanda.pro/etsy-product-research, accessed April 2026) states it tracks more than 125 million total Etsy listings, of which approximately 8 million had sales in the last 30 days",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "125M+ total listings; ~8M with sales in last 30 days",
+  "metric_unit": "listing count",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Koalanda tracks 125M+ Etsy listings; ~8M (approx 6.4%) had sales in past 30 days"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "koalanda.pro (undated). 125M+ total Etsy listings tracked; ~8M with recent sales (past 30 days)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://koalanda.pro/etsy-product-research",
+    "secondary_pointer": null
+  }
+}

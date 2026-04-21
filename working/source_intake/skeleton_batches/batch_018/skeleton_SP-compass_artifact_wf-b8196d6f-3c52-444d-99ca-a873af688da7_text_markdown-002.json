@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-002",
+  "source_title": "Id6753926253",
+  "source_type": "product_listing",
+  "source_ref": "https://apps.apple.com/us/app/lemon-squeezy-ls-dashboard/id6753926253",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Manage your Lemon Squeezy store like never before, your all-in-one dashboard, analytics, and sales tracking app. Whether you run one product or an entire storefront, The App helps you stay connected to every sale, subscription, and trend right from your phone.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://apps.apple.com/us/app/lemon-squeezy-ls-dashboard/id6753926253"
+      },
+      "source_finding_id": "F-03",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-03"
+  ]
+}

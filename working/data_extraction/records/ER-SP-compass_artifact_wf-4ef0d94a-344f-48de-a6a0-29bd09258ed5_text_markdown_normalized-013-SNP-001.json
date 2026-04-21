@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_type": "pricing_page",
+  "source_title": "Plus",
+  "source_ref": "https://www.domestika.org/en/plus",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"$14.59/month — Yearly payment of $174.50\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Domestika Plus annual plan priced at $14.59/month equivalent, billed as $174.50 per year",
+  "actor_level": "platform",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "subscription",
+  "metric_type": "price",
+  "metric_value_raw": "14.59",
+  "metric_unit": "USD per month (billed annually as $174.50/year)",
+  "time_scope_raw": "yearly payment",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Global",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "$14.59/month",
+    "Yearly payment of $174.50"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Domestika Plus pricing page (undated). Annual plan: $14.59/month equivalent; $174.50 billed as single yearly payment."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/plus",
+    "secondary_pointer": null
+  }
+}

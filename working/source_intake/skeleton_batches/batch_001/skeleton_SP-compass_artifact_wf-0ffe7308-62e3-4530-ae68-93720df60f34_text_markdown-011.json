@@ -1,0 +1,54 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011",
+  "source_title": "What Does Etsy Withhold And Remit To Mexican Tax Authorities",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities",
+  "source_date_if_available": "Content references effective date January 1, 2026. URL returned 403; content verified via search engine index snippet, including Google Search result viewed April 14, 2026.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"To comply with local laws, Etsy withholds a percentage of sales for Mexico sellers to remit to the Servicio de Administración Tributaria (SAT), the Mexico tax authority. The amount Etsy is required to withhold may be as high as 36%, but will be significantly lower if you have a valid individual Registro Federal de Contribuyentes (RFC) identification number on file with your Etsy account.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities"
+      },
+      "source_finding_id": "F-P03",
+      "finding_part": 2
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Starting January 1, 2026, Etsy will start collecting and remitting the revised Income tax withholding (ISR) rate for Individual sellers, which is increasing from 1% to 2.5%, on your sales on Etsy platform. There will be no changes to the 20% ISR rate or the IVA rate applied in cases where no RFC ID is provided or the RFC ID provided is invalid. For legal entity sellers, Etsy will also start withholding 2.5% Income tax (ISR) and 8% VAT (IVA), on sales on the Etsy platform, provided a valid RFC ID is provided.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities"
+      },
+      "source_finding_id": "F-P04",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P03",
+    "F-P04"
+  ]
+}

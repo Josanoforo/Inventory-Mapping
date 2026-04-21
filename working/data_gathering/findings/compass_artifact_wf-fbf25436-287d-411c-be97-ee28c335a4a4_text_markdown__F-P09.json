@@ -1,0 +1,13 @@
+{
+  "what": "Gumroad's buyer-facing marketplace page (\"Discover\") advertises over 1.6 million free and premium digital products available for browsing across categories including education, tech, and design; top product tags by volume include VRChat (23,361 listings), 3D model (13,192), and Notion template (12,329).",
+  "verbatim_snippet": "\"Browse over 1.6 million free and premium digital products in education, tech, design, and more categories from Gumroad creators and online entrepreneurs.\"",
+  "source": "https://gumroad.com/discover",
+  "source_type": "platform_doc",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Gumroad Discover page is a single-page application (SPA); full dynamic content did not render on static fetch, but meta description tag was captured from the page source HTML. Top tag counts (VRChat 23,361; 3D model 13,192; Notion template 12,329; VRChat asset 10,256; Blender 9,271) were visible on discover.gumroad.com free products page. Product count claim (1.6M+) is Gumroad's own marketing; no independent verification of this number was found. Categories confirmed: 3D, Audio, Comics/Graphic Novels, Business/Money, Design, Drawing/Painting, Films, Education, Fitness/Health, Fiction Books, Gaming, Music/Sound Design, Photography, Self-Improvement, Recorded Music, Software Development, Writing/Publishing.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

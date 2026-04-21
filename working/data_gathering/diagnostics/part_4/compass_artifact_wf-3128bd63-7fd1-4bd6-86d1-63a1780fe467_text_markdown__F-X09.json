@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X09",
+  "seller_or_subject": "Degraded — Venezuela author forum experience (2016, outside time window)",
+  "attempted": "What: A Venezuela-based author on Envato forums reported receiving only $4.42 from a $13.60 sale, attributing the reduction to fees and taxes, circa January 2016.\nVerbatim snippet: \"Hi there. I from Venezuela, i don´t know all of this issues of fees and taxes But for my first sale of the year its a very disapointment. Its a bad joke my sale for $13.60 only I get 4,42$\"\nSource: https://forums.envato.com/t/please-tell-me-this-is-not-a-bad-joke-fees-and-taxes/24931\nsource_type: seller_forum\nverification_status: could_not_verify\nDate: Approximately January 2016\nNotes: Degraded to Part 4 because the post dates to approximately January 2016, outside the April 2025–April 2026 experience window. Forum returned 403 on direct fetch; snippet recovered from search index. Venezuela has a US tax treaty (10% royalty rate), so this author may not have submitted a W-8BEN with tax ID, resulting in 30% withholding. Post is a genuine LatAm author experience but cannot be time-window verified.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://forums.envato.com/t/please-tell-me-this-is-not-a-bad-joke-fees-and-taxes/24931"
+  ]
+}

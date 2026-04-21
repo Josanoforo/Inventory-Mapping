@@ -1,0 +1,16 @@
+{
+  "what": "Gumroad pays sellers in direct-deposit countries in their native (local) currency, not USD. All currency conversions occur at mid-market exchange rates at the time of sale, not the time of payout.",
+  "verbatim_snippet": "\"If you live in one of the following direct-deposit countries, Gumroad pays you out in your native currency. All currency conversions happen based on the exchange rates at the time of sale, not at the time of the payout. These are typically mid-market rates that you can estimate here.\"",
+  "source": "https://help.gumroad.com/article/46-what-currency-does-gumroad-use",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "help.gumroad.com requires login; verbatim confirmed via search engine index. The same page adds: \"If you live in any other country, we pay you out via PayPal and you will be paid in USD.\" For LatAm direct-deposit countries (Argentina, Mexico, Colombia, Chile, Peru, Costa Rica, Trinidad & Tobago), payouts are in local currency (ARS, MXN, COP, CLP, PEN, etc.). Sellers cannot elect USD payouts if they are not US-based.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-P02",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

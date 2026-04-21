@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011",
+  "source_title": "Patreon Growth Agency",
+  "source_type": "product_listing",
+  "source_ref": "https://stealthagents.com/patreon-growth-agency",
+  "source_date_if_available": "Accessed April 2026; page undated.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"Monthly Investment: $1,600/month (full-time, dedicated) In-House Equivalent Cost: Marketing Manager salary + benefits = $71,500/year Your Annual Savings: $52,300 back in your business Content Creation Speed: 3x faster with dedicated support Subscriber Growth Rate: 40-60% increase in monthly growth\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://stealthagents.com/patreon-growth-agency"
+      },
+      "source_finding_id": "F-P07",
+      "finding_part": 2
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-P07"
+  ]
+}

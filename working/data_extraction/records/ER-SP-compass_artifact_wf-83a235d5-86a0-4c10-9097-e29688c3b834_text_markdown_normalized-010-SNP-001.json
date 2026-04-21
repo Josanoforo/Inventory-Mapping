@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-010",
+  "source_type": "help_center",
+  "source_title": "Fees And Listing Multiple Quantities",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360000344908-Fees-and-Listing-Multiple-Quantities",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"There is a $0.20 fee for creating or renewing a listing on Etsy. There is no fee for editing a listing.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy policy states listing creation or renewal fee is $0.20 per listing; editing an existing listing is free",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "0.20",
+  "metric_unit": "USD per listing creation or renewal on Etsy",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "$0.20 fee for creating or renewing a listing",
+    "no fee for editing an existing listing"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Etsy Help Center (current as of April 2026). Listing fee: $0.20 per listing creation or renewal; editing is free."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/360000344908-Fees-and-Listing-Multiple-Quantities",
+    "secondary_pointer": null
+  }
+}

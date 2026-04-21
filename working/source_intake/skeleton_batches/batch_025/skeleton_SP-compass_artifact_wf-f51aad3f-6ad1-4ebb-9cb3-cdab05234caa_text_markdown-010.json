@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-010",
+  "source_title": "Lemonsqueezy Vs Gumroad",
+  "source_type": "article",
+  "source_ref": "https://ruul.io/blog/lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Lemon Squeezy is better suited for selling SaaS software, managing complex subscriptions, etc. Gumroad, on the other hand, targets beginners, those looking for simplicity, and digital content creators who want to sell more digital products.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://ruul.io/blog/lemonsqueezy-vs-gumroad"
+      },
+      "source_finding_id": "F-22",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-22"
+  ]
+}

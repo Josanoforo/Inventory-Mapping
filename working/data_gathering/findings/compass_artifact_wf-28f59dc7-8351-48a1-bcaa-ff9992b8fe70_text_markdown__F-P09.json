@@ -1,0 +1,13 @@
+{
+  "what": "Buyer on Spanish Trustpilot reports purchasing a course for 0.99 euros on July 2, 2025 and being charged 313.41 euros in August 2025",
+  "verbatim_snippet": "\"El día 2 de julio de 2025 compré un curso individual en la plataforma Domestika por 0,99 €. En el mes de agosto de 2025 se cargó en mi cuenta bancaria un importe de 313,41 €, correspondiente\"",
+  "source": "https://es.trustpilot.com/review/domestika.org?page=3",
+  "source_type": "unknown",
+  "verification_status": "blocked_url_index_verified",
+  "date": "July 2, 2025 (purchase date); review visible on page fetched but text truncated (\"Ver más\")",
+  "notes": "Public review/complaint site (Trustpilot); no dedicated taxonomy value in current schema. Review text partially visible on directly fetched page but truncated; full text not recovered. Snippet tied to specific URL via direct page access showing truncated version.",
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

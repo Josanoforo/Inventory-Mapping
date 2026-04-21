@@ -1,0 +1,13 @@
+{
+  "what": "Domestika help center identifies dLocal as the platform that manages cash and local payment methods (\"dLocal (plataforma que gestiona los pagos en efectivo y otros métodos locales)\"), with a verification period of 2 to 3 business days before course activation.",
+  "verbatim_snippet": "«Si has elegido realizar tu pago a través de dLocal (plataforma que gestiona los pagos en efectivo y otros métodos locales), es necesario esperar un tiempo a que ellos verifiquen el cobro y nos lo informen, es por ello que tu compra no se activa de forma inmediata. Este es un proceso automático y el plazo máximo de activación es de 2 a 3 días laborables»",
+  "source": "https://support.domestika.org/hc/es/articles/360003447337-Ya-realicé-el-pago-y-aún-no-tengo-mi-curso-disponible-pago-en-efectivo-",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Direct access to support.domestika.org/hc/es/ returned 403. Spanish snippet recovered from search engine index for this /hc/es/ URL path. The English equivalent at /hc/en-us/ path does not name \"dLocal\" explicitly. dLocal is a cross-border LatAm payment processor.",
+  "finding_id": "F-P03",
+  "shard_id": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

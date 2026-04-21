@@ -1,0 +1,41 @@
+{
+  "packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=3",
+  "source_date_if_available": "March 14, 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"payout has been failing for 3 months, and Lemon Squeezy did nothing, did not reply, didn't show any initiative, they are completely silent as if they closed the shop!\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=3"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "LemonSqueezy: payout failing for 3 months with no response or initiative from platform (March 2026)"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

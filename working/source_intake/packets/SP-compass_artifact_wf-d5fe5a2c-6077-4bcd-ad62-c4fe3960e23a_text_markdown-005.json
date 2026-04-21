@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-005",
+  "source_title": "Hotmart Prices",
+  "source_type": "blog",
+  "source_ref": "https://hotmart.com/en/blog/hotmart-prices",
+  "source_date_if_available": "11/06/2023",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"The standard fee applies to products priced over US$ 15,00. The fee Hotmart gets is 9.90% of the price of the product plus US$ 0.50.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/en/blog/hotmart-prices"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart blog post on pricing (11/06/2023): Hotmart standard transaction fee for products priced over US$15 is 9.90% of product price plus US$0.50 flat; article is from official Hotmart blog"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate", "price"],
+  "possible_time_scopes": ["2023-Q2"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient", "current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

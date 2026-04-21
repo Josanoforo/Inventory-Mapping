@@ -1,0 +1,16 @@
+{
+  "what": "Non-US merchants and affiliates on Lemon Squeezy are required to complete a Form W-8, which includes name, tax classification, and country of residence to establish identity and non-US person status.",
+  "verbatim_snippet": "\"Non-US merchants and affiliates are required to complete a Form W-8, which includes some basic information about you, such as your name, tax classification, and country of residence. The purpose of the Form W-8 is to establish your identity and status as a non-U.S. person.\"",
+  "source": "https://docs.lemonsqueezy.com/help/tax-forms",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page returned 403. Content from search engine index. W-8 encompasses W-8BEN (individuals) and W-8BEN-E (entities). This applies to all LatAm-based sellers.",
+  "extra_fields": {
+    "dimension": "Tax"
+  },
+  "finding_id": "F-P06",
+  "shard_id": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

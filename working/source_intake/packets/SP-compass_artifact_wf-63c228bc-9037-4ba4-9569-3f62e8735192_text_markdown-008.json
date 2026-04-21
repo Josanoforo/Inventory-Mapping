@@ -1,0 +1,38 @@
+{
+  "packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-008",
+  "source_title": "Gumroad Review",
+  "source_type": "blog",
+  "source_ref": "https://tarikpierce.com/blog/gumroad-review",
+  "source_date_if_available": "September 6, 2025 (updated September 22, 2025)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I made $1,114 in 2025 selling digital products on Gumroad using Youtube as my main traffic and sales source. My conversion rate is around 8% from Youtube for a 14 page Ebook related to personal finance and investing. Selling on Gumroad is easy but the fees aren't the lowest in the industry... Gumroad fees are brutal! They charge some of the highest fees in the industry for online sellers... For every sale of my $39 Ebook, I receive $33.17 in total net income per digital product sold. Gumroad takes $5.83 in fees per sale or 15%.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://tarikpierce.com/blog/gumroad-review"
+      }
+    }
+  ],
+  "intake_notes": [
+    "tarikpierce.com blog (September 6, 2025; updated September 22, 2025). Individual Gumroad seller: $1,114 revenue in 2025; 8% YouTube conversion rate on $39 ebook; $39 sale → $33.17 net ($5.83 fee = 15% effective rate)."
+  ],
+  "possible_subjects": [
+    "Gumroad fee rate: 15% effective on $39 sale ($5.83 per transaction; $33.17 net payout)",
+    "Gumroad seller: $1,114 revenue in 2025 using YouTube as primary traffic source; ~8% YouTube conversion rate"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["fee_rate", "revenue", "conversion_rate"],
+  "possible_time_scopes": ["2025"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

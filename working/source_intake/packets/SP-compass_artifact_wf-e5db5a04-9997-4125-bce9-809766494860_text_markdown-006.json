@@ -1,0 +1,37 @@
+{
+  "packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-006",
+  "source_title": "Hola Mundo Esto Es Kichink 830997Eef2A",
+  "source_type": "blog",
+  "source_ref": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+  "source_date_if_available": "March 17, 2017",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Una de las propuestas más eficientes y económicas del mercado es Kichink, aquí podrás crear una tienda sin costo alguno y tan rápido como abrir una fanpage en Facebook.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a"
+      }
+    }
+  ],
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown. Packet assigned to this shard by alphabetical order."
+  ],
+  "possible_subjects": [
+    "Kichink Medium blog post (March 17, 2017, in Spanish): Kichink promotes creating an online store at zero cost; positioned as an efficient and affordable option in the market"
+  ],
+  "possible_actor_levels": ["seller", "marketplace"],
+  "possible_metric_types": ["fee_rate"],
+  "possible_time_scopes": ["2017-Q1"],
+  "possible_geographies": ["MX"],
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

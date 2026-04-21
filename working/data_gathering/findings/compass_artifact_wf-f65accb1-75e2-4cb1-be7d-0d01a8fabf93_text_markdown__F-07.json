@@ -1,0 +1,16 @@
+{
+  "what": "A confirmed Gumroad software bug causes the payout threshold for sellers in cross-border payout countries (examples given: Argentina, Colombia, South Korea, Paraguay) to be silently overwritten with the exchange-rate-dependent country minimum each time settings are saved, creating a ratchet effect where the threshold locks at peak exchange rates and never decreases.",
+  "verbatim_snippet": "\"1. Be a seller in a country with a cross-border minimum > $10 (e.g. Argentina, Colombia, South Korea, Paraguay) 2. Visit Settings → Payments 3. Change any field (e.g. update bank account) and save 4. The country's exchange-rate-dependent minimum is now persisted as your payout_threshold_cents 5. If the exchange rate drops, your threshold stays at the old higher value\"",
+  "source": "https://github.com/antiwork/gumroad/issues/3837",
+  "source_type": "seller_forum",
+  "verification_status": "direct_verified",
+  "date": "February 27, 2026",
+  "notes": "Filed by user gianfrancopiana. The issue description adds: \"Any seller in a cross-border payout country who submits the payments form has their threshold silently inflated. This may explain payout skips where users report a minimum they didn't set.\" The bug was closed via linked PR #3838. A related earlier issue (#2123) reported a user's minimum stuck at $31.66 when they wanted $10. Argentina, Colombia, and Paraguay are explicitly named as affected LatAm countries.",
+  "extra_fields": {
+    "dimension": "Payout"
+  },
+  "finding_id": "F-07",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

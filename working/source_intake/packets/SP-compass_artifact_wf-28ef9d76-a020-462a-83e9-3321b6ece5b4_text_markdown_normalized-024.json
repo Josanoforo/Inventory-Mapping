@@ -1,0 +1,61 @@
+{
+  "packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024",
+  "source_title": "Review",
+  "source_type": "unknown",
+  "source_ref": "https://www.trustpilot.com/review/payhip.com?page=2",
+  "source_date_if_available": "January 21, 2026 (reviewer: Kyle)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"After trying Shopify, Gumroad, and others, Payhip is the clear winner for digital products. It handles everything I need without worrying about plugins or coding.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"I have been using Payhip for about two years and it's a great alternative to Shopify. When you start a business, you're not really able to pay a monthly subscription. Payhip only charges a tiny percen...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"I've been using Payhip as an alternative to the usual suspects (Teachable, Coursera, Thinkific, Kajabi) and I'm very happy with it. The free version is very powerful and not limiting me in any...\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=2"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Payhip seller satisfaction vs alternatives",
+    "Payhip free plan capability"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["January 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient", "metric_type_unclear"],
+  "priority_for_source_first": "medium",
+  "intake_notes": [
+    "Trustpilot reviews of Payhip (page 2), January 21, 2026 (reviewer Kyle). Three seller testimonials comparing Payhip favorably to Shopify, Gumroad, Teachable, Coursera, Thinkific, Kajabi.",
+    "context_insufficient: SNP-002 is truncated mid-sentence ('tiny percen...'); the specific fee percentage is cut off.",
+    "metric_type_unclear: truncated snippet (SNP-002) would likely reference a fee rate but the specific value is not captured.",
+    "source_date_if_available contains reviewer name 'Kyle' as Stage 1 extraction artifact alongside the date."
+  ],
+  "traceability_status": "partial"
+}

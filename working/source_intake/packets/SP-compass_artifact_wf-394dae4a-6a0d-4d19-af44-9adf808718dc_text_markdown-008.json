@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008",
+  "source_title": "Hotmart Get Rich Without Going Viral",
+  "source_type": "article",
+  "source_ref": "https://restofworld.org/2023/hotmart-get-rich-without-going-viral",
+  "source_date_if_available": "June 19, 2023",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Before joining Hotmart, Martínez, the car repair creator, hadn't been able to charge clients outside of his native market of Costa Rica. Although many were willing to pay his $20 monthly subscription fee, they couldn't find a way around PayPal's geographic payment restrictions.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://restofworld.org/2023/hotmart-get-rich-without-going-viral"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"'Hotmart has a really good advantage: They accept all payment processors, credit cards, even cash payments in cornershops like Oxxo,' Sofía Macías, a personal finance creator, told Rest of World.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://restofworld.org/2023/hotmart-get-rich-without-going-viral"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Rest of World article (June 19, 2023). Costa Rica creator with $20/month subscription; PayPal geographic restrictions pre-Hotmart. Mexico creator notes Hotmart accepts Oxxo cash payments.",
+    "possible_metric_types: ['price', 'payment_method_availability'] — $20/month subscription price; Oxxo + multiple payment processors as payment methods."
+  ],
+  "possible_subjects": [
+    "Hotmart Costa Rica creator: $20/month subscription, solved PayPal geographic restrictions",
+    "Hotmart Mexico: cash payments via Oxxo cornershops available"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["price", "payment_method_availability"],
+  "possible_time_scopes": ["2023"],
+  "possible_geographies": ["Costa Rica", "Mexico"],
+  "uncertainties": ["snippet_needs_reopen"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

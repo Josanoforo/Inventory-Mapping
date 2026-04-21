@@ -1,0 +1,16 @@
+{
+  "what": "Existen restricciones de pago en Venezuela, confirmadas por Hotmart. Solo se aceptan tarjetas de crédito emitidas por bancos extranjeros, en USD.",
+  "verbatim_snippet": "\"Actualmente, existen algunas restricciones de pago en Venezuela.\"",
+  "source": "https://help.hotmart.com/es/article/25648853025037/-cuales-son-los-metodos-de-pago-disponibles-para-comprar-en-hotmart-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Availability. Snippet breve pero directamente del help center. Información complementaria de la misma página: Venezuela no tiene métodos de pago locales listados, a diferencia de MX, CO, PE, CL, AR. Limitación: no se especifica si las restricciones aplican a vendedores, compradores o ambos.",
+  "extra_fields": {
+    "finding_id": "F-14"
+  },
+  "finding_id": "F-14",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,65 @@
+{
+  "packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_title": "Caida Domestika Millones Despedir Sustituir Tareas Chatgpt",
+  "source_type": "report",
+  "source_ref": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+  "source_date_if_available": "June 2, 2023",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Todo ha cambiado mucho desde que empecé: yo tenía un primer contrato en el que ellos pagaban un fijo por preparar el curso y entregarles los derechos del mismo, y después la comisión por curso vendido. Pero ahora ya no nos pagan ese fijo sino un adelanto de comisión. Básicamente, no nos pagan por un trabajo que puede llevar en ocasiones hasta seis meses.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      },
+      "source_finding_id": "F-01",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Si el profesor cobra 50 céntimos por curso vendido y la empresa te da 2.000 euros de adelanto, ¿cuántos cursos tienes que vender hasta que empieces a ganar algo de dinero? Hay profesores que me pedían ayuda para difundir su curso porque hasta que le ven color… Al menos antes el fijo era algo justo por todo el trabajo que uno invierte. Entre los profesores y los chicos hemos sacado adelante la empresa, por eso es súper injusto.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      },
+      "source_finding_id": "F-02",
+      "finding_part": 1
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"Pasaron en muy poco tiempo de tener 200 empleados a alrededor de 800 en todo el mundo y, en año y medio, se van a quedar otra vez con 200. Ahí evidentemente hay algo raro.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html"
+      },
+      "source_finding_id": "F-08",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-01",
+    "F-02",
+    "F-08"
+  ]
+}

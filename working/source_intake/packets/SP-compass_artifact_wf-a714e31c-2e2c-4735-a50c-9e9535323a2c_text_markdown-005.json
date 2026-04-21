@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-005",
+  "source_title": "Lo Que No Sabias De Hotmart",
+  "source_type": "blog",
+  "source_ref": "https://hotmart.com/es/blog/lo-que-no-sabias-de-hotmart",
+  "source_date_if_available": "12/06/2021",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"De hecho, otras plataformas ofrecen también el servicio de hospedaje y venta de cursos, pero ninguno con las herramientas de Hotmart que pueden hacer escalar el negocio en menos tiempo.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://hotmart.com/es/blog/lo-que-no-sabias-de-hotmart"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Hotmart platform differentiation claim (December 2021): Hotmart self-describes platform tools as enabling faster business scaling compared to competitor course hosting platforms"
+  ],
+  "possible_actor_levels": ["seller"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2021-Q4"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity", "context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

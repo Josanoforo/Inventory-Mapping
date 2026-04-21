@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-013",
+  "source_type": "blog",
+  "source_title": "Solved Sudden Drop In Etsy Sales And No Search Visibility 6 9Th November 2025",
+  "source_ref": "https://srcreativestudio.com/solved-sudden-drop-in-etsy-sales-and-no-search-visibility-6-9th-november-2025",
+  "source_date_if_available": "November 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"On the 6th of November, our sales went from 1.2k per day, to £20 -Etsy support were no help, stating it was just our SEO. It was clear that it wasn't, as we just weren't visible in search. Our shop name wasn't coming up, nada.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy seller reports sales collapsed from £1,200/day to £20/day on November 6, 2025, with complete search invisibility; Etsy support attributed the issue to SEO",
+  "actor_level": "seller",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "revenue",
+  "metric_value_raw": "1200",
+  "metric_unit": "GBP daily revenue before Nov 6, 2025 Etsy search visibility collapse (dropped to £20/day)",
+  "time_scope_raw": "November 6, 2025",
+  "time_scope_normalized_if_safe": "2025-11-06",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "sales from £1,200/day to £20/day on November 6, 2025",
+    "Etsy support attributed to SEO",
+    "shop name not visible in Etsy search at all"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Blog (November 2025). Seller reports overnight sales collapse from £1,200/day to £20/day on November 6, 2025; Etsy search visibility completely gone; Etsy support blamed SEO. First-person account with specific date and amounts."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://srcreativestudio.com/solved-sudden-drop-in-etsy-sales-and-no-search-visibility-6-9th-november-2025",
+    "secondary_pointer": null
+  }
+}

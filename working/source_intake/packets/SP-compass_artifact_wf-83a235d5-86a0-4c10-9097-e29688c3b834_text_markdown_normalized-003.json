@@ -1,0 +1,52 @@
+{
+  "packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-003",
+  "source_title": "How To Manage Your Payment Account",
+  "source_type": "help_center",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/115015747228-How-to-Manage-Your-Payment-Account",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"If you're a new seller, your funds will generally be available for deposit 14-20 days after a sale, though it may take longer depending on the specific standing of your shop.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015747228-How-to-Manage-Your-Payment-Account"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Once you've updated your bank account, your Etsy Payments funds will be on hold for 5 days to protect your account from any possible misuse.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015747228-How-to-Manage-Your-Payment-Account"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy Payments: new seller funds held 14\u201320 days after sale before deposit availability; extended hold possible based on shop standing",
+    "Etsy Payments: bank account change triggers 5-day hold on funds"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "none"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}

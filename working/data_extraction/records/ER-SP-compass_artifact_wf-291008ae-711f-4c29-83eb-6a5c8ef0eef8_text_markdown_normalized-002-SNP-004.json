@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+  "source_date_if_available": "2025-04-22",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This seems to be a scam. They charged 2 $ for getting a translated document which I then never received. They wanted me to stop the Paypal issue which I have created afterwards.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Buyer reports $2 LemonSqueezy charge for translated document never delivered — LemonSqueezy subsequently asked buyer to drop PayPal dispute",
+  "actor_level": "buyer",
+  "platforms": [
+    "LemonSqueezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "2",
+  "metric_unit": "USD (LemonSqueezy charge for translated document, not delivered)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "charged 2 $ for getting a translated document",
+    "never received",
+    "wanted me to stop the Paypal issue"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Trustpilot review (April 22, 2025): buyer reports $2 LemonSqueezy charge for translated document not delivered; LemonSqueezy asked buyer to withdraw PayPal dispute. Illustrates non-delivery and dispute suppression pattern at low price point."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-011",
+  "source_title": "Keeping Commerce Human Having A Positive Impact On People And Planet",
+  "source_type": "blog",
+  "source_ref": "https://www.etsy.com/news/keeping-commerce-human-having-a-positive-impact-on-people-and-planet",
+  "source_date_if_available": "2017 (approximate, based on search-snippet context)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"In a world of increasing automation and commoditization, creativity cannot be automated and human connection cannot be commoditized. Our new mission to 'keep commerce human,' reflects this ethos. It is uniquely Etsy and it speaks to what makes our marketplace so special. It stays true to our roots while representing what we want to do in the future.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.etsy.com/news/keeping-commerce-human-having-a-positive-impact-on-people-and-planet"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Etsy news post (circa 2017, approximate). Mission statement announcing 'Keep Commerce Human' branding.",
+    "source_date_unclear: date approximate."
+  ],
+  "possible_subjects": [
+    "Etsy: 'Keep Commerce Human' mission statement (circa 2017)"
+  ],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

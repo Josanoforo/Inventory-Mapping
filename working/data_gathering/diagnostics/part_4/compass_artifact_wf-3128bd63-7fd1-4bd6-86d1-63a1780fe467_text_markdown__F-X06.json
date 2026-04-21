@@ -1,0 +1,11 @@
+{
+  "shard_id": "compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X06",
+  "seller_or_subject": "Coverage gap — Spanish-language Envato forum thread on Chilean invoicing",
+  "attempted": "What: A Spanish-language thread on Envato forums discusses a Chilean buyer's inability to obtain legal invoices (facturas) from Envato for tax purposes. Thread title: \"Facturación/Billing.\"\nVerbatim snippet: \"n/a — Spanish-language content, out of English-only scope\"\nSource: https://forums.envato.com/t/facturacion-billing/490365 (returned 403 on fetch; content identified via search index)\nsource_type: seller_forum\nverification_status: could_not_verify\nDate: Approximately 2024 based on thread numbering\nNotes: Thread is entirely in Spanish. Per shard rule (English only), content cannot be included in Part 1 or Part 2. This represents a coverage gap: Chilean buyer-side invoicing issues (inability to get \"factura legal\" from Envato for Chilean tax purposes) are discussed in Spanish but no equivalent English-language thread was found. The invoicing issue (Envato not providing Chilean-compliant tax invoices) may be material for D6 TAX dimension.",
+  "why_failed": "",
+  "urls_mentioned": [
+    "https://forums.envato.com/t/facturacion-billing/490365"
+  ]
+}

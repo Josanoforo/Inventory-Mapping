@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-008",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-008",
+  "source_type": "blog",
+  "source_title": "Why I Chose Gumroad Over Payhip 8821Ae348D45",
+  "source_ref": "https://medium.com/@hazelparadise/why-i-chose-gumroad-over-payhip-8821ae348d45",
+  "source_date_if_available": "February 22, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payout — Payhip releases payout within 24 hours. Gumroad takes 7 days to process. Marketing tools (Upsell, cross-sell, discount code, email marketing, affiliate marketing) — Now these features are available on both platforms. But the newsletter is a little different.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Medium blog (February 22, 2024) compares Gumroad and Payhip: Payhip pays out within 24 hours while Gumroad takes 7 days to process; both platforms offer upsell, cross-sell, discount codes, email marketing, and affiliate marketing, with newsletters differing",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad", "Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "Gumroad payout: 7 days processing; Payhip payout: within 24 hours",
+  "metric_unit": "days to payout",
+  "time_scope_raw": "February 22, 2024",
+  "time_scope_normalized_if_safe": "2024-02-22",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Medium blog (Feb 22, 2024): Gumroad payout 7 days vs Payhip 24 hours; both offer upsell/cross-sell/discount codes/email marketing/affiliates; newsletter features differ"
+  ],
+  "uncertainties": ["anecdotal_single_source"],
+  "parser_notes": [
+    "medium.com/@hazelparadise (Feb 22, 2024). English. Gumroad vs Payhip comparison: payout timing (Gumroad 7 days vs Payhip <24h); both offer upsell, cross-sell, discount codes, email marketing, affiliate marketing; newsletter differs. Single creator comparison — payout timelines may have changed by April 2026."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@hazelparadise/why-i-chose-gumroad-over-payhip-8821ae348d45",
+    "secondary_pointer": null
+  }
+}

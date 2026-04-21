@@ -1,0 +1,51 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002",
+  "source_title": "Patreon Users",
+  "source_type": "article",
+  "source_ref": "https://backlinko.com/patreon-users",
+  "source_date_if_available": "Page states \"Last updated on Feb. 25, 2026.\"",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Based on Graphtreon data, 286,287 creators have at least one paying member as of February 2026. That's a drop of around 5% since June 2025.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://backlinko.com/patreon-users"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Currently, only 31 creators on Patreon receive sponsorship from more than 20,000 paying members each. The top creator (ranked by number of paid members) on Patreon is Matt and Shane's Secret Podcast, a comedy podcast; 124,452 paid members sponsor the show.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://backlinko.com/patreon-users"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon platform statistics",
+    "Patreon creator count",
+    "Patreon paid membership distribution"
+  ],
+  "possible_actor_levels": ["source"],
+  "possible_metric_types": ["active_buyers"],
+  "possible_time_scopes": ["February 2026", "June 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "URL also appears in other shards: compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown. Packet assigned to this shard by alphabetical order.",
+    "SNP-001 reports 286,287 paying creators as of Feb 2026 (Graphtreon data); SNP-002 gives distribution context — 31 creators above 20K members and top creator at 124,452 paid members. These are creator-side membership counts, not buyer-side, but active_buyers is the closest enum value for paying-member counts.",
+    "Author not identified; date is update date of the article, not original publication date."
+  ],
+  "traceability_status": "partial"
+}

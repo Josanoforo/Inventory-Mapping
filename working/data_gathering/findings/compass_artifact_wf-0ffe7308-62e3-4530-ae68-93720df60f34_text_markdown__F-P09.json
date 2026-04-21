@@ -1,0 +1,16 @@
+{
+  "what": "As of August 29, 2025, most packages shipped to the US are subject to tariffs (no more de minimis exemption). Two models apply: Delivered Duty Paid (DDP) where seller pays tariffs upfront, or Delivered Duty Unpaid (DDU) where buyer pays on delivery. Items from Mexico may be eligible for USMCA exemptions from tariffs.",
+  "verbatim_snippet": "\"As of August 29, 2025, most packages shipped to the US will be subject to tariffs. Tariffs are taxes applied by a country's government on imported goods. How these tariffs are paid depends on the shipping method the seller uses. Delivered Duty Paid (DDP): The seller pays the tariffs up front, and the cost is included in the total at checkout. This ensures a smoother delivery process with no surprise fees at the time of delivery. Delivered Duty Unpaid (DDU): The buyer is responsible for paying any tariffs and associated fees directly to the shipping carrier upon delivery.\"",
+  "source": "https://help.etsy.com/hc/en-us/articles/115015691007-Will-I-Have-to-Pay-for-Tax-Customs-or-Tariffs-on-My-Order",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Content references August 29, 2025 effective date. URL returned 403; content verified via search engine index.",
+  "notes": "USMCA exemption noted in Etsy Seller Handbook (https://www.etsy.com/seller-handbook/article/1355662653395): \"For example, some items that enter the US from Canada or Mexico may be eligible for exemptions from tariffs and duties under the United States-Mexico-Canada Agreement (USMCA).\" This gives Mexico sellers a potential tariff advantage over Argentina, Brazil, Chile, Peru sellers shipping to the US. Dimension: Tax. Cross-border cut: all LatAm countries → US. Mexico has USMCA exemption path. Direction: outgoing (LatAm seller → US buyer).",
+  "extra_fields": {
+    "finding_id": "F-P09"
+  },
+  "finding_id": "F-P09",
+  "shard_id": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

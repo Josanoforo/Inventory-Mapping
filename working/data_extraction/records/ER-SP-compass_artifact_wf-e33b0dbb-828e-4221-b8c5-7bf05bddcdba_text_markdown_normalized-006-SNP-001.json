@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-006",
+  "source_type": "help_center",
+  "source_title": "Taxes For Digital Products",
+  "source_ref": "https://help.payhip.com/article/174-taxes-for-digital-products",
+  "source_date_if_available": "Undated (from search results)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Payhip handles digital EU VAT for you, but what about taxes for countries outside of the EU? Whilst we don't remit this tax on your behalf, we do make it easy to collect that tax on top of, or within, your product pricing. We also give you a monthly sales report that summarizes how much tax you've collected, making reporting a breeze!\"\n\n> \"Payhip will automatically detect the customer's location at checkout and add any applicable taxes that you've set up.\"\n\n> \"By default, we'll charge tax on top of your pricing. If you'd like it to be included within your pricing, scroll down to Tax Settings and select the checkbox for 'Include taxes within product price'.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip help center (help.payhip.com/article/174-taxes-for-digital-products, undated) states Payhip handles EU VAT automatically but does not remit non-EU taxes on sellers' behalf; it auto-detects customer location at checkout to apply seller-configured taxes; taxes are added on top of pricing by default (configurable to include within price); monthly tax collection summaries provided; sellers can block customers from specific countries to avoid tax complexity",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Undated (from search results)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Non-EU digital taxes: Payhip collects for seller but does not remit; auto location-detect at checkout; monthly tax report; can block-by-country"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.payhip.com (undated). Non-EU digital taxes: Payhip collects for seller but does not remit; monthly report included."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/174-taxes-for-digital-products",
+    "secondary_pointer": null
+  }
+}

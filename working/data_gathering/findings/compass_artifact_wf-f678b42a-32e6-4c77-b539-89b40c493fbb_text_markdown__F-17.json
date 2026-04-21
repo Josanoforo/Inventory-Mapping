@@ -1,0 +1,16 @@
+{
+  "what": "Productores con cuenta registrada en Colombia pueden retirar ventas en USD a pesos colombianos (COP) directamente a una cuenta bancaria colombiana.",
+  "verbatim_snippet": "\"Si el país registrado en tu cuenta es Colombia, es posible realizar el retiro de ventas en Dólares a Pesos Colombianos (COP). Para ello, es necesario registrar una cuenta bancaria colombiana en la plataforma.\"",
+  "source": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_type": "help_center",
+  "verification_status": "direct_verified",
+  "date": "as of April 2026",
+  "notes": "Dimensión Payout. País: Colombia. Dirección del flujo: comisiones en USD (de ventas cross-border) → retiro en COP vía cuenta local. Colombia es el único país LatAm mencionado explícitamente con opción de retiro directo a moneda local.",
+  "extra_fields": {
+    "finding_id": "F-17"
+  },
+  "finding_id": "F-17",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

@@ -1,0 +1,42 @@
+{
+  "packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-009",
+  "source_title": "Collections",
+  "source_type": "article",
+  "source_ref": "https://help.payhip.com/article/74-collections",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Collections allow your customers to buy your products based on categories easily. You might have a particular group of products that naturally fit together, and it could make a lot of sense to display them as a collection on your store page, making shopping easier for your customers.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.payhip.com/article/74-collections"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip collections feature (undated): sellers can group products into category collections displayed on their store page to simplify buyer browsing"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "low",
+  "traceability_status": "weak"
+}

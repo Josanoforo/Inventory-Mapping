@@ -1,0 +1,35 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-007",
+  "source_title": "Review",
+  "source_type": "unknown",
+  "source_ref": "https://www.trustpilot.com/review/payhip.com",
+  "source_date_if_available": "Dec 13, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"I bought a WordPress plugin from Payhip (WP Optimal State Pro WordPress Plugin)\\n\\nI was skeptical because I didn't really know anything about Payhip or the plugin developer.\\n\\nEverything worked out just fine. Payment was quick and easy, and the plugin works great.\\n\\n100% satisfied.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/payhip.com"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Payhip buyer experience (December 2025): positive single review reporting smooth WordPress plugin purchase — payment described as quick and easy"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["unknown"],
+  "possible_time_scopes": ["2025-Q4"],
+  "possible_geographies": null,
+  "uncertainties": ["context_insufficient"],
+  "priority_for_source_first": "low",
+  "traceability_status": "partial"
+}

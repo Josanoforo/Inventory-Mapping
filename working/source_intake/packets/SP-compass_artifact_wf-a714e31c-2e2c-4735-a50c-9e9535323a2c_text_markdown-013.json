@@ -1,0 +1,56 @@
+{
+  "packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_title": "Herramientas Para Vender Cursos Online Cual Es La Mejor",
+  "source_type": "blog",
+  "source_ref": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"No sirve para cursos peque\u00f1os o ebooks de bajo coste. Est\u00e1 pensado para cursos de m\u00e1s de 200\u20ac en adelante. Si vendes ebooks de 9,99\u20ac, entre impuestos y comisi\u00f3n del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Resumen: es IDEAL para hacer pruebas de concepto con cero inversi\u00f3n. Si nunca has vendido cursos online, puedes cargarlos en Hotmart y ver c\u00f3mo va esto de la venta de contenido digital. Pero no es una plataforma para crecer contigo porque con facturaciones de 5.000\u20ac, el coste es muy superior al de plataformas m\u00e1s completas.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
+  ],
+  "possible_subjects": [
+    "Hotmart fee viability by price tier (undated): platform unsuitable for products under \u20ac200 due to combined taxes, affiliate commissions, and Hotmart commission; at \u20ac9.99 price point combined costs may eliminate seller profit; at \u20ac5,000/month revenue platform cost exceeds more comprehensive alternatives"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

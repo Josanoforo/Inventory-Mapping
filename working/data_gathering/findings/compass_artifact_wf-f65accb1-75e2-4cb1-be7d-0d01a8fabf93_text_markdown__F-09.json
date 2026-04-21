@@ -1,0 +1,16 @@
+{
+  "what": "The Wise blog confirms Gumroad processes all transactions in USD, with currency conversion occurring automatically at the time of sale when customers pay in a different currency. The exact conversion fee depends on Gumroad's payment processors' rates.",
+  "verbatim_snippet": "\"Currency Conversion Fees: If you're selling to customers in different countries, Gumroad charges a currency conversion fee. All transactions are processed in US dollars, so if you sell in another currency, Gumroad will convert it to USD at the time of the transaction. The exact fee for this conversion depends on the rates set by Gumroad's payment processors.\"",
+  "source": "https://wise.com/us/blog/gumroad-fees",
+  "source_type": "blog",
+  "verification_status": "direct_verified",
+  "date": "Published September 11, 2024",
+  "notes": "Author: Panna Kemenes. Wise is a third-party financial services company. This passage corroborates F-01 (ToS Section 9) regarding USD settlement and adds the detail that a \"currency conversion fee\" exists and depends on payment processor rates — a detail not disclosed in the ToS itself. The Wise article does not quantify the fee. Applies to all LatAm currencies.",
+  "extra_fields": {
+    "dimension": "Currency"
+  },
+  "finding_id": "F-09",
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "part": 1
+}

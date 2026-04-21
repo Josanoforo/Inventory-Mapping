@@ -1,0 +1,62 @@
+{
+  "packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_title": "Patreon Stats",
+  "source_type": "database_profile",
+  "source_ref": "https://graphtreon.com/patreon-stats",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "[Stated in layout: \"325,425 with at least 1 paying member Number of Paid Creators\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/patreon-stats"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "[Stated in layout: \"$25,443,110 excludes hidden earnings Estimated Monthly Payouts\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/patreon-stats"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "[Stated in navigation layout: \"All Podcasts Games Video 3D Printing Comics Music Adult Games Adult Animation Adult Photography Adult Video\" with dropdown labeled \"More\" listing \"Animals · Animation · Cosplay · Crafts & DIY · Dance & Theater · Drawing & Painting · Finance · Magazine · Mastodon · Photography · Writing · Other · Adult 3D Printing · Adult Comics · Adult Cosplay · Adult Crafts & DIY · Adult Dance & Theater · Adult Drawing & Painting · Adult Magazine · Adult Music · Adult Podcasts · Adult Writing · Adult Other\"]",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://graphtreon.com/patreon-stats"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Patreon platform statistics",
+    "Patreon estimated monthly payouts",
+    "Patreon creator count"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["active_buyers", "payout"],
+  "possible_time_scopes": ["current as of April 2026"],
+  "possible_geographies": null,
+  "uncertainties": ["source_date_unclear", "net_vs_gross_ambiguity"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "SNP-001 reports 325,425 paid creators (paying member count proxy); SNP-002 reports $25.4M estimated monthly payouts, explicitly noting 'excludes hidden earnings' — net_vs_gross_ambiguity applies because hidden earnings not included.",
+    "SNP-003 contains Patreon content category taxonomy, useful for understanding platform structure but carries no metric.",
+    "Page updates daily; snapshot accessed April 14, 2026. No fixed publication date.",
+    "active_buyers used as closest enum for 'paying members' count, though these are creators-with-paying-members, not buyers per se."
+  ],
+  "traceability_status": "partial"
+}

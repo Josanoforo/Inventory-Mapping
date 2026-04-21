@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_title": "Fee Calculator",
+  "source_type": "pricing_page",
+  "source_ref": "https://craftybase.com/etsy/fee-calculator",
+  "source_date_if_available": "March 2026 (changelog entry)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Added 9 new countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand are now supported. These are Payoneer-based countries where Etsy processes fees in USD.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://craftybase.com/etsy/fee-calculator"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Etsy fee calculator",
+    "Etsy payment country availability"
+  ],
+  "possible_actor_levels": ["marketplace"],
+  "possible_metric_types": ["payout_method_availability"],
+  "possible_time_scopes": ["March 2026"],
+  "possible_geographies": ["Argentina", "Brazil", "Chile", "China", "Egypt", "India", "Japan", "South Korea", "Thailand"],
+  "uncertainties": ["none"],
+  "priority_for_source_first": "high",
+  "intake_notes": [
+    "Third-party fee calculator (craftybase.com) changelog entry confirming expansion of Etsy Payoneer-based country support in March 2026. Specific, dated, and factual.",
+    "Although source is a third-party calculator rather than Etsy directly, changelog entries at this level of specificity typically reflect Etsy's own policy updates.",
+    "author_or_actor_if_available is null (site is a tool, not a named author); traceability_status set to partial accordingly."
+  ],
+  "traceability_status": "partial"
+}

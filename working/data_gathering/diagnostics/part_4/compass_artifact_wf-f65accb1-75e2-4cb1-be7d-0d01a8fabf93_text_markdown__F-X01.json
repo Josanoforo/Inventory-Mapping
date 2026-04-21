@@ -1,0 +1,9 @@
+{
+  "shard_id": "compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown",
+  "source_tool": "deep_search",
+  "item_id": "F-X01",
+  "seller_or_subject": "W-8BEN process for LatAm sellers on Gumroad",
+  "attempted": "**What:** No Gumroad help center page or platform documentation was found describing W-8BEN requirements specifically for LatAm (or any international) sellers. Third-party sources (Claimyr forum, TopBubbleIndex, KarbonCard) state that non-US creators must file W-8BEN to avoid 30% US withholding on payouts, but these claims could not be verified against Gumroad's own documentation.\n**Source:** N/A — absence finding\n**source_type:** N/A\n**verification_status:** could_not_verify\n**Date:** Searched April 2026\n**Notes:** Covers SD-05. Claimyr.com (April 11, 2025) states: \"Complete the W-8BEN form in your Gumroad account immediately - this prevents them from withholding 30% of your US sales.\" TopBubbleIndex states: \"For non-U.S. creators, Gumroad may require you to fill out a W-8BEN form or similar gumroad tax forms to certify your foreign status.\" Neither is a primary Gumroad source. The W-8BEN process appears to be handled through Stripe's integrated tax form infrastructure within Gumroad's Settings → Tax Information, but no Gumroad-authored documentation was located.",
+  "why_failed": "",
+  "urls_mentioned": []
+}

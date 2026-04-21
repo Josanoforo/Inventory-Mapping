@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017",
+  "source_type": "buyer_review",
+  "source_title": "Reembolso Nao Efetuado Apos Solicitacao De Cancelamento Na Hotmart Htghwtroakloltcq",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-apos-solicitacao-de-cancelamento-na-hotmart_hTghWtroaKLOLtCq",
+  "source_date_if_available": "March 2026 (refund solicited 07/03/2026 per Hotmart response)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Fiz uma compra na Hortmart que não era o proposto. Imediatamente, pedi o reembolso do valor. Porém, até agora nada foi feito, inclusive recebi um quiz se havia gostado da compra (???). Espero que façam meu ressarcimento o quanto antes.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Reclame Aqui complaint (refund solicited March 7, 2026) reports Hotmart product not as described; immediate refund request made but not fulfilled; Hotmart sent a satisfaction quiz about the purchase instead of processing the refund",
+  "actor_level": "unknown",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 2026 (refund solicited 07/03/2026 per Hotmart response)",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": "Brazil",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Product not as described; immediate refund request unfulfilled",
+    "Hotmart sent satisfaction quiz about purchase instead of processing refund"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "reclameaqui.com.br (March 7, 2026). Product not as described; refund request ignored; Hotmart sent satisfaction quiz. Portuguese-language (Brazil)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-apos-solicitacao-de-cancelamento-na-hotmart_hTghWtroaKLOLtCq",
+    "secondary_pointer": null
+  }
+}

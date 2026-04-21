@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-010",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.patreon.com",
+  "source_date_if_available": "December 11, 2025 (experience: December 2, 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I know this has a bad review but I wanna give you my experience and my one as a payer is this. I listen to a podcast thotstv it's about childrens media I've been a patriot for a few years now I've hurd new things unseen stuff and stuff you cant get on other podcast stuff. Recently there soundboard broke but because of the money from patron they got it replaced before long. So if you think it's a bad service I say give it a try you might have a different experience.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot reviewer (December 2025) positive experience as patron of 'thotstv' podcast for several years; access to exclusive content not available elsewhere; Patreon subscription revenue enabled creator to replace broken soundboard",
+  "actor_level": "unknown",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Experience December 2, 2025; review December 11, 2025; patron for 'a few years'",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "patron for several years; access to exclusive podcast content not available elsewhere",
+    "creator used Patreon revenue to replace broken soundboard",
+    "reviewer recommends trying Patreon despite prevailing negative reviews"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com (December 11, 2025). Positive patron experience: exclusive podcast content, creator equipment funded via Patreon subscriptions. Counterpoint to dominant negative reviews on same source page."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.patreon.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "what": "Hotmart gestiona impuestos para ventas a compradores en México cuando el productor está registrado en cualquier país excepto México (Escenario 2 de la tabla de responsabilidades fiscales).",
+  "verbatim_snippet": "[Contenido de tabla; múltiples subagentes confirman la fila: Escenario 2 — Productor: cualquier país excepto México — Comprador: México — Responsable: Hotmart gestiona impuestos y emite facturas]",
+  "source": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "source_type": "help_center",
+  "verification_status": "blocked_url_index_verified",
+  "date": "Efectivo desde 1 de enero de 2024 / 1 de abril de 2025",
+  "notes": "Dimensión Tax. Clasificado como provisional porque el snippet exacto del párrafo descriptivo del Escenario 2 no fue capturado textualmente por los agentes de investigación — solo la representación de la fila de tabla. El contenido es consistente entre múltiples consultas independientes. Dirección: US seller → MX buyer. Complementa F-06 (Hotmart gestiona impuestos para ventas a US) y contrasta con F-07/F-08 (productor responsable para CO/PE).",
+  "extra_fields": {
+    "finding_id": "F-P01"
+  },
+  "finding_id": "F-P01",
+  "shard_id": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "source_tool": "deep_search",
+  "part": 2
+}

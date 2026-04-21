@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-035-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-035",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-035",
+  "source_type": "database_profile",
+  "source_title": "Payhip",
+  "source_ref": "https://pipedream.com/apps/payhip",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Pipedream enables developers to easily integrate the Payhip API with more than 3,000 other applications remarkably fast. Join the 1,000,000+ developers using the Pipedream platform today. Free to get started.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Pipedream app directory (accessed April 2026) describes Payhip API integration: enables connection with 3,000+ applications; Pipedream platform has 1,000,000+ developers; free to get started",
+  "actor_level": "unknown",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Payhip API integrable with 3,000+ apps via Pipedream",
+    "Pipedream: 1,000,000+ developers on platform; free tier available"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "pipedream.com/apps/payhip (accessed April 2026; page undated). Payhip API third-party integration: 3,000+ app connections via Pipedream. Third-party integration ecosystem indicator."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://pipedream.com/apps/payhip",
+    "secondary_pointer": null
+  }
+}

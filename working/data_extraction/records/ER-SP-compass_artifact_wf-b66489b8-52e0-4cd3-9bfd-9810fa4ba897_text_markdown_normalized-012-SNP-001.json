@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-012",
+  "source_type": "product_listing",
+  "source_title": "Nttsolmare",
+  "source_ref": "https://payhip.com/NTTsolmare",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "- Obey Me! ASMR - Leviathan: The Bathtub and You — $14.99\n- Obey Me! ASMR - Belphegor To Wish Upon a Star With You — $14.99",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Payhip seller NTTsolmare (accessed April 2026) lists two ASMR digital audio products from Obey Me! franchise: 'Leviathan: The Bathtub and You' and 'Belphegor To Wish Upon a Star With You', both priced at $14.99 USD",
+  "actor_level": "unknown",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "digital audio (ASMR)",
+  "metric_type": "price",
+  "metric_value_raw": "$14.99 per ASMR audio product (two titles listed)",
+  "metric_unit": "USD",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "ASMR audio products from Obey Me! franchise; both priced $14.99 USD",
+    "seller NTTsolmare: likely NTT Solmare (Japanese mobile game developer)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "payhip.com/NTTsolmare (accessed April 2026; page undated). ASMR audio product listings from Obey Me! franchise at $14.99 per title. Illustrates entertainment IP / Japanese brand direct digital sales via Payhip."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/NTTsolmare",
+    "secondary_pointer": null
+  }
+}

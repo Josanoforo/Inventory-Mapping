@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-001",
+  "source_type": "news",
+  "source_title": "Una Historia De Exito",
+  "source_ref": "https://heraldodemexico.com.mx/panorama/una-historia-de-exito",
+  "source_date_if_available": "Acceso abril 2026; fecha de publicación no determinable desde snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Estamos abriendo Kichink en Estados Unidos, principalmente en Los Angeles, y queremos acercar a los diseñadores y creadores con los consumidores mediante pop up stores en festivales y puntos estratégicos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Kichink announces US expansion opening in Los Angeles — plans to connect designers and creators with consumers via pop-up stores at festivals and strategic locations",
+  "actor_level": "platform",
+  "platforms": ["Kichink"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "United States (Los Angeles)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Estamos abriendo Kichink en Estados Unidos, principalmente en Los Angeles",
+    "pop up stores en festivales y puntos estratégicos"
+  ],
+  "uncertainties": ["source_date_unclear", "current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "News article Heraldo de Mexico (accessed April 2026; publication date not determinable). Kichink spokesperson announces US expansion to Los Angeles via pop-up stores connecting designers/creators with consumers. Spanish snippet preserved in local_qualifiers. current_vs_historical_ambiguity: publication date unknown — expansion status may have changed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://heraldodemexico.com.mx/panorama/una-historia-de-exito",
+    "secondary_pointer": null
+  }
+}

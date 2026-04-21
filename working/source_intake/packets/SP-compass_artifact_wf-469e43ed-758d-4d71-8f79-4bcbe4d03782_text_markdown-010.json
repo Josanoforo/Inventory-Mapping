@@ -1,0 +1,59 @@
+{
+  "packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010",
+  "source_title": "lemonsqueezy.nolt.io",
+  "source_type": "seller_forum",
+  "source_ref": "https://lemonsqueezy.nolt.io/519",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Tried to add Wise USD account but seems like Stripe is not accepting it but on the other hand Wise IBAN account is working fine\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://lemonsqueezy.nolt.io/519"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"As I understand it it's also not possible to avoid the fees by receiving payouts to USD accounts (Wise or Revolut for example) if your business is based outside of the US.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://lemonsqueezy.nolt.io/519"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "LemonSqueezy Nolt feature request board (undated; accessed April 2026). Wise USD account incompatible with Stripe payout; IBAN works; non-US businesses cannot avoid payout fees with USD accounts.",
+    "source_date_unclear: page undated; accessed April 2026."
+  ],
+  "possible_subjects": [
+    "LemonSqueezy: Wise USD account incompatible with Stripe payout (IBAN account works)",
+    "LemonSqueezy: non-US businesses cannot avoid international payout fees via USD accounts (Wise, Revolut)"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

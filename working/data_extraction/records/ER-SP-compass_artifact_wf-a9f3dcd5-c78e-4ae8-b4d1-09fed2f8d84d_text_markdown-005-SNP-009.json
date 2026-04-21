@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-009",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.patreon.com",
+  "source_date_if_available": "December 11, 2025 (experience: December 2, 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Essentially a scam website that tricks you into paying way more than you realised you committed to. I found an awesome map making creator, who sold their assets via an all-in membership, on Patreon. I signed up, happy to support the talented artist. What I didn't know and was never explained to me is that I would then be later charged £52 in the same month, because the creator made seven separate 'posts' which amounted to written updates about what they'd be doing. Ironically, it amounted to just short of a full years membership. I would have subscribed for ever. Not now. I have cancelled and requested a charge back from my bank.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Trustpilot reviewer (December 2025) signed up for map-making creator's all-in membership on Patreon; charged £52 in the same month because creator posted 7 separate posts (written updates); total charge described as near-equivalent to a full year's membership; reviewer cancelled and initiated bank chargeback",
+  "actor_level": "unknown",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "£52 charged in single month for 7 creator posts under all-in membership",
+  "metric_unit": "GBP",
+  "time_scope_raw": "Experience December 2, 2025; review December 11, 2025",
+  "time_scope_normalized_if_safe": "2025-12-02",
+  "geography_if_explicit": "United Kingdom (GBP pricing)",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "all-in membership; 7 creator posts triggered £52 charge in single month",
+    "charge described as near-equivalent to a full year's membership cost",
+    "reviewer cancelled and initiated bank chargeback"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com (December 11, 2025). UK patron charged £52 in one month for 7 creator posts under all-in membership; initiated chargeback. Illustrates per-post billing confusion and disclosure transparency issues."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.patreon.com",
+    "secondary_pointer": null
+  }
+}

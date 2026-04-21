@@ -1,0 +1,83 @@
+{
+  "packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_title": "Review",
+  "source_type": "buyer_review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+  "source_date_if_available": "2025-04-22",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Wouldn't cancel payment until 10 months after my first request, poor communications, still no refund, avoid them if you can.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"Avoid this payment processor at ALL COST! I was using an SEO tool, relying on it, and cancelled my subscription in March. Since March, they have kept on taking money every single month from my account, despite the subscription being stopped. Bad payment processor.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"This is the payment processor for revid.ai. They are both scams. One star because I can't give 0. Impossible to speak with a live person, impossible to cancel your revid.ai account with an active Lemonsqueezy account, and impossible to cancel. Fraud.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4"
+      }
+    },
+    {
+      "snippet_id": "SNP-004",
+      "snippet_text": "\"This seems to be a scam. They charged 2 $ for getting a translated document which I then never received. They wanted me to stop the Paypal issue which I have created afterwards.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4"
+      }
+    },
+    {
+      "snippet_id": "SNP-005",
+      "snippet_text": "\"i buy this plugin Lemon Squeezy they send email to use this termprary code then we send actual code when all set but ist beeen more then 1 month still waiting i send them lot of emails no response\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4"
+      }
+    }
+  ],
+  "intake_notes": [
+    "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium.",
+    "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
+    "Trustpilot LemonSqueezy page 4 (April 22, 2025). Five snippets from different buyers. SNP-001: payment cancellation took 10 months. SNP-002: charges continued after subscription stopped. SNP-003: impossible to cancel via revid.ai + LemonSqueezy link. SNP-004: $2 charged for document never received. SNP-005: plugin license code never delivered after >1 month.",
+    "subject_ambiguity: five different reviewers with distinct complaint types (cancellation delay, continued charges, account lock-in, non-delivery of document, non-delivery of plugin code).",
+    "possible_geographies: null — no geographic indicators in any snippet."
+  ],
+  "possible_subjects": [
+    "LemonSqueezy cancellation refusal and delay",
+    "LemonSqueezy continued charges after subscription cancellation",
+    "LemonSqueezy product non-delivery (document, plugin license)"
+  ],
+  "possible_actor_levels": ["buyer"],
+  "possible_metric_types": ["price"],
+  "possible_time_scopes": ["April 2025"],
+  "possible_geographies": null,
+  "uncertainties": ["snippet_needs_reopen", "subject_ambiguity"],
+  "priority_for_source_first": "medium",
+  "traceability_status": "weak"
+}

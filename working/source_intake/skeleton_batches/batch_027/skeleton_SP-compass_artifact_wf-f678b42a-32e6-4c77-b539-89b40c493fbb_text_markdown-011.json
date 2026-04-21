@@ -1,0 +1,39 @@
+{
+  "packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_title": "Que Es El Spread De Las Compras Internacionales",
+  "source_type": "help_center",
+  "source_ref": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"El spread es la diferencia entre el precio de compra y el de venta de moneda extranjera. Para llegar al valor de la tarifa que ves en la plataforma, Hotmart cuenta con una operadora de cambio oficial del Banco Central, que fija un valor de cambio alterado cada 24 horas. Además, el número que ves ya considera, por ejemplo, el IOF (Impuesto sobre Operaciones Financieras), que es obligatorio, entre otros costos operacionales del proceso de pago.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-"
+      },
+      "source_finding_id": "F-04",
+      "finding_part": 1
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [],
+  "possible_actor_levels": [],
+  "possible_metric_types": [],
+  "possible_time_scopes": [],
+  "possible_geographies": null,
+  "uncertainties": [],
+  "priority_for_source_first": null,
+  "traceability_status": null,
+  "_converter_stage": 1,
+  "_source_finding_ids": [
+    "F-04"
+  ]
+}

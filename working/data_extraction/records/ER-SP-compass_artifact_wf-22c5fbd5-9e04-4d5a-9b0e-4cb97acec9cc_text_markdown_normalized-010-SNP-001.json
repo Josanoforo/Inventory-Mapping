@@ -1,0 +1,33 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_type": "blog",
+  "source_title": "Finally My Domestika Course Is Live",
+  "source_ref": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live",
+  "source_date_if_available": "~2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In the Domestika forum you can display your final pieces and I will be lurking there and commenting on your results! Hope to see you there!\" (uses affiliate link with note ensuring \"most of your support actually benefits me\")",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "Domestika instructor use of affiliate link to direct student purchases, with instructor benefit noted",
+  "actor_level": "seller",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "~2024",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": ["most of your support actually benefits me"],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": ["Instructor Substack circa 2024. Mentions affiliate link usage for directing student purchases. Actual commission rate not stated in this snippet."],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live",
+    "secondary_pointer": null
+  }
+}

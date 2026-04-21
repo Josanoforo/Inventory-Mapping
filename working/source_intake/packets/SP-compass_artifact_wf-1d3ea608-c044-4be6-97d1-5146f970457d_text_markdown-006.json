@@ -1,0 +1,40 @@
+{
+  "packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006",
+  "source_title": "Metodos De Pago",
+  "source_type": "seller_forum",
+  "source_ref": "https://www.domestika.org/es/forums/2-domestika/topics/170068-metodos-de-pago",
+  "source_date_if_available": "10.12.2020 (post date visible on fetched page)",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "«¡Hola! En este enlace puedes ver los métodos de pago disponibles. Veo que estás en Perú, por lo que en tu caso tienes disponible la opción de pago con tarjeta o PayPal. ¡Un saludo!»",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.domestika.org/es/forums/2-domestika/topics/170068-metodos-de-pago"
+      }
+    }
+  ],
+  "possible_subjects": [
+    "Domestika payment method availability Peru",
+    "Domestika buyer payment options by country"
+  ],
+  "possible_actor_levels": ["marketplace", "source"],
+  "possible_metric_types": ["payment_method_availability"],
+  "possible_time_scopes": ["December 2020"],
+  "possible_geographies": ["Peru"],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "priority_for_source_first": "low",
+  "intake_notes": [
+    "Staff response identifying Peru payment options as card or PayPal only as of December 2020. Notably, no local/cash payment available for Peru at that time.",
+    "current_vs_historical_ambiguity: December 2020 data. Domestika expanded dLocal integration to more LATAM markets after this date; Peru may now have additional options.",
+    "Low priority: data is over 5 years old and likely outdated for current payment method mapping."
+  ],
+  "traceability_status": "partial"
+}

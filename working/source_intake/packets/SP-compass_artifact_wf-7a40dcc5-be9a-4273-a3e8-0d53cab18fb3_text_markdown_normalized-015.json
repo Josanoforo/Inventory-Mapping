@@ -1,0 +1,66 @@
+{
+  "packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-015",
+  "source_title": "Why I Left Etsy",
+  "source_type": "blog",
+  "source_ref": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy",
+  "source_date_if_available": "August 31, 2025",
+  "author_or_actor_if_available": null,
+  "retrieval_method": "deep_search",
+  "retrieved_from": "compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized",
+  "raw_search_context": null,
+  "snippets": [
+    {
+      "snippet_id": "SNP-001",
+      "snippet_text": "\"Etsy advertises that it takes around 3.5% commission on sales, which is of course very low. Unfortunately, that is simply not true. If you tot up all the additional fees the actual figure is closer to 15%. And that's before you've paid for postage, any marketing fees and local taxes.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy"
+      }
+    },
+    {
+      "snippet_id": "SNP-002",
+      "snippet_text": "\"paying for off-site ads and to appear higher in listings are both necessary to be successful on Etsy. I did pay for marketing for a year as an experiment, and I found that although I made more sales, they basically covered my marketing budget.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy"
+      }
+    },
+    {
+      "snippet_id": "SNP-003",
+      "snippet_text": "\"in 2025 when the USA increased their import tariffs I was effectively no longer able to sell to the USA either since customers aren't likely to buy if the postage and taxes cost more than the item itself.\"",
+      "context_before": null,
+      "context_after": null,
+      "location_pointer": {
+        "pointer_type": "url",
+        "pointer_value": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy"
+      }
+    }
+  ],
+  "intake_notes": [],
+  "possible_subjects": [
+    "Etsy: stated commission ~3.5% vs. effective total fees ~15% when all platform fees included; before postage, marketing, and local taxes",
+    "Etsy: paid off-site ads and promoted listings described as necessary for success; year of marketing cost roughly equalled additional sales revenue",
+    "Etsy seller (international): US tariff increases in 2025 effectively ended ability to sell to US buyers due to prohibitive postage and tax costs"
+  ],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "context_insufficient"
+  ],
+  "priority_for_source_first": "high",
+  "traceability_status": "partial"
+}
