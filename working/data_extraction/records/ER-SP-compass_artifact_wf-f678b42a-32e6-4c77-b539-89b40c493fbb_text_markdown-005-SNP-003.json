@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Como Retirar Mi Comision",
+  "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"el valor mínimo para retiro es de US$ 50,00 o € 50,00 + tarifas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart withdrawal help center (help.hotmart.com/es, as of April 2026) states the minimum withdrawal amount is $50.00 USD or €50.00 plus applicable fees",
+  "actor_level": "platform",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "minimum $50 USD or €50 + fees",
+  "metric_unit": "USD or EUR (minimum threshold per withdrawal)",
+  "time_scope_raw": "as of April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Hotmart help (as of Apr 2026): minimum withdrawal $50 USD or €50 + fees"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "help.hotmart.com (as of Apr 2026). Spanish. Minimum withdrawal: $50 USD or €50 + fees. Specific withdrawal method fees not detailed in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "secondary_pointer": null
+  }
+}
