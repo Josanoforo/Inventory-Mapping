@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020",
+  "source_type": "seller_forum",
+  "source_title": "Published My First Ebook And Made A Couple Of Sales 8988Aaee17",
+  "source_ref": "https://www.indiehackers.com/post/published-my-first-ebook-and-made-a-couple-of-sales-8988aaee17",
+  "source_date_if_available": "July 4, 2020",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Once the eBook was complete, I uploaded a PDF to PayHip (similar to Gumroad, but UK based) and shouted about it on Facebook, Twitter, and LinkedIn.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Seller reports publishing ebook PDF via Payhip, characterizing it as similar to Gumroad but UK-based; promoted via social media",
+  "actor_level": "seller",
+  "platforms": ["Payhip", "Gumroad"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "UK",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "similar to Gumroad, but UK based",
+    "uploaded a PDF"
+  ],
+  "uncertainties": ["current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "Indie Hackers post (July 2020): seller shares first ebook publishing experience using Payhip (PDF upload), characterizing it briefly as similar to Gumroad but UK-based. Social media promotion noted as context. geography_if_explicit set to UK (Payhip's base, explicitly stated)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/published-my-first-ebook-and-made-a-couple-of-sales-8988aaee17",
+    "secondary_pointer": null
+  }
+}

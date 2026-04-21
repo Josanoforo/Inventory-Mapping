@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-022-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-022",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-022",
+  "source_type": "unknown",
+  "source_title": "Reviews",
+  "source_ref": "https://www.sitejabber.com/reviews/payhip.com",
+  "source_date_if_available": "Accessed April 2026; reviewer: Helena; review date not visible in snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Every new entrepreneur selling digital products needs to use this product. I've seen online gurus recommending other platforms (probably because they have an ongoing partnerships), but Payhip is the BEST one for small entrepreneurs who can't afford the $XX per month fees that most platforms like Shopify charge. Their pricing starts at $0 per month with 5% transaction fee, I can't find any other platforms that have prices as low as this.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Individual seller recommends Payhip as best option for small entrepreneurs: $0/month entry with 5% transaction fee, contrasting with monthly subscription fees of platforms like Shopify",
+  "actor_level": "seller",
+  "platforms": ["Payhip", "Shopify"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5",
+  "metric_unit": "percent (Payhip transaction fee on free plan)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "BEST one for small entrepreneurs",
+    "can't afford the $XX per month fees",
+    "I can't find any other platforms that have prices as low as this",
+    "online gurus recommending other platforms (probably because they have an ongoing partnerships)"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "SiteJabber review of Payhip (reviewer: Helena, review date unknown, accessed April 2026): strong seller endorsement citing $0/month + 5% transaction fee as best-in-class for small entrepreneurs. Reviewer also flags perceived affiliate bias in competitor recommendations. metric_value_raw captures 5% fee."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.sitejabber.com/reviews/payhip.com",
+    "secondary_pointer": null
+  }
+}

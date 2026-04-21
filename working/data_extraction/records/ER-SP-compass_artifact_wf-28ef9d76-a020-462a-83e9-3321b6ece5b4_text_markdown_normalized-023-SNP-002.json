@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023",
+  "source_type": "blog",
+  "source_title": "Sellfy Vs Payhip",
+  "source_ref": "https://www.theleap.co/blog/sellfy-vs-payhip",
+  "source_date_if_available": "Nov 7, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip's email marketing is less robust than Sellfy's, but the feature is offered throughout all of its plans (free or not). It allows you to sync mailing lists, and has a ton of useful integrations for doing so.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Payhip email marketing: less robust than Sellfy's but available on all plans; supports mailing list sync and integrations",
+  "actor_level": "third_party_observer",
+  "platforms": ["Payhip", "Sellfy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "less robust than Sellfy's",
+    "offered throughout all of its plans",
+    "a ton of useful integrations"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "theleap.co blog (Nov 2024): rates Payhip email marketing as less capable than Sellfy's but available on all plans with mailing list sync and integrations. theleap.co is a competitor platform; framing both platforms as limited may reflect competitive positioning."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.theleap.co/blog/sellfy-vs-payhip",
+    "secondary_pointer": null
+  }
+}
