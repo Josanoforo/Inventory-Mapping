@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As you can above right on the search history chart, \\\"png\\\" search volume is way up! In just the past month, it has shot up 257%!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "ERank blog (help.erank.com/blog/top-keywords-on-etsy, Apr 6, 2026) states the Etsy search term 'png' experienced a 257% increase in search volume in the past month",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "rate",
+  "metric_value_raw": "257% increase in one month",
+  "metric_unit": "% growth month-over-month",
+  "time_scope_raw": "6 April 2026 (past month relative to article date)",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "'png' keyword search volume on Etsy: +257% in past month as of April 6, 2026; per ERank data"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "help.erank.com (Apr 6, 2026). 'png' Etsy search volume +257% in 1 month; ERank proprietary data."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  }
+}

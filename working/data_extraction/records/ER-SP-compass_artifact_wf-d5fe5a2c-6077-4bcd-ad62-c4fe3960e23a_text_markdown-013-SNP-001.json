@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-013",
+  "source_type": "database_profile",
+  "source_title": "Hotmart",
+  "source_ref": "https://www.crunchbase.com/organization/hotmart",
+  "source_date_if_available": "Accessed April 2026; database profile",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart raised $127305793 on 2021-03-30 in Series C\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Crunchbase database profile (crunchbase.com/organization/hotmart, accessed April 2026) records Hotmart raised USD 127,305,793 in a Series C funding round on March 30, 2021",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "revenue",
+  "metric_value_raw": "USD 127,305,793",
+  "metric_unit": "USD",
+  "time_scope_raw": "2021-03-30",
+  "time_scope_normalized_if_safe": "2021-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Series C round: USD 127,305,793 on March 30, 2021; sourced from Crunchbase database"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "crunchbase.com (accessed Apr 2026). Hotmart Series C: USD 127.3M on 2021-03-30."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.crunchbase.com/organization/hotmart",
+    "secondary_pointer": null
+  }
+}

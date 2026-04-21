@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"1. tshirt 2. shirt 3. stickers 4. pokemon 5. wall art 6. gift 7. jewelry 8. phone case 9. resident evil 10. keychain 11. home decor 12. womens clothing 13. necklace 14. ayn thor 15. png 16. easter 17. personalized gift 18. ita bag 19. press on nails 20. t shirt\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "ERank blog (help.erank.com/blog/top-keywords-on-etsy, Apr 6, 2026) lists the top 20 search keywords on Etsy: tshirt, shirt, stickers, pokemon, wall art, gift, jewelry, phone case, resident evil, keychain, home decor, womens clothing, necklace, ayn thor, png, easter, personalized gift, ita bag, press on nails, t shirt",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "top 20 Etsy search keywords ranked 1-20",
+  "metric_unit": "keyword search rank",
+  "time_scope_raw": "6 April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Top 20 Etsy keywords (Apr 2026): tshirt, shirt, stickers, pokemon, wall art, gift, jewelry, phone case, resident evil, keychain, home decor, womens clothing, necklace, ayn thor, png, easter, personalized gift, ita bag, press on nails, t shirt"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "help.erank.com (Apr 6, 2026). Top 20 Etsy search keywords; mix of physical goods and pop culture terms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  }
+}
