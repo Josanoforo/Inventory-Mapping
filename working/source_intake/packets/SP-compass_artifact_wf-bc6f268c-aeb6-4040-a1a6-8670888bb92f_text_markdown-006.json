@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Make your best work yet with a comprehensive library of high-quality, creative assets — video, audio, photos, graphics, templates, and more from talented global artists. Access to AI tools like VideoGen, MusicGen, and ImageGen, powered by the latest models.\"",
+      "snippet_text": "\"Make your best work yet with a comprehensive library of high-quality, creative assets \u2014 video, audio, photos, graphics, templates, and more from talented global artists. Access to AI tools like VideoGen, MusicGen, and ImageGen, powered by the latest models.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Envato Elements homepage (accessed April 2026): subscription library of creative assets (video, audio, photos, graphics, templates) from global artists; includes AI generation tools VideoGen, MusicGen, ImageGen"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

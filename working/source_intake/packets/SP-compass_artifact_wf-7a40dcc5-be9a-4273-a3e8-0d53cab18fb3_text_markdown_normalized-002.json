@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Etsy seller: platform unexpectedly changed title punctuation to colons on 16+ listings, causing search visibility drop; resolved by correcting titles"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["search_discovery"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "search_discovery"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

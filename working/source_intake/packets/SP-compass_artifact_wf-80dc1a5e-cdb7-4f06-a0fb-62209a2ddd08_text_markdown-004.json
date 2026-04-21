@@ -57,13 +57,20 @@
   "possible_subjects": [
     "LemonSqueezy: account approval required before selling; can take several days to over a week (January 2025 experience); bugs include checkout failures and customer double-charging",
     "Gumroad: immediate selling without approval; fees described as high by seller",
-    "Seller workflow: switched between LemonSqueezy, Gumroad, and Polar.sh for Framer template sales (January 2024–March 2026)"
+    "Seller workflow: switched between LemonSqueezy, Gumroad, and Polar.sh for Framer template sales (January 2024\u2013March 2026)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["activation_requirement", "fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "activation_requirement",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

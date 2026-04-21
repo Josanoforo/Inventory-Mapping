@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"Some features I want so that this platform can become better — Source — Doesn't tell where the traffic is coming from. Analytics is very basic. No categories. I sell in two niches, and categorizing them becomes difficult. No cross-selling or upselling. Email marketing is a little costly.\"",
+      "snippet_text": "\"Some features I want so that this platform can become better \u2014 Source \u2014 Doesn't tell where the traffic is coming from. Analytics is very basic. No categories. I sell in two niches, and categorizing them becomes difficult. No cross-selling or upselling. Email marketing is a little costly.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -35,11 +35,19 @@
   "possible_subjects": [
     "Seller comparison of Gumroad vs Payhip vs LemonSqueezy: one platform noted for good conversion rates (specific platform unspecified in snippet); missing features include traffic source attribution, product categorization, cross-selling/upselling"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["conversion_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "conversion_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["subject_ambiguity", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "subject_ambiguity",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

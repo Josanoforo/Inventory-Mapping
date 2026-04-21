@@ -71,11 +71,19 @@
     "Domestika teacher application: professional review process required",
     "Domestika teacher course length: 2-4 hours, minimum 60% video content"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

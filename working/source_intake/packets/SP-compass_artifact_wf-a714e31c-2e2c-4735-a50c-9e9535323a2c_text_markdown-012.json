@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Hotmart actualmente está en el número de las plataformas para vender cursos en forma de infoproductos digitales por su fácil uso, formación gratuita, y registro gratis. Desbancando así a ClickBank. [...] Realmente Clickbank prácticamente no se utilizar en el mundo hispano, pues el mercado hispano se ha trasladado a Hotmart, muchísimo mejor con diferencia.\"",
+      "snippet_text": "\"Hotmart actualmente est\u00e1 en el n\u00famero de las plataformas para vender cursos en forma de infoproductos digitales por su f\u00e1cil uso, formaci\u00f3n gratuita, y registro gratis. Desbancando as\u00ed a ClickBank. [...] Realmente Clickbank pr\u00e1cticamente no se utilizar en el mundo hispano, pues el mercado hispano se ha trasladado a Hotmart, much\u00edsimo mejor con diferencia.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Hotmart market displacement of ClickBank in Spanish-speaking regions (undated): described as having displaced ClickBank as the dominant platform for digital infoproduct sales among Spanish-speaking users; cited for free registration, free training, and ease of use"
   ],
-  "possible_actor_levels": ["marketplace", "seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace",
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

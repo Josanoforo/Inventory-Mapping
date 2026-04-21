@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"No sirve para cursos pequeños o ebooks de bajo coste. Está pensado para cursos de más de 200€ en adelante. Si vendes ebooks de 9,99€, entre impuestos y comisión del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
+      "snippet_text": "\"No sirve para cursos peque\u00f1os o ebooks de bajo coste. Est\u00e1 pensado para cursos de m\u00e1s de 200\u20ac en adelante. Si vendes ebooks de 9,99\u20ac, entre impuestos y comisi\u00f3n del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"Resumen: es IDEAL para hacer pruebas de concepto con cero inversión. Si nunca has vendido cursos online, puedes cargarlos en Hotmart y ver cómo va esto de la venta de contenido digital. Pero no es una plataforma para crecer contigo porque con facturaciones de 5.000€, el coste es muy superior al de plataformas más completas.\"",
+      "snippet_text": "\"Resumen: es IDEAL para hacer pruebas de concepto con cero inversi\u00f3n. Si nunca has vendido cursos online, puedes cargarlos en Hotmart y ver c\u00f3mo va esto de la venta de contenido digital. Pero no es una plataforma para crecer contigo porque con facturaciones de 5.000\u20ac, el coste es muy superior al de plataformas m\u00e1s completas.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -35,13 +35,22 @@
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
   ],
   "possible_subjects": [
-    "Hotmart fee viability by price tier (undated): platform unsuitable for products under €200 due to combined taxes, affiliate commissions, and Hotmart commission; at €9.99 price point combined costs may eliminate seller profit; at €5,000/month revenue platform cost exceeds more comprehensive alternatives"
+    "Hotmart fee viability by price tier (undated): platform unsuitable for products under \u20ac200 due to combined taxes, affiliate commissions, and Hotmart commission; at \u20ac9.99 price point combined costs may eliminate seller profit; at \u20ac5,000/month revenue platform cost exceeds more comprehensive alternatives"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "revenue"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -4,7 +4,7 @@
   "source_title": "Crea Tu Tienda",
   "source_type": "platform_doc",
   "source_ref": "https://www.kichink.com/crea-tu-tienda",
-  "source_date_if_available": "Acceso abril 2026; página sin fecha",
+  "source_date_if_available": "Acceso abril 2026; p\u00e1gina sin fecha",
   "author_or_actor_if_available": null,
   "retrieval_method": "deep_search",
   "retrieved_from": "compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown",
@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Kichink tiene las tarifas más bajas del mercado, empezando en $79 pesos. También hacemos envíos internacionales, empezando en $30 USD. Los costos varían dependiendo del peso y el lugar al que se envían.\"",
+      "snippet_text": "\"Kichink tiene las tarifas m\u00e1s bajas del mercado, empezando en $79 pesos. Tambi\u00e9n hacemos env\u00edos internacionales, empezando en $30 USD. Los costos var\u00edan dependiendo del peso y el lugar al que se env\u00edan.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -33,11 +33,21 @@
     "Kichink platform pricing starting at MXN 79",
     "Kichink international shipping starting at USD 30"
   ],
-  "possible_actor_levels": ["marketplace", "seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Mexico"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "marketplace",
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

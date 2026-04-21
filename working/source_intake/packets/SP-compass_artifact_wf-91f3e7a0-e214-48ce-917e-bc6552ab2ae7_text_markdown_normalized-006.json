@@ -35,11 +35,18 @@
   "possible_subjects": [
     "Gumroad Discover algorithm (official): product tags boost Discover visibility and sales; seller-chosen fee percentage determines boost level; Discover fees charged only on sales attributed to Discover discovery"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["discoverability_claim", "fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "discoverability_claim",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

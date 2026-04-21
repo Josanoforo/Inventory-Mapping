@@ -32,11 +32,21 @@
     "Envato geographic restriction: Venezuela (US sanctions)",
     "Envato marketplace access policy"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Venezuela", "United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Venezuela",
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

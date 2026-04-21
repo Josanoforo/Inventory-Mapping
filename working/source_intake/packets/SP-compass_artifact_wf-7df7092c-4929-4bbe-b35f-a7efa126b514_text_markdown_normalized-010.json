@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Envato Market: buyer review reporting no response to refund request after template purchase failed (October 2025)"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "Collections: \"All Products | Purge it with Patti | Paperback Books & Journals | E-books & Digital Journals | My Next Chapter Habit Trackers\" | Products in E-books & Digital Journals: - Purge it Plan E-Book | Detoxify Your Body Digital Download E-Book | Recipes for Detoxing Your Body | Weight Loss | Reset Your Body and Mind — $14.95 | - Detox Diary Prep for the Purge, Digital Journal with Unlimited Pages, Printable, Goodnotes, Journal Mind, Body, Soul, Faith Based, Declutter Pantry, Reflection Journal — $7.99 | - Pray it Like You Mean It - Digital Prayer Journal — $14.95 | - Read it Like You Mean It - Digital Bible Study Journal — $14.95",
+      "snippet_text": "Collections: \"All Products | Purge it with Patti | Paperback Books & Journals | E-books & Digital Journals | My Next Chapter Habit Trackers\" | Products in E-books & Digital Journals: - Purge it Plan E-Book | Detoxify Your Body Digital Download E-Book | Recipes for Detoxing Your Body | Weight Loss | Reset Your Body and Mind \u2014 $14.95 | - Detox Diary Prep for the Purge, Digital Journal with Unlimited Pages, Printable, Goodnotes, Journal Mind, Body, Soul, Faith Based, Declutter Pantry, Reflection Journal \u2014 $7.99 | - Pray it Like You Mean It - Digital Prayer Journal \u2014 $14.95 | - Read it Like You Mean It - Digital Bible Study Journal \u2014 $14.95",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Payhip seller purgeitwithpatti product listing (accessed April 2026): ebooks $7.99\u2013$14.95; digital journals; habit trackers"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

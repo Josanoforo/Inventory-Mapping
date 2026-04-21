@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "- Obey Me! ASMR - Leviathan: The Bathtub and You — $14.99\n- Obey Me! ASMR - Belphegor To Wish Upon a Star With You — $14.99",
+      "snippet_text": "- Obey Me! ASMR - Leviathan: The Bathtub and You \u2014 $14.99\n- Obey Me! ASMR - Belphegor To Wish Upon a Star With You \u2014 $14.99",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Payhip seller product listing example (NTTsolmare, accessed April 2026): ASMR digital audio products priced at $14.99 each"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

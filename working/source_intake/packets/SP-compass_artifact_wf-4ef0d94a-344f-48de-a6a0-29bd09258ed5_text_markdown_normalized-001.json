@@ -52,11 +52,21 @@
     "Domestika refund denial: substantial content consumed or ToU violation",
     "Domestika EU/UK withdrawal right: 14 days, forfeited once digital content accessed"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["EU", "United Kingdom"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "EU",
+    "United Kingdom"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Etsy new seller: account suspended for failure to update tracking numbers on Printify orders; four appeals and multiple emails submitted without clear explanation or resolution"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

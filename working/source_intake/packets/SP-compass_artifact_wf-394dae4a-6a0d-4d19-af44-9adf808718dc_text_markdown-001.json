@@ -24,16 +24,25 @@
   "intake_notes": [
     "Hotmart help center article (accessed April 14, 2026; no publication date). Describes international buyer purchase currencies: USD, EUR, MXN, PEN.",
     "source_date_unclear: only access date available; no publication date on page.",
-    "possible_metric_types: ['payment_method_availability'] — currencies available for international buyers."
+    "possible_metric_types: ['payment_method_availability'] \u2014 currencies available for international buyers."
   ],
   "possible_subjects": [
     "Hotmart international purchase currencies: USD, EUR, MXN, PEN"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Mexico", "Peru"],
-  "uncertainties": ["source_date_unclear"],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico",
+    "Peru"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

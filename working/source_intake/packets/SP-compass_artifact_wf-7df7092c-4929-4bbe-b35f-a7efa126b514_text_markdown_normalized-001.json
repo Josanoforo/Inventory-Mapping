@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Envato: AI-driven search filters and metadata improvements resulted in higher search-to-download ratios in 2025"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["search_discovery", "conversion_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "search_discovery",
+    "conversion_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

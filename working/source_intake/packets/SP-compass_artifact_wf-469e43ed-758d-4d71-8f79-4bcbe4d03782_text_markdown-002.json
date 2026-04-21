@@ -42,11 +42,18 @@
     "LemonSqueezy bank payouts: USD base, converted to local currency at mid-market rate",
     "LemonSqueezy PayPal payouts: USD, additional PayPal conversion fees may apply"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

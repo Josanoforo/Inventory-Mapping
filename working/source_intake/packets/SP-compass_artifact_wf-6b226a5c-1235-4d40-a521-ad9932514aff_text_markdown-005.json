@@ -52,11 +52,18 @@
     "Lemon Squeezy: minimum payout threshold $50; below threshold rolls over to next cycle",
     "Lemon Squeezy: bank transfer payouts at mid-market exchange rate"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

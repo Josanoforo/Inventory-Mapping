@@ -45,11 +45,20 @@
   "possible_subjects": [
     "Hotmart help article on fees (no visible date): no setup cost; platform fees charged per sale only; multi-currency purchases converted to USD for fee calculation; fees exclude taxes and credit card charges; no fee differences by legal entity type; buyers not charged platform usage fees"
   ],
-  "possible_actor_levels": ["seller", "buyer", "marketplace"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

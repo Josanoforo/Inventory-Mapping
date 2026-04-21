@@ -25,11 +25,19 @@
   "possible_subjects": [
     "Ko-fi marketing page positioning as Patreon alternative (accessed April 2026, evergreen): creators describe Ko-fi as simpler and lower pressure; offers membership tiers, tips, shop, and commissions with lower service fees than Patreon; creators maintain control over terms, prices, payments"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

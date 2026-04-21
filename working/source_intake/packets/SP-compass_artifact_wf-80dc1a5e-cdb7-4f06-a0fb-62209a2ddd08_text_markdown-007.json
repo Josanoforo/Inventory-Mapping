@@ -25,11 +25,17 @@
   "possible_subjects": [
     "LemonSqueezy: payout failing for 3 months with no response or initiative from platform (March 2026)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

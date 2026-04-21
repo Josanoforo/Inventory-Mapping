@@ -47,11 +47,22 @@
   "possible_subjects": [
     "Domestika help article on payment failures (accessed April 2026): some countries apply local taxes on international or cross-currency purchases causing additional charges; Argentina has monthly USD transaction limit causing payment rejections when exceeded; App Store payments treated as local transactions and suggested as workaround"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["AR"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "AR"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Productores y Afiliados que generan comisión en monedas diferentes al Real (BRL): pueden retirar el dinero a partir de 15 días después de la realización de la venta, considerando el plazo de garantía.\" And: \"Productores y Afiliados que generan comisión en Real (BRL): pueden retirar el dinero de la comisión a partir de 30 días desde la fecha de la venta.\"",
+      "snippet_text": "\"Productores y Afiliados que generan comisi\u00f3n en monedas diferentes al Real (BRL): pueden retirar el dinero a partir de 15 d\u00edas despu\u00e9s de la realizaci\u00f3n de la venta, considerando el plazo de garant\u00eda.\" And: \"Productores y Afiliados que generan comisi\u00f3n en Real (BRL): pueden retirar el dinero de la comisi\u00f3n a partir de 30 d\u00edas desde la fecha de la venta.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,19 @@
   "possible_subjects": [
     "Hotmart help article on withdrawal timing (no visible date, Spanish): producers and affiliates earning non-BRL commissions can withdraw 15 days after sale (accounting for guarantee period); BRL commissions available for withdrawal 30 days from sale date"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

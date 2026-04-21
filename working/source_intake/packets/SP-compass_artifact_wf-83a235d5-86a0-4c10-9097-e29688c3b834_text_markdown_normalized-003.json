@@ -33,14 +33,20 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Etsy Payments: new seller funds held 14–20 days after sale before deposit availability; extended hold possible based on shop standing",
+    "Etsy Payments: new seller funds held 14\u201320 days after sale before deposit availability; extended hold possible based on shop standing",
     "Etsy Payments: bank account change triggers 5-day hold on funds"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) – available for creators based in the U.S · Bank transfer (processed by Payoneer) – available to creators who reside outside of the U.S — please see full country eligibility list here\"",
+      "snippet_text": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) \u2013 available for creators based in the U.S \u00b7 Bank transfer (processed by Payoneer) \u2013 available to creators who reside outside of the U.S \u2014 please see full country eligibility list here\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -67,11 +67,21 @@
   "possible_subjects": [
     "Patreon payout mechanics: US creators via Stripe bank transfer; non-US creators via Payoneer; automatic payouts on 5th of month; 1-5 days settlement; 5-day hold for new creators; Commerce/Android pending up to 7 days; iOS in-app purchases pending up to 75 days"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

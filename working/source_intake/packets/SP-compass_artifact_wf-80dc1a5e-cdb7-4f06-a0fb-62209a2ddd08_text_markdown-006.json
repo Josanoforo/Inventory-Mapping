@@ -36,11 +36,18 @@
     "LemonSqueezy: identity verification pending over 3 weeks before seller could publish e-book; no support response after two contacts (August 2025)",
     "LemonSqueezy: payout transfer failing for 3 months; slow support with deflection (August 2025)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["activation_requirement", "payout"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "activation_requirement",
+    "payout"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

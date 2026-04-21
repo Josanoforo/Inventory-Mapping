@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Domestika help article on course not found in profile (accessed April 2026): local payment methods (cash, bank transfer) processed via dLocal; proof of purchase = store receipt from deposit"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

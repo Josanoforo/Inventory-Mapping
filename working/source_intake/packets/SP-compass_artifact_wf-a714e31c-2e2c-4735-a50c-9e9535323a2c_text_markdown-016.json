@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Plataformas como Hotmart, Udemy o Amazon serían buenos ejemplos. Todas ellas prestan un servicio online valioso y quitan muchos dolores de cabeza tecnológicos, pero además… facturan para ti. Tú no vendes. Lo hacen ellos por ti. Y, ahora dime, si no controlas las ventas ni los clientes, que son el alma de un proyecto emprendedor, ¿sigues siendo el dueño de tu propio negocio?\"",
+      "snippet_text": "\"Plataformas como Hotmart, Udemy o Amazon ser\u00edan buenos ejemplos. Todas ellas prestan un servicio online valioso y quitan muchos dolores de cabeza tecnol\u00f3gicos, pero adem\u00e1s\u2026 facturan para ti. T\u00fa no vendes. Lo hacen ellos por ti. Y, ahora dime, si no controlas las ventas ni los clientes, que son el alma de un proyecto emprendedor, \u00bfsigues siendo el due\u00f1o de tu propio negocio?\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Hotmart platform control dynamics (undated): described alongside Udemy and Amazon as platforms that handle billing and customer relationships on behalf of sellers; framed as loss of business autonomy since sellers do not control sales or customer data"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

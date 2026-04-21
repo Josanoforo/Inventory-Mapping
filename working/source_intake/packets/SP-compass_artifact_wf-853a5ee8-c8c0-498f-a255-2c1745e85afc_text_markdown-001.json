@@ -45,11 +45,18 @@
   "possible_subjects": [
     "Envato Elements vs Creative Market: Envato $16.50/month subscription for unlimited downloads vs Creative Market per-item pricing; Creative Market Commercial license typically 2x Personal license price; limited to 5,000 end products or 500k views"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["current_vs_historical_ambiguity", "context_insufficient"],
+  "uncertainties": [
+    "current_vs_historical_ambiguity",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

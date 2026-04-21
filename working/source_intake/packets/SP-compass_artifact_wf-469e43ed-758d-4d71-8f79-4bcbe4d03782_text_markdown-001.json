@@ -31,11 +31,20 @@
   "possible_subjects": [
     "LemonSqueezy international surcharge: +1.5% for non-US transactions"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

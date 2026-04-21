@@ -46,11 +46,17 @@
     "Etsy Offsite Ads: fee charged on orders within 30-day attribution window even after seller opts out or ad is removed",
     "Etsy Ads: cost-per-click billing with daily budget cap; no refunds for clicked ads; campaigns can be paused"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

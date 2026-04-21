@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Recuerda que la cadena te cobra una comisión de $8.00\"",
+      "snippet_text": "\"Recuerda que la cadena te cobra una comisi\u00f3n de $8.00\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -29,11 +29,20 @@
   "possible_subjects": [
     "Kichink: convenience store (chain) payment option charges $8 MXP fee to buyer"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Mexico"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

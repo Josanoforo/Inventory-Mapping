@@ -52,11 +52,21 @@
     "LemonSqueezy: payouts blocked if required tax info missing (funds accumulate)",
     "LemonSqueezy 1099-K threshold: $20,000 gross volume for US accounts"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "payout_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "revenue",
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

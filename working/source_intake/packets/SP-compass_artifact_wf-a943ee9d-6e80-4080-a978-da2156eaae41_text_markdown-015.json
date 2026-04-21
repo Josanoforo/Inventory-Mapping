@@ -45,11 +45,19 @@
   "possible_subjects": [
     "Etsy buyer review patterns on Sitejabber (accessed April 2026): 1,569 reviews; buyer reports 7-month refund failure after shop closure; buyer reports non-handmade items from China with no Etsy enforcement action"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy", "review_count"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy",
+    "review_count"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

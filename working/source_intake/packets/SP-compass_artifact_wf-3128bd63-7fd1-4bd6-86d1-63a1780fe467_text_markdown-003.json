@@ -66,18 +66,27 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Envato W-8 tax info help center for non-US authors. Key rate: 30% royalty withholding tax on US buyer sales for non-US authors without tax treaty. Treaty countries may qualify for reduced rate. Envato sends IRS Form 1042 annually.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_geographies: ['United States'] — US withholding tax regime is the primary subject."
+    "possible_geographies: ['United States'] \u2014 US withholding tax regime is the primary subject."
   ],
   "possible_subjects": [
     "Envato royalty withholding tax 30% (non-US authors, US buyers)",
     "Envato tax treaty reduced withholding rate",
     "Envato Form 1042 annual IRS reporting"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

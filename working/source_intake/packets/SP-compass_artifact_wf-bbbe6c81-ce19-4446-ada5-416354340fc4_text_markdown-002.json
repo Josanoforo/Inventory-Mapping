@@ -4,7 +4,7 @@
   "source_title": "Review",
   "source_type": "buyer_review",
   "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=11",
-  "source_date_if_available": "Accessed April 2026; review undated in snippet (likely 2025–2026)",
+  "source_date_if_available": "Accessed April 2026; review undated in snippet (likely 2025\u20132026)",
   "author_or_actor_if_available": null,
   "retrieval_method": "deep_search",
   "retrieved_from": "compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown",
@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Compré un producto en Hotmart y me hicieron el cobro inmediatamente, pero nunca recibí ningún correo de confirmación, acceso al producto ni forma de entrar a la plataforma. Revisé spam, intenté recuperar el acceso, busqué por todos los medios posibles… nada. Contacté al soporte de Hotmart varias veces y solo me dieron respuestas automáticas inútiles, sin resolver absolutamente nada. Me están dando largas y siguen sin entregarme lo que compré. Incluso su sistema me marcó un 'error desconocido' cuando intenté recuperar el acceso.\"",
+      "snippet_text": "\"Compr\u00e9 un producto en Hotmart y me hicieron el cobro inmediatamente, pero nunca recib\u00ed ning\u00fan correo de confirmaci\u00f3n, acceso al producto ni forma de entrar a la plataforma. Revis\u00e9 spam, intent\u00e9 recuperar el acceso, busqu\u00e9 por todos los medios posibles\u2026 nada. Contact\u00e9 al soporte de Hotmart varias veces y solo me dieron respuestas autom\u00e1ticas in\u00fatiles, sin resolver absolutamente nada. Me est\u00e1n dando largas y siguen sin entregarme lo que compr\u00e9. Incluso su sistema me marc\u00f3 un 'error desconocido' cuando intent\u00e9 recuperar el acceso.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Hotmart buyer review on Spanish Trustpilot (accessed April 2026): buyer charged but never received product access; support provided only automated responses; 'unknown error' on access recovery attempts"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

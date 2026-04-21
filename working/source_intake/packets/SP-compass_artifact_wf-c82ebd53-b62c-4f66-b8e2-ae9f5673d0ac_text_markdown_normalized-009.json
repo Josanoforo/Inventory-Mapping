@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Cada producto digital de Hotmart tiene una comisión porcentual determinada por el productor, la cual varía entre el 0% y el 80% del valor total.\"",
+      "snippet_text": "\"Cada producto digital de Hotmart tiene una comisi\u00f3n porcentual determinada por el productor, la cual var\u00eda entre el 0% y el 80% del valor total.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,19 @@
   "possible_subjects": [
     "Hotmart blog post on commission system (Spanish, no visible date): each digital product has an affiliate commission percentage set by the producer, ranging from 0% to 80% of the total sale value"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

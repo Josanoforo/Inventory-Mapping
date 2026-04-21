@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "[Stated in layout: \"Fees: 1.55% of payout amount + $0.25 per payout. No additional currency conversion fee is applied. Minimum payout of $10. Conversion: Patreon handles the conversion from USD → local currency before sending to your bank.\"]",
+      "snippet_text": "[Stated in layout: \"Fees: 1.55% of payout amount + $0.25 per payout. No additional currency conversion fee is applied. Minimum payout of $10. Conversion: Patreon handles the conversion from USD \u2192 local currency before sending to your bank.\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -47,11 +47,20 @@
   "possible_subjects": [
     "Patreon payout fees for non-US creators: Payoneer flat fee ~$0.50 local equivalent per payout, min $10; Stripe bank transfer 1.55%+$0.25 per payout with Patreon handling USD-to-local conversion; USD bank account $0.50 flat fee per payout, no conversion"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability", "fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "Section header reads \"Explore categories\" followed by:\n- 3D — \"Discover exceptional 3D avatars, assets and more for VRChat and other platforms\"\n- Roblox — \"Build the perfect Roblox game with high quality assets, vehicles, scripts, VFX etc\"\n- Crafts — \"Crochet, sewing, knitting, quilting, stitching patterns and much more for crafters\"\n- Music & Sound Design — \"Sample packs, loops, beats, sound kits etc from the most creative producers and engineers\"\n- Design — \"Level up your designs with these creative design assets that you'll fall in love with\"\n- Drawing & Painting — \"Procreate brushes, illustrations and art from the most talented creators in the world\"\n- Fiction Books — \"Explore a universe of spellbinding, special and unique books\"\n- Fitness & Health — \"From the gym, to the kitchen - fun and inspiring ways to change your lifestle\"\n- Photography — \"All things presets, lightroom and photoshop to help your photography projects\"\n- Writing & Publishing — \"Literary resources to help craft your stories - from guides, inspiration and more\"\n- Business & Money — \"From making a dollar to making a lot more - learn the ins and outs here\"\n- Films — \"LUTs packs and resources for Adobe Premier Pro and Final Cut Pro\"\n- Comics & Graphic Novels — \"Acclaimed creators bringing you stories and art that will keep you hooked\"\n- Audio — \"Meditation music, healing and subliminal audio that nourish the soul\"\n- Recorded Music — \"Find albums and tracks from incredible musicians and artists\"\n- Education — \"The perfect place to learn new skills and level up your existing ones\"\n- Gaming — \"The place to discover upcoming indie developers and their amazing work\"\n- Software Development — \"Learning to code and improving your skills has never been easier\"",
+      "snippet_text": "Section header reads \"Explore categories\" followed by:\n- 3D \u2014 \"Discover exceptional 3D avatars, assets and more for VRChat and other platforms\"\n- Roblox \u2014 \"Build the perfect Roblox game with high quality assets, vehicles, scripts, VFX etc\"\n- Crafts \u2014 \"Crochet, sewing, knitting, quilting, stitching patterns and much more for crafters\"\n- Music & Sound Design \u2014 \"Sample packs, loops, beats, sound kits etc from the most creative producers and engineers\"\n- Design \u2014 \"Level up your designs with these creative design assets that you'll fall in love with\"\n- Drawing & Painting \u2014 \"Procreate brushes, illustrations and art from the most talented creators in the world\"\n- Fiction Books \u2014 \"Explore a universe of spellbinding, special and unique books\"\n- Fitness & Health \u2014 \"From the gym, to the kitchen - fun and inspiring ways to change your lifestle\"\n- Photography \u2014 \"All things presets, lightroom and photoshop to help your photography projects\"\n- Writing & Publishing \u2014 \"Literary resources to help craft your stories - from guides, inspiration and more\"\n- Business & Money \u2014 \"From making a dollar to making a lot more - learn the ins and outs here\"\n- Films \u2014 \"LUTs packs and resources for Adobe Premier Pro and Final Cut Pro\"\n- Comics & Graphic Novels \u2014 \"Acclaimed creators bringing you stories and art that will keep you hooked\"\n- Audio \u2014 \"Meditation music, healing and subliminal audio that nourish the soul\"\n- Recorded Music \u2014 \"Find albums and tracks from incredible musicians and artists\"\n- Education \u2014 \"The perfect place to learn new skills and level up your existing ones\"\n- Gaming \u2014 \"The place to discover upcoming indie developers and their amazing work\"\n- Software Development \u2014 \"Learning to code and improving your skills has never been easier\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -35,11 +35,18 @@
   "possible_subjects": [
     "Payhip marketplace category taxonomy (accessed April 2026): 18 top-level categories including 3D, Roblox, Crafts, Music & Sound Design, Design, Drawing & Painting, Fiction Books, Fitness & Health, Photography, Writing & Publishing, Business & Money, Films, Comics, Audio, Recorded Music, Education, Gaming, Software Development; featured products section returned no results at time of capture"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

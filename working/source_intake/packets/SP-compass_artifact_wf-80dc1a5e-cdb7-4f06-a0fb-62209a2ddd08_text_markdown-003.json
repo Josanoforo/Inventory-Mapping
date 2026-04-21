@@ -25,11 +25,19 @@
   "possible_subjects": [
     "DownloadPage founder compares LemonSqueezy (bugs, high fees, slow payouts) vs Stripe-based direct selling (cost savings, faster payouts) for digital product sales"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "payout"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "payout"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

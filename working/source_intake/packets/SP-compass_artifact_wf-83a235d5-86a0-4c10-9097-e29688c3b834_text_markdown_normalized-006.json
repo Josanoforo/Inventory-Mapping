@@ -27,11 +27,17 @@
   "possible_subjects": [
     "Etsy Payments: Payoneer deposits sent each Monday"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

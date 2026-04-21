@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Third-party article (2025) about tools for Payhip sellers: one-page website builder tool priced $19/year; supports affiliate marketing and branded storefronts linking to Payhip"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

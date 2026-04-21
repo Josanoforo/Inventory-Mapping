@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Third-party tool (agentcrew.co) offering AI-powered Gumroad product listing generation: SEO-optimized names, descriptions, slugs, launch emails, and thank-you emails"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "partial"
 }

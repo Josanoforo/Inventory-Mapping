@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"We consolidate complex platform fees into one simple transaction fee of 5% + 50¢, but there are edge cases where small additional fees may need to be applied.\"",
+      "snippet_text": "\"We consolidate complex platform fees into one simple transaction fee of 5% + 50\u00a2, but there are edge cases where small additional fees may need to be applied.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -38,11 +38,18 @@
   "possible_subjects": [
     "Lemon Squeezy: transaction fee 5% + $0.50 per sale; no monthly subscription fee"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

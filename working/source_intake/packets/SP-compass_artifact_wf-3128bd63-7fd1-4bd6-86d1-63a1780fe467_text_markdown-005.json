@@ -26,17 +26,26 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Envato VAT for Market help center. Describes commercial structure: for non-EU buyers (and income tax purposes), Author sells directly to customer and pays an Author fee to Envato. Establishes fee-based commission structure.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_geographies: ['European Union'] — EU VAT is the context of the distinction."
+    "possible_geographies: ['European Union'] \u2014 EU VAT is the context of the distinction."
   ],
   "possible_subjects": [
     "Envato Market author-direct sale structure (author fee to Envato)",
     "Envato Market VAT treatment (non-EU buyer sales)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["European Union"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "European Union"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

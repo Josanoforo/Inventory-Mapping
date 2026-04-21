@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Etsy: Colorado-mandated $0.29 buyer fee on physical goods orders shipped to Colorado; fee not applied to digital goods; collected by Etsy at checkout and remitted to Colorado"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["context_insufficient"],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

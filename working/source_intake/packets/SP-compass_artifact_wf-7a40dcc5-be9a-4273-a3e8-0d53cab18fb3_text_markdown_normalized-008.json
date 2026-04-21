@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"My account suspended incorrectly :'We let you know on Sep 06, 2024 that your account was suspended. It looks like you didn't appeal your suspension within six months of this date, so your account is now permanently suspended.' today is april 2025 · absolutely incorrect , I have 5 emails sent to etsy rep with requested information ... I did nothing wrong -they doubt i make my items myself and i sent them video of process and other proof, please help to reinstate USA manufacturer account.\"",
+      "snippet_text": "\"My account suspended incorrectly :'We let you know on Sep 06, 2024 that your account was suspended. It looks like you didn't appeal your suspension within six months of this date, so your account is now permanently suspended.' today is april 2025 \u00b7 absolutely incorrect , I have 5 emails sent to etsy rep with requested information ... I did nothing wrong -they doubt i make my items myself and i sent them video of process and other proof, please help to reinstate USA manufacturer account.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,21 @@
   "possible_subjects": [
     "Etsy seller (US manufacturer): account permanently suspended after missing 6-month appeal window following Sep 2024 suspension; submitted 5 emails with proof of process without reinstatement as of April 2025"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

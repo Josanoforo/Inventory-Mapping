@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Quiero realizar una sugerencia para mejorar la experiencia de uso en Hotmart, especialmente en la creación y gestión de productos. Actualmente, el proceso para armar una página de producto resulta poco intuitivo y demasiado fragmentado. Hay que pasar por múltiples ajustes y presionar varios botones constantemente para editar y previsualizar, lo que ralentiza el flujo de trabajo. Sería ideal simplificar este proceso con una vista más integrada y dinámica. Por otro lado, la aplicación móvil presenta fallas importantes. En la versión web desde el teléfono, el sistema solicita iniciar sesión repetidamente, y en la página principal no queda claro cómo hacerlo, ya que solo aparece la opción de registrarse. Esto genera fricción innecesaria para el usuario. Además, al crear un producto, automáticamente se genera una sala de alumnos por defecto. Esta opción debería ser configurable u opcional, ya que no todos los productos requieren ese formato. También se presentan errores críticos en la aplicación: - Al ingresar a \\\"Gestión de negocios\\\" e intentar acceder a un producto, la plataforma no permite abrirlo. - Al intentar editar una página propia, la interfaz se muestra mal distribuida: de un lado aparece el panel de opciones y del otro la página queda cortada, impidiendo trabajar con normalidad. En términos generales, la aplicación actualmente no funciona de manera fluida ni práctica, y requiere mejoras importantes en usabilidad. En resumen, propongo: - Simplificar la creación y edición de páginas de producto. - Mejorar la estabilidad y experiencia de la app móvil. - Corregir el flujo de inicio de sesión en dispositivos móviles. - Hacer opcional la creación automática de salas de alumnos. - Solucionar el acceso a productos desde \\\"Gestión de negocios\\\" en la app. - Corregir la visualización y edición de páginas en dispositivos móviles. Estos cambios mejorarían significativamente la usabilidad y eficiencia de la plataforma. Gracias por su atención.\"",
+      "snippet_text": "\"Quiero realizar una sugerencia para mejorar la experiencia de uso en Hotmart, especialmente en la creaci\u00f3n y gesti\u00f3n de productos. Actualmente, el proceso para armar una p\u00e1gina de producto resulta poco intuitivo y demasiado fragmentado. Hay que pasar por m\u00faltiples ajustes y presionar varios botones constantemente para editar y previsualizar, lo que ralentiza el flujo de trabajo. Ser\u00eda ideal simplificar este proceso con una vista m\u00e1s integrada y din\u00e1mica. Por otro lado, la aplicaci\u00f3n m\u00f3vil presenta fallas importantes. En la versi\u00f3n web desde el tel\u00e9fono, el sistema solicita iniciar sesi\u00f3n repetidamente, y en la p\u00e1gina principal no queda claro c\u00f3mo hacerlo, ya que solo aparece la opci\u00f3n de registrarse. Esto genera fricci\u00f3n innecesaria para el usuario. Adem\u00e1s, al crear un producto, autom\u00e1ticamente se genera una sala de alumnos por defecto. Esta opci\u00f3n deber\u00eda ser configurable u opcional, ya que no todos los productos requieren ese formato. Tambi\u00e9n se presentan errores cr\u00edticos en la aplicaci\u00f3n: - Al ingresar a \\\"Gesti\u00f3n de negocios\\\" e intentar acceder a un producto, la plataforma no permite abrirlo. - Al intentar editar una p\u00e1gina propia, la interfaz se muestra mal distribuida: de un lado aparece el panel de opciones y del otro la p\u00e1gina queda cortada, impidiendo trabajar con normalidad. En t\u00e9rminos generales, la aplicaci\u00f3n actualmente no funciona de manera fluida ni pr\u00e1ctica, y requiere mejoras importantes en usabilidad. En resumen, propongo: - Simplificar la creaci\u00f3n y edici\u00f3n de p\u00e1ginas de producto. - Mejorar la estabilidad y experiencia de la app m\u00f3vil. - Corregir el flujo de inicio de sesi\u00f3n en dispositivos m\u00f3viles. - Hacer opcional la creaci\u00f3n autom\u00e1tica de salas de alumnos. - Solucionar el acceso a productos desde \\\"Gesti\u00f3n de negocios\\\" en la app. - Corregir la visualizaci\u00f3n y edici\u00f3n de p\u00e1ginas en dispositivos m\u00f3viles. Estos cambios mejorar\u00edan significativamente la usabilidad y eficiencia de la plataforma. Gracias por su atenci\u00f3n.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"Hay secciones complejas de editar... Respecto a las pages, cuando se quiere crear otra dice que se alcanzó el límite, y lleva a nuevo plan...luego dicen que crear pages es gratuito, pero no es así.. La sección Fitness, de repente ya no se puede ver, no puedo continuar las clases, porque no permite acceso... Es sistema de retiro me exige 100 usd para poder retirar mi dinero..\"",
+      "snippet_text": "\"Hay secciones complejas de editar... Respecto a las pages, cuando se quiere crear otra dice que se alcanz\u00f3 el l\u00edmite, y lleva a nuevo plan...luego dicen que crear pages es gratuito, pero no es as\u00ed.. La secci\u00f3n Fitness, de repente ya no se puede ver, no puedo continuar las clases, porque no permite acceso... Es sistema de retiro me exige 100 usd para poder retirar mi dinero..\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -52,7 +52,7 @@
     },
     {
       "snippet_id": "SNP-005",
-      "snippet_text": "\"Me parece inadecuado el sistema de transferencia de las ventas donde retienen el dinero hasra alcanzar un minimo que supera hasta tres veces el valor del producto vendido. La pregunta es¿ si no se lle...\"",
+      "snippet_text": "\"Me parece inadecuado el sistema de transferencia de las ventas donde retienen el dinero hasra alcanzar un minimo que supera hasta tres veces el valor del producto vendido. La pregunta es\u00bf si no se lle...\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -66,11 +66,18 @@
     "Hotmart: $100 USD minimum withdrawal threshold to access seller earnings",
     "Hotmart sellers: payout delayed 13+ days while documents are analyzed; minimum transfer threshold described as exceeding three times product value for low-value items"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout", "payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout",
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

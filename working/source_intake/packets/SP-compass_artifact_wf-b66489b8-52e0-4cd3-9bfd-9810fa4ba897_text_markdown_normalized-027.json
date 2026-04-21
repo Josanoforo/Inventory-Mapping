@@ -35,11 +35,19 @@
   "possible_subjects": [
     "Payhip marketplace Design category (accessed April 2026): price tiers Free/Under $5/$5-$25/$25-$40/$40-$60/$60+; sort options including Hot and new, Highest rated, Most reviewed; subcategories include Architecture, Branding, Fonts, Graphics, Printable, UI & Web"
   ],
-  "possible_actor_levels": ["marketplace", "seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace",
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

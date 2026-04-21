@@ -24,16 +24,22 @@
   "intake_notes": [
     "SourceFees fee aggregator page for LemonSqueezy (accessed April 2026; undated). Lists additional fees: +1.5% international, +1.5% PayPal, +0.5% subscriptions.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_metric_types: ['fee_rate'] — explicit additional fee percentages stated."
+    "possible_metric_types: ['fee_rate'] \u2014 explicit additional fee percentages stated."
   ],
   "possible_subjects": [
     "LemonSqueezy additional fee breakdown: +1.5% international, +1.5% PayPal, +0.5% subscriptions"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

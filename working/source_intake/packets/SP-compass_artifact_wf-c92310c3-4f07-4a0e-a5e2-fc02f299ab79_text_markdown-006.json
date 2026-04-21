@@ -28,11 +28,24 @@
   "possible_subjects": [
     "Domestika help article on Domestika Plus payment (accessed April 2026): Plus subscription cannot be purchased with cash or bank transfer (available in Mexico, Colombia, Brazil); subscription requires a payment method that supports automatic renewal"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["MX", "CO", "BR"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX",
+    "CO",
+    "BR"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

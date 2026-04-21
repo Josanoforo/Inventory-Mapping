@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Third-party tool (gumforge.reavid.cc) offering AI-powered Gumroad product page generation for conversion optimization"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "partial"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"$14.59/month — Yearly payment of $174.50\"",
+      "snippet_text": "\"$14.59/month \u2014 Yearly payment of $174.50\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -62,7 +62,7 @@
     }
   ],
   "intake_notes": [
-    "Domestika Plus pricing page (undated). Annual plan: $14.59/month ($174.50/year); monthly plan: $33.90/month; renewal at full price $349 after year 1; 14% discount for annual; credits save ≥20% on courses.",
+    "Domestika Plus pricing page (undated). Annual plan: $14.59/month ($174.50/year); monthly plan: $33.90/month; renewal at full price $349 after year 1; 14% discount for annual; credits save \u226520% on courses.",
     "source_date_unclear: page undated; pricing pages update frequently."
   ],
   "possible_subjects": [
@@ -71,11 +71,17 @@
     "Domestika Plus: 14% discount for annual payment vs monthly",
     "Domestika credits: minimum 20% savings on course prices"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

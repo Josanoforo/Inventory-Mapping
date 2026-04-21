@@ -26,17 +26,25 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Medium blog post (undated). Seller comparing Gumroad to Payhip: Gumroad charges 10% ($10 on $100 course = $500 on $5,000/month revenue). Seller switched to Payhip.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_metric_types: ['fee_rate', 'revenue'] — 10% fee rate explicitly stated; $5,000/month revenue as example."
+    "possible_metric_types: ['fee_rate', 'revenue'] \u2014 10% fee rate explicitly stated; $5,000/month revenue as example."
   ],
   "possible_subjects": [
     "Gumroad 10% fee rate vs Payhip (seller comparison)",
     "Gumroad seller fee at $5,000/month revenue: $500"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "revenue"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

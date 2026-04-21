@@ -64,18 +64,26 @@
   "intake_notes": [
     "Domestika Affiliates platform doc (undated). Commission: 40% first-time purchase, 20% recurring, $2 sign-up without purchase; 30-day cookie; monthly payout in USD via PayPal.",
     "source_date_unclear: page undated.",
-    "possible_metric_types: ['fee_rate', 'revenue', 'payout_method_availability'] — commission rates (40%/20%); $2/sign-up; PayPal payout."
+    "possible_metric_types: ['fee_rate', 'revenue', 'payout_method_availability'] \u2014 commission rates (40%/20%); $2/sign-up; PayPal payout."
   ],
   "possible_subjects": [
     "Domestika affiliate commission: 40% first purchase, 20% recurring, $2 per sign-up",
     "Domestika affiliate cookie window: 30 days",
     "Domestika affiliate payout: monthly in USD via PayPal"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "revenue", "payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "revenue",
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Envato Elements vs Shutterstock buyer comparison: Envato suited for design templates and creative assets with all-inclusive pricing; Shutterstock described as more versatile for broader high-quality content range"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

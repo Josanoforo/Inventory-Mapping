@@ -43,15 +43,26 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Etsy Payments: deposit fee structure — deposit minimum, fee threshold, deposit fee apply in certain countries; deposit fee deducted at time of transfer and subject to VAT",
+    "Etsy Payments: deposit fee structure \u2014 deposit minimum, fee threshold, deposit fee apply in certain countries; deposit fee deducted at time of transfer and subject to VAT",
     "Etsy Payments: Payoneer account available for sellers in Argentina, Brazil, Chile, Egypt, Georgia, Japan, Kazakhstan, Pakistan, Peru, Serbia, South Korea, Thailand, Ukraine, UAE",
     "Etsy Payments: starting May 8, 2025, new sellers in Germany, Austria, Netherlands required to have credit or debit card to enroll"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability", "fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["DE", "AT", "NL"],
-  "uncertainties": ["context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "DE",
+    "AT",
+    "NL"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

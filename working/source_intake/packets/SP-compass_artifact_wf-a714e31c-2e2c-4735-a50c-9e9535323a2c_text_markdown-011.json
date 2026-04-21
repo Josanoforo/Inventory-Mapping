@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Si te ganas $10.000 al mes con Hotmart, tendrás que pagar cerca de $1.000 al mes por usar la plataforma. Estarás pagando mucho más si estás vendiendo un gran número de ofertas debido a su comisión de 50c por venta.\"",
+      "snippet_text": "\"Si te ganas $10.000 al mes con Hotmart, tendr\u00e1s que pagar cerca de $1.000 al mes por usar la plataforma. Estar\u00e1s pagando mucho m\u00e1s si est\u00e1s vendiendo un gran n\u00famero de ofertas debido a su comisi\u00f3n de 50c por venta.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Hotmart fee cost projection (undated competitor analysis): at $10,000/month revenue, Hotmart fee estimated at approximately $1,000/month (10%); additional $0.50 per-sale fee increases total cost for high-volume sellers"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

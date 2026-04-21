@@ -72,7 +72,7 @@
     },
     {
       "snippet_id": "SNP-007",
-      "snippet_text": "\"Etsy Reviews 19,506 • TrustScore 1.5 out of 5 • 1.5\"",
+      "snippet_text": "\"Etsy Reviews 19,506 \u2022 TrustScore 1.5 out of 5 \u2022 1.5\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -87,11 +87,22 @@
   "possible_subjects": [
     "Etsy Trustpilot reviews (accessed April 2026): 19,506 reviews, TrustScore 1.5/5; recurring themes: misdeclared origin items from China, refund difficulty, review blocked after refund; one positive experience with UK seller February 2026"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy", "review_count"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US", "GB"],
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy",
+    "review_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US",
+    "GB"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

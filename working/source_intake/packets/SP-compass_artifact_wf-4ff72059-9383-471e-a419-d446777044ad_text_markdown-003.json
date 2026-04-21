@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Los tiempos estimados para el procesamiento de un Reembolso una vez autorizado el mismo son los siguientes: Pago con TDC tiempo de 5 días hábiles. Pago con Banca por internet 5 días hábiles. Depósito Bancario 5 días hábiles.\"",
+      "snippet_text": "\"Los tiempos estimados para el procesamiento de un Reembolso una vez autorizado el mismo son los siguientes: Pago con TDC tiempo de 5 d\u00edas h\u00e1biles. Pago con Banca por internet 5 d\u00edas h\u00e1biles. Dep\u00f3sito Bancario 5 d\u00edas h\u00e1biles.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -29,11 +29,18 @@
   "possible_subjects": [
     "Kichink: refund processing time 5 business days for credit/debit card, internet banking, and bank deposit"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

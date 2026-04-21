@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Third-party tool (marketsy.ai/tools/gumroad-trends) for identifying high-performing Gumroad products and trend analysis for digital product sellers"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "partial"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Merchant of record was the dealbreaker. As a solo developer selling globally, I didn't want to handle VAT, GST, and sales tax compliance across 50+ countries myself. Lemon Squeezy handles all of that as the merchant of record — they collect the tax, file the returns, and I get a clean payout. Stripe is more flexible but puts the tax burden on me. Paddle was the other serious option but Lemon Squeezy's setup was simpler and their dashboard is cleaner for a one-product business. The license key generation API also integrates cleanly with my custom activation system on Cloudflare Workers.\"",
+      "snippet_text": "\"Merchant of record was the dealbreaker. As a solo developer selling globally, I didn't want to handle VAT, GST, and sales tax compliance across 50+ countries myself. Lemon Squeezy handles all of that as the merchant of record \u2014 they collect the tax, file the returns, and I get a clean payout. Stripe is more flexible but puts the tax burden on me. Paddle was the other serious option but Lemon Squeezy's setup was simpler and their dashboard is cleaner for a one-product business. The license key generation API also integrates cleanly with my custom activation system on Cloudflare Workers.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "LemonSqueezy: developer chose platform for merchant-of-record tax handling (VAT, GST, sales tax across 50+ countries); clean payout without seller tax compliance burden; compared with Stripe (no MoR) and Paddle"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

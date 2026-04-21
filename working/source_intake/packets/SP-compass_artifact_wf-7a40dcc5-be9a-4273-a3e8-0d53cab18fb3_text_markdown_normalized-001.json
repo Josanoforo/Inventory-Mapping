@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"I used to sell Print-on-Demand products on Etsy. Picture it: I'd design a T-shirt, someone would order it, a print company would ship it out. Sounds like a dream, right? Until I found myself sleep-deprived, buried in customer messages asking where their orders were. I realized I had built myself a full-time job — not the creative freedom I was chasing. Then I discovered digital products. No inventory. No shipping. No late-night headaches. Just a few clicks, some uploads — and passive income started to flow, even while I was watching Netflix. Last December, I made over $2,000 in net profit.\"",
+      "snippet_text": "\"I used to sell Print-on-Demand products on Etsy. Picture it: I'd design a T-shirt, someone would order it, a print company would ship it out. Sounds like a dream, right? Until I found myself sleep-deprived, buried in customer messages asking where their orders were. I realized I had built myself a full-time job \u2014 not the creative freedom I was chasing. Then I discovered digital products. No inventory. No shipping. No late-night headaches. Just a few clicks, some uploads \u2014 and passive income started to flow, even while I was watching Netflix. Last December, I made over $2,000 in net profit.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Etsy seller: $2,000+ net profit from digital products in December 2024; transitioned from print-on-demand to digital products"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["profit"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "profit"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

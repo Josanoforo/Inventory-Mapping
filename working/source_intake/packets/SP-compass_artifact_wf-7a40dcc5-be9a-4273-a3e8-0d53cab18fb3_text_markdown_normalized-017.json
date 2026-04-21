@@ -38,11 +38,20 @@
     "Etsy seller (EU): US tariff implementation caused buyers to leave low-star reviews about shipping costs and taxes rather than product/service quality; seller shop rating dropped",
     "Etsy seller (EU): combined fees exceed 32% (transaction + operating + regulatory + off-site ad + VAT); approximately 50% when postage included"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["EU"],
-  "uncertainties": ["net_vs_gross_ambiguity", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "EU"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

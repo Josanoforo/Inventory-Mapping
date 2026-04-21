@@ -36,11 +36,18 @@
     "Adobe Stock vs Envato Elements: Adobe Stock offers multiple license tiers (Standard, Enhanced, Extended); Standard license includes $10,000 legal coverage; Envato Elements uses single license type",
     "Adobe Stock better for CC-integrated workflows; Envato Elements better for affordability and asset breadth including templates, audio tracks"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

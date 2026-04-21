@@ -25,11 +25,19 @@
   "possible_subjects": [
     "Hotmart help doc (accessed April 2026): autofill fast-buy feature reduces checkout time and cart abandonment; platform claims conversion rate increase of up to 7%"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["conversion_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "conversion_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

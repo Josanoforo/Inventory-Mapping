@@ -62,7 +62,7 @@
     },
     {
       "snippet_id": "SNP-006",
-      "snippet_text": "\"The fee for an Etsy Plus subscription is $10 USD per month. Etsy Plus subscription fees are deducted from your current balance each month and reflected in your payment account. Where applicable, Etsy may charge local taxes (e.g. sales taxes or VAT/GST) on your monthly subscription fee. While you are subscribed to Etsy Plus, you are provided with the following credits each subscription cycle: 15 listing credits, which are visible as $3 in listings credit in your payment account · $5 USD in Etsy Ads credits, which are visible in your payment account and on your advertising management page · You must use the credits during the subscription cycle, otherwise they expire. Credits will not roll over month to month. They will be reset and replenished at the beginning of each subscription cycle.\"",
+      "snippet_text": "\"The fee for an Etsy Plus subscription is $10 USD per month. Etsy Plus subscription fees are deducted from your current balance each month and reflected in your payment account. Where applicable, Etsy may charge local taxes (e.g. sales taxes or VAT/GST) on your monthly subscription fee. While you are subscribed to Etsy Plus, you are provided with the following credits each subscription cycle: 15 listing credits, which are visible as $3 in listings credit in your payment account \u00b7 $5 USD in Etsy Ads credits, which are visible in your payment account and on your advertising management page \u00b7 You must use the credits during the subscription cycle, otherwise they expire. Credits will not roll over month to month. They will be reset and replenished at the beginning of each subscription cycle.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -193,16 +193,23 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Etsy: comprehensive fee policy — $0.20 listing fee; 6.5% transaction fee on price+shipping+gift wrap; 2.5% currency conversion fee",
+    "Etsy: comprehensive fee policy \u2014 $0.20 listing fee; 6.5% transaction fee on price+shipping+gift wrap; 2.5% currency conversion fee",
     "Etsy Plus subscription: $10 USD/month; includes 15 listing credits and $5 Ads credits per cycle; credits expire monthly",
     "Etsy Offsite Ads: 15% fee for shops under $10,000/year in sales; 12% for shops at or over $10,000/year (permanent once reached); 30-day attribution window",
     "Etsy: one-time shop setup fee non-refundable; all service fees non-refundable; off-platform transactions prohibited"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

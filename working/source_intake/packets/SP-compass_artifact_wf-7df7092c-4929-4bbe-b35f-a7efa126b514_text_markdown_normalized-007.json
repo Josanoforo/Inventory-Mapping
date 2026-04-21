@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Envato ThemeForest: buyer submitted refund request May 14, 2025 for WordPress theme with Safari iPhone responsiveness issue; refund outcome unknown from snippet"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["refund_policy"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

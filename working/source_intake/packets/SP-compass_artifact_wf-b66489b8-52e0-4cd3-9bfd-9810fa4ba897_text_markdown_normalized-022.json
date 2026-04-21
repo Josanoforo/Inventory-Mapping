@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Analytics helps you understand exactly where you should dedicate your focus on with powerful, in-depth analytics.\" … Visitor Sources help article states: \"These analytics are enough to get you started with tracking visitor sources. If you need more in-depth information then we recommend connecting your Google Analytics account to Payhip.\"",
+      "snippet_text": "\"Analytics helps you understand exactly where you should dedicate your focus on with powerful, in-depth analytics.\" \u2026 Visitor Sources help article states: \"These analytics are enough to get you started with tracking visitor sources. If you need more in-depth information then we recommend connecting your Google Analytics account to Payhip.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Payhip built-in analytics features (undated): native analytics for visitor source tracking; Google Analytics integration recommended for deeper insights"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

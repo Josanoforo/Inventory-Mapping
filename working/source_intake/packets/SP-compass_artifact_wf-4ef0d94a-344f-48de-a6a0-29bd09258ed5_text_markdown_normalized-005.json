@@ -42,11 +42,19 @@
     "Domestika: no exchange rate commission charged; bank/processor may add conversion fee",
     "Domestika invoices in USD regardless of local currency display"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["payment_method_availability", "fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

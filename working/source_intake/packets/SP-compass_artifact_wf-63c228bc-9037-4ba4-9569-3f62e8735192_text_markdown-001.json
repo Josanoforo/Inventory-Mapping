@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"I have actually made $203.32 to date in this calendar year from 2,766 sales. You may be wondering, 'That sale volume… with that revenue amount!!' Yes, that's true.\"",
+      "snippet_text": "\"I have actually made $203.32 to date in this calendar year from 2,766 sales. You may be wondering, 'That sale volume\u2026 with that revenue amount!!' Yes, that's true.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -29,11 +29,19 @@
   "possible_subjects": [
     "Gumroad seller: $203.32 revenue from 2,766 sales in one calendar year (~$0.07 average per sale)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "sales_count"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "revenue",
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

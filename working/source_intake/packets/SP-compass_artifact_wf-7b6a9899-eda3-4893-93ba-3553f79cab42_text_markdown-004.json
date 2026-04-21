@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Cerraron mi cuenta supuestamente por plagio, cuando yo cree mi ebook completamente con inteligencia artificial. Se quedaron con $2,000 que habian en mi cuenta, que gane con mucho esfuerzo y ahora no me permiten ingresar y sacar los fondos. Tengo campañas de Facebook por pagar y no tengo respuesta de ellos\"",
+      "snippet_text": "\"Cerraron mi cuenta supuestamente por plagio, cuando yo cree mi ebook completamente con inteligencia artificial. Se quedaron con $2,000 que habian en mi cuenta, que gane con mucho esfuerzo y ahora no me permiten ingresar y sacar los fondos. Tengo campa\u00f1as de Facebook por pagar y no tengo respuesta de ellos\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Hotmart producer: account closed for alleged AI-generated ebook plagiarism; $2,000 USD in accumulated earnings withheld with account access blocked"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout", "revenue"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

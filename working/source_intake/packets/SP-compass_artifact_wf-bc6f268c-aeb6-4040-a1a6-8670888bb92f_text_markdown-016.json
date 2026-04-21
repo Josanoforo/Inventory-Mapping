@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Envato Market Extras page (accessed April 2026): community-built extensions, apps, and tools using the Envato Market API; types include browser extensions, WordPress plugins, web apps, iOS apps, and widgets; API documentation available at build.envato"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

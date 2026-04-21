@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "[Stated in layout: \"Mexican peso (MXN) Argentine peso (ARG) Colombian peso (COP) Chilean peso (CLP) Peruvian sol (PEN) Panamanian balboa (PAB) Brazilian real (BRL) Uruguayan peso (UYU) Costa Rica colón (CRC)\"]",
+      "snippet_text": "[Stated in layout: \"Mexican peso (MXN) Argentine peso (ARG) Colombian peso (COP) Chilean peso (CLP) Peruvian sol (PEN) Panamanian balboa (PAB) Brazilian real (BRL) Uruguayan peso (UYU) Costa Rica col\u00f3n (CRC)\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -38,11 +38,30 @@
   "possible_subjects": [
     "Domestika help article on pricing currencies (accessed April 2026): 9 LatAm currencies supported (MXN, ARG, COP, CLP, PEN, PAB, BRL, UYU, CRC); Domestika does not apply FX commissions or taxes; bank or payment processor may add FX fees"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["MX", "AR", "CO", "CL", "PE", "PA", "BR", "UY", "CR"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX",
+    "AR",
+    "CO",
+    "CL",
+    "PE",
+    "PA",
+    "BR",
+    "UY",
+    "CR"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

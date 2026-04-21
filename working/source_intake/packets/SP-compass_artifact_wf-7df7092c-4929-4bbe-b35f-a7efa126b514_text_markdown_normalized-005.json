@@ -27,11 +27,21 @@
   "possible_subjects": [
     "Envato: buyer from Ghana reporting inability to purchase items using PayPal; seeking alternative payment methods"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["GH"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "GH"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

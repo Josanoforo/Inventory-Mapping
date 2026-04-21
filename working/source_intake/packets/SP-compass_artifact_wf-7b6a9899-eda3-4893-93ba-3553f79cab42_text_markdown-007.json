@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"El servicio de atención al productor es una auténtica basura. Los tiempos de espera son una locura y te vas sin solución. Puedes volver a intentarlo varias veces y da lo mismo, es penoso. No se lo re...\"",
+      "snippet_text": "\"El servicio de atenci\u00f3n al productor es una aut\u00e9ntica basura. Los tiempos de espera son una locura y te vas sin soluci\u00f3n. Puedes volver a intentarlo varias veces y da lo mismo, es penoso. No se lo re...\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Hotmart seller: customer support described as poor quality with unreasonable wait times and no resolution"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "partial"
 }

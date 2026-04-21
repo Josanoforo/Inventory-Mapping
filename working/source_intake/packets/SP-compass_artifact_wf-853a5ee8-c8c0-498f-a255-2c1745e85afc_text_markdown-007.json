@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "[Stated in layout: \"Complements Shutterstock's existing offering with Envato Elements, a leading unlimited multi-asset subscription offering · Expands Shutterstock's reach within faster growing audiences such as freelancers, hobbyists, small businesses and agencies · Adds 650k subscribers, more than doubling Shutterstock's subscriber base to 1.15 million\"]",
+      "snippet_text": "[Stated in layout: \"Complements Shutterstock's existing offering with Envato Elements, a leading unlimited multi-asset subscription offering \u00b7 Expands Shutterstock's reach within faster growing audiences such as freelancers, hobbyists, small businesses and agencies \u00b7 Adds 650k subscribers, more than doubling Shutterstock's subscriber base to 1.15 million\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Shutterstock acquisition of Envato completed July 22, 2024: Envato added 650k subscribers, bringing total Shutterstock subscriber base to 1.15 million"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["active_buyers"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "active_buyers"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "current_vs_historical_ambiguity"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

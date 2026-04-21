@@ -27,11 +27,21 @@
   "possible_subjects": [
     "Etsy seller (Canada): US tariff requirements increased prices globally, pricing seller out of non-US markets; requests separate US-only pricing tier"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

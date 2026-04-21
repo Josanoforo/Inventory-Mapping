@@ -23,13 +23,19 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Etsy seller: 300 sales over first year on Etsy (approximately June 2024–June 2025) selling licensed artwork products"
+    "Etsy seller: 300 sales over first year on Etsy (approximately June 2024\u2013June 2025) selling licensed artwork products"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["sales_count"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

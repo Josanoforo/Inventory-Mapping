@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Hotmart es una plataforma que combina la funcionalidad de un LMS y un marketplace, popular sobre todo en España y Latinoamérica. Permite a los creadores de contenido alojar y vender sus cursos, además de sumar a la fórmula un sistema de afiliados para potenciar las ventas.\"",
+      "snippet_text": "\"Hotmart es una plataforma que combina la funcionalidad de un LMS y un marketplace, popular sobre todo en Espa\u00f1a y Latinoam\u00e9rica. Permite a los creadores de contenido alojar y vender sus cursos, adem\u00e1s de sumar a la f\u00f3rmula un sistema de afiliados para potenciar las ventas.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,22 @@
   "possible_subjects": [
     "Hotmart platform positioning in Spain and Latin America (undated): described as combining LMS and marketplace functionality; popular in Spain and Latin America; includes affiliate system for boosting creator sales"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["ES"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "ES"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

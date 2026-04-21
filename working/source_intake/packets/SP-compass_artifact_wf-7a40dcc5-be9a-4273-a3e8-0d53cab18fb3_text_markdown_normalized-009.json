@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"At first, I ignored the fees. It was just cents, right? But by the time I was actually making steady sales, I realized the math didn't add up. Listing fees, transaction fees, ad pushes I never asked for—it felt like Etsy was nickeling and diming me until I was running in circles. One month, I sold about $400 worth of products. After fees and shipping, I barely saw $150. That was the month I stopped calling Etsy my 'business' and started calling it my 'hobby tax.'\"",
+      "snippet_text": "\"At first, I ignored the fees. It was just cents, right? But by the time I was actually making steady sales, I realized the math didn't add up. Listing fees, transaction fees, ad pushes I never asked for\u2014it felt like Etsy was nickeling and diming me until I was running in circles. One month, I sold about $400 worth of products. After fees and shipping, I barely saw $150. That was the month I stopped calling Etsy my 'business' and started calling it my 'hobby tax.'\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Etsy seller: $400 gross sales resulted in ~$150 net after fees and shipping (~62.5% combined deduction from fees and shipping costs)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "revenue"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"NO es claro lo del dinero pues debe ser mas sencillo que lo envien a la cuenta que ya autorizaron sin problema , pues son 7 dias de garantia para el cliente y luego porque no puedo usar mi dinero , en fin es eso muy revuelto. De lo bueno son una plataforma muy accesible y segura para vender asi que unas por otras , ojala mejoren para dar mas difusión a los clientes y pagos prontos pero estan en la media , por eso solo 3 estrellas merecen en mi opinion.\"",
+      "snippet_text": "\"NO es claro lo del dinero pues debe ser mas sencillo que lo envien a la cuenta que ya autorizaron sin problema , pues son 7 dias de garantia para el cliente y luego porque no puedo usar mi dinero , en fin es eso muy revuelto. De lo bueno son una plataforma muy accesible y segura para vender asi que unas por otras , ojala mejoren para dar mas difusi\u00f3n a los clientes y pagos prontos pero estan en la media , por eso solo 3 estrellas merecen en mi opinion.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,17 @@
   "possible_subjects": [
     "Hotmart seller: payout process unclear; expects direct transfer to authorized account after 7-day buyer guarantee period; rated 3 stars due to complexity of money access"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "partial"
 }

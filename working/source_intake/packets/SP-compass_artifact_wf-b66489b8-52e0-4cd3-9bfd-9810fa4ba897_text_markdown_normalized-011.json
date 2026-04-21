@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "Transitioning Vegan Cookbook $15.00 | Tales Of The Greatcoats $11.99 | Dujitsu Font $19.00 | Keto Cookbook Volume 2.0 $14.99 | Love to Cook Again Weekly Meal Planners $5.95 | Master Handstand $30.00 | Simple Science Fitness $5.99 | Breakfast Eats and Protein £4.50 | Planting Our Roots $10.00",
+      "snippet_text": "Transitioning Vegan Cookbook $15.00 | Tales Of The Greatcoats $11.99 | Dujitsu Font $19.00 | Keto Cookbook Volume 2.0 $14.99 | Love to Cook Again Weekly Meal Planners $5.95 | Master Handstand $30.00 | Simple Science Fitness $5.99 | Breakfast Eats and Protein \u00a34.50 | Planting Our Roots $10.00",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -43,13 +43,21 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Payhip homepage product examples and platform overview (accessed April 2026): featured products range from $5.95 to $30.00 and £4.50; product categories include digital downloads, courses, coaching, memberships, physical products; resources hub for seller guidance"
+    "Payhip homepage product examples and platform overview (accessed April 2026): featured products range from $5.95 to $30.00 and \u00a34.50; product categories include digital downloads, courses, coaching, memberships, physical products; resources hub for seller guidance"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

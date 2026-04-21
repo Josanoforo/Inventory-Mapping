@@ -24,16 +24,24 @@
   "intake_notes": [
     "Hotmart help center article (accessed April 14, 2026; no publication date). Non-Brazil creators selling to Brazil buyers: only credit card and PIX available; bank slip and transfer not supported across currency boundary.",
     "source_date_unclear: only access date available; no publication date on page.",
-    "possible_metric_types: ['payment_method_availability'] — describes which payment methods work for non-Brazil creators selling to Brazil buyers."
+    "possible_metric_types: ['payment_method_availability'] \u2014 describes which payment methods work for non-Brazil creators selling to Brazil buyers."
   ],
   "possible_subjects": [
     "Hotmart Brazil buyer payment methods for non-Brazil creators: credit card + PIX only"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Brazil"],
-  "uncertainties": ["source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Brazil"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

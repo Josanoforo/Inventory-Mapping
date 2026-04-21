@@ -36,11 +36,18 @@
     "Etsy seller (print-on-demand): $135,000 revenue in 2024 dropped to $109,000 in 2025 (~19% year-over-year decline); ~45% profit margin",
     "Etsy: AI-generated designs increased listing saturation; competitive advantage diluted as AI creation tools are accessible to all sellers equally"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "profit"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "revenue",
+    "profit"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["net_vs_gross_ambiguity"],
+  "uncertainties": [
+    "net_vs_gross_ambiguity"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

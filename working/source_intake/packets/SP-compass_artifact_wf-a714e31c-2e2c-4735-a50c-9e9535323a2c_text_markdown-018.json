@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"En Hotmart: La comisión para un curso de 199€ es 9,9% + 0,50€, lo que equivale a 20,85€ por cada venta. En tu web propia: Usando Stripe/PayPal, la comisión sería del 2,9% + 0,30€, es decir, 5,08€ por cada venta.\"",
+      "snippet_text": "\"En Hotmart: La comisi\u00f3n para un curso de 199\u20ac es 9,9% + 0,50\u20ac, lo que equivale a 20,85\u20ac por cada venta. En tu web propia: Usando Stripe/PayPal, la comisi\u00f3n ser\u00eda del 2,9% + 0,30\u20ac, es decir, 5,08\u20ac por cada venta.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,13 +25,23 @@
     "Derived from Part 2 provisional findings; stage 2 must downgrade tradeability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
   ],
   "possible_subjects": [
-    "Hotmart vs own website fee comparison for €199 course (undated): Hotmart charges 9.9% + €0.50 = €20.85 per sale; comparable Stripe/PayPal cost = 2.9% + €0.30 = €5.08 per sale; approximately 4x cost differential"
+    "Hotmart vs own website fee comparison for \u20ac199 course (undated): Hotmart charges 9.9% + \u20ac0.50 = \u20ac20.85 per sale; comparable Stripe/PayPal cost = 2.9% + \u20ac0.30 = \u20ac5.08 per sale; approximately 4x cost differential"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["EU"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "EU"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

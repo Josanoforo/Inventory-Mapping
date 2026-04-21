@@ -30,11 +30,18 @@
   "possible_subjects": [
     "Etsy: nearly 90 million active buyers in 2024; buyers intentionally seeking handmade/personalized goods"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["active_buyers"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "active_buyers"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

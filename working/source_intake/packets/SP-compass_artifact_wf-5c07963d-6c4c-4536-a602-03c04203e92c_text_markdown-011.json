@@ -29,11 +29,19 @@
   "possible_subjects": [
     "Etsy: 'Keep Commerce Human' mission statement (circa 2017)"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

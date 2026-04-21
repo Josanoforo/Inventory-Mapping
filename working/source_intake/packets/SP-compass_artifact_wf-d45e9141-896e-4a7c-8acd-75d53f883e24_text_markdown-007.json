@@ -27,11 +27,20 @@
   "possible_subjects": [
     "ScribbleHub forum thread on Patreon vs Ko-fi (~2023): forum member states Ko-fi has cheaper fees and more options including subscriptions; Patreon chosen by authors for its popularity and reader familiarity"
   ],
-  "possible_actor_levels": ["seller", "buyer"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

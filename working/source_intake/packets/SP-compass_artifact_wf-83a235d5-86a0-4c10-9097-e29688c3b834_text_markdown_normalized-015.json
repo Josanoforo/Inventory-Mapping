@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"In the United States, Australia, Canada, the European Union, Hong Kong, Indonesia, Israel, Malaysia, Mexico, Morocco, New Zealand, Norway, Philippines, Singapore, South Africa, Switzerland, Türkiye, United Kingdom and Vietnam, Available Funds can only be deposited into bank accounts, in the domestic currency of the account, which includes the following currencies: US Dollars (USD), Australian Dollars (AUD), Canadian Dollars (CAD), Swiss Francs (CHF), Danish Krone (DKK), Euros (EUR), British Pounds (GBP), Hong Kong Dollars (HKD), Indonesian Rupiah (IDR), Israeli Shekel (ILS), Moroccan Dirham (MAD), Mexican Peso (MXN), Malaysian Ringgit (MYR), New Zealand Dollars (NZD), Norwegian Krone (NOK), Philippine Peso (PHP), Swedish Krona (SEK), Singapore Dollars (SGD), Turkish Lira (TRY), South African Rand (ZAR) and Vietnamese Dong (VND).\"",
+      "snippet_text": "\"In the United States, Australia, Canada, the European Union, Hong Kong, Indonesia, Israel, Malaysia, Mexico, Morocco, New Zealand, Norway, Philippines, Singapore, South Africa, Switzerland, T\u00fcrkiye, United Kingdom and Vietnam, Available Funds can only be deposited into bank accounts, in the domestic currency of the account, which includes the following currencies: US Dollars (USD), Australian Dollars (AUD), Canadian Dollars (CAD), Swiss Francs (CHF), Danish Krone (DKK), Euros (EUR), British Pounds (GBP), Hong Kong Dollars (HKD), Indonesian Rupiah (IDR), Israeli Shekel (ILS), Moroccan Dirham (MAD), Mexican Peso (MXN), Malaysian Ringgit (MYR), New Zealand Dollars (NZD), Norwegian Krone (NOK), Philippine Peso (PHP), Swedish Krona (SEK), Singapore Dollars (SGD), Turkish Lira (TRY), South African Rand (ZAR) and Vietnamese Dong (VND).\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -38,11 +38,17 @@
     "Etsy Payments: deposits credited to seller bank accounts within 5 business days of Etsy initiating deposit",
     "Etsy Payments: bank deposit available in 19 countries/regions including US, Australia, Canada, EU, UK, and others; domestic currency only per market"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["none"],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

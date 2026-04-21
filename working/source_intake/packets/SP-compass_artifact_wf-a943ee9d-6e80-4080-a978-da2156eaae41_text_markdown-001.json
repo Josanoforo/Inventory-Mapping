@@ -37,11 +37,20 @@
   "possible_subjects": [
     "Etsy buyer metrics full year 2025 (updated March 2026): 93.5 million total buyers; 5.9 million habitual buyers (7% of total, -2.01% YoY); average annual spend $127.40; habitual buyers contribute 40% of GMS (-2.44% YoY); app accounts for 45% of GMS (+7.14% YoY); 64.7% of buyers under 44; 58.4% female"
   ],
-  "possible_actor_levels": ["marketplace", "buyer"],
-  "possible_metric_types": ["active_buyers", "revenue"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace",
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "active_buyers",
+    "revenue"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

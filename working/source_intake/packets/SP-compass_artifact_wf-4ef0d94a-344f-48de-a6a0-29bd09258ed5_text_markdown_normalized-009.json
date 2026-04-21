@@ -42,11 +42,20 @@
     "Domestika payment methods: Visa/MC/Amex/UnionPay/Elo/Hipercard/BBVA/Santander; varies by location",
     "Domestika: all payments charged in USD (US-based company); bank exchange rate applies"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

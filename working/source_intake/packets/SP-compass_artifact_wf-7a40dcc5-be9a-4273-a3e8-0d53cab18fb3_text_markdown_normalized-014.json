@@ -25,11 +25,19 @@
   "possible_subjects": [
     "Etsy seller (US, Emmalyn Perez): sales collapsed in 2025 due to US import tariff increases; seller cannot afford to continue importing materials for products"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

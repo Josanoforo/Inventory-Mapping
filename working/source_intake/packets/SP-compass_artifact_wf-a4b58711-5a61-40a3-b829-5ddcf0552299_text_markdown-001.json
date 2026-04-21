@@ -77,11 +77,19 @@
   "possible_subjects": [
     "Patreon creator fee structure: Founders plan (pre-May 7, 2019) with 5% platform fee; payment processing 2.9%+$0.30 USD; 2.5% currency conversion fee calculated on full processed amount including tax; platform fee excludes sales tax"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

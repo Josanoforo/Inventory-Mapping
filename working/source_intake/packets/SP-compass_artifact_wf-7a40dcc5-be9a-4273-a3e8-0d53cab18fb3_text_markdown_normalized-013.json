@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"On the 6th of November, our sales went from 1.2k per day, to £20 -Etsy support were no help, stating it was just our SEO. It was clear that it wasn't, as we just weren't visible in search. Our shop name wasn't coming up, nada.\"",
+      "snippet_text": "\"On the 6th of November, our sales went from 1.2k per day, to \u00a320 -Etsy support were no help, stating it was just our SEO. It was clear that it wasn't, as we just weren't visible in search. Our shop name wasn't coming up, nada.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,13 +25,21 @@
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
   ],
   "possible_subjects": [
-    "Etsy seller (UK): daily revenue dropped from ~£1,200 to £20 on November 6, 2025 due to search invisibility; Etsy support attributed to SEO despite shop name not appearing in search"
+    "Etsy seller (UK): daily revenue dropped from ~\u00a31,200 to \u00a320 on November 6, 2025 due to search invisibility; Etsy support attributed to SEO despite shop name not appearing in search"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "search_discovery"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "revenue",
+    "search_discovery"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

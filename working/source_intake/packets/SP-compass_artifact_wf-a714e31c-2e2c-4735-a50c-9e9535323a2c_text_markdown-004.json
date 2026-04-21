@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Hotmart es una plataforma global y completa para quienes desean vender productos digitales, siendo la más grande de América Latina en el sector de educación a distancia. Con más de 500,000 productos registrados y ventas en más de 188 países, Hotmart permite que cualquier persona comparta su conocimiento o producto con el mundo de forma práctica y segura.\"",
+      "snippet_text": "\"Hotmart es una plataforma global y completa para quienes desean vender productos digitales, siendo la m\u00e1s grande de Am\u00e9rica Latina en el sector de educaci\u00f3n a distancia. Con m\u00e1s de 500,000 productos registrados y ventas en m\u00e1s de 188 pa\u00edses, Hotmart permite que cualquier persona comparta su conocimiento o producto con el mundo de forma pr\u00e1ctica y segura.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,11 +25,18 @@
   "possible_subjects": [
     "Hotmart platform scale claims (undated): self-reported 500,000+ registered products, sales in 188+ countries; described as largest Latin American distance education platform"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["sales_count"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

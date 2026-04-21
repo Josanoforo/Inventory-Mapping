@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"es una porquería vender, muchos de los productores no te dan material y te dicen que lo busques tu mismo para vender sus cursos. retiro mínimo de 50, pero debes tener más de 60 porque sino entonces no puedes retirar nada (cuando vas a retirar te dice que lo válido que posees para retirar son cuarenta y dele) tanto esforzarme para que a la larga se queden con esa plata ellos.\"",
+      "snippet_text": "\"es una porquer\u00eda vender, muchos de los productores no te dan material y te dicen que lo busques tu mismo para vender sus cursos. retiro m\u00ednimo de 50, pero debes tener m\u00e1s de 60 porque sino entonces no puedes retirar nada (cuando vas a retirar te dice que lo v\u00e1lido que posees para retirar son cuarenta y dele) tanto esforzarme para que a la larga se queden con esa plata ellos.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Hotmart affiliate: stated minimum payout threshold of 50 (currency unspecified) but balance must exceed 60 to initiate withdrawal; available balance shown as lower than expected at withdrawal"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

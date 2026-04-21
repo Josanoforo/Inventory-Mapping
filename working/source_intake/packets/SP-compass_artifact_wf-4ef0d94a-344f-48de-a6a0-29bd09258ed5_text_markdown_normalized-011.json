@@ -32,11 +32,22 @@
     "Domestika Plus: cash and bank transfer excluded from subscription payment (Mexico, Colombia, Brazil)",
     "Domestika Plus: requires auto-renewal-capable payment method"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Mexico", "Colombia", "Brazil"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Mexico",
+    "Colombia",
+    "Brazil"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

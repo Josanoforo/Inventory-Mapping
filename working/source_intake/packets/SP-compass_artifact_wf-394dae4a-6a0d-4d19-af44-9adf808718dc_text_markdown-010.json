@@ -26,16 +26,23 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Payoneer marketing article (undated). Hotmart uses Payoneer for LatAm mass payouts; Payoneer network covers 190+ countries, 70+ currencies.",
     "source_date_unclear: no publication date specified.",
-    "possible_metric_types: ['payout_method_availability'] — Payoneer as payout infrastructure for Hotmart."
+    "possible_metric_types: ['payout_method_availability'] \u2014 Payoneer as payout infrastructure for Hotmart."
   ],
   "possible_subjects": [
     "Hotmart payout infrastructure: Payoneer for LatAm mass payouts (190+ countries, 70+ currencies)"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

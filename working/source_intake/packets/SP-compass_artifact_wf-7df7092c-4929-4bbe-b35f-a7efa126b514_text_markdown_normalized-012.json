@@ -52,7 +52,7 @@
     },
     {
       "snippet_id": "SNP-005",
-      "snippet_text": "\"Envato Elements used to be great value with truly unlimited AI generations included in the subscription. I paid for my plan (annual, no less) expecting that access to continue, as advertised when I signed up.Then, without warning or proper grandfathering for existing subscribers, they slashed it to just 10 generations per month on the standard/Core plan starting February 25, 2026. 10. That's basically nothing—especially since even simple actions like minor edits, upscaling, background removal, retries for bad outputs, or testing variations all count as separate generations.\"",
+      "snippet_text": "\"Envato Elements used to be great value with truly unlimited AI generations included in the subscription. I paid for my plan (annual, no less) expecting that access to continue, as advertised when I signed up.Then, without warning or proper grandfathering for existing subscribers, they slashed it to just 10 generations per month on the standard/Core plan starting February 25, 2026. 10. That's basically nothing\u2014especially since even simple actions like minor edits, upscaling, background removal, retries for bad outputs, or testing variations all count as separate generations.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -117,11 +117,18 @@
     "Envato Elements: mid-term subscription terms change without grandfathering existing annual subscribers; refund requests blocked",
     "Envato Market: buyer complaints about refund non-response, unauthorized re-billing, products removed by authors after purchase"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["price", "refund_policy"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price",
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

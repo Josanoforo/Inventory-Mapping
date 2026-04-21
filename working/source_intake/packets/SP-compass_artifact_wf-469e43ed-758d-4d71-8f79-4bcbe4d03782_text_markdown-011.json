@@ -41,11 +41,20 @@
     "LemonSqueezy: PIX, boleto, installments absent for Brazil market (seller feature requests)",
     "LemonSqueezy: PIX absence identified as migration barrier for Brazilian creators"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Brazil"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Brazil"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

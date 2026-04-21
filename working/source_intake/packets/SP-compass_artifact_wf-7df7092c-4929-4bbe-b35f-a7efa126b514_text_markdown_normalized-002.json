@@ -38,11 +38,20 @@
     "Envato: community generated over 81 million AI creations in 2025; 3 million new assets downloaded",
     "Envato: stock video was top download category in 2025, followed by audio stock, photos, video templates, and graphic templates"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["sales_count", "traffic_volume"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "sales_count",
+    "traffic_volume"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

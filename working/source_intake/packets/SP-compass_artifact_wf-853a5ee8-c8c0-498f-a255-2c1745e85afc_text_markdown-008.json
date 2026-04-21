@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Envato Elements vs Creative Market: Envato has higher overall traffic; Creative Market converts better for niche design assets; differentiated by product type (volume-based vs design-heavy)"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["traffic_volume", "conversion_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "traffic_volume",
+    "conversion_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

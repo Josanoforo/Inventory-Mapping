@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Sort by: Best match · Best sellers · Newest · Best rated · Trending · Price: low to high · Price: high to low\"",
+      "snippet_text": "\"Sort by: Best match \u00b7 Best sellers \u00b7 Newest \u00b7 Best rated \u00b7 Trending \u00b7 Price: low to high \u00b7 Price: high to low\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "GraphicRiver vectors category search page (accessed April 2026): snippet captures sort-order UI only (Best match, Best sellers, Newest, Best rated, Trending, Price: low to high, Price: high to low); no item or metric data present"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

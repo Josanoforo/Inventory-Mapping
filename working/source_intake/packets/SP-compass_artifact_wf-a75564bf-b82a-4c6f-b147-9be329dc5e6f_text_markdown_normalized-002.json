@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Kichink marketplace fee structure (2025): multi-category marketplace covering fashion, health, beauty, food, home, and pets; free storefront for sellers; charges 7.5% commission on transactions from sellers"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

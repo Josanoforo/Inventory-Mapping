@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"Patreon is a way to join and engage with your favorite creator's community. No algorithms or doom scrolling here — you'll have a dedicated place to get content from the creators you know and love.\"",
+      "snippet_text": "\"Patreon is a way to join and engage with your favorite creator's community. No algorithms or doom scrolling here \u2014 you'll have a dedicated place to get content from the creators you know and love.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -37,11 +37,21 @@
   "possible_subjects": [
     "Patreon help article on what Patreon is (accessed April 2026): creators own direct fan relationships; Patreon provides growth tools; positioned as algorithm-free, doom-scroll-free dedicated space for fan-creator engagement"
   ],
-  "possible_actor_levels": ["seller", "buyer", "marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

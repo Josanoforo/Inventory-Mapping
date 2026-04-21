@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Created a 'reading log template' in half an hour. Designed a small set of motivational quote posters (A4 JPGs). Wrote a short guide: '5 Tricks to Build a Micro‑business in a Weekend.' Within 24 hours I had three live products. Tested $1 prices, $5, and the pay‑what‑you‑want model. I shared links in Facebook groups for writers, on LinkedIn, even in a Slack community. One sale here, two there. By day end, $20 in revenue — not earth‑shattering, but a proof of concept.\"",
+      "snippet_text": "\"Created a 'reading log template' in half an hour. Designed a small set of motivational quote posters (A4 JPGs). Wrote a short guide: '5 Tricks to Build a Micro\u2011business in a Weekend.' Within 24 hours I had three live products. Tested $1 prices, $5, and the pay\u2011what\u2011you\u2011want model. I shared links in Facebook groups for writers, on LinkedIn, even in a Slack community. One sale here, two there. By day end, $20 in revenue \u2014 not earth\u2011shattering, but a proof of concept.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -26,17 +26,25 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Medium blog post (undated). Seller launched 3 products on Payhip within 24 hours; tested $1 and $5 price points plus pay-what-you-want; $20 revenue in first day.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_metric_types: ['revenue', 'price'] — $20 day-1 revenue; $1 and $5 product price points."
+    "possible_metric_types: ['revenue', 'price'] \u2014 $20 day-1 revenue; $1 and $5 product price points."
   ],
   "possible_subjects": [
     "Payhip seller day-1 revenue: $20",
     "Payhip low-price product testing ($1, $5, pay-what-you-want)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["revenue", "price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "revenue",
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

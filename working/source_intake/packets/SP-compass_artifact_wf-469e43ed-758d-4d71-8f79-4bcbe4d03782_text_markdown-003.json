@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "[Stated in layout: bank payout country list including \"Argentina · ... · Bolivia · Bosnia and Herzegovina · Botswana · Brunei Darussalam · ... · Chile · Colombia · Costa Rica · ... · Dominican Republic · Ecuador · ... · El Salvador · ... · Guatemala · Guyana · ... · Jamaica · ... · Mexico\"]",
+      "snippet_text": "[Stated in layout: bank payout country list including \"Argentina \u00b7 ... \u00b7 Bolivia \u00b7 Bosnia and Herzegovina \u00b7 Botswana \u00b7 Brunei Darussalam \u00b7 ... \u00b7 Chile \u00b7 Colombia \u00b7 Costa Rica \u00b7 ... \u00b7 Dominican Republic \u00b7 Ecuador \u00b7 ... \u00b7 El Salvador \u00b7 ... \u00b7 Guatemala \u00b7 Guyana \u00b7 ... \u00b7 Jamaica \u00b7 ... \u00b7 Mexico\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -32,7 +32,7 @@
     },
     {
       "snippet_id": "SNP-003",
-      "snippet_text": "\"We cannot accept payments from customers in the following countries: Central African Republic · Cuba · Democratic People's Republic of Korea · Democratic Republic of the Congo · Eritrea · Guinea-Bissau · Iran · Iraq · Lebanon · Libya · Mali · North Korea · Russian Federation · Somalia · South Sudan · Sudan · Syrian Arab Republic · Yemen\"",
+      "snippet_text": "\"We cannot accept payments from customers in the following countries: Central African Republic \u00b7 Cuba \u00b7 Democratic People's Republic of Korea \u00b7 Democratic Republic of the Congo \u00b7 Eritrea \u00b7 Guinea-Bissau \u00b7 Iran \u00b7 Iraq \u00b7 Lebanon \u00b7 Libya \u00b7 Mali \u00b7 North Korea \u00b7 Russian Federation \u00b7 Somalia \u00b7 South Sudan \u00b7 Sudan \u00b7 Syrian Arab Republic \u00b7 Yemen\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -52,11 +52,18 @@
     "LemonSqueezy bank payout: partial LatAm country list (Argentina, Chile, Colombia, Mexico, etc.)",
     "LemonSqueezy restricted buyer countries: 18 sanctioned countries (Cuba, Iran, Russia, etc.)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

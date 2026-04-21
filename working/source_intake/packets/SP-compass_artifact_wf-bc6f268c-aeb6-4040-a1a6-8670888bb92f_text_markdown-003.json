@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Browse on sale code · by BestWpDeveloper in Interface Elements · $10 $6 · 9 Sales · Live Preview · by BestWpDeveloper in Interface Elements · $10 $6 · 4 Sales · Live Preview · by BestWpDeveloper in Add Ons · $10 $6 · 2 Sales · Live Preview · View all · by NinjaTeam in Media · $49 · (1K) 38.2K Sales · Live Preview · by Stepasyuk in WooCommerce · $49 · (311) 15.7K Sales · Live Preview · by Brainstorm_Force in Add Ons · $29 · (2.8K) 84.2K Sales · Live Preview · by agilelogix in WooCommerce · $59 · (414) 15.1K Sales · Live Preview · View all · by modeltheme in Miscellaneous · $49 · 3 Sales\"",
+      "snippet_text": "\"Browse on sale code \u00b7 by BestWpDeveloper in Interface Elements \u00b7 $10 $6 \u00b7 9 Sales \u00b7 Live Preview \u00b7 by BestWpDeveloper in Interface Elements \u00b7 $10 $6 \u00b7 4 Sales \u00b7 Live Preview \u00b7 by BestWpDeveloper in Add Ons \u00b7 $10 $6 \u00b7 2 Sales \u00b7 Live Preview \u00b7 View all \u00b7 by NinjaTeam in Media \u00b7 $49 \u00b7 (1K) 38.2K Sales \u00b7 Live Preview \u00b7 by Stepasyuk in WooCommerce \u00b7 $49 \u00b7 (311) 15.7K Sales \u00b7 Live Preview \u00b7 by Brainstorm_Force in Add Ons \u00b7 $29 \u00b7 (2.8K) 84.2K Sales \u00b7 Live Preview \u00b7 by agilelogix in WooCommerce \u00b7 $59 \u00b7 (414) 15.1K Sales \u00b7 Live Preview \u00b7 View all \u00b7 by modeltheme in Miscellaneous \u00b7 $49 \u00b7 3 Sales\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,13 +25,23 @@
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
   ],
   "possible_subjects": [
-    "CodeCanyon WordPress category page (accessed April 2026): on-sale section shows BestWpDeveloper items $10→$6 with 2–9 sales; featured items include Brainstorm_Force Add Ons $29 with 84.2K sales, NinjaTeam Media $49 with 38.2K sales, Stepasyuk WooCommerce $49 with 15.7K sales"
+    "CodeCanyon WordPress category page (accessed April 2026): on-sale section shows BestWpDeveloper items $10\u2192$6 with 2\u20139 sales; featured items include Brainstorm_Force Add Ons $29 with 84.2K sales, NinjaTeam Media $49 with 38.2K sales, Stepasyuk WooCommerce $49 with 15.7K sales"
   ],
-  "possible_actor_levels": ["marketplace", "seller"],
-  "possible_metric_types": ["sales_count", "price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace",
+    "seller"
+  ],
+  "possible_metric_types": [
+    "sales_count",
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

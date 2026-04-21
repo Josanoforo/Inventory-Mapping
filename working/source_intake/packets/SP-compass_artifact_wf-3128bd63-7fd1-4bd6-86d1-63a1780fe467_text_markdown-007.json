@@ -26,17 +26,26 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Envato Market Author Terms policy page. States earnings paid in USD only; authors bear all currency conversion costs.",
     "source_date_unclear: page undated; accessed April 2026.",
-    "possible_metric_types: ['payout_method_availability'] — describes payout currency structure (USD-only)."
+    "possible_metric_types: ['payout_method_availability'] \u2014 describes payout currency structure (USD-only)."
   ],
   "possible_subjects": [
     "Envato Market USD-only earnings payout",
     "Envato Market author bears currency conversion costs"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

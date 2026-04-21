@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Envato Market Cyber Sale 2025: up to 50% off standard licences on select ThemeForest and CodeCanyon items; promotional period starting November 19, 2025; VideoHive, GraphicRiver, 3DOcean, AudioJungle excluded"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Free Forever: $0/mo + 5% transaction fee — All features / Unlimited products / Unlimited revenue\" … \"Plus: $29/mo + 2% transaction fee\" … \"Pro: $99/mo + No transaction fee\" … \"At Payhip, our goal is to make pricing as simple and transparent as possible. So, no feature-gating here! You'll get access to all of our amazing features to help you grow your business, even on our free plan.\"",
+      "snippet_text": "\"Free Forever: $0/mo + 5% transaction fee \u2014 All features / Unlimited products / Unlimited revenue\" \u2026 \"Plus: $29/mo + 2% transaction fee\" \u2026 \"Pro: $99/mo + No transaction fee\" \u2026 \"At Payhip, our goal is to make pricing as simple and transparent as possible. So, no feature-gating here! You'll get access to all of our amazing features to help you grow your business, even on our free plan.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Payhip pricing tiers (accessed April 2026): Free $0/mo + 5% transaction fee; Plus $29/mo + 2% transaction fee; Pro $99/mo + 0% transaction fee; all features available on all plans including free"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["fee_rate", "price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "weak"
 }

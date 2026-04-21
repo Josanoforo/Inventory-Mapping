@@ -27,11 +27,21 @@
   "possible_subjects": [
     "Etsy seller (Jordan): shop forced to close August 5, 2025 after Etsy removed PayPal as payment option; Etsy Payments unavailable in Jordan; over 5,900 orders completed since 2017"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payment_method_availability", "sales_count"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Jordan"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability",
+    "sales_count"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Jordan"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

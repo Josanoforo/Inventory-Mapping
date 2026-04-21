@@ -24,16 +24,22 @@
   "intake_notes": [
     "Hotmart help center article (accessed April 14, 2026; no publication date). Non-Brazil creators: payout currencies limited to USD, EUR, or GBP.",
     "source_date_unclear: only access date available; no publication date on page.",
-    "possible_metric_types: ['payout_method_availability'] — payout currency options for non-Brazil creators."
+    "possible_metric_types: ['payout_method_availability'] \u2014 payout currency options for non-Brazil creators."
   ],
   "possible_subjects": [
     "Hotmart payout currencies for non-Brazil creators: USD, EUR, or GBP only"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["source_date_unclear"],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

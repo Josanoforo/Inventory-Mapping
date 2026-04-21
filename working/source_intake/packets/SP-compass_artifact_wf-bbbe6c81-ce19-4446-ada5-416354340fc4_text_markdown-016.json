@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Solicitei o reembolso, pois se trata de ARREPENDIMENTO DE COMPRA e de acordo com a LEI NO ARTIGO 49 o estorno do cartão deve ser feito IMEDIATAMENTE. Mas, já se passaram mais de 7 dias e não obtive nenhum estorno. A minha fatura do cartão irá vencer em breve vocês acham justo eu ter que pagar por algo que não estou tendo acesso?\"",
+      "snippet_text": "\"Solicitei o reembolso, pois se trata de ARREPENDIMENTO DE COMPRA e de acordo com a LEI NO ARTIGO 49 o estorno do cart\u00e3o deve ser feito IMEDIATAMENTE. Mas, j\u00e1 se passaram mais de 7 dias e n\u00e3o obtive nenhum estorno. A minha fatura do cart\u00e3o ir\u00e1 vencer em breve voc\u00eas acham justo eu ter que pagar por algo que n\u00e3o estou tendo acesso?\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,20 @@
   "possible_subjects": [
     "Hotmart complaint on ReclameAqui (refund released July 25, year unconfirmed): buyer invokes Brazilian consumer law Article 49 (right of withdrawal) demanding immediate card reversal; refund not received after 7+ days"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["refund_policy"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "refund_policy"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

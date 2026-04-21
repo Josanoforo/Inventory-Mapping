@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Gone are the days of confusing credit plans or monthly limits – your one simple Envato Elements subscription allows you to download any asset you want as many times as you like.\"",
+      "snippet_text": "\"Gone are the days of confusing credit plans or monthly limits \u2013 your one simple Envato Elements subscription allows you to download any asset you want as many times as you like.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Envato Elements: marketing claim of unlimited downloads with no monthly limits or credit plans via single subscription (per landing page; may not reflect post-February 2026 AI generation limit changes)"
   ],
-  "possible_actor_levels": ["buyer"],
-  "possible_metric_types": ["price"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "price"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

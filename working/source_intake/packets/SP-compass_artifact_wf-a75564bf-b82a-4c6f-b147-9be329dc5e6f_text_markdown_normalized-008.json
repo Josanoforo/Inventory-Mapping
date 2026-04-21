@@ -4,7 +4,7 @@
   "source_title": "Tenis 1",
   "source_type": "product_listing",
   "source_ref": "https://www.kichink.com/stores/original-1/category/312954/tenis-1",
-  "source_date_if_available": "Accedido abril 2026; página sin fecha visible",
+  "source_date_if_available": "Accedido abril 2026; p\u00e1gina sin fecha visible",
   "author_or_actor_if_available": null,
   "retrieval_method": "deep_search",
   "retrieved_from": "compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized",
@@ -27,11 +27,22 @@
   "possible_subjects": [
     "Kichink seller profile example (undated): Mexican craft supplies store operating on Kichink platform; offers both physical products and digital downloads; self-described as 100% Mexican company"
   ],
-  "possible_actor_levels": ["seller", "buyer"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["MX"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller",
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

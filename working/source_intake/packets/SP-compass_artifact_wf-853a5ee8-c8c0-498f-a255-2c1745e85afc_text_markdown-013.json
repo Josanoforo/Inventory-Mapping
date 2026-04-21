@@ -4,7 +4,7 @@
   "source_title": "Envato Set To Transform The Design Industry With A New Subscription Service And Fair Payment Model For Designers",
   "source_type": "blog",
   "source_ref": "https://www.envato.com/blog/envato-set-to-transform-the-design-industry-with-a-new-subscription-service-and-fair-payment-model-for-designers",
-  "source_date_if_available": "Accessed April 2026; page undated (context indicates circa 2016–2017, Envato Elements launch announcement)",
+  "source_date_if_available": "Accessed April 2026; page undated (context indicates circa 2016\u20132017, Envato Elements launch announcement)",
   "author_or_actor_if_available": null,
   "retrieval_method": "deep_search",
   "retrieved_from": "compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown",
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Envato Elements launch announcement (circa 2016-2017): described as using a progressive subscriber share model for creator compensation"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

@@ -36,13 +36,21 @@
   ],
   "possible_subjects": [
     "Envato March 2026: direct traffic top channel at 57.69% of desktop visits; organic search 2nd, paid search 3rd; mail most underutilized",
-    "Envato March 2026: audience 56.75% male, 43.25% female; largest age group 25–34"
+    "Envato March 2026: audience 56.75% male, 43.25% female; largest age group 25\u201334"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["traffic_volume", "monthly_visitors"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "traffic_volume",
+    "monthly_visitors"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

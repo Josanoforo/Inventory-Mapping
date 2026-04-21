@@ -38,11 +38,24 @@
   "possible_subjects": [
     "Domestika payment methods help article (accessed April 2026): cash and bank transfer available in Mexico, Colombia, Brazil via dLocal; requires location set in profile; Mexico needs CURP, Colombia needs CC number, Brazil needs CPF/CNPJ; buyer generates proof then completes payment at bank or commercial entity"
   ],
-  "possible_actor_levels": ["buyer", "marketplace"],
-  "possible_metric_types": ["payment_method_availability"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["MX", "CO", "BR"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "possible_actor_levels": [
+    "buyer",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "payment_method_availability"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX",
+    "CO",
+    "BR"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

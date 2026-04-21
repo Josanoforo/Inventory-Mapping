@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Etsy: Regulatory Operating Fee charged on item price and shipping for sellers in certain countries; rate varies by seller location; specific countries and rates not specified in snippet"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "geography_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "geography_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

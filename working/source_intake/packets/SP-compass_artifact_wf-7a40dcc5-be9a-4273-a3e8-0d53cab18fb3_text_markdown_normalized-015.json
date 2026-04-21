@@ -47,11 +47,20 @@
     "Etsy: paid off-site ads and promoted listings described as necessary for success; year of marketing cost roughly equalled additional sales revenue",
     "Etsy seller (international): US tariff increases in 2025 effectively ended ability to sell to US buyers due to prohibitive postage and tax costs"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["US"],
-  "uncertainties": ["net_vs_gross_ambiguity", "context_insufficient"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "US"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

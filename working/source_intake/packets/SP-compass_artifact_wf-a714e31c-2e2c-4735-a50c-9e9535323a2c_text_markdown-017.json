@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Si tu producto cuesta menos de 10 euros, Hotmart cobra 20% por cada venta; mientras que si es de 10.01 euros en adelante, la comisión de la plataforma es de 10%. Ahora bien, si tienes un infoproducto cuyo valor es de 200 euros, debes definir el tipo de comisión que va dirigido a tu equipo de afiliados. Y adicionalmente contabilizar unos 20 euros que quedarán en Hotmart.\"",
+      "snippet_text": "\"Si tu producto cuesta menos de 10 euros, Hotmart cobra 20% por cada venta; mientras que si es de 10.01 euros en adelante, la comisi\u00f3n de la plataforma es de 10%. Ahora bien, si tienes un infoproducto cuyo valor es de 200 euros, debes definir el tipo de comisi\u00f3n que va dirigido a tu equipo de afiliados. Y adicionalmente contabilizar unos 20 euros que quedar\u00e1n en Hotmart.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -25,13 +25,21 @@
     "Derived from Part 2 provisional findings; stage 2 must downgrade traceability_status to weak, add snippet_needs_reopen to uncertainties, and cap priority_for_source_first at medium."
   ],
   "possible_subjects": [
-    "Hotmart tiered commission structure (2021): charges 20% on products priced under €10 and 10% on products €10.01 and above; seller example with €200 product: approximately €20 retained by Hotmart as commission, separate from affiliate commissions"
+    "Hotmart tiered commission structure (2021): charges 20% on products priced under \u20ac10 and 10% on products \u20ac10.01 and above; seller example with \u20ac200 product: approximately \u20ac20 retained by Hotmart as commission, separate from affiliate commissions"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "current_vs_historical_ambiguity", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "current_vs_historical_ambiguity",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

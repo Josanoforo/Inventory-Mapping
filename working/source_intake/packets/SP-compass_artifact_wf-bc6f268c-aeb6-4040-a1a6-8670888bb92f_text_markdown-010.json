@@ -46,13 +46,22 @@
     "URL also appears in other shards: compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown. Packet assigned to this shard by alphabetical order."
   ],
   "possible_subjects": [
-    "Envato Elements pricing page (accessed April 2026): unlimited downloads of 27+ million high-quality assets (stock photos, video footage, motion graphics, music, sound effects, graphics, fonts, templates, 3D models, Lottie animations); AI generation quotas by plan — Core 10/month, Plus 100/month, Ultimate unlimited"
+    "Envato Elements pricing page (accessed April 2026): unlimited downloads of 27+ million high-quality assets (stock photos, video footage, motion graphics, music, sound effects, graphics, fonts, templates, 3D models, Lottie animations); AI generation quotas by plan \u2014 Core 10/month, Plus 100/month, Ultimate unlimited"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["price", "unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "price",
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

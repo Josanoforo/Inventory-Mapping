@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"Ver más productos · Ramones Libreta Pasta Dura 1/2 carta por Ed Vill $220.00 MXN · Ramones Libreta Pasta Dura 1/2 carta · option 1 · option 2 · Cantidad · Agregar al carrito · papá Star Wars por El Regalito $80.00 MXN\"",
+      "snippet_text": "\"Ver m\u00e1s productos \u00b7 Ramones Libreta Pasta Dura 1/2 carta por Ed Vill $220.00 MXN \u00b7 Ramones Libreta Pasta Dura 1/2 carta \u00b7 option 1 \u00b7 option 2 \u00b7 Cantidad \u00b7 Agregar al carrito \u00b7 pap\u00e1 Star Wars por El Regalito $80.00 MXN\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"YO CREO MI REALIDAD. por The Wizard Shop $500.00 MXN · YO CREO MI REALIDAD. option 1 · option 2 · Cantidad · Agregar al carrito · Falda Orion por Lacayo Pez $1200.00 MXN · Falda Orion · option 1 · option 2 · Cantidad · Agregar al carrito · Jabón Menta & Romero Aceite Coco Orgánico por sinolorperruno.com.mx $60.00 MXN · Jabón Menta & Romero Aceite Coco Orgánico · option 1 · option 2 · Cantidad · Agregar al carrito · GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE por TEQUILA ORENDAIN $529.00 MXN · GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE · option 1 · option 2 · Cantidad · Agregar al carrito · Frutero por Serpentina Shop $820.00 MXN\"",
+      "snippet_text": "\"YO CREO MI REALIDAD. por The Wizard Shop $500.00 MXN \u00b7 YO CREO MI REALIDAD. option 1 \u00b7 option 2 \u00b7 Cantidad \u00b7 Agregar al carrito \u00b7 Falda Orion por Lacayo Pez $1200.00 MXN \u00b7 Falda Orion \u00b7 option 1 \u00b7 option 2 \u00b7 Cantidad \u00b7 Agregar al carrito \u00b7 Jab\u00f3n Menta & Romero Aceite Coco Org\u00e1nico por sinolorperruno.com.mx $60.00 MXN \u00b7 Jab\u00f3n Menta & Romero Aceite Coco Org\u00e1nico \u00b7 option 1 \u00b7 option 2 \u00b7 Cantidad \u00b7 Agregar al carrito \u00b7 GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE por TEQUILA ORENDAIN $529.00 MXN \u00b7 GRAN ORENDAIN BLANCO TEQUILA 100% AGAVE \u00b7 option 1 \u00b7 option 2 \u00b7 Cantidad \u00b7 Agregar al carrito \u00b7 Frutero por Serpentina Shop $820.00 MXN\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -32,7 +32,7 @@
     },
     {
       "snippet_id": "SNP-003",
-      "snippet_text": "[Stated in layout: \"Por favor seleccione un país · KICHINK México · KICHINK United States\"]",
+      "snippet_text": "[Stated in layout: \"Por favor seleccione un pa\u00eds \u00b7 KICHINK M\u00e9xico \u00b7 KICHINK United States\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -42,7 +42,7 @@
     },
     {
       "snippet_id": "SNP-004",
-      "snippet_text": "\"Ver más tiendas · zona organikum · Ser sano sí es una opción · Conejo en la Luna · Productos sanos y artesanales · juanfutbol · DESDE EUROPA, UNA INCREÍBLE COLECCIÓN · STEVIA SUPER LIFE® · ENDULZANTES NATURALES\"",
+      "snippet_text": "\"Ver m\u00e1s tiendas \u00b7 zona organikum \u00b7 Ser sano s\u00ed es una opci\u00f3n \u00b7 Conejo en la Luna \u00b7 Productos sanos y artesanales \u00b7 juanfutbol \u00b7 DESDE EUROPA, UNA INCRE\u00cdBLE COLECCI\u00d3N \u00b7 STEVIA SUPER LIFE\u00ae \u00b7 ENDULZANTES NATURALES\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -58,11 +58,22 @@
   "possible_subjects": [
     "Kichink homepage product catalog (2025): marketplace displays products priced in Mexican pesos (MXN); operates in Mexico and United States; product categories include fashion, crafts, food items, and lifestyle products"
   ],
-  "possible_actor_levels": ["marketplace", "buyer"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["MX", "US"],
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "possible_actor_levels": [
+    "marketplace",
+    "buyer"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "MX",
+    "US"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

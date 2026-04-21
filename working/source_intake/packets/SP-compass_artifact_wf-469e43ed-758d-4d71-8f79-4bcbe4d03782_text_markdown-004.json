@@ -32,7 +32,7 @@
     },
     {
       "snippet_id": "SNP-003",
-      "snippet_text": "[Stated in layout: currency list of 130+ items including \"ARS - Argentine Peso\", \"BOB - Boliviano\", \"BRL - Brazilian Real\", \"CLP - Chilean Peso\", \"COP - Colombian Peso\", \"CRC - Costa Rican Colon\", \"DOP - Dominican Peso\", \"GTQ - Guatemalan Quetzal\", \"HNL - Honduran Lempira\", \"MXN - Mexican Peso\", \"NIO - Nicaraguan Córdoba\", \"PEN - Peruvian Nuevo Sol\", \"PYG - Paraguayan Guarani\", \"UYU - Uruguayan Peso\"; list ends at \"ZMW - Zambian Kwacha\" with no VES entry between UZS and VND]",
+      "snippet_text": "[Stated in layout: currency list of 130+ items including \"ARS - Argentine Peso\", \"BOB - Boliviano\", \"BRL - Brazilian Real\", \"CLP - Chilean Peso\", \"COP - Colombian Peso\", \"CRC - Costa Rican Colon\", \"DOP - Dominican Peso\", \"GTQ - Guatemalan Quetzal\", \"HNL - Honduran Lempira\", \"MXN - Mexican Peso\", \"NIO - Nicaraguan C\u00f3rdoba\", \"PEN - Peruvian Nuevo Sol\", \"PYG - Paraguayan Guarani\", \"UYU - Uruguayan Peso\"; list ends at \"ZMW - Zambian Kwacha\" with no VES entry between UZS and VND]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -52,11 +52,18 @@
     "LemonSqueezy: payouts always in USD, converted at mid-market rate",
     "LemonSqueezy: 130+ display currencies including ARS, BRL, CLP, COP, MXN, PEN"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

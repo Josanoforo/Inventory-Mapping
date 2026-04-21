@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "[Stated in layout: \"Music · Sound Effects · Graphic Templates · Graphics · 3D · Presentation Templates · Photos · Fonts · Add-ons · Web Templates · CMS Templates · WordPress · Extensions · Free Files · Popular Searches · Stock Video · Stock Footage · Motion Graphics · All Stock Video · Video Templates · After Effects · Premiere Pro · Apple Motion · Final Cut Pro · DaVinci Resolve · All Video Templates\"]",
+      "snippet_text": "[Stated in layout: \"Music \u00b7 Sound Effects \u00b7 Graphic Templates \u00b7 Graphics \u00b7 3D \u00b7 Presentation Templates \u00b7 Photos \u00b7 Fonts \u00b7 Add-ons \u00b7 Web Templates \u00b7 CMS Templates \u00b7 WordPress \u00b7 Extensions \u00b7 Free Files \u00b7 Popular Searches \u00b7 Stock Video \u00b7 Stock Footage \u00b7 Motion Graphics \u00b7 All Stock Video \u00b7 Video Templates \u00b7 After Effects \u00b7 Premiere Pro \u00b7 Apple Motion \u00b7 Final Cut Pro \u00b7 DaVinci Resolve \u00b7 All Video Templates\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -27,11 +27,19 @@
   "possible_subjects": [
     "Envato Elements graphic-templates search page (accessed April 2026): snippet captures navigation menu listing asset categories (Music, Sound Effects, Graphic Templates, Graphics, 3D, Presentation Templates, Photos, Fonts, etc.) and video template subcategories; no item or metric data present"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["unknown"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "unknown"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "low",
   "traceability_status": "weak"
 }

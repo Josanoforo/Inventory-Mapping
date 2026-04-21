@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "[Stated in layout: \"There are certain times when an additional fee might be added to the platform fee to cover processing fees: +1.5% for international (outside of the US) transactions · +1.5% for PayPal transactions · +0.5% for subscription payments\"]",
+      "snippet_text": "[Stated in layout: \"There are certain times when an additional fee might be added to the platform fee to cover processing fees: +1.5% for international (outside of the US) transactions \u00b7 +1.5% for PayPal transactions \u00b7 +0.5% for subscription payments\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -42,7 +42,7 @@
     },
     {
       "snippet_id": "SNP-004",
-      "snippet_text": "[Stated in layout: \"A flat fee of $0.50 per payout for accounts in the US · 3% capped at $30 per payout for accounts outside the US\"]",
+      "snippet_text": "[Stated in layout: \"A flat fee of $0.50 per payout for accounts in the US \u00b7 3% capped at $30 per payout for accounts outside the US\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -52,7 +52,7 @@
     },
     {
       "snippet_id": "SNP-005",
-      "snippet_text": "[Stated in layout: \"Some of Lemon Squeezy's marketing features have additional fees. These include: +5% for payments recovered through abandoned cart emails · +3% for affiliate referrals (merchants) +2% for affiliate payouts (affiliates)\"]",
+      "snippet_text": "[Stated in layout: \"Some of Lemon Squeezy's marketing features have additional fees. These include: +5% for payments recovered through abandoned cart emails \u00b7 +3% for affiliate referrals (merchants) +2% for affiliate payouts (affiliates)\"]",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -83,11 +83,19 @@
     "Lemon Squeezy marketing feature fees: +5% abandoned cart recovery, +3% affiliate merchant fee, +2% affiliate payout fee",
     "Lemon Squeezy: custom pricing available for high-volume sellers or products under $10"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate", "payout_method_availability"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate",
+    "payout_method_availability"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

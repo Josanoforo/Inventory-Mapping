@@ -36,11 +36,18 @@
     "Etsy: creativity standards update may classify thousands of supply sellers (blanks: tumblers, shirts, hats) as noncompliant",
     "Etsy seller: supports creativity standards update to protect original-content artists from generic or AI-generated competition"
   ],
-  "possible_actor_levels": ["seller", "marketplace"],
-  "possible_metric_types": ["activation_requirement"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller",
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "activation_requirement"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["context_insufficient"],
+  "uncertainties": [
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "partial"
 }

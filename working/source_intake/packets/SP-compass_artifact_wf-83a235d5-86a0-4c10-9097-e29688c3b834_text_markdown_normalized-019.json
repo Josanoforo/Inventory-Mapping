@@ -12,7 +12,7 @@
   "snippets": [
     {
       "snippet_id": "SNP-001",
-      "snippet_text": "\"If you accept payments through Etsy Payments, we also collect a 4% + €0.30 payment processing fee when an item is sold.\"",
+      "snippet_text": "\"If you accept payments through Etsy Payments, we also collect a 4% + \u20ac0.30 payment processing fee when an item is sold.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -23,13 +23,21 @@
   ],
   "intake_notes": [],
   "possible_subjects": [
-    "Etsy Payments: EU payment processing fee 4% + €0.30 per sale (per EU sell page)"
+    "Etsy Payments: EU payment processing fee 4% + \u20ac0.30 per sale (per EU sell page)"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["fee_rate"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["EU"],
-  "uncertainties": ["none"],
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "EU"
+  ],
+  "uncertainties": [
+    "none"
+  ],
   "priority_for_source_first": "high",
   "traceability_status": "partial"
 }

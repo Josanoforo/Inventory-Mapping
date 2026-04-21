@@ -50,11 +50,19 @@
     "Lemon Squeezy chargeback: platform handles dispute; seller's next payout debited for refund (minus platform fee) + $15 dispute fee",
     "Lemon Squeezy: reserves right to issue refunds within 60 days at discretion to prevent chargebacks"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["refund_policy", "fee_rate"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "refund_policy",
+    "fee_rate"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

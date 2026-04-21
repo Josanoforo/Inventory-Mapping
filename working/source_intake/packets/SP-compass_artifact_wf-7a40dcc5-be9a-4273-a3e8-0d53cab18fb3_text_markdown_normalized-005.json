@@ -27,11 +27,18 @@
   "possible_subjects": [
     "Etsy seller: platform overrode shipping rate setting to charge buyer discounted rate rather than seller-configured retail rate; seller reports profit erosion from shipping micromanagement"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["profit"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "profit"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "context_insufficient"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "context_insufficient"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

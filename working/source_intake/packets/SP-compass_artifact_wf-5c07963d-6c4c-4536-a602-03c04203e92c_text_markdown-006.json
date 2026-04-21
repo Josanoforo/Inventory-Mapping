@@ -22,7 +22,7 @@
     },
     {
       "snippet_id": "SNP-002",
-      "snippet_text": "\"In 2013 Etsy changed its policy allowing sellers to hire people to run their businesses and to partner with manufacturers to produce their goods … my business slowed … [cheaper] designs that were once unique to my shop flooded the platform. … to sell on Amazon Handmade you need to qualify by submitting an artisan application. [This process, in my opinion] encourages a more authentic artisanal space by auditing each shop prior to accepting them to ensure the items are genuinely handmade.\"",
+      "snippet_text": "\"In 2013 Etsy changed its policy allowing sellers to hire people to run their businesses and to partner with manufacturers to produce their goods \u2026 my business slowed \u2026 [cheaper] designs that were once unique to my shop flooded the platform. \u2026 to sell on Amazon Handmade you need to qualify by submitting an artisan application. [This process, in my opinion] encourages a more authentic artisanal space by auditing each shop prior to accepting them to ensure the items are genuinely handmade.\"",
       "context_before": null,
       "context_after": null,
       "location_pointer": {
@@ -40,11 +40,19 @@
     "Etsy 2013 policy change: allowed manufacturer partnerships; reported to dilute handmade niche",
     "Amazon Handmade: requires artisan application approval process before selling"
   ],
-  "possible_actor_levels": ["seller"],
-  "possible_metric_types": ["activation_requirement"],
-  "possible_time_scopes": null,
+  "possible_actor_levels": [
+    "seller"
+  ],
+  "possible_metric_types": [
+    "activation_requirement"
+  ],
+  "possible_time_scopes": [],
   "possible_geographies": null,
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear", "current_vs_historical_ambiguity"],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }

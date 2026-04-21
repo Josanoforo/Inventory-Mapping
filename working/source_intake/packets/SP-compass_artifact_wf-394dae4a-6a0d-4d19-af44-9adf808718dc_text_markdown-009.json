@@ -26,16 +26,32 @@
     "Part 2 consequences applied: traceability_status=weak, snippet_needs_reopen added, priority capped at medium.",
     "Affiliate program database article (undated). Hotmart: millions of users, 188+ countries, offices in 8 countries.",
     "source_date_unclear: no publication date specified.",
-    "possible_metric_types: ['active_buyers'] — 'millions of users' implies active buyer/user scale."
+    "possible_metric_types: ['active_buyers'] \u2014 'millions of users' implies active buyer/user scale."
   ],
   "possible_subjects": [
     "Hotmart global reach: 188+ countries, offices in 8 countries"
   ],
-  "possible_actor_levels": ["marketplace"],
-  "possible_metric_types": ["active_buyers"],
-  "possible_time_scopes": null,
-  "possible_geographies": ["Brazil", "Spain", "Mexico", "Colombia", "Netherlands", "France", "United Kingdom", "United States"],
-  "uncertainties": ["snippet_needs_reopen", "source_date_unclear"],
+  "possible_actor_levels": [
+    "marketplace"
+  ],
+  "possible_metric_types": [
+    "active_buyers"
+  ],
+  "possible_time_scopes": [],
+  "possible_geographies": [
+    "Brazil",
+    "Spain",
+    "Mexico",
+    "Colombia",
+    "Netherlands",
+    "France",
+    "United Kingdom",
+    "United States"
+  ],
+  "uncertainties": [
+    "snippet_needs_reopen",
+    "source_date_unclear"
+  ],
   "priority_for_source_first": "medium",
   "traceability_status": "weak"
 }
