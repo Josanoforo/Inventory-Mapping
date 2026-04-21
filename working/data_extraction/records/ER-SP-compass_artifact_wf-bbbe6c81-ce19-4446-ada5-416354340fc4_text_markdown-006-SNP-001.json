@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "hotmart.pissedconsumer.com",
+  "source_ref": "https://hotmart.pissedconsumer.com/review.html",
+  "source_date_if_available": "2 Feb 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"yo debía unas cuotas a black sheet, me contactó un abogado español el cual llegamos a un acuerdo de pagar 7 cuotas y resulta que pagué las 7 cuotas y aún me siguen cobrando a través de la plataforma hotmart, por favor paren de cobrar o me tocará ir a las vías legales, porque ya esto no es un cobro, es un robo cobrar cuotas de más, mi nombre es juan carlos martinez anillo\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Hotmart PissedConsumer reviewer (February 2, 2026) reports continued charges via Hotmart despite completing a 7-installment payment agreement for 'Black Sheet' arranged with a Spanish lawyer; reviewer threatens legal action and characterizes continued charges as theft",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "2 Feb 2026",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Continued Hotmart charges after completing agreed 7-installment payment; reviewer threatens legal action",
+    "Spanish-language complaint; Spain context implied ('abogado español')"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "hotmart.pissedconsumer.com (February 2, 2026). Continued subscription charges after 7-installment agreement completed. Nature of 'Black Sheet' product unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.pissedconsumer.com/review.html",
+    "secondary_pointer": null
+  }
+}
