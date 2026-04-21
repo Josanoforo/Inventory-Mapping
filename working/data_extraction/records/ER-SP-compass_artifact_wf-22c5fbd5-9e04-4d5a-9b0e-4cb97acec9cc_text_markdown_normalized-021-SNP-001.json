@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-021",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/domestika.org?page=35",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I have been a Domestika customer for 3 years with 30+ courses in my library. I thought they were good. Clearly not. Like everyone else, I got an ad for £0.99 courses, bought it. No mention of a free trial or annual subscription at all... As a customer, my trust has been utterly betrayed. The cracks in their business practices had been showing for years with the way they treated their teachers. But this is a new low.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Domestika buyer enrolled in annual subscription without disclosure after purchasing a £0.99 promotional course: no mention of free trial or subscription terms",
+  "actor_level": "buyer",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "0.99",
+  "metric_unit": "GBP",
+  "time_scope_raw": "3 years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "I have been a Domestika customer for 3 years with 30+ courses in my library",
+    "I got an ad for £0.99 courses, bought it",
+    "No mention of a free trial or annual subscription at all",
+    "The cracks in their business practices had been showing for years with the way they treated their teachers"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Trustpilot buyer review (2025, no specific date): customer purchased a £0.99 promotional course and was unknowingly enrolled in Domestika Plus annual subscription with no disclosure. Reviewer also references instructor mistreatment as prior evidence of problematic practices."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/domestika.org?page=35",
+    "secondary_pointer": null
+  }
+}
