@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "source_type": "unknown",
+  "source_title": "Complaints",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+  "source_date_if_available": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I was charged twice for the same digital product once on May 8, 2025, and again on June 5, 2025. I contacted Gumroad Support immediately. On June 5, Gumroad Support confirmed the duplicate purchase and said the case would be escalated for review. On June 13, they replied again saying it was still under review. However, since then, I have received no further communication, and no refund has been issued.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "BBB complaint (filed July 10, 2025) describes a Gumroad buyer who was charged twice for the same digital product on May 8 and June 5, 2025; Gumroad support confirmed the duplicate and escalated twice but stopped communicating; no refund was issued as of the complaint filing date",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+  "time_scope_normalized_if_safe": "2025-07-10",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "BBB complaint (Jul 10, 2025): duplicate charge May 8 + Jun 5, 2025 for same digital product; Gumroad support confirmed and escalated twice then ceased communication; no refund issued"
+  ],
+  "uncertainties": ["anecdotal_single_source"],
+  "parser_notes": [
+    "bbb.org (Jul 10, 2025). English. Gumroad BBB complaint: duplicate charge (same digital product May 8 and Jun 5, 2025); Gumroad support acknowledged and escalated on Jun 5 and Jun 13, then no further response; no refund issued. Documents support escalation pattern without resolution."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "secondary_pointer": null
+  }
+}
