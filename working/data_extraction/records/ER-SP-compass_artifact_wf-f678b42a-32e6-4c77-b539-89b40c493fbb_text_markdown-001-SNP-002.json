@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_type": "seller_forum",
+  "source_title": "Opinion Hotmart",
+  "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+  "source_date_if_available": "20 de junio de 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"hola! ingresas los dolares a traves de payoneer, retiras por financiera ya sea en billete dolar)para despues cambiar y vender tu antojo) o en pesos. Si es en pesos la misma financiera te los puede depositar a tu cuenta bancaria o si no vos te los depositas por el cajero. Despues facturas tu monotributo normalmente y listo, todo blanqueado.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Comment in Spanish-language review forum (bigbangconversion.com, Jun 20, 2023) describes a workaround for Hotmart sellers in Argentina: receive USD payout via Payoneer, withdraw from a local financial institution in cash dollars or pesos, deposit to bank account, and declare taxes under the Argentine monotributo system",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "20 de junio de 2023",
+  "time_scope_normalized_if_safe": "2023-06-20",
+  "geography_if_explicit": "Argentina",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "bigbangconversion.com (Jun 20, 2023): Argentina Hotmart seller: USD via Payoneer → local financiera cash/peso withdrawal → bank deposit; declare under monotributo"
+  ],
+  "uncertainties": ["anecdotal_single_source"],
+  "parser_notes": [
+    "bigbangconversion.com (Jun 20, 2023). Spanish forum comment: Argentina-specific Payoneer workaround for Hotmart USD payouts. Involves informal financial channels. Single account."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "secondary_pointer": null
+  }
+}
