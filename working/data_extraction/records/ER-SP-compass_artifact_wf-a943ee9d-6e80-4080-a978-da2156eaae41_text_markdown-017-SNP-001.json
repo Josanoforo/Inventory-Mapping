@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-017",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/etsy.co.uk?page=4",
+  "source_date_if_available": "Updated December 3, 2025 (original case from November 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Update 24/11/2025: Today I received an email from Etsy to raise a Case for the order #3863799705 however following the link in the email or by opening the order on the web site I am unable to open a Case. When I press the open Case button it redirects me to the Order page and if I press the help with the order page it redirects me back to the Open Case page. It is impossible. In the meantime I have raised a case with Paypal.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Trustpilot UK reviewer (November 2025) reports Etsy dispute UI is broken: 'Open Case' button and 'Help with Order' page redirect to each other in an infinite loop, making it impossible to file a case; buyer escalated to PayPal instead",
+  "actor_level": "unknown",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 24, 2025; updated December 3, 2025",
+  "time_scope_normalized_if_safe": "2025-11",
+  "geography_if_explicit": "United Kingdom (etsy.co.uk)",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "'Open Case' button redirects to Order page; 'Help with Order' redirects back — infinite loop",
+    "buyer unable to file Etsy case; escalated to PayPal",
+    "UK buyer on etsy.co.uk"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "trustpilot.com/review/etsy.co.uk (November 2025, updated December 3, 2025). Etsy dispute flow UI broken with redirect loop; buyer filed PayPal case instead. Illustrates dispute resolution UX failures."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/etsy.co.uk?page=4",
+    "secondary_pointer": null
+  }
+}
