@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-003-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-003",
+  "source_type": "product_listing",
+  "source_title": "kichink.com",
+  "source_ref": "https://www.kichink.com/",
+  "source_date_if_available": "Accedido abril 2026; copyright @2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Ver más tiendas · zona organikum · Ser sano sí es una opción · Conejo en la Luna · Productos sanos y artesanales · juanfutbol · DESDE EUROPA, UNA INCREÍBLE COLECCIÓN · STEVIA SUPER LIFE® · ENDULZANTES NATURALES\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Kichink homepage displays seller storefronts across niches: organic health products (zona organikum), artisanal goods (Conejo en la Luna), sports (juanfutbol), European collection (labeled 'DESDE EUROPA, UNA INCREÍBLE COLECCIÓN'), natural sweeteners (STEVIA SUPER LIFE)",
+  "actor_level": "platform",
+  "platforms": ["Kichink"],
+  "product_type_if_explicit": "physical goods (organic health products, artisanal goods, sports goods, natural sweeteners)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; copyright @2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexico; at least one store labeled 'DESDE EUROPA' (from Europe)",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "store categories: organic health, artisanal goods, sports, European collection, natural sweeteners",
+    "one store explicitly labeled 'DESDE EUROPA, UNA INCREÍBLE COLECCIÓN'",
+    "kichink.com homepage, accessed April 2026"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "kichink.com (copyright 2025, accessed April 2026). Homepage displays seller storefronts across niches including organic health, artisanal goods, sports, and one labeled 'DESDE EUROPA'. Indicates cross-border seller presence on the platform."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/",
+    "secondary_pointer": null
+  }
+}
