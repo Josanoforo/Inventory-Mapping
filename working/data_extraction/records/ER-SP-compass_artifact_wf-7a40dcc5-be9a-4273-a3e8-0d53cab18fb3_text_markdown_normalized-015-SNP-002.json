@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-015-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-015",
+  "source_type": "blog",
+  "source_title": "Why I Left Etsy",
+  "source_ref": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy",
+  "source_date_if_available": "August 31, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"paying for off-site ads and to appear higher in listings are both necessary to be successful on Etsy. I did pay for marketing for a year as an experiment, and I found that although I made more sales, they basically covered my marketing budget.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy seller reports that Offsite Ads and listing promotion are necessary for success, but one year of paid marketing produced incremental sales that only covered the marketing budget",
+  "actor_level": "seller",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "a year",
+  "time_scope_normalized_if_safe": "P1Y",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Offsite Ads and listing promotion described as necessary for Etsy success",
+    "seller ran paid marketing experiment for one year",
+    "extra sales from marketing barely covered marketing budget"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Blog (August 31, 2025). Same seller as SNP-001: ran paid marketing experiment (Offsite Ads + listing promotion) for one year; extra sales covered only the marketing budget. Argues paid marketing is necessary but self-defeating at small scale."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.thecluttery.com/blog/2025/7/29/why-i-left-etsy",
+    "secondary_pointer": null
+  }
+}
