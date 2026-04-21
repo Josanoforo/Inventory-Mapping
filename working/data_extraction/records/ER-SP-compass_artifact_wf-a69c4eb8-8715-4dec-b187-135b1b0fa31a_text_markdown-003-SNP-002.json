@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Substack Vs Patreon",
+  "source_ref": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+  "source_date_if_available": "September 2, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I've been on Patreon for more than six years, on Substack for six months. I trust in Patreon's consistency, I wonder about Substack's algorithm and how they'll change to make more money. Patreon's method of payment (to creators) is way more elegant and transparent than Substack's, which is a mess.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Creator with 6+ years on Patreon and 6 months on Substack describes Patreon as consistent with more transparent and elegant creator payment method; expresses concern about Substack's algorithm unpredictability",
+  "actor_level": "unknown",
+  "platforms": ["Patreon"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "September 2, 2025",
+  "time_scope_normalized_if_safe": "2025-09-02",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "6+ years Patreon experience vs 6 months Substack",
+    "Patreon: consistency and transparent creator payments cited as strengths",
+    "Substack: payment method described as 'a mess'; algorithm uncertainty concerns"
+  ],
+  "uncertainties": ["methodology_unclear"],
+  "parser_notes": [
+    "krissyteegerstrom.substack.com — Substack vs Patreon (September 2, 2025). Mixed assessment: Patreon stronger on payment transparency and consistency; Substack weaker on payment clarity and algorithm predictability. Single creator's subjective comparison."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+    "secondary_pointer": null
+  }
+}
