@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_type": "blog",
+  "source_title": "Herramientas Para Vender Cursos Online Cual Es La Mejor",
+  "source_ref": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Resumen: es IDEAL para hacer pruebas de concepto con cero inversión. Si nunca has vendido cursos online, puedes cargarlos en Hotmart y ver cómo va esto de la venta de contenido digital. Pero no es una plataforma para crecer contigo porque con facturaciones de 5.000€, el coste es muy superior al de plataformas más completas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog recommends Hotmart for zero-investment concept testing of digital courses but states it is not viable for scaling; at €5,000/month revenue, Hotmart cost exceeds that of more complete platforms",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "revenue",
+  "metric_value_raw": "€5,000/month revenue threshold where Hotmart costs become uncompetitive",
+  "metric_unit": "EUR/month",
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Europe (EUR amounts)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Hotmart recommended for initial zero-investment concept testing only",
+    "at €5,000/month revenue, Hotmart cost exceeds more complete platforms",
+    "characterized as not a platform for long-term growth"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "parser_notes": [
+    "albadelgado.com (undated). Recommends Hotmart for initial testing only; at €5,000/month revenue, Hotmart fee structure exceeds more complete platforms. Third-party scalability analysis; undated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+    "secondary_pointer": null
+  }
+}

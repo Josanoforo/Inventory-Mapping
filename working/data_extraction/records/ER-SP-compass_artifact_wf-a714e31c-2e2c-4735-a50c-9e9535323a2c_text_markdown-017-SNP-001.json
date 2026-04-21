@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017",
+  "source_type": "article",
+  "source_title": "Pros Y Contras De Hotmart 2021",
+  "source_ref": "https://www.marketeroslatam.com/pros-y-contras-de-hotmart-2021",
+  "source_date_if_available": "2021",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Si tu producto cuesta menos de 10 euros, Hotmart cobra 20% por cada venta; mientras que si es de 10.01 euros en adelante, la comisión de la plataforma es de 10%. Ahora bien, si tienes un infoproducto cuyo valor es de 200 euros, debes definir el tipo de comisión que va dirigido a tu equipo de afiliados. Y adicionalmente contabilizar unos 20 euros que quedarán en Hotmart.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Article reports Hotmart tiered commission structure: 20% per sale for products under €10; 10% per sale for products €10.01+; example: €200 product yields ~€20 in Hotmart fees (plus separate affiliate commissions)",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "digital products / online courses",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "under €10: 20% per sale; €10.01+: 10% per sale; €200 product: ~€20 in Hotmart fees",
+  "metric_unit": "% per sale; EUR",
+  "time_scope_raw": "2021",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Europe (EUR amounts)",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Hotmart tiered commission: 20% for products under €10; 10% for products €10.01+",
+    "€200 product example: ~€20 in Hotmart fees, separate from affiliate commissions",
+    "2021 article — current fee structure may differ"
+  ],
+  "uncertainties": ["methodology_unclear", "current_vs_historical_ambiguity"],
+  "parser_notes": [
+    "marketeroslatam.com (2021). Reports Hotmart tiered fee: 20% for products <€10; 10% for products €10.01+. 2021 figures; current Hotmart fee structure may differ."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.marketeroslatam.com/pros-y-contras-de-hotmart-2021",
+    "secondary_pointer": null
+  }
+}

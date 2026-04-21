@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Thinkific Vs Hotmart",
+  "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es un marketplace con millones de usuarios, especialmente en Latinoamérica. Esto te da opciones de visibilidad pasiva, pero también significa competencia directa dentro de la plataforma. Tu curso aparece junto a cientos de alternativas similares. Thinkific no es marketplace: no te entrega tráfico orgánico masivo desde el primer día, pero sí te ofrece herramientas para crear comunidad (como membresías) y captar tu propia audiencia.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog contrasts Hotmart marketplace (millions of Latin American users; passive visibility but direct intra-platform competition) versus Thinkific non-marketplace (no organic traffic but community tools for own audience building)",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart", "Thinkific"],
+  "product_type_if_explicit": "online courses",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Latin America",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Hotmart: marketplace with millions of users especially in Latin America",
+    "Hotmart: passive discovery possible but direct within-platform competition among similar courses",
+    "Thinkific: non-marketplace; no built-in organic traffic; community and membership tools for own audience"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "parser_notes": [
+    "sofiafernandez.es (undated). Compares marketplace models: Hotmart (LatAm millions of users, passive visibility, intra-platform competition) vs. Thinkific (no marketplace traffic, own audience tools). Third-party comparison; undated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+    "secondary_pointer": null
+  }
+}

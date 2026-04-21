@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-016",
+  "source_type": "blog",
+  "source_title": "Hotmart Opiniones",
+  "source_ref": "https://www.lifestylealcuadrado.com/hotmart-opiniones",
+  "source_date_if_available": "Accessed April 2026; page undated (post-2018 context)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Plataformas como Hotmart, Udemy o Amazon serían buenos ejemplos. Todas ellas prestan un servicio online valioso y quitan muchos dolores de cabeza tecnológicos, pero además… facturan para ti. Tú no vendes. Lo hacen ellos por ti. Y, ahora dime, si no controlas las ventas ni los clientes, que son el alma de un proyecto emprendedor, ¿sigues siendo el dueño de tu propio negocio?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Blog critiques creator dependence on marketplace platforms (Hotmart, Udemy, Amazon): platforms handle billing but creators lack control over sales process and customer data, questioning whether this constitutes true business ownership",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart", "Udemy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated (post-2018 context)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Hotmart/Udemy/Amazon: handle invoicing for creators but creator loses sales and customer control",
+    "blog questions whether marketplace dependency constitutes true business ownership",
+    "undated; post-2018 context"
+  ],
+  "uncertainties": ["methodology_unclear", "source_date_unclear"],
+  "parser_notes": [
+    "lifestylealcuadrado.com (undated, post-2018). Critiques marketplace platforms (Hotmart, Udemy, Amazon): billing handled but creator loses sales control and customer data. Philosophical business model critique."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lifestylealcuadrado.com/hotmart-opiniones",
+    "secondary_pointer": null
+  }
+}
