@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_date_if_available": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me quisieron vender un curso de alto ticket, siendo mediocre. Al segundo día lo cancelé. Un gran ayuda su respuesta e inmediatez de devolución de mi dinero en cuestión de unos 10 dias.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Hotmart Trustpilot reviewer (page 9, March 23, 2026; experience March 12, 2026) purchased a high-ticket course found to be mediocre; cancelled on day 2; received refund within approximately 10 days; praised Hotmart's responsiveness",
+  "actor_level": "unknown",
+  "platforms": ["Hotmart"],
+  "product_type_if_explicit": "online courses (high-ticket)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "High-ticket course rated mediocre; cancelled day 2; refund processed in ~10 days",
+    "Hotmart praised for responsiveness and speed of refund"
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [
+    "es.trustpilot.com/review/hotmart.com?page=9 (March 23, 2026; experience March 12, 2026). High-ticket course refund: cancelled day 2, refund in ~10 days. Positive outcome despite poor product."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=9",
+    "secondary_pointer": null
+  }
+}
