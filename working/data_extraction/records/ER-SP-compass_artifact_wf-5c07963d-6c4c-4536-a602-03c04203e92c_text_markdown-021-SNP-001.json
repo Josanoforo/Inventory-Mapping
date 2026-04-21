@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-021-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-021",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-021",
+  "source_type": "blog",
+  "source_title": "Redbubble Vs Etsy",
+  "source_ref": "https://www.topbubbleindex.com/redbubble-vs-etsy",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The constant debate of Redbubble vs Etsy often stems from a misunderstanding of their core business models. One is a hands-off marketplace for artists, while the other is a bustling hub for hands-on creators.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Third-party blog characterizes Redbubble as a hands-off print-on-demand marketplace for artists versus Etsy as a hands-on active creator marketplace",
+  "actor_level": "platform",
+  "platforms": ["Redbubble", "Etsy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "hands-off marketplace for artists",
+    "bustling hub for hands-on creators"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Blog post (topbubbleindex.com, undated). Core model distinction: Redbubble = hands-off POD for artists; Etsy = hands-on creator marketplace."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.topbubbleindex.com/redbubble-vs-etsy",
+    "secondary_pointer": null
+  }
+}
