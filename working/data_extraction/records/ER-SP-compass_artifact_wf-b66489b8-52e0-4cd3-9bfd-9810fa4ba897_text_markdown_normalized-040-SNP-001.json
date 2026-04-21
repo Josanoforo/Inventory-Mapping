@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040",
+  "source_type": "search_results_page",
+  "source_title": "Payhip Template",
+  "source_ref": "https://www.etsy.com/market/payhip_template",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Check out our payhip template selection for the very best in unique or custom, handmade pieces from our templates shops.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Etsy marketplace (accessed April 2026) has a searchable category for 'payhip template' products sold by template shop sellers on Etsy",
+  "actor_level": "platform",
+  "platforms": ["Payhip", "Etsy"],
+  "product_type_if_explicit": "digital templates (Payhip store templates)",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Etsy has a searchable category for 'Payhip templates' sold by Etsy template shop sellers",
+    "cross-platform: Payhip-branded templates sold on Etsy"
+  ],
+  "uncertainties": ["source_date_unclear", "context_insufficient"],
+  "parser_notes": [
+    "etsy.com/market/payhip_template (accessed April 2026; page undated). Etsy category for Payhip-branded templates. Indicates cross-platform market: Etsy sellers creating and selling Payhip store setup templates."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/market/payhip_template",
+    "secondary_pointer": null
+  }
+}
