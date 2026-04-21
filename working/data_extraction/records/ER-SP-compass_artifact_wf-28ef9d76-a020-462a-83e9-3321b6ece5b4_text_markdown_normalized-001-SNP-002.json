@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+  "source_type": "blog",
+  "source_title": "Sendowl Alternatives",
+  "source_ref": "https://bloggingwizard.com/sendowl-alternatives",
+  "source_date_if_available": "Updated February 12, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip markets itself as an all-in-one solution that emphasizes its fast checkout process. It claims that customers can complete a purchase in just seconds. Having a complex checkout process can spell the difference between closing a sale and losing a customer. So if that's a concern for you, then maybe Payhip is the platform you're looking for.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Sendowl Alternatives: Payhip markets itself as an all-in-one solution that emphasizes its fast checkout process.",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "February 12, 2026",
+  "time_scope_normalized_if_safe": "2026-02-12",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bloggingwizard.com/sendowl-alternatives",
+    "secondary_pointer": null
+  }
+}

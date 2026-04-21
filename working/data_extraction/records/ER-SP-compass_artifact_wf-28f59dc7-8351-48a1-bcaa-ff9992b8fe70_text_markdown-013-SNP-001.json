@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-013",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/domestika.org",
+  "source_date_if_available": "Feb 19, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I keep asking to cancel. I'm only getting generic email responses telling me why I can't cancel. Meanwhile, I've been charged over $500 and they are not responding to my requests for cancellation.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Review: I keep asking to cancel.",
+  "actor_level": "unknown",
+  "platforms": [
+    "Domestika",
+    "Trustpilot"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "500",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "unknown",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/domestika.org",
+    "secondary_pointer": null
+  }
+}

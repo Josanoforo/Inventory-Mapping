@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Withholding Taxes With Envato Elements And Envato Market",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With Envato Market, you are selling directly to the customer. When you sell to a buyer based in a country with royalty withholding taxes, they will apply. For example, when you sell to a US buyer, the US royalty withholding tax applies.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Withholding Taxes With Envato Elements And Envato Market: With Envato Market, you are selling directly to the customer.",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000424886-Withholding-Taxes-with-Envato-Elements-and-Envato-Market",
+    "secondary_pointer": null
+  }
+}

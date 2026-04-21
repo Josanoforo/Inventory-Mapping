@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029",
+  "source_type": "product_listing",
+  "source_title": "Partner Program",
+  "source_ref": "https://payhip.com/partner-program",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You are a partner in more than name and share 50% of our revenue from anyone you refer. Lifelong recurring commissions. Our commissions are for life. You continue to earn from stores which you referred years earlier. Unlimited earning potential. There is no cap on the amount you can earn as a partner.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Partner Program: You are a partner in more than name and share 50% of our revenue from anyone you refer.",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "50",
+  "metric_unit": "percent",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/partner-program",
+    "secondary_pointer": null
+  }
+}

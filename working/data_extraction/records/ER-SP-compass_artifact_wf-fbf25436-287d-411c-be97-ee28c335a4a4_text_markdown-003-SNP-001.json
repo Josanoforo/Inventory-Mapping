@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "source_type": "unknown",
+  "source_title": "Complaints",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+  "source_date_if_available": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"On May 31, 2025, I placed two separate orders totaling $900 through the Gumroad platform from the seller digitalebooks1. The seller promoted physical clothing merchandise via Instagram and instructed buyers to complete their orders through Gumroad. However, the invoices falsely labeled the purchases as digital books, even though I never received any digital content or the actual clothing products I paid for.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Complaints (unknown)",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Instagram"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "900",
+  "metric_unit": "USD",
+  "time_scope_raw": "May 31, 2025",
+  "time_scope_normalized_if_safe": "2025-05-31",
+  "geography_if_explicit": null,
+  "evidence_role": "unknown",
+  "local_qualifiers": [
+    "However, the invoices falsely labeled the purchases as digital books, even though I nev"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "secondary_pointer": null
+  }
+}

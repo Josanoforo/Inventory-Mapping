@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Shopify Vs Etsy Comparison",
+  "source_ref": "https://mercury.com/blog/shopify-vs-etsy-comparison",
+  "source_date_if_available": "2025-09-18",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Fees stack up quickly because sellers pay listing fees, transaction fees, and payment processing fees on each sale. Many small business owners researching Shopify fees vs. Etsy fees find that Shopify's predictable monthly costs become more attractive as sales volume grows.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Shopify Vs Etsy Comparison: Fees stack up quickly because sellers pay listing fees",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy",
+    "Shopify"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://mercury.com/blog/shopify-vs-etsy-comparison",
+    "secondary_pointer": null
+  }
+}

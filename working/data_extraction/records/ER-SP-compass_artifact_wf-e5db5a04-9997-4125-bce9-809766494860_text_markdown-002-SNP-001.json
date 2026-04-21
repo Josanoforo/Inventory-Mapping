@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-002",
+  "source_type": "seller_forum",
+  "source_title": "Td P",
+  "source_ref": "https://community.shopify.com/c/Comentarios-sobre-tu-tienda/Me-acabo-de-mudar-de-kichink-a-shopify/td-p/882",
+  "source_date_if_available": "October 24, 2018",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hola! hace casi tres semanas que lancé mi tienda de shopify, deje kichink porque el servicio era muy malo y acaban de subir la comisión de ventas, estuve unos 3 años en kichink y tenía buenas ventas mensuales, a veces más a veces menos y en verdad esperaba tener la misma respuesta con la nueva tienda, pero al parecer no es así y eso que hice el cambio pensando en poder otorgar un mejor servicio\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Td P (seller_forum)",
+  "actor_level": "seller",
+  "platforms": [
+    "Shopify"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "October 24, 2018",
+  "time_scope_normalized_if_safe": "2018-10-24",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://community.shopify.com/c/Comentarios-sobre-tu-tienda/Me-acabo-de-mudar-de-kichink-a-shopify/td-p/882",
+    "secondary_pointer": null
+  }
+}

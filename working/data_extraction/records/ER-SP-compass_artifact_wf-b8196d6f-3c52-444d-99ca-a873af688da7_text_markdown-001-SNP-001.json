@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-001",
+  "source_type": "product_listing",
+  "source_title": "amdesigns.lemonsqueezy.com",
+  "source_ref": "https://amdesigns.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Anime Tracker | Notion Template · TZS15,000 · Apple Slides | Figma Slides Template · TZS0+ · Bookworm Library | Notion Template · TZS25,000 · Min-folio | Notion Template · My Skin | Notion Template\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "amdesigns.lemonsqueezy.com: Anime Tracker | Notion Template · TZS15",
+  "actor_level": "source",
+  "platforms": [
+    "Notion"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://amdesigns.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

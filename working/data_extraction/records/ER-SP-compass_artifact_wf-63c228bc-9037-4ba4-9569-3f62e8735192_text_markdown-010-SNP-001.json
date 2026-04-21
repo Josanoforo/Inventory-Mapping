@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010",
+  "source_type": "buyer_review",
+  "source_title": "Complaints",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+  "source_date_if_available": "June 30, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I am a seller on Gumroad and my account reflects $3,816 in total sales. However, I have only received two small payments ($279.90 and $106.90) and a partial direct payout of $357 after I warned them I would report the issue to federal agencies. I am still owed $1,097.56 and Gumroad continues to delay payments with no clear explanation.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Complaints: I am a seller on Gumroad and my account reflects $3,816 in total sales.",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "3816",
+  "metric_unit": "USD",
+  "time_scope_raw": "June 30, 2025",
+  "time_scope_normalized_if_safe": "2025-06-30",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "However, I have only received two small payments ($279"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "secondary_pointer": null
+  }
+}

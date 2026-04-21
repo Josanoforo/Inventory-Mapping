@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-017",
+  "source_type": "buyer_review",
+  "source_title": "Reembolso Nao Efetuado Apos Solicitacao De Cancelamento Na Hotmart Htghwtroakloltcq",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-apos-solicitacao-de-cancelamento-na-hotmart_hTghWtroaKLOLtCq",
+  "source_date_if_available": "March 2026 (refund solicited 07/03/2026 per Hotmart response)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Fiz uma compra na Hortmart que não era o proposto. Imediatamente, pedi o reembolso do valor. Porém, até agora nada foi feito, inclusive recebi um quiz se havia gostado da compra (???). Espero que façam meu ressarcimento o quanto antes.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Reembolso Nao Efetuado Apos Solicitacao De Cancelamento Na Hotmart Htghwtroakloltcq: Fiz uma compra na Hortmart que não era o proposto.",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-apos-solicitacao-de-cancelamento-na-hotmart_hTghWtroaKLOLtCq",
+    "secondary_pointer": null
+  }
+}

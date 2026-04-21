@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Mejor Plataforma Crear Cursos Online",
+  "source_ref": "https://www.classonlive.com/blog/mejor-plataforma-crear-cursos-online",
+  "source_date_if_available": "Accessed April 2026; originally published November 5, 2019; updated 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La principal diferencia de Hotmart respecto a otros marketplaces como Udemy, es que Hotmart cuenta con una estructura un poco más compleja y tiene 'el afiliado' para revender tus productos que Udemy, por ejemplo, no tiene.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Mejor Plataforma Crear Cursos Online: La principal diferencia de Hotmart respecto a otros marketplaces como Udemy",
+  "actor_level": "seller",
+  "platforms": [
+    "Udemy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 5, 2019",
+  "time_scope_normalized_if_safe": "2019-11-05",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classonlive.com/blog/mejor-plataforma-crear-cursos-online",
+    "secondary_pointer": null
+  }
+}

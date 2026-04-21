@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_type": "help_center",
+  "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+  "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Las compras realizadas por residentes de México en sitios web extranjeros están sujetas a un impuesto del 16%, según la ley del Impuesto al Valor Agregado (IVA), en vigor desde junio de 2020.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Que Impuestos Pueden Aplicarse A Una Compra: Las compras realizadas por residentes de México en sitios web extranjeros están sujetas...",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "16",
+  "metric_unit": "percent of order total",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+    "secondary_pointer": null
+  }
+}

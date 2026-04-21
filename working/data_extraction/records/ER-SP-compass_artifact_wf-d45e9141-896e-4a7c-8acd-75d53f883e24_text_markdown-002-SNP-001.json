@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Patreon Vs Kofi Musicians 2025",
+  "source_ref": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+  "source_date_if_available": "September 5, 2025 (updated April 2, 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For most independent musicians in 2026, Ko-fi is the better starting point. It charges 0% on one-time donations and only 5% on memberships, compared to Patreon's 5-12% plus processing fees. On $500 in monthly fan support, a Ko-fi Gold creator keeps roughly $475 while a Patreon Pro creator nets around $400. However, Patreon wins on community-building tools and structured membership tiers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon Vs Kofi Musicians 2025: For most independent musicians in 2026, Ko-fi is the better starting point.",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "Ko-fi"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "500",
+  "metric_unit": "USD/month",
+  "time_scope_raw": "September 5, 2025",
+  "time_scope_normalized_if_safe": "2025-09-05",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "However, Patreon wins on community-building tools and structured membership tiers"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+    "secondary_pointer": null
+  }
+}

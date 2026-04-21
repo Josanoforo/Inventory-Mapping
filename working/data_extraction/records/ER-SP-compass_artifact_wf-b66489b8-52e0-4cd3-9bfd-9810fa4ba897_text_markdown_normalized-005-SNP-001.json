@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005",
+  "source_type": "article",
+  "source_title": "Marketplace",
+  "source_ref": "https://help.payhip.com/article/307-marketplace",
+  "source_date_if_available": "Last updated January 26, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The Payhip marketplace is the perfect place for you to share your work with the world. It recommends your products to prospective customers outside of your existing following. Helping more people discover your work.\" … \"For your store to be eligible to be listed on the marketplace you would need to meet the following criteria: - Have made at least $10 in total sales - Our accounts team has reviewed your store\" … \"Please note that self-purchases do not count toward this total.\" … \"We aim to complete the approval process within 10 days of submission, but may take longer in some cases.\" … \"At the moment, we can only support digital products on the marketplace. We plan to work on support for the other product types in the future, but will take some time.\" … \"There is no additional fee for sales from the marketplace. You'll continue to be charged the usual Payhip fee for transactions.\" … \"Tagging helps customers easily find your products through search and other discovery areas. So it's a good idea to include tags along with your products.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "The Payhip marketplace is the perfect place for you to share your work with the world.",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "10",
+  "metric_unit": "USD",
+  "time_scope_raw": "January 26, 2026",
+  "time_scope_normalized_if_safe": "2026-01-26",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/307-marketplace",
+    "secondary_pointer": null
+  }
+}

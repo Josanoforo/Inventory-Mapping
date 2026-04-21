@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "Tax Information Form W 8 Requirements For Non Us Authors",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Even if your country does not have a treaty with the US, it is beneficial for you to submit your tax information. By submitting your tax information, your earnings from non-US buyers will not be subject to US taxes. Note, however, that your royalty income from US buyers will attract 30% royalty withholding tax.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Tax Information Form W 8 Requirements For Non Us Authors: Even if your country does not have a treaty with the US",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "30",
+  "metric_unit": "percent of order total",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "however, that your royalty income from US buyers will attract 30% royalty withholding t"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+    "secondary_pointer": null
+  }
+}

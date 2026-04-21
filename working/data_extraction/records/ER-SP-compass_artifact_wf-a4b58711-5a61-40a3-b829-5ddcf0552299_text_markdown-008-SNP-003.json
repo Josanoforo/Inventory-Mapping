@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_type": "help_center",
+  "source_title": "A Standard Platform Fee For New Creators Effective After August 4 2025",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+  "source_date_if_available": "Updated January 28, 2026 15:05 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"It's free to list your work for sale on Patreon (e.g., digital products, posts, and collections). One-time purchases are subject to the same fees as membership payments: Platform fee Between 5% and 12% of successfully processed sales + applicable taxes, depending on your platform plan · Payment processing fee Varies by currency (e.g., 2.9% + $0.30 USD) standard payment process rate\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "A Standard Platform Fee For New Creators Effective After August 4 2025: Stated in layout: \"It's free to list your work for sale on Patreon (e.g.",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "0.30",
+  "metric_unit": "USD",
+  "time_scope_raw": "January 28, 2026",
+  "time_scope_normalized_if_safe": "2026-01-28",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+    "secondary_pointer": null
+  }
+}

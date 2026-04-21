@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Refunds Chargebacks",
+  "source_ref": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The refunded amount (minus our platform fee) will be deducted from your next payout.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Refunds Chargebacks: The refunded amount (minus our platform fee) will be deducted from your next payout.",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+    "secondary_pointer": null
+  }
+}

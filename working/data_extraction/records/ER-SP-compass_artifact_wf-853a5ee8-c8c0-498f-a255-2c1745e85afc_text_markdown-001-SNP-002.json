@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Envato Elements Vs Creative Market",
+  "source_ref": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+  "source_date_if_available": "4 June 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Envato Elements is a subscription-based online marketplace for digital assets. Unlike Creative Market, you don't have to pay for each item individually to buy assets on this platform. Instead, you pay a single monthly subscription to get unlimited access to everything!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato Elements Vs Creative Market: Envato Elements is a subscription-based online marketplace for digital assets.",
+  "actor_level": "seller",
+  "platforms": [
+    "Creative Market"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "June 2024",
+  "time_scope_normalized_if_safe": "2024-06",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+    "secondary_pointer": null
+  }
+}

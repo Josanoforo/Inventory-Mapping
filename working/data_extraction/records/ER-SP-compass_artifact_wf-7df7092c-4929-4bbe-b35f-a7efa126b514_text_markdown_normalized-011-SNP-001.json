@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Website",
+  "source_ref": "https://www.similarweb.com/website/envato.com",
+  "source_date_if_available": "March 2026 (page title: \"[March 2026]\"); accessed April 2026.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The top traffic source to envato.com is Direct traffic, driving 57.69% of desktop visits last month Organic Search is the 2nd and Paid Search is the 3rd. The most underutilized channel is Mail.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Website: The top traffic source to envato.com is Direct traffic",
+  "actor_level": "marketplace",
+  "platforms": [
+    "SimilarWeb"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "57.69",
+  "metric_unit": "percent",
+  "time_scope_raw": "March 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.similarweb.com/website/envato.com",
+    "secondary_pointer": null
+  }
+}

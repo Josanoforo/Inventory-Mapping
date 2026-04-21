@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007",
+  "source_type": "report",
+  "source_title": "Etsy Sales Statistics By Category",
+  "source_ref": "https://linkmybooks.com/blog/etsy-sales-statistics-by-category",
+  "source_date_if_available": "Accessed April 2026; article references 2024 performance and 2025 projections",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Six primary categories collectively account for approximately 87% of Etsy's Gross Merchandise Sales (GMS). This concentration underscores the significance of these segments in driving Etsy's overall sales.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy Sales Statistics By Category: Six primary categories collectively account for approximately 87% of Etsy's Gross Merch...",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "87",
+  "metric_unit": "percent",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "net_vs_gross_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://linkmybooks.com/blog/etsy-sales-statistics-by-category",
+    "secondary_pointer": null
+  }
+}

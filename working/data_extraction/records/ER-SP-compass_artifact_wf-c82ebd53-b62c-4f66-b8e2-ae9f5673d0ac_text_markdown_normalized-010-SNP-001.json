@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010",
+  "source_type": "blog",
+  "source_title": "Hotmart Reembolso",
+  "source_ref": "https://hotmart.com/es/blog/hotmart-reembolso",
+  "source_date_if_available": "19/02/2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Todo Productor, al registrar su producto en la plataforma, debe establecer plazos de garantía para su producto que varían entre 7, 15, 21 y 30 días.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart Reembolso (blog)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/blog/hotmart-reembolso",
+    "secondary_pointer": null
+  }
+}

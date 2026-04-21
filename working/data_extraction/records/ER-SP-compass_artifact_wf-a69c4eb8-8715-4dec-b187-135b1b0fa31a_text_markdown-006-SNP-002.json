@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "Why I Left Patreon",
+  "source_ref": "https://twinflamescorpio.com/why-i-left-patreon",
+  "source_date_if_available": "March 3, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I also started observing specific patterns. I saw creators with YouTube channels exceeding 100,000 subscribers bring in only a small fraction of that audience to Patreon. In some cases, thousands of viewers would watch their videos consistently, yet only a handful converted into paying members.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Why I Left Patreon: I also started observing specific patterns.",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "YouTube"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active_buyers",
+  "metric_value_raw": "100000",
+  "metric_unit": "subscribers",
+  "time_scope_raw": "March 3, 2026",
+  "time_scope_normalized_if_safe": "2026-03-03",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://twinflamescorpio.com/why-i-left-patreon",
+    "secondary_pointer": null
+  }
+}

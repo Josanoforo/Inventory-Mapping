@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "March 22, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I am basted in EU and have a small vintage business on this platform. Since the law changes about tariffs from US, I have a very bad experience with customers reviews. Now buyers leaving 3 ; 2 stars just because of shipping cost and additional fees. Its nothing to do with my shop and its out my control. This is really frustrating that the customer writing reviews only about the taxes, without mentioning the item or the service. My shops rating dropped because of this. PLEASE DO THE OPTION TO RATE THE BUYERS!!!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Review: I am basted in EU and have a small vintage business on this platform.",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy",
+    "Trustpilot"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 22, 2026",
+  "time_scope_normalized_if_safe": "2026-03-22",
+  "geography_if_explicit": [
+    "US",
+    "EU"
+  ],
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

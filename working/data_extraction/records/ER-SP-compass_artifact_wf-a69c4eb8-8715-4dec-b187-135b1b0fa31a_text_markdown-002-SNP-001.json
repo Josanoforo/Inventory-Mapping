@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002",
+  "source_type": "blog",
+  "source_title": "Imagine Your Creativity Could Fund",
+  "source_ref": "https://drmehmetyildiz.substack.com/p/imagine-your-creativity-could-fund",
+  "source_date_if_available": "October 26, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I aim to integrate Substack with Patreon to obtain optimal results. I did it myself and helped many creators who enjoyed it and found it lucrative and more sustainable. After successfully using Patreon for over 6 years for creative, professional, and community-building purposes, I decided to share my experiences and observations in a book titled Patreon Mastery, which was published last month.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Imagine Your Creativity Could Fund: I aim to integrate Substack with Patreon to obtain optimal results.",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "October 26, 2025",
+  "time_scope_normalized_if_safe": "2025-10-26",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://drmehmetyildiz.substack.com/p/imagine-your-creativity-could-fund",
+    "secondary_pointer": null
+  }
+}

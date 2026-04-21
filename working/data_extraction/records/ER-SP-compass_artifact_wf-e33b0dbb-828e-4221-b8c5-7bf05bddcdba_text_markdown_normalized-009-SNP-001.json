@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-009",
+  "source_type": "help_center",
+  "source_title": "Becoming A Partner",
+  "source_ref": "https://help.payhip.com/article/227-becoming-a-partner",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"you can earn a 50% recurring commission on Payhip's transaction fees and any monthly paid plans from the sellers you refer. That means if someone signs up through your link and has upgraded to a paid plan, you get a cut every month as long as the seller is active. You will also earn 50% of the amount we collect from their sales for transaction fees.\"\n\n> \"You get paid out on a monthly basis on the 13th of every month via Paypal. There is a minimum commission amount of $50 for payouts, and if you do not meet this threshold, your commission will be combined with the following months until you reach the minimum balance of $50.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Becoming A Partner: > \"you can earn a 50% recurring commission on Payhip's transaction fees and any monthly...",
+  "actor_level": "seller",
+  "platforms": [
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "50",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/227-becoming-a-partner",
+    "secondary_pointer": null
+  }
+}

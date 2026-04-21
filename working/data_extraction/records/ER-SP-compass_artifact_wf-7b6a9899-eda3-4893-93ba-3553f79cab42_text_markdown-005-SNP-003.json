@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+  "source_date_if_available": "1 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Estafadores! Me bloquearon la cuenta como productor y se quedaron con todo el saldo de mis ventas. Me pidieron 25 días para revisar y ya a mes y medio me la bloquearon totalmente y sin poder acceder a mi panel como productos. NO COMPREN DE ESTA PLATAFORMA SI NO QUIEREN SER ESTAFADOS!!!! Y PRODUCTOR NO VENDAS PORQUE EN CUALQUIER MOMENTO TE BLOQUEAN Y PIERDES TU DINERO! MAS DE 500 USD EN MI CASO ME ROBARON!!!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Review (buyer_review)",
+  "actor_level": "buyer",
+  "platforms": [
+    "Trustpilot"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "secondary_pointer": null
+  }
+}

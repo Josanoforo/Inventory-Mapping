@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-002",
+  "source_type": "pricing_page",
+  "source_title": "Create Your Store",
+  "source_ref": "https://www.kichink.com/create-your-store",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Kichink is the only fully managed service that does not have Signup, Monthly, Yearly, Bianual, centennial, millennial fees... we repeat, NO FIXED FEES, so you can spend in actually growing your business\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Create Your Store: Kichink is the only fully managed service that does not have Signup",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/create-your-store",
+    "secondary_pointer": null
+  }
+}

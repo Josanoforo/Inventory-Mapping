@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-001",
+  "source_type": "report",
+  "source_title": "Etsy Statistics",
+  "source_ref": "https://capitaloneshopping.com/research/etsy-statistics",
+  "source_date_if_available": "Last updated March 29, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Most Etsy shoppers (64.7%) are under 44 years old. 28.9% of Etsy users are between the ages of 25 and 34 years. 17.5% of Etsy users are aged 18 to 25, and 18.3% are aged 35 to 44. Female shoppers account for 58.4% of Etsy users.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy Statistics: Most Etsy shoppers (64.7%) are under 44 years old.",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "64.7",
+  "metric_unit": "percent",
+  "time_scope_raw": "March 29, 2026",
+  "time_scope_normalized_if_safe": "2026-03-29",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://capitaloneshopping.com/research/etsy-statistics",
+    "secondary_pointer": null
+  }
+}

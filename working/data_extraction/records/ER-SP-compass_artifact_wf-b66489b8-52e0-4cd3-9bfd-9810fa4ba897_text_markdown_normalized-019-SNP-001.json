@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-019",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-019",
+  "source_type": "blog",
+  "source_title": "Exciting New Features Launched In 2024",
+  "source_ref": "https://payhip.com/blog/exciting-new-features-launched-in-2024",
+  "source_date_if_available": "2024 (exact month not captured)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Your customers can now create wishlists for your products!\" and \"Running a sale has never been easier! The running sales feature allows you to set up temporary price reductions for specific products or your entire store.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Exciting New Features Launched In 2024: Your customers can now create wishlists for your products!\" and \"Running a sale has nev...",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/blog/exciting-new-features-launched-in-2024",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Patreon Alternative",
+  "source_ref": "https://more.ko-fi.com/patreon-alternative",
+  "source_date_if_available": "Accessed April 2026; page undated (evergreen marketing page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Creators who have made the switch tell us that Ko-fi feels simpler, easier and lower pressure. They like that they're in control of their own terms, prices, payments and supporters. Like Patreon you can set up membership tiers, but on Ko-fi you can also accept tips, open a shop and take commissions with lower service fees.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon Alternative: Creators who have made the switch tell us that Ko-fi feels simpler",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Patreon",
+    "Ko-fi"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "US",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://more.ko-fi.com/patreon-alternative",
+    "secondary_pointer": null
+  }
+}

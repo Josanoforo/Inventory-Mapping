@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-014",
+  "source_type": "buyer_review",
+  "source_title": "Reviews",
+  "source_ref": "https://www.capterra.com/p/219169/Hotmart/reviews",
+  "source_date_if_available": "December 23, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"A Eduzz cobra mais barato, mas não tem tudo o que a hotmart tem, pra criar um quiz, por exemplo, para os alunos eu tive que contratar um plano a parte. Sendo assim, considero que a Hotmart tem o melhor custo benefício para tudo o que oferece. A Eduzz está no caminho certo, mas como cobra tudo a parte, acaba saindo mais caro no final.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Reviews: A Eduzz cobra mais barato",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "December 23, 2022",
+  "time_scope_normalized_if_safe": "2022-12-23",
+  "geography_if_explicit": "EU",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.capterra.com/p/219169/Hotmart/reviews",
+    "secondary_pointer": null
+  }
+}

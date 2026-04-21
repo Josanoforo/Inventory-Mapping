@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "March 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"From January 2024 to August 2025, I used Lemon Squeezy to sell my Framer templates. The experience was mostly positive. The dashboard looked great, and the built-in tools like email marketing and affiliate tracking were definitely helpful.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Polar Vs Lemonsqueezy Vs Gumroad: From January 2024 to August 2025, I used Lemon Squeezy to sell my Framer templates.",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 24, 2026",
+  "time_scope_normalized_if_safe": "2026-03-24",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

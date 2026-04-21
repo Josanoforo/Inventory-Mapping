@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-005",
+  "source_type": "platform_doc",
+  "source_title": "Sell Digital Products",
+  "source_ref": "https://help.gumroad.com/article/303-sell-digital-products",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It costs $0 to start selling on Gumroad, and we charge no monthly fees, seriously. When you make a sale, we charge a 10% flat fee. This does not include credit card processing or PayPal fees, but there are no monthly payments or hidden charges.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Sell Digital Products: It costs $0 to start selling on Gumroad, and we charge no monthly fees, seriously.",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Gumroad",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "0",
+  "metric_unit": "USD/month",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/303-sell-digital-products",
+    "secondary_pointer": null
+  }
+}

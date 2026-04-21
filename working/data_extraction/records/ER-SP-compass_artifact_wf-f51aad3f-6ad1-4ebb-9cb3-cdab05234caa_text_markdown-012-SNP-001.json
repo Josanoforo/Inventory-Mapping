@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "2026-03-24",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy: You keep ~$92 ($5 platform fee + $0.50 + ~$3 payment processing) Polar: You keep ~$93 ($4 platform fee + ~$3 payment processing) On a $100 sale, the difference between Gumroad and Polar is about $6 per transaction. At 50 sales a month, that is $300 extra per year staying in your pocket by choosing Polar over Gumroad. At 200 sales a month, that gap grows to $1,200 per year. For low-volume sellers just starting out, the difference is small enough that Gumroad's trust, reviews, and marketplace discovery may be worth the higher fee. For anyone doing consistent volume, Polar or Lemon Squeezy almost always wins on fees alone.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Polar Vs Lemonsqueezy Vs Gumroad: Lemon Squeezy: You keep ~$92 ($5 platform fee + $0.50 + ~$3 payment processing) Polar: ...",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "92",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

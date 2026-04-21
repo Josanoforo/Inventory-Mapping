@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Taxes On Creator Fees",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees",
+  "source_date_if_available": "Updated March 03, 2026 20:41 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Also, note that in certain countries (e.g., South Africa, Switzerland, Indonesia, Malaysia) Patreon will generally charge VAT irrespective of your VAT ID registration status.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Taxes On Creator Fees (help_center)",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 03, 2026",
+  "time_scope_normalized_if_safe": "2026-03-03",
+  "geography_if_explicit": [
+    "Switzerland",
+    "Indonesia",
+    "Malaysia",
+    "South Africa",
+    "Africa"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees",
+    "secondary_pointer": null
+  }
+}

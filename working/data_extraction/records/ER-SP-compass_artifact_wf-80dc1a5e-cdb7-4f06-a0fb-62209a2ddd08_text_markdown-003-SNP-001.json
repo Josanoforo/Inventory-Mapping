@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-003",
+  "source_type": "seller_forum",
+  "source_title": "Item",
+  "source_ref": "https://news.ycombinator.com/item?id=44296422",
+  "source_date_if_available": "Accessed April 2026; displayed as \"10 months ago,\" approximately June 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hey HN, I'm Ben, the founder of DownloadPage Let me share a quick story... I used to sell a digital product through Lemon Squeezy. It was full of bugs, the fees were high, and payouts were slow. When I switched to Stripe, I started saving money and got paid faster. The only problem? Selling directly meant stitching together a bunch of tools just to deliver a file. So I built DownloadPage to make it simple. You connect Stripe, upload your product, and share a link. That's it. If you're tired of giving up a cut to your payment processor, this is for you! Let me know what you think. P.S. I'll personally do the work of migrating you from your old payment processor to DownloadPage via Stripe! Free white-glove service is included with all plans.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Item: Hey HN, I'm Ben, the founder of DownloadPage Let me share a quick story...",
+  "actor_level": "seller",
+  "platforms": [
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.ycombinator.com/item?id=44296422",
+    "secondary_pointer": null
+  }
+}

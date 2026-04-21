@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_type": "policy_page",
+  "source_title": "Payments Policy",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "November 28, 2025 (policy version date)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart makes payment transactions on Hotpay with the following currencies: (a) with purchase currency in Brazilian Real (BRL), between Users that declare that both are domiciled in Brazil; (b) with purchase currency in Euro (EUR), between Users that declare that both are domiciled in the European Union; or, (c) in American dollars (USD) as the purchase currency, between any other Users.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Payments Policy: Hotmart makes payment transactions on Hotpay with the following currencies: (a) with pu...",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 28, 2025",
+  "time_scope_normalized_if_safe": "2025-11-28",
+  "geography_if_explicit": [
+    "Brazil",
+    "European Union"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+    "secondary_pointer": null
+  }
+}

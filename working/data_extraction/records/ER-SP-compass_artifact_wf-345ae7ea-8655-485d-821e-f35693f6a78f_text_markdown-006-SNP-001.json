@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "I Left Gumroad For Payhip And Why You Should Too B616A2612B1B",
+  "source_ref": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you sell a course for $100, Gumroad takes $10. If you make $5,000 a month, you are handing them $500. That is a car payment. That is a nice weekend getaway. That is your money. I looked at my dashboard and realized I was paying premium prices for a platform that treated me like a line item, not a partner. So I started looking for alternatives. I found Payhip. And honestly? I am angry I didn't switch sooner.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "I Left Gumroad For Payhip And Why You Should Too B616A2612B1B: If you sell a course for $100, Gumroad takes $10.",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "100",
+  "metric_unit": "USD",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+    "secondary_pointer": null
+  }
+}

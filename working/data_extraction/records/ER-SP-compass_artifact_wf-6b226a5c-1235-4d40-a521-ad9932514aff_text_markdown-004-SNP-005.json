@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "Fees",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Some of Lemon Squeezy's marketing features have additional fees. These include: +5% for payments recovered through abandoned cart emails · +3% for affiliate referrals (merchants) +2% for affiliate payouts (affiliates)\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Stated in layout: \"Some of Lemon Squeezy's marketing features have additional fees.",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5",
+  "metric_unit": "percent",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+    "secondary_pointer": null
+  }
+}

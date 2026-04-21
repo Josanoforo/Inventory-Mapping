@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "Etsy Vs Amazon Handmade",
+  "source_ref": "https://www.a2xaccounting.com/blog/etsy-vs-amazon-handmade",
+  "source_date_if_available": "Undated (circa 2021 based on content context)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Whilst Amazon may be vast in size in comparison to Etsy, the success of the latter should not be understated. And with its niche firmly rooted in handmade, vintage and craft supply items, you know that all Etsy buyers are looking for items just like yours.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy Vs Amazon Handmade: Whilst Amazon may be vast in size in comparison to Etsy",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.a2xaccounting.com/blog/etsy-vs-amazon-handmade",
+    "secondary_pointer": null
+  }
+}

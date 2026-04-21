@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Hotmart Affiliate Program",
+  "source_ref": "https://www.affiliateprogramdb.com/brands/hotmart-affiliate-program",
+  "source_date_if_available": "not specified",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The company has millions of users around the world, sales in more than 188 countries, and offices in: Brazil, Spain, Mexico, Colombia, the Netherlands, France, the United Kingdom and the United States.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart Affiliate Program: The company has millions of users around the world",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "United States",
+    "United Kingdom",
+    "France",
+    "Spain",
+    "Netherlands",
+    "Mexico",
+    "Brazil",
+    "Colombia"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.affiliateprogramdb.com/brands/hotmart-affiliate-program",
+    "secondary_pointer": null
+  }
+}

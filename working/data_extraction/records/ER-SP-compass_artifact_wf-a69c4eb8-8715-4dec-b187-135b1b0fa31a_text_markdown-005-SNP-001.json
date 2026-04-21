@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Substack Vs Patreon In 2025 Which Platform Is Best For You 0D5119B5A538",
+  "source_ref": "https://medium.com/mr-plan-publication/substack-vs-patreon-in-2025-which-platform-is-best-for-you-0d5119b5a538",
+  "source_date_if_available": "May 20, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Once I had a small YouTube channel, I invited my viewers to Patreon. I offered: Behind-the-scenes videos, Monthly Q&amp;A sessions, Bonus digital downloads. Result: 45 patrons signed up (most at $3/month). Around $180/month in earnings. But I had to consistently deliver extra content. I realized that Patreon can work — but it demands more ongoing effort.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Substack Vs Patreon In 2025 Which Platform Is Best For You 0D5119B5A538: Once I had a small YouTube channel, I invited my viewers to Patreon.",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "Substack",
+    "YouTube"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "3",
+  "metric_unit": "USD/month",
+  "time_scope_raw": "May 20, 2025",
+  "time_scope_normalized_if_safe": "2025-05-20",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/mr-plan-publication/substack-vs-patreon-in-2025-which-platform-is-best-for-you-0d5119b5a538",
+    "secondary_pointer": null
+  }
+}

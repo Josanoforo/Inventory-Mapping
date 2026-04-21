@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017",
+  "source_type": "seller_forum",
+  "source_title": "Is Moving From Gumroad A Smart Idea 3D4C1A3D4B",
+  "source_ref": "https://www.indiehackers.com/post/is-moving-from-gumroad-a-smart-idea-3d4c1a3d4b",
+  "source_date_if_available": "Accessed April 2026; post undated (context suggests early-to-mid 2023)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"All your marketing was linked to the gumroad page. That means you need to update all those links. But do you honestly know and control where those links are? I don't think you will. There will be people mentioning it in Reddit comments, reddit posts, IH comments, Hacker News comments, slack messages... Changing to a competitor is probably going to result in lost sales if you've got any decent traction in social media.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Is Moving From Gumroad A Smart Idea 3D4C1A3D4B: All your marketing was linked to the gumroad page.",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "bulk_extract_script: heuristic rules applied; verify subject_exact and claim_type for quality"
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/is-moving-from-gumroad-a-smart-idea-3d4c1a3d4b",
+    "secondary_pointer": null
+  }
+}
