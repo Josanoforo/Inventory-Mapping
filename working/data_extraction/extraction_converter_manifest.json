@@ -1,8 +1,8 @@
 {
   "status": "in_progress",
   "total_skeletons_found": 1178,
-  "skeletons_processed": 450,
-  "records_written": 450,
+  "skeletons_processed": 460,
+  "records_written": 460,
   "records_recovery_staged": 0,
   "skeleton_failures": 0,
   "needs_human_review_count": 0,
@@ -2876,6 +2876,101 @@
         }
       ],
       "processed_at": "2026-04-21T05:26:24Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "methodology_unclear",
+          "detail": "\"AI creations\" definition unspecified"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002-SNP-002",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-003-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "source_date_unclear",
+          "detail": "forum thread undated; context_insufficient (truncated)"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "source_date_unclear",
+          "detail": "forum thread undated; context_insufficient (truncated)"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-005-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "source_date_unclear",
+          "detail": "forum thread undated"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-006-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "source_date_unclear",
+          "detail": "forum thread undated"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-007-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-008-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "current_vs_historical_ambiguity",
+          "detail": "FY2024 data; source flagged OUT-OF-WINDOW in data gathering"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-010-SNP-001",
+      "destination": "records",
+      "issues_for_this_record": [
+        {
+          "issue_type": "methodology_unclear",
+          "detail": "illegal items allegation unsubstantiated"
+        }
+      ],
+      "processed_at": "2026-04-21T05:31:02Z"
     }
   ],
   "issues": [],
