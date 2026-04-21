@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "Mexico Vat Information For Envato Elements Subscribers",
+  "source_ref": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers",
+  "source_date_if_available": "Accessed April 2026; page states effective date February 20, 2024 in separate passage (\"effective from the 20th of February, 2024\") not continuous with this snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you do not provide a RFC, then the default 'General Public' RFC ('XAXX010101000') will be saved with your billing information.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Envato defaults to General Public RFC (XAXX010101000) for Mexico subscribers who do not provide their own tax identifier",
+  "actor_level": "platform",
+  "platforms": ["Envato Elements"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexico",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "do not provide a RFC",
+    "default 'General Public' RFC ('XAXX010101000')",
+    "saved with your billing information"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "Envato Elements Mexico VAT help center. If Mexican subscriber omits RFC (tax ID), Envato saves default General Public RFC: XAXX010101000. Effective date February 2024 is on same page but separate passage."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.elements.envato.com/hc/en-us/articles/30109659599257-Mexico-VAT-Information-for-Envato-Elements-Subscribers",
+    "secondary_pointer": null
+  }
+}
