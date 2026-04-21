@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-010",
+  "source_type": "database_profile",
+  "source_title": "Lemon Squeezy",
+  "source_ref": "https://www.wappalyzer.com/technologies/payment-processors/lemon-squeezy",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Get company and contact details for 1,900 Lemon Squeezy websites\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Wappalyzer technology tracker (accessed April 2026) identifies 1,900 websites using Lemon Squeezy payment processor technology",
+  "actor_level": "unknown",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "1,900",
+  "metric_unit": "websites",
+  "time_scope_raw": "April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "1,900 websites identified as using Lemon Squeezy payment technology per Wappalyzer"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "wappalyzer.com/technologies/payment-processors/lemon-squeezy (April 2026). Wappalyzer tech tracker: 1,900 websites using Lemon Squeezy. Cf. ful.io (2,509 sites) — different tracker methodologies."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.wappalyzer.com/technologies/payment-processors/lemon-squeezy",
+    "secondary_pointer": null
+  }
+}
