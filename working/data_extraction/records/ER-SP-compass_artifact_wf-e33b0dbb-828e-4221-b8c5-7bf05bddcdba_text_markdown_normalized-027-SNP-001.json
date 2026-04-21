@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_type": "platform_doc",
+  "source_title": "Payments",
+  "source_ref": "https://payhip.com/features/payments",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Payhip does not charge any fees to connect a payment gateway, so you'll only pay the transaction fees set by your chosen provider.\"\n\n> \"Yes. Payhip allows you to connect multiple digital goods payment processors at the same time (no extra fees), so you can offer customers more ways to pay at checkout and increase your chances of completing a sale.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip payments feature page (payhip.com/features/payments, undated) states Payhip charges no fees to connect a payment gateway; sellers pay only the transaction fees set by their chosen provider; multiple payment processors can be connected simultaneously at no extra charge",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Payhip: no gateway connection fee; seller pays only processor transaction fees; multiple simultaneous gateways supported at no extra cost"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "payhip.com/features/payments (undated). No gateway connection fee; multiple gateways OK; seller pays only processor fees."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/features/payments",
+    "secondary_pointer": null
+  }
+}

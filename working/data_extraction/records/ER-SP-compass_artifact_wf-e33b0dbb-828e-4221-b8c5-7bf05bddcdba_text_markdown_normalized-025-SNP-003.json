@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Stripe Account",
+  "source_ref": "https://help.payhip.com/article/65-connecting-your-stripe-account",
+  "source_date_if_available": "Last updated February 25, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Stripe supports all major debit and credit cards, including Visa, Mastercard, American Express, and more. This also includes a wide range of local and alternative payment methods, such as:\n> * Digital wallets: Apple Pay, Google Pay, Link, Samsung Pay, Cash App Pay, Alipay, WeChat Pay\n> * Bank redirects / transfers: iDEAL, Bancontact, EPS, Przelewy24, BLIK, FPX, Pay by Bank, Multibanco, MB WAY, OXXO, Konbini\n> * Real-time payments: Pix, Swish, PayNow, PromptPay, PayTo\n> * Mobile payments: TWINT, Kakao Pay, Naver Pay, PAYCO, MobilePay, Satispay, Revolut Pay\n> * Buy Now, Pay Later: Afterpay / Clearpay, Klarna, Affirm, Alma, Zip, Billie\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip help center (help.payhip.com/article/65-connecting-your-stripe-account, Feb 25, 2026) states Stripe supports all major debit/credit cards plus 30+ alternative payment methods across 5 categories: digital wallets (Apple Pay, Google Pay, Link, Samsung Pay, Cash App Pay, Alipay, WeChat Pay), bank redirects/transfers (iDEAL, Bancontact, EPS, Przelewy24, BLIK, FPX, Pay by Bank, Multibanco, MB WAY, OXXO, Konbini), real-time payments (Pix, Swish, PayNow, PromptPay, PayTo), mobile payments (TWINT, Kakao Pay, Naver Pay, PAYCO, MobilePay, Satispay, Revolut Pay), and BNPL (Afterpay/Clearpay, Klarna, Affirm, Alma, Zip, Billie)",
+  "actor_level": "platform",
+  "platforms": ["Payhip"],
+  "product_type_if_explicit": null,
+  "metric_type": "volume",
+  "metric_value_raw": "5 alternative payment method categories; 30+ specific methods listed",
+  "metric_unit": "payment method count",
+  "time_scope_raw": "Last updated February 25, 2026",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Stripe payment methods (via Payhip): major cards + 5 categories (digital wallets, bank redirects/transfers, real-time payments, mobile payments, BNPL)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "help.payhip.com (Feb 25, 2026). Stripe: major cards + 30+ alternative methods across 5 categories."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/65-connecting-your-stripe-account",
+    "secondary_pointer": null
+  }
+}
