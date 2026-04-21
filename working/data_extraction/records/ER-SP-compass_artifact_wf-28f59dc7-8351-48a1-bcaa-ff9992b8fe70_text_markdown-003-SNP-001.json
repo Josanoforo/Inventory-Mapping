@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/domestika.org?page=3",
+  "source_date_if_available": "27 nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Aunque ya sé tejer a gancho, nunca había intentado mezclar colores, este curso de Poetryarn fue todo lo que necesitaba para entender la técnica. Lo recomiendo al 100 %.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Buyer reports Domestika crochet/color-mixing course by instructor Poetryarn as fully meeting learning needs — 100% recommended",
+  "actor_level": "buyer",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "ya sé tejer a gancho",
+    "nunca había intentado mezclar colores",
+    "todo lo que necesitaba",
+    "Lo recomiendo al 100 %"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Spanish Trustpilot review (Nov 2025): positive buyer review of a specific Domestika crochet/color-mixing course by instructor 'Poetryarn'. Local qualifiers preserved in original Spanish. No platform-level features or pricing claims — individual course quality testimonial."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/domestika.org?page=3",
+    "secondary_pointer": null
+  }
+}
