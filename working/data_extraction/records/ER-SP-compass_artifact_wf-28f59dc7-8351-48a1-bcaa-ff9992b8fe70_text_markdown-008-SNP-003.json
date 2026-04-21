@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Compre Curso Domestika Noviembre Mes Despues Me Llego Cobro Casi 300 Euros Consegui Recuperar Mi Dinero",
+  "source_ref": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+  "source_date_if_available": "17 diciembre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Días después, PayPal aceptó mi reclamación y me devolvió el dinero al considerar que yo, efectivamente, no había autorizado ese pago.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "reported_event",
+  "subject_exact": "PayPal accepted buyer's dispute and refunded Domestika Plus charge, ruling the payment had not been authorized by the buyer",
+  "actor_level": "buyer",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "días después",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "Días después",
+    "aceptó mi reclamación",
+    "no había autorizado ese pago"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Genbeta article (December 2025): outcome of buyer's Domestika dispute — PayPal accepted complaint and refunded the charge, ruling it unauthorized. evidence_role set to reported_event as the key fact is a third-party (PayPal) ruling reported by the buyer. Demonstrates a viable refund pathway via payment processor dispute. Snippet in Spanish."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+    "secondary_pointer": null
+  }
+}
