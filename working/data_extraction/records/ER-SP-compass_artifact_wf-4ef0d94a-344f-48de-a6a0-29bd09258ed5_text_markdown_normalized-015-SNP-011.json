@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-011",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/en/terms",
+  "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As you may access our Services immediately upon registering for DOMESTIKA PLUS, DOMESTIKA does not grant a 14-day right of withdrawal for DOMESTIKA PLUS. You acknowledge that by registering for DOMESTIKA PLUS, you consent to the immediate provision of digital content and thereby forfeit your right of withdrawal.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Domestika Plus grants no 14-day right of withdrawal; immediate digital content access upon registration causes withdrawal right to be forfeited at sign-up",
+  "actor_level": "platform",
+  "platforms": ["Domestika"],
+  "product_type_if_explicit": "subscription",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Global",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "does not grant a 14-day right of withdrawal for DOMESTIKA PLUS",
+    "by registering for DOMESTIKA PLUS, you consent to the immediate provision of digital content",
+    "forfeit your right of withdrawal"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Domestika Terms of Use (last updated January 31, 2024). Plus cancellation rights: no 14-day right of withdrawal; immediate digital access at registration forfeits withdrawal right."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/terms",
+    "secondary_pointer": null
+  }
+}
