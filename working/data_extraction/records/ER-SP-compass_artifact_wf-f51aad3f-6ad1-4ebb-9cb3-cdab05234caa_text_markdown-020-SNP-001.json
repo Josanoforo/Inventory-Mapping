@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-020",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-020",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://www.lemonsqueezy.com/pricing",
+  "source_date_if_available": "not dated (page live as of 2026-04-14)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Simple pricing with no hidden fees. It's free to start — no trial, no contract, no risk.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lemon Squeezy pricing page (lemonsqueezy.com/pricing, undated, live as of Apr 14, 2026) states pricing is simple with no hidden fees and free to start with no trial, contract, or risk",
+  "actor_level": "platform",
+  "platforms": ["Lemon Squeezy"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "not dated (page live as of 2026-04-14)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "LS pricing page (undated, live Apr 14, 2026): simple pricing, no hidden fees, free to start, no trial/contract/risk"
+  ],
+  "uncertainties": ["source_date_unclear"],
+  "parser_notes": [
+    "lemonsqueezy.com/pricing (undated, live Apr 14, 2026). LS official pricing page claims simple pricing and no hidden fees, free to start."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/pricing",
+    "secondary_pointer": null
+  }
+}
