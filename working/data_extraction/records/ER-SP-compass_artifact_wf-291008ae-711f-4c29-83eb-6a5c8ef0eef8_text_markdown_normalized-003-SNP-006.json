@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+  "source_date_if_available": "2025-07-29",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"They have taken two payments, but I have never heard of them or how they gained access to my account. When trying to figure out which email is attached, I found that none of my emails are on their records to recover the account, if I have one. There is no number to contact to speak to someone to stop this. I want my money back.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Buyer reports two LemonSqueezy payments taken without any prior relationship — no account found under any email address; no phone support to stop charges",
+  "actor_level": "buyer",
+  "platforms": ["LemonSqueezy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "taken two payments",
+    "never heard of them or how they gained access to my account",
+    "none of my emails are on their records to recover the account",
+    "no number to contact to speak to someone to stop this"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Trustpilot review (July 29, 2025): buyer reports two LemonSqueezy charges with no prior account or relationship; account lookup by email failed; no phone support available. Buyer has no path to recover funds or stop charges. Possible unauthorized account creation or payment credential compromise."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+    "secondary_pointer": null
+  }
+}
