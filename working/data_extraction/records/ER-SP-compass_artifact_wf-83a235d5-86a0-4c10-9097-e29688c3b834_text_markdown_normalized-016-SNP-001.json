@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You will only be charged a listing fee for creating or renewing a listing on Etsy; there is no fee for editing a listing. You will be charged a listing fee whether or not the listed item sells, unless you create a private listing, in which case you will only be charged the listing fee when the private listing is sold. Etsy.com listings expire after four months. Pattern-only listings do not expire. If you list multiple quantities of the same item, the initial listing fee will be $0.20, and the listing will be automatically renewed at $0.20 after each of the items sells.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Etsy policy states listing fee is $0.20 per listing created or renewed; no editing fee; fee charged whether item sells or not except for private listings (charged only on sale); listings expire after 4 months (Pattern-only do not expire); multi-quantity listings auto-renew at $0.20 per unit sold",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "0.20",
+  "metric_unit": "USD per listing creation or renewal",
+  "time_scope_raw": "4 months (Etsy.com listing expiry period)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "listing fee: $0.20 to create or renew a listing",
+    "no fee for editing a listing",
+    "fee charged whether or not item sells, except private listings (charged only on sale)",
+    "Etsy.com listings expire after 4 months; Pattern-only listings do not expire",
+    "multi-quantity listings: initial $0.20 listing fee, auto-renewed at $0.20 per unit sold"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Etsy legal/fees page (current as of April 2026). Listing fee: $0.20 per creation/renewal; no editing fee; charged regardless of sale except private listings (charged on sale); 4-month expiry for Etsy.com listings; multi-quantity auto-renews at $0.20 per unit sold."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}
