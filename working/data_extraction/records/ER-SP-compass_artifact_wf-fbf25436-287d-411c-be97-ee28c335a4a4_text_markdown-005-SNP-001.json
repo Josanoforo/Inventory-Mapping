@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "source_date_if_available": "November 19, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The worst shopping experience I've ever had. I tried 4 different cards from different banks – either the bank declines the transaction because it considers Gumroad suspicious, or the website itself says the card isn't supported. What exactly isn't supported? It's a regular international VISA card from a major European bank. How do you even operate like this?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Trustpilot review of Gumroad (November 19, 2025) reports failed checkout with 4 cards from different banks: either the bank declined the transaction treating Gumroad as suspicious, or Gumroad rejected a regular international VISA card from a major European bank as unsupported",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "November 19, 2025",
+  "time_scope_normalized_if_safe": "2025-11-19",
+  "geography_if_explicit": "Europe",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Trustpilot review (Nov 19, 2025): Gumroad checkout failed across 4 cards from different banks; banks blocked as suspicious or Gumroad rejected European international VISA as unsupported"
+  ],
+  "uncertainties": ["anecdotal_single_source"],
+  "parser_notes": [
+    "trustpilot.com/review/gumroad.com?page=2 (Nov 19, 2025). English. Gumroad payment friction: 4 card attempts failed — banks flagging Gumroad as suspicious, or Gumroad rejecting valid international VISA from major European bank. Geographic friction with European payment instruments."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=2",
+    "secondary_pointer": null
+  }
+}

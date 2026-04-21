@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=3",
+  "source_date_if_available": "August 12, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I got scammed for 20$ don't buy from bailey Richardson they are the biggest thing\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_example",
+  "subject_exact": "Trustpilot review of Gumroad (August 12, 2025) reports a $20 loss from a Gumroad seller named Bailey Richardson [snippet truncated]",
+  "actor_level": "unknown",
+  "platforms": ["Gumroad"],
+  "product_type_if_explicit": null,
+  "metric_type": "price",
+  "metric_value_raw": "$20 reported loss",
+  "metric_unit": "USD",
+  "time_scope_raw": "August 12, 2025",
+  "time_scope_normalized_if_safe": "2025-08-12",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Trustpilot review (Aug 12, 2025): $20 reported scam loss from Gumroad seller Bailey Richardson [snippet truncated]"
+  ],
+  "uncertainties": ["anecdotal_single_source", "scope_ambiguous"],
+  "parser_notes": [
+    "trustpilot.com/review/gumroad.com?page=3 (Aug 12, 2025). English. Very brief review: $20 scam claim against Gumroad seller Bailey Richardson. Snippet truncated — no further context on product type or platform response."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3",
+    "secondary_pointer": null
+  }
+}
