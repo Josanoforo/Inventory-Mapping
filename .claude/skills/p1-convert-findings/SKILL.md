@@ -26,7 +26,7 @@ For each skeleton:
 1. **Read the skeleton file** from `working/source_intake/skeleton_batches/batch_NNN/`.
 2. **Validate structure**: verify all 11 mechanical fields are present and populated. If any is missing, register `skeleton_invalid` in `skeleton_failures` of the manifest and move to the next skeleton. Do not produce any output for this one.
 3. **Check for Part 2 inheritance**: scan `intake_notes` for the Part 2 marker left by stage 1. If present, apply the three consequences immediately and record them internally:
-   - `traceability_status` will be set to `weak` regardless of what the template heuristics suggest
+   - `traceability_status` will be set to `weak` (overriding the template heuristic for this case; stage 1 only emits this marker for findings with verification_status blocked_url_index_verified, so findings with indirect_verified from the recovery agent follow the template's normal mapping)
    - `snippet_needs_reopen` will be added to the `uncertainties` array as a starting entry
    - `priority_for_source_first` has a ceiling of `medium` and cannot be `high`
 4. **Fill the 8 judgment fields** following the conversion template, in the order the template lists them: possible_subjects, possible_actor_levels, possible_metric_types, possible_time_scopes, possible_geographies, uncertainties, priority_for_source_first, traceability_status.
