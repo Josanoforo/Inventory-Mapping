@@ -397,7 +397,11 @@ def build_skeleton(packet_id, source_id, shard_id, normalized_url, findings_in_g
         retrieval_method = source_tool
 
     # Detectar si hay findings Part 2 en el grupo
-    has_part_2 = any(f.get("part") == 2 or f.get("part") == "2" for f in findings_in_group)
+    has_part_2 = any(
+        (f.get("part") == 2 or f.get("part") == "2")
+        and f.get("verification_status") != "indirect_verified"
+        for f in findings_in_group
+    )
 
     # Construir snippets
     snippets = []

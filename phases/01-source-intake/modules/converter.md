@@ -96,8 +96,8 @@ For each unprocessed skeleton:
 
 **4.1 Read and validate skeleton structure.** If the skeleton is missing any of the 11 mechanical fields, or the JSON cannot be parsed, register a `skeleton_invalid` issue and continue to the next skeleton. Do not produce any output for this skeleton.
 
-**4.2 Detect stage 1 inherited marks.** If `intake_notes` contains the Part 2 inheritance marker (written by stage 1 when a skeleton derives from Part 2 provisional findings), apply the three consequences before filling any judgment field:
-- Set `traceability_status` to `weak` (do not compute it from the template's heuristics)
+**4.2 Detect stage 1 inherited marks.** If `intake_notes` contains the Part 2 inheritance marker (written by stage 1 when a skeleton derives from Part 2 provisional findings with verification_status blocked_url_index_verified; findings with indirect_verified from the recovery agent do not carry this marker), apply the three consequences:
+- Set `traceability_status` to `weak` (overriding the template heuristic for this case)
 - Add `snippet_needs_reopen` to the `uncertainties` array as a starting entry
 - Record internally that `priority_for_source_first` has a ceiling of `medium` and cannot be `high` regardless of other factors
 

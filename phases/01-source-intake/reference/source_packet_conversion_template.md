@@ -181,7 +181,12 @@ Cuando dudes:
 
 5. **Si dudas entre `complete` y `partial`**, default a `partial`. Si dudas entre `partial` y `weak`, default a `weak`. Default conservador, igual que en DG.
 
-6. **Si una finding de DG estaba en Part 2 (provisional)**, el packet hereda la incertidumbre: `traceability_status: weak` y `snippet_needs_reopen` en uncertainties.
+6. **Si una finding de DG estaba en Part 2 (provisional) y su `verification_status` es
+   `blocked_url_index_verified`**: el packet hereda la incertidumbre: `traceability_status: weak`
+   y `snippet_needs_reopen` en uncertainties.
+   **EXCEPCIÓN**: si `verification_status` es `indirect_verified` (output del recovery agent),
+   aplicar la regla de equivalencia de la sección `traceability_status` (→ `complete`),
+   no esta fallback rule. La distinción de método queda en el finding original.
 
 ## Worked example — DX-1 Finding 1 (Devrim Ozcay)
 
