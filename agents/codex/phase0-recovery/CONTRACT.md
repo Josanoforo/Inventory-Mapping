@@ -161,7 +161,7 @@ Si no hay clean findings: None.
 **source_type:** <enum value>
 **verification_status:** direct_verified
 **Date:** <fecha o accessed date>
-**Notes:** <solo limitación local>
+**Notes:** <solo limitación local. La base de adyacencia NO va aquí — ver Research QA Notes>
 
 Si no hay adjacent direct findings: None.
 
@@ -193,7 +193,7 @@ Si no hay provisional findings: None.
 **source_type:** <enum value>
 **verification_status:** indirect_verified
 **Date:** <fecha o accessed date>
-**Notes:** <método de recuperación>
+**Notes:** <método de recuperación. La base de adyacencia NO va aquí — ver Research QA Notes>
 
 Si no hay adjacent provisional findings: None.
 
@@ -239,6 +239,7 @@ Si no hay absence findings: None.
 - Truncated or partial sources: <list o "None">
 - source_type ambiguities: <list o "None">
 - Out-of-scope findings observed but not included: <list o "None">
+- **Adjacency basis (Parts 1B/2B):** <una línea por finding adjacent: qué componente del claim del packet no se cumple — valores distintos / mecanismo parcial o ausente / cobertura incompleta / evento adyacente>, o "None"
 - Coverage gaps where findings expected but not found: <list o "None">
 - Cases where input could not be decomposed without interpretation: <list o "None">
 ~~~
@@ -272,6 +273,7 @@ Además del QA de 12 puntos por finding y del QA de shard completo definidos en 
 2. ¿Cada finding en Part 1, Part 1B, Part 2 y Part 2B pasa el test operativo de scope de Regla 15? ¿Cada finding habla del mismo sujeto + misma variable del claim del packet? Si algún finding es otro sujeto u otra variable, muévelo a Research QA Notes como out-of-scope.
 3. ¿Algún finding clasificado como Part 1 o Part 2 (literal) contiene los valores Y el mecanismo del claim? Si solo contiene parcialmente (valores distintos, mecanismo ausente), debe ir a Part 1B o Part 2B.
 4. ¿Research QA Notes incluye los metadatos de trazabilidad del packet (recovery_id, finding_id, shard_id, failure_mode) y el resumen de strategies attempted por cada SD-NN?
+5. ¿Alguna Notes de un finding de Part 1B o 2B contiene comparación con el claim original del packet ("the source says X and does not state Y", "same variable but different period")? Principio 7 prohíbe la comparación en Notes. La clasificación de adyacencia va en "Adjacency basis" dentro de Research QA Notes; la Notes del finding queda solo con limitación local.
 
 ---
 

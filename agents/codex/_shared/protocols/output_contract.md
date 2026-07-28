@@ -182,6 +182,7 @@ Reporta solo:
 - strategies attempted by sub-búsqueda (cuando el agente específico lo requiera)
 - metadatos de trazabilidad (recovery_id, shard_id, query_id, etc., según el agente)
 - fetch failures de URLs específicas bajo "Strategies attempted"
+- clasificación de adyacencia contra el claim del packet, cuando el agente específico produce Parts 1B/2B (ver `phase0-recovery/CONTRACT.md`). Esto es comparación contra el input del run, no entre findings.
 
 No reportes:
 - interpretación del contenido de los findings

@@ -32,6 +32,16 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
 
    **Sin calificadores contextuales agregados.** No añadas al What calificadores que no estén literales en el snippet aunque sean ciertos por contexto externo: calificadores de scope (*new, small, certain, specific, established*), temporales (*en 2021, post-IPO, after the change*), regulatorios (*post-Reg CF, under SEC rules, under GDPR*), geográficos (*in the US, Latam-wide, EU-only*), causales (*due to, as a result of, because of*). Si el calificador no aparece literal en el snippet, no va en el What.
 
+   **Atribución al contenedor vs. contenido agregado.** El What puede nombrar el contenedor de la fuente y usar un verbo de atribución ("The Reddit post states…", "Etsy states…", "The indexed passage says…", "The PDF presents…") **solo cuando el snippet contiene la proposición completa que se está atribuyendo.** La atribución nombra dónde está el snippet; no puede fabricar la proposición.
+
+   Tres adiciones prohibidas, todas observadas empíricamente:
+
+   - **Identidad del hablante que el snippet no nombra.** Aunque esté en el byline, en el contexto de la página, o sea cierta. Si el snippet no dice quién habla, el What tampoco. Mal: "Edina Jackson-Yussif states that she made $33,000…" cuando el snippet es "I made $33,000 on Payhip…". Bien: "The post states that the author made $33,000 on Payhip in less than 3 months selling digital products."
+
+   - **Predicado ausente sobre snippet fragmentario.** Si el snippet es frase nominal o fragmento sin verbo ("Using all 13 tags", "Context Specific Ranking (CSR) technology"), el What no puede agregar el verbo que lo convierte en afirmación ("recommends", "uses"). Dos salidas válidas: (a) re-extraer un snippet que contenga la afirmación completa, o (b) escribir el What al grano del fragmento, afirmando solo que el término aparece ("The page names Context Specific Ranking (CSR) technology"). La opción (b) no autoriza a describir qué hace, qué recomienda ni para qué sirve.
+
+   - **Redistribución de sujeto o tiempo entre oraciones del snippet.** Si el snippet dice "Shops are being completely de-indexed. Listings are gone from search entirely", el What no puede decir "shops were de-indexed from search": mueve un complemento de un sujeto a otro y cambia el tiempo verbal. Cada afirmación del What debe leerse de una sola oración del snippet, con su sujeto y su tiempo verbal originales.
+
 5. **Verbatim snippet character-for-character.** No paráfrasis. Las palabras citadas deben ser literales del source — sin sustituciones, sin modernizaciones, sin reformulaciones.
 
    **Concatenación con `[...]`:** Cuando el claim del packet o query involucra un componente narrativo, mecanismo, o composición que requiere fragmentos no contiguos del source, puedes unir hasta 3 fragmentos con `[...]` (usa corchetes, no puntos sueltos) bajo estas condiciones:
@@ -45,6 +55,9 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
 
    **QA adicional:** si un verbatim snippet contiene más de 2 usos de `[...]`, re-extrae el finding — probablemente estás construyendo un claim composite que debe dividirse en findings separados.
 6. **El campo Source debe ser URL completa** (protocolo + dominio + ruta). No es aceptable título, nombre del sitio, ni referencia narrativa. Si no puedes fijar la URL exacta, el finding no califica — no lo registres en ninguna Part. Documenta el intento en Research QA Notes bajo "Findings rejected due to verification edge case".
+
+   **Redirecciones.** Si la URL de origen redirige a otra ruta, el campo Source lleva la URL final donde efectivamente leíste el snippet, y la redirección se anota en Notes como limitación local.
+
 7. **Notes solo locales.** Permitido: limitación local de verificación, bloqueo de fetch, page undated, structured layout, container limitation, source weakness local, método de recuperación. Prohibido: evidencia extra, interpretación, comparación, contradicción, corroboración, reconciliación, hipótesis, referencias a otros findings, math o cálculos derivados, cross-source context.
 8. **Conserva qualifiers visibles.** Fechas, thresholds, ranges, caps, units, approximations, country restrictions, plan/tier names.
 9. **Si no puedes fijar la identidad exacta de la fuente, degrada.**
@@ -205,31 +218,33 @@ Cuando dudes entre `direct_verified` e `indirect_verified`, elige el más conser
 
 ## Herramientas de acceso web — independencia
 
-Los agentes Codex tienen múltiples herramientas para acceder a contenido web. Las principales:
+Los agentes Codex tienen múltiples vías de acceso a contenido web. **Los nombres de las herramientas dependen del runtime; lo que este protocolo prescribe son capacidades, no nombres.** Al inicio del run, identifica qué herramienta de tu runtime cubre cada capacidad:
 
-- `open` (web tool nativa) — abre URLs directamente y devuelve contenido renderizado.
-- `search_query` (web tool nativa) — ejecuta queries sobre índice de buscador y devuelve snippets.
-- `curl` u otras herramientas de shell — hacen HTTP requests desde el environment del shell.
+- **Acceso directo a URL** — abre una URL y devuelve contenido renderizado. (`open` en el runtime de ChatGPT; la herramienta de fetch/browsing equivalente en Codex CLI.)
+- **Búsqueda indexada** — ejecuta queries sobre índice de buscador y devuelve snippets. (`search_query` en el runtime de ChatGPT; `web_search` u equivalente en Codex CLI.)
+- **HTTP desde shell** — `curl` u otras herramientas de shell.
 
-**Regla:** estas herramientas son independientes. El resultado de una NO predice el resultado de otra. Específicamente:
+Si tu runtime no expone alguna de estas capacidades, decláralo en Research QA Notes bajo "Strategies attempted" y opera con las que sí tengas. **La ausencia del nombre literal de una herramienta no es impedimento y no justifica clasificar una URL como inaccesible.**
 
-- Si `curl` devuelve 403, timeout, o error, eso NO significa que `open` o `search_query` vayan a fallar. Debes intentar las web tools nativas antes de clasificar una URL como inaccesible.
-- Si `open` falla por timeout, eso NO significa que `search_query` no pueda recuperar el contenido vía índice de la misma URL.
-- Si `search_query` no devuelve snippet, eso NO significa que `open` no pueda acceder directamente a la URL.
+**Regla:** estas vías son independientes. El resultado de una NO predice el resultado de otra. Específicamente:
+
+- Si el shell devuelve 403, timeout, o error, eso NO significa que el acceso directo o la búsqueda indexada vayan a fallar. Debes intentar las vías nativas antes de clasificar una URL como inaccesible.
+- Si el acceso directo falla por timeout, eso NO significa que la búsqueda indexada no pueda recuperar el contenido vía índice de la misma URL.
+- Si la búsqueda indexada no devuelve snippet, eso NO significa que el acceso directo no pueda alcanzar la URL.
 
 ### Orden de preferencia cuando tienes una URL específica para verificar
 
-1. Primero: `open` sobre la URL exacta.
-2. Si `open` falla: `search_query` con `site:<dominio>` + términos del claim para recuperar snippet indexado de la misma URL.
-3. Si ambos fallan: archive.org Wayback, archive.today, Google cache de la misma URL.
-4. Solo después de que los cuatro fallen, la URL se clasifica como inaccesible para ese claim.
+1. Primero: acceso directo a la URL exacta.
+2. Si falla: búsqueda indexada con `site:<dominio>` + términos del claim, para recuperar snippet indexado de la misma URL.
+3. Si ambos fallan: archive.org Wayback, archive.today, cache de la misma URL.
+4. Solo después de que los tres fallen, la URL se clasifica como inaccesible para ese claim.
 
-Si el shell devuelve error en `curl` o similar, ese resultado no cuenta como evidencia de inaccesibilidad. El shell y las web tools operan en redes distintas con capacidades distintas.
+Si el shell devuelve error en `curl` o similar, ese resultado no cuenta como evidencia de inaccesibilidad. El shell y las vías nativas operan en redes distintas con capacidades distintas.
 
 ### Clasificación según método exitoso
 
-- `open` exitoso sobre URL exacta → `direct_verified`.
-- `search_query` recupera snippet atado a la URL exacta (edge case 4: mirror/cache/index de la misma URL) → `indirect_verified`.
+- Acceso directo exitoso sobre URL exacta → `direct_verified`.
+- Búsqueda indexada recupera snippet atado a la URL exacta (edge case 4: mirror/cache/index de la misma URL) → `indirect_verified`.
 - Archive/cache de la misma URL → `indirect_verified`.
 - Fuente distinta encontrada por re-búsqueda, que no es mirror de la URL original → es un finding separado con su propia URL como `Source`, clasificado según el método de acceso a esa fuente nueva.
 
