@@ -4,17 +4,17 @@ Executes Module — Signal Converter (Signal Extraction stage 2). Reads skeleton
 
 ## Module this skill executes
 
-Read `upstream/signal-extraction/modules/signal_converter.md` in full before processing anything. The module is the contract. This skill is the execution instruction layered on top.
+Read `phases/02-signal-extraction/modules/signal_converter.md` in full before processing anything. The module is the contract. This skill is the execution instruction layered on top.
 
 ## Mandatory reading before any skeleton is processed
 
 Before touching any skeleton file, load these into context and keep them available throughout the run:
 
-1. `upstream/signal-extraction/modules/signal_converter.md` — the module contract
-2. `upstream/signal-extraction/contracts/signal_extraction_contract.md` — the extraction guide: Signal Card principles, what can/cannot be fused, decision boundary, quality rules
-3. `upstream/signal-extraction/contracts/signal_extraction_validator.md` — all 11 validator checks, decision rules, failure severity guide, and the mandatory notes scrubbing step
-4. `upstream/signal-extraction/schemas/signal_card.schema.json` — the target schema with closed enums and signal_id pattern
-5. `upstream/signal-extraction/schemas/signal_converter_manifest.schema.json` — the manifest schema this skill writes to
+1. `phases/02-signal-extraction/modules/signal_converter.md` — the module contract
+2. `phases/02-signal-extraction/contracts/signal_extraction_contract.md` — the extraction guide: Signal Card principles, what can/cannot be fused, decision boundary, quality rules
+3. `phases/02-signal-extraction/contracts/signal_extraction_validator.md` — all 11 validator checks, decision rules, failure severity guide, and the mandatory notes scrubbing step
+4. `phases/02-signal-extraction/schemas/signal_card.schema.json` — the target schema with closed enums and signal_id pattern
+5. `phases/02-signal-extraction/schemas/signal_converter_manifest.schema.json` — the manifest schema this skill writes to
 
 If any of these files cannot be read, stop immediately and report which file is missing. Do not attempt to proceed from memory.
 

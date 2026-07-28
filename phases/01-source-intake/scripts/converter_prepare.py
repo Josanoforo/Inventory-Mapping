@@ -7,8 +7,8 @@ escribe esqueletos de Source Packet en working/source_intake/skeleton_batches/
 para que el stage 2 (skill LLM) llene los campos de juicio.
 
 Autoridad contractual declarada:
-- upstream/source-intake/reference/source_packet_conversion_template.md
-- upstream/source-intake/contracts/source_intake_contract.md
+- phases/01-source-intake/reference/source_packet_conversion_template.md
+- phases/01-source-intake/contracts/source_intake_contract.md
 
 Este script hace solo trabajo mecánico: agrupación, normalización de URL,
 llenado de los 11 campos mecánicos del Source Packet. Los 8 campos de juicio
@@ -21,9 +21,9 @@ Idempotente: re-correr con el mismo input produce el mismo output.
 Retomable: lee el manifest al arrancar y continúa desde el último batch escrito.
 
 Uso:
-    python upstream/source-intake/scripts/converter_prepare.py
-    python upstream/source-intake/scripts/converter_prepare.py --batch-size 50
-    python upstream/source-intake/scripts/converter_prepare.py --input-dir working/data_gathering/findings
+    python phases/01-source-intake/scripts/converter_prepare.py
+    python phases/01-source-intake/scripts/converter_prepare.py --batch-size 50
+    python phases/01-source-intake/scripts/converter_prepare.py --input-dir working/data_gathering/findings
 """
 
 import sys

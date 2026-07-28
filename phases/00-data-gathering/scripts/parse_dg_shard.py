@@ -3,11 +3,11 @@
 parse_dg_shard.py — Data Gathering shard parser.
 
 Contract authority:
-  upstream/data-gathering/reference/data_gathering_project_instructions_v4_5.md  (Rule 4 + Rule 7)
-  upstream/data-gathering/reference/research_directions_protocol.md              (Sections 3, 4, 5, 9)
+  phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md  (Rule 4 + Rule 7)
+  phases/00-data-gathering/reference/research_directions_protocol.md              (Sections 3, 4, 5, 9)
 
 Usage:
-    python upstream/data-gathering/scripts/parse_dg_shard.py input/data_gathering/shards/<filename>.md
+    python phases/00-data-gathering/scripts/parse_dg_shard.py input/data_gathering/shards/<filename>.md
 
 Outputs (written relative to repo root):
     working/data_gathering/findings/<ID>.json               — one per finding (Part 1 + Part 2)

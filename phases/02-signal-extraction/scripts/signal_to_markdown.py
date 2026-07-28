@@ -55,9 +55,9 @@ Idempotente: re-correr sobreescribe los archivos de output (no hay estado).
 Sin manifest: es una pasada de formateo, no un pipeline incremental.
 
 Uso:
-    python upstream/signal-extraction/scripts/signal_to_markdown.py
-    python upstream/signal-extraction/scripts/signal_to_markdown.py --cards-dir working/signal_extraction/cards
-    python upstream/signal-extraction/scripts/signal_to_markdown.py --output-dir input
+    python phases/02-signal-extraction/scripts/signal_to_markdown.py
+    python phases/02-signal-extraction/scripts/signal_to_markdown.py --cards-dir working/signal_extraction/cards
+    python phases/02-signal-extraction/scripts/signal_to_markdown.py --output-dir input
 """
 
 import sys

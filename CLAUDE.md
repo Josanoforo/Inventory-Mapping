@@ -57,7 +57,8 @@ Scope boundaries — read ONLY when asked
 `phases/` subfolders outside the active phase → irrelevant unless asked.
 `working/` → mutable state. Read for diagnostics, not for understanding the process.
 `agents/codex/` → recovery contracts for interrupted runs. Ignore unless resuming a failed phase.
-`input/data_gathering/shards/` → raw deep_search sources. Already processed into Signal Cards.
+`input/data_gathering/shards/` → raw deep_search sources. Parsed into
+findings (Phase 0). Not yet processed into Signal Cards.
 `output/repo_study/` → historical self-analysis. Reference only.
 Global rules (apply to all phases)
 Every Signal ID must be verified against `input/signal_cards_round_*.md` before inclusion.

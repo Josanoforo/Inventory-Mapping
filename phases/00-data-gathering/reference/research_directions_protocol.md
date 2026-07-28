@@ -240,7 +240,7 @@ Shards are organized by source tool in the input directory:
 
 The parent directory is the structural declaration of source. The parser uses the parent directory name to populate the `source_tool` field in every output JSON. The same value flows downstream to `retrieval_method` in Source Packet.
 
-Valid values match the `retrieval_method` enum in `upstream/source-intake/schemas/source_packet.schema.json`: `deep_search`, `gpt_custom`, plus the existing values for other retrieval methods.
+Valid values match the `retrieval_method` enum in `phases/01-source-intake/schemas/source_packet.schema.json`: `deep_search`, `gpt_custom`, plus the existing values for other retrieval methods.
 
 A shard placed directly in `input/data_gathering/shards/` without a sub-directory is malformed. The parser will emit a warning and tag the source as `unknown`.
 

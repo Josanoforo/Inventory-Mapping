@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Transform Source Packet skeletons (produced by `upstream/source-intake/scripts/converter_prepare.py`) into complete, validated Source Packets by filling the 8 judgment fields following the conversion template. The 11 mechanical fields are already populated by stage 1 and must not be modified.
+Transform Source Packet skeletons (produced by `phases/01-source-intake/scripts/converter_prepare.py`) into complete, validated Source Packets by filling the 8 judgment fields following the conversion template. The 11 mechanical fields are already populated by stage 1 and must not be modified.
 
 This module is executed by the `convert-findings` skill.
 
@@ -10,7 +10,7 @@ This module is executed by the `convert-findings` skill.
 
 Converter stage 2 sits between Phase 0 Data Gathering and Phase 1 Source Intake proper. It completes the bridge that was previously assumed but never implemented. Its output — validated Source Packets — is the canonical input for Data Extraction (Phase 2) downstream.
 
-This module does not belong to Inventory Mapping. It lives in `upstream/source-intake/` because it fulfills the Source Intake contract, not IM operations.
+This module does not belong to Inventory Mapping. It lives in `phases/01-source-intake/` because it fulfills the Source Intake contract, not IM operations.
 
 ## Inputs
 
@@ -18,8 +18,8 @@ This module does not belong to Inventory Mapping. It lives in `upstream/source-i
 |---|---|
 | `working/source_intake/skeleton_batches/batch_NNN/skeleton_*.json` | Skeletons produced by stage 1, one file per packet |
 | `working/source_intake/converter_prepare_manifest.json` | Stage 1 manifest. Must have `status: complete` before stage 2 can run |
-| `upstream/source-intake/reference/source_packet_conversion_template.md` | Conversion guide. Read in full before processing any skeleton |
-| `upstream/source-intake/schemas/source_packet.schema.json` | Schema that completed packets must validate against |
+| `phases/01-source-intake/reference/source_packet_conversion_template.md` | Conversion guide. Read in full before processing any skeleton |
+| `phases/01-source-intake/schemas/source_packet.schema.json` | Schema that completed packets must validate against |
 
 ## Outputs
 
@@ -74,8 +74,8 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 ### 1. Precondition checks
 
 - Read `working/source_intake/converter_prepare_manifest.json`. If it does not exist or `status != complete`, set stage 2 manifest status to `blocked_by_stage_1_incomplete` and exit with a clear message. Do not process anything.
-- Read `upstream/source-intake/reference/source_packet_conversion_template.md` in full. If missing, fail with clear message.
-- Read `upstream/source-intake/schemas/source_packet.schema.json`. If missing, fail with clear message.
+- Read `phases/01-source-intake/reference/source_packet_conversion_template.md` in full. If missing, fail with clear message.
+- Read `phases/01-source-intake/schemas/source_packet.schema.json`. If missing, fail with clear message.
 - Create output directories if they do not exist: `working/source_intake/packets/`, `working/source_intake/source_intake_gpt_recovery/`.
 
 ### 2. Load or initialize stage 2 manifest
@@ -110,7 +110,7 @@ For each unprocessed skeleton:
 
 **4.4 Check uncertainty severity.** After all 8 judgment fields are filled, count the uncertainties in the packet. If the count is 4 or more, or if any single uncertainty is high-severity (definition of "high-severity" lives in the conversion template), add `needs_human_review` to the issues for this packet. The packet still proceeds to validation.
 
-**4.5 Validate completed packet against schema.** Run the packet through `upstream/source-intake/schemas/source_packet.schema.json`.
+**4.5 Validate completed packet against schema.** Run the packet through `phases/01-source-intake/schemas/source_packet.schema.json`.
 
 - If validation passes: write the packet to `working/source_intake/packets/<packet_id>.json`. Destination is `packets`.
 - If validation fails because a required field is null or missing: determine which field(s). If exactly one required field is unfillable, register `required_field_unfillable` and route to GPT recovery. If two or more required fields are unfillable, register `multiple_required_fields_unfillable` and route to GPT recovery.
@@ -165,7 +165,7 @@ The `recovery_guidance` section is the skill's best effort to tell GPT what to l
 
 A packet is promoted to `working/source_intake/packets/` if and only if:
 
-1. It validates against `upstream/source-intake/schemas/source_packet.schema.json`
+1. It validates against `phases/01-source-intake/schemas/source_packet.schema.json`
 2. No required field is null or missing
 3. The skeleton structure was valid (it did not fail at step 4.1)
 

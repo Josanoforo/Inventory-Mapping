@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Transform Signal Card skeletons (produced by `upstream/signal-extraction/scripts/signal_prepare.py`) into complete, validated Signal Cards by reading the extraction context, formulating an observational `signal_text`, and filling the 16 judgment fields following the Signal Extraction contract. The mechanical fields (`signal_id`, `source_record_ids`, `source_ids`, `round`, `traceability_pointers`) are already populated by stage 1 and must not be modified unless splitting produces additional cards.
+Transform Signal Card skeletons (produced by `phases/02-signal-extraction/scripts/signal_prepare.py`) into complete, validated Signal Cards by reading the extraction context, formulating an observational `signal_text`, and filling the 16 judgment fields following the Signal Extraction contract. The mechanical fields (`signal_id`, `source_record_ids`, `source_ids`, `round`, `traceability_pointers`) are already populated by stage 1 and must not be modified unless splitting produces additional cards.
 
 This module is executed by the `extract-signals` skill.
 
@@ -10,7 +10,7 @@ This module is executed by the `extract-signals` skill.
 
 Signal Converter stage 2 sits between Phase 2 Data Extraction and the Inventory Mapping entry gate. Its output — validated Signal Cards — feeds the Inventory Mapping pipeline (Entry Gate → Split Cards → Index Cards → Scanner → ...).
 
-This module lives in `upstream/signal-extraction/` because it fulfills the Signal Extraction contract, not Inventory Mapping operations.
+This module lives in `phases/02-signal-extraction/` because it fulfills the Signal Extraction contract, not Inventory Mapping operations.
 
 ## Inputs
 
@@ -18,9 +18,9 @@ This module lives in `upstream/signal-extraction/` because it fulfills the Signa
 |---|---|
 | `working/signal_extraction/skeleton_batches/batch_NNN/skeleton_*.json` | Skeletons produced by stage 1, one file per Extraction Record |
 | `working/signal_extraction/signal_prepare_manifest.json` | Stage 1 manifest. Must have `status: complete` before stage 2 can run. Also provides `signal_id_counter_at_stage1` for ID allocation during splitting |
-| `upstream/signal-extraction/contracts/signal_extraction_contract.md` | Signal Extraction contract. Read in full before processing any skeleton |
-| `upstream/signal-extraction/contracts/signal_extraction_validator.md` | Validator rules. Applied to every card before routing |
-| `upstream/signal-extraction/schemas/signal_card.schema.json` | Schema that completed cards must validate against |
+| `phases/02-signal-extraction/contracts/signal_extraction_contract.md` | Signal Extraction contract. Read in full before processing any skeleton |
+| `phases/02-signal-extraction/contracts/signal_extraction_validator.md` | Validator rules. Applied to every card before routing |
+| `phases/02-signal-extraction/schemas/signal_card.schema.json` | Schema that completed cards must validate against |
 
 ## Outputs
 
@@ -78,9 +78,9 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 
 - Read `working/signal_extraction/signal_prepare_manifest.json`. If it does not exist or `status != complete`, set stage 2 manifest status to `blocked_by_stage_1_incomplete` and exit with a clear message. Do not process anything.
 - Read `signal_id_counter_at_stage1` from the stage 1 manifest. Use this to initialize `next_signal_id_counter` in the stage 2 manifest if the stage 2 manifest does not already exist.
-- Read `upstream/signal-extraction/contracts/signal_extraction_contract.md` in full. If missing, fail with clear message.
-- Read `upstream/signal-extraction/contracts/signal_extraction_validator.md` in full. If missing, fail with clear message.
-- Read `upstream/signal-extraction/schemas/signal_card.schema.json`. If missing, fail with clear message.
+- Read `phases/02-signal-extraction/contracts/signal_extraction_contract.md` in full. If missing, fail with clear message.
+- Read `phases/02-signal-extraction/contracts/signal_extraction_validator.md` in full. If missing, fail with clear message.
+- Read `phases/02-signal-extraction/schemas/signal_card.schema.json`. If missing, fail with clear message.
 - Create output directories if they do not exist: `working/signal_extraction/cards/`, `working/signal_extraction/signal_gpt_recovery/`.
 
 ### 2. Load or initialize stage 2 manifest
@@ -172,7 +172,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 For each judgment field, inheritance from `_extraction_context` is the default. Override only when the signal formulation requires it, and record the reason in `normalization_notes` or `extraction_notes`.
 
-**4.5 Apply validator checks.** Run the completed card through all 11 checks in `upstream/signal-extraction/contracts/signal_extraction_validator.md`:
+**4.5 Apply validator checks.** Run the completed card through all 11 checks in `phases/02-signal-extraction/contracts/signal_extraction_validator.md`:
 
 1. Observational wording — `signal_text` is local, not a market reading
 2. Subject exactness preserved — `subject_exact` not widened
@@ -196,7 +196,7 @@ After all checks:
 
 **4.6 Check uncertainty count.** After validator checks, count the entries in `uncertainties`. If the count is 4 or more, add `needs_human_review` to the issues for this card. The card still proceeds.
 
-**4.7 Validate completed card against schema.** Run the card through `upstream/signal-extraction/schemas/signal_card.schema.json`.
+**4.7 Validate completed card against schema.** Run the card through `phases/02-signal-extraction/schemas/signal_card.schema.json`.
 
 - If validation passes: write to `working/signal_extraction/cards/<signal_id>.json`. Destination is `cards`.
 - If validation fails because a required judgment field is null: determine which field(s). If one, register `required_field_unfillable`; if two or more, register `multiple_required_fields_unfillable`. Route to `signal_gpt_recovery/`.

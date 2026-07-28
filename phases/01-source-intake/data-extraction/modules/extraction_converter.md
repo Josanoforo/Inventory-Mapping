@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Transform Extraction Record skeletons (produced by `upstream/data-extraction/scripts/extraction_prepare.py`) into complete, validated Extraction Records by filling the 15 judgment fields following the Data Extraction contract. The 10 mechanical fields are already populated by stage 1 and must not be modified.
+Transform Extraction Record skeletons (produced by `phases/01-source-intake/data-extraction/scripts/extraction_prepare.py`) into complete, validated Extraction Records by filling the 15 judgment fields following the Data Extraction contract. The 10 mechanical fields are already populated by stage 1 and must not be modified.
 
 This module is executed by the `extract-records` skill.
 
@@ -10,7 +10,7 @@ This module is executed by the `extract-records` skill.
 
 Extraction Converter stage 2 sits between Phase 1 Source Intake and Phase 2 Data Extraction proper. Its output — validated Extraction Records — is the canonical input for Signal Extraction downstream.
 
-This module lives in `upstream/data-extraction/` because it fulfills the Data Extraction contract, not Inventory Mapping operations.
+This module lives in `phases/01-source-intake/data-extraction/` because it fulfills the Data Extraction contract, not Inventory Mapping operations.
 
 ## Inputs
 
@@ -18,8 +18,8 @@ This module lives in `upstream/data-extraction/` because it fulfills the Data Ex
 |---|---|
 | `working/data_extraction/skeleton_batches/batch_NNN/skeleton_*.json` | Skeletons produced by stage 1, one file per Extraction Record |
 | `working/data_extraction/extraction_prepare_manifest.json` | Stage 1 manifest. Must have `status: complete` before stage 2 can run |
-| `upstream/data-extraction/contracts/data_extraction_contract.md` | Extraction contract. Read in full before processing any skeleton |
-| `upstream/data-extraction/schemas/data_extraction_record.schema.json` | Schema that completed records must validate against |
+| `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` | Extraction contract. Read in full before processing any skeleton |
+| `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json` | Schema that completed records must validate against |
 
 ## Outputs
 
@@ -73,8 +73,8 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 ### 1. Precondition checks
 
 - Read `working/data_extraction/extraction_prepare_manifest.json`. If it does not exist or `status != complete`, set stage 2 manifest status to `blocked_by_stage_1_incomplete` and exit with a clear message. Do not process anything.
-- Read `upstream/data-extraction/contracts/data_extraction_contract.md` in full. If missing, fail with clear message.
-- Read `upstream/data-extraction/schemas/data_extraction_record.schema.json`. If missing, fail with clear message.
+- Read `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` in full. If missing, fail with clear message.
+- Read `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`. If missing, fail with clear message.
 - Create output directories if they do not exist: `working/data_extraction/records/`, `working/data_extraction/extraction_gpt_recovery/`.
 
 ### 2. Load or initialize stage 2 manifest
@@ -101,7 +101,7 @@ If any mechanical field is missing or the JSON cannot be parsed, register a `ske
 
 Note: `source_date_if_available`, `author_or_actor_if_available`, `snippet_context_before`, and `snippet_context_after` may legitimately be null in the skeleton — null is valid for those fields and is not a structural failure.
 
-**4.2 Apply extraction contract to judgment fields.** Fill the 15 judgment fields following the instructions in `upstream/data-extraction/contracts/data_extraction_contract.md`. For each field:
+**4.2 Apply extraction contract to judgment fields.** Fill the 15 judgment fields following the instructions in `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md`. For each field:
 
 Fill the judgment fields in this order:
 1. `claim_type` — classify using the closed enum from the schema
@@ -129,7 +129,7 @@ For each judgment field:
 
 **4.3 Check uncertainty severity.** After all 15 judgment fields are filled, count the uncertainties in the record. If the count is 4 or more, add `needs_human_review` to the issues for this record. The record still proceeds to validation.
 
-**4.4 Validate completed record against schema.** Run the record through `upstream/data-extraction/schemas/data_extraction_record.schema.json`.
+**4.4 Validate completed record against schema.** Run the record through `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`.
 
 - If validation passes: write the record to `working/data_extraction/records/<extraction_id>.json`. Destination is `records`.
 - If validation fails because a required judgment field is null or missing: determine which field(s). If exactly one required field is unfillable, register `required_field_unfillable` and route to GPT recovery. If two or more required fields are unfillable, register `multiple_required_fields_unfillable` and route to GPT recovery.
@@ -183,7 +183,7 @@ The `recovery_guidance.suggested_direction` must be concrete. "Investigate the s
 
 A record is promoted to `working/data_extraction/records/` if and only if:
 
-1. It validates against `upstream/data-extraction/schemas/data_extraction_record.schema.json`
+1. It validates against `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`
 2. No required judgment field is null or missing
 3. The skeleton structure was valid (it did not fail at step 4.1)
 

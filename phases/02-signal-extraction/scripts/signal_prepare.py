@@ -7,8 +7,8 @@ working/signal_extraction/skeleton_batches/ para que el stage 2 (skill LLM)
 formule la señal observacional y llene los campos de juicio.
 
 Autoridad contractual declarada:
-- upstream/signal-extraction/contracts/signal_extraction_contract.md
-- upstream/signal-extraction/schemas/signal_card.schema.json
+- phases/02-signal-extraction/contracts/signal_extraction_contract.md
+- phases/02-signal-extraction/schemas/signal_card.schema.json
 
 Este script hace solo trabajo mecánico: lectura de records, asignación de
 signal_id (patrón SC-R1-NNN), construcción de traceability_pointers desde el
@@ -33,9 +33,9 @@ Idempotente: re-correr con el mismo input produce el mismo output.
 Retomable: lee el manifest al arrancar y continúa desde el último batch escrito.
 
 Uso:
-    python upstream/signal-extraction/scripts/signal_prepare.py
-    python upstream/signal-extraction/scripts/signal_prepare.py --batch-size 50
-    python upstream/signal-extraction/scripts/signal_prepare.py --input-dir working/data_extraction/records
+    python phases/02-signal-extraction/scripts/signal_prepare.py
+    python phases/02-signal-extraction/scripts/signal_prepare.py --batch-size 50
+    python phases/02-signal-extraction/scripts/signal_prepare.py --input-dir working/data_extraction/records
 """
 
 import sys

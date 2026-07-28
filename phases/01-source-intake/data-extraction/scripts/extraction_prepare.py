@@ -7,8 +7,8 @@ en working/data_extraction/skeleton_batches/ para que el stage 2 (skill LLM)
 llene los campos de juicio.
 
 Autoridad contractual declarada:
-- upstream/data-extraction/contracts/data_extraction_contract.md
-- upstream/data-extraction/schemas/data_extraction_record.schema.json
+- phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md
+- phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json
 
 Este script hace solo trabajo mecánico: lectura de packets, expansión por
 snippets, llenado de los campos mecánicos del Extraction Record. Los campos
@@ -22,9 +22,9 @@ Idempotente: re-correr con el mismo input produce el mismo output.
 Retomable: lee el manifest al arrancar y continúa desde el último batch escrito.
 
 Uso:
-    python upstream/data-extraction/scripts/extraction_prepare.py
-    python upstream/data-extraction/scripts/extraction_prepare.py --batch-size 50
-    python upstream/data-extraction/scripts/extraction_prepare.py --input-dir working/source_intake/packets
+    python phases/01-source-intake/data-extraction/scripts/extraction_prepare.py
+    python phases/01-source-intake/data-extraction/scripts/extraction_prepare.py --batch-size 50
+    python phases/01-source-intake/data-extraction/scripts/extraction_prepare.py --input-dir working/source_intake/packets
 """
 
 import sys

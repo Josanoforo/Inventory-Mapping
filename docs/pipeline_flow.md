@@ -1,5 +1,8 @@
 # Pipeline Flow — Phase 0 → IM
 
+> **OBSOLETO — describe la estructura pre-restructure 242318b.
+> CLAUDE.md es el mapa vivo.**
+
 Estudio del pipeline real de Inventory Mapping. Todos los paths verificados contra el repo en branch `claude/analyze-pipeline-phases-xsgSn` (contiene el merge de `claude/phase-1b-extraction-bridge-eChp8`).
 
 Notación del pipeline mapeada al repo:
