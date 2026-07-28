@@ -254,18 +254,24 @@ def _parse_finding_block(block: str, finding_id: str) -> dict:
 # ---------------------------------------------------------------------------
 
 PART4_ITEM_PAT = re.compile(r"^(?:#{1,3}\s+|\*\*)(F-X\d+)(?:\*\*)?:[ \t]*(?:\*\*)?\s*(.+?)(?:\*\*)?$", re.MULTILINE | re.IGNORECASE)
-ATTEMPTED_PAT = re.compile(
-    r"(?:\*\*)?(?:What\s+tried|Attempted)\s*[:\-]?(?:\*\*)?\s*[:\-]?\s*(.*?)"
-    r"(?=(?:\*\*)?(?:Reason|Why\s+failed)|$)",
-    re.IGNORECASE | re.DOTALL,
-)
-WHY_FAILED_PAT = re.compile(
-    r"(?:\*\*)?(?:Reason|Why\s+failed)\s*[:\-]?(?:\*\*)?\s*[:\-]?\s*(.*?)$",
-    re.IGNORECASE | re.DOTALL,
-)
 
 
 def parse_part4(section_text: str, shard_id: str, source_tool: str) -> list[dict]:
+    """
+    Parse Part 4 absence findings.
+
+    Part 4 items use the same 7 field labels as Part 1/2 findings, so the block
+    is parsed with _parse_finding_block instead of dedicated regex. The consumer
+    (route_unrecoverable.py) expects `attempted` and `why_failed`, which the
+    contract template does not emit as labels:
+
+      attempted  <- Source field ("Searches: ...; Locations attempted: ...")
+      why_failed <- None. An absence finding has no per-item failure mode;
+                    the absence is the result, not an error.
+
+    Legacy shards using literal `Attempted:` / `Reason:` labels land in
+    extra_fields and are picked up as a fallback.
+    """
     items: list[dict] = []
 
     splits = list(PART4_ITEM_PAT.finditer(section_text))
@@ -273,42 +279,62 @@ def parse_part4(section_text: str, shard_id: str, source_tool: str) -> list[dict
         return items
 
     for i, m in enumerate(splits):
-        raw_num = m.group(1).strip()
+        item_id = m.group(1).strip()
         subject = m.group(2).strip()
         block_start = m.end()
         block_end = splits[i + 1].start() if i + 1 < len(splits) else len(section_text)
         block = section_text[block_start:block_end]
 
-        attempted = ""
-        ma = ATTEMPTED_PAT.search(block)
-        if ma:
-            attempted = _clean(ma.group(1))
+        try:
+            parsed = _parse_finding_block(block, item_id)
+        except Exception as exc:
+            _warn(f"Part 4 item {item_id} ({subject}): could not parse block: {exc}")
+            parsed = {}
 
-        why_failed = ""
-        mw = WHY_FAILED_PAT.search(block)
-        if mw:
-            why_failed = _clean(mw.group(1))
+        extra = parsed.get("extra_fields", {})
 
-        if not attempted and not why_failed:
+        # Legacy sub-formats: "Attempted:" (BUG-S23-02 format 2) and
+        # "Searched for:" / "Where searched:" (format 3, absence findings).
+        attempted = parsed.get("source", "") or extra.get("attempted", "")
+        if not attempted:
+            searched_for = extra.get("searched_for", "")
+            where_searched = extra.get("where_searched", "")
+            parts = [p for p in (searched_for, where_searched) if p]
+            attempted = " | ".join(parts)
+        # The contract puts "Searches: ...; Locations attempted: ..." on the
+        # Source line. If that line wrapped, _parse_finding_block split it into
+        # a separate field; re-join so `attempted` is not silently truncated.
+        if "locations_attempted" in extra:
+            attempted = f"{attempted} Locations attempted: {extra['locations_attempted']}".strip()
+
+        why_failed = (extra.get("why_failed") or extra.get("reason")
+                      or extra.get("result") or None)
+
+        if not attempted:
             _warn(
-                f"Part 4 item {raw_num} ({subject}): could not extract "
-                f"Attempted/Why failed — storing raw block"
+                f"Part 4 item {item_id} ({subject}): no Source field and no "
+                f"legacy Attempted field — 'attempted' will be empty"
             )
-            attempted = _clean(block)
 
-        urls = _extract_urls(block)
+        item = {
+            "shard_id": shard_id,
+            "source_tool": source_tool,
+            "item_id": item_id,
+            "seller_or_subject": subject,
+            "attempted": attempted,
+            "why_failed": why_failed,
+            "urls_mentioned": _extract_urls(block),
+        }
 
-        items.append(
-            {
-                "shard_id": shard_id,
-                "source_tool": source_tool,
-                "item_id": raw_num,
-                "seller_or_subject": subject,
-                "attempted": attempted,
-                "why_failed": why_failed,
-                "urls_mentioned": urls,
-            }
-        )
+        # Preserve the contract's 7 canonical fields for downstream traceability.
+        for key in ("what", "verbatim_snippet", "source", "source_type",
+                    "verification_status", "date", "notes"):
+            if key in parsed:
+                item[key] = parsed[key]
+        if extra:
+            item["extra_fields"] = extra
+
+        items.append(item)
 
     return items
 
