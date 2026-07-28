@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "kichink.com/como-funciona — self-positioning page",
-  "attempted": "direct fetch of https://www.kichink.com/como-funciona (HTTP 403 Forbidden). Google search for site:kichink.com/como-funciona returned no cached content with positioning statements.\nsource_type: platform_doc\nverification_status: could_not_verify\nDate: n/a\nNotes: Page exists in site navigation but neither direct access nor Google index yielded recoverable positioning content. Do not infer absence of positioning content on this page from inaccessibility.",
-  "why_failed": "",
+  "attempted": "Attempted direct fetch of https://www.kichink.com/como-funciona (HTTP 403 Forbidden). Google search for site:kichink.com/como-funciona returned no cached content with positioning statements.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.kichink.com/como-funciona"
-  ]
+  ],
+  "what": "No data found on Kichink's \"Cómo funciona\" page content with competitive positioning angle.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted direct fetch of https://www.kichink.com/como-funciona (HTTP 403 Forbidden). Google search for site:kichink.com/como-funciona returned no cached content with positioning statements.",
+  "source_type": "platform_doc",
+  "verification_status": "could_not_verify",
+  "date": "n/a",
+  "notes": "Page exists in site navigation but neither direct access nor Google index yielded recoverable positioning content. Do not infer absence of positioning content on this page from inaccessibility."
 }

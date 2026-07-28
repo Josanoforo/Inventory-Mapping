@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "CheckThat.ai — Free/Plus plan break-even at $967/month revenue",
-  "attempted": "**What:** A third-party analysis calculates that the break-even point between Payhip's Free plan (5% fee) and Plus plan ($29/mo + 2% fee) is $967/month in revenue.\n\n**Verbatim snippet:** \"Upgrade when your monthly revenue consistently exceeds $967. At this point, the Plus plan's $29 subscription plus 2% fees costs the same as the Free plan's 5% fees.\"\n\n**Source:** https://checkthat.ai/brands/payhip/pricing\n**source_type:** article\n**Date:** Accessed April 2026; page undated\n**Notes:** Math checks out: $967 × 0.05 = $48.35; $29 + ($967 × 0.02) = $48.34. Verified by calculation. Original ID: C7.\n**verification_status:** could_not_verify",
-  "why_failed": "",
+  "attempted": "https://checkthat.ai/brands/payhip/pricing",
+  "why_failed": null,
   "urls_mentioned": [
     "https://checkthat.ai/brands/payhip/pricing"
-  ]
+  ],
+  "what": "A third-party analysis calculates that the break-even point between Payhip's Free plan (5% fee) and Plus plan ($29/mo + 2% fee) is $967/month in revenue.",
+  "verbatim_snippet": "\"Upgrade when your monthly revenue consistently exceeds $967. At this point, the Plus plan's $29 subscription plus 2% fees costs the same as the Free plan's 5% fees.\"",
+  "source": "https://checkthat.ai/brands/payhip/pricing",
+  "source_type": "article",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Math checks out: $967 × 0.05 = $48.35; $29 + ($967 × 0.02) = $48.34. Verified by calculation. Original ID: C7."
 }

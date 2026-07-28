@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "**What:** Envato mobile app (Google Play) page could not be accessed; no app-specific buyer data retrieved.",
-  "attempted": "fetch: https://play.google.com/store/apps/details?id=com.envato.mobile.extension&hl=en_CA — returned 404 error.\n**source_type:** unknown\n**verification_status:** could_not_verify\n**Date:** Searched April 2026.\n**Notes:** Google Play page returned 404, suggesting the app listing may have been removed or the URL changed. No download counts, ratings, or user reviews were retrievable.",
-  "why_failed": "",
+  "attempted": "Attempted fetch: https://play.google.com/store/apps/details?id=com.envato.mobile.extension&hl=en_CA — returned 404 error.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://play.google.com/store/apps/details?id=com.envato.mobile.extension&hl=en_CA"
-  ]
+  ],
+  "verbatim_snippet": "n/a — absence finding.",
+  "source": "Attempted fetch: https://play.google.com/store/apps/details?id=com.envato.mobile.extension&hl=en_CA — returned 404 error.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Searched April 2026.",
+  "notes": "Google Play page returned 404, suggesting the app listing may have been removed or the URL changed. No download counts, ratings, or user reviews were retrievable."
 }

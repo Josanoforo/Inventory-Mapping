@@ -3,9 +3,18 @@
   "source_tool": "deep_search",
   "item_id": "F-X10",
   "seller_or_subject": "OCU Spain — virtual assistant training scam",
-  "attempted": "**Subject:** Spanish buyer enrolled in a training program sold via Hotmart with a job placement guarantee; after months with no placements, concluded it was a scam.\n**Verbatim snippet (from search index):** \"Tras claros incumplimientos de los servicios que ofrecen, y falta de compromiso con las condiciones del contrato; ya que en el contrato pone literalmente que la finalidad de este es que el alumno trabaje y que si no es aceptado en las vacantes puede recibir el rembolso del dinero, a mi no me han enviado ninguna vacante estando varios meses en la bolsa de empleo\"\n**Source:** https://www.ocu.org/reclamar/lista-reclamaciones-publicas/estafa-formaci-C3-B3n/77ea9d53c64744630c\n**source_type:** buyer_review\n**verification_status:** could_not_verify\n**Date:** 08/11/2024\n**Notes:** OCU URL blocked on direct fetch; verbatim from search snippet. Date 08/11/2024 falls outside April 2025–April 2026 time window. Location: Spain. Product: virtual assistant training program with employment guarantee. Outcome: no job placements after months, buyer requests refund. Secondary issue: phishing attempt via unofficial payment page.",
-  "why_failed": "",
+  "attempted": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/estafa-formaci-C3-B3n/77ea9d53c64744630c",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/estafa-formaci-C3-B3n/77ea9d53c64744630c"
-  ]
+  ],
+  "source": "https://www.ocu.org/reclamar/lista-reclamaciones-publicas/estafa-formaci-C3-B3n/77ea9d53c64744630c",
+  "source_type": "buyer_review",
+  "verification_status": "could_not_verify",
+  "date": "08/11/2024",
+  "notes": "OCU URL blocked on direct fetch; verbatim from search snippet. Date 08/11/2024 falls outside April 2025–April 2026 time window. Location: Spain. Product: virtual assistant training program with employment guarantee. Outcome: no job placements after months, buyer requests refund. Secondary issue: phishing attempt via unofficial payment page.",
+  "extra_fields": {
+    "subject": "Spanish buyer enrolled in a training program sold via Hotmart with a job placement guarantee; after months with no placements, concluded it was a scam.",
+    "verbatim_snippet_from_search_index": "\"Tras claros incumplimientos de los servicios que ofrecen, y falta de compromiso con las condiciones del contrato; ya que en el contrato pone literalmente que la finalidad de este es que el alumno trabaje y que si no es aceptado en las vacantes puede recibir el rembolso del dinero, a mi no me han enviado ninguna vacante estando varios meses en la bolsa de empleo\""
+  }
 }

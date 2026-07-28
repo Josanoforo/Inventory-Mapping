@@ -3,9 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Reclame Aqui — out of scope (language)",
-  "attempted": "fetch of https://www.reclameaqui.com.br/empresa/hotmart/ returned permissions error. Reclame Aqui is a Brazilian consumer complaint platform; content is primarily Portuguese.  \n**Notes:** SD-06. Out of scope per language requirement (Spanish only). Site blocked on fetch.",
-  "why_failed": "",
+  "attempted": "Attempted fetch of https://www.reclameaqui.com.br/empresa/hotmart/ returned permissions error. Reclame Aqui is a Brazilian consumer complaint platform; content is primarily Portuguese.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reclameaqui.com.br/empresa/hotmart/"
-  ]
+  ],
+  "what": "Reclame Aqui content for Hotmart is exclusively or near-exclusively in Portuguese, not Spanish.",
+  "verbatim_snippet": "n/a — language exclusion",
+  "source": "Attempted fetch of https://www.reclameaqui.com.br/empresa/hotmart/ returned permissions error. Reclame Aqui is a Brazilian consumer complaint platform; content is primarily Portuguese.",
+  "notes": "SD-06. Out of scope per language requirement (Spanish only). Site blocked on fetch."
 }

@@ -3,7 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X10",
   "seller_or_subject": "Domestika platform documentation with buyer behavior data",
-  "attempted": "- **What:** No data found on Domestika platform documentation containing buyer behavior data (distinct from marketing claims)\n- **Verbatim snippet:** n/a — absence finding\n- **Source:** Searched: web_search \"site:domestika.org help buyer\"; web_search \"domestika.org refund policy buyer\"; web_search \"domestika help center buyer purchase refund policy\". Found help center/refund policy pages but none containing buyer behavior analytics.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only. Domestika help center pages discuss policies but do not publish buyer behavior data.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Searched: web_search \"site:domestika.org help buyer\"; web_search \"domestika.org refund policy buyer\"; web_search \"domestika help center buyer purchase refund policy\". Found help center/refund policy pages but none containing buyer behavior analytics.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No data found on Domestika platform documentation containing buyer behavior data (distinct from marketing claims)",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searched: web_search \"site:domestika.org help buyer\"; web_search \"domestika.org refund policy buyer\"; web_search \"domestika help center buyer purchase refund policy\". Found help center/refund policy pages but none containing buyer behavior analytics.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. Domestika help center pages discuss policies but do not publish buyer behavior data."
 }

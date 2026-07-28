@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Patreon help center discovery documentation — out of scope (D1)",
-  "attempted": "**What:** Patreon's help center articles describe the Explore tab structure, including sections named Search, Topics, Recently Visited, Creators for you, Popular this week, Explore Topics, New on Patreon, and Top creators. These are out of scope for this shard (help_center = D1).\n\n**Verbatim snippet:** n/a — out-of-scope routing note. Relevant articles identified at support.patreon.com/hc/en-us/articles/360028768352 and support.patreon.com/hc/en-us/articles/30306733879949.\n\n**Source:** https://support.patreon.com/hc/en-us/articles/360028768352 and https://support.patreon.com/hc/en-us/articles/30306733879949\n\n**source_type:** help_center (NOT ALLOWED in Parts 1–2 of this shard; routed here per protocol)\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026; pages undated in search snippets.\n\n**Notes:** These are Patreon platform documentation (D1 material). The help center describes the Explore tab as featuring \"over 100 different categories\" and states \"Creators are categorized into various genres and niches based on their content type, taglines, and descriptions.\" These details are noted for routing purposes only; they are not findings for this shard.",
-  "why_failed": "",
+  "attempted": "https://support.patreon.com/hc/en-us/articles/360028768352 and https://support.patreon.com/hc/en-us/articles/30306733879949",
+  "why_failed": null,
   "urls_mentioned": [
     "https://support.patreon.com/hc/en-us/articles/360028768352",
     "https://support.patreon.com/hc/en-us/articles/30306733879949"
-  ]
+  ],
+  "what": "Patreon's help center articles describe the Explore tab structure, including sections named Search, Topics, Recently Visited, Creators for you, Popular this week, Explore Topics, New on Patreon, and Top creators. These are out of scope for this shard (help_center = D1).",
+  "verbatim_snippet": "n/a — out-of-scope routing note. Relevant articles identified at support.patreon.com/hc/en-us/articles/360028768352 and support.patreon.com/hc/en-us/articles/30306733879949.",
+  "source": "https://support.patreon.com/hc/en-us/articles/360028768352 and https://support.patreon.com/hc/en-us/articles/30306733879949",
+  "source_type": "help_center (NOT ALLOWED in Parts 1–2 of this shard; routed here per protocol)",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; pages undated in search snippets.",
+  "notes": "These are Patreon platform documentation (D1 material). The help center describes the Explore tab as featuring \"over 100 different categories\" and states \"Creators are categorized into various genres and niches based on their content type, taglines, and descriptions.\" These details are noted for routing purposes only; they are not findings for this shard."
 }

@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Indie Hackers discussions",
-  "attempted": "Direct URL: https://www.indiehackers.com/search?q=patreon+vs (not fetchable)\n- Web search: site:indiehackers.com \"patreon vs\" (zero results)\n\n**Status:** could_not_verify. Indie Hackers content did not surface in web search results.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.indiehackers.com/search?q=patreon+vs"
-  ]
+  ],
+  "extra_fields": {
+    "sd": "18 search for Patreon comparison discussions on Indie Hackers yielded no retrievable content. Searches attempted:",
+    "direct_url": "https://www.indiehackers.com/search?q=patreon+vs (not fetchable)",
+    "web_search": "site:indiehackers.com \"patreon vs\" (zero results)",
+    "status": "could_not_verify. Indie Hackers content did not surface in web search results."
+  }
 }

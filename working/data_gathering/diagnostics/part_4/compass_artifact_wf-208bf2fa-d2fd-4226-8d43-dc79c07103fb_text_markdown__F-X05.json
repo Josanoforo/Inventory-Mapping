@@ -3,11 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Payoneer or Wise as payout methods on Payhip",
-  "attempted": "n/a — absence finding. Searched: help.payhip.com, payhip.com/faq, payhip.com/payment-gateways. Neither Payoneer nor Wise is mentioned as a supported payment gateway or payout method on any Payhip page. Payhip's 13 supported gateways are: Stripe, PayPal, Square, Mollie, Mercado Pago, Paystack, Flutterwave, PayU, Razorpay, Iyzico, Midtrans, Xendit, Paytabs.\n**Source:** n/a — absence finding\n**Searched locations:** https://help.payhip.com (site-wide), https://payhip.com/faq, https://payhip.com/blog/new-feature-payhip-integrates-with-11-new-payment-gateways/",
-  "why_failed": "",
+  "attempted": "n/a — absence finding",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com",
     "https://payhip.com/faq,",
     "https://payhip.com/blog/new-feature-payhip-integrates-with-11-new-payment-gateways/"
-  ]
+  ],
+  "source": "n/a — absence finding",
+  "extra_fields": {
+    "searched_locations": "https://help.payhip.com (site-wide), https://payhip.com/faq, https://payhip.com/blog/new-feature-payhip-integrates-with-11-new-payment-gateways/"
+  }
 }

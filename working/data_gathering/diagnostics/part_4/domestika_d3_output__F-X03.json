@@ -3,12 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Cursos más vendidos / best-sellers como listado dedicado",
-  "attempted": "navigation to https://www.domestika.org/es/courses/best-sellers (not fetched separately); observed \"Top ventas\" labels in https://www.domestika.org/es/courses and https://www.domestika.org/es/courses/category/11-ilustracion\nsource_type: unknown\nverification_status: could_not_verify\nDate: April 2026\nNotes: La URL /best-sellers sugerida en el shard no fue fetched como página separada. Los resultados de \"Cursos populares\" podrían ser equivalentes funcionales. No se puede confirmar ni negar la existencia de /best-sellers como ruta válida sin fetch directo.",
-  "why_failed": "",
+  "attempted": "Attempted navigation to https://www.domestika.org/es/courses/best-sellers (not fetched separately); observed \"Top ventas\" labels in https://www.domestika.org/es/courses and https://www.domestika.org/es/courses/category/11-ilustracion",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.domestika.org/es/courses/best-sellers",
     "https://www.domestika.org/es/courses/best-sellers",
     "https://www.domestika.org/es/courses",
     "https://www.domestika.org/es/courses/category/11-ilustracion"
-  ]
+  ],
+  "what": "La URL https://www.domestika.org/es/courses/best-sellers no fue accedida directamente. La etiqueta \"Top ventas\" aparece en cursos individuales dentro de las páginas de catálogo, pero no se identificó una página dedicada de best-sellers separada de las listas \"Cursos populares\" y \"Cursos mejor valorados\".",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted navigation to https://www.domestika.org/es/courses/best-sellers (not fetched separately); observed \"Top ventas\" labels in https://www.domestika.org/es/courses and https://www.domestika.org/es/courses/category/11-ilustracion",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "April 2026",
+  "notes": "La URL /best-sellers sugerida en el shard no fue fetched como página separada. Los resultados de \"Cursos populares\" podrían ser equivalentes funcionales. No se puede confirmar ni negar la existencia de /best-sellers como ruta válida sin fetch directo."
 }

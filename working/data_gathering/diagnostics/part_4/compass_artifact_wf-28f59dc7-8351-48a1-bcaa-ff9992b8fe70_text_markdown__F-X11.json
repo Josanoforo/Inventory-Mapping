@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "SimilarWeb Domestika detailed buyer/conversion data",
-  "attempted": "fetch by subagent; data reported but two different visit counts (8.2M and 6.9M) from same source raise consistency concerns\n- **source_type:** report\n- **verification_status:** could_not_verify\n- **Date:** Reported as January 2026 data by subagent\n- **Notes:** SimilarWeb data is estimated, not GA4-validated. Conflicting visit figures from same source (8.2M vs 6.9M) may reflect different months or measurement updates. Could not independently verify which snapshot applies. Degraded to Part 4 due to inconsistency.",
-  "why_failed": "",
+  "attempted": "https://www.similarweb.com/website/domestika.org/ — attempted fetch by subagent; data reported but two different visit counts (8.2M and 6.9M) from same source raise consistency concerns",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.similarweb.com/website/domestika.org/"
-  ]
+  ],
+  "what": "SimilarWeb page for domestika.org accessed by subagent showing traffic estimates (6.9M–8.2M visits) and demographics but source page was not independently verified and specific visit figures vary between snapshots",
+  "verbatim_snippet": "n/a — could not verify",
+  "source": "https://www.similarweb.com/website/domestika.org/ — attempted fetch by subagent; data reported but two different visit counts (8.2M and 6.9M) from same source raise consistency concerns",
+  "source_type": "report",
+  "verification_status": "could_not_verify",
+  "date": "Reported as January 2026 data by subagent",
+  "notes": "SimilarWeb data is estimated, not GA4-validated. Conflicting visit figures from same source (8.2M vs 6.9M) may reflect different months or measurement updates. Could not independently verify which snapshot applies. Degraded to Part 4 due to inconsistency."
 }

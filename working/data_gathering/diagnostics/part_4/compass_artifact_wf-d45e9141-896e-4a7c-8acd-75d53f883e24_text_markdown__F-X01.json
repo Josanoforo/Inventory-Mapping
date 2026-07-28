@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Reddit discussions",
-  "attempted": "site:reddit.com \"patreon vs\" (multiple formulations)\n- Direct URL fetch: https://www.reddit.com/r/patreon/search/?q=vs+substack&sort=relevance&t=all (blocked)\n- Direct URL fetch: https://www.reddit.com/r/CreatorsAdvice/search/?q=patreon+vs&sort=relevance&t=all (blocked)\n- old.reddit.com variants (blocked)\n- inurl:reddit.com \"patreon vs\" (zero results)\n- Multiple indirect search queries referencing Reddit Patreon discussions (zero Reddit URLs returned)\n\n**Status:** could_not_verify. Systematic access limitation: site:reddit.com queries returned empty result sets across all attempts by multiple independent subagents. No Reddit content was retrieved for this run.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/patreon/search/?q=vs+substack&sort=relevance&t=all",
     "https://www.reddit.com/r/CreatorsAdvice/search/?q=patreon+vs&sort=relevance&t=all"
-  ]
+  ],
+  "extra_fields": {
+    "all_reddit_searches_sd": "05, SD-06) yielded zero retrievable results. Searches attempted:",
+    "site": "reddit.com \"patreon vs\" (multiple formulations)",
+    "direct_url_fetch": "https://www.reddit.com/r/CreatorsAdvice/search/?q=patreon+vs&sort=relevance&t=all (blocked)\n- old.reddit.com variants (blocked)",
+    "inurl": "reddit.com \"patreon vs\" (zero results)\n- Multiple indirect search queries referencing Reddit Patreon discussions (zero Reddit URLs returned)",
+    "status": "could_not_verify. Systematic access limitation: site:reddit.com queries returned empty result sets across all attempts by multiple independent subagents. No Reddit content was retrieved for this run."
+  }
 }

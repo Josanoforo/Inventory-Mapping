@@ -3,7 +3,7 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Reddit r/Etsy buyer posts",
-  "attempted": "site:reddit.com/r/Etsy \"bought\" OR \"purchased\" 2025; site:reddit.com/r/Etsy buyer experience 2025; reddit r/Etsy \"as a buyer\" 2025; and 11 additional query variants. Reddit URLs blocked by web_fetch tool (PERMISSIONS_ERROR) and not indexed by search engine. Source: specific searches attempted. source_type: unknown.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": []
 }

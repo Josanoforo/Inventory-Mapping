@@ -3,10 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "Minimum payout thresholds for regular Payhip sellers",
-  "attempted": "n/a — absence finding. No minimum payout threshold for regular seller payouts is documented on any Payhip page. Payments flow directly and instantly to the seller's connected payment processor (Stripe, PayPal, or Mercado Pago) per transaction (see F-03 for Mercado Pago model). The only documented threshold is $50 USD for the Partner (affiliate referral) program, paid monthly via PayPal — this applies to referral commissions, not seller product revenue.\n**Source:** n/a — absence finding\n**Searched locations:** https://help.payhip.com/article/173-how-do-i-get-paid, https://help.payhip.com (site-wide for \"minimum payout\" and \"threshold\"), web search \"Payhip minimum payout threshold\"",
-  "why_failed": "",
+  "attempted": "n/a — absence finding",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com/article/173-how-do-i-get-paid,",
     "https://help.payhip.com"
-  ]
+  ],
+  "source": "n/a — absence finding",
+  "extra_fields": {
+    "searched_locations": "https://help.payhip.com/article/173-how-do-i-get-paid, https://help.payhip.com (site-wide for \"minimum payout\" and \"threshold\"), web search \"Payhip minimum payout threshold\""
+  }
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Passion.io blog — 21% patron cancellation rate, 12% decline rate",
-  "attempted": "- **What:** Passion.io blog cites \"Patreon's internal data from April 2024\" showing a 21% patron cancellation rate and a 12% average decline rate.\n- **Verbatim snippet:** \"Patreon's internal data from April 2024 showed a 21% patron cancellation rate and a 12% average decline rate, even as new sign-ups offset losses.\"\n- **Source:** https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps\n- **source_type:** blog\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026; page undated (references events through August 2025)\n- **Notes:** Local source weakness: secondary citation of \"Patreon's internal data\" by a competitor platform (Passion.io) with no link to primary source. Underlying data period (April 2024) is before the shard window. Dual degradation: pre-window data + unverifiable primary source.",
-  "why_failed": "",
+  "attempted": "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps",
+  "why_failed": null,
   "urls_mentioned": [
     "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps"
-  ]
+  ],
+  "what": "Passion.io blog cites \"Patreon's internal data from April 2024\" showing a 21% patron cancellation rate and a 12% average decline rate.",
+  "verbatim_snippet": "\"Patreon's internal data from April 2024 showed a 21% patron cancellation rate and a 12% average decline rate, even as new sign-ups offset losses.\"",
+  "source": "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps",
+  "source_type": "blog",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; page undated (references events through August 2025)",
+  "notes": "Local source weakness: secondary citation of \"Patreon's internal data\" by a competitor platform (Passion.io) with no link to primary source. Underlying data period (April 2024) is before the shard window. Dual degradation: pre-window data + unverifiable primary source."
 }

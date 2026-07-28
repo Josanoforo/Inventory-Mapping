@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Absence — r/patreon patron experience posts",
-  "attempted": "- **What:** \"No data found on patron/buyer experience posts in r/patreon within April 2025–April 2026.\"\n- **Verbatim snippet:** \"n/a — absence finding\"\n- **Source:** Searched: site:reddit.com/r/patreon patron experience 2025; site:reddit.com/r/patreon subscriber cancel 2025; site:reddit.com/r/patreon buyer complaint 2025; site:reddit.com/r/patreon patron refund 2025 2026; direct fetch of https://www.reddit.com/r/patreon/search/?q=patron+experience; old.reddit.com/r/patreon/new/; web.archive.org/web/2025/https://www.reddit.com/r/patreon/. All returned zero results or permissions errors.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only. Reddit.com and old.reddit.com fully blocked from both direct fetch and search indexing. No Google Cache, archive.org, or third-party mirror of r/patreon threads was discoverable.",
-  "why_failed": "",
+  "attempted": "Searched: site:reddit.com/r/patreon patron experience 2025; site:reddit.com/r/patreon subscriber cancel 2025; site:reddit.com/r/patreon buyer complaint 2025; site:reddit.com/r/patreon patron refund 2025 2026; direct fetch of https://www.reddit.com/r/patreon/search/?q=patron+experience; old.reddit.com/r/patreon/new/; web.archive.org/web/2025/https://www.reddit.com/r/patreon/. All returned zero results or permissions errors.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/patreon/search/?q=patron+experience;",
     "https://www.reddit.com/r/patreon/."
-  ]
+  ],
+  "what": "\"No data found on patron/buyer experience posts in r/patreon within April 2025–April 2026.\"",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searched: site:reddit.com/r/patreon patron experience 2025; site:reddit.com/r/patreon subscriber cancel 2025; site:reddit.com/r/patreon buyer complaint 2025; site:reddit.com/r/patreon patron refund 2025 2026; direct fetch of https://www.reddit.com/r/patreon/search/?q=patron+experience; old.reddit.com/r/patreon/new/; web.archive.org/web/2025/https://www.reddit.com/r/patreon/. All returned zero results or permissions errors.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. Reddit.com and old.reddit.com fully blocked from both direct fetch and search indexing. No Google Cache, archive.org, or third-party mirror of r/patreon threads was discoverable."
 }

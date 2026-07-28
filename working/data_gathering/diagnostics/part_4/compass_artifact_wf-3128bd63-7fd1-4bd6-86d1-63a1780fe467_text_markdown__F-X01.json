@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Specific US tax treaty royalty withholding rates for individual LatAm countries on Envato",
-  "attempted": "(1) web_fetch of https://help.author.envato.com/hc/en-us/articles/360000470606-US-Tax-Treaties returned 403; (2) web_search for site:help.author.envato.com \"US Tax Treaties\" returned page title and generic description \"This article lists all the current US Tax Treaties across the countries Envato operates\" but no rate table content; (3) IRS Treaty Table 1 at irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf was fetched successfully but is not an Envato source and falls outside the allowed source_type subset for this shard.\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: The Envato page exists and is indexed but its treaty rate table content could not be recovered from search index snippets. Country-specific treaty rates (e.g., Mexico 10% copyright royalties under Article 12(2)) are confirmed by the IRS table but cannot be attributed to Envato documentation without direct page verification.",
-  "why_failed": "",
+  "attempted": "Searches attempted: (1) web_fetch of https://help.author.envato.com/hc/en-us/articles/360000470606-US-Tax-Treaties returned 403; (2) web_search for site:help.author.envato.com \"US Tax Treaties\" returned page title and generic description \"This article lists all the current US Tax Treaties across the countries Envato operates\" but no rate table content; (3) IRS Treaty Table 1 at irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf was fetched successfully but is not an Envato source and falls outside the allowed source_type subset for this shard.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.author.envato.com/hc/en-us/articles/360000470606-US-Tax-Treaties"
-  ]
+  ],
+  "what": "Envato's \"US Tax Treaties\" article references IRS treaty rate tables for copyright royalty withholding but the page could not be fetched; specific treaty rates for LatAm countries (Mexico 10%, Venezuela 10%, Jamaica 10%, Barbados 5%, Trinidad & Tobago 0%) are sourced from IRS Treaty Table 1 (Rev. May 2023), which is not an Envato source.",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searches attempted: (1) web_fetch of https://help.author.envato.com/hc/en-us/articles/360000470606-US-Tax-Treaties returned 403; (2) web_search for site:help.author.envato.com \"US Tax Treaties\" returned page title and generic description \"This article lists all the current US Tax Treaties across the countries Envato operates\" but no rate table content; (3) IRS Treaty Table 1 at irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf was fetched successfully but is not an Envato source and falls outside the allowed source_type subset for this shard.",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "The Envato page exists and is indexed but its treaty rate table content could not be recovered from search index snippets. Country-specific treaty rates (e.g., Mexico 10% copyright royalties under Article 12(2)) are confirmed by the IRS table but cannot be attributed to Envato documentation without direct page verification."
 }

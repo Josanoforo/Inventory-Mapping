@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X15",
   "seller_or_subject": "Apestan.com buyer complaint — out of time window, site defunct",
-  "attempted": "",
-  "why_failed": "s: (1) outside April 2025–April 2026 time window; (2) original page permanently inaccessible (site defunct); (3) text visible only in Google search result snippet, not Google cache of same URL — does not meet blocked_url_index_verified standard. Product: phone case (funda para teléfono), then two hoodies (sudaderas). Buyer location: Ciudad de México (implied by case filing location). SD-13.",
+  "attempted": "https://www.apestan.com/cases/kichink-ciudad-de-mexico-distrito-federal-mexico_83175.html (site defunct — domain redirects to Wix for-sale page)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.apestan.com/cases/kichink-ciudad-de-mexico-distrito-federal-mexico_83175.html"
-  ]
+  ],
+  "what": "One buyer-voice comment was found in Google search result snippets for Apestan.com Case 83175. The buyer described purchasing a phone case on Kichink, experiencing weeks-long payment processing delays, non-delivery, receiving a discount coupon that could not be scanned at five Oxxo convenience stores, and failure to obtain a refund after contacting Kichink via Twitter and email. However: (a) the complaint dates to approximately 2013, well outside the April 2025–April 2026 time window; (b) Apestan.com is permanently defunct (domain converted to for-sale page on Wix); (c) the buyer text is visible only in Google search result snippets, not via Google cache of the same URL or any valid mirror.",
+  "verbatim_snippet": "\"compre una funda para mi teléfono y tardo semanas en registrarse mi pago y una vez que mi orden había sido procesada nunca llego. Un mes después me enviaron un e-mail diciendo que habían tenido inconvenientes a la hora de entregármelo y me dieron un cupón de descuento, con ese cupón me compre dos sudaderas y solo me quedaba por pagar cuatro pesos, a la hora de imprimir el código no aparecía y cuando al fin logre imprimirlo ningún oxxo a los que acudí (que fueron cinco por cierto) leía el código , les escribí via twitter y les mande un e-mail no conseguí respuesta y mi dinero nunca fue reembolsado, me quedo con una muy mala experiencia.\"",
+  "source": "https://www.apestan.com/cases/kichink-ciudad-de-mexico-distrito-federal-mexico_83175.html (site defunct — domain redirects to Wix for-sale page)",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Case 83175 filed 16/09/2013; buyer comment date not determinable; outside target window",
+  "notes": "Routed to Part 4 for three independent reasons: (1) outside April 2025–April 2026 time window; (2) original page permanently inaccessible (site defunct); (3) text visible only in Google search result snippet, not Google cache of same URL — does not meet blocked_url_index_verified standard. Product: phone case (funda para teléfono), then two hoodies (sudaderas). Buyer location: Ciudad de México (implied by case filing location). SD-13.",
+  "extra_fields": {
+    "finding_id": "F-X15"
+  }
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "Absence — Sitejabber Patreon patron reviews within window",
-  "attempted": "- **What:** \"No Patreon patron/buyer reviews found on Sitejabber within April 2025–April 2026.\"\n- **Verbatim snippet:** \"n/a — absence finding\"\n- **Source:** Searched: site:sitejabber.com patreon review 2025; fetched https://www.sitejabber.com/reviews/patreon.com. Sitejabber (now SmartCustomer) has 13 total reviews for Patreon; most recent review dated July 18, 2024, which is before the shard window.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only. No reviews exist on Sitejabber for Patreon within the April 2025–April 2026 window.",
-  "why_failed": "",
+  "attempted": "Searched: site:sitejabber.com patreon review 2025; fetched https://www.sitejabber.com/reviews/patreon.com. Sitejabber (now SmartCustomer) has 13 total reviews for Patreon; most recent review dated July 18, 2024, which is before the shard window.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.sitejabber.com/reviews/patreon.com."
-  ]
+  ],
+  "what": "\"No Patreon patron/buyer reviews found on Sitejabber within April 2025–April 2026.\"",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searched: site:sitejabber.com patreon review 2025; fetched https://www.sitejabber.com/reviews/patreon.com. Sitejabber (now SmartCustomer) has 13 total reviews for Patreon; most recent review dated July 18, 2024, which is before the shard window.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. No reviews exist on Sitejabber for Patreon within the April 2025–April 2026 window."
 }

@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "G2.com Etsy product page and comparative reviews",
-  "attempted": "SD-14. Searched for \"etsy\" on G2.com via web_search.\n**Outcome:** G2 does not index Etsy as a consumer marketplace product. G2 returned results for \"Etsy Clone\" software and marketplace-builder tools, not the Etsy marketplace itself. G2 is designed for B2B SaaS comparison and does not cover B2C consumer marketplaces.",
-  "why_failed": "for failure:** Product not indexed on this review aggregator.",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "extra_fields": {
+    "subject": "Structured user reviews comparing Etsy to competitors on G2.",
+    "sub": "searches attempted:** SD-14. Searched for \"etsy\" on G2.com via web_search.",
+    "outcome": "G2 does not index Etsy as a consumer marketplace product. G2 returned results for \"Etsy Clone\" software and marketplace-builder tools, not the Etsy marketplace itself. G2 is designed for B2B SaaS comparison and does not cover B2C consumer marketplaces.",
+    "reason_for_failure": "Product not indexed on this review aggregator."
+  }
 }

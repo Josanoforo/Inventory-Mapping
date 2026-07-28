@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X14",
   "seller_or_subject": "ScamAdviser automated analysis — out-of-scope source_type",
-  "attempted": "**Finding ID:** F-X14  \n**What:** ScamAdviser's automated analysis of kichink.com states \"We did not find reviews on popular review sites\" under the negative highlights section. The site is rated \"Very Likely Safe\" with a trust score based on Tranco ranking (high, 20), domain age (14 years), valid SSL, and DigitalOcean hosting. Last updated approximately one year prior to access. WHOIS registration 2011-12-07, renewal 2025-12-07.  \n**Verbatim snippet:** \"We did not find reviews on popular review sites\"  \n**Source:** https://www.scamadviser.com/check-website/kichink.com  \n**source_type:** out-of-scope — ScamAdviser is an automated website trust-score tool; does not fit any allowed source_type (buyer_review, reddit, article, blog, video_transcript, platform_doc, report)  \n**verification_status:** could_not_verify  \n**Date:** Accessed April 2026; page displays \"Last Update: 1 year ago\"  \n**Notes:** Routed to Part 4 due to source_type mismatch. ScamAdviser is an automated algorithmic analysis, not a human-authored report. Finding confirms absence of user reviews but is not itself buyer-behavior data. SD-15.",
-  "why_failed": "",
+  "attempted": "https://www.scamadviser.com/check-website/kichink.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.scamadviser.com/check-website/kichink.com"
-  ]
+  ],
+  "what": "ScamAdviser's automated analysis of kichink.com states \"We did not find reviews on popular review sites\" under the negative highlights section. The site is rated \"Very Likely Safe\" with a trust score based on Tranco ranking (high, 20), domain age (14 years), valid SSL, and DigitalOcean hosting. Last updated approximately one year prior to access. WHOIS registration 2011-12-07, renewal 2025-12-07.",
+  "verbatim_snippet": "\"We did not find reviews on popular review sites\"",
+  "source": "https://www.scamadviser.com/check-website/kichink.com",
+  "source_type": "out-of-scope — ScamAdviser is an automated website trust-score tool; does not fit any allowed source_type (buyer_review, reddit, article, blog, video_transcript, platform_doc, report)",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; page displays \"Last Update: 1 year ago\"",
+  "notes": "Routed to Part 4 due to source_type mismatch. ScamAdviser is an automated algorithmic analysis, not a human-authored report. Finding confirms absence of user reviews but is not itself buyer-behavior data. SD-15.",
+  "extra_fields": {
+    "finding_id": "F-X14"
+  }
 }

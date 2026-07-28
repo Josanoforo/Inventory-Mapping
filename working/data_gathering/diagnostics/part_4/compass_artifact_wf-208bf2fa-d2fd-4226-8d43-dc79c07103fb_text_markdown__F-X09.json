@@ -3,9 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X09",
   "seller_or_subject": "Exchange rate markup or FX spread information on Payhip",
-  "attempted": "n/a — absence finding. No Payhip documentation discusses exchange rate markups, FX spreads, or currency conversion mechanics. Payhip's single-currency-per-store design (F-07) and currency-matching requirement for Mercado Pago (F-02) suggest currency conversion may be handled entirely by the payment processor (Stripe, PayPal, Mercado Pago) rather than by Payhip. No Payhip page addresses what happens when a buyer pays in a currency different from the store's default currency.\n**Source:** n/a — absence finding\n**Searched locations:** https://help.payhip.com (site-wide for \"currency conversion,\" \"exchange rate,\" \"FX\"), web search \"Payhip currency conversion\"",
-  "why_failed": "",
+  "attempted": "n/a — absence finding",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com"
-  ]
+  ],
+  "source": "n/a — absence finding",
+  "extra_fields": {
+    "searched_locations": "https://help.payhip.com (site-wide for \"currency conversion,\" \"exchange rate,\" \"FX\"), web search \"Payhip currency conversion\""
+  }
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "Trustpilot \"$10 Uxpeak ebook\" review — attribution conflict",
-  "attempted": "- **What:** A buyer review reportedly described purchasing a $10 ebook titled \"ChatGPT for UX/UI Design: Top Prompts and Expert Tips for Maximum Impact\" and leaving a negative review that was suppressed.\n- **Verbatim snippet:** \"Don't trust their 5-star reviews. I bought a cheap $10 Uxpeak e-book 'ChatGPT for UX/UI Design: Top Prompts and Expert Tips for Maximum Impact'. I left a negative review, as the book really j...\" (from search snippet)\n- **Source:** https://www.trustpilot.com/review/gumroad.com\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Attributed to November 27, 2025\n- **Notes:** Initially attributed to reviewer \"Julien Carcaly\" (Nov 27, 2025) by search snippets. However, direct verification of the Julien Carcaly review at that date found a DIFFERENT review text (seller-voice content about balance withholding and platform policies). The \"$10 Uxpeak ebook\" quote may belong to a different reviewer or a different date; attribution could not be confirmed. Moved to Part 4 for reviewer identity conflict. Edge case: search snippet text does not match fetched page text for the same attributed reviewer.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/gumroad.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/gumroad.com"
-  ]
+  ],
+  "what": "A buyer review reportedly described purchasing a $10 ebook titled \"ChatGPT for UX/UI Design: Top Prompts and Expert Tips for Maximum Impact\" and leaving a negative review that was suppressed.",
+  "verbatim_snippet": "\"Don't trust their 5-star reviews. I bought a cheap $10 Uxpeak e-book 'ChatGPT for UX/UI Design: Top Prompts and Expert Tips for Maximum Impact'. I left a negative review, as the book really j...\" (from search snippet)",
+  "source": "https://www.trustpilot.com/review/gumroad.com",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Attributed to November 27, 2025",
+  "notes": "Initially attributed to reviewer \"Julien Carcaly\" (Nov 27, 2025) by search snippets. However, direct verification of the Julien Carcaly review at that date found a DIFFERENT review text (seller-voice content about balance withholding and platform policies). The \"$10 Uxpeak ebook\" quote may belong to a different reviewer or a different date; attribution could not be confirmed. Moved to Part 4 for reviewer identity conflict. Edge case: search snippet text does not match fetched page text for the same attributed reviewer."
 }

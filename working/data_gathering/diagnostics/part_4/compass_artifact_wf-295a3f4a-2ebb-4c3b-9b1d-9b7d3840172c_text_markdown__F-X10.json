@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X10",
   "seller_or_subject": "Contenido en inglés — artículo de Contxto sobre crisis de pagos de Kichink",
-  "attempted": "What: Un artículo en INGLÉS de Contxto documenta la crisis de pagos de Kichink (#KichinkNoPaga) y el cambio en Términos y Condiciones del plazo de pago de 10 días a 90 días en 2020, pero no contiene mecánicas cross-border específicas.\nVerbatim snippet: n/a — contenido en inglés, fuera de alcance del shard en español\nSource: https://contxto.com/mexico/e-commerce-vendors-claim-kichink-owes/\nsource_type: article\nverification_status: could_not_verify\nDate: 8 de marzo de 2020\nNotes: Brecha de cobertura por idioma. El artículo está completamente en inglés.",
-  "why_failed": "",
+  "attempted": "https://contxto.com/mexico/e-commerce-vendors-claim-kichink-owes/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://contxto.com/mexico/e-commerce-vendors-claim-kichink-owes/"
-  ]
+  ],
+  "what": "Un artículo en INGLÉS de Contxto documenta la crisis de pagos de Kichink (#KichinkNoPaga) y el cambio en Términos y Condiciones del plazo de pago de 10 días a 90 días en 2020, pero no contiene mecánicas cross-border específicas.",
+  "verbatim_snippet": "n/a — contenido en inglés, fuera de alcance del shard en español",
+  "source": "https://contxto.com/mexico/e-commerce-vendors-claim-kichink-owes/",
+  "source_type": "article",
+  "verification_status": "could_not_verify",
+  "date": "8 de marzo de 2020",
+  "notes": "Brecha de cobertura por idioma. El artículo está completamente en inglés."
 }

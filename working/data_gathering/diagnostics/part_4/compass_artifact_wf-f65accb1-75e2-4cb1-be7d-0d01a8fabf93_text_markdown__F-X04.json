@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "Reddit r/gumroad LatAm cross-border discussions",
-  "attempted": "**What:** Searches of r/gumroad for LatAm cross-border payout, tax, and currency discussions returned no relevant threads. The subreddit appears to have minimal or no indexed content about LatAm-specific cross-border mechanics.\n**Source:** N/A — absence finding\n**source_type:** N/A\n**verification_status:** could_not_verify\n**Date:** Searched April 2026\n**Notes:** Covers SD-16. Executed 15+ search queries across site:reddit.com/r/gumroad including country-specific terms (Mexico, Brazil, Argentina, Colombia), mechanism terms (payout, withholding, W-8BEN, currency, PayPal, Payoneer), and broader r/ecommerce queries. Reddit page fetches also failed due to rate limiting and access restrictions. One r/ecommerce thread about the PayPal issue was identified but could not be fully fetched.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "N/A — absence finding",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "Searches of r/gumroad for LatAm cross-border payout, tax, and currency discussions returned no relevant threads. The subreddit appears to have minimal or no indexed content about LatAm-specific cross-border mechanics.",
+  "source": "N/A — absence finding",
+  "source_type": "N/A",
+  "verification_status": "could_not_verify",
+  "date": "Searched April 2026",
+  "notes": "Covers SD-16. Executed 15+ search queries across site:reddit.com/r/gumroad including country-specific terms (Mexico, Brazil, Argentina, Colombia), mechanism terms (payout, withholding, W-8BEN, currency, PayPal, Payoneer), and broader r/ecommerce queries. Reddit page fetches also failed due to rate limiting and access restrictions. One r/ecommerce thread about the PayPal issue was identified but could not be fully fetched."
 }

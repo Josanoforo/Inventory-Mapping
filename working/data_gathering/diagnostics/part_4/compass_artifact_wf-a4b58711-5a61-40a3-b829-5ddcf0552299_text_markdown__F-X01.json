@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Complete payment processing rates by currency table",
-  "attempted": "What: The Creator fees overview page references a \"Processing rates by currency\" table with specific percentage + flat-fee rates for each supported currency (standard and micropayment rates). The full table could not be retrieved.\nVerbatim snippet: n/a — table content inaccessible\nSource: https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Direct fetch returned 403. Search engine index snippets did not reproduce the full rates table. Only the USD example (2.9% + $0.30) was recoverable from running text. Rates for EUR, GBP, CAD, AUD, and other currencies remain unverified. Micropayment rate thresholds ($3 USD / €3 / £3 referenced in a separate legacy article) could not be confirmed as current.",
-  "why_failed": "",
+  "attempted": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+  "why_failed": null,
   "urls_mentioned": [
     "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview"
-  ]
+  ],
+  "what": "The Creator fees overview page references a \"Processing rates by currency\" table with specific percentage + flat-fee rates for each supported currency (standard and micropayment rates). The full table could not be retrieved.",
+  "verbatim_snippet": "n/a — table content inaccessible",
+  "source": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Direct fetch returned 403. Search engine index snippets did not reproduce the full rates table. Only the USD example (2.9% + $0.30) was recoverable from running text. Rates for EUR, GBP, CAD, AUD, and other currencies remain unverified. Micropayment rate thresholds ($3 USD / €3 / £3 referenced in a separate legacy article) could not be confirmed as current."
 }

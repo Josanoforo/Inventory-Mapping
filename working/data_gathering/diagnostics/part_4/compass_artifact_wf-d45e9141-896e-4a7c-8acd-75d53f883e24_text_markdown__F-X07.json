@@ -3,9 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Trustpilot review — SubscribeStar mention",
-  "attempted": "SD-15 search on Trustpilot identified a partial snippet from a review mentioning SubscribeStar as a preferred alternative to Patreon: \"I hope the people I support will begin to move to SubscribeStar.\" URL: https://www.trustpilot.com/review/www.patreon.com?page=11. Date not visible in snippet. Full review text and date could not be independently verified.\n\n**Status:** could_not_verify. Partial snippet only; date unverifiable; full review context not accessed.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/www.patreon.com?page=11."
-  ]
+  ],
+  "extra_fields": {
+    "sd": "15 search on Trustpilot identified a partial snippet from a review mentioning SubscribeStar as a preferred alternative to Patreon: \"I hope the people I support will begin to move to SubscribeStar.\" URL: https://www.trustpilot.com/review/www.patreon.com?page=11. Date not visible in snippet. Full review text and date could not be independently verified.",
+    "status": "could_not_verify. Partial snippet only; date unverifiable; full review context not accessed."
+  }
 }

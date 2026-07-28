@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X10",
   "seller_or_subject": "Degraded — Mexico buyer invoice request on Envato forum (~2024)",
-  "attempted": "What: A Mexico-based buyer on Envato forums requested a purchase invoice for a product, stating \"I am in Mexico,\" circa 2024.\nVerbatim snippet: \"I need you to send me the purchase invoice for the LineOne dashboard that I just purchased, what would be the procedure to follow to get it to me and what documents would you need? I am in Mexico.\"\nSource: https://forums.envato.com/t/need-the-invoice-for-my-purchase/476971\nsource_type: seller_forum\nverification_status: could_not_verify\nDate: Approximately 2024 based on thread numbering\nNotes: Degraded to Part 4 because post predates the April 2025–April 2026 experience window. Forum returned 403; snippet recovered from search index. This is buyer-side (US→LatAm flow) and relates to Mexico-specific invoicing requirements (RFC/CFDI). Post username and exact date could not be verified.",
-  "why_failed": "",
+  "attempted": "https://forums.envato.com/t/need-the-invoice-for-my-purchase/476971",
+  "why_failed": null,
   "urls_mentioned": [
     "https://forums.envato.com/t/need-the-invoice-for-my-purchase/476971"
-  ]
+  ],
+  "what": "A Mexico-based buyer on Envato forums requested a purchase invoice for a product, stating \"I am in Mexico,\" circa 2024.",
+  "verbatim_snippet": "\"I need you to send me the purchase invoice for the LineOne dashboard that I just purchased, what would be the procedure to follow to get it to me and what documents would you need? I am in Mexico.\"",
+  "source": "https://forums.envato.com/t/need-the-invoice-for-my-purchase/476971",
+  "source_type": "seller_forum",
+  "verification_status": "could_not_verify",
+  "date": "Approximately 2024 based on thread numbering",
+  "notes": "Degraded to Part 4 because post predates the April 2025–April 2026 experience window. Forum returned 403; snippet recovered from search index. This is buyer-side (US→LatAm flow) and relates to Mexico-specific invoicing requirements (RFC/CFDI). Post username and exact date could not be verified."
 }

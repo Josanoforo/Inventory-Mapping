@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Envato Elements specific dollar pricing amounts per plan",
-  "attempted": "direct access to https://elements.envato.com/pricing — returned 403 error. Google search index snippets from elements.envato.com/pricing captured plan tier names and AI generation limits (see F-P12) but did not contain specific dollar amounts. Third-party sources (photutorial.com/envato-elements-pricing/) report specific dollar amounts but that page was also blocked by robots.txt; treating as secondary retelling per Edge case 2.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** April 2026\n- **Notes:** Dollar pricing amounts (e.g., per-month subscription fees) appear only in third-party review articles, not in directly captured or index-verified snippets from the primary source. Excluded per Edge case 2 (secondary retelling without direct access to original source).",
-  "why_failed": "",
+  "attempted": "Attempted direct access to https://elements.envato.com/pricing — returned 403 error. Google search index snippets from elements.envato.com/pricing captured plan tier names and AI generation limits (see F-P12) but did not contain specific dollar amounts. Third-party sources (photutorial.com/envato-elements-pricing/) report specific dollar amounts but that page was also blocked by robots.txt; treating as secondary retelling per Edge case 2.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://elements.envato.com/pricing"
-  ]
+  ],
+  "what": "No directly verifiable data captured for Envato Elements specific dollar pricing per subscription plan from the primary source.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted direct access to https://elements.envato.com/pricing — returned 403 error. Google search index snippets from elements.envato.com/pricing captured plan tier names and AI generation limits (see F-P12) but did not contain specific dollar amounts. Third-party sources (photutorial.com/envato-elements-pricing/) report specific dollar amounts but that page was also blocked by robots.txt; treating as secondary retelling per Edge case 2.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "April 2026",
+  "notes": "Dollar pricing amounts (e.g., per-month subscription fees) appear only in third-party review articles, not in directly captured or index-verified snippets from the primary source. Excluded per Edge case 2 (secondary retelling without direct access to original source).",
+  "extra_fields": {
+    "finding_id": "F-X03"
+  }
 }

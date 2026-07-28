@@ -3,8 +3,8 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "Gumroad auxiliary tools — SEO tools, listing optimizers, consulting services",
-  "attempted": "web_search for \"Gumroad SEO tool\", \"Gumroad listing optimizer\", \"Gumroad consulting services\"; subagent-reported URLs not independently verified\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Searched locations only. Subagent identified candidate tools but URLs were not independently fetched due to permission constraints. Candidate tools for future verification: GumBoost Pro (https://waveupuk.gumroad.com/l/GumBoostPro), fullStats.io (https://fullstats.io/), Auto Page Rank (https://autopagerank.com/gumroad-seo/), Fiverr Gumroad services (https://www.fiverr.com/gigs/gumroad), Putler (https://www.putler.com/integrations/gumroad/), SegMetrics (https://segmetrics.io/integration/gumroad/), MindPal Gumroad Listing Writer (https://www.agentcrew.co/workflow/gumroad-product-listing-writer).",
-  "why_failed": "",
+  "attempted": "Attempted: web_search for \"Gumroad SEO tool\", \"Gumroad listing optimizer\", \"Gumroad consulting services\"; subagent-reported URLs not independently verified",
+  "why_failed": null,
   "urls_mentioned": [
     "https://waveupuk.gumroad.com/l/GumBoostPro",
     "https://fullstats.io/",
@@ -13,5 +13,12 @@
     "https://www.putler.com/integrations/gumroad/",
     "https://segmetrics.io/integration/gumroad/",
     "https://www.agentcrew.co/workflow/gumroad-product-listing-writer"
-  ]
+  ],
+  "what": "No directly verified data found on specific Gumroad-dedicated SEO tools, listing optimizers, or consulting services. Subagent research identified several candidates (GumBoost Pro on waveupuk.gumroad.com, fullStats.io for analytics, Auto Page Rank for SEO, Fiverr Gumroad services), but none were independently fetched or verified through the direct research pipeline.",
+  "verbatim_snippet": "n/a — absence finding (for direct verification)",
+  "source": "Attempted: web_search for \"Gumroad SEO tool\", \"Gumroad listing optimizer\", \"Gumroad consulting services\"; subagent-reported URLs not independently verified",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. Subagent identified candidate tools but URLs were not independently fetched due to permission constraints. Candidate tools for future verification: GumBoost Pro (https://waveupuk.gumroad.com/l/GumBoostPro), fullStats.io (https://fullstats.io/), Auto Page Rank (https://autopagerank.com/gumroad-seo/), Fiverr Gumroad services (https://www.fiverr.com/gigs/gumroad), Putler (https://www.putler.com/integrations/gumroad/), SegMetrics (https://segmetrics.io/integration/gumroad/), MindPal Gumroad Listing Writer (https://www.agentcrew.co/workflow/gumroad-product-listing-writer)."
 }

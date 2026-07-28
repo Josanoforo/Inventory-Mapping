@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X09",
   "seller_or_subject": "Soukaina Ait oumghar — Frozen money, rejected information",
-  "attempted": "**What:** Seller reports frozen money. Lemon Squeezy refuses to release it, claiming information is rejected. Platform also refuses to let the seller rewrite the information.\n\n**Verbatim snippet:** \"This was truly a bad experience with this website. They've frozen my money and refuse to release it, claiming my information is rejected. They also refuse to let me rewrite it.\"\n\n**Source:** https://www.trustpilot.com/review/lemonsqueezy.com\n**source_type:** buyer_review\n**verification_status:** could_not_verify\n**Date:** January 26, 2026\n**Notes:** Degraded to could_not_verify. Full review text visible on page. However, it is unclear from the review text alone whether this reviewer is a seller or a buyer of products sold through LS. \"Frozen my money\" could refer to seller payouts or buyer refund disputes. Conservative assignment applied due to ambiguous seller identity.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/lemonsqueezy.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/lemonsqueezy.com"
-  ]
+  ],
+  "what": "Seller reports frozen money. Lemon Squeezy refuses to release it, claiming information is rejected. Platform also refuses to let the seller rewrite the information.",
+  "verbatim_snippet": "\"This was truly a bad experience with this website. They've frozen my money and refuse to release it, claiming my information is rejected. They also refuse to let me rewrite it.\"",
+  "source": "https://www.trustpilot.com/review/lemonsqueezy.com",
+  "source_type": "buyer_review",
+  "verification_status": "could_not_verify",
+  "date": "January 26, 2026",
+  "notes": "Degraded to could_not_verify. Full review text visible on page. However, it is unclear from the review text alone whether this reviewer is a seller or a buyer of products sold through LS. \"Frozen my money\" could refer to seller payouts or buyer refund disputes. Conservative assignment applied due to ambiguous seller identity."
 }

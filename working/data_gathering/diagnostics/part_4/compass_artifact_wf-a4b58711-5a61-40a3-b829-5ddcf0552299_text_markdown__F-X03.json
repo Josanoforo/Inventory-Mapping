@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "PayPal and Payoneer Wallet payout fees by currency",
-  "attempted": "What: The Creator fees overview and Payouts guide reference payout fee tables for PayPal and Payoneer Wallet options. Specific fee amounts per currency could not be retrieved.\nVerbatim snippet: n/a — table content inaccessible\nSource: https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview and https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Both pages state payout fee tables exist for PayPal and Payoneer but the tables could not be retrieved from search index snippets. Recoverable text states \"PayPal and Payoneer may charge extra fees for currency conversion or withdrawal, which vary by region and are subject to change at any time without notice.\"",
-  "why_failed": "",
+  "attempted": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview and https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US",
+  "why_failed": null,
   "urls_mentioned": [
     "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
     "https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US"
-  ]
+  ],
+  "what": "The Creator fees overview and Payouts guide reference payout fee tables for PayPal and Payoneer Wallet options. Specific fee amounts per currency could not be retrieved.",
+  "verbatim_snippet": "n/a — table content inaccessible",
+  "source": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview and https://support.patreon.com/hc/en-us/articles/39694936541965-Payouts-guide-for-creators-outside-of-the-US",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Both pages state payout fee tables exist for PayPal and Payoneer but the tables could not be retrieved from search index snippets. Recoverable text states \"PayPal and Payoneer may charge extra fees for currency conversion or withdrawal, which vary by region and are subject to change at any time without notice.\""
 }

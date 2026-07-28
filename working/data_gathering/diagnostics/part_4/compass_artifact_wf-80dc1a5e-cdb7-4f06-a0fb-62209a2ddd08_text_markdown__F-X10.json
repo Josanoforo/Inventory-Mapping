@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X10",
   "seller_or_subject": "Surjith S M — Payout stopped due to Stripe tax form; PAN not accepted",
-  "attempted": "**What:** Seller reports Lemon Squeezy stopped payout because of a Stripe tax form. LS is not accepting the seller's PAN. Seller emailed support 1 month ago with no reply. Seller checked with Polar and reports they did not have this requirement.\n\n**Verbatim snippet:** \"Lemon Squeezy stopped my payout because of stripe tax form. They are not accepting my PAN. I already emailed support 1 month ago and no reply yet. I checked with @polar_sh and they didn't have this requirement.\"\n\n**Source:** https://x.com/surjithctly/status/2000472787455275191\n**source_type:** unknown\n**verification_status:** could_not_verify\n**Date:** Accessed April 2026; exact post date not confirmed\n**Notes:** Degraded to could_not_verify. X/Twitter requires JavaScript rendering; snippet obtained from search result preview, not from direct page access. URL not directly fetched. source_type listed as unknown (Twitter is not in the shard's allowed source_type list). Seller likely located in India (PAN is an Indian tax identifier). Tools used outside platform: Polar.",
-  "why_failed": "",
+  "attempted": "https://x.com/surjithctly/status/2000472787455275191",
+  "why_failed": null,
   "urls_mentioned": [
     "https://x.com/surjithctly/status/2000472787455275191"
-  ]
+  ],
+  "what": "Seller reports Lemon Squeezy stopped payout because of a Stripe tax form. LS is not accepting the seller's PAN. Seller emailed support 1 month ago with no reply. Seller checked with Polar and reports they did not have this requirement.",
+  "verbatim_snippet": "\"Lemon Squeezy stopped my payout because of stripe tax form. They are not accepting my PAN. I already emailed support 1 month ago and no reply yet. I checked with @polar_sh and they didn't have this requirement.\"",
+  "source": "https://x.com/surjithctly/status/2000472787455275191",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; exact post date not confirmed",
+  "notes": "Degraded to could_not_verify. X/Twitter requires JavaScript rendering; snippet obtained from search result preview, not from direct page access. URL not directly fetched. source_type listed as unknown (Twitter is not in the shard's allowed source_type list). Seller likely located in India (PAN is an Indian tax identifier). Tools used outside platform: Polar."
 }

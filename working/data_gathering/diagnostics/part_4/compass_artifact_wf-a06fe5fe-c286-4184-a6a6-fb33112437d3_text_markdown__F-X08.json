@@ -3,7 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X08",
   "seller_or_subject": "Aggregate average order value (AOV) — absence finding",
-  "attempted": "\"payhip\" \"average order value\" OR \"AOV\" | payhip AOV data report — zero aggregate results. Payhip blog articles (payhip.com/blog/increase-average-order-value/ and /blog/offering-discounts-to-customers/) mention AOV as a concept using general industry statistics only.\n**source_type:** report\n**verification_status:** could_not_verify\n**Date:** April 2025 — April 2026\n**Notes:** Payhip references AOV only in educational blog content for sellers. Payhip 2025 feature roundup mentions cross-sell tools \"designed to help you drive more conversions and increase your customers' average order value\" but provides no actual AOV figures. No third-party source publishes Payhip-specific AOV data.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Searches attempted: \"payhip\" \"average order value\" OR \"AOV\" | payhip AOV data report — zero aggregate results. Payhip blog articles (payhip.com/blog/increase-average-order-value/ and /blog/offering-discounts-to-customers/) mention AOV as a concept using general industry statistics only.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No Payhip-specific aggregate average order value data is publicly available.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: \"payhip\" \"average order value\" OR \"AOV\" | payhip AOV data report — zero aggregate results. Payhip blog articles (payhip.com/blog/increase-average-order-value/ and /blog/offering-discounts-to-customers/) mention AOV as a concept using general industry statistics only.",
+  "source_type": "report",
+  "verification_status": "could_not_verify",
+  "date": "April 2025 — April 2026",
+  "notes": "Payhip references AOV only in educational blog content for sellers. Payhip 2025 feature roundup mentions cross-sell tools \"designed to help you drive more conversions and increase your customers' average order value\" but provides no actual AOV figures. No third-party source publishes Payhip-specific AOV data.",
+  "extra_fields": {
+    "finding_id": "F-X08"
+  }
 }

@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Gumroad /discover/ebooks",
-  "attempted": "web_fetch of https://gumroad.com/discover/ebooks; web_search for \"site:gumroad.com discover ebooks\"\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Searched locations only. \"Ebooks\" is not a native Gumroad category — it is a tag applied within categories like Writing & Publishing, Fiction Books, and Education.",
-  "why_failed": "",
+  "attempted": "Attempted: web_fetch of https://gumroad.com/discover/ebooks; web_search for \"site:gumroad.com discover ebooks\"",
+  "why_failed": null,
   "urls_mentioned": [
     "https://gumroad.com/discover/ebooks",
     "https://gumroad.com/discover/ebooks;"
-  ]
+  ],
+  "what": "No data found. The URL path https://gumroad.com/discover/ebooks does not resolve to a valid page. Ebooks on Gumroad are accessed via tag filters within existing categories (e.g., /writing-and-publishing?tags=ebook, /fiction-books?tags=ebook).",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted: web_fetch of https://gumroad.com/discover/ebooks; web_search for \"site:gumroad.com discover ebooks\"",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. \"Ebooks\" is not a native Gumroad category — it is a tag applied within categories like Writing & Publishing, Fiction Books, and Education."
 }

@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "No Kichink seller voices on Reddit",
-  "attempted": "direct fetch of `https://www.reddit.com/search/?q=kichink` (blocked); `site:reddit.com kichink vendedor`; `site:reddit.com kichink seller`; `site:reddit.com kichink experiencia`; `site:reddit.com kichink 2025`; `site:reddit.com kichink 2026`; `reddit kichink vendedor experiencia`; `reddit kichink comisiones`; `reddit kichink problemas vendedor`. All returned zero Reddit results for Kichink.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Kichink does not appear to have any presence on Reddit in any subreddit, at any date. Reddit search page was blocked by permissions; results based on search-engine indexing of Reddit.",
-  "why_failed": "",
+  "attempted": "Searches attempted: direct fetch of `https://www.reddit.com/search/?q=kichink` (blocked); `site:reddit.com kichink vendedor`; `site:reddit.com kichink seller`; `site:reddit.com kichink experiencia`; `site:reddit.com kichink 2025`; `site:reddit.com kichink 2026`; `reddit kichink vendedor experiencia`; `reddit kichink comisiones`; `reddit kichink problemas vendedor`. All returned zero Reddit results for Kichink.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/search/?q=kichink`"
-  ]
+  ],
+  "what": "No data found on Kichink seller discussions on Reddit within April 2025–April 2026.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: direct fetch of `https://www.reddit.com/search/?q=kichink` (blocked); `site:reddit.com kichink vendedor`; `site:reddit.com kichink seller`; `site:reddit.com kichink experiencia`; `site:reddit.com kichink 2025`; `site:reddit.com kichink 2026`; `reddit kichink vendedor experiencia`; `reddit kichink comisiones`; `reddit kichink problemas vendedor`. All returned zero Reddit results for Kichink.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Kichink does not appear to have any presence on Reddit in any subreddit, at any date. Reddit search page was blocked by permissions; results based on search-engine indexing of Reddit.",
+  "extra_fields": {
+    "finding_id": "F-X03"
+  }
 }

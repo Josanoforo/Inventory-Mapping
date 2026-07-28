@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "All Patreon /explore category sub-pages — blocked",
-  "attempted": "sub-URLs returned HTTP 403 errors and do not appear as individually indexed pages in search engines.\n\n**Verbatim snippet:** n/a — absence finding.\n\n**Source:** Specific URLs attempted: https://www.patreon.com/explore/podcasts, /explore/video, /explore/writing, /explore/art, /explore/music, /explore/gaming, /explore/comics, /explore/education, /explore/crafts-diy, /explore/lifestyle, /explore/news, /explore/role-playing-games, /explore/science, /explore/social-media, /explore/tabletop-games, /explore/visual-novels, /explore/creators. All returned 403. None found in Google search index as distinct pages.\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 14, 2026.\n\n**Notes:** These sub-URLs may be client-side routes within the Patreon SPA that do not exist as standalone server-rendered pages. Their absence from search engine indices is consistent with JavaScript-only rendering.",
-  "why_failed": "",
+  "attempted": "Specific URLs attempted: https://www.patreon.com/explore/podcasts, /explore/video, /explore/writing, /explore/art, /explore/music, /explore/gaming, /explore/comics, /explore/education, /explore/crafts-diy, /explore/lifestyle, /explore/news, /explore/role-playing-games, /explore/science, /explore/social-media, /explore/tabletop-games, /explore/visual-novels, /explore/creators. All returned 403. None found in Google search index as distinct pages.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.patreon.com/explore/podcasts,"
-  ]
+  ],
+  "what": "No data found on Patreon explore category sub-pages. All 17 attempted sub-URLs returned HTTP 403 errors and do not appear as individually indexed pages in search engines.",
+  "verbatim_snippet": "n/a — absence finding.",
+  "source": "Specific URLs attempted: https://www.patreon.com/explore/podcasts, /explore/video, /explore/writing, /explore/art, /explore/music, /explore/gaming, /explore/comics, /explore/education, /explore/crafts-diy, /explore/lifestyle, /explore/news, /explore/role-playing-games, /explore/science, /explore/social-media, /explore/tabletop-games, /explore/visual-novels, /explore/creators. All returned 403. None found in Google search index as distinct pages.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 14, 2026.",
+  "notes": "These sub-URLs may be client-side routes within the Patreon SPA that do not exist as standalone server-rendered pages. Their absence from search engine indices is consistent with JavaScript-only rendering."
 }

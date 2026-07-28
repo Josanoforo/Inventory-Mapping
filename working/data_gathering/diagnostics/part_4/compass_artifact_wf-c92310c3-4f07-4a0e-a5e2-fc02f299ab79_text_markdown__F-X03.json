@@ -3,7 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "VAT/IVA collection or handling by Domestika for LatAm countries",
-  "attempted": "What: No data found on Domestika collecting, remitting, or handling VAT or IVA for any specific LatAm country (e.g., Mexican IVA on digital services, Colombian IVA, Argentine IVA).\nVerbatim snippet: \"n/a — absence finding\"\nSource: Searched support.domestika.org for \"IVA,\" \"VAT,\" \"value added tax,\" domestika.org/en/terms, domestika.org/en/privacy. No LatAm-specific VAT/IVA results found.\nsource_type: unknown\nverification_status: could_not_verify\nDate: Searched April 2026\nNotes: F-P03 confirms Domestika states \"invoices are issued without taxes because we do not charge them.\" Several LatAm countries (Mexico since June 2020, Colombia, Argentina, Chile) require foreign digital service providers to collect local VAT/IVA on B2C digital sales. Domestika's public position appears to be non-collection, but no specific country-level compliance documentation was found. Coverage gap for this shard.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Searched support.domestika.org for \"IVA,\" \"VAT,\" \"value added tax,\" domestika.org/en/terms, domestika.org/en/privacy. No LatAm-specific VAT/IVA results found.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No data found on Domestika collecting, remitting, or handling VAT or IVA for any specific LatAm country (e.g., Mexican IVA on digital services, Colombian IVA, Argentine IVA).",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searched support.domestika.org for \"IVA,\" \"VAT,\" \"value added tax,\" domestika.org/en/terms, domestika.org/en/privacy. No LatAm-specific VAT/IVA results found.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Searched April 2026",
+  "notes": "F-P03 confirms Domestika states \"invoices are issued without taxes because we do not charge them.\" Several LatAm countries (Mexico since June 2020, Colombia, Argentina, Chile) require foreign digital service providers to collect local VAT/IVA on B2C digital sales. Domestika's public position appears to be non-collection, but no specific country-level compliance documentation was found. Coverage gap for this shard."
 }

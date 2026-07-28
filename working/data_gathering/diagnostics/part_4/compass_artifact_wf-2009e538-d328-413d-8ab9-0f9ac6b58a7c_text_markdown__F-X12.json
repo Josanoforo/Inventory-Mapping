@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X12",
   "seller_or_subject": "Promodescuentos buyer discussion — blocked, content unknown",
-  "attempted": "**Finding ID:** F-X12  \n**What:** A discussion titled \"¿Es seguro comprar en kichink.com alguien ha comprado ahí?\" with 7 comments exists on Promodescuentos. Content, date, and individual commenter voices could not be accessed or verified. Page returned 403 Forbidden.  \n**Verbatim snippet:** n/a — blocked page; only title visible in search results  \n**Source:** https://www.promodescuentos.com/discusiones/es-seguro-comprar-en-kichinkcom-alguien-ha-comprado-ahi-409462 (403 Forbidden)  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Unknown — no date visible in search snippet; URL structure suggests pre-2024  \n**Notes:** Page title suggests buyer-relevant content (asking if it's safe to buy on Kichink) but no content from the 7 comments could be retrieved. Date and speaker voices unknown. SD-13.",
-  "why_failed": "",
+  "attempted": "https://www.promodescuentos.com/discusiones/es-seguro-comprar-en-kichinkcom-alguien-ha-comprado-ahi-409462 (403 Forbidden)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.promodescuentos.com/discusiones/es-seguro-comprar-en-kichinkcom-alguien-ha-comprado-ahi-409462"
-  ]
+  ],
+  "what": "A discussion titled \"¿Es seguro comprar en kichink.com alguien ha comprado ahí?\" with 7 comments exists on Promodescuentos. Content, date, and individual commenter voices could not be accessed or verified. Page returned 403 Forbidden.",
+  "verbatim_snippet": "n/a — blocked page; only title visible in search results",
+  "source": "https://www.promodescuentos.com/discusiones/es-seguro-comprar-en-kichinkcom-alguien-ha-comprado-ahi-409462 (403 Forbidden)",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Unknown — no date visible in search snippet; URL structure suggests pre-2024",
+  "notes": "Page title suggests buyer-relevant content (asking if it's safe to buy on Kichink) but no content from the 7 comments could be retrieved. Date and speaker voices unknown. SD-13.",
+  "extra_fields": {
+    "finding_id": "F-X12"
+  }
 }

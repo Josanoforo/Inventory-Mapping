@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X13",
   "seller_or_subject": "Out-of-scope — \"North America Sales Tax\" page excludes Mexico",
-  "attempted": "What: Envato's \"North America Sales Tax for Envato Market\" article covers US state sales taxes and Canadian Quebec Sales Tax but does not mention Mexico, despite Mexico being geographically part of North America.\nVerbatim snippet: \"n/a — content not fully recoverable from search index\"\nSource: https://help.author.envato.com/hc/en-us/articles/360001112903-North-America-Sales-Tax-for-Envato-Market (returned 403; search snippets reference US states and Quebec only)\nsource_type: help_center\nverification_status: could_not_verify\nDate: January 16, 2025 (page date visible in search index)\nNotes: Mexico's sales tax treatment is handled via separate \"Mexico VAT\" pages (F-P07, F-P08, F-P10) rather than the North America Sales Tax page. This structural observation may be relevant to understanding how Envato categorizes Mexico for tax purposes.",
-  "why_failed": "",
+  "attempted": "https://help.author.envato.com/hc/en-us/articles/360001112903-North-America-Sales-Tax-for-Envato-Market (returned 403; search snippets reference US states and Quebec only)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.author.envato.com/hc/en-us/articles/360001112903-North-America-Sales-Tax-for-Envato-Market"
-  ]
+  ],
+  "what": "Envato's \"North America Sales Tax for Envato Market\" article covers US state sales taxes and Canadian Quebec Sales Tax but does not mention Mexico, despite Mexico being geographically part of North America.",
+  "verbatim_snippet": "\"n/a — content not fully recoverable from search index\"",
+  "source": "https://help.author.envato.com/hc/en-us/articles/360001112903-North-America-Sales-Tax-for-Envato-Market (returned 403; search snippets reference US states and Quebec only)",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "January 16, 2025 (page date visible in search index)",
+  "notes": "Mexico's sales tax treatment is handled via separate \"Mexico VAT\" pages (F-P07, F-P08, F-P10) rather than the North America Sales Tax page. This structural observation may be relevant to understanding how Envato categorizes Mexico for tax purposes."
 }

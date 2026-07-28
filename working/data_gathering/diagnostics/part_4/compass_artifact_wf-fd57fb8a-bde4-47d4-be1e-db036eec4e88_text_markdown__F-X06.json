@@ -3,12 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "Domestika /es/info/about — direct Spanish-language About page text",
-  "attempted": "); mirror at https://co.linkedin.com/company/domestika\n**source_type:** platform_doc\n**verification_status:** could_not_verify\n**Date:** n/a\n**Notes:** The English equivalent (/en/about) was fetched and verified as F-01. The Spanish text from LinkedIn aligns with the English text in meaning but constitutes an intermediary retelling (LinkedIn profile vs. primary platform page). Per shard edge-case rules, intermediary verification does not qualify as valid. Conservative degradation to Part 4.",
-  "why_failed": "",
+  "attempted": "https://www.domestika.org/es/info/about (attempted); mirror at https://co.linkedin.com/company/domestika",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.domestika.org/es/info/about",
     "https://co.linkedin.com/company/domestika",
     "https://www.domestika.org/es/info/about",
     "https://co.linkedin.com/company/domestika"
-  ]
+  ],
+  "source": "https://www.domestika.org/es/info/about (attempted); mirror at https://co.linkedin.com/company/domestika",
+  "source_type": "platform_doc",
+  "verification_status": "could_not_verify",
+  "date": "n/a",
+  "notes": "The English equivalent (/en/about) was fetched and verified as F-01. The Spanish text from LinkedIn aligns with the English text in meaning but constitutes an intermediary retelling (LinkedIn profile vs. primary platform page). Per shard edge-case rules, intermediary verification does not qualify as valid. Conservative degradation to Part 4."
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X19",
   "seller_or_subject": "lorearchitect.com — Reddit roundup of writer Patreon earnings",
-  "attempted": "- Subject: Blog post by Alex Chen aggregating Reddit quotes from multiple writers about Patreon earnings (~$200/month from u/StorySpinner22, ~$1,200/month from 300 patrons from r/webserials, ~$1,800/month from a creator with 5,000-person mailing list, 5-10 hours/week management from u/InkStainedGrumble).\n- Source: https://lorearchitect.com/what-writers-earn-on-patreon-a-candid-reddit-roundup/\n- source_type: blog (secondary aggregation)\n- Date: October 25, 2025 (updated February 11, 2026)\n- Notes: Edge case 2 — blog summarizing Reddit users' experiences is NOT single-source. Original Reddit thread URLs not provided. Quotes attributed to Reddit usernames but cannot be independently verified or traced to specific threads. Revenue figures: ~$200/month, ~$1,200/month (300 patrons), ~$1,800/month (5,000-person mailing list). Page was directly fetched.",
-  "why_failed": "",
+  "attempted": "https://lorearchitect.com/what-writers-earn-on-patreon-a-candid-reddit-roundup/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://lorearchitect.com/what-writers-earn-on-patreon-a-candid-reddit-roundup/"
-  ]
+  ],
+  "source": "https://lorearchitect.com/what-writers-earn-on-patreon-a-candid-reddit-roundup/",
+  "source_type": "blog (secondary aggregation)",
+  "date": "October 25, 2025 (updated February 11, 2026)",
+  "notes": "Edge case 2 — blog summarizing Reddit users' experiences is NOT single-source. Original Reddit thread URLs not provided. Quotes attributed to Reddit usernames but cannot be independently verified or traced to specific threads. Revenue figures: ~$200/month, ~$1,200/month (300 patrons), ~$1,800/month (5,000-person mailing list). Page was directly fetched.",
+  "extra_fields": {
+    "subject": "Blog post by Alex Chen aggregating Reddit quotes from multiple writers about Patreon earnings (~$200/month from u/StorySpinner22, ~$1,200/month from 300 patrons from r/webserials, ~$1,800/month from a creator with 5,000-person mailing list, 5-10 hours/week management from u/InkStainedGrumble)."
+  }
 }

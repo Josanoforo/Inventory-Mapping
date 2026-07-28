@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Graphtreon /top-patreon-creators/video — fetch failed",
-  "attempted": "by research assistant, returned PERMISSIONS_ERROR)\n\n**source_type:** database_profile\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026.\n\n**Notes:** Research assistant attempted fetch and reported PERMISSIONS_ERROR. The page likely exists based on the navigation links visible on the successfully fetched /top-patreon-creators page.",
-  "why_failed": "",
+  "attempted": "https://graphtreon.com/top-patreon-creators/video (fetch attempted by research assistant, returned PERMISSIONS_ERROR)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://graphtreon.com/top-patreon-creators/video"
-  ]
+  ],
+  "what": "Graphtreon's top video creators page could not be fetched.",
+  "verbatim_snippet": "n/a — access failure finding.",
+  "source": "https://graphtreon.com/top-patreon-creators/video (fetch attempted by research assistant, returned PERMISSIONS_ERROR)",
+  "source_type": "database_profile",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026.",
+  "notes": "Research assistant attempted fetch and reported PERMISSIONS_ERROR. The page likely exists based on the navigation links visible on the successfully fetched /top-patreon-creators page."
 }

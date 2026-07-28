@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X14",
   "seller_or_subject": "No /explore URL exists on Payhip",
-  "attempted": "**Searched for:** https://payhip.com/explore and all /explore/ sub-paths (ebooks, templates, courses, software, music, memberships).\n**Where searched:** Direct fetch attempts, Google \"site:payhip.com/explore\" search.\n**Result:** The /explore path does not exist on Payhip's website. The equivalent discovery feature is the Marketplace at https://payhip.com/marketplace. Individual stores may have /explore endpoints (e.g., payhip.com/somnetwork/explore) but there is no platform-level explore page.\n**Notes:** Absence finding — no data found. Original ID: D3.\n**verification_status:** could_not_verify",
-  "why_failed": "",
+  "attempted": "https://payhip.com/explore and all /explore/ sub-paths (ebooks, templates, courses, software, music, memberships). | Direct fetch attempts, Google \"site:payhip.com/explore\" search.",
+  "why_failed": "The /explore path does not exist on Payhip's website. The equivalent discovery feature is the Marketplace at https://payhip.com/marketplace. Individual stores may have /explore endpoints (e.g., payhip.com/somnetwork/explore) but there is no platform-level explore page.",
   "urls_mentioned": [
     "https://payhip.com/explore",
     "https://payhip.com/marketplace."
-  ]
+  ],
+  "verification_status": "could_not_verify",
+  "notes": "Absence finding — no data found. Original ID: D3.",
+  "extra_fields": {
+    "searched_for": "https://payhip.com/explore and all /explore/ sub-paths (ebooks, templates, courses, software, music, memberships).",
+    "where_searched": "Direct fetch attempts, Google \"site:payhip.com/explore\" search.",
+    "result": "The /explore path does not exist on Payhip's website. The equivalent discovery feature is the Marketplace at https://payhip.com/marketplace. Individual stores may have /explore endpoints (e.g., payhip.com/somnetwork/explore) but there is no platform-level explore page."
+  }
 }

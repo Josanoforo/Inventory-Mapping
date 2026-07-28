@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Reddit r/Etsy and r/EtsySellers comparative threads",
-  "attempted": "SD-13. Executed 30+ search queries including site:reddit.com operators, keyword combinations (\"etsy vs shopify,\" \"etsy compared to,\" \"etsy better than,\" \"leaving etsy,\" \"etsy alternative\"), and direct URL fetch attempts for old.reddit.com search pages.\n**Outcome:** Zero Reddit thread URLs were returned by the search engine across all queries. All searches returned SEO-optimised blog posts and comparison articles that reference Reddit discussion themes but do not link to or reproduce specific Reddit threads. Direct Reddit URL fetches were blocked because URLs had not appeared in prior search results. The one Reddit quote recovered (user \"toomuchisjustenough\") was found via a secondary blog source and is reported as F-P13.",
-  "why_failed": "for failure:** Reddit content is not surfaced by web search for this topic; site:reddit.com queries returned empty results; direct Reddit URLs require prior search-result provenance for the web_fetch tool.",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "extra_fields": {
+    "subject": "Verbatim comparative statements from Reddit users in r/Etsy, r/EtsySellers, r/smallbusiness, and related subreddits.",
+    "sub": "searches attempted:** SD-13. Executed 30+ search queries including site:reddit.com operators, keyword combinations (\"etsy vs shopify,\" \"etsy compared to,\" \"etsy better than,\" \"leaving etsy,\" \"etsy alternative\"), and direct URL fetch attempts for old.reddit.com search pages.",
+    "outcome": "Zero Reddit thread URLs were returned by the search engine across all queries. All searches returned SEO-optimised blog posts and comparison articles that reference Reddit discussion themes but do not link to or reproduce specific Reddit threads. Direct Reddit URL fetches were blocked because URLs had not appeared in prior search results. The one Reddit quote recovered (user \"toomuchisjustenough\") was found via a secondary blog source and is reported as F-P13.",
+    "reason_for_failure": "Reddit content is not surfaced by web search for this topic; site:reddit.com queries returned empty results; direct Reddit URLs require prior search-result provenance for the web_fetch tool."
+  }
 }

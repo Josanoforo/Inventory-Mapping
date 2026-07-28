@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "**What:** [ABSENCE — SD-05] Searches across Reddit (r/SaaS, r/Entrepreneur, r/indiehackers, r/SideProject) returned zero buyer-voice results for Lemon Squeezy within the time window.",
-  "attempted": "**Verbatim snippet:** N/A — absence finding\n**Source:** N/A — multiple Reddit search queries executed (see SD-05)\n**source_type:** reddit\n**verification_status:** could_not_verify\n**Date:** 2026-04-14 (search date)\n**Notes:** Twelve distinct search queries were executed including: site:reddit.com \"lemon squeezy\" \"bought\" OR \"purchased\"; site:reddit.com/r/SaaS \"lemon squeezy\"; site:reddit.com/r/Entrepreneur \"lemon squeezy\"; site:reddit.com/r/indiehackers \"lemon squeezy\"; site:reddit.com/r/SideProject \"lemon squeezy\"; reddit \"lemon squeezy\" \"as a buyer\" OR \"I bought\" OR \"I purchased\". All returned zero results. Reddit's reduced Google crawling (post-2024 indexing changes) may contribute to low result counts.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "N/A — multiple Reddit search queries executed (see SD-05)",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "verbatim_snippet": "N/A — absence finding",
+  "source": "N/A — multiple Reddit search queries executed (see SD-05)",
+  "source_type": "reddit",
+  "verification_status": "could_not_verify",
+  "date": "2026-04-14 (search date)",
+  "notes": "Twelve distinct search queries were executed including: site:reddit.com \"lemon squeezy\" \"bought\" OR \"purchased\"; site:reddit.com/r/SaaS \"lemon squeezy\"; site:reddit.com/r/Entrepreneur \"lemon squeezy\"; site:reddit.com/r/indiehackers \"lemon squeezy\"; site:reddit.com/r/SideProject \"lemon squeezy\"; reddit \"lemon squeezy\" \"as a buyer\" OR \"I bought\" OR \"I purchased\". All returned zero results. Reddit's reduced Google crawling (post-2024 indexing changes) may contribute to low result counts."
 }

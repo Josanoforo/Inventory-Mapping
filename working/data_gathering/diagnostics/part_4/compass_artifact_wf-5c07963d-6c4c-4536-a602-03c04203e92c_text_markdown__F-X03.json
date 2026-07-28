@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "YouTube video transcript comparisons",
-  "attempted": "SD-15. Searched for \"etsy vs shopify youtube comparison,\" \"etsy vs amazon handmade youtube transcript.\"\n**Outcome:** Search results returned YouTube video titles and descriptions but no transcript content. Video pages were not fetched due to tool limitations with video content. No transcript service was accessible.",
-  "why_failed": "for failure:** Tool cannot extract video transcripts; no transcript text available via web search or web fetch.",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "extra_fields": {
+    "subject": "Verbatim comparative statements from YouTube creators comparing Etsy to alternatives.",
+    "sub": "searches attempted:** SD-15. Searched for \"etsy vs shopify youtube comparison,\" \"etsy vs amazon handmade youtube transcript.\"",
+    "outcome": "Search results returned YouTube video titles and descriptions but no transcript content. Video pages were not fetched due to tool limitations with video content. No transcript service was accessible.",
+    "reason_for_failure": "Tool cannot extract video transcripts; no transcript text available via web search or web fetch."
+  }
 }

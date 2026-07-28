@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Capterra Etsy marketplace reviews",
-  "attempted": "SD-14. Searched for \"etsy capterra comparison review.\"\n**Outcome:** Capterra indexes Etsy-adjacent tools (EtsyHunt, EtsyMarketingTool, MyDesigns) but not the Etsy marketplace itself as a reviewable product. Individual tool reviews mention Etsy fees tangentially but do not constitute marketplace-level competitive comparisons.",
-  "why_failed": "for failure:** Product not indexed on this review aggregator.",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "extra_fields": {
+    "subject": "Structured user reviews comparing Etsy marketplace to alternatives on Capterra.",
+    "sub": "searches attempted:** SD-14. Searched for \"etsy capterra comparison review.\"",
+    "outcome": "Capterra indexes Etsy-adjacent tools (EtsyHunt, EtsyMarketingTool, MyDesigns) but not the Etsy marketplace itself as a reviewable product. Individual tool reviews mention Etsy fees tangentially but do not constitute marketplace-level competitive comparisons.",
+    "reason_for_failure": "Product not indexed on this review aggregator."
+  }
 }

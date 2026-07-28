@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Trustpilot — Raffaele Cerracchio, €183 payment not transferred",
-  "attempted": "What: New seller reports a €183 payment (Order ID: xGaq7DoZGD) on June 26 marked as \"Paid\" on Payhip but funds not transferred to verified PayPal/Stripe account.\nVerbatim snippet: \"I'm a new seller on Payhip. I received a €183 payment on June 26th (Order ID: xGaq7DoZGD), which is marked as 'Paid' on the platform. However, the funds have not been transferred to my verified...\"\nSource: https://www.trustpilot.com/review/payhip.com?page=2\nsource_type: [none — Trustpilot seller review; no matching value in shard's allowed source_type list]\nverification_status: could_not_verify\nDate: July 1, 2025\nNotes: Trustpilot seller review; routed to Part 4 per shard instruction: \"no dedicated taxonomy value in shard's allowed source_type list.\" Snippet truncated at Trustpilot display level. Seller confirmed (explicitly states \"I'm a new seller\"). 2-star review.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/payhip.com?page=2",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/payhip.com?page=2"
-  ]
+  ],
+  "what": "New seller reports a €183 payment (Order ID: xGaq7DoZGD) on June 26 marked as \"Paid\" on Payhip but funds not transferred to verified PayPal/Stripe account.",
+  "verbatim_snippet": "\"I'm a new seller on Payhip. I received a €183 payment on June 26th (Order ID: xGaq7DoZGD), which is marked as 'Paid' on the platform. However, the funds have not been transferred to my verified...\"",
+  "source": "https://www.trustpilot.com/review/payhip.com?page=2",
+  "source_type": "[none — Trustpilot seller review; no matching value in shard's allowed source_type list]",
+  "verification_status": "could_not_verify",
+  "date": "July 1, 2025",
+  "notes": "Trustpilot seller review; routed to Part 4 per shard instruction: \"no dedicated taxonomy value in shard's allowed source_type list.\" Snippet truncated at Trustpilot display level. Seller confirmed (explicitly states \"I'm a new seller\"). 2-star review."
 }

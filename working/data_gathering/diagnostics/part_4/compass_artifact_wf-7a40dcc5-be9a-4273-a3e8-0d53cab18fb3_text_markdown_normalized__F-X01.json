@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Reddit sellers report established shops removed from search November 2025",
-  "attempted": "**What:** Reddit thread reports that starting November 6, 2025, established Etsy shops with years of history and Star Seller status are being completely removed from search results, with views dropping to zero overnight.\n**Verbatim snippet:** \"Since November 6th, established Etsy shops are being completely removed from search results with zero explanation. This isn't about normal algorithm fluctuations - entire shops with years of history are going from thousands of views to almost ZERO overnight.\"\n**Source:** https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/\n**source_type:** reddit\n**verification_status:** could_not_verify\n**Date:** November 2025\n**Notes:** Reddit page could not be loaded directly. Snippet sourced from ValueAddedResource article (https://www.valueaddedresource.net/etsy-search-visibility-bug/) which embedded it from the Reddit thread. Using an intermediary article to verify a URL the agent couldn't access = NOT valid per protocol. Reddit URL is specific (thread-level, not subreddit-level). ValueAddedResource reported 500+ responses on this thread.",
-  "why_failed": "",
+  "attempted": "https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/",
     "https://www.valueaddedresource.net/etsy-search-visibility-bug/"
-  ]
+  ],
+  "what": "Reddit thread reports that starting November 6, 2025, established Etsy shops with years of history and Star Seller status are being completely removed from search results, with views dropping to zero overnight.",
+  "verbatim_snippet": "\"Since November 6th, established Etsy shops are being completely removed from search results with zero explanation. This isn't about normal algorithm fluctuations - entire shops with years of history are going from thousands of views to almost ZERO overnight.\"",
+  "source": "https://www.reddit.com/r/Etsy/comments/1ov508n/thousands_of_etsy_shops_lost_all_traffic_since/",
+  "source_type": "reddit",
+  "verification_status": "could_not_verify",
+  "date": "November 2025",
+  "notes": "Reddit page could not be loaded directly. Snippet sourced from ValueAddedResource article (https://www.valueaddedresource.net/etsy-search-visibility-bug/) which embedded it from the Reddit thread. Using an intermediary article to verify a URL the agent couldn't access = NOT valid per protocol. Reddit URL is specific (thread-level, not subreddit-level). ValueAddedResource reported 500+ responses on this thread."
 }

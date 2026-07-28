@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Reddit r/Domestika buyer-voice threads",
-  "attempted": "web_fetch of https://www.reddit.com/r/Domestika/ (blocked)\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only. Reddit blocks all fetch attempts. Zero Reddit results returned from site:reddit.com searches. Subreddit existence confirmed via external references but no thread-level URLs within window were recoverable.",
-  "why_failed": "",
+  "attempted": "Searched: web_search \"site:reddit.com/r/Domestika buyer review 2025\"; web_search \"site:reddit.com domestika course review 2025\"; web_search \"reddit domestika review bought course 2025\"; attempted web_fetch of https://www.reddit.com/r/Domestika/ (blocked)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/Domestika/"
-  ]
+  ],
+  "what": "No data found on buyer-voice threads in r/Domestika within April 2025–April 2026 window",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searched: web_search \"site:reddit.com/r/Domestika buyer review 2025\"; web_search \"site:reddit.com domestika course review 2025\"; web_search \"reddit domestika review bought course 2025\"; attempted web_fetch of https://www.reddit.com/r/Domestika/ (blocked)",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. Reddit blocks all fetch attempts. Zero Reddit results returned from site:reddit.com searches. Subreddit existence confirmed via external references but no thread-level URLs within window were recoverable."
 }

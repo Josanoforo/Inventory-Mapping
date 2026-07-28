@@ -3,9 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "Trustpilot — Etsy vs Temu logistics comparison (borderline D2/D5)",
-  "attempted": "",
-  "why_failed": "for exclusion:** Primary content is a buyer complaint about logistics (D2 territory); the Temu comparative element is a single sentence subordinate to the complaint. Borderline between D2 (seller/buyer complaints) and D5 (competitive positioning). Degraded to Part 4 per degradation rule. The page was directly verified; the scope classification is the reason for exclusion, not verification failure.",
+  "attempted": "https://www.trustpilot.com/review/www.etsy.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/www.etsy.com"
-  ]
+  ],
+  "source": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_type": "unknown",
+  "date": "2026-02-13",
+  "extra_fields": {
+    "subject": "Trustpilot reviewer \"Forbruger\" (NO) compares Etsy to Temu on DDP shipping duties handling.",
+    "verbatim_snippet_for_reference": "\"Avoid at all costs. The platform is doing something wrong with DDP shipments so the buyers are charged twice the same duties. If Temu can do it correctly, why Etsy can't do it right?\"",
+    "reason_for_exclusion": "Primary content is a buyer complaint about logistics (D2 territory); the Temu comparative element is a single sentence subordinate to the complaint. Borderline between D2 (seller/buyer complaints) and D5 (competitive positioning). Degraded to Part 4 per degradation rule. The page was directly verified; the scope classification is the reason for exclusion, not verification failure."
+  }
 }

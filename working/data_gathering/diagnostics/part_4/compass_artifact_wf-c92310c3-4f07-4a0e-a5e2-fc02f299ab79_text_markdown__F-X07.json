@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Teacher PayPal-only payout (verified content, no explicit cross-border cut in text)",
-  "attempted": "What: Domestika's teachers page states that all a teacher needs to receive payments is a PayPal account, but the passage contains no explicit mention of country, currency, or cross-border mechanism.\nVerbatim snippet: \"All you need is a PayPal account. As soon as we verify it, we'll send you the instructions so that you can easily receive the payments.\"\nSource: https://www.domestika.org/en/teachers\nsource_type: platform_doc\nverification_status: could_not_verify\nDate: Accessed April 2026; page undated\nNotes: Page was directly accessed and content is verified, but the finding is degraded to could_not_verify and placed in Part 4 because the verbatim snippet contains no explicit cross-border cut (no country, no currency code, no international tax mechanism, no geographic restriction). The cross-border relevance is contextual (US company paying international teachers via PayPal) rather than explicit in the text. Degraded per D6 QA checklist.",
-  "why_failed": "",
+  "attempted": "https://www.domestika.org/en/teachers",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.domestika.org/en/teachers"
-  ]
+  ],
+  "what": "Domestika's teachers page states that all a teacher needs to receive payments is a PayPal account, but the passage contains no explicit mention of country, currency, or cross-border mechanism.",
+  "verbatim_snippet": "\"All you need is a PayPal account. As soon as we verify it, we'll send you the instructions so that you can easily receive the payments.\"",
+  "source": "https://www.domestika.org/en/teachers",
+  "source_type": "platform_doc",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Page was directly accessed and content is verified, but the finding is degraded to could_not_verify and placed in Part 4 because the verbatim snippet contains no explicit cross-border cut (no country, no currency code, no international tax mechanism, no geographic restriction). The cross-border relevance is contextual (US company paying international teachers via PayPal) rather than explicit in the text. Degraded per D6 QA checklist."
 }

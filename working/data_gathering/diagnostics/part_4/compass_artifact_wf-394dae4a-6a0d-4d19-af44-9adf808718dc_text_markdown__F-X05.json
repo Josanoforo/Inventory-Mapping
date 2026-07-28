@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Capterra review — payout failure in unspecified Latin American country",
-  "attempted": ".\nVerbatim snippet: \"I never received my money. It was not possible to transfer the money to my bank account here in Latin America, the money was sent back and customer support sent me a weird message.\"\nSource: https://www.capterra.com/p/219169/Hotmart/reviews/\nsource_type: buyer_review\nverification_status: could_not_verify\nDate: January 31, 2024\nNotes: Reviewer did not name a specific LatAm country or payout method attempted. Per shard rules, experience findings must name the country, payout method, and outcome. Degraded to Part 4 due to insufficient geographic specificity.",
-  "why_failed": "",
+  "attempted": "https://www.capterra.com/p/219169/Hotmart/reviews/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.capterra.com/p/219169/Hotmart/reviews/"
-  ]
+  ],
+  "what": "A verified Capterra user (Prof. Dr. Werner K., CEO) reported inability to transfer money to a bank account \"here in Latin America\" without naming the specific country or payout method attempted.",
+  "verbatim_snippet": "\"I never received my money. It was not possible to transfer the money to my bank account here in Latin America, the money was sent back and customer support sent me a weird message.\"",
+  "source": "https://www.capterra.com/p/219169/Hotmart/reviews/",
+  "source_type": "buyer_review",
+  "verification_status": "could_not_verify",
+  "date": "January 31, 2024",
+  "notes": "Reviewer did not name a specific LatAm country or payout method attempted. Per shard rules, experience findings must name the country, payout method, and outcome. Degraded to Part 4 due to insufficient geographic specificity."
 }

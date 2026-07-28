@@ -3,9 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "Patreon product page",
-  "attempted": "SD-01 target URL https://www.patreon.com/product returned 403 on direct fetch and did not yield positioning-relevant snippets via search engine index.\n\n**Status:** could_not_verify. Page may have been deprecated or restructured; no competitive positioning content recovered.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.patreon.com/product"
-  ]
+  ],
+  "extra_fields": {
+    "sd": "01 target URL https://www.patreon.com/product returned 403 on direct fetch and did not yield positioning-relevant snippets via search engine index.",
+    "status": "could_not_verify. Page may have been deprecated or restructured; no competitive positioning content recovered."
+  }
 }

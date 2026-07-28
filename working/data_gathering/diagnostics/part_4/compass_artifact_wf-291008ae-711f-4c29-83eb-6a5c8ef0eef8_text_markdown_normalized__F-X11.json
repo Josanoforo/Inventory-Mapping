@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "**What:** [ABSENCE — SD-04] Sitejabber appears to have a Lemon Squeezy listing page but no confirmed reviews were found.",
-  "attempted": "**Verbatim snippet:** N/A — absence finding\n**Source:** https://www.sitejabber.com/requested-review?biz_id=5f846b5776e53\n**source_type:** buyer_review\n**verification_status:** could_not_verify\n**Date:** 2026-04-14 (search date)\n**Notes:** URL appeared in search results as a \"requested review\" page, suggesting the listing exists but likely has no or minimal reviews. Page could not be directly fetched to confirm content.",
-  "why_failed": "",
+  "attempted": "https://www.sitejabber.com/requested-review?biz_id=5f846b5776e53",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.sitejabber.com/requested-review?biz_id=5f846b5776e53"
-  ]
+  ],
+  "verbatim_snippet": "N/A — absence finding",
+  "source": "https://www.sitejabber.com/requested-review?biz_id=5f846b5776e53",
+  "source_type": "buyer_review",
+  "verification_status": "could_not_verify",
+  "date": "2026-04-14 (search date)",
+  "notes": "URL appeared in search results as a \"requested review\" page, suggesting the listing exists but likely has no or minimal reviews. Page could not be directly fetched to confirm content."
 }

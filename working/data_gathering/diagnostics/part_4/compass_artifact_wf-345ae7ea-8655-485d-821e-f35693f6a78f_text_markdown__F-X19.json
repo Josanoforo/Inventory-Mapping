@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X19",
   "seller_or_subject": "Payhip blog comment — Angela, coupon countdown feature request",
-  "attempted": "What: Seller requests partial coupon redemption feature (use part of a $100 coupon across multiple purchases). Payhip staff responds with workaround: manually issue a new discount code for remaining balance after each purchase.\nVerbatim snippet: \"could we please have coupon countdowns. Explanation, I give a customer a code for 100 dollars, they spend 50 of it, and have 50 left. The system records they only spent 50 and they have 50 dollars left to spend.\"\nSource: https://payhip.com/blog/whats-new-at-payhip-2025/\nsource_type: [none — Payhip's own blog; excluded as platform's own content per shard rules]\nverification_status: could_not_verify\nDate: 2025\nNotes: Routed to Part 4 because source is Payhip's own blog (comment section of their 2025 Feature Round-Up post). Shard rules exclude \"Payhip's own marketing or promotional content.\" However, the comment is a genuine seller voice and the manual workaround (issuing new discount codes for remaining balance) is a real operational workaround. source_type ambiguity: seller comment on platform's own blog.",
-  "why_failed": "",
+  "attempted": "https://payhip.com/blog/whats-new-at-payhip-2025/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://payhip.com/blog/whats-new-at-payhip-2025/"
-  ]
+  ],
+  "what": "Seller requests partial coupon redemption feature (use part of a $100 coupon across multiple purchases). Payhip staff responds with workaround: manually issue a new discount code for remaining balance after each purchase.",
+  "verbatim_snippet": "\"could we please have coupon countdowns. Explanation, I give a customer a code for 100 dollars, they spend 50 of it, and have 50 left. The system records they only spent 50 and they have 50 dollars left to spend.\"",
+  "source": "https://payhip.com/blog/whats-new-at-payhip-2025/",
+  "source_type": "[none — Payhip's own blog; excluded as platform's own content per shard rules]",
+  "verification_status": "could_not_verify",
+  "date": "2025",
+  "notes": "Routed to Part 4 because source is Payhip's own blog (comment section of their 2025 Feature Round-Up post). Shard rules exclude \"Payhip's own marketing or promotional content.\" However, the comment is a genuine seller voice and the manual workaround (issuing new discount codes for remaining balance) is a real operational workaround. source_type ambiguity: seller comment on platform's own blog."
 }

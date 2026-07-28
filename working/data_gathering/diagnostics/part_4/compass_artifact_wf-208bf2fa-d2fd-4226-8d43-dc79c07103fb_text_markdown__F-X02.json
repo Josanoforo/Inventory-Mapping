@@ -3,11 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "1099 handling for US sellers on Payhip",
-  "attempted": "n/a — contradicted across sources, unverifiable from official Payhip documentation. No Payhip help center, terms, or policy page mentions \"1099.\" A third-party tax service (flyfin.tax/1099-orgs/payhip) claims \"Payhip.com will dispatch a 1099-K form to you\" upon reaching $600 in earnings, but this appears to be auto-generated template content. A seller blog post from September 2020 (1mkwilliams.com) states \"NOTE: PayHip does not provide 1099s for US authors for end of year taxes\" — but this is outside the time window and may be outdated. Since Payhip payments flow directly into seller-owned Stripe or PayPal accounts, 1099-K forms would be issued by Stripe or PayPal (as the payment settlement entities), not by Payhip.\n**Source:** n/a — absence finding (official); contradicted across third-party sources\n**Searched locations:** https://help.payhip.com (site-wide), https://payhip.com/terms, https://payhip.com/faq, web search \"Payhip 1099 tax form US seller\"",
-  "why_failed": "",
+  "attempted": "n/a — absence finding (official); contradicted across third-party sources",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com",
     "https://payhip.com/terms,",
     "https://payhip.com/faq,"
-  ]
+  ],
+  "source": "n/a — absence finding (official); contradicted across third-party sources",
+  "extra_fields": {
+    "searched_locations": "https://help.payhip.com (site-wide), https://payhip.com/terms, https://payhip.com/faq, web search \"Payhip 1099 tax form US seller\""
+  }
 }

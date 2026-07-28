@@ -3,7 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Twitter/X buyer posts about Gumroad purchases",
-  "attempted": "`site:twitter.com \"bought on gumroad\" 2025`; `site:x.com \"bought on gumroad\" 2025 2026`; `twitter \"gumroad purchase\" buyer 2025`; direct fetch attempted on twitter.com/search?q=%22bought+on+gumroad%22\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** April 2026 (searches conducted)\n- **Notes:** Twitter/X content is not indexable via web search. Direct access to Twitter search was blocked. Buyer-voice tweets about Gumroad likely exist but cannot be verified through available tools.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Searches attempted: `site:twitter.com \"bought on gumroad\" 2025`; `site:x.com \"bought on gumroad\" 2025 2026`; `twitter \"gumroad purchase\" buyer 2025`; direct fetch attempted on twitter.com/search?q=%22bought+on+gumroad%22",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No buyer-voice tweets about Gumroad purchases were verifiable for this period.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: `site:twitter.com \"bought on gumroad\" 2025`; `site:x.com \"bought on gumroad\" 2025 2026`; `twitter \"gumroad purchase\" buyer 2025`; direct fetch attempted on twitter.com/search?q=%22bought+on+gumroad%22",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "April 2026 (searches conducted)",
+  "notes": "Twitter/X content is not indexable via web search. Direct access to Twitter search was blocked. Buyer-voice tweets about Gumroad likely exist but cannot be verified through available tools."
 }

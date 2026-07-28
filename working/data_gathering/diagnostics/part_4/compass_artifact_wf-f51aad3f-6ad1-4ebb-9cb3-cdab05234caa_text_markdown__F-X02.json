@@ -3,7 +3,10 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Reddit threads — blocked, could not directly verify",
-  "attempted": "Multiple Reddit thread URLs identified as containing Lemon Squeezy comparative discussions:\n- r/SaaS/comments/13noyxv (Paddle vs Lemon Squeezy Experiences)\n- r/SaaS/comments/1bywbqh (Is Lemon Squeezy a bad choice for EU users?)\n- r/SaaS/comments/1b3sf2l (Don't trust LemonSqueezy with your business)\n- r/SaaS/comments/1e2msce (What payment providers do you use? Stripe?)\n- r/SaaS/comments/1ejbn9i (What payment system do you use for your SaaS?)\nReddit blocked direct access consistently. Thread titles and partial content visible in secondary sources (fungies.io, brandingbymel.design), but primary verbatim verification of individual Reddit comments not achieved. One secondary-source quote (Reddit user \"lazarette\" via fungies.io on LS USD-only billing: \"LS looks lovely, BUT they also charge in $ only. I never got to experience this, but my understanding is the customer sees €5 and then, at checkout, gets billed $5.39… not very cool\") could not be verified at the primary Reddit URL.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "extra_fields": {
+    "multiple_reddit_thread_urls_identified_as_containing_lemon_squeezy_comparative_discussions": "- r/SaaS/comments/13noyxv (Paddle vs Lemon Squeezy Experiences)\n- r/SaaS/comments/1bywbqh (Is Lemon Squeezy a bad choice for EU users?)\n- r/SaaS/comments/1b3sf2l (Don't trust LemonSqueezy with your business)\n- r/SaaS/comments/1e2msce (What payment providers do you use? Stripe?)\n- r/SaaS/comments/1ejbn9i (What payment system do you use for your SaaS?)\nReddit blocked direct access consistently. Thread titles and partial content visible in secondary sources (fungies.io, brandingbymel.design), but primary verbatim verification of individual Reddit comments not achieved. One secondary-source quote (Reddit user \"lazarette\" via fungies.io on LS USD-only billing: \"LS looks lovely, BUT they also charge in $ only. I never got to experience this, but my understanding is the customer sees €5 and then, at checkout, gets billed $5.39… not very cool\") could not be verified at the primary Reddit URL."
+  }
 }

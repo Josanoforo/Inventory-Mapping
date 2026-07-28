@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Absence — No LatAm author experience reports from April 2025–April 2026 on Envato forums",
-  "attempted": "(1) web_fetch of https://forums.envato.com/search?q=withholding%20tax returned 403; (2) web_fetch of https://forums.envato.com/search?q=payout%20country returned 403; (3) web_search for site:forums.envato.com \"Mexico\" AND (\"tax\" OR \"withholding\" OR \"payout\") — results all pre-date April 2025; (4) web_search for site:forums.envato.com \"Brazil\" AND \"tax\" — zero LatAm-specific results from target window; (5) web_search for site:forums.envato.com \"Argentina\" AND (\"tax\" OR \"payout\") — zero results; (6) web_search for site:forums.envato.com \"Colombia\" AND (\"tax\" OR \"payout\") — zero results; (7) web_search for site:forums.envato.com \"Latin America\" AND (\"tax\" OR \"payout\") — zero results.\nsource_type: seller_forum\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: forums.envato.com returned 403 on all direct fetch attempts. Search index returned only pre-2025 threads with LatAm country mentions (Venezuela ~2016, Bolivia ~2015, Brazil ~2015). LatAm-specific forum discussion appears extremely sparse; forum is dominated by South Asian, Middle Eastern, and Eastern European author discussions.",
-  "why_failed": "",
+  "attempted": "Searches attempted: (1) web_fetch of https://forums.envato.com/search?q=withholding%20tax returned 403; (2) web_fetch of https://forums.envato.com/search?q=payout%20country returned 403; (3) web_search for site:forums.envato.com \"Mexico\" AND (\"tax\" OR \"withholding\" OR \"payout\") — results all pre-date April 2025; (4) web_search for site:forums.envato.com \"Brazil\" AND \"tax\" — zero LatAm-specific results from target window; (5) web_search for site:forums.envato.com \"Argentina\" AND (\"tax\" OR \"payout\") — zero results; (6) web_search for site:forums.envato.com \"Colombia\" AND (\"tax\" OR \"payout\") — zero results; (7) web_search for site:forums.envato.com \"Latin America\" AND (\"tax\" OR \"payout\") — zero results.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://forums.envato.com/search?q=withholding%20tax",
     "https://forums.envato.com/search?q=payout%20country"
-  ]
+  ],
+  "what": "No Envato forum threads from April 2025–April 2026 were found containing experience reports from LatAm-based authors about tax withholding, payouts, currency conversion, or country-specific issues.",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searches attempted: (1) web_fetch of https://forums.envato.com/search?q=withholding%20tax returned 403; (2) web_fetch of https://forums.envato.com/search?q=payout%20country returned 403; (3) web_search for site:forums.envato.com \"Mexico\" AND (\"tax\" OR \"withholding\" OR \"payout\") — results all pre-date April 2025; (4) web_search for site:forums.envato.com \"Brazil\" AND \"tax\" — zero LatAm-specific results from target window; (5) web_search for site:forums.envato.com \"Argentina\" AND (\"tax\" OR \"payout\") — zero results; (6) web_search for site:forums.envato.com \"Colombia\" AND (\"tax\" OR \"payout\") — zero results; (7) web_search for site:forums.envato.com \"Latin America\" AND (\"tax\" OR \"payout\") — zero results.",
+  "source_type": "seller_forum",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "forums.envato.com returned 403 on all direct fetch attempts. Search index returned only pre-2025 threads with LatAm country mentions (Venezuela ~2016, Bolivia ~2015, Brazil ~2015). LatAm-specific forum discussion appears extremely sparse; forum is dominated by South Asian, Middle Eastern, and Eastern European author discussions."
 }

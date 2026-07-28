@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Complete enumerated list of all accepted payment methods",
-  "attempted": "What: The full list of all payment methods accepted at checkout (beyond cards and subscription-specific methods) could not be fully verified from the payment methods help center page. Partial list includes cards (Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay), PayPal, Apple Pay, Google Pay, and bank debits, but the complete list and regional availability was not fully captured.\nVerbatim snippet: \"n/a — search index snippets captured partial content only\"\nSource: https://docs.lemonsqueezy.com/help/checkout/payment-methods\nsource_type: help_center\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Multiple search queries returned fragments from this page but no single snippet contained the complete payment method list. The pricing page references \"16 different payment methods\" and \"up to 21 payment methods\" in different passages, creating ambiguity about the current count.",
-  "why_failed": "",
+  "attempted": "https://docs.lemonsqueezy.com/help/checkout/payment-methods",
+  "why_failed": null,
   "urls_mentioned": [
     "https://docs.lemonsqueezy.com/help/checkout/payment-methods"
-  ]
+  ],
+  "what": "The full list of all payment methods accepted at checkout (beyond cards and subscription-specific methods) could not be fully verified from the payment methods help center page. Partial list includes cards (Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay), PayPal, Apple Pay, Google Pay, and bank debits, but the complete list and regional availability was not fully captured.",
+  "verbatim_snippet": "\"n/a — search index snippets captured partial content only\"",
+  "source": "https://docs.lemonsqueezy.com/help/checkout/payment-methods",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Multiple search queries returned fragments from this page but no single snippet contained the complete payment method list. The pricing page references \"16 different payment methods\" and \"up to 21 payment methods\" in different passages, creating ambiguity about the current count."
 }

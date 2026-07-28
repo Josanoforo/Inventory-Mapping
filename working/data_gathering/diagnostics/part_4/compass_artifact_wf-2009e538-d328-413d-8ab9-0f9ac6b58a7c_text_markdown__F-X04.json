@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "No Twitter/X buyer-voice about Kichink in target window",
-  "attempted": "**Finding ID:** F-X04  \n**What:** No data found on Twitter/X buyer-voice about Kichink purchases within April 2025–April 2026. All indexed Kichink-related Twitter/X content is seller-voice (#KichinkNoPaga movement, 2019–2020) or official accounts (@Kichink, @KichinkAyuda — both apparently inactive, showing \"When they do, their posts will show up here\"). Protest account @KichinkP (seller voice) also inactive.  \n**Verbatim snippet:** n/a — absence finding  \n**Source:** Searched: (1) direct URL https://twitter.com/search?q=kichink+compré (blocked — requires JavaScript/login); (2) web searches: `site:twitter.com kichink compré 2025`, `site:x.com kichink compré`, `site:x.com kichink estafa`, `site:x.com kichink comprar 2025 OR 2024`, `\"kichink\" \"compré\" twitter OR x.com 2025`, `\"kichink\" \"no llega\" OR \"no llegó\" OR \"mi pedido\" site:x.com` — all returned only official/seller accounts or zero results  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Accessed April 2026  \n**Notes:** Searched locations only. Twitter/X search requires JavaScript rendering not available to web fetch tool; relied on `site:x.com` and `site:twitter.com` web searches. SD-04.",
-  "why_failed": "",
+  "attempted": "Searched: (1) direct URL https://twitter.com/search?q=kichink+compré (blocked — requires JavaScript/login); (2) web searches: `site:twitter.com kichink compré 2025`, `site:x.com kichink compré`, `site:x.com kichink estafa`, `site:x.com kichink comprar 2025 OR 2024`, `\"kichink\" \"compré\" twitter OR x.com 2025`, `\"kichink\" \"no llega\" OR \"no llegó\" OR \"mi pedido\" site:x.com` — all returned only official/seller accounts or zero results",
+  "why_failed": null,
   "urls_mentioned": [
     "https://twitter.com/search?q=kichink+compré"
-  ]
+  ],
+  "what": "No data found on Twitter/X buyer-voice about Kichink purchases within April 2025–April 2026. All indexed Kichink-related Twitter/X content is seller-voice (#KichinkNoPaga movement, 2019–2020) or official accounts (@Kichink, @KichinkAyuda — both apparently inactive, showing \"When they do, their posts will show up here\"). Protest account @KichinkP (seller voice) also inactive.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searched: (1) direct URL https://twitter.com/search?q=kichink+compré (blocked — requires JavaScript/login); (2) web searches: `site:twitter.com kichink compré 2025`, `site:x.com kichink compré`, `site:x.com kichink estafa`, `site:x.com kichink comprar 2025 OR 2024`, `\"kichink\" \"compré\" twitter OR x.com 2025`, `\"kichink\" \"no llega\" OR \"no llegó\" OR \"mi pedido\" site:x.com` — all returned only official/seller accounts or zero results",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. Twitter/X search requires JavaScript rendering not available to web fetch tool; relied on `site:x.com` and `site:twitter.com` web searches. SD-04.",
+  "extra_fields": {
+    "finding_id": "F-X04"
+  }
 }

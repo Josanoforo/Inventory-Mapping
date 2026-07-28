@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X09",
   "seller_or_subject": "PissedConsumer — Unauthorized $53 charge",
-  "attempted": "- **What:** Consumer reported an unauthorized credit card charge of $53.00 described as \"GUMROAD* J1 FOR TEACHE\" on December 22, 2025; did not authorize the purchase and received no product or service.\n- **Verbatim snippet:** \"I noticed a charge on my credit card that I do not recognize and would like your help identifying it. Charge description: GUMROAD* J1 FOR TEACHE. Amount: $53.00. Date: December 22, 2025.\" (partial, from listing page)\n- **Source:** https://gumroad.pissedconsumer.com/review.html\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** December 22, 2025 (charge date)\n- **Notes:** Within time window. However: (1) ambiguous buyer-voice status — the reporter is an unauthorized charge victim, not a volitional buyer; (2) only visible in listing page snippet, individual review not separately verifiable; (3) source_type \"unknown\" per protocol (PissedConsumer). Price: $53.00 USD. Moved to Part 4 for ambiguous buyer-voice status and source granularity.",
-  "why_failed": "",
+  "attempted": "https://gumroad.pissedconsumer.com/review.html",
+  "why_failed": null,
   "urls_mentioned": [
     "https://gumroad.pissedconsumer.com/review.html"
-  ]
+  ],
+  "what": "Consumer reported an unauthorized credit card charge of $53.00 described as \"GUMROAD* J1 FOR TEACHE\" on December 22, 2025; did not authorize the purchase and received no product or service.",
+  "verbatim_snippet": "\"I noticed a charge on my credit card that I do not recognize and would like your help identifying it. Charge description: GUMROAD* J1 FOR TEACHE. Amount: $53.00. Date: December 22, 2025.\" (partial, from listing page)",
+  "source": "https://gumroad.pissedconsumer.com/review.html",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "December 22, 2025 (charge date)",
+  "notes": "Within time window. However: (1) ambiguous buyer-voice status — the reporter is an unauthorized charge victim, not a volitional buyer; (2) only visible in listing page snippet, individual review not separately verifiable; (3) source_type \"unknown\" per protocol (PissedConsumer). Price: $53.00 USD. Moved to Part 4 for ambiguous buyer-voice status and source granularity."
 }

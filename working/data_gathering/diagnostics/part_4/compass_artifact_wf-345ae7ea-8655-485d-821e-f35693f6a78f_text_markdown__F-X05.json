@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Trustpilot — BV, broken download links",
-  "attempted": "What: Seller reports customers purchased ebook but download links were broken despite correctly uploaded files. Seller had to manually send files to customers as workaround.\nVerbatim snippet: \"Some customers purchased my e-book and couldn't download it. The download link was broken, even though the files I uploaded were perfectly fine. I contacted Payhip and had to send the file manually ju...\"\nSource: https://www.trustpilot.com/review/payhip.com\nsource_type: [none — Trustpilot seller review; no matching value in shard's allowed source_type list]\nverification_status: could_not_verify\nDate: September 7, 2025\nNotes: Trustpilot seller review; routed to Part 4 per source_type taxonomy mismatch. 1-star review. Snippet truncated at Trustpilot display level. Seller confirmed (sells e-book). Workaround: manual file delivery.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/payhip.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/payhip.com"
-  ]
+  ],
+  "what": "Seller reports customers purchased ebook but download links were broken despite correctly uploaded files. Seller had to manually send files to customers as workaround.",
+  "verbatim_snippet": "\"Some customers purchased my e-book and couldn't download it. The download link was broken, even though the files I uploaded were perfectly fine. I contacted Payhip and had to send the file manually ju...\"",
+  "source": "https://www.trustpilot.com/review/payhip.com",
+  "source_type": "[none — Trustpilot seller review; no matching value in shard's allowed source_type list]",
+  "verification_status": "could_not_verify",
+  "date": "September 7, 2025",
+  "notes": "Trustpilot seller review; routed to Part 4 per source_type taxonomy mismatch. 1-star review. Snippet truncated at Trustpilot display level. Seller confirmed (sells e-book). Workaround: manual file delivery."
 }

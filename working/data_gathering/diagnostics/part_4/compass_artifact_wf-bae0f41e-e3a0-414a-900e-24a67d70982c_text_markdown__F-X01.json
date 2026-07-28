@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Gumroad /discover/notion-templates",
-  "attempted": "web_fetch of https://gumroad.com/discover/notion-templates; web_search for \"site:gumroad.com notion-templates\"; Google index search\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Searched locations only. The /discover/{category-name} URL pattern does not exist on Gumroad. Actual category URLs use the pattern gumroad.com/{category-slug} (e.g., gumroad.com/design) or query parameters on /discover.",
-  "why_failed": "",
+  "attempted": "Attempted: web_fetch of https://gumroad.com/discover/notion-templates; web_search for \"site:gumroad.com notion-templates\"; Google index search",
+  "why_failed": null,
   "urls_mentioned": [
     "https://gumroad.com/discover/notion-templates",
     "https://gumroad.com/discover/notion-templates;"
-  ]
+  ],
+  "what": "No data found. The URL path https://gumroad.com/discover/notion-templates does not resolve to a valid page. Gumroad's actual URL pattern for notion templates is via query parameters (e.g., ?query=notion+templates) or category+tag filters (e.g., /self-improvement/productivity?tags=notion+template).",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted: web_fetch of https://gumroad.com/discover/notion-templates; web_search for \"site:gumroad.com notion-templates\"; Google index search",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. The /discover/{category-name} URL pattern does not exist on Gumroad. Actual category URLs use the pattern gumroad.com/{category-slug} (e.g., gumroad.com/design) or query parameters on /discover."
 }

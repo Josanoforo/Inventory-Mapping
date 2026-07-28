@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "No Kichink seller voices on Trustpilot",
-  "attempted": "direct fetch of `https://www.trustpilot.com/review/kichink.com` (PERMISSIONS_ERROR); `site:trustpilot.com kichink seller`; `site:trustpilot.com kichink vendedor`; `\"kichink\" trustpilot review`. Third-party aggregators (EasyCounter, ScamAdviser) confirmed no reviews exist for kichink.com on Trustpilot.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Trustpilot page returned PERMISSIONS_ERROR. Multiple independent searches and third-party aggregators confirm no Trustpilot listing for kichink.com exists. ScamAdviser states: \"No reviews. Be the first to Review.\"",
-  "why_failed": "",
+  "attempted": "Searches attempted: direct fetch of `https://www.trustpilot.com/review/kichink.com` (PERMISSIONS_ERROR); `site:trustpilot.com kichink seller`; `site:trustpilot.com kichink vendedor`; `\"kichink\" trustpilot review`. Third-party aggregators (EasyCounter, ScamAdviser) confirmed no reviews exist for kichink.com on Trustpilot.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/kichink.com`"
-  ]
+  ],
+  "what": "No data found on Kichink seller experiences on Trustpilot within April 2025–April 2026.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: direct fetch of `https://www.trustpilot.com/review/kichink.com` (PERMISSIONS_ERROR); `site:trustpilot.com kichink seller`; `site:trustpilot.com kichink vendedor`; `\"kichink\" trustpilot review`. Third-party aggregators (EasyCounter, ScamAdviser) confirmed no reviews exist for kichink.com on Trustpilot.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Trustpilot page returned PERMISSIONS_ERROR. Multiple independent searches and third-party aggregators confirm no Trustpilot listing for kichink.com exists. ScamAdviser states: \"No reviews. Be the first to Review.\"",
+  "extra_fields": {
+    "finding_id": "F-X01"
+  }
 }

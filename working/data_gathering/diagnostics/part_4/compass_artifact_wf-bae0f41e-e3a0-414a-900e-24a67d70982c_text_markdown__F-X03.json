@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "app.gumroad.com/discover",
-  "attempted": "web_fetch of https://app.gumroad.com/discover; web_search for \"site:app.gumroad.com discover\"\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 2026\n\n**Notes:** Searched locations only. App Store listing for Gumroad (iOS) references \"Gumroad Discover is now available for iOS!\" but this is within the native app, not a web URL.",
-  "why_failed": "",
+  "attempted": "Attempted: web_fetch of https://app.gumroad.com/discover; web_search for \"site:app.gumroad.com discover\"",
+  "why_failed": null,
   "urls_mentioned": [
     "https://app.gumroad.com/discover;"
-  ]
+  ],
+  "what": "No data found for web-accessible discover page at app.gumroad.com. The subdomain does not appear to host a publicly accessible discover page. Mobile Discover is available only within native iOS and Android apps.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted: web_fetch of https://app.gumroad.com/discover; web_search for \"site:app.gumroad.com discover\"",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. App Store listing for Gumroad (iOS) references \"Gumroad Discover is now available for iOS!\" but this is within the native app, not a web URL."
 }

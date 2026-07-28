@@ -3,7 +3,8 @@
   "source_tool": "deep_search",
   "item_id": "F-X29",
   "seller_or_subject": "No data found — Reddit r/patreon direct thread URLs",
-  "attempted": "- Notes: Despite 10+ targeted searches using site:reddit.com/r/patreon with multiple keyword combinations, zero Reddit thread URLs were returned by Google search. Reddit.com and old.reddit.com were both inaccessible via web_fetch (PERMISSIONS_ERROR). All Reddit-attributed creator quotes found were via secondary aggregation blogs (lorearchitect.com, workfromyourlaptop.com) without original thread URLs.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "notes": "Despite 10+ targeted searches using site:reddit.com/r/patreon with multiple keyword combinations, zero Reddit thread URLs were returned by Google search. Reddit.com and old.reddit.com were both inaccessible via web_fetch (PERMISSIONS_ERROR). All Reddit-attributed creator quotes found were via secondary aggregation blogs (lorearchitect.com, workfromyourlaptop.com) without original thread URLs."
 }

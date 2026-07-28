@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "Brazil direct bank payout current status",
-  "attempted": "**What:** Gumroad tweeted \"We'll be adding support for Brazilian creator payouts ASAP! 🇧🇷\" on October 15, 2024. No subsequent announcement, help center update, or third-party confirmation was found indicating that Brazil was added to Gumroad's direct bank payout countries as of April 2026. Brazil was absent from both the October 28, 2024, and November 29, 2024, country expansion announcements.\n**Source:** https://x.com/gumroad/status/1846151604002586849\n**source_type:** platform_doc\n**verification_status:** could_not_verify\n**Date:** October 15, 2024 (promise); searched through April 2026\n**Notes:** Covers SD-14. The \"ASAP\" promise remains the last official Gumroad statement on Brazil bank payouts. Carlos Becker (F-P07) received Stripe payouts starting October 24, 2024, but described this as a one-off resolution after CEO intervention, not a systemic change. Third-party services like Utoppia (December 2025) continue to market USD accounts to \"digital artists in Brazil\" for Gumroad payouts, suggesting PayPal/USD remains the standard path.",
-  "why_failed": "",
+  "attempted": "https://x.com/gumroad/status/1846151604002586849",
+  "why_failed": null,
   "urls_mentioned": [
     "https://x.com/gumroad/status/1846151604002586849"
-  ]
+  ],
+  "what": "Gumroad tweeted \"We'll be adding support for Brazilian creator payouts ASAP! 🇧🇷\" on October 15, 2024. No subsequent announcement, help center update, or third-party confirmation was found indicating that Brazil was added to Gumroad's direct bank payout countries as of April 2026. Brazil was absent from both the October 28, 2024, and November 29, 2024, country expansion announcements.",
+  "source": "https://x.com/gumroad/status/1846151604002586849",
+  "source_type": "platform_doc",
+  "verification_status": "could_not_verify",
+  "date": "October 15, 2024 (promise); searched through April 2026",
+  "notes": "Covers SD-14. The \"ASAP\" promise remains the last official Gumroad statement on Brazil bank payouts. Carlos Becker (F-P07) received Stripe payouts starting October 24, 2024, but described this as a one-off resolution after CEO intervention, not a systemic change. Third-party services like Utoppia (December 2025) continue to market USD accounts to \"digital artists in Brazil\" for Gumroad payouts, suggesting PayPal/USD remains the standard path."
 }

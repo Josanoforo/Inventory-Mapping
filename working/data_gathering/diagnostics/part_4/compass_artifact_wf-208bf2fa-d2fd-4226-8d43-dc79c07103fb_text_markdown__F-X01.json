@@ -3,11 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "W-8BEN requirements for non-US sellers on Payhip",
-  "attempted": "n/a — absence finding. Searched: help.payhip.com (full-text and site-search for \"W-8BEN,\" \"W8BEN,\" \"withholding\"), payhip.com/terms, payhip.com/faq, web search \"Payhip W-8BEN.\" Zero mentions found on any Payhip-owned page. Since Payhip routes payments through seller-owned Stripe/PayPal accounts (not through Payhip itself), W-8BEN obligations would flow from Stripe or PayPal, not from Payhip.\n**Source:** n/a — absence finding\n**Searched locations:** https://help.payhip.com (site-wide), https://payhip.com/terms, https://payhip.com/faq, web search \"Payhip W-8BEN site:help.payhip.com,\" web search \"Payhip W-8BEN tax form non-US seller\"",
-  "why_failed": "",
+  "attempted": "n/a — absence finding",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com",
     "https://payhip.com/terms,",
     "https://payhip.com/faq,"
-  ]
+  ],
+  "source": "n/a — absence finding",
+  "extra_fields": {
+    "searched_locations": "https://help.payhip.com (site-wide), https://payhip.com/terms, https://payhip.com/faq, web search \"Payhip W-8BEN site:help.payhip.com,\" web search \"Payhip W-8BEN tax form non-US seller\""
+  }
 }

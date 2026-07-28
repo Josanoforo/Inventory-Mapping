@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Términos legales de EE.UU. inaccesibles",
-  "attempted": "What: Existe una URL de términos y condiciones específica para compradores en Estados Unidos en kichink.com/us/legal/termsandconditions, con título indexado en inglés \"Terms and Conditions for Buyers\", pero su contenido es inaccesible.\nVerbatim snippet: [Título indexado por Google: \"Terms and Conditions for Buyers\"]\nSource: https://www.kichink.com/us/legal/termsandconditions\nsource_type: policy_page\nverification_status: could_not_verify\nDate: Acceso abril 2026\nNotes: La página devuelve HTTP 403 Forbidden. No se infiere contenido específico de la página inaccesible.",
-  "why_failed": "",
+  "attempted": "https://www.kichink.com/us/legal/termsandconditions",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.kichink.com/us/legal/termsandconditions"
-  ]
+  ],
+  "what": "Existe una URL de términos y condiciones específica para compradores en Estados Unidos en kichink.com/us/legal/termsandconditions, con título indexado en inglés \"Terms and Conditions for Buyers\", pero su contenido es inaccesible.",
+  "verbatim_snippet": "[Título indexado por Google: \"Terms and Conditions for Buyers\"]",
+  "source": "https://www.kichink.com/us/legal/termsandconditions",
+  "source_type": "policy_page",
+  "verification_status": "could_not_verify",
+  "date": "Acceso abril 2026",
+  "notes": "La página devuelve HTTP 403 Forbidden. No se infiere contenido específico de la página inaccesible."
 }

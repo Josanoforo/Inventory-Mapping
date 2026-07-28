@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "patreon.com/pricing page content",
-  "attempted": "What: No data could be gathered from the main patreon.com/pricing page.\nVerbatim snippet: n/a — absence finding\nSource: https://www.patreon.com/pricing\nsource_type: pricing_page\nverification_status: could_not_verify\nDate: Accessed April 2026\nNotes: Direct fetch returned a permissions error. Web search did not return indexed content specifically from this URL. The page may use client-side rendering that prevents indexing of fee details.",
-  "why_failed": "",
+  "attempted": "https://www.patreon.com/pricing",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.patreon.com/pricing"
-  ]
+  ],
+  "what": "No data could be gathered from the main patreon.com/pricing page.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "https://www.patreon.com/pricing",
+  "source_type": "pricing_page",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Direct fetch returned a permissions error. Web search did not return indexed content specifically from this URL. The page may use client-side rendering that prevents indexing of fee details."
 }

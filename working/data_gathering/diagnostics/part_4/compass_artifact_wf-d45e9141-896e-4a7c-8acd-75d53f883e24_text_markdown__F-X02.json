@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Medium comparison articles",
-  "attempted": "Direct URL: https://medium.com/search?q=patreon+vs+substack (not fetchable)\n- Web search: medium.com \"patreon vs\" comparison (no Medium article URLs returned)\n\n**Status:** could_not_verify. Medium search pages did not surface in web search results.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://medium.com/search?q=patreon+vs+substack"
-  ]
+  ],
+  "extra_fields": {
+    "sd": "17 search for Patreon comparison articles on Medium yielded no retrievable content. Searches attempted:",
+    "direct_url": "https://medium.com/search?q=patreon+vs+substack (not fetchable)",
+    "web_search": "medium.com \"patreon vs\" comparison (no Medium article URLs returned)",
+    "status": "could_not_verify. Medium search pages did not surface in web search results."
+  }
 }

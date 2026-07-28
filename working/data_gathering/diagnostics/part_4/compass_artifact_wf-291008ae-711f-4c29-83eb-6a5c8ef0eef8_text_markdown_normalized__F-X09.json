@@ -3,9 +3,15 @@
   "source_tool": "deep_search",
   "item_id": "F-X09",
   "seller_or_subject": "**What:** [ABSENCE — SD-02] G2 has a Lemon Squeezy product listing but zero reviews exist. Page states \"This product hasn't been reviewed yet!\"",
-  "attempted": "**Verbatim snippet:** N/A — absence finding confirmed by G2 page state\n**Source:** https://www.g2.com/products/lemon-squeezy/reviews\n**source_type:** buyer_review\n**verification_status:** direct_verified\n**Date:** 2026-04-14 (search date)\n**Notes:** G2 profile also noted as inactive: \"This profile hasn't been active for over a year.\" G2 reviews would likely be seller-voice (software users) rather than buyer-voice even if present.",
-  "why_failed": "",
+  "attempted": "https://www.g2.com/products/lemon-squeezy/reviews",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.g2.com/products/lemon-squeezy/reviews"
-  ]
+  ],
+  "verbatim_snippet": "N/A — absence finding confirmed by G2 page state",
+  "source": "https://www.g2.com/products/lemon-squeezy/reviews",
+  "source_type": "buyer_review",
+  "verification_status": "direct_verified",
+  "date": "2026-04-14 (search date)",
+  "notes": "G2 profile also noted as inactive: \"This profile hasn't been active for over a year.\" G2 reviews would likely be seller-voice (software users) rather than buyer-voice even if present."
 }

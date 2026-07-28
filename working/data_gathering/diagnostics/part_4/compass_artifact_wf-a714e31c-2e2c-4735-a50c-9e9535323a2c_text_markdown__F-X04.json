@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "hotmart.com/es/sobre-hotmart",
-  "attempted": "https://hotmart.com/es (same error)\n**source_type:** platform_doc\n**verification_status:** could_not_verify\n**Date:** April 2026\n**Notes:** Page may contain additional self-positioning statements. Pricing page (hotmart.com/es/precios) and help center were accessible and provided self-positioning content.",
-  "why_failed": "",
+  "attempted": "https://hotmart.com/es/sobre-hotmart (direct fetch returned permissions error); also attempted https://hotmart.com/es (same error)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://hotmart.com/es/sobre-hotmart",
     "https://hotmart.com/es"
-  ]
+  ],
+  "what": "Hotmart's \"About\" page in Spanish could not be accessed",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "https://hotmart.com/es/sobre-hotmart (direct fetch returned permissions error); also attempted https://hotmart.com/es (same error)",
+  "source_type": "platform_doc",
+  "verification_status": "could_not_verify",
+  "date": "April 2026",
+  "notes": "Page may contain additional self-positioning statements. Pricing page (hotmart.com/es/precios) and help center were accessible and provided self-positioning content."
 }

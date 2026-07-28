@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X23",
   "seller_or_subject": "passion.io — \"The Patreon Exodus\" competitor analysis",
-  "attempted": "- Subject: Competitor platform article citing Patreon's own 53% \"harder to connect\" stat (Feb 2025 report), total deductions of 13-14% or 20-30%, and quoting a Reddit creator saying \"A company having the right to destroy your livelihood on a whim... is a basket you don't wanna put all your eggs in.\"\n- Source: https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps\n- source_type: article (competitor analysis)\n- Date: November 19, 2025\n- Notes: Passion.io is a direct Patreon competitor selling branded app solutions. Data points are verifiable but framing is promotional. Embedded Reddit quote lacks specific thread attribution. Directly fetched.\n\n---\n\n### Outside time window",
-  "why_failed": "",
+  "attempted": "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps",
+  "why_failed": null,
   "urls_mentioned": [
     "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps"
-  ]
+  ],
+  "source": "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps",
+  "source_type": "article (competitor analysis)",
+  "date": "November 19, 2025",
+  "notes": "Passion.io is a direct Patreon competitor selling branded app solutions. Data points are verifiable but framing is promotional. Embedded Reddit quote lacks specific thread attribution. Directly fetched.\n\n---\n\n### Outside time window",
+  "extra_fields": {
+    "subject": "Competitor platform article citing Patreon's own 53% \"harder to connect\" stat (Feb 2025 report), total deductions of 13-14% or 20-30%, and quoting a Reddit creator saying \"A company having the right to destroy your livelihood on a whim... is a basket you don't wanna put all your eggs in.\""
+  }
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Centro de ayuda Zendesk cerrado — artículo de envíos internacionales",
-  "attempted": "What: Existía un artículo titulado \"Envíos internacionales\" en el centro de ayuda Zendesk de Kichink, pero el centro ya no existe.\nVerbatim snippet: n/a — página cerrada; mensaje: \"It looks like the help center that you are trying to reach no longer exists\"\nSource: https://kichink.zendesk.com/hc/es-419/articles/360015982692-Envíos-internacionales\nsource_type: help_center\nverification_status: could_not_verify\nDate: Acceso abril 2026\nNotes: El artículo habría sido la fuente primaria más relevante para mecánicas de envío internacional. Búsquedas adicionales en site:ayuda.kichink.com y site:kichinkservicios.zendesk.com devolvieron 0 resultados.",
-  "why_failed": "",
+  "attempted": "https://kichink.zendesk.com/hc/es-419/articles/360015982692-Envíos-internacionales",
+  "why_failed": null,
   "urls_mentioned": [
     "https://kichink.zendesk.com/hc/es-419/articles/360015982692-Envíos-internacionales"
-  ]
+  ],
+  "what": "Existía un artículo titulado \"Envíos internacionales\" en el centro de ayuda Zendesk de Kichink, pero el centro ya no existe.",
+  "verbatim_snippet": "n/a — página cerrada; mensaje: \"It looks like the help center that you are trying to reach no longer exists\"",
+  "source": "https://kichink.zendesk.com/hc/es-419/articles/360015982692-Envíos-internacionales",
+  "source_type": "help_center",
+  "verification_status": "could_not_verify",
+  "date": "Acceso abril 2026",
+  "notes": "El artículo habría sido la fuente primaria más relevante para mecánicas de envío internacional. Búsquedas adicionales en site:ayuda.kichink.com y site:kichinkservicios.zendesk.com devolvieron 0 resultados."
 }

@@ -3,9 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Reddit r/Domestika and r/ArtistLounge — Domestika comparative threads",
-  "attempted": "`\"domestika\" r/Domestika comparison OR vs OR better OR worse`, `\"domestika\" r/ArtistLounge`, `\"domestika opiniones\" site:reddit.com`. All returned zero results or were blocked.\n**Source:** Searches listed above.\n**source_type:** reddit\n**verification_status:** could_not_verify\n**Date:** n/a\n**Notes:** Same blocking issue as F-X01. Multiple sources reference a Reddit thread on r/craftsnark (\"Domestika Scam – Warning About Domestika Plus Subscriptions,\" URL: https://www.reddit.com/r/craftsnark/comments/1bmk1j7/domestika_scam/) but this thread could not be fetched or verified. It is listed separately as F-X04.",
-  "why_failed": "",
+  "attempted": "Searches listed above.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/craftsnark/comments/1bmk1j7/domestika_scam/"
-  ]
+  ],
+  "source": "Searches listed above.",
+  "source_type": "reddit",
+  "verification_status": "could_not_verify",
+  "date": "n/a",
+  "notes": "Same blocking issue as F-X01. Multiple sources reference a Reddit thread on r/craftsnark (\"Domestika Scam – Warning About Domestika Plus Subscriptions,\" URL: https://www.reddit.com/r/craftsnark/comments/1bmk1j7/domestika_scam/) but this thread could not be fetched or verified. It is listed separately as F-X04."
 }

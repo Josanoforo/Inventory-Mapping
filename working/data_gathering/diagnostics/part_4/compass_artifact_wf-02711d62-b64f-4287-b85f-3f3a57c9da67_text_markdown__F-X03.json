@@ -3,7 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X03",
   "seller_or_subject": "Individual Patreon creator membership tier prices — absence finding",
-  "attempted": "**What:** No data found on individual Patreon creator membership tier prices. Individual creator pages on patreon.com are JavaScript-rendered and blocked for automated access.\n\n**Verbatim snippet:** n/a — absence finding.\n\n**Source:** No individual creator pages (patreon.com/<creator>) were successfully fetched. All returned 403 errors or JavaScript-only content. Searched: patreon.com/explore for visible tier listings.\n\n**source_type:** unknown\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 14, 2026.\n\n**Notes:** Tier prices are only visible on individual creator pages, which require JavaScript rendering and are blocked for automated access. No tier price data was observable from explore pages, Graphtreon rankings, or third-party articles that provide verbatim tier price listings.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "No individual creator pages (patreon.com/<creator>) were successfully fetched. All returned 403 errors or JavaScript-only content. Searched: patreon.com/explore for visible tier listings.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No data found on individual Patreon creator membership tier prices. Individual creator pages on patreon.com are JavaScript-rendered and blocked for automated access.",
+  "verbatim_snippet": "n/a — absence finding.",
+  "source": "No individual creator pages (patreon.com/<creator>) were successfully fetched. All returned 403 errors or JavaScript-only content. Searched: patreon.com/explore for visible tier listings.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 14, 2026.",
+  "notes": "Tier prices are only visible on individual creator pages, which require JavaScript rendering and are blocked for automated access. No tier price data was observable from explore pages, Graphtreon rankings, or third-party articles that provide verbatim tier price listings."
 }

@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "Kupkaike blog buyer hesitation claim — secondary retelling",
-  "attempted": "**Finding ID:** F-X11\n**What:** Blog article states \"Less polished UX: The buyer checkout experience isn't quite as clean as Gumroad's. Some buyers report hesitation at checkout.\"\n**Verbatim snippet:** \"Less polished UX: The buyer checkout experience isn't quite as clean as Gumroad's. Some buyers report hesitation at checkout.\"\n**Source:** https://kupkaike.com/blog/etsy-vs-gumroad-vs-payhip\n**source_type:** blog\n**verification_status:** could_not_verify\n**Date:** 2026 (undated article, current content)\n**Notes:** Secondary retelling. The claim \"Some buyers report hesitation at checkout\" cites no source, no sample size, no methodology, no time period. No original buyer statement supporting this claim was found in any primary source across all searches. Per edge case rules: secondary retelling without primary source = Part 4. Also: article is a comparison blog post with potential affiliate intent.",
-  "why_failed": "",
+  "attempted": "https://kupkaike.com/blog/etsy-vs-gumroad-vs-payhip",
+  "why_failed": null,
   "urls_mentioned": [
     "https://kupkaike.com/blog/etsy-vs-gumroad-vs-payhip"
-  ]
+  ],
+  "what": "Blog article states \"Less polished UX: The buyer checkout experience isn't quite as clean as Gumroad's. Some buyers report hesitation at checkout.\"",
+  "verbatim_snippet": "\"Less polished UX: The buyer checkout experience isn't quite as clean as Gumroad's. Some buyers report hesitation at checkout.\"",
+  "source": "https://kupkaike.com/blog/etsy-vs-gumroad-vs-payhip",
+  "source_type": "blog",
+  "verification_status": "could_not_verify",
+  "date": "2026 (undated article, current content)",
+  "notes": "Secondary retelling. The claim \"Some buyers report hesitation at checkout\" cites no source, no sample size, no methodology, no time period. No original buyer statement supporting this claim was found in any primary source across all searches. Per edge case rules: secondary retelling without primary source = Part 4. Also: article is a comparison blog post with potential affiliate intent.",
+  "extra_fields": {
+    "finding_id": "F-X11"
+  }
 }

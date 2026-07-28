@@ -3,7 +3,12 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Quora full-page comparative answers — Domestika vs Udemy, Domestika vs Crehana, and multi-platform comparison threads",
-  "attempted": "n/a — could not verify. Six Quora URLs were identified via search, all blocked by robots.txt: (1) es.quora.com \"Entre Domestika Crehana y Skillshare cuál de estas es más recomendable\" — partial snippet captured as F-P07; (2) es.quora.com \"Cuál es mejor Udemy Crehana o Domestika\"; (3) es.quora.com \"Valen la pena los cursos de Domestika\"; (4) quora.com \"Do you like Domestika's courses\"; (5) quora.com \"Is it worth taking an online course on Domestika\"; (6) es.quora.com \"Qué plataforma tiene los mejores cursos educativos entre Platzi Hotmart Crehana y Domestika.\" Only one produced a snippet with an explicit comparative statement meeting shard criteria (captured as F-P07). The remainder either lacked explicit competitor naming in the visible snippet or provided no comparative positioning.\n**Source:** URLs listed above; all blocked by robots.txt.\n**source_type:** unknown\n**verification_status:** could_not_verify\n**Date:** n/a\n**Notes:** source_type \"unknown\" — Quora does not map cleanly to the 18-value taxonomy. Closest match would be seller_forum or buyer_review, neither of which accurately describes Q&A platforms. Noted for taxonomy resolution.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "URLs listed above; all blocked by robots.txt.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "source": "URLs listed above; all blocked by robots.txt.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "n/a",
+  "notes": "source_type \"unknown\" — Quora does not map cleanly to the 18-value taxonomy. Closest match would be seller_forum or buyer_review, neither of which accurately describes Q&A platforms. Noted for taxonomy resolution."
 }

@@ -3,7 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "No Kichink seller voices on Medium or Substack",
-  "attempted": "`site:medium.com kichink vendedor`; `site:substack.com kichink`. Medium returned only Kichink's own marketing content (official @Kichink account). Substack returned no results.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** No seller-voice content. Medium results were Kichink platform marketing only (excluded per shard scope: not seller voice).",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Searches attempted: `site:medium.com kichink vendedor`; `site:substack.com kichink`. Medium returned only Kichink's own marketing content (official @Kichink account). Substack returned no results.",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "No data found on Kichink seller experiences on Medium or Substack within April 2025–April 2026.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: `site:medium.com kichink vendedor`; `site:substack.com kichink`. Medium returned only Kichink's own marketing content (official @Kichink account). Substack returned no results.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "No seller-voice content. Medium results were Kichink platform marketing only (excluded per shard scope: not seller voice).",
+  "extra_fields": {
+    "finding_id": "F-X06"
+  }
 }

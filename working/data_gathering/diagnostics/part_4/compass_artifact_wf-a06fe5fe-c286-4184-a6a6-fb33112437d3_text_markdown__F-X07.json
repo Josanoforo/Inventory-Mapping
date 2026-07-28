@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Aggregate platform-wide conversion rate — absence finding",
-  "attempted": "\"payhip\" conversion rate benchmark | payhip conversion rate report | payhip average conversion rate | Also fetched https://help.payhip.com/article/108-conversion-rate (describes per-seller dashboard metric but publishes no aggregate benchmark) — zero aggregate results\n**source_type:** report\n**verification_status:** could_not_verify\n**Date:** April 2025 — April 2026\n**Notes:** Payhip tracks conversion rate (Views → Started Checkout → Completed Checkout) per seller in individual dashboards but does not publish platform-level aggregate data. No third-party source publishes Payhip-specific conversion benchmarks. The conversion rate help article (last updated June 14, 2021) confirms the feature exists but provides no numbers.",
-  "why_failed": "",
+  "attempted": "Searches attempted: \"payhip\" conversion rate benchmark | payhip conversion rate report | payhip average conversion rate | Also fetched https://help.payhip.com/article/108-conversion-rate (describes per-seller dashboard metric but publishes no aggregate benchmark) — zero aggregate results",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com/article/108-conversion-rate"
-  ]
+  ],
+  "what": "No Payhip-specific aggregate conversion rate data is publicly available.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searches attempted: \"payhip\" conversion rate benchmark | payhip conversion rate report | payhip average conversion rate | Also fetched https://help.payhip.com/article/108-conversion-rate (describes per-seller dashboard metric but publishes no aggregate benchmark) — zero aggregate results",
+  "source_type": "report",
+  "verification_status": "could_not_verify",
+  "date": "April 2025 — April 2026",
+  "notes": "Payhip tracks conversion rate (Views → Started Checkout → Completed Checkout) per seller in individual dashboards but does not publish platform-level aggregate data. No third-party source publishes Payhip-specific conversion benchmarks. The conversion rate help article (last updated June 14, 2021) confirms the feature exists but provides no numbers.",
+  "extra_fields": {
+    "finding_id": "F-X07"
+  }
 }

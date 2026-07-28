@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X14",
   "seller_or_subject": "Jockerai — creator: account shut down after 3 months",
-  "attempted": "- **What:** Creator reports account shut down after three months of effort and earning money, with no proper explanation.\n- **Verbatim snippet:** \"If I could give this platform zero stars, I definitely would—actually, I'd give it -1 or even -100. My account was shut down after three months of effort and earning money, with no proper expl...\"\n- **Source:** https://www.trustpilot.com/review/www.patreon.com (review by Jockerai)\n- **source_type:** unknown (Trustpilot)\n- **verification_status:** direct_verified (degraded for source_type)\n- **Date:** April 4, 2025\n- **Notes:** Truncated. Creator perspective confirmed (\"effort and earning money\").\n\n---\n\n### Source_type outside allowed list: Twitter/X posts\n\nAll tweets below have source URLs on x.com that were blocked by robots.txt. Passages are from Google search index snippets of the specific tweet URLs. Degraded to Part 4 because tweets do not fit any of the 7 allowed source_type values.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/www.patreon.com (review by Jockerai)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/www.patreon.com"
-  ]
+  ],
+  "what": "Creator reports account shut down after three months of effort and earning money, with no proper explanation.",
+  "verbatim_snippet": "\"If I could give this platform zero stars, I definitely would—actually, I'd give it -1 or even -100. My account was shut down after three months of effort and earning money, with no proper expl...\"",
+  "source": "https://www.trustpilot.com/review/www.patreon.com (review by Jockerai)",
+  "source_type": "unknown (Trustpilot)",
+  "verification_status": "direct_verified (degraded for source_type)",
+  "date": "April 4, 2025",
+  "notes": "Truncated. Creator perspective confirmed (\"effort and earning money\").\n\n---\n\n### Source_type outside allowed list: Twitter/X posts\n\nAll tweets below have source URLs on x.com that were blocked by robots.txt. Passages are from Google search index snippets of the specific tweet URLs. Degraded to Part 4 because tweets do not fit any of the 7 allowed source_type values."
 }

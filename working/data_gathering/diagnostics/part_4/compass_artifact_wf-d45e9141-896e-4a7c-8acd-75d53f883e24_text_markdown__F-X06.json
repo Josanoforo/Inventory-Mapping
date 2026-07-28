@@ -3,9 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "Passion.io blog — secondary retelling",
-  "attempted": "SD-16 identified a Passion.io blog post (https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps) quoting creator Julie Ann from Twin Stitches Designs about leaving Patreon. This is a secondary retelling of content from the creator's YouTube video, not a primary source statement. Per protocol: secondary retellings are not valid.\n\n**Status:** could_not_verify. Secondary retelling. Passion.io is also a direct Patreon competitor.",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps"
-  ]
+  ],
+  "extra_fields": {
+    "sd": "16 identified a Passion.io blog post (https://passion.io/blog/the-patreon-exodus-why-creators-are-building-their-own-branded-apps) quoting creator Julie Ann from Twin Stitches Designs about leaving Patreon. This is a secondary retelling of content from the creator's YouTube video, not a primary source statement. Per protocol: secondary retellings are not valid.",
+    "status": "could_not_verify. Secondary retelling. Passion.io is also a direct Patreon competitor."
+  }
 }

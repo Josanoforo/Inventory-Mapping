@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X06",
   "seller_or_subject": "No Profeco complaints against Kichink found",
-  "attempted": "**Finding ID:** F-X06  \n**What:** No data found on Profeco (Procuraduría Federal del Consumidor) buyer complaints against Kichink. Kichink does not appear in publicly accessible Profeco/Concilianet records. No sanctions, investigation reports, or consumer alerts about Kichink found on any gob.mx domain.  \n**Verbatim snippet:** n/a — absence finding  \n**Source:** Searched: (1) web search `\"kichink\" site:gob.mx`; (2) web search `\"kichink\" profeco queja`; (3) web search `\"kichink\" queja comprador 2025` — Profeco-related results limited to a Change.org petition (seller-voice, excluded per D4 rules) and generic Profeco procedure articles  \n**source_type:** unknown  \n**verification_status:** could_not_verify  \n**Date:** Accessed April 2026  \n**Notes:** Searched locations only. The Change.org petition (https://www.change.org/p/kichink-kichinkayuda-kichink-no-paga-a-emprendedores) references Profeco but is seller-voice, not buyer-voice. SD-06.",
-  "why_failed": "",
+  "attempted": "Searched: (1) web search `\"kichink\" site:gob.mx`; (2) web search `\"kichink\" profeco queja`; (3) web search `\"kichink\" queja comprador 2025` — Profeco-related results limited to a Change.org petition (seller-voice, excluded per D4 rules) and generic Profeco procedure articles",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.change.org/p/kichink-kichinkayuda-kichink-no-paga-a-emprendedores"
-  ]
+  ],
+  "what": "No data found on Profeco (Procuraduría Federal del Consumidor) buyer complaints against Kichink. Kichink does not appear in publicly accessible Profeco/Concilianet records. No sanctions, investigation reports, or consumer alerts about Kichink found on any gob.mx domain.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Searched: (1) web search `\"kichink\" site:gob.mx`; (2) web search `\"kichink\" profeco queja`; (3) web search `\"kichink\" queja comprador 2025` — Profeco-related results limited to a Change.org petition (seller-voice, excluded per D4 rules) and generic Profeco procedure articles",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. The Change.org petition (https://www.change.org/p/kichink-kichinkayuda-kichink-no-paga-a-emprendedores) references Profeco but is seller-voice, not buyer-voice. SD-06.",
+  "extra_fields": {
+    "finding_id": "F-X06"
+  }
 }

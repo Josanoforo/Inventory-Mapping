@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "Absence — r/PatreonMemes patron posts",
-  "attempted": "- **What:** \"No data found on patron/buyer posts in r/PatreonMemes within April 2025–April 2026.\"\n- **Verbatim snippet:** \"n/a — absence finding\"\n- **Source:** Searched: site:reddit.com/r/PatreonMemes patron 2025; direct fetch of https://www.reddit.com/r/PatreonMemes/. Both returned zero results or permissions errors.\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only.",
-  "why_failed": "",
+  "attempted": "Searched: site:reddit.com/r/PatreonMemes patron 2025; direct fetch of https://www.reddit.com/r/PatreonMemes/. Both returned zero results or permissions errors.",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.reddit.com/r/PatreonMemes/."
-  ]
+  ],
+  "what": "\"No data found on patron/buyer posts in r/PatreonMemes within April 2025–April 2026.\"",
+  "verbatim_snippet": "\"n/a — absence finding\"",
+  "source": "Searched: site:reddit.com/r/PatreonMemes patron 2025; direct fetch of https://www.reddit.com/r/PatreonMemes/. Both returned zero results or permissions errors.",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only."
 }

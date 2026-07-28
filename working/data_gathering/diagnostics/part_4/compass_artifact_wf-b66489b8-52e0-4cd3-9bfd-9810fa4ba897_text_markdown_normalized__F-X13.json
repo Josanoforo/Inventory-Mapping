@@ -3,7 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X13",
   "seller_or_subject": "No review counts or star ratings visible in static HTML",
-  "attempted": "**Searched for:** Review counts, star ratings, review text on product listings and store pages.\n**Where searched:** payhip.com/virtualink/ebooks (direct fetch), payhip.com/NTTsolmare (direct fetch), payhip.com/purgeitwithpatti (direct fetch), payhip.com/b/gniq2 (direct fetch), all marketplace category pages (direct fetch).\n**Result:** No review counts or star ratings were visible on any page in static HTML, despite the marketplace having rating filter options (1–4+ stars). Reviews may be JavaScript-rendered or only visible on individual product detail pages.\n**Notes:** Absence finding — no data found. Original ID: D2.\n**verification_status:** could_not_verify",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "Review counts, star ratings, review text on product listings and store pages. | payhip.com/virtualink/ebooks (direct fetch), payhip.com/NTTsolmare (direct fetch), payhip.com/purgeitwithpatti (direct fetch), payhip.com/b/gniq2 (direct fetch), all marketplace category pages (direct fetch).",
+  "why_failed": "No review counts or star ratings were visible on any page in static HTML, despite the marketplace having rating filter options (1–4+ stars). Reviews may be JavaScript-rendered or only visible on individual product detail pages.",
+  "urls_mentioned": [],
+  "verification_status": "could_not_verify",
+  "notes": "Absence finding — no data found. Original ID: D2.",
+  "extra_fields": {
+    "searched_for": "Review counts, star ratings, review text on product listings and store pages.",
+    "where_searched": "payhip.com/virtualink/ebooks (direct fetch), payhip.com/NTTsolmare (direct fetch), payhip.com/purgeitwithpatti (direct fetch), payhip.com/b/gniq2 (direct fetch), all marketplace category pages (direct fetch).",
+    "result": "No review counts or star ratings were visible on any page in static HTML, despite the marketplace having rating filter options (1–4+ stars). Reviews may be JavaScript-rendered or only visible on individual product detail pages."
+  }
 }

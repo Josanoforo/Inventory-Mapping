@@ -3,7 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "Mexico payment processing flat fee discrepancy (8 MXN vs 10 MXN)",
-  "attempted": "**Finding ID:** F-X05\n**What:** Two sources provide conflicting values for Mexico's payment processing flat fee. Investomatica (F-01, citing etsy.com, last reviewed April 4, 2026) states 8 MXN. The official Etsy Mexico payments page (F-04, etsy.com/mx/payments, accessed April 14, 2026) states 10.00 MXN. The official Etsy help article (help.etsy.com/hc/en-us/articles/115015628847) that contains the authoritative fee table returned 403 and could not be checked.\n**Source:** N/A — conflicting sources; authoritative source inaccessible\n**source_type:** N/A\n**verification_status:** could_not_verify\n**Date:** April 14, 2026\n**Notes:** The Etsy official page (10.00 MXN) should be considered more authoritative than the third-party aggregator (8 MXN). The discrepancy may reflect a fee update that Investomatica has not yet incorporated, or a data entry error. Both sources agree on the 4.5% percentage rate.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "N/A — conflicting sources; authoritative source inaccessible",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "what": "Two sources provide conflicting values for Mexico's payment processing flat fee. Investomatica (F-01, citing etsy.com, last reviewed April 4, 2026) states 8 MXN. The official Etsy Mexico payments page (F-04, etsy.com/mx/payments, accessed April 14, 2026) states 10.00 MXN. The official Etsy help article (help.etsy.com/hc/en-us/articles/115015628847) that contains the authoritative fee table returned 403 and could not be checked.",
+  "source": "N/A — conflicting sources; authoritative source inaccessible",
+  "source_type": "N/A",
+  "verification_status": "could_not_verify",
+  "date": "April 14, 2026",
+  "notes": "The Etsy official page (10.00 MXN) should be considered more authoritative than the third-party aggregator (8 MXN). The discrepancy may reflect a fee update that Investomatica has not yet incorporated, or a data entry error. Both sources agree on the 4.5% percentage rate.",
+  "extra_fields": {
+    "finding_id": "F-X05"
+  }
 }

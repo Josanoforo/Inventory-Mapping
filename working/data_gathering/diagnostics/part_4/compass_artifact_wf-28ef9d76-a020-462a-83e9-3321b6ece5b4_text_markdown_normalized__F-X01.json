@@ -3,9 +3,18 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "**Subject:** YouTube video comparing Gumroad vs Payhip (pricing, features, which is better)",
-  "attempted": "**What:** YouTube video description frames a head-to-head comparison of Gumroad vs Payhip across pricing, fees, features, and overall platform quality for selling digital products.\n**Verbatim snippet (unverified):** \"In this video, you'll get an in-depth review of Gumroad VS Payhip so you can make an informed decision as to which platform to use to sell your digital products, coaching, membership, and more. I'll be going over the pricing, fees, features, and overall diving deep to see which is the best platform to start selling your products or services from. Which is better? Gumroad or Payhip? I'll share my honest, unbiased review of both in this video.\"\n**Source:** https://www.youtube.com/watch?v=NRz6Zym44GQ\n**source_type:** video_transcript\n**verification_status:** could_not_verify\n**Date:** Accessed April 2026; video date not confirmed\n**Notes:** YouTube page could not be fetched directly. Description text was visible on a Skool.com community post that embedded the video link; per Edge Case 3 (intermediary verification via third-party article is not valid indirect access), this does not qualify as blocked_url_index_verified. Defaulted to Part 4.",
-  "why_failed": "",
+  "attempted": "https://www.youtube.com/watch?v=NRz6Zym44GQ",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.youtube.com/watch?v=NRz6Zym44GQ"
-  ]
+  ],
+  "what": "YouTube video description frames a head-to-head comparison of Gumroad vs Payhip across pricing, fees, features, and overall platform quality for selling digital products.",
+  "source": "https://www.youtube.com/watch?v=NRz6Zym44GQ",
+  "source_type": "video_transcript",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; video date not confirmed",
+  "notes": "YouTube page could not be fetched directly. Description text was visible on a Skool.com community post that embedded the video link; per Edge Case 3 (intermediary verification via third-party article is not valid indirect access), this does not qualify as blocked_url_index_verified. Defaulted to Part 4.",
+  "extra_fields": {
+    "verbatim_snippet_unverified": "\"In this video, you'll get an in-depth review of Gumroad VS Payhip so you can make an informed decision as to which platform to use to sell your digital products, coaching, membership, and more. I'll be going over the pricing, fees, features, and overall diving deep to see which is the best platform to start selling your products or services from. Which is better? Gumroad or Payhip? I'll share my honest, unbiased review of both in this video.\""
+  }
 }

@@ -3,9 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "Brazil bank payout support status",
-  "attempted": "Brazil was not visible in the partially recovered bank payout country list from the supported-countries page. The alphabetical list reads \"Bolivia · Bosnia and Herzegovina · Botswana · Brunei Darussalam\" with no Brazil entry between Bolivia and Botswana/Brunei. Brazil's bank payout support status could not be confirmed or denied due to partial list recovery.\nVerbatim: n/a — absence finding (partial data)\nSource: https://docs.lemonsqueezy.com/help/getting-started/supported-countries (403; partial list from search index).",
-  "why_failed": "",
+  "attempted": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries (403; partial list from search index).",
+  "why_failed": null,
   "urls_mentioned": [
     "https://docs.lemonsqueezy.com/help/getting-started/supported-countries"
-  ]
+  ],
+  "verbatim_snippet": "n/a — absence finding (partial data)",
+  "source": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries (403; partial list from search index).",
+  "extra_fields": {
+    "brazil_was_not_visible_in_the_partially_recovered_bank_payout_country_list_from_the_supported": "countries page. The alphabetical list reads \"Bolivia · Bosnia and Herzegovina · Botswana · Brunei Darussalam\" with no Brazil entry between Bolivia and Botswana/Brunei. Brazil's bank payout support status could not be confirmed or denied due to partial list recovery."
+  }
 }

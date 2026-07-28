@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X04",
   "seller_or_subject": "YouTube Spanish-language video transcripts on Domestika buyer experience",
-  "attempted": "- **What:** TikTok discovery page and individual TikTok videos identified (e.g., @nanaliteraria \"Cuidado con esta plataforma #domestika #estafa,\" 1,985 likes, 646 comments) but video transcripts not recoverable\n- **Verbatim snippet:** n/a — could not verify\n- **Source:** Searched: web_search \"site:youtube.com domestika opinión 2025\"; web_search \"youtube domestika reseña curso compré 2025\"; found https://www.tiktok.com/@nanaliteraria/video/7441600101849648417 in search results but transcript not accessible\n- **source_type:** unknown\n- **verification_status:** could_not_verify\n- **Date:** Accessed April 2026\n- **Notes:** Searched locations only. YouTube and TikTok video content is not fetchable as text. Video existence confirmed but buyer-voice content within cannot be extracted or verified.",
-  "why_failed": "",
+  "attempted": "Searched: web_search \"site:youtube.com domestika opinión 2025\"; web_search \"youtube domestika reseña curso compré 2025\"; found https://www.tiktok.com/@nanaliteraria/video/7441600101849648417 in search results but transcript not accessible",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.tiktok.com/@nanaliteraria/video/7441600101849648417"
-  ]
+  ],
+  "what": "TikTok discovery page and individual TikTok videos identified (e.g., @nanaliteraria \"Cuidado con esta plataforma #domestika #estafa,\" 1,985 likes, 646 comments) but video transcripts not recoverable",
+  "verbatim_snippet": "n/a — could not verify",
+  "source": "Searched: web_search \"site:youtube.com domestika opinión 2025\"; web_search \"youtube domestika reseña curso compré 2025\"; found https://www.tiktok.com/@nanaliteraria/video/7441600101849648417 in search results but transcript not accessible",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026",
+  "notes": "Searched locations only. YouTube and TikTok video content is not fetchable as text. Video existence confirmed but buyer-voice content within cannot be extracted or verified."
 }

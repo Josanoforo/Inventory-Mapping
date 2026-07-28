@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "W-8BEN / 1099 — Formularios fiscales US para vendedores no-US en Hotmart",
-  "attempted": "**Subject:** Documentación específica de Hotmart sobre formularios W-8BEN o 1099 para vendedores no-estadounidenses.\n**Locations searched:** help.hotmart.com/es (búsqueda fulltext \"W-8BEN\"), web search \"hotmart W-8BEN formulario vendedor extranjero\", \"hotmart 1099 formulario vendedor\", \"site:hotmart.com W-8BEN\", \"site:help.hotmart.com W-8BEN\".\n**Result:** Cero resultados en español. Ningún artículo del help center de Hotmart en ningún idioma menciona W-8BEN o 1099. El modelo agente de Hotmart (F-12) probablemente elimina la necesidad de estos formularios ya que Hotmart no reporta pagos como empleador sino como agente comercial.\n**Classification:** Absence finding.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": "Cero resultados en español. Ningún artículo del help center de Hotmart en ningún idioma menciona W-8BEN o 1099. El modelo agente de Hotmart (F-12) probablemente elimina la necesidad de estos formularios ya que Hotmart no reporta pagos como empleador sino como agente comercial.",
+  "urls_mentioned": [],
+  "extra_fields": {
+    "subject": "Documentación específica de Hotmart sobre formularios W-8BEN o 1099 para vendedores no-estadounidenses.",
+    "locations_searched": "help.hotmart.com/es (búsqueda fulltext \"W-8BEN\"), web search \"hotmart W-8BEN formulario vendedor extranjero\", \"hotmart 1099 formulario vendedor\", \"site:hotmart.com W-8BEN\", \"site:help.hotmart.com W-8BEN\".",
+    "result": "Cero resultados en español. Ningún artículo del help center de Hotmart en ningún idioma menciona W-8BEN o 1099. El modelo agente de Hotmart (F-12) probablemente elimina la necesidad de estos formularios ya que Hotmart no reporta pagos como empleador sino como agente comercial.",
+    "classification": "Absence finding."
+  }
 }

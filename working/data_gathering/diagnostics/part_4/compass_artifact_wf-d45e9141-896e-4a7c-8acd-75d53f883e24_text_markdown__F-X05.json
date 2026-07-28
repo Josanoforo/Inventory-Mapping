@@ -3,9 +3,14 @@
   "source_tool": "deep_search",
   "item_id": "F-X05",
   "seller_or_subject": "YouTube native video transcripts",
-  "attempted": "SD-14 search for YouTube video transcripts of \"Patreon vs X\" comparison videos identified one relevant video (https://www.youtube.com/watch?v=qALZHnmmZmA, Voylin's GameDev Journey, March 12, 2025). Transcript was accessed via intermediary service (Lilys.ai), not directly from YouTube. Per protocol: intermediary verification is not valid.\n\nCandidate verbatim (not verified to direct-access standard): \"But then you look at something like Patreon, and it's basically only you have access to posts and yeah, only monthly donations, not onetime donations, monthly donations. So looking at features, only Patreon seems kind of limited, but Patreon has the Name the brand name everybody knows, Patreon.\"\n\n**Status:** could_not_verify. Original YouTube page not directly accessed; transcript obtained via third-party intermediary (Lilys.ai).",
-  "why_failed": "",
+  "attempted": "",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.youtube.com/watch?v=qALZHnmmZmA,"
-  ]
+  ],
+  "extra_fields": {
+    "sd": "14 search for YouTube video transcripts of \"Patreon vs X\" comparison videos identified one relevant video (https://www.youtube.com/watch?v=qALZHnmmZmA, Voylin's GameDev Journey, March 12, 2025). Transcript was accessed via intermediary service (Lilys.ai), not directly from YouTube. Per protocol: intermediary verification is not valid.",
+    "candidate_verbatim_not_verified_to_direct": "access standard): \"But then you look at something like Patreon, and it's basically only you have access to posts and yeah, only monthly donations, not onetime donations, monthly donations. So looking at features, only Patreon seems kind of limited, but Patreon has the Name the brand name everybody knows, Patreon.\"",
+    "status": "could_not_verify. Original YouTube page not directly accessed; transcript obtained via third-party intermediary (Lilys.ai)."
+  }
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Semrush traffic aggregates for gumroad.com",
-  "attempted": "- **What:** Semrush data via search snippets and limited-access preview: January 2026: 27.09M visits, 07:07 avg session duration, 54.91% bounce rate, 3.84 pages/visit; February 2026: 24.14M visits (-10.9% MoM), 06:34 avg session; geographic distribution: US 32.22%, India 7.0%, UK 5.13%, Germany 3.73%, Brazil 2.8%.\n- **Verbatim snippet:** \"In January gumroad.com received 27.09M visits with the average session duration 07:07.\" (from Semrush overview page/snippet)\n- **Source:** https://www.semrush.com/website/gumroad.com/overview/\n- **source_type:** database_profile\n- **verification_status:** could_not_verify\n- **Date:** January–February 2026 (data periods)\n- **Notes:** Cannot confirm whether Semrush page was directly fetched (full data typically requires paid login) or whether data was extracted from free preview / search snippets. Degraded to could_not_verify for source access uncertainty. Semrush estimates are modeled data, not first-party analytics. Data has source (Semrush) and period (Jan/Feb 2026) but scope qualifier (all devices, global) was inferred not explicitly stated in snippet.",
-  "why_failed": "",
+  "attempted": "https://www.semrush.com/website/gumroad.com/overview/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.semrush.com/website/gumroad.com/overview/"
-  ]
+  ],
+  "what": "Semrush data via search snippets and limited-access preview: January 2026: 27.09M visits, 07:07 avg session duration, 54.91% bounce rate, 3.84 pages/visit; February 2026: 24.14M visits (-10.9% MoM), 06:34 avg session; geographic distribution: US 32.22%, India 7.0%, UK 5.13%, Germany 3.73%, Brazil 2.8%.",
+  "verbatim_snippet": "\"In January gumroad.com received 27.09M visits with the average session duration 07:07.\" (from Semrush overview page/snippet)",
+  "source": "https://www.semrush.com/website/gumroad.com/overview/",
+  "source_type": "database_profile",
+  "verification_status": "could_not_verify",
+  "date": "January–February 2026 (data periods)",
+  "notes": "Cannot confirm whether Semrush page was directly fetched (full data typically requires paid login) or whether data was extracted from free preview / search snippets. Degraded to could_not_verify for source access uncertainty. Semrush estimates are modeled data, not first-party analytics. Data has source (Semrush) and period (Jan/Feb 2026) but scope qualifier (all devices, global) was inferred not explicitly stated in snippet."
 }

@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X14",
   "seller_or_subject": "Axios article — Patreon $10 billion milestone, 25 million memberships",
-  "attempted": "- **What:** Axios exclusive reports that Patreon creators have received more than $10 billion in payments since 2013 founding; more than 25 million paid memberships; more than $2 billion flows to creators annually, per CEO Jack Conte.\n- **Verbatim snippet:** (From search index) \"Creators on Patreon have received more than $10 billion in payments from fans since the company was founded in 2013, CEO and co-founder Jack Conte tells Axios.\"\n- **Source:** https://www.axios.com/2025/08/05/patreon-10-billion-creator-economy-ai\n- **source_type:** article\n- **verification_status:** could_not_verify\n- **Date:** August 5, 2025\n- **Notes:** Fetch block: Axios article returned HTTP 403 on direct fetch. Snippet visible only in search engine index. Same underlying data (25M memberships, $2B annual) was independently verified via the directly-accessible Inc. article (F-13), but this specific Axios URL could not be directly accessed. Degraded from Part 1.",
-  "why_failed": "",
+  "attempted": "https://www.axios.com/2025/08/05/patreon-10-billion-creator-economy-ai",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.axios.com/2025/08/05/patreon-10-billion-creator-economy-ai"
-  ]
+  ],
+  "what": "Axios exclusive reports that Patreon creators have received more than $10 billion in payments since 2013 founding; more than 25 million paid memberships; more than $2 billion flows to creators annually, per CEO Jack Conte.",
+  "verbatim_snippet": "(From search index) \"Creators on Patreon have received more than $10 billion in payments from fans since the company was founded in 2013, CEO and co-founder Jack Conte tells Axios.\"",
+  "source": "https://www.axios.com/2025/08/05/patreon-10-billion-creator-economy-ai",
+  "source_type": "article",
+  "verification_status": "could_not_verify",
+  "date": "August 5, 2025",
+  "notes": "Fetch block: Axios article returned HTTP 403 on direct fetch. Snippet visible only in search engine index. Same underlying data (25M memberships, $2B annual) was independently verified via the directly-accessible Inc. article (F-13), but this specific Axios URL could not be directly accessed. Degraded from Part 1."
 }

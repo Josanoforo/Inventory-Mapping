@@ -3,12 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Precios individuales de cursos",
-  "attempted": "access to https://www.domestika.org/es/courses, https://www.domestika.org/es/courses/category/11-ilustracion, https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa, https://www.domestika.org/es/courses/on_sale\nsource_type: unknown\nverification_status: could_not_verify\nDate: April 2026\nNotes: Los precios de cursos individuales no aparecen en el HTML server-rendered; probablemente se cargan vía JavaScript. No se puede afirmar ausencia de precios — solo que no fueron capturables con las herramientas de acceso disponibles.",
-  "why_failed": "",
+  "attempted": "Attempted access to https://www.domestika.org/es/courses, https://www.domestika.org/es/courses/category/11-ilustracion, https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa, https://www.domestika.org/es/courses/on_sale",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.domestika.org/es/courses,",
     "https://www.domestika.org/es/courses/category/11-ilustracion,",
     "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa,",
     "https://www.domestika.org/es/courses/on_sale"
-  ]
+  ],
+  "what": "Los precios de cursos individuales de Domestika no fueron observables en el HTML estático de las páginas de catálogo ni en las páginas de curso individual accedidas.",
+  "verbatim_snippet": "n/a — absence finding",
+  "source": "Attempted access to https://www.domestika.org/es/courses, https://www.domestika.org/es/courses/category/11-ilustracion, https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa, https://www.domestika.org/es/courses/on_sale",
+  "source_type": "unknown",
+  "verification_status": "could_not_verify",
+  "date": "April 2026",
+  "notes": "Los precios de cursos individuales no aparecen en el HTML server-rendered; probablemente se cargan vía JavaScript. No se puede afirmar ausencia de precios — solo que no fueron capturables con las herramientas de acceso disponibles."
 }

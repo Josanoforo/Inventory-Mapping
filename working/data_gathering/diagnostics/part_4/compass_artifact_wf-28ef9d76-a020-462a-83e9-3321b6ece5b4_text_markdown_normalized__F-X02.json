@@ -3,9 +3,18 @@
   "source_tool": "deep_search",
   "item_id": "F-X02",
   "seller_or_subject": "**Subject:** imnights.com blog/video page comparing Payhip to Gumroad (similarities)",
-  "attempted": "**What:** Blog page with embedded comparison video states the two platforms have more similarities than differences.\n**Verbatim snippet (unverified):** \"Gumroad vs Payhip quick comparison. Both platforms offer you the ability to sell digital products as well as memberships and come along with great pricing. I quickly noticed that there are more similarities than differences between these platforms. That's why I also decided to create a video to talk more about this topic.\"\n**Source:** https://imnights.com/payhip-vs-gumroad/\n**source_type:** blog\n**verification_status:** could_not_verify\n**Date:** Accessed April 2026; page undated\n**Notes:** Text appeared in search results but page was not directly fetched. Source_type is uncertain (blog text vs. video transcript); the page references an embedded YouTube video alongside the written comparison. Defaulted to Part 4 due to ambiguous source_type and lack of direct fetch.",
-  "why_failed": "",
+  "attempted": "https://imnights.com/payhip-vs-gumroad/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://imnights.com/payhip-vs-gumroad/"
-  ]
+  ],
+  "what": "Blog page with embedded comparison video states the two platforms have more similarities than differences.",
+  "source": "https://imnights.com/payhip-vs-gumroad/",
+  "source_type": "blog",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Text appeared in search results but page was not directly fetched. Source_type is uncertain (blog text vs. video transcript); the page references an embedded YouTube video alongside the written comparison. Defaulted to Part 4 due to ambiguous source_type and lack of direct fetch.",
+  "extra_fields": {
+    "verbatim_snippet_unverified": "\"Gumroad vs Payhip quick comparison. Both platforms offer you the ability to sell digital products as well as memberships and come along with great pricing. I quickly noticed that there are more similarities than differences between these platforms. That's why I also decided to create a video to talk more about this topic.\""
+  }
 }

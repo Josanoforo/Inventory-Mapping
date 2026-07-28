@@ -3,7 +3,13 @@
   "source_tool": "deep_search",
   "item_id": "F-X11",
   "seller_or_subject": "SimilarWeb / Semrush — Hotmart traffic and audience data",
-  "attempted": "**Subject:** Third-party traffic analytics for hotmart.com and pay.hotmart.com.\n**Verbatim snippet:** n/a — could not verify (direct fetch of similarweb.com/website/hotmart.com/ and semrush.com/website/hotmart.com/overview/ both returned PERMISSIONS_ERROR)\n**Notes:** Analytics subagent reported the following data points, but direct page fetch could not be confirmed:\n- 36.88M visits to hotmart.com in Feb 2026, avg session 12:32 (Semrush)\n- 65–66% direct traffic, 16% organic search (Semrush/SimilarWeb)\n- 38.23% bounce rate, 6.6 pages/visit (Semrush, Nov 2025)\n- Audience 54.9% female, 45.1% male; largest age group 25–34 (SimilarWeb, Oct 2025)\n- pay.hotmart.com checkout: 14.1M visits, 39.88% bounce rate, avg 2:05 duration (SimilarWeb, Aug 2025)\n- Social traffic: YouTube #1, Instagram #2, WhatsApp #3 (SimilarWeb, Oct 2025)\n- 136,484 websites using Hotmart payment technology (SimilarWeb, Aug 2025)\nAll data obtained via subagent search; source URLs blocked on independent verification fetch. Data scope, measurement source, and period were reported by subagent for each point. Degraded to Part 4 per conservative verification rule.",
-  "why_failed": "",
-  "urls_mentioned": []
+  "attempted": "",
+  "why_failed": null,
+  "urls_mentioned": [],
+  "verbatim_snippet": "n/a — could not verify (direct fetch of similarweb.com/website/hotmart.com/ and semrush.com/website/hotmart.com/overview/ both returned PERMISSIONS_ERROR)",
+  "notes": "Analytics subagent reported the following data points, but direct page fetch could not be confirmed:\n- 36.88M visits to hotmart.com in Feb 2026, avg session 12:32 (Semrush)\n- 65–66% direct traffic, 16% organic search (Semrush/SimilarWeb)\n- 38.23% bounce rate, 6.6 pages/visit (Semrush, Nov 2025)\n- Audience 54.9% female, 45.1% male; largest age group 25–34 (SimilarWeb, Oct 2025)\n- pay.hotmart.com checkout: 14.1M visits, 39.88% bounce rate, avg 2:05 duration (SimilarWeb, Aug 2025)",
+  "extra_fields": {
+    "subject": "Third-party traffic analytics for hotmart.com and pay.hotmart.com.",
+    "social_traffic": "YouTube #1, Instagram #2, WhatsApp #3 (SimilarWeb, Oct 2025)\n- 136,484 websites using Hotmart payment technology (SimilarWeb, Aug 2025)\nAll data obtained via subagent search; source URLs blocked on independent verification fetch. Data scope, measurement source, and period were reported by subagent for each point. Degraded to Part 4 per conservative verification rule."
+  }
 }

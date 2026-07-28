@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X12",
   "seller_or_subject": "Medium attributed Twitter quotes — unverifiable secondary retelling",
-  "attempted": "**Finding ID:** F-X12\n**What:** Medium article attributes quote to \"Shalini Writes (Twitter)\": \"Payhip's checkout experience is smooth. I moved from Gumroad and actually saw a slight uptick in conversion!\"\n**Verbatim snippet:** \"'Payhip's checkout experience is smooth. I moved from Gumroad and actually saw a slight uptick in conversion!' — Shalini Writes (Twitter)\"\n**Source:** https://praveenax.medium.com/payhip-vs-gumroad-vs-instamojo-so-much-choice-332d20957d16\n**source_type:** blog\n**verification_status:** could_not_verify\n**Date:** 2025 (Medium article, undated precisely)\n**Notes:** Secondary retelling of attributed Twitter quote. Original tweet could not be found or verified on X/Twitter. The attributed speaker (\"Shalini Writes\") appears to be a SELLER voice (\"I moved from Gumroad\" and discusses \"conversion\" = seller metrics), not a buyer voice, even if the quote were verifiable. Per edge case rules: secondary retelling without primary source verification = Part 4. Also fails buyer-speaker test.",
-  "why_failed": "",
+  "attempted": "https://praveenax.medium.com/payhip-vs-gumroad-vs-instamojo-so-much-choice-332d20957d16",
+  "why_failed": null,
   "urls_mentioned": [
     "https://praveenax.medium.com/payhip-vs-gumroad-vs-instamojo-so-much-choice-332d20957d16"
-  ]
+  ],
+  "what": "Medium article attributes quote to \"Shalini Writes (Twitter)\": \"Payhip's checkout experience is smooth. I moved from Gumroad and actually saw a slight uptick in conversion!\"",
+  "verbatim_snippet": "\"'Payhip's checkout experience is smooth. I moved from Gumroad and actually saw a slight uptick in conversion!' — Shalini Writes (Twitter)\"",
+  "source": "https://praveenax.medium.com/payhip-vs-gumroad-vs-instamojo-so-much-choice-332d20957d16",
+  "source_type": "blog",
+  "verification_status": "could_not_verify",
+  "date": "2025 (Medium article, undated precisely)",
+  "notes": "Secondary retelling of attributed Twitter quote. Original tweet could not be found or verified on X/Twitter. The attributed speaker (\"Shalini Writes\") appears to be a SELLER voice (\"I moved from Gumroad\" and discusses \"conversion\" = seller metrics), not a buyer voice, even if the quote were verifiable. Per edge case rules: secondary retelling without primary source verification = Part 4. Also fails buyer-speaker test.",
+  "extra_fields": {
+    "finding_id": "F-X12"
+  }
 }

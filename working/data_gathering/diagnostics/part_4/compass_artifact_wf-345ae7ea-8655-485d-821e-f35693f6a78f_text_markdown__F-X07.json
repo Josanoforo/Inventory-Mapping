@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X07",
   "seller_or_subject": "Trustpilot — Tom R, no built-in newsletter subscribe",
-  "attempted": "(Mailchimp) but failed.",
-  "why_failed": "",
+  "attempted": "https://www.trustpilot.com/review/payhip.com",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.trustpilot.com/review/payhip.com"
-  ]
+  ],
+  "what": "Seller identifies missing built-in newsletter subscribe option. Must rely on third-party integrations. Tried Mailchimp integration but it \"broke.\"",
+  "verbatim_snippet": "\"it is not bad at all! The only issue they have is that there is no subscribe to newsletter option incorporated. you have to rely on some third party integration. I tried mailchimp but they just broke...\"",
+  "source": "https://www.trustpilot.com/review/payhip.com",
+  "source_type": "[none — Trustpilot seller review; no matching value in shard's allowed source_type list]",
+  "verification_status": "could_not_verify",
+  "date": "November 25, 2025",
+  "notes": "Trustpilot seller review; routed to Part 4 per source_type taxonomy mismatch. 4-star review. Snippet truncated. Payhip replied to the review. Workaround attempted (Mailchimp) but failed."
 }

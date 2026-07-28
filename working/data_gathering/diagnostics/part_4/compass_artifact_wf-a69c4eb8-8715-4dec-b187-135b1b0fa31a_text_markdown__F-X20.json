@@ -3,9 +3,16 @@
   "source_tool": "deep_search",
   "item_id": "F-X20",
   "seller_or_subject": "workfromyourlaptop.com — Reddit quotes from Patreon creators",
-  "attempted": "- Subject: Blog post aggregating Reddit creator quotes (u/braintree56: ~$300/month from 55 patrons with 2K YouTube subscribers; u/cohanson: Patreon enabled transition from 9-5 to full-time; u/JamieKent1: \"happily give up 8%\").\n- Source: https://workfromyourlaptop.com/how-to-make-money-on-patreon/\n- source_type: blog (secondary aggregation)\n- Date: Accessed April 2026; page undated\n- Notes: Edge case 2. Original Reddit threads linked but predate April 2025 window (post IDs indicate May 2023, Feb/Mar 2024, May 2024). Both the article and the original Reddit posts appear outside the target window.",
-  "why_failed": "",
+  "attempted": "https://workfromyourlaptop.com/how-to-make-money-on-patreon/",
+  "why_failed": null,
   "urls_mentioned": [
     "https://workfromyourlaptop.com/how-to-make-money-on-patreon/"
-  ]
+  ],
+  "source": "https://workfromyourlaptop.com/how-to-make-money-on-patreon/",
+  "source_type": "blog (secondary aggregation)",
+  "date": "Accessed April 2026; page undated",
+  "notes": "Edge case 2. Original Reddit threads linked but predate April 2025 window (post IDs indicate May 2023, Feb/Mar 2024, May 2024). Both the article and the original Reddit posts appear outside the target window.",
+  "extra_fields": {
+    "subject": "Blog post aggregating Reddit creator quotes (u/braintree56: ~$300/month from 55 patrons with 2K YouTube subscribers; u/cohanson: Patreon enabled transition from 9-5 to full-time; u/JamieKent1: \"happily give up 8%\")."
+  }
 }

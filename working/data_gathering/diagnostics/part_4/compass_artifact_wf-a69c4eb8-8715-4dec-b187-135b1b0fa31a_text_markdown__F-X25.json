@@ -3,9 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X25",
   "seller_or_subject": "Lindsay Buroker (author) — adapting tier pricing for forced subscription billing",
-  "attempted": "- Subject: Sci-fi/fantasy author explains restructuring Patreon tiers for forced per-creation-to-subscription billing transition. Previously charged per book release (~6-8/year). Plans to lower tier prices ($1, $3 down from $5, $5 down from $10, $12-13 down from $25) to approximate equivalent cost under monthly billing.\n- Source: https://www.patreon.com/posts/update-on-my-in-119294145\n- source_type: blog (Patreon creator post)\n- verification_status: blocked_url_index_verified (403; snippet from search index)\n- Date: Early 2025; exact month unclear from snippet. Title: \"Update on My Patreon in 2025.\" Possibly pre-April 2025.\n- Notes: Date cannot be fixed within the April 2025 window. Conservatively placed in Part 4. Demonstrates concrete tier repricing workaround for billing model transition.\n\n---\n\n### Source_type ambiguity / not clearly seller experience",
-  "why_failed": "",
+  "attempted": "https://www.patreon.com/posts/update-on-my-in-119294145",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.patreon.com/posts/update-on-my-in-119294145"
-  ]
+  ],
+  "source": "https://www.patreon.com/posts/update-on-my-in-119294145",
+  "source_type": "blog (Patreon creator post)",
+  "verification_status": "blocked_url_index_verified (403; snippet from search index)",
+  "date": "Early 2025; exact month unclear from snippet. Title: \"Update on My Patreon in 2025.\" Possibly pre-April 2025.",
+  "notes": "Date cannot be fixed within the April 2025 window. Conservatively placed in Part 4. Demonstrates concrete tier repricing workaround for billing model transition.\n\n---\n\n### Source_type ambiguity / not clearly seller experience",
+  "extra_fields": {
+    "subject": "Sci-fi/fantasy author explains restructuring Patreon tiers for forced per-creation-to-subscription billing transition. Previously charged per book release (~6-8/year). Plans to lower tier prices ($1, $3 down from $5, $5 down from $10, $12-13 down from $25) to approximate equivalent cost under monthly billing."
+  }
 }

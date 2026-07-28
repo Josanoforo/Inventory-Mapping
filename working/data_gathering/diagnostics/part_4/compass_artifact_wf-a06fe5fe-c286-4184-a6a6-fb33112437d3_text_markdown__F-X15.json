@@ -3,9 +3,19 @@
   "source_tool": "deep_search",
   "item_id": "F-X15",
   "seller_or_subject": "Payhip custom checkout questions documentation — outside time window",
-  "attempted": "**Finding ID:** F-X15\n**What:** Payhip collects \"the bare minimum information from your customers during the checkout process (for digital products, that's the email address only).\" States this is \"great for conversion - the less hurdles customers face during checkout, the better for your conversion rate.\" Warns \"The more fields that customers are forced to fill out, the more likely it is that they'll drop out and not complete their purchase.\"\n**Verbatim snippet:** \"We collect the bare minimum information from your customers during the checkout process (for digital products, that's the email address only). This is great for conversion - the less hurdles customers face during checkout, the better for your conversion rate. [...] Most sellers do not need to ask their customers additional questions during checkout. The more fields that customers are forced to fill out, the more likely it is that they'll drop out and not complete their purchase.\"\n**Source:** https://help.payhip.com/article/128-custom-checkout-questions\n**source_type:** platform_doc\n**verification_status:** direct_verified\n**Date:** Updated January 15, 2022\n**Notes:** Platform documentation; content is current and page is live, but last updated January 2022, outside the April 2025 — April 2026 time window. Contains Payhip's stated design philosophy about buyer checkout friction. Five custom question types available: Short Text, Multiple Choice, Yes/No, Dropdown, Legal. Name collection available via separate checkbox (not a custom question). [...] marks indicate non-contiguous excerpts within the same article.",
-  "why_failed": "",
+  "attempted": "https://help.payhip.com/article/128-custom-checkout-questions",
+  "why_failed": null,
   "urls_mentioned": [
     "https://help.payhip.com/article/128-custom-checkout-questions"
-  ]
+  ],
+  "what": "Payhip collects \"the bare minimum information from your customers during the checkout process (for digital products, that's the email address only).\" States this is \"great for conversion - the less hurdles customers face during checkout, the better for your conversion rate.\" Warns \"The more fields that customers are forced to fill out, the more likely it is that they'll drop out and not complete their purchase.\"",
+  "verbatim_snippet": "\"We collect the bare minimum information from your customers during the checkout process (for digital products, that's the email address only). This is great for conversion - the less hurdles customers face during checkout, the better for your conversion rate. [...] Most sellers do not need to ask their customers additional questions during checkout. The more fields that customers are forced to fill out, the more likely it is that they'll drop out and not complete their purchase.\"",
+  "source": "https://help.payhip.com/article/128-custom-checkout-questions",
+  "source_type": "platform_doc",
+  "verification_status": "direct_verified",
+  "date": "Updated January 15, 2022",
+  "notes": "Platform documentation; content is current and page is live, but last updated January 2022, outside the April 2025 — April 2026 time window. Contains Payhip's stated design philosophy about buyer checkout friction. Five custom question types available: Short Text, Multiple Choice, Yes/No, Dropdown, Legal. Name collection available via separate checkbox (not a custom question). [...] marks indicate non-contiguous excerpts within the same article.",
+  "extra_fields": {
+    "finding_id": "F-X15"
+  }
 }

@@ -3,10 +3,17 @@
   "source_tool": "deep_search",
   "item_id": "F-X01",
   "seller_or_subject": "Patreon /explore main page — blocked",
-  "attempted": ", returned 403)\n\n**source_type:** search_results_page\n\n**verification_status:** could_not_verify\n\n**Date:** Accessed April 14, 2026.\n\n**Notes:** The page is entirely JavaScript-rendered (client-side SPA). Server-side HTML contains only skeleton elements: \"Topic placeholder\" (repeated), \"Dummy creator name,\" \"This is a dummy creator description,\" \"Loading content.\" No actual category names, creator names, tier prices, or counts are present in the server-rendered HTML visible to search engine crawlers. All 7 primary explore URLs and all 10 secondary category explore URLs returned identical 403 errors.",
-  "why_failed": "",
+  "attempted": "https://www.patreon.com/explore (direct fetch attempted, returned 403)",
+  "why_failed": null,
   "urls_mentioned": [
     "https://www.patreon.com/explore",
     "https://www.patreon.com/explore"
-  ]
+  ],
+  "what": "Patreon's main explore page (https://www.patreon.com/explore) returned HTTP 403 on direct fetch. The server-side HTML visible in search engine index contains only skeleton placeholder content.",
+  "verbatim_snippet": "n/a — access failure finding. Search engine index of the URL shows: \"Explore topics · Topic placeholder · Topic placeholder · Topic placeholder · Dummy creator name · This is a dummy creator description · Loading content\"",
+  "source": "https://www.patreon.com/explore (direct fetch attempted, returned 403)",
+  "source_type": "search_results_page",
+  "verification_status": "could_not_verify",
+  "date": "Accessed April 14, 2026.",
+  "notes": "The page is entirely JavaScript-rendered (client-side SPA). Server-side HTML contains only skeleton elements: \"Topic placeholder\" (repeated), \"Dummy creator name,\" \"This is a dummy creator description,\" \"Loading content.\" No actual category names, creator names, tier prices, or counts are present in the server-rendered HTML visible to search engine crawlers. All 7 primary explore URLs and all 10 secondary category explore URLs returned identical 403 errors."
 }
