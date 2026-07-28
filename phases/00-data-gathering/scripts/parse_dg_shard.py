@@ -293,14 +293,22 @@ def parse_part4(section_text: str, shard_id: str, source_tool: str) -> list[dict
 
         extra = parsed.get("extra_fields", {})
 
+        # Legacy sub-formats: "Attempted:" (BUG-S23-02 format 2) and
+        # "Searched for:" / "Where searched:" (format 3, absence findings).
         attempted = parsed.get("source", "") or extra.get("attempted", "")
+        if not attempted:
+            searched_for = extra.get("searched_for", "")
+            where_searched = extra.get("where_searched", "")
+            parts = [p for p in (searched_for, where_searched) if p]
+            attempted = " | ".join(parts)
         # The contract puts "Searches: ...; Locations attempted: ..." on the
         # Source line. If that line wrapped, _parse_finding_block split it into
         # a separate field; re-join so `attempted` is not silently truncated.
         if "locations_attempted" in extra:
             attempted = f"{attempted} Locations attempted: {extra['locations_attempted']}".strip()
 
-        why_failed = extra.get("why_failed") or extra.get("reason") or None
+        why_failed = (extra.get("why_failed") or extra.get("reason")
+                      or extra.get("result") or None)
 
         if not attempted:
             _warn(
