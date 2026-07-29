@@ -13,7 +13,29 @@
     "observation": { "type": "string", "minLength": 1 },
     "source": { "type": "string" },
     "date": { "type": "string" },
-    "source_type": { "type": "string" },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "platform_doc",
+        "help_center",
+        "pricing_page",
+        "policy_page",
+        "blog",
+        "article",
+        "report",
+        "news",
+        "reddit",
+        "seller_forum",
+        "buyer_review",
+        "product_listing",
+        "interview",
+        "video_transcript",
+        "pdf",
+        "database_profile",
+        "search_results_page",
+        "unknown"
+      ]
+    },
     "domain": {
       "type": "string",
       "enum": ["market", "platform", "seller", "buyer", "product", "competition", "not_specified"]

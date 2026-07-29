@@ -4,7 +4,7 @@
 
 Transform Signal Card skeletons (produced by `phases/02-signal-extraction/scripts/signal_prepare.py`) into complete, validated Signal Cards by reading the extraction context, formulating an observational `signal_text`, and filling the 16 judgment fields following the Signal Extraction contract. The mechanical fields (`signal_id`, `source_record_ids`, `source_ids`, `round`, `traceability_pointers`) are already populated by stage 1 and must not be modified unless splitting produces additional cards.
 
-This module is executed by the `extract-signals` skill.
+This module is executed by the `p2-extract-signals` skill.
 
 ## Position in the pipeline
 
@@ -135,14 +135,20 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 3. **`actor_level`** — Identifies **who speaks or acts** in the observation — the entity that is the **source of the claim**, not who is affected by it. A help_center article about seller fees has `actor_level = platform` (Gumroad is speaking), not `seller` (even though sellers are affected). A seller blog post about their own earnings has `actor_level = seller` (the seller is speaking).
 
-   Assignment rules by source type:
+   Inherit from `_extraction_context.actor_level` unmodified. This is the default outcome for every card.
+
+   The source-type table below applies only when one of two conditions holds: the inherited value is `unknown`, or the signal_text formulation reveals that the inherited value was imprecise for this specific claim. In either case, apply the table and record the reason in `normalization_notes`. Do not apply the table as a systematic override — it is a fallback for these two conditions, not a rule that runs on every card.
+
+   Assignment rules by source type (applies only under the conditions above):
    - `help_center`, `pricing_page`, `platform_doc`, `policy_page` → always `platform`
    - `blog`, `seller_forum`, `reddit` where the author is a seller → `seller`
    - `blog`, `reddit` where the author is a buyer → `buyer`
    - `search_results_page`, `category_page` (platform-generated content) → `marketplace`
    - Commentary or analysis with no first-person actor → `source`
 
-   Inherit from `_extraction_context.actor_level` as a starting point, but override whenever the source type rule above applies. Never set `actor_level` based on who is *affected* by the observation.
+   Never set `actor_level` based on who is *affected* by the observation.
+
+   **Inherited value outside the schema enum.** If `_extraction_context.actor_level` carries a value that is not in `signal_card.schema.json`'s `actor_level` enum (Phase 1 has produced values such as `third_party_observer`, `creator`, and `third_party` that are not in the vocabulary or in any schema), do not map, correct, or guess a replacement value. Register `contract_case_uncovered` in the manifest with the invalid value and the `extraction_id` it came from, and route the card to `signal_gpt_recovery/`. This is a contract gap, not a schema validation failure — never register `schema_validation_failed` for this case. Resolving the value is the operator's decision and requires opening the source; the skill's job is to surface it, not decide it.
 
 4. **`platforms`** — Inherit from `_extraction_context.platforms`. Only platforms explicitly named in the local snippet; never infer.
 
@@ -200,6 +206,7 @@ After all checks:
 
 - If validation passes: write to `working/signal_extraction/cards/<signal_id>.json`. Destination is `cards`.
 - If validation fails because a required judgment field is null: determine which field(s). If one, register `required_field_unfillable`; if two or more, register `multiple_required_fields_unfillable`. Route to `signal_gpt_recovery/`.
+- If validation fails because `actor_level` carries a value inherited from Phase 1 that is outside the schema's enum: do not register `schema_validation_failed`. This case was already registered as `contract_case_uncovered` in step 4.4 (field 3) with the invalid value and `extraction_id`. Route to `signal_gpt_recovery/` as usual.
 - If validation fails for any other schema reason: register `schema_validation_failed` with the specific error. Route to `signal_gpt_recovery/`.
 
 **4.8 Write to destination.**
@@ -308,7 +315,7 @@ On startup:
 
 ## Skill that executes this module
 
-`.claude/skills/extract-signals/SKILL.md`
+`.claude/skills/p2-extract-signals/SKILL.md`
 
 ---
 
