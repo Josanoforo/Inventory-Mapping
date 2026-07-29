@@ -1,0 +1,1407 @@
+{
+  "extraction_records": {
+    "total": 1178,
+    "load_errors": [],
+    "fields": [
+      {
+        "field": "extraction_id",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_packet_id",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_id",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_type",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "article",
+          "blog",
+          "buyer_review",
+          "database_profile",
+          "help_center",
+          "interview",
+          "news",
+          "pdf",
+          "platform_doc",
+          "policy_page",
+          "pricing_page",
+          "product_listing",
+          "reddit",
+          "report",
+          "search_results_page",
+          "seller_forum",
+          "unknown",
+          "video_transcript"
+        ],
+        "vocab_enum": [
+          "article",
+          "blog",
+          "buyer_review",
+          "database_profile",
+          "help_center",
+          "interview",
+          "news",
+          "pdf",
+          "platform_doc",
+          "policy_page",
+          "pricing_page",
+          "product_listing",
+          "reddit",
+          "report",
+          "search_results_page",
+          "seller_forum",
+          "unknown",
+          "video_transcript"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "source_title",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_ref",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_date_if_available",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "author_or_actor_if_available",
+        "total": 1178,
+        "populated": 0,
+        "vacios": 1178,
+        "vacios_breakdown": {
+          "null": 1178,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "snippet_primary",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "snippet_context_before",
+        "total": 1178,
+        "populated": 0,
+        "vacios": 1178,
+        "vacios_breakdown": {
+          "null": 1178,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "snippet_context_after",
+        "total": 1178,
+        "populated": 0,
+        "vacios": 1178,
+        "vacios_breakdown": {
+          "null": 1178,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "claim_type",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 90,
+        "schema_enum": [
+          "anecdotal_report",
+          "availability_statement",
+          "comparative_commentary",
+          "derived_calculation",
+          "explicit_claim",
+          "instructional_statement",
+          "policy_statement",
+          "pricing_statement",
+          "review_statement",
+          "statistical_data",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "anecdotal_report",
+          "availability_statement",
+          "comparative_commentary",
+          "derived_calculation",
+          "explicit_claim",
+          "instructional_statement",
+          "policy_statement",
+          "pricing_statement",
+          "review_statement",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [
+            "statistical_data"
+          ],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "subject_exact",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "actor_level",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 15,
+        "out_of_vocab_enum": 15,
+        "schema_enum": [
+          "buyer",
+          "marketplace",
+          "mixed",
+          "platform",
+          "product",
+          "seller",
+          "source",
+          "third_party",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "buyer",
+          "marketplace",
+          "mixed",
+          "platform",
+          "product",
+          "seller",
+          "source",
+          "third_party",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "platforms",
+        "total": 1178,
+        "populated": 1175,
+        "vacios": 3,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 3,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "product_type_if_explicit",
+        "total": 1178,
+        "populated": 536,
+        "vacios": 642,
+        "vacios_breakdown": {
+          "null": 642,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 207,
+        "out_of_vocab_enum": 207,
+        "schema_enum": [
+          "bundle",
+          "csv_database",
+          "design_asset",
+          "digital_planner",
+          "ebook",
+          "notion_template",
+          "pattern",
+          "prompt",
+          "software",
+          "spreadsheet",
+          "stock_photo",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "bundle",
+          "csv_database",
+          "design_asset",
+          "digital_planner",
+          "ebook",
+          "notion_template",
+          "pattern",
+          "prompt",
+          "software",
+          "spreadsheet",
+          "stock_photo",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "metric_type",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 186,
+        "out_of_vocab_enum": 186,
+        "schema_enum": [
+          "activation_requirement",
+          "active_buyers",
+          "conversion_rate",
+          "discoverability_claim",
+          "fee_rate",
+          "first_sale",
+          "monthly_visitors",
+          "payment_method_availability",
+          "payout",
+          "payout_method_availability",
+          "price",
+          "profit",
+          "refund_policy",
+          "revenue",
+          "review_count",
+          "review_requirement",
+          "sales_count",
+          "search_discovery",
+          "time_to_first_sale",
+          "traffic_volume",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "activation_requirement",
+          "active_buyers",
+          "conversion_rate",
+          "discoverability_claim",
+          "fee_rate",
+          "first_sale",
+          "monthly_visitors",
+          "payment_method_availability",
+          "payout",
+          "payout_method_availability",
+          "price",
+          "profit",
+          "refund_policy",
+          "revenue",
+          "review_count",
+          "review_requirement",
+          "sales_count",
+          "search_discovery",
+          "time_to_first_sale",
+          "traffic_volume",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "metric_value_raw",
+        "total": 1178,
+        "populated": 473,
+        "vacios": 705,
+        "vacios_breakdown": {
+          "null": 705,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "metric_unit",
+        "total": 1178,
+        "populated": 473,
+        "vacios": 705,
+        "vacios_breakdown": {
+          "null": 705,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "time_scope_raw",
+        "total": 1178,
+        "populated": 820,
+        "vacios": 358,
+        "vacios_breakdown": {
+          "null": 358,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "time_scope_normalized_if_safe",
+        "total": 1178,
+        "populated": 402,
+        "vacios": 776,
+        "vacios_breakdown": {
+          "null": 776,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "geography_if_explicit",
+        "total": 1178,
+        "populated": 314,
+        "vacios": 864,
+        "vacios_breakdown": {
+          "null": 864,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "evidence_role",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "anecdotal_example",
+          "comparative_commentary",
+          "database_fact",
+          "derived_calculation",
+          "direct_claim",
+          "downstream_consequence",
+          "local_context",
+          "observed_platform_state",
+          "official_policy",
+          "reported_event",
+          "seller_self_claim",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "anecdotal_example",
+          "comparative_commentary",
+          "database_fact",
+          "derived_calculation",
+          "direct_claim",
+          "downstream_consequence",
+          "local_context",
+          "observed_platform_state",
+          "official_policy",
+          "reported_event",
+          "seller_self_claim",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "local_qualifiers",
+        "total": 1178,
+        "populated": 1171,
+        "vacios": 7,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 7,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "uncertainties",
+        "total": 1178,
+        "populated": 821,
+        "vacios": 357,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 357,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 155,
+        "schema_enum": [
+          "actor_level_unclear",
+          "anecdotal_single_source",
+          "author_conflict_of_interest_possible",
+          "checkout_vs_payout_ambiguity",
+          "context_insufficient",
+          "current_vs_historical_ambiguity",
+          "geography_unclear",
+          "methodology_unclear",
+          "metric_unit_unclear",
+          "net_vs_gross_ambiguity",
+          "none",
+          "platform_scope_unclear",
+          "product_type_unclear",
+          "source_date_unclear",
+          "subject_ambiguity",
+          "time_scope_unclear"
+        ],
+        "vocab_enum": [
+          "actor_level_unclear",
+          "checkout_vs_payout_ambiguity",
+          "context_insufficient",
+          "current_vs_historical_ambiguity",
+          "geography_unclear",
+          "metric_type_unclear",
+          "net_vs_gross_ambiguity",
+          "none",
+          "product_type_unclear",
+          "snippet_needs_reopen",
+          "source_date_unclear",
+          "source_type_unclear",
+          "subject_ambiguity",
+          "time_scope_unclear"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [
+            "anecdotal_single_source",
+            "author_conflict_of_interest_possible",
+            "methodology_unclear",
+            "metric_unit_unclear",
+            "platform_scope_unclear"
+          ],
+          "vocab_only": [
+            "metric_type_unclear",
+            "snippet_needs_reopen",
+            "source_type_unclear"
+          ]
+        }
+      },
+      {
+        "field": "parser_notes",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "traceability_pointer",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "traceability_pointer.pointer_type",
+        "total": 1178,
+        "populated": 1178,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "anchor",
+          "document_section",
+          "file_path",
+          "internal_ref",
+          "line_range",
+          "page_reference",
+          "url"
+        ],
+        "vocab_enum": [
+          "anchor",
+          "document_section",
+          "file_path",
+          "internal_ref",
+          "line_range",
+          "page_reference",
+          "url"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        },
+        "unit": "pointer instances (not records)"
+      }
+    ]
+  },
+  "signal_cards": {
+    "total": 29,
+    "load_errors": [],
+    "fields": [
+      {
+        "field": "signal_id",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_record_ids",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "source_ids",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "round",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "signal_text",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "subject_exact",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "actor_level",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "buyer",
+          "marketplace",
+          "mixed",
+          "platform",
+          "product",
+          "seller",
+          "source",
+          "third_party",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "buyer",
+          "marketplace",
+          "mixed",
+          "platform",
+          "product",
+          "seller",
+          "source",
+          "third_party",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "platforms",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "product_type_if_explicit",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "bundle",
+          "csv_database",
+          "design_asset",
+          "digital_planner",
+          "ebook",
+          "notion_template",
+          "pattern",
+          "prompt",
+          "software",
+          "spreadsheet",
+          "stock_photo",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "bundle",
+          "csv_database",
+          "design_asset",
+          "digital_planner",
+          "ebook",
+          "notion_template",
+          "pattern",
+          "prompt",
+          "software",
+          "spreadsheet",
+          "stock_photo",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "metric_type",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "activation_requirement",
+          "active_buyers",
+          "conversion_rate",
+          "discoverability_claim",
+          "fee_rate",
+          "first_sale",
+          "monthly_visitors",
+          "payment_method_availability",
+          "payout",
+          "payout_method_availability",
+          "price",
+          "profit",
+          "refund_policy",
+          "revenue",
+          "review_count",
+          "review_requirement",
+          "sales_count",
+          "search_discovery",
+          "time_to_first_sale",
+          "traffic_volume",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "activation_requirement",
+          "active_buyers",
+          "conversion_rate",
+          "discoverability_claim",
+          "fee_rate",
+          "first_sale",
+          "monthly_visitors",
+          "payment_method_availability",
+          "payout",
+          "payout_method_availability",
+          "price",
+          "profit",
+          "refund_policy",
+          "revenue",
+          "review_count",
+          "review_requirement",
+          "sales_count",
+          "search_discovery",
+          "time_to_first_sale",
+          "traffic_volume",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "metric_value_raw",
+        "total": 29,
+        "populated": 16,
+        "vacios": 13,
+        "vacios_breakdown": {
+          "null": 13,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "metric_unit",
+        "total": 29,
+        "populated": 17,
+        "vacios": 12,
+        "vacios_breakdown": {
+          "null": 12,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "time_scope_raw",
+        "total": 29,
+        "populated": 7,
+        "vacios": 22,
+        "vacios_breakdown": {
+          "null": 22,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "time_scope_normalized_if_safe",
+        "total": 29,
+        "populated": 4,
+        "vacios": 25,
+        "vacios_breakdown": {
+          "null": 25,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "geography_if_explicit",
+        "total": 29,
+        "populated": 5,
+        "vacios": 24,
+        "vacios_breakdown": {
+          "null": 24,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "evidence_role",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "anecdotal_example",
+          "comparative_commentary",
+          "database_fact",
+          "derived_calculation",
+          "direct_claim",
+          "downstream_consequence",
+          "local_context",
+          "observed_platform_state",
+          "official_policy",
+          "reported_event",
+          "seller_self_claim",
+          "unknown"
+        ],
+        "vocab_enum": [
+          "anecdotal_example",
+          "comparative_commentary",
+          "database_fact",
+          "derived_calculation",
+          "direct_claim",
+          "downstream_consequence",
+          "local_context",
+          "observed_platform_state",
+          "official_policy",
+          "reported_event",
+          "seller_self_claim",
+          "unknown"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "local_qualifiers",
+        "total": 29,
+        "populated": 25,
+        "vacios": 4,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 4,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "uncertainties",
+        "total": 29,
+        "populated": 27,
+        "vacios": 2,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 2,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "actor_level_unclear",
+          "checkout_vs_payout_ambiguity",
+          "context_insufficient",
+          "current_vs_historical_ambiguity",
+          "geography_unclear",
+          "metric_unit_unclear",
+          "net_vs_gross_ambiguity",
+          "none",
+          "platform_scope_unclear",
+          "product_type_unclear",
+          "source_date_unclear",
+          "subject_ambiguity",
+          "time_scope_unclear"
+        ],
+        "vocab_enum": [
+          "actor_level_unclear",
+          "checkout_vs_payout_ambiguity",
+          "context_insufficient",
+          "current_vs_historical_ambiguity",
+          "geography_unclear",
+          "metric_unit_unclear",
+          "net_vs_gross_ambiguity",
+          "none",
+          "platform_scope_unclear",
+          "product_type_unclear",
+          "source_date_unclear",
+          "subject_ambiguity",
+          "time_scope_unclear"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        }
+      },
+      {
+        "field": "normalization_notes",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "extraction_notes",
+        "total": 29,
+        "populated": 0,
+        "vacios": 29,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 29,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "traceability_pointers",
+        "total": 29,
+        "populated": 29,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": false,
+        "out_of_schema_enum": null,
+        "out_of_vocab_enum": null,
+        "schema_enum": null,
+        "vocab_enum": null,
+        "schema_vocab_divergence": null
+      },
+      {
+        "field": "traceability_pointers[].pointer_type",
+        "total": 58,
+        "populated": 58,
+        "vacios": 0,
+        "vacios_breakdown": {
+          "null": 0,
+          "missing_key": 0,
+          "empty_array": 0,
+          "empty_string": 0,
+          "empty_object": 0
+        },
+        "has_enum": true,
+        "out_of_schema_enum": 0,
+        "out_of_vocab_enum": 0,
+        "schema_enum": [
+          "anchor",
+          "document_section",
+          "file_path",
+          "internal_ref",
+          "line_range",
+          "page_reference",
+          "source_record_ref",
+          "url"
+        ],
+        "vocab_enum": [
+          "anchor",
+          "document_section",
+          "file_path",
+          "internal_ref",
+          "line_range",
+          "page_reference",
+          "source_record_ref",
+          "url"
+        ],
+        "schema_vocab_divergence": {
+          "schema_only": [],
+          "vocab_only": []
+        },
+        "unit": "pointer instances (not records)"
+      }
+    ]
+  }
+}
