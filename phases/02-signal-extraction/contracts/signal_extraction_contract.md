@@ -158,7 +158,13 @@ Ejemplos:
 - `help_center`, `pricing_page`, `platform_doc`, `policy_page` → siempre `platform`
 - `blog`, `seller_forum`, `reddit` de un vendedor hablando en primera persona → `seller`
 - `search_results_page`, `category_page` (contenido generado por la plataforma) → `marketplace`
-- Comentario o análisis sin actor en primera persona → `source`
+- `product_listing`, o contenido promocional de un proveedor externo hablando en primera
+  persona sobre su propio producto o servicio → `third_party`. Un `third_party` es un
+  tercero que vende o promociona su propio producto o servicio — no es un vendedor del
+  marketplace en cuestión.
+- Comentario o análisis sin actor en primera persona → `source`. `source` queda reservado
+  para comentario o análisis sin actor en primera persona; no se usa para un tercero que
+  habla en primera persona vendiendo su propio producto (eso es `third_party`).
 
 Una Signal Card no debe mezclar niveles de análisis sin declararlo. Si la señal involucra más de un nivel, decláralo explícitamente usando `mixed` solo si el source genuinamente involucra múltiples actores hablando (no cuando una fuente habla sobre múltiples actores).
 

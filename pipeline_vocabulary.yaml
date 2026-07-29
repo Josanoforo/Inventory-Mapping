@@ -24,6 +24,7 @@ actor:
     - marketplace
     - platform
     - source
+    - third_party
     - mixed
     - unknown        # Phase 1-2 only; Phase 3 does not use unknown
   assignment_rule: |
@@ -32,11 +33,14 @@ actor:
     blog / seller_forum / reddit (author = seller) → seller
     blog / reddit (author = buyer) → buyer
     search_results_page, category_page → marketplace
+    product_listing, or promotional content from an external provider speaking in
+    first person about their own product or service → third_party
     commentary or analysis without first-person actor → source
     See: signal_extraction_contract §7 Principle 3
   notes:
     - "'platform' = official voice, explicit policy."
     - "'marketplace' = algorithmic output, no explicit commitment."
+    - "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
     - "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)."
     - "Collapsing actor without declaring it is a rework-level failure."
 
@@ -126,6 +130,8 @@ pointer_type:
     - anchor
     - internal_ref
     - source_record_ref  # Signal cards only
+  # vocab_check.py verification config:
+  optional: [source_record_ref]  # legitimately absent outside signal_card.schema.json
   notes:
     - "'source_record_ref' is used only in signal cards to reference extraction records."
 

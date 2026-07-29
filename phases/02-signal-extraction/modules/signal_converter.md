@@ -121,6 +121,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 - Do NOT split if: the claims share the same subject_exact and actor_level and can be expressed as one coherent observation, or if splitting would require introducing cross-source material.
   - Exception: observation + causal attribution by the speaker are always two distinct claims, even when they share subject_exact and actor_level. "What happened" and "why the speaker thinks it happened" are never one coherent observation.
 - If splitting, allocate additional `signal_id` values by incrementing `next_signal_id_counter` in the manifest before formulating each additional card. The first card retains the stage 1 `signal_id`. Register `split_performed` in issues for this skeleton. Update manifest counter immediately.
+- **No unexpressed factual claim.** If the snippet contains a second discrete factual affirmation — an additional data point, a comparative figure, a named case — that is not expressed in the card being produced, it must either be split into its own card or its omission explicitly recorded (in `normalization_notes` or `extraction_notes`, with the reason). No affirmation present in the snippet may be left both unexpressed and unregistered.
 
 **4.4 Formulate signal_text and fill judgment fields.** For each card to be produced from this skeleton (one unless splitting), formulate the observational signal_text and fill the 16 judgment fields in this order:
 
@@ -144,11 +145,17 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
    - `blog`, `seller_forum`, `reddit` where the author is a seller → `seller`
    - `blog`, `reddit` where the author is a buyer → `buyer`
    - `search_results_page`, `category_page` (platform-generated content) → `marketplace`
-   - Commentary or analysis with no first-person actor → `source`
+   - `product_listing`, or promotional content from an external provider speaking in
+     first person about its own product or service → `third_party`. `third_party` is a
+     third party selling or promoting its own product or service — never a seller of the
+     marketplace under study.
+   - Commentary or analysis with no first-person actor → `source`. `source` is reserved
+     for commentary or analysis with no first-person actor — not for a third party
+     speaking in first person to sell its own product (that is `third_party`).
 
    Never set `actor_level` based on who is *affected* by the observation.
 
-   **Inherited value outside the schema enum.** If `_extraction_context.actor_level` carries a value that is not in `signal_card.schema.json`'s `actor_level` enum (Phase 1 has produced values such as `third_party_observer`, `creator`, and `third_party` that are not in the vocabulary or in any schema), do not map, correct, or guess a replacement value. Register `contract_case_uncovered` in the manifest with the invalid value and the `extraction_id` it came from, and route the card to `signal_gpt_recovery/`. This is a contract gap, not a schema validation failure — never register `schema_validation_failed` for this case. Resolving the value is the operator's decision and requires opening the source; the skill's job is to surface it, not decide it.
+   **Inherited value outside the schema enum.** If `_extraction_context.actor_level` carries a value that is not in `signal_card.schema.json`'s `actor_level` enum (Phase 1 has produced values such as `third_party_observer` and `creator` that are not in the vocabulary or in any schema — `third_party` itself is now a valid value, see above), do not map, correct, or guess a replacement value. Register `contract_case_uncovered` in the manifest with the invalid value and the `extraction_id` it came from, and route the card to `signal_gpt_recovery/`. This is a contract gap, not a schema validation failure — never register `schema_validation_failed` for this case. Resolving the value is the operator's decision and requires opening the source; the skill's job is to surface it, not decide it.
 
 4. **`platforms`** — Inherit from `_extraction_context.platforms`. Only platforms explicitly named in the local snippet; never infer.
 
@@ -160,7 +167,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 8. **`metric_unit`** — Inherit from `_extraction_context.metric_unit`. Null if not present.
 
-9. **`time_scope_raw`** — Inherit from `_extraction_context.time_scope_raw`. Preserve original temporal wording. Null if absent.
+9. **`time_scope_raw`** — Inherit from `_extraction_context.time_scope_raw`. Preserve original temporal wording. Null if absent. `time_scope_raw` is verbatim from the snippet — do not append record metadata or access dates to it; those go in `normalization_notes`.
 
 10. **`time_scope_normalized_if_safe`** — Inherit from `_extraction_context.time_scope_normalized_if_safe`. Only if safely derivable without interpretation.
 
@@ -169,6 +176,8 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 12. **`evidence_role`** — Inherit from `_extraction_context.evidence_role`. If the signal formulation reveals a different role, adjust. Context must not become direct claim (contract §13, Rule 2).
 
 13. **`local_qualifiers`** — Inherit from `_extraction_context.local_qualifiers`. Never drop qualifiers that condition the claim. Preserve verbatim.
+
+    A qualifier is a condition that limits the scope of the claim — geographic scope, a threshold, a time window, a caveat. It is not source content. Full policy clauses, definitions, and entire sentences do not belong here: if they are part of the claim they belong in `signal_text`; if they are a separate claim they belong in another card.
 
 14. **`uncertainties`** — Inherit from `_extraction_context.uncertainties`. Add any new uncertainty codes revealed by the signal formulation. Values from the closed enum only.
 
