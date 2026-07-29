@@ -14,6 +14,9 @@ actor:
   # Canonical name: actor
   # Called "actor_level" in Phase 1-2 schemas (legacy — unification pending)
   # Called "actor" in Phase 3 schemas and card_index.jsonl
+  schema_field: [actor, actor_level]
+  optional:
+    - unknown  # Phase 3 schemas may omit unknown; Phase 1-2 schemas require it
   values:
     - buyer
     - seller
@@ -113,6 +116,7 @@ product_type_if_explicit:
     - unknown
 
 pointer_type:
+  match: subset
   values:
     - url
     - file_path
@@ -126,6 +130,7 @@ pointer_type:
     - "'source_record_ref' is used only in signal cards to reference extraction records."
 
 uncertainties:
+  match: subset
   # Core values shared across phases
   core:
     - subject_ambiguity
@@ -216,6 +221,9 @@ traceability_status:
 tension_type:
   phase: "03"
   # Called "type" in tension_candidate.schema.json
+  schema_field: type
+  in_schemas:
+    - "**/tension_candidate.schema.json"
   values:
     - contradicción
     - fricción
@@ -227,6 +235,9 @@ tension_type:
 tension_status:
   phase: "03"
   # Called "status" in tension_candidate.schema.json
+  schema_field: status
+  in_schemas:
+    - "**/tension_candidate.schema.json"
   values:
     - pending_review
     - needs_audit_before_classification
@@ -247,6 +258,9 @@ classification_risk:
 scan_routing:
   phase: "03"
   # Called "routing" in scan_artifact.schema.json
+  schema_field: routing
+  in_schemas:
+    - "**/scan_artifact.schema.json"
   values:
     - tension_candidate
     - rejected_grouping
@@ -281,6 +295,39 @@ domain:
 extraction_status:
   phase: "03"
   values: [extracted, ambiguous, not_extractable]
+
+# =============================================================================
+# CROSS-PHASE OPERATIONAL FIELDS
+# These describe validator/gate check results and manifest run state.
+# They are not part of the analytical vocabulary but are still closed enums.
+# =============================================================================
+
+check_status:
+  # Called "status" inside each checks.<check_name> entry (checkResult.$defs)
+  # in the Phase 1/2 validator and gate schemas.
+  schema_field: status
+  in_schemas:
+    - "**/*validat*.schema.json"
+    - "**/*gate*.schema.json"
+  values:
+    - pass
+    - flag
+    - fail
+    - not_applicable
+
+manifest_status:
+  # Called "status" in the stage 1 / stage 2 manifest schemas.
+  match: subset
+  schema_field: status
+  in_schemas:
+    - "**/*manifest.schema.json"
+  values:
+    - pending
+    - in_progress
+    - complete
+    - failed
+    - blocked_by_stage_1_incomplete
+    - partial
 
 # =============================================================================
 # MECHANICAL LANGUAGE RULES (apply to all phases)
