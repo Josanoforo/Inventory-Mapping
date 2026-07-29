@@ -53,6 +53,12 @@ Authority hierarchy
 `.claude/skills/*/SKILL.md` — executable routines. Follow their module or contract.
 If a skill contradicts its module, the module wins.
 If a module contradicts the canon, the canon wins.
+
+> `Blueprint_DSC.md` define la asignación humano/IA y la estructura de fases del pipeline.
+> Vive en project files, no en el repo. No se edita desde el repo ni desde sesiones de
+> ejecución de fase. Divergencias entre lo que el repo hace y lo que el Blueprint dice se
+> reportan al operador, no se resuelven aquí.
+
 Scope boundaries — read ONLY when asked
 `phases/` subfolders outside the active phase → irrelevant unless asked.
 `working/` → mutable state. Read for diagnostics, not for understanding the process.
