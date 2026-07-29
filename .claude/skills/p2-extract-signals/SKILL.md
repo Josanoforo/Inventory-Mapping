@@ -110,7 +110,7 @@ When a card is routed to `signal_gpt_recovery/`, write the recovery file in this
 
 At startup, read `working/signal_extraction/signal_converter_manifest.json`:
 
-- If `status == complete`: exit cleanly, do nothing.
+- If `status == complete`: exit cleanly, do nothing. If a new run is intended (e.g. stage 1 produced additional skeletons), archive this manifest first — copy it, unmodified, to `working/signal_extraction/signal_converter_manifest.<archived_at>.json` (`<archived_at>` = ISO 8601 UTC timestamp of the archive action, `:` replaced by `-`) — then initialize a fresh manifest as in the "manifest does not exist" case below. Never delete or overwrite a `complete` manifest without archiving it first.
 - If `status == in_progress`: read `processed_skeletons` (use `skeleton_signal_id` to identify processed entries) and restore `next_signal_id_counter`. Skip skeletons already in `processed_skeletons`. Resume from the next unprocessed skeleton with the saved counter.
 - If `status == blocked_by_stage_1_incomplete`: re-check `working/signal_extraction/signal_prepare_manifest.json`. If stage 1 is now `complete`, reset status to `in_progress` and proceed. Otherwise exit with message.
 - If `status == failed`: do not auto-resume. Exit with message asking operator to inspect.
