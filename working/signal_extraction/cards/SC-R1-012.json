@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-012",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon ranks Matt and Shane's Secret Podcast ('Creating Hot Casts') as Patreon's #1 creator by paid member count, with 127,986 paid members.",
+  "subject_exact": "Patreon rank 1 creator paid member count (Matt and Shane's Secret Podcast)",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "127,986",
+  "metric_unit": "paid members",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Patreon Rank 1",
+    "Updated daily"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/top-patreon-creators",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw set to null: the access date does not appear verbatim in this snippet (a layout-derived ranking statistic).",
+    "actor_level changed from inherited 'seller' to 'source': Graphtreon third-party ranking display, no first-person seller/platform voice."
+  ],
+  "extraction_notes": []
+}

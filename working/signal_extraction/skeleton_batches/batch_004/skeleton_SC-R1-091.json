@@ -1,0 +1,83 @@
+{
+  "signal_id": "SC-R1-091",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.threads.com/@patmarconettart/post/DPIDjgxgUUK/ (also reported at https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn)",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020",
+    "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020",
+    "source_type": "news",
+    "source_title": "Exclusive Cgma Might Be On The Verge Of Shutting Down Instructors Warn)",
+    "source_ref": "https://www.threads.com/@patmarconettart/post/DPIDjgxgUUK/ (also reported at https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn)",
+    "source_date_if_available": "Late September 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Sadly after 7+ years with #CGMA, all my classes will be canceled for the foreseeable future! The parent company '#Domestika' fired most the support staff, and have not paid instructors for last term! I'm looking into moving my class to another platform so stay tuned!\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "CGMA instructor class cancellation after 7+ years: Domestika fired most support staff and did not pay instructors for the last term",
+    "actor_level": [
+      "seller",
+      "marketplace"
+    ],
+    "platforms": [
+      "Domestika",
+      "CGMA"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "payout",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "7+ years; last term",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "after 7+ years with #CGMA",
+      "all my classes will be canceled for the foreseeable future",
+      "fired most the support staff",
+      "have not paid instructors for last term"
+    ],
+    "uncertainties": [
+      "time_scope_unclear"
+    ],
+    "parser_notes": [
+      "Instructor social post (Threads, late September 2025, also reported at 80.lv): states classes cancelled after 7+ years, Domestika fired most support staff, instructors unpaid for last term. 'Last term' is relative and not anchored to a calendar date."
+    ]
+  }
+}

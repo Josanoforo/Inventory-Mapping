@@ -1,0 +1,51 @@
+{
+  "signal_id": "SC-R1-1181",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon's podcast rankings page lists Chapo Trap House ('Creating Chapo Trap House Podcast') with 47,046 paid members and estimated monthly earnings of $199,298.",
+  "subject_exact": "Chapo Trap House podcast paid member count and estimated monthly earnings on Graphtreon's podcast rankings page",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$199,298 per month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "47,046 Paid Members",
+    "Updated daily"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/top-patreon-creators/podcasts",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009"
+    }
+  ],
+  "normalization_notes": [
+    "Split from the source snippet: distinct named creator (Chapo Trap House) with independent stats.",
+    "metric_value_raw set to the monthly revenue figure; paid-member count preserved as a qualifier for the same named creator.",
+    "time_scope_raw set to null: not verbatim in snippet.",
+    "actor_level set to 'source': Graphtreon third-party ranking display."
+  ],
+  "extraction_notes": []
+}

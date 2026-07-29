@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-622",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.patreon.com/posts/upcoming-change-139808918",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-010",
+    "source_type": "blog",
+    "source_title": "Upcoming Change 139808918",
+    "source_ref": "https://www.patreon.com/posts/upcoming-change-139808918",
+    "source_date_if_available": "Accessed April 2026; page undated. Post references upcoming November 2025 billing deadline, suggesting authorship between April and November 2025.",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"It appears that no Patreon 'creators' were consulted or notified of this (I was not, and none of the fellow creators that I know were either); rather it was presented to us by Patreon as a fait accompli\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Creator claims Patreon did not consult or notify creators before announcing the billing system change; describes it as presented as a fait accompli with no prior creator input",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated; references November 2025 billing deadline (April–November 2025 estimated)",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "creator states no prior consultation or notification from Patreon about billing change",
+      "billing migration described as presented as fait accompli",
+      "references November 2025 billing deadline context",
+      "single creator's perspective; no corroboration cited beyond informal creator network"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "patreon.com/posts (undated, ~April–November 2025). Creator describes Patreon's billing migration announcement as unilateral — no creator consultation or advance notice; presented as fait accompli. Single creator account; references November 2025 deadline."
+    ]
+  }
+}

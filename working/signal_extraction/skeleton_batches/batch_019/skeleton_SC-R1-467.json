@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-467",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_type": "unknown",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+    "source_date_if_available": "Accessed April 14, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Envato Elements used to be great value with truly unlimited AI generations included in the subscription. I paid for my plan (annual, no less) expecting that access to continue, as advertised when I signed up.Then, without warning or proper grandfathering for existing subscribers, they slashed it to just 10 generations per month on the standard/Core plan starting February 25, 2026. 10. That's basically nothing—especially since even simple actions like minor edits, upscaling, background removal, retries for bad outputs, or testing variations all count as separate generations.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Envato Elements annual subscriber reports unlimited AI generations reduced to 10 per month on Core plan effective February 25, 2026, without notice or grandfathering, with common actions each counting as separate generations",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "count",
+    "metric_value_raw": "10",
+    "metric_unit": "AI generations per month on Envato Elements standard/Core plan (effective February 25, 2026)",
+    "time_scope_raw": "annual subscription; policy change February 25, 2026",
+    "time_scope_normalized_if_safe": "2026-02-25",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "annual plan purchased expecting unlimited AI generations as advertised",
+      "slashed to 10 generations/month starting February 25, 2026",
+      "no warning or grandfathering for existing subscribers",
+      "standard/Core plan affected",
+      "minor edits, upscaling, background removal, retries each count as separate generation"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Trustpilot review (accessed April 14, 2026; individual review date unknown). Envato Elements annual subscriber: unlimited AI generations cut to 10/month on Core plan effective 2026-02-25, without warning or grandfathering; minor actions each count as separate generation."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-110",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://sellfy.com/blog/gumroad-vs-payhip",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011",
+    "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-011",
+    "source_type": "blog",
+    "source_title": "Gumroad Vs Payhip",
+    "source_ref": "https://sellfy.com/blog/gumroad-vs-payhip",
+    "source_date_if_available": "Jan 20, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"That being said, Payhip does have one key advantage over Gumroad: slightly lower fees. With Payhip, you'll have to pay a 5% transaction fee, whereas Gumroad charges a 10% fee on all sales.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "comparative_commentary",
+    "subject_exact": "Payhip 5% transaction fee vs Gumroad 10% fee on all sales: Payhip fee cited as key advantage",
+    "actor_level": "marketplace",
+    "platforms": [
+      "Payhip",
+      "Gumroad"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "fee_rate",
+    "metric_value_raw": "5",
+    "metric_unit": "percent (transaction fee, Payhip free plan)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "slightly lower fees",
+      "key advantage over Gumroad",
+      "on all sales"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Sellfy's Gumroad vs Payhip comparison (Jan 2025): cites Payhip 5% transaction fee vs Gumroad 10% on all sales. Sellfy is a direct competitor; fee figures align with publicly stated rates. metric_value_raw captures Payhip's 5%; Gumroad's 10% noted here."
+    ]
+  }
+}

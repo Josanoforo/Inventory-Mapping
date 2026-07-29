@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-589",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+    "source_type": "help_center",
+    "source_title": "How Payouts Work",
+    "source_ref": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+    "source_date_if_available": "Accessed April 2026; page undated in search index",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) – available for creators based in the U.S · Bank transfer (processed by Payoneer) – available to creators who reside outside of the U.S — please see full country eligibility list here\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Patreon help center states payout options by country: Stripe bank transfer for US-based creators; Payoneer bank transfer for non-US creators (subject to country eligibility list)",
+    "actor_level": "platform",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "United States (Stripe), non-US countries (Payoneer, with eligibility list)",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "US creators: bank transfer via Stripe",
+      "non-US creators: bank transfer via Payoneer (country eligibility list applies)",
+      "payout processor determined by creator's country"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Patreon help center — How Payouts Work (accessed April 2026; undated). Two payout processors: Stripe (US) and Payoneer (international). Full non-US eligibility list referenced but not included in snippet."
+    ]
+  }
+}

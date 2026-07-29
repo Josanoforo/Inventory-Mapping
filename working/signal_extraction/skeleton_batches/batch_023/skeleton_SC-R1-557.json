@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-557",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://agentcrew.co/workflow/gumroad-product-listing-writer",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001",
+    "source_id": "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001",
+    "source_type": "platform_doc",
+    "source_title": "Gumroad Product Listing Writer",
+    "source_ref": "https://agentcrew.co/workflow/gumroad-product-listing-writer",
+    "source_date_if_available": "April 2026 (observed in shard)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Generates SEO-optimized product names, compelling product descriptions, user-friendly product slugs, and even crafts launch and thank-you emails.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "agentcrew.co describes a Gumroad Product Listing Writer workflow that generates SEO-optimized product names, descriptions, slugs, and launch/thank-you emails",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 2026",
+    "time_scope_normalized_if_safe": "2026-04",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "third-party AI workflow tool targeting Gumroad sellers",
+      "capabilities: SEO-optimized product names, descriptions, product slugs, launch emails, thank-you emails"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "agentcrew.co (April 2026). Third-party AI workflow tool for Gumroad product listings. Generates SEO content and email copy. Indicates ecosystem of third-party tools targeting Gumroad sellers."
+    ]
+  }
+}

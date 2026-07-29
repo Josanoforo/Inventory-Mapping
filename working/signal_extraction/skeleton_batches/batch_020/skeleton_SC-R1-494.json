@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-494",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/1500011073202-What-is-a-Regulatory-Operating-Fee",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004",
+    "source_type": "help_center",
+    "source_title": "What Is A Regulatory Operating Fee",
+    "source_ref": "https://help.etsy.com/hc/en-us/articles/1500011073202-What-is-a-Regulatory-Operating-Fee",
+    "source_date_if_available": "Current as of March 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Sellers in certain countries are charged a small Regulatory Operating fee in addition to current selling costs. This fee is charged on the item price and shipping costs (including gift wrap and personalization costs, if applicable) and will vary based on seller location.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states a Regulatory Operating Fee is charged to sellers in certain countries on item price and shipping costs, with rate varying by seller location",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "fee_rate",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Regulatory Operating Fee charged to sellers in certain countries (not all)",
+      "fee charged on item price and shipping costs (including gift wrap, personalization if applicable)",
+      "rate varies by seller location",
+      "specific countries and rates not stated in snippet"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Etsy Help Center (current as of March 2026). Regulatory Operating Fee charged to sellers in certain countries on item price + shipping; rate varies by seller location. Specific countries and fee rates not stated in snippet."
+    ]
+  }
+}

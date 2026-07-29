@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-237",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.payoneer.com/resources/risk-compliance/latin-america-growth",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010",
+    "source_type": "article",
+    "source_title": "Latin America Growth",
+    "source_ref": "https://www.payoneer.com/resources/risk-compliance/latin-america-growth",
+    "source_date_if_available": "not specified",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Companies like Hotmart, Workana, MercadoLibre, and Airbnb choose Payoneer to deliver their mass payouts across Latin America. Our robust network, which extends to 190+ countries and territories in over 70 currencies, allows enterprises to reach payees anywhere in the world with peace of mind.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payoneer claims Hotmart, Workana, MercadoLibre, and Airbnb use its LATAM mass payout service — network covers 190+ countries in 70+ currencies",
+    "actor_level": "platform",
+    "platforms": [
+      "Payoneer",
+      "Hotmart",
+      "MercadoLibre"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "count",
+    "metric_value_raw": "190",
+    "metric_unit": "count (countries and territories in Payoneer network)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Latin America; Global",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart, Workana, MercadoLibre, and Airbnb choose Payoneer",
+      "mass payouts across Latin America",
+      "190+ countries and territories in over 70 currencies"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Payoneer promotional resource (undated). Lists Hotmart, Workana, MercadoLibre, Airbnb as LATAM mass payout clients. Claims 190+ country network, 70+ currencies. Self-promotional content; note marketing bias. metric_value_raw: 190 countries."
+    ]
+  }
+}

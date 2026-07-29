@@ -1,0 +1,81 @@
+{
+  "signal_id": "SC-R1-082",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy/ (original LinkedIn post: https://www.linkedin.com/posts/sophie-noel_i-want-to-expose-domestika-for-its-unacceptable-activity-7377386771493597184-irHX)",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014",
+    "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-014",
+    "source_type": "report",
+    "source_title": "Sophie Noel I Want To Expose Domestika For Its Unacceptable Activity 7377386771493597184 Irhx)",
+    "source_ref": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy/ (original LinkedIn post: https://www.linkedin.com/posts/sophie-noel_i-want-to-expose-domestika-for-its-unacceptable-activity-7377386771493597184-irHX)",
+    "source_date_if_available": "Late September 2025 (LinkedIn); October 6, 2025 (ComicsBeat article)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I want to expose Domestika for its unacceptable treatment of CGMA instructors. For weeks now, the company has been ignoring us and refusing to respond. None of us have been paid for the Summer term, and some instructors are still waiting for their payment from the Spring term. Domestika shows no respect for its instructors, its students, or the work we provide. They hide behind inaccessible email addresses and phone numbers run by AI, while avoiding any real accountability. This company is deliberately trying to bypass its obligations and withhold money owed to artists and students. The industry is already in a fragile state — adding this kind of predatory behavior only makes things worse. This is nothing less than theft. These practices must be denounced for what they are: unethical, exploitative, and absolutely unacceptable.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "CGMA instructor non-payment by Domestika: Summer term and Spring term payments withheld, company unresponsive, characterized as theft by instructor Sophie Noel",
+    "actor_level": [
+      "seller",
+      "marketplace"
+    ],
+    "platforms": [
+      "Domestika",
+      "CGMA"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "payout",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Summer term; Spring term; For weeks now",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "seller_self_claim",
+    "local_qualifiers": [
+      "For weeks now, the company has been ignoring us and refusing to respond",
+      "None of us have been paid for the Summer term",
+      "some instructors are still waiting for their payment from the Spring term",
+      "They hide behind inaccessible email addresses and phone numbers run by AI"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "LinkedIn public statement by instructor Sophie Noel (via ComicsBeat): alleges Domestika withheld Summer and Spring term payments from CGMA instructors, characterizes conduct as theft. 'For weeks now' relative to late September 2025 posting date."
+    ]
+  }
+}

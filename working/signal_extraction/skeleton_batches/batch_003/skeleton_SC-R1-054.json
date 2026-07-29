@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-054",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.sernac.cl/portal/604/w3-article-85909.html",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-010",
+    "source_type": "news",
+    "source_title": "Portal",
+    "source_ref": "https://www.sernac.cl/portal/604/w3-article-85909.html",
+    "source_date_if_available": "27 de mayo de 2025 (stated on page)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "«Dado que Domestika es un proveedor sin presencia formal en Chile, el llamado que hace el SERNAC es a que las y los consumidores que estén interesados en sus servicios tomen todas las precauciones necesarias. El SERNAC recomienda a los consumidores informarse de los posibles riesgos de contratar servicios con esta empresa, instándolos a buscar referencias previas y a revisar el detalle de los términos y condiciones a los que están accediendo. Es importante indicar que la Ley del Consumidor tiene alcance territorial. Por ende, si un consumidor realiza una compra o contrata un servicio en el extranjero a través de internet, nuestra legislación no aplica, de ahí la relevancia de tomar las precauciones señaladas anteriormente.»",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika has no formal presence in Chile, leaving Chilean consumers outside domestic consumer law protections per SERNAC",
+    "actor_level": [
+      "marketplace",
+      "buyer"
+    ],
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "27 de mayo de 2025",
+    "time_scope_normalized_if_safe": "2025-05-27",
+    "geography_if_explicit": [
+      "Chile"
+    ],
+    "evidence_role": "reported_event",
+    "local_qualifiers": [
+      "sin presencia formal en Chile",
+      "Ley del Consumidor tiene alcance territorial"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Source is SERNAC (Chilean consumer protection agency) official portal. Statement about no formal Domestika presence in Chile and inapplicability of Chilean consumer law."
+    ]
+  }
+}

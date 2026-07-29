@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-449",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://play.google.com/store/apps/details?id=hotmart.afiliadosyproductores&hl=es_419",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-008",
+    "source_type": "buyer_review",
+    "source_title": "Details",
+    "source_ref": "https://play.google.com/store/apps/details?id=hotmart.afiliadosyproductores&hl=es_419",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"es una porquería vender, muchos de los productores no te dan material y te dicen que lo busques tu mismo para vender sus cursos. retiro mínimo de 50, pero debes tener más de 60 porque sino entonces no puedes retirar nada (cuando vas a retirar te dice que lo válido que posees para retirar son cuarenta y dele) tanto esforzarme para que a la larga se queden con esa plata ellos.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart affiliate reports $50 minimum withdrawal threshold is effectively higher because platform deductions reduce available balance below the threshold even when nominal balance exceeds $50; producers often do not provide affiliate marketing materials",
+    "actor_level": "seller",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "digital_download",
+    "metric_type": "price",
+    "metric_value_raw": "50",
+    "metric_unit": "USD minimum withdrawal threshold on Hotmart (actual usable threshold higher due to fee deductions reducing available balance)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "$50 minimum withdrawal threshold; $60+ balance needed to actually withdraw",
+      "platform deductions reduce available balance below minimum threshold",
+      "producers often do not provide affiliate marketing materials for courses"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Spanish-language Google Play Store review (undated, accessed April 2026). Hotmart affiliate reports $50 minimum withdrawal threshold requires $60+ actual balance due to deductions; producers often don't provide marketing materials for their courses."
+    ]
+  }
+}

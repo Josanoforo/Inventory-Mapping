@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-693",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+    "source_date_if_available": "Accessed April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"2026 in February I ordered a necklace with a little bird ( wren). It came from England in no time. All the way through i was informed! The necklace is soo beautiful and I get many comments.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Trustpilot reviewer (February 2026) purchased a bird necklace from an England-based Etsy seller; fast delivery with full tracking communication; high product quality",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": "physical goods (necklace/jewelry)",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "February 2026",
+    "time_scope_normalized_if_safe": "2026-02",
+    "geography_if_explicit": "England (seller location)",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "fast delivery from England-based seller",
+      "buyer kept informed throughout process",
+      "positive product quality experience"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "trustpilot.com (February 2026). Positive Etsy experience: fast delivery, good communication, high quality jewelry from UK seller. Contrasts with negative reviews in same packet."
+    ]
+  }
+}

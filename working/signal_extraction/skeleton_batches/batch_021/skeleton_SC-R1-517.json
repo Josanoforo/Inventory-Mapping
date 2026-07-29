@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-517",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-006"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/legal/fees",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-006",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-006",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-006",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_type": "policy_page",
+    "source_title": "Fees",
+    "source_ref": "https://www.etsy.com/legal/fees",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The fee for an Etsy Plus subscription is $10 USD per month. Etsy Plus subscription fees are deducted from your current balance each month and reflected in your payment account. Where applicable, Etsy may charge local taxes (e.g. sales taxes or VAT/GST) on your monthly subscription fee. While you are subscribed to Etsy Plus, you are provided with the following credits each subscription cycle: 15 listing credits, which are visible as $3 in listings credit in your payment account · $5 USD in Etsy Ads credits, which are visible in your payment account and on your advertising management page · You must use the credits during the subscription cycle, otherwise they expire. Credits will not roll over month to month. They will be reset and replenished at the beginning of each subscription cycle.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states Etsy Plus subscription costs $10 USD/month; includes 15 listing credits ($3 value) and $5 Etsy Ads credits per cycle; credits expire at end of each cycle and do not roll over",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "10",
+    "metric_unit": "USD per month",
+    "time_scope_raw": "monthly subscription cycle",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Etsy Plus subscription: $10 USD/month",
+      "includes 15 listing credits per cycle (displayed as $3 credit in payment account)",
+      "includes $5 Etsy Ads credits per cycle",
+      "credits must be used within cycle — expire at end of cycle, no rollover",
+      "local taxes (VAT/GST) may apply on monthly fee"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Etsy legal/fees page (current as of April 2026). Etsy Plus: $10 USD/month; 15 listing credits ($3 value) + $5 Etsy Ads credits per cycle; credits expire at end of cycle, no rollover."
+    ]
+  }
+}

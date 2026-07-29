@@ -1,0 +1,81 @@
+{
+  "signal_id": "SC-R1-123",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.indiehackers.com/post/i-don-t-have-a-company-how-can-i-be-paid-on-the-internet-212c0fe4c3",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019",
+    "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-019",
+    "source_type": "seller_forum",
+    "source_title": "I Don T Have A Company How Can I Be Paid On The Internet 212C0Fe4C3",
+    "source_ref": "https://www.indiehackers.com/post/i-don-t-have-a-company-how-can-i-be-paid-on-the-internet-212c0fe4c3",
+    "source_date_if_available": "July 27, 2019",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Gumroad is great and super easy if you're selling a downloadable product. If you're building a SAAS product or charging people for consulting, though, they're probably not a great solution. (PayHip I don't have any experience with, but they look pretty similar just with more fleshed out subscription support.)\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "comparative_commentary",
+    "subject_exact": "Gumroad characterized as easy for downloadable products but unsuitable for SaaS/consulting; Payhip noted as similar but with more developed subscription support (July 2019, Payhip assessment second-hand)",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad",
+      "Payhip"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "super easy if you're selling a downloadable product",
+      "I don't have any experience with",
+      "they look pretty similar",
+      "more fleshed out subscription support"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Indie Hackers forum (July 2019): individual with Gumroad experience but no direct Payhip experience. Gumroad: easy for downloads, not for SaaS/consulting. Payhip: speculated as similar but more subscription-capable ('I don't have any experience with'). Over 5 years old; subscription features on both platforms have evolved significantly."
+    ]
+  }
+}

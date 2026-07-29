@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1167",
+  "source_record_ids": [
+    "ER-SP-domestika_d3_output-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-domestika_d3_output-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/es/courses",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-domestika_d3_output-001-SNP-001",
+      "secondary_pointer": "SP-domestika_d3_output-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-domestika_d3_output-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-domestika_d3_output-001-SNP-001",
+    "source_packet_id": "SP-domestika_d3_output-001",
+    "source_id": "SRC-domestika_d3_output-001",
+    "source_type": "product_listing",
+    "source_title": "Courses",
+    "source_ref": "https://www.domestika.org/es/courses",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[Stated in layout: \"Ilustración · Craft · Marketing y Negocios · Fotografía y Vídeo · Diseño · 3D y Animación · Arquitectura y Espacios · Escritura · Moda · Diseño Web y App · Caligrafía y Tipografía · Música y Audio · Cocina · Inteligencia Artificial · Bienestar · Cómo convertirse en\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika course catalog page (accessed April 2026, undated) lists 16 course categories: Illustration, Craft, Marketing & Business, Photography & Video, Design, 3D & Animation, Architecture & Spaces, Writing, Fashion, Web & App Design, Calligraphy & Typography, Music & Audio, Cooking, Artificial Intelligence, Wellness, How to become a [profession]",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Domestika courses page (accessed Apr 2026): 16 course categories — Illustration, Craft, Marketing & Business, Photography & Video, Design, 3D & Animation, Architecture & Spaces, Writing, Fashion, Web & App Design, Calligraphy & Typography, Music & Audio, Cooking, AI, Wellness, How to become a [profession]"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "domestika.org/es/courses (accessed Apr 2026, undated). Spanish. Category navigation menu: 16 categories listed. Snippet is a UI layout element, not a narrative claim; categories are the structural taxonomy of Domestika's course catalog."
+    ]
+  }
+}

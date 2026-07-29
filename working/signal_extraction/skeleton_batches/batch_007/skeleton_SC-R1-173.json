@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-173",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-009"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-009",
+      "secondary_pointer": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-009",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-009",
+    "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003",
+    "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=5",
+    "source_date_if_available": "2025-07-29",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The experience I had with Lemon Squeezy was simply disappointing in its sheer inefficiency. The core problem was trivial: During a purchase via the platform, my email address was saved incorrectly due to a simple typo.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Buyer reports email address saved incorrectly during LemonSqueezy purchase due to typo — characterized resolution process as highly inefficient",
+    "actor_level": "buyer",
+    "platforms": [
+      "LemonSqueezy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "my email address was saved incorrectly due to a simple typo",
+      "sheer inefficiency"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Trustpilot review (July 29, 2025): buyer reports email address saved incorrectly during LemonSqueezy purchase due to typo; describes resolution as highly inefficient. context_insufficient: no details on resolution path or timeline in snippet."
+    ]
+  }
+}

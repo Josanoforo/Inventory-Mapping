@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-698",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+    "source_date_if_available": "April 4, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Had a horrible experience with etsy. Ordered a gold chain. Received delivery date and then few hours later told that order was cancelled. No reason given- asked to contact the seller. Sorry but do not have time for that !! Thankfully have been refunded. Avoid this company as their average review score is 1.5!!. Should have checked before I ordered\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Trustpilot reviewer (April 2026) had gold chain order cancelled by seller hours after receiving a delivery date, with no reason given; Etsy directed buyer to contact seller; buyer was eventually refunded; cites Etsy's 1.5 average Trustpilot score",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": "physical goods (gold chain jewelry)",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 4, 2026",
+    "time_scope_normalized_if_safe": "2026-04-04",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "order cancelled by seller hours after delivery date was set; no reason given",
+      "Etsy directed buyer to contact seller rather than resolving directly",
+      "buyer refunded; references Etsy's Trustpilot score of 1.5"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "trustpilot.com (April 4, 2026). Gold chain cancelled post-delivery-date without explanation. Illustrates order cancellation friction and buyer reliance on seller resolution."
+    ]
+  }
+}

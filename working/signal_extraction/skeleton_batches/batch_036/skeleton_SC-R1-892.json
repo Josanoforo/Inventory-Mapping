@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-892",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+    "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+    "source_type": "blog",
+    "source_title": "Death Of The Follower And Rise Of The Real Fan",
+    "source_ref": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+    "source_date_if_available": "June 11, 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The internet is at an inflection point as it shifts away from the 'follower' model... Social media platforms initially allowed creators to publish directly to their own audiences. However over the 2010s, Instagram, Facebook, and others started ranking feeds that ultimately optimized ad-revenue instead of guaranteeing reach... Then, in the 2020s the rise of the 'For You' feed - popularized by TikTok - completely abandoned the idea of 'the follow' altogether in favor of personalized, curated feeds. The result is that it's become increasingly difficult for creators to build tight online communities and durable businesses.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Patreon blog post (news.patreon.com, June 11, 2024) describes social media evolution: 2010s Instagram/Facebook shifted to ad-revenue-optimized ranked feeds, reducing creator reach; 2020s TikTok-style 'For You' feeds abandoned the follow model entirely, making it harder for creators to build communities and durable businesses",
+    "actor_level": "platform",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "June 11, 2024",
+    "time_scope_normalized_if_safe": "2024-06",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "2010s: Instagram/Facebook ad-revenue-optimized ranked feeds reduced guaranteed reach; 2020s: TikTok 'For You' feed abandoned follow model; result: creator community-building made harder"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "news.patreon.com (Jun 11, 2024). Patreon's narrative of social media evolution: follower model → ranked feeds → For You feed; creator distribution disrupted across each phase."
+    ]
+  }
+}

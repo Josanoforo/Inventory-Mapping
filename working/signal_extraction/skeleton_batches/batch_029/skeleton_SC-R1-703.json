@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-703",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.insideaudiomarketing.com/post/patreon-paid-podcasters-629-million-in-2025-as-direct-to-fan-model-accelerates",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004",
+    "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-004",
+    "source_type": "article",
+    "source_title": "Patreon Paid Podcasters 629 Million In 2025 As Direct To Fan Model Accelerates",
+    "source_ref": "https://www.insideaudiomarketing.com/post/patreon-paid-podcasters-629-million-in-2025-as-direct-to-fan-model-accelerates",
+    "source_date_if_available": "April 9, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Patreon says more than 47,000 podcasters are now active on Patreon, supported by 7.6 million paid memberships — up from roughly 40,000 creators in 2023. It means podcasts are now the largest content category on the platform.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "InsideAudioMarketing citing Patreon (April 2026): 47,000+ active podcasters with 7.6M paid memberships, up from ~40,000 in 2023; podcasts now Patreon's largest content category",
+    "actor_level": "platform",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": "digital content (podcasts)",
+    "metric_type": "subscriber_count",
+    "metric_value_raw": "47,000+ active podcasters; 7.6M paid podcast memberships; up from ~40,000 creators in 2023",
+    "metric_unit": "creators; paid memberships",
+    "time_scope_raw": "April 9, 2026 (article); comparison to 2023",
+    "time_scope_normalized_if_safe": "2026",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "47,000+ active podcasters on Patreon",
+      "7.6M paid podcast memberships",
+      "podcasts now largest content category on Patreon; up from ~40k creators in 2023"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "insideaudiomarketing.com (April 9, 2026), citing Patreon. Podcast growth: 47k+ creators, 7.6M paid memberships, now #1 content category. Platform-attributed claim via trade press."
+    ]
+  }
+}

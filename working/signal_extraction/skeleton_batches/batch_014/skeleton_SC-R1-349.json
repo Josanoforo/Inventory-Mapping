@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-349",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.bigcartel.com/resources/blog/article/big-cartel-or-etsy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007",
+    "source_type": "blog",
+    "source_title": "Big Cartel Or Etsy",
+    "source_ref": "https://www.bigcartel.com/resources/blog/article/big-cartel-or-etsy",
+    "source_date_if_available": "2025-06-24",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Etsy? That's more like renting a shelf in a crowded marketplace. Sure, you tap into a built-in audience, but you're competing with a million other makers. You can pretty it up a bit—but you're still boxed into Etsy's layout. And when someone buys from you there, what do they say? 'I got it on Etsy.' Ouch.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Big Cartel's blog (a competitor) frames Etsy as a crowded marketplace with built-in audience but intense seller competition, fixed layout, and no seller brand attribution ('I got it on Etsy')",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy",
+      "Big Cartel"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "renting a shelf in a crowded marketplace",
+      "a million other makers",
+      "boxed into Etsy's layout",
+      "I got it on Etsy"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Blog post (Big Cartel, 2025-06-24). Source is a competitor to Etsy; advocacy framing likely. Claims: Etsy has built-in audience but sellers face high competition, fixed layout, and no brand attribution."
+    ]
+  }
+}

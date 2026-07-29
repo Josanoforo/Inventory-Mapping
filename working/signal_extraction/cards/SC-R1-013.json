@@ -1,0 +1,52 @@
+{
+  "signal_id": "SC-R1-013",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon ranks the Patreon podcast 'the yard' at #9 by paid member count, with 42,523 paid members and estimated monthly earnings of $269,922.",
+  "subject_exact": "Graphtreon-estimated monthly earnings and paid member count for 'the yard' podcast (Patreon rank 9)",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$269,922 per month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Patreon Rank 9",
+    "42,523 Paid Members",
+    "Creating a podcast",
+    "Updated daily"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/top-patreon-creators",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008"
+    }
+  ],
+  "normalization_notes": [
+    "metric_value_raw set to the monthly revenue figure; the paid-member count (42,523) for the same creator is preserved as a qualifier rather than a second metric_value_raw, since the schema holds one primary metric per card and both figures describe the same named creator.",
+    "time_scope_raw set to null: the access date does not appear verbatim in this snippet.",
+    "actor_level changed from inherited 'seller' to 'source': Graphtreon third-party ranking display."
+  ],
+  "extraction_notes": []
+}

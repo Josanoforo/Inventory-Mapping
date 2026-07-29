@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-617",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+    "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+    "source_type": "article",
+    "source_title": "Top Substack Writers Depart For Patreon",
+    "source_ref": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+    "source_date_if_available": "October 29, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Sole-Smith said almost 50% of her subscribers had made the transition.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Writer Sole-Smith reports approximately 50% of prior subscribers transitioned when migrating from Substack to Patreon",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon",
+      "Substack"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "subscriber_count",
+    "metric_value_raw": "~50% of prior subscribers transitioned to Patreon",
+    "metric_unit": "% of prior subscribers",
+    "time_scope_raw": "October 29, 2025",
+    "time_scope_normalized_if_safe": "2025-10-29",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Sole-Smith reports ~50% subscriber migration from Substack to Patreon",
+      "migration context: Substack to Patreon",
+      "Nieman Lab journalism article, October 2025"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "niemanlab.org (October 29, 2025). Writer Sole-Smith reports ~50% of her Substack subscribers transitioned to Patreon upon migration. Single creator self-report via journalism article."
+    ]
+  }
+}

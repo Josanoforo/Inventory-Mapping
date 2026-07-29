@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-623",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+    "source_type": "blog",
+    "source_title": "Opinion Hotmart",
+    "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "source_date_if_available": "October 2020",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Quizá, desde nuestra experiencia como productores y vendedores de nuestras formaciones, la gran ventaja de Hotmart en comparación con otras plataformas es su gran implantación internacional y las facilidades que ofrece a los compradores: pago en moneda local, métodos de pago locales, opciones de financiación…\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Spanish-language blog authors cite Hotmart's international reach and buyer-friendly payment options (local currency, local payment methods, financing options) as its main competitive advantage",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "October 2020",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "international / Latin America",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart cited for international reach and buyer-convenient payment features",
+      "local currency payment, local payment methods, financing options listed",
+      "Spain-based blog (bigbangconversion.com), October 2020"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "bigbangconversion.com (October 2020). Spanish-language blog cites Hotmart's international presence and buyer-convenient payment features (local currency, local methods, financing) as main competitive advantage. 2020 source; current Hotmart feature set may differ."
+    ]
+  }
+}

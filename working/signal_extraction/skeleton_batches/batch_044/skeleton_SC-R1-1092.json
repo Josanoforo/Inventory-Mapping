@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1092",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+    "source_type": "seller_forum",
+    "source_title": "Opinion Hotmart",
+    "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "source_date_if_available": "20 de junio de 2023",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Tienes que retirar tu saldo en dólares. Antes solo estaba en euros y ahora en dólares. No sé. Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Spanish-language review forum (bigbangconversion.com, Jun 20, 2023) states Hotmart payouts are in USD (changed from euros); this creates double currency conversion — buyer currency to Hotmart USD, then USD to seller's local currency — resulting in elevated percentage income loss for sellers targeting Latin American markets",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "double FX conversion; percentage income loss elevated for LatAm-focused sellers; exact rate not specified",
+    "metric_unit": "unspecified % per conversion",
+    "time_scope_raw": "20 de junio de 2023",
+    "time_scope_normalized_if_safe": "2023-06-20",
+    "geography_if_explicit": "Latin America",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "bigbangconversion.com (Jun 20, 2023): Hotmart USD payout (changed from EUR): double FX conversion; elevated percentage loss for LatAm-focused sellers"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "bigbangconversion.com (Jun 20, 2023). Spanish-language Hotmart review: USD payout creates double FX conversion (buyer currency → USD → seller currency). 'Elevated percentage' loss unspecified. LatAm sellers disproportionately affected."
+    ]
+  }
+}

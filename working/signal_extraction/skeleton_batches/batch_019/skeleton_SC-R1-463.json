@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-463",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_type": "unknown",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+    "source_date_if_available": "Accessed April 14, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Most reviewers were unhappy with their experience overall. Many customers expressed dissatisfaction with the products, citing issues such as outdated content, faulty files, and items not matching descriptions.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Trustpilot review summary for Envato indicates most reviewers unhappy overall, with top complaints of outdated content, faulty files, and items not matching descriptions",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato"
+    ],
+    "product_type_if_explicit": "digital_download",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "most reviewers unhappy with overall experience",
+      "top complaints: outdated content, faulty files, items not matching descriptions",
+      "aggregate review summary, not individual review"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "Trustpilot review page aggregate summary (accessed April 14, 2026). Most Envato reviewers unhappy; top complaints: outdated content, faulty files, description mismatch. Summary may be AI-generated; no specific date range or review count stated."
+    ]
+  }
+}

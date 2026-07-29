@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-270",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003076197-Discount-on-Bundles",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002",
+    "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002",
+    "source_type": "help_center",
+    "source_title": "Discount On Bundles",
+    "source_ref": "https://support.domestika.org/hc/en-us/articles/360003076197-Discount-on-Bundles",
+    "source_date_if_available": "Page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"At Domestika you will find promotions in course bundles so that you can enjoy an additional discount by buying more than one course at a time on specific software, technique or creative area. In the list of course bundles that you check here, you will find: Set bundles: the courses are already selected. Customizable bundles: you can select the number of courses applicable to the bundle from a selection.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika offers course bundle promotions with additional discounts: set bundles (pre-selected courses) and customizable bundles (buyer selects courses from a selection)",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "course",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Global",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "promotions in course bundles",
+      "additional discount by buying more than one course at a time",
+      "Set bundles: the courses are already selected",
+      "Customizable bundles: you can select the number of courses applicable to the bundle from a selection"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Domestika help center (undated). Bundle discount feature: set bundles and customizable bundles available. No specific discount rate stated in this snippet."
+    ]
+  }
+}

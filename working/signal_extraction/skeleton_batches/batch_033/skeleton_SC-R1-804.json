@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-804",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+    "source_type": "buyer_review",
+    "source_title": "Compra Do Curso Ads Lucrativo Us Cql4Ubdtb09Ev",
+    "source_ref": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV",
+    "source_date_if_available": "Purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Foi comprado um curso da Maria Virgínia ads lucrativo falando comprando o curso tinha garantia de 12 meses para o reembolso ao tentar solicitar o reembolso já mostra como o prazo do reembolso fora do prazo sendo que no anúncio garantia o prazo de 12 meses gostaria do meu reembolso pois não me identifiquei com o curso\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Hotmart Reclame Aqui complaint (purchase February 6, 2025) reports course 'Ads Lucrativo' advertised a 12-month refund guarantee; Hotmart system shows guarantee expired February 13, 2025 (7 days after purchase); discrepancy between advertised 12-month guarantee and platform-enforced 7-day window",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "online courses (marketing/paid ads)",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+    "time_scope_normalized_if_safe": "2025-02",
+    "geography_if_explicit": "Brazil",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Course 'Ads Lucrativo' advertised 12-month guarantee; Hotmart shows expired 7 days after purchase",
+      "Discrepancy between creator's advertised refund policy and Hotmart-enforced guarantee window"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "reclameaqui.com.br (purchase February 6, 2025). Course advertised 12-month guarantee; Hotmart expired it February 13, 2025 (7 days). Dispute: advertised vs. platform-enforced refund window."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-362",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+    "source_type": "blog",
+    "source_title": "Amazon Handmade Vs Etsy",
+    "source_ref": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy",
+    "source_date_if_available": "2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Amazon Handmade enables a reach of 300 million potential customers while Etsy covers 'only' 90 million. Amazon's fees are high (15% referral on each sale) and the in-house regulations when it comes to marketing your products are stricter. Etsy ($0.20 per item) tends to be more economical and offers you more freedom when it comes to branding.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Third-party blog cites Amazon Handmade at 300 million potential customers with 15% referral fee and strict marketing rules, versus Etsy at 90 million buyers with $0.20 listing fee and more branding freedom",
+    "actor_level": "platform",
+    "platforms": [
+      "Amazon",
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "count",
+    "metric_value_raw": "300000000",
+    "metric_unit": "potential customers (Amazon Handmade, third-party estimate, 2025)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Amazon Handmade: 300 million potential customers, 15% referral fee, stricter marketing regulations",
+      "Etsy: 90 million buyers, $0.20 per item listing fee, more branding freedom"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "Blog post (sellerlogic.com, 2025). Amazon Handmade vs Etsy: audience size (300M vs 90M), fees (15% referral vs $0.20 listing), marketing restrictions. methodology_unclear: no primary source citations."
+    ]
+  }
+}

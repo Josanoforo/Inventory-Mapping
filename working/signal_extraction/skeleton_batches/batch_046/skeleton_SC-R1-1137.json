@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1137",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+    "source_type": "unknown",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=3",
+    "source_date_if_available": "August 12, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"BUYERS BEWARE: I purchased a chrome extension for $17 that didn't work. I never received a receipt and the extension didn't work with no contact info for the developer. I contacted support after multiple AI email responses, was forced to open a chargeback. TERRIBLE customer service. I wish I'd checked into this website before purchasing this extension.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Trustpilot review of Gumroad (August 12, 2025) reports purchasing a $17 Chrome extension that was non-functional; no purchase receipt was issued; developer had no contact information; Gumroad support gave only automated AI email responses; buyer was forced to file a chargeback",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "$17 Chrome extension purchase",
+    "metric_unit": "USD purchase amount",
+    "time_scope_raw": "August 12, 2025",
+    "time_scope_normalized_if_safe": "2025-08-12",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Trustpilot review (Aug 12, 2025): $17 Chrome extension non-functional; no purchase receipt; developer unreachable; Gumroad AI-only support; buyer filed chargeback"
+    ],
+    "uncertainties": [
+      "anecdotal_single_source"
+    ],
+    "parser_notes": [
+      "trustpilot.com/review/gumroad.com?page=3 (Aug 12, 2025). English. Gumroad review: $17 Chrome extension broken; no purchase receipt issued; no developer contact info on listing; Gumroad support automated AI responses only; buyer forced to file chargeback."
+    ]
+  }
+}

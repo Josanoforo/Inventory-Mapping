@@ -1,0 +1,47 @@
+{
+  "signal_id": "SC-R1-009",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon's Patreon Stats page shows 325,425 creators with at least one paying member.",
+  "subject_exact": "Number of Patreon paid creators with at least one paying member as accessed April 14, 2026",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "325,425",
+  "metric_unit": "creators with at least one paying member",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Updated daily"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/patreon-stats",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw set to null: neither 'Accessed April 14, 2026' nor 'Updated daily' appear verbatim in this snippet (the snippet is only the layout-stated figure); both are extraction-record metadata about the page, not snippet text.",
+    "actor_level changed from inherited 'seller' to 'source': Graphtreon is a third-party stats/analysis site displaying aggregated data; no seller or platform speaks in this snippet."
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,45 @@
+{
+  "signal_id": "SC-R1-001",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001"
+  ],
+  "round": 1,
+  "signal_text": "Apify's Patreon Analytic tool listing states it extracts analytics for top Patreon creators, including earnings, membership stats, growth trends, and historical changes.",
+  "subject_exact": "Apify Patreon Analytic scraping tool capability description",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://apify.com/easyapi/patreon-analytic",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'source' to 'third_party': the listing is first-person promotional copy from the tool vendor (Apify) about its own product, which the assignment rule for product_listing/promotional content maps to third_party, not source."
+  ],
+  "extraction_notes": []
+}

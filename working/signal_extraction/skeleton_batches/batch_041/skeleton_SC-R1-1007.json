@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1007",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-001",
+    "source_type": "article",
+    "source_title": "Marketing Para Plataforma De Ecommerce Entrevista Con Kichink",
+    "source_ref": "https://blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink",
+    "source_date_if_available": "April 19, 2017",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Una es poder atender el ciclo completo de comercio electrónico desde la administración de servidores y poder tener los catálogos en línea. Después está la parte de procesamiento de pagos, pudiendo recibir pagos con cualquier tarjeta de crédito, débito o incluso efectivo. Encargarnos de la parte logística, a través de nuestros aliados estratégicos; somos responsables de recolectar y entregar todos los productos que se venden en la plataforma. Y finalmente, tener un servicio al cliente que es la cara de todo ese ciclo. De tal forma que si algo sale mal, al único lugar que tienes que preguntar es Kichink. Esto ayuda mucho a que la gente confíe en que las cosas son de calidad y les van a llegar. Esto es lo que hace que haya una gran diferencia en primer lugar.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Kolau blog interview with Kichink (blog.kolau.com/es/marketing-para-plataforma-de-ecommerce-entrevista-con-kichink, Apr 19, 2017) states Kichink manages the complete e-commerce cycle: server and catalog management, payment processing (credit card, debit card, or cash), logistics via strategic partners (collecting and delivering all sold products), and customer service — with Kichink as the single point of responsibility for the entire process",
+    "actor_level": "platform",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 19, 2017",
+    "time_scope_normalized_if_safe": "2017-04",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Kichink: full e-commerce cycle (catalog, payments incl. cash, logistics, customer service); single responsibility point"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "blog.kolau.com (Apr 19, 2017). Kichink interview: full-cycle platform includes cash payments and managed logistics."
+    ]
+  }
+}

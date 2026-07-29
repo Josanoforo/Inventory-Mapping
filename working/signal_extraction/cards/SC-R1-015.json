@@ -1,0 +1,49 @@
+{
+  "signal_id": "SC-R1-015",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010"
+  ],
+  "round": 1,
+  "signal_text": "A Patreon consultation service (hypable.com) advertises planning and management techniques developed over several years.",
+  "subject_exact": "Patreon consultation service offer by hypable.com",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "tried-and-tested methods",
+    "someone who knows the ins and outs of Patreon",
+    "developed over the past few years"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://impact.hypable.com/patreon-consultation",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'third_party': first-person promotional copy from an external consultation service provider about its own service, not an actual Patreon creator/seller."
+  ],
+  "extraction_notes": []
+}

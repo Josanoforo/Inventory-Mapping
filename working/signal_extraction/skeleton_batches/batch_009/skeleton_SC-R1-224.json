@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-224",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+      "secondary_pointer": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+    "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+    "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+    "source_type": "help_center",
+    "source_title": "How To Withdraw My Commission",
+    "source_ref": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+    "source_date_if_available": "accessed April 14, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Due to new regulations from the Central Bank of Argentina (BCRA), there has been a standardization of a fee for payments with conversions of purchases in Argentine Pesos (ARS) to offers in US Dollars (USD) or conversions of commissions in US Dollars (USD) to products offered in Argentine Pesos (ARS).\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart imposes a standardized conversion fee on Argentina ARS/USD transactions due to BCRA regulations — applies to both buyer ARS payments for USD-priced products and seller USD commission conversions to ARS",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "fee_rate",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Argentina",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "new regulations from the Central Bank of Argentina (BCRA)",
+      "standardization of a fee for payments with conversions",
+      "Argentine Pesos (ARS) to offers in US Dollars (USD)",
+      "conversions of commissions in US Dollars (USD) to products offered in Argentine Pesos (ARS)"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Hotmart help center (accessed April 14, 2026). Argentina: BCRA regulations require standardized conversion fee on ARS↔USD transactions — applies to buyer ARS payments for USD-priced products and to seller USD commission conversions to ARS. Fee amount not specified in snippet."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-211",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/write-a-catalyst/etsy-vs-gumroad-vs-payhip-2025-which-platform-is-best-for-selling-digital-products-c021dd242808",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008",
+    "source_type": "article",
+    "source_title": "Etsy Vs Gumroad Vs Payhip 2025 Which Platform Is Best For Selling Digital Products C021Dd242808",
+    "source_ref": "https://medium.com/write-a-catalyst/etsy-vs-gumroad-vs-payhip-2025-which-platform-is-best-for-selling-digital-products-c021dd242808",
+    "source_date_if_available": "2025 (from article title; exact date not confirmed)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Personally when I first started my business online and selling my digital planners. I jumped from Etsy to Gumroad to Payhip trying to find out which one of the three platforms could help me make consistent sales. After testing all the three, I realized something which is very crucial for every seller must know and that is: Each platform works differently, depending on your goals.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Creator tested Etsy, Gumroad, and Payhip for digital planners and concludes each platform serves different seller goals differently",
+    "actor_level": "seller",
+    "platforms": [
+      "Etsy",
+      "Gumroad",
+      "Payhip"
+    ],
+    "product_type_if_explicit": "digital_download",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "jumped from Etsy to Gumroad to Payhip",
+      "testing all three",
+      "Each platform works differently, depending on your goals"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Medium article (2025, exact date unconfirmed). Creator tested Etsy, Gumroad, Payhip for digital planners — concludes each platform serves different seller goals. Anecdotal multi-platform comparison without quantified outcomes."
+    ]
+  }
+}

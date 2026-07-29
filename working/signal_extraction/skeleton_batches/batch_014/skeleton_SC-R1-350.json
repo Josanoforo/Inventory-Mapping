@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-350",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/about",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-008",
+    "source_type": "platform_doc",
+    "source_title": "About",
+    "source_ref": "https://www.etsy.com/about",
+    "source_date_if_available": "Undated (page live as of April 2026; copyright 2026)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"In a time of increasing automation, it's our mission to keep human connection at the heart of commerce. That's why we built a place where creativity lives and thrives because it's powered by people. We help our community of sellers turn their ideas into successful businesses. Our platform connects them with millions of buyers looking for an alternative—something special with a human touch, for those moments in life that deserve imagination.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy describes its mission as keeping human connection at the heart of commerce, helping sellers build creative businesses, and connecting them with millions of buyers seeking unique human-made alternatives",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "keep human connection at the heart of commerce",
+      "creativity lives and thrives because it's powered by people",
+      "millions of buyers looking for an alternative"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Etsy About page (undated, copyright 2026). Mission statement: human connection in commerce, helping sellers build businesses, connecting them with buyers seeking handmade/unique alternatives."
+    ]
+  }
+}

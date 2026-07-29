@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-440",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+    "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "source_date_if_available": "1 octubre 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Estafadores! Me bloquearon la cuenta como productor y se quedaron con todo el saldo de mis ventas. Me pidieron 25 días para revisar y ya a mes y medio me la bloquearon totalmente y sin poder acceder a mi panel como productos. NO COMPREN DE ESTA PLATAFORMA SI NO QUIEREN SER ESTAFADOS!!!! Y PRODUCTOR NO VENDAS PORQUE EN CUALQUIER MOMENTO TE BLOQUEAN Y PIERDES TU DINERO! MAS DE 500 USD EN MI CASO ME ROBARON!!!\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart producer reports account blocked after 25-day review extended to 1.5 months, with $500+ USD in sales funds withheld and no panel access",
+    "actor_level": "seller",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "revenue",
+    "metric_value_raw": "500",
+    "metric_unit": "USD minimum withheld from Hotmart seller account after permanent block (October 2025)",
+    "time_scope_raw": "25-day review extended to approximately 1.5 months",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "account blocked for review lasting 25 days, then made permanent at approximately 1.5 months",
+      "$500+ USD sales balance withheld",
+      "no panel access after permanent block"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Spanish-language Trustpilot review (October 1, 2025). Hotmart producer reports account blocked after 25-day review extended to 1.5 months; $500+ USD in sales funds withheld; no panel access restored."
+    ]
+  }
+}

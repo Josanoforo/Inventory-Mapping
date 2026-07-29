@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-094",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://bloggingwizard.com/sendowl-alternatives",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+    "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+    "source_type": "blog",
+    "source_title": "Sendowl Alternatives",
+    "source_ref": "https://bloggingwizard.com/sendowl-alternatives",
+    "source_date_if_available": "Updated February 12, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Payhip — Choose Payhip if having a fast checkout process is your priority & you'd like the option to sell courses in addition to other types of digital products.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "comparative_commentary",
+    "subject_exact": "Payhip recommended for sellers prioritizing fast checkout and multi-product-type catalog (courses plus other digital products) among SendOwl alternatives",
+    "actor_level": "source",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "comparative_commentary",
+    "local_qualifiers": [
+      "if having a fast checkout process is your priority",
+      "you'd like the option to sell courses in addition to other types of digital products"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Brief recommendation excerpt from a 'SendOwl alternatives' comparison blog (updated February 2026); Payhip positioned as best fit for fast checkout priority and course + digital product sellers."
+    ]
+  }
+}

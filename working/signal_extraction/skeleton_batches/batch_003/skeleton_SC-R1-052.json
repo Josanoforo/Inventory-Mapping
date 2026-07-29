@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-052",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/es/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-004",
+      "secondary_pointer": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-004",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-004",
+    "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+    "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+    "source_type": "policy_page",
+    "source_title": "Terms",
+    "source_ref": "https://www.domestika.org/es/terms",
+    "source_date_if_available": "31 de enero de 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "«Se puede acceder a los Servicios desde cualquier parte del mundo, pero esto no implica que todos los Servicios, o todas las características de los Servicios, están disponibles en su país, o que las Contribuciones del usuario (tal como se definen a continuación) disponibles a través de los Servicios sean legales en su país. DOMESTIKA puede bloquear el acceso a determinados Servicios (o a características o contenidos particulares de los Servicios) en ciertos países.»",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "availability_statement",
+    "subject_exact": "Domestika platform geographic availability: services accessible worldwide but not all features available in all countries; Domestika may block access in certain countries",
+    "actor_level": "marketplace",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "31 de enero de 2024",
+    "time_scope_normalized_if_safe": "2024-01-31",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "DOMESTIKA puede bloquear el acceso a determinados Servicios en ciertos países"
+    ],
+    "uncertainties": [
+      "geography_unclear"
+    ],
+    "parser_notes": [
+      "Terms of service document. Countries where access may be blocked not specified."
+    ]
+  }
+}

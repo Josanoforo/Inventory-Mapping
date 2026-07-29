@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1112",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+    "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+    "source_type": "help_center",
+    "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+    "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+    "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Según las regulaciones fiscales locales, plataformas como Hotmart no son responsables de recaudar impuestos de consumidores y comerciantes en Argentina. Esta función corresponde a los operadores de tarjetas de crédito o Instituciones de Pago (PIs), que aplican los impuestos directamente en el pago al proveedor extranjero. Desde el 23 de diciembre de 2024, el Impuesto País ha sido eliminado, pero algunos impuestos aún pueden aplicarse: 21% de IVA (Impuesto al Valor Agregado), 30% de Impuesto a las Ganancias, IIBB (Impuesto sobre los Ingresos Brutos), cuyo valor puede variar según la provincia.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart tax help center (help.hotmart.com/es, references December 23, 2024) states that under Argentine regulations Hotmart is not responsible for collecting taxes in Argentina; credit card operators and Payment Institutions apply taxes directly; as of December 23, 2024, Impuesto País was eliminated; remaining taxes include IVA at 21%, Impuesto a las Ganancias at 30%, and IIBB variable by province",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "IVA 21%; Impuesto a las Ganancias 30%; IIBB variable by province; Impuesto País 0% (eliminated Dec 23, 2024)",
+    "metric_unit": "% tax applied to purchase",
+    "time_scope_raw": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+    "time_scope_normalized_if_safe": "2024-12-23",
+    "geography_if_explicit": "Argentina",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Hotmart help (ref. Dec 23, 2024): Argentina — Hotmart not responsible for buyer taxes; credit card/PI operators collect; Impuesto País eliminated; remaining: IVA 21%, Ganancias 30%, IIBB provincial variable"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.hotmart.com (ref. Dec 23, 2024). Spanish. Argentina: Hotmart not tax-collector; card operators apply taxes. Impuesto País eliminated Dec 23, 2024. IVA 21%, Ganancias 30%, IIBB variable by province."
+    ]
+  }
+}

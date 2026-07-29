@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-615",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://twinflamescorpio.com/why-i-left-patreon",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-006",
+    "source_type": "blog",
+    "source_title": "Why I Left Patreon",
+    "source_ref": "https://twinflamescorpio.com/why-i-left-patreon",
+    "source_date_if_available": "March 3, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I also started observing specific patterns. I saw creators with YouTube channels exceeding 100,000 subscribers bring in only a small fraction of that audience to Patreon. In some cases, thousands of viewers would watch their videos consistently, yet only a handful converted into paying members.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Blog author observes that YouTube creators with 100,000+ subscribers converted only a small fraction of viewers into paying Patreon members, with thousands of consistent viewers yielding only a handful of paying patrons",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "March 3, 2026",
+    "time_scope_normalized_if_safe": "2026-03-03",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "YouTube channels with 100,000+ subscribers observed",
+      "only small fraction of audience converted to paying Patreon members",
+      "thousands of consistent viewers yielding only handful of paying patrons",
+      "observational claim — no methodology or sample size cited"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "twinflamescorpio.com (March 3, 2026). Author observes low YouTube-to-Patreon conversion: 100k+ subscriber channels converted only handful of viewers to paying patrons. No methodology or sample size; informal observation from single blogger."
+    ]
+  }
+}

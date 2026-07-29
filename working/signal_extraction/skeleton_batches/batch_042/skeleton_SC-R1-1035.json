@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1035",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+    "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+    "source_type": "help_center",
+    "source_title": "Getting Paid",
+    "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+    "source_date_if_available": "Page last updated July 23, 2024 (per search index metadata)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"PayPal payouts are always processed in USD, and usually in 1-3 business days.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Gumroad help center article (help.gumroad.com/article/13-getting-paid, last updated Jul 23, 2024) states PayPal payouts are always in USD and typically processed in 1-3 business days",
+    "actor_level": "platform",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Page last updated July 23, 2024 (per search index metadata)",
+    "time_scope_normalized_if_safe": "2024-07-23",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Gumroad: PayPal payouts always in USD; 1-3 business days"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.gumroad.com/article/13 (updated 2024-07-23). PayPal payouts: USD only; 1-3 business days."
+    ]
+  }
+}

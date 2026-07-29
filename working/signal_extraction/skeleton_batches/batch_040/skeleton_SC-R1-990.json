@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-990",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/65-connecting-your-stripe-account",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-025",
+    "source_type": "help_center",
+    "source_title": "Connecting Your Stripe Account",
+    "source_ref": "https://help.payhip.com/article/65-connecting-your-stripe-account",
+    "source_date_if_available": "Last updated February 25, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"Stripe is currently supported in over 40 countries including Austria, Australia, Belgium, Brazil, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hong Kong, Hungary, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovenia, Slovakia, Spain, Sweden, Switzerland, Thailand, United Arab Emirates, United Kingdom and United States.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/65-connecting-your-stripe-account, Feb 25, 2026) states Stripe is currently supported in over 40 countries; lists 44 countries including Austria, Australia, Belgium, Brazil, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hong Kong, Hungary, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovenia, Slovakia, Spain, Sweden, Switzerland, Thailand, UAE, UK, and USA",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "volume",
+    "metric_value_raw": "40+ countries (44 listed)",
+    "metric_unit": "country count",
+    "time_scope_raw": "Last updated February 25, 2026",
+    "time_scope_normalized_if_safe": "2026-02",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Stripe: 40+ countries (44 listed); covers EU, UK, US, Americas, APAC, UAE"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.payhip.com (Feb 25, 2026). Stripe: 40+ countries; 44 listed covering EU, UK, US, Americas, APAC, UAE."
+    ]
+  }
+}

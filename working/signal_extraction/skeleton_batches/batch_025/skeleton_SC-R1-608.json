@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-608",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://drmehmetyildiz.substack.com/p/imagine-your-creativity-could-fund",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002",
+    "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-002",
+    "source_type": "blog",
+    "source_title": "Imagine Your Creativity Could Fund",
+    "source_ref": "https://drmehmetyildiz.substack.com/p/imagine-your-creativity-could-fund",
+    "source_date_if_available": "October 26, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I aim to integrate Substack with Patreon to obtain optimal results. I did it myself and helped many creators who enjoyed it and found it lucrative and more sustainable. After successfully using Patreon for over 6 years for creative, professional, and community-building purposes, I decided to share my experiences and observations in a book titled Patreon Mastery, which was published last month.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Creator describes 6+ years using Patreon for creative, professional, and community-building purposes; integrates Substack with Patreon; published book on Patreon strategies",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "October 26, 2025",
+    "time_scope_normalized_if_safe": "2025-10-26",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "6+ years using Patreon across creative, professional, and community contexts",
+      "Substack-Patreon integration cited as optimal approach",
+      "describes helping other creators with same strategy"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "drmehmetyildiz.substack.com (October 26, 2025). Long-term Patreon creator (6+ years); advocates Substack-Patreon integration. Published 'Patreon Mastery' book September 2025. Single creator's experience."
+    ]
+  }
+}

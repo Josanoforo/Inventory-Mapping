@@ -1,0 +1,81 @@
+{
+  "signal_id": "SC-R1-637",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+    "source_type": "blog",
+    "source_title": "Thinkific Vs Hotmart",
+    "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Hotmart aplica una comisión por cada venta (típicamente 9,9% + €0,05) y además cobra al retirar tu saldo. Por ejemplo, si retiras entre €50 y €100, pueden quedarse con unos €7,5 adicionales. Traducción: cuanto más vendes, más pagas en comisiones. Thinkific trabaja con tarifa fija. Las pasarelas de pago (Stripe, PayPal, Thinkific Payments) tienen sus propias comisiones por transacción, pero no hay una estructura de comisiones de plataforma que limite tus ingresos al escalar.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Blog compares Hotmart fee structure (9.9% + €0.05 per sale, plus withdrawal fee ~€7.50 for €50–€100 withdrawals) versus Thinkific flat subscription with no per-sale platform commission limiting scaling",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart",
+      "Thinkific"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "fee_rate",
+    "metric_value_raw": "Hotmart: ~9.9% + €0.05 per sale; withdrawal fee ~€7.50 for €50–€100 range; Thinkific: flat subscription, no per-sale platform commission",
+    "metric_unit": "% + EUR per transaction; EUR per withdrawal",
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Europe (EUR amounts cited)",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart: ~9.9% + €0.05 per sale commission",
+      "Hotmart withdrawal fee: ~€7.50 for €50–€100 withdrawal range",
+      "Thinkific: flat subscription, no per-sale platform commission",
+      "third-party comparison, undated"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "sofiafernandez.es (undated). Compares Hotmart (~9.9% + €0.05/sale + withdrawal fees) vs. Thinkific (flat subscription, no per-sale commission). Third-party comparison; fee figures not verified against official sources."
+    ]
+  }
+}

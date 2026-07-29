@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-680",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.similarweb.com/website/etsy.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+    "source_type": "report",
+    "source_title": "Website",
+    "source_ref": "https://www.similarweb.com/website/etsy.com",
+    "source_date_if_available": "Accessed April 2026; data labeled March 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Total Visits · 425.6M · Bounce Rate · 39.98% Pages per Visit · 6.09 · Avg Visit Duration · 00:04:41\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "SimilarWeb reports Etsy.com March 2026: 425.6M total visits, 39.98% bounce rate, 6.09 pages per visit, 4:41 average visit duration",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "425.6M total visits; 39.98% bounce rate; 6.09 pages/visit; avg duration 4:41",
+    "metric_unit": "visits; %; pages per visit; minutes:seconds",
+    "time_scope_raw": "March 2026; accessed April 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "425.6M total visits in March 2026",
+      "bounce rate 39.98%; 6.09 pages/visit; avg duration 4:41"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "SimilarWeb (accessed April 2026, March 2026 data). Etsy.com web traffic metrics: 425.6M visits, solid engagement. SimilarWeb panel-based estimates."
+    ]
+  }
+}

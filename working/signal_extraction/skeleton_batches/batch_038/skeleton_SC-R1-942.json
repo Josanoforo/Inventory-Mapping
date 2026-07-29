@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-942",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/c/jewelry",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+    "source_type": "search_results_page",
+    "source_title": "Jewelry",
+    "source_ref": "https://www.etsy.com/c/jewelry",
+    "source_date_if_available": "Accessed April 2026; listing undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"0.94 CTW Pear Lab Grown Diamond Halo Engagement Ring in 10K Gold | Teardrop Diamond Ring | Classic Halo Bridal Ring | Gift For Women — Sale Price $1,959.30, Original Price $2,799.00 (30% off), Shop: VOWANDCARAT, Ad, FREE shipping\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Etsy jewelry category page (etsy.com/c/jewelry, accessed April 2026) shows a sample listing: a 0.94 CTW pear lab-grown diamond halo engagement ring in 10K gold by VOWANDCARAT, sale price $1,959.30 (30% off from $2,799 original), with free shipping and promoted as an Ad",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "$1,959.30 sale price (30% off $2,799.00)",
+    "metric_unit": "USD; % discount",
+    "time_scope_raw": "Accessed April 2026; listing undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Example Etsy jewelry listing: VOWANDCARAT lab diamond ring, $1,959.30 (30% off $2,799), free shipping, promoted Ad"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "etsy.com/c/jewelry (Apr 2026). Sample listing: VOWANDCARAT lab diamond ring, $1,959.30 (30% off), Ad."
+    ]
+  }
+}

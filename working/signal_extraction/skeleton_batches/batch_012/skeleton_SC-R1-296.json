@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-296",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/en/teachers",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014",
+    "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-014",
+    "source_type": "platform_doc",
+    "source_title": "Teachers",
+    "source_ref": "https://www.domestika.org/en/teachers",
+    "source_date_if_available": "Page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The courses should be aimed at creating a project in any of the Domestika areas: photography and video, illustration, 3D and animation, marketing and business, design, calligraphy and typography, architecture and spaces, craft, web and app design, music and audio, writing, and fashion, etc.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika courses must target project creation within 12 listed creative categories: photography/video, illustration, 3D/animation, marketing/business, design, calligraphy/typography, architecture/spaces, craft, web/app design, music/audio, writing, fashion",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "course",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Global",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "aimed at creating a project",
+      "photography and video, illustration, 3D and animation, marketing and business, design, calligraphy and typography, architecture and spaces, craft, web and app design, music and audio, writing, and fashion"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Domestika Teachers page (undated). Course topic eligibility: project-based in 12 listed creative categories. Non-exhaustive list ('etc.' indicated)."
+    ]
+  }
+}

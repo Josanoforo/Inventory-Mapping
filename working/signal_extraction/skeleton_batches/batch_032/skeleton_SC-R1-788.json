@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-788",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://storeleads.app/reports/gumroad",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+    "source_type": "report",
+    "source_title": "Gumroad",
+    "source_ref": "https://storeleads.app/reports/gumroad",
+    "source_date_if_available": "Updated Mar 13 2026 (visible on page)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[Stated in layout: \"Category | Stores: Computers | 1,038; Arts & Entertainment | 864; People & Society | 847; Jobs & Education | 438; Business & Industrial | 434; Books & Literature | 328; Finance | 317; Beauty & Fitness | 300; Internet | 282; Health | 274; Science | 213; Games | 170; Food & Drink | 161; Sports | 133; Home & Garden | 106; Apparel | 104; Toys & Hobbies | 92; Travel | 89; Consumer Electronics | 71\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Storeleads.app (updated March 13, 2026) reports Gumroad store distribution by category: Computers leads at 1,038, followed by Arts & Entertainment (864), People & Society (847); 19 categories listed with 71–1,038 stores each",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "volume",
+    "metric_value_raw": "Computers: 1,038; Arts & Entertainment: 864; People & Society: 847; Jobs & Education: 438; Business & Industrial: 434; Books & Literature: 328; Finance: 317; Beauty & Fitness: 300; Internet: 282; Health: 274; Science: 213; Games: 170; Food & Drink: 161; Sports: 133; Home & Garden: 106; Apparel: 104; Toys & Hobbies: 92; Travel: 89; Consumer Electronics: 71",
+    "metric_unit": "stores per category",
+    "time_scope_raw": "Updated Mar 13 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Gumroad store distribution: Computers #1 (1,038), Arts & Entertainment #2 (864), People & Society #3 (847)",
+      "19 categories; total of visible stores sums to ~6,961 (partial list)"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "storeleads.app/reports/gumroad (updated March 13, 2026). Gumroad stores by category: Computers 1,038, Arts & Entertainment 864, People & Society 847. 19 categories shown."
+    ]
+  }
+}

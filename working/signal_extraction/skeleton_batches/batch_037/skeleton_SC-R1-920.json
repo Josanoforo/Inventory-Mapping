@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-920",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://hotmart.com/es/blog/vender-en-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-011",
+    "source_type": "blog",
+    "source_title": "Vender En Hotmart",
+    "source_ref": "https://hotmart.com/es/blog/vender-en-hotmart",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Entre los nichos con mayor potencial de retorno, encontramos el de Gastronomía y Culinaria; Salud y Deportes; Moda y Belleza; y Negocios y Profesión.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart blog (Spanish, hotmart.com/es/blog/vender-en-hotmart, undated) identifies four niches with the highest return potential on its platform: Gastronomy & Culinary, Health & Sports, Fashion & Beauty, and Business & Profession",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Top-return niches: Gastronomy/Culinary, Health/Sports, Fashion/Beauty, Business/Profession"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "hotmart.com/es/blog (undated). Top niches by return potential: Gastronomy, Health/Sports, Fashion/Beauty, Business/Profession."
+    ]
+  }
+}

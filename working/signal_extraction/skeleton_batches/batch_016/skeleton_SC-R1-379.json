@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-379",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+    "source_date_if_available": "August 23, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"They close your account at any given moment without any explanation. You can't build your business with them at all. So shady. Their support team don't even bother to study your case and just suspend your account and lock your payouts. They charge a Whopping 10% scam fee per sale and provide terrible service in exchange. Don't deal with them if you care about your business.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Seller reports arbitrary account closure and locked payouts without case review; describes Gumroad fee as 10% per sale while criticizing service quality",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "fee_rate",
+    "metric_value_raw": "10",
+    "metric_unit": "% per sale (Gumroad fee as cited by seller, Trustpilot, August 2025)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "10% fee per sale described as 'Whopping scam fee'",
+      "account closure at any time without explanation",
+      "payouts locked at suspension",
+      "support does not review individual cases"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Trustpilot review (August 23, 2025). Seller criticizes Gumroad for 10% per-sale fee, arbitrary account suspensions, locked payouts without support case review, and poor service quality."
+    ]
+  }
+}

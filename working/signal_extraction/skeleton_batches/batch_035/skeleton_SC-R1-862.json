@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-862",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://hotmart.com/es/blog/hotmart-reembolso",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010",
+    "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010",
+    "source_type": "blog",
+    "source_title": "Hotmart Reembolso",
+    "source_ref": "https://hotmart.com/es/blog/hotmart-reembolso",
+    "source_date_if_available": "19/02/2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The buyer canceled the purchase or requested a refund. Is the fee still charged? No, fees are charged only on approved and completed sales.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart blog (hotmart.com/es/blog/hotmart-reembolso, Feb 19, 2024) states platform fees are charged only on approved and completed sales; fees are not charged on canceled purchases or refund requests",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "19/02/2024",
+    "time_scope_normalized_if_safe": "2024-02",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Fees charged only on approved and completed sales; canceled purchases and refund requests are fee-free"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "hotmart.com/es/blog/hotmart-reembolso (Feb 19, 2024). Fee policy: no fees on refunds or cancellations; fees apply only to completed sales."
+    ]
+  }
+}

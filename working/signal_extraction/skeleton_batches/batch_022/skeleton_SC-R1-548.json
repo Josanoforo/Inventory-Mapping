@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-548",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://photutorial.com/shutterstock-vs-envato-elements",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-010",
+    "source_type": "article",
+    "source_title": "Shutterstock Vs Envato Elements",
+    "source_ref": "https://photutorial.com/shutterstock-vs-envato-elements",
+    "source_date_if_available": "2025 (title contains \"[2025]\")",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Envato Elements, on the other hand, has only one license option. While this simplifies the licensing process, it also means that users have less flexibility in terms of how they can use the assets they purchase. Most notably, the Envato license does not allow users to use assets for merchandise. Additionally, the legal coverage provided by the Envato license is significantly less than what is offered by the Standard license from Shutterstock, with only slightly above $200 in coverage. Verdict: Envato's license is much easier to understand but also more limiting and provides a smaller indemnity.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "photutorial.com article states Envato Elements has one license type that does not allow merchandise use; legal coverage is slightly above $200, less than Shutterstock's Standard license; simpler but more limiting",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato",
+      "Shutterstock"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "200",
+    "metric_unit": "USD (approximate legal indemnification coverage under Envato license)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Envato license: single type only; does not allow merchandise use",
+      "legal coverage: slightly above $200 (significantly less than Shutterstock Standard license)",
+      "simpler but more limiting than Shutterstock license tiers"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "photutorial.com article (2025, no specific date). Envato license: single type; no merchandise use; ~$200 legal coverage. Simpler but more limiting than Shutterstock."
+    ]
+  }
+}

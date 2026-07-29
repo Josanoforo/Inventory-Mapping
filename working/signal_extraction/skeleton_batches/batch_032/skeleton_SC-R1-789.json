@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-789",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://storeleads.app/reports/gumroad",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+    "source_type": "report",
+    "source_title": "Gumroad",
+    "source_ref": "https://storeleads.app/reports/gumroad",
+    "source_date_if_available": "Updated Mar 13 2026 (visible on page)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[Stated in layout: \"Quarter | Active Stores: 2022 Q3 | 2,661; 2022 Q4 | 4,399; 2023 Q1 | 5,551; 2023 Q2 | 9,726; 2023 Q3 | 11,595; 2023 Q4 | 13,347; 2024 Q1 | 14,543; 2024 Q2 | 16,656; 2024 Q3 | 17,016; 2024 Q4 | 17,213; 2025 Q1 | 17,607; 2025 Q2 | 18,126; 2025 Q3 | 18,871; 2025 Q4 | 19,321; 2026 Q1 (to date) | 9,605\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Storeleads.app (updated March 13, 2026) shows Gumroad quarterly active store count from Q3 2022 to Q1 2026: grew from 2,661 (Q3 2022) to 19,321 (Q4 2025); Q1 2026 partial at 9,605 through March 13",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "volume",
+    "metric_value_raw": "Q3 2022: 2,661; Q4 2022: 4,399; Q1 2023: 5,551; Q2 2023: 9,726; Q3 2023: 11,595; Q4 2023: 13,347; Q1 2024: 14,543; Q2 2024: 16,656; Q3 2024: 17,016; Q4 2024: 17,213; Q1 2025: 17,607; Q2 2025: 18,126; Q3 2025: 18,871; Q4 2025: 19,321; Q1 2026 to date: 9,605",
+    "metric_unit": "active stores per quarter",
+    "time_scope_raw": "Q3 2022 through Q1 2026 to date (updated Mar 13 2026)",
+    "time_scope_normalized_if_safe": "2022-Q3 to 2026-Q1",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Gumroad active stores: 2,661 (Q3 2022) → 19,321 (Q4 2025); 7.3x growth in ~3 years",
+      "Fastest growth in 2023 Q2 (9,726 vs Q1 5,551; +75% QoQ)",
+      "Growth rate decelerated from 2024 onward (incremental quarterly gains)"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "storeleads.app/reports/gumroad (updated March 13, 2026). Gumroad active stores quarterly: 2,661 (Q3 2022) to 19,321 (Q4 2025). Peak growth Q2 2023. Deceleration from Q3 2024."
+    ]
+  }
+}

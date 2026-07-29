@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-025",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007"
+  ],
+  "round": 1,
+  "signal_text": "Etsy's help center states that Etsy only deposits earnings in USD to a seller's Payoneer Payment Account, from which the seller can withdraw to a local bank account in over 150 countries and currencies via Payoneer's bank transfer service, which may carry a Payoneer fee.",
+  "subject_exact": "Etsy Payments deposit currency to Payoneer (USD only) and Payoneer withdrawal availability in 150+ countries",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "over 150 countries and currencies (via Payoneer bank transfer withdrawal)",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Payoneer may charge a fee for this service"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'platform': Etsy's own help-center description of its payout mechanism.",
+    "local_qualifiers trimmed: two of four inherited entries restated the main claim (already in signal_text); folded into signal_text, kept only the genuine caveat about a possible Payoneer fee."
+  ],
+  "extraction_notes": []
+}

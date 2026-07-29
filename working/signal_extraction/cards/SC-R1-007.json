@@ -1,0 +1,47 @@
+{
+  "signal_id": "SC-R1-007",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006"
+  ],
+  "round": 1,
+  "signal_text": "Video is Patreon's most popular content genre, constituting 25.88% of all profiles on the platform as of January 2025.",
+  "subject_exact": "Video content category share of Patreon creator profiles as of January 2025",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "25.88%",
+  "metric_unit": "percent of all Patreon profiles",
+  "time_scope_raw": "as of January 2025",
+  "time_scope_normalized_if_safe": "2025-01",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "as of January 2025",
+    "most popular genre",
+    "54,582 creators (absolute count equivalent of the 25.88% figure)"
+  ],
+  "uncertainties": [],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://earthweb.com/patreon-statistics",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006"
+    }
+  ],
+  "normalization_notes": [
+    "metric_value_raw narrowed to the percentage (25.88%); the absolute count (54,582 creators) is the same fact expressed in a different unit, preserved as a qualifier rather than as metric_value_raw to keep the field single-valued.",
+    "actor_level changed from inherited 'seller' to 'source': third-party statistics article (analysis, no first-person actor), not a seller speaking."
+  ],
+  "extraction_notes": []
+}

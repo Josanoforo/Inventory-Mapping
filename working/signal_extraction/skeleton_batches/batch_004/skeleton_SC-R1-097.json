@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-097",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://fetchprofits.com/payhip-vs-podia",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+    "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+    "source_type": "blog",
+    "source_title": "Payhip Vs Podia",
+    "source_ref": "https://fetchprofits.com/payhip-vs-podia",
+    "source_date_if_available": "Sep 19, 2022",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Podia pricing is still one of the more affordable options out there (compared to others). Further, Podia doesn't charge transactions on sales (Payhip does charge for transactions, unless you are on their Payhip Pro plan).\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "comparative_commentary",
+    "subject_exact": "Payhip transaction fee on sales applies unless on Payhip Pro plan, contrasted with Podia's no-transaction-fee pricing model",
+    "actor_level": "source",
+    "platforms": [
+      "Payhip",
+      "Podia"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "fee_rate",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "comparative_commentary",
+    "local_qualifiers": [
+      "Payhip does charge for transactions, unless you are on their Payhip Pro plan"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Sep 2022 comparison noting Payhip charges transaction fees on free/lower plans but not on Payhip Pro, while Podia charges no transaction fees. Platform pricing structures likely changed since 2022."
+    ]
+  }
+}

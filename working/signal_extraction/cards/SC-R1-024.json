@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-024",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006"
+  ],
+  "round": 1,
+  "signal_text": "Etsy's help center states that, at this time, sellers in locations without Etsy Payments availability cannot open a shop (a missing country from the shop-opening dropdown menu indicates unavailability), and that Etsy is working to expand Etsy Payments to more countries.",
+  "subject_exact": "Etsy shop opening restriction tied to Etsy Payments country availability",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "At this time"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/1500006519562-Why-Can-t-I-Open-a-Shop-in-My-Country",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-006"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'platform': Etsy's own help-center explanation, not a seller speaking.",
+    "local_qualifiers trimmed: three of four inherited entries restated claim content already captured in signal_text rather than adding scope conditions; folded into signal_text, kept only the genuine scope qualifier ('At this time')."
+  ],
+  "extraction_notes": []
+}

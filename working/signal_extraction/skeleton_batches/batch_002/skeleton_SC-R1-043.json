@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-043",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://tuquejasuma.com/domestika/reclamos/domestika-no-quiere-devolver-una-suscripcion-que-hacen-automaticamente",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004",
+    "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004",
+    "source_type": "unknown",
+    "source_title": "Domestika No Quiere Devolver Una Suscripcion Que Hacen Automaticamente",
+    "source_ref": "https://tuquejasuma.com/domestika/reclamos/domestika-no-quiere-devolver-una-suscripcion-que-hacen-automaticamente",
+    "source_date_if_available": "Accessed April 2026; post undated in search snippet",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "«Me dieron una suscripción gratis por un mes, y ahora me descontaron una suscripción anual, que no me interesa (no es un buen servicio y no vale lo que sale). Son 60usd, pero con los impuestos son unos 90mil pesos argentinos, es muchísimo dinero para nosotros.»",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Domestika annual subscription price reported by Argentina buyer as 60 USD, equivalent to approximately 90,000 ARS with taxes",
+    "actor_level": "buyer",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "price",
+    "metric_value_raw": "60 USD / ~90000 ARS",
+    "metric_unit": "USD and ARS",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": [
+      "Argentina"
+    ],
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "con los impuestos son unos 90mil pesos argentinos"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "current_vs_historical_ambiguity",
+      "net_vs_gross_ambiguity"
+    ],
+    "parser_notes": [
+      "Buyer complaint on third-party platform. ARS amount includes local taxes, which the buyer distinguishes from the 60 USD base price. Exchange-rate-derived figure not independently verified."
+    ]
+  }
+}

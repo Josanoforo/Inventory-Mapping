@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-976",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+    "source_type": "help_center",
+    "source_title": "Connect Your Flutterwave Account",
+    "source_ref": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+    "source_date_if_available": "Undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"Flutterwave's standard fee for online credit card transactions ranges from 2.6% - 4.8% per transaction depending on your country/region and where your customer is paying from. Fees vary by payment methods, please check Flutterwave's pricing page for the latest updates. Note that these fees are collected by Flutterwave and do not go to Payhip.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/367-connect-your-flutterwave-account, undated) states Flutterwave standard fee for online credit card transactions ranges from 2.6%–4.8% per transaction depending on country/region and customer payment origin; fees collected by Flutterwave, not Payhip",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "2.6%–4.8% per transaction (range, varies by country/region and payment method)",
+    "metric_unit": "% per transaction (range)",
+    "time_scope_raw": "Undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Flutterwave fee: 2.6%–4.8% per transaction (varies by country/region and payment method); collected by Flutterwave not Payhip"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "help.payhip.com (undated). Flutterwave: 2.6%–4.8% credit card fee; country/method dependent; not Payhip revenue."
+    ]
+  }
+}

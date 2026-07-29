@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-933",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+    "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+    "source_type": "blog",
+    "source_title": "Top Keywords On Etsy",
+    "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "source_date_if_available": "6 April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Since then, \\\"crochet pattern\\\" has dropped to #58 but boy has purchase intent soared! Its monthly CTR is up by 892%!\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "ERank blog (help.erank.com/blog/top-keywords-on-etsy, Apr 6, 2026) states the Etsy search keyword 'crochet pattern' dropped to rank #58 while its monthly click-through rate increased by 892%, indicating high purchase intent despite lower search rank",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "rank #58; monthly CTR +892%",
+    "metric_unit": "search rank; % CTR growth",
+    "time_scope_raw": "6 April 2026",
+    "time_scope_normalized_if_safe": "2026-04",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "'crochet pattern': rank #58 but monthly CTR +892%; high purchase intent despite lower search rank"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.erank.com (Apr 6, 2026). 'crochet pattern': rank #58, monthly CTR +892%; ERank data."
+    ]
+  }
+}

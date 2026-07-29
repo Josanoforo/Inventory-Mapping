@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-986",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/374-missing-payment-or-payout",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023",
+    "source_type": "help_center",
+    "source_title": "Missing Payment Or Payout",
+    "source_ref": "https://help.payhip.com/article/374-missing-payment-or-payout",
+    "source_date_if_available": "Last updated March 17, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"When a sale is made on Payhip, the payment is processed and sent directly to your connected payment processor at the time of purchase.\"\n\n> \"Payment processors will occasionally hold a transaction and mark it as pending, on hold, or processing, which means the funds won't be available until the payment works its way through. You can check the status in your payment processor account. If it's been pending for more than 48 hours, you'll need to reach out to them directly to get further clarification.\"\n\n> \"Sometimes you may expect the full sale amount to be credited to your account, but keep in mind that platform and payment processor fees may apply. Because of this, the net amount you receive may be lower than expected.\"\n\n> \"Payments are always routed to whichever account was connected at the exact moment a purchase was made.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/374-missing-payment-or-payout, Mar 17, 2026) states payment is processed and sent directly to connected payment processor at time of purchase; processors may hold transactions as pending (48h threshold before escalating to processor); net payout may be lower than sale amount due to platform and processor fees; payment always routes to the account connected at exact moment of purchase",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Last updated March 17, 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Payhip: payments route directly to processor at purchase time; processor holds possible (48h threshold); net amount reduced by platform + processor fees; routes to account connected at moment of purchase"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.payhip.com (Mar 17, 2026). Payment routing: direct to processor; 48h hold threshold; net amount reduced by fees; routes to account connected at purchase time."
+    ]
+  }
+}

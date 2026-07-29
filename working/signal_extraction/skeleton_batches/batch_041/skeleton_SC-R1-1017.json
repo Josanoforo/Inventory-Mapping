@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1017",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.kichink.com/crea-tu-tienda",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009",
+    "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009",
+    "source_type": "platform_doc",
+    "source_title": "Crea Tu Tienda",
+    "source_ref": "https://www.kichink.com/crea-tu-tienda",
+    "source_date_if_available": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Kichink tiene las tarifas más bajas del mercado, empezando en $79 pesos. También hacemos envíos internacionales, empezando en $30 USD. Los costos varían dependiendo del peso y el lugar al que se envían.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Kichink platform page (kichink.com/crea-tu-tienda, ©2025) states Kichink has the lowest shipping rates in the market, starting at MXN $79; international shipping starts at $30 USD; rates vary by weight and destination",
+    "actor_level": "platform",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "domestic from MXN $79; international from $30 USD",
+    "metric_unit": "MXN / USD per shipment (starting rates)",
+    "time_scope_raw": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Kichink: shipping from MXN $79 domestic; from $30 USD international; varies by weight and destination"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "kichink.com (©2025). Shipping: from MXN $79 domestic; $30 USD international."
+    ]
+  }
+}

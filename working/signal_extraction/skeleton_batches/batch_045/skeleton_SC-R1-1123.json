@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1123",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+    "source_type": "unknown",
+    "source_title": "Complaints",
+    "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "source_date_if_available": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I purchased a digital product on Gumroad for approximately $200. The seller failed to deliver the product properly, and I could not access the content from the day of purchase. The link/pages were unavailable and did not function. I contacted the seller many times, but they stopped responding and provided no solution at all. I then contacted Gumroad support and provided full evidence, including screenshots, purchase receipts, and the entire message history. Gumroad repeatedly told me to contact the seller directly and refused to intervene, even though their own policy states that Gumroad may step in when a seller does not respond for 30 days.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "BBB complaint (July 10, 2025) describes a buyer who paid approximately $200 for a digital product on Gumroad; product link was non-functional from purchase date; after seller became unresponsive, Gumroad support declined to intervene despite Gumroad's stated policy allowing intervention after 30 days of seller non-response",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "approximately $200 digital product purchase",
+    "metric_unit": "USD purchase amount",
+    "time_scope_raw": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+    "time_scope_normalized_if_safe": "2025-07-10",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "BBB complaint (Jul 10, 2025): ~$200 Gumroad digital product non-functional from purchase; seller unresponsive; Gumroad support refused to intervene despite own 30-day seller non-response policy"
+    ],
+    "uncertainties": [
+      "anecdotal_single_source"
+    ],
+    "parser_notes": [
+      "bbb.org (Jul 10, 2025). English. Gumroad BBB complaint: ~$200 digital product link broken from day 1; seller unresponsive; Gumroad support refused to intervene, directing buyer to contact seller despite Gumroad policy allowing platform intervention after 30 days of seller non-response."
+    ]
+  }
+}

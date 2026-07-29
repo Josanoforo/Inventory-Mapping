@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-526",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-015"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/legal/fees",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-015",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-015",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-015",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_type": "policy_page",
+    "source_title": "Fees",
+    "source_ref": "https://www.etsy.com/legal/fees",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Etsy offers sellers in certain locations the ability to purchase shipping labels to fulfill their orders. The cost of the shipping label will depend on the shipping carrier, and the origin, destination, weight, and dimensions of the package.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states shipping labels for order fulfillment are available to sellers in certain locations; cost varies by carrier, origin, destination, weight, and dimensions",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "shipping labels available in certain locations only (specific locations not stated in snippet)",
+      "cost varies by carrier, origin, destination, weight, and package dimensions"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Etsy legal/fees page (current as of April 2026). Etsy shipping labels: available in certain locations (unspecified); cost varies by carrier, origin, destination, weight, dimensions."
+    ]
+  }
+}

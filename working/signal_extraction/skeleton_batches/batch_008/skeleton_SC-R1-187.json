@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-187",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+    "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+    "source_type": "news",
+    "source_title": "Un Solo Sitio Para Venderlo Todo",
+    "source_ref": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+    "source_date_if_available": "21 de junio de 2016",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Hacer entregas nacionales e internacionales es fundamental, una amiga mía vive en Bután y le compró dos kilos de chocolate a una marca mexicana y nosotros se lo mandamos\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Kichink founder cites completed delivery of 2kg chocolate from Mexican brand to Bhutan as example of international shipping reach (June 2016)",
+    "actor_level": "platform",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "June 2016",
+    "time_scope_normalized_if_safe": "2016",
+    "geography_if_explicit": "Bhutan; Mexico",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "una amiga mía vive en Bután",
+      "le compró dos kilos de chocolate a una marca mexicana",
+      "nosotros se lo mandamos"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Milenio news (June 21, 2016): Kichink founder gives example of completed delivery to Bhutan — 2kg Mexican chocolate — as evidence of international shipping reach. Spanish snippet preserved in local_qualifiers. current_vs_historical_ambiguity: example from 2016."
+    ]
+  }
+}

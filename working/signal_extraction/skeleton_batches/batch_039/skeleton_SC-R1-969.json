@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-969",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/343-connecting-your-mercado-pago-account",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014",
+    "source_type": "help_center",
+    "source_title": "Connecting Your Mercado Pago Account",
+    "source_ref": "https://help.payhip.com/article/343-connecting-your-mercado-pago-account",
+    "source_date_if_available": "Last updated December 31, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"Mercado Pago is available in Argentina, Brazil, Chile, Colombia, Mexico, Peru and Uruguay.\"\n\n> \"Supported currencies include ARS, BRL, CLP, COP, MXN, PEN, and UYU.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/343-connecting-your-mercado-pago-account, Dec 31, 2025) states Mercado Pago is available in 7 countries: Argentina, Brazil, Chile, Colombia, Mexico, Peru, and Uruguay; supported currencies are ARS, BRL, CLP, COP, MXN, PEN, and UYU",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "volume",
+    "metric_value_raw": "7 countries; 7 currencies",
+    "metric_unit": "country count; currency count",
+    "time_scope_raw": "Last updated December 31, 2025",
+    "time_scope_normalized_if_safe": "2025-12",
+    "geography_if_explicit": "Latin America",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Mercado Pago: 7 LatAm countries (AR, BR, CL, CO, MX, PE, UY) + 7 currencies (ARS, BRL, CLP, COP, MXN, PEN, UYU)"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.payhip.com (Dec 31, 2025). Mercado Pago: 7 LatAm countries, 7 currencies listed."
+    ]
+  }
+}

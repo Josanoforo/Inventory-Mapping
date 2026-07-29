@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-722",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/59-adding-a-digital-product",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008",
+    "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008",
+    "source_type": "article",
+    "source_title": "Adding A Digital Product",
+    "source_ref": "https://help.payhip.com/article/59-adding-a-digital-product",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"You can upload multiple files, including ebooks, PDFs, audio, video, or other file types. Each file can be up to 5GB in size.\" … \"We support most file types, including PDFs, audio, video, ZIP files, and more. However, certain file types such as EXE, ISO, DMG, VBS, SCR, and JAR are not supported.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help documentation describes digital product upload specifications: multiple file uploads supported (ebooks, PDFs, audio, video, ZIP, others); maximum 5GB per file; restricted file types: EXE, ISO, DMG, VBS, SCR, JAR",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": "digital products (ebooks, PDFs, audio, video)",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "multiple file uploads; supported types: ebooks, PDFs, audio, video, ZIP; max 5GB per file",
+      "restricted file types: EXE, ISO, DMG, VBS, SCR, JAR"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "help.payhip.com (accessed April 2026; page undated). Payhip digital product upload: file size limit (5GB per file), supported types, and restricted extensions."
+    ]
+  }
+}
