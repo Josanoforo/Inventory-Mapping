@@ -1,0 +1,75 @@
+{
+  "signal_id": "SC-R1-884",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+    "source_type": "article",
+    "source_title": "Patreon Vs Youtube Memberships Creators",
+    "source_ref": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+    "source_date_if_available": "Accessed April 2026; last updated March 4, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The math: on $10,000 monthly subscription revenue, YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200. Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Fluxnote article (fluxnote.io, last updated March 4, 2026) compares creator payouts at $10K monthly revenue: YouTube Memberships nets $7,000 (30% fee); Patreon Pro nets $8,700-$9,200; annual difference favors Patreon by $20,400",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon",
+      "YouTube"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "revenue",
+    "metric_value_raw": "YouTube Memberships: $7,000/mo net; Patreon Pro: $8,700-$9,200/mo net at $10,000 monthly revenue",
+    "metric_unit": "USD monthly net payout",
+    "time_scope_raw": "Accessed April 2026; last updated March 4, 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "At $10K/mo: YouTube Memberships $7,000 net (30% fee) vs Patreon Pro $8,700-$9,200 net; Patreon advantage = $20,400/yr"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "fluxnote.io (last updated Mar 4, 2026). Patreon vs YouTube Memberships at $10K/mo: YouTube $7,000 net vs Patreon $8,700-$9,200 net; annual Patreon advantage $20,400."
+    ]
+  }
+}

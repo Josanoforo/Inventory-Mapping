@@ -1,0 +1,50 @@
+{
+  "signal_id": "SC-R1-023",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-005-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-005"
+  ],
+  "round": 1,
+  "signal_text": "Etsy's help center states that sellers in countries marked with an asterisk can accept Etsy Payments via a Payoneer Payment Account, noting that Etsy currently offers payment services only in certain countries and is working to expand.",
+  "subject_exact": "Etsy Payments geographic availability and Payoneer integration for sellers in asterisk-designated countries",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "only in certain countries at this time",
+    "working to support additional countries in the future"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015710408-Countries-Eligible-for-Etsy-Payments",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-005-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-005"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'platform': this is Etsy's own help-center description of its payments availability, not a seller speaking.",
+    "local_qualifiers trimmed: the first inherited qualifier duplicated the main claim (already in signal_text) rather than adding a scope condition; shortened to the limiting conditions themselves."
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-962",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/341-connecting-your-mollie-account",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012",
+    "source_type": "help_center",
+    "source_title": "Connecting Your Mollie Account",
+    "source_ref": "https://help.payhip.com/article/341-connecting-your-mollie-account",
+    "source_date_if_available": "Last updated February 22, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"The standard Mollie fee for online credit card transactions ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction for European Economic Area consumer credit cards from Mastercard and Visa. Rates vary by payment methods, please check Mollie's pricing page for the latest updates. Note that these fees are collected by Mollie and do not go to Payhip.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/341-connecting-your-mollie-account, Feb 22, 2026) states standard Mollie fee for online credit card transactions ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction for EEA Mastercard and Visa consumer cards; these fees go to Mollie, not Payhip",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "1.80% + €0.25 to 2.90% + €0.25 per transaction (EEA credit cards)",
+    "metric_unit": "% + EUR fixed fee per transaction",
+    "time_scope_raw": "Last updated February 22, 2026",
+    "time_scope_normalized_if_safe": "2026-02",
+    "geography_if_explicit": "European Economic Area",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Mollie EEA credit card fees: 1.80%-2.90% + €0.25 per transaction; Mastercard/Visa; collected by Mollie not Payhip"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.payhip.com (Feb 22, 2026). Mollie EEA fees: 1.80%-2.90% + €0.25; Mastercard/Visa; not Payhip revenue."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-660",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.kichink.com/search/ropa",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007",
+    "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007",
+    "source_type": "search_results_page",
+    "source_title": "Ropa",
+    "source_ref": "https://www.kichink.com/search/ropa",
+    "source_date_if_available": "Accedido abril 2026; copyright de la página @2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[Stated in layout: \"Categorias · Sub categorias · Precio · Pais · Otros · Filtros · PRODUCTOS · TIENDAS · COLECCIONES · Done\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Kichink clothing search page offers filters for categories, subcategories, price, and country ('Pais'); search results organized across Products, Stores, and Collections tabs",
+    "actor_level": "platform",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": "physical goods (clothing/apparel)",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; copyright @2024",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Mexico (country filter 'Pais' confirms multi-country browsing capability)",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "search filters: categories, subcategories, price, country ('Pais'), other",
+      "result tabs: PRODUCTOS, TIENDAS, COLECCIONES",
+      "country filter confirms multi-national browsing support"
+    ],
+    "uncertainties": [
+      "context_insufficient",
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "kichink.com/search/ropa (copyright 2024, accessed April 2026). Clothing search with category/subcategory/price/country filters and Products/Stores/Collections result tabs. Country filter ('Pais') indicates multi-national browsing support."
+    ]
+  }
+}

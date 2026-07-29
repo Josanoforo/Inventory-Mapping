@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1105",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+    "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+    "source_type": "help_center",
+    "source_title": "Ventas Globales Responsabilidades Fiscales Sobre Las Ventas Realizadas A Traves De Hotmart",
+    "source_ref": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+    "source_date_if_available": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Escenario 14 Si tu comprador está en Colombia y tú, Productor(a), tienes tu cuenta registrada en Colombia u otro país, sea personal o empresarial, tendrás la responsabilidad de gestionar los impuestos y emitir las facturas.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart fiscal responsibilities help center (help.hotmart.com/es, effective January 1, 2024 / April 1, 2025) states in Scenario 14: when a buyer is in Colombia, the producer is responsible for managing taxes and issuing invoices regardless of the producer's registered country, whether personal or business account",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+    "time_scope_normalized_if_safe": "2024-01-01",
+    "geography_if_explicit": "Colombia",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Hotmart help (eff. Jan 1, 2024 / Apr 1, 2025): Scenario 14 — Colombia buyer: producer handles taxes and invoicing regardless of producer's country or account type"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.hotmart.com (eff. Jan 1, 2024 / Apr 1, 2025). Spanish. Scenario 14: Colombia buyer sales — producer bears full tax/invoice responsibility. Contrasts with Scenario 5 (US buyer) where Hotmart handles all."
+    ]
+  }
+}

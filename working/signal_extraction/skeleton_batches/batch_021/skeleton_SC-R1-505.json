@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-505",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/360046998234-How-to-Receive-Your-Etsy-Payments-Deposit",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-012",
+    "source_type": "help_center",
+    "source_title": "How To Receive Your Etsy Payments Deposit",
+    "source_ref": "https://help.etsy.com/hc/en-us/articles/360046998234-How-to-Receive-Your-Etsy-Payments-Deposit",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Funds sent through instant transfers will typically be available within 30 minutes and have a fee of 1% of the transfer amount, with a minimum of 25¢ and a maximum of $1 USD.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states instant transfer funds are typically available within 30 minutes with a fee of 1% of transfer amount (minimum $0.25, maximum $1 USD)",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "fee_rate",
+    "metric_value_raw": "1",
+    "metric_unit": "percent of transfer amount for Etsy instant transfer (minimum $0.25, maximum $1 USD)",
+    "time_scope_raw": "30 minutes (typical availability for instant transfers)",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "instant transfer funds typically available within 30 minutes",
+      "fee: 1% of transfer amount",
+      "minimum fee: $0.25 USD; maximum fee: $1 USD"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Etsy Help Center (current as of April 2026). Instant transfer: funds available within 30 minutes (typical); fee 1% of transfer amount (min $0.25, max $1 USD)."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "signal_id": "SC-R1-016",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011"
+  ],
+  "round": 1,
+  "signal_text": "Stealth Agents advertises its Patreon growth agency service at $1,600 per month, positioning it against a claimed in-house marketing-manager equivalent cost of $71,500 per year.",
+  "subject_exact": "Stealth Agents Patreon growth agency pricing versus in-house marketing manager equivalent cost",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$1,600/month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "full-time, dedicated",
+    "In-House Equivalent Cost: Marketing Manager salary + benefits = $71,500/year",
+    "Your Annual Savings: $52,300 back in your business",
+    "Content Creation Speed: 3x faster with dedicated support",
+    "Subscriber Growth Rate: 40-60% increase in monthly growth"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://stealthagents.com/patreon-growth-agency",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'third_party': first-person pricing/marketing copy from the agency vendor about its own service.",
+    "Growth-rate, speed, and savings figures preserved as qualifiers rather than separate cards or additional metric_value_raw entries: they are the vendor's own self-comparison framing for the single service-price claim, not independently observable facts (no methodology stated for the growth-rate claim)."
+  ],
+  "extraction_notes": []
+}

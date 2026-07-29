@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-413",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://community.etsy.com/t5/Technical-Issues/Seeking-Help-Appeal-for-Suspended-Account/m-p/148545769",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006",
+    "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-006",
+    "source_type": "seller_forum",
+    "source_title": "M P",
+    "source_ref": "https://community.etsy.com/t5/Technical-Issues/Seeking-Help-Appeal-for-Suspended-Account/m-p/148545769",
+    "source_date_if_available": "June 13, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"As a new seller, I failed to manually update the tracking numbers for two Printify T-shirt orders. I genuinely believed they would sync automatically, as they had with my candle orders. I now understand that it was my responsibility. These orders were shipped on time by Printify, but I believe my failure to update the tracking contributed to the suspension. This was never an attempt to ignore Etsy's policies. I was doing my best, but I made a mistake due to my inexperience. Since the suspension, I've submitted four appeals and sent multiple emails, but I haven't received a clear explanation or the opportunity to speak with someone directly.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "New Etsy seller's account suspended after failing to manually update tracking for 2 Printify orders; submitted 4 appeals and multiple emails with no explanation or human contact from Etsy",
+    "actor_level": "seller",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "count",
+    "metric_value_raw": "4",
+    "metric_unit": "appeals submitted to Etsy after account suspension without resolution (June 2025)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "new seller suspended for failing to manually update tracking on 2 Printify orders",
+      "tracking was not auto-synced from Printify to Etsy",
+      "orders were shipped on time by Printify",
+      "4 appeals submitted with no clear explanation",
+      "multiple emails with no direct human contact from Etsy"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Etsy seller forum (June 13, 2025). New seller suspended for missing manual tracking updates on 2 Printify orders; submitted 4 appeals and multiple emails but received no explanation or human contact from Etsy."
+    ]
+  }
+}

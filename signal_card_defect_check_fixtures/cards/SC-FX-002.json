@@ -1,0 +1,31 @@
+{
+  "signal_id": "SC-FX-002",
+  "source_record_ids": ["FX-P2-COMPARATIVE-REC"],
+  "source_ids": ["SRC-fixture-002"],
+  "round": 1,
+  "signal_text": "Sellers report reduced search visibility on the platform.",
+  "subject_exact": "sellers reporting reduced search visibility",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search_discovery",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "since June 2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Reported drop of around 5% in search visibility since June 2025 compared to the prior benchmark period, though the platform has not confirmed an algorithm change."
+  ],
+  "uncertainties": ["context_insufficient"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-P2-COMPARATIVE-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

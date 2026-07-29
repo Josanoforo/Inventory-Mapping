@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-521",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-010"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/legal/fees",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-010",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-010",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-010",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_type": "policy_page",
+    "source_title": "Fees",
+    "source_ref": "https://www.etsy.com/legal/fees",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"For the purpose of calculating this $10,000 USD threshold, sales are calculated by multiplying item price by quantity (minus any discounts or formally cancelled orders), but excluding Pattern orders, In Person Payment orders, Etsy fees, or separately charged shipping, taxes, or gift wrap. For sellers with shop currencies other than USD, the $10,000 USD threshold is calculated with the currency exchange rates used by Etsy at the time that the relevant sales were processed. Exchange rates used are variable and are provided by a third party financial services company.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states the Offsite Ads $10,000 USD threshold is calculated from item price × quantity minus discounts/cancelled orders, excluding Pattern orders, In Person Payment orders, Etsy fees, shipping, taxes, and gift wrap; non-USD currencies converted using variable third-party exchange rates at time of sale",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "threshold calculation: item price × quantity minus discounts and cancelled orders",
+      "excludes Pattern orders, In Person Payment orders, Etsy fees, shipping, taxes, gift wrap",
+      "non-USD shops: threshold converted using Etsy's variable third-party exchange rates at time of sale"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "Etsy legal/fees page (current as of April 2026). Offsite Ads $10,000 USD threshold: item price × quantity minus discounts/cancelled orders; excludes Pattern, In Person, fees, shipping, taxes, gift wrap. Non-USD: variable third-party exchange rates at time of sale."
+    ]
+  }
+}

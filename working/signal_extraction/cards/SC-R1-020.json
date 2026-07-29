@@ -1,0 +1,60 @@
+{
+  "signal_id": "SC-R1-020",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002"
+  ],
+  "round": 1,
+  "signal_text": "A Craftybase changelog entry reports that Etsy added 9 new Payoneer-based countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand.",
+  "subject_exact": "Craftybase Etsy fee calculator country expansion: 9 Payoneer-based countries added",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": 9,
+  "metric_unit": "new countries",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Argentina",
+    "Brazil",
+    "Chile",
+    "China",
+    "Egypt",
+    "India",
+    "Japan",
+    "South Korea",
+    "Thailand"
+  ],
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "March 2026 changelog entry",
+    "Payoneer-based countries where Etsy processes fees in USD"
+  ],
+  "uncertainties": [
+    "time_scope_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://craftybase.com/etsy/fee-calculator",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw set to null: 'March 2026' is the changelog entry's own date (record metadata) and does not appear as literal text within snippet_primary itself. This is a borderline case worth flagging: unlike an incidental page-access timestamp, a changelog's own dateline arguably describes when the reported event occurred, not just when the page was viewed — but it is still not verbatim-present in the snippet text, so per the verbatim-only rule for time_scope_raw it is not preserved here. Flagged for operator judgment.",
+    "actor_level changed from inherited 'marketplace' to 'source': this is Craftybase (a third-party tool) reporting on an Etsy platform change, not Etsy itself speaking, and not Craftybase promoting its own product features."
+  ],
+  "extraction_notes": []
+}

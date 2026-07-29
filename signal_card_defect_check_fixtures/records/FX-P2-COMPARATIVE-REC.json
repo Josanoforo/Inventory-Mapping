@@ -1,0 +1,35 @@
+{
+  "extraction_id": "FX-P2-COMPARATIVE-REC",
+  "source_packet_id": "SP-fixture-002",
+  "source_id": "SRC-fixture-002",
+  "source_type": "forum_thread",
+  "source_title": "Fixture: seller forum thread on search visibility",
+  "source_ref": "https://example.invalid/fixture/forum-thread",
+  "source_date_if_available": "Retrieved June 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Several sellers reported a drop of around 5% in search visibility since June 2025 compared to the prior benchmark period, though the platform has not confirmed an algorithm change.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "sellers reporting reduced search visibility",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "search_discovery",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "since June 2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Reported drop of around 5% in search visibility since June 2025 compared to the prior benchmark period, though the platform has not confirmed an algorithm change."
+  ],
+  "uncertainties": ["context_insufficient"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/forum-thread",
+    "secondary_pointer": null
+  }
+}

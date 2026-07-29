@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-683",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.similarweb.com/website/etsy.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-004",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-004",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-004",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014",
+    "source_type": "report",
+    "source_title": "Website",
+    "source_ref": "https://www.similarweb.com/website/etsy.com",
+    "source_date_if_available": "Accessed April 2026; data labeled March 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"United States · 57.21% United Kingdom · 7.65% Canada · 4.78% Germany · 4.15%\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "SimilarWeb reports Etsy.com March 2026 traffic by country: United States 57.21%, United Kingdom 7.65%, Canada 4.78%, Germany 4.15%",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "US 57.21%; UK 7.65%; Canada 4.78%; Germany 4.15% of traffic",
+    "metric_unit": "% of total traffic",
+    "time_scope_raw": "March 2026; accessed April 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": "United States, United Kingdom, Canada, Germany",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "US: 57.21% of etsy.com traffic",
+      "UK: 7.65%; Canada: 4.78%; Germany: 4.15%",
+      "US dominant; English-speaking markets prominent"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "SimilarWeb (accessed April 2026, March 2026 data). Etsy.com geographic traffic distribution: US dominates at 57%, followed by UK, Canada, Germany. SimilarWeb panel-based estimates."
+    ]
+  }
+}

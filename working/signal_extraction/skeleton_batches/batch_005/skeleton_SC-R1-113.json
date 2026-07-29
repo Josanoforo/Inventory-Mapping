@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-113",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://webappmeister.com/shopify-vs-payhip",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014",
+    "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-014",
+    "source_type": "blog",
+    "source_title": "Shopify Vs Payhip",
+    "source_ref": "https://webappmeister.com/shopify-vs-payhip",
+    "source_date_if_available": "March 9, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Payhip wins on pricing accessibility. A $0 entry point with all features included is genuinely rare in ecommerce. Shopify offers more infrastructure at higher tiers, but for lean creator businesses, Payhip's model is the more affordable starting point.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "comparative_commentary",
+    "subject_exact": "Payhip $0 entry point with all features cited as rare in ecommerce; more affordable starting point than Shopify's tiered model for lean creator businesses",
+    "actor_level": "third_party_observer",
+    "platforms": [
+      "Payhip",
+      "Shopify"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "wins on pricing accessibility",
+      "$0 entry point with all features included",
+      "genuinely rare in ecommerce",
+      "lean creator businesses"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Independent blog comparison (March 2026): characterizes Payhip's free plan ($0 entry, all features) as rare in ecommerce and favorable for lean creators vs Shopify's infrastructure-at-cost model. No quantitative fee comparison in this snippet."
+    ]
+  }
+}

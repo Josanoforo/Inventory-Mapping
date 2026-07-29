@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-987",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/64-connecting-your-paypal-account",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024",
+    "source_type": "help_center",
+    "source_title": "Connecting Your Paypal Account",
+    "source_ref": "https://help.payhip.com/article/64-connecting-your-paypal-account",
+    "source_date_if_available": "Undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"The standard credit and debit card payment fee is 2.99% + a fixed fee per transaction, which varies according to the transaction currency. An additional 1.5% applies to international commercial transactions. Note that these fees are collected by PayPal and do not go to Payhip.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/64-connecting-your-paypal-account, undated) states PayPal standard credit/debit card fee is 2.99%+fixed fee per transaction (fixed fee varies by currency); additional 1.5% applies to international commercial transactions; fees collected by PayPal, not Payhip",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "2.99% + fixed fee per transaction (currency-dependent); +1.5% for international commercial transactions",
+    "metric_unit": "% + fixed fee per transaction",
+    "time_scope_raw": "Undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "PayPal fee: 2.99%+fixed (currency-dependent); +1.5% international commercial; collected by PayPal not Payhip"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "help.payhip.com (undated). PayPal: 2.99%+fixed; +1.5% international; not Payhip revenue."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1005",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://payhip.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-031",
+    "source_type": "policy_page",
+    "source_title": "Terms",
+    "source_ref": "https://payhip.com/terms",
+    "source_date_if_available": "\"Last updated: 19 February 2018\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"Payhip Limited is a company incorporated in England and Wales with registration no 08386910. We own and operate www.payhip.com. Our registered office is Payhip, 167-169 Great Portland Street, 5th Floor, W1W 5PF, London, United Kingdom.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip terms of service (payhip.com/terms, Feb 19, 2018) states Payhip Limited is incorporated in England and Wales (registration no. 08386910); registered office at 167-169 Great Portland Street, 5th Floor, London W1W 5PF, UK",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Last updated: 19 February 2018",
+    "time_scope_normalized_if_safe": "2018-02",
+    "geography_if_explicit": "United Kingdom",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Payhip: UK company (England/Wales) reg 08386910; London W1W 5PF registered office"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "payhip.com/terms (Feb 19, 2018). Payhip Limited: UK company reg 08386910; London W1W 5PF."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-466",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-004",
+      "secondary_pointer": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-004",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-004",
+    "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+    "source_type": "unknown",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+    "source_date_if_available": "Accessed April 14, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I've been a long-time customer of Envato, which is why the new GenAI plans are particularly disappointing. Limiting users to just 10 generations feels out of touch with how these tools are actually used.  Competitors like Kling and Google clearly offer more value for the price. When I reached out for clarification, the response I received was essentially: this is the plan, take it or leave it.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Envato long-time subscriber reports new GenAI plan limiting to 10 AI generations per month is inadequate compared to competitors (Kling, Google), with support providing no flexibility",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "count",
+    "metric_value_raw": "10",
+    "metric_unit": "AI generations per month included in Envato GenAI plan",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "long-time customer",
+      "new GenAI plan limits to 10 generations per month",
+      "competitors Kling and Google cited as offering more value",
+      "support response non-negotiable: take it or leave it"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Trustpilot review (accessed April 14, 2026; individual review date unknown). Long-time Envato subscriber reports new GenAI plan limits to 10 generations/month; competitor platforms (Kling, Google) cited as better value; support response non-negotiable."
+    ]
+  }
+}

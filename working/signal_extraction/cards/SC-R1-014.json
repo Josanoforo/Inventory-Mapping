@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-014",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon's podcast rankings page lists Matt and Shane's Secret Podcast ('Creating Hot Casts') with 118,491 paid members.",
+  "subject_exact": "Matt and Shane's Secret Podcast paid member count on Graphtreon's podcast rankings page",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "118,491",
+  "metric_unit": "paid members",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Updated daily"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/top-patreon-creators/podcasts",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-009"
+    }
+  ],
+  "normalization_notes": [
+    "Split from this snippet: it lists three distinct named creators (Matt and Shane's Secret Podcast, Chapo Trap House, TrueAnon Podcast) with independent stats; each expressed as its own card since they are separate subjects, not one coherent observation.",
+    "time_scope_raw set to null: not verbatim in snippet.",
+    "actor_level changed from inherited 'seller' to 'source'."
+  ],
+  "extraction_notes": []
+}

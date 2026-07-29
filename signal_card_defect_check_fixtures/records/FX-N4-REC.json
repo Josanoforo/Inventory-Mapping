@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-N4-REC",
+  "source_packet_id": "SP-fixture-n04",
+  "source_id": "SRC-fixture-n04",
+  "source_type": "database_listing",
+  "source_title": "Fixture: regional shop directory",
+  "source_ref": "https://example.invalid/fixture/regional-directory",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "The seller directory lists 812 active shops in the region; the top-performing shop recorded 4,390 sales last quarter.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "active shops in the region",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": "812",
+  "metric_unit": "shops",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/regional-directory",
+    "secondary_pointer": null
+  }
+}

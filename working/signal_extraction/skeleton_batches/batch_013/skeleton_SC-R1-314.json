@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-314",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/es/privacy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+    "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+    "source_type": "policy_page",
+    "source_title": "Privacy",
+    "source_ref": "https://www.domestika.org/es/privacy",
+    "source_date_if_available": "\"Esta Política de Privacidad fue actualizada por última vez el 10 de julio de 2024.\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Para gestionar tu relación con Domestika como Profesor, Creativo o Afiliado, con el fin de cumplir con las obligaciones que de ella se deriven. Domestika necesitará tratar los Datos Personales relevantes para contactarte con el fin de organizar cursos, materiales o campañas, procesar el pago de tus honorarios, etc. Este tratamiento de datos se basa en la relación contractual que tienes con Domestika.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika processes personal data of Teachers, Creatives, and Affiliates for contact, course organization, and fee payment processing; legal basis is the contractual relationship",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Global",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "como Profesor, Creativo o Afiliado",
+      "procesar el pago de tus honorarios",
+      "tratamiento de datos se basa en la relación contractual"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Domestika Privacy Policy (last updated July 10, 2024, Spanish). Data processing for Teachers/Creatives/Affiliates: contact, course organization, fee payment; legal basis is contractual relationship."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-380",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+    "source_date_if_available": "August 23, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"If you're considering Gumroad, read the reviews here first. My experience matches what many creators report: Gumroad keeps your money if your balance is under $10 and refuses any manual payout — even when you decide to close your account. It doesn't matter that the money is yours, earned legitimately. Their answer is simply 'we can't do anything,' which leaves creators stuck with small balances they can never retrieve. This isn't what a creator-first platform looks like. The lack of transparency, the inflexible policies, and the dismissive support responses speak for themselves. There are better, more respectful alternatives out there. I recommend avoiding this platform.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Seller reports Gumroad withholds balances under $10 minimum payout threshold with no manual override option even at account closure; describes policy as inflexible and support as dismissive",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "10",
+    "metric_unit": "USD (Gumroad minimum balance threshold for payout eligibility)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "balance under $10 cannot be paid out manually",
+      "policy applies even at account closure",
+      "support response: 'we can't do anything'",
+      "reviewer notes experience matches multiple other creator reports"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Trustpilot review (August 23, 2025). Seller reports Gumroad minimum payout threshold of $10 with no manual override, even at account closure. Reviewer notes pattern consistent with other creator reports on same platform."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-176",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+    "source_type": "blog",
+    "source_title": "Hola Mundo Esto Es Kichink 830997Eef2A",
+    "source_ref": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+    "source_date_if_available": "17 de marzo de 2017",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"En tu nueva tienda de Kichink podrás aceptar pagos de forma segura con tarjetas de crédito: Visa, MasterCard y American Express (nacionales e internacionales).\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Kichink claims payment acceptance for Visa, MasterCard, and American Express credit cards (domestic and international) as of March 2017",
+    "actor_level": "platform",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "March 2017",
+    "time_scope_normalized_if_safe": "2017",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "aceptar pagos de forma segura con tarjetas de crédito: Visa, MasterCard y American Express",
+      "nacionales e internacionales"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Kichink Medium blog post (March 17, 2017): Kichink claims Visa, MasterCard, American Express payment acceptance for domestic and international cards. Self-promotional platform blog. Spanish snippet preserved in local_qualifiers. current_vs_historical_ambiguity: statement from 2017."
+    ]
+  }
+}

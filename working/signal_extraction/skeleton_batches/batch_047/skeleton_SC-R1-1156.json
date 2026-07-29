@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-1156",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://sellfy.com/alternative/gumroad",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+    "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+    "source_type": "article",
+    "source_title": "Gumroad",
+    "source_ref": "https://sellfy.com/alternative/gumroad",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"With Gumroads' 9% transaction fee, you're simply saying goodbye to a large chunk of your hard-earned money. Unlike Gumroad, Sellfy does not take a part of your income in commission nor transaction fees or any other way. With Sellfy, you will never have to worry about unnecessary or hidden costs.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Sellfy alternative-to-Gumroad page (sellfy.com, accessed April 2026) claims Gumroad charges a 9% transaction fee; Sellfy claims to charge no commission or transaction fees",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad",
+      "Sellfy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "rate",
+    "metric_value_raw": "9% transaction fee (Sellfy's characterization of Gumroad); $0 commission/transaction fee (Sellfy self-claim)",
+    "metric_unit": "% per transaction",
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Sellfy competitor page (accessed Apr 2026): characterizes Gumroad fee as 9% transaction fee; Sellfy claims $0 commission and transaction fees"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "author_conflict_of_interest_possible"
+    ],
+    "parser_notes": [
+      "sellfy.com/alternative/gumroad (accessed Apr 2026, undated). English. Competitor page (strong COI). Claims Gumroad charges 9% transaction fee — conflicts with Gumroad's own current pricing of 10% + $0.50 per transaction; may reflect outdated or pre-2025 pricing. Sellfy claims zero commission and transaction fees."
+    ]
+  }
+}

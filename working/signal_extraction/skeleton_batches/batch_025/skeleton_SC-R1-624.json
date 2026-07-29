@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-624",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+    "source_type": "blog",
+    "source_title": "Opinion Hotmart",
+    "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "source_date_if_available": "October 2020",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Blog authors describe Hotmart's double currency conversion mechanism (buyer currency → Hotmart currency → creator currency) and note this results in a potentially significant percentage income loss for creators selling primarily to Latin American markets",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "fee_rate",
+    "metric_value_raw": "double currency conversion; percentage income loss described as potentially high",
+    "metric_unit": "% of revenue lost to double conversion",
+    "time_scope_raw": "October 2020",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Latin America",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "double currency conversion: buyer currency → Hotmart currency → creator currency",
+      "income loss elevated for creators with predominantly Latin American customer base",
+      "Spain-based blog (bigbangconversion.com), October 2020"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "bigbangconversion.com (October 2020). Describes Hotmart's double currency conversion mechanism; notes elevated income percentage loss for Latin America-focused creators. 2020 source; current Hotmart payout/conversion structure may differ."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-536",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+    "source_type": "blog",
+    "source_title": "Envato Elements Vs Creative Market",
+    "source_ref": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+    "source_date_if_available": "4 June 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Envato Elements is a subscription-based online marketplace for digital assets. Unlike Creative Market, you don't have to pay for each item individually to buy assets on this platform. Instead, you pay a single monthly subscription to get unlimited access to everything!\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "DesignShack blog states Envato Elements uses a single monthly subscription model providing unlimited access to all assets, contrasted with Creative Market's per-item purchase model",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato",
+      "Creative Market"
+    ],
+    "product_type_if_explicit": "digital_template",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": "2024-06-04",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Envato Elements: single monthly subscription for unlimited access to all assets",
+      "Creative Market: individual per-item purchase model"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "DesignShack blog post (June 4, 2024). Envato Elements: subscription-based with unlimited downloads. Creative Market: per-item purchase model. Pre-dates current observation window."
+    ]
+  }
+}

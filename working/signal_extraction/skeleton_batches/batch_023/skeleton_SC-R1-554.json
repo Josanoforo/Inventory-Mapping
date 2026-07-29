@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-554",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.cchound.com/envato-elements-alternatives",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012",
+    "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-012",
+    "source_type": "blog",
+    "source_title": "Envato Elements Alternatives",
+    "source_ref": "https://www.cchound.com/envato-elements-alternatives",
+    "source_date_if_available": "January 23, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"For dedicated music licensing, both Artlist and Epidemic Sound offer significant advantages: clearer licensing terms, better YouTube integration, stem access (Epidemic Sound), and AI video tools (Artlist). Envato is better if you need a broad range of creative assets beyond music.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "cchound.com blog states Artlist and Epidemic Sound have advantages over Envato for music licensing: clearer terms, YouTube integration, stem access (Epidemic Sound), AI video tools (Artlist); Envato is better for broad creative assets beyond music",
+    "actor_level": "unknown",
+    "platforms": [
+      "Envato"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": "2026-01-23",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Artlist and Epidemic Sound: clearer music licensing terms, better YouTube integration",
+      "Epidemic Sound: stem access available",
+      "Artlist: AI video tools available",
+      "Envato Elements: better for broad creative assets beyond music"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "cchound.com blog (January 23, 2026). For dedicated music: Artlist/Epidemic Sound better (clearer terms, YouTube integration, stems/AI). Envato better for broad non-music creative assets."
+    ]
+  }
+}

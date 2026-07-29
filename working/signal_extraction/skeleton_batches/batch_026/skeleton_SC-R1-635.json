@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-635",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+    "source_type": "blog",
+    "source_title": "Teachable Is Joining Forces With Hotmart Afad5Bd144Fc",
+    "source_ref": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc",
+    "source_date_if_available": "March 16, 2020",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"For those of you not in the know, Hotmart is analogous to the 'Teachable of Brazil,' while operating profitably at a scale three times our size. Over the last nine years, they have built an absolutely incredible business in Latin America and Europe empowering 60,000+ creators to sell 150,000+ digital products.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Teachable CEO describes Hotmart as the equivalent of Teachable in Brazil, operating profitably at 3x Teachable's size with 60,000+ creators selling 150,000+ digital products in Latin America and Europe",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart",
+      "Teachable"
+    ],
+    "product_type_if_explicit": "digital products",
+    "metric_type": "subscriber_count",
+    "metric_value_raw": "60,000+ creators; 150,000+ digital products; 3x Teachable's size",
+    "metric_unit": "creators; products",
+    "time_scope_raw": "March 16, 2020",
+    "time_scope_normalized_if_safe": "2020-03-16",
+    "geography_if_explicit": "Latin America and Europe",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart described as 'Teachable of Brazil' at 3x Teachable's scale",
+      "60,000+ creators; 150,000+ digital products (as of March 2020)",
+      "Latin America and Europe markets",
+      "March 2020 acquisition announcement — figures reflect 2020 state"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "medium.com/teachable (March 16, 2020). Teachable acquisition announcement: Hotmart described as 3x Teachable's size; 60k+ creators; 150k+ digital products in Latin America and Europe as of 2020. Figures reflect 2020 scale; current state will differ significantly."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-820",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+    "source_date_if_available": "20 Nov 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I didn't know that this site was for some eCourses instead of making money on TikTok. I'm still Waiting on my refund. This isn't what I was signing up for. Now I have to wait to be able to buy groceri...\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Trustpilot review (November 20, 2025) reports being misled by advertisement promising 'make money on TikTok' program; product was an eCourse on Hotmart platform; refund pending at time of review; financial hardship — unable to purchase groceries while awaiting refund (snippet truncated)",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "20 Nov 2025",
+    "time_scope_normalized_if_safe": "2025-11",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Bait-and-switch: advertised as 'make money on TikTok' program; product was eCourse on Hotmart platform",
+      "Refund pending at time of review; financial hardship — unable to buy groceries while waiting (snippet truncated)"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "trustpilot.com/review/hotmart.com (November 20, 2025). TikTok money-making ad → eCourse platform; refund pending; financial hardship reported (snippet truncated)."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-434",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "source_date_if_available": "6 abril 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"La respuesta a mi problema fue muy buena pero pongo una estrella menos porque siempre encuentro dificultades en cada paso, primero para dar de alta mi CURP luego mi cuenta de banco. Mi cliente que com...\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart seller in Mexico reports recurring onboarding friction registering CURP and bank account, praising support response quality despite repeated friction",
+    "actor_level": "seller",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Mexico",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "difficulties registering Mexican CURP (fiscal ID) in Hotmart",
+      "bank account registration also problematic",
+      "support response praised despite onboarding friction",
+      "snippet truncated"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Spanish-language Trustpilot review (April 6, 2026). Hotmart seller in Mexico reports repeated onboarding friction (CURP registration, bank account verification); praises support quality. CURP is a Mexican government ID, indicating Mexican seller. Snippet truncated."
+    ]
+  }
+}

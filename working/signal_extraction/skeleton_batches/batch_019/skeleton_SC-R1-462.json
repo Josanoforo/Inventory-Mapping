@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-462",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.similarweb.com/website/envato.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011",
+    "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011",
+    "source_type": "report",
+    "source_title": "Website",
+    "source_ref": "https://www.similarweb.com/website/envato.com",
+    "source_date_if_available": "March 2026 (page title: \"[March 2026]\"); accessed April 2026.",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"envato.com's audience is 56.75% male and 43.25% female. The largest age group of visitors are 25 - 34 year olds.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "SimilarWeb reports envato.com audience demographics for March 2026: 56.75% male, 43.25% female, largest visitor age group 25-34 years old",
+    "actor_level": "platform",
+    "platforms": [
+      "Envato"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "56.75",
+    "metric_unit": "percent male visitors to envato.com (March 2026, per SimilarWeb estimation)",
+    "time_scope_raw": "March 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "56.75% male, 43.25% female visitor audience",
+      "largest age group: 25-34 year olds",
+      "SimilarWeb estimation for March 2026"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "SimilarWeb web analytics (March 2026). envato.com audience: 56.75% male, 43.25% female; largest age group 25-34. SimilarWeb uses proprietary estimation; methodology not disclosed."
+    ]
+  }
+}

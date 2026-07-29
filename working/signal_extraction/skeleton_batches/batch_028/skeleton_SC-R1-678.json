@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-678",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.semrush.com/website/etsy.com/overview",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+    "source_type": "report",
+    "source_title": "Overview",
+    "source_ref": "https://www.semrush.com/website/etsy.com/overview",
+    "source_date_if_available": "Accessed April 2026; data labeled February 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"In February etsy.com received 326.37M visits with the average session duration 09:26. Compared to January traffic to etsy.com has decreased by -17.38%.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "SEMrush reports Etsy.com February 2026: 326.37M visits, average session duration 9:26, traffic down 17.38% from January 2026",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "326.37M visits in February 2026; avg session 9:26; -17.38% MoM from January",
+    "metric_unit": "visits; minutes:seconds; % MoM",
+    "time_scope_raw": "February 2026; accessed April 2026",
+    "time_scope_normalized_if_safe": "2026-02",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "326.37M visits in February 2026",
+      "avg session duration 9:26",
+      "traffic down 17.38% MoM from January 2026"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "SEMrush website overview (accessed April 2026, February 2026 data). Etsy.com traffic: 326.37M visits, 9:26 avg session, -17.38% MoM. SEMrush is an estimated panel-based metric; exact figures should be treated as estimates."
+    ]
+  }
+}

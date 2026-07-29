@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-206",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+    "source_type": "blog",
+    "source_title": "I Tried Selling A Digital Journal On Payhip No Sales Yet But Heres What I M Learning 239546B63F63",
+    "source_ref": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63",
+    "source_date_if_available": "June 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I uploaded it on Payhip, linked it to my Medium post, shared the product page, and waited. Days passed. Then weeks. Views trickled in… but no sales. At first, I felt discouraged. Had I done something wrong? Was the pricing off? Was it the topic?\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Creator reports zero sales after weeks of listing digital journal on Payhip — views without conversions, uncertainty about pricing or topic",
+    "actor_level": "seller",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": "digital_download",
+    "metric_type": "count",
+    "metric_value_raw": "0",
+    "metric_unit": "count (sales during weeks-long listing period after Medium referral)",
+    "time_scope_raw": "days then weeks",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "uploaded on Payhip, linked to Medium post",
+      "Views trickled in… but no sales",
+      "felt discouraged"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Medium blog (June 2025). Creator uploaded digital journal to Payhip, shared via Medium link, received views but zero sales over weeks. Uncertainty expressed about pricing, topic, and discoverability. Anecdotal failure/learning case."
+    ]
+  }
+}

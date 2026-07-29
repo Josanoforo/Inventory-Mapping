@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-950",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.payhip.com/article/127-digital-eu-vat",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002",
+    "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002",
+    "source_type": "help_center",
+    "source_title": "Digital Eu Vat",
+    "source_ref": "https://help.payhip.com/article/127-digital-eu-vat",
+    "source_date_if_available": "Last updated February 21, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "> \"Your customer will be charged: $10 + (0.20 × $10) = $12\"\n\n> \"We will charge 5% and will collect the EU VAT amount: (0.05 × $10) + (0.20 × $10) = $2.50\"\n\n> \"You will receive the remaining amount: $12 – $2.50 = $9.50 (Note: PayPal will deduct it's fees as well)\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip help center (help.payhip.com/article/127-digital-eu-vat, Feb 21, 2026) provides EU VAT calculation examples for a $10 product at 20% EU VAT: VAT-excluded pricing (customer pays $12, Payhip takes $2.50 = 5% fee + VAT, seller receives $9.50 before PayPal fees); VAT-included pricing (customer pays $10, pre-VAT price $8.33, Payhip takes $2.09, seller receives $7.91 before PayPal fees)",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "VAT-excl: $10 + 20% → customer $12, Payhip $2.50, seller $9.50; VAT-incl: $10 → Payhip $2.09, seller $7.91",
+    "metric_unit": "USD",
+    "time_scope_raw": "Last updated February 21, 2026",
+    "time_scope_normalized_if_safe": "2026-02",
+    "geography_if_explicit": "European Union",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "EU VAT examples at Free plan (5% fee + 20% VAT): VAT-excl seller gets $9.50 of $12; VAT-incl seller gets $7.91 of $10"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "help.payhip.com (Feb 21, 2026). EU VAT examples: $10 + 20% VAT; excl pricing: seller $9.50/12; incl pricing: seller $7.91/10; Free plan."
+    ]
+  }
+}

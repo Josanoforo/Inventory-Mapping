@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-439",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+    "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "source_date_if_available": "1 octubre 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Hotmart no responde sobre una transferencia internacional que nunca llegó. Llevamos más de 10 días esperando que Hotmart nos dé solución sobre una transferencia de fondos a una cuenta bancaria en Australia. Marcaron la transacción como \\\"completada\\\", pero el dinero nunca llegó al banco, y su \\\"comprobante\\\" no sirve para rastrear nada. Ya enviamos varios correos solicitando el comprobante SWIFT MT103, necesario para que el banco rastree el dinero, pero no hemos tenido respuesta. La falta de atención es preocupante. Estamos considerando escalar esto legalmente si no recibimos el soporte que corresponde.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart seller reports international payout to Australia marked 'completed' but funds not received for 10+ days, SWIFT MT103 not provided, and no support response despite multiple requests",
+    "actor_level": "seller",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "more than 10 days",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Australia",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "international transfer to Australia marked 'completed' but funds not received",
+      "10+ days waiting for resolution",
+      "SWIFT MT103 documentation not provided",
+      "no support response; legal escalation threatened"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Spanish-language Trustpilot review (October 1, 2025). Hotmart seller reports international payout to Australia marked 'completed' but funds not received for 10+ days; SWIFT MT103 not provided; legal escalation threatened."
+    ]
+  }
+}

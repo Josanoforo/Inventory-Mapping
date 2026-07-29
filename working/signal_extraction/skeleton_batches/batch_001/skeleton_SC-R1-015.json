@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-015",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://impact.hypable.com/patreon-consultation",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010",
+    "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010",
+    "source_type": "product_listing",
+    "source_title": "Patreon Consultation",
+    "source_ref": "https://impact.hypable.com/patreon-consultation",
+    "source_date_if_available": "Accessed April 2026; page references \"March 2022\" for online course launch; page undated.",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I can help you create the perfect Patreon by offering planning and management techniques that I've developed over the past few years. These are tried-and-tested methods being offered by someone who knows in the ins and outs of Patreon.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "availability_statement",
+    "subject_exact": "Patreon consultation service offer by hypable.com",
+    "actor_level": "seller",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "tried-and-tested methods",
+      "someone who knows the ins and outs of Patreon",
+      "developed over the past few years"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Marketing copy for Patreon consultation service; no quantitative claims; page references March 2022 for an online course launch but page itself is undated"
+    ]
+  }
+}

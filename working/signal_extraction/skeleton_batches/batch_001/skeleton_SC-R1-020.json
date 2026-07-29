@@ -1,0 +1,88 @@
+{
+  "signal_id": "SC-R1-020",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://craftybase.com/etsy/fee-calculator",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+    "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+    "source_type": "pricing_page",
+    "source_title": "Fee Calculator",
+    "source_ref": "https://craftybase.com/etsy/fee-calculator",
+    "source_date_if_available": "March 2026 (changelog entry)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Added 9 new countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand are now supported. These are Payoneer-based countries where Etsy processes fees in USD.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Craftybase Etsy fee calculator country expansion: 9 Payoneer-based countries added as of March 2026 changelog",
+    "actor_level": "marketplace",
+    "platforms": [
+      "Etsy",
+      "Payoneer"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "payout_method_availability",
+    "metric_value_raw": "9",
+    "metric_unit": "new countries",
+    "time_scope_raw": "March 2026",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": [
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "China",
+      "Egypt",
+      "India",
+      "Japan",
+      "South Korea",
+      "Thailand"
+    ],
+    "evidence_role": "reported_event",
+    "local_qualifiers": [
+      "March 2026 changelog entry",
+      "Payoneer-based countries where Etsy processes fees in USD"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Third-party Etsy fee calculator tool (Craftybase) reporting 9 new Payoneer-supported countries; primary Etsy announcement for this expansion is not available in this snippet; countries listed: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, Thailand"
+    ]
+  }
+}

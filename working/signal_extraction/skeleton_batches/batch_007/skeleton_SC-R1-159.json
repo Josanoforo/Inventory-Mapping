@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-159",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=2",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001",
+    "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-001",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=2",
+    "source_date_if_available": "2025-09-25",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I ordered a year subscription for nanobanana and they gave me the cheaper one but i paid for the expensive one So much less credits and way to much paid I paid much more than promised So watch out its a scam\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Buyer reports LemonSqueezy delivered cheaper tier of 'nanobanana' annual subscription than what was paid for — received fewer credits than promised; characterized as scam",
+    "actor_level": "buyer",
+    "platforms": [
+      "LemonSqueezy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "gave me the cheaper one but i paid for the expensive one",
+      "So much less credits",
+      "I paid much more than promised"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Trustpilot review (page date 2025-09-25; individual review date unclear). Buyer reports purchasing expensive annual subscription tier for 'nanobanana' via LemonSqueezy but receiving cheaper tier with fewer credits — price/tier mismatch. No dollar amounts or tier names stated. context_insufficient: no pricing details in snippet."
+    ]
+  }
+}

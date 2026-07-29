@@ -1,0 +1,32 @@
+{
+  "signal_id": "SC-FX-003",
+  "source_record_ids": ["FX-P3-DDPDDU-REC"],
+  "source_ids": ["SRC-fixture-003"],
+  "round": 1,
+  "signal_text": "The platform describes both DDP and DDU shipping duty arrangements for cross-border orders.",
+  "subject_exact": "DDP/DDU shipping duty policy",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Delivered Duty Paid (DDP) shipments are those in which the seller has agreed to cover all import duties, taxes, and customs clearance fees on behalf of the buyer, so that the buyer receives the package without being contacted by the carrier for additional payment. Sellers who choose to ship DDP must declare this clearly at checkout and are responsible for remitting the correct duty amount to the destination country's customs authority.",
+    "Delivered Duty Unpaid (DDU) shipments, by contrast, leave all import duties, taxes, and customs clearance fees to be paid by the buyer directly to the carrier or customs broker before the package is released. Sellers shipping DDU are required to disclose that additional charges may apply on delivery, and marketplaces may restrict DDU listings in certain destination countries where undisclosed duties have generated buyer complaints."
+  ],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-P3-DDPDDU-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

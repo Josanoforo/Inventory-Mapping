@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-1179",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+  ],
+  "round": 1,
+  "signal_text": "Based on Graphtreon data, the number of Patreon creators with at least one paying member dropped by around 5% between June 2025 and February 2026.",
+  "subject_exact": "Change in the number of Patreon creators with at least one paying member between June 2025 and February 2026",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "around 5%",
+  "metric_unit": "approximate percent decline in creator count",
+  "time_scope_raw": "since June 2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Based on Graphtreon data"
+  ],
+  "uncertainties": [
+    "metric_unit_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://backlinko.com/patreon-users",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+    }
+  ],
+  "normalization_notes": [
+    "Split from the source snippet: this card expresses the comparative/trend claim ('drop of around 5% since June 2025') that was previously folded into the local_qualifiers; expressed here as its own observation per single-claim discreteness.",
+    "evidence_role set to comparative_commentary (not inherited database_fact) because this card expresses a comparison across time, not a single database snapshot.",
+    "actor_level changed from inherited 'seller' to 'source', for the same reason as the sibling card."
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1150",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-004"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/pricing",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-004",
+      "secondary_pointer": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-004",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-004",
+    "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+    "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+    "source_type": "pricing_page",
+    "source_title": "Pricing",
+    "source_ref": "https://gumroad.com/pricing",
+    "source_date_if_available": "Accessed April 2026; page references January 1, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Since January 1, 2025, Gumroad handles ALL your tax obligations. Yes, you read that right – we manage sales tax collection and remittance worldwide.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Gumroad pricing page (gumroad.com/pricing, accessed April 2026) states that since January 1, 2025, Gumroad handles all tax obligations as Merchant of Record, including worldwide sales tax collection and remittance",
+    "actor_level": "platform",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page references January 1, 2025",
+    "time_scope_normalized_if_safe": "2025-01-01",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Gumroad pricing page (ref. Jan 1, 2025): Gumroad handles ALL tax obligations — worldwide sales tax collection and remittance since Jan 1, 2025"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "gumroad.com/pricing (accessed Apr 2026; references Jan 1, 2025). English. Gumroad as MoR from Jan 1, 2025: manages all worldwide sales tax collection and remittance. Corroborates earlier Gumroad help center and ToS records."
+    ]
+  }
+}

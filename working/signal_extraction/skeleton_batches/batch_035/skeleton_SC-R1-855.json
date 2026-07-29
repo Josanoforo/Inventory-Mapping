@@ -1,0 +1,75 @@
+{
+  "signal_id": "SC-R1-855",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+    "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+    "source_type": "policy_page",
+    "source_title": "Payments Policy",
+    "source_ref": "https://hotmart.com/en/legal/payments-policy",
+    "source_date_if_available": "Updated 28/11/2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"This rate may vary throughout the day, and may also vary between the day of approval of the payment transaction and the day on which the amount is made available for withdrawal. Therefore, the Creator and the Co-producer may receive payments of different amounts for the sale of the same Product.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart Payments Policy (updated November 28, 2025) discloses that exchange rates vary intraday and between payment approval date and withdrawal availability date; as a result, Creator and Co-producer may receive different payment amounts for the same product sale",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Updated 28/11/2025",
+    "time_scope_normalized_if_safe": "2025-11",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Exchange rate varies intraday and between transaction approval and withdrawal availability dates",
+      "Creator and Co-producer may receive different amounts for the same product sale due to rate variation"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "hotmart.com/en/legal/payments-policy (updated Nov 28, 2025). Exchange rate disclosure: intraday + approval-to-withdrawal variation; co-producers may receive different amounts for same sale."
+    ]
+  }
+}

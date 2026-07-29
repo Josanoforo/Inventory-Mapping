@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-739",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://payhip.com/features/sell-courses",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023",
+    "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023",
+    "source_type": "product_listing",
+    "source_title": "Sell Courses",
+    "source_ref": "https://payhip.com/features/sell-courses",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Video lessons have one simple fixed price of $5 per month\" … \"From one-off pricing, subscriptions, payment plans and entirely free. You're 100% in control of pricing.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Payhip course features page (accessed April 2026) describes video lesson hosting fee of $5/month (flat rate) and course pricing flexibility: one-off purchase, subscriptions, payment plans, or free",
+    "actor_level": "platform",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "fee_rate",
+    "metric_value_raw": "$5/month flat fee for video lessons",
+    "metric_unit": "USD per month",
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "video lesson hosting: $5/month flat rate",
+      "course pricing options: one-off, subscriptions, payment plans, free; seller has full pricing control"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "payhip.com/features/sell-courses (accessed April 2026; page undated). Payhip course platform: $5/month video hosting fee; flexible pricing models (one-off, subscription, payment plan, free)."
+    ]
+  }
+}

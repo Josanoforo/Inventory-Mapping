@@ -1,0 +1,81 @@
+{
+  "signal_id": "SC-R1-148",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.sitejabber.com/reviews/domestika.org",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011",
+    "source_type": "unknown",
+    "source_title": "Reviews",
+    "source_ref": "https://www.sitejabber.com/reviews/domestika.org",
+    "source_date_if_available": "December 23, 2025 (Date of experience: October 1, 2025)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"LISTEN TO THE NEGATIVE REVIEWS. I am out hundreds of dollars because of this company's predatory \\\"Plus\\\" trap. They lure you in with a $1 course and then the nightmare begins. They secretly enroll you in a trial that auto-renews for a massive annual fee without sending a single reminder email or warning. By the time you see the charge on your bank statement, they've already locked your account settings so you can't even remove your credit card. I spent hours following their \\\"cancellation steps\\\" only to find out they point to menus that don't even exist. It's a gaslighting loop designed to keep your money. Their \\\"support\\\" is just a wall of automated bots that repeat the same \\\"no refund\\\" script over and over. They are literally stealing from people and hiding behind fine print. If you give them your card info, you are giving them permission to empty your account. GET OUT NOW.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Buyer characterizes Domestika Plus as predatory trap: $1 course entry, auto-renewing annual fee with no notification, credit card locked after enrollment, cancellation menus non-existent, support is automated 'no refund' bots",
+    "actor_level": "buyer",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "October 1, 2025",
+    "time_scope_normalized_if_safe": "2025",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "predatory 'Plus' trap",
+      "$1 course",
+      "massive annual fee",
+      "without sending a single reminder email",
+      "locked your account settings",
+      "cancellation steps point to menus that don't even exist",
+      "gaslighting loop",
+      "automated bots that repeat the same 'no refund' script"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "SiteJabber review (experience October 2025, published December 2025): highly charged negative review cataloging multiple Domestika Plus practices — $1 course entry leading to auto-renewing annual fee with no notification, credit card trapped post-cancellation, non-functional cancellation flow, automated bot support with no-refund policy. Inflammatory tone but specific on multiple distinct practices."
+    ]
+  }
+}

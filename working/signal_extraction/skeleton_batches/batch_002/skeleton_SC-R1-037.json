@@ -1,0 +1,98 @@
+{
+  "signal_id": "SC-R1-037",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/legal/etsy-payments",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+    "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+    "source_type": "policy_page",
+    "source_title": "Etsy Payments",
+    "source_ref": "https://www.etsy.com/legal/etsy-payments",
+    "source_date_if_available": "Effective from October 9, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"In the United States, Australia, Canada, the European Union, Hong Kong, Indonesia, Israel, Malaysia, Mexico, Morocco, New Zealand, Norway, Philippines, Singapore, South Africa, Switzerland, Türkiye, United Kingdom and Vietnam, Available Funds can only be deposited into bank accounts, in the domestic currency of the account, which includes the following currencies: US Dollars (USD), Australian Dollars (AUD), Canadian Dollars (CAD), Swiss Francs (CHF), Danish Krone (DKK), Euros (EUR), British Pounds (GBP), Hong Kong Dollars (HKD), Indonesian Rupiah (IDR), Israeli Shekel (ILS), Moroccan Dirham (MAD), Mexican Peso (MXN), Malaysian Ringgit (MYR), New Zealand Dollars (NZD), Norwegian Krone (NOK), Philippine Peso (PHP), Swedish Krona (SEK), Singapore Dollars (SGD), Turkish Lira (TRY), South African Rand (ZAR) and Vietnamese Dong (VND).\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Etsy Payments payout restriction to domestic currency bank accounts for listed countries",
+    "actor_level": [
+      "marketplace",
+      "seller"
+    ],
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "payout_method_availability",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Effective from October 9, 2025",
+    "time_scope_normalized_if_safe": "2025-10-09",
+    "geography_if_explicit": [
+      "United States",
+      "Australia",
+      "Canada",
+      "European Union",
+      "Hong Kong",
+      "Indonesia",
+      "Israel",
+      "Malaysia",
+      "Mexico",
+      "Morocco",
+      "New Zealand",
+      "Norway",
+      "Philippines",
+      "Singapore",
+      "South Africa",
+      "Switzerland",
+      "Türkiye",
+      "United Kingdom",
+      "Vietnam"
+    ],
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Available Funds can only be deposited into bank accounts",
+      "in the domestic currency of the account"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Policy restricts deposits to domestic currency bank accounts only for the listed countries."
+    ]
+  }
+}

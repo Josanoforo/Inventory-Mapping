@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-414",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://community.etsy.com/t5/Technical-Issues/US-tariff-pricing-should-not-impact-my-global-pricing/m-p/149049550",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007",
+    "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-007",
+    "source_type": "seller_forum",
+    "source_title": "M P",
+    "source_ref": "https://community.etsy.com/t5/Technical-Issues/US-tariff-pricing-should-not-impact-my-global-pricing/m-p/149049550",
+    "source_date_if_available": "2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Etsy needs to add a separate area for US pricing without including it in global pricing. My global buyers are paying the same price as the US. I've priced myself out of other markets because I need to raise my prices for the US market to cover the tariffs. I'm based in Canada. Is anyone else having this issue?\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Canadian Etsy seller reports platform lacks region-specific pricing; raising prices globally to cover US tariffs makes seller uncompetitive in non-US markets",
+    "actor_level": "seller",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Canada, US",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Etsy lacks separate US-specific pricing option",
+      "Canadian seller must raise global prices to cover US tariffs",
+      "price increase for US tariffs prices seller out of other markets",
+      "requests region-specific pricing feature"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Etsy seller forum (2025, exact date unclear). Canadian seller reports inability to set US-specific pricing; global price raise to cover US tariffs reduces competitiveness in other markets. Requests separate regional pricing feature."
+    ]
+  }
+}

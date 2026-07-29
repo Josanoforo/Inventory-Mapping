@@ -1,0 +1,46 @@
+{
+  "signal_id": "SC-R1-1180",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+  ],
+  "round": 1,
+  "signal_text": "Patreon's top creator ranked by paid member count is Matt and Shane's Secret Podcast, a comedy podcast, with 124,452 paid members.",
+  "subject_exact": "Patreon's top creator by paid member count (Matt and Shane's Secret Podcast) and its paid member total",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "124,452",
+  "metric_unit": "paid members",
+  "time_scope_raw": "Currently",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://backlinko.com/patreon-users",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+    }
+  ],
+  "normalization_notes": [
+    "Split from the source snippet: this card expresses the named top-creator paid-member figure (124,452), a second discrete fact in the same snippet not expressed in the sibling card.",
+    "actor_level changed from inherited 'seller' to 'source', for the same reason as the sibling card.",
+    "time_scope_raw ('Currently') carried from the same present-tense framing as the sibling card; the article's last-updated date is record metadata and is not appended here."
+  ],
+  "extraction_notes": []
+}

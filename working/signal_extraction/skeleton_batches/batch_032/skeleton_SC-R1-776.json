@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-776",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/discover",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002",
+    "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002",
+    "source_type": "search_results_page",
+    "source_title": "Discover",
+    "source_ref": "https://gumroad.com/discover",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[From Google search index snippet of discover.gumroad.com/discover: \"Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Gumroad Discover marketplace (accessed April 2026) provides 7 sort options: Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)",
+    "actor_level": "platform",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Gumroad Discover sort options: Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "gumroad.com/discover (accessed April 2026; page undated). Google index snippet. Discover sort options: 7 values including Featured, Newest, Hot and new, review-based, and price-based sorts."
+    ]
+  }
+}

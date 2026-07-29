@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-774",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://6sense.com/tech/social-commerce/gumroad-market-share",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001",
+    "source_type": "database_profile",
+    "source_title": "Gumroad Market Share",
+    "source_ref": "https://6sense.com/tech/social-commerce/gumroad-market-share",
+    "source_date_if_available": "Accessed April 2026; page references \"in 2026\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Around the world in 2026, over 95752 companies have started using Gumroad as Social Commerce tool.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "6sense market tracker (accessed April 2026, page references 2026) states over 95,752 companies worldwide use Gumroad as a social commerce tool",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "volume",
+    "metric_value_raw": "95,752",
+    "metric_unit": "companies",
+    "time_scope_raw": "Accessed April 2026; page references \"in 2026\"",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "95,752+ companies worldwide using Gumroad as social commerce tool per 6sense (2026)"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "6sense.com/tech/social-commerce/gumroad-market-share (accessed April 2026). 95,752+ companies globally using Gumroad (social commerce). Slight discrepancy with SNP-001 (96,111) — likely real-time counter."
+    ]
+  }
+}

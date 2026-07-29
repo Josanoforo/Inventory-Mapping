@@ -1,0 +1,75 @@
+{
+  "signal_id": "SC-R1-901",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.fastcompany.com/91320934/patreons-rivalry-with-substack-is-growing-who-will-win-over-creators",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019",
+    "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019",
+    "source_type": "article",
+    "source_title": "Patreons Rivalry With Substack Is Growing Who Will Win Over Creators",
+    "source_ref": "https://www.fastcompany.com/91320934/patreons-rivalry-with-substack-is-growing-who-will-win-over-creators",
+    "source_date_if_available": "April 24, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Substack and Patreon are vying to become creators' primary revenue stream. For most influencers, payouts from platforms like Meta or Google aren't enough to build a sustainable career... Patreon's latest move targets streamers. Its native livestreaming feature, currently in demo and set for a broad rollout this summer, could attract gamers and broadcasters alike. But Substack beat them to it, launching a similar live video tool just three months earlier.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Fast Company article (fastcompany.com, April 24, 2025) reports Patreon and Substack compete to become creators' primary revenue stream; cites insufficient Meta/Google payouts driving creator migration to direct fan support; Patreon's native livestreaming in demo (summer 2025 rollout), Substack launched live video 3 months earlier",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon",
+      "Substack"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 24, 2025",
+    "time_scope_normalized_if_safe": "2025-04",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Patreon livestreaming in demo (summer 2025 rollout); Substack launched live video 3 months prior; both compete for creator primary revenue"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "fastcompany.com (Apr 24, 2025). Patreon-Substack rivalry: livestreaming competition, creator revenue migration from Meta/Google to direct fan support."
+    ]
+  }
+}

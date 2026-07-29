@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-001",
+  "source_record_ids": ["FX-P1-DISCRETENESS-REC"],
+  "source_ids": ["SRC-fixture-001"],
+  "round": 1,
+  "signal_text": "The platform hosts 31 creator communities with more than 20,000 members each.",
+  "subject_exact": "creator communities with more than 20,000 members",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "31",
+  "metric_unit": "communities",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": ["more than 20,000 members each"],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-P1-DISCRETENESS-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

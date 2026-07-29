@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-057",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.similarweb.com/website/kichink.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001",
+    "source_type": "report",
+    "source_title": "Website",
+    "source_ref": "https://www.similarweb.com/website/kichink.com",
+    "source_date_if_available": "Accessed April 2026; page titled \"kichink.com Traffic Analytics, Ranking & Audience [March 2026]\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Last month Mexico was the top country sending desktop traffic to kichink.com\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Mexico as top country sending desktop traffic to kichink.com in March 2026",
+    "actor_level": "source",
+    "platforms": [
+      "Kichink"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "traffic_volume",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Last month",
+    "time_scope_normalized_if_safe": "2026-03",
+    "geography_if_explicit": [
+      "Mexico"
+    ],
+    "evidence_role": "database_fact",
+    "local_qualifiers": [
+      "Last month",
+      "desktop traffic"
+    ],
+    "uncertainties": [
+      "time_scope_unclear"
+    ],
+    "parser_notes": [
+      "'Last month' relative to April 2026 access = March 2026. Desktop traffic only, not total traffic."
+    ]
+  }
+}

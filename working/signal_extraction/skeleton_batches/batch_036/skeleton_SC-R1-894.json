@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-894",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://news.patreon.com/articles/introducing-patreon-video",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+    "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+    "source_type": "blog",
+    "source_title": "Introducing Patreon Video",
+    "source_ref": "https://news.patreon.com/articles/introducing-patreon-video",
+    "source_date_if_available": "November 3, 2022",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Unlike other platforms where your work is obfuscated by ads or deprioritized by the algorithm, Patreon gives you a direct connection to your audience. The work you make goes straight to the people who care about it most.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Patreon blog post (news.patreon.com, November 3, 2022) contrasts Patreon's direct creator-to-audience connection with other platforms where content is obfuscated by ads or deprioritized by algorithms",
+    "actor_level": "platform",
+    "platforms": [
+      "Patreon"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "November 3, 2022",
+    "time_scope_normalized_if_safe": "2022-11",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Patreon: direct creator-to-audience connection; contrast with platforms using ads and algorithmic deprioritization"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "news.patreon.com (Nov 3, 2022). Patreon Video launch. Positioning: direct audience connection vs ad/algorithm interference on other platforms."
+    ]
+  }
+}

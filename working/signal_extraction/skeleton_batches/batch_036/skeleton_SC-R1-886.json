@@ -1,0 +1,75 @@
+{
+  "signal_id": "SC-R1-886",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://hempotron.com/patreon-vs-onlyfans",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-008",
+    "source_type": "article",
+    "source_title": "Patreon Vs Onlyfans",
+    "source_ref": "https://hempotron.com/patreon-vs-onlyfans",
+    "source_date_if_available": "September 17, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"The main difference between Patreon and OnlyFans is that Patreon positions itself as a membership platform focused on long-term patronage and creative communities across diverse creator categories, emphasizing tiered subscriptions and creator-driven benefits, whereas OnlyFans started and remains most associated with direct monetization of more explicit, pay-per-view and tip-driven content and short-term transactional interactions between creators and individual fans.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Article (hempotron.com, Sep 17, 2025) characterizes Patreon as a membership platform for long-term patronage across diverse creator categories with tiered subscriptions, contrasting with OnlyFans' association with explicit content, pay-per-view, and tip-driven transactional interactions",
+    "actor_level": "unknown",
+    "platforms": [
+      "Patreon",
+      "OnlyFans"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "September 17, 2025",
+    "time_scope_normalized_if_safe": "2025-09",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Patreon: membership, long-term patronage, diverse categories, tiered subscriptions; OnlyFans: explicit content, pay-per-view, tips, short-term transactions"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "hempotron.com (Sep 17, 2025). Patreon vs OnlyFans positioning contrast: membership/patronage vs explicit/transactional."
+    ]
+  }
+}

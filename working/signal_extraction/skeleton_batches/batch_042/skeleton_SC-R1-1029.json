@@ -1,0 +1,74 @@
+{
+  "signal_id": "SC-R1-1029",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://gumroad.com/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003",
+    "source_type": "policy_page",
+    "source_title": "Terms",
+    "source_ref": "https://gumroad.com/terms",
+    "source_date_if_available": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Gumroad will handle Buyers' requests for refunds, chargebacks and other disputes with Buyers in Gumroad's sole discretion. The Supplier shall, at Gumroad's request, provide all information as may be requested by Gumroad to resolve Buyers' requests or disputes. Supplier is responsible for reimbursing Gumroad for the amount of any monies paid by Gumroad to Buyers or Third-Party Service Providers, or any other parties, in connection with refunds, chargebacks or disputes, as well as for any other reasonable costs incurred by Gumroad in resolving these requests.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Gumroad Terms of Service (gumroad.com/terms, effective Jan 1, 2025) states Gumroad handles refunds, chargebacks, and disputes at sole discretion; seller must provide requested information; seller is responsible for reimbursing Gumroad for amounts paid to buyers and reasonable costs in resolving disputes",
+    "actor_level": "platform",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Effective Date: January 1, 2025; Last Updated Date: December 10, 2024",
+    "time_scope_normalized_if_safe": "2025-01-01",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Gumroad: handles refunds/chargebacks at sole discretion; seller reimburses Gumroad for amounts paid plus costs"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "gumroad.com/terms (effective 2025-01-01). Gumroad manages refunds/chargebacks; seller reimburses Gumroad for amounts paid."
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1158",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://sologrowthlab.com/blog/gumroad-vs-lemon-squeezy-for-creators",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011",
+    "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011",
+    "source_type": "article",
+    "source_title": "Gumroad Vs Lemon Squeezy For Creators",
+    "source_ref": "https://sologrowthlab.com/blog/gumroad-vs-lemon-squeezy-for-creators",
+    "source_date_if_available": "August 3, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Gumroad shines when you want to start selling quickly. The interface is minimal and the sign‑up process asks only for your email. The Ruul comparison notes that registering with Gumroad is 'really simple' and the platform gives clear steps to get started. You can add a product, set a price and start selling within minutes. However, Gumroad's design options are basic; it's essentially a checkout overlay that you embed on your site or share as a link. You can upload a banner image and colour‑accent but you can't fully customise the storefront.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "sologrowthlab.com article (August 3, 2025) describes Gumroad's onboarding as simple and fast with email-only signup and product listing in minutes; describes design options as basic (essentially a checkout overlay with limited customization: banner image and color accent only, no full storefront customization)",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "August 3, 2025",
+    "time_scope_normalized_if_safe": "2025-08-03",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "sologrowthlab.com (Aug 3, 2025): Gumroad — email-only signup; product listing in minutes; design limited to checkout overlay; only banner image + color accent; no full storefront customization"
+    ],
+    "uncertainties": [
+      "author_conflict_of_interest_possible"
+    ],
+    "parser_notes": [
+      "sologrowthlab.com (Aug 3, 2025). English. Gumroad onboarding and design: email-only signup, product listing in minutes. Storefront: checkout overlay only; limited to banner + color accent; no full custom storefront. References Ruul comparison as secondary source. Possible affiliate relationships."
+    ]
+  }
+}

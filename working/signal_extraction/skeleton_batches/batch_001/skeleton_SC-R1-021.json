@@ -1,0 +1,106 @@
+{
+  "signal_id": "SC-R1-021",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015587567-How-VAT-Works-on-Digital-Items",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003",
+    "source_type": "help_center",
+    "source_title": "How Vat Works On Digital Items",
+    "source_ref": "https://help.etsy.com/hc/en-us/articles/115015587567-How-VAT-Works-on-Digital-Items",
+    "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"If you sell digital items, no matter where your shop is located, buyers in Australia, Belarus, Chile, the EU, Georgia (country), Iceland, India, Indonesia, Kenya, Malaysia, Mexico, Moldova, New Zealand, Norway, Russia, Saudi Arabia, Serbia, Singapore, South Africa, South Korea, Switzerland, Taiwan, Thailand, Türkiye, Ukraine, United Arab Emirates, or Vietnam will be charged VAT.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "policy_statement",
+    "subject_exact": "Etsy VAT collection obligation on digital item sales by buyer country of residence",
+    "actor_level": "mixed",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": [
+      "Australia",
+      "Belarus",
+      "Chile",
+      "the EU",
+      "Georgia (country)",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Kenya",
+      "Malaysia",
+      "Mexico",
+      "Moldova",
+      "New Zealand",
+      "Norway",
+      "Russia",
+      "Saudi Arabia",
+      "Serbia",
+      "Singapore",
+      "South Africa",
+      "South Korea",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Türkiye",
+      "Ukraine",
+      "United Arab Emirates",
+      "Vietnam"
+    ],
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "no matter where your shop is located",
+      "will be charged VAT"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Etsy help center policy on VAT collection for digital items; 27 jurisdictions listed; 'the EU' represents multiple countries; page undated, URL returned 403; country list may have changed since publication; 'digital items' encompasses all digital product types not one specific category"
+    ]
+  }
+}

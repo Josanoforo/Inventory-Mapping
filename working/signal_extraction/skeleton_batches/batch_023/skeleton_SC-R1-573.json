@@ -1,0 +1,83 @@
+{
+  "signal_id": "SC-R1-573",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.similarweb.com/website/payhip.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+    "source_type": "report",
+    "source_title": "Website",
+    "source_ref": "https://www.similarweb.com/website/payhip.com",
+    "source_date_if_available": "December 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"payhip.com's web traffic has increased by 10.97% compared to last month. [...] Total Visits 6.8M [...] Bounce Rate 41.48% [...] Pages per Visit 4.38 [...] Avg Visit Duration 00:02:55 [...] The top traffic source to payhip.com is Direct traffic, driving 55.87% of desktop visits last month Organic Search is the 2nd and Referrals is the 3rd. The most underutilized channel is Mail. [...] payhip.com's audience is 58.77% male and 41.23% female. The largest age group of visitors are 18 - 24 year olds. [...] United States 38.5% [...] Organic 98.86% Paid 1.14% [...] payhip.com gets most of its social media traffic from Youtube, followed by Pinterest and Instagram (Desktop). [...] Video Games Consoles and Accessories 57.04%\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "SimilarWeb reports payhip.com had 6.8M visits in December 2025 (+10.97% MoM); bounce rate 41.48%; avg duration 00:02:55; Direct traffic 55.87%; audience 58.77% male, 18-24 largest age group; US 38.5%; search 98.86% organic; social traffic led by YouTube; Video Games top interest category at 57.04%",
+    "actor_level": "unknown",
+    "platforms": [
+      "Payhip"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "traffic",
+    "metric_value_raw": "6800000",
+    "metric_unit": "monthly visits (December 2025)",
+    "time_scope_raw": "December 2025",
+    "time_scope_normalized_if_safe": "2025-12",
+    "geography_if_explicit": "United States (38.5% of traffic)",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Payhip: 6.8M visits Dec 2025; +10.97% MoM",
+      "bounce rate 41.48%; pages/visit 4.38; avg duration 00:02:55",
+      "traffic: Direct 55.87%; Organic 2nd; Referrals 3rd; Mail most underutilized",
+      "audience: 58.77% male; 18-24 largest age group; US 38.5%",
+      "search: organic 98.86%, paid 1.14%",
+      "social: YouTube > Pinterest > Instagram",
+      "top interest category: Video Games Consoles and Accessories 57.04%"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "SimilarWeb report on payhip.com (December 2025). Third-party web analytics panel. 6.8M visits; +10.97% MoM. Audience: predominantly male (58.77%), 18-24, US-based. Top interest: Video Games (57.04%) — notable context for digital product type skew. SimilarWeb panel methodology not described."
+    ]
+  }
+}

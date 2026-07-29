@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-664",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://electroiq.com/stats/etsy-statistics",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002",
+    "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002",
+    "source_type": "article",
+    "source_title": "Etsy Statistics",
+    "source_ref": "https://electroiq.com/stats/etsy-statistics",
+    "source_date_if_available": "Updated February 24, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Etsy.com recorded 459.5 million total visits in January 2026. Engagement remained solid, with a 39.63% bounce rate, 6.11 pages per visit, and an average session length of 00:04:45. Traffic fell by 12.32% versus the prior month (month-over-month). In rankings, Etsy.com stood at Global Rank #64, U.S. Rank #30, and Category Rank #5\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Electroiq reports Etsy.com January 2026 web traffic: 459.5M visits, 39.63% bounce rate, 6.11 pages/visit, 4:45 avg session length, -12.32% MoM; rankings: Global #64, US #30, Category #5",
+    "actor_level": "unknown",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "459.5M visits in Jan 2026; bounce rate 39.63%; 6.11 pages/visit; avg session 4:45; -12.32% MoM; Global Rank #64, US Rank #30, Category Rank #5",
+    "metric_unit": "visits; %; pages per visit; time; rank",
+    "time_scope_raw": "January 2026; article updated February 24, 2026",
+    "time_scope_normalized_if_safe": "2026-01",
+    "geography_if_explicit": "United States (US rank #30 cited separately)",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "459.5M total visits in January 2026",
+      "bounce rate 39.63%; 6.11 pages/visit; avg session 4:45",
+      "traffic -12.32% MoM",
+      "Global Rank #64; US Rank #30; Category Rank #5"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "electroiq.com (updated February 24, 2026). Etsy.com traffic data for January 2026: 459.5M visits, solid engagement metrics, -12.32% MoM traffic decline. Third-party analytics aggregator; methodology not disclosed."
+    ]
+  }
+}

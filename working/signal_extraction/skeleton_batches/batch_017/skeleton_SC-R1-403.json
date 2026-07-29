@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-403",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+    "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-006",
+    "source_type": "help_center",
+    "source_title": "Refunds Chargebacks",
+    "source_ref": "https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"That being said, Lemon Squeezy reserves the right to issue refunds within 60 days of purchase, at its own discretion, in order to prevent chargebacks.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Lemon Squeezy reserves the right to issue refunds within 60 days of purchase at its own discretion to prevent chargebacks, without requiring seller approval",
+    "actor_level": "platform",
+    "platforms": [
+      "Lemon Squeezy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "60 days",
+    "time_scope_normalized_if_safe": "P60D",
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "60-day unilateral refund window",
+      "at platform's own discretion",
+      "purpose: prevent chargebacks"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Lemon Squeezy help center (undated, accessed April 2026). Official policy: platform can unilaterally issue refunds within 60 days of purchase at its discretion to prevent chargebacks."
+    ]
+  }
+}

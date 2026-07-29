@@ -88,6 +88,7 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 - If `working/signal_extraction/signal_converter_manifest.json` exists and `status == complete`, exit cleanly with a "nothing to do" message.
 - If it exists and `status == in_progress`, read it. The `processed_skeletons` list and `next_signal_id_counter` are the resume state.
 - If it does not exist, initialize with `status: pending`, `next_signal_id_counter` from stage 1 manifest, empty counters, and empty arrays.
+- If a new stage 2 run needs to start after a `complete` manifest already exists (for example, stage 1 produced additional skeletons in new batches), archive the existing manifest before touching it: copy the file, unmodified, to `working/signal_extraction/signal_converter_manifest.<archived_at>.json`, where `<archived_at>` is the ISO 8601 UTC timestamp of the archive action with `:` replaced by `-`. The archived copy keeps the exact same structure and schema as the live manifest — no fields added or changed. Only after the archive copy exists, initialize a fresh manifest as described in the "does not exist" case above. Never delete or overwrite a `complete` manifest without archiving it first.
 
 ### 3. Enumerate skeletons to process
 
@@ -316,7 +317,7 @@ Checkpoint granularity is per skeleton (all cards produced from it), not per bat
 On startup:
 
 1. Read `working/signal_extraction/signal_converter_manifest.json`.
-2. If `status == complete`: exit cleanly.
+2. If `status == complete`: exit cleanly. If a new run is intended (e.g. stage 1 produced additional skeletons), archive this manifest first — copy it, unmodified, to `working/signal_extraction/signal_converter_manifest.<archived_at>.json` (`<archived_at>` = ISO 8601 UTC timestamp of the archive action, `:` replaced by `-`) — then initialize a fresh manifest per point 6 below. Never delete or overwrite a `complete` manifest without archiving it first.
 3. If `status == in_progress`: read `processed_skeletons` (use `skeleton_signal_id` field) and `next_signal_id_counter`. Skip any skeleton already processed. Resume from the next unprocessed skeleton using the saved `next_signal_id_counter`.
 4. If `status == blocked_by_stage_1_incomplete`: re-check `working/signal_extraction/signal_prepare_manifest.json`. If stage 1 is now `complete`, reset status to `in_progress` and proceed. Otherwise exit with message.
 5. If `status == failed`: do not auto-resume. Operator must inspect manifest, resolve failure, and reset status before re-running.

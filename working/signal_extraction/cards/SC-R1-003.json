@@ -1,0 +1,49 @@
+{
+  "signal_id": "SC-R1-003",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+  ],
+  "round": 1,
+  "signal_text": "Currently, only 31 creators on Patreon receive sponsorship from more than 20,000 paying members each.",
+  "subject_exact": "Concentration of Patreon creators with more than 20,000 paying members",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "31",
+  "metric_unit": "creators with more than 20,000 paying members",
+  "time_scope_raw": "Currently",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Currently",
+    "only 31 creators"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://backlinko.com/patreon-users",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw trimmed to 'Currently' (verbatim from snippet); the article's last-updated date (Feb. 25, 2026) is record metadata, not snippet text, and is recorded here instead of appended to time_scope_raw.",
+    "Split from this snippet: the top-creator paid-member figure (124,452) is a second discrete fact in the same snippet, expressed as its own card rather than left unexpressed.",
+    "actor_level changed from inherited 'seller' to 'source': third-party analysis (Backlinko/Graphtreon-sourced) reporting a creator-tier count, not a seller or platform speaking in first person."
+  ],
+  "extraction_notes": []
+}

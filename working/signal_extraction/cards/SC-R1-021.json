@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-021",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003"
+  ],
+  "round": 1,
+  "signal_text": "Etsy's help center states that, regardless of shop location, buyers in Australia, Belarus, Chile, the EU, Georgia, Iceland, India, Indonesia, Kenya, Malaysia, Mexico, Moldova, New Zealand, Norway, Russia, Saudi Arabia, Serbia, Singapore, South Africa, South Korea, Switzerland, Taiwan, Thailand, Türkiye, Ukraine, the United Arab Emirates, and Vietnam are charged VAT on digital item purchases.",
+  "subject_exact": "Etsy VAT collection obligation on digital item sales by buyer country of residence",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Australia",
+    "Belarus",
+    "Chile",
+    "the EU",
+    "Georgia (country)",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Kenya",
+    "Malaysia",
+    "Mexico",
+    "Moldova",
+    "New Zealand",
+    "Norway",
+    "Russia",
+    "Saudi Arabia",
+    "Serbia",
+    "Singapore",
+    "South Africa",
+    "South Korea",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "Türkiye",
+    "Ukraine",
+    "United Arab Emirates",
+    "Vietnam"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "no matter where your shop is located",
+    "will be charged VAT"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015587567-How-VAT-Works-on-Digital-Items",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-003"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level set to 'platform' (from inherited 'mixed'): this is a single-voice Etsy help-center policy statement (platform describing a buyer-facing tax consequence), not a genuinely mixed multi-actor claim."
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-519",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-008"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/legal/fees",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-008",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-008",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-008",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+    "source_type": "policy_page",
+    "source_title": "Fees",
+    "source_ref": "https://www.etsy.com/legal/fees",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"If at any time your shop has made sales of $10,000 USD or more over the prior 365 days (going back to February 20, 2019 and later), as calculated on the first day of the month, you will subsequently pay a fee of 12% (as described in the section below) on Attributed Orders, as of the beginning of the program if you immediately qualify, and otherwise on the first day of the month following qualification. If you subsequently fall below the $10,000 USD threshold at a later date, you will still only be charged a 12% advertising fee for the lifetime of your shop.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states shops reaching $10,000 USD in prior 365-day sales pay 12% Offsite Ads fee on Attributed Orders permanently — rate does not revert to 15% even if sales later fall below the threshold",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "fee_rate",
+    "metric_value_raw": "12",
+    "metric_unit": "% on Attributed Orders",
+    "time_scope_raw": "prior 365 days (threshold window), lifetime of shop (12% rate lock-in)",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "12% Offsite Ads fee for shops at or above $10,000 USD in prior 365-day sales",
+      "12% rate is permanent — does not revert to 15% if shop subsequently falls below threshold",
+      "applies from beginning of program if immediately qualifying, otherwise from first day of month following qualification",
+      "threshold calculated on first day of each month"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Etsy legal/fees page (current as of April 2026). Offsite Ads: 12% fee on Attributed Orders for shops at/above $10,000 USD/365-day sales; permanently locked at 12% — does not revert to 15% if sales later fall below threshold."
+    ]
+  }
+}

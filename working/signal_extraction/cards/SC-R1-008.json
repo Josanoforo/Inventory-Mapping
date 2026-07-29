@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-008",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006"
+  ],
+  "round": 1,
+  "signal_text": "Other popular Patreon content categories by profile count include music (15,530 profiles), gaming (13,688), writing (10,997), adult video (8,803), comics (6,812), adult games (4,642), adult photography (2,375), adult cosplay (1,378), and cosplay (1,044).",
+  "subject_exact": "Patreon creator profile counts by category (music, gaming, writing, adult categories)",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": "creator profiles per category",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Some of the other popular categories"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://earthweb.com/patreon-statistics",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw set to null: 'as of January 2025' does not appear verbatim in this snippet; it was inferred from the source article's title and a sibling snippet, which is not permitted for time_scope_raw (verbatim-only). The inference is preserved here as context rather than in time_scope_raw.",
+    "actor_level changed from inherited 'seller' to 'source': third-party statistics article, no first-person actor.",
+    "Nine category counts in this snippet treated as one coherent distributional observation (category breakdown), not split into nine cards: all share the same subject boundary (category share of Patreon profiles), same source, same actor level, and same implied time window. This is a judgment call, flagged here for operator review rather than auto-split."
+  ],
+  "extraction_notes": []
+}

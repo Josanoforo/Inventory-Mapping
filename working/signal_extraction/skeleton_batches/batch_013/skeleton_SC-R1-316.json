@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-316",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/es/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019",
+    "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019",
+    "source_type": "policy_page",
+    "source_title": "Terms",
+    "source_ref": "https://www.domestika.org/es/terms",
+    "source_date_if_available": "January 31, 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Ocasionalmente, realizamos promociones y rebajas para nuestro contenido, en las que determinado contenido está disponible a precios con descuento durante cierto período de tiempo. El precio aplicable al contenido será el precio en el momento en el que compró el contenido.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika runs occasional time-limited promotional discounts; purchase price is locked at moment of transaction and not subject to retroactive changes",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "durante cierto período de tiempo (for a certain period of time)",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Global",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "realizamos promociones y rebajas",
+      "determinado contenido está disponible a precios con descuento durante cierto período de tiempo",
+      "El precio aplicable al contenido será el precio en el momento en el que compró el contenido"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Domestika Terms (January 31, 2024, Spanish). Promotional pricing: occasional time-limited discounts on content. Price locked at moment of purchase; no retroactive adjustments."
+    ]
+  }
+}

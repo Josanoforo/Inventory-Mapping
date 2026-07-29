@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-813",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-do-curso-mestres-do-algoritmo-comprado-pela-hotmart_ZRL1wuflMgBGnNNO",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-018",
+    "source_type": "buyer_review",
+    "source_title": "Reembolso Nao Efetuado Do Curso Mestres Do Algoritmo Comprado Pela Hotmart Zrl1Wuflmgbgnnno",
+    "source_ref": "https://www.reclameaqui.com.br/hotmart/reembolso-nao-efetuado-do-curso-mestres-do-algoritmo-comprado-pela-hotmart_ZRL1wuflMgBGnNNO",
+    "source_date_if_available": "23/10/2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Fiz uma compra pela hotmart do Mestres do Algoritmo dia 20/10 e o curso não tem o q promete,pedi o reembolso no dia 21/10 o vendedor entrou em contato comigo e falei paracele q queria o reembolso ele aceitou e até hoje o reembolso não caiu ,fiz o pagamento via pix e a hotmart não me devolveu o dinheiro ,gostaria q vcs resolvessem isso para mim obrigado.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Reclame Aqui complaint (October 23, 2025) reports Hotmart course 'Mestres do Algoritmo' purchased October 20 did not deliver promised content; refund requested October 21 with seller agreement; Pix payment refund not received by October 23 complaint date",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "23/10/2025",
+    "time_scope_normalized_if_safe": "2025-10",
+    "geography_if_explicit": "Brazil",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Course 'Mestres do Algoritmo' did not deliver promised content; purchased Oct 20, refund requested Oct 21 with seller agreement",
+      "Pix payment refund not received by Oct 23 complaint date despite seller's acceptance"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "reclameaqui.com.br (October 23, 2025). 'Mestres do Algoritmo' course: content not as promised; refund agreed by seller Oct 21; Pix refund not received by Oct 23. Portuguese-language (Brazil)."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "signal_id": "SC-R1-005",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004"
+  ],
+  "round": 1,
+  "signal_text": "The Patreon Scraper Chrome extension listing states a subscription price of $18.99 per month, with no password or API login required and cancellation available at any time.",
+  "subject_exact": "Patreon Scraper Chrome extension subscription price at $18.99 per month",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "price",
+  "metric_value_raw": 18.99,
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Access all features for just $18.99/month",
+    "No account required to sign up",
+    "cancel at any time, no questions asked",
+    "For the extension to work, make sure your Patreon web language is set to English"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://chromewebstore.google.com/detail/patreon-scraper/cofdkjlleejhgmhacajalbhedbdncgki",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'source' to 'third_party': first-person promotional/pricing copy from the extension vendor about its own product."
+  ],
+  "extraction_notes": []
+}

@@ -1,0 +1,48 @@
+{
+  "signal_id": "SC-R1-006",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005"
+  ],
+  "round": 1,
+  "signal_text": "Creator Metrics' website markets itself as an analytics dashboard for Patreon creators, offering a free 14-day trial.",
+  "subject_exact": "Creator Metrics analytics dashboard for Patreon creators: availability and free trial offer",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Start your free 14-day trial",
+    "specifically created for Patreon creators"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://creatormetrics.io/",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level changed from inherited 'seller' to 'third_party': first-person promotional copy from the SaaS vendor (Creator Metrics) about its own product, not a Patreon creator/seller speaking."
+  ],
+  "extraction_notes": []
+}

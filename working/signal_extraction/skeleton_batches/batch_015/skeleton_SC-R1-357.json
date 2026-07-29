@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-357",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.eufymake.com/blogs/business-ideas/amazon-handmade-vs-etsy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013",
+    "source_type": "blog",
+    "source_title": "Amazon Handmade Vs Etsy",
+    "source_ref": "https://www.eufymake.com/blogs/business-ideas/amazon-handmade-vs-etsy",
+    "source_date_if_available": "2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Unlike Etsy, which charges $0.20 per listing every four months, Amazon lets you list as many products as you want for free. You only pay when something sells. Amazon charges a flat 15% referral fee on every sale. This is much higher than Etsy's 6.5% transaction fee. While Amazon's fee includes payment processing, the total cost per sale is still significantly higher.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Third-party blog compares Amazon Handmade (free listings, 15% referral fee including payment processing) vs Etsy ($0.20/listing every 4 months, 6.5% transaction fee with separate payment processing)",
+    "actor_level": "platform",
+    "platforms": [
+      "Amazon",
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "fee_rate",
+    "metric_value_raw": "15",
+    "metric_unit": "% referral fee (Amazon Handmade, includes payment processing)",
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Etsy: $0.20 per listing every four months",
+      "Amazon: free listings, 15% referral fee including payment processing",
+      "Etsy: 6.5% transaction fee (separate payment processing)"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "Blog post (eufymake.com, 2026). Fee comparison: Amazon Handmade free listings + 15% referral (incl. payment processing) vs Etsy $0.20/listing + 6.5% transaction + separate payment processing. methodology_unclear: no source citations for fee figures."
+    ]
+  }
+}

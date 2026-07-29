@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-086",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+    "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+    "source_type": "report",
+    "source_title": "Caida Domestika Millones Despedir Sustituir Tareas Chatgpt",
+    "source_ref": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+    "source_date_if_available": "June 2, 2023",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Pasaron en muy poco tiempo de tener 200 empleados a alrededor de 800 en todo el mundo y, en año y medio, se van a quedar otra vez con 200. Ahí evidentemente hay algo raro.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Domestika workforce trajectory: rapid growth from 200 to ~800 employees globally, then contraction back to ~200 within approximately 1.5 years",
+    "actor_level": "marketplace",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": "800",
+    "metric_unit": "employees (peak)",
+    "time_scope_raw": "en muy poco tiempo; en año y medio",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Pasaron en muy poco tiempo de tener 200 empleados a alrededor de 800 en todo el mundo",
+      "en año y medio, se van a quedar otra vez con 200",
+      "Ahí evidentemente hay algo raro"
+    ],
+    "uncertainties": [
+      "time_scope_unclear",
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Spanish-language anecdote from El Español (June 2023): describes Domestika's rapid headcount growth from 200 to ~800 and prospective return to ~200. Future tense 'se van a quedar' indicates the contraction was projected at time of writing, not yet confirmed. Employee headcount not in metric_type enum; unknown used."
+    ]
+  }
+}

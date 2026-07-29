@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-803",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.reclameaqui.com.br/hotmart/cobranca-indevida-de-assinatura-automatica-apos-solicitacao-de-cancelamento-e-pedido-de-reembolso_WIJr8wuVjt6ah0hg",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-008",
+    "source_type": "buyer_review",
+    "source_title": "Cobranca Indevida De Assinatura Automatica Apos Solicitacao De Cancelamento E Pedido De Reembolso Wijr8Wuvjt6Ah0Hg",
+    "source_ref": "https://www.reclameaqui.com.br/hotmart/cobranca-indevida-de-assinatura-automatica-apos-solicitacao-de-cancelamento-e-pedido-de-reembolso_WIJr8wuVjt6ah0hg",
+    "source_date_if_available": "~January 2026 (subscription cancelled 11/12/2025)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Olá, comprei esse produto no ano passado mas não sabia que tinha assinatura automática. Solicitei ao produtor para cancelar pois não estava conseguindo acessar o link, mandei e-mail e mesmo assim foi cobrado no meu cartão 208,56. Peço por gentileza de me reembolsar pois não vou utilizar o produto.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Hotmart Reclame Aqui complaint (~January 2026; cancellation requested November 12, 2025) reports unwanted automatic subscription charge of R$208.56 after cancellation request; buyer was unaware of automatic renewal; product link was inaccessible; refund requested",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "price",
+    "metric_value_raw": "R$208.56",
+    "metric_unit": "BRL",
+    "time_scope_raw": "~January 2026 (subscription cancelled 11/12/2025)",
+    "time_scope_normalized_if_safe": "2026-01",
+    "geography_if_explicit": "Brazil",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Unexpected auto-subscription charge of R$208.56 after cancellation request; product link inaccessible",
+      "Portuguese-language Reclame Aqui complaint (Brazil consumer platform)"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "reclameaqui.com.br (January 2026; cancelled November 12, 2025). Hotmart auto-subscription charge R$208.56 after cancellation. Buyer unaware of auto-renewal; link inaccessible."
+    ]
+  }
+}

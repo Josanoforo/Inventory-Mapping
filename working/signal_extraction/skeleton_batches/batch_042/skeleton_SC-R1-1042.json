@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-1042",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+    "source_type": "blog",
+    "source_title": "Stripe Vs Lemonsqueezy Saas",
+    "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "source_date_if_available": "2025-04-06",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Development time: Lemon Squeezy implementations were 70% faster · Operational overhead: Stripe required about 5 hours/month for maintenance vs. 1 hour for Lemon Squeezy · Customer support issues: 40% fewer payment-related support tickets with Lemon Squeezy\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "Blog post (anotherwrapper.com, Apr 6, 2025) reports comparative metrics: Lemon Squeezy implementations 70% faster than Stripe; Stripe requires approximately 5 hours/month maintenance vs approximately 1 hour for Lemon Squeezy; 40% fewer payment-related support tickets with Lemon Squeezy",
+    "actor_level": "unknown",
+    "platforms": [
+      "Stripe",
+      "Lemon Squeezy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": "LS implementation 70% faster; Stripe ~5h/month vs LS ~1h maintenance; 40% fewer support tickets with LS",
+    "metric_unit": "% reduction / hours per month",
+    "time_scope_raw": "2025-04-06",
+    "time_scope_normalized_if_safe": "2025-04-06",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "LS vs Stripe: LS implementation 70% faster; Stripe ~5h/month maintenance vs LS ~1h; 40% fewer support tickets with LS"
+    ],
+    "uncertainties": [
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "anotherwrapper.com blog (2025-04-06). LS vs Stripe: 70% faster implementation; 5h vs 1h/month maintenance; 40% fewer support tickets. Claimed metrics; methodology not stated."
+    ]
+  }
+}

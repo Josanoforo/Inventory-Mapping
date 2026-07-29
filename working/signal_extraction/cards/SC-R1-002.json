@@ -1,0 +1,46 @@
+{
+  "signal_id": "SC-R1-002",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+  ],
+  "round": 1,
+  "signal_text": "Based on Graphtreon data, 286,287 Patreon creators had at least one paying member as of February 2026.",
+  "subject_exact": "Number of Patreon creators with at least one paying member as of February 2026",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "286,287",
+  "metric_unit": "creators with at least one paying member",
+  "time_scope_raw": "as of February 2026",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "as of February 2026",
+    "Based on Graphtreon data"
+  ],
+  "uncertainties": [],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://backlinko.com/patreon-users",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002"
+    }
+  ],
+  "normalization_notes": [
+    "Split from this snippet: the ~5% decline since June 2025 is a separate comparative claim, expressed as its own card rather than left as a qualifier here.",
+    "actor_level changed from inherited 'seller' to 'source': this is third-party analysis (a Backlinko article) reporting Graphtreon database data, not a seller or platform speaking in first person."
+  ],
+  "extraction_notes": []
+}

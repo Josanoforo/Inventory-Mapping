@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-361",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.nav.com/blog/amazon-vs-etsy-1528172",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016",
+    "source_type": "blog",
+    "source_title": "Amazon Vs Etsy 1528172",
+    "source_ref": "https://www.nav.com/blog/amazon-vs-etsy-1528172",
+    "source_date_if_available": "2022-10-07",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Overall, Amazon tends to attract more price-sensitive buyers who want things quickly. Even with Handmade items, customers may expect an 'Amazon experience' overall with free, fast shipping. Etsy shoppers tend to value unique items made by individuals. They may be more willing to wait for something unique or made to order.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Third-party blog characterizes Amazon buyers as price-sensitive expecting fast shipping, versus Etsy shoppers who prioritize uniqueness and accept longer fulfillment times for individual/made-to-order items",
+    "actor_level": "platform",
+    "platforms": [
+      "Amazon",
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Amazon: price-sensitive buyers, expect free fast shipping",
+      "Etsy: shoppers value unique items made by individuals",
+      "more willing to wait for something unique or made to order"
+    ],
+    "uncertainties": [
+      "current_vs_historical_ambiguity"
+    ],
+    "parser_notes": [
+      "Blog post (nav.com, 2022-10-07). Buyer behavior characterization: Amazon = price-sensitive + fast shipping expectation; Etsy = uniqueness-seeking + willingness to wait. current_vs_historical_ambiguity: 2022 data."
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-806",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.reclameaqui.com.br/hotmart/dificuldade-de-acesso-a-cursos-comprados_V4bQ18gNaA0emX2y",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-011",
+    "source_type": "buyer_review",
+    "source_title": "Dificuldade De Acesso A Cursos Comprados V4Bq18Gnaa0Emx2Y",
+    "source_ref": "https://www.reclameaqui.com.br/hotmart/dificuldade-de-acesso-a-cursos-comprados_V4bQ18gNaA0emX2y",
+    "source_date_if_available": "01/08/2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Comprei 02 cursos. Porém, não consigo acessar. A plataforma de ensino. O mesmo informa que preciso pagar o curso novamente.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Hotmart Reclame Aqui complaint (August 1, 2025) reports inability to access 2 purchased courses; learning platform displays message requiring repayment despite prior purchase",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": "online courses",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "01/08/2025",
+    "time_scope_normalized_if_safe": "2025-08",
+    "geography_if_explicit": "Brazil",
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Purchased courses inaccessible; platform prompts repayment despite prior purchase"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "reclameaqui.com.br (August 1, 2025). 2 purchased courses inaccessible; platform demands repayment. Portuguese-language (Brazil)."
+    ]
+  }
+}

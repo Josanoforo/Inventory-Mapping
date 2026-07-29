@@ -1,0 +1,52 @@
+{
+  "signal_id": "SC-R1-019",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001"
+  ],
+  "round": 1,
+  "signal_text": "Etsy states that, starting January 1, 2023, it will withhold Mexican ISR and IVA taxes from sales by sellers in Mexico, up to 36% of the order total, though sellers who register a Mexican RFC tax ID with their Etsy account have significantly less withheld.",
+  "subject_exact": "Etsy tax withholding rate for sellers in Mexico effective January 1, 2023 (ISR and IVA)",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "as high as 36",
+  "metric_unit": "percent of order total",
+  "time_scope_raw": "Starting Jan 1, 2023",
+  "time_scope_normalized_if_safe": "2023-01-01",
+  "geography_if_explicit": [
+    "Mexico"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Starting Jan 1, 2023",
+    "to comply with local laws",
+    "impuesto sobre la renta (ISR) and impuesto al valor agregado (IVA)"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity",
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://community.etsy.com/t5/Announcements/Important-New-tax-requirements-for-sellers-in-Mexico/td-p/140124123",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-001"
+    }
+  ],
+  "normalization_notes": [
+    "actor_level set to 'platform' (from inherited array ['marketplace','seller']): despite source_type being categorized as seller_forum by stage 1, the snippet is an official Etsy platform announcement (Etsy speaking in first person about its own tax withholding practice), not a seller or a genuinely mixed voice.",
+    "local_qualifiers trimmed: the restatement of the 36% withholding rate and the RFC-registration conditional were full-sentence claim content duplicating what belongs in signal_text; both are folded into signal_text instead."
+  ],
+  "extraction_notes": []
+}

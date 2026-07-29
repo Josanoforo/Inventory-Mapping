@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-N3-REC",
+  "source_packet_id": "SP-fixture-n03",
+  "source_id": "SRC-fixture-n03",
+  "source_type": "help_center",
+  "source_title": "Fixture: free shipping profile setting",
+  "source_ref": "https://example.invalid/fixture/free-shipping",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Sellers can offer free shipping by adjusting their shipping profile settings in the shop manager.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "free shipping via shipping profile settings",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/free-shipping",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "signal_id": "SC-R1-010",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007"
+  ],
+  "round": 1,
+  "signal_text": "Graphtreon's Patreon Stats page shows an estimated $25,443,110 in monthly payouts across all creators, excluding hidden earnings.",
+  "subject_exact": "Graphtreon estimated total monthly payouts across all Patreon creators",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "25,443,110",
+  "metric_unit": "USD/month (estimated, excludes hidden earnings)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "excludes hidden earnings",
+    "Estimated"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity",
+    "time_scope_unclear"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://graphtreon.com/patreon-stats",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007"
+    }
+  ],
+  "normalization_notes": [
+    "time_scope_raw set to null: neither the access date nor 'Updated daily' appear verbatim in this snippet.",
+    "actor_level changed from inherited 'seller' to 'source': Graphtreon third-party stats display, no first-person seller/platform voice."
+  ],
+  "extraction_notes": []
+}

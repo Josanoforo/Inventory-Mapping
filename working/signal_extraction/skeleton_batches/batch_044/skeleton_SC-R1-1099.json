@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-1099",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+      "secondary_pointer": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+    "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+    "source_type": "help_center",
+    "source_title": "Como Retirar Mi Comision",
+    "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "source_date_if_available": "as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Si el país registrado en tu cuenta es Colombia, es posible realizar el retiro de ventas en Dólares a Pesos Colombianos (COP). Para ello, es necesario registrar una cuenta bancaria colombiana en la plataforma.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart withdrawal help center (help.hotmart.com/es, as of April 2026) states that sellers registered in Colombia can withdraw their USD sales balance to Colombian Peso (COP) by registering a Colombian bank account on the platform",
+    "actor_level": "platform",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "as of April 2026",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Colombia",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "Hotmart help (as of Apr 2026): Colombia sellers can withdraw USD to COP using a registered Colombian bank account"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "help.hotmart.com (as of Apr 2026). Spanish. Colombia-specific: USD to COP withdrawal available with Colombian bank account registered."
+    ]
+  }
+}

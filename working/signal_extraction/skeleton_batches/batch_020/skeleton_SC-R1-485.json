@@ -1,0 +1,75 @@
+{
+  "signal_id": "SC-R1-485",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=3",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007",
+    "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-007",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=3",
+    "source_date_if_available": "March 14, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"payout has been failing for 3 months, and Lemon Squeezy did nothing, did not reply, didn't show any initiative, they are completely silent as if they closed the shop!\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Lemon Squeezy seller reports payout failing for 3 months with complete platform silence: no reply, no initiative from support",
+    "actor_level": "seller",
+    "platforms": [
+      "Lemon Squeezy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "3 months (payout failures)",
+    "time_scope_normalized_if_safe": "2026-03-14",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "payout failing for 3 months",
+      "platform completely silent: no reply, no initiative from Lemon Squeezy"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Trustpilot review (March 14, 2026). Lemon Squeezy seller: payout failing 3 months; platform completely silent — no reply, no initiative."
+    ]
+  }
+}

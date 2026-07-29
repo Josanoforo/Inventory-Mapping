@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-392",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://docs.lemonsqueezy.com/help/checkout/payment-methods",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003",
+    "source_type": "help_center",
+    "source_title": "Payment Methods",
+    "source_ref": "https://docs.lemonsqueezy.com/help/checkout/payment-methods",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"For subscription products we only support cards, Apple Pay, Google Pay and PayPal at this time.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Lemon Squeezy supports only cards, Apple Pay, Google Pay, and PayPal for subscription product payments; other payment methods excluded for subscriptions",
+    "actor_level": "platform",
+    "platforms": [
+      "Lemon Squeezy"
+    ],
+    "product_type_if_explicit": "subscription",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "subscription products: cards, Apple Pay, Google Pay, PayPal only",
+      "other payment methods not supported for subscriptions",
+      "qualified with 'at this time'"
+    ],
+    "uncertainties": [
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "Lemon Squeezy help center (undated, accessed April 2026). Official documentation: subscription products restricted to card payments, Apple Pay, Google Pay, and PayPal."
+    ]
+  }
+}

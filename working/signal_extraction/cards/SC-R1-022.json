@@ -1,0 +1,50 @@
+{
+  "signal_id": "SC-R1-022",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004"
+  ],
+  "round": 1,
+  "signal_text": "Etsy's help center states that, as of August 29, 2025, most packages shipped to the US are subject to tariffs, with the cost handled either as Delivered Duty Paid (DDP) — where the seller pays the tariff upfront, included in the checkout total — or Delivered Duty Unpaid (DDU) — where the buyer pays any tariffs and fees directly to the carrier upon delivery, depending on the shipping method the seller selects.",
+  "subject_exact": "Etsy tariff responsibility split between DDP and DDU shipping methods for US-bound packages as of August 29, 2025",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "As of August 29, 2025",
+  "time_scope_normalized_if_safe": "2025-08-29",
+  "geography_if_explicit": [
+    "United States"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "As of August 29, 2025",
+    "most packages shipped to the US"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015691007-Will-I-Have-to-Pay-for-Tax-Customs-or-Tariffs-on-My-Order",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-004"
+    }
+  ],
+  "normalization_notes": [
+    "local_qualifiers trimmed: the DDP and DDU clause descriptions were full policy-clause sentences (claim content), not scope-limiting conditions; moved into signal_text, consistent with the rule that qualifiers hold conditions, not claim substance.",
+    "actor_level set to 'platform' (from inherited ['buyer','seller']): the speaker is Etsy's help center describing its own policy; 'mixed' would conflate who is affected (buyer or seller, depending on shipping method chosen) with who speaks, which is Etsy alone."
+  ],
+  "extraction_notes": []
+}

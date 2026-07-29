@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-382",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-005"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-005",
+      "secondary_pointer": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-005",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-005",
+    "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+    "source_date_if_available": "August 23, 2025",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"I joined a published a few very well written guides, no adult material, not rule breaks. their AI deemed some of my material broke their rules. yet amazon and google books don't. they suspended my account. Avoid them, total waste of time and effort very unreasonable, can not even get a straight answer as to why\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Seller reports Gumroad AI content review suspended account for guides accepted by Amazon and Google Books; no explanation provided despite requests",
+    "actor_level": "seller",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "published 'well written guides' with no adult material or rule violations",
+      "Gumroad AI deemed content rule-breaking",
+      "same content accepted on Amazon and Google Books",
+      "account suspended with no explanation provided"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Trustpilot review (August 23, 2025). Seller reports erroneous AI content moderation: guides accepted on Amazon and Google Books flagged by Gumroad AI as rule-breaking; account suspended with no explanation despite requests."
+    ]
+  }
+}

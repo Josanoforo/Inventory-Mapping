@@ -1,0 +1,77 @@
+{
+  "signal_id": "SC-R1-1127",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+    "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+    "source_type": "unknown",
+    "source_title": "Review",
+    "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+    "source_date_if_available": "April 1, 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"This is the worst online purchasing experience I have ever had. I paid for my purchase, post payment I was given the option to send the book to kindle - this didn't work. I set up an account and to...\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "anecdotal_report",
+    "subject_exact": "Trustpilot review of Gumroad (April 1, 2026) reports a failed digital book purchase: post-payment Kindle delivery option was non-functional; reviewer describes it as their worst online purchasing experience [snippet truncated]",
+    "actor_level": "unknown",
+    "platforms": [
+      "Gumroad"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 1, 2026",
+    "time_scope_normalized_if_safe": "2026-04-01",
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "Trustpilot review (Apr 1, 2026): ebook purchase on Gumroad; post-payment Kindle delivery option non-functional [snippet truncated]"
+    ],
+    "uncertainties": [
+      "anecdotal_single_source",
+      "subject_ambiguity"
+    ],
+    "parser_notes": [
+      "trustpilot.com/review/gumroad.com (Apr 1, 2026). English. Gumroad review: ebook purchased; Kindle delivery option broken post-payment; described as worst online purchase experience. Snippet truncated — full context unavailable."
+    ]
+  }
+}

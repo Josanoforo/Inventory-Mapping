@@ -1,0 +1,79 @@
+{
+  "signal_id": "SC-R1-448",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=7",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007",
+    "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-007",
+    "source_type": "buyer_review",
+    "source_title": "Review",
+    "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=7",
+    "source_date_if_available": "12 marzo 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"El servicio de atención al productor es una auténtica basura. Los tiempos de espera son una locura y te vas sin solución. Puedes volver a intentarlo varias veces y da lo mismo, es penoso. No se lo re...\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Hotmart producer describes support service as extremely poor, with long wait times and no resolution on repeated attempts",
+    "actor_level": "seller",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "anecdotal_example",
+    "local_qualifiers": [
+      "producer support described as 'garbage'",
+      "long wait times with no resolution",
+      "multiple attempts equally unhelpful",
+      "snippet truncated; would not recommend"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "Spanish-language Trustpilot review (March 12, 2026). Hotmart producer describes support service as extremely poor; long wait times with no resolution on repeated attempts. Snippet truncated."
+    ]
+  }
+}

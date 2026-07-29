@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-305",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-009"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.domestika.org/en/terms",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-009",
+      "secondary_pointer": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-009",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-009",
+    "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+    "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+    "source_type": "policy_page",
+    "source_title": "Terms",
+    "source_ref": "https://www.domestika.org/en/terms",
+    "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"If within the first 14 days after you purchased a course you become dissatisfied with that course, DOMESTIKA will refund the full amount of your purchase and subsequently terminate your access to that course. Refunds will not be available if requested after this 14-day period. Due to possible currency exchange rate fluctuations with your local currency and the US dollar, the refunded amount may be slightly higher or lower than your original paid amount.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Domestika offers full refund within 14 days of course purchase with access revoked; no refunds after 14 days; refund amount may vary from original due to USD/local currency exchange rate fluctuations",
+    "actor_level": "platform",
+    "platforms": [
+      "Domestika"
+    ],
+    "product_type_if_explicit": "course",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "14 days after purchase",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Global",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "within the first 14 days after you purchased a course",
+      "DOMESTIKA will refund the full amount",
+      "terminate your access to that course",
+      "Refunds will not be available if requested after this 14-day period",
+      "refunded amount may be slightly higher or lower than your original paid amount"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Domestika Terms of Use (last updated January 31, 2024). Course refund policy: 14-day window, full refund with access revoked. FX fluctuations (local currency vs USD) may cause refund amount to differ from original payment."
+    ]
+  }
+}

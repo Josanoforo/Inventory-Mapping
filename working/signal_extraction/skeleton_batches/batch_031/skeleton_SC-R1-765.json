@@ -1,0 +1,78 @@
+{
+  "signal_id": "SC-R1-765",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://chromewebstore.google.com/detail/lemon-squeezy-fee-calcula/bbadfcacpbejgcnagiibnammbhgfakdi",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003",
+    "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003",
+    "source_type": "product_listing",
+    "source_title": "Bbadfcacpbejgcnagiibnammbhgfakdi",
+    "source_ref": "https://chromewebstore.google.com/detail/lemon-squeezy-fee-calcula/bbadfcacpbejgcnagiibnammbhgfakdi",
+    "source_date_if_available": "April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"This fee calculator helps you estimate fees and know the money you receive for selling your digital products with Lemon Squeezy. 🤔 Who needs this extension? 👉 All users who sell their digital products on Lemon Squeezy.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Third-party Chrome extension 'Lemon Squeezy Fee Calculator' (accessed April 2026) helps Lemon Squeezy sellers estimate platform fees and calculate net payout for digital product sales",
+    "actor_level": "unknown",
+    "platforms": [
+      "Lemon Squeezy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "April 2026",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Chrome extension: fee estimator for Lemon Squeezy digital product sellers",
+      "calculates net payout after Lemon Squeezy fees"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "chromewebstore.google.com/detail/lemon-squeezy-fee-calcula/bbadfcacpbejgcnagiibnammbhgfakdi (April 2026). Third-party Chrome extension: fee calculator for Lemon Squeezy sellers. Existence of tool implies seller need to estimate fee impact before pricing."
+    ]
+  }
+}

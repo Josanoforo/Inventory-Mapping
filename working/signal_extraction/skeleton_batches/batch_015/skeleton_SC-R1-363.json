@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-363",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://www.shopify.com/blog/amazon-handmade-vs-etsy",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018",
+    "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018",
+    "source_type": "blog",
+    "source_title": "Amazon Handmade Vs Etsy",
+    "source_ref": "https://www.shopify.com/blog/amazon-handmade-vs-etsy",
+    "source_date_if_available": "2025 (approximate)",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Amazon Handmade integrates into the larger Amazon marketplace of mass-produced products, so some customers might not be intentionally looking for handmade goods. Etsy is an online marketplace for vintage and handmade goods from around the globe. Founded as a small Brooklyn shop in 2005, Etsy has grown into an ecommerce hub with a global customer base of nearly 90 million active buyers in 2024. Those buyers are often intentionally seeking handmade goods, and some are looking for products with personalization options.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Shopify blog cites Etsy as having nearly 90 million active buyers in 2024, founded in Brooklyn in 2005, focused on vintage/handmade goods whose buyers intentionally seek handmade and personalized products",
+    "actor_level": "platform",
+    "platforms": [
+      "Amazon",
+      "Etsy"
+    ],
+    "product_type_if_explicit": "unknown",
+    "metric_type": "count",
+    "metric_value_raw": "90000000",
+    "metric_unit": "active buyers (Etsy global, 2024, Shopify-authored estimate)",
+    "time_scope_raw": "2024",
+    "time_scope_normalized_if_safe": "2024",
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "nearly 90 million active buyers in 2024",
+      "founded as a small Brooklyn shop in 2005",
+      "buyers often intentionally seeking handmade goods"
+    ],
+    "uncertainties": [
+      "source_date_unclear",
+      "methodology_unclear"
+    ],
+    "parser_notes": [
+      "Blog post (Shopify, approx 2025; Shopify is a competitor). Etsy: ~90M active buyers in 2024, founded 2005, vintage/handmade focus, intentional buyer search intent. methodology_unclear: Shopify-authored, no primary source for buyer count."
+    ]
+  }
+}

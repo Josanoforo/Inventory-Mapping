@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-792",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+    "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+    "source_type": "article",
+    "source_title": "Compradores Productos Digitales Crecen 300 Hotmart",
+    "source_ref": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+    "source_date_if_available": "20 Mar 2024",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "statistical_data",
+    "subject_exact": "DPL News article (March 20, 2024) citing Hotmart data: 78% of Hotmart purchases made via mobile devices, 20% via computers, 2% via tablets",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "share",
+    "metric_value_raw": "mobile: 78%; computer: 20%; tablet: 2%",
+    "metric_unit": "percentage of purchases by device",
+    "time_scope_raw": "Article dated March 20, 2024 (data vintage unspecified)",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart purchases by device: 78% mobile, 20% desktop, 2% tablet"
+    ],
+    "uncertainties": [
+      "context_insufficient"
+    ],
+    "parser_notes": [
+      "dplnews.com (March 20, 2024). Hotmart device breakdown for purchases: mobile 78%, desktop 20%, tablet 2%. Data vintage not specified in article."
+    ]
+  }
+}

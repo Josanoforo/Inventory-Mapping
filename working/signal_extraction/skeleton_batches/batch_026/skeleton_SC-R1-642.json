@@ -1,0 +1,80 @@
+{
+  "signal_id": "SC-R1-642",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012-SNP-001"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://vendemebonito.com/plataformas-para-vender-infoproductos",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012-SNP-001",
+      "secondary_pointer": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012-SNP-001",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012",
+    "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012",
+    "source_type": "blog",
+    "source_title": "Plataformas Para Vender Infoproductos",
+    "source_ref": "https://vendemebonito.com/plataformas-para-vender-infoproductos",
+    "source_date_if_available": "Accessed April 2026; page undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Hotmart actualmente está en el número de las plataformas para vender cursos en forma de infoproductos digitales por su fácil uso, formación gratuita, y registro gratis. Desbancando así a ClickBank. [...] Realmente Clickbank prácticamente no se utilizar en el mundo hispano, pues el mercado hispano se ha trasladado a Hotmart, muchísimo mejor con diferencia.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Blog claims Hotmart has displaced ClickBank in the Spanish-speaking market for digital products, citing ease of use, free training, and free registration as advantages",
+    "actor_level": "unknown",
+    "platforms": [
+      "Hotmart",
+      "ClickBank"
+    ],
+    "product_type_if_explicit": "digital products / online courses",
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Accessed April 2026; page undated",
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": "Spanish-speaking / Hispanic market",
+    "evidence_role": "direct_claim",
+    "local_qualifiers": [
+      "Hotmart claimed to have displaced ClickBank in Hispanic digital products market",
+      "Hotmart advantages cited: ease of use, free training, free registration",
+      "ClickBank described as practically unused in the Hispanic market"
+    ],
+    "uncertainties": [
+      "methodology_unclear",
+      "source_date_unclear"
+    ],
+    "parser_notes": [
+      "vendemebonito.com (undated). Blog claims Hotmart displaced ClickBank in Hispanic digital products market; cited advantages: ease of use, free training, free registration. Opinion; no market share data cited."
+    ]
+  }
+}

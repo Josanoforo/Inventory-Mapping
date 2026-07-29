@@ -1,0 +1,76 @@
+{
+  "signal_id": "SC-R1-503",
+  "source_record_ids": [
+    "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011-SNP-003"
+  ],
+  "source_ids": [
+    "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011"
+  ],
+  "round": 1,
+  "traceability_pointers": [
+    {
+      "pointer_type": "url",
+      "pointer_value": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+      "secondary_pointer": null
+    },
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011-SNP-003",
+      "secondary_pointer": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011"
+    }
+  ],
+  "signal_text": null,
+  "subject_exact": null,
+  "actor_level": null,
+  "platforms": [],
+  "product_type_if_explicit": null,
+  "metric_type": null,
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": null,
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "normalization_notes": [],
+  "extraction_notes": [],
+  "_signal_stage": 1,
+  "_source_extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011-SNP-003",
+  "_extraction_context": {
+    "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011-SNP-003",
+    "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+    "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+    "source_type": "help_center",
+    "source_title": "What Is Etsy Payments",
+    "source_ref": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+    "source_date_if_available": "Current as of April 2026",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "\"Starting May 8, 2025, new sellers in Germany, Austria, and the Netherlands are required to have a credit or debit card added to their account to enroll in Etsy Payments.\"",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "claim_type": "explicit_claim",
+    "subject_exact": "Etsy policy states that starting May 8, 2025, new sellers in Germany, Austria, and the Netherlands must add a credit or debit card to enroll in Etsy Payments",
+    "actor_level": "platform",
+    "platforms": [
+      "Etsy"
+    ],
+    "product_type_if_explicit": null,
+    "metric_type": "unknown",
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": "Starting May 8, 2025",
+    "time_scope_normalized_if_safe": "2025-05-08",
+    "geography_if_explicit": "Germany, Austria, Netherlands",
+    "evidence_role": "official_policy",
+    "local_qualifiers": [
+      "effective May 8, 2025 for new sellers in Germany, Austria, Netherlands",
+      "credit or debit card required to enroll in Etsy Payments",
+      "requirement applies to new sellers only"
+    ],
+    "uncertainties": [],
+    "parser_notes": [
+      "Etsy Help Center (current as of April 2026). Effective May 8, 2025: new sellers in Germany, Austria, Netherlands must add credit/debit card to enroll in Etsy Payments."
+    ]
+  }
+}

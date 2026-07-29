@@ -1,0 +1,339 @@
+{
+  "status": "in_progress",
+  "round": 1,
+  "total_skeletons_found": 1178,
+  "skeletons_processed": 25,
+  "cards_written": 29,
+  "cards_recovery_staged": 0,
+  "skeleton_failures": 0,
+  "needs_human_review_count": 0,
+  "splits_performed": 3,
+  "next_signal_id_counter": 1183,
+  "processed_skeletons": [
+    {
+      "skeleton_signal_id": "SC-R1-001",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-001",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-002",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-002",
+          "destination": "cards"
+        },
+        {
+          "signal_id": "SC-R1-1179",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [
+        "split_performed"
+      ],
+      "issue_detail": "Snippet contained two discrete claims (creator count as of Feb 2026; ~5% decline since June 2025). Split into SC-R1-002 and one additional card.",
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-003",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-003",
+          "destination": "cards"
+        },
+        {
+          "signal_id": "SC-R1-1180",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [
+        "split_performed"
+      ],
+      "issue_detail": "Snippet contained two discrete claims (31 creators >20,000 members; named top creator with 124,452 members). Split into SC-R1-003 and one additional card.",
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-004",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-004",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-005",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-005",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-006",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-006",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-007",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-007",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-008",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-008",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-009",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-009",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-010",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-010",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-011",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-011",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-012",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-012",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-013",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-013",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-014",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-014",
+          "destination": "cards"
+        },
+        {
+          "signal_id": "SC-R1-1181",
+          "destination": "cards"
+        },
+        {
+          "signal_id": "SC-R1-1182",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [
+        "split_performed"
+      ],
+      "issue_detail": "Snippet listed three distinct named creators with independent stats (Matt and Shane's Secret Podcast, Chapo Trap House, TrueAnon Podcast). Split into SC-R1-014 and two additional cards.",
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-015",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-015",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-016",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-016",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-017",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-017",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-018",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-018",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-019",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-019",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-020",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-020",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-021",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-021",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-022",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-022",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-023",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-023",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-024",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-024",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    },
+    {
+      "skeleton_signal_id": "SC-R1-025",
+      "cards_produced": [
+        {
+          "signal_id": "SC-R1-025",
+          "destination": "cards"
+        }
+      ],
+      "issues_for_this_skeleton": [],
+      "issue_detail": null,
+      "processed_at": "2026-07-29T00:00:00+00:00"
+    }
+  ],
+  "issues": [],
+  "started_at": "2026-07-29T00:00:00+00:00",
+  "completed_at": null
+}
