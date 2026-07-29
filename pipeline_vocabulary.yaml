@@ -24,6 +24,9 @@ actor:
     - third_party
     - mixed
     - unknown        # Phase 1-2 only; Phase 3 does not use unknown
+  # vocab_check.py verification config:
+  schema_field: [actor, actor_level]
+  optional: [unknown]  # Phase 3 schemas legitimately omit unknown
   assignment_rule: |
     Determined by source_type, not by topic. "Who speaks", not "who is affected."
     help_center, pricing_page, platform_doc, policy_page → platform
@@ -126,6 +129,8 @@ pointer_type:
     - anchor
     - internal_ref
     - source_record_ref  # Signal cards only
+  # vocab_check.py verification config:
+  optional: [source_record_ref]  # legitimately absent outside signal_card.schema.json
   notes:
     - "'source_record_ref' is used only in signal cards to reference extraction records."
 
@@ -227,6 +232,9 @@ tension_type:
     - dirección opuesta
     - co-ocurrencia significativa
     - asimetría distributiva
+  # vocab_check.py verification config:
+  schema_field: type
+  in_schemas: ["phases/03-inventory-mapping/schemas/tension_candidate.schema.json"]
 
 tension_status:
   phase: "03"
@@ -234,6 +242,9 @@ tension_status:
   values:
     - pending_review
     - needs_audit_before_classification
+  # vocab_check.py verification config:
+  schema_field: status
+  in_schemas: ["phases/03-inventory-mapping/schemas/tension_candidate.schema.json"]
 
 classification_risk:
   phase: "03"
@@ -257,6 +268,9 @@ scan_routing:
     - coverage_gap
     - isolated_signal
     - needs_audit
+  # vocab_check.py verification config:
+  schema_field: routing
+  in_schemas: ["phases/03-inventory-mapping/schemas/scan_artifact.schema.json"]
 
 scan_type:
   phase: "03"
