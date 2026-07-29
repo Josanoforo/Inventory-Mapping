@@ -75,24 +75,27 @@ FIXTURES_RECORDS_DIR = ROOT / "signal_card_defect_check_fixtures" / "records"
 # ---------------------------------------------------------------------------
 # Thresholds — named constants, not inlined, per the task's explicit
 # instruction not to invent defaults. Derivation is documented next to each
-# one. IMPORTANT CAVEAT: as of this writing, working/signal_extraction/cards/
-# contains zero cards in this checkout (only .gitkeep) — there is no real
-# corpus on disk to measure a distribution against. These thresholds are
-# therefore derived from the calibration fixture set
+# one. CAVEAT, still true as of this writing even though real cards now exist
+# on disk: these thresholds were derived from the calibration fixture set
 # (signal_card_defect_check_fixtures/), which is small and synthetic by
 # construction (it was built to reproduce three known defect patterns plus
-# hand-picked negatives), not sampled from production data. The script
-# prints the live qualifier-length/sentence-count distribution and a
-# +/-50% sensitivity table on every run (see report_qualifier_distribution)
-# so recalibration against the real 1,200-card corpus, once it exists on
-# disk, is immediate and visible rather than requiring a code change to
-# discover.
+# hand-picked negatives), not sampled from production data. The real corpus
+# in working/signal_extraction/cards/ was formulated under the corrected
+# Stage 2 rules, so it contains no confirmed qualifier-overfill defects to
+# calibrate against either — a real run producing zero qualifier_overfill
+# flags is not itself calibration data, just an absence of known-bad
+# examples. The script prints the live qualifier-length/sentence-count
+# distribution and a +/-50% sensitivity table on every run (see
+# report_qualifier_distribution) so recalibration is immediate and visible
+# whenever a real defective example turns up, rather than requiring a code
+# change to discover.
 
-# QUALIFIER_MAX_CHARS: in the calibration negatives (well-formed qualifiers,
-# e.g. "in the US", "for shops with more than $10,000 in annual revenue"),
-# length ranges 9-53 characters. In the calibration positives (a comparative
-# claim sentence, two full policy paragraphs), length is 180+ characters.
-# Set at 90: roughly 1.7x the longest observed legitimate qualifier, and
+# QUALIFIER_MAX_CHARS: NOT CALIBRATED AGAINST REAL DEFECT DATA. In the
+# calibration negatives (well-formed qualifiers, e.g. "in the US", "for shops
+# with more than $10,000 in annual revenue"), length ranges 9-53 characters.
+# In the calibration positives (a comparative claim sentence, two full policy
+# paragraphs), length is 180+ characters. Set at 90: roughly 1.7x the longest
+# observed legitimate qualifier, and
 # less than half the shortest observed defective one.
 QUALIFIER_MAX_CHARS = 90
 
