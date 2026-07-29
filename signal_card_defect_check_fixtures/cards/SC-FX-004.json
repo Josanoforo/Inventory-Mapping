@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-004",
+  "source_record_ids": ["FX-P4-TIMELOSS-REC"],
+  "source_ids": ["SRC-fixture-004"],
+  "round": 1,
+  "signal_text": "Inventory levels are shown on the seller dashboard.",
+  "subject_exact": "inventory levels on the seller dashboard",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-P4-TIMELOSS-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

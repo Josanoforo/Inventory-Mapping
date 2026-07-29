@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-N02",
+  "source_record_ids": ["FX-N2-REC"],
+  "source_ids": ["SRC-fixture-n02"],
+  "round": 1,
+  "signal_text": "The marketplace requires two-factor authentication for all seller accounts.",
+  "subject_exact": "two-factor authentication requirement for seller accounts",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "activation_requirement",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "As of April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N2-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

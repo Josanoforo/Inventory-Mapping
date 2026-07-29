@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-N03",
+  "source_record_ids": ["FX-N3-REC"],
+  "source_ids": ["SRC-fixture-n03"],
+  "round": 1,
+  "signal_text": "Sellers can offer free shipping by adjusting their shipping profile settings.",
+  "subject_exact": "free shipping via shipping profile settings",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N3-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

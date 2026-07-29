@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-N2-REC",
+  "source_packet_id": "SP-fixture-n02",
+  "source_id": "SRC-fixture-n02",
+  "source_type": "help_center",
+  "source_title": "Fixture: two-factor authentication requirement",
+  "source_ref": "https://example.invalid/fixture/2fa",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "As of April 2026, the marketplace requires two-factor authentication for all seller accounts.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "two-factor authentication requirement for seller accounts",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "activation_requirement",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "As of April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/2fa",
+    "secondary_pointer": null
+  }
+}

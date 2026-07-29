@@ -1,0 +1,31 @@
+{
+  "signal_id": "SC-FX-N04A",
+  "source_record_ids": ["FX-N4-REC"],
+  "source_ids": ["SRC-fixture-n04"],
+  "round": 1,
+  "signal_text": "The seller directory lists 812 active shops in the region.",
+  "subject_exact": "active shops in the region",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "812",
+  "metric_unit": "shops",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N4-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [
+    "Split from FX-N4-REC: second discrete claim (top shop sales figure) recorded separately as SC-FX-N04B."
+  ],
+  "extraction_notes": []
+}

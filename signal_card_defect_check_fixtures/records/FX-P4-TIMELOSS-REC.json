@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-P4-TIMELOSS-REC",
+  "source_packet_id": "SP-fixture-004",
+  "source_id": "SRC-fixture-004",
+  "source_type": "help_center",
+  "source_title": "Fixture: seller dashboard inventory panel",
+  "source_ref": "https://example.invalid/fixture/dashboard-inventory",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Inventory levels shown on the seller dashboard. Updated daily.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "inventory levels on the seller dashboard",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/dashboard-inventory",
+    "secondary_pointer": null
+  }
+}

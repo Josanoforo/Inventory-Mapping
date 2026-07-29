@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-005",
+  "source_record_ids": ["FX-P5-CONTAMINATION-REC"],
+  "source_ids": ["SRC-fixture-005"],
+  "round": 1,
+  "signal_text": "Sellers on the marketplace can enable automated repricing tools from the listing editor.",
+  "subject_exact": "automated repricing tools in the listing editor",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Current as of March 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-P5-CONTAMINATION-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

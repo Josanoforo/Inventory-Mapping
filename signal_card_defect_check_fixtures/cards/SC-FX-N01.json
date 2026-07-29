@@ -1,0 +1,33 @@
+{
+  "signal_id": "SC-FX-N01",
+  "source_record_ids": ["FX-N1-REC"],
+  "source_ids": ["SRC-fixture-n01"],
+  "round": 1,
+  "signal_text": "Etsy shops must enroll in the Offsite Ads program.",
+  "subject_exact": "Offsite Ads enrollment requirement",
+  "actor_level": "platform",
+  "platforms": ["Etsy"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "for shops with more than $10,000 in annual revenue",
+    "only in the US",
+    "during the first 6 months after enrollment"
+  ],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N1-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

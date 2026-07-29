@@ -1,0 +1,29 @@
+{
+  "signal_id": "SC-FX-N04B",
+  "source_record_ids": ["FX-N4-REC"],
+  "source_ids": ["SRC-fixture-n04"],
+  "round": 1,
+  "signal_text": "The top-performing shop in the region recorded 4,390 sales last quarter.",
+  "subject_exact": "top-performing shop sales in the region",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "sales_count",
+  "metric_value_raw": "4390",
+  "metric_unit": "sales",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N4-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [],
+  "extraction_notes": []
+}

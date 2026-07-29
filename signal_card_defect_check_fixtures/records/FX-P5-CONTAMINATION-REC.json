@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-P5-CONTAMINATION-REC",
+  "source_packet_id": "SP-fixture-005",
+  "source_id": "SRC-fixture-005",
+  "source_type": "help_center",
+  "source_title": "Fixture: repricing tool help article",
+  "source_ref": "https://example.invalid/fixture/repricing-tool",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Sellers on the marketplace can enable automated repricing tools directly from the listing editor.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "automated repricing tools in the listing editor",
+  "actor_level": "seller",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/repricing-tool",
+    "secondary_pointer": null
+  }
+}

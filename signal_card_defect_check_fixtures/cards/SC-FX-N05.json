@@ -1,0 +1,31 @@
+{
+  "signal_id": "SC-FX-N05",
+  "source_record_ids": ["FX-N5-REC"],
+  "source_ids": ["SRC-fixture-n05"],
+  "round": 1,
+  "signal_text": "The support wiki reports 58 template categories.",
+  "subject_exact": "template categories in the support wiki",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "58",
+  "metric_unit": "categories",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": ["none"],
+  "traceability_pointers": [
+    {
+      "pointer_type": "source_record_ref",
+      "pointer_value": "FX-N5-REC",
+      "secondary_pointer": null
+    }
+  ],
+  "normalization_notes": [
+    "Roadmap mention of a possible future 12th top-level category omitted from this card; speculative/future-facing, not a current discrete fact — left unexpressed and registered here."
+  ],
+  "extraction_notes": []
+}

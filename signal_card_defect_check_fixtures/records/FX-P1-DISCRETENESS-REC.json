@@ -1,0 +1,33 @@
+{
+  "extraction_id": "FX-P1-DISCRETENESS-REC",
+  "source_packet_id": "SP-fixture-001",
+  "source_id": "SRC-fixture-001",
+  "source_type": "database_listing",
+  "source_title": "Fixture: creator community size directory",
+  "source_ref": "https://example.invalid/fixture/creator-directory",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "The platform hosts 31 creator communities with more than 20,000 members each; the largest community has 124,452 members.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "creator communities with more than 20,000 members",
+  "actor_level": "platform",
+  "platforms": ["FixturePlatform"],
+  "product_type_if_explicit": null,
+  "metric_type": "unknown",
+  "metric_value_raw": "31",
+  "metric_unit": "communities",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": ["more than 20,000 members each"],
+  "uncertainties": ["none"],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://example.invalid/fixture/creator-directory",
+    "secondary_pointer": null
+  }
+}
