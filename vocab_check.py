@@ -1,297 +1,316 @@
 #!/usr/bin/env python3
 """
-vocab_check.py — Cross-check pipeline_vocabulary.yaml against all *.schema.json
-files outside working/, and report enum divergences.
+vocab_check.py
 
-pipeline_vocabulary.yaml is the source of truth (see its own header). This
-script does not fix anything — it only reports where a schema has drifted
-from the vocabulary, so drift can be fixed deliberately instead of silently.
+Checks every closed enum declared in pipeline_vocabulary.yaml against every
+*.schema.json file in the repo (excluding working/) and reports divergences.
 
-How a vocabulary field declares its own check (all keys optional):
+Per vocabulary field, the following optional keys change how it is checked:
+  match: exact|subset   (default: exact)
+      exact   -> report both values the schema is missing and values the
+                 schema has that the vocabulary doesn't recognize.
+      subset  -> only report values the schema has that the vocabulary
+                 doesn't recognize ("valores que sobran").
+  schema_field: name | [name, ...]
+      Property name(s) to look for in schemas. Defaults to the vocabulary
+      key itself.
+  in_schemas: [glob, ...]
+      Restricts which schema files this field is checked against. Matched
+      against both the file's path relative to the repo root and its
+      basename. Defaults to all schema files.
+  optional: [value, ...]
+      Values a schema is allowed to omit without that counting as a
+      divergence (only relevant in 'exact' mode).
 
-    match: exact | subset
-        exact (default) — report values the vocab has that the schema is
-            missing, AND values the schema has that the vocab doesn't.
-        subset — the schema is allowed to declare fewer values than the
-            vocab; only report values the schema has that the vocab doesn't
-            ("en subset solo se reporta lo que sobra").
-
-    schema_field: name | [name, ...]
-        The property name(s) to look for in schemas. Defaults to the
-        vocabulary field's own key. Use this when a schema calls the field
-        something else (e.g. actor is called actor_level in Phase 1-2
-        schemas).
-
-    in_schemas: [glob, ...]
-        Restrict the check to schema files matching these globs (relative
-        to repo root). Needed for generic property names like "type" or
-        "status" that appear, unrelated, all over the repo's manifest and
-        validator schemas.
-
-    optional: [value, ...]
-        Vocab values a schema is allowed to omit without it being reported
-        as missing, even under match: exact (e.g. 'unknown' is legitimately
-        absent from Phase 3 schemas).
-
-The `uncertainties` field is shaped differently (a `core` list plus
-phase-specific extension lists rather than a flat `values` list) and is
-special-cased rather than run through the generic engine above.
-
-Also reported, separately: vocab fields declared as a closed enum whose
-matching schema property has no `enum` at all (a free string).
-
-Traversal: every property occurrence is found by walking the full schema
-tree (oneOf/anyOf/items/$defs, any nesting), and every `enum` array found
-under that property is collected and deduplicated — a property declared as
-`oneOf: [{enum: [...]}, {type: array, items: {enum: [...]}}]` with the same
-enum in both branches counts once, not twice.
-
-Usage:
-    python3 vocab_check.py
+Enums are resolved by walking the whole schema document (properties,
+oneOf/anyOf branches, array items, and local $ref/$defs), so nested enums
+are found regardless of how deep they sit. Multiple occurrences of the same
+resolved enum (e.g. a oneOf[string, array-of-string] pair, or the same field
+repeated across schema files) are deduplicated before comparison. Fields the
+vocabulary defines as a closed enum but which a schema declares as a free
+string (no enum anywhere) are reported in a separate section.
 """
 
-import sys
-import json
 import fnmatch
+import json
+import sys
+from collections import defaultdict
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    print("ERROR: PyYAML is required (pip install pyyaml)", file=sys.stderr)
-    sys.exit(2)
+import yaml
 
-REPO_ROOT = Path(__file__).resolve().parent
-VOCAB_PATH = REPO_ROOT / "pipeline_vocabulary.yaml"
+ROOT = Path(__file__).resolve().parent
+VOCAB_PATH = ROOT / "pipeline_vocabulary.yaml"
 
-# uncertainties is shaped as core + phase extensions, not a flat values list.
-# Mapped here to the schemas that carry each phase's combined enum.
-UNCERTAINTIES_PHASE_SCHEMAS = {
-    "phase_1_only": [
-        "phases/01-source-intake/schemas/source_packet.schema.json",
-        "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json",
-    ],
-    "phase_2_only": [
-        "phases/02-signal-extraction/schemas/signal_card.schema.json",
-    ],
+META_KEYS = {
+    "notes", "deprecated", "phase", "source", "match",
+    "schema_field", "in_schemas", "optional", "assignment_rule",
 }
 
 
 def load_vocab():
-    with open(VOCAB_PATH, encoding="utf-8") as f:
+    with VOCAB_PATH.open(encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def resolved_values(entry):
+    """Union of all list-valued keys in a vocab entry, excluding meta keys."""
+    values = set()
+    for key, val in entry.items():
+        if key in META_KEYS:
+            continue
+        if isinstance(val, list):
+            values.update(v for v in val if isinstance(v, str))
+    return values
 
 
 def find_schema_files():
     files = []
-    for p in REPO_ROOT.rglob("*.schema.json"):
-        rel = p.relative_to(REPO_ROOT)
-        if "working" in rel.parts:
+    for path in ROOT.rglob("*.schema.json"):
+        relparts = path.relative_to(ROOT).parts
+        if "working" in relparts:
             continue
-        files.append(rel)
+        files.append(path)
     return sorted(files)
 
 
-def load_schema_files(rel_paths):
-    cache = []
-    for rel in rel_paths:
-        try:
-            cache.append((rel, json.loads((REPO_ROOT / rel).read_text(encoding="utf-8"))))
-        except json.JSONDecodeError as e:
-            print(f"WARNING: could not parse {rel}: {e}", file=sys.stderr)
-    return cache
-
-
-def matches_any_glob(rel_path, globs):
-    if not globs:
+def matches_in_schemas(path, patterns):
+    if not patterns:
         return True
-    rel_str = str(rel_path)
-    return any(fnmatch.fnmatch(rel_str, g) for g in globs)
+    relpath = path.relative_to(ROOT).as_posix()
+    name = path.name
+    return any(fnmatch.fnmatch(relpath, pat) or fnmatch.fnmatch(name, pat) for pat in patterns)
 
 
-def is_bare_ref(node):
-    """
-    True for placeholder properties like {"$ref": "#/$defs/checkResult"} —
-    these share a name with a vocab field (actor_level, status, ...) in
-    validator/manifest schemas but describe an unrelated validator-check
-    status, not the vocab field itself. Never treat these as free-string
-    or enum divergence findings.
-    """
-    return isinstance(node, dict) and set(node.keys()) <= {"$ref", "description"}
-
-
-def collect_enum_sets(node):
-    """Recursively collect every distinct 'enum' array under a schema subtree."""
-    sets = []
-
-    def walk(o):
-        if isinstance(o, dict):
-            if "enum" in o and isinstance(o["enum"], list):
-                sets.append(frozenset(x for x in o["enum"] if isinstance(x, str)))
-            for v in o.values():
-                walk(v)
-        elif isinstance(o, list):
-            for v in o:
-                walk(v)
-
-    walk(node)
-    return sets
-
-
-def find_property_occurrences(schema_json, names):
-    """Find every 'properties' dict anywhere in the tree (incl. $defs/oneOf/
-    items) and yield (name, node) for any property key matching `names`."""
-    found = []
-
-    def walk(o):
-        if isinstance(o, dict):
-            props = o.get("properties")
-            if isinstance(props, dict):
-                for name in names:
-                    if name in props:
-                        found.append((name, props[name]))
-            for v in o.values():
-                walk(v)
-        elif isinstance(o, list):
-            for v in o:
-                walk(v)
-
-    walk(schema_json)
-    return found
-
-
-def check_generic_field(field_name, field_cfg, schema_files_cache):
-    values = set(field_cfg["values"])
-    match = field_cfg.get("match", "exact")
-    schema_field = field_cfg.get("schema_field", field_name)
-    optional = set(field_cfg.get("optional", []))
-    in_schemas = field_cfg.get("in_schemas")
-
-    names = [schema_field] if isinstance(schema_field, str) else list(schema_field)
-
-    results = []
-    for rel_path, schema_json in schema_files_cache:
-        if not matches_any_glob(rel_path, in_schemas):
-            continue
-        for prop_name, node in find_property_occurrences(schema_json, names):
-            results.append(evaluate_property(rel_path, prop_name, node, values, match, optional))
-    return [r for r in results if r is not None]
-
-
-def evaluate_property(rel_path, prop_name, node, expected_values, match, optional):
-    if is_bare_ref(node):
+def resolve_pointer(ref, doc):
+    if not ref.startswith("#/"):
         return None
-
-    distinct = set(collect_enum_sets(node))
-
-    if not distinct:
-        return {"type": "free_string", "schema_file": str(rel_path), "property": prop_name}
-
-    schema_values = set().union(*distinct)
-    result = None
-    if len(distinct) > 1:
-        result = {
-            "type": "internal_inconsistency",
-            "schema_file": str(rel_path),
-            "property": prop_name,
-            "distinct_sets": [sorted(s) for s in distinct],
-        }
-
-    missing = (expected_values - schema_values) - optional
-    if match == "subset":
-        missing = set()
-    extra = schema_values - expected_values
-
-    if missing or extra:
-        divergence = {
-            "type": "enum_divergence",
-            "schema_file": str(rel_path),
-            "property": prop_name,
-            "missing_from_schema": sorted(missing),
-            "extra_in_schema": sorted(extra),
-        }
-        # An internal inconsistency and an enum divergence can both be true
-        # for the same property; report the inconsistency (more specific)
-        # and fold the divergence detail into it.
-        if result is not None:
-            result["missing_from_schema"] = divergence["missing_from_schema"]
-            result["extra_in_schema"] = divergence["extra_in_schema"]
-            return result
-        return divergence
-
-    return result
+    node = doc
+    for part in ref[2:].split("/"):
+        if not isinstance(node, dict) or part not in node:
+            return None
+        node = node[part]
+    return node
 
 
-def check_uncertainties(vocab, schema_files_cache):
-    core = set(vocab["uncertainties"]["core"])
-    results = []
-    for phase_key, schema_rel_paths in UNCERTAINTIES_PHASE_SCHEMAS.items():
-        extension = set(vocab["uncertainties"].get(phase_key, []))
-        expected = core | extension
-        for rel_path, schema_json in schema_files_cache:
-            if str(rel_path) not in schema_rel_paths:
-                continue
-            for prop_name, node in find_property_occurrences(schema_json, ["uncertainties"]):
-                r = evaluate_property(rel_path, prop_name, node, expected, "exact", set())
-                if r is not None:
-                    r["property"] = f"{prop_name} (core + {phase_key})"
-                    results.append(r)
-    return results
+def resolve_node(node, doc, seen):
+    """Returns (enum_values: set[str], found_string_leaf: bool, found_object_leaf: bool)."""
+    enums = set()
+    found_string_leaf = False
+    found_object_leaf = False
+
+    if not isinstance(node, dict):
+        return enums, found_string_leaf, found_object_leaf
+
+    ref = node.get("$ref")
+    if isinstance(ref, str) and ref not in seen:
+        target = resolve_pointer(ref, doc)
+        if target is not None:
+            e, s, o = resolve_node(target, doc, seen | {ref})
+            enums |= e
+            found_string_leaf |= s
+            found_object_leaf |= o
+
+    enum_list = node.get("enum")
+    if isinstance(enum_list, list):
+        enums.update(v for v in enum_list if isinstance(v, str))
+
+    for key in ("oneOf", "anyOf"):
+        branches = node.get(key)
+        if isinstance(branches, list):
+            for branch in branches:
+                e, s, o = resolve_node(branch, doc, seen)
+                enums |= e
+                found_string_leaf |= s
+                found_object_leaf |= o
+
+    if "items" in node:
+        e, s, o = resolve_node(node["items"], doc, seen)
+        enums |= e
+        found_string_leaf |= s
+        found_object_leaf |= o
+
+    node_type = node.get("type")
+    types = node_type if isinstance(node_type, list) else ([node_type] if node_type else [])
+    if "string" in types and not enum_list:
+        found_string_leaf = True
+    if "object" in types:
+        found_object_leaf = True
+
+    return enums, found_string_leaf, found_object_leaf
+
+
+def collect_property_index(doc):
+    """Maps property name -> list of (schema_node, json_path) found anywhere in the doc."""
+    index = defaultdict(list)
+
+    def walk(node, path):
+        if isinstance(node, dict):
+            props = node.get("properties")
+            if isinstance(props, dict):
+                for name, subnode in props.items():
+                    index[name].append((subnode, path + ["properties", name]))
+            for key, val in node.items():
+                walk(val, path + [key])
+        elif isinstance(node, list):
+            for i, item in enumerate(node):
+                walk(item, path + [str(i)])
+
+    walk(doc, [])
+    return index
+
+
+def classify(node, doc):
+    enums, found_string_leaf, found_object_leaf = resolve_node(node, doc, set())
+    if enums:
+        return ("enum", frozenset(enums))
+    if found_string_leaf:
+        return ("open_string", None)
+    return ("skip", None)
+
+
+def check_field(field_name, entry, schema_files, schema_docs, schema_prop_index):
+    match_mode = entry.get("match", "exact")
+    schema_field = entry.get("schema_field", field_name)
+    if isinstance(schema_field, str):
+        schema_field = [schema_field]
+    in_schemas = entry.get("in_schemas")
+    optional = set(entry.get("optional", []))
+    vocab_values = resolved_values(entry)
+
+    # occurrence_key -> {'files': set(), 'declared': frozenset|None}
+    enum_occurrences = defaultdict(set)   # declared_set -> set of files
+    open_string_files = set()
+
+    for path in schema_files:
+        if not matches_in_schemas(path, in_schemas):
+            continue
+        doc = schema_docs[path]
+        index = schema_prop_index[path]
+        for name in schema_field:
+            for node, _json_path in index.get(name, []):
+                kind, declared = classify(node, doc)
+                relpath = path.relative_to(ROOT).as_posix()
+                if kind == "enum":
+                    enum_occurrences[declared].add(relpath)
+                elif kind == "open_string":
+                    open_string_files.add(relpath)
+                # kind == "skip" -> not a comparable value field here, ignore
+
+    divergences = []
+    for declared_set, files in enum_occurrences.items():
+        missing = (vocab_values - optional) - declared_set
+        extra = declared_set - vocab_values
+        if match_mode == "subset":
+            missing = set()
+        if missing or extra:
+            divergences.append({
+                "files": sorted(files),
+                "declared": sorted(declared_set),
+                "missing": sorted(missing),
+                "extra": sorted(extra),
+            })
+
+    total_enum_occurrences = sum(len(files) for files in enum_occurrences.values())
+    return {
+        "field": field_name,
+        "match_mode": match_mode,
+        "divergences": divergences,
+        "open_string_files": sorted(open_string_files),
+        "occurrences_found": total_enum_occurrences + len(open_string_files),
+    }
 
 
 def main():
     vocab = load_vocab()
-    schema_rel_paths = find_schema_files()
-    schema_files_cache = load_schema_files(schema_rel_paths)
+    schema_files = find_schema_files()
 
-    all_results = []  # list of (field_name, result_dict)
-
-    for field_name, field_cfg in vocab.items():
-        if not isinstance(field_cfg, dict):
+    schema_docs = {}
+    schema_prop_index = {}
+    for path in schema_files:
+        try:
+            with path.open(encoding="utf-8") as f:
+                doc = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"WARNING: could not parse {path.relative_to(ROOT)}: {e}", file=sys.stderr)
             continue
-        if field_name == "uncertainties" and "core" in field_cfg:
-            for r in check_uncertainties(vocab, schema_files_cache):
-                all_results.append((field_name, r))
-        elif "values" in field_cfg:
-            for r in check_generic_field(field_name, field_cfg, schema_files_cache):
-                all_results.append((field_name, r))
-        # else: not a checkable enum field (plain notes/reference section) -> skip
+        schema_docs[path] = doc
+        schema_prop_index[path] = collect_property_index(doc)
 
-    divergences = [r for r in all_results if r[1]["type"] in ("enum_divergence", "internal_inconsistency")]
-    free_strings = [r for r in all_results if r[1]["type"] == "free_string"]
+    schema_files = [p for p in schema_files if p in schema_docs]
 
-    print(f"vocab_check.py — {len(schema_rel_paths)} schema file(s) scanned outside working/\n")
+    results = []
+    untouched_fields = []
+    for field_name, entry in vocab.items():
+        if not isinstance(entry, dict):
+            continue
+        result = check_field(field_name, entry, schema_files, schema_docs, schema_prop_index)
+        if result["occurrences_found"] == 0:
+            untouched_fields.append(field_name)
+        else:
+            results.append(result)
 
-    if divergences:
-        print(f"ENUM DIVERGENCES ({len(divergences)})")
-        print("-" * 72)
-        for field_name, r in divergences:
-            tag = " [internal inconsistency: schema declares this enum differently in two places]" if r["type"] == "internal_inconsistency" else ""
-            print(f"[{field_name}] {r['schema_file']} :: {r['property']}{tag}")
-            if r.get("missing_from_schema"):
-                print(f"    missing from schema: {r['missing_from_schema']}")
-            if r.get("extra_in_schema"):
-                print(f"    extra in schema:     {r['extra_in_schema']}")
-            if r["type"] == "internal_inconsistency":
-                for s in r["distinct_sets"]:
-                    print(f"    variant: {s}")
-        print()
-    else:
-        print("ENUM DIVERGENCES: none\n")
+    print("=" * 78)
+    print("VOCAB CHECK — pipeline_vocabulary.yaml vs *.schema.json (excl. working/)")
+    print("=" * 78)
+    print(f"Schema files scanned: {len(schema_files)}")
+    print(f"Vocabulary fields checked: {len(results)} (with schema occurrences), "
+          f"{len(untouched_fields)} with no matching schema field")
+    print()
 
-    if free_strings:
-        print(f"CLOSED IN VOCAB BUT FREE STRING IN SCHEMA ({len(free_strings)})")
-        print("-" * 72)
-        for field_name, r in free_strings:
-            print(f"[{field_name}] {r['schema_file']} :: {r['property']} (no enum constraint)")
-        print()
-    else:
-        print("CLOSED-ENUM-BUT-FREE-STRING FIELDS: none\n")
+    has_issues = False
 
-    failed = bool(divergences or free_strings)
-    print(f"Result: {'FAIL' if failed else 'OK'}")
-    return 1 if failed else 0
+    print("-" * 78)
+    print("DIVERGENCES (enum mismatches)")
+    print("-" * 78)
+    any_divergence = False
+    for result in results:
+        if not result["divergences"]:
+            continue
+        any_divergence = True
+        has_issues = True
+        print(f"\n[{result['field']}] (match={result['match_mode']})")
+        for d in result["divergences"]:
+            print(f"  files: {', '.join(d['files'])}")
+            if d["missing"]:
+                print(f"    missing in schema (vocab has, schema doesn't): {d['missing']}")
+            if d["extra"]:
+                print(f"    extra in schema (schema has, not in vocab):    {d['extra']}")
+    if not any_divergence:
+        print("(none)")
+
+    print()
+    print("-" * 78)
+    print("OPEN-STRING FIELDS (vocab defines a closed enum, schema declares free string)")
+    print("-" * 78)
+    any_open = False
+    for result in results:
+        if not result["open_string_files"]:
+            continue
+        any_open = True
+        has_issues = True
+        print(f"\n[{result['field']}]")
+        for f in result["open_string_files"]:
+            print(f"  {f}")
+    if not any_open:
+        print("(none)")
+
+    print()
+    print("-" * 78)
+    print("CLEAN FIELDS (schema occurrences found, no divergence)")
+    print("-" * 78)
+    clean = [r["field"] for r in results if not r["divergences"] and not r["open_string_files"]]
+    print(", ".join(clean) if clean else "(none)")
+
+    print()
+    print("-" * 78)
+    print("VOCAB FIELDS WITH NO MATCHING SCHEMA FIELD FOUND")
+    print("-" * 78)
+    print(", ".join(untouched_fields) if untouched_fields else "(none)")
+    print()
+
+    sys.exit(1 if has_issues else 0)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
