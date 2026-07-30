@@ -69,7 +69,7 @@ For each skeleton:
 
 **Rule 4: Ambiguity goes to uncertainties, not to invention.** Two equally plausible enum values → pick the more conservative + add the corresponding uncertainty code. Do not hide ambiguity.
 
-**Rule 5: Never drop qualifiers.** Every entry in `_extraction_context.local_qualifiers` must appear in the card's `local_qualifiers` unless it was specific to a split-off claim not present in this card. If a qualifier is dropped, the validator (check 5) will catch it — do not deliberately drop any.
+**Rule 5: Never drop qualifiers.** See `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field `local_qualifiers`, for the authoritative rule. If a qualifier is dropped, the validator (check 5) will catch it.
 
 **Rule 6: Notes locality is mandatory.** `normalization_notes` and `extraction_notes` must not contain: references to other records by ID pattern, cross-source comparison language (confirmed by, consistent with, contradicted by, corroborated by), version comparison language, or interpretive math. If you notice you've written any of these, remove them before the validator runs. The validator's check 11 will apply mandatory scrubbing if they slip through, but clean notes at write-time are preferable.
 
