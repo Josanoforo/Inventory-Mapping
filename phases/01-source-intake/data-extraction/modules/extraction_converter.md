@@ -26,10 +26,10 @@ This module lives in `phases/01-source-intake/data-extraction/` because it fulfi
 | Path | Purpose |
 |---|---|
 | `working/data_extraction/records/<extraction_id>.json` | Completed, validated Extraction Records. Flat directory for downstream consumption |
-| `working/data_extraction/extraction_gpt_recovery/<extraction_id>.json` | Records that could not satisfy the schema with the material available. Staged for GPT recovery |
+| `working/data_extraction/rejected_archive/<extraction_id>.json` | Records that could not satisfy the schema with the material available. Staged for GPT recovery |
 | `working/data_extraction/extraction_converter_manifest.json` | Stage 2 manifest. Tracks per-skeleton progress, routing decisions, and issues |
 
-The directory `extraction_gpt_recovery/` parallels `working/source_intake/source_intake_gpt_recovery/` from Phase 1. Each phase that produces recovery candidates has its own directory, following the pattern `<phase>_gpt_recovery/`. Material in `extraction_gpt_recovery/` is not rejected material — it is material that carries potential value but could not be completed through the automated flow because required judgment fields were unfillable from the snippet alone.
+The directory is `rejected_archive/`, not the `<phase>_gpt_recovery/` pattern used elsewhere — e.g. `working/source_intake/source_intake_gpt_recovery/` from Phase 1 — because this is the name the repo tree and `CLAUDE.md` record for Phase 1b. Material in `rejected_archive/` is not rejected material — it is material that carries potential value but could not be completed through the automated flow because required judgment fields were unfillable from the snippet alone.
 
 ## Closed vocabulary
 
@@ -39,7 +39,7 @@ The directory `extraction_gpt_recovery/` parallels `working/source_intake/source
 |---|---|
 | `pending` | Manifest exists but processing has not started |
 | `in_progress` | Skeletons are being processed |
-| `complete` | All skeletons processed, routed to either `records/` or `extraction_gpt_recovery/` |
+| `complete` | All skeletons processed, routed to either `records/` or `rejected_archive/` |
 | `failed` | Unrecoverable error stopped the run |
 | `blocked_by_stage_1_incomplete` | Stage 1 manifest is not `complete`; stage 2 cannot proceed |
 
@@ -50,9 +50,9 @@ The directory `extraction_gpt_recovery/` parallels `working/source_intake/source
 | `skeleton_invalid` | A skeleton file from stage 1 does not have the expected structure or is missing required mechanical fields |
 | `contract_case_uncovered` | The case falls outside anything the extraction contract addresses, and no fallback applies |
 | `needs_human_review` | Record passed validation but has 4+ uncertainties or one high-severity uncertainty; flagged for operator review |
-| `schema_validation_failed` | Completed record does not validate against `data_extraction_record.schema.json`; routed to `extraction_gpt_recovery/` |
-| `required_field_unfillable` | A required judgment field cannot be filled from the material available; routed to `extraction_gpt_recovery/` |
-| `multiple_required_fields_unfillable` | Two or more required judgment fields cannot be filled; routed to `extraction_gpt_recovery/` (more severe than single-field case) |
+| `schema_validation_failed` | Completed record does not validate against `data_extraction_record.schema.json`; routed to `rejected_archive/` |
+| `required_field_unfillable` | A required judgment field cannot be filled from the material available; routed to `rejected_archive/` |
+| `multiple_required_fields_unfillable` | Two or more required judgment fields cannot be filled; routed to `rejected_archive/` (more severe than single-field case) |
 
 This enum is closed. New issue types must be added here and to the manifest schema before the skill can register them.
 
@@ -63,7 +63,7 @@ A record always lands in exactly one of these destinations:
 | Value | Meaning |
 |---|---|
 | `records` | Complete, schema-validated record written to `working/data_extraction/records/` |
-| `extraction_gpt_recovery` | Record could not be completed automatically, staged for GPT recovery in `working/data_extraction/extraction_gpt_recovery/` |
+| `extraction_gpt_recovery` | Record could not be completed automatically, staged for GPT recovery in `working/data_extraction/rejected_archive/` |
 | `skeleton_invalid` | Skeleton failed structural validation; no output file produced |
 
 ## Operations
@@ -75,7 +75,7 @@ Operations run sequentially. Each skeleton is a unit of work; checkpoints happen
 - Read `working/data_extraction/extraction_prepare_manifest.json`. If it does not exist or `status != complete`, set stage 2 manifest status to `blocked_by_stage_1_incomplete` and exit with a clear message. Do not process anything.
 - Read `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` in full. If missing, fail with clear message.
 - Read `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`. If missing, fail with clear message.
-- Create output directories if they do not exist: `working/data_extraction/records/`, `working/data_extraction/extraction_gpt_recovery/`.
+- Create output directories if they do not exist: `working/data_extraction/records/`, `working/data_extraction/rejected_archive/`.
 
 ### 2. Load or initialize stage 2 manifest
 
@@ -138,7 +138,7 @@ For each judgment field:
 **4.5 Write to destination.**
 
 - For `records` destination: write the complete record JSON to `working/data_extraction/records/<extraction_id>.json`.
-- For `extraction_gpt_recovery` destination: write a recovery-ready JSON to `working/data_extraction/extraction_gpt_recovery/<extraction_id>.json` using the structure defined in "GPT recovery staging" below.
+- For `extraction_gpt_recovery` destination: write a recovery-ready JSON to `working/data_extraction/rejected_archive/<extraction_id>.json` using the structure defined in "GPT recovery staging" below.
 
 **4.6 Update manifest.** After the record is written, append the extraction_id to the manifest's `processed_skeletons` list with its destination and any issue types registered. Update counters. Save the manifest to disk.
 
@@ -150,9 +150,9 @@ When all skeletons across all batches have been processed, set manifest status t
 
 ## GPT recovery staging
 
-Records routed to `extraction_gpt_recovery/` are not raw partial records. They are staged with the structure the GPT recovery flow needs as input when it is eventually implemented.
+Records routed to `rejected_archive/` are not raw partial records. They are staged with the structure the GPT recovery flow needs as input when it is eventually implemented.
 
-Each file in `extraction_gpt_recovery/` contains:
+Each file in `rejected_archive/` contains:
 
 ```json
 {
@@ -187,7 +187,7 @@ A record is promoted to `working/data_extraction/records/` if and only if:
 2. No required judgment field is null or missing
 3. The skeleton structure was valid (it did not fail at step 4.1)
 
-A record is routed to `working/data_extraction/extraction_gpt_recovery/` if:
+A record is routed to `working/data_extraction/rejected_archive/` if:
 
 1. It failed schema validation for any reason AND
 2. The skeleton structure was valid (otherwise it does not produce any output; it only produces a `skeleton_invalid` issue)
@@ -253,6 +253,6 @@ On startup:
 
 ## Notes on naming
 
-The directory `extraction_gpt_recovery/` is an operational name, not a quality judgment. The material it contains is not rejected in the sense of being worthless. It is material that the automated flow could not complete because required judgment fields were unfillable from the snippet as parsed. The GPT recovery flow exists specifically to investigate such material further and recover what is needed for it to fulfill the schema.
+The directory is `rejected_archive/`, per the repo tree and `CLAUDE.md` — not `extraction_gpt_recovery/`, which does not exist. Despite the name, placement here is not a quality judgment. The material it contains is not rejected in the sense of being worthless. It is material that the automated flow could not complete because required judgment fields were unfillable from the snippet as parsed. The GPT recovery flow exists specifically to investigate such material further and recover what is needed for it to fulfill the schema.
 
-The naming follows the pattern `<phase>_gpt_recovery/` established by `working/data_gathering/phase0_part4_gpt_recovery/` and `working/source_intake/source_intake_gpt_recovery/`. Each phase that produces recovery candidates has its own directory, allowing the GPT recovery flow to apply the appropriate recovery logic per phase.
+This phase does not follow the `<phase>_gpt_recovery/` pattern used by `working/data_gathering/phase0_part4_gpt_recovery/` and `working/source_intake/source_intake_gpt_recovery/` — its directory has a different name. Each phase that produces recovery candidates has its own directory, allowing the GPT recovery flow to apply the appropriate recovery logic per phase.
