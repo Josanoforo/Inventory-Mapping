@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/etsy.de",
+  "source_date_if_available": "August 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Since 2017, I have run a small Etsy shop from Jordan, completing over 5,900 orders and fully complying with Etsy's rules. I was notified that (my Etsy shop will be forcibly closed on 5 August 2025), due to Etsy's decision to remove PayPal as a payment option and the absence of Etsy Payments in Jordan - leaving me no means to receive payments.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported forced Etsy shop closure in Jordan due to PayPal removal and absence of Etsy Payments",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "payment_method_availability",
+    "sales_count"
+  ],
+  "metric_value_raw": "over 5,900 orders completed since 2017; shop closure ordered for 5 August 2025",
+  "metric_unit": "orders (mixed with date)",
+  "time_scope_raw": "since 2017; closure 5 August 2025",
+  "time_scope_normalized_if_safe": "2025-08-05",
+  "geography_if_explicit": "Jordan",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "fully complying with Etsy's rules"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "source_type is buyer_review mechanically, but speaker self-identifies as the shop operator (seller); rule from criteria.md applied."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/etsy.de",
+    "secondary_pointer": null
+  }
+}

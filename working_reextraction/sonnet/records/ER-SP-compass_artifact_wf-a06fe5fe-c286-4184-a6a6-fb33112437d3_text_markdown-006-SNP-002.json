@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-006",
+  "source_type": "report",
+  "source_title": "Website",
+  "source_ref": "https://www.similarweb.com/website/payhip.com",
+  "source_date_if_available": "December 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"payhip.com's web traffic has increased by 14.16% compared to last month [...] Global ranking has changed from 8,988 to 8,064 [...] Bounce Rate: 42.15% [...] Pages per Visit: 4.40 [...] Avg Visit Duration: 00:03:16 [...] The top traffic source to payhip.com is Direct traffic, driving 54.46% of desktop visits last month [...] payhip.com's audience is 58.73% male and 41.27% female [...] United States: 41.62%\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party web analytics report on payhip.com traffic growth and global ranking change",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "+14.16% vs last month; ranking 8,988 to 8,064",
+  "metric_unit": "percent/rank (mixed)",
+  "time_scope_raw": "December 2025",
+  "time_scope_normalized_if_safe": "2025-12",
+  "geography_if_explicit": "United States",
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Mixed units declared: percent traffic change alongside an ordinal global ranking figure."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.similarweb.com/website/payhip.com",
+    "secondary_pointer": null
+  }
+}

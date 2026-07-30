@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-009",
+  "source_type": "report",
+  "source_title": "Shutterstock Reports Full Year 2024 And Fourth Quarter Financial",
+  "source_ref": "https://investor.shutterstock.com/news-releases/news-release-details/shutterstock-reports-full-year-2024-and-fourth-quarter-financial",
+  "source_date_if_available": "February 25, 2025 (published). OUT-OF-WINDOW.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The increase in Content revenue was driven by revenue generated from Envato, offset by weakness in new customer acquisition.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Shutterstock-reported driver of Content segment revenue attributed to Envato",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "downstream_consequence",
+  "local_qualifiers": [
+    "offset by weakness in new customer acquisition"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://investor.shutterstock.com/news-releases/news-release-details/shutterstock-reports-full-year-2024-and-fourth-quarter-financial",
+    "secondary_pointer": null
+  }
+}

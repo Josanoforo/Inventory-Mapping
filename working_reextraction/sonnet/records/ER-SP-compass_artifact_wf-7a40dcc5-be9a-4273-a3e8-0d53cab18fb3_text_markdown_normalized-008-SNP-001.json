@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-008",
+  "source_type": "seller_forum",
+  "source_title": "Td P",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/suspended-wrong-and-no-help/td-p/148160252",
+  "source_date_if_available": "April 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"My account suspended incorrectly :'We let you know on Sep 06, 2024 that your account was suspended. It looks like you didn't appeal your suspension within six months of this date, so your account is now permanently suspended.' today is april 2025 · absolutely incorrect , I have 5 emails sent to etsy rep with requested information ... I did nothing wrong -they doubt i make my items myself and i sent them video of process and other proof, please help to reinstate USA manufacturer account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported permanent Etsy account suspension for missed appeal window",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "suspended Sep 06, 2024; today is April 2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "USA",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "did not appeal suspension within six months",
+    "5 emails sent with requested information"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://community.etsy.com/t5/Technical-Issues/suspended-wrong-and-no-help/td-p/148160252",
+    "secondary_pointer": null
+  }
+}

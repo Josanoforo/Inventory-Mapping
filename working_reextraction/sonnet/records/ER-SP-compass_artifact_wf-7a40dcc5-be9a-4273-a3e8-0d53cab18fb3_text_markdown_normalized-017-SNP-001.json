@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "March 22, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I am basted in EU and have a small vintage business on this platform. Since the law changes about tariffs from US, I have a very bad experience with customers reviews. Now buyers leaving 3 ; 2 stars just because of shipping cost and additional fees. Its nothing to do with my shop and its out my control. This is really frustrating that the customer writing reviews only about the taxes, without mentioning the item or the service. My shops rating dropped because of this. PLEASE DO THE OPTION TO RATE THE BUYERS!!!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported drop in Etsy shop rating linked to buyer complaints about tariff-driven shipping costs",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Since the law changes about tariffs from US",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "EU",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "nothing to do with my shop and its out my control"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "source_type buyer_review mechanically, but speaker self-identifies as a seller ('small vintage business on this platform')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

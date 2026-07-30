@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Overview",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You're on the Founders plan if you joined Patreon before May 7, 2019, and haven't upgraded your plan in the past, changed your currency, or had your creator page unpublished by you or by Patreon for any reason.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Patreon Founders plan eligibility criteria based on join date and account history",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "joined before May 7, 2019",
+  "time_scope_normalized_if_safe": "2019-05-07",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+    "secondary_pointer": null
+  }
+}

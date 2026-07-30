@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+  "source_date_if_available": "1 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es una experiencia desagradable para creadores. Aca estoy usando su paygate para mi plataforma de Kajabi, para aceptar pagos en monedas locales en Latinoamérica y se han tardado más de un mes en aprobar mis documentos y darme entrada para poder registrar cuenta bancaria y aceptar pagos en dólares aunque ya estaba vendiendo mi producto digital. Estoy poniendo quejas en el BBB de los EEUU. Es falta de ética el tomarse 5 días cada vez para \\\"analizar\\\" documentos legales que ni me piden acá en EEUU. Al poner mis quejas finalmente aprobaron los documentos pero no puedo retirar todo el dinero que he hecho a pesar de que ellos se quedan con un porcentaje. Piénsalo bien antes de usar su plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "seller-reported delay in Hotmart document approval for accepting payments via Kajabi paygate integration",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart",
+    "Kajabi"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "more than a month",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Latin America",
+    "United States"
+  ],
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "already selling my digital product",
+    "5 days each time to analyze documents"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "secondary_pointer": null
+  }
+}

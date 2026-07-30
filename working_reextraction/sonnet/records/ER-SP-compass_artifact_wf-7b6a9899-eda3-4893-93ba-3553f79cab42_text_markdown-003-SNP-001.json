@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+  "source_date_if_available": "6 abril 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Quiero realizar una sugerencia para mejorar la experiencia de uso en Hotmart, especialmente en la creación y gestión de productos. Actualmente, el proceso para armar una página de producto resulta poco intuitivo y demasiado fragmentado. Hay que pasar por múltiples ajustes y presionar varios botones constantemente para editar y previsualizar, lo que ralentiza el flujo de trabajo. Sería ideal simplificar este proceso con una vista más integrada y dinámica. Por otro lado, la aplicación móvil presenta fallas importantes. En la versión web desde el teléfono, el sistema solicita iniciar sesión repetidamente, y en la página principal no queda claro cómo hacerlo, ya que solo aparece la opción de registrarse. Esto genera fricción innecesaria para el usuario. Además, al crear un producto, automáticamente se genera una sala de alumnos por defecto. Esta opción debería ser configurable u opcional, ya que no todos los productos requieren ese formato. También se presentan errores críticos en la aplicación: - Al ingresar a \\\"Gestión de negocios\\\" e intentar acceder a un producto, la plataforma no permite abrirlo. - Al intentar editar una página propia, la interfaz se muestra mal distribuida: de un lado aparece el panel de opciones y del otro la página queda cortada, impidiendo trabajar con normalidad. En términos generales, la aplicación actualmente no funciona de manera fluida ni práctica, y requiere mejoras importantes en usabilidad. En resumen, propongo: - Simplificar la creación y edición de páginas de producto. - Mejorar la estabilidad y experiencia de la app móvil. - Corregir el flujo de inicio de sesión en dispositivos móviles. - Hacer opcional la creación automática de salas de alumnos. - Solucionar el acceso a productos desde \\\"Gestión de negocios\\\" en la app. - Corregir la visualización y edición de páginas en dispositivos móviles. Estos cambios mejorarían significativamente la usabilidad y eficiencia de la plataforma. Gracias por su atención.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "seller-reported Hotmart product page creation workflow and mobile app usability complaints",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "secondary_pointer": null
+  }
+}

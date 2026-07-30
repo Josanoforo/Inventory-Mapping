@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-008",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/payhip.com?page=3",
+  "source_date_if_available": "Updated Dec 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"They support sellers who are scammers. I have evidences if you want to check. A seller agreed for refunds according to his refund policy but didn't issue refu...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "buyer-reported Payhip supporting sellers accused of scam refund denial",
+  "actor_level": "buyer",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncated with trailing ellipsis mid-sentence."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/payhip.com?page=3",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.themeforest.net",
+  "source_date_if_available": "November 20, 2025 (posted), 1-star rating.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We've been using ThemeForest for years and all the products we've purchased have always worked well. However, our last product didn't work and was completely broken. We opened a dispute on PayPal for a refund and were blocked from our account. ThemeForest support requested a pause in the PayPal dispute. And now they claim they won't issue a refund even after reviewing our case and hundreds of negative reviews from the seller? This is an illegal practice since the product arrived completely broken. We no longer trust any Envato service.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "buyer-reported ThemeForest refund denial for a broken product despite a PayPal dispute",
+  "actor_level": "buyer",
+  "platforms": [
+    "ThemeForest"
+  ],
+  "product_type_if_explicit": "design_asset",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "hundreds of negative reviews from the seller",
+  "metric_unit": "reviews",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "completely broken",
+    "opened a dispute on PayPal for a refund and were blocked from our account"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.themeforest.net",
+    "secondary_pointer": null
+  }
+}

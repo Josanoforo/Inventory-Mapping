@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-011",
+  "source_type": "help_center",
+  "source_title": "What Is Etsy Payments",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For some Etsy Payments countries, there is a minimum deposit amount, along with a fee threshold and a deposit fee: Deposit Minimum: Your funds available for deposit must be above the deposit minimum to be deposited. Fee Threshold: If your deposit is above the deposit minimum but below the fee threshold, you will be charged a deposit fee. If your deposit exceeds the fee threshold, you won't be charged a deposit fee. Deposit Fee: This fee is charged if your deposit is below the fee threshold. Your available for deposit total will show your available sales minus the deposit fee. This fee is deducted from your Payment account at the time of the deposit and is subject to VAT, where applicable.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Etsy Payments deposit minimum, fee threshold, and deposit fee mechanics",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "for some Etsy Payments countries only",
+    "subject to VAT where applicable"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/360002120927-What-is-Etsy-Payments",
+    "secondary_pointer": null
+  }
+}

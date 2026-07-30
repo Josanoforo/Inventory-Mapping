@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "How Payouts Work",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Funds from products purchased through Commerce on Web and Android will appear as pending for up to 7 days before they can be withdrawn from your balance. Funds from product sales made via iOS in-app purchases will remain pending for up to 75 days before they will be available for payout, accounting for the time Apple requires to process and confirm the funds.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Patreon fund pending period by purchase channel, distinguishing web/Android from iOS in-app purchases",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "up to 7 days (Web/Android); up to 75 days (iOS)",
+  "metric_unit": "days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "iOS delay accounts for Apple's processing and confirmation time"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+    "secondary_pointer": null
+  }
+}
