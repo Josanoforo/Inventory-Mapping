@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016",
+  "source_type": "help_center",
+  "source_title": "Connect Your Midtrans Account",
+  "source_ref": "https://help.payhip.com/article/365-connect-your-midtrans-account",
+  "source_date_if_available": "Last updated December 31, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Midtrans' standard fee for online credit card transactions is 2,9% + IDR 2,000 per transaction, and the standard fee for bank transfer is IDR 4,000 per transaction. Note that these fees are collected by Midtrans and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/365-connect-your-midtrans-account",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "Payhip-documented Midtrans gateway transaction fee rates (card vs bank transfer)",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "Midtrans"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "2,9% + IDR 2,000 (card); IDR 4,000 (bank transfer)",
+  "metric_unit": "percent/flat IDR",
+  "time_scope_raw": "Last updated December 31, 2025",
+  "time_scope_normalized_if_safe": "2025-12-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "fees collected by Midtrans, not Payhip"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

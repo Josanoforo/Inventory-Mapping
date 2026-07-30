@@ -69,7 +69,21 @@ disponible en el snippet capturado. Solo se rechaza (subject_exact
 unfillable) si el truncamiento deja el sujeto mismo indeterminable, no solo
 un detalle secundario. ---
 
---- Agregado tras batch_016: Nombres de moneda (p.ej. "mexican peso",
+--- Agregado tras batch_040: Skeletons cuyo snippet_primary es enteramente un
+placeholder de recuperación fallida (p.ej. "n/a — content recovered via research
+subagent's direct fetch of X; verbatim character-for-character accuracy cannot be
+independently confirmed") sin ningún texto real de la página capturado, se rechazan
+por subject_exact_unfillable — no hay afirmación real que sostenga un sujeto. No
+confundir con snippets truncados con "..." (batch_016), que sí preservan texto real
+parcial y no se rechazan por esa razón sola. ---
+
+--- Agregado tras batch_040: Cifras de CTR o de variación porcentual que exceden el
+rango normal 0-100% (p.ej. "12-mo average CTR is 127%", "monthly CTR up 892%") se
+preservan verbatim tal como las reporta la fuente de terceros, sin corregir ni
+reinterpretar. No se usa metric_unit_unclear (phase_2_only, prohibido en Fase 1);
+se usa methodology_unclear si se necesita marcar la anomalía. ---
+
+--- Agregado tras batch_040: Nombres de moneda (p.ej. "mexican peso",
 "Brazilian Real", "Colombian Pesos", "Argentine Pesos") implican geografía
 pero no son, por sí mismos, un nombre de lugar explícito en el snippet.
 geography_if_explicit se deja null cuando la única señal geográfica es el

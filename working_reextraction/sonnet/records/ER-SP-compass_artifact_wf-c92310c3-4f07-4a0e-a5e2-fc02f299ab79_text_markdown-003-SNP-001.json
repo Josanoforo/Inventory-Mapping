@@ -1,0 +1,49 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "In Which Currency Are The Prices Shown",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Mexican peso (MXN) Argentine peso (ARG) Colombian peso (COP) Chilean peso (CLP) Peruvian sol (PEN) Panamanian balboa (PAB) Brazilian real (BRL) Uruguayan peso (UYU) Costa Rica colón (CRC)\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Domestika list of local currencies in which prices are displayed",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Mexico",
+    "Argentina",
+    "Colombia",
+    "Chile",
+    "Peru",
+    "Panama",
+    "Brazil",
+    "Uruguay",
+    "Costa Rica"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Geography derived from country-adjective forms directly modifying each currency name (Mexican peso, Argentine peso, etc.), per the criteria.md rule that such adjectives count as explicit geography."
+  ]
+}

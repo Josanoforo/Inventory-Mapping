@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-006",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://hotmart.com/en/pricing",
+  "source_date_if_available": "No visible date",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"No monthly or annual fees. No limits to selling around the world. Just pay a transaction fee on each sale you make.\" And: \"How many products can I sell on Hotmart? You can host and sell as many products as you'd like!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/pricing",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "Hotmart absence of monthly/annual fees, per-sale transaction fee only, unlimited product hosting",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "No visible date",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "no monthly or annual fees",
+    "no limits to selling around the world"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

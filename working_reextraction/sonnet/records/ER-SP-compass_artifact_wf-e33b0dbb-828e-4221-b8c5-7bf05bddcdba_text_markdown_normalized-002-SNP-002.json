@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002",
+  "source_type": "help_center",
+  "source_title": "Digital Eu Vat",
+  "source_ref": "https://help.payhip.com/article/127-digital-eu-vat",
+  "source_date_if_available": "Last updated February 21, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Your customer will be charged: $10 + (0.20 × $10) = $12\"\n\n> \"We will charge 5% and will collect the EU VAT amount: (0.05 × $10) + (0.20 × $10) = $2.50\"\n\n> \"You will receive the remaining amount: $12 – $2.50 = $9.50 (Note: PayPal will deduct it's fees as well)\"\n\n**Verbatim text (VAT included in price, same scenario):**\n\n> \"Your customer will be charged: $10\"\n\n> \"Price before VAT applied: $10 ÷ 1.20 = $8.33\"\n\n> \"We will charge 5% and will collect the EU VAT amount: (0.05 × $8.33) + ($10 – $8.33) = $2.09\"\n\n> \"You will receive the remaining amount: $10 – $2.09 = $7.91 (Note: PayPal will deduct its fees as well)\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/127-digital-eu-vat",
+    "secondary_pointer": null
+  },
+  "claim_type": "derived_calculation",
+  "subject_exact": "Payhip worked VAT-calculation examples comparing VAT-added-on-top versus VAT-included-in-price scenarios",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "vat_calculation_example",
+  "metric_value_raw": "VAT on top: charged $12, Payhip+VAT collected $2.50, seller receives $9.50; VAT included: charged $10, Payhip+VAT collected $2.09, seller receives $7.91",
+  "metric_unit": "USD",
+  "time_scope_raw": "Last updated February 21, 2026",
+  "time_scope_normalized_if_safe": "2026-02-21",
+  "geography_if_explicit": null,
+  "evidence_role": "derived_calculation",
+  "local_qualifiers": [
+    "PayPal will deduct its fees as well"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "metric_type 'vat_calculation_example' has no enum match for a worked tax-calculation illustration; recorded as out_of_enum literal."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-014",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Mercado Pago Account",
+  "source_ref": "https://help.payhip.com/article/343-connecting-your-mercado-pago-account",
+  "source_date_if_available": "Last updated December 31, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Mercado Pago is available in Argentina, Brazil, Chile, Colombia, Mexico, Peru and Uruguay.\"\n\n> \"Supported currencies include ARS, BRL, CLP, COP, MXN, PEN, and UYU.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/343-connecting-your-mercado-pago-account",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip-documented Mercado Pago gateway country and currency coverage",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "Mercado Pago"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Last updated December 31, 2025",
+  "time_scope_normalized_if_safe": "2025-12-31",
+  "geography_if_explicit": [
+    "Argentina",
+    "Brazil",
+    "Chile",
+    "Colombia",
+    "Mexico",
+    "Peru",
+    "Uruguay"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "supported currencies: ARS, BRL, CLP, COP, MXN, PEN, UYU"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

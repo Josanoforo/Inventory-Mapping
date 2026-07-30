@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005",
+  "source_type": "policy_page",
+  "source_title": "Payments Policy",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "Updated 28/11/2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The transaction fee for payment using the SeQura solution is 1% of the Product's sales price.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "Hotmart SeQura payment method transaction fee rate",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart",
+    "SeQura"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "1%",
+  "metric_unit": "percent of product sales price",
+  "time_scope_raw": "Updated 28/11/2025",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

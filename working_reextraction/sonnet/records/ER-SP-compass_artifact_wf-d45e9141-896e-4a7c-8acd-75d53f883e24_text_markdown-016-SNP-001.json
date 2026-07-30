@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-016",
+  "source_type": "article",
+  "source_title": "Substack Vs Patreon",
+  "source_ref": "https://paprika.bot/blog/substack-vs-patreon",
+  "source_date_if_available": "March 6, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Both platforms charge roughly the same total fees. Both let you export email lists but not payment relationships. Both own the checkout flow and the member experience. The main difference is content format: Substack is built for writers, Patreon is built for everyone else.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://paprika.bot/blog/substack-vs-patreon",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "third-party article comparison of Substack and Patreon fees, data-export limits, and content-format focus",
+  "actor_level": "source",
+  "platforms": [
+    "Substack",
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "March 6, 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Since then, \"crochet pattern\" has dropped to #58 but boy has purchase intent soared! Its monthly CTR is up by 892%!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party keyword-research blog report of ranking drop paired with click-through-rate surge for the Etsy keyword 'crochet pattern'",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "search_discovery",
+    "conversion_rate"
+  ],
+  "metric_value_raw": "dropped to rank #58; monthly CTR up 892%",
+  "metric_unit": "percent; rank",
+  "time_scope_raw": "as of 6 April 2026",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

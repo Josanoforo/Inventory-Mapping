@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+  "source_type": "article",
+  "source_title": "Patreon Vs Youtube Memberships Creators",
+  "source_ref": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+  "source_date_if_available": "Accessed April 2026; last updated March 4, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The math: on $10,000 monthly subscription revenue, YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200. Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "third-party guide fee-payout comparison between YouTube Memberships and Patreon with worked annual difference",
+  "actor_level": "source",
+  "platforms": [
+    "YouTube Memberships",
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "YouTube Memberships pays $7,000 vs Patreon Pro pays $8,700-$9,200 on $10,000/mo subscription revenue; $20,400/yr difference",
+  "metric_unit": "USD",
+  "time_scope_raw": "Accessed April 2026; last updated March 4, 2026",
+  "time_scope_normalized_if_safe": "2026-03-04",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

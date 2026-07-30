@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-016",
+  "source_type": "buyer_review",
+  "source_title": "Reembolso Hotmart Sr3Qxstnwoacpfcw",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/reembolso-hotmart_Sr3qxsTnWOacpfcW",
+  "source_date_if_available": "Hotmart response states refund released 25/07; year not confirmed in snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Solicitei o reembolso, pois se trata de ARREPENDIMENTO DE COMPRA e de acordo com a LEI NO ARTIGO 49 o estorno do cartão deve ser feito IMEDIATAMENTE. Mas, já se passaram mais de 7 dias e não obtive nenhum estorno. A minha fatura do cartão irá vencer em breve vocês acham justo eu ter que pagar por algo que não estou tendo acesso?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/reembolso-hotmart_Sr3qxsTnWOacpfcW",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported refund delay beyond Brazilian consumer-law withdrawal window on a Hotmart purchase",
+  "actor_level": "buyer",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brasil",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "cites 'LEI NO ARTIGO 49' as requiring immediate reversal after withdrawal"
+  ],
+  "uncertainties": [
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "Buyer invokes Brazilian consumer law (Art. 49 CDC) on right of withdrawal; geography recorded as explicit because the cited law is Brazil-specific."
+  ]
+}

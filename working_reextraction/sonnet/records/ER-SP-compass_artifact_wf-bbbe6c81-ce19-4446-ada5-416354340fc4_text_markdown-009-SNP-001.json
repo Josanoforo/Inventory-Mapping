@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-009",
+  "source_type": "buyer_review",
+  "source_title": "Compra Do Curso Ads Lucrativo Us Cql4Ubdtb09Ev",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV",
+  "source_date_if_available": "Purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Foi comprado um curso da Maria Virgínia ads lucrativo falando comprando o curso tinha garantia de 12 meses para o reembolso ao tentar solicitar o reembolso já mostra como o prazo do reembolso fora do prazo sendo que no anúncio garantia o prazo de 12 meses gostaria do meu reembolso pois não me identifiquei com o curso\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/compra-do-curso-ads-lucrativo_Us_CQl4UBDtb09EV",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported refund denial on Hotmart course purchase citing guarantee window already expired",
+  "actor_level": "buyer",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "purchase 06/02/2025; guarantee expired 13/02/2025 per Hotmart response",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "guarantee period stated as 12 months by seller ad, per buyer"
+  ],
+  "uncertainties": [
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "Buyer claims advertised guarantee was 12 months but Hotmart's system shows the refund window already passed; discrepancy not independently resolved in snippet."
+  ]
+}

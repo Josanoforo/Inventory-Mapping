@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-003",
+  "source_type": "search_results_page",
+  "source_title": "Wordpress",
+  "source_ref": "https://codecanyon.net/category/wordpress",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Browse on sale code · by BestWpDeveloper in Interface Elements · $10 $6 · 9 Sales · Live Preview · by BestWpDeveloper in Interface Elements · $10 $6 · 4 Sales · Live Preview · by BestWpDeveloper in Add Ons · $10 $6 · 2 Sales · Live Preview · View all · by NinjaTeam in Media · $49 · (1K) 38.2K Sales · Live Preview · by Stepasyuk in WooCommerce · $49 · (311) 15.7K Sales · Live Preview · by Brainstorm_Force in Add Ons · $29 · (2.8K) 84.2K Sales · Live Preview · by agilelogix in WooCommerce · $59 · (414) 15.1K Sales · Live Preview · View all · by modeltheme in Miscellaneous · $49 · 3 Sales\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://codecanyon.net/category/wordpress",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "CodeCanyon WordPress category listing block combining multiple distinct sellers' items, prices, and sale counts",
+  "actor_level": "marketplace",
+  "platforms": [
+    "CodeCanyon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Block mixes several unrelated products from different authors; not extracted as a single metric since no one item dominates and figures belong to different sellers."
+  ]
+}

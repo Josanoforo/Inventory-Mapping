@@ -1,0 +1,72 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-024",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Paypal Account",
+  "source_ref": "https://help.payhip.com/article/64-connecting-your-paypal-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"PayPal is currently supported in over 200 countries including Australia, Austria, Belgium, Brazil, Canada, Cyprus, Czech Republic, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Luxemburg, Malta, Mexico, Netherlands, New Zealand, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, South Africa, Spain, United Kingdom, and United States.\"\n\n> \"If you're based in the countries listed above, you can connect either a personal or business PayPal account to your Payhip store. For all other countries on PayPal's supported list, you must have a business PayPal account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/64-connecting-your-paypal-account",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip-documented PayPal gateway supported-country list and personal/business account rules",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Undated",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Cyprus",
+    "Czech Republic",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Luxemburg",
+    "Malta",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "San Marino",
+    "Slovakia",
+    "Slovenia",
+    "South Africa",
+    "Spain",
+    "United Kingdom",
+    "United States"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "personal or business PayPal account allowed in the listed countries; business account required elsewhere"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

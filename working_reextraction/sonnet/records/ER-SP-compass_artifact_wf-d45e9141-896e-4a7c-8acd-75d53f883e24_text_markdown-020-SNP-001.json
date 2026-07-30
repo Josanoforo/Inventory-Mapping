@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020",
+  "source_type": "article",
+  "source_title": "Patreon Alternatives",
+  "source_ref": "https://www.mightynetworks.com/resources/patreon-alternatives",
+  "source_date_if_available": "March 31, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The best way to keep the highest percentage of your memberships is usually a platform that charges a flat fee (instead of a percentage). While starting on Patreon at 10% of your revenue doesn't feel like much at first, it adds up fast! Imagine that when you make $100, you'll pay Patreon $10. If you make $10,000, you'll pay Patreon $1,000. A flat fee platform like Mighty Networks, Kajabi, or ConvertKit means that you don't get penalized as you grow–you just pay the platform fee.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.mightynetworks.com/resources/patreon-alternatives",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "third-party article contrasting Patreon's percentage-based fee against flat-fee competitor platforms with a worked example",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon",
+    "Mighty Networks",
+    "Kajabi",
+    "ConvertKit"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "10% of revenue at Patreon: $10 fee on $100 revenue; $1,000 fee on $10,000 revenue",
+  "metric_unit": "percent",
+  "time_scope_raw": "March 31, 2026",
+  "time_scope_normalized_if_safe": "2026-03-31",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

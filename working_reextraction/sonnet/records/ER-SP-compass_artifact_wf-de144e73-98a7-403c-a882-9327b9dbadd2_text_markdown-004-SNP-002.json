@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As you can above right on the search history chart, \"png\" search volume is way up! In just the past month, it has shot up 257%!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party keyword-research blog report of a one-month search-volume spike for the Etsy keyword 'png'",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search_discovery",
+  "metric_value_raw": "up 257% in the past month",
+  "metric_unit": "percent",
+  "time_scope_raw": "past month (as of 6 April 2026)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}
