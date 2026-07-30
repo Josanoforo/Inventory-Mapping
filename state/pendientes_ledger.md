@@ -32,6 +32,10 @@ files, diseño) · `OP` = solo el operador.
 | P-102 | Falta regla de verificación de ramas en `CLAUDE.md`. Tres casos: `fetch --prune`, trampa de columna Ahead, el relay no borra refs | decisión | Enmarque: ¿`CLAUDE.md` menciona hoy alguna de las tres? | CC | sigue-abierto — `CLAUDE.md` (93 líneas): 0 menciones de `fetch --prune`, "Ahead" o "relay" |
 | P-109 | 186 queries del catálogo del eje 4 sin correr. Desbloqueado en S28 | decisión | Enmarque: ¿existe el catálogo de 186 queries en el repo? Ruta y conteo real | CC | sigue-abierto — el `.xlsx` no existe en `main`/`legacy/*`/`preserve/*`; `working/eje4/` no existe; solo script de pre-proceso + contrato del agente, sin correr. Conteo real no verificable desde el repo |
 | P-141 | `product_type_unclear` falta en `source_packet.schema.json` y en la prosa de `source_packet_conversion_template.md`, y `vocab_check.py` no puede detectarlo porque con `match: subset` solo reporta valores de más | hecho | ¿En qué archivos aparece `product_type_unclear` hoy, y qué reporta `vocab_check.py` sobre ese campo? | CC | |
+| P-142 | `bulk_extract.py` (código vivo) y el enum del manifest schema escriben a `extraction_gpt_recovery/`, directorio que no existe. El bloque 4 de PR #68 corrigió la prosa de `extraction_converter.md` y dejó el código apuntando al vacío | hecho | ¿En qué líneas de qué archivos aparece la ruta hoy, y qué pasa cuando el script intenta escribir ahí? | CC | |
+| P-143 | `extraction_gpt_recovery` sobrevive como identificador de destino en `p1-extract-records/SKILL.md`, `docs/pipeline_flow.md` y el enum del manifest schema, ahora inconsistentes con el módulo corregido | hecho | ¿Qué lee ese identificador y rompe algo renombrarlo? | CC | |
+| P-144 | El enum de `uncertainties` en `source_packet.schema.json` no tiene `methodology_unclear`, `anecdotal_single_source` ni `author_conflict_of_interest_possible` — los tres valores que PR #65 agregó al vocab al cerrar P-129a, o sea que la reconciliación fue parcial. `vocab_check.py` no lo detectó porque no cubre ese schema. Misma familia que P-141 | hecho | ¿Qué schemas cubre `vocab_check.py` hoy, y cuáles declaran enums que no compara? | CC | |
+| P-145 | Hay dos "Rule 5" en `p2-extract-signals/SKILL.md` (líneas 60 y 72, secciones distintas). El puntero de B1 no desambigua para quien lea la otra | decisión | ¿Cuántas reglas del archivo comparten número entre secciones? | CC | |
 
 **Cerrados en esta corrección (ya hechos, verificados contra el repo — salen de la tabla):**
 
@@ -45,7 +49,7 @@ files, diseño) · `OP` = solo el operador.
 
 | ID | Enunciado | Clase | Qué falta | Dónde | Estado |
 |---|---|---|---|---|---|
-| P-125 | Regla 5 de `p2-extract-signals/SKILL.md` contradice campo 13 de `signal_converter.md` | hecho | **Decisión tomada en S28, edición pendiente.** Regla 5 → puntero; campo 13 → fuente única con exclusión de metadata y ruteo a `time_scope_raw` | CC | decidido, sin ejecutar |
+| P-125 | Regla 5 de `p2-extract-signals/SKILL.md` contradice campo 13 de `signal_converter.md` | hecho | Cláusula de ruteo de anclas temporales a `time_scope_raw`, dependiente de P-126 y P-119 | CC | cerrada la contradicción entre regla 5 y campo 13, commit `f884099` |
 | P-137 | `extraction_converter.md` rutea fallos a `extraction_gpt_recovery/`, que no existe. El árbol y `CLAUDE.md` dicen `rejected_archive/` | hecho | Edición trivial de una ruta | CC | cerrado — ruta corregida en `extraction_converter.md` a `rejected_archive/`, commit `e0928ed` |
 | P-131 | Dos versiones de `Blueprint_Phase_2_Signal_Extraction.md` con la misma pretensión de fuente única | hecho | Retirar una. Vive en project files, no en el repo | DSC | verificado |
 | P-133 | El análisis de diferencias de S27 se llamó "health check", término reservado al componente E del Blueprint | hecho | Corrección de término en el registro | DSC | verificado |
@@ -103,11 +107,11 @@ files, diseño) · `OP` = solo el operador.
 
 | Grupo | Filas |
 |---|---|
-| A — pendientes de verificar (Run 2) | 5 |
+| A — pendientes de verificar (Run 2) | 9 |
 | B — verificados, esperando decisión | 23 |
 | C — decisiones de DSC | 4 |
 | D — candidatos a parqueo | 5 |
-| **Total abiertos** | **37** |
+| **Total abiertos** | **41** |
 
 **Cerrados en esta corrección:** P-135, P-129a (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082 (ver citas bajo la tabla A, justo después de la tabla).
 **Cerrados en S28, no re-abrir:** P-076, P-107, P-108, P-110, P-112, P-114, P-120, P-122, P-123,
@@ -121,7 +125,7 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-23 de 37 ya están verificados y esperan juicio del operador. 5 esperan que alguien mire el repo.
+23 de 41 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
 5 no son decidibles hoy. **El cuello es la cola de decisiones, no la de verificación.**
 
 De los 23 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,

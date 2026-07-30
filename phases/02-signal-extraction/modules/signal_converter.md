@@ -176,7 +176,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 12. **`evidence_role`** — Inherit from `_extraction_context.evidence_role`. If the signal formulation reveals a different role, adjust. Context must not become direct claim (contract §13, Rule 2).
 
-13. **`local_qualifiers`** — Inherit from `_extraction_context.local_qualifiers`. Never drop qualifiers that condition the claim. Preserve verbatim.
+13. **`local_qualifiers`** — Inherit from `_extraction_context.local_qualifiers`. Never drop qualifiers that condition the claim. Preserve verbatim. Exclude record metadata and access dates — those belong in `normalization_notes`.
 
     A qualifier is a condition that limits the scope of the claim — geographic scope, a threshold, a time window, a caveat. It is not source content. Full policy clauses, definitions, and entire sentences do not belong here: if they are part of the claim they belong in `signal_text`; if they are a separate claim they belong in another card.
 
