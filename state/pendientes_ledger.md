@@ -121,7 +121,7 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-23 de 37 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
+23 de 37 ya están verificados y esperan juicio del operador. 5 esperan que alguien mire el repo.
 5 no son decidibles hoy. **El cuello es la cola de decisiones, no la de verificación.**
 
 De los 23 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,
