@@ -48,3 +48,34 @@ defecto del contrato para seller_forum), agregando actor_level_unclear a
 uncertainties y una nota en parser_notes explicando la ambigüedad — nunca se
 asume "platform" sin evidencia explícita de que quien habla es la plataforma
 misma. ---
+
+--- Agregado tras batch_016: source_type "buyer_review" no determina por sí
+solo actor_level "buyer". Reseñas en sitios de terceros (Trustpilot, BBB) que
+mecánicamente llevan source_type=buyer_review pueden estar escritas por
+sellers/creators quejándose de payouts, suspensiones de cuenta o fees — el
+texto mismo revela quién habla ("I am a seller on Gumroad...", "sells items
+with full resale rights"). Se aplica la regla general del contrato ("quién
+habla, no source_type") y se asigna actor_level "seller" cuando el hablante se
+identifica explícitamente como vendedor/creador, independientemente de la
+etiqueta mecánica de source_type. ---
+
+--- Agregado tras batch_016: Snippets truncados con elipsis final ("...") en
+reviews de terceros (Trustpilot) o en listados/tablas parcialmente capturados
+(listas de países, monedas) no se rechazan por esta razón sola. Se preservan
+como aparecen, se registra uncertainties: context_insufficient, y se agrega
+una nota en parser_notes indicando que el fragmento está incompleto y que el
+valor final (p.ej. cifra exacta, país completo de la lista) no está
+disponible en el snippet capturado. Solo se rechaza (subject_exact
+unfillable) si el truncamiento deja el sujeto mismo indeterminable, no solo
+un detalle secundario. ---
+
+--- Agregado tras batch_016: Nombres de moneda (p.ej. "mexican peso",
+"Brazilian Real", "Colombian Pesos", "Argentine Pesos") implican geografía
+pero no son, por sí mismos, un nombre de lugar explícito en el snippet.
+geography_if_explicit se deja null cuando la única señal geográfica es el
+nombre de una moneda, con nota en parser_notes explicando la inferencia
+implícita descartada; se prioriza esta regla sobre inferir el país a partir
+del gentilicio de la moneda, salvo que el mismo snippet nombre el país o
+gentilicio de forma independiente (p.ej. "Argentine Pesos" Y "Argentina" both
+appearing, or an adjective form like "mexicano/mexican" modifying a noun
+directly, en cuyo caso el adjetivo sí cuenta como explícito). ---

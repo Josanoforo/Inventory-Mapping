@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-013",
+  "source_type": "article",
+  "source_title": "Stripe Acquires Payment Processing Startup Lemon Squeezy",
+  "source_ref": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy",
+  "source_date_if_available": "July 26, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As a merchant of record, Lemon Squeezy calculates and pays global sales tax for digital products, handling legal processing and fees in every country. It primarily serves SaaS and software businesses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://techcrunch.com/2024/07/26/stripe-acquires-payment-processing-startup-lemon-squeezy",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lemon Squeezy's merchant-of-record global sales tax handling, as described in coverage of the Stripe acquisition",
+  "actor_level": "source",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "every country",
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "primarily serves SaaS and software businesses"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "\"primarily serves SaaS and software businesses\" describes Lemon Squeezy's typical client base rather than a specific product type for this record; product_type_if_explicit left unknown"
+  ]
+}

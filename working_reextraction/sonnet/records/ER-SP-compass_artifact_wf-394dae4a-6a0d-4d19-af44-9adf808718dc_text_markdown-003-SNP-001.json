@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "What Payment Methods Are Available And How Can I Enable Them For My Product",
+  "source_ref": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Creators who live in other countries have limited payment methods available to Brazilian Buyers. This is because the commission will be paid in dollars. In addition, payment via bank slip and bank transfer, for example, does not convert on the platform. Therefore, the payment option available on the payment page will be by credit card and PIX.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "payment method restrictions for Hotmart creators outside Brazil selling to Brazilian buyers",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazilian",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "commission will be paid in dollars",
+    "bank slip and bank transfer do not convert on the platform"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "restricts checkout payment method choice (credit card, PIX) for non-Brazil-resident creators selling to Brazil buyers; distinct from payout currency/method (Rule 1 checkout vs payout)"
+  ]
+}

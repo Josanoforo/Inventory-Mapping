@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014",
+  "source_type": "seller_forum",
+  "source_title": "Gumroad Has Zero Organic Discovery Im Cross Listing My Data Product Everywhere 5910F96Fba",
+  "source_ref": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+  "source_date_if_available": "March 30, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"25 products on gumroad. $0 in sales. zero views from organic search. gumroad is great for checkout. terrible for discovery. if nobody knows your product exists, the best checkout page wont help. gumroad discover requires at least one sale to activate. need a sale to get discovery, need discovery to get a sale. chicken and egg. payhip: free plan, 5% fee, growing marketplace. gumroad: 10% fee, zero organic traffic unless already selling.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "Gumroad Discover activation requirement creating a circular dependency between making a sale and gaining organic discovery, per seller-reported experience",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "activation_requirement",
+  "metric_value_raw": "at least one sale",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "25 products on gumroad, $0 in sales, zero views from organic search",
+    "gumroad: 10% fee, zero organic traffic unless already selling",
+    "payhip: free plan, 5% fee, growing marketplace"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "snippet also contains a fee-rate comparison (Gumroad 10% vs Payhip 5%) and sales-count/traffic figures (25 products, $0 sales); preserved as local_qualifiers rather than promoted to metric_type/metric_value_raw to avoid collapsing the activation_requirement claim with fee_rate and sales_count layers (Rule 1)"
+  ]
+}

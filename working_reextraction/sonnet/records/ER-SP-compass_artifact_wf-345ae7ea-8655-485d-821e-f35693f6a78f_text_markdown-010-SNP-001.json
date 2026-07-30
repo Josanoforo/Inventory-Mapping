@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Direct Selling Where To Start",
+  "source_ref": "https://wideauthormarketing.substack.com/p/direct-selling-where-to-start",
+  "source_date_if_available": "December 17, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This year, over 50% of my income will be from my direct stores, so friends, that's just not true. You do have to market your direct store, and you need to learn how to market like an e-commerce business owner, which is different than how you market on Amazon, Kobo and others. But if I can do it, you can too!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://wideauthormarketing.substack.com/p/direct-selling-where-to-start",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported share of total income from direct-to-reader stores versus retailer marketplaces (Amazon, Kobo)",
+  "actor_level": "seller",
+  "platforms": [
+    "Amazon",
+    "Kobo"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "over 50%",
+  "metric_unit": "percent",
+  "time_scope_raw": "this year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

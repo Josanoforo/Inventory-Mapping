@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010",
+  "source_type": "help_center",
+  "source_title": "Mexico Vat Information For Buyers",
+  "source_ref": "https://help.market.envato.com/hc/en-us/articles/46566990286745-Mexico-VAT-Information-for-Buyers",
+  "source_date_if_available": "Accessed April 2026; page states VAT visible on statements \"for all purchases completed after 15 May 2025\" (separate passage)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you are a business customer with a valid RFC, you may be able to recover the VAT charged by Envato by claiming it as input tax on your Mexican VAT return.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.market.envato.com/hc/en-us/articles/46566990286745-Mexico-VAT-Information-for-Buyers",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "VAT recovery as input tax for Mexican business customers of Envato with a valid RFC",
+  "actor_level": "platform",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexican",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "business customer with a valid RFC",
+    "may be able to recover"
+  ],
+  "uncertainties": [],
+  "parser_notes": []
+}

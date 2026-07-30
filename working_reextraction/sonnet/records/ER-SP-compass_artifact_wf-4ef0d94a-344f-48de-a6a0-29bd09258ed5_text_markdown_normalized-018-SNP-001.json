@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+  "source_type": "policy_page",
+  "source_title": "Privacy",
+  "source_ref": "https://www.domestika.org/es/privacy",
+  "source_date_if_available": "\"Esta Política de Privacidad fue actualizada por última vez el 10 de julio de 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Para gestionar tu relación con Domestika como Profesor, Creativo o Afiliado, con el fin de cumplir con las obligaciones que de ella se deriven. Domestika necesitará tratar los Datos Personales relevantes para contactarte con el fin de organizar cursos, materiales o campañas, procesar el pago de tus honorarios, etc. Este tratamiento de datos se basa en la relación contractual que tienes con Domestika.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/privacy",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika's personal data processing purposes for Teachers, Creatives, and Affiliates under contractual relationship",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "basado en la relación contractual que tienes con Domestika"
+  ],
+  "uncertainties": [],
+  "parser_notes": []
+}

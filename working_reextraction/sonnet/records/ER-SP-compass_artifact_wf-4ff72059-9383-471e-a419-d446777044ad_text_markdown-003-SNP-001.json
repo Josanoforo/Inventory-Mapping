@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003",
+  "source_type": "policy_page",
+  "source_title": "Politicacambiosydevoluciones",
+  "source_ref": "https://www.kichink.com/legales/politicacambiosydevoluciones",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Los tiempos estimados para el procesamiento de un Reembolso una vez autorizado el mismo son los siguientes: Pago con TDC tiempo de 5 días hábiles. Pago con Banca por internet 5 días hábiles. Depósito Bancario 5 días hábiles.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/legales/politicacambiosydevoluciones",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Kichink refund processing time by payment method (5 business days for card, online banking, or bank deposit)",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "5 días hábiles",
+  "metric_unit": "business days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": []
+}

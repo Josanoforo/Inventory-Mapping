@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-011-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-011",
+  "source_type": "seller_forum",
+  "source_title": "lemonsqueezy.nolt.io",
+  "source_ref": "https://lemonsqueezy.nolt.io/583",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"PIX would be great for me too. One of the reasons that still makes me think about migrating to this platform is the lack of PIX, because it is the payment method I receive most from Brazilian customers on my current system.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://lemonsqueezy.nolt.io/583",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported lack of PIX support as a factor delaying migration to Lemon Squeezy from their current platform",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazilian",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "it is the payment method I receive most from Brazilian customers on my current system"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

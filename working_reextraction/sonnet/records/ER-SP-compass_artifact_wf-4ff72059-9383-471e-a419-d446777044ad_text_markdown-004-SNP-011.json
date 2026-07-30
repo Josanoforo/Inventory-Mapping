@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004-SNP-011",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004",
+  "source_type": "policy_page",
+  "source_title": "Terminos",
+  "source_ref": "https://www.kichink.com/legales/terminos",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Cuando las ventas realizadas por La TIENDA se deriven de la realización de un evento; la prestación de un servicio y/o la descarga de un archivo digital en cualquier formato, KICHINK podrá retener la cantidad total de las ventas realizadas por La TIENDA y solicitar a los usuarios la confirmación de la realización del evento; la prestación del servicio y/o la descarga del archivo digital previo al pago solicitado por La TIENDA.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/legales/terminos",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Kichink's right to withhold total sale proceeds for event, service, or digital-file sales pending user confirmation of fulfillment",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": []
+}

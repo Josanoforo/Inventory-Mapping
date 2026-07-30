@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "How To Withdraw My Commission",
+  "source_ref": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Due to new regulations from the Central Bank of Argentina (BCRA), there has been a standardization of a fee for payments with conversions of purchases in Argentine Pesos (ARS) to offers in US Dollars (USD) or conversions of commissions in US Dollars (USD) to products offered in Argentine Pesos (ARS).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "fee standardization for ARS-USD currency conversion on Hotmart per new Argentine Central Bank (BCRA) regulations",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Argentina",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "due to new regulations from the Central Bank of Argentina (BCRA)"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "snippet references a fee standardization but does not state the specific rate or amount"
+  ]
+}

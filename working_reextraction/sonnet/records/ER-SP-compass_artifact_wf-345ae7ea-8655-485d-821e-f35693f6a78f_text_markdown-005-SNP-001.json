@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Why I Chose Gumroad Over Payhip 8821Ae348D45",
+  "source_ref": "https://medium.com/@hazelparadise/why-i-chose-gumroad-over-payhip-8821ae348d45",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I mentioned that I have a Payhip store too where I sell my software-related products. I promote the store only my on Faceless-Voiceless YouTube Channel. And so far, I have made 7 sales. Currently, I have only 68 subscribers on this channel.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@hazelparadise/why-i-chose-gumroad-over-payhip-8821ae348d45",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported sales count for a software products store on Payhip promoted via a single small YouTube channel",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip",
+    "YouTube"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "sales_count",
+  "metric_value_raw": "7",
+  "metric_unit": "sales",
+  "time_scope_raw": "so far",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "promoted only via a single Faceless-Voiceless YouTube channel with 68 subscribers"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "YouTube subscriber count (68) preserved as qualifier/context rather than a separate metric, to avoid collapsing a traffic-source count with the Payhip sales_count claim (Rule 1)"
+  ]
+}

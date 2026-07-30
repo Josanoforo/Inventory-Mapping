@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "Currencies",
+  "source_ref": "https://docs.lemonsqueezy.com/help/payments/currencies",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payouts are always made in USD. If you set up bank payouts, you can select a payout currency (we recommend this matches your bank account). If you select a currency other than USD, our payout processor will convert the payout amount to your selected currency using the mid-market exchange rate at the time of payout.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/payments/currencies",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Lemon Squeezy payout currency default (USD) and optional bank payout currency conversion at mid-market rate",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "at the time of payout",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "we recommend this matches your bank account"
+  ],
+  "uncertainties": [],
+  "parser_notes": []
+}

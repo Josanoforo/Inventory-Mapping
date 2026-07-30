@@ -1,0 +1,56 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "Currencies",
+  "source_ref": "https://docs.lemonsqueezy.com/help/payments/currencies",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: currency list of 130+ items including \"ARS - Argentine Peso\", \"BOB - Boliviano\", \"BRL - Brazilian Real\", \"CLP - Chilean Peso\", \"COP - Colombian Peso\", \"CRC - Costa Rican Colon\", \"DOP - Dominican Peso\", \"GTQ - Guatemalan Quetzal\", \"HNL - Honduran Lempira\", \"MXN - Mexican Peso\", \"NIO - Nicaraguan Córdoba\", \"PEN - Peruvian Nuevo Sol\", \"PYG - Paraguayan Guarani\", \"UYU - Uruguayan Peso\"; list ends at \"ZMW - Zambian Kwacha\" with no VES entry between UZS and VND]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/payments/currencies",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "supported display currency list for Lemon Squeezy, including multiple Latin American currencies",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "130+",
+  "metric_unit": "currencies",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Argentina",
+    "Bolivia",
+    "Brazil",
+    "Chile",
+    "Colombia",
+    "Costa Rica",
+    "Dominican Republic",
+    "Guatemala",
+    "Honduras",
+    "Mexico",
+    "Nicaragua",
+    "Peru",
+    "Paraguay",
+    "Uruguay"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "list ends at Zambian Kwacha with no VES entry between UZS and VND"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "snippet notes the absence of Venezuelan Bolívar (VES) in the currency list; an explicit gap preserved verbatim"
+  ]
+}

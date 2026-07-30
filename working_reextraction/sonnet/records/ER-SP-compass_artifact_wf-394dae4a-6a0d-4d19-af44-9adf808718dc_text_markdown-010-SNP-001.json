@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-010",
+  "source_type": "article",
+  "source_title": "Latin America Growth",
+  "source_ref": "https://www.payoneer.com/resources/risk-compliance/latin-america-growth",
+  "source_date_if_available": "not specified",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Companies like Hotmart, Workana, MercadoLibre, and Airbnb choose Payoneer to deliver their mass payouts across Latin America. Our robust network, which extends to 190+ countries and territories in over 70 currencies, allows enterprises to reach payees anywhere in the world with peace of mind.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.payoneer.com/resources/risk-compliance/latin-america-growth",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Payoneer's payout network reach claimed for enterprise clients including Hotmart, Workana, MercadoLibre, and Airbnb",
+  "actor_level": "third_party",
+  "platforms": [
+    "Hotmart",
+    "Workana",
+    "MercadoLibre",
+    "Airbnb",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "190+ countries and territories in over 70 currencies",
+  "metric_unit": "countries/currencies",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Latin America",
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Payoneer is a third-party payment provider promoting its own network reach; Hotmart is named only as a client example, not the subject of a Hotmart-specific claim"
+  ]
+}

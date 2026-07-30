@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-007",
+  "source_type": "blog",
+  "source_title": "Big Cartel Or Etsy",
+  "source_ref": "https://www.bigcartel.com/resources/blog/article/big-cartel-or-etsy",
+  "source_date_if_available": "2025-06-24",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy? That's more like renting a shelf in a crowded marketplace. Sure, you tap into a built-in audience, but you're competing with a million other makers. You can pretty it up a bit—but you're still boxed into Etsy's layout. And when someone buys from you there, what do they say? 'I got it on Etsy.' Ouch.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bigcartel.com/resources/blog/article/big-cartel-or-etsy",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "metaphorical comparison contrasting Etsy's built-in traffic/competition tradeoff against loss of brand attribution at point of sale",
+  "actor_level": "third_party",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "you're competing with a million other makers",
+    "you're still boxed into Etsy's layout"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "source is Big Cartel, a competing storefront platform; commentary critiques Etsy in a context promoting Big Cartel as the alternative"
+  ]
+}

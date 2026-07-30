@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Tax Forms",
+  "source_ref": "https://docs.lemonsqueezy.com/help/tax-forms",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you meet all the criteria below for the previous calendar year, you will receive a 1099-K from Lemon Squeezy: The account is based in the US (or has completed a Form W-9) More than $20,000 USD in gross volume from sales of goods or services in the previous calendar year\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/tax-forms",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "1099-K issuance criteria for Lemon Squeezy US-based accounts (gross sales volume threshold)",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$20,000",
+  "metric_unit": "USD",
+  "time_scope_raw": "previous calendar year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "gross volume from sales of goods or services",
+    "account based in the US (or has completed a Form W-9)"
+  ],
+  "uncertainties": [],
+  "parser_notes": []
+}

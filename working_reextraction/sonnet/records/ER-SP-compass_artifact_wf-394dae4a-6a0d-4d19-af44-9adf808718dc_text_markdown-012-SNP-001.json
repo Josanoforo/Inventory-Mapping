@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-012",
+  "source_type": "blog",
+  "source_title": "Hotmart Affiliate Program",
+  "source_ref": "https://www.way2earning.com/2021/06/hotmart-affiliate-program",
+  "source_date_if_available": "2021 (periodically updated; site title references 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The payment options are bank transfer and Payoneer. If you are a Brazilian, then you need to reach at least 20 Reals. For others, the minimum payout is $50 or €50.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.way2earning.com/2021/06/hotmart-affiliate-program",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "minimum payout threshold for Hotmart affiliates by residency (20 Reals for Brazil-resident affiliates, $50/€50 for others)",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "20 Reals / $50 or €50",
+  "metric_unit": "BRL/USD/EUR",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazilian",
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "source dated 2021 per URL but page title references 2026 and is noted as periodically updated; current accuracy of stated thresholds is uncertain"
+  ]
+}
