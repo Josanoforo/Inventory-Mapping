@@ -1,0 +1,54 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_type": "pricing_page",
+  "source_title": "Fee Calculator",
+  "source_ref": "https://craftybase.com/etsy/fee-calculator",
+  "source_date_if_available": "March 2026 (changelog entry)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Added 9 new countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand are now supported. These are Payoneer-based countries where Etsy processes fees in USD.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Craftybase Etsy fee calculator country support (nine added Payoneer-based countries)",
+  "actor_level": "third_party",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "now",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Argentina",
+    "Brazil",
+    "Chile",
+    "China",
+    "Egypt",
+    "India",
+    "Japan",
+    "South Korea",
+    "Thailand"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Payoneer-based countries where Etsy processes fees in USD"
+  ],
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "source_type is pricing_page (vocab rule maps to 'platform'), but the page is a third-party tool provider's changelog announcing support in its own product; the vocabulary's more specific clause (external provider speaking about its own product) applies, actor_level set to third_party and ambiguity flagged.",
+    "Relative time qualifier 'now' ('are now supported') preserved in raw; normalized left null per criteria; changelog entry dated March 2026 in source_date_if_available.",
+    "No metric of the principal claim; '9 new countries' is the availability listing itself."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://craftybase.com/etsy/fee-calculator",
+    "secondary_pointer": null
+  }
+}

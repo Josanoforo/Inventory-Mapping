@@ -1,0 +1,47 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-018",
+  "source_type": "help_center",
+  "source_title": "Connect Your Flutterwave Account",
+  "source_ref": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Flutterwave is available in Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania, and Cameroon.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Disponibilidad de Flutterwave: Nigeria, Ghana, Kenya, South Africa, Uganda, Rwanda, Zambia, Tanzania y Cameroon",
+  "actor_level": "platform",
+  "platforms": [
+    "Flutterwave"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Nigeria",
+    "Ghana",
+    "Kenya",
+    "South Africa",
+    "Uganda",
+    "Rwanda",
+    "Zambia",
+    "Tanzania",
+    "Cameroon"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/367-connect-your-flutterwave-account",
+    "secondary_pointer": null
+  }
+}

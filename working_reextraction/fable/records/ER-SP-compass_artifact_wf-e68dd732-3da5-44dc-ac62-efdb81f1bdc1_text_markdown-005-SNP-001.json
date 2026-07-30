@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Page last updated July 23, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"To receive a payout, you must have a minimum balance of US $10. Certain countries have higher minimum payout balances - Thailand (600 THB) and Korea (40,000 KRW).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Umbral mínimo de payout: balance de US $10, con mínimos mayores en Thailand (600 THB) y Korea (40,000 KRW)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "minimum payout balance",
+  "metric_value_raw": "US $10 (Thailand: 600 THB; Korea: 40,000 KRW)",
+  "metric_unit": "USD / THB / KRW (mixtas declaradas)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Thailand",
+    "Korea"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Certain countries have higher minimum payout balances"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: 'minimum payout balance' según la etiqueta observada ('minimum payout balances').",
+    "Unidades mixtas por país declaradas; se preservan.",
+    "El texto no nombra a Gumroad; platforms queda vacío (help center de Gumroad según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}

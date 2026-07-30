@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-014-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-014",
+  "source_type": "policy_page",
+  "source_title": "Advertising",
+  "source_ref": "https://www.etsy.com/legal/advertising",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Your daily maximum budget can be set at or above a predetermined minimum determined by Etsy and you will not be charged more than your maximum budget on a daily basis. All bids are made in United States dollars (USD). You may pause an ad campaign at any time, but you will still be responsible for any charges incurred prior to pausing your campaign. Etsy is not able to grant refunds for any charges related to clicked ads.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Etsy Ads budget floor, USD-only bids, pause liability, and no refunds for clicked-ad charges",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "at or above a predetermined minimum determined by Etsy",
+    "you will still be responsible for any charges incurred prior to pausing your campaign",
+    "Etsy is not able to grant refunds for any charges related to clicked ads"
+  ],
+  "uncertainties": [],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/advertising",
+    "secondary_pointer": null
+  }
+}

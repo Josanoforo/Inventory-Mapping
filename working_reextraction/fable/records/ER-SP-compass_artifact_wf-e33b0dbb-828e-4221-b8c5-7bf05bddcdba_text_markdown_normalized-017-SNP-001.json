@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-017",
+  "source_type": "help_center",
+  "source_title": "Connect Your Xendit Account",
+  "source_ref": "https://help.payhip.com/article/366-connect-your-xendit-account",
+  "source_date_if_available": "Last updated December 17, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Xendit's standard fee for online credit card transactions is 3% + $0.30 per transaction. Note that these fees are collected by Xendit and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Fee estándar de Xendit para tarjetas de crédito online: 3% + $0.30 por transacción; fees recaudadas por Xendit, no por Payhip",
+  "actor_level": "platform",
+  "platforms": [
+    "Xendit",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "3% + $0.30 per transaction",
+  "metric_unit": "percent + USD por transacción",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Note that these fees are collected by Xendit and do not go to Payhip"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Fees de terceros (Xendit) relayadas por el help center; capas declaradas."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/366-connect-your-xendit-account",
+    "secondary_pointer": null
+  }
+}

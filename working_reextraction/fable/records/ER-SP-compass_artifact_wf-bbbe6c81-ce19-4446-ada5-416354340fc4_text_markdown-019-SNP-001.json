@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased a program on Facebook. They claimed that I could make money rating videos on YouTube. I paid them $37 . They ended up billing me for $46 , $97, and $67 dollars for some sort of gardening c...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Programa comprado por anuncio en Facebook que prometía ganar dinero calificando videos de YouTube: pago inicial de $37 seguido de cargos de $46, $97 y $67 por un producto de jardinería (texto truncado)",
+  "actor_level": "buyer",
+  "platforms": [
+    "Facebook",
+    "YouTube"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$37",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "They claimed that I could make money rating videos on YouTube"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Métrica principal: pago inicial $37. Métricas adicionales: cargos posteriores $46, $97 y $67.",
+    "Snippet truncado ('...gardening c...'); contenido final no capturado.",
+    "El snippet no nombra a Hotmart; platforms no lo incluye (reseña de hotmart.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+    "secondary_pointer": null
+  }
+}

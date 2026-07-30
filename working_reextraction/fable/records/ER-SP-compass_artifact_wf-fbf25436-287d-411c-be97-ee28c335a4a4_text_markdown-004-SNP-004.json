@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased 2 albums. One is apparently being censored by them even though they allow it to be listed. When I checked out with Paypal it told me on the final checkout screen that there was an issue...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Compra de 2 álbumes: uno censurado por la plataforma pese a permitir su listado; problema en el checkout final con Paypal (texto truncado)",
+  "actor_level": "buyer",
+  "platforms": [
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "apparently being censored by them even though they allow it to be listed"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncado ('...an issue...'). El texto no nombra a Gumroad ('them'); platforms incluye solo el rail nombrado (Paypal, normalizado).",
+    "'albums' (música digital) sin mapeo en el enum de product_type; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

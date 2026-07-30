@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "source_type": "blog",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "March 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As of March 2026, Gumroad holds a noticeable lead with a search score of 50, while Lemon Squeezy trails with a score of 2 and Polar at less than 1. That said, interest in both Polar and Lemon Squeezy has been gradually climbing, especially after Gumroad's fee increases and the rise of new platforms targeting developers and indie makers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Search scores a marzo 2026 según Velox Themes: Gumroad 50, Lemon Squeezy 2, Polar menos de 1, con interés en Polar y Lemon Squeezy subiendo tras los aumentos de fees de Gumroad",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy",
+    "Polar"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search score",
+  "metric_value_raw": "Gumroad: 50; Lemon Squeezy: 2; Polar: less than 1",
+  "metric_unit": "search score",
+  "time_scope_raw": "As of March 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "a noticeable lead",
+    "gradually climbing",
+    "especially after Gumroad's fee increases"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'search score' según la etiqueta observada; la herramienta de origen del score no se declara en el snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

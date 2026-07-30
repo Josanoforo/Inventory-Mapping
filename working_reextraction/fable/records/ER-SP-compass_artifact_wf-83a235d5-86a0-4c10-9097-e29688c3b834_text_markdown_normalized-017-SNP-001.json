@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-017",
+  "source_type": "policy_page",
+  "source_title": "Pattern",
+  "source_ref": "https://www.etsy.com/legal/pattern",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You're welcome to try Pattern for free for 30 days. Your free trial will begin when you select 'Start Free Trial' from the Pattern dashboard. After 30 days, you can continue to use Pattern at the monthly subscription fee of $15.00 USD.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Pattern 30-day free trial followed by $15.00 USD monthly subscription",
+  "actor_level": "platform",
+  "platforms": [
+    "Pattern"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$15.00 USD",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "You're welcome to try Pattern for free for 30 days",
+    "Your free trial will begin when you select 'Start Free Trial'"
+  ],
+  "uncertainties": [],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/pattern",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Best Patreon Alternatives",
+  "source_ref": "https://buddyboss.com/blog/best-patreon-alternatives",
+  "source_date_if_available": "Accessed April 2026; references August 2025 pricing change",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon now charges a flat 10% platform fee (people joining after August 4, 2025) plus 2.9% + $0.30 payment processing on every transaction. That's 13% total. The math: At $5,000/month revenue, you're paying $650 monthly in fees, $7,800 annually. Scale to $10,000/month and you're losing $15,600 per year.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Fees de Patreon según BuddyBoss: 10% flat de platform fee (para quienes se unen después del 4 de agosto de 2025) más 2.9% + $0.30 de procesamiento por transacción, declarado como 13% total, con ejemplos calculados a $5,000 y $10,000 mensuales",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "flat 10% platform fee (people joining after August 4, 2025) plus 2.9% + $0.30 payment processing; That's 13% total",
+  "metric_unit": "percent + USD por transacción",
+  "time_scope_raw": "now; people joining after August 4, 2025",
+  "time_scope_normalized_if_safe": "2025-08-04",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "The math"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Métricas adicionales (cálculos derivados del autor): a $5,000/mes → $650 mensuales en fees, $7,800 anuales; a $10,000/mes → $15,600 por año.",
+    "La suma declarada '13% total' no coincide exactamente con 10% + 2.9% + $0.30; se preserva sin reconciliar.",
+    "Normalización anclada al inicio de vigencia explícito ('after August 4, 2025').",
+    "Artículo 'Best Patreon Alternatives' de BuddyBoss (proveedor competidor de membresías); interés de autor posible."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://buddyboss.com/blog/best-patreon-alternatives",
+    "secondary_pointer": null
+  }
+}

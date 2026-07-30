@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_type": "policy_page",
+  "source_title": "Payments Policy",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "November 28, 2025 (policy version date)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If the User contracts with Hotmart B.V., Hotmart will act as a commercial agent on behalf of the Creators, except for individual Creators residing in Mexico, in which case Hotmart will act as a reseller.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Hotmart B.V. role as commercial agent for creators, except reseller role for individual creators residing in Mexico",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexico",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If the User contracts with Hotmart B.V.",
+    "except for individual Creators residing in Mexico"
+  ],
+  "uncertainties": [],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+    "secondary_pointer": null
+  }
+}

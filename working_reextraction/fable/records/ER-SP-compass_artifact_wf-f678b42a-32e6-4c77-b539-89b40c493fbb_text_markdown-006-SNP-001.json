@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Como Funciona La Transferencia Automatica De Mis Comisiones Disponibles Para Retiro",
+  "source_ref": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+  "source_date_if_available": "Vigente desde febrero 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"A partir de febrero de 2024, todas las comisiones de ventas disponibles para retiro en cualquier moneda, excepto BRL (real), se transfieren automáticamente y sin tarifa de retiro, una vez al mes, a la cuenta bancaria registrada por ti en nuestra plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Transferencia automática mensual, sin tarifa de retiro, de las comisiones disponibles en cualquier moneda excepto BRL a la cuenta bancaria registrada, vigente desde febrero de 2024",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "sin tarifa de retiro",
+  "metric_unit": null,
+  "time_scope_raw": "A partir de febrero de 2024; una vez al mes",
+  "time_scope_normalized_if_safe": "2024-02",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "excepto BRL (real)",
+    "una vez al mes"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Versión en español del mismo artículo del help center capturado en inglés en otro artifact (registro c82ebd53-...-002-SNP-001); se registra en ambos sin reconciliar.",
+    "El texto no nombra a Hotmart ('nuestra plataforma'); platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+    "secondary_pointer": null
+  }
+}

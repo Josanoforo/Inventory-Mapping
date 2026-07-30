@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-009",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The site takes 83,66% of creators' income. This does not support creators, but only the website. Avoid if your goal is to sell products. Out of €20, I only received €3, and the worst part is tha...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "reviewer-computed platform take of 83,66% of creator income, with €3 received out of €20 (Trustpilot review of Gumroad)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "83,66% of creators' income",
+  "metric_unit": "percent (effective, reviewer's derivation)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Out of €20, I only received €3"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Both the stated percentage and the €20/€3 example preserved as-is without reconciliation.",
+    "Snippet truncated ('tha...'); context_insufficient. Platform not named in snippet text ('The site'); platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

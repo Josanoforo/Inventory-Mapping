@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_type": "report",
+  "source_title": "Cgma Missed Payments For Instructors Future Of The Art Academy Is Foggy",
+  "source_ref": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy",
+  "source_date_if_available": "Late September/Early October 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It is extremely unfortunate that my decade long collaboration with the school ends like this. Aside from the money they owe to all of us instructors, they have both let down teachers, students and staff. I would like to point out that the old CGMA staff were always kind and helpful to me, so this is for sure a consequence of Domestika's purchasing the school. This might also mean the end for my online teaching activity at online academies for now. From this moment, I will only be doing private mentorships through my Patreon.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor-reported end of decade-long CGMA collaboration, money owed to instructors, and move to private mentorships via Patreon",
+  "actor_level": "seller",
+  "platforms": [
+    "CGMA",
+    "Domestika",
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "my decade long collaboration ... From this moment",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "this is for sure a consequence of Domestika's purchasing the school (speaker's attribution)",
+    "for now"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Direct first-person instructor quote reproduced in ComicsBeat article; the causal attribution to the Domestika purchase is the speaker's, preserved as stated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy",
+    "secondary_pointer": null
+  }
+}

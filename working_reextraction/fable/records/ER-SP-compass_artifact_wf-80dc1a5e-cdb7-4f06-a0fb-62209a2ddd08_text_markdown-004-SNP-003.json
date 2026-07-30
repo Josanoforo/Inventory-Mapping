@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "March 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As my store grew and I started running more campaigns, I realized I needed something more from a Merchant of Record. I was looking for one specific feature that neither Lemon Squeezy nor Gumroad could fully deliver. I wanted to know exactly where each sale came from, down to the campaign or ad that drove it. That's when I discovered Polar.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported need for per-campaign sale attribution unmet by Lemon Squeezy and Gumroad, leading to discovery of Polar",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad",
+    "Polar"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I wanted to know exactly where each sale came from, down to the campaign or ad that drove it",
+    "neither Lemon Squeezy nor Gumroad could fully deliver"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

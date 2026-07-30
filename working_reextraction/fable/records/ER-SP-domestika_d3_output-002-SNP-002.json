@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-002-SNP-002",
+  "source_packet_id": "SP-domestika_d3_output-002",
+  "source_id": "SRC-domestika_d3_output-002",
+  "source_type": "product_listing",
+  "source_title": "Sketching Diario Como Inspiracion Creativa",
+  "source_ref": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"98% valoraciones positivas (4.1K) · 174.666 estudiantes · 15 lecciones (2h 25m) · 15 recursos adicionales (5 archivos) · Online y a tu ritmo · Disponible en la app · Audio: Inglés, Español (Latam), Francés, Italiano, Portugués, Türkçe · Español · Inglés · Portugués · Alemán · Francés · Italiano · Polaco · Neerlandés · Türkçe · Romanian · Indonesian · Nivel: Iniciación · Acceso ilimitado para siempre\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Ficha del curso 'Sketching diario como inspiración creativa': 98% valoraciones positivas (4.1K), 174.666 estudiantes, 15 lecciones (2h 25m), 15 recursos adicionales, online a tu ritmo, disponible en la app, audio en 6 idiomas y subtítulos en 11, nivel iniciación, acceso ilimitado para siempre",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "estudiantes",
+  "metric_value_raw": "174.666",
+  "metric_unit": "estudiantes",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Acceso ilimitado para siempre",
+    "Online y a tu ritmo"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'estudiantes' según la etiqueta observada. Métricas adicionales: 98% valoraciones positivas (4.1K); 15 lecciones (2h 25m); 15 recursos (5 archivos).",
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; el texto no nombra a Domestika; platforms queda vacío.",
+    "Conteos de página viva sin fecha del dato; vigencia no anclable."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses/2227-sketching-diario-como-inspiracion-creativa",
+    "secondary_pointer": null
+  }
+}

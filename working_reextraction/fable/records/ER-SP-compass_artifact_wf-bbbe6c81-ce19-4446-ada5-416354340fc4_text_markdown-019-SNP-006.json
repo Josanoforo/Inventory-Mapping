@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I ordered something for under $3.00 and by the next day I began receiving charges from $9.99 to $89.99. I was able to get a partial refund because I showed PayPal how many times I tried to contact th...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Pedido de menos de $3.00 seguido al día siguiente de cargos de $9.99 a $89.99; reembolso parcial obtenido mostrando a PayPal los intentos de contacto (texto truncado)",
+  "actor_level": "buyer",
+  "platforms": [
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "under $3.00",
+  "metric_unit": "USD",
+  "time_scope_raw": "by the next day",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "I was able to get a partial refund"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Métrica principal: pedido inicial 'under $3.00'. Métricas adicionales: cargos posteriores de $9.99 a $89.99.",
+    "Snippet truncado ('...contact th...'). El snippet no nombra a Hotmart; platforms no lo incluye."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+    "secondary_pointer": null
+  }
+}

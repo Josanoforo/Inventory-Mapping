@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_type": "product_listing",
+  "source_title": "payhip.com",
+  "source_ref": "https://payhip.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Resources: Marketing ideas tool, How to write an ebook, How to sell presets, How to sell printables, How to sell ebooks, How to sell canva templates, Online Course Ideas, Content Creator, Digital Products, Resource Hub\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Sección 'Resources' de la portada de payhip.com — enlaces listados: Marketing ideas tool, guías de venta (ebooks, presets, printables, canva templates), Online Course Ideas, Content Creator, Digital Products, Resource Hub",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Canva"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Listado de enlaces de navegación sin afirmación local; los tipos de producto en los títulos (ebooks, presets, printables, canva templates) son temas de guías, no el producto de una afirmación.",
+    "'canva templates' nombra la herramienta Canva en el texto; se incluye en platforms conforme al precedente de herramientas nombradas en títulos.",
+    "El texto capturado no nombra a Payhip; no se incluye en platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/",
+    "secondary_pointer": null
+  }
+}

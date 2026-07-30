@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+  "source_type": "blog",
+  "source_title": "Introducing Patreon Video",
+  "source_ref": "https://news.patreon.com/articles/introducing-patreon-video",
+  "source_date_if_available": "November 3, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Unlike other platforms where your work is obfuscated by ads or deprioritized by the algorithm, Patreon gives you a direct connection to your audience. The work you make goes straight to the people who care about it most.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Anuncio de Patreon Video: conexión directa con la audiencia, a diferencia de otras plataformas donde el trabajo queda ofuscado por ads o despriorizado por el algoritmo",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Unlike other platforms"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Comparación autopromocional en el anuncio de producto del blog corporativo."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/introducing-patreon-video",
+    "secondary_pointer": null
+  }
+}

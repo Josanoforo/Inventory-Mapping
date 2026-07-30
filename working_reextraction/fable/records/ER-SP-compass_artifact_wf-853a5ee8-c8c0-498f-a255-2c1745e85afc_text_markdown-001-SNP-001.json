@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Envato Elements Vs Creative Market",
+  "source_ref": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+  "source_date_if_available": "4 June 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The biggest downside to buying items on Creative Market is its licensing model. The default prices you see on the marketplace items are for the Personal license, which does not allow you to use items in commercial projects. For that, you need to buy the Commercial license, which often costs twice the amount of the Personal license. Even this Commercial license has limitations as it only allows the asset to appear in up to 5,000 end products or 500k views. In comparison, Envato Elements gives you the freedom to download any item under its monthly subscription and use it freely in your commercial and client projects.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "licensing comparison: Creative Market Personal/Commercial license limits (2x price, 5,000 end products or 500k views) vs Envato Elements subscription freedom",
+  "actor_level": "source",
+  "platforms": [
+    "Creative Market",
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "often costs twice the amount of the Personal license",
+    "only allows the asset to appear in up to 5,000 end products or 500k views"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "License-limit figures preserved as qualifiers; no single principal metric promoted."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://designshack.net/articles/reviews/envato-elements-vs-creative-market",
+    "secondary_pointer": null
+  }
+}

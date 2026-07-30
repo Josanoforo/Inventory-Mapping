@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002",
+  "source_type": "report",
+  "source_title": "Envato Unpacked",
+  "source_ref": "https://elements.envato.com/learn/envato-unpacked",
+  "source_date_if_available": "2025 (end-of-year report; no specific publication date visible).",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This year, our community generated over 81 million AI creations, downloaded 3 million new assets, and collectively demonstrated that new technology doesn't homogenize creativity; it makes it more specific, more surprising, and more distinctly human.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "platform-stated community output: over 81 million AI creations and 3 million new assets downloaded this year (Envato Unpacked)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "AI creations",
+  "metric_value_raw": "over 81 million",
+  "metric_unit": "AI creations",
+  "time_scope_raw": "This year",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "collectively demonstrated that new technology doesn't homogenize creativity (platform's rhetorical claim)"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a count of AI creations; no enum value covers it.",
+    "Additional metric in snippet: 3 million new assets downloaded.",
+    "'Envato' not named in snippet text ('our community'); platforms left empty per criteria. Year anchored to the 2025 end-of-year report."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/learn/envato-unpacked",
+    "secondary_pointer": null
+  }
+}

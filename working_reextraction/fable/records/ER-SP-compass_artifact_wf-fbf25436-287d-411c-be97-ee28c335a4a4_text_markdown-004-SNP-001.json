@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"everybody says its a scam blah blah blah, i bought my piano sheet + MIDI with no problems or anything, its about the buyer who ripps you off not the site, dont start bombing it with 1 star reviews jus...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Reseña positiva en Trustpilot: compra de piano sheet + MIDI sin problemas; el reseñista sostiene que las estafas son de vendedores que engañan, no del sitio, y pide no bombardear con reseñas de 1 estrella (texto truncado)",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "everybody says its a scam blah blah blah",
+    "its about the buyer who ripps you off not the site"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncado ('...jus...'). El texto no nombra a Gumroad ('the site'); platforms queda vacío (reseñas de gumroad.com según source_ref).",
+    "'piano sheet + MIDI' (partitura digital y archivo MIDI) sin mapeo en el enum de product_type; se registra unknown.",
+    "Erratas del texto fuente preservadas ('ripps')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-012",
+  "source_type": "blog",
+  "source_title": "Gumroad Alternatives",
+  "source_ref": "https://thrivecart.com/blog/gumroad-alternatives",
+  "source_date_if_available": "2026 (title references \"2026\")",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad's flat 10% transaction fee (plus processing fees) effectively penalizes growth. For a creator generating $50,000 annually, Gumroad claims over $5,000 in platform fees alone. In contrast, platforms like ThriveCart, which offer one-time payments, cap these costs, drastically increasing net revenue retention.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Argumento de ThriveCart: la fee flat de 10% de Gumroad (más processing) penaliza el crecimiento — un creador con $50,000 anuales paga más de $5,000 solo en platform fees — mientras plataformas de pago único como ThriveCart topean esos costos",
+  "actor_level": "third_party",
+  "platforms": [
+    "Gumroad",
+    "ThriveCart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "over $5,000 in platform fees (creator generating $50,000 annually, flat 10%)",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "effectively penalizes growth",
+    "drastically increasing net revenue retention"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Blog de ThriveCart (competidor) promoviendo su modelo de pago único; cálculo derivado del autor sobre escenario de $50,000 anuales."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://thrivecart.com/blog/gumroad-alternatives",
+    "secondary_pointer": null
+  }
+}

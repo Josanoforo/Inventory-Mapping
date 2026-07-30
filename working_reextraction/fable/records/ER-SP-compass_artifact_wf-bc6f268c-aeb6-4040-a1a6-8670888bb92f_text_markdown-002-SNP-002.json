@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-002",
+  "source_type": "search_results_page",
+  "source_title": "All",
+  "source_ref": "https://audiojungle.net/category/all",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Popular searches · corporate · epic · happy · piano · ambient · inspiring · cinematic · stockwaves · upbeat · rock · hip hop · motivational · fashion · trailer · technology · sport\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Búsquedas populares mostradas en audiojungle.net: corporate, epic, happy, piano, ambient, inspiring, cinematic, stockwaves, upbeat, rock, hip hop, motivational, fashion, trailer, technology, sport",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Lista de términos de búsqueda populares sin afirmación local; los términos son tags/temas, no plataformas.",
+    "El texto no nombra a AudioJungle; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://audiojungle.net/category/all",
+    "secondary_pointer": null
+  }
+}

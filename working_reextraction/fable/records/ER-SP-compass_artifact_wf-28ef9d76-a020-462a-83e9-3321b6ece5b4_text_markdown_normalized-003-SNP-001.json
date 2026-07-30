@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003",
+  "source_type": "blog",
+  "source_title": "Payhip Vs Podia",
+  "source_ref": "https://fetchprofits.com/payhip-vs-podia",
+  "source_date_if_available": "Sep 19, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Podia pricing is still one of the more affordable options out there (compared to others). Further, Podia doesn't charge transactions on sales (Payhip does charge for transactions, unless you are on their Payhip Pro plan).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "transaction fee comparison: Podia charges no transaction fees on sales, Payhip does unless on Payhip Pro plan",
+  "actor_level": "source",
+  "platforms": [
+    "Podia",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "still one of the more affordable options out there (compared to others)",
+    "unless you are on their Payhip Pro plan"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Qualitative fee claim; no numeric rate stated, metric_value_raw left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://fetchprofits.com/payhip-vs-podia",
+    "secondary_pointer": null
+  }
+}

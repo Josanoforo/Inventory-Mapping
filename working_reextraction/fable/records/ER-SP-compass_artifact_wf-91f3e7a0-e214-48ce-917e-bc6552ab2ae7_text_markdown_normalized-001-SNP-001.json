@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-001",
+  "source_type": "platform_doc",
+  "source_title": "Gumroad Product Listing Writer",
+  "source_ref": "https://agentcrew.co/workflow/gumroad-product-listing-writer",
+  "source_date_if_available": "April 2026 (observed in shard)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Generates SEO-optimized product names, compelling product descriptions, user-friendly product slugs, and even crafts launch and thank-you emails.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "AI listing-writer tool advertised for Gumroad product listings (names, descriptions, slugs, launch and thank-you emails)",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "SEO-optimized",
+    "compelling (promo wording)"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Third-party tool provider promoting its own workflow product; 'Gumroad' appears only in source title/URL, not in snippet text, platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://agentcrew.co/workflow/gumroad-product-listing-writer",
+    "secondary_pointer": null
+  }
+}

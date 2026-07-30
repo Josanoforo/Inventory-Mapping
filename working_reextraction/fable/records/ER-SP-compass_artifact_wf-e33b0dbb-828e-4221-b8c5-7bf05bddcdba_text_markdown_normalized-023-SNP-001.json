@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-023",
+  "source_type": "help_center",
+  "source_title": "Missing Payment Or Payout",
+  "source_ref": "https://help.payhip.com/article/374-missing-payment-or-payout",
+  "source_date_if_available": "Last updated March 17, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"When a sale is made on Payhip, the payment is processed and sent directly to your connected payment processor at the time of purchase.\"\n\n> \"Payment processors will occasionally hold a transaction and mark it as pending, on hold, or processing, which means the funds won't be available until the payment works its way through. You can check the status in your payment processor account. If it's been pending for more than 48 hours, you'll need to reach out to them directly to get further clarification.\"\n\n> \"Sometimes you may expect the full sale amount to be credited to your account, but keep in mind that platform and payment processor fees may apply. Because of this, the net amount you receive may be lower than expected.\"\n\n> \"Payments are always routed to whichever account was connected at the exact moment a purchase was made.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Pagos faltantes: el pago va directo al procesador conectado al momento de la compra; los procesadores pueden retener transacciones como pending/on hold (contactarlos si excede 48 horas); el neto puede ser menor por fees de plataforma y procesador; los pagos se enrutan a la cuenta conectada en el momento exacto de la compra",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "occasionally",
+    "If it's been pending for more than 48 hours",
+    "the net amount you receive may be lower than expected",
+    "at the exact moment a purchase was made"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Capas declaradas: retenciones del procesador vs fees de plataforma/procesador que reducen el neto.",
+    "'Payhip' nombrado en el texto ('When a sale is made on Payhip')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/374-missing-payment-or-payout",
+    "secondary_pointer": null
+  }
+}

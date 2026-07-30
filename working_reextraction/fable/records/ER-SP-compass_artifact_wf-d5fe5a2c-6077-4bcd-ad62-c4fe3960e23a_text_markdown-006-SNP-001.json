@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-006",
+  "source_type": "product_listing",
+  "source_title": "Category",
+  "source_ref": "https://hotmart.com/en/marketplace/category",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Showing: All categories\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Fragmento de layout del marketplace de Hotmart: 'Showing: All categories'",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Chrome de UI sin afirmación local; el texto no nombra a Hotmart; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/marketplace/category",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "How Do I Use A Payoneer Account With Etsy Payments",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+  "source_date_if_available": "No date found. URL returned 403; content verified via search engine index.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy only supports deposits in United States Dollars (USD) to your Payoneer Payment Account. However, you can withdraw earnings from your Payoneer Payment Account to your local bank account in over 150 countries and currencies with Payoneer's bank transfer withdrawal service. Payoneer may charge a fee for this service.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Etsy Payments deposits to Payoneer Payment Account restricted to USD, with Payoneer bank transfer withdrawal to local accounts",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "only supports deposits in United States Dollars (USD)",
+    "Payoneer may charge a fee for this service"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Payout-side claim (deposits/withdrawals of seller earnings), not checkout; subject kept on the payout rail per contract Rule 1.",
+    "Principal claim (USD-only deposits) has no numeric value; secondary metric in snippet: withdrawal available 'in over 150 countries and currencies'.",
+    "'over 150 countries' is a count, not named countries; geography left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/16999319005207-How-Do-I-Use-a-Payoneer-Account-With-Etsy-Payments",
+    "secondary_pointer": null
+  }
+}

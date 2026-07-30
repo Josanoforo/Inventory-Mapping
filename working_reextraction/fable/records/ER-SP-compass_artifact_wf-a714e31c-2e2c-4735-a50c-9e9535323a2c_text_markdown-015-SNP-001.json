@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Mejor Plataforma Crear Cursos Online",
+  "source_ref": "https://www.classonlive.com/blog/mejor-plataforma-crear-cursos-online",
+  "source_date_if_available": "Accessed April 2026; originally published November 5, 2019; updated 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La principal diferencia de Hotmart respecto a otros marketplaces como Udemy, es que Hotmart cuenta con una estructura un poco más compleja y tiene 'el afiliado' para revender tus productos que Udemy, por ejemplo, no tiene.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Diferencia estructural declarada entre Hotmart y Udemy: Hotmart cuenta con la figura de 'el afiliado' para revender productos, que Udemy no tiene",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Udemy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "una estructura un poco más compleja",
+    "por ejemplo"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Página publicada originalmente el 2019-11-05 y actualizada en 2026; no es determinable a qué vintage corresponde la afirmación.",
+    "Blog de classonlive.com (plataforma de cursos competidora) comparando plataformas de terceros; interés de autor posible."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classonlive.com/blog/mejor-plataforma-crear-cursos-online",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-012",
+  "source_type": "blog",
+  "source_title": "I Have Been Selling Products On Gumroad For 1000 Days 07D855Cd2222",
+  "source_ref": "https://xeladu.medium.com/i-have-been-selling-products-on-gumroad-for-1000-days-07d855cd2222",
+  "source_date_if_available": "March 27, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"So far, I have made 734 sales from 28 products with a net profit of $515.10 (yes, all fees are already deducted here).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported 734 sales from 28 products with $515.10 net profit over 1000 days (Gumroad, per source title)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "profit",
+  "metric_value_raw": "$515.10",
+  "metric_unit": "USD (net, fees deducted)",
+  "time_scope_raw": "So far",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "yes, all fees are already deducted here"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional metrics in snippet: 734 sales; 28 products. Net basis explicitly declared by the source.",
+    "'Gumroad' appears only in source title/URL, not in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://xeladu.medium.com/i-have-been-selling-products-on-gumroad-for-1000-days-07d855cd2222",
+    "secondary_pointer": null
+  }
+}

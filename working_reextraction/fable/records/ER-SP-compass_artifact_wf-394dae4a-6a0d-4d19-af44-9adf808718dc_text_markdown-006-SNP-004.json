@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-006",
+  "source_type": "policy_page",
+  "source_title": "Payments Policy",
+  "source_ref": "https://hotmart.com/en/legal/payments-policy",
+  "source_date_if_available": "November 28, 2025 (policy version date)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For Users who declare their domicile in Brazil, who make sales outside Brazilian territory and who generate a balance in Dollars, Hotmart together with its Third Party Partner (Payment Services Provider) will carry out automatic daily transfers of this available balance in Dollars to the Payment Account and issue electronic currency held by the User at SCD in Reais\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "automatic daily transfer of USD balances to Payment Account with electronic currency in Reais at SCD, for Brazil-domiciled users selling abroad",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazil",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "For Users who declare their domicile in Brazil, who make sales outside Brazilian territory and who generate a balance in Dollars",
+    "together with its Third Party Partner (Payment Services Provider)",
+    "automatic daily transfers"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Payout-side mechanism; currency conversion layer (USD balance to electronic currency in Reais) preserved without simplification."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/payments-policy",
+    "secondary_pointer": null
+  }
+}

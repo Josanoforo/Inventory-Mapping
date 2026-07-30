@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Gumroads Fees",
+  "source_ref": "https://help.gumroad.com/article/66-gumroads-fees",
+  "source_date_if_available": "Page last updated July 18, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In the case of refunds, we return the Gumroad fee minus the fee charged by our payments processor (which is not returned to us).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Reembolsos: se devuelve el Gumroad fee menos la fee del procesador de pagos (que no le es devuelta a la plataforma)",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "(which is not returned to us)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Capas declaradas: fee de plataforma devuelta vs fee del procesador no devuelta."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/66-gumroads-fees",
+    "secondary_pointer": null
+  }
+}

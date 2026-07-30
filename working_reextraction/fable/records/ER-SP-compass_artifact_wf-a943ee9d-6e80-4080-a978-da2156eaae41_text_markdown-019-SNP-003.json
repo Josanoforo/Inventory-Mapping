@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+  "source_date_if_available": "April 4, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Had a horrible experience with etsy. Ordered a gold chain. Received delivery date and then few hours later told that order was cancelled. No reason given- asked to contact the seller. Sorry but do not have time for that !! Thankfully have been refunded. Avoid this company as their average review score is 1.5!!. Should have checked before I ordered\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Pedido de una cadena de oro en etsy cancelado horas después de recibir fecha de entrega, sin razón dada y con indicación de contactar al seller; comprador reembolsado",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "No reason given",
+    "Thankfully have been refunded"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Métrica adicional citada por el reseñista: 'their average review score is 1.5' (puntaje promedio de reseñas de la plataforma).",
+    "'etsy' aparece en minúscula en el original; se normaliza a 'Etsy' en platforms.",
+    "'gold chain' (producto físico) sin mapeo en el enum de product_type; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+    "secondary_pointer": null
+  }
+}

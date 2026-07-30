@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In 2019, when Diego was responding to students, he earned $8-$10 for every course enrollment. He stopped 3-4 years later, when he was getting 5-50 cents for most students. By June 2025, his monthly payouts weren't much, but he still got something out of his course before the payment halt.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor per-enrollment earnings decline on his course (Diego's account, Class Central report)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "$8-$10",
+  "metric_unit": "USD per course enrollment",
+  "time_scope_raw": "In 2019",
+  "time_scope_normalized_if_safe": "2019",
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "when Diego was responding to students",
+    "for most students"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Per-enrollment amount paid to the instructor mapped to 'payout'. Principal value is the 2019 figure.",
+    "Additional metrics in snippet: decline to 5-50 cents per student 3-4 years later; payment halt referenced by June 2025.",
+    "Third-person journalistic narration of one instructor's account; actor_level 'source', evidence_role 'reported_event'.",
+    "'Domestika' not named in this snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=4",
+  "source_date_if_available": "7 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Cerraron mi cuenta supuestamente por plagio, cuando yo cree mi ebook completamente con inteligencia artificial. Se quedaron con $2,000 que habian en mi cuenta, que gane con mucho esfuerzo y ahora no me permiten ingresar y sacar los fondos. Tengo campañas de Facebook por pagar y no tengo respuesta de ellos\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported account closure for alleged plagiarism of an AI-created ebook, with $2,000 balance retained (Trustpilot review of Hotmart)",
+  "actor_level": "seller",
+  "platforms": [
+    "Facebook"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "payout",
+  "metric_value_raw": "$2,000",
+  "metric_unit": "USD (retained balance)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "supuestamente por plagio",
+    "cuando yo cree mi ebook completamente con inteligencia artificial",
+    "Tengo campañas de Facebook por pagar"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Closure reason ('plagio') is as relayed and disputed by the seller; the AI-creation statement is the seller's own.",
+    "Platform not named in snippet text ('Cerraron mi cuenta'); only Facebook named (ad campaigns)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=4",
+    "secondary_pointer": null
+  }
+}

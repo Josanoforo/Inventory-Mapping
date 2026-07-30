@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_date_if_available": "2025-04-06",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Development time: Lemon Squeezy implementations were 70% faster · Operational overhead: Stripe required about 5 hours/month for maintenance vs. 1 hour for Lemon Squeezy · Customer support issues: 40% fewer payment-related support tickets with Lemon Squeezy\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Métricas de la propia experiencia del autor comparando Lemon Squeezy y Stripe: implementaciones 70% más rápidas con Lemon Squeezy; mantenimiento ~5 horas/mes con Stripe vs 1 hora con Lemon Squeezy; 40% menos tickets de soporte de pagos con Lemon Squeezy",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "about 5 hours/month"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Cifras de operación propia del autor (dev shop que vende con estos procesadores) sin metodología declarada: 70% más rápido; 5h vs 1h mensuales; 40% menos tickets. Sin etiqueta del enum de metric_type que las cubra; preservadas aquí y en snippet_primary."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "secondary_pointer": null
+  }
+}

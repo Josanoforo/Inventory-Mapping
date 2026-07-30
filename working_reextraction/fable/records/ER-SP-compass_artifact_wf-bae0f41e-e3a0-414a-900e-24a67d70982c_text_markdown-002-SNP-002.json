@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002",
+  "source_type": "search_results_page",
+  "source_title": "Discover",
+  "source_ref": "https://gumroad.com/discover",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[From Google search index snippet of discover.gumroad.com/discover: \"Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Opciones de orden del catálogo de gumroad.com/discover: Featured, Newest, Hot and new, Highest rated, Most reviewed, Price (Low to High), Price (High to Low)",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Captura vía snippet del índice de Google según narración del packet ('[From Google search index snippet...]'); se preserva tal cual (issue skeleton_artifact).",
+    "Facetas de UI sin afirmación local; el texto no nombra a Gumroad; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/discover",
+    "secondary_pointer": null
+  }
+}

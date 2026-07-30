@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "source_type": "platform_doc",
+  "source_title": "Gumroad Alternative",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "source_date_if_available": "not dated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad's UI: neo brutalism style, no depth, in-accessible and doesn't look like anything a normal user would encounter. ‍Lemon Squeezy's UI: Simple and minimalist style that feels familiar to other checkout pages. Clean typography. One gets design awards, other gets conversions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Comparación de UI en la página 'Gumroad Alternative': UI de Gumroad calificada de neo-brutalista, sin profundidad e inaccesible; UI de Lemon Squeezy simple y minimalista, familiar a otros checkouts — 'One gets design awards, other gets conversions'",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "doesn't look like anything a normal user would encounter",
+    "One gets design awards, other gets conversions"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Comparación autopromocional denigrando la UI del competidor en página de marketing propia."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative",
+    "secondary_pointer": null
+  }
+}

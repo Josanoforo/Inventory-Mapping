@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "I Left Gumroad For Payhip And Why You Should Too B616A2612B1B",
+  "source_ref": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you sell a course for $100, Gumroad takes $10. If you make $5,000 a month, you are handing them $500. That is a car payment. That is a nice weekend getaway. That is your money. I looked at my dashboard and realized I was paying premium prices for a platform that treated me like a line item, not a partner. So I started looking for alternatives. I found Payhip. And honestly? I am angry I didn't switch sooner.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "derived_calculation",
+  "subject_exact": "seller's fee-impact examples for Gumroad's 10% cut ($10 of a $100 course; $500 of $5,000/month) motivating switch to Payhip",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "If you sell a course for $100, Gumroad takes $10. If you make $5,000 a month, you are handing them $500.",
+  "metric_unit": "USD (derived fee amounts)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "derived_calculation",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Derived examples imply a 10% fee rate without stating it as a rate in this snippet; examples preserved verbatim as value.",
+    "Author's evaluative framing ('treated me like a line item', 'I am angry') preserved verbatim in snippet_primary, not extracted."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@najiahmed/i-left-gumroad-for-payhip-and-why-you-should-too-b616a2612b1b",
+    "secondary_pointer": null
+  }
+}

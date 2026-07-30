@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As you can see above right, \"personalized gift\" dropped to a 15-mo low this February. Then in just a month, it shot up 299%! And this one has both gold badges. For high conversion for the past 30 days, and another for continuing to trend in search this week.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Keyword 'personalized gift': caída a mínimo de 15 meses en febrero y repunte de 299% en un mes, con dos gold badges (alta conversión en 30 días y tendencia en búsqueda de la semana) según eRank",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search volume",
+  "metric_value_raw": "shot up 299% in just a month (from a 15-mo low this February, 'personalized gift')",
+  "metric_unit": "percent",
+  "time_scope_raw": "this February; in just a month; the past 30 days; this week",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "And this one has both gold badges"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'search volume' según el antecedente observado ('search volume' del chart referido).",
+    "Referencias temporales relativas a la fecha del artículo (2026-04-06); no se normalizan."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  }
+}

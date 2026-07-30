@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023",
+  "source_type": "product_listing",
+  "source_title": "Sell Courses",
+  "source_ref": "https://payhip.com/features/sell-courses",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Video lessons have one simple fixed price of $5 per month\" … \"From one-off pricing, subscriptions, payment plans and entirely free. You're 100% in control of pricing.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Página de sell-courses: 'Video lessons have one simple fixed price of $5 per month'; el seller controla el pricing de cursos (one-off, suscripciones, payment plans o gratis)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "$5 per month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "one simple fixed price",
+    "From one-off pricing, subscriptions, payment plans and entirely free",
+    "You're 100% in control of pricing"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El alcance exacto de 'Video lessons have one simple fixed price of $5 per month' (qué cubre el cargo) no se detalla en el snippet; se preserva tal cual.",
+    "El texto del snippet no nombra a Payhip; platforms queda vacío (página de features de payhip.com según source_ref).",
+    "El snippet contiene una elisión '…' del packet entre fragmentos; se preserva tal cual."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/features/sell-courses",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_date_if_available": "2025-04-06",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For most early-stage SaaS founders, Lemon Squeezy provides the path of least resistance with sufficient functionality. As you scale past $50K MRR or need more complex billing models, Stripe's flexibility becomes more valuable despite the additional development complexity.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Recomendación del autor: Lemon Squeezy como camino de menor resistencia para founders SaaS tempranos; Stripe más valioso al escalar más allá de $50K MRR o con modelos de billing complejos",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$50K MRR (umbral referido)",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "For most early-stage SaaS founders",
+    "despite the additional development complexity"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "El umbral '$50K MRR' es referencia del argumento, no dato reportado de un vendedor."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "secondary_pointer": null
+  }
+}

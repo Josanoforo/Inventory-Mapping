@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007",
+  "source_type": "report",
+  "source_title": "Etsy Sales Statistics By Category",
+  "source_ref": "https://linkmybooks.com/blog/etsy-sales-statistics-by-category",
+  "source_date_if_available": "Accessed April 2026; article references 2024 performance and 2025 projections",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Six primary categories collectively account for approximately 87% of Etsy's Gross Merchandise Sales (GMS). This concentration underscores the significance of these segments in driving Etsy's overall sales.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Concentración de ventas en Etsy según Link My Books: seis categorías primarias representan aproximadamente 87% del Gross Merchandise Sales (GMS)",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "GMS",
+  "metric_value_raw": "approximately 87% (six primary categories)",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "approximately",
+    "This concentration underscores the significance"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "methodology_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'GMS' según la etiqueta observada ('Gross Merchandise Sales (GMS)').",
+    "El source_date indica que el artículo referencia desempeño 2024 y proyecciones 2025; el período de la cifra no consta en el snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://linkmybooks.com/blog/etsy-sales-statistics-by-category",
+    "secondary_pointer": null
+  }
+}

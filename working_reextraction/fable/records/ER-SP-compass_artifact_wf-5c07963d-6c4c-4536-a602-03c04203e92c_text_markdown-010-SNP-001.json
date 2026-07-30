@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Celebrating Two Decades Of Keeping Commerce Human",
+  "source_ref": "https://www.etsy.com/news/celebrating-two-decades-of-keeping-commerce-human",
+  "source_date_if_available": "2025-06-25",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The creativity of our 5.6 million sellers provides unending inspiration and fuels our mission to Keep Commerce Human, despite an industry-wide move toward commoditization and soulless goods.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "platform-stated seller count (5.6 million sellers) in 20th-anniversary post",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "sellers",
+  "metric_value_raw": "5.6 million",
+  "metric_unit": "sellers",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "despite an industry-wide move toward commoditization and soulless goods (platform's wording)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a seller count; no enum value covers seller counts.",
+    "'Etsy' not named in snippet text ('our ... sellers'); platforms left empty per criteria; published on Etsy's own news blog."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/news/celebrating-two-decades-of-keeping-commerce-human",
+    "secondary_pointer": null
+  }
+}

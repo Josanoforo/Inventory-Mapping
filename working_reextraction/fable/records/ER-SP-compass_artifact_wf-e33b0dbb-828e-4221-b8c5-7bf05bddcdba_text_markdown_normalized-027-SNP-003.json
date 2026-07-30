@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_type": "platform_doc",
+  "source_title": "Payments",
+  "source_ref": "https://payhip.com/features/payments",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"In most cases, you are able to connect PayPal plus one other payment processor for card and other applicable payment types.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Combinación de procesadores: en la mayoría de los casos puede conectarse PayPal más otro procesador para tarjetas y otros tipos de pago aplicables",
+  "actor_level": "platform",
+  "platforms": [
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "In most cases"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El texto no nombra a Payhip; platforms incluye solo PayPal (página de features de payhip.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/features/payments",
+    "secondary_pointer": null
+  }
+}

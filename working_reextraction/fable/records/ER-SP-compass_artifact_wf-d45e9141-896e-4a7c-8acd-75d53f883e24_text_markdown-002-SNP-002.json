@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Patreon Vs Kofi Musicians 2025",
+  "source_ref": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+  "source_date_if_available": "September 5, 2025 (updated April 2, 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon's strength lies in its established reputation and widespread fan recognition. In recent polls, 50% of followers preferred Patreon over Ko-fi's 30%, indicating stronger brand awareness and trust among potential supporters. Many fans already maintain Patreon accounts for other creators, reducing friction for new subscriptions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Preferencia de seguidores en encuestas recientes citadas: 50% prefirió Patreon frente a 30% de Ko-fi, con muchos fans manteniendo cuentas de Patreon para otros creadores",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon",
+    "Ko-fi"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "In recent polls",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "indicating stronger brand awareness and trust",
+    "Many fans"
+  ],
+  "uncertainties": [
+    "methodology_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "Participaciones de preferencia (Patreon 50% vs Ko-fi 30%) de encuestas no identificadas; sin valor del enum de metric_type que las cubra, cifras preservadas aquí y en snippet_primary.",
+    "'In recent polls' sin fuente ni fecha de las encuestas."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chartlex.com/blogs/news/patreon-vs-kofi-musicians-2025",
+    "secondary_pointer": null
+  }
+}

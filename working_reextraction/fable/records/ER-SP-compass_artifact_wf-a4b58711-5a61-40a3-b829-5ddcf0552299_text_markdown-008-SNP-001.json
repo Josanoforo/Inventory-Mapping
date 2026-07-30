@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-008",
+  "source_type": "help_center",
+  "source_title": "A Standard Platform Fee For New Creators Effective After August 4 2025",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+  "source_date_if_available": "Updated January 28, 2026 15:05 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This policy is effective for creators who publish their creator page after August 4, 2025. If you are a creator who publishes your page on or before August 4, 2025, you will keep your existing platform pricing — this new plan will not apply to you, and you will not see a change in price as a result of this change.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "standard platform fee policy effective for creator pages published after August 4, 2025, with grandfathering of existing pricing",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "after August 4, 2025",
+  "time_scope_normalized_if_safe": "2025-08-04",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you are a creator who publishes your page on or before August 4, 2025, you will keep your existing platform pricing",
+    "you will not see a change in price as a result of this change"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/36426991446797-A-standard-platform-fee-for-new-creators-effective-after-August-4-2025",
+    "secondary_pointer": null
+  }
+}

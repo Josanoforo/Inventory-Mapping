@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-018",
+  "source_type": "blog",
+  "source_title": "Vender Tu Curso En Hotmart O En Una Academia Propia",
+  "source_ref": "https://www.taisa-designer.com/vender-tu-curso-en-hotmart-o-en-una-academia-propia",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"En Hotmart: La comisión para un curso de 199€ es 9,9% + 0,50€, lo que equivale a 20,85€ por cada venta. En tu web propia: Usando Stripe/PayPal, la comisión sería del 2,9% + 0,30€, es decir, 5,08€ por cada venta.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "derived_calculation",
+  "subject_exact": "Comparación calculada de comisión por venta de un curso de 199€: Hotmart 9,9% + 0,50€ (20,85€ declarados) frente a web propia con Stripe/PayPal 2,9% + 0,30€ (5,08€)",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Stripe",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "9,9% + 0,50€, lo que equivale a 20,85€ por cada venta (curso de 199€)",
+  "metric_unit": "percent + EUR por venta",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "derived_calculation",
+  "local_qualifiers": [
+    "para un curso de 199€",
+    "Usando Stripe/PayPal"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Métrica adicional no principal: comisión en web propia con Stripe/PayPal '2,9% + 0,30€, es decir, 5,08€ por cada venta'.",
+    "La equivalencia declarada para Hotmart (20,85€) no coincide aritméticamente con 9,9%×199€+0,50€ = 20,20€; se preserva sin reconciliar.",
+    "'curso' nombrado como tipo de producto pero sin mapeo en el enum; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.taisa-designer.com/vender-tu-curso-en-hotmart-o-en-una-academia-propia",
+    "secondary_pointer": null
+  }
+}

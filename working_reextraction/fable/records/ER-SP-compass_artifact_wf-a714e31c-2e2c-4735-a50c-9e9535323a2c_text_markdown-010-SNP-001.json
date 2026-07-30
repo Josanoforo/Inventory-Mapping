@@ -1,0 +1,48 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Thinkific Vs Hotmart",
+  "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart aplica una comisión por cada venta (típicamente 9,9% + €0,05) y además cobra al retirar tu saldo. Por ejemplo, si retiras entre €50 y €100, pueden quedarse con unos €7,5 adicionales. Traducción: cuanto más vendes, más pagas en comisiones. Thinkific trabaja con tarifa fija. Las pasarelas de pago (Stripe, PayPal, Thinkific Payments) tienen sus propias comisiones por transacción, pero no hay una estructura de comisiones de plataforma que limite tus ingresos al escalar.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Comparación de estructura de comisiones: Hotmart (9,9% + €0,05 por venta más cargo por retiro) frente a Thinkific (tarifa fija sin comisión de plataforma)",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Thinkific",
+    "Stripe",
+    "PayPal",
+    "Thinkific Payments"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "9,9% + €0,05",
+  "metric_unit": "percent + EUR por venta",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "típicamente",
+    "pueden quedarse con unos €7,5 adicionales",
+    "si retiras entre €50 y €100"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Métrica principal: comisión por venta de Hotmart. Métricas adicionales: cargo por retiro 'unos €7,5' para retiros entre €50 y €100; comisiones de transacción de pasarelas (Stripe, PayPal, Thinkific Payments) mencionadas sin cifra.",
+    "El snippet distingue explícitamente comisión por venta y cargo por retiro (checkout vs payout declarados por separado)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+    "secondary_pointer": null
+  }
+}

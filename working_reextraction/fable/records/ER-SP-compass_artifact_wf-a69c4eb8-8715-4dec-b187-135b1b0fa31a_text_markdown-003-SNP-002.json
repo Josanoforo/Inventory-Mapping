@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Substack Vs Patreon",
+  "source_ref": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+  "source_date_if_available": "September 2, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I've been on Patreon for more than six years, on Substack for six months. I trust in Patreon's consistency, I wonder about Substack's algorithm and how they'll change to make more money. Patreon's method of payment (to creators) is way more elegant and transparent than Substack's, which is a mess.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "creator comparison after 6+ years on Patreon and 6 months on Substack: trust in Patreon's consistency and payment transparency vs Substack",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "for more than six years, on Substack for six months",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I trust in Patreon's consistency, I wonder about Substack's algorithm and how they'll change to make more money (author's opinion)",
+    "which is a mess (author's opinion)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+    "secondary_pointer": null
+  }
+}

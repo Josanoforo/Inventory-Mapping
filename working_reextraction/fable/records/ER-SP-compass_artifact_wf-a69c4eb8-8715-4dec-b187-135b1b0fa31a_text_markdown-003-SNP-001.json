@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Substack Vs Patreon",
+  "source_ref": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+  "source_date_if_available": "September 2, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"What's not great about the Patreon platform is that it's a black box. Anyone who signs up for your Patreon has already decided they want to support you. Each creator is solely responsible for driving traffic to Patreon, as there's no easy way for curious potential supporters to discover you.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "creator-stated Patreon discovery gap: 'black box' with creators solely responsible for driving traffic",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "discoverability_claim",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Anyone who signs up for your Patreon has already decided they want to support you",
+    "there's no easy way for curious potential supporters to discover you"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "'black box' is the author's characterization, preserved verbatim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+    "secondary_pointer": null
+  }
+}

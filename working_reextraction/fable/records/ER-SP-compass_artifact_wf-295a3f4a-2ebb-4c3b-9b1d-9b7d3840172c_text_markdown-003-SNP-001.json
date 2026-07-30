@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Hola Mundo Esto Es Kichink 830997Eef2A",
+  "source_ref": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+  "source_date_if_available": "17 de marzo de 2017",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"En tu nueva tienda de Kichink podrás aceptar pagos de forma segura con tarjetas de crédito: Visa, MasterCard y American Express (nacionales e internacionales).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "credit card payment acceptance in Kichink stores (Visa, MasterCard, American Express; national and international)",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink",
+    "Visa",
+    "MasterCard",
+    "American Express"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "(nacionales e internacionales)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Published on Kichink's own Medium account (@Kichink); who-speaks is the platform; informal announcement channel, evidence_role kept as direct_claim rather than official_policy.",
+    "Card networks listed in platforms as they are named as the accepted payment methods of the claim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+    "secondary_pointer": null
+  }
+}

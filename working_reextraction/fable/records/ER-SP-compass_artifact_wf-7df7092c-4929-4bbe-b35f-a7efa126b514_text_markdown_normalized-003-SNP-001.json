@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-003",
+  "source_type": "buyer_review",
+  "source_title": "Clarification On Theme Usage After Subscription Cancellation",
+  "source_ref": "https://forums.envato.com/t/clarification-on-theme-usage-after-subscription-cancellation/496032",
+  "source_date_if_available": "Accessed April 2026; page undated. Thread ID (~496032) suggests approximately 2025; date not confirmable.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hello, I am considering subscribing to the $16.5 monthly plan on Envato Elements to download and use a zensoul theme for a website project. If I cancel my subscription after 3 weeks, will I still be able to legally use...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "prospective subscriber question on post-cancellation theme usage rights under the $16.5 monthly Envato Elements plan",
+  "actor_level": "buyer",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "price",
+  "metric_value_raw": "$16.5 monthly",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "If I cancel my subscription after 3 weeks"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Product is a website theme ('zensoul theme'); themes are installable code, mapped to product_type 'software'.",
+    "Snippet truncated mid-question; context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://forums.envato.com/t/clarification-on-theme-usage-after-subscription-cancellation/496032",
+    "secondary_pointer": null
+  }
+}

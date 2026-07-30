@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-010-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-010",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://elements.envato.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Our creative asset catalogue covers everything you need, including stock photos, video footage and motion graphics, music & stems, sound effects, graphics & illustrations, fonts, design templates & mockups, video templates & transitions, LUTs, 3D models, Lottie animations, presentations, & more.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Cobertura del catálogo declarada en la página de pricing: stock photos, video footage, motion graphics, música y stems, sound effects, gráficos, fonts, templates y mockups, video templates, LUTs, modelos 3D, animaciones Lottie, presentaciones y más",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "covers everything you need",
+    "& more"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Enumeración genérica de categorías del catálogo sin tipo de producto único; product_type unknown.",
+    "El texto no nombra a Envato; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/pricing",
+    "secondary_pointer": null
+  }
+}

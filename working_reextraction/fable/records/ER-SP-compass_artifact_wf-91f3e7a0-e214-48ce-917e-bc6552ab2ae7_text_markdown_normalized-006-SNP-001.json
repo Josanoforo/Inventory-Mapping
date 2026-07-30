@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-006",
+  "source_type": "help_center",
+  "source_title": "help.gumroad.com",
+  "source_ref": "https://help.gumroad.com",
+  "source_date_if_available": "April 2026 (observed in shard)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Detailed tags on your products can both boost sales on Discover and help your customers filter your profile.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "guidance that detailed product tags can boost Discover sales and help customer filtering (Gumroad help)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "can"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'Discover' is a platform feature named in snippet; 'Gumroad' appears only in source_ref, platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com",
+    "secondary_pointer": null
+  }
+}

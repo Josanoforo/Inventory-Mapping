@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "What Payment Methods Are Available And How Can I Enable Them For My Product",
+  "source_ref": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Creators who live in other countries have limited payment methods available to Brazilian Buyers. This is because the commission will be paid in dollars. In addition, payment via bank slip and bank transfer, for example, does not convert on the platform. Therefore, the payment option available on the payment page will be by credit card and PIX.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "payment methods limited to credit card and PIX for Brazilian buyers of creators living outside Brazil (Hotmart help)",
+  "actor_level": "platform",
+  "platforms": [
+    "PIX"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brazilian",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Creators who live in other countries",
+    "This is because the commission will be paid in dollars",
+    "payment via bank slip and bank transfer, for example, does not convert on the platform"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Checkout-side availability restriction; the stated cause (commission paid in dollars) preserved as qualifier.",
+    "'Hotmart' not named in snippet text; 'PIX' named as available payment method and listed in platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/25588460435085/what-payment-methods-are-available-and-how-can-i-enable-them-for-my-product-",
+    "secondary_pointer": null
+  }
+}

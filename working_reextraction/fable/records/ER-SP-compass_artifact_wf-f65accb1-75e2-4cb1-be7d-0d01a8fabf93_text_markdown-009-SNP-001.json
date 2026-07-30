@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_type": "seller_forum",
+  "source_title": "Did Gumroad Just Get Dumped By Paypal",
+  "source_ref": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+  "source_date_if_available": "October 16, 2024 (email timestamp: Wed, 16 Oct 2024 22:11:34 UTC)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We wanted to inform you that PayPal has suspended Gumroad's use of their service. As a result, we can no longer process payouts to PayPal accounts. We've invested heavily in direct bank transfers for nearly every country. We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Email de Gumroad (16 oct 2024) citado en el foro: PayPal suspendió el uso de su servicio por Gumroad, cesando los payouts a cuentas PayPal; la plataforma declara inversión fuerte en transferencias bancarias directas para casi todos los países y pide conectar cuenta bancaria",
+  "actor_level": "platform",
+  "platforms": [
+    "PayPal",
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "we can no longer process payouts to PayPal accounts",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-10-16",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "We've invested heavily in direct bank transfers for nearly every country",
+    "to ensure uninterrupted payouts"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Email de la plataforma citado por un usuario en el foro Polycount; voz de plataforma relayada, canal informal.",
+    "Normalización anclada al timestamp del email declarado en source_date_if_available (2024-10-16)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-020",
+  "source_type": "seller_forum",
+  "source_title": "Published My First Ebook And Made A Couple Of Sales 8988Aaee17",
+  "source_ref": "https://www.indiehackers.com/post/published-my-first-ebook-and-made-a-couple-of-sales-8988aaee17",
+  "source_date_if_available": "July 4, 2020",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Once the eBook was complete, I uploaded a PDF to PayHip (similar to Gumroad, but UK based) and shouted about it on Facebook, Twitter, and LinkedIn.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported first eBook (PDF) upload to PayHip and promotion on social networks",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip",
+    "Gumroad",
+    "Facebook",
+    "Twitter",
+    "LinkedIn"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "UK",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "(similar to Gumroad, but UK based)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "First-person seller account of publishing their eBook; product explicitly an eBook uploaded as PDF.",
+    "'UK based' refers to PayHip per the parenthetical; recorded as geography wording."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/published-my-first-ebook-and-made-a-couple-of-sales-8988aaee17",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://ie.trustpilot.com/review/domestika.org?page=7",
+  "source_date_if_available": "Approximately January 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I bought a single course for 155 JPY in Dec 2025. On Jan 1, 2026, I was charged 49,522 JPY (300 times the original price!) for a subscription I tried to cancel.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported 49,522 JPY subscription charge after a 155 JPY single course purchase, despite attempted cancellation (Trustpilot review)",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "49,522 JPY",
+  "metric_unit": "JPY",
+  "time_scope_raw": "in Dec 2025 ... On Jan 1, 2026",
+  "time_scope_normalized_if_safe": "2026-01-01",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "for a subscription I tried to cancel"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional amounts in snippet: 155 JPY original course price; source's own multiple '(300 times the original price!)' preserved verbatim, not recomputed.",
+    "Platform not named in snippet text; platforms left empty per criteria; source is a Domestika review page per source_ref."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://ie.trustpilot.com/review/domestika.org?page=7",
+    "secondary_pointer": null
+  }
+}

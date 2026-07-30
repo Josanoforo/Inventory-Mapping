@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+  "source_date_if_available": "6 abril 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"HOTMART no me entrega el dinero de mis ventas, llevo mas de 13 dias esperando que analisen los documentos, nadie me da respuesta ni garantias. no Seguire vendiendo a traves de ustedes, retienen dinero...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported sales money withheld by HOTMART for over 13 days pending document analysis without response (Trustpilot review)",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "llevo mas de 13 dias esperando",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "nadie me da respuesta ni garantias",
+    "no Seguire vendiendo a traves de ustedes"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncated ('retienen dinero...'); context_insufficient. Source spelling preserved verbatim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "secondary_pointer": null
+  }
+}

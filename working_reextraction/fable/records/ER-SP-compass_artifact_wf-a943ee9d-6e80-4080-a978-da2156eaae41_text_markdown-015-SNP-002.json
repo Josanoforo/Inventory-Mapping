@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-015-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-015",
+  "source_type": "buyer_review",
+  "source_title": "Reviews",
+  "source_ref": "https://www.sitejabber.com/reviews/etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I bought something from a seller and noticed that not only was it not handmade but it was cheap and came from a company in China. The owner tried to say that he only made the wooden bases for these cheap lights that one had to glue together but he lied about that too & made an excuse, saying he had run out & had to order it from his supplier in China. I supplied proof to Etsy when I reported the shop owner along with pictures, the packaging from China, etc. & Etsy did nothing about it.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Compra anunciada como handmade que resultó ser producto barato proveniente de una empresa en China; el comprador reportó al shop owner con pruebas y Etsy no actuó",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "China",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "he lied about that too & made an excuse"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'cheap lights' con bases de madera (producto físico) sin mapeo en el enum de product_type; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.sitejabber.com/reviews/etsy.com",
+    "secondary_pointer": null
+  }
+}

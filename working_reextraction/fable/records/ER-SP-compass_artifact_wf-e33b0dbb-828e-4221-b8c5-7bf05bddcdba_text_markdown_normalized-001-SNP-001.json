@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-001",
+  "source_type": "help_center",
+  "source_title": "Billing And Upgrading",
+  "source_ref": "https://help.payhip.com/article/102-billing-and-upgrading",
+  "source_date_if_available": "Last updated June 20, 2021",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"By default, you'll be on Payhip's Free Forever plan. At $0 per month, this comes with all features, unlimited products, and unlimited revenue, but you will be charged a 5% fee by us on any transactions processed through your Payhip site. This is great for if you're just getting started, but once the sales start rolling in you'll want to upgrade to reduce your transaction fee.\"\n\n> \"For $29 a month you can upgrade to the Plus plan and we'll reduce the transaction fee to 2%. Or, for just $99 per month, you can be on our Pro plan and there will be no transaction fee from us at all.\"\n\n> \"Please note, PayPal and Stripe will still charge their transaction fees.\"\n\n> \"To upgrade your Payhip account, go to \"Account\" > \"Settings\" and then click on the \"Billing & Invoices\" tab. Then all you need to do is choose the plan that you'd like to upgrade to, enter your credit card details, and that's it.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Planes de Payhip en el help center: Free Forever $0/mes con todas las features y 5% de transaction fee; Plus $29/mes con fee reducida a 2%; Pro $99/mes sin transaction fee; PayPal y Stripe siguen cobrando sus propias fees; upgrade vía Account > Settings > Billing & Invoices",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "PayPal",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "Free Forever: $0/month + 5% fee; Plus: $29/month + 2%; Pro: $99/month + no transaction fee",
+  "metric_unit": "USD/month + percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "By default",
+    "Please note, PayPal and Stripe will still charge their transaction fees",
+    "all features, unlimited products, and unlimited revenue"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Capas declaradas por separado: fee de la plataforma por plan vs fees de los procesadores (PayPal/Stripe).",
+    "El snippet conserva marcadores de cita ('>') insertados por el packet; se preservan tal cual."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/102-billing-and-upgrading",
+    "secondary_pointer": null
+  }
+}

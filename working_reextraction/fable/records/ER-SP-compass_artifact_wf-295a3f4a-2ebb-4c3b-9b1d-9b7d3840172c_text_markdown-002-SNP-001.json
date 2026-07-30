@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-002",
+  "source_type": "interview",
+  "source_title": "Claudia De Heredia Fundadora Kichink",
+  "source_ref": "https://hotbook.mx/claudia-de-heredia-fundadora-kichink",
+  "source_date_if_available": "4 de marzo de 2018",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me encantaría que Kichink tuviera presencia en más países de Latinoamérica y de Estados Unidos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Kichink founder's stated aspiration for presence in more Latin American countries and the United States (interview)",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Latinoamérica",
+    "Estados Unidos"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Me encantaría que (aspirational wording)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Founder speaking about her own platform in an interview; who-speaks treated as platform voice.",
+    "Aspiration, not an announced plan; qualifier preserved."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotbook.mx/claudia-de-heredia-fundadora-kichink",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-018-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-018",
+  "source_type": "blog",
+  "source_title": "Behind The Scenes The Making Of An Online Course With Domestika",
+  "source_ref": "https://www.sketchlikeanarchitect.com/blog/behind-the-scenes-the-making-of-an-online-course-with-domestika",
+  "source_date_if_available": "August 29, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Because I'm based in Prague, Czech Republic, the closest studio for me was in Madrid, Spain. And Domestika generously covers the airfare & other travel expenses for teachers as well as the hotel and partly even the food. Moreover, the team was super professional, very committed to the process, and working hard to make the best possible course and actually to make me look good... Hands down this is such a fantastic, fantastic experience! Very grateful for it!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor-reported travel expense coverage by Domestika for course filming (Prague-based teacher, Madrid studio)",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Prague, Czech Republic",
+    "Madrid, Spain"
+  ],
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "partly even the food"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "First-person instructor account; positive evaluative wording preserved verbatim in snippet_primary, not extracted."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.sketchlikeanarchitect.com/blog/behind-the-scenes-the-making-of-an-online-course-with-domestika",
+    "secondary_pointer": null
+  }
+}

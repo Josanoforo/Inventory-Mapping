@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-012",
+  "source_type": "platform_doc",
+  "source_title": "Affiliates",
+  "source_ref": "https://www.domestika.org/en/affiliates",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If the user you referred makes a first-time purchase during that 30-day period, you'll get a 40% commission over the total sale.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "40% affiliate commission on first-time purchases within the 30-day referral window",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "commission",
+  "metric_value_raw": "40%",
+  "metric_unit": "percent over the total sale",
+  "time_scope_raw": "during that 30-day period",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If the user you referred makes a first-time purchase during that 30-day period"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is an affiliate commission share; no enum value covers commission shares.",
+    "'Domestika' not named in this snippet's text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/affiliates",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Read This Before You Sell On Gumroad B704A000E83D",
+  "source_ref": "https://medium.com/@iampaulrose/read-this-before-you-sell-on-gumroad-b704a000e83d",
+  "source_date_if_available": "Estimated October 25, 2025 (date from search metadata; not confirmed on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I'm not even kidding, this single reason is enough to quit using Gumroad entirely. Sure, they are a free tool to use when you're just starting, but come on, A transaction fee of 10% + 0.50 per sale is way off the roof.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "seller-stated Gumroad transaction fee of 10% + 0.50 per sale as reason to leave",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "10% + 0.50 per sale",
+  "metric_unit": "percent plus 0.50 (currency not specified in snippet; mixed units)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Sure, they are a free tool to use when you're just starting"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Author's evaluative wording ('way off the roof') preserved verbatim in snippet_primary, not extracted."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@iampaulrose/read-this-before-you-sell-on-gumroad-b704a000e83d",
+    "secondary_pointer": null
+  }
+}

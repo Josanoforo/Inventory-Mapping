@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Etsy Policy Updates",
+  "source_ref": "https://blog.marmalead.com/etsy-policy-updates",
+  "source_date_if_available": "18 February 2026 (last updated per subagent report)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy launched its own keyword research tool, Marketplace Insights, built into Shop Manager under the Stats tab.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Lanzamiento por Etsy de su propia herramienta de keyword research, Marketplace Insights, integrada en Shop Manager bajo la pestaña Stats",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "Reporte de un hecho (lanzamiento de feature) en el blog de Marmalead (herramienta SEO de terceros para Etsy)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://blog.marmalead.com/etsy-policy-updates",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-005",
+  "source_type": "seller_forum",
+  "source_title": "Td P",
+  "source_ref": "https://community.etsy.com/t5/Technical-Issues/Post-Office-Retail-Rates-in-Shipping-Seetings/td-p/145769304",
+  "source_date_if_available": "May 30, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I made a sale on Tuesday and the customer was charged the discounted rate. I checked my settings and they were set to the retail rate so I contacted Etsy help and was told that they are in the process of eliminating that because sellers shouldn't charge more than what they pay for the shipping. This is Etsy move to be more 'transparent'. The problem is sometimes I need to ad more insurance or I underestimate the packed weight not to mention the the transaction fee. I wish Etsy would stop micromanaging and stop nibbling away my small profit.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported buyer charged discounted shipping rate despite retail-rate setting, with relayed Etsy statement about eliminating retail-rate charging",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "on Tuesday",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I contacted Etsy help and was told that they are in the process of eliminating that because sellers shouldn't charge more than what they pay for the shipping (relayed support statement)",
+    "sometimes I need to ad more insurance or I underestimate the packed weight"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "The policy-change statement is relayed secondhand from Etsy support by the seller; preserved as relayed, not as platform policy.",
+    "Author's evaluative wording ('micromanaging', 'nibbling away my small profit') preserved verbatim in snippet_primary."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://community.etsy.com/t5/Technical-Issues/Post-Office-Retail-Rates-in-Shipping-Seetings/td-p/145769304",
+    "secondary_pointer": null
+  }
+}

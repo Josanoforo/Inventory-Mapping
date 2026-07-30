@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-011",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Denzel Alvares* has two courses on the platform. One was shot in 2016 (without a contract), in his own apartment. The other one, in 2020, was shot in a 'state-of-the-art' studio in a 'fantastic' three-story building in Madrid. He remembered the organized chaos of the space; the team was shooting for multiple courses simultaneously. They were launching more and launching fast.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor course production settings (2016 apartment shoot without contract vs 2020 Madrid studio) (Class Central report)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "One was shot in 2016 ... The other one, in 2020",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Madrid",
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "without a contract",
+    "'state-of-the-art' studio in a 'fantastic' three-story building (source's quoted wording)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Two production dates in one recollection; no single time scope, normalized left null.",
+    "'the platform' not named in snippet text; platforms left empty per criteria.",
+    "Instructor name marked with asterisk in source (pseudonym convention of the report)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_type": "product_listing",
+  "source_title": "payhip.com",
+  "source_ref": "https://payhip.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Features > Sell: Digital Downloads, Online Courses, Coaching, Memberships, Physical Products / Features > Grow: Store Builder, Payment Gateways, VAT & Taxes, Marketing Tools, Email Marketing\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Navegación de features de payhip.com — Sell: Digital Downloads, Online Courses, Coaching, Memberships, Physical Products; Grow: Store Builder, Payment Gateways, VAT & Taxes, Marketing Tools, Email Marketing",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Categorías de features del menú de navegación; tipos de producto enumerados de forma genérica sin mapeo único en el enum; se registra unknown.",
+    "El texto capturado no nombra a Payhip; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Hotmart Company Supera Usd 10 Mil Millones De Ventas De Productos Digitales A Nivel Mundial",
+  "source_ref": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"la comercialización de productos digitales por medio de sus plataformas superó colectivamente USD 10 mil millones (GMV, en inglés), desde 2011, año de fundación del grupo.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "GMV acumulado de la comercialización de productos digitales en las plataformas del grupo: superó colectivamente USD 10 mil millones desde 2011, año de fundación",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "GMV",
+  "metric_value_raw": "superó colectivamente USD 10 mil millones",
+  "metric_unit": "USD",
+  "time_scope_raw": "desde 2011, año de fundación del grupo",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "colectivamente",
+    "(GMV, en inglés)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'GMV' según la etiqueta observada.",
+    "Nota de prensa propia (press.hotmart.com); el texto del snippet no nombra a Hotmart ('sus plataformas'); platforms queda vacío.",
+    "Intervalo abierto desde 2011; no se normaliza."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+    "secondary_pointer": null
+  }
+}

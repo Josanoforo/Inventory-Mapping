@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+  "source_type": "pricing_page",
+  "source_title": "Etsy Calculator",
+  "source_ref": "https://investomatica.com/etsy-calculator",
+  "source_date_if_available": "Last reviewed April 4, 2026 (per page header). Source attribution on page: \"Source: etsy.com\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"By default, the base currency of an etsy shop is set to be the same as that of the seller's native currency. However, sellers have an option to change the base currency used by their shops and thus their listings. If you change your shop's base currency to something other than your native currency, an extra 2.5% conversion fee will be charged on all deposits.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Etsy shop base currency change conversion fee charged on deposits",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "an extra 2.5%",
+  "metric_unit": "percent of deposits",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "By default, the base currency of an etsy shop is set to be the same as that of the seller's native currency",
+    "If you change your shop's base currency to something other than your native currency",
+    "on all deposits"
+  ],
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "actor_level 'platform' per vocabulary assignment_rule for pricing_page; the page is a third-party calculator (investomatica.com) citing 'Source: etsy.com', hence actor_level_unclear.",
+    "Payout-side fee (charged on deposits), stated explicitly in snippet.",
+    "'etsy' named in snippet text (lowercase in source); listed in platforms as 'Etsy'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://investomatica.com/etsy-calculator",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-001",
+  "source_type": "database_profile",
+  "source_title": "Ljnncgnpcjnebjiohlogdffaddeddbbd",
+  "source_ref": "https://chrome-stats.com/d/ljnncgnpcjnebjiohlogdffaddeddbbd",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"YessFilterAffiliate es una extensión de Chrome diseñada para afiliados que desean potenciar sus ingresos explorando Hotmart de manera eficiente. Esta herramienta te permite filtrar productos por múltiples criterios como precio, comisiones, ventas mensuales y reseñas, facilitando la identificación rápida de los productos ganadores.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Extensión de Chrome YessFilterAffiliate para afiliados de Hotmart: filtra productos por precio, comisiones, ventas mensuales y reseñas para identificar 'productos ganadores'",
+  "actor_level": "third_party",
+  "platforms": [
+    "Hotmart",
+    "Chrome"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "diseñada para afiliados que desean potenciar sus ingresos",
+    "facilitando la identificación rápida de los productos ganadores"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Descripción promocional de la extensión en un directorio (chrome-stats); actor third_party.",
+    "product_type software: extensión de Chrome nombrada explícitamente."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chrome-stats.com/d/ljnncgnpcjnebjiohlogdffaddeddbbd",
+    "secondary_pointer": null
+  }
+}

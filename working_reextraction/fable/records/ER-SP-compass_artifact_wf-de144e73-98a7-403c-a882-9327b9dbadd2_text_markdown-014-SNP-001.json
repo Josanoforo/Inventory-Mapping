@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-014",
+  "source_type": "search_results_page",
+  "source_title": "Notion Template",
+  "source_ref": "https://www.etsy.com/market/notion_template",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Check out our notion template selection for the very best in unique or custom, handmade pieces from our templates shops.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Página de mercado de Etsy para 'notion template' — texto boilerplate de selección 'unique or custom, handmade pieces from our templates shops'",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Notion"
+  ],
+  "product_type_if_explicit": "notion_template",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "the very best in unique or custom, handmade pieces"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "product_type notion_template: 'notion template' nombrado explícitamente en el texto; 'Notion' incluido en platforms conforme al precedente de herramientas nombradas.",
+    "El texto no nombra a Etsy (voz 'our'); no se incluye en platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/market/notion_template",
+    "secondary_pointer": null
+  }
+}

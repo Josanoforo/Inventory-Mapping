@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-014",
+  "source_type": "article",
+  "source_title": "My Etsy Shop Is Dead Vendors Cry For Help Amid Trump Tariffs",
+  "source_ref": "https://www.kiplinger.com/taxes/my-etsy-shop-is-dead-vendors-cry-for-help-amid-trump-tariffs",
+  "source_date_if_available": "May 6, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"\\\"I'm dropping off Etsy packages and I'm feeling so bummed. I just feel like my Etsy shop is going to die, my Etsy shop is dead,\\\" Emmalyn Perez said in a TikTok post. \\\"I have to import some things. What am I going to do? I can't afford those anymore.\\\"\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-quoted TikTok statement on tariff-driven import costs threatening her Etsy shop (Kiplinger article)",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy",
+    "TikTok"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I have to import some things",
+    "I can't afford those anymore"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Direct seller quote reproduced in news article; emotional characterization ('my Etsy shop is dead') preserved verbatim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kiplinger.com/taxes/my-etsy-shop-is-dead-vendors-cry-for-help-amid-trump-tariffs",
+    "secondary_pointer": null
+  }
+}

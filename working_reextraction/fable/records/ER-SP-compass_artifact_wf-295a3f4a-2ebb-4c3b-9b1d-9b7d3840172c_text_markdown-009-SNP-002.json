@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_type": "news",
+  "source_title": "Un Solo Sitio Para Venderlo Todo",
+  "source_ref": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+  "source_date_if_available": "21 de junio de 2016",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Y si es una compra internacional el tiempo estándar de envío es de 5 a 7 días\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "standard international shipping time (5 to 7 days) reported for the marketplace (Milenio, 2016)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "tiempo estándar de envío",
+  "metric_value_raw": "de 5 a 7 días",
+  "metric_unit": "días",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "si es una compra internacional",
+    "estándar"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a shipping-time duration ('tiempo estándar de envío'); no enum value covers delivery times.",
+    "'Kichink' not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+    "secondary_pointer": null
+  }
+}

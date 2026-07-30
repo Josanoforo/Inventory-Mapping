@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-002",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=11",
+  "source_date_if_available": "Accessed April 2026; review undated in snippet (likely 2025–2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Compré un producto en Hotmart y me hicieron el cobro inmediatamente, pero nunca recibí ningún correo de confirmación, acceso al producto ni forma de entrar a la plataforma. Revisé spam, intenté recuperar el acceso, busqué por todos los medios posibles… nada. Contacté al soporte de Hotmart varias veces y solo me dieron respuestas automáticas inútiles, sin resolver absolutamente nada. Me están dando largas y siguen sin entregarme lo que compré. Incluso su sistema me marcó un 'error desconocido' cuando intenté recuperar el acceso.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Compra en Hotmart cobrada inmediatamente sin correo de confirmación ni acceso al producto; soporte con respuestas automáticas sin resolver y 'error desconocido' del sistema al intentar recuperar el acceso",
+  "actor_level": "buyer",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Revisé spam, intenté recuperar el acceso, busqué por todos los medios posibles",
+    "varias veces"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=11",
+    "secondary_pointer": null
+  }
+}

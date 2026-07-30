@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-003",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=3",
+  "source_date_if_available": "6 abril 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me parece inadecuado el sistema de transferencia de las ventas donde retienen el dinero hasra alcanzar un minimo que supera hasta tres veces el valor del producto vendido. La pregunta es¿ si no se lle...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported payout retention until a minimum up to three times the sold product's value (Trustpilot review of Hotmart)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "retienen el dinero hasra alcanzar un minimo que supera hasta tres veces el valor del producto vendido"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Minimum described relative to product value, without an absolute figure; kept in qualifiers per criteria. Snippet truncated mid-question ('si no se lle...')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=3",
+    "secondary_pointer": null
+  }
+}

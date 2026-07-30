@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-004",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://elements.envato.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Envato is your one-stop destination for creative assets. With one simple subscription, you'll have access to our generative AI tools plus unlimited downloads of over 27+ million high-quality assets and templates across the widest range of asset categories, with new assets added daily.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "pricing-page claim: one subscription with generative AI tools plus unlimited downloads of over 27+ million assets",
+  "actor_level": "platform",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "assets",
+  "metric_value_raw": "over 27+ million",
+  "metric_unit": "assets and templates",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "with new assets added daily",
+    "across the widest range of asset categories (self-claim)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a library asset count; no enum value covers asset counts."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/pricing",
+    "secondary_pointer": null
+  }
+}

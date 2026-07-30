@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Etsy Is Leveraging Ai To Boost Personalization",
+  "source_ref": "https://www.retaildive.com/news/etsy-is-leveraging-ai-to-boost-personalization/746917",
+  "source_date_if_available": "May 1, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In Q1, buyer conversion rate on Etsy's app increased year over year, Silverman said. The company saw an upward year-over-year trend in monthly active users and increases in app downloads for first-time users.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Tendencias reportadas por Retail Dive citando a Silverman: conversión de compradores en la app de Etsy aumentó interanual en Q1; tendencia al alza en usuarios activos mensuales y descargas de la app por usuarios nuevos",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "conversion_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "In Q1; year over year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "Silverman said",
+    "an upward year-over-year trend"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Narración periodística en estilo indirecto de declaraciones de un ejecutivo ('Silverman said'); actor source y evidencia reported_event.",
+    "Tendencias sin cifras: conversion_rate como métrica principal con valor null; adicionales: usuarios activos mensuales y descargas de app al alza (sin cifra).",
+    "Q1 referido corresponde a 2025 según la fecha del artículo (2025-05-01); no se normaliza por no constar el año en snippet ni contextos."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.retaildive.com/news/etsy-is-leveraging-ai-to-boost-personalization/746917",
+    "secondary_pointer": null
+  }
+}

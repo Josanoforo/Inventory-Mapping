@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-020",
+  "source_type": "news",
+  "source_title": "Exclusive Cgma Might Be On The Verge Of Shutting Down Instructors Warn)",
+  "source_ref": "https://www.threads.com/@patmarconettart/post/DPIDjgxgUUK/ (also reported at https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn)",
+  "source_date_if_available": "Late September 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sadly after 7+ years with #CGMA, all my classes will be canceled for the foreseeable future! The parent company '#Domestika' fired most the support staff, and have not paid instructors for last term! I'm looking into moving my class to another platform so stay tuned!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor-reported CGMA class cancellations, support staff firing by parent company Domestika, and last-term non-payment (Threads post)",
+  "actor_level": "seller",
+  "platforms": [
+    "CGMA",
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "after 7+ years ... for the foreseeable future ... last term",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "for the foreseeable future",
+    "most the support staff"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Platforms named via hashtags '#CGMA' and '#Domestika' in snippet text.",
+    "First-person instructor account; actor_level 'seller' per who-speaks rule."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.threads.com/@patmarconettart/post/DPIDjgxgUUK/ (also reported at https://80.lv/articles/exclusive-cgma-might-be-on-the-verge-of-shutting-down-instructors-warn)",
+    "secondary_pointer": null
+  }
+}

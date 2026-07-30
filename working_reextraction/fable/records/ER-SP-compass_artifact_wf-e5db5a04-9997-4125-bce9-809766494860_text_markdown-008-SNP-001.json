@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Tech",
+  "source_ref": "https://www.elfinanciero.com.mx/tech/kichink-la-plataforma-de-e-commerce-que-eleva-sus-ventas-mas-de-200.html",
+  "source_date_if_available": "~2016 (references 200%+ growth since 2013; 55,000 stores)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"El modelo de negocio de Kichink resulta disruptivo frente a otras plataformas, pues a diferencia de cobrar un precio de entrada o mensual, solicitan una comisión en promedio de 7.5 por ciento por cada transacción.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Modelo de Kichink descrito por El Financiero: sin precio de entrada ni mensualidad, con comisión en promedio de 7.5 por ciento por cada transacción",
+  "actor_level": "source",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "en promedio de 7.5 por ciento por cada transacción",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "resulta disruptivo frente a otras plataformas",
+    "en promedio"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "source_date estimado '~2016' según referencias del artículo (crecimiento 200%+ desde 2013; 55,000 tiendas)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.elfinanciero.com.mx/tech/kichink-la-plataforma-de-e-commerce-que-eleva-sus-ventas-mas-de-200.html",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Como Trabajar Con Hotmart Con Una Vpn",
+  "source_ref": "https://es.vpnpro.com/guias-y-tutoriales/como-trabajar-con-hotmart-con-una-vpn",
+  "source_date_if_available": "Fecha de publicación no visible; contenido vigente al momento de consulta",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Elegir la VPN premium más apropiada te permitirá registrarte en Hotmart en países como Venezuela o Nicaragua, donde no es posible acceder al servicio por culpa de vetos tanto políticos como económicos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Registro en Hotmart no disponible en países como Venezuela o Nicaragua por vetos políticos y económicos, con VPN premium presentada como vía para registrarse desde esos países",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Venezuela",
+    "Nicaragua"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "por culpa de vetos tanto políticos como económicos",
+    "Elegir la VPN premium más apropiada"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Guía de un sitio de reseñas/afiliación de VPNs promoviendo el uso de VPNs premium; interés de autor posible.",
+    "Afirmación de indisponibilidad regional registrada mecánicamente."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.vpnpro.com/guias-y-tutoriales/como-trabajar-con-hotmart-con-una-vpn",
+    "secondary_pointer": null
+  }
+}

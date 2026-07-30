@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_type": "help_center",
+  "source_title": "Refunds And Exchanges Policy",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"*Right of withdrawal (applicable only to residents of the European Union, the United Kingdom, and other countries where this is established by law) If you reside in the European Union, the United Kingdom, or another country where national consumer protection laws recognize the right of withdrawal, you may cancel your purchase and receive a refund within 14 calendar days from the conclusion of the contract (or within the timeframe stipulated by the applicable regulations in your country of residence), without providing any justification. This right does not apply if you have started accessing the digital content before the end of this period, as by doing so, you expressly consent to the commencement of the service and acknowledge that you lose your right of withdr[awal]\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "right of withdrawal (14 calendar days) for EU/UK residents, voided upon starting access to digital content",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "within 14 calendar days from the conclusion of the contract",
+  "metric_unit": "days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "the European Union",
+    "the United Kingdom"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "applicable only to residents of the European Union, the United Kingdom, and other countries where this is established by law",
+    "(or within the timeframe stipulated by the applicable regulations in your country of residence)",
+    "without providing any justification",
+    "This right does not apply if you have started accessing the digital content before the end of this period"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet ends with packet-completed bracket '[awal]'; preserved verbatim.",
+    "'Domestika' not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy",
+    "secondary_pointer": null
+  }
+}

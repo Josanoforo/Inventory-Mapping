@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-020",
+  "source_type": "article",
+  "source_title": "Patreon Alternatives",
+  "source_ref": "https://www.mightynetworks.com/resources/patreon-alternatives",
+  "source_date_if_available": "March 31, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon is 'free' to use, but in exchange it takes a 'cut'--a percentage of your earnings. As of August 2025, this cut was a minimum of 10%. There are several advantages to Patreon, but there are really two that have made it so popular: Simplicity: Patreon didn't become a popular creator platform for nothing. The platform has made it incredibly easy for creators looking to monetize their content on their own terms quickly and easily. Membership tiers: Creators can build their tiers for their membership each with different degrees of rewards of exclusive content. Additionally, they can charge for content monthly or by project which gives some flexibility. But for its simplicity and ability to build different membership tiers, Patreon has some serious issues. Here are the cons of Patreon: Terrible community engagement: Patreon can collect subscriptions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Evaluación de Patreon por Mighty Networks: 'free' con un cut mínimo de 10% desde agosto 2025; pros declarados simplicidad y membership tiers (cobro mensual o por proyecto); contras encabezados por 'Terrible community engagement'",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "a minimum of 10%",
+  "metric_unit": "percent",
+  "time_scope_raw": "As of August 2025",
+  "time_scope_normalized_if_safe": "2025-08",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "'free' to use, but in exchange it takes a 'cut'",
+    "incredibly easy",
+    "on their own terms"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "El cierre 'Terrible community engagement: Patreon can collect subscriptions.' queda cortado/inconexo en la captura; el argumento del contra no está completo.",
+    "Página de Mighty Networks (competidor); actor third_party.",
+    "Normalización anclada a 'As of August 2025'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.mightynetworks.com/resources/patreon-alternatives",
+    "secondary_pointer": null
+  }
+}

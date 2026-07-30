@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-020",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-020",
+  "source_type": "blog",
+  "source_title": "Etsy Vs Ebay",
+  "source_ref": "https://www.shopify.com/blog/etsy-vs-ebay",
+  "source_date_if_available": "2025-03-06",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"On the buyer side, approximately 83% say Etsy has items they can't find anywhere else, making it a powerful marketplace for sellers of creative goods. eBay is a digital shopping marketplace that operates at a larger scale than Etsy, with 133 million active buyers worldwide and approximately two billion live listings across more than 190 global markets.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "buyer perception stat (83% say Etsy has items findable nowhere else) and eBay scale figures (Shopify blog)",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy",
+    "eBay"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "buyers who say Etsy has items they can't find anywhere else",
+  "metric_value_raw": "approximately 83%",
+  "metric_unit": "percent of buyers",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "approximately",
+    "On the buyer side"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a buyer-perception share; no enum value covers survey shares.",
+    "Additional metrics in snippet: eBay 133 million active buyers worldwide; approximately two billion live listings; more than 190 global markets.",
+    "Published on shopify.com; survey source not stated."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.shopify.com/blog/etsy-vs-ebay",
+    "secondary_pointer": null
+  }
+}

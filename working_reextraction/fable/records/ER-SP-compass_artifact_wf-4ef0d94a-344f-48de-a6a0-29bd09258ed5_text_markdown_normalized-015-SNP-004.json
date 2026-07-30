@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/en/terms",
+  "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Depending on the recurrence option selected in your recurring purchase system (monthly or annual), you will receive the corresponding credits (1 credit for the monthly option; 12 credits for the annual option) at the commencement of your participation period in DOMESTIKA PLUS\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "DOMESTIKA PLUS credit allocation by recurrence option (1 credit monthly; 12 credits annual)",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "credits",
+  "metric_value_raw": "1 credit for the monthly option; 12 credits for the annual option",
+  "metric_unit": "credits",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Depending on the recurrence option selected in your recurring purchase system (monthly or annual)",
+    "at the commencement of your participation period"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is subscription credit allocation; no enum value covers credits."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/terms",
+    "secondary_pointer": null
+  }
+}

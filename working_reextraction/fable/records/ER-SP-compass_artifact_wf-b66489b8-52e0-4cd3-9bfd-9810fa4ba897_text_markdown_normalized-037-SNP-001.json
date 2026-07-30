@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-037-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-037",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-037",
+  "source_type": "database_profile",
+  "source_title": "Payhip Sell Ebooks",
+  "source_ref": "https://wordpress.com/plugins/payhip-sell-ebooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The Payhip WordPress plugin allows you to embed all your products anywhere on your WordPress site simply using a short code. Customers can click on each product and buy from you directly. We provide you with your customers emails so you can build up your mailing list.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Plugin de Payhip para WordPress: embed de productos vía shortcode, compra directa desde el sitio y entrega de los emails de los clientes al seller para construir su mailing list",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "WordPress"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "simply using a short code",
+    "so you can build up your mailing list"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Descripción en primera persona ('We provide you...') del plugin propio de Payhip publicada en el directorio de wordpress.com; voz de plataforma en canal externo."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://wordpress.com/plugins/payhip-sell-ebooks",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=5",
+  "source_date_if_available": "1 octubre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"🛑 Advertencia para creadores que usan Hotmart Brasil Llevo semanas intentando cambiar la titularidad de mi cuenta y no me dejan acceder a mi propio dinero (R$48,55 reales). Me exigen docu...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "creator-reported weeks-long account ownership-change block on Hotmart Brasil with R$48,55 inaccessible (Trustpilot review)",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "R$48,55 reales",
+  "metric_unit": "BRL",
+  "time_scope_raw": "Llevo semanas",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Brasil",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "intentando cambiar la titularidad de mi cuenta"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncated ('Me exigen docu...'); context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=5",
+    "secondary_pointer": null
+  }
+}

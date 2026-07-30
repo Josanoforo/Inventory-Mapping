@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_type": "article",
+  "source_title": "Top Substack Writers Depart For Patreon",
+  "source_ref": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+  "source_date_if_available": "October 29, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sole-Smith said almost 50% of her subscribers had made the transition.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "reported transition of almost 50% of a writer's subscribers to the new platform (Sole-Smith, Nieman Lab)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "subscribers",
+  "metric_value_raw": "almost 50%",
+  "metric_unit": "percent of her subscribers (transitioned)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a subscriber transition share; no enum value covers it.",
+    "Neither platform is named in this snippet's text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+    "secondary_pointer": null
+  }
+}

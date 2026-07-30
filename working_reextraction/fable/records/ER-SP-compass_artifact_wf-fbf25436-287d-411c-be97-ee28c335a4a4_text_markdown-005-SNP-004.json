@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "source_date_if_available": "November 19, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased a book, but seller did not even upload it so I could download. Gumroad never gave me a refund. THis is how Scam works.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Libro comprado que el seller nunca subió para descarga; Gumroad no dio reembolso",
+  "actor_level": "buyer",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "THis is how Scam works"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "'book' para descarga; se mapea a ebook. Erratas preservadas ('THis')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=2",
+    "secondary_pointer": null
+  }
+}

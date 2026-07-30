@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-001-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-001",
+  "source_type": "pricing_page",
+  "source_title": "Crea Tu Tienda",
+  "source_ref": "https://www.kichink.com/crea-tu-tienda",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Tu tienda recibe pagos con tarjeta de crédito, efectivo en tiendas de conveniencia, transferencia bancaria o con nuestra tarjeta de pre pago Kash.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "store payment methods: credit card, cash at convenience stores, bank transfer, and Kash prepaid card",
+  "actor_level": "platform",
+  "platforms": [
+    "Kash"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "con nuestra tarjeta de pre pago Kash"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'Kichink' not named in this snippet's text ('Tu tienda recibe'); 'Kash' is the platform's own prepaid card, named in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/crea-tu-tienda",
+    "secondary_pointer": null
+  }
+}

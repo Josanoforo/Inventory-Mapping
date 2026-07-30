@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_date_if_available": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Una vez compre un curso de pago unico y pude descargarlo pero a los meses noto que empiezan a llegarme unos cobros de hotmart de otros cursos que nunca compre, nunca me soluccionaron me toco bloquear la tarjeta para generar una nueva y asi no siguieran robando , OJO CON DEJAR DATOS DE TU TARJETA , MUCHO OJO..\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Cobros de hotmart por cursos nunca comprados aparecidos meses después de una compra única; sin solución y con bloqueo de la tarjeta por parte del comprador para detener los cargos",
+  "actor_level": "buyer",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "a los meses",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "que nunca compre",
+    "OJO CON DEJAR DATOS DE TU TARJETA , MUCHO OJO.."
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "'hotmart' aparece en minúscula en el original; se normaliza a 'Hotmart' en platforms.",
+    "Erratas del texto fuente preservadas ('soluccionaron', 'compre' sin tilde)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=9",
+    "secondary_pointer": null
+  }
+}

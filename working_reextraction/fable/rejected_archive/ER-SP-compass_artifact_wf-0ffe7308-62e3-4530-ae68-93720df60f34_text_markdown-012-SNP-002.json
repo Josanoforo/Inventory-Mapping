@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-002",
+  "rejection_reason": "required_field_unfillable",
+  "rejection_detail": "subject_exact not fillable from snippet + context: layout row 'Mexico | 40.00 MXN | 2,000.00 MXN | 40.00 MXN' has no column headers in snippet or context; the semantic of the three amounts cannot be named without inference.",
+  "rejected_at": "2026-07-30T04:40:32+00:00",
+  "skeleton": {
+    "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-002",
+    "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+    "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012",
+    "source_type": "pricing_page",
+    "source_title": "Etsy Calculator",
+    "source_ref": "https://investomatica.com/etsy-calculator",
+    "source_date_if_available": "Last reviewed April 4, 2026 (per page header). Source attribution on page: \"Source: etsy.com\"",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "[Stated in layout: \"Mexico | 40.00 MXN | 2,000.00 MXN | 40.00 MXN\"]",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "traceability_pointer": {
+      "pointer_type": "url",
+      "pointer_value": "https://investomatica.com/etsy-calculator",
+      "secondary_pointer": null
+    },
+    "claim_type": null,
+    "subject_exact": null,
+    "actor_level": null,
+    "platforms": [],
+    "product_type_if_explicit": null,
+    "metric_type": null,
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": null,
+    "local_qualifiers": [],
+    "uncertainties": [],
+    "parser_notes": [],
+    "_extraction_stage": 1,
+    "_source_snippet_id": "SNP-002",
+    "_source_finding_ids": null
+  }
+}

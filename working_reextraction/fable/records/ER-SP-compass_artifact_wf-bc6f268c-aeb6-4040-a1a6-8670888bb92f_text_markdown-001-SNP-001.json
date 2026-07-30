@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-001",
+  "source_type": "search_results_page",
+  "source_title": "Category",
+  "source_ref": "https://audiojungle.net/category",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Music (922709)\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Categoría Music de audiojungle.net mostrada con conteo entre paréntesis: Music (922709)",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "El conteo entre paréntesis (922709) no declara qué cuenta (presumiblemente ítems de la categoría, no consta en el texto); no se asigna metric_type.",
+    "Snippet marcado por el packet como '[Stated in layout: ...]'. El texto no nombra a AudioJungle; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://audiojungle.net/category",
+    "secondary_pointer": null
+  }
+}

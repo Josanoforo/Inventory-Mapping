@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-002",
+  "source_type": "help_center",
+  "source_title": "What Are Payment Processing Fees For Selling On Etsy",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you accept payments through Etsy Payments, we also collect a 4% + €0.30 payment processing fee when an item is sold.\" (EU version; UK rate confirmed separately as 4% + £0.20)",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Etsy Payments payment processing fee of 4% + €0.30 per sold item (EU version; UK rate noted as 4% + £0.20)",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "4% + €0.30",
+  "metric_unit": "percent plus EUR (mixed units)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "EU",
+    "UK"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you accept payments through Etsy Payments"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "The parenthetical '(EU version; UK rate confirmed separately as 4% + £0.20)' is a packet annotation carried inside the snippet; copied verbatim, and its region references are the basis for the geography entries."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy",
+    "secondary_pointer": null
+  }
+}

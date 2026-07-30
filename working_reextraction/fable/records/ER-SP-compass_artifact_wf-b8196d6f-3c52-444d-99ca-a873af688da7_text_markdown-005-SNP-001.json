@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_type": "product_listing",
+  "source_title": "idearupt.lemonsqueezy.com",
+  "source_ref": "https://idearupt.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Idearupt · Bhavesh AI Pro · $9.00/month · Idearupt Pro · $19.00/month · Idearupt Pro+ - 7 Day Free Trial · $49.00/month · Powered by Lemon Squeezy\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Tienda idearupt en Lemon Squeezy — suscripciones listadas: Bhavesh AI Pro $9.00/month, Idearupt Pro $19.00/month, Idearupt Pro+ con 7 días de prueba gratis $49.00/month",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$9.00/month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "7 Day Free Trial"
+  ],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "Métrica principal: precio del primer producto listado (Bhavesh AI Pro $9.00/month). Métricas adicionales: Idearupt Pro $19.00/month; Idearupt Pro+ $49.00/month.",
+    "'Powered by Lemon Squeezy' nombra a la plataforma en el texto capturado.",
+    "Naturaleza de los productos (planes de suscripción) sin tipo declarado mapeable; product_type unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://idearupt.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

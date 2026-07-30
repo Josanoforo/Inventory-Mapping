@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-005",
+  "source_type": "product_listing",
+  "source_title": "creatormetrics.io",
+  "source_ref": "https://creatormetrics.io/",
+  "source_date_if_available": "Accessed April 14, 2026; page footer states \"©2026 Creator Metrics.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You're losing patrons every month. We can help you with that. Creator Metrics is the ultimate analytics dashboard, specifically created for Patreon creators. Monitor your community trends, learn how your supporters behave and act strategically to grow your patronage. Start your free 14-day trial\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Creator Metrics analytics dashboard advertised for Patreon creators",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "specifically created for Patreon creators"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Promotional landing copy; no metric present, metric_type set to unknown.",
+    "'Start your free 14-day trial' present in snippet; offer term, not a metric of the principal claim.",
+    "product_type 'software' from snippet wording 'analytics dashboard'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://creatormetrics.io/",
+    "secondary_pointer": null
+  }
+}

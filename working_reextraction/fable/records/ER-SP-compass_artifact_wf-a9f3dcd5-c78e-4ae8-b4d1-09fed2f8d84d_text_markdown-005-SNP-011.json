@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-011",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.patreon.com",
+  "source_date_if_available": "December 11, 2025 (experience: December 2, 2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I signed up for a classes that was posted in an Art group on Facebook I have been following for years. I paid and I got an email that I could access the classes. I had no access. I sent 3 tickets with photos of payment and showing no access. Nothing was solved and they erased my account. I contacted the instructor on Facebook. She send me messages through Pateron but the message button does not work and therefore I can't reply back. Basically, left out in the cold. I asked for a refund on my last ticket and no reply back. I believe they scam people out of money and impossible to contact.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Pago por clases anunciadas en un grupo de arte de Facebook sin obtener acceso: 3 tickets con evidencia sin solución, cuenta borrada, botón de mensajes de Pateron (sic) no funcional para responder a la instructora y sin respuesta a la solicitud de reembolso",
+  "actor_level": "buyer",
+  "platforms": [
+    "Patreon",
+    "Facebook"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "I have been following for years",
+    "Basically, left out in the cold"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "'Pateron' (sic) en el original; se normaliza a 'Patreon' en platforms.",
+    "'classes' (clases de arte) sin mapeo en el enum de product_type; se registra unknown.",
+    "Dato menor: 3 tickets enviados con fotos de pago y de falta de acceso."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.patreon.com",
+    "secondary_pointer": null
+  }
+}

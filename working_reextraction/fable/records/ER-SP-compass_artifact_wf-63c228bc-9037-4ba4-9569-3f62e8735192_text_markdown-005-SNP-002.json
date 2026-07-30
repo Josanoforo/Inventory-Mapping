@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Read This Before You Sell On Gumroad B704A000E83D",
+  "source_ref": "https://medium.com/@iampaulrose/read-this-before-you-sell-on-gumroad-b704a000e83d",
+  "source_date_if_available": "Estimated October 25, 2025 (date from search metadata; not confirmed on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad keep removing my followers. So, I could have a list of 1708 and come back to 1704 the next day. Basically, my list is pretty unstable. Email marketing is supposed one of the more stable marketing channels for a business but Gumroad doesn't make it easy.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported unexplained follower-count drops on Gumroad email list (1708 to 1704 overnight)",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "followers",
+  "metric_value_raw": "a list of 1708 and come back to 1704 the next day",
+  "metric_unit": "followers",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Basically, my list is pretty unstable"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is an email-list follower count; no enum value covers follower counts.",
+    "The removal claim ('Gumroad keep removing my followers') is the author's attribution for the observed drops."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@iampaulrose/read-this-before-you-sell-on-gumroad-b704a000e83d",
+    "secondary_pointer": null
+  }
+}

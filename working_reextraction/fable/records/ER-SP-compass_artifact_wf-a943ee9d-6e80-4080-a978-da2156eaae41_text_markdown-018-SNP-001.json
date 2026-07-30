@@ -1,0 +1,47 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I spent thousands on bud vases that took a month to receive the first batch and another month to receive the second with correct design. DO NOT BUY from LiteSkyscraperStyle!!! His shop says United States but I think he's from London (at least that's what support told me). The shipment came from China. Design was NOTHING like we agreed on the first batch causing the seller to send me a second batch. The packaging was subpar. 20 broken vases in the first batch and 30 in the second. Seller refused to refund me for the broken ones.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Compra de bud vases por miles de dólares con demoras de un mes por lote, 20 y 30 piezas rotas por empaque deficiente, negativa de reembolso del seller y discrepancia de ubicación de la tienda (dice United States; soporte indicó London; envío desde China)",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "took a month to receive the first batch and another month",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "United States",
+    "London",
+    "China"
+  ],
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "at least that's what support told me",
+    "I think he's from London"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Cifras anecdóticas preservadas aquí: gasto 'thousands'; 20 vases rotos en el primer lote y 30 en el segundo; sin etiqueta de métrica del enum que las cubra.",
+    "El snippet no nombra a Etsy ('LiteSkyscraperStyle' es la tienda/seller); platforms queda vacío (la página de reseñas corresponde a Etsy según source_ref).",
+    "Productos físicos (bud vases) sin mapeo en el enum de product_type; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

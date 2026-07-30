@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "source_date_if_available": "2025-04-06",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With Lemon Squeezy, we were able to implement a complete checkout flow in under 2 hours, while a comparable Stripe implementation took nearly 2 days of development time.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Implementación propia del autor: checkout completo con Lemon Squeezy en menos de 2 horas frente a casi 2 días de desarrollo para una implementación comparable de Stripe",
+  "actor_level": "seller",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "under 2 hours",
+    "nearly 2 days"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Tiempos de implementación propios (2 horas vs 2 días) sin etiqueta del enum de metric_type; preservados en qualifiers/subject."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "secondary_pointer": null
+  }
+}

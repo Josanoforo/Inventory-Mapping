@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Cambios Globales En La Facturacion Con Hotmarten 2024 Y Que Hacer Al Respecto",
+  "source_ref": "https://keys4leaders.com/cambios-globales-en-la-facturacion-con-hotmarten-2024-y-que-hacer-al-respecto",
+  "source_date_if_available": "2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart te hará una factura con 0% IVA y ahí entra que tienes que hacer tu las facturas al cliente que te compra. Tu haces la factura al cliente tras la compra - luego Hotmart te manda a ti una factura de la tarifa y comisión de la venta.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Mecánica de facturación descrita: Hotmart emite al seller una factura con 0% de IVA, el seller factura al cliente tras la compra, y luego Hotmart le factura al seller la tarifa y comisión de la venta",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "ahí entra que tienes que hacer tu las facturas"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Capas de facturación declaradas: factura 0% IVA de la plataforma al seller, factura seller→cliente y factura de tarifa/comisión plataforma→seller."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://keys4leaders.com/cambios-globales-en-la-facturacion-con-hotmarten-2024-y-que-hacer-al-respecto",
+    "secondary_pointer": null
+  }
+}

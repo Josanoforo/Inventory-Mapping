@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Hotmart Company Supera Usd 10 Mil Millones De Ventas De Productos Digitales A Nivel Mundial",
+  "source_ref": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Según datos de Hotmart Insights 2023, más de 4 millones de personas de Latinoamérica han comprado al menos un producto digital en Hotmart.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Compradores en Latinoamérica según Hotmart Insights 2023: más de 4 millones de personas han comprado al menos un producto digital en Hotmart",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active_buyers",
+  "metric_value_raw": "más de 4 millones",
+  "metric_unit": "personas",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2023",
+  "geography_if_explicit": "Latinoamérica",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Según datos de Hotmart Insights 2023",
+    "al menos un producto digital"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Normalización anclada al dataset nombrado ('Hotmart Insights 2023').",
+    "Cifra acumulada ('han comprado'), no anual; se preserva el matiz en qualifiers."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+    "secondary_pointer": null
+  }
+}

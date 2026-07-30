@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Gumroad Digital Products Earnings",
+  "source_ref": "https://lowcontentprofits.com/gumroad-digital-products-earnings",
+  "source_date_if_available": "January 29, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"These 609 sales made me a total of just over $304 in passive income. As most of my products are freebies, the total income is much lower when compared to total sales.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported $304 passive income from 609 sales, most products being freebies (Gumroad, per source title)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "just over $304",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "As most of my products are freebies",
+    "the total income is much lower when compared to total sales"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional metric in snippet: 609 sales.",
+    "'Gumroad' appears only in source title/URL, not in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://lowcontentprofits.com/gumroad-digital-products-earnings",
+    "secondary_pointer": null
+  }
+}

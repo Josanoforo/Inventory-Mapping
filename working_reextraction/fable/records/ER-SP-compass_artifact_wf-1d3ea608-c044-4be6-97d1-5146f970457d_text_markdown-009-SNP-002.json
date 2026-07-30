@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/es/terms",
+  "source_date_if_available": "31 de enero de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Debido a posibles fluctuaciones de la tasa de cambio de divisas entre su moneda local y el dólar estadounidense, es posible que el importe reembolsado sea ligeramente superior o inferior al que pagó originalmente.»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "refund amount variation due to currency exchange-rate fluctuations (Domestika terms)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Debido a posibles fluctuaciones de la tasa de cambio de divisas entre su moneda local y el dólar estadounidense",
+    "ligeramente superior o inferior"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "No platform named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/terms",
+    "secondary_pointer": null
+  }
+}

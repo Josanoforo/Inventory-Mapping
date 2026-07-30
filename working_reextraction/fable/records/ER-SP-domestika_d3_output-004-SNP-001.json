@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-004-SNP-001",
+  "source_packet_id": "SP-domestika_d3_output-004",
+  "source_id": "SRC-domestika_d3_output-004",
+  "source_type": "search_results_page",
+  "source_title": "On Sale",
+  "source_ref": "https://www.domestika.org/es/courses/on_sale",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Cursos en promoción\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Encabezado de la página de cursos en promoción de domestika.org: 'Cursos en promoción'",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; encabezado de sección sin afirmación local.",
+    "El texto capturado no nombra a Domestika; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses/on_sale",
+    "secondary_pointer": null
+  }
+}

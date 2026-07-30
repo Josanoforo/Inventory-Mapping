@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-020",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-020",
+  "source_type": "blog",
+  "source_title": "How To Sell Ebooks",
+  "source_ref": "https://payhip.com/blog/how-to-sell-ebooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Many ebook authors launch their ebook at a special, temporary low price. For instance, they might have a regular price of $19.99 but launch at $9.99.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "Práctica de lanzamiento descrita en el blog: muchos autores de ebooks lanzan a un precio bajo temporal, con ejemplo de precio regular $19.99 y lanzamiento a $9.99",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Many ebook authors",
+    "For instance",
+    "might",
+    "special, temporary low price"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Las cifras ($19.99 regular / $9.99 lanzamiento) son ejemplo hipotético ilustrativo, no dato observado; se preservan aquí sin asignar metric_type.",
+    "El texto del snippet no nombra a Payhip; platforms queda vacío (blog de payhip.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/blog/how-to-sell-ebooks",
+    "secondary_pointer": null
+  }
+}

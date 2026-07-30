@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-007",
+  "source_type": "policy_page",
+  "source_title": "Envato Market Author Terms",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/41371538488473-Envato-Market-Author-Terms",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Currency: Your earnings will be paid to you in US dollars. You are responsible for all costs of currency conversion relating to your earnings.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "payout currency policy: author earnings paid in US dollars with conversion costs borne by the author (Envato Market Author Terms)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "You are responsible for all costs of currency conversion relating to your earnings"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Payout-side currency policy; 'Envato' appears only in source title/URL, not in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/41371538488473-Envato-Market-Author-Terms",
+    "secondary_pointer": null
+  }
+}

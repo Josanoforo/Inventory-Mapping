@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007",
+  "source_type": "article",
+  "source_title": "Payhip Mobile App",
+  "source_ref": "https://help.payhip.com/article/348-payhip-mobile-app",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The app makes it easy to monitor your sales in real time, view analytics and sales metrics, and receive instant notifications for new orders.\" … \"At the moment, all product uploads (digital downloads, courses, coaching, memberships, and physical products) as well as store design changes must be managed via the web dashboard.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "App móvil: monitoreo de ventas en tiempo real, analytics y notificaciones instantáneas de pedidos; subida de productos (digital downloads, courses, coaching, memberships, physical products) y cambios de diseño solo vía el dashboard web",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "At the moment",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "At the moment",
+    "in real time"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El texto del snippet no nombra a Payhip; platforms queda vacío (help center de Payhip según source_ref).",
+    "Tipos de producto enumerados de forma genérica sin mapeo único en el enum; se registra unknown.",
+    "El snippet contiene una elisión '…' del packet entre fragmentos; se preserva tal cual."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/348-payhip-mobile-app",
+    "secondary_pointer": null
+  }
+}

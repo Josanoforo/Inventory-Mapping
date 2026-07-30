@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005",
+  "source_type": "help_center",
+  "source_title": "How Do I Get Paid",
+  "source_ref": "https://help.payhip.com/article/173-how-do-i-get-paid",
+  "source_date_if_available": "Last updated April 19, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"PayPal's fees are roughly around 2.9% + $0.30 per transaction, but vary for international transactions.\"\n\n> \"Stripe's fees are also 2.9% + $0.30, but depend on which country you're from.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Fees de procesadores según el help center: PayPal aproximadamente 2.9% + $0.30 por transacción (variable en internacionales); Stripe también 2.9% + $0.30 (según el país)",
+  "actor_level": "platform",
+  "platforms": [
+    "PayPal",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "PayPal: roughly around 2.9% + $0.30 per transaction; Stripe: 2.9% + $0.30",
+  "metric_unit": "percent + USD por transacción",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "roughly around",
+    "but vary for international transactions",
+    "but depend on which country you're from"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Fees de terceros (procesadores) relayadas por el help center de Payhip, no fees de la plataforma."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/173-how-do-i-get-paid",
+    "secondary_pointer": null
+  }
+}

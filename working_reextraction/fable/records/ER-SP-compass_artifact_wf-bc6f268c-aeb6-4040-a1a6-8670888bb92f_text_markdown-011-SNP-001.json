@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-011",
+  "source_type": "search_results_page",
+  "source_title": "All",
+  "source_ref": "https://graphicriver.net/category/all",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"All categories · Vectors Print Templates Presentation Templates Logo Templates Graphics Add-ons Web Elements Fonts Icons Game Assets Infographics Textures T-Shirts ePublishing Isolated Objects · Browse New Browse Bestsellers Show more\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Categorías de graphicriver.net: Vectors, Print/Presentation/Logo Templates, Graphics, Add-ons, Web Elements, Fonts, Icons, Game Assets, Infographics, Textures, T-Shirts, ePublishing, Isolated Objects",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; taxonomía del marketplace, no tipos de producto de una afirmación.",
+    "El texto no nombra a GraphicRiver; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphicriver.net/category/all",
+    "secondary_pointer": null
+  }
+}

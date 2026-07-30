@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_type": "article",
+  "source_title": "Compradores Productos Digitales Crecen 300 Hotmart",
+  "source_ref": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+  "source_date_if_available": "20 Mar 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Distribución por dispositivo (antecedente elidido en el snippet; presumiblemente compras): 78% en dispositivos móviles, 20% en computadoras, 2% en tabletas",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "context_insufficient",
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "El antecedente de 'el 78 por ciento se realiza' no aparece en snippet ni contextos; no se asigna metric_type. Cifras preservadas: móviles 78%; computadoras 20%; tabletas 2%.",
+    "El snippet no nombra a Hotmart; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+    "secondary_pointer": null
+  }
+}

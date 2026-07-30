@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "Fees",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"When you make a sale using Lemon Squeezy, we take a small fee, known as the \"platform fee\", to cover the costs of credit card transaction fees, currency conversion fees, taxes (yes, we cover taxes) etc. and the net sales will be paid out to your bank account or PayPal account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "platform fee coverage (card transaction fees, currency conversion, taxes) with net sales paid to bank or PayPal account",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "known as the \"platform fee\"",
+    "(yes, we cover taxes)",
+    "small (platform's wording)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Fee described without a rate in this snippet; metric_value_raw left null. Net-of-fee payout basis stated explicitly."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/fees",
+    "secondary_pointer": null
+  }
+}

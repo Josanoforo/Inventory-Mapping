@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-017",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "March 22, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy fees are an absolute joke, charging over 32% for various fees. Transaction fee, Operating fee, Regulatory fee, Off Site ad fee and all plus VAT. Put postage on top and you get around 50% of th...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "derived_calculation",
+  "subject_exact": "seller-computed Etsy effective fee burden over 32% (transaction, operating, regulatory, offsite-ad fees plus VAT), approaching 50% with postage",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "over 32%",
+  "metric_unit": "percent (effective, per author's aggregation)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Transaction fee, Operating fee, Regulatory fee, Off Site ad fee and all plus VAT",
+    "Put postage on top and you get around 50% (truncated)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "methodology_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncated ('of th...'); the ~50% figure's completion is cut off, context_insufficient.",
+    "Aggregation basis for the 32% not shown; methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  }
+}

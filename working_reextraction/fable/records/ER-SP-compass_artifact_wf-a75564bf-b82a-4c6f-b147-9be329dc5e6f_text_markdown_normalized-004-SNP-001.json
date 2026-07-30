@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-004",
+  "source_type": "product_listing",
+  "source_title": "Imagen Digital",
+  "source_ref": "https://www.kichink.com/buy/213967/caleidoscopio/imagen-digital",
+  "source_date_if_available": "Accedido abril 2026; página sin fecha visible",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Categorías · Todos · Tamaño · Color · Cantidad · Comprar · Disponibilidad · Compra segura con Garantía Kichink · FORMAS DE PAGO · Tarjetas de Crédito, Débito, efectivo y Kash. Compartir en\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Página de producto en kichink.com — formas de pago mostradas: Tarjetas de Crédito, Débito, efectivo y Kash; leyenda 'Compra segura con Garantía Kichink'",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Kichink",
+    "Kash"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": "Tarjetas de Crédito, Débito, efectivo y Kash",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Compra segura con Garantía Kichink"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; contenido citado preservado tal cual.",
+    "'Kash' aparece nombrado como forma de pago; se incluye en platforms como rail de pago nombrado.",
+    "La página corresponde a un producto 'Imagen Digital' según source_ref/título, pero el tipo de producto no aparece en el texto capturado; product_type queda unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/buy/213967/caleidoscopio/imagen-digital",
+    "secondary_pointer": null
+  }
+}

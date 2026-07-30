@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+  "source_type": "report",
+  "source_title": "Overview",
+  "source_ref": "https://www.semrush.com/website/etsy.com/overview",
+  "source_date_if_available": "Accessed April 2026; data labeled February 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"On etsy.com, visitors mainly come from Direct (49.52% of traffic), followed by google.com (20.25%). In most cases, after visiting etsy.com, users go to google.com and etsystatic.com.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Fuentes de tráfico de etsy.com según Semrush: Direct 49.52%, seguido de google.com 20.25%; destinos posteriores más comunes google.com y etsystatic.com",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy",
+    "Google"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "49.52% (Direct)",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "mainly",
+    "In most cases"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Métrica adicional: google.com 20.25% del tráfico entrante.",
+    "'google.com' verbatim; se normaliza a 'Google' en platforms. 'etsystatic.com' es dominio de recursos estáticos de Etsy, no plataforma independiente; no se incluye.",
+    "Normalización anclada a 'data labeled February 2026' declarado en source_date_if_available."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.semrush.com/website/etsy.com/overview",
+    "secondary_pointer": null
+  }
+}

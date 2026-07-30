@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-016",
+  "source_type": "unknown",
+  "source_title": "Reviews",
+  "source_ref": "https://www.g2.com/products/payhip/reviews",
+  "source_date_if_available": "Accessed April 2026; review date not visible in snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip makes it extremely easy to sell digital products and services online. I was fed up of trying other solutions. WooCommerce is a big headache, ThriveCart is limited to checkouts (no storefront), etc. And Payhip fits just in the middle.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "reviewer comparison of Payhip ease of selling vs WooCommerce complexity and ThriveCart checkout-only scope (G2 review)",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip",
+    "WooCommerce",
+    "ThriveCart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "ThriveCart is limited to checkouts (no storefront)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Reviewer sells digital products/services; actor_level 'seller' per who-speaks rule."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.g2.com/products/payhip/reviews",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_type": "database_profile",
+  "source_title": "Patreon Stats",
+  "source_ref": "https://graphtreon.com/patreon-stats",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"325,425 with at least 1 paying member Number of Paid Creators\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "number of Patreon creators with at least 1 paying member (Graphtreon 'Number of Paid Creators' stat)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "Number of Paid Creators",
+  "metric_value_raw": "325,425",
+  "metric_unit": "creators",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "with at least 1 paying member"
+  ],
+  "uncertainties": [
+    "time_scope_unclear",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed label in layout is 'Number of Paid Creators'; no enum value covers creator counts.",
+    "Snippet transcribed from page layout; live daily-updated stat, claim date only bounded by access date in source_date_if_available.",
+    "'Patreon'/'Graphtreon' appear only in source title/URL, not in snippet layout text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphtreon.com/patreon-stats",
+    "secondary_pointer": null
+  }
+}

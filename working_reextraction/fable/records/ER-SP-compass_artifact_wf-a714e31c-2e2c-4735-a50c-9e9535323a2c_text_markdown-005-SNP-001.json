@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Lo Que No Sabias De Hotmart",
+  "source_ref": "https://hotmart.com/es/blog/lo-que-no-sabias-de-hotmart",
+  "source_date_if_available": "12/06/2021",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"De hecho, otras plataformas ofrecen también el servicio de hospedaje y venta de cursos, pero ninguno con las herramientas de Hotmart que pueden hacer escalar el negocio en menos tiempo.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Hotmart — afirmación en blog propio de que ninguna otra plataforma de hospedaje y venta de cursos tiene herramientas equivalentes para escalar el negocio en menos tiempo",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "en menos tiempo",
+    "otras plataformas ofrecen también el servicio de hospedaje y venta de cursos"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Voz de plataforma en canal informal (blog propio de hotmart.com): actor platform, no official_policy.",
+    "source_date '12/06/2021' con formato ambiguo (DD/MM vs MM/DD); se preserva sin resolver.",
+    "Comparación autopromocional publicada por la propia plataforma."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/blog/lo-que-no-sabias-de-hotmart",
+    "secondary_pointer": null
+  }
+}

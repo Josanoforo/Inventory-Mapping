@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-019",
+  "source_type": "blog",
+  "source_title": "Etsy And Shopify",
+  "source_ref": "https://www.shopify.com/blog/etsy-and-shopify",
+  "source_date_if_available": "2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Shopify users own the customer experience. You have full control over the look and feel of your store, with customizable no-code store designs. Your store features and back office tools offer advanced functionality, thanks to thousands of tailor-made apps for product sourcing, subscriptions, dropshipping, and more. Etsy's transaction fee of 6.5% per sale can affect your profits. Keep more revenue from your sales with Shopify's competitive pricing and lower transaction fees.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Shopify self-comparison vs Etsy: customer-experience ownership and Etsy's 6.5% per-sale transaction fee affecting profits",
+  "actor_level": "platform",
+  "platforms": [
+    "Shopify",
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "6.5% per sale",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "can affect your profits",
+    "with Shopify's competitive pricing and lower transaction fees (self-claim)"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Published on shopify.com promoting Shopify against Etsy; self-interested comparison flagged."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.shopify.com/blog/etsy-and-shopify",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_date_if_available": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me quisieron vender un curso de alto ticket, siendo mediocre. Al segundo día lo cancelé. Un gran ayuda su respuesta e inmediatez de devolución de mi dinero en cuestión de unos 10 dias.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Curso de alto ticket calificado de mediocre, cancelado al segundo día, con devolución del dinero en cuestión de unos 10 días y respuesta valorada positivamente",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Al segundo día; en cuestión de unos 10 dias",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "alto ticket",
+    "siendo mediocre",
+    "unos 10 dias"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Dato anecdótico de tiempo de reembolso (~10 días) sin valor del enum de metric_type que lo cubra; se preserva aquí.",
+    "El snippet no nombra a Hotmart; platforms queda vacío (página de reseñas de hotmart.com según source_ref).",
+    "'curso' sin mapeo en el enum de product_type; se registra unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=9",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-003",
+  "source_type": "database_profile",
+  "source_title": "everbee.io",
+  "source_ref": "https://everbee.io/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Access 170M+ listings and 50M+ keywords to find high-demand, profitable products fast\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Portada de EverBee: acceso a 170M+ listings y 50M+ keywords para encontrar productos rentables de alta demanda",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "listings",
+  "metric_value_raw": "170M+",
+  "metric_unit": "listings",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "fast"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'listings' según la etiqueta observada. Métrica adicional: 50M+ keywords.",
+    "El texto no nombra a Etsy ni a EverBee; platforms queda vacío (herramienta para Etsy según source_ref/título del corpus)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://everbee.io/",
+    "secondary_pointer": null
+  }
+}

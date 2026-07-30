@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007",
+  "source_type": "product_listing",
+  "source_title": "notioneverything.lemonsqueezy.com",
+  "source_ref": "https://notioneverything.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Notion Everything · Notion Complete Bundle · $199.00 - $279.00 · Notion Finance Tracker Pro · $34.00 - $69.00 · Notion Freelance OS · $79.00 - $149.00 · Notion Second Brain 3.5 · $64.00 - $124.00 · Small Business OS\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Tienda Notion Everything en Lemon Squeezy — productos listados: Notion Complete Bundle $199.00-$279.00; Notion Finance Tracker Pro $34.00-$69.00; Notion Freelance OS $79.00-$149.00; Notion Second Brain 3.5 $64.00-$124.00; Small Business OS sin precio capturado",
+  "actor_level": "seller",
+  "platforms": [
+    "Notion"
+  ],
+  "product_type_if_explicit": [
+    "notion_template",
+    "bundle"
+  ],
+  "metric_type": "price",
+  "metric_value_raw": "$199.00 - $279.00",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "Métrica principal: precio del primer producto listado (Notion Complete Bundle $199.00-$279.00). Métricas adicionales: Finance Tracker Pro $34.00-$69.00; Freelance OS $79.00-$149.00; Second Brain 3.5 $64.00-$124.00.",
+    "product_type: plantillas de Notion (notion_template) y 'Complete Bundle' (bundle).",
+    "El texto capturado no nombra a Lemon Squeezy; no se incluye en platforms (tienda en lemonsqueezy.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://notioneverything.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

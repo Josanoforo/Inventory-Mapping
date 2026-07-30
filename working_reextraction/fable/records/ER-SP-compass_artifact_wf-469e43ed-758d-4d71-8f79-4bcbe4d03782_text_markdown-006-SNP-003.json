@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Tax Forms",
+  "source_ref": "https://docs.lemonsqueezy.com/help/tax-forms",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you meet all the criteria below for the previous calendar year, you will receive a 1099-K from Lemon Squeezy: The account is based in the US (or has completed a Form W-9) More than $20,000 USD in gross volume from sales of goods or services in the previous calendar year\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "1099-K issuance criteria: US-based account (or W-9) and more than $20,000 USD gross sales volume in the previous calendar year",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "gross volume from sales of goods or services",
+  "metric_value_raw": "More than $20,000 USD",
+  "metric_unit": "USD per calendar year",
+  "time_scope_raw": "the previous calendar year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "the US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you meet all the criteria below",
+    "(or has completed a Form W-9)"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a gross sales volume threshold; no enum value covers reporting thresholds.",
+    "Snippet references 'all the criteria below' but shows only two; the full criteria list is not captured, hence context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/tax-forms",
+    "secondary_pointer": null
+  }
+}

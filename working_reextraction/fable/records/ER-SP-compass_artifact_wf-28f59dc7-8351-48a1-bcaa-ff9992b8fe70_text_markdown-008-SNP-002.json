@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Compre Curso Domestika Noviembre Mes Despues Me Llego Cobro Casi 300 Euros Consegui Recuperar Mi Dinero",
+  "source_ref": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cobro-casi-300-euros-consegui-recuperar-mi-dinero",
+  "source_date_if_available": "17 diciembre 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Intentar contactar con Domestika no fue sencillo. Hay un chat en la esquina inferior, pero es para hablar con una IA... y esta te remite a una página donde se indica que no es posible cancelar la suscripción una vez activada.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "author-reported Domestika contact difficulty: AI-only chat and page stating subscription cannot be cancelled once activated",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "una vez activada"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Author's observation of platform support flow and the referenced non-cancellation statement; the policy content is as displayed to the author, not a platform document in this record."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.genbeta.com/paso-a-paso/compre-curso-domestika-noviembre-mes-despues-me-llego-cocargo-casi-300-euros-consegui-recuperar-mi-dinero",
+    "secondary_pointer": null
+  }
+}

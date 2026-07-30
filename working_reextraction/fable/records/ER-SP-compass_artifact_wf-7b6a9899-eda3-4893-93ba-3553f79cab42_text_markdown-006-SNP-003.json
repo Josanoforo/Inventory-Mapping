@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_date_if_available": "24 marzo 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Soy productor en Hotmart y una clienta ha solicitado un chargeback de $536.35 en la transacción HP3116820252. He contactado con Klarna (caso 100836111) y con Stripe Support. Ambos han confirmado que...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "producer-reported disputed $536.35 chargeback on a Hotmart transaction, with Klarna and Stripe support contacted (Trustpilot review)",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart",
+    "Klarna",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$536.35",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Ambos han confirmado que... (truncated)"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Transaction and case IDs preserved verbatim in snippet_primary. Snippet truncated before the confirmations' content; context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6",
+    "secondary_pointer": null
+  }
+}

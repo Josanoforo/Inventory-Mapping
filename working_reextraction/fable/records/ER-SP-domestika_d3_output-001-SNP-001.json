@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-001-SNP-001",
+  "source_packet_id": "SP-domestika_d3_output-001",
+  "source_id": "SRC-domestika_d3_output-001",
+  "source_type": "product_listing",
+  "source_title": "Courses",
+  "source_ref": "https://www.domestika.org/es/courses",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Ilustración · Craft · Marketing y Negocios · Fotografía y Vídeo · Diseño · 3D y Animación · Arquitectura y Espacios · Escritura · Moda · Diseño Web y App · Caligrafía y Tipografía · Música y Audio · Cocina · Inteligencia Artificial · Bienestar · Cómo convertirse en\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Categorías del catálogo de cursos de domestika.org: Ilustración, Craft, Marketing y Negocios, Fotografía y Vídeo, Diseño, 3D y Animación, Arquitectura y Espacios, Escritura, Moda, Diseño Web y App, Caligrafía y Tipografía, Música y Audio, Cocina, Inteligencia Artificial, Bienestar",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; taxonomía del catálogo, no tipos de producto de una afirmación.",
+    "El texto capturado no nombra a Domestika; platforms queda vacío. El elemento final 'Cómo convertirse en' aparece truncado en el layout."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses",
+    "secondary_pointer": null
+  }
+}

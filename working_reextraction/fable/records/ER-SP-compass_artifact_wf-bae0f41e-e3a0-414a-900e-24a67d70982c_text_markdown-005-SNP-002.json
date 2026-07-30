@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_type": "report",
+  "source_title": "What Digital Products Sell Best On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Digital downloads are 85% of Gumroad. They average 293 sales at $47.14 — the highest volume of any format. Templates, presets, design assets, and code snippets live here.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Digital downloads como 85% de Gumroad según Insight Raider, con promedio de 293 ventas a $47.14 — el mayor volumen de cualquier formato",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "digital downloads",
+  "metric_value_raw": "85% of Gumroad",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "the highest volume of any format"
+  ],
+  "uncertainties": [
+    "methodology_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'digital downloads' según la etiqueta observada ('Digital downloads are 85% of Gumroad').",
+    "Métricas adicionales: promedio 293 ventas por producto a precio promedio $47.14.",
+    "'Templates, presets, design assets, and code snippets' se enumeran como ejemplos del formato, no como producto único de la afirmación; product_type unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+    "secondary_pointer": null
+  }
+}

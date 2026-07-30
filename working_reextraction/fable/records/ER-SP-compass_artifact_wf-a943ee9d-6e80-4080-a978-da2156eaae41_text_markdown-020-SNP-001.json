@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-020-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-020",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-020",
+  "source_type": "report",
+  "source_title": "Etsy Statistics",
+  "source_ref": "https://www.yaguara.co/etsy-statistics",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In November 2025, Etsy saw 454.6 million visitors.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Visitantes de Etsy en noviembre 2025 según Yaguara: 454.6 millones",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "monthly_visitors",
+  "metric_value_raw": "454.6 million",
+  "metric_unit": "visitors",
+  "time_scope_raw": "In November 2025",
+  "time_scope_normalized_if_safe": "2025-11",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Artículo agregador de estadísticas; fuente subyacente de la cifra no declarada en el snippet; página sin fecha."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.yaguara.co/etsy-statistics",
+    "secondary_pointer": null
+  }
+}

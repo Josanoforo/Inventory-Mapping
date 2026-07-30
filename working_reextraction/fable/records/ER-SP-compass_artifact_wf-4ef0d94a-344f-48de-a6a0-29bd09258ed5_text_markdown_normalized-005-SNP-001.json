@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005",
+  "source_type": "help_center",
+  "source_title": "In Which Currency Are The Prices Shown",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Domestika doesn't apply commissions or taxes relating to the exchange rate between currencies. However, your bank or payment processor may add an additional fee and so we suggest that you contact them directly to confirm their policy regarding this.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "no Domestika-side exchange-rate commissions or taxes, with possible additional fees from the buyer's bank or payment processor",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "However, your bank or payment processor may add an additional fee",
+    "we suggest that you contact them directly to confirm their policy"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Qualitative fee claim (absence of platform-side FX fees); no rate value, metric_value_raw left null. Bank-side fee layer kept distinct."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003316798-In-which-currency-are-the-prices-shown",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-006",
+  "source_type": "article",
+  "source_title": "Patreon Statistics",
+  "source_ref": "https://earthweb.com/patreon-statistics",
+  "source_date_if_available": "Article titled \"Patreon Statistics 2025\"; data stated as \"as of January 2025.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Some of the other popular categories of content on the platform include music (with 15,530 profiles), Gaming (13,688 profiles), Writing (10,997), Adult Video(8,803), Comics (6,812), Adult Games (4,642), Adult Photography (2,375), Adult Cosplay (1,378), and Cosplay (1,044 profiles).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Patreon profile counts by content category (music, gaming, writing, adult and cosplay categories)",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "profiles",
+  "metric_value_raw": "music (with 15,530 profiles), Gaming (13,688 profiles), Writing (10,997), Adult Video(8,803), Comics (6,812), Adult Games (4,642), Adult Photography (2,375), Adult Cosplay (1,378), and Cosplay (1,044 profiles)",
+  "metric_unit": "profiles",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Some of the other popular categories"
+  ],
+  "uncertainties": [
+    "methodology_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is per-category profile counts, labeled 'profiles' in snippet; no enum value covers profile counts.",
+    "Principal claim is the category count listing itself; full verbatim list preserved in metric_value_raw without reformatting.",
+    "No temporal wording inside this snippet; article-level date ('as of January 2025') lives in source_date_if_available, not asserted for this snippet.",
+    "'Patreon' appears only in source title/URL; snippet says 'the platform'. platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://earthweb.com/patreon-statistics",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004",
+  "source_type": "help_center",
+  "source_title": "What Should I Do If I Can T Complete The Payment",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Likewise in places like Argentina, there's a monthly limit for transactions in dollars. If you reach this limit and attempt to complete a new purchase, the payment will be rejected.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Límite mensual para transacciones en dólares en lugares como Argentina: alcanzado el límite, un nuevo intento de compra es rechazado",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Argentina",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Likewise in places like Argentina",
+    "monthly limit"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El monto del límite no se declara en el snippet.",
+    "El texto no nombra a Domestika; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003447297-What-should-I-do-if-I-can-t-complete-the-payment",
+    "secondary_pointer": null
+  }
+}

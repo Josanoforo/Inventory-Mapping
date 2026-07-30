@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-025-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-025",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-025",
+  "source_type": "search_results_page",
+  "source_title": "3D",
+  "source_ref": "https://payhip.com/marketplace/3d",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"3D Assets, 3D Modeling, Animating, Avatars, Textures, VRChat\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Subcategorías/tags de la categoría 3D del marketplace de Payhip: 3D Assets, 3D Modeling, Animating, Avatars, Textures, VRChat",
+  "actor_level": "marketplace",
+  "platforms": [
+    "VRChat"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'VRChat' aparece como tag nombrando la plataforma destino de los productos; se incluye conforme al precedente.",
+    "El texto capturado no nombra a Payhip; no se incluye en platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/marketplace/3d",
+    "secondary_pointer": null
+  }
+}

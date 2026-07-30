@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Gumroad Vs Payhip Vs Lemon Squeezy 71Cec796Cba3",
+  "source_ref": "https://medium.com/@hazelparadise/gumroad-vs-payhip-vs-lemon-squeezy-71cec796cba3",
+  "source_date_if_available": "Accessed April 2026; page header displays \"Mar, 2026\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Some features I want so that this platform can become better — Source — Doesn't tell where the traffic is coming from. Analytics is very basic. No categories. I sell in two niches, and categorizing them becomes difficult. No cross-selling or upselling. Email marketing is a little costly.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-listed platform gaps: no traffic source data, basic analytics, no categories, no cross-selling/upselling, costly email marketing (platform unnamed in snippet)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I sell in two niches, and categorizing them becomes difficult",
+    "Email marketing is a little costly"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "The platform being assessed is not named in the snippet; referent ambiguous within the three-platform comparison article — context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@hazelparadise/gumroad-vs-payhip-vs-lemon-squeezy-71cec796cba3",
+    "secondary_pointer": null
+  }
+}

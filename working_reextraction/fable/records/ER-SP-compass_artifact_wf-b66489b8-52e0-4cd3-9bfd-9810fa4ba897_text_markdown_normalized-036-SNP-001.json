@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-036-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-036",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-036",
+  "source_type": "article",
+  "source_title": "Best Tools To Customize And Optimize Your Payhip Store In 2025",
+  "source_ref": "https://techhubinsider.com/best-tools-to-customize-and-optimize-your-payhip-store-in-2025",
+  "source_date_if_available": "2025 (per title; exact date not captured)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip gives you a solid storefront, but sometimes you need something a bit more flexible—especially if you're doing affiliate marketing, blogging, or just want a branded homepage that links to your Payhip store... Create one-page websites in minutes (no coding). Embed your Payhip products or link directly to them.\" Pricing: \"$19/year\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Herramienta recomendada (no nombrada en el snippet) para complementar tiendas Payhip: creación de sitios de una página sin código, con embed o enlace a productos de Payhip, a $19/year",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$19/year",
+  "metric_unit": "USD/year",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "sometimes you need something a bit more flexible",
+    "especially if you're doing affiliate marketing, blogging"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "subject_ambiguity"
+  ],
+  "parser_notes": [
+    "La herramienta descrita no aparece nombrada en el snippet (elisión '...' del packet); el precio $19/year corresponde a esa herramienta, no a Payhip.",
+    "source_date declara '2025 (per title; exact date not captured)'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://techhubinsider.com/best-tools-to-customize-and-optimize-your-payhip-store-in-2025",
+    "secondary_pointer": null
+  }
+}

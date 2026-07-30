@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019",
+  "source_type": "article",
+  "source_title": "Podia Vs Gumroad",
+  "source_ref": "https://www.podia.com/podia-vs-gumroad",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad is primarily a digital download platform where you can sell files and set up a basic online store. Podia is an all-in-one platform that replaces many tools for your business, including your website builder, email marketing software, online course platform, live chat plugin, and much more.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Página 'Podia vs Gumroad' de Podia: Gumroad como plataforma primariamente de descargas digitales con tienda básica; Podia como plataforma all-in-one que reemplaza website builder, email marketing, plataforma de cursos, live chat y más",
+  "actor_level": "third_party",
+  "platforms": [
+    "Gumroad",
+    "Podia"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "primarily",
+    "and much more"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Página comparativa de Podia (competidor) promocionando su propio producto; actor third_party."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.podia.com/podia-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

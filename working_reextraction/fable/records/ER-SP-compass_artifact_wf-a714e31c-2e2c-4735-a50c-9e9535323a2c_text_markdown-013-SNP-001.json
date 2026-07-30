@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_type": "blog",
+  "source_title": "Herramientas Para Vender Cursos Online Cual Es La Mejor",
+  "source_ref": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"No sirve para cursos pequeños o ebooks de bajo coste. Está pensado para cursos de más de 200€ en adelante. Si vendes ebooks de 9,99€, entre impuestos y comisión del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Hotmart — límite de conveniencia declarado: no sirve para cursos pequeños o ebooks de bajo coste; pensado para cursos de más de 200€",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "price",
+  "metric_value_raw": "más de 200€",
+  "metric_unit": "EUR",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "de bajo coste",
+    "Si vendes ebooks de 9,99€",
+    "entre impuestos y comisión del afiliado y de Hotmart",
+    "puede que no te quede nada para ti"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Métrica principal: umbral de precio de curso 'más de 200€'. Métrica adicional: ejemplo de ebook de 9,99€.",
+    "'cursos' también nombrado como tipo de producto pero sin mapeo en el enum; product_type registra solo 'ebook'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Substack Vs Patreon",
+  "source_ref": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+  "source_date_if_available": "September 2, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"My favorite tier I've made is my Snail Mail tier. For $12 a month, I send you something in the mail. Every month it's different. I've sent postcards, collages, paintings, seeds. Each year I send all of my Patreon supporters a handmade holiday gift. I've really enjoyed it.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "creator-described $12/month physical 'Snail Mail' tier with monthly mailed items and yearly handmade gifts",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$12 a month",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Every month it's different",
+    "Each year I send all of my Patreon supporters a handmade holiday gift"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Physical mailed items (postcards, collages, paintings, seeds); no enum product type, product_type set to unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://krissyteegerstrom.substack.com/p/substack-vs-patreon",
+    "secondary_pointer": null
+  }
+}

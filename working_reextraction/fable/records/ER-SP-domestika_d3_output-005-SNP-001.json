@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-005-SNP-001",
+  "source_packet_id": "SP-domestika_d3_output-005",
+  "source_id": "SRC-domestika_d3_output-005",
+  "source_type": "product_listing",
+  "source_title": "Plus",
+  "source_ref": "https://www.domestika.org/es/plus",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"$33.90/mes $14.59/mes Cobro anual de $174.50 Suscríbete a Plus $33.90/mes Suscríbete a Plus Aplican términos y condiciones. Puedes cancelar la renovación de la suscripción cuando quieras. Después de un año, el precio de renovación será el monto total de $349\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Precios de la suscripción Plus mostrados: $33.90/mes tachado a $14.59/mes con cobro anual de $174.50; tras un año la renovación pasa al monto total de $349; cancelación de la renovación posible en cualquier momento",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$33.90/mes → $14.59/mes (cobro anual de $174.50); renovación tras un año: $349",
+  "metric_unit": "USD",
+  "time_scope_raw": "Después de un año",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Aplican términos y condiciones",
+    "Puedes cancelar la renovación de la suscripción cuando quieras"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "Precios promocionales de página viva: mensual de referencia $33.90, promo $14.59/mes facturado anual ($174.50) y renovación posterior $349; moneda mostrada con símbolo '$' sin divisa declarada.",
+    "El texto capturado no nombra a Domestika ('Plus'); platforms queda vacío (página de domestika.org según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/plus",
+    "secondary_pointer": null
+  }
+}

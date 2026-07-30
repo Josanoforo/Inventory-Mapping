@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "C%C3%B3Mo Puedo Pedir El Reembolso De Mi Pedido",
+  "source_ref": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: «Método de pago local o efectivo / transferencia* (a través de la web) *Este método de pago únicamente está disponible en: México, Colombia y Brasil.»]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "local or cash payment method country availability on Domestika (web)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "México",
+    "Colombia",
+    "Brasil"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Este método de pago únicamente está disponible en: México, Colombia y Brasil",
+    "a través de la web"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet transcribed from help article layout; article context is refund requests.",
+    "'Domestika' appears only in source_ref URL, not in snippet text; platforms left empty per criteria; subject identified via source identity."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/es/articles/35627194156689--C%C3%B3mo-puedo-pedir-el-reembolso-de-mi-pedido",
+    "secondary_pointer": null
+  }
+}

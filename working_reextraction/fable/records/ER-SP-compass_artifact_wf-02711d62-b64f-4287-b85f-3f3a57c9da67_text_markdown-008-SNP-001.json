@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_type": "database_profile",
+  "source_title": "Top Patreon Creators",
+  "source_ref": "https://graphtreon.com/top-patreon-creators",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"127,986 Paid Members 1 Patreon Rank Matt and Shane's Secret Podcast Creating Hot Casts\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "paid member count of Patreon rank-1 creator Matt and Shane's Secret Podcast (Graphtreon ranking)",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "Paid Members",
+  "metric_value_raw": "127,986",
+  "metric_unit": "paid members",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "time_scope_unclear",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed label in layout is 'Paid Members'; no enum value covers paid member counts.",
+    "'Patreon' named in snippet layout text ('Patreon Rank'); included in platforms.",
+    "Snippet transcribed from page layout; live daily-updated stat, claim date only bounded by access date in source_date_if_available."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphtreon.com/top-patreon-creators",
+    "secondary_pointer": null
+  }
+}

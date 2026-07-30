@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-001",
+  "source_type": "platform_doc",
+  "source_title": "Features",
+  "source_ref": "https://gumroad.com/features",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Don't sweat VAT We collect VAT as required and send it to the EU. You don't need to do a thing.\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Feature 'Don't sweat VAT' de la página de features: la plataforma recauda el VAT requerido y lo envía a la EU sin acción del seller",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "EU",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "as required",
+    "You don't need to do a thing"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'.",
+    "El texto no nombra a Gumroad (voz 'We'); platforms queda vacío (features de gumroad.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/features",
+    "secondary_pointer": null
+  }
+}

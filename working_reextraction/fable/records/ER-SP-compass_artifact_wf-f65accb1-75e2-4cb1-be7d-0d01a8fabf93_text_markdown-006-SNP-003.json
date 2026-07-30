@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We do not support alternative payout modes like Payoneer, Wise, check, money order, wire transfer, etc. If your country is not supported by direct bank deposits or PayPal, then unfortunately, we have no way to pay you out for now.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Modos de payout alternativos no soportados (Payoneer, Wise, cheque, money order, transferencia wire); sin depósito bancario directo ni PayPal en el país del seller no hay forma de pagarle por ahora",
+  "actor_level": "platform",
+  "platforms": [
+    "Payoneer",
+    "Wise",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "not supported: Payoneer, Wise, check, money order, wire transfer, etc.",
+  "metric_unit": null,
+  "time_scope_raw": "for now",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "unfortunately, we have no way to pay you out for now"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El texto no nombra a Gumroad; platforms incluye los rails nombrados."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}

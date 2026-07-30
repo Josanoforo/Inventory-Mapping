@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-007",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The standard fee you will pay is 15% on Attributed Orders, unless the 12% fee applies as described below. If your shop has made less than $10,000 USD in sales over the prior 365 days (going back to February 20, 2019 and later), as calculated on the first day of the month, you will pay a fee of 15% (as described in the section below) on Attributed Orders, unless you opt out of participation in Offsite Ads for the duration your shop is under the $10,000 USD threshold.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "standard 15% Offsite Ads fee on Attributed Orders for shops under $10,000 USD trailing-365-day sales, with opt-out available under the threshold",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "15% on Attributed Orders",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "unless the 12% fee applies as described below",
+    "If your shop has made less than $10,000 USD in sales over the prior 365 days (going back to February 20, 2019 and later), as calculated on the first day of the month",
+    "unless you opt out of participation in Offsite Ads for the duration your shop is under the $10,000 USD threshold"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "Tax Information Form W 8 Requirements For Non Us Authors",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"At the end of each calendar year we'll send to you and the IRS a summary of your earnings from US customers, Form 1042, so that you can accurately report your income to your local tax Authorities and claim any credits for the taxes withheld and remitted to the IRS.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "annual Form 1042 earnings summary sent to the author and the IRS for US-customer earnings",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "At the end of each calendar year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "so that you can accurately report your income to your local tax Authorities and claim any credits"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Recurring annual schedule preserved as time_scope_raw; no single normalizable date."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000471243-Tax-Information-Form-W-8-Requirements-for-non-US-Authors",
+    "secondary_pointer": null
+  }
+}

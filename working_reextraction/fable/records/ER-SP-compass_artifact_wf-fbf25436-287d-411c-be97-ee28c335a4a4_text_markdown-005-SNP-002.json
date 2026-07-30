@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "source_date_if_available": "November 19, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"DONT GO NEAR THIS COMPANY. SMOKESCREENS AND MIRRORS EXPERIENCE . ZERO CUSTOMER SUPPORT , NOT EVEN A BOT GENERATED COURTESY MAILMTOMSAY WE HAVE RECEIVED YOUR QUERY/COMPLAINT AND RE LOOKING INTO IT. I HAVE REPORTED THEM TO MASTERCARD WITH A REFUND REQUEST AND A RECOMMENDATION TO BLACK LIST THEM . WETHER IT IS INCOMPETENCE OR DELIBERATE FRAUDULENCE IS DIFFICULT TO TELL, BUT THE RESULT IS THE SAME. YOU WASTE TIME AND MONEY ON A PRODUCT THAT YOU PAY FOR BUT NEVER RECEIVE.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Queja en mayúsculas: soporte al cliente nulo (ni acuse automático de recibo), producto pagado nunca recibido; el reseñista reportó a MASTERCARD con solicitud de reembolso y recomendación de blacklist",
+  "actor_level": "buyer",
+  "platforms": [
+    "Mastercard"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "SMOKESCREENS AND MIRRORS EXPERIENCE",
+    "WETHER IT IS INCOMPETENCE OR DELIBERATE FRAUDULENCE IS DIFFICULT TO TELL"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "El texto no nombra a Gumroad ('THIS COMPANY'); platforms incluye solo la red de tarjeta nombrada (reseñas de gumroad.com según source_ref).",
+    "Erratas del texto fuente preservadas ('MAILMTOMSAY', 'WETHER', 'RE LOOKING')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=2",
+    "secondary_pointer": null
+  }
+}

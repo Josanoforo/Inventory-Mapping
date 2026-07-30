@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029",
+  "source_type": "product_listing",
+  "source_title": "Partner Program",
+  "source_ref": "https://payhip.com/partner-program",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"You are a partner in more than name and share 50% of our revenue from anyone you refer. Lifelong recurring commissions. Our commissions are for life. You continue to earn from stores which you referred years earlier. Unlimited earning potential. There is no cap on the amount you can earn as a partner.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Partner program: 50% del revenue de la plataforma por cada referido, comisiones recurrentes de por vida y sin tope de ganancias",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "commission",
+  "metric_value_raw": "50% of our revenue from anyone you refer",
+  "metric_unit": "percent of revenue",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Lifelong recurring commissions",
+    "Our commissions are for life",
+    "There is no cap on the amount you can earn as a partner"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'commission' según la etiqueta observada ('commissions'); reparto de ingresos a partners, no tarifa cobrada a sellers.",
+    "El texto del snippet no nombra a Payhip (voz 'our'); platforms queda vacío (página de payhip.com según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/partner-program",
+    "secondary_pointer": null
+  }
+}

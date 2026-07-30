@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-003",
+  "source_type": "buyer_review",
+  "source_title": "domestika.pissedconsumer.com",
+  "source_ref": "https://domestika.pissedconsumer.com/review.html",
+  "source_date_if_available": "~2025\n\n---\n\n## Category 4: Strategies and positive experiences (primarily pre-2023)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you have been scammed please sign the Change Org petition called Domestika Estafadores (with 12+ K signatures and counting), to help get a class action off the ground.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Change.org petition 'Domestika Estafadores' signature count and class-action call",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika",
+    "Change.org"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "signatures",
+  "metric_value_raw": "12+ K",
+  "metric_unit": "signatures",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "If you have been scammed",
+    "and counting"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a petition signature count; no enum value covers it.",
+    "Reviewer voice on a consumer-complaints review site; actor_level 'buyer' per who-speaks rule.",
+    "Platform named in snippet as 'Change Org'; listed as 'Change.org'. 'Domestika' appears within the petition name in snippet text."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://domestika.pissedconsumer.com/review.html",
+    "secondary_pointer": null
+  }
+}

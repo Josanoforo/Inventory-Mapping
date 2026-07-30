@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "I Can T Find My Course In My Profile",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003052038-I-can-t-find-my-course-in-my-profile",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payment on the website through local methods (cash, bank transfer) processed by dLocal: proof of payment or receipt from the store where the deposit was made.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "Pagos en el sitio mediante métodos locales (efectivo, transferencia bancaria) procesados por dLocal, con comprobante de pago o recibo de la tienda del depósito como respaldo",
+  "actor_level": "platform",
+  "platforms": [
+    "dLocal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": "local methods (cash, bank transfer) processed by dLocal",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'dLocal' se incluye como procesador de pagos nombrado (rail).",
+    "El texto no nombra a Domestika; no se incluye en platforms (help center de Domestika según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003052038-I-can-t-find-my-course-in-my-profile",
+    "secondary_pointer": null
+  }
+}

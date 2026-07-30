@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-006",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=6",
+  "source_date_if_available": "24 marzo 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"¡Me encanta! Tiene todas las herramientas para crear un negocio digital completo, se encarga de gestionar todas las ventas en todos los países, le ofrece a nuestros clientes una experiencia de usuario perfecta y si tienes algún problema puedes abrir un ticket de soporte y en unos minutos te resuelven el inconveniente. Y lo mejor es que tiene una interfaz amigable y tiene todas las opciones para gestionar nuestros productos, nuestros alumnos y personalizar cada aspecto. 10/10\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "positive assessment of platform tooling, multi-country sales management and fast support (Trustpilot review of Hotmart)",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "se encarga de gestionar todas las ventas en todos los países",
+    "en unos minutos te resuelven el inconveniente"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Reviewer's rating wording ('10/10') preserved verbatim in snippet_primary. Platform not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=6",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+  "source_type": "article",
+  "source_title": "Gumroad",
+  "source_ref": "https://sellfy.com/alternative/gumroad",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With Gumroads' 9% transaction fee, you're simply saying goodbye to a large chunk of your hard-earned money. Unlike Gumroad, Sellfy does not take a part of your income in commission nor transaction fees or any other way. With Sellfy, you will never have to worry about unnecessary or hidden costs.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Página 'alternative' de Sellfy: la transaction fee de 9% de Gumroad como pérdida de ingresos, frente a Sellfy que declara no tomar comisión ni transaction fees",
+  "actor_level": "third_party",
+  "platforms": [
+    "Gumroad",
+    "Sellfy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "9% transaction fee (Gumroad, según Sellfy)",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "you're simply saying goodbye to a large chunk of your hard-earned money",
+    "you will never have to worry about unnecessary or hidden costs"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "La cifra '9%' es la relayada por Sellfy (competidor promocionando su producto); difiere de otras capturas del corpus (10% flat, 10% + $0.50); se preserva sin reconciliar.",
+    "'Gumroads'' (sic) preservado en snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sellfy.com/alternative/gumroad",
+    "secondary_pointer": null
+  }
+}

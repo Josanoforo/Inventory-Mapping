@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-021-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-021",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-021",
+  "source_type": "article",
+  "source_title": "Lemon Squeezy Alternatives",
+  "source_ref": "https://www.swell.is/content/lemon-squeezy-alternatives",
+  "source_date_if_available": "2026-01-07",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy established itself as a creator-friendly merchant of record (MoR) platform with an elegant interface and all-in-one approach to digital commerce. However, since the Stripe acquisition in July 2024, the landscape has shifted considerably. Users now report extended onboarding times, unclear product roadmaps, and fee structures that can climb to 10-18% with add-ons—well above the advertised 5% + 50¢ base rate.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Evaluación de Swell sobre Lemon Squeezy tras la adquisición por Stripe (julio 2024): usuarios reportando onboarding extendido, roadmaps poco claros y estructuras de fee que pueden escalar a 10-18% con add-ons, muy por encima del 5% + 50¢ base anunciado",
+  "actor_level": "source",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "can climb to 10-18% with add-ons (vs advertised 5% + 50¢ base rate)",
+  "metric_unit": "percent",
+  "time_scope_raw": "since the Stripe acquisition in July 2024",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Users now report",
+    "well above the advertised"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Artículo 'Lemon Squeezy Alternatives' de Swell (proveedor de commerce competidor); los reportes de usuarios citados no se identifican."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.swell.is/content/lemon-squeezy-alternatives",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Bought a book about veganism and it's entirely written by chatgpt. How do i know? It consists only of bullet-point lists and it has emojis before every heading. Gumroad won't do anything about it and...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Libro sobre veganismo comprado que el reseñista afirma escrito enteramente por chatgpt (solo listas de bullets y emojis en cada encabezado); Gumroad sin hacer nada al respecto (texto truncado)",
+  "actor_level": "buyer",
+  "platforms": [
+    "Gumroad",
+    "ChatGPT"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "How do i know? It consists only of bullet-point lists and it has emojis before every heading"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncado ('...and...'). 'chatgpt' en minúscula, se normaliza a 'ChatGPT' en platforms (nombrado como autor atribuido del contenido).",
+    "'book' digital comprado en la plataforma; se mapea a ebook."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

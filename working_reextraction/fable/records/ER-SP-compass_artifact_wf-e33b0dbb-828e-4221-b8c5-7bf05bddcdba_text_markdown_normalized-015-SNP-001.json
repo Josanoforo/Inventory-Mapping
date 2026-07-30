@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-015",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Paystack Account",
+  "source_ref": "https://help.payhip.com/article/344-connecting-your-paystack-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"The standard Paystack fee for local transactions is 1.5% + NGN 100 per transaction and 3.9% + NGN 100 for international transactions. Please check Paystack's pricing page for the latest updates. Note that these fees are collected by Paystack and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Fee estándar de Paystack: 1.5% + NGN 100 por transacción local y 3.9% + NGN 100 en internacionales; fees recaudadas por Paystack, no por Payhip",
+  "actor_level": "platform",
+  "platforms": [
+    "Paystack",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "1.5% + NGN 100 (local); 3.9% + NGN 100 (international) per transaction",
+  "metric_unit": "percent + NGN por transacción",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Please check Paystack's pricing page for the latest updates",
+    "Note that these fees are collected by Paystack and do not go to Payhip"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Fees de terceros (Paystack) relayadas por el help center; capas declaradas."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/344-connecting-your-paystack-account",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Thinkific Vs Hotmart",
+  "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es un marketplace con millones de usuarios, especialmente en Latinoamérica. Esto te da opciones de visibilidad pasiva, pero también significa competencia directa dentro de la plataforma. Tu curso aparece junto a cientos de alternativas similares. Thinkific no es marketplace: no te entrega tráfico orgánico masivo desde el primer día, pero sí te ofrece herramientas para crear comunidad (como membresías) y captar tu propia audiencia.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Modelo de distribución: Hotmart como marketplace con millones de usuarios (visibilidad pasiva y competencia interna) frente a Thinkific sin marketplace",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Thinkific"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "usuarios",
+  "metric_value_raw": "millones",
+  "metric_unit": "usuarios",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Latinoamérica",
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "especialmente en Latinoamérica",
+    "visibilidad pasiva",
+    "no te entrega tráfico orgánico masivo desde el primer día",
+    "junto a cientos de alternativas similares"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'usuarios' (conteo observado 'millones de usuarios'); magnitud vaga, sin cifra exacta."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+    "secondary_pointer": null
+  }
+}

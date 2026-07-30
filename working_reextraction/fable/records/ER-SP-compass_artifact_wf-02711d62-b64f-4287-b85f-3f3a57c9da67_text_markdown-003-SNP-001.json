@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-003",
+  "source_type": "product_listing",
+  "source_title": "Plfnafajhhphflcaonfmgllfoofciild",
+  "source_ref": "https://chromewebstore.google.com/detail/patreon-assistant/plfnafajhhphflcaonfmgllfoofciild",
+  "source_date_if_available": "Accessed April 2026; page undated in snippet.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"PATREON ASSISTANT ---- This extension helps to track latests posts of creators on Patreon. Especially developed for tracking your creators that release STL miniature for 3d printing. No login required. Just copy and paste a creator link to Patreon Assistant, then all latest posts of the creator will be shown on 'Last Posts' section, See all latest posts of your creators on the same section, ordered by puslish date, Easly adding and removing creators, Icon notification helps to show how many new posts there are.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon Assistant browser extension advertised post-tracking functionality for Patreon creators",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Especially developed for tracking your creators that release STL miniature for 3d printing",
+    "No login required"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Promotional listing copy; no metric present, metric_type set to unknown.",
+    "product_type 'software' explicit: snippet says 'This extension'.",
+    "Source typos preserved verbatim in snippet ('puslish', 'Easly')."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chromewebstore.google.com/detail/patreon-assistant/plfnafajhhphflcaonfmgllfoofciild",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "Ventas Globales Responsabilidades Fiscales Sobre Las Ventas Realizadas A Traves De Hotmart",
+  "source_ref": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "source_date_if_available": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Escenario 5 Si tu comprador está en Estados Unidos y tú, Productor(a), tienes tu cuenta registrada en Estados Unidos u otro país, sea personal o empresarial, Hotmart se encargará de gestionar los impuestos y emitir las facturas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Escenario 5 de responsabilidades fiscales: comprador en Estados Unidos con Productor registrado en Estados Unidos u otro país (cuenta personal o empresarial) → Hotmart gestiona los impuestos y emite las facturas",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Estados Unidos",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "sea personal o empresarial"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Vigencia dual declarada en source_date_if_available (2024-01-01 algunos países / 2025-04-01 los demás); no es determinable cuál aplica a este escenario, no se normaliza."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+    "secondary_pointer": null
+  }
+}

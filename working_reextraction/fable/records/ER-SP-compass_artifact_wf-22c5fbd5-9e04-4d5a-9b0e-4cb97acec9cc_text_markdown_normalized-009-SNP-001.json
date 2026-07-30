@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-009",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-009",
+  "source_type": "blog",
+  "source_title": "Domestika La Pesadilla De Los Cursos Baratos",
+  "source_ref": "https://muchainformacion.net/sociedad/domestika-la-pesadilla-de-los-cursos-baratos",
+  "source_date_if_available": "~2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Todas las opiniones que los usuarios realizan sobre los cursos dentro de la plataforma de Domestika son moderadas, de modo que solo llegan a publicarse las positivas, dejando que se publique alguna reseña negativa con algún comentario muy poco crítico.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "claimed moderation of user course reviews on Domestika (only positive reviews published)",
+  "actor_level": "source",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "dejando que se publique alguna reseña negativa con algún comentario muy poco crítico"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Blog commentary without stated evidence basis for the moderation claim; methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://muchainformacion.net/sociedad/domestika-la-pesadilla-de-los-cursos-baratos",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013",
+  "source_type": "policy_page",
+  "source_title": "Etsy Payments",
+  "source_ref": "https://www.etsy.com/legal/etsy-payments",
+  "source_date_if_available": "Effective from October 9, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sellers who use Payoneer's payment service may be subject to Payoneer withdrawal minimums and additional Payoneer fees, including Payoneer withdrawal fees typically up to 3% of the transaction amount.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Payoneer withdrawal minimums and fees for sellers using Payoneer's payment service",
+  "actor_level": "platform",
+  "platforms": [
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "typically up to 3%",
+  "metric_unit": "percent of the transaction amount",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "may be subject to",
+    "typically up to 3%"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Payout-side fee (withdrawal), not checkout; charged by Payoneer, stated on Etsy's policy page.",
+    "'Etsy' appears only in source title/URL, not in snippet text; only 'Payoneer' named in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/etsy-payments",
+    "secondary_pointer": null
+  }
+}

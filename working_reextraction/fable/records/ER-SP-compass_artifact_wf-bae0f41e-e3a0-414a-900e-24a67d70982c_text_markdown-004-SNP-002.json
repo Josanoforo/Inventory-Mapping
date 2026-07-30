@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_type": "report",
+  "source_title": "How To Price Digital Products On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Metric | Pay What You Want | Fixed Price: Products | 4,792 | 8,160; Avg Sales | 287 | 265; Avg Price | $18.74 | $66.77; Avg Rating | 3.25 | 2.76\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Tabla de Insight Raider comparando Pay What You Want vs Fixed Price en Gumroad: 4,792 vs 8,160 productos; ventas promedio 287 vs 265; precio promedio $18.74 vs $66.77; rating promedio 3.25 vs 2.76",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "Tabla de distribución multi-métrica (2 esquemas × 4 métricas) sin métrica principal única; cifras preservadas verbatim en snippet_primary.",
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; el texto no nombra a Gumroad; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-008",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+  "source_date_if_available": "Accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"What a huge waste of money.. Avoid buying here, yes they are a great company, but their policies are flawed.  Multiple themes and plugins I have purchased, are no longer available because the author decided to remove them.. So now I have to buy them again?  Literally stupidity. What a huge waste of money.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported loss of access to purchased themes and plugins removed by their authors, with repurchase implied (Trustpilot review of Envato)",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "software",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "because the author decided to remove them",
+    "yes they are a great company, but their policies are flawed"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Products are themes and plugins (installable code); mapped to product_type 'software'. Platform not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+    "secondary_pointer": null
+  }
+}

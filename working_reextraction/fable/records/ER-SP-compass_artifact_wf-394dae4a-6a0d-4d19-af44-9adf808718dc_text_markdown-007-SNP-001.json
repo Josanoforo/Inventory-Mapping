@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-007",
+  "source_type": "policy_page",
+  "source_title": "Terms Of Use",
+  "source_ref": "https://hotmart.com/en/legal/terms-of-use",
+  "source_date_if_available": "October 6, 2025 (document version date)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Registering or transferring amounts to a bank account of the same ownership but located outside the Creator, Co-producer or Affiliate's country of residence is also prohibited.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "prohibition on registering or transferring amounts to same-ownership bank accounts outside the user's country of residence",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "of the same ownership",
+    "the Creator, Co-producer or Affiliate's country of residence"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Payout-side restriction; 'Hotmart' not named in snippet text, platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/legal/terms-of-use",
+    "secondary_pointer": null
+  }
+}

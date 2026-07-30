@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-007",
+  "source_type": "report",
+  "source_title": "News Releases",
+  "source_ref": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+  "source_date_if_available": "24 Sep 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart revealed a 32 percentage point uplift in customer retention for recurring payments via Pix following the launch of Pix Automático.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Aumento de 32 puntos porcentuales en retención de clientes para pagos recurrentes vía Pix en Hotmart tras el lanzamiento de Pix Automático, según nota de prensa",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Pix"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "customer retention",
+  "metric_value_raw": "32 percentage point uplift",
+  "metric_unit": "percentage points",
+  "time_scope_raw": "following the launch of Pix Automático",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "Hotmart revealed"
+  ],
+  "uncertainties": [
+    "methodology_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: 'customer retention' según la etiqueta observada.",
+    "Nota de prensa de PRNewswire (EBANX según URL/título) reportando una cifra revelada por Hotmart; cifra sin metodología declarada e interés promocional del emisor posible.",
+    "'Pix Automático' es la feature lanzada; 'Pix' se incluye como rail de pago nombrado. EBANX no aparece en el texto del snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.prnewswire.com/news-releases/ebanx-enables-pix-recurring-payments-for-hotmart-leading-to-a-32-point-retention-increase-302565939.html",
+    "secondary_pointer": null
+  }
+}

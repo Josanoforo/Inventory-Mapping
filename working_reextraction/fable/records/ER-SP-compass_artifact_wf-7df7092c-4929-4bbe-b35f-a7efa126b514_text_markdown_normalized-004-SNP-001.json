@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-004",
+  "source_type": "buyer_review",
+  "source_title": "Envato Elements Subscription",
+  "source_ref": "https://forums.envato.com/t/envato-elements-subscription/502870",
+  "source_date_if_available": "Accessed April 2026; page undated. Thread ID (~502870) suggests approximately 2025; date not confirmable.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I had my client buy a Envato elements subscription for a project we're working on, I do not want him to be billed for it once we're done working & it is a yearly subs, I don't think I'll remember to cancel it a year from...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported concern about a client's yearly Envato Elements subscription auto-billing after project completion",
+  "actor_level": "buyer",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "I do not want him to be billed for it once we're done working",
+    "I don't think I'll remember to cancel it"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Snippet truncated ('a year from...'); context_insufficient."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://forums.envato.com/t/envato-elements-subscription/502870",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Domestika hasn't stopped paying every inactive instructor. Liam Filler*, a Florida-based instructor, has been getting paid until now, despite not replying to students for a year and a half. He, too, like Diego, launched his course around 2019. The reason why Domestika has targeted some while paying others is unknown. The only difference I spotted is that Liam lives in the U.S. (where Domestika's office is), while the others are based outside.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "differential payment treatment between a US-based instructor still paid and instructors based outside the US (Class Central report)",
+  "actor_level": "source",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "has been getting paid until now, despite not replying to students for a year and a half; launched his course around 2019",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Florida",
+    "the U.S."
+  ],
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "The reason why Domestika has targeted some while paying others is unknown",
+    "The only difference I spotted"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Author's observed contrast between two instructor cases; the stated 'only difference' is the author's observation, preserved as commentary.",
+    "Instructor name marked with asterisk in source (pseudonym convention of the report)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}

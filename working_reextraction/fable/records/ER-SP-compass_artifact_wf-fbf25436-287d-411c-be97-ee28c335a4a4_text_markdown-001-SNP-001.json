@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Negative Reviews Gumroad",
+  "source_ref": "https://foliovision.com/2025/06/negative-reviews-gumroad",
+  "source_date_if_available": "June 10, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad reviews are not sorted by most recent. It is positive reviews first with no way to see negative reviews for a popular product except clicking and clicking and clicking. This is what I meant about a fairly dodge platform. Sahil Lavingia has set up Gumroad to make it very difficult for potential buyers to even see negative reviews.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Ordenamiento de reviews en Gumroad según Foliovision: no ordenadas por más recientes sino positivas primero, sin forma de ver las negativas de un producto popular salvo clics repetidos; el autor atribuye la configuración a Sahil Lavingia para dificultar ver reviews negativas",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "a fairly dodge platform",
+    "except clicking and clicking and clicking"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "La atribución de intencionalidad al fundador es afirmación del autor; se registra sin valorar."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://foliovision.com/2025/06/negative-reviews-gumroad",
+    "secondary_pointer": null
+  }
+}

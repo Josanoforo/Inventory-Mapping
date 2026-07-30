@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-005",
+  "source_type": "article",
+  "source_title": "Etsy Statistics",
+  "source_ref": "https://whop.com/blog/etsy-statistics",
+  "source_date_if_available": "Accessed April 2026; data context November 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"At 41%, Pinterest drove the most traffic to Etsy. Other social networks that sent traffic to Etsy included YouTube (24%), Reddit (12%) and Facebook (11%).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Tráfico social hacia Etsy por red: Pinterest 41% (mayor), YouTube 24%, Reddit 12%, Facebook 11%",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy",
+    "Pinterest",
+    "YouTube",
+    "Reddit",
+    "Facebook"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "41% (Pinterest)",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-11",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Métrica principal: participación de Pinterest en el tráfico social hacia Etsy. Métricas adicionales: YouTube 24%, Reddit 12%, Facebook 11%.",
+    "Normalización temporal anclada a 'data context November 2024' declarado en source_date_if_available.",
+    "Fuente subyacente de las participaciones de tráfico no declarada en el snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://whop.com/blog/etsy-statistics",
+    "secondary_pointer": null
+  }
+}

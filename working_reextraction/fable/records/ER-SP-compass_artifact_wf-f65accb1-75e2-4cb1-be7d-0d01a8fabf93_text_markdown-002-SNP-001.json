@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "source_type": "seller_forum",
+  "source_title": "Issues",
+  "source_ref": "https://github.com/antiwork/gumroad/issues/3837",
+  "source_date_if_available": "February 27, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"1. Be a seller in a country with a cross-border minimum > $10 (e.g. Argentina, Colombia, South Korea, Paraguay) 2. Visit Settings → Payments 3. Change any field (e.g. update bank account) and save 4. The country's exchange-rate-dependent minimum is now persisted as your payout_threshold_cents 5. If the exchange rate drops, your threshold stays at the old higher value\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Bug reportado en el issue tracker: en países con mínimo cross-border > $10 (Argentina, Colombia, South Korea, Paraguay), guardar cualquier cambio en Settings → Payments persiste el mínimo dependiente del tipo de cambio como payout_threshold_cents, y si el tipo de cambio baja el umbral queda en el valor alto anterior",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Argentina",
+    "Colombia",
+    "South Korea",
+    "Paraguay"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "e.g."
+  ],
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "Issue en el repositorio antiwork/gumroad; el autor del reporte no se identifica en el snippet (rol seller/desarrollador indeterminado).",
+    "Dato del bug: 'cross-border minimum > $10' como condición; el snippet no nombra a Gumroad, platforms queda vacío (repo de Gumroad según source_ref)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://github.com/antiwork/gumroad/issues/3837",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001",
+  "source_type": "database_profile",
+  "source_title": "Payhip P5V3Ea",
+  "source_ref": "https://apps.make.com/payhip-p5v3ea",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"payhip is an e commerce platform that enables users to sell digital products, memberships, and courses directly online integrating with make com allows automation of sales, customer management, and product delivery workflows\" … \"payhip is a community developed application and is subjected to the developer's terms and conditions... make does not maintain or support this integration\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Perfil de Payhip en el directorio de apps de Make: plataforma de e-commerce para vender productos digitales, membresías y cursos; la integración con Make automatiza ventas, gestión de clientes y entrega; app desarrollada por la comunidad y no mantenida por Make",
+  "actor_level": "third_party",
+  "platforms": [
+    "Payhip",
+    "Make"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "payhip is a community developed application and is subjected to the developer's terms and conditions",
+    "make does not maintain or support this integration"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Página del directorio de integraciones de Make describiendo su propia integración con Payhip; actor third_party.",
+    "Texto capturado en minúsculas normalizadas ('payhip', 'make com'); se normalizan a 'Payhip' y 'Make' en platforms.",
+    "'digital products, memberships, and courses' genérico sin mapeo único en el enum de product_type; se registra unknown.",
+    "El snippet contiene una elisión '…' del packet entre dos fragmentos citados; se preserva tal cual."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://apps.make.com/payhip-p5v3ea",
+    "secondary_pointer": null
+  }
+}

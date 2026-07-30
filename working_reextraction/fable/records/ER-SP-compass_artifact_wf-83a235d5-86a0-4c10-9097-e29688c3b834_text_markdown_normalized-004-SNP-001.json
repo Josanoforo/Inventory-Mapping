@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-004",
+  "source_type": "help_center",
+  "source_title": "What Is A Regulatory Operating Fee",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/1500011073202-What-is-a-Regulatory-Operating-Fee",
+  "source_date_if_available": "Current as of March 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sellers in certain countries are charged a small Regulatory Operating fee in addition to current selling costs. This fee is charged on the item price and shipping costs (including gift wrap and personalization costs, if applicable) and will vary based on seller location.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Regulatory Operating fee for sellers in certain countries, charged on item price and shipping, varying by seller location",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Sellers in certain countries",
+    "charged on the item price and shipping costs (including gift wrap and personalization costs, if applicable)",
+    "will vary based on seller location"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Fee existence without rates; metric_value_raw left null. Platform not named in snippet text; platforms left empty per criteria."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/1500011073202-What-is-a-Regulatory-Operating-Fee",
+    "secondary_pointer": null
+  }
+}

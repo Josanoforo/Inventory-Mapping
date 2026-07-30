@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-003",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-003",
+  "source_type": "article",
+  "source_title": "Webhooks",
+  "source_ref": "https://help.payhip.com/article/115-webhooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Webhooks allow you to set up integrations which subscribe to certain events from your Payhip store. There are 4 webhook events available for you to listen from.\" Events: paid, refunded, subscription.created, subscription.deleted. \"If your endpoint does not return a 200 HTTP status code, the POST is retried once an hour for up to 3 hours.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Webhooks de la tienda Payhip: 4 eventos disponibles (paid, refunded, subscription.created, subscription.deleted); reintento de POST una vez por hora hasta 3 horas si el endpoint no devuelve HTTP 200",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "If your endpoint does not return a 200 HTTP status code",
+    "retried once an hour for up to 3 hours"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "El listado 'Events: paid, refunded, subscription.created, subscription.deleted' es resumen insertado por el packet entre citas verbatim; se preserva tal cual (issue skeleton_artifact).",
+    "Especificaciones técnicas sin métrica del corpus (4 eventos; reintentos cada hora hasta 3 horas); preservadas en qualifiers/subject."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/115-webhooks",
+    "secondary_pointer": null
+  }
+}

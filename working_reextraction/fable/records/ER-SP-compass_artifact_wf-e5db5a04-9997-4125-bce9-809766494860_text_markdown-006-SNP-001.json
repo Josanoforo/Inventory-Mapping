@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-006",
+  "source_type": "blog",
+  "source_title": "Hola Mundo Esto Es Kichink 830997Eef2A",
+  "source_ref": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+  "source_date_if_available": "March 17, 2017",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Una de las propuestas más eficientes y económicas del mercado es Kichink, aquí podrás crear una tienda sin costo alguno y tan rápido como abrir una fanpage en Facebook.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Autopromoción de Kichink en su blog de Medium: 'una de las propuestas más eficientes y económicas del mercado', con creación de tienda sin costo 'tan rápido como abrir una fanpage en Facebook'",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink",
+    "Facebook"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Una de las propuestas más eficientes y económicas del mercado",
+    "sin costo alguno"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Publicado en la cuenta de Medium de la propia plataforma (@Kichink); comparación autopromocional en canal informal."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@Kichink/hola-mundo-esto-es-kichink-830997eef2a",
+    "secondary_pointer": null
+  }
+}

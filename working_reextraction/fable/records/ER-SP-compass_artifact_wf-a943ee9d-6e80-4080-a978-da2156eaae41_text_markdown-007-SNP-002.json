@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-007-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-007",
+  "source_type": "buyer_review",
+  "source_title": "Online",
+  "source_ref": "https://www.consumeraffairs.com/online/etsy.html",
+  "source_date_if_available": "Accessed April 2026; review dated 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I find most Etsy sellers to be very honest and helpful. I can find very unusual and high-quality items not available elsewhere. The site is sometimes challenging to navigate, but worth the effort. Sure, there are some dishonest sellers, but I find Etsy sellers far more honest than those on eBay. Also when a recent purchase did not arrive both Etsy and the seller got a refund to my credit card in 48 hours, 30 minutes. That is why I prefer Etsy.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "Evaluación de compradora/or: sellers de Etsy mayormente honestos (más que en eBay), artículos inusuales de alta calidad, navegación a veces difícil; reembolso de una compra no llegada acreditado en 48 horas 30 minutos",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy",
+    "eBay"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "most Etsy sellers",
+    "sometimes challenging to navigate",
+    "Sure, there are some dishonest sellers",
+    "when a recent purchase did not arrive"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Dato anecdótico de tiempo de reembolso ('in 48 hours, 30 minutes') sin valor del enum de metric_type que lo cubra; se preserva aquí."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.consumeraffairs.com/online/etsy.html",
+    "secondary_pointer": null
+  }
+}

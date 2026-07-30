@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-006",
+  "source_type": "search_results_page",
+  "source_title": "Productos",
+  "source_ref": "https://www.kichink.com/productos",
+  "source_date_if_available": "Accedido abril 2026; copyright de la página @2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Categorías · Encuentra el producto perfecto para ti · Navegar por tienda · Sin Filtros · Cargando productos · Navegar por tienda · Mostrar: 24 · 36 · 48\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "unknown",
+  "subject_exact": "Página de productos de kichink.com — layout de navegación (categorías, navegar por tienda, paginación 24/36/48) con productos en estado de carga",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Snippet marcado por el packet como '[Stated in layout: ...]'; 'Cargando productos' indica contenido dinámico no cargado en la captura.",
+    "El texto capturado no nombra a Kichink; platforms queda vacío."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/productos",
+    "secondary_pointer": null
+  }
+}

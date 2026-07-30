@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-006",
+  "source_type": "platform_doc",
+  "source_title": "Crea Tu Tienda",
+  "source_ref": "https://www.kichink.com/crea-tu-tienda",
+  "source_date_if_available": "Acceso abril 2026; página sin fecha",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Kichink tiene las tarifas más bajas del mercado, empezando en $79 pesos. También hacemos envíos internacionales, empezando en $30 USD. Los costos varían dependiendo del peso y el lugar al que se envían.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Kichink stated starting rates ($79 pesos) and international shipping starting at $30 USD",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "empezando en $79 pesos",
+  "metric_unit": "MXN (pesos)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "las tarifas más bajas del mercado (self-claim of the platform, verbatim)",
+    "Los costos varían dependiendo del peso y el lugar al que se envían",
+    "empezando en"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "metric_type_unclear"
+  ],
+  "parser_notes": [
+    "What the $79-peso 'tarifa' covers (shipping, plan, per-sale fee) is not specified in the snippet; metric_type_unclear flagged (phase-1 vocabulary value).",
+    "Additional metric in snippet: international shipping starting at $30 USD; mixed currencies (MXN and USD) declared.",
+    "The market-lowest-rates superlative is the platform's own comparative claim, preserved as qualifier."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/crea-tu-tienda",
+    "secondary_pointer": null
+  }
+}
