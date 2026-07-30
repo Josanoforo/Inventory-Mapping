@@ -27,15 +27,17 @@ files, diseño) · `OP` = solo el operador.
 
 | ID | Enunciado | Clase | Pregunta verificable | Dónde | Estado |
 |---|---|---|---|---|---|
-| P-077 | Borderlines F-X05 y F-X07 de Part 4 legacy, sin decidir si entran a `scope_exploration` | hecho | ¿Existen F-X05 y F-X07 en el corpus vigente? En qué archivo y con qué clasificación, en todas las refs | CC | cerrado-ya-hecho — 79 diagnósticos ya clasificados en `working/data_gathering/diagnostics/part_4/` (43 `__F-X05.json` + 36 `__F-X07.json`, cada uno con `verification_status`); 0 refs a `scope_exploration` |
-| P-082 | Acumulación en `source_intake_gpt_recovery/` sin flujo de recovery definido | hecho | ¿Cuántos archivos hay hoy en ese directorio en `main`? Si 0, cierra | CC | cerrado-ya-hecho — `working/source_intake/source_intake_gpt_recovery/` solo tiene `.gitkeep`, 0 archivos reales |
-| P-097 | Phase 1b corrió sin validador (D-140). Diagnóstico corregido en S28: la ausencia de `validation_status` es conformidad con el schema | hecho | ¿Existe script de validación de Phase 1b en cualquier rama o en la historia? Nombre y ruta | CC | promover-a-decision — sin script en `main`/`legacy/*`/`preserve/*`/`git log --all`/objetos unreachable (`git fsck`); solo contrato+schema+`.gitkeep` vacío. No existir no es una decisión tomada, es ausencia sin resolver |
-| P-075 | Sin lugar definido para QA notes densos tipo DX-2 | hecho | ¿Existen QA notes en el repo? Cuántos, en qué rutas | CC | cerrado-ya-hecho — `working/data_gathering/diagnostics/qa_notes/`, 59 archivos |
 | P-094 | Métricas de flujo por fase diferidas. Los contadores de los manifests no discriminan | hecho | ¿Qué escribe métricas a disco hoy? Enumerar todo script que persista contadores, con ruta de salida | CC | sigue-abierto — 6 scripts `.py` escriben manifest por-corrida (`eje4_xlsx_to_json_batch.py`, `part4_to_recovery_packets.py`, `bulk_extract.py`, `extraction_prepare.py`, `converter_prepare.py`, `signal_prepare.py`); sin métrica cross-fase, confirma el diagnóstico original |
-| U-4 | `working/data_gathering/part4_failure_mode_breakdown.json` sin dueño | hecho | ¿Qué archivo lo lee o lo escribe? Cero coincidencias = huérfano | CC | promover-a-decision — huérfano confirmado (0 refs en `main`, 0 refs en 105 objetos `unreachable` de `git fsck --full --unreachable`); qué hacer con él (borrar o conservar por valor diagnóstico) es juicio del operador |
 | P-092 | Auditoría de atomicidad de Phase 2 ejecutada solo sobre batch_001 | decisión | Enmarque: ¿cuántas cards existen hoy fuera de batch_001? | CC | sigue-abierto — `signal_converter_manifest.json`: `skeletons_processed: 25` = 100% de `batch_001`; `cards_written: 29`; 0 cards fuera de batch_001 |
 | P-102 | Falta regla de verificación de ramas en `CLAUDE.md`. Tres casos: `fetch --prune`, trampa de columna Ahead, el relay no borra refs | decisión | Enmarque: ¿`CLAUDE.md` menciona hoy alguna de las tres? | CC | sigue-abierto — `CLAUDE.md` (93 líneas): 0 menciones de `fetch --prune`, "Ahead" o "relay" |
 | P-109 | 186 queries del catálogo del eje 4 sin correr. Desbloqueado en S28 | decisión | Enmarque: ¿existe el catálogo de 186 queries en el repo? Ruta y conteo real | CC | sigue-abierto — el `.xlsx` no existe en `main`/`legacy/*`/`preserve/*`; `working/eje4/` no existe; solo script de pre-proceso + contrato del agente, sin correr. Conteo real no verificable desde el repo |
+| P-141 | `product_type_unclear` falta en `source_packet.schema.json` y en la prosa de `source_packet_conversion_template.md`, y `vocab_check.py` no puede detectarlo porque con `match: subset` solo reporta valores de más | hecho | ¿En qué archivos aparece `product_type_unclear` hoy, y qué reporta `vocab_check.py` sobre ese campo? | CC | |
+
+**Cerrados en esta corrección (ya hechos, verificados contra el repo — salen de la tabla):**
+
+- **P-075** — cerrado-ya-hecho — `working/data_gathering/diagnostics/qa_notes/`, 59 archivos
+- **P-077** — cerrado-ya-hecho — 79 diagnósticos ya clasificados en `working/data_gathering/diagnostics/part_4/` (43 `__F-X05.json` + 36 `__F-X07.json`, cada uno con `verification_status`); 0 refs a `scope_exploration`
+- **P-082** — cerrado-ya-hecho — `working/source_intake/source_intake_gpt_recovery/` solo tiene `.gitkeep`, 0 archivos reales
 
 ---
 
@@ -44,7 +46,7 @@ files, diseño) · `OP` = solo el operador.
 | ID | Enunciado | Clase | Qué falta | Dónde | Estado |
 |---|---|---|---|---|---|
 | P-125 | Regla 5 de `p2-extract-signals/SKILL.md` contradice campo 13 de `signal_converter.md` | hecho | **Decisión tomada en S28, edición pendiente.** Regla 5 → puntero; campo 13 → fuente única con exclusión de metadata y ruteo a `time_scope_raw` | CC | decidido, sin ejecutar |
-| P-137 | `extraction_converter.md` rutea fallos a `extraction_gpt_recovery/`, que no existe. El árbol y `CLAUDE.md` dicen `rejected_archive/` | hecho | Edición trivial de una ruta | CC | verificado |
+| P-137 | `extraction_converter.md` rutea fallos a `extraction_gpt_recovery/`, que no existe. El árbol y `CLAUDE.md` dicen `rejected_archive/` | hecho | Edición trivial de una ruta | CC | cerrado — ruta corregida en `extraction_converter.md` a `rejected_archive/`, commit `e0928ed` |
 | P-131 | Dos versiones de `Blueprint_Phase_2_Signal_Extraction.md` con la misma pretensión de fuente única | hecho | Retirar una. Vive en project files, no en el repo | DSC | verificado |
 | P-133 | El análisis de diferencias de S27 se llamó "health check", término reservado al componente E del Blueprint | hecho | Corrección de término en el registro | DSC | verificado |
 | P-126 | `time_scope_raw` sin regla para material mezclado (bloque A, decisión 2a) | decisión | Extraer verbatim y resto a `normalization_notes`, o conservar string completo y marcar contaminación | DSC | verificado |
@@ -64,6 +66,8 @@ files, diseño) · `OP` = solo el operador.
 | P-078 | Documentación de Signal Extraction fragmentada. Dos protocolos obsoletos contra el código en project files | decisión | Reencuadrado por el diseño de S29: blueprints viven en project files. Lo que queda es jubilar los dos obsoletos | DSC | verificado |
 | P-116 | Sin mecanismo para jubilar documentos obsoletos. Debilitado como causa del 28%, reforzado por P-129 y P-131 | decisión | Mecanismo, o aceptar el costo caso por caso | DSC | verificado |
 | P-121 | El archivado del manifest es prosa, no mecanismo | decisión | Construir el mecanismo, o aceptar la mitigación | CC | verificado |
+| P-097 | Phase 1b corrió sin validador (D-140). Diagnóstico corregido en S28: la ausencia de `validation_status` es conformidad con el schema | hecho | No existir no es una decisión tomada, es ausencia sin resolver | CC | promover-a-decision — sin script en `main`/`legacy/*`/`preserve/*`/`git log --all`/objetos unreachable (`git fsck`); solo contrato+schema+`.gitkeep` vacío. No existir no es una decisión tomada, es ausencia sin resolver |
+| U-4 | `working/data_gathering/part4_failure_mode_breakdown.json` sin dueño | hecho | Qué hacer con él (borrar o conservar por valor diagnóstico) es juicio del operador | CC | promover-a-decision — huérfano confirmado (0 refs en `main`, 0 refs en 105 objetos `unreachable` de `git fsck --full --unreachable`); qué hacer con él (borrar o conservar por valor diagnóstico) es juicio del operador |
 
 **Cerrados en esta corrección (decisión ya ejecutada, verificada — salen de la tabla):**
 
@@ -99,13 +103,13 @@ files, diseño) · `OP` = solo el operador.
 
 | Grupo | Filas |
 |---|---|
-| A — pendientes de verificar (Run 2) | 9 |
-| B — verificados, esperando decisión | 21 |
+| A — pendientes de verificar (Run 2) | 5 |
+| B — verificados, esperando decisión | 23 |
 | C — decisiones de DSC | 4 |
 | D — candidatos a parqueo | 5 |
-| **Total abiertos** | **39** |
+| **Total abiertos** | **37** |
 
-**Cerrados en esta corrección:** P-135, P-129a (ver citas en la tabla B, justo después de P-121).
+**Cerrados en esta corrección:** P-135, P-129a (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082 (ver citas bajo la tabla A, justo después de la tabla).
 **Cerrados en S28, no re-abrir:** P-076, P-107, P-108, P-110, P-112, P-114, P-120, P-122, P-123,
 P-124, P-130.
 **Cerrados antes:** P-058, P-060, P-063, P-064, P-065, P-066, P-079, P-080, P-101, P-104, P-105,
@@ -117,10 +121,10 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-21 de 39 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
+23 de 37 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
 5 no son decidibles hoy. **El cuello es la cola de decisiones, no la de verificación.**
 
-De los 19 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,
+De los 23 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,
 más `local_qualifiers` y `time_scope_raw`) y todos comparten la misma pregunta previa: qué campos
 consume Phase 3 realmente. Esa pregunta es el entregable A de Run 3. **Decidir cualquiera de los
 ocho antes de Run 3 repite el error que interrumpió S28 cuatro veces.**
