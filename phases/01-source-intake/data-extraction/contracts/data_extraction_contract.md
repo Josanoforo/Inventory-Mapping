@@ -183,16 +183,7 @@ No debe ser un resumen libre si puede preservarse el wording.
 Contexto mínimo necesario para no malinterpretar la afirmación.
 
 ### `claim_type`
-Valores sugeridos:
-- explicit_claim
-- policy_statement
-- pricing_statement
-- anecdotal_report
-- derived_calculation
-- comparative_commentary
-- review_statement
-- availability_statement
-- unknown
+Enum cerrado. La lista completa y autoritativa vive en `pipeline_vocabulary.yaml`, campo `claim_type` — no se reproduce aquí.
 
 ### `subject_exact`
 Campo crítico.
