@@ -124,8 +124,12 @@ def get_conteo(all_lines):
 
 
 def get_closed_ids(text):
-    """IDs listed under any '**Cerrad...:**' heading (bullet list or inline
-    comma list), across the whole document. Parenthetical asides (citation
+    """IDs listed under any '**Cerrad...:**' or '**Parquead...:**' heading
+    (bullet list or inline comma list), across the whole document. Same
+    matching for both: a parked row is reversible (returns to its table
+    when its desparqueo condition is met) where a closed row is not, but
+    structurally both remove a row from the open-table count the same
+    way, so they share this collector. Parenthetical asides (citation
     pointers like '(ver citas ... P-121)') are stripped first so a mere
     cross-reference doesn't get mistaken for closed-list membership. Each
     segment ends at whichever comes first: the next bold-colon heading of
@@ -137,7 +141,7 @@ def get_closed_ids(text):
     closed = {}
     for i, m in enumerate(headings):
         label = m.group(1)
-        if not re.match(r"(?i)^cerrad[oa]s?\b", label):
+        if not re.match(r"(?i)^(cerrad[oa]s?|parquead[oa]s?)\b", label):
             continue
         start = m.end()
         end = len(text)
