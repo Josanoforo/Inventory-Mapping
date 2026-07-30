@@ -1,0 +1,519 @@
+{
+  "extraction_record_fields": [
+    {
+      "field": "extraction_id",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:9,38",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:64,74,144,154,180,193 (+4 more)",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:186,199,201",
+      "arrival_name": "ver nota (arrival compuesta / mecanica, no via _extraction_context)",
+      "note": "No entra a _extraction_context. Consumido directamente por signal_prepare.py (build_skeleton, signal_prepare.py:180) para poblar dos campos mecanicos de la Signal Card: source_record_ids: [extraction_id] (signal_prepare.py:207) y traceability_pointers[1].pointer_value (signal_prepare.py:193). Arrival: Signal Card.source_record_ids[0] y Signal Card.traceability_pointers[1].pointer_value.",
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_packet_id",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:10,43",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:75,194",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "ver nota (arrival compuesta / mecanica, no via _extraction_context)",
+      "note": "Entra a _extraction_context (signal_prepare.py:75) pero ningun campo de juicio lo hereda en signal_converter.md. Consumido ademas directamente por signal_prepare.py como traceability_pointers[1].secondary_pointer (signal_prepare.py:194). Arrival: Signal Card.traceability_pointers[1].secondary_pointer.",
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_id",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:11,48",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:65,76,181,208",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "ver nota (arrival compuesta / mecanica, no via _extraction_context)",
+      "note": "No entra a _extraction_context. Consumido directamente por signal_prepare.py (build_skeleton, signal_prepare.py:181) para poblar source_ids: [source_id] (signal_prepare.py:208). Arrival: Signal Card.source_ids[0].",
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_type",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:12,53",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:77",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:21,32,34,180,186,190 (+15 more)",
+      "arrival_name": "no entra al schema de Signal Card; solo relectura directa desde signal_to_markdown.py",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_title",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:13,76",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:78",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_ref",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:14,80",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:79",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_date_if_available",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:15,85",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:80",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "author_or_actor_if_available",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:16,89",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:81",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "snippet_primary",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:17,93",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:67,82",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:134",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.signal_text",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "snippet_context_before",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:18,98",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:83",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "snippet_context_after",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:19,102",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:84",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "claim_type",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:20,106",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:85",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "SIN-CONSUMIDOR-ENCONTRADO",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "subject_exact",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:21,122",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:16,86,214",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:136",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.subject_exact",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "actor_level",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:22,127",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:16,87,215",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:140",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:23,37,79,124,126,128 (+10 more)",
+      "arrival_name": "Signal Card.actor_level",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "platforms",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:23,165,171",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:16,88,216",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:161",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.platforms",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "product_type_if_explicit",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:24,173",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:17,89,217",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:163",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.product_type_if_explicit",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "metric_type",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:25,216",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:17,90,218",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:165",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.metric_type",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "metric_value_raw",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:26,277",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:17,91,219",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:167",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.metric_value_raw",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "metric_unit",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:27,281",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:17,92,220",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:169",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.metric_unit",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "time_scope_raw",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:28,285",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:18,93,221",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:171",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:19,47,155,161",
+      "arrival_name": "Signal Card.time_scope_raw",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "time_scope_normalized_if_safe",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:29,289",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:18,94,222",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:173",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:19,47,155,157",
+      "arrival_name": "Signal Card.time_scope_normalized_if_safe",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "geography_if_explicit",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:30,293",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:18,95,223",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:175",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.geography_if_explicit",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "evidence_role",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:31,311",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:19,96,224",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:177",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:25,251,274",
+      "arrival_name": "Signal Card.evidence_role",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "local_qualifiers",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:32,328",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:19,97,225",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:179",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.local_qualifiers",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "uncertainties",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:33,336",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:19,98,226",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:183",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.uncertainties",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "parser_notes",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:34,361",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:99",
+      "stage2_signal_converter": "phases/02-signal-extraction/modules/signal_converter.md:187",
+      "bridge_signal_to_markdown_direct_reread": "(sin ocurrencia)",
+      "arrival_name": "Signal Card.extraction_notes",
+      "note": null,
+      "has_any_consumer": true
+    },
+    {
+      "field": "traceability_pointer",
+      "produced_at": "phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:35,368",
+      "stage1_signal_prepare": "phases/02-signal-extraction/scripts/signal_prepare.py:66,150,151,156,182",
+      "stage2_signal_converter": "SIN-CONSUMIDOR-ENCONTRADO",
+      "bridge_signal_to_markdown_direct_reread": "phases/02-signal-extraction/scripts/signal_to_markdown.py:17,50",
+      "arrival_name": "ver nota (arrival compuesta / mecanica, no via _extraction_context)",
+      "note": "No entra a _extraction_context (no está en EXTRACTION_CONTEXT_FIELDS). signal_prepare.py accede a record[\"traceability_pointer\"] directamente y lo reparte en dos posiciones del array traceability_pointers de la Signal Card: pointer_type/pointer_value/secondary_pointer originales copiados tal cual (signal_prepare.py:186-190), mas un segundo pointer sintetico {pointer_type: 'source_record_ref', pointer_value: extraction_id, secondary_pointer: source_packet_id} (signal_prepare.py:191-195).",
+      "has_any_consumer": true
+    }
+  ],
+  "signal_card_fields": [
+    {
+      "field": "signal_id",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:9,32",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:90,168,173,249,260,298 (+3 more)",
+      "arrival_in_markdown": "card id line \"**{signal_id}**\" (signal_to_markdown.py:260)",
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_record_ids",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:10,37",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:34,221,222,223",
+      "arrival_in_markdown": "no aparece como valor literal en el markdown. Usado como clave de lookup para resolver el label \"Source type:\" via lookup_source_type() (def en signal_to_markdown.py:208, usa source_record_ids en signal_to_markdown.py:222-225).",
+      "has_any_consumer": true
+    },
+    {
+      "field": "source_ids",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:11,47",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "round",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:12,57,60",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:5,13,90,170,239,282 (+5 more)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": true
+    },
+    {
+      "field": "signal_text",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:13,62",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:15,250,262",
+      "arrival_in_markdown": "markdown label \"Observation:\" (signal_to_markdown.py:262)",
+      "has_any_consumer": true
+    },
+    {
+      "field": "subject_exact",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:14,67",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "actor_level",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:15,72",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:23,37,79,124,126,128 (+10 more)",
+      "arrival_in_markdown": "markdown label \"Actor:\" (signal_to_markdown.py:272)",
+      "has_any_consumer": true
+    },
+    {
+      "field": "platforms",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:16,109,115",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "product_type_if_explicit",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:17,117",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "metric_type",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:18,160",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "metric_value_raw",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:19,221",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "metric_unit",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:20,225",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "time_scope_raw",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:21,229",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:19,47,155,161",
+      "arrival_in_markdown": "alimenta el label \"Date:\" via extract_date() (def en signal_to_markdown.py:152), usado solo si time_scope_normalized_if_safe es null (signal_to_markdown.py:157-163).",
+      "has_any_consumer": true
+    },
+    {
+      "field": "time_scope_normalized_if_safe",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:22,233",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:19,47,155,157",
+      "arrival_in_markdown": "alimenta el label \"Date:\" via extract_date() (def en signal_to_markdown.py:152), con prioridad sobre time_scope_raw (signal_to_markdown.py:157-159).",
+      "has_any_consumer": true
+    },
+    {
+      "field": "geography_if_explicit",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:23,237",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "evidence_role",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:24,255",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:25,251,274",
+      "arrival_in_markdown": "markdown label \"Evidence base:\" (signal_to_markdown.py:274)",
+      "has_any_consumer": true
+    },
+    {
+      "field": "local_qualifiers",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:25,272",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "uncertainties",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:26,280",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "traceability_pointers",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:27,302",
+      "signal_to_markdown_occurrences": "phases/02-signal-extraction/scripts/signal_to_markdown.py:98,104,108,113,118,252 (+1 more)",
+      "arrival_in_markdown": "alimenta el label \"Source:\" via extract_source_url() (def en signal_to_markdown.py:98, invocada en signal_to_markdown.py:255) -- no aparece como valor literal propio, se recorre para elegir un pointer_value.",
+      "has_any_consumer": true
+    },
+    {
+      "field": "normalization_notes",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:28,310",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    },
+    {
+      "field": "extraction_notes",
+      "produced_at": "phases/02-signal-extraction/schemas/signal_card.schema.json:29,317",
+      "signal_to_markdown_occurrences": "(sin ocurrencia)",
+      "arrival_in_markdown": "SIN-CONSUMIDOR-ENCONTRADO",
+      "has_any_consumer": false
+    }
+  ],
+  "card_record_fields": [
+    {
+      "field": "id",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,8",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20,30",
+      "origin": "markdown card id line \"**{signal_id}**\" (signal_to_markdown.py:260)"
+    },
+    {
+      "field": "round",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,12",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "No aparece por card dentro del bloque delimitado por ---. Solo aparece en la cabecera del archivo (\"# Signal Cards — Round {round_number}\", signal_to_markdown.py:305) y en el nombre de archivo signal_cards_round_{N}.md. El indexer (03_indexer.md:20) lo declara como campo a extraer por card pero format_card() no lo emite por card -- la extraccion depende de contexto de archivo/lote, no de un literal dentro del bloque de card."
+    },
+    {
+      "field": "observation",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,13,60",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20,30",
+      "origin": "markdown label \"Observation:\" <- signal_text (directo) (signal_to_markdown.py:262)"
+    },
+    {
+      "field": "source",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,14,45",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "markdown label \"Source:\" <- derivado de traceability_pointers via extract_source_url() (signal_to_markdown.py:264)"
+    },
+    {
+      "field": "date",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:15",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "markdown label \"Date:\" <- derivado de time_scope_normalized_if_safe / time_scope_raw via extract_date() (signal_to_markdown.py:266)"
+    },
+    {
+      "field": "source_type",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,16",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "markdown label \"Source type:\" <- NO es un campo de Signal Card (ausente del schema, additionalProperties:false). Recuperado por relectura directa del Extraction Record original (working/data_extraction/records/<source_record_ids[0]>.json) via build_record_index()/lookup_source_type(). (signal_to_markdown.py:268)"
+    },
+    {
+      "field": "domain",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,39",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20,30",
+      "origin": "markdown label \"Domain:\" <- derivado de actor_level via derive_domain() (signal_to_markdown.py:270)"
+    },
+    {
+      "field": "actor",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,43",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20,21",
+      "origin": "markdown label \"Actor:\" <- actor_level (signal_to_markdown.py:272)"
+    },
+    {
+      "field": "evidence_base",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:47",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "markdown label \"Evidence base:\" <- evidence_role (signal_to_markdown.py:274)"
+    },
+    {
+      "field": "extraction_status",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:6,48",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:20",
+      "origin": "SIN-CONSUMIDOR-ENCONTRADO. Requerido en card_record.schema.json pero format_card() (signal_to_markdown.py:234-278) no emite ninguna linea equivalente (\"Extraction status: ...\" no existe en el archivo) y 03_indexer.md no documenta de donde mas se derivaria."
+    },
+    {
+      "field": "entities",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:52,55",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:22",
+      "origin": "Sin campo de origen aguas arriba. Generado por el propio indexer, \"best-effort extraction to aid scanning\" (03_indexer.md:23)."
+    },
+    {
+      "field": "figures",
+      "declared_at": "phases/03-inventory-mapping/schemas/card_record.schema.json:57,60",
+      "indexer_reference": "phases/03-inventory-mapping/modules/03_indexer.md:22,23",
+      "origin": "Sin campo de origen aguas arriba. Generado por el propio indexer, \"best-effort extraction to aid scanning\" (03_indexer.md:23)."
+    }
+  ],
+  "card_record_meta": {
+    "indexer_field_list_line": 20,
+    "indexer_actor_line": 21,
+    "indexer_entities_line": 22
+  },
+  "named_check_metric_fields": {
+    "metric_type": {
+      "in_required_array": true,
+      "required_array_line": 18,
+      "properties_definition_line": 160
+    },
+    "metric_value_raw": {
+      "in_required_array": true,
+      "required_array_line": 19,
+      "properties_definition_line": 221
+    },
+    "metric_unit": {
+      "in_required_array": true,
+      "required_array_line": 20,
+      "properties_definition_line": 225
+    }
+  }
+}

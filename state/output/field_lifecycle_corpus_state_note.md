@@ -1,0 +1,3 @@
+# Nota de estado del corpus (hallazgo, no generado por este script)
+
+`working/entry_gate/`, `working/split/` y `working/index/` solo contienen `.gitkeep` al momento de esta corrida. No existe ningun `input/signal_cards_round_*.md` en el repo, y `working/index/card_index.jsonl` no existe. El puente `signal_to_markdown.py` y el Indexer (`03_indexer.md`) nunca se han ejecutado sobre el corpus vigente. Este script NO genera esos archivos (modo solo lectura salvo `state/`); el ciclo de vida de los campos de `card_record.schema.json` documentado aqui es estatico (codigo + contratos), no una observacion de datos reales.
