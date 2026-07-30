@@ -1,0 +1,41 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "as of April 2026",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/25648853025037/-cuales-son-los-metodos-de-pago-disponibles-para-comprar-en-hotmart-",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "Venezuela",
+  "metric_value_raw": null,
+  "source_title": "Cuales Son Los Metodos De Pago Disponibles Para Comprar En Hotmart",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008-SNP-001",
+  "parser_notes": [
+    "Snippet gives no detail on the nature of the restriction beyond its existence"
+  ],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "as of April 2026",
+  "local_qualifiers": [
+    "actualmente"
+  ],
+  "subject_exact": "Hotmart payment restrictions affecting Venezuela",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008",
+  "actor_level": "platform",
+  "snippet_primary": "\"Actualmente, existen algunas restricciones de pago en Venezuela.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-008",
+  "source_ref": "https://help.hotmart.com/es/article/25648853025037/-cuales-son-los-metodos-de-pago-disponibles-para-comprar-en-hotmart-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "payment_method_availability"
+}

@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "evidence_role": "database_fact",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "México",
+  "metric_value_raw": null,
+  "source_title": "Ventas Globales Responsabilidades Fiscales Sobre Las Ventas Realizadas A Traves De Hotmart",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009-SNP-004",
+  "parser_notes": [
+    "Snippet is a table row reconstructed from multiple subagent passes per skeleton metadata"
+  ],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "Efectivo desde 1 de enero de 2024 (algunos países) / 1 de abril de 2025 (demás países)",
+  "local_qualifiers": [],
+  "subject_exact": "Hotmart tax-management responsibility scenario: Mexico buyer, any-other-country seller (Hotmart responsible)",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "actor_level": "platform",
+  "snippet_primary": "[Contenido de tabla; múltiples subagentes confirman la fila: Escenario 2 — Productor: cualquier país excepto México — Comprador: México — Responsable: Hotmart gestiona impuestos y emite facturas]",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-009",
+  "source_ref": "https://help.hotmart.com/es/article/27142347940749/ventas-globales-responsabilidades-fiscales-sobre-las-ventas-realizadas-a-traves-de-hotmart",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "time_scope_unclear"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "unknown"
+}

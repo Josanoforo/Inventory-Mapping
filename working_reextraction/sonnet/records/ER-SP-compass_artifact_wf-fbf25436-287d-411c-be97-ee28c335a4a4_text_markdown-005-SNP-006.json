@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "November 19, 2025",
+  "evidence_role": "anecdotal_example",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=2",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "unknown",
+  "time_scope_normalized_if_safe": "2025-11-19",
+  "geography_if_explicit": null,
+  "metric_value_raw": "2 subscriptions",
+  "source_title": "Review",
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-006",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "November 19, 2025",
+  "local_qualifiers": [],
+  "subject_exact": "Trustpilot buyer complaint of subscription content delivery stopping despite continued billing on Gumroad",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "actor_level": "buyer",
+  "snippet_primary": "\"Some of ther worst support I've ever received in my entire life. I keep having bot like responses even though ironically chat GPT would respond better. I randomly had lessons from 2 subscriptions stop sending me lessons despite being charged, the support refuses to help I've never had such poor quality support.\"",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "review_statement",
+  "metric_type": "unknown"
+}

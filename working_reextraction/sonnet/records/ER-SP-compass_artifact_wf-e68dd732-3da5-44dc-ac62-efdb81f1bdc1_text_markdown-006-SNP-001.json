@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page date not visible in search index",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/327-purchasing-power-parity",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Purchasing Power Parity",
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-006-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page date not visible in search index",
+  "local_qualifiers": [],
+  "subject_exact": "Gumroad purchasing power parity (PPP) dynamic discount mechanism for creators",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-006",
+  "actor_level": "platform",
+  "snippet_primary": "\"Purchasing power parity (PPP) lets Gumroad creators set up dynamic discounts based on where the customer lives, ensuring that the price is proportional to their local currency and cost of living.\"",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-006",
+  "source_ref": "https://help.gumroad.com/article/327-purchasing-power-parity",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "unknown"
+}

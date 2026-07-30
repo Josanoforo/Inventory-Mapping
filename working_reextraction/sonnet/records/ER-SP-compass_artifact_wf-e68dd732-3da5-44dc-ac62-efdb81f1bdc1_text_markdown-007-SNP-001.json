@@ -1,0 +1,42 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Page last updated July 18, 2024",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/66-gumroads-fees",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2024-07-18",
+  "geography_if_explicit": null,
+  "metric_value_raw": "10%",
+  "source_title": "Gumroads Fees",
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007-SNP-001",
+  "parser_notes": [
+    "fee base (10% flat) explicitly distinguished from processing fees, not collapsed"
+  ],
+  "platforms": [
+    "Gumroad",
+    "PayPal"
+  ],
+  "source_date_if_available": "Page last updated July 18, 2024 (per search index metadata)",
+  "local_qualifiers": [
+    "does not include credit card processing or PayPal fees"
+  ],
+  "subject_exact": "Gumroad website-sale flat fee rate, exclusive of card/PayPal processing fees",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "actor_level": "platform",
+  "snippet_primary": "\"For sales made on Gumroad's website, we charge a 10% flat fee. This does not include: Credit card processing PayPal fees\"",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_ref": "https://help.gumroad.com/article/66-gumroads-fees",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": "fee_rate"
+}

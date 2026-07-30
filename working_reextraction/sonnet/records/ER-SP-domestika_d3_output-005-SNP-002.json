@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/plus",
+    "secondary_pointer": null
+  },
+  "metric_unit": "courses",
+  "source_type": "product_listing",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "+1.000 cursos gratuitos; +100 cursos nuevos por semana",
+  "source_title": "Plus",
+  "extraction_id": "ER-SP-domestika_d3_output-005-SNP-002",
+  "parser_notes": [
+    "metric_type has no exact enum match for a catalog-size count; kept as 'unknown' rather than force-fit sales_count"
+  ],
+  "platforms": [
+    "Domestika"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [],
+  "subject_exact": "Domestika Plus free-course catalog size and weekly addition rate",
+  "source_packet_id": "SP-domestika_d3_output-005",
+  "actor_level": "platform",
+  "snippet_primary": "\"Explora un mundo de posibilidades con +1.000 cursos gratuitos para ver ahora mismo. Cada semana se añaden +100 cursos nuevos.\"",
+  "source_id": "SRC-domestika_d3_output-005",
+  "source_ref": "https://www.domestika.org/es/plus",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "statistical_data",
+  "metric_type": "unknown"
+}

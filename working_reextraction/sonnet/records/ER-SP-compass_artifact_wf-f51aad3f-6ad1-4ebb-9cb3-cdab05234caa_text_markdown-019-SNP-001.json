@@ -1,0 +1,38 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "not dated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/paddle-alternative",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent + USD flat",
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "5% + 50¢",
+  "source_title": "Paddle Alternative",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Lemon Squeezy",
+    "Paddle"
+  ],
+  "source_date_if_available": "not dated",
+  "local_qualifiers": [],
+  "subject_exact": "Lemon Squeezy all-inclusive per-transaction fee positioned against Paddle",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019",
+  "actor_level": "platform",
+  "snippet_primary": "\"We provide all-inclusive pricing of 5% + 50¢ per transaction. You might be used to similar fees over at Paddle, but that's just the beginning. Explore some of the benefits of Lemon Squeezy over Paddle below.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019",
+  "source_ref": "https://www.lemonsqueezy.com/paddle-alternative",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": "fee_rate"
+}

@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/plus",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD (unspecified whether US or regional pricing)",
+  "source_type": "product_listing",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "$33.90/mes ($14.59/mes con cobro anual de $174.50); renovación anual $349",
+  "source_title": "Plus",
+  "extraction_id": "ER-SP-domestika_d3_output-005-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Domestika"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "Puedes cancelar la renovación de la suscripción cuando quieras",
+    "Después de un año, el precio de renovación será el monto total"
+  ],
+  "subject_exact": "Domestika Plus subscription monthly/annual pricing and renewal terms",
+  "source_packet_id": "SP-domestika_d3_output-005",
+  "actor_level": "platform",
+  "snippet_primary": "\"$33.90/mes $14.59/mes Cobro anual de $174.50 Suscríbete a Plus $33.90/mes Suscríbete a Plus Aplican términos y condiciones. Puedes cancelar la renovación de la suscripción cuando quieras. Después de un año, el precio de renovación será el monto total de $349\"",
+  "source_id": "SRC-domestika_d3_output-005",
+  "source_ref": "https://www.domestika.org/es/plus",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": "price"
+}

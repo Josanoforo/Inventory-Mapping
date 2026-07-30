@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "not dated",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent + USD flat",
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "5% + 50¢ (Lemon Squeezy) vs 10% + ~3% + 30¢ processing (Gumroad)",
+  "source_title": "Gumroad Alternative",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017-SNP-001",
+  "parser_notes": [
+    "Published by Lemon Squeezy itself about a direct competitor"
+  ],
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad"
+  ],
+  "source_date_if_available": "not dated",
+  "local_qualifiers": [],
+  "subject_exact": "Lemon Squeezy vs Gumroad per-transaction fee comparison (vendor-authored)",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "actor_level": "platform",
+  "snippet_primary": "\"Lemon Squeezy only charges a 5% + 50¢ fee per transaction, compared to 10% + payment processing fees (~3% + 30¢) at Gumroad. This means you get to keep more of your hard-earned money.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "fee_rate"
+}

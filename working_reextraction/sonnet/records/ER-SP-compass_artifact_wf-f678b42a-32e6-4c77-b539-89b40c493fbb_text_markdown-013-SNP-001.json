@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "as of April 2026",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/4423635238413/-que-es-vat-",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "México",
+  "metric_value_raw": null,
+  "source_title": "Que Es Vat",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-013-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "as of April 2026",
+  "local_qualifiers": [],
+  "subject_exact": "Mexico restriction on including tax within the listed product price on Hotmart",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-013",
+  "actor_level": "platform",
+  "snippet_primary": "\"En México no es posible incluir impuestos en el precio del producto.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-013",
+  "source_ref": "https://help.hotmart.com/es/article/4423635238413/-que-es-vat-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "unknown"
+}

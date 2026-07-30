@@ -1,0 +1,41 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "2025-04-28",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://noda.live/articles/lemonsqueezy-vs-stripe",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "article",
+  "time_scope_normalized_if_safe": "2025-04-28",
+  "geography_if_explicit": null,
+  "metric_value_raw": "100+ payment methods (Stripe)",
+  "source_title": "Lemonsqueezy Vs Stripe",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe",
+    "PayPal"
+  ],
+  "source_date_if_available": "2025-04-28",
+  "local_qualifiers": [
+    "Subscriptions run through PayPal, which doesn't give you full control"
+  ],
+  "subject_exact": "Lemon Squeezy vs Stripe payment-method flexibility and subscription-billing capability",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008",
+  "actor_level": "source",
+  "snippet_primary": "\"Lemon Squeezy is great if you're a digital creator and needs a quick and simple setup. But it's limited—you can't accept pay-by-bank, offline payments, or many other payment methods. Subscriptions run through PayPal, which doesn't give you full control. Stripe gives you more flexibility. You can accept 100+ payment methods, including bank transfers and in-person payments. It supports advanced subscription billing and has tools for custom checkouts. If you just want to sell digital products fast in the US, Lemon Squeezy works. But if you're planning to grow or need more options, Stripe is the better choice.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008",
+  "source_ref": "https://noda.live/articles/lemonsqueezy-vs-stripe",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "payment_method_availability"
+}

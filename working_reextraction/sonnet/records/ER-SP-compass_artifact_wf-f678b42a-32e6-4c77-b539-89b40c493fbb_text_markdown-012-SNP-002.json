@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "a partir de agosto de 2021",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2021-08",
+  "geography_if_explicit": "Chile",
+  "metric_value_raw": "19%",
+  "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-002",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "local_qualifiers": [
+    "para compras realizadas por empresas, será posible ... obtener la exención del impuesto"
+  ],
+  "subject_exact": "Hotmart Chile IVA collection rate on individual purchases since August 2021",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "actor_level": "platform",
+  "snippet_primary": "\"Conforme a las regulaciones fiscales locales, a partir de agosto de 2021, Hotmart recauda el IVA (Impuesto al Valor Agregado) en las ventas realizadas a compradores en Chile. [...] El impuesto se aplicará en todas las ventas realizadas a personas físicas con una tasa del 19%. Para compras realizadas por empresas, será posible ingresar un RUT (Rol Único Tributario) válido en la página de pago y, así, obtener la exención del impuesto.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "fee_rate"
+}

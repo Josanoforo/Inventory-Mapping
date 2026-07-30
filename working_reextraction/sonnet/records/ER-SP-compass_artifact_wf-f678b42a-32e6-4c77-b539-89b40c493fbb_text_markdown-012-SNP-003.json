@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "en vigor desde junio de 2020",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2020-06",
+  "geography_if_explicit": "México",
+  "metric_value_raw": "16%",
+  "source_title": "Que Impuestos Pueden Aplicarse A Una Compra",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012-SNP-003",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "Referencia a eliminación de Impuesto País: 23 de diciembre de 2024",
+  "local_qualifiers": [],
+  "subject_exact": "Mexico IVA rate applied to purchases from foreign websites since June 2020",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "actor_level": "source",
+  "snippet_primary": "\"Las compras realizadas por residentes de México en sitios web extranjeros están sujetas a un impuesto del 16%, según la ley del Impuesto al Valor Agregado (IVA), en vigor desde junio de 2020.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-012",
+  "source_ref": "https://help.hotmart.com/es/article/360051146712/-que-impuestos-pueden-aplicarse-a-una-compra-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "fee_rate"
+}

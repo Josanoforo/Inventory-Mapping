@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "as of April 2026",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/213026287/-como-es-el-proceso-de-compra-internacional-",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Como Es El Proceso De Compra Internacional",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-004-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "as of April 2026",
+  "local_qualifiers": [],
+  "subject_exact": "Hotmart automatic currency conversion for international purchases based on buyer location",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-004",
+  "actor_level": "platform",
+  "snippet_primary": "\"En caso de compras internacionales, el sistema identifica la ubicación del comprador y el valor del producto se convertirá automáticamente a la moneda local, Dólar o Euro (dependiendo del país).\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-004",
+  "source_ref": "https://help.hotmart.com/es/article/213026287/-como-es-el-proceso-de-compra-internacional-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "unknown"
+}

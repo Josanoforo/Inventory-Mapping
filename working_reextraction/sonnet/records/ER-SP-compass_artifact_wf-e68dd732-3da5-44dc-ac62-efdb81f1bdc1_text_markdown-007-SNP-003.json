@@ -1,0 +1,37 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Page last updated July 18, 2024",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/66-gumroads-fees",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2024-07-18",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Gumroads Fees",
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007-SNP-003",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Page last updated July 18, 2024 (per search index metadata)",
+  "local_qualifiers": [],
+  "subject_exact": "Gumroad affiliate program fee structure (no additional platform fee beyond commission)",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "actor_level": "platform",
+  "snippet_primary": "\"There are no additional fees for affiliates – only the affiliate's sales commission gets deducted from the sale.\"",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_ref": "https://help.gumroad.com/article/66-gumroads-fees",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "fee_rate"
+}

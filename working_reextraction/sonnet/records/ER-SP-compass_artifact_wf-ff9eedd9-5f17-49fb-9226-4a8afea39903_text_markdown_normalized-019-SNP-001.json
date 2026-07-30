@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.podia.com/podia-vs-gumroad",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "article",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Podia Vs Gumroad",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019-SNP-001",
+  "parser_notes": [
+    "Published by Podia itself about a direct competitor"
+  ],
+  "platforms": [
+    "Gumroad",
+    "Podia"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [],
+  "subject_exact": "Gumroad vs Podia platform-scope comparison (basic download store vs all-in-one business platform)",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019",
+  "actor_level": "platform",
+  "snippet_primary": "\"Gumroad is primarily a digital download platform where you can sell files and set up a basic online store. Podia is an all-in-one platform that replaces many tools for your business, including your website builder, email marketing software, online course platform, live chat plugin, and much more.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019",
+  "source_ref": "https://www.podia.com/podia-vs-gumroad",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "unknown"
+}

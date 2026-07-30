@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "as of April 2026",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "secondary_pointer": null
+  },
+  "metric_unit": "mixed (USD/EUR)",
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": null,
+  "metric_value_raw": "US$ 50,00 o € 50,00 + tarifas",
+  "source_title": "Como Retirar Mi Comision",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-003",
+  "parser_notes": [
+    "Mixed currency units declared: USD or EUR threshold plus unspecified fees"
+  ],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "as of April 2026",
+  "local_qualifiers": [],
+  "subject_exact": "Hotmart minimum withdrawal balance",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "actor_level": "platform",
+  "snippet_primary": "\"el valor mínimo para retiro es de US$ 50,00 o € 50,00 + tarifas.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "payout"
+}

@@ -1,0 +1,41 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "November 19, 2025",
+  "evidence_role": "anecdotal_example",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=2",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "unknown",
+  "time_scope_normalized_if_safe": "2025-11-19",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Review",
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-005",
+  "parser_notes": [
+    "Buyer states having reported the matter to FTC and their bank"
+  ],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "November 19, 2025",
+  "local_qualifiers": [
+    "within the refund period"
+  ],
+  "subject_exact": "Trustpilot buyer complaint of automated-only Gumroad support response after being blocked by a seller within the refund window",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "actor_level": "buyer",
+  "snippet_primary": "\"I provided full proof that I was blocked by the seller within the refund period, yet Gumroad kept sending automated AI replies saying \\\"contact the seller.\\\" Now, they simply ignore my emails — not even a single human response. This platform protects scammers, not creators or customers. I've already reported this to FTC and my local bank.\"",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=2",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "review_statement",
+  "metric_type": "refund_policy"
+}

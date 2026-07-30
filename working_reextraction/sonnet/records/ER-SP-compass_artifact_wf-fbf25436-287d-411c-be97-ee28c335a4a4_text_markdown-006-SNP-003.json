@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "August 12, 2025",
+  "evidence_role": "anecdotal_example",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com?page=3",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD",
+  "source_type": "unknown",
+  "time_scope_normalized_if_safe": "2025-08-12",
+  "geography_if_explicit": null,
+  "metric_value_raw": "$0",
+  "source_title": "Review",
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-003",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "August 12, 2025",
+  "local_qualifiers": [
+    "I wasn't logged in",
+    "I haven't used Gumroad before"
+  ],
+  "subject_exact": "Trustpilot buyer complaint of an erroneous active-chargeback flag blocking a new, unrelated Gumroad checkout",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "actor_level": "buyer",
+  "snippet_primary": "\"I was trying to purchase something on Gumroad for $0, but as I got to the checkout, it said that I have an active chargeback on one of my past Gumroad purchases. However, I wasn't logged in, I didn't give them my card information AND I HAVEN'T USED GUMROAD BEFORE. So, even if I did have an active chargeback, how would they know?\"",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com?page=3",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "review_statement",
+  "metric_type": "unknown"
+}

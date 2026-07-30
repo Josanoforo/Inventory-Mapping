@@ -1,0 +1,42 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "gumroad.com",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-002-SNP-001",
+  "parser_notes": [
+    "Testimonial displayed on Gumroad's own homepage"
+  ],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "every Friday"
+  ],
+  "subject_exact": "seller testimonial on Gumroad homepage: simplicity of listing and weekly Friday payout",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-002",
+  "actor_level": "seller",
+  "snippet_primary": "\"I love Gumroad because it can't be any simpler. I upload a file, set a price, and I can start selling on the internet. The money I make from my sales lands directly in my bank account every Friday.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-002",
+  "source_ref": "https://gumroad.com/",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "source_date_unclear"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "payout"
+}

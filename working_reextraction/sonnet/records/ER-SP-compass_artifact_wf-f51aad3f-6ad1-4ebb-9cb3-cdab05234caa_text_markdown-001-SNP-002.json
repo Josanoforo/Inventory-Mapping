@@ -1,0 +1,38 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "2025-04-06",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD/month",
+  "source_type": "blog",
+  "time_scope_normalized_if_safe": "2025-04-06",
+  "geography_if_explicit": null,
+  "metric_value_raw": "$50K MRR",
+  "source_title": "Stripe Vs Lemonsqueezy Saas",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001-SNP-002",
+  "parser_notes": [],
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "source_date_if_available": "2025-04-06",
+  "local_qualifiers": [],
+  "subject_exact": "recommendation threshold ($50K MRR) for switching from Lemon Squeezy to Stripe",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "actor_level": "source",
+  "snippet_primary": "\"For most early-stage SaaS founders, Lemon Squeezy provides the path of least resistance with sufficient functionality. As you scale past $50K MRR or need more complex billing models, Stripe's flexibility becomes more valuable despite the additional development complexity.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-001",
+  "source_ref": "https://anotherwrapper.com/blog/stripe-vs-lemonsqueezy-saas",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "revenue"
+}

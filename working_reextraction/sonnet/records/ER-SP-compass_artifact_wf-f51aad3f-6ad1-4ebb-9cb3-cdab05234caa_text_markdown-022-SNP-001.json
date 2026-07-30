@@ -1,0 +1,43 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "2026",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.wearefounders.uk/best-platforms-for-selling-digital-products-in-2026",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent + USD flat",
+  "source_type": "article",
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": null,
+  "metric_value_raw": "5% + $0.50 base; +1.5% international; +3% affiliate referral; +5% abandoned-cart recovery",
+  "source_title": "Best Platforms For Selling Digital Products In 2026",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022-SNP-001",
+  "parser_notes": [
+    "Combined fee-tier block reported as single unit in source; not split into separate records"
+  ],
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "source_date_if_available": "2026",
+  "local_qualifiers": [
+    "if you're a UK-based founder selling globally, almost all your transactions will attract that 1.5% surcharge"
+  ],
+  "subject_exact": "Lemon Squeezy fee breakdown by transaction type (base, international, affiliate, cart recovery)",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022",
+  "actor_level": "source",
+  "snippet_primary": "\"The base rate is 5% + $0.50 per transaction with no monthly fee. International transactions (outside the US) incur an additional 1.5%. If you use the affiliate programme, there's an extra 3% fee on referred sales. Recovered payments from abandoned cart emails add 5%. That headline 5% is half what Gumroad charges, but the extras can creep up. If you're a UK-based founder selling globally, almost all your transactions will attract that 1.5% surcharge, bringing your effective rate closer to 7%.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022",
+  "source_ref": "https://www.wearefounders.uk/best-platforms-for-selling-digital-products-in-2026",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": [
+    "fee_rate"
+  ]
+}

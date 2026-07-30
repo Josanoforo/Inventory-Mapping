@@ -1,0 +1,44 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "February 27, 2026",
+  "evidence_role": "reported_event",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://github.com/antiwork/gumroad/issues/3837",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD",
+  "source_type": "seller_forum",
+  "time_scope_normalized_if_safe": "2026-02-27",
+  "geography_if_explicit": [
+    "Argentina",
+    "Colombia",
+    "South Korea",
+    "Paraguay"
+  ],
+  "metric_value_raw": "minimum > $10",
+  "source_title": "Issues",
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002-SNP-001",
+  "parser_notes": [
+    "GitHub issue reproduction steps for a payout_threshold_cents bug affecting cross-border minimum countries"
+  ],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "February 27, 2026",
+  "local_qualifiers": [],
+  "subject_exact": "reported Gumroad bug: cross-border payout threshold not updating when exchange rate drops",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "actor_level": "seller",
+  "snippet_primary": "\"1. Be a seller in a country with a cross-border minimum > $10 (e.g. Argentina, Colombia, South Korea, Paraguay) 2. Visit Settings → Payments 3. Change any field (e.g. update bank account) and save 4. The country's exchange-rate-dependent minimum is now persisted as your payout_threshold_cents 5. If the exchange rate drops, your threshold stays at the old higher value\"",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "source_ref": "https://github.com/antiwork/gumroad/issues/3837",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "explicit_claim",
+  "metric_type": "payout"
+}

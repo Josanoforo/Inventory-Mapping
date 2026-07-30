@@ -1,0 +1,41 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "As of March 2026",
+  "evidence_role": "database_fact",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  },
+  "metric_unit": "search score (unspecified scale)",
+  "source_type": "blog",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "metric_value_raw": "Gumroad 50; Lemon Squeezy 2; Polar <1",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013-SNP-001",
+  "parser_notes": [
+    "Search-score scale/methodology not defined in snippet"
+  ],
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy",
+    "Polar"
+  ],
+  "source_date_if_available": "March 24, 2026",
+  "local_qualifiers": [],
+  "subject_exact": "relative search-interest score comparison among Gumroad, Lemon Squeezy, and Polar as of March 2026",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "actor_level": "source",
+  "snippet_primary": "\"As of March 2026, Gumroad holds a noticeable lead with a search score of 50, while Lemon Squeezy trails with a score of 2 and Polar at less than 1. That said, interest in both Polar and Lemon Squeezy has been gradually climbing, especially after Gumroad's fee increases and the rise of new platforms targeting developers and indie makers.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "claim_type": "statistical_data",
+  "metric_type": "search_discovery"
+}

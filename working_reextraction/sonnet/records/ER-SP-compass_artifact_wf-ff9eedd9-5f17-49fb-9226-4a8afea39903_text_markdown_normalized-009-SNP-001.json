@@ -1,0 +1,43 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sellfy.com/alternative/gumroad",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "article",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "9%",
+  "source_title": "Gumroad",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+  "parser_notes": [
+    "Published by Sellfy itself about a direct competitor; 9% figure differs from Gumroad's officially stated 10% flat fee seen elsewhere in this corpus, not reconciled here"
+  ],
+  "platforms": [
+    "Gumroad",
+    "Sellfy"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "you will never have to worry about unnecessary or hidden costs"
+  ],
+  "subject_exact": "Sellfy's claim of no commission/transaction fees, positioned against Gumroad's 9% transaction fee (vendor-authored)",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+  "actor_level": "platform",
+  "snippet_primary": "\"With Gumroads' 9% transaction fee, you're simply saying goodbye to a large chunk of your hard-earned money. Unlike Gumroad, Sellfy does not take a part of your income in commission nor transaction fees or any other way. With Sellfy, you will never have to worry about unnecessary or hidden costs.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009",
+  "source_ref": "https://sellfy.com/alternative/gumroad",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "metric_type_unclear"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "fee_rate"
+}

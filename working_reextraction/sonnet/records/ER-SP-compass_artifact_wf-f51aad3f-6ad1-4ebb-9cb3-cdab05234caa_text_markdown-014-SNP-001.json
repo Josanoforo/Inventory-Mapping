@@ -1,0 +1,43 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "~2021",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/whats-new-clubhouse-s-new-marketplace-2729331e9f",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "seller_forum",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Whats New Clubhouse S New Marketplace 2729331E9F",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014-SNP-001",
+  "parser_notes": [
+    "Forum post is from Lemon Squeezy's own founder, an early-stage self-assessment likely outdated relative to 2026"
+  ],
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad"
+  ],
+  "source_date_if_available": "~2021",
+  "local_qualifiers": [
+    "our MVP is on par with Gumroad in terms of functionality"
+  ],
+  "subject_exact": "Lemon Squeezy founder's self-assessment of MVP parity with Gumroad functionality",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014",
+  "actor_level": "platform",
+  "snippet_primary": "\"Right now, to be honest, our MVP is on par with Gumroad in terms of functionality. Our user experience diversifies us, but the true value in what Lemon Squeezy can do for you beyond what already exists is yet to come.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014",
+  "source_ref": "https://www.indiehackers.com/post/whats-new-clubhouse-s-new-marketplace-2729331e9f",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "claim_type": "explicit_claim",
+  "metric_type": "unknown"
+}

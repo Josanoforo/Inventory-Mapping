@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "January 24, 2024",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://whop.com/blog/gumroad-vs-payhip",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "article",
+  "time_scope_normalized_if_safe": "2024-01-24",
+  "geography_if_explicit": null,
+  "metric_value_raw": "flat 10% fee",
+  "source_title": "Gumroad Vs Payhip",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "source_date_if_available": "January 24, 2024",
+  "local_qualifiers": [
+    "requires creators to handle refunds and customer inquiries themselves"
+  ],
+  "subject_exact": "Gumroad vs Payhip setup simplicity/customization and customer-support-handling comparison",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "actor_level": "source",
+  "snippet_primary": "\"Gumroad offers easier product setup and a flat 10% fee, while Payhip provides more store customization options. Gumroad has minimal customer support and requires creators to handle refunds and customer inquiries themselves.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_ref": "https://whop.com/blog/gumroad-vs-payhip",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "fee_rate"
+}

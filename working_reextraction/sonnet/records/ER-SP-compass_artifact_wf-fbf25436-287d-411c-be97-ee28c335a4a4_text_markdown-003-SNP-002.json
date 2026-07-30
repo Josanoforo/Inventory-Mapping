@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+  "evidence_role": "reported_event",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD",
+  "source_type": "unknown",
+  "time_scope_normalized_if_safe": "2025-07-10",
+  "geography_if_explicit": null,
+  "metric_value_raw": "$200",
+  "source_title": "Complaints",
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003-SNP-002",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "July 10, 2025 (complaint filed); charges on May 8 and June 5, 2025",
+  "local_qualifiers": [
+    "their own policy states that Gumroad may step in when a seller does not respond for 30 days"
+  ],
+  "subject_exact": "buyer complaint that Gumroad declined to intervene on undelivered digital product despite 30-day non-response policy (BBB filing)",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "actor_level": "buyer",
+  "snippet_primary": "\"I purchased a digital product on Gumroad for approximately $200. The seller failed to deliver the product properly, and I could not access the content from the day of purchase. The link/pages were unavailable and did not function. I contacted the seller many times, but they stopped responding and provided no solution at all. I then contacted Gumroad support and provided full evidence, including screenshots, purchase receipts, and the entire message history. Gumroad repeatedly told me to contact the seller directly and refused to intervene, even though their own policy states that Gumroad may step in when a seller does not respond for 30 days.\"",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-003",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "refund_policy"
+}

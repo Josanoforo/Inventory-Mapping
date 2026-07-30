@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent + USD flat",
+  "source_type": "article",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "5% + 50¢",
+  "source_title": "Gumroad Alternative",
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018-SNP-001",
+  "parser_notes": [
+    "Published by Lemon Squeezy itself about a direct competitor"
+  ],
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [],
+  "subject_exact": "Lemon Squeezy's self-described competitive pricing versus Gumroad (vendor-authored)",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "actor_level": "platform",
+  "snippet_primary": "\"We provide all-inclusive pricing of 5% + 50¢ per transaction. We'd say that's pretty competitive compared with Gumroad.\"",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": "fee_rate"
+}

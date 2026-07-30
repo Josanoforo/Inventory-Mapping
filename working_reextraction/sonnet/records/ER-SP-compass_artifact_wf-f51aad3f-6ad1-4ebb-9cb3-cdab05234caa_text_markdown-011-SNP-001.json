@@ -1,0 +1,38 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "not dated",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "article",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Lemon Squeezy Vs Gumroad Which Platform Is Right For You",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad"
+  ],
+  "source_date_if_available": "not dated",
+  "local_qualifiers": [],
+  "subject_exact": "Lemon Squeezy vs Gumroad discoverability/marketplace-exposure trade-off",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "actor_level": "source",
+  "snippet_primary": "\"Lemon Squeezy excels in handling subscriptions, abandoned carts, and email marketing but lacks a marketplace for additional exposure. Gumroad offers more visibility through its marketplace and robust community features, while also supporting a range of product types, including physical goods.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-011",
+  "source_ref": "https://toolfolio.io/productive-value/lemon-squeezy-vs-gumroad-which-platform-is-right-for-you",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "comparative_commentary",
+  "metric_type": "discoverability_claim"
+}

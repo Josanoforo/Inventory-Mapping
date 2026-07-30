@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "database_fact",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/discover",
+    "secondary_pointer": null
+  },
+  "metric_unit": "products",
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "over 1.6 million",
+  "source_title": "Discover",
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-002-SNP-001",
+  "parser_notes": [
+    "metric_type has no exact enum match for a catalog-size count; kept as 'unknown' rather than force-fit sales_count/active_buyers"
+  ],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [],
+  "subject_exact": "Gumroad Discover marketplace catalog size (free and premium products)",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-002",
+  "actor_level": "platform",
+  "snippet_primary": "\"Browse over 1.6 million free and premium digital products in education, tech, design, and more categories from Gumroad creators and online entrepreneurs.\"",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-002",
+  "source_ref": "https://gumroad.com/discover",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "statistical_data",
+  "metric_type": "unknown"
+}

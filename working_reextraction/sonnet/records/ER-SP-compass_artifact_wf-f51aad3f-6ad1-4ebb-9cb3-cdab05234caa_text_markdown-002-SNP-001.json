@@ -1,0 +1,41 @@
+{
+  "product_type_if_explicit": "software",
+  "snippet_context_before": null,
+  "time_scope_raw": "2025 (exact date not captured)",
+  "evidence_role": "anecdotal_example",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dev.to/deltacraft/-i-built-a-3d-audio-visualizer-and-monetized-it-with-lemon-squeezy-in-a-week-2d69",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD",
+  "source_type": "blog",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "Stripe direct $9.41; Lemon Squeezy $9.00; Gumroad $8.50 (per $10 sale)",
+  "source_title": "I Built A 3D Audio Visualizer And Monetized It With Lemon Squeezy In A Week 2D69",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-002-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Stripe",
+    "Lemon Squeezy",
+    "Gumroad"
+  ],
+  "source_date_if_available": "2025 (exact date not captured)",
+  "local_qualifiers": [
+    "Once you're past $2,000/month, Stripe direct starts making more sense"
+  ],
+  "subject_exact": "solo-developer-reported per-$10-sale take-home comparison across Stripe direct, Lemon Squeezy, and Gumroad",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-002",
+  "actor_level": "seller",
+  "snippet_primary": "\"For a solo developer shipping a SaaS MVP with zero infrastructure, Lemon Squeezy was the clear winner. They handle VAT/tax compliance across regions, which would otherwise be a legal headache. [...] At $10/sale, here's what you actually take home: Stripe direct → $9.41, Lemon Squeezy → $9.00, Gumroad → $8.50. Once you're past $2,000/month, Stripe direct starts making more sense — but until then, Lemon Squeezy's tax handling and license key generation more than make up for the fee difference.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-002",
+  "source_ref": "https://dev.to/deltacraft/-i-built-a-3d-audio-visualizer-and-monetized-it-with-lemon-squeezy-in-a-week-2d69",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "payout"
+}

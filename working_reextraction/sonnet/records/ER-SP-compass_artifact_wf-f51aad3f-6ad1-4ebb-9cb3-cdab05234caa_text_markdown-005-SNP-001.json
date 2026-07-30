@@ -1,0 +1,42 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "2026",
+  "evidence_role": "comparative_commentary",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dodopayments.com/blogs/lemonsqueezy-review",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "article",
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Lemonsqueezy Review",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-005-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe",
+    "FastSpring"
+  ],
+  "source_date_if_available": "2026",
+  "local_qualifiers": [
+    "fine for US-based creators",
+    "non-US sellers pay extra due to currency fluctuations"
+  ],
+  "subject_exact": "Lemon Squeezy feature limitations and non-US seller currency/fee exposure (review)",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-005",
+  "actor_level": "source",
+  "snippet_primary": "\"Feature Gaps: Compared to a full Stripe integration or larger platforms like FastSpring, LemonSqueezy has a narrower focus. It also lacks some advanced funnel customization. So if you need sophisticated checkout flows or alternative business models, you may outgrow it.\" and \"Limited Payment Flexibility: LemonSqueezy's checkout is simpler, but that means fewer options. If you later need to expand beyond card/wallet payments, it may be restrictive. USD-Centric & Fees: All transactions settle in USD. This is fine for US-based creators, but non-US sellers pay extra due to currency fluctuations.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-005",
+  "source_ref": "https://dodopayments.com/blogs/lemonsqueezy-review",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "review_statement",
+  "metric_type": "unknown"
+}

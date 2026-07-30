@@ -1,0 +1,43 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "switched January 11th, 2023",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent",
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "44% increase within first 30 days vs same period prior year",
+  "source_title": "Gumroad Alternative",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017-SNP-004",
+  "parser_notes": [
+    "Testimonial hosted on Lemon Squeezy's own marketing page; relative date not normalized (context_insufficient not applied, base date is explicit)"
+  ],
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy"
+  ],
+  "source_date_if_available": "not dated",
+  "local_qualifiers": [
+    "within the first 30 days of switching"
+  ],
+  "subject_exact": "seller-reported revenue increase after switching from Gumroad to Lemon Squeezy (vendor testimonial)",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "actor_level": "seller",
+  "snippet_primary": "\"I switched from Gumroad to Lemon Squeezy on January 11th, 2023. Within the first 30 days of switching, my revenue increased by 44% compared to the same time period the previous year. The transition was smooth, the UI is impeccable, and the team is highly attentive to the users' needs. I haven't regretted switching for a single second.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-017",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "anecdotal_single_source",
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "revenue"
+}

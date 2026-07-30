@@ -1,0 +1,48 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Fecha no visible; página promocional activa",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/pagos",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "México",
+    "Colombia",
+    "España",
+    "Argentina",
+    "Chile"
+  ],
+  "metric_value_raw": null,
+  "source_title": "Pagos",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-014-SNP-001",
+  "parser_notes": [
+    "Testimonial hosted on Hotmart's own promotional page"
+  ],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "Fecha no visible; página promocional activa",
+  "local_qualifiers": [
+    "antes vendía apenas en México"
+  ],
+  "subject_exact": "seller testimonial on Hotmart automatic currency detection enabling expansion to new Latin American markets (vendor page)",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-014",
+  "actor_level": "seller",
+  "snippet_primary": "\"Antes vendía apenas en México, pero desde que descubrí que Hotmart cuenta con esta herramienta, todo ha cambiado. Lo que más me llamó la atención fue el beneficio de poder convertir el precio de mi producto a la moneda del cliente y que automáticamente detecte cuál es el país. Esto cambió profundamente la manera de gestionar mi negocio porque pudimos expandirnos a los mercados de Colombia, España, Argentina y Chile.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-014",
+  "source_ref": "https://hotmart.com/es/pagos",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "anecdotal_single_source",
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "unknown"
+}

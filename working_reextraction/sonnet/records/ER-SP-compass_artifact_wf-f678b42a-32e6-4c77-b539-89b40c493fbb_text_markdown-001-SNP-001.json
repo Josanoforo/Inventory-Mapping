@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "20 de junio de 2023",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "seller_forum",
+  "time_scope_normalized_if_safe": "2023-06-20",
+  "geography_if_explicit": "países latinoamericanos",
+  "metric_value_raw": null,
+  "source_title": "Opinion Hotmart",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "20 de junio de 2023",
+  "local_qualifiers": [
+    "si focalizas tus ventas mayoritariamente en los países latinoamericanos"
+  ],
+  "subject_exact": "seller-reported double currency-conversion loss on Hotmart USD withdrawals",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "actor_level": "seller",
+  "snippet_primary": "\"Tienes que retirar tu saldo en dólares. Antes solo estaba en euros y ahora en dólares. No sé. Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "unknown"
+}

@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/46-what-currency-does-gumroad-use",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "What Currency Does Gumroad Use",
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-008-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "typically mid-market rates"
+  ],
+  "subject_exact": "Gumroad direct-deposit native-currency payout and sale-time exchange-rate basis",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-008",
+  "actor_level": "platform",
+  "snippet_primary": "\"If you live in one of the following direct-deposit countries, Gumroad pays you out in your native currency. All currency conversions happen based on the exchange rates at the time of sale, not at the time of the payout. These are typically mid-market rates that you can estimate here.\"",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-008",
+  "source_ref": "https://help.gumroad.com/article/46-what-currency-does-gumroad-use",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "unknown"
+}

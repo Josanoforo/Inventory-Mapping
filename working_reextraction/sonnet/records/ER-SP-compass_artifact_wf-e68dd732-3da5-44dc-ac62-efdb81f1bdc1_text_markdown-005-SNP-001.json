@@ -1,0 +1,42 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Page last updated July 23, 2024",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  },
+  "metric_unit": "mixed (USD/THB/KRW)",
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2024-07-23",
+  "geography_if_explicit": [
+    "Thailand",
+    "Korea"
+  ],
+  "metric_value_raw": "US $10 (Thailand 600 THB; Korea 40,000 KRW)",
+  "source_title": "Getting Paid",
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-001",
+  "parser_notes": [
+    "Mixed currency units declared: base threshold in USD, Thailand in THB, Korea in KRW"
+  ],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Page last updated July 23, 2024 (per search index metadata)",
+  "local_qualifiers": [],
+  "subject_exact": "Gumroad minimum payout balance threshold, with country-specific exceptions",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "actor_level": "platform",
+  "snippet_primary": "\"To receive a payout, you must have a minimum balance of US $10. Certain countries have higher minimum payout balances - Thailand (600 THB) and Korea (40,000 KRW).\"",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "payout"
+}

@@ -1,0 +1,40 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Vigente desde febrero 2024",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2024-02",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Como Funciona La Transferencia Automatica De Mis Comisiones Disponibles Para Retiro",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "Vigente desde febrero 2024",
+  "local_qualifiers": [
+    "excepto BRL (real)",
+    "una vez al mes"
+  ],
+  "subject_exact": "Hotmart automatic fee-free monthly bank transfer of available commissions (except BRL) since February 2024",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "actor_level": "platform",
+  "snippet_primary": "\"A partir de febrero de 2024, todas las comisiones de ventas disponibles para retiro en cualquier moneda, excepto BRL (real), se transfieren automáticamente y sin tarifa de retiro, una vez al mes, a la cuenta bancaria registrada por ti en nuestra plataforma.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-006",
+  "source_ref": "https://help.hotmart.com/es/article/22224013803149/-como-funciona-la-transferencia-automatica-de-mis-comisiones-disponibles-para-retiro-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "payout"
+}

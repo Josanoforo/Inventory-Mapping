@@ -1,0 +1,44 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "2026",
+  "evidence_role": "derived_calculation",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dev.to/jettfu/stripe-vs-paddle-vs-lemon-squeezy-fee-comparison-2026-2c77",
+    "secondary_pointer": null
+  },
+  "metric_unit": "USD",
+  "source_type": "blog",
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": null,
+  "metric_value_raw": "Stripe ~$1,480 processing (plus tax compliance costs); Paddle ~$2,530 all-in",
+  "source_title": "Stripe Vs Paddle Vs Lemon Squeezy Fee Comparison 2026 2C77",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-004-SNP-001",
+  "parser_notes": [
+    "Lemon Squeezy figure not separately isolated from Paddle in this snippet; combined comparison"
+  ],
+  "platforms": [
+    "Stripe",
+    "Paddle",
+    "Lemon Squeezy"
+  ],
+  "source_date_if_available": "2026",
+  "local_qualifiers": [],
+  "subject_exact": "fee comparison at $50K annual revenue across Stripe, Paddle, and Lemon Squeezy",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-004",
+  "actor_level": "source",
+  "snippet_primary": "\"Lemon Squeezy matches Paddle's pricing and MoR model. At $50K annual revenue, Stripe costs ~$1,480 in processing but potentially thousands more in tax compliance — Paddle costs ~$2,530 all-in.\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-004",
+  "source_ref": "https://dev.to/jettfu/stripe-vs-paddle-vs-lemon-squeezy-fee-comparison-2026-2c77",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "claim_type": "statistical_data",
+  "metric_type": [
+    "fee_rate",
+    "payout"
+  ]
+}

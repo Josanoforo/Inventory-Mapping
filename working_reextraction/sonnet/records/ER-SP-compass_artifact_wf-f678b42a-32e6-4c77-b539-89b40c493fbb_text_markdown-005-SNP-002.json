@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "as of April 2026",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": "2026-04",
+  "geography_if_explicit": "Colombia",
+  "metric_value_raw": null,
+  "source_title": "Como Retirar Mi Comision",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+  "parser_notes": [],
+  "platforms": [
+    "Hotmart"
+  ],
+  "source_date_if_available": "as of April 2026",
+  "local_qualifiers": [
+    "es necesario registrar una cuenta bancaria colombiana en la plataforma"
+  ],
+  "subject_exact": "Hotmart withdrawal-to-COP option for Colombia-registered accounts",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "actor_level": "platform",
+  "snippet_primary": "\"Si el país registrado en tu cuenta es Colombia, es posible realizar el retiro de ventas en Dólares a Pesos Colombianos (COP). Para ello, es necesario registrar una cuenta bancaria colombiana en la plataforma.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "none"
+  ],
+  "claim_type": "policy_statement",
+  "metric_type": "payout_method_availability"
+}

@@ -1,0 +1,48 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "help_center",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Brazil",
+    "India",
+    "Indonesia",
+    "Malaysia",
+    "Mexico",
+    "Philippines",
+    "Thailand"
+  ],
+  "metric_value_raw": null,
+  "source_title": "Getting Paid",
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad",
+    "Stripe"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand"
+  ],
+  "subject_exact": "Gumroad Stripe Connect payout availability by country",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "actor_level": "platform",
+  "snippet_primary": "\"You can connect your Stripe account to receive payments for credit card sales directly to your Stripe account. This feature is available in all countries where Stripe operates, except Brazil, India, Indonesia, Malaysia, Mexico, Philippines, and Thailand.\"",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "availability_statement",
+  "metric_type": "payout_method_availability"
+}

@@ -1,0 +1,42 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "20 de junio de 2023",
+  "evidence_role": "anecdotal_example",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "secondary_pointer": null
+  },
+  "metric_unit": null,
+  "source_type": "seller_forum",
+  "time_scope_normalized_if_safe": "2023-06-20",
+  "geography_if_explicit": null,
+  "metric_value_raw": null,
+  "source_title": "Opinion Hotmart",
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-002",
+  "parser_notes": [
+    "Forum peer response; author identity (seller vs third party) not fully determinable, defaulted to seller per seller_forum default rule"
+  ],
+  "platforms": [
+    "Hotmart",
+    "Payoneer"
+  ],
+  "source_date_if_available": "20 de junio de 2023",
+  "local_qualifiers": [
+    "facturas tu monotributo normalmente"
+  ],
+  "subject_exact": "peer-suggested Payoneer-based withdrawal workaround for Hotmart earnings",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "actor_level": "seller",
+  "snippet_primary": "\"hola! ingresas los dolares a traves de payoneer, retiras por financiera ya sea en billete dolar)para despues cambiar y vender tu antojo) o en pesos. Si es en pesos la misma financiera te los puede depositar a tu cuenta bancaria o si no vos te los depositas por el cajero. Despues facturas tu monotributo normalmente y listo, todo blanqueado.\"",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "claim_type": "instructional_statement",
+  "metric_type": "unknown"
+}

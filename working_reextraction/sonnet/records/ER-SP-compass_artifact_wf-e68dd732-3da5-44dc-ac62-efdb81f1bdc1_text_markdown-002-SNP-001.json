@@ -1,0 +1,39 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "Accessed April 2026; page undated",
+  "evidence_role": "official_policy",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/pricing",
+    "secondary_pointer": null
+  },
+  "metric_unit": "percent + USD flat",
+  "source_type": "pricing_page",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "10% + $0.50",
+  "source_title": "Pricing",
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002-SNP-001",
+  "parser_notes": [],
+  "platforms": [
+    "Gumroad"
+  ],
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "local_qualifiers": [
+    "for all sales through your profile or direct links to your customers"
+  ],
+  "subject_exact": "Gumroad direct-sale (profile/direct link) per-transaction fee rate",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "actor_level": "platform",
+  "snippet_primary": "[Stated in layout: \"10% + $0.50 Per transaction for all sales through your profile or direct links to your customers.\"]",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "source_ref": "https://gumroad.com/pricing",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "claim_type": "pricing_statement",
+  "metric_type": "fee_rate"
+}

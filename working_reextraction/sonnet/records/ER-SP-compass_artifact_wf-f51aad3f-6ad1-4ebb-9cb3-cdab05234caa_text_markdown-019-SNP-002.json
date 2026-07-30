@@ -1,0 +1,43 @@
+{
+  "product_type_if_explicit": "unknown",
+  "snippet_context_before": null,
+  "time_scope_raw": "not dated",
+  "evidence_role": "seller_self_claim",
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/paddle-alternative",
+    "secondary_pointer": null
+  },
+  "metric_unit": "mixed (weeks / hours)",
+  "source_type": "platform_doc",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "metric_value_raw": "3 weeks (Paddle) vs less than 48 hours (Lemon Squeezy)",
+  "source_title": "Paddle Alternative",
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019-SNP-002",
+  "parser_notes": [
+    "Testimonial hosted on Lemon Squeezy's own marketing page; mixed time units declared"
+  ],
+  "platforms": [
+    "Paddle",
+    "Lemon Squeezy"
+  ],
+  "source_date_if_available": "not dated",
+  "local_qualifiers": [
+    "for my previous product"
+  ],
+  "subject_exact": "seller-reported approval-time comparison between Paddle and Lemon Squeezy (vendor testimonial)",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019",
+  "actor_level": "seller",
+  "snippet_primary": "\"If you are a maker, you have to consider Lemon Squeezy for your business. For my previous product, I tried Paddle and waited 3 weeks for approval. This time, I opted for LemonSqueezy and got the approval in less than 48 hours!\"",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019",
+  "source_ref": "https://www.lemonsqueezy.com/paddle-alternative",
+  "author_or_actor_if_available": null,
+  "snippet_context_after": null,
+  "uncertainties": [
+    "anecdotal_single_source",
+    "author_conflict_of_interest_possible"
+  ],
+  "claim_type": "anecdotal_report",
+  "metric_type": "activation_requirement"
+}
