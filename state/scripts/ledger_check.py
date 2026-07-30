@@ -1,0 +1,276 @@
+#!/usr/bin/env python3
+"""Check structural invariants of state/pendientes_ledger.md.
+
+Six invariants (I1-I6), each independent — every violation found is
+reported before exiting, not just the first:
+
+  I1  Per-section row count. Real rows counted in tables A/B/C/D must
+      match the corresponding row in the "Conteo" table.
+  I2  Total. "Total abiertos" must equal the sum of the four real
+      per-section counts.
+  I3  Closing-note figures. The three figures in "Nota sobre la forma
+      de la cola" must match the real row count of the section each
+      one names (verificados-esperando-decision -> B, esperan-que-
+      alguien-mire-el-repo -> A, "los N del grupo B" -> B). The note
+      deliberately excludes group C, so B+A+D != Total by design —
+      that is not checked here.
+  I4  No row in an open table (A/B/C/D) may have an Estado starting
+      with "cerrado"/"cerrada" — closed items belong in the closed
+      lists/notes, not the open tables.
+  I5  No ID may appear as a row in more than one table, or as a row
+      and in a closed list at the same time.
+  I6  No table row may have an empty ID (first cell).
+
+Exit 0 only if all six pass. Exit 1 otherwise, printing every
+invariant that failed and the values involved.
+"""
+import re
+import sys
+from pathlib import Path
+
+LEDGER_PATH = Path(__file__).resolve().parent.parent / "pendientes_ledger.md"
+
+TABLE_SECTION_HEADINGS = {
+    "A": "## A.",
+    "B": "## B.",
+    "C": "## C.",
+    "D": "## D.",
+}
+
+ID_RE = re.compile(r"\b([PU]-\d+[a-z]?)\b")
+SEP_CELL_RE = re.compile(r"^:?-+:?$")
+CERRADO_RE = re.compile(r"(?i)^cerrad[oa]")
+BOLD_COLON_HEADING_RE = re.compile(r"\*\*([^*]+:)\*\*")
+
+
+def abort(message):
+    print(f"ERROR: {message}")
+    sys.exit(1)
+
+
+def load_ledger():
+    if not LEDGER_PATH.is_file():
+        abort(f"ledger no encontrado en {LEDGER_PATH}")
+    return LEDGER_PATH.read_text(encoding="utf-8")
+
+
+def section_lines(all_lines, heading_prefix):
+    start = next((i for i, l in enumerate(all_lines) if l.startswith(heading_prefix)), None)
+    if start is None:
+        abort(f"sección '{heading_prefix}' no encontrada en el ledger")
+    end = len(all_lines)
+    for i in range(start + 1, len(all_lines)):
+        if all_lines[i].startswith("## "):
+            end = i
+            break
+    return all_lines[start:end]
+
+
+def parse_table(lines, context):
+    """Parse the first markdown table in `lines`. Returns data rows (cell lists),
+    header and separator rows excluded."""
+    rows = []
+    header_seen = False
+    sep_seen = False
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            if header_seen:
+                break
+            continue
+        cells = [c.strip() for c in stripped.strip("|").split("|")]
+        if not header_seen:
+            header_seen = True
+            continue
+        if not sep_seen:
+            if cells and all(SEP_CELL_RE.match(c) for c in cells):
+                sep_seen = True
+                continue
+            abort(f"tabla en {context} no tiene fila separadora '|---|...' tras el header")
+        rows.append(cells)
+    if not header_seen:
+        abort(f"no se encontró ninguna tabla en {context}")
+    return rows
+
+
+def get_table(all_lines, label):
+    heading = TABLE_SECTION_HEADINGS[label]
+    return parse_table(section_lines(all_lines, heading), heading)
+
+
+def get_conteo(all_lines):
+    rows = parse_table(section_lines(all_lines, "## Conteo"), "## Conteo")
+    counts = {}
+    for cells in rows:
+        if len(cells) < 2:
+            continue
+        grupo = cells[0].replace("*", "").strip()
+        filas_raw = cells[1].replace("*", "").strip()
+        m = re.search(r"\d+", filas_raw)
+        if not m:
+            continue
+        value = int(m.group())
+        for label in ("A", "B", "C", "D"):
+            if grupo.startswith(label):
+                counts[label] = value
+                break
+        else:
+            if grupo.startswith("Total"):
+                counts["Total"] = value
+    missing = [k for k in ("A", "B", "C", "D", "Total") if k not in counts]
+    if missing:
+        abort(f"tabla Conteo no declara valor para: {', '.join(missing)}")
+    return counts
+
+
+def get_closed_ids(text):
+    """IDs listed under any '**Cerrad...:**' heading (bullet list or inline
+    comma list), across the whole document. Parenthetical asides (citation
+    pointers like '(ver citas ... P-121)') are stripped first so a mere
+    cross-reference doesn't get mistaken for closed-list membership. Each
+    segment ends at whichever comes first: the next bold-colon heading of
+    ANY kind (e.g. '**Huecos...:**', so an unrelated trailing list never
+    leaks in), the next '---' divider, or the next '## ' section heading —
+    a closed list is always terminated by one of these three in practice,
+    but never by the same one twice in a row."""
+    headings = list(BOLD_COLON_HEADING_RE.finditer(text))
+    closed = {}
+    for i, m in enumerate(headings):
+        label = m.group(1)
+        if not re.match(r"(?i)^cerrad[oa]s?\b", label):
+            continue
+        start = m.end()
+        end = len(text)
+        if i + 1 < len(headings):
+            end = min(end, headings[i + 1].start())
+        hr = text.find("\n---", start)
+        if hr != -1:
+            end = min(end, hr)
+        nxt_section = text.find("\n## ", start)
+        if nxt_section != -1:
+            end = min(end, nxt_section)
+        segment = text[start:end]
+        segment_no_parens = re.sub(r"\([^)]*\)", "", segment)
+        for pid in ID_RE.findall(segment_no_parens):
+            closed.setdefault(pid, []).append(label)
+    return closed
+
+
+def get_nota_figures(text):
+    heading = "## Nota sobre la forma de la cola"
+    idx = text.find(heading)
+    if idx == -1:
+        abort(f"sección '{heading}' no encontrada")
+    nota = text[idx:]
+    figures = {}
+
+    m = re.search(r"(\d+)\s+de\s+\d+\s+ya están verificados y esperan", nota)
+    if not m:
+        abort("no se encontró en la nota la cifra de 'verificados y esperan (decisión)'")
+    figures["verificados_esperando_decision"] = int(m.group(1))
+
+    m = re.search(r"(\d+)\s+esperan que alguien mire el repo", nota)
+    if not m:
+        abort("no se encontró en la nota la cifra de 'esperan que alguien mire el repo'")
+    figures["esperan_mirar_repo"] = int(m.group(1))
+
+    m = re.search(r"[Dd]e los (\d+) del grupo B", nota)
+    if not m:
+        abort("no se encontró en la nota la cifra 'de los N del grupo B'")
+    figures["grupo_b_cifra"] = int(m.group(1))
+
+    return figures
+
+
+def main():
+    text = load_ledger()
+    lines = text.splitlines()
+
+    tables = {label: get_table(lines, label) for label in TABLE_SECTION_HEADINGS}
+    real_counts = {label: len(rows) for label, rows in tables.items()}
+    conteo = get_conteo(lines)
+    closed_ids = get_closed_ids(text)
+    nota = get_nota_figures(text)
+
+    failures = []
+
+    # I1 — per-section row count vs Conteo table
+    for label in ("A", "B", "C", "D"):
+        if real_counts[label] != conteo[label]:
+            failures.append(
+                f"I1 (conteo sección {label}): filas reales={real_counts[label]} "
+                f"vs Conteo declarado={conteo[label]}"
+            )
+
+    # I2 — Total abiertos vs suma de las cuatro secciones contadas
+    sum_real = sum(real_counts[l] for l in ("A", "B", "C", "D"))
+    if conteo["Total"] != sum_real:
+        failures.append(
+            f"I2 (total abiertos): declarado={conteo['Total']} vs suma real de A+B+C+D={sum_real} "
+            f"(A={real_counts['A']}, B={real_counts['B']}, C={real_counts['C']}, D={real_counts['D']})"
+        )
+
+    # I3 — cifras de la nota de cierre vs conteo de su propia sección
+    if nota["verificados_esperando_decision"] != real_counts["B"]:
+        failures.append(
+            "I3 (nota, verificados-esperando-decisión): "
+            f"nota={nota['verificados_esperando_decision']} vs filas reales de B={real_counts['B']}"
+        )
+    if nota["esperan_mirar_repo"] != real_counts["A"]:
+        failures.append(
+            "I3 (nota, esperan-que-alguien-mire-el-repo): "
+            f"nota={nota['esperan_mirar_repo']} vs filas reales de A={real_counts['A']}"
+        )
+    if nota["grupo_b_cifra"] != real_counts["B"]:
+        failures.append(
+            "I3 (nota, 'los N del grupo B'): "
+            f"nota={nota['grupo_b_cifra']} vs filas reales de B={real_counts['B']}"
+        )
+
+    # I4 — filas cerradas en tabla abierta
+    for label, rows in tables.items():
+        for cells in rows:
+            row_id = cells[0] if cells else ""
+            estado = cells[-1] if cells else ""
+            if CERRADO_RE.match(estado.strip()):
+                failures.append(
+                    f"I4 (fila cerrada en tabla abierta {label}): ID={row_id!r} Estado={estado!r}"
+                )
+
+    # I5 — IDs duplicados: fila en >1 tabla, o fila + lista de cerrados
+    row_locations = {}
+    for label, rows in tables.items():
+        for cells in rows:
+            row_id = cells[0].strip() if cells else ""
+            if not row_id:
+                continue
+            row_locations.setdefault(row_id, []).append(f"tabla {label}")
+    for row_id, locations in row_locations.items():
+        all_locations = list(locations)
+        if row_id in closed_ids:
+            all_locations += [f"lista de cerrados ({h})" for h in closed_ids[row_id]]
+        if len(all_locations) > 1:
+            failures.append(f"I5 (ID duplicado): {row_id} aparece en: {', '.join(all_locations)}")
+
+    # I6 — fila de tabla sin ID
+    for label, rows in tables.items():
+        for idx, cells in enumerate(rows, start=1):
+            if not cells or not cells[0].strip():
+                failures.append(f"I6 (fila sin ID): tabla {label}, fila #{idx}, celdas={cells!r}")
+
+    if failures:
+        for f in failures:
+            print(f"FAIL: {f}")
+        print(f"\n{len(failures)} invariante(s) violada(s).")
+        sys.exit(1)
+
+    print("OK: I1-I6 pasan.")
+    print(
+        f"Conteo real — A={real_counts['A']} B={real_counts['B']} "
+        f"C={real_counts['C']} D={real_counts['D']} Total={sum_real}"
+    )
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,11 +1,16 @@
 name: CI
 
-# First CI in this repo (P-135). Scope is strictly the two deterministic
+# First CI in this repo (P-135). Scope is strictly the deterministic
 # checks that already have their own pass/fail verdict:
 #   - vocab_check.py            (D-203: declared automated health check,
 #                                 nothing triggered it until now)
 #   - signal_card_defect_check.py --fixtures (calibration gate over its
 #                                 21 synthetic fixtures)
+#   - state/scripts/ledger_check.py (I1-I6: structural invariants of
+#                                 state/pendientes_ledger.md — per-section
+#                                 row counts, total, closing-note figures,
+#                                 no closed row left in an open table, no
+#                                 duplicate ID, no row without an ID)
 #
 # state/scripts/field_lifecycle_trace.py and state/scripts/field_population_audit.py
 # are deliberately excluded: they are measurements, not checks. They report
@@ -55,3 +60,13 @@ jobs:
           python-version: "3.11"
       - name: Run signal_card_defect_check.py --fixtures
         run: python3 signal_card_defect_check.py --fixtures
+
+  ledger-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run ledger_check.py
+        run: python3 state/scripts/ledger_check.py
