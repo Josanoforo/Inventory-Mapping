@@ -51,7 +51,8 @@ files, diseño) · `OP` = solo el operador.
 | P-119 | Múltiples anclajes temporales verbatim en `time_scope_raw` (bloque A, 2b). **Bloquea los 47 batches** | decisión | Concatenar con separador, un ancla y resto a notas, o splittear la card | DSC | verificado |
 | P-127 | Condición de override de `actor_level` delega en juicio no acotado (bloque A, 3) | decisión | Eliminar la segunda condición, o acotarla a criterio verificable. No hay criterio propuesto y los casos no existen | DSC | verificado |
 | P-128 | Hueco en la tabla de `source_type` para reporte en tercera persona (bloque A, 4). Obligatoria en los 305 records con `actor_level: unknown` | decisión | `source` es el polo seguro; `seller` crea polos falsamente cross-actor | DSC | verificado |
-| P-129 | `pipeline_vocabulary.yaml` es autoridad declarada sobre enums y ningún ejecutor lo lee | decisión | Agregarlo a lectura obligatoria, o retirar la declaración de autoridad | DSC | verificado |
+| P-129a | `pipeline_vocabulary.yaml` diverge de los schemas en los valores declarados de dos campos, no solo en si se lee: `claim_type` tiene `statistical_data` en el schema (`phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json:113`) y ausente del vocab (`pipeline_vocabulary.yaml:190-202`), 90/1178 registros lo usan; `uncertainties` scope Phase 1 tiene 5 valores solo en schema (`anecdotal_single_source`, `author_conflict_of_interest_possible`, `methodology_unclear`, `metric_unit_unclear`, `platform_scope_unclear`) y 3 solo en vocab (`metric_type_unclear`, `snippet_needs_reopen`, `source_type_unclear`), 155/1178 registros usan un valor legal en schema y ausente en vocab. 0 divergencias en el resto de campos con enum (`actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `pointer_type`) y 0 en Signal Card completo | decisión | Reconciliar schema y vocab campo por campo (agregar los valores faltantes al lado que corresponda, o retirarlos del otro), o retirar la declaración de `pipeline_vocabulary.yaml` como autoridad | DSC | verificado — `state/output/field_population_extraction_records.md:20,33` y `state/output/field_population_raw.json` (rama `claude/field-lifecycle-population-audit-a060e7`, Run 3) |
+| P-129b | Valores poblados en el corpus vigente caen fuera del enum del schema Y del enum de `pipeline_vocabulary.yaml` simultáneamente — no es divergencia schema-vocab, en estos tres campos ambos enums coinciden exactamente: `actor_level` 15/1178 (`third_party_observer`×10, `creator`×5 — ya señalado como drift de Phase 1 en `phases/02-signal-extraction/modules/signal_converter.md:159`), `product_type_if_explicit` 207/1178 (texto libre, ej. "online courses", "digital_download"), `metric_type` 186/1178. 0/29 en Signal Card, los tres campos limpios | decisión | Re-normalizar los valores fuera de enum en los tres campos (mapear a un valor válido, o agregar los valores recurrentes al enum si son legítimos), o aceptar la pérdida de estructura | DSC | verificado — `state/output/field_population_extraction_records.md:22,24,25` y `state/output/field_population_raw.json` (rama `claude/field-lifecycle-population-audit-a060e7`, Run 3) |
 | P-132 | El detector se mergeó sin satisfacer la precondición de calibración de D-212 Carga A. Los tres casos no existen | decisión | Recalibrar contra casos nuevos, o aceptar el detector con limitaciones declaradas | DSC | verificado |
 | P-134 | `evidence_role` no cruza a Phase 3: `card_record` tiene `evidence_base`, string libre sin enum | decisión | Extender el puente (precedente D-126) o aceptar la pérdida | DSC | verificado |
 | P-135 | No existe CI. `.github/workflows/` ausente. D-203 declaró el health check automatizado; el script existe y nada lo dispara | decisión | Construir CI, o retirar la declaración de D-203 | DSC | verificado |
@@ -93,10 +94,10 @@ files, diseño) · `OP` = solo el operador.
 | Grupo | Filas |
 |---|---|
 | A — pendientes de verificar (Run 2) | 9 |
-| B — verificados, esperando decisión | 19 |
+| B — verificados, esperando decisión | 20 |
 | C — decisiones de DSC | 4 |
 | D — candidatos a parqueo | 5 |
-| **Total abiertos** | **37** |
+| **Total abiertos** | **38** |
 
 **Cerrados en S28, no re-abrir:** P-076, P-107, P-108, P-110, P-112, P-114, P-120, P-122, P-123,
 P-124, P-130.
@@ -109,7 +110,7 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-19 de 37 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
+20 de 38 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
 5 no son decidibles hoy. **El cuello es la cola de decisiones, no la de verificación.**
 
 De los 19 del grupo B, siete son huecos de puente o de campo (P-134, P-136, U-1, U-2, U-3, más
