@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001",
+  "source_type": "database_profile",
+  "source_title": "Gumroad Market Share",
+  "source_ref": "https://6sense.com/tech/social-commerce/gumroad-market-share",
+  "source_date_if_available": "Accessed April 2026; page references \"in 2026\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Around the world in 2026, over 95752 companies have started using Gumroad as Social Commerce tool.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://6sense.com/tech/social-commerce/gumroad-market-share",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party market-intelligence database's count of companies using Gumroad as a social-commerce tool",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "over 95752",
+  "metric_unit": "companies",
+  "time_scope_raw": "in 2026",
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": "around the world",
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

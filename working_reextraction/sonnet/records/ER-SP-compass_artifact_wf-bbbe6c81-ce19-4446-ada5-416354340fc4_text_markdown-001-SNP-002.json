@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_type": "article",
+  "source_title": "Compradores Productos Digitales Crecen 300 Hotmart",
+  "source_ref": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+  "source_date_if_available": "20 Mar 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"El perfil típico de los compradores de productos digitales oscila entre 40 y 59 años, con educación superior o posgrado y cuyos ingresos van de los 500 a los mil dólares.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "news article's reported demographic and income profile of typical digital-product buyers",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "40 y 59 años; 500 a los mil dólares",
+  "metric_unit": "years and USD (mixed, declared)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "con educación superior o posgrado"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": []
+}

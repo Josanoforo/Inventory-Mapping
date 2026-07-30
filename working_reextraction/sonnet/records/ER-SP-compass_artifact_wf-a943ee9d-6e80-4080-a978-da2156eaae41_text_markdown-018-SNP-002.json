@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I ordered some stained glass flowers with stems. Although they arrived ahead of the scheduled delivery date the quality was awful and bore little resemblance to the photos when purchased. One of them even fell apart as I unpacked it. I decided that I would need to arrange a refund. This is when the fun and games really started. Unlike every other retail app I have ever used, purchases are not automatically recorded on your account. Despite having taken the trouble to register my details when I set up the app, I had to go through a long rigmarole to link my purchase to my account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  },
+  "claim_type": "review_statement",
+  "subject_exact": "buyer's complaint about a cumbersome Etsy account-purchase linking process during a refund attempt",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "arrived ahead of the scheduled delivery date",
+    "one of them even fell apart as I unpacked it"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

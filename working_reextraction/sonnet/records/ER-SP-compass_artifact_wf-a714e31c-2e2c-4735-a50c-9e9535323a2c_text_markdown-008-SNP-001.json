@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-008",
+  "source_type": "blog",
+  "source_title": "Teachable Is Joining Forces With Hotmart Afad5Bd144Fc",
+  "source_ref": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc",
+  "source_date_if_available": "March 16, 2020",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For those of you not in the know, Hotmart is analogous to the 'Teachable of Brazil,' while operating profitably at a scale three times our size. Over the last nine years, they have built an absolutely incredible business in Latin America and Europe empowering 60,000+ creators to sell 150,000+ digital products.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/teachable/teachable-is-joining-forces-with-hotmart-afad5bd144fc",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "Teachable executive's characterization of Hotmart's scale and creator/product counts at time of merger announcement",
+  "actor_level": "third_party",
+  "platforms": [
+    "Hotmart",
+    "Teachable"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "60,000+ creators to sell 150,000+ digital products",
+  "metric_unit": "creators and products (mixed, declared)",
+  "time_scope_raw": "Over the last nine years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Latin America",
+    "Europe"
+  ],
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "operating profitably at a scale three times our size"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Teachable blog post announcing its own merger with Hotmart; Teachable speaks in first person about itself and Hotmart, treated as third_party relative to Hotmart (platform under study)."
+  ]
+}

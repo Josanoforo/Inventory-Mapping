@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-017",
+  "source_type": "article",
+  "source_title": "Pros Y Contras De Hotmart 2021",
+  "source_ref": "https://www.marketeroslatam.com/pros-y-contras-de-hotmart-2021",
+  "source_date_if_available": "2021",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Si tu producto cuesta menos de 10 euros, Hotmart cobra 20% por cada venta; mientras que si es de 10.01 euros en adelante, la comisión de la plataforma es de 10%. Ahora bien, si tienes un infoproducto cuyo valor es de 200 euros, debes definir el tipo de comisión que va dirigido a tu equipo de afiliados. Y adicionalmente contabilizar unos 20 euros que quedarán en Hotmart.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.marketeroslatam.com/pros-y-contras-de-hotmart-2021",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "Hotmart tiered commission rate by product price threshold",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "20% [productos menores a 10 euros]; 10% [productos de 10.01 euros en adelante]",
+  "metric_unit": "percent",
+  "time_scope_raw": "2021",
+  "time_scope_normalized_if_safe": "2021",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "debes definir el tipo de comisión que va dirigido a tu equipo de afiliados"
+  ],
+  "uncertainties": [
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "Article dated 2021; commission figures may not reflect current Hotmart pricing."
+  ]
+}

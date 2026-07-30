@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-006",
+  "source_type": "article",
+  "source_title": "Amazon Vs Etsy",
+  "source_ref": "https://willowcommerce.ai/amazon-vs-etsy",
+  "source_date_if_available": "December 11, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy buyers are different. They come looking for something unique, often for gifting occasions. According to Etsy's own data, gifting drives 44% of all purchases on the platform. About one in three Etsy transactions involves personalized or customized items. These buyers are willing to wait longer and sometimes pay more for products that feel special.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://willowcommerce.ai/amazon-vs-etsy",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party article's claim about the share of Etsy purchases driven by gifting and personalization",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "44%; about one in three",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "according to Etsy's own data"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

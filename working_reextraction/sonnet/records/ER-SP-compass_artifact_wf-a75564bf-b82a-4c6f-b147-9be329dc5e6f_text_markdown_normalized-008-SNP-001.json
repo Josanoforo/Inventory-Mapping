@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-008",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-008",
+  "source_type": "product_listing",
+  "source_title": "Tenis 1",
+  "source_ref": "https://www.kichink.com/stores/original-1/category/312954/tenis-1",
+  "source_date_if_available": "Accedido abril 2026; página sin fecha visible",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Original es una tienda de suministros para manualidades, de marca propia como de otras marcas, empresa 100% mexicana que nace bajo la necesidad de brindar alternativas de desarrollo a procesos creativos con calidad. Aqui en encontraras productos digitales para descarga y fisicos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/stores/original-1/category/312954/tenis-1",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "seller's own storefront self-description on Kichink (craft supplies store, Mexican-owned)",
+  "actor_level": "seller",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "100% mexicana",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "productos digitales para descarga y fisicos"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

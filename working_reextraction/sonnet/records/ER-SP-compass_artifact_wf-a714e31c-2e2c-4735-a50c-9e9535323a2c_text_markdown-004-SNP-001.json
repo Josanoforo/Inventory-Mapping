@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-004",
+  "source_type": "platform_doc",
+  "source_title": "Que Es Y Como Funciona Hotmart",
+  "source_ref": "https://help.hotmart.com/es/article/115006507308/-que-es-y-como-funciona-hotmart-",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es una plataforma global y completa para quienes desean vender productos digitales, siendo la más grande de América Latina en el sector de educación a distancia. Con más de 500,000 productos registrados y ventas en más de 188 países, Hotmart permite que cualquier persona comparta su conocimiento o producto con el mundo de forma práctica y segura.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/115006507308/-que-es-y-como-funciona-hotmart-",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "Hotmart's official self-description of scale (registered products and countries with sales)",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "sales_count",
+    "traffic_volume"
+  ],
+  "metric_value_raw": "más de 500,000 productos registrados y ventas en más de 188 países",
+  "metric_unit": "products and countries (mixed, declared)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "América Latina",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "siendo la más grande de América Latina en el sector de educación a distancia"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "'188 países' and 'más de 500,000 productos' are two distinct counts combined in one self-description snippet; recorded as array."
+  ]
+}

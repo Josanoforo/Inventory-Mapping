@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Opinion Hotmart",
+  "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+  "source_date_if_available": "October 2020",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Esto te hace pasar dos veces por la conversión de la moneda (de la moneda del comprador hasta la de Hotmart, y desde la de Hotmart a la tuya), por lo que se pierde un porcentaje de ingresos que puede ser elevado si focalizas tus ventas mayoritariamente en los países latinoamericanos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "author's claim about double currency conversion revenue loss on Hotmart sales to Latin America",
+  "actor_level": "seller",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "países latinoamericanos",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "si focalizas tus ventas mayoritariamente en los países latinoamericanos"
+  ],
+  "uncertainties": [
+    "net_vs_gross_ambiguity"
+  ],
+  "parser_notes": [
+    "No numeric percentage given for the conversion loss; described only as potentially 'elevado'."
+  ]
+}

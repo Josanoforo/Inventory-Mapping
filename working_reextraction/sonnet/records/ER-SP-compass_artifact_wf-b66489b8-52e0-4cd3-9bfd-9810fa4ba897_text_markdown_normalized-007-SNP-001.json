@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-007",
+  "source_type": "article",
+  "source_title": "Payhip Mobile App",
+  "source_ref": "https://help.payhip.com/article/348-payhip-mobile-app",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The app makes it easy to monitor your sales in real time, view analytics and sales metrics, and receive instant notifications for new orders.\" … \"At the moment, all product uploads (digital downloads, courses, coaching, memberships, and physical products) as well as store design changes must be managed via the web dashboard.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/348-payhip-mobile-app",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip mobile app feature scope versus web dashboard for product management",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "at the moment, all product uploads... must be managed via the web dashboard"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

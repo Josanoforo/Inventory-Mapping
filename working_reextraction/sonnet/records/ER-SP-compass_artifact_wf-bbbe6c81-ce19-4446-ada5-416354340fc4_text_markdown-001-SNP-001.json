@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_type": "article",
+  "source_title": "Compradores Productos Digitales Crecen 300 Hotmart",
+  "source_ref": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+  "source_date_if_available": "20 Mar 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"en cuatro años, los compradores de productos digitales en Hotmart crecieron casi 3 mil por ciento, al pasar de 140 mil en 2018 a 4.13 millones en 2022\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "news article's reported growth in Hotmart digital-product buyer count from 2018 to 2022",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active_buyers",
+  "metric_value_raw": "140 mil en 2018 a 4.13 millones en 2022 (casi 3 mil por ciento)",
+  "metric_unit": "buyers and percent (mixed, declared)",
+  "time_scope_raw": "en cuatro años... 2018 a... 2022",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

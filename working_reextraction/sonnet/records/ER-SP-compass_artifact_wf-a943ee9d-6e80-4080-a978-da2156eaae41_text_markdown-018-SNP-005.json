@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-018",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com",
+  "source_date_if_available": "Accessed April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"2026 in February I ordered a necklace with a little bird ( wren). It came from England in no time. All the way through i was informed! The necklace is soo beautiful and I get many comments.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com",
+    "secondary_pointer": null
+  },
+  "claim_type": "review_statement",
+  "subject_exact": "buyer's positive review of an Etsy seller's international shipping and product quality",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "2026 in February",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": "England",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "came from England in no time",
+    "all the way through i was informed"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

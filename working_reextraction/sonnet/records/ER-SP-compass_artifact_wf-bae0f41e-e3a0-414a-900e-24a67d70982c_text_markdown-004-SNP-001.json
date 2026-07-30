@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_type": "report",
+  "source_title": "How To Price Digital Products On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Price Range | # Products | % of Revenue | Avg Sales | Total Revenue: $0.01–$4.99 | 2,084 | 0.8% | 313 | $1.7M; $5–$9.99 | 2,896 | 3% | 328 | $6.2M; $10–$19.99 | 3,365 | 5.5% | 241 | $11.4M; $20–$29.99 | 1,760 | 4.7% | 235 | $9.7M; $30–$49.99 | 1,409 | 7.3% | 268 | $15M; $50–$99.99 | 857 | 7% | 239 | $14.5M; $100–$199.99 | 265 | 6% | 318 | $12.4M; $200+ | 316 | 65.7% | 154 | $135.3M\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "third-party report's breakdown of Gumroad product counts, revenue share, average sales, and total revenue by price band",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "price",
+    "revenue",
+    "sales_count"
+  ],
+  "metric_value_raw": "$0.01–$4.99: 2,084 products, 0.8% revenue, 313 avg sales, $1.7M total; $200+: 316 products, 65.7% revenue, 154 avg sales, $135.3M total (full 8-tier table in snippet)",
+  "metric_unit": "count, percent, and USD (mixed, declared)",
+  "time_scope_raw": "Updated March 21, 2026",
+  "time_scope_normalized_if_safe": "2026-03-21",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Full price-band table (8 rows) condensed to endpoints in metric_value_raw for brevity; complete data preserved verbatim in snippet_primary."
+  ]
+}

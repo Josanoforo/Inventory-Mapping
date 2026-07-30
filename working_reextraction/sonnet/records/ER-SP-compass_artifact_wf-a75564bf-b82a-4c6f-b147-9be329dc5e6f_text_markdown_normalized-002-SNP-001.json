@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-002",
+  "source_type": "database_profile",
+  "source_title": "55Xjagryqsaderfyemyva7Tnavbopjludhprshusugc",
+  "source_ref": "https://tracxn.com/d/companies/kichink/__55XJaGryqsaDerfyeMYva7TNaVBopJLuDHPrshUsUGc",
+  "source_date_if_available": "Accedido abril 2026; perfil titulado \"2025 Company Profile\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Kichink is an online marketplace offering products across categories such as fashion, health, beauty, food and drinks, home, pets etc. It is an open marketplace allowing sellers to open their storefront for free. It charges a commission of 7.5% on the transaction from the sellers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://tracxn.com/d/companies/kichink/__55XJaGryqsaDerfyeMYva7TNaVBopJLuDHPrshUsUGc",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "Kichink seller transaction commission rate per third-party company database profile",
+  "actor_level": "source",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "7.5%",
+  "metric_unit": "percent",
+  "time_scope_raw": "2025 Company Profile",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "allowing sellers to open their storefront for free"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

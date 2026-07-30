@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-001",
+  "source_type": "article",
+  "source_title": "Patreon Users",
+  "source_ref": "https://backlinko.com/patreon-users",
+  "source_date_if_available": "February 25, 2026 (last updated)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Creators on Patreon earned a total of $23.97 million (excluding creators with hidden earnings; actual earnings may vary significantly) in January 2026. Monthly payouts have dropped 0.72% over the last year, down from $24.14 million in January 2025.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://backlinko.com/patreon-users",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "Patreon creators' total monthly payout and YoY change per third-party statistics article",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "$23.97 million (down 0.72% YoY from $24.14 million)",
+  "metric_unit": "USD",
+  "time_scope_raw": "January 2026",
+  "time_scope_normalized_if_safe": "2026-01",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "excluding creators with hidden earnings; actual earnings may vary significantly"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": []
+}

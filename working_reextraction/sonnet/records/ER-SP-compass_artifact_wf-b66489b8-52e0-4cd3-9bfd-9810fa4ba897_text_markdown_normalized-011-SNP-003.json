@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011",
+  "source_type": "product_listing",
+  "source_title": "payhip.com",
+  "source_ref": "https://payhip.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Features > Sell: Digital Downloads, Online Courses, Coaching, Memberships, Physical Products / Features > Grow: Store Builder, Payment Gateways, VAT & Taxes, Marketing Tools, Email Marketing\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip homepage list of product types sellable and growth-tool features",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": [
+    "digital_planner",
+    "software",
+    "bundle"
+  ],
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "product_type_unclear"
+  ],
+  "parser_notes": [
+    "Feature list names broad product categories (Digital Downloads, Online Courses, Coaching, Memberships, Physical Products), none matching a single schema product_type value cleanly; recorded as representative array."
+  ]
+}

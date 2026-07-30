@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-027-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-027",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-027",
+  "source_type": "search_results_page",
+  "source_title": "Design",
+  "source_ref": "https://payhip.com/marketplace/design",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "Sort options: \"Sort by / Default / Recently added / Hot and new / Highest rated / Most reviewed / Price: Low to high / Price: High to low\" | Price filter: \"Price / All prices / Free / Under $5 / $5 - $25 / $25 - $40 / $40 - $60 / $60 and above\" | Rating filter: \"Rating / All ratings / 4 stars and up / 3 stars and up / 2 stars and up / 1 star and up\" | Additional controls: \"Related tags\" and \"[More filters]\" and \"Filter\" button.",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/marketplace/design",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip marketplace design-category browse and filter UI elements",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "Under $5; $5 - $25; $25 - $40; $40 - $60; $60 and above",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-007",
+  "source_type": "article",
+  "source_title": "Top Substack Writers Depart For Patreon",
+  "source_ref": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+  "source_date_if_available": "October 29, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lenz said she is already about 70% of the way to what her paid subscriber rate had been at Substack within two weeks on the new platform.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.niemanlab.org/2025/10/top-substack-writers-depart-for-patreon",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "individual writer's reported paid subscriber conversion rate after moving from Substack to Patreon",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon",
+    "Substack"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "conversion_rate",
+  "metric_value_raw": "about 70%",
+  "metric_unit": "percent",
+  "time_scope_raw": "within two weeks on the new platform",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "of what her paid subscriber rate had been at Substack"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Reported by a journalist about a named writer (Lenz); treated as reported_event rather than seller_self_claim since the source is an article, not the creator's own words."
+  ]
+}

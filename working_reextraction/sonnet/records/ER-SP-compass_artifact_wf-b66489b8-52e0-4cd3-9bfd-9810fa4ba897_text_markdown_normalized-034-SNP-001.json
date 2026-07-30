@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_type": "product_listing",
+  "source_title": "Ebooks",
+  "source_ref": "https://payhip.com/virtualink/ebooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "- SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place — $4.99 | - Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through) | - Top 50 Questions About AI — $4.99 | - Top 50 Questions People Ask AI — $4.99 | - Book About AI — $4.99 | - Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI — $5.99 (On Sale; was $11.99, struck through) | Popularity text: \"OVER 10,000 COPIES SOLD!!!\" | Promo banner: \"⇊ Get 40% Off Now ⇊\" | Stock display: \"Only -1 left\" (likely a bug or unlimited stock indicator)",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/virtualink/ebooks",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "seller's Payhip storefront (VirtualInk) ebook prices, discounts, and self-reported sales volume claim",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": [
+    "price",
+    "sales_count"
+  ],
+  "metric_value_raw": "$4.99; $4.99 (was $9.99); $4.99; $4.99; $4.99; $5.99 (was $11.99); OVER 10,000 COPIES SOLD",
+  "metric_unit": "USD and copies (mixed, declared)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Get 40% Off Now",
+    "Only -1 left (likely a bug or unlimited stock indicator)"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "'OVER 10,000 COPIES SOLD' is an unverified seller-displayed marketing figure, not a platform-disclosed statistic."
+  ]
+}
