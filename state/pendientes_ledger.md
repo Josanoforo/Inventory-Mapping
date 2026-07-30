@@ -49,8 +49,7 @@ files, diseño) · `OP` = solo el operador.
 
 | ID | Enunciado | Clase | Qué falta | Dónde | Estado |
 |---|---|---|---|---|---|
-| P-125 | Regla 5 de `p2-extract-signals/SKILL.md` contradice campo 13 de `signal_converter.md` | hecho | Cláusula de ruteo de anclas temporales a `time_scope_raw`, dependiente de P-126 y P-119 | CC | cerrada la contradicción entre regla 5 y campo 13, commit `f884099` |
-| P-137 | `extraction_converter.md` rutea fallos a `extraction_gpt_recovery/`, que no existe. El árbol y `CLAUDE.md` dicen `rejected_archive/` | hecho | Edición trivial de una ruta | CC | cerrado — ruta corregida en `extraction_converter.md` a `rejected_archive/`, commit `e0928ed` |
+| P-125 | Regla 5 de `p2-extract-signals/SKILL.md` contradice campo 13 de `signal_converter.md` | hecho | Cláusula de ruteo de anclas temporales a `time_scope_raw`, dependiente de P-126 y P-119 | CC | la contradicción entre regla 5 y campo 13 quedó resuelta en el commit `f884099`; pendiente la cláusula de anclas temporales a `time_scope_raw` |
 | P-131 | Dos versiones de `Blueprint_Phase_2_Signal_Extraction.md` con la misma pretensión de fuente única | hecho | Retirar una. Vive en project files, no en el repo | DSC | verificado |
 | P-133 | El análisis de diferencias de S27 se llamó "health check", término reservado al componente E del Blueprint | hecho | Corrección de término en el registro | DSC | verificado |
 | P-126 | `time_scope_raw` sin regla para material mezclado (bloque A, decisión 2a) | decisión | Extraer verbatim y resto a `normalization_notes`, o conservar string completo y marcar contaminación | DSC | verificado |
@@ -77,6 +76,7 @@ files, diseño) · `OP` = solo el operador.
 
 - **P-135** — CI existe: `.github/workflows/ci.yml`, dos jobs (`vocab-check`, `signal-card-defect-check --fixtures`), sin `continue-on-error`. Mergeado en PR #66 (`claude/ci-vocab-and-defect-checks`, merge `214dfe6`). Probado en las dos direcciones sobre el mismo PR: run `30504740061` (commit `d3f5954`) falló con exit 1 — `vocab_check.py` reportó divergencia real de `uncertainties` (`extra in schema: anecdotal_single_source, author_conflict_of_interest_possible, methodology_unclear`); run `30504959916` (commit `17ed6b3`), tras mergear el fix de PR #65 a la rama, pasó con exit 0 en los dos jobs.
 - **P-129a** — Eran dos campos, no uno. `claim_type`: `statistical_data` agregado al vocab (PR #63, commit `7124833`; 90/1178 registros lo usan). `uncertainties`: `methodology_unclear` (107 apariciones), `anecdotal_single_source` (28), `author_conflict_of_interest_possible` (23) agregados al core del vocab (PR #65, commit `4b016db`) — 158 apariciones sumadas, 150/1178 registros con al menos uno de los tres (unión con solapamiento; no son 158 registros distintos). `vocab_check.py` en exit 0 en `main` hoy — 0 divergencias, `uncertainties` en CLEAN FIELDS.
+- **P-137** — `extraction_converter.md` rutea fallos a `extraction_gpt_recovery/`, que no existe. El árbol y `CLAUDE.md` dicen `rejected_archive/` — cerrado — ruta corregida en `extraction_converter.md` a `rejected_archive/`, commit `e0928ed`.
 
 ---
 
@@ -108,12 +108,12 @@ files, diseño) · `OP` = solo el operador.
 | Grupo | Filas |
 |---|---|
 | A — pendientes de verificar (Run 2) | 9 |
-| B — verificados, esperando decisión | 23 |
+| B — verificados, esperando decisión | 22 |
 | C — decisiones de DSC | 4 |
 | D — candidatos a parqueo | 5 |
-| **Total abiertos** | **41** |
+| **Total abiertos** | **40** |
 
-**Cerrados en esta corrección:** P-135, P-129a (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082 (ver citas bajo la tabla A, justo después de la tabla).
+**Cerrados en esta corrección:** P-135, P-129a, P-137 (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082 (ver citas bajo la tabla A, justo después de la tabla).
 **Cerrados en S28, no re-abrir:** P-076, P-107, P-108, P-110, P-112, P-114, P-120, P-122, P-123,
 P-124, P-130.
 **Cerrados antes:** P-058, P-060, P-063, P-064, P-065, P-066, P-079, P-080, P-101, P-104, P-105,
@@ -125,10 +125,10 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-23 de 41 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
+22 de 40 ya están verificados y esperan juicio del operador. 9 esperan que alguien mire el repo.
 5 no son decidibles hoy. **El cuello es la cola de decisiones, no la de verificación.**
 
-De los 23 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,
+De los 22 del grupo B, ocho son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-2, U-3,
 más `local_qualifiers` y `time_scope_raw`) y todos comparten la misma pregunta previa: qué campos
 consume Phase 3 realmente. Esa pregunta es el entregable A de Run 3. **Decidir cualquiera de los
 ocho antes de Run 3 repite el error que interrumpió S28 cuatro veces.**
