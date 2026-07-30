@@ -150,6 +150,9 @@ uncertainties:
     - product_type_unclear
     - geography_unclear
     - none
+    - methodology_unclear
+    - anecdotal_single_source
+    - author_conflict_of_interest_possible
   # Phase-specific extensions
   phase_1_only:
     - source_type_unclear
