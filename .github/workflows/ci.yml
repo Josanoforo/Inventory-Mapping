@@ -1,0 +1,57 @@
+name: CI
+
+# First CI in this repo (P-135). Scope is strictly the two deterministic
+# checks that already have their own pass/fail verdict:
+#   - vocab_check.py            (D-203: declared automated health check,
+#                                 nothing triggered it until now)
+#   - signal_card_defect_check.py --fixtures (calibration gate over its
+#                                 21 synthetic fixtures)
+#
+# state/scripts/field_lifecycle_trace.py and state/scripts/field_population_audit.py
+# are deliberately excluded: they are measurements, not checks. They report
+# numbers (e.g. 207 and 186 out-of-enum values in the current corpus), not a
+# pass/fail verdict, and their threshold is an operator decision that has not
+# been made. Wiring them in here would break the build on the first commit
+# for a threshold nobody chose.
+#
+# signal_card_defect_check.py runs with --fixtures, not in default mode.
+# Default mode always exits 0 regardless of defects found (no sys.exit(1)
+# path exists outside --fixtures) — that is a recorded limitation, not fixed
+# by this workflow.
+#
+# No continue-on-error anywhere: a check that cannot fail is documentation,
+# not a gate.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  vocab-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyYAML
+        # Pinned: unpinned, a PyYAML breaking change fails this gate for a
+        # reason unrelated to the vocabulary, and the failure gets diagnosed
+        # as a divergence that doesn't exist. Pinned, a gate failure always
+        # means the same thing. 6.0.1 is the version verified against this
+        # script during the session that built this workflow.
+        run: pip install pyyaml==6.0.1
+      - name: Run vocab_check.py
+        run: python3 vocab_check.py
+
+  signal-card-defect-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run signal_card_defect_check.py --fixtures
+        run: python3 signal_card_defect_check.py --fixtures
