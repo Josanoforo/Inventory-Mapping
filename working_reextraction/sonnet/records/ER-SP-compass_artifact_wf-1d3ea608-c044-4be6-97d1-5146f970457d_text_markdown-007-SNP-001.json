@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007",
+  "source_type": "seller_forum",
+  "source_title": "Argentina Impuesto Pais",
+  "source_ref": "https://www.domestika.org/es/forums/939-off-topic/topics/168092-argentina-impuesto-pais",
+  "source_date_if_available": "17.11.2020 (thread creation date; staff response visible in search engine index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Hola @victordg! Domestika es una empresa basada en EEUU y todos los cobros se realizan en dólares. Te invito a visitar este artículo de la página de ayuda para obtener más información. ¡Un saludo!»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/forums/939-off-topic/topics/168092-argentina-impuesto-pais",
+    "secondary_pointer": null
+  },
+  "claim_type": "explicit_claim",
+  "subject_exact": "Domestika forum reply stating the company is US-based and all charges are processed in dollars",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "EEUU",
+  "evidence_role": "local_context",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "Forum reply addressed by name to a user, likely community staff; speaker identity not resolvable from the snippet."
+  ]
+}

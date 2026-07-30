@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+  "source_date_if_available": "2025-04-22",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This is the payment processor for revid.ai. They are both scams. One star because I can't give 0. Impossible to speak with a live person, impossible to cancel your revid.ai account with an active Lemonsqueezy account, and impossible to cancel. Fraud.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+    "secondary_pointer": null
+  },
+  "claim_type": "review_statement",
+  "subject_exact": "Buyer review describing Lemon Squeezy and revid.ai together as impossible to cancel or reach a live person for",
+  "actor_level": "buyer",
+  "platforms": [
+    "Lemon Squeezy",
+    "revid.ai"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "impossible to cancel your revid.ai account with an active Lemonsqueezy account"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

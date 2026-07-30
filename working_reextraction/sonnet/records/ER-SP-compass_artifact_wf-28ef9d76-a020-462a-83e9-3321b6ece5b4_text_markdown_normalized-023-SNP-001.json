@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023",
+  "source_type": "blog",
+  "source_title": "Sellfy Vs Payhip",
+  "source_ref": "https://www.theleap.co/blog/sellfy-vs-payhip",
+  "source_date_if_available": "Nov 7, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"What's unique about Payhip is that each plan has access to the same features as the next. So, Payhip's Free plan has the same exact features as its Pro plan. The only difference is that you'll be paying a 5% or 2% transaction fee (Plus) vs. a 0% transaction fee with Pro.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.theleap.co/blog/sellfy-vs-payhip",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Third-party blog comparison of Sellfy's and Payhip's plan-tier feature parity and transaction fee differences",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip",
+    "Sellfy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5% (Free) or 2% (Plus) vs 0% (Pro)",
+  "metric_unit": "percent",
+  "time_scope_raw": "Nov 7, 2024",
+  "time_scope_normalized_if_safe": "2024-11-07",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

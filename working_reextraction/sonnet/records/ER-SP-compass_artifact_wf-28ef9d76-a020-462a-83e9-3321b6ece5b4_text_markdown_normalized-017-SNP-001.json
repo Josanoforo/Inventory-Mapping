@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-017",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-017",
+  "source_type": "seller_forum",
+  "source_title": "Gumroad Has Zero Organic Discovery Im Cross Listing My Data Product Everywhere 5910F96Fba",
+  "source_ref": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+  "source_date_if_available": "March 30, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"payhip: free plan, 5% fee, growing marketplace. gumroad: 10% fee, zero organic traffic unless already selling.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Seller-forum comparison of Payhip's and Gumroad's transaction fees and organic marketplace traffic/discoverability",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip",
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "fee_rate",
+    "discoverability_claim"
+  ],
+  "metric_value_raw": "5% (Payhip, growing marketplace) vs 10% (Gumroad, zero organic traffic unless already selling)",
+  "metric_unit": "percent",
+  "time_scope_raw": "March 30, 2026",
+  "time_scope_normalized_if_safe": "2026-03-30",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "unless already selling"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Combines a fee-rate comparison with a discoverability comparison; recorded as an array since both are explicit and neither dominates the snippet."
+  ]
+}

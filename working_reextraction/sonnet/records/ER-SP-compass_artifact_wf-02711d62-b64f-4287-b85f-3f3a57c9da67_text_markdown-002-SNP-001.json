@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Patreon Users",
+  "source_ref": "https://backlinko.com/patreon-users",
+  "source_date_if_available": "Page states \"Last updated on Feb. 25, 2026.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Based on Graphtreon data, 286,287 creators have at least one paying member as of February 2026. That's a drop of around 5% since June 2025.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://backlinko.com/patreon-users",
+    "secondary_pointer": null
+  },
+  "claim_type": "statistical_data",
+  "subject_exact": "Number of Patreon creators with at least one paying member, per Graphtreon data cited by Backlinko",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "paid_creator_count",
+  "metric_value_raw": "286,287",
+  "metric_unit": "creators",
+  "time_scope_raw": "as of February 2026",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Snippet also states a secondary figure: ~5% drop in this count since June 2025, attributed to Graphtreon data via Backlinko article.",
+    "metric_type value 'paid_creator_count' not present in schema enum; logged as out_of_enum rather than forcing 'active_buyers' (which would collapse creator-count into buyer-count).",
+    "Value 'paid_creator_count' for field 'metric_type' not in schema enum; recorded verbatim per out_of_enum protocol."
+  ]
+}

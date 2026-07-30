@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-008",
+  "source_type": "policy_page",
+  "source_title": "Privacy",
+  "source_ref": "https://www.domestika.org/es/privacy",
+  "source_date_if_available": "10 de julio de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«De conformidad con las Normativas de protección de datos aplicables vigentes, se informa al interesado que los Datos personales proporcionados (los «Datos personales») serán tratados por Domestika Inc. («Domestika») como titular de la Plataforma y responsable del tratamiento de los Datos personales proporcionados en la misma, cuyos datos de contacto son los siguientes: Domicilio social: 2001 Addison St., Suite 300 Berkeley, CA, 94704, Estados Unidos.»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/privacy",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika Inc. corporate identity and registered address as data controller under its privacy policy",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "10 de julio de 2024",
+  "time_scope_normalized_if_safe": "2024-07-10",
+  "geography_if_explicit": "Berkeley, CA, Estados Unidos",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006",
+  "source_type": "seller_forum",
+  "source_title": "Metodos De Pago",
+  "source_ref": "https://www.domestika.org/es/forums/2-domestika/topics/170068-metodos-de-pago",
+  "source_date_if_available": "10.12.2020 (post date visible on fetched page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«¡Hola! En este enlace puedes ver los métodos de pago disponibles. Veo que estás en Perú, por lo que en tu caso tienes disponible la opción de pago con tarjeta o PayPal. ¡Un saludo!»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/forums/2-domestika/topics/170068-metodos-de-pago",
+    "secondary_pointer": null
+  },
+  "claim_type": "availability_statement",
+  "subject_exact": "Domestika forum reply confirming card and PayPal payment methods available to a buyer in Peru",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Perú",
+  "evidence_role": "local_context",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "Forum reply likely from community staff answering a support question; speaker identity not resolvable from the snippet."
+  ]
+}

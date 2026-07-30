@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-007",
+  "source_type": "platform_doc",
+  "source_title": "Payhip Alternatives",
+  "source_ref": "https://payhip.com/payhip-alternatives",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip offers unbeatable value with our forever-free plan, including all features and just 5% transaction fees. This is significantly more affordable than Gumroad's 10% fees or Shopify's $29/month base plan. Plus, you can reduce or eliminate transaction fees by opting for our affordable monthly plans, making Payhip the most cost-effective solution for creators of all sizes.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/payhip-alternatives",
+    "secondary_pointer": null
+  },
+  "claim_type": "pricing_statement",
+  "subject_exact": "Payhip's own comparison of its free-plan transaction fee against Gumroad's and Shopify's pricing, per Payhip Alternatives page",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip",
+    "Gumroad",
+    "Shopify"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5% (Payhip) vs 10% (Gumroad) vs $29/month base plan (Shopify)",
+  "metric_unit": "percent / USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "can reduce or eliminate transaction fees via affordable monthly plans"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Mixed units (percent transaction fee vs. flat monthly subscription price) declared explicitly, not collapsed into one figure."
+  ]
+}

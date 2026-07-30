@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Over the years, she'd stayed silent about her lack of rights over her course. Plus, her affiliate link that gave her 75% commission as opposed to the 25% (if they signed up through Domestika) kept changing or breaking (which she believed was intentional). These student discounts barely earned her $10-$15 every month. She felt helpless because her primary contact had stopped responding to her emails.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor-reported affiliate commission rate discrepancy (75% vs 25%) and low monthly student-discount earnings, per investigative report",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "$10-$15 every month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "her affiliate link kept changing or breaking, which she believed was intentional"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

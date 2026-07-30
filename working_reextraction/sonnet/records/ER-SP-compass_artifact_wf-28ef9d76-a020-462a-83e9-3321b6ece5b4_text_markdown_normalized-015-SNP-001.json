@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-015",
+  "source_type": "blog",
+  "source_title": "Gumroad Vs Payhip",
+  "source_ref": "https://whop.com/blog/gumroad-vs-payhip",
+  "source_date_if_available": "Jan 24, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad offers easier product setup and a flat 10% fee, while Payhip provides more store customization options.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://whop.com/blog/gumroad-vs-payhip",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Third-party blog comparison of Gumroad's easier product setup and flat fee versus Payhip's greater store customization",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip",
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "10%",
+  "metric_unit": "percent",
+  "time_scope_raw": "Jan 24, 2024",
+  "time_scope_normalized_if_safe": "2024-01-24",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

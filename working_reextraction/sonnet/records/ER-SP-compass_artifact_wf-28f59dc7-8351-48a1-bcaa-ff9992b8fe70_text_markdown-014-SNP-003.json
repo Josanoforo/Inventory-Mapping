@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-014-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-014",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/domestika.org?page=2",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Domestika charged me $349, up from $169 last year. Their website says no refunds. I requested a refund anyway and notified PayPal. I canceled my subscription today.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/domestika.org?page=2",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Buyer report of a Domestika charge increasing year-over-year ($169 to $349) despite a stated no-refunds policy",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$169 (prior year) to $349",
+  "metric_unit": "USD",
+  "time_scope_raw": "last year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "their website says no refunds"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

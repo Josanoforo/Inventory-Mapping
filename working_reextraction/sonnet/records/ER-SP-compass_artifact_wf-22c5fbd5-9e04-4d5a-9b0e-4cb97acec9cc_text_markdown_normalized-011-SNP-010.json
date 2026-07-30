@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-010",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Your students are waiting for you! We have temporarily paused your commission due to a period of inactivity in the forum and course comments. But don't worry: your classroom is still open and your students are hoping to hear from you. As soon as we see that you're available for your students and participating regularly in your course community during the next 90 days, your commissions will automatically reactivate. Come back and reconnect: your guidance makes all the difference! Go to your Community →\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika's automated instructor-facing message conditioning commission reactivation on 90 days of forum/course-comment activity",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "activation_requirement",
+  "metric_value_raw": "90 days",
+  "metric_unit": "days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Quoted verbatim as an automated platform message reproduced within the investigative report; treated as official_policy since it states the platform's own reactivation rule."
+  ]
+}

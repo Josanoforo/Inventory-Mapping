@@ -1,0 +1,47 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-012",
+  "source_type": "report",
+  "source_title": "(Comment Section)",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors/ (comment section)",
+  "source_date_if_available": "Late 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Ive had the same experience with domestika. They promised a lot and never delivered. They never priced my course at the figure they said they would and its been pretty much 0.99cents for years. I had an argument with them back in 2021 and refused to engage with my course as an instructor because they had mis-lead me about the earnings. They never told me that they would sell the course at different prices across the globe but in fact they just priced my course at 0.99. In 4 years I have earned around $6k, but $3k of that was paid upfront when making the course which they then take back, and it was about a year after making the course before I started to see any monthly payments which were on average around $50 per month. I have 12,000 students on my course but sadly my course is now 4 years old. Several months ago they froze my monthly payments stating inactivity on the course.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors/ (comment section)",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor-reported course pricing, earnings breakdown, and payment freeze over a 4-year Domestika course lifecycle, per comment-section post",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "revenue",
+    "payout"
+  ],
+  "metric_value_raw": "~$6k total over 4 years; $3k upfront (later clawed back); ~$50/month average",
+  "metric_unit": "USD",
+  "time_scope_raw": "In 4 years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "priced the course at 0.99 cents for years",
+    "12,000 students on the course",
+    "froze payments citing inactivity"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "net_vs_gross_ambiguity"
+  ],
+  "parser_notes": [
+    "Multiple financial figures bundled in one comment; net_vs_gross_ambiguity flagged because the $3k advance is described as later reclaimed."
+  ]
+}

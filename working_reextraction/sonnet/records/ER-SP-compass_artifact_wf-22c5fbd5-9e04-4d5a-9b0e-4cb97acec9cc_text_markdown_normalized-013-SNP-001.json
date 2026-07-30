@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-013",
+  "source_type": "report",
+  "source_title": "Cgma Missed Payments For Instructors Future Of The Art Academy Is Foggy",
+  "source_ref": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy",
+  "source_date_if_available": "Late September/Early October 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It is extremely unfortunate that my decade long collaboration with the school ends like this. Aside from the money they owe to all of us instructors, they have both let down teachers, students and staff. I would like to point out that the old CGMA staff were always kind and helpful to me, so this is for sure a consequence of Domestika's purchasing the school. This might also mean the end for my online teaching activity at online academies for now. From this moment, I will only be doing private mentorships through my Patreon.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor's account of a decade-long collaboration with CGMA ending due to Domestika's acquisition and missed payments, per report/comment",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika",
+    "CGMA"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Late September/Early October 2025",
+  "time_scope_normalized_if_safe": "2025-09",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "a decade long collaboration"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Instructor states intent to move to Patreon for private mentorships; platforms field limited to Domestika/CGMA since Patreon is a stated future intent, not a current claim about Patreon itself."
+  ]
+}

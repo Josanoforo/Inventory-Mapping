@@ -24,3 +24,27 @@ uncertainties correspondiente. Campos libres no determinables →
 null o [], con nota en parser_notes explicando por qué. Nunca
 inferencia. El contrato manda primero; si el contrato calla, aplica
 estas reglas.
+
+--- Agregado tras batch_008: Métricas de agregadores/bases de datos que no
+mapean a ningún valor del enum metric_type (p.ej. conteo de creadores con
+al menos un pagador, distribución de perfiles por categoría de contenido,
+conteo agregado de quejas en una plataforma de terceros) se escriben como
+string descriptivo literal (out_of_enum), nunca forzadas al valor "menos
+malo" del enum (p.ej. active_buyers colapsaría conteo de creadores con
+conteo de compradores). ---
+
+--- Agregado tras batch_008: Bloques de estadísticas de ranking/database_profile
+que combinan 2-3 métricas explícitas en un solo bloque visual sin que ninguna
+domine (p.ej. paid-member count + monthly payout de una misma entidad rankeada)
+se registran como metric_type en array con un solo metric_value_raw combinado
+en string, no se separan en registros distintos si llegaron como una sola
+unidad de snippet. ---
+
+--- Agregado tras batch_008: Respuestas en foros de vendedores donde no es
+determinable si quien responde es staff de la plataforma o un vendedor par
+(p.ej. respuestas de soporte dirigidas por nombre de usuario en foros de
+Domestika) se resuelven por defecto como actor_level "seller" (regla por
+defecto del contrato para seller_forum), agregando actor_level_unclear a
+uncertainties y una nota en parser_notes explicando la ambigüedad — nunca se
+asume "platform" sin evidencia explícita de que quien habla es la plataforma
+misma. ---

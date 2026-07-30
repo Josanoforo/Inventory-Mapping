@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/es/terms",
+  "source_date_if_available": "31 de enero de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Debe garantizar que usted (como individuo o como representante de cualquier entidad en cuyo nombre utiliza los Servicios) no se encuentra, ni reside, en ningún país sujeto a sanciones o embargos comerciales de EE.UU. vigentes (como Cuba, Irán, Corea del Norte, Sudán, Siria o la región de Crimea de Ucrania). También debe garantizar que no es ninguna persona o entidad cuyo nombre aparezca en cualquier lista nacional o de partes denegadas designada especialmente por el gobierno de EE.UU.»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/terms",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika Terms of Use prohibition on use by persons/entities in US-sanctioned countries or on denied-party lists",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "31 de enero de 2024",
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": [
+    "Cuba",
+    "Irán",
+    "Corea del Norte",
+    "Sudán",
+    "Siria",
+    "región de Crimea de Ucrania"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

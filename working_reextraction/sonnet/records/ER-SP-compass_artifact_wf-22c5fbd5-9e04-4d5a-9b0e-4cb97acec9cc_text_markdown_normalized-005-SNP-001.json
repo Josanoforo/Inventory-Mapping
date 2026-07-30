@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_type": "blog",
+  "source_title": ")",
+  "source_ref": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)",
+  "source_date_if_available": "Undated (~2021–2022)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Cuando ellos publicaron su curso el modelo era recibir una comisión por cada venta del curso. A día de hoy, se paga una cantidad inicial al instructor por la realización del curso y posteriormente se recibe una comisión por cada venta, pero esa comisión seguramente es inferior.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Change in Domestika instructor compensation model from pure per-sale commission to an upfront payment plus a lower per-sale commission",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "A día de hoy (vs. cuando publicaron su curso)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "esa comisión seguramente es inferior"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": []
+}

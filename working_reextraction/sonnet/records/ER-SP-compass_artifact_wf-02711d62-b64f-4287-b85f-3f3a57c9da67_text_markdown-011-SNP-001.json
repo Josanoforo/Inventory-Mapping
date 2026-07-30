@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-011",
+  "source_type": "product_listing",
+  "source_title": "Patreon Growth Agency",
+  "source_ref": "https://stealthagents.com/patreon-growth-agency",
+  "source_date_if_available": "Accessed April 2026; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Monthly Investment: $1,600/month (full-time, dedicated) In-House Equivalent Cost: Marketing Manager salary + benefits = $71,500/year Your Annual Savings: $52,300 back in your business Content Creation Speed: 3x faster with dedicated support Subscriber Growth Rate: 40-60% increase in monthly growth\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://stealthagents.com/patreon-growth-agency",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Patreon growth agency monthly pricing and self-reported cost/growth comparison versus an in-house marketing hire",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$1,600/month",
+  "metric_unit": "USD/month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Snippet contains additional unverified figures from third-party agency marketing not captured in metric_value_raw: in-house cost comparison ($71,500/year), claimed annual savings ($52,300), claimed content speed (3x faster), and claimed subscriber growth rate (40-60% increase) — self-reported by the agency with no methodology disclosed."
+  ]
+}

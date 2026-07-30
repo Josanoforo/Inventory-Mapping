@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_type": "report",
+  "source_title": "Caida Domestika Millones Despedir Sustituir Tareas Chatgpt",
+  "source_ref": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+  "source_date_if_available": "June 2, 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Todo ha cambiado mucho desde que empecé: yo tenía un primer contrato en el que ellos pagaban un fijo por preparar el curso y entregarles los derechos del mismo, y después la comisión por curso vendido. Pero ahora ya no nos pagan ese fijo sino un adelanto de comisión. Básicamente, no nos pagan por un trabajo que puede llevar en ocasiones hasta seis meses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor account of Domestika contract change from a fixed upfront fee plus per-sale commission to a commission-advance-only model",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "June 2, 2023",
+  "time_scope_normalized_if_safe": "2023-06-02",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "puede llevar en ocasiones hasta seis meses"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

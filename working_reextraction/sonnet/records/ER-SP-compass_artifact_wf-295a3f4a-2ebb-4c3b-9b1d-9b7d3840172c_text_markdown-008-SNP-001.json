@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-008",
+  "source_type": "policy_page",
+  "source_title": "Terminos",
+  "source_ref": "https://www.kichink.com/legales/terminos",
+  "source_date_if_available": "Acceso abril 2026; página sin fecha",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La TIENDA, reconoce que, para el envío de paquetes Internacionales, podrán generarse costos adicionales derivados de la Exportación o Importación de productos, como el pago de Aranceles, Gastos Aduanales o cualquier otro pago de derechos o cargos que deberán ser cubiertos por El Comprador o en algunos casos por La TIENDA.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/legales/terminos",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Kichink terms acknowledging additional costs (tariffs, customs) for international package shipments, payable by buyer or in some cases the seller",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "podrán generarse costos adicionales...que deberán ser cubiertos por El Comprador o en algunos casos por La TIENDA"
+  ],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

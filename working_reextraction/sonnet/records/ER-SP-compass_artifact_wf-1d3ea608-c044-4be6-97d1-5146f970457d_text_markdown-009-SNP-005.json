@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/es/terms",
+  "source_date_if_available": "31 de enero de 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Todos los asuntos relacionados con los Servicios y estas Condiciones de uso, así como cualquier conflicto o reclamación que surja de dichos Servicios y Condiciones o esté relacionado con ellos (en cada caso, incluidos los conflictos o las reclamaciones no contractuales) se regirán por la legislación interna del estado de Nueva York, y se interpretarán de acuerdo con dicha legislación.»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/terms",
+    "secondary_pointer": null
+  },
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika Terms of Use governing law clause designating New York State law",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "31 de enero de 2024",
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": "Nueva York",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": []
+}

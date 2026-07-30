@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"(Earlier) The team was great, and my first two courses didn't even have a contract. They did all the production, helped me set up my first course, and it even became a best-seller. Then they started to downgrade these royalties. Their last proposal was 5% (royalties) for a new course, which I refused.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor-reported royalty downgrade over time, culminating in a proposed 5% royalty for a new course which the instructor refused, per investigative report",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "earlier courses had no contract; production was fully handled by Domestika"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": []
+}

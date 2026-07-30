@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-009",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"After the acquisition, Brienne Gil*, a CGMA instructor, mentioned that Domestika asked the instructors to market their own courses, which led to a drop in enrollments.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor-reported drop in course enrollments after Domestika asked CGMA instructors to self-market their courses post-acquisition, per investigative report",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika",
+    "CGMA"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "sales_count",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "After the acquisition",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

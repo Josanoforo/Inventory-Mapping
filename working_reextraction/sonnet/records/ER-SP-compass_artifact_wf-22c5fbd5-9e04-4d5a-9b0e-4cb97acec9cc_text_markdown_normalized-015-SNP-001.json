@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-015",
+  "source_type": "report",
+  "source_title": "(Original From Instagram)",
+  "source_ref": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy/ (original from Instagram)",
+  "source_date_if_available": "Late September/Early October 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Two years ago, Domestika bought CGMA. Most instructors noticed that enrollment went down drastically after this, but we assumed it might be because of the recent changes; we kept going. Two weeks ago, several instructors got in touch as they noticed that Domestika/CGMA was not paying us for the last terms we taught. We tried to get in touch with the old staff, but we got a reply from them saying that they weren't allowed to provide any new information. No reply from Domestika. Nearly a hundred instructors have not been paid to this day. For some of them it was their only source of income allowing to sustain themselves and their families. Still, the school kept allowing new students to enroll, while not paying the instructors and blocking them their access to the Online Campus and blocking them also on Domestika's social platforms. A few days ago they cancelled all our courses (without our knowledge).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.comicsbeat.com/cgma-missed-payments-for-instructors-future-of-the-art-academy-is-foggy/ (original from Instagram)",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Instructor account (via Instagram) describing enrollment decline after Domestika's CGMA acquisition, unpaid instructors, and course cancellations without notice",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika",
+    "CGMA"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "sales_count",
+  "metric_value_raw": "Nearly a hundred instructors",
+  "metric_unit": "instructors",
+  "time_scope_raw": "Two years ago (acquisition); two weeks ago (non-payment discovered)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "blocking them access to the Online Campus and Domestika's social platforms",
+    "cancelled all our courses without our knowledge"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": []
+}

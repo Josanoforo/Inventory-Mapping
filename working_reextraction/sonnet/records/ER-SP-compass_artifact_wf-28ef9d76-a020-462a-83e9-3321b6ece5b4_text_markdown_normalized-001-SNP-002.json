@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-001",
+  "source_type": "blog",
+  "source_title": "Sendowl Alternatives",
+  "source_ref": "https://bloggingwizard.com/sendowl-alternatives",
+  "source_date_if_available": "Updated February 12, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip markets itself as an all-in-one solution that emphasizes its fast checkout process. It claims that customers can complete a purchase in just seconds. Having a complex checkout process can spell the difference between closing a sale and losing a customer. So if that's a concern for you, then maybe Payhip is the platform you're looking for.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bloggingwizard.com/sendowl-alternatives",
+    "secondary_pointer": null
+  },
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Third-party blog's characterization of Payhip's own marketing claim of a fast, few-second checkout process",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Updated February 12, 2026",
+  "time_scope_normalized_if_safe": "2026-02-12",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "none"
+  ],
+  "parser_notes": [
+    "Snippet reports Payhip's self-marketing claim ('claims that customers can complete a purchase in just seconds') through a third-party blog, not Payhip's own page; evidence_role kept as comparative_commentary since the immediate speaker is the reviewing blog."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Probando La Tienda Online Kichink",
+  "source_ref": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink",
+  "source_date_if_available": "Acceso abril 2026; página sin fecha visible; circa 2015–2017 por contexto",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Otra cosa interesante, es que podemos tener nuestra versión en ingles, ya que hacen envíos a Estados Unidos, eso si, tienes que traducir tu mismo por cada articulo que hagas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.angeldecuir.com.mx/probando-la-tienda-online-kichink",
+    "secondary_pointer": null
+  },
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Blogger's account of testing the Kichink store, noting English-language storefront capability requiring manual per-item translation for US shipments",
+  "actor_level": "seller",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "circa 2015-2017 (por contexto)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Estados Unidos",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "tienes que traducir tu mismo por cada articulo"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": []
+}
