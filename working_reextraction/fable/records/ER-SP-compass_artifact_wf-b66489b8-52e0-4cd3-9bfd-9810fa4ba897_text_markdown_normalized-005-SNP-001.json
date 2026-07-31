@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-005",
+  "source_type": "article",
+  "source_title": "Marketplace",
+  "source_ref": "https://help.payhip.com/article/307-marketplace",
+  "source_date_if_available": "Last updated January 26, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The Payhip marketplace is the perfect place for you to share your work with the world. It recommends your products to prospective customers outside of your existing following. Helping more people discover your work.\" … \"For your store to be eligible to be listed on the marketplace you would need to meet the following criteria: - Have made at least $10 in total sales - Our accounts team has reviewed your store\" … \"Please note that self-purchases do not count toward this total.\" … \"We aim to complete the approval process within 10 days of submission, but may take longer in some cases.\" … \"At the moment, we can only support digital products on the marketplace. We plan to work on support for the other product types in the future, but will take some time.\" … \"There is no additional fee for sales from the marketplace. You'll continue to be charged the usual Payhip fee for transactions.\" … \"Tagging helps customers easily find your products through search and other discovery areas. So it's a good idea to include tags along with your products.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Payhip marketplace listing eligibility requires at least $10 in total sales (self-purchases excluded) and an accounts-team store review, with digital products only and no additional marketplace fee",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "activation_requirement",
+  "metric_value_raw": "at least $10",
+  "metric_unit": "USD in total sales",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-01-26",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Please note that self-purchases do not count toward this total",
+    "We aim to complete the approval process within 10 days of submission, but may take longer in some cases",
+    "At the moment, we can only support digital products on the marketplace",
+    "There is no additional fee for sales from the marketplace. You'll continue to be charged the usual Payhip fee for transactions"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Main claim metric: marketplace eligibility threshold 'at least $10 in total sales' as activation_requirement; approval window '10 days' and fee statement kept in local_qualifiers (criterion H).",
+    "Source date 'Last updated January 26, 2026' — explicit content date on a policy state claim with null raw; normalized 2026-01-26 (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/307-marketplace",
+    "secondary_pointer": null
+  }
+}

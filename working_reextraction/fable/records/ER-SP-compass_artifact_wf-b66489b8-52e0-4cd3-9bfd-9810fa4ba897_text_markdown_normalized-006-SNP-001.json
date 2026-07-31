@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-006",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-006",
+  "source_type": "article",
+  "source_title": "Public Api",
+  "source_ref": "https://help.payhip.com/article/347-public-api",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We have an API available for managing coupons and license keys, you can find the instructions here: https://payhip.com/api-reference · In the future, we plan to expand the API to support many more resource types.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Payhip public API available for managing coupons and license keys, with planned expansion to more resource types",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "In the future, we plan to expand the API to support many more resource types"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Source date 'Accessed April 2026; page undated' — access dates never normalize time_scope (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/347-public-api",
+    "secondary_pointer": null
+  }
+}

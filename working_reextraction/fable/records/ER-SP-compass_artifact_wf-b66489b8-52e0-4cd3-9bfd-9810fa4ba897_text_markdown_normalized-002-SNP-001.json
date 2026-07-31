@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-002",
+  "source_type": "article",
+  "source_title": "Setup Payhip",
+  "source_ref": "https://authors.bookfunnel.com/help/setup-payhip",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With BookFunnel Delivery Actions, you can sell your book on Payhip and BookFunnel will send a unique, private download link to your buyer automatically! We'll also handle any tech support if the reader has trouble transferring the book to their reading device.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "BookFunnel Delivery Actions send a unique private download link to buyers of a book sold on Payhip, with BookFunnel handling reader tech support",
+  "actor_level": "third_party",
+  "platforms": [
+    "Payhip",
+    "BookFunnel"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "We'll also handle any tech support if the reader has trouble transferring the book to their reading device"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "First-person external provider voice (BookFunnel help page about its own Payhip integration) — actor third_party per assignment_rule; marketing-toned help copy assigned direct_claim, not official_policy (K6).",
+    "'your book ... transferring the book to their reading device' — digital book delivery; product_type 'ebook'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://authors.bookfunnel.com/help/setup-payhip",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-001",
+  "source_type": "database_profile",
+  "source_title": "Payhip P5V3Ea",
+  "source_ref": "https://apps.make.com/payhip-p5v3ea",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"payhip is an e commerce platform that enables users to sell digital products, memberships, and courses directly online integrating with make com allows automation of sales, customer management, and product delivery workflows\" … \"payhip is a community developed application and is subjected to the developer's terms and conditions... make does not maintain or support this integration\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip described as an e-commerce platform for selling digital products, memberships, and courses, with a community-developed Make.com integration not maintained or supported by Make",
+  "actor_level": "third_party",
+  "platforms": [
+    "Payhip",
+    "Make"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "payhip is a community developed application and is subjected to the developer's terms and conditions",
+    "make does not maintain or support this integration"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Source date 'Accessed April 2026; page undated' — access dates never normalize time_scope (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://apps.make.com/payhip-p5v3ea",
+    "secondary_pointer": null
+  }
+}
