@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-91f3e7a0-e214-48ce-917e-bc6552ab2ae7_text_markdown_normalized-010",
+  "source_type": "platform_doc",
+  "source_title": "Gumboostpro",
+  "source_ref": "https://waveupuk.gumroad.com/l/GumBoostPro",
+  "source_date_if_available": "April 2026 (observed in shard)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Boost Your Gumroad Sales with the Ultimate AI Tool for Compelling Product Descriptions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "AI description tool sold on Gumroad marketed to boost Gumroad sales with compelling product descriptions",
+  "actor_level": "third_party",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Product listing hosted on Gumroad itself; seller of the tool speaks as external provider about own product."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://waveupuk.gumroad.com/l/GumBoostPro",
+    "secondary_pointer": null
+  }
+}
