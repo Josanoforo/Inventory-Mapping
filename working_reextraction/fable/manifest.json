@@ -35,13 +35,14 @@
     "batch_026",
     "batch_027",
     "batch_028",
-    "batch_029"
+    "batch_029",
+    "batch_030"
   ],
   "counters": {
-    "written": 724,
+    "written": 749,
     "rejected": 1,
-    "out_of_enum_records": 90,
-    "schema_enum_conflict_records": 23
+    "out_of_enum_records": 93,
+    "schema_enum_conflict_records": 24
   },
   "processed_skeletons": [
     {
@@ -7409,7 +7410,267 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T19:18:00+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-002",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is platform navigation in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-011-SNP-003",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is platform navigation in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-012-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-014-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-015-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-017-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' with platform-staff authors ('Abs @ Payhip', in-house writer); assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-019-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-020-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-021-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice ('Abs @ Payhip'); assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-022-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in assignment_rule; assigned 'platform' (Payhip feature page, platform voice)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-023-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is a platform feature page in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-024-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-024-SNP-002",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-025-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-026-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-027-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-027-SNP-002",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-028-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-029-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "affiliate commission rate"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is a platform program page in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-030-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform pricing page in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-031-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "digital journal"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-032-SNP-001",
+      "batch": "batch_030",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "resume template"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' on the platform's own sell-guide page in platform voice; assigned 'platform' (K7)"
+      ],
+      "processed_at": "2026-07-31T19:22:38+00:00"
     }
   ],
-  "last_updated": "2026-07-31T19:18:00+00:00"
+  "last_updated": "2026-07-31T19:22:38+00:00"
 }

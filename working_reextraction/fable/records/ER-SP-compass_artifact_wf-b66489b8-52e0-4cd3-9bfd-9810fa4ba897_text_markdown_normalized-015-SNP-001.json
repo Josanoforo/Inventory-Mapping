@@ -1,0 +1,36 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-015",
+  "source_type": "product_listing",
+  "source_title": "Gniq2",
+  "source_ref": "https://payhip.com/b/gniq2",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "- Canva Newsletter Template Fashion — £1.99\n- Unicorn Sparkle with Heart Monogram — £1.99",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "two design template products listed at £1.99 each on a Payhip product page",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "£1.99 | £1.99",
+  "metric_unit": "GBP",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "'Canva Newsletter Template Fashion' and 'Unicorn Sparkle with Heart Monogram' — title words suggest design products but no enum-matching explicit type label; product_type left 'unknown' (unknown > inferencia). 'Canva' appears inside a product title, not as a service mention — excluded from platforms (K3).",
+    "Platform named only in source_ref, not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/b/gniq2",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-016",
+  "source_type": "product_listing",
+  "source_title": "Jlfv4",
+  "source_ref": "https://payhip.com/b/jLFv4",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Price 6,90 € (About 7 US Dollars)\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "product listed at 6,90 € with an approximate USD equivalent stated",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "6,90 €",
+  "metric_unit": "EUR",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "(About 7 US Dollars)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Two currencies present: EUR listed price and approximate USD equivalent — EUR is the listed unit; USD approximation kept as qualifier (mixed units declared).",
+    "Platform named only in source_ref, not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/b/jLFv4",
+    "secondary_pointer": null
+  }
+}

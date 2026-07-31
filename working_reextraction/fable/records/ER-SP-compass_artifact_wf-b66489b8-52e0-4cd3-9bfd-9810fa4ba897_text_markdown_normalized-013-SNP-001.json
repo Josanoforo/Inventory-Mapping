@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-013",
+  "source_type": "product_listing",
+  "source_title": "75Owj",
+  "source_ref": "https://payhip.com/b/75OWj",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Available for 35€ until March 1th, After that — the price rises to 65€\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "product listed at 35€ until March 1th with the price rising to 65€ afterwards",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "35€",
+  "metric_unit": "EUR",
+  "time_scope_raw": "until March 1th",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "After that — the price rises to 65€"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'March 1th' (sic, verbatim) has no year — month/day without year does not normalize (K2).",
+    "Platform named only in source_ref, not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/b/75OWj",
+    "secondary_pointer": null
+  }
+}

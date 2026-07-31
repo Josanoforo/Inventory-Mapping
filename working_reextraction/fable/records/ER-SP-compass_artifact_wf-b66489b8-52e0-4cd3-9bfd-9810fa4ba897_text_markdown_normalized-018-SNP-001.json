@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-018",
+  "source_type": "blog",
+  "source_title": "Ebook Pricing",
+  "source_ref": "https://payhip.com/blog/ebook-pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"While pricing your ebook between 2.99 and 9.99 might feel a bit low, consider having an upsell in your ebook... On Payhip, you can sell any digital products, not just ebooks.\" … \"a Payhip survey found that more than 43% of buyers pay above the minimum price set by the seller.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "ebook pricing advice recommending a 2.99–9.99 range with an upsell, plus a Payhip survey figure on buyers paying above seller-set minimum prices",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "price",
+  "metric_value_raw": "between 2.99 and 9.99",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "While pricing your ebook between 2.99 and 9.99 might feel a bit low, consider having an upsell in your ebook",
+    "On Payhip, you can sell any digital products, not just ebooks"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "No currency symbol accompanies '2.99 and 9.99' in the snippet — metric_unit left null and the absence declared here.",
+    "Additional metric (criterion H): 'a Payhip survey found that more than 43% of buyers pay above the minimum price set by the seller' — survey methodology not described (methodology_unclear).",
+    "Platform blog in first-person promotional voice about itself — author_conflict_of_interest_possible (K4)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/blog/ebook-pricing",
+    "secondary_pointer": null
+  }
+}

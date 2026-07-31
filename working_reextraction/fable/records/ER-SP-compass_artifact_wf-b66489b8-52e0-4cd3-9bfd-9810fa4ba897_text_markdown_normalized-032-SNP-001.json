@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-032-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-032",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-032",
+  "source_type": "article",
+  "source_title": "Sell Resume Templates Online",
+  "source_ref": "https://payhip.com/sell-resume-templates-online",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Resume templates usually sell for about $3-60 depending on the design and complexity of the resume.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "claim that resume templates usually sell for about $3-60 depending on design and complexity",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "resume template",
+  "metric_type": "price",
+  "metric_value_raw": "about $3-60",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "depending on the design and complexity of the resume"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'Resume templates' named explicitly — no enum value covers resume templates; observed label recorded (K5).",
+    "Market-range claim ('usually sell for about') with no data source stated — methodology_unclear. Platform named only in source_ref, not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/sell-resume-templates-online",
+    "secondary_pointer": null
+  }
+}
