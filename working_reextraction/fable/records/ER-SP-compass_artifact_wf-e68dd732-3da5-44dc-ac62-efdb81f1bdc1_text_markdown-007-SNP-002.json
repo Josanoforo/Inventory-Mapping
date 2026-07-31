@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Gumroads Fees",
+  "source_ref": "https://help.gumroad.com/article/66-gumroads-fees",
+  "source_date_if_available": "Page last updated July 18, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For sales made on the Gumroad mobile app, we charge 40% (10% goes to Gumroad, and 30% goes to the App Store/Google Play Store).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "40% fee on sales made through the Gumroad mobile app, split as 10% to Gumroad and 30% to the App Store/Google Play Store",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad",
+    "App Store",
+    "Google Play Store"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "40% (10% goes to Gumroad, and 30% goes to the App Store/Google Play Store)",
+  "metric_unit": "% of sale",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-07-18",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "App Store and Google Play Store named as the platforms receiving the 30% share — included (K3). Pricing state claim with explicit last-updated July 18, 2024 and null raw — normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/66-gumroads-fees",
+    "secondary_pointer": null
+  }
+}

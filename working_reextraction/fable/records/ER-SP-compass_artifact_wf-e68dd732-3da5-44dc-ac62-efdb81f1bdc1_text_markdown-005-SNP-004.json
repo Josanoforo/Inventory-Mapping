@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Page last updated July 23, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"All currency conversions happen based on the exchange rates at the time of sale, not at the time of the payout. These are typically mid-market rates that you can estimate here.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "currency conversions based on exchange rates at the time of sale, not payout, typically at mid-market rates",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-07-23",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "These are typically mid-market rates that you can estimate here"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Policy state claim with explicit last-updated July 23, 2024 and null raw — normalized (K1). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}

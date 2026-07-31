@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://help.gumroad.com/article/13-getting-paid",
+  "source_date_if_available": "Page last updated July 23, 2024 (per search index metadata)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"To receive a payout, you must have a minimum balance of US $10. Certain countries have higher minimum payout balances - Thailand (600 THB) and Korea (40,000 KRW).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "minimum payout balance of US $10, with higher minimums for Thailand (600 THB) and Korea (40,000 KRW)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "minimum payout",
+  "metric_value_raw": "US $10; Thailand (600 THB); Korea (40,000 KRW)",
+  "metric_unit": "mixed: USD, THB, KRW",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-07-23",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Certain countries have higher minimum payout balances"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: payout threshold — descriptor 'minimum payout' reused (K5); mixed currencies declared. Country exceptions kept in the value; the general claim has no single geography — geography left null.",
+    "Policy state claim with explicit last-updated July 23, 2024 and null raw — normalized (K1). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.gumroad.com/article/13-getting-paid",
+    "secondary_pointer": null
+  }
+}

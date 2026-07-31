@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "Best Lemon Squeezy Alternatives For Indie Hackers In 2026 Honest Picks 180I",
+  "source_ref": "https://dev.to/devtoolpicks/best-lemon-squeezy-alternatives-for-indie-hackers-in-2026-honest-picks-180i",
+  "source_date_if_available": "2026-04-07",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Stripe bought Lemon Squeezy in July 2024. At the time, most indie hackers shrugged. Stripe is developer-friendly, LS was growing fast, what's the worst that could happen? Almost two years later: nothing catastrophic, but enough to make you uneasy. Feature velocity has slowed. The roadmap has gone quiet. A platform built for indie hackers now has a corporate parent with different priorities. And when your SaaS depends on a Merchant of Record for global tax compliance, 'quiet roadmap' does not inspire confidence.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "assessment that since Stripe bought Lemon Squeezy in July 2024, feature velocity has slowed and the roadmap has gone quiet, undermining confidence in it as a merchant of record",
+  "actor_level": "source",
+  "platforms": [
+    "Stripe",
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Almost two years later",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Stripe bought Lemon Squeezy in July 2024",
+    "nothing catastrophic, but enough to make you uneasy",
+    "A platform built for indie hackers now has a corporate parent with different priorities"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_raw 'Almost two years later' is relative — normalized left null (criterion G); the July 2024 acquisition date anchors the narrative, not the claim's scope."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dev.to/devtoolpicks/best-lemon-squeezy-alternatives-for-indie-hackers-in-2026-honest-picks-180i",
+    "secondary_pointer": null
+  }
+}
