@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This is the worst online purchasing experience I have ever had. I paid for my purchase, post payment I was given the option to send the book to kindle - this didn't work. I set up an account and to...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer whose post-payment send-to-Kindle option did not work, describing it as their worst online purchasing experience",
+  "actor_level": "buyer",
+  "platforms": [
+    "Kindle"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "This is the worst online purchasing experience I have ever had",
+    "I was given the option to send the book to kindle - this didn't work"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "Snippet cuts mid-sentence ('I set up an account and to...') — flagged snippet_needs_reopen (K8). 'kindle' named as the delivery service — included (K3). Gumroad named only in source_ref — not listed (criterion F). Digital book purchase — product_type 'ebook'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

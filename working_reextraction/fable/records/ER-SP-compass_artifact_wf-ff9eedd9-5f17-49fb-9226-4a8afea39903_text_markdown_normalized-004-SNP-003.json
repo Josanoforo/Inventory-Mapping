@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://gumroad.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page references January 1, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"30% Per transaction when new customers find and buy from you through our discover marketplace.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "fee of 30% per transaction when new customers find and buy through the discover marketplace",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "30% Per transaction",
+  "metric_unit": "% per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "when new customers find and buy from you through our discover marketplace"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Same fee text was captured under a different skeleton earlier; processed independently per skeleton. Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/pricing",
+    "secondary_pointer": null
+  }
+}

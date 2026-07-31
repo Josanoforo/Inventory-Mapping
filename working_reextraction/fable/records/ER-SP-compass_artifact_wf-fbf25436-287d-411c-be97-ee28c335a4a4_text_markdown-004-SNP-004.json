@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased 2 albums. One is apparently being censored by them even though they allow it to be listed. When I checked out with Paypal it told me on the final checkout screen that there was an issue...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer of 2 albums, one apparently censored by the platform despite being listed, with a PayPal checkout issue at the final screen",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "albums",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "One is apparently being censored by them even though they allow it to be listed"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'albums' named explicitly — observed value recorded verbatim (K5).",
+    "Snippet cuts mid-sentence ('there was an issue...') — flagged snippet_needs_reopen (K8). 'Paypal' is a payment service — excluded (K3). Gumroad named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

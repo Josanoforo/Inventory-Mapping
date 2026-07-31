@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Purchased a book from Depths manifestation.gumroad.com. Had no idea about the company needless to say my book has not arrived. I have emailed 3 times with no response. Mid April was my purchase....I'...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer whose book from a manifestation store on gumroad.com never arrived, with three unanswered emails since a mid-April purchase",
+  "actor_level": "buyer",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Mid April",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Had no idea about the company",
+    "I have emailed 3 times with no response"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen",
+    "product_type_unclear"
+  ],
+  "parser_notes": [
+    "'Mid April' has no year — not normalized (K2). Snippet cuts mid-word ('I'...') — flagged snippet_needs_reopen (K8).",
+    "'book' that 'has not arrived' leaves physical-vs-digital format undetermined — product_type 'unknown' with product_type_unclear. Platform named in text via the store domain 'Depths manifestation.gumroad.com' — Gumroad listed."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}

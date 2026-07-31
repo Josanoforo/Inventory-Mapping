@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "April 1, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I went on this platform to purchase a course that costs 15$ but upon checking out I was shocked to notice that another transaction worth over 100$ that I neither initiated nor confirmed passed simult...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer of a $15 course who saw a simultaneous unauthorized transaction of over $100 pass at checkout",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "course",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "a course that costs 15$",
+    "another transaction worth over 100$ that I neither initiated nor confirmed"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'course' named explicitly — observed value recorded verbatim (K5).",
+    "Snippet cuts mid-word ('passed simult...') — flagged snippet_needs_reopen (K8). 'this platform' is unnamed in text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}
