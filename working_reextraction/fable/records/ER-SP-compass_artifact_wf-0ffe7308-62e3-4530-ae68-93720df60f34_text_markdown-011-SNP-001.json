@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011",
+  "source_type": "help_center",
+  "source_title": "What Does Etsy Withhold And Remit To Mexican Tax Authorities",
+  "source_ref": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities",
+  "source_date_if_available": "Content references effective date January 1, 2026. URL returned 403; content verified via search engine index snippet, including Google Search result viewed April 14, 2026.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"To comply with local laws, Etsy withholds a percentage of sales for Mexico sellers to remit to the Servicio de Administración Tributaria (SAT), the Mexico tax authority. The amount Etsy is required to withhold may be as high as 36%, but will be significantly lower if you have a valid individual Registro Federal de Contribuyentes (RFC) identification number on file with your Etsy account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Etsy tax withholding percentage on sales of Mexico sellers remitted to SAT, reduced with valid RFC on file",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "tax_withholding_rate",
+  "metric_value_raw": "as high as 36%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Mexico",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "To comply with local laws",
+    "may be as high as 36%",
+    "will be significantly lower if you have a valid individual Registro Federal de Contribuyentes (RFC) identification number on file with your Etsy account"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a tax withholding rate; tax withholding is not a fee, no enum value covers it."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.etsy.com/hc/en-us/articles/8709142835223-What-Does-Etsy-Withhold-and-Remit-to-Mexican-Tax-Authorities",
+    "secondary_pointer": null
+  }
+}

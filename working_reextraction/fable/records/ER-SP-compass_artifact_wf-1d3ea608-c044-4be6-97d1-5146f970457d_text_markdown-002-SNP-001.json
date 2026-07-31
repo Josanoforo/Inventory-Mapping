@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Ya Realicé El Pago Y Aún No Tengo Mi Curso Disponible Pago En Efectivo",
+  "source_ref": "https://support.domestika.org/hc/es/articles/360003447337-Ya-realicé-el-pago-y-aún-no-tengo-mi-curso-disponible-pago-en-efectivo-",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "«Si has elegido realizar tu pago a través de dLocal (plataforma que gestiona los pagos en efectivo y otros métodos locales), es necesario esperar un tiempo a que ellos verifiquen el cobro y nos lo informen, es por ello que tu compra no se activa de forma inmediata. Este es un proceso automático y el plazo máximo de activación es de 2 a 3 días laborables»",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "purchase activation delay (up to 2-3 business days) for Domestika payments made via dLocal cash/local methods",
+  "actor_level": "platform",
+  "platforms": [
+    "dLocal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "plazo máximo de activación",
+  "metric_value_raw": "de 2 a 3 días laborables",
+  "metric_unit": "días laborables",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Si has elegido realizar tu pago a través de dLocal",
+    "Este es un proceso automático",
+    "plazo máximo de activación"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed label 'plazo máximo de activación' copied verbatim; enum has no purchase-activation-delay metric (activation_requirement is a requirement, not a duration).",
+    "Platform 'Domestika' appears only in source_ref URL ('nos lo informen' is first-person platform voice); only 'dLocal' named in text."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/es/articles/360003447337-Ya-realicé-el-pago-y-aún-no-tengo-mi-curso-disponible-pago-en-efectivo-",
+    "secondary_pointer": null
+  }
+}

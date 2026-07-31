@@ -7,13 +7,14 @@
   "total_skeletons": 1178,
   "status": "in_progress",
   "batches_completed": [
-    "batch_001"
+    "batch_001",
+    "batch_002"
   ],
   "counters": {
-    "written": 25,
-    "rejected": 0,
-    "out_of_enum_records": 9,
-    "schema_enum_conflict_records": 0
+    "written": 49,
+    "rejected": 1,
+    "out_of_enum_records": 12,
+    "schema_enum_conflict_records": 1
   },
   "processed_skeletons": [
     {
@@ -276,7 +277,259 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T18:03:54+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-007-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-008-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-009-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-010-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "tax_withholding_rate"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-011-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "tax_withholding_rate"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — pricing_page owned by third-party aggregator (Investomatica), not the marketplace; assignment_rule maps pricing_page to platform assuming platform ownership; assigned 'source' (no first-person actor)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-002",
+      "batch": "batch_002",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — pricing_page owned by third-party aggregator (Investomatica), not the marketplace"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-003",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — pricing_page owned by third-party aggregator (Investomatica), not the marketplace; assigned 'source' (no first-person actor)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-013-SNP-003",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-014-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-001-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-002-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "plazo máximo de activación"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-003-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' not mapped in vocabulary assignment_rule; assigned 'buyer' (first-person buyer complaint)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-004-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' not mapped in vocabulary assignment_rule; assigned 'buyer' (first-person buyer complaint)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-005-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — seller_forum post authored by platform staff; assignment_rule maps seller_forum via author=seller only; assigned 'platform' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-006-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — seller_forum post authored by platform staff; assignment_rule maps seller_forum via author=seller only; assigned 'platform' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-007-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — seller_forum post authored by platform staff; assignment_rule maps seller_forum via author=seller only; assigned 'platform' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-008-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-008-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-001",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-009-SNP-002",
+      "batch": "batch_002",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:08:25+00:00"
     }
   ],
-  "last_updated": "2026-07-31T18:03:54+00:00"
+  "last_updated": "2026-07-31T18:08:25+00:00"
 }
