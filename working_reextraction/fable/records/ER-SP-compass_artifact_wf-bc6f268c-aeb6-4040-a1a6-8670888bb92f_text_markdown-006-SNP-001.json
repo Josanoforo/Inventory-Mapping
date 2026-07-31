@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-006",
+  "source_type": "platform_doc",
+  "source_title": "elements.envato.com",
+  "source_ref": "https://elements.envato.com/",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Make your best work yet with a comprehensive library of high-quality, creative assets — video, audio, photos, graphics, templates, and more from talented global artists. Access to AI tools like VideoGen, MusicGen, and ImageGen, powered by the latest models.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Envato Elements library of creative assets from global artists plus access to AI generation tools",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "video, audio, photos, graphics, templates, and more from talented global artists",
+    "Access to AI tools like VideoGen, MusicGen, and ImageGen, powered by the latest models"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'VideoGen', 'MusicGen', 'ImageGen' are the platform's own tool names, not external platforms — excluded (K3). Platform named only in source_ref/title — platforms left empty (criterion F). Marketing homepage copy assigned direct_claim (K6)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/",
+    "secondary_pointer": null
+  }
+}

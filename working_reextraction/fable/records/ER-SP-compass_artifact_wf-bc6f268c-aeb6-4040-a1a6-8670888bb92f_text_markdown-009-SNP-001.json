@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-009",
+  "source_type": "help_center",
+  "source_title": "Envato Search",
+  "source_ref": "https://elements.envato.com/learn/envato-search",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Envato search uses context-aware technology to understand meaning, not just keywords. It analyzes descriptive phrases, related concepts, and creative intent to surface relevant results across categories. The more specific your query, the more accurate your results will be.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Envato search using context-aware technology analyzing descriptive phrases, related concepts, and creative intent across categories",
+  "actor_level": "platform",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "The more specific your query, the more accurate your results will be"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'Envato search' names the platform in text — Envato listed in platforms. Help-center doc assigned official_policy (K6)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/learn/envato-search",
+    "secondary_pointer": null
+  }
+}

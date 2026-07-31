@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015",
+  "source_type": "search_results_page",
+  "source_title": "Top Sellers",
+  "source_ref": "https://themeforest.net/top-sellers",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Avada | Website Builder For WordPress & eCommerce by ThemeFusion in Business $69 (26.5K) 713 Sales Live Preview\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Avada website builder listing on the ThemeForest top-sellers page priced at $69 with rating and sales counts",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$69",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Avada | Website Builder For WordPress & eCommerce"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Additional metrics (criterion H): (26.5K) rating count and 713 Sales.",
+    "Row labels the item 'Website Builder For WordPress & eCommerce' with no enum-matching explicit type — product_type left 'unknown'. 'WordPress' appears inside the product title — excluded from platforms (K3). Snippet delivered as a layout capture (K10)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://themeforest.net/top-sellers",
+    "secondary_pointer": null
+  }
+}

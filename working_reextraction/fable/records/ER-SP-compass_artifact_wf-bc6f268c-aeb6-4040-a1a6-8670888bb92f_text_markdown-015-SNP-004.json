@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015",
+  "source_type": "search_results_page",
+  "source_title": "Top Sellers",
+  "source_ref": "https://themeforest.net/top-sellers",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Nexsas | SaaS, Software, Startup WordPress Theme by Pixels71 in Technology $13 45 Sales Live Preview\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Nexsas WordPress theme listing on the ThemeForest top-sellers page priced at $13 with a sales count",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "WordPress theme",
+  "metric_type": "price",
+  "metric_value_raw": "$13",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Nexsas | SaaS, Software, Startup WordPress Theme"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "product_type fuera de enum: item explicitly labeled 'WordPress Theme' — observed label recorded (K5).",
+    "Additional metric (criterion H): 45 Sales. 'WordPress' appears inside the product-type label — excluded from platforms (K3). Snippet delivered as a layout capture (K10)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://themeforest.net/top-sellers",
+    "secondary_pointer": null
+  }
+}

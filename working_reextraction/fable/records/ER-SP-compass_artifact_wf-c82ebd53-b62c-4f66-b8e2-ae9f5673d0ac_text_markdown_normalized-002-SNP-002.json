@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-002",
+  "source_type": "help_center",
+  "source_title": "Article",
+  "source_ref": "https://help.hotmart.com/en/article/216440207",
+  "source_date_if_available": "No visible date",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you request the withdrawal by noon (GMT-3), the payment will be made by the next business day. Requests made after noon (GMT-3) or on non-business days will be processed by the second business day after approval.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "withdrawal payment timing: next business day for requests by noon (GMT-3), second business day after approval for later or non-business-day requests",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout delay",
+  "metric_value_raw": "by the next business day (requests by noon GMT-3); by the second business day after approval (requests after noon GMT-3 or on non-business days)",
+  "metric_unit": "business days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you request the withdrawal by noon (GMT-3)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: withdrawal-to-payment delay — descriptor 'payout delay' reused (K5). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/216440207",
+    "secondary_pointer": null
+  }
+}

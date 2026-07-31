@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-014",
+  "source_type": "search_results_page",
+  "source_title": "All",
+  "source_ref": "https://themeforest.net/category/all",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Choose from over 64,100 website templates and themes. Explore items created by our global community of independent designers and developers, confident they're hand-reviewed by us.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "count of website templates and themes available on the ThemeForest all-category page, described as hand-reviewed items from a global community",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "catalog size",
+  "metric_value_raw": "over 64,100",
+  "metric_unit": "website templates and themes",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "created by our global community of independent designers and developers",
+    "confident they're hand-reviewed by us"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: marketplace catalog count — descriptor 'catalog size' reused (K5). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://themeforest.net/category/all",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-001",
+  "source_type": "help_center",
+  "source_title": "Article",
+  "source_ref": "https://help.hotmart.com/en/article/208298448",
+  "source_date_if_available": "No visible date",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Are there different fees for different legal entities? There are no different fees for accounts with different legal entities.\" And: \"Are buyers charged platform usage fees? No.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "no fee differences between accounts with different legal entities, and no platform usage fees charged to buyers",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "There are no different fees for accounts with different legal entities",
+    "Are buyers charged platform usage fees? No"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform named only in source_ref (help.hotmart.com), not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/208298448",
+    "secondary_pointer": null
+  }
+}
