@@ -126,3 +126,17 @@ K12. Proveedores de datos/analítica reportando estimaciones sobre una
      integraciones/herramientas promocionando su propia integración con la
      plataforma (Zapier, Pipedream, Pabbly, Make, widgets, apps) → actor
      "third_party" + author_conflict_of_interest_possible (K4).
+
+## [batch_040] — registradas en checkpoint_0005
+K13. Skeletons sin contenido de fuente (snippet_primary consiste solo en una
+     nota de recuperación tipo "n/a — content recovered via research
+     subagent..."): subject_exact es irrellenable sin inferencia → destino
+     rejected_archive con required_field_unfillable, citando la nota en el
+     detalle. El contenido nunca se reconstruye desde source_title ni la URL.
+K14. Fees de pasarelas de pago de terceros relatadas por la plataforma en
+     help-center ("Connect your X account"): claim pricing_statement con
+     metric_type fee_rate (unidades mixtas declaradas), la pasarela y demás
+     métodos de pago se excluyen de platforms (extiende K3), y el descargo
+     "collected by X and do not go to [platform]" se copia como qualifier.
+     Las listas de países soportados van como payment_method_availability
+     con geography verbatim y el listado completo preservado.
