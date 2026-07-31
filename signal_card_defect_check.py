@@ -501,7 +501,12 @@ def main():
         gate_ok = print_gate(results)
         sys.exit(0 if gate_ok else 1)
 
-    sys.exit(0)
+    flagged_cards = sum(1 for f in results.values() if f)
+    print(f"Default mode reports corpus status, it does not gate CI: exit 1 here means "
+          f"{flagged_cards} card(s) have open defects, not that the script failed. "
+          f"CI enforces the calibration gate via --fixtures.")
+    # Exit code reflects corpus defect status here, not script failure; CI gates on --fixtures.
+    sys.exit(1 if flagged_cards else 0)
 
 
 if __name__ == "__main__":
