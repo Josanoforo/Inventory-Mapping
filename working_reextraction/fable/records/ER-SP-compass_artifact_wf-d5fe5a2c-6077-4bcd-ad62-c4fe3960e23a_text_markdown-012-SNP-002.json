@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-012",
+  "source_type": "article",
+  "source_title": "Hotmart Company Supera Usd 10 Mil Millones De Ventas De Productos Digitales A Nivel Mundial",
+  "source_ref": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Según datos de Hotmart Insights 2023, más de 4 millones de personas de Latinoamérica han comprado al menos un producto digital en Hotmart.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "more than 4 million people in Latin America having bought at least one digital product on Hotmart, per Hotmart Insights 2023",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active_buyers",
+  "metric_value_raw": "más de 4 millones de personas",
+  "metric_unit": "personas que han comprado al menos un producto digital",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Latinoamérica",
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Según datos de Hotmart Insights 2023"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "'Hotmart Insights 2023' labels the data source, not the claim's time scope — kept as qualifier, time fields null. Self-reported platform figure — author_conflict_of_interest_possible (K4) and methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://press.hotmart.com/hotmart-company-supera-usd-10-mil-millones-de-ventas-de-productos-digitales-a-nivel-mundial",
+    "secondary_pointer": null
+  }
+}

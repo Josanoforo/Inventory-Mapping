@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Hotmart Prices",
+  "source_ref": "https://hotmart.com/en/blog/hotmart-prices",
+  "source_date_if_available": "11/06/2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The standard fee applies to products priced over US$ 15,00. The fee Hotmart gets is 9.90% of the price of the product plus US$ 0.50.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "standard fee of 9.90% of the product price plus US$ 0.50 for products priced over US$ 15.00",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "9.90% of the price of the product plus US$ 0.50 (products priced over US$ 15,00)",
+  "metric_unit": "mixed: % of product price + USD fixed",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "The standard fee applies to products priced over US$ 15,00"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Source date '11/06/2023' has ambiguous day/month order — not normalized and source_date_unclear added (K2). Platform blog copy assigned direct_claim (K6)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/en/blog/hotmart-prices",
+    "secondary_pointer": null
+  }
+}

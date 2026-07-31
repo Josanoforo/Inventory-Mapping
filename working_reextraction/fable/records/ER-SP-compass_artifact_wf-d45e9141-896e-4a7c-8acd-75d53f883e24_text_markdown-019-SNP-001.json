@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-019",
+  "source_type": "article",
+  "source_title": "Patreons Rivalry With Substack Is Growing Who Will Win Over Creators",
+  "source_ref": "https://www.fastcompany.com/91320934/patreons-rivalry-with-substack-is-growing-who-will-win-over-creators",
+  "source_date_if_available": "April 24, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Substack and Patreon are vying to become creators' primary revenue stream. For most influencers, payouts from platforms like Meta or Google aren't enough to build a sustainable career. Rather than spending their days hawking products, many creators are turning to direct fan support, and two companies dominate that space: Patreon and Substack. Patreon's latest move targets streamers. Its native livestreaming feature, currently in demo and set for a broad rollout this summer, could attract gamers and broadcasters alike. But Substack beat them to it, launching a similar live video tool just three months earlier.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Patreon and Substack competing to be creators' primary revenue stream, with Patreon's native livestreaming in demo for summer rollout and Substack having launched a similar live video tool three months earlier",
+  "actor_level": "source",
+  "platforms": [
+    "Substack",
+    "Patreon",
+    "Meta",
+    "Google"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "For most influencers, payouts from platforms like Meta or Google aren't enough to build a sustainable career",
+    "currently in demo and set for a broad rollout this summer",
+    "But Substack beat them to it, launching a similar live video tool just three months earlier"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'this summer' and 'three months earlier' are relative time references — time fields left null (criterion G)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.fastcompany.com/91320934/patreons-rivalry-with-substack-is-growing-who-will-win-over-creators",
+    "secondary_pointer": null
+  }
+}
