@@ -46,6 +46,27 @@ Phase	Converter skill	Reads from	Writes to
 01 Source Intake	p1-convert-findings	working/source_intake/skeleton_batches/	working/source_intake/packets/
 01 Data Extraction	p1-extract-records	working/data_extraction/skeleton_batches/	working/data_extraction/records/
 02 Signal Extraction	p2-extract-signals	working/signal_extraction/skeleton_batches/	working/signal_extraction/cards/
+
+## Branch state verification
+
+Branch state is read from verified `origin`, never from a local view or from
+the GitHub UI. Any claim about what a branch contains — including "this branch
+exists" — must be backed by a command run against `origin` after a fresh fetch.
+
+Known instances of this failure, not an exhaustive list:
+
+- A local view of `origin/*` goes stale silently. Run `git fetch origin --prune`
+  before reading any branch state, including your own.
+- A branch name can exist without existing in `origin`. The harness assigns
+  branch names to sessions that never push, and the relay does not remove them.
+  Confirm with `git log -1 origin/<branch>`; a name in a list, a UI row, or a
+  prior handoff is not evidence the branch is real.
+- The Ahead/Behind columns describe a comparison whose base may not be the one
+  you assume. Verify divergence with `git log` against an explicit `origin/main`
+  SHA rather than the displayed counts.
+
+When a check contradicts a record, the check wins and the record gets corrected.
+
 Authority hierarchy
 `phases/03-inventory-mapping/reference/protocol_canonical.md` — the canon for IM. Overrides everything within Phase 3.
 `pipeline_vocabulary.yaml` — canonical enum registry for all phases. Overrides schema and contract enum definitions.
