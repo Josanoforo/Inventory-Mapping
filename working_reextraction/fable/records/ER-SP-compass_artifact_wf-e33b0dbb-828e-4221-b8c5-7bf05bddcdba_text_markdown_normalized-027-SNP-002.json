@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-027",
+  "source_type": "platform_doc",
+  "source_title": "Payments",
+  "source_ref": "https://payhip.com/features/payments",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"You can accept all major debit and credit cards, PayPal, mobile wallets like Apple Pay and Google Pay, and local payment methods (e.g. iDEAL, Pix, UPI, etc) through Payhip's supported digital goods payment gateways. You can connect with multiple gateways to give customers more ways to pay at checkout. Keep in mind that payment methods vary by location and provider.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "accepted payment types through supported gateways: major cards, PayPal, mobile wallets, and local payment methods, varying by location and provider",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": "all major debit and credit cards, PayPal, mobile wallets like Apple Pay and Google Pay, and local payment methods (e.g. iDEAL, Pix, UPI, etc)",
+  "metric_unit": "payment method categories",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "You can connect with multiple gateways to give customers more ways to pay at checkout",
+    "Keep in mind that payment methods vary by location and provider"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Named services are payment methods — excluded from platforms (K3). Page undated — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/features/payments",
+    "secondary_pointer": null
+  }
+}

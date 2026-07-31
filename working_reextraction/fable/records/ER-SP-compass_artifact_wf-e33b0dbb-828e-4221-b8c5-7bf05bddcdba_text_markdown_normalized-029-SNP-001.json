@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://payhip.com/pricing",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> **Free Forever** — $0 /mo — +5% transaction fee — All features — Unlimited products — Unlimited revenue\n\n> **Plus** — $29 /mo — +2% transaction fee — All features — Unlimited products — Unlimited revenue\n\n> **Pro** — $99 /mo — No transaction fee — All features — Unlimited products — Unlimited revenue",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "three plan tiers with identical features and limits: Free Forever at $0/mo + 5% transaction fee, Plus at $29/mo + 2%, Pro at $99/mo with no transaction fee",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "Free Forever — $0 /mo — +5% transaction fee | Plus — $29 /mo — +2% transaction fee | Pro — $99 /mo — No transaction fee",
+  "metric_unit": "mixed: USD per month + % transaction fee",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "All features — Unlimited products — Unlimited revenue (each tier)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Tier structure preserved verbatim in listing order; mixed units declared. Page undated — not normalized (K1). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/pricing",
+    "secondary_pointer": null
+  }
+}
