@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-004",
+  "source_type": "platform_doc",
+  "source_title": "Etsy Inc Reports First Quarter 2025 Results",
+  "source_ref": "https://investors.etsy.com/news-events/press-releases/detail/8/etsy-inc-reports-first-quarter-2025-results",
+  "source_date_if_available": "April 30, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Active buyers decreased 3.4% year-over-year to 88.5 million. We reactivated 6.5 million buyers, up 2.1% from the prior year period, and acquired 4.8 million new buyers. GMS per active buyer on a trailing twelve month basis for the Etsy marketplace declined 3.5% year-over-year to $120. The number of habitual buyers was 6.2 million, down 11.0% year-over-year.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Etsy Q1 2025 results: active buyers 88.5M (-3.4% YoY), 6.5M reactivated (+2.1%), 4.8M new, GMS per active buyer $120 TTM (-3.5%), habitual buyers 6.2M (-11.0%)",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active_buyers",
+  "metric_value_raw": "88.5 million",
+  "metric_unit": "active buyers",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-04-30",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "on a trailing twelve month basis"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Additional figures in snippet: 6.5M reactivated (+2.1%); 4.8M new buyers; GMS/active buyer $120 (-3.5% YoY); habitual buyers 6.2M (-11.0% YoY).",
+    "Company's own earnings press release.",
+    "time_scope_normalized_if_safe from source_date_if_available ('April 30, 2025') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://investors.etsy.com/news-events/press-releases/detail/8/etsy-inc-reports-first-quarter-2025-results",
+    "secondary_pointer": null
+  }
+}

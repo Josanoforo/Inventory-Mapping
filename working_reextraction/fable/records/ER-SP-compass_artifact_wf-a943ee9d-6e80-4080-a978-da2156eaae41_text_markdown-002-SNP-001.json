@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-002",
+  "source_type": "article",
+  "source_title": "Etsy Statistics",
+  "source_ref": "https://electroiq.com/stats/etsy-statistics",
+  "source_date_if_available": "Updated February 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy.com recorded 459.5 million total visits in January 2026. Engagement remained solid, with a 39.63% bounce rate, 6.11 pages per visit, and an average session length of 00:04:45. Traffic fell by 12.32% versus the prior month (month-over-month). In rankings, Etsy.com stood at Global Rank #64, U.S. Rank #30, and Category Rank #5\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Etsy.com January 2026 traffic: 459.5M visits (-12.32% MoM), 39.63% bounce, 6.11 pages/visit, 04:45 session, Global Rank #64, US Rank #30, Category Rank #5",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "459.5 million",
+  "metric_unit": "total visits (January 2026)",
+  "time_scope_raw": "in January 2026",
+  "time_scope_normalized_if_safe": "2026-01",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Engagement remained solid"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Additional metrics in snippet: -12.32% MoM; bounce 39.63%; 6.11 pages/visit; 00:04:45 avg session; rankings #64 global / #30 U.S. / #5 category.",
+    "Stats aggregation article; underlying data source not stated in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://electroiq.com/stats/etsy-statistics",
+    "secondary_pointer": null
+  }
+}

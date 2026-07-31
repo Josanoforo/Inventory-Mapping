@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007",
+  "source_type": "search_results_page",
+  "source_title": "Ropa",
+  "source_ref": "https://www.kichink.com/search/ropa",
+  "source_date_if_available": "Accedido abril 2026; copyright de la página @2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Categorias · Sub categorias · Precio · Pais · Otros · Filtros · PRODUCTOS · TIENDAS · COLECCIONES · Done\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Kichink search interface facets for 'ropa': categories, subcategories, price, country and other filters across products, stores and collections",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim.",
+    "A country ('Pais') facet exists in search; no countries enumerated in the capture.",
+    "Platform named only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/search/ropa",
+    "secondary_pointer": null
+  }
+}
