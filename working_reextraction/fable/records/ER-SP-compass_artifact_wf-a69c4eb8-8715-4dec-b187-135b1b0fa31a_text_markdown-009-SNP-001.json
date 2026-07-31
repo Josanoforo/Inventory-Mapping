@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-009",
+  "source_type": "blog",
+  "source_title": "Im Leaving 140622964",
+  "source_ref": "https://www.patreon.com/posts/im-leaving-140622964",
+  "source_date_if_available": "Accessed April 2026; page undated. Post ID numbering suggests 2025 publication.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Fast forward to almost a YEAR of negotiations they have dicked me around &amp; put things in the contract they sent me that they did not put in any else's contracts they've sent on Patreon (other creators). They essentially are trying to CONTROL MY BOOK RELEASE, and how fkn dare they. They have NO part in my life story. Not only they, they are trying to take credit for why all 350,000 of you are here.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "creator-reported year-long contract negotiations with terms allegedly unique to them, perceived control over their book release, and credit-taking for a 350,000-follower audience, prompting departure",
+  "actor_level": "seller",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": "350,000",
+  "metric_unit": "followers (creator's claim)",
+  "time_scope_raw": "almost a YEAR of negotiations",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "put things in the contract they sent me that they did not put in any else's contracts they've sent on Patreon (other creators)",
+    "They have NO part in my life story"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Strong valorative wording remains in snippet only; contract-terms comparison is the creator's assertion."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.patreon.com/posts/im-leaving-140622964",
+    "secondary_pointer": null
+  }
+}
