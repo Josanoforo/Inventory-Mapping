@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-009",
+  "source_type": "news",
+  "source_title": "Un Solo Sitio Para Venderlo Todo",
+  "source_ref": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+  "source_date_if_available": "21 de junio de 2016",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hacer entregas nacionales e internacionales es fundamental, una amiga mía vive en Bután y le compró dos kilos de chocolate a una marca mexicana y nosotros se lo mandamos\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Kichink founder anecdote of shipping two kilos of chocolate from a Mexican brand to a buyer in Bhutan",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2016-06-21",
+  "geography_if_explicit": "Bután",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "una amiga mía"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "'fundamental' is the speaker's valorative wording, preserved in snippet only.",
+    "Platform name appears only in source_title/URL; platforms left empty per criteria F.",
+    "time_scope_normalized_if_safe from source_date_if_available ('21 de junio de 2016') per criteria G."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.milenio.com/negocios/un-solo-sitio-para-venderlo-todo",
+    "secondary_pointer": null
+  }
+}

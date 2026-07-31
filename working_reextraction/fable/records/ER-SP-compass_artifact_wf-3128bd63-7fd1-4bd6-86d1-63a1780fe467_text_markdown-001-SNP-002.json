@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "Getting Started With The Envato Payout System",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/20535795834393-Getting-Started-with-the-Envato-Payout-System",
+  "source_date_if_available": "December 18, 2025 (page date \"December 18, 2025 23:02 Updated\" visible in search index snippet from a separate query)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you would prefer a bank transfer, but are not in the USA and still want to receive USD, you will need to use a Money Transfer Provider that offers a virtual US routing account, such as Payoneer or Wise.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "instructional_statement",
+  "subject_exact": "requirement of a Money Transfer Provider with virtual US routing account (Payoneer, Wise) for non-USA authors wanting USD bank transfers",
+  "actor_level": "platform",
+  "platforms": [
+    "Payoneer",
+    "Wise"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-12-18",
+  "geography_if_explicit": "USA",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you would prefer a bank transfer, but are not in the USA and still want to receive USD"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform 'Envato' appears only in source_title/URL, not in snippet text; only Payoneer and Wise named in text.",
+    "time_scope_normalized_if_safe from source_date_if_available ('December 18, 2025') per criteria G."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/20535795834393-Getting-Started-with-the-Envato-Payout-System",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Vat For Envato Market",
+  "source_ref": "https://help.author.envato.com/hc/en-us/articles/360000471323-VAT-for-Envato-Market",
+  "source_date_if_available": "Accessed April 2026; page undated in available index recovery",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"For all other purposes, including selling to non-EU customers, and including income tax purposes, the Author is selling directly to the customer and receiving a sale income. Subsequently, the Author pays an Author fee to Envato.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Envato Market sale structure: author sells directly to the customer and pays an Author fee to Envato, for non-EU sales and income tax purposes",
+  "actor_level": "platform",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "For all other purposes, including selling to non-EU customers, and including income tax purposes"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'non-EU customers' is a negated geographic scope; geography_if_explicit left null, scope preserved as qualifier."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.author.envato.com/hc/en-us/articles/360000471323-VAT-for-Envato-Market",
+    "secondary_pointer": null
+  }
+}

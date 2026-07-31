@@ -59,3 +59,40 @@ explícita no se llena. El contrato manda primero (Rule 4, §16); si
 calla, aplican estas reglas.
 
 === FIN CRITERIA ===
+
+---
+
+# Adiciones (patrones no cubiertos por CRITERIA; nunca retroactivas)
+
+## [batch_008] — registradas en checkpoint_0001
+K1. Normalización temporal desde metadata de página (extiende G): una fecha de
+    contenido explícita en source_date_if_available (publicado / last updated /
+    reviewed / effective / changelog / fecha de post) normaliza el time_scope de
+    claims que describen ESTADO vigente (política, pricing, disponibilidad,
+    comparativa) cuando time_scope_raw es null. Fechas solo de acceso
+    ("Accessed ...") NUNCA normalizan. Eventos o anécdotas narradas NO toman la
+    fecha de publicación; solo normalizan si el propio claim trae fecha
+    explícita. Si raw es relativo ("currently", "now") → normalized null (G literal).
+K2. Fechas aproximadas ("~2025", "circa") no normalizan y añaden source_date_unclear.
+    Mes sin año en snippet no se normaliza aunque la fecha de página permita
+    inferir el año.
+K3. platforms (afina F): una mención textual solo cuenta si nombra la
+    plataforma/servicio como tal; etiquetas de categoría, temas de curso o
+    nombres de creadores que coinciden con nombres de plataforma se excluyen
+    con parser_note.
+K4. author_conflict_of_interest_possible se asigna a voz promocional en primera
+    persona sobre producto/servicio propio (vendor listings, blogs de plataforma
+    sobre sí misma o competidores, posts con link de afiliado).
+K5. metric_type out-of-enum: si la fuente da una etiqueta ("Paid Members",
+    "Number of Paid Creators", "plazo máximo de activación") se copia verbatim;
+    si no hay etiqueta, descriptor mínimo en snake/espacios + cita del wording
+    en parser_notes.
+K6. evidence_role para voz de plataforma: official_policy solo para documentos
+    de política/help/legal/pricing formales y anuncios de política; respuestas
+    de soporte en foros y copy de marketing → direct_claim.
+K7. actor_level para source_types no mapeados por la assignment_rule
+    (report, news, unknown, buyer_review, interview, database_profile) y para
+    autores atípicos (blog de plataforma, blog de competidor, staff en foro):
+    se asigna por "quién habla" (regla D) y se registra issue
+    contract_case_uncovered por record. Rol del hablante indeterminable →
+    unknown + actor_level_unclear.
