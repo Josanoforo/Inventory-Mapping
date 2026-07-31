@@ -1,3 +1,7 @@
+> Archivado en S31 por D-237 — declaraba 1,560 Signal Cards
+> contra un corpus de 29; cero referencias en el repo; se restaura
+> escribiéndolo contra el corpus real cuando Phase 3 lo necesite.
+
 ---
 name: inventory-mapping
 description: Runs the Inventory Mapping pipeline over Signal Cards. Loads skills per sub-operation. Produces tension candidates, rejected groupings, coverage gaps, and isolated signals for human review.
