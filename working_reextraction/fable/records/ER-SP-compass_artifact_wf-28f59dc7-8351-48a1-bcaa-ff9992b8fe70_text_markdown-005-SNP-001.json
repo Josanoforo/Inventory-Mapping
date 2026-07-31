@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005",
+  "source_type": "unknown",
+  "source_title": "Complaints",
+  "source_ref": "https://www.bbb.org/us/ca/berkeley/profile/art-and-culture/domestika-inc-1116-953820/complaints",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"298 total complaints (last 3 years); 181 complaints closed in last 12 months; 291 unanswered\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "BBB complaint volume for Domestika Inc: total complaints, complaints closed in last 12 months, and unanswered complaints",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "complaint count",
+  "metric_value_raw": "298",
+  "metric_unit": "complaints (last 3 years)",
+  "time_scope_raw": "(last 3 years)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "time_scope_unclear"
+  ],
+  "parser_notes": [
+    "snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim.",
+    "metric_type out of enum: observed metric is a complaint count; no enum value covers it.",
+    "Additional figures in snippet: '181 complaints closed in last 12 months'; '291 unanswered'.",
+    "Company name appears only in source_ref URL, not in layout text; platforms left empty per criteria F.",
+    "'last 3 years' is relative to an unstated reference date."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/berkeley/profile/art-and-culture/domestika-inc-1116-953820/complaints",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/domestika.org?page=3",
+  "source_date_if_available": "27 nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"El día 2 de julio de 2025 compré un curso individual en la plataforma Domestika por 0,99 €. En el mes de agosto de 2025 se cargó en mi cuenta bancaria un importe de 313,41 €, correspondiente\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported 313.41€ bank charge in August 2025 following a 0.99€ single course purchase on Domestika on July 2, 2025",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "313,41 €",
+  "metric_unit": "EUR",
+  "time_scope_raw": "El día 2 de julio de 2025 … En el mes de agosto de 2025",
+  "time_scope_normalized_if_safe": "2025-07-02/2025-08",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "un curso individual",
+    "por 0,99 €"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "Snippet truncated mid-sentence ('correspondiente'); what the charge corresponded to was not captured.",
+    "Additional figure in snippet: course price '0,99 €'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/domestika.org?page=3",
+    "secondary_pointer": null
+  }
+}

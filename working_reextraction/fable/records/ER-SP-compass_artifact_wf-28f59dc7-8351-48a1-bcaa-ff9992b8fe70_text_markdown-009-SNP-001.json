@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009",
+  "source_type": "unknown",
+  "source_title": "Domestika Estafa Suscripci N No Autorizada",
+  "source_ref": "https://www.reclamos.cl/domestika/reclamo/2025/may/domestika-estafa-suscripci-n-no-autorizada",
+  "source_date_if_available": "Published May 5, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Durante el mes de marzo compré un curso en Domestika por $845 pesos chilenos. El 2 de mayo recibí un cobro de $164780 pesos, por cobro de una suscripción a Domestika plus, que no solicité y que por supuesto que no aparecía en la descripción del anuncio.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported unrequested Domestika Plus subscription charge of 164,780 Chilean pesos in May after a March course purchase of 845 pesos",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$164780 pesos",
+  "metric_unit": "CLP",
+  "time_scope_raw": "Durante el mes de marzo … El 2 de mayo",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "que no solicité",
+    "que por supuesto que no aparecía en la descripción del anuncio"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional figure in snippet: course price '$845 pesos chilenos'.",
+    "Month references lack explicit years in the snippet; not normalized (complaint published May 5, 2025).",
+    "'pesos chilenos' is a currency denomination, not geographic wording about the claim; geography left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclamos.cl/domestika/reclamo/2025/may/domestika-estafa-suscripci-n-no-autorizada",
+    "secondary_pointer": null
+  }
+}

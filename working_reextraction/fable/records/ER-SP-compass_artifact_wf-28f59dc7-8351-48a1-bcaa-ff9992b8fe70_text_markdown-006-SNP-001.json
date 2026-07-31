@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-006",
+  "source_type": "unknown",
+  "source_title": "Domestika Plus Estafa",
+  "source_ref": "https://www.change.org/p/domestika-plus-estafa",
+  "source_date_if_available": "Accessed April 2026; page undated (petition ongoing)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Compras un curso por un valor mínimo de 5,99€ como ellos anuncian, a la que una vez lo compras sin avisarte ni anunciarte nada te han suscrito a su plan anual, en la confirmación de la compra del curso te pone solo el valor del curso y en muy pequeñito (después de tu prueba gratuita) 0€ es lo que marca en ese email. Pues pasado 30 días te llega el pago de 99$.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "petition-described flow: course purchase from a 5,99€ advertised minimum silently enrolling an annual plan charged 99$ after 30 days, with trial disclosure in small print showing 0€",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "99$",
+  "metric_unit": "USD (annual plan charge; course price cited in EUR — mixed currencies declared)",
+  "time_scope_raw": "pasado 30 días",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "como ellos anuncian",
+    "sin avisarte ni anunciarte nada",
+    "en la confirmación de la compra del curso te pone solo el valor del curso y en muy pequeñito (después de tu prueba gratuita) 0€"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Additional figure in snippet: advertised course minimum '5,99€'.",
+    "Petition text by affected consumers; platform name appears only in source_title/URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.change.org/p/domestika-plus-estafa",
+    "secondary_pointer": null
+  }
+}

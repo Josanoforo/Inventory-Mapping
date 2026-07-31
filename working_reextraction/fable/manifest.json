@@ -11,13 +11,14 @@
     "batch_002",
     "batch_003",
     "batch_004",
-    "batch_005"
+    "batch_005",
+    "batch_006"
   ],
   "counters": {
-    "written": 124,
+    "written": 149,
     "rejected": 1,
-    "out_of_enum_records": 23,
-    "schema_enum_conflict_records": 1
+    "out_of_enum_records": 24,
+    "schema_enum_conflict_records": 4
   },
   "processed_skeletons": [
     {
@@ -1307,7 +1308,299 @@
         "contract_case_uncovered: actor_level — blog authored by a competing platform provider (Schoolmaker); assigned 'third_party'"
       ],
       "processed_at": "2026-07-31T18:19:01+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-022-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Sitejabber review) not mapped in vocabulary assignment_rule; first-person seller reviewer; assigned 'seller'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — blog authored by a competing platform provider (The Leap); assignment_rule maps blog via author=seller/buyer only; assigned 'third_party'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-023-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — blog authored by a competing platform provider (The Leap); assigned 'third_party'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person seller reviewer; assigned 'seller'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person seller reviewer; assigned 'seller'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-024-SNP-003",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person seller reviewer; assigned 'seller'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-001-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-002-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (complaints site) not mapped in vocabulary assignment_rule; first-person buyer complaint; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-003",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-004-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Trustpilot review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-005-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "complaint count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (BBB complaints registry) not mapped in vocabulary assignment_rule; registry data without first-person actor; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-006-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Change.org petition) not mapped in vocabulary assignment_rule; consumer collective voice; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' quoting first-person buyer testimony; assignment_rule does not map article; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' quoting first-person buyer testimony; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-007-SNP-003",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' quoting first-person buyer testimony; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' written as first-person buyer account; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' written as first-person buyer account; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-008-SNP-003",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' written as first-person buyer account; assigned 'buyer' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-009-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (complaints site reclamos.cl) not mapped in vocabulary assignment_rule; first-person buyer complaint; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-010-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'report' not mapped in vocabulary assignment_rule; analytics provider data without first-person actor; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-001",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Sitejabber review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-002",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Sitejabber review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-011-SNP-003",
+      "batch": "batch_006",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' (Sitejabber review) not mapped in vocabulary assignment_rule; first-person buyer reviewer; assigned 'buyer'"
+      ],
+      "processed_at": "2026-07-31T18:22:20+00:00"
     }
   ],
-  "last_updated": "2026-07-31T18:19:01+00:00"
+  "last_updated": "2026-07-31T18:22:20+00:00"
 }
