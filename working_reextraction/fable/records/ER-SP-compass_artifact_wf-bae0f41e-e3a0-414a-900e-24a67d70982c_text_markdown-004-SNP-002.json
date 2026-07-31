@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004",
+  "source_type": "report",
+  "source_title": "How To Price Digital Products On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Metric | Pay What You Want | Fixed Price: Products | 4,792 | 8,160; Avg Sales | 287 | 265; Avg Price | $18.74 | $66.77; Avg Rating | 3.25 | 2.76\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "comparison of product counts, average sales, average price, and average rating between pay-what-you-want and fixed-price Gumroad products",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "pricing model comparison",
+  "metric_value_raw": "Products | 4,792 | 8,160; Avg Sales | 287 | 265; Avg Price | $18.74 | $66.77; Avg Rating | 3.25 | 2.76",
+  "metric_unit": "mixed: product count, average sales, USD average price, average rating (Pay What You Want vs Fixed Price)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: side-by-side metric table for two pricing models — descriptor 'pricing model comparison' (K5); table preserved verbatim, mixed units declared.",
+    "Snippet delivered as a layout capture. No data source or methodology stated — methodology_unclear. Platform named only in source title/ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/how-to-price-digital-products-on-gumroad",
+    "secondary_pointer": null
+  }
+}

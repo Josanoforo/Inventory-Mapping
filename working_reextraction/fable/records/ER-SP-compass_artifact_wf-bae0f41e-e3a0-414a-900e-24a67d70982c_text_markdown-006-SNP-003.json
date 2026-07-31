@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-006",
+  "source_type": "report",
+  "source_title": "Gumroad",
+  "source_ref": "https://storeleads.app/reports/gumroad",
+  "source_date_if_available": "Updated Mar 13 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Quarter | Active Stores: 2022 Q3 | 2,661; 2022 Q4 | 4,399; 2023 Q1 | 5,551; 2023 Q2 | 9,726; 2023 Q3 | 11,595; 2023 Q4 | 13,347; 2024 Q1 | 14,543; 2024 Q2 | 16,656; 2024 Q3 | 17,016; 2024 Q4 | 17,213; 2025 Q1 | 17,607; 2025 Q2 | 18,126; 2025 Q3 | 18,871; 2025 Q4 | 19,321; 2026 Q1 (to date) | 9,605\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "quarterly active Gumroad store counts from 2022 Q3 through 2026 Q1 (to date) per Storeleads",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "active store count by quarter",
+  "metric_value_raw": "2022 Q3 | 2,661; 2022 Q4 | 4,399; 2023 Q1 | 5,551; 2023 Q2 | 9,726; 2023 Q3 | 11,595; 2023 Q4 | 13,347; 2024 Q1 | 14,543; 2024 Q2 | 16,656; 2024 Q3 | 17,016; 2024 Q4 | 17,213; 2025 Q1 | 17,607; 2025 Q2 | 18,126; 2025 Q3 | 18,871; 2025 Q4 | 19,321; 2026 Q1 (to date) | 9,605",
+  "metric_unit": "active stores per quarter",
+  "time_scope_raw": "2022 Q3 – 2026 Q1 (to date)",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: quarterly time series of active store counts — descriptor 'active store count by quarter' (K5); full series preserved verbatim.",
+    "Quarter granularity is not representable in the ISO date/interval form used by time_scope_normalized_if_safe — normalized left null (criterion G).",
+    "Snippet delivered as a layout capture. Platform named only in source title/ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://storeleads.app/reports/gumroad",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://es.trustpilot.com/review/hotmart.com?page=9",
+  "source_date_if_available": "23 Mar 2026 (experience dated 12 Mar 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Me quisieron vender un curso de alto ticket, siendo mediocre. Al segundo día lo cancelé. Un gran ayuda su respuesta e inmediatez de devolución de mi dinero en cuestión de unos 10 dias.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer cancelled a high-ticket course on the second day and got the refund within about 10 days with responsive support",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "curso",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "curso de alto ticket, siendo mediocre",
+    "Un gran ayuda su respuesta e inmediatez de devolución de mi dinero en cuestión de unos 10 dias"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'curso' named explicitly — no enum value covers courses; observed value recorded verbatim (K5).",
+    "Refund timing 'unos 10 dias' kept in local_qualifiers; main claim is the cancellation/refund anecdote (criterion H). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://es.trustpilot.com/review/hotmart.com?page=9",
+    "secondary_pointer": null
+  }
+}

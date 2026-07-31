@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-005",
+  "source_type": "report",
+  "source_title": "What Digital Products Sell Best On Gumroad",
+  "source_ref": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+  "source_date_if_available": "Updated March 21, 2026 (visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Category | Est. Revenue | Avg Price | Median Price | # Products | Avg Sales | Rev/Product: Software Development | $65.8M | $39.95 | $11.97 | 1,083 | 293 | $60,814; Other | $64.2M | $128.91 | $20 | 729 | 419 | $88,048; Business & Money | $15.4M | $49.49 | $15 | 1,520 | 247 | $10,130; 3D Assets | $13.9M | $40.71 | $15 | 2,082 | 290 | $6,675; Design | $8.8M | $29.35 | $17.98 | 1,202 | 331 | $7,365; Self-Improvement | $8.7M | $26.67 | $14.99 | 1,016 | 273 | $8,536; Education | $6.5M | $235.12 | $19.99 | 747 | 249 | $8,664; Drawing & Painting | $6.0M | $18.19 | $10 | 1,028 | 401 | $5,866; Films | $4.3M | $27.95 | $12 | 550 | 241 | $7,905; Fitness & Health | $4.2M | $37.45 | $15 | 379 | 243 | $11,046\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "estimated revenue, prices, product counts, average sales, and revenue per product across ten Gumroad categories",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue by category",
+  "metric_value_raw": "Software Development | $65.8M | $39.95 | $11.97 | 1,083 | 293 | $60,814; Other | $64.2M | $128.91 | $20 | 729 | 419 | $88,048; Business & Money | $15.4M | $49.49 | $15 | 1,520 | 247 | $10,130; 3D Assets | $13.9M | $40.71 | $15 | 2,082 | 290 | $6,675; Design | $8.8M | $29.35 | $17.98 | 1,202 | 331 | $7,365; Self-Improvement | $8.7M | $26.67 | $14.99 | 1,016 | 273 | $8,536; Education | $6.5M | $235.12 | $19.99 | 747 | 249 | $8,664; Drawing & Painting | $6.0M | $18.19 | $10 | 1,028 | 401 | $5,866; Films | $4.3M | $27.95 | $12 | 550 | 241 | $7,905; Fitness & Health | $4.2M | $37.45 | $15 | 379 | 243 | $11,046",
+  "metric_unit": "mixed: USD estimated revenue, USD average/median price, product count, average sales, USD revenue per product per category",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: category-level revenue/price/sales table — descriptor 'revenue by category' (K5); full table preserved verbatim, mixed units declared.",
+    "Snippet delivered as a layout capture. Estimates without stated methodology — methodology_unclear. Platform named only in source title/ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://insightraider.com/en/answers/what-digital-products-sell-best-on-gumroad",
+    "secondary_pointer": null
+  }
+}

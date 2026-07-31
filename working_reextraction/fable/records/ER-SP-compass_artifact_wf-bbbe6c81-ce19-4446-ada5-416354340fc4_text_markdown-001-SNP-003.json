@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001",
+  "source_type": "article",
+  "source_title": "Compradores Productos Digitales Crecen 300 Hotmart",
+  "source_ref": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+  "source_date_if_available": "20 Mar 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "share of purchases made via mobile devices, computers, and tablets",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "purchase device share",
+  "metric_value_raw": "el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas",
+  "metric_unit": "% de compras por dispositivo",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: distribution of purchases by device — descriptor 'purchase device share' (K5); values preserved verbatim.",
+    "Platform named only in source title/ref, not in this snippet — platforms left empty (criterion F). Figures reported without attribution or methodology — methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://dplnews.com/compradores-productos-digitales-crecen-300-hotmart",
+    "secondary_pointer": null
+  }
+}
