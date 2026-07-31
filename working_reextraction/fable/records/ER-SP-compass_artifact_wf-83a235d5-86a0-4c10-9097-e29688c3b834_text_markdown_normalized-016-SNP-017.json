@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-017",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Sellers may be required to pay the following types of fees. Please note that all fees are listed exclusive of any value-added tax (VAT) or similar taxes that may apply. See the Taxes section below for further details. It's important to note that all service fees, including prepaid fees, are non-refundable.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "seller fees listed exclusive of VAT or similar taxes, with all service fees including prepaid fees being non-refundable",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "exclusive of any value-added tax (VAT) or similar taxes that may apply",
+    "all service fees, including prepaid fees, are non-refundable"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform named only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}

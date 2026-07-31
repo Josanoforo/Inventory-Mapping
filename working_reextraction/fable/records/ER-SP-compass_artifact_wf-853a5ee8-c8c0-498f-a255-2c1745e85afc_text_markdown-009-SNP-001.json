@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Adobe Stock Vs Envato Elements",
+  "source_ref": "https://photutorial.com/adobe-stock-vs-envato-elements",
+  "source_date_if_available": "2025 (title contains \"[2025]\")",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Adobe Stock and Envato Elements are very similar in the content they offer. Both have images, videos, music, templates, 3D, and fonts, while Envato also has SFX and themes. However, Adobe Stock's content library is many times larger than Envato's. For example, they have 300+ million images to Envato's 90+ million and 25+ million videos to Envato's 5+ million. However, Envato Elements has more music files, SFX, templates, 3D and fonts. This makes it easier to find good images and videos at Adobe Stock, but easier to find the rest at Envato.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "library-size comparison: Adobe Stock 300+ million images and 25+ million videos versus Envato 90+ million images and 5+ million videos, with Envato leading in music, SFX, templates, 3D and fonts",
+  "actor_level": "source",
+  "platforms": [
+    "Adobe Stock",
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "catalog size",
+  "metric_value_raw": "300+ million images to Envato's 90+ million and 25+ million videos to Envato's 5+ million",
+  "metric_unit": "assets by category",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "very similar in the content they offer",
+    "while Envato also has SFX and themes"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is catalog size by category; no enum value covers it.",
+    "source_date year-only ('2025' from title); not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://photutorial.com/adobe-stock-vs-envato-elements",
+    "secondary_pointer": null
+  }
+}
