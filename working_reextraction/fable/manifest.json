@@ -1,0 +1,18 @@
+{
+  "stage": "etapa-2-reextraccion-juicio",
+  "corpus": "fable",
+  "branch": "claude/etapa-2-extraccion-juicio-gwnfk4",
+  "input_fingerprint": "280138c2bbb7a170a4697ac14de0d0302f90d38291baba0c3184201e555530b5",
+  "input_fingerprint_method": "sha256 of sorted 'relpath size' lines of skeleton_*.json under working/data_extraction/skeleton_batches/",
+  "total_skeletons": 1178,
+  "status": "in_progress",
+  "batches_completed": [],
+  "counters": {
+    "written": 0,
+    "rejected": 0,
+    "out_of_enum_records": 0,
+    "schema_enum_conflict_records": 0
+  },
+  "processed_skeletons": [],
+  "last_updated": null
+}
