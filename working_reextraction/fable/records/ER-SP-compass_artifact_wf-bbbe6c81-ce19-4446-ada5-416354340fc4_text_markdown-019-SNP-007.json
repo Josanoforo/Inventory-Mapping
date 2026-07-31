@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I didn't know that this site was for some eCourses instead of making money on TikTok. I'm still Waiting on my refund. This isn't what I was signing up for. Now I have to wait to be able to buy groceri...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer who expected a way to make money on TikTok found the site sells eCourses instead and is still waiting on a refund",
+  "actor_level": "buyer",
+  "platforms": [
+    "TikTok"
+  ],
+  "product_type_if_explicit": "eCourses",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "This isn't what I was signing up for",
+    "I'm still Waiting on my refund"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'eCourses' named explicitly — observed value recorded verbatim (K5).",
+    "Snippet cuts mid-word ('buy groceri...') — flagged snippet_needs_reopen (K8). TikTok named as a service in the text; Hotmart only in source_ref — not listed (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+    "secondary_pointer": null
+  }
+}

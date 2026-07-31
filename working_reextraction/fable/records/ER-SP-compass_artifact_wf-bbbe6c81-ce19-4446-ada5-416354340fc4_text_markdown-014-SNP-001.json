@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-014",
+  "source_type": "buyer_review",
+  "source_title": "Nao E Possivel Ver O Prazo De Validade Do Curso G1Vbv3D C2Gsw105",
+  "source_ref": "https://www.reclameaqui.com.br/hotmart/nao-e-possivel-ver-o-prazo-de-validade-do-curso_G1Vbv3D-c2GSW105",
+  "source_date_if_available": "Accessed April 2026; page undated in snippet",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Estou sem comprar mais cursos da Hotmart pq simplesmente retiraram as datas dos vencimentos de cada curso comprado, e para piorar, falam que temos que enviar e-mail para cada vendedor do curso para sabermos isso, sendo que é algo fácil de ser implementado, e antes havia na plataforma. Agora querem dar trabalho à toa para o vendedor e para o comprador. Além de terem piorado toda a usabilidade da plataforma, agora temos que dar jeito de gravar todos os cursos por receio de perdermos o prazo de aprendizado\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer stopped buying Hotmart courses because course expiry dates were removed from the platform, requiring emails to each seller to learn them",
+  "actor_level": "buyer",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "curso",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "falam que temos que enviar e-mail para cada vendedor do curso para sabermos isso",
+    "antes havia na plataforma",
+    "temos que dar jeito de gravar todos os cursos por receio de perdermos o prazo de aprendizado"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: 'cursos' named explicitly — observed value 'curso' recorded (K5).",
+    "Source date 'Accessed April 2026; page undated in snippet' — complaint date unknown, source_date_unclear (K2)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.reclameaqui.com.br/hotmart/nao-e-possivel-ver-o-prazo-de-validade-do-curso_G1Vbv3D-c2GSW105",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/hotmart.com",
+  "source_date_if_available": "20 Nov 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I purchased a program on Facebook. They claimed that I could make money rating videos on YouTube. I paid them $37 . They ended up billing me for $46 , $97, and $67 dollars for some sort of gardening c...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer of a $37 program advertised on Facebook for making money rating YouTube videos billed additional $46, $97, and $67 charges",
+  "actor_level": "buyer",
+  "platforms": [
+    "Facebook",
+    "YouTube"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "They claimed that I could make money rating videos on YouTube",
+    "I paid them $37",
+    "They ended up billing me for $46 , $97, and $67 dollars"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "snippet_needs_reopen"
+  ],
+  "parser_notes": [
+    "Snippet cuts mid-word ('some sort of gardening c...') — flagged snippet_needs_reopen (K8).",
+    "Facebook and YouTube named as services in the text; Hotmart appears only in source_ref — not listed (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/hotmart.com",
+    "secondary_pointer": null
+  }
+}
