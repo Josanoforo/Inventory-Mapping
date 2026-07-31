@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-022",
+  "source_type": "article",
+  "source_title": "Best Platforms For Selling Digital Products In 2026",
+  "source_ref": "https://www.wearefounders.uk/best-platforms-for-selling-digital-products-in-2026",
+  "source_date_if_available": "2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The base rate is 5% + $0.50 per transaction with no monthly fee. International transactions (outside the US) incur an additional 1.5%. If you use the affiliate programme, there's an extra 3% fee on referred sales. Recovered payments from abandoned cart emails add 5%. That headline 5% is half what Gumroad charges, but the extras can creep up. If you're a UK-based founder selling globally, almost all your transactions will attract that 1.5% surcharge, bringing your effective rate closer to 7%.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "fee structure of 5% + $0.50 base with no monthly fee, plus 1.5% international surcharge, 3% affiliate fee on referred sales, and 5% on abandoned-cart recovered payments, yielding an effective ~7% for a UK founder selling globally",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "5% + $0.50 per transaction with no monthly fee; International transactions (outside the US) incur an additional 1.5%; extra 3% fee on referred sales; Recovered payments from abandoned cart emails add 5%",
+  "metric_unit": "mixed: % + USD per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "That headline 5% is half what Gumroad charges, but the extras can creep up",
+    "If you're a UK-based founder selling globally, almost all your transactions will attract that 1.5% surcharge, bringing your effective rate closer to 7%"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "The fee structure describes Lemon Squeezy from the article's context, but only Gumroad is named in the snippet text — platforms per criterion F.",
+    "Pricing state claim on content dated 2026 (year granularity) with null raw — normalized '2026' (K1). Mixed units declared; derived effective ~7% kept as qualifier (criterion H)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.wearefounders.uk/best-platforms-for-selling-digital-products-in-2026",
+    "secondary_pointer": null
+  }
+}

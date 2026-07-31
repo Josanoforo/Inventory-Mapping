@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-013",
+  "source_type": "article",
+  "source_title": "Lemon Squeezy Vs Paddle Which Billing Solution Is Better For You",
+  "source_ref": "https://www.boathouse.co/knowledge/lemon-squeezy-vs-paddle-which-billing-solution-is-better-for-you",
+  "source_date_if_available": "not dated (content suggests 2024-2025)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy: Primarily targets small businesses, creators, and solopreneurs. It is designed for individuals and small companies that need a simple, user-friendly platform to sell digital products, subscriptions, and services online. Paddle: Targets SaaS companies and larger enterprises.\" and \"Lemon Squeezy: Provides basic subscription management features suitable for straightforward subscription models. Paddle: Offers advanced subscription management tools, including flexible pricing plans, customer journey customization, and churn reduction strategies, which are critical for SaaS businesses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Lemon Squeezy targeting small businesses, creators, and solopreneurs with basic subscription management, versus Paddle targeting SaaS companies and enterprises with advanced subscription tools",
+  "actor_level": "source",
+  "platforms": [
+    "Lemon Squeezy",
+    "Paddle"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "including flexible pricing plans, customer journey customization, and churn reduction strategies, which are critical for SaaS businesses"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Page 'not dated (content suggests 2024-2025)' — approximate; source_date_unclear (K2), not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.boathouse.co/knowledge/lemon-squeezy-vs-paddle-which-billing-solution-is-better-for-you",
+    "secondary_pointer": null
+  }
+}

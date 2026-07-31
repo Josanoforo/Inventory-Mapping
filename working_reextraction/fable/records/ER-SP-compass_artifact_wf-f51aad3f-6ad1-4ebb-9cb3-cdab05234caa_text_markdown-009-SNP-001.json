@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Lemon Squeezy",
+  "source_ref": "https://polar.sh/resources/comparison/lemon-squeezy",
+  "source_date_if_available": "not dated (current as of April 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"While Lemon Squeezy caters to solo creators and indie hackers, Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements.\" and \"At $50,000 monthly revenue, Polar saves you $500/month. At $100,000, you save $1,000/month compared to Lemon Squeezy.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Polar positioned for developers needing robust APIs and enterprise scale versus Lemon Squeezy for solo creators, with claimed savings of $500/month at $50,000 and $1,000/month at $100,000 revenue",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy",
+    "Polar"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee savings comparison",
+  "metric_value_raw": "At $50,000 monthly revenue, Polar saves you $500/month. At $100,000, you save $1,000/month compared to Lemon Squeezy",
+  "metric_unit": "USD per month saved",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: claimed monthly savings versus competitor — descriptor 'fee savings comparison' (K5).",
+    "Comparison page on the competitor's own site (polar.sh) — actor 'platform' by who speaks (K7/K11) and author_conflict_of_interest_possible (K4). Page not dated — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://polar.sh/resources/comparison/lemon-squeezy",
+    "secondary_pointer": null
+  }
+}

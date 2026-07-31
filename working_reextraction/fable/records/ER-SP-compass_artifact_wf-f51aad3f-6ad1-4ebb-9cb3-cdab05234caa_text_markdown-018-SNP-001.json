@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-018",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-018",
+  "source_type": "platform_doc",
+  "source_title": "Migration Offer",
+  "source_ref": "https://www.lemonsqueezy.com/migration-offer",
+  "source_date_if_available": "not dated (page live as of 2026-04-14)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"With our special migration offer, get 0% fees for your first month when you switch to Lemon Squeezy. Migrations are free, we'll move your store over from Gumroad, Paddle and Stripe.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "migration offer of 0% fees for the first month, with free store migrations from Gumroad, Paddle, and Stripe",
+  "actor_level": "platform",
+  "platforms": [
+    "Lemon Squeezy",
+    "Gumroad",
+    "Paddle",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "discount rate",
+  "metric_value_raw": "0% fees for your first month",
+  "metric_unit": "% fees, first month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Migrations are free, we'll move your store over from Gumroad, Paddle and Stripe"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: promotional fee waiver — descriptor 'discount rate' reused (K5). Marketing offer page assigned direct_claim (K6). Page not dated — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/migration-offer",
+    "secondary_pointer": null
+  }
+}

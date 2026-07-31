@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-008",
+  "source_type": "article",
+  "source_title": "Lemonsqueezy Vs Stripe",
+  "source_ref": "https://noda.live/articles/lemonsqueezy-vs-stripe",
+  "source_date_if_available": "2025-04-28",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Lemon Squeezy is great if you're a digital creator and needs a quick and simple setup. But it's limited—you can't accept pay-by-bank, offline payments, or many other payment methods. Subscriptions run through PayPal, which doesn't give you full control. Stripe gives you more flexibility. You can accept 100+ payment methods, including bank transfers and in-person payments. It supports advanced subscription billing and has tools for custom checkouts. If you just want to sell digital products fast in the US, Lemon Squeezy works. But if you're planning to grow or need more options, Stripe is the better choice.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Lemon Squeezy framed as quick and simple for digital creators but limited in payment methods and PayPal-run subscriptions, versus Stripe with 100+ payment methods, advanced billing, and custom checkouts",
+  "actor_level": "third_party",
+  "platforms": [
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-04-28",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "you can't accept pay-by-bank, offline payments, or many other payment methods",
+    "Subscriptions run through PayPal, which doesn't give you full control",
+    "You can accept 100+ payment methods, including bank transfers and in-person payments",
+    "If you just want to sell digital products fast in the US, Lemon Squeezy works"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Article hosted by a payments provider (Noda) whose pay-by-bank offering competes in this space — author_conflict_of_interest_possible (K4). 'PayPal' is a payment service — excluded (K3).",
+    "Comparative state claim on an article dated 2025-04-28 with null raw — normalized (K1). 'in the US' is a scenario qualifier — geography left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://noda.live/articles/lemonsqueezy-vs-stripe",
+    "secondary_pointer": null
+  }
+}

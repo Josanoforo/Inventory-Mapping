@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-007",
+  "source_type": "seller_forum",
+  "source_title": "Item",
+  "source_ref": "https://news.ycombinator.com/item?id=43604378",
+  "source_date_if_available": "~2025-05 (approximately 11 months before April 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need · Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "forum author's comparison: Gumroad with high fees and ugly but solid checkout, Lemon Squeezy with lovely design and slightly better but partly hidden fees plus serious bugs and bad support since the Stripe acquisition",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy",
+    "Stripe"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "solid system never had issues does most what I need",
+    "it was very popular until being acquired by stripe. Full of serious bugs, bad support",
+    "slightly better fees than Gumroad, but many hidden",
+    "the Gumroad checkout design is so bad it loses sales imo"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Actor 'seller' per assignment_rule (seller_forum, author choosing a platform to sell). Fee claims carry no figures — metric_type left 'unknown'. Source date '~2025-05' is approximate — source_date_unclear (K2)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.ycombinator.com/item?id=43604378",
+    "secondary_pointer": null
+  }
+}
