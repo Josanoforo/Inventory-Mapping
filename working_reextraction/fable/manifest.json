@@ -21,13 +21,14 @@
     "batch_012",
     "batch_013",
     "batch_014",
-    "batch_015"
+    "batch_015",
+    "batch_016"
   ],
   "counters": {
-    "written": 374,
+    "written": 399,
     "rejected": 1,
-    "out_of_enum_records": 52,
-    "schema_enum_conflict_records": 6
+    "out_of_enum_records": 57,
+    "schema_enum_conflict_records": 10
   },
   "processed_skeletons": [
     {
@@ -3806,7 +3807,288 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T18:45:42+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-009-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' written as first-person seller account; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' (BBB complaint) with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-002",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-003",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "minimum payout"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-004",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-005",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "guides"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-006",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-007",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-008",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-009",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-010",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-011",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "minimum payout"
+      },
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'buyer_review' with first-person seller voice; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-012-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-001-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-002-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-002",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-003",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-004",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-005",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-006",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005-SNP-001",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "payout schedule"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005-SNP-002",
+      "batch": "batch_016",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "minimum payout"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:48:13+00:00"
     }
   ],
-  "last_updated": "2026-07-31T18:45:42+00:00"
+  "last_updated": "2026-07-31T18:48:13+00:00"
 }

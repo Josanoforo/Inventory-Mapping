@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-010",
+  "source_type": "buyer_review",
+  "source_title": "Complaints",
+  "source_ref": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+  "source_date_if_available": "June 30, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I am a seller on Gumroad and my account reflects $3,816 in total sales. However, I have only received two small payments ($279.90 and $106.90) and a partial direct payout of $357 after I warned them I would report the issue to federal agencies. I am still owed $1,097.56 and Gumroad continues to delay payments with no clear explanation.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported delayed Gumroad payouts: $3,816 total sales with only partial payments received and $1,097.56 still owed without clear explanation",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "$1,097.56",
+  "metric_unit": "USD still owed",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "after I warned them I would report the issue to federal agencies",
+    "with no clear explanation"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional figures in snippet: total sales '$3,816'; payments received '$279.90', '$106.90', partial direct payout '$357'.",
+    "BBB complaint filed by a seller despite buyer_review source_type."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.bbb.org/us/ca/san-francisco/profile/ecommerce/gumroad-1116-448858/complaints",
+    "secondary_pointer": null
+  }
+}

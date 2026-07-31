@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Getting Paid",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payouts are created twice monthly on the 1st and 15th of the month and include all sales since the last payout. Net sales are held for 13 days before becoming available for payout on the 14th and 28th of the month. Payouts can take 1-5 days to appear in your bank account. For example, if you make a sale on the 4th of the month, it will be included in the payout created on the 15th, and paid out on the 28th.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "payout schedule: payouts created on the 1st and 15th, net sales held 13 days becoming available on the 14th and 28th, with 1-5 day bank arrival",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout schedule",
+  "metric_value_raw": "twice monthly on the 1st and 15th of the month",
+  "metric_unit": "payout cadence",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "include all sales since the last payout",
+    "Net sales are held for 13 days",
+    "Payouts can take 1-5 days to appear in your bank account"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a payout schedule/cadence; no enum value covers it.",
+    "Worked example preserved in snippet: sale on the 4th → payout created the 15th → paid the 28th.",
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid",
+    "secondary_pointer": null
+  }
+}

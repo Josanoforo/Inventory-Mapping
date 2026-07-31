@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/gumroad.com",
+  "source_date_if_available": "August 23, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I created an account and did absolutely nothing else… I didn't even publish a single product. After a few days, I found my account suspended and my entire dashboard completely frozen. No access to the help center, no access to any section at all. I searched for the support email and requested an explanation. A BOT replied: Your account was suspended due to non compliance with our Terms of Service. I asked for clarification and for an escalation to a human. Sherry replied: Your account was suspended due to non compliance with our Terms of Service. I asked again for detailed explanations, because there was absolutely no reason to be non compliant. Sherry replied once more: Your account was suspended due to non compliance with our Terms of Service. I complained about the unacceptable service and informed them that I would leave a review. Steve replied: Sorry for any confusion and frustration! Our new content review system is a little too highly strung and mistakenly flagged your content. Your account is unsuspended.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported account suspension days after signup without publishing anything, repetitive scripted support replies, and reversal attributed to an over-strict content review system",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "After a few days",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I didn't even publish a single product",
+    "No access to the help center, no access to any section at all",
+    "Our new content review system is a little too highly strung and mistakenly flagged your content"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F.",
+    "Support replies quoted verbatim in snippet, including the final staff explanation and unsuspension."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/gumroad.com",
+    "secondary_pointer": null
+  }
+}
