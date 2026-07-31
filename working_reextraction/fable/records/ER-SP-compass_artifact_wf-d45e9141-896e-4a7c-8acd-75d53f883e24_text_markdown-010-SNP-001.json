@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Celebrating Another Year Of Connecting Creators And Their Real Fans",
+  "source_ref": "https://news.patreon.com/articles/celebrating-another-year-of-connecting-creators-and-their-real-fans",
+  "source_date_if_available": "December 12, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"More than 60% of people who sign up for a creator's Patreon, and more than half of a creator's revenue on average, come from within the Patreon fan network.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "more than 60% of sign-ups to a creator's Patreon and more than half of average creator revenue coming from within the Patreon fan network",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "signup and revenue source share",
+  "metric_value_raw": "More than 60% of people who sign up for a creator's Patreon, and more than half of a creator's revenue on average",
+  "metric_unit": "mixed: % of sign-ups; share of average revenue",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "come from within the Patreon fan network"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: origin shares of sign-ups and revenue — descriptor 'signup and revenue source share' (K5); mixed units declared.",
+    "Self-reported platform statistics on the platform's own blog without methodology — author_conflict_of_interest_possible (K4) and methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/celebrating-another-year-of-connecting-creators-and-their-real-fans",
+    "secondary_pointer": null
+  }
+}

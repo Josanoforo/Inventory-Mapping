@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-011",
+  "source_type": "blog",
+  "source_title": "Celebrating The Women Of Patreon",
+  "source_ref": "https://news.patreon.com/articles/celebrating-the-women-of-patreon",
+  "source_date_if_available": "Accessed April 2026; likely March 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"It would be easy to follow the same playbook as other platforms, but we're intentionally taking a different (and arguably more challenging) path. We're building a space where creators can keep doing what they love, forge meaningful connections with their communities, and actually make a living.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "platform's stated intent to take a different path and build a space where creators keep doing what they love, connect with communities, and make a living",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "It would be easy to follow the same playbook as other platforms",
+    "intentionally taking a different (and arguably more challenging) path"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Source date 'likely March 2025' is approximate — source_date_unclear (K2). Platform blog in first-person promotional voice — author_conflict_of_interest_possible (K4). Platform named only in source_ref/title — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/celebrating-the-women-of-patreon",
+    "secondary_pointer": null
+  }
+}

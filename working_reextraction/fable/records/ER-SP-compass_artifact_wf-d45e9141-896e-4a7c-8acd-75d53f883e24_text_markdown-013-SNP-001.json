@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+  "source_type": "blog",
+  "source_title": "Death Of The Follower And Rise Of The Real Fan",
+  "source_ref": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+  "source_date_if_available": "June 11, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The internet is at an inflection point as it shifts away from the 'follower' model that made it such a powerful tool for the world's creators. Social media platforms initially allowed creators to publish directly to their own audiences. However over the 2010s, Instagram, Facebook, and others started ranking feeds that ultimately optimized ad-revenue instead of guaranteeing reach. This change hindered the distribution of media from creators to their fans. Then, in the 2020s the rise of the 'For You' feed - popularized by TikTok - completely abandoned the idea of 'the follow' altogether in favor of personalized, curated feeds. The result is that it's become increasingly difficult for creators to build tight online communities and durable businesses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "commentary that ranked feeds on Instagram, Facebook, and others in the 2010s and TikTok-popularized 'For You' feeds in the 2020s abandoned the follower model, hindering creator-to-fan distribution",
+  "actor_level": "platform",
+  "platforms": [
+    "Instagram",
+    "Facebook",
+    "TikTok"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "over the 2010s; in the 2020s",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "ranking feeds that ultimately optimized ad-revenue instead of guaranteeing reach",
+    "completely abandoned the idea of 'the follow' altogether in favor of personalized, curated feeds",
+    "it's become increasingly difficult for creators to build tight online communities and durable businesses"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Decade references ('the 2010s', 'the 2020s') are not representable at the ISO granularities used — normalized left null (criterion G).",
+    "Platform blog commenting on competitor platforms — author_conflict_of_interest_possible (K4)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+    "secondary_pointer": null
+  }
+}

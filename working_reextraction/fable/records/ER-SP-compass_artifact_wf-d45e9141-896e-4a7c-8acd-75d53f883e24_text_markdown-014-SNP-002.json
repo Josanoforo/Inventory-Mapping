@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-014",
+  "source_type": "blog",
+  "source_title": "Introducing Patreon Video",
+  "source_ref": "https://news.patreon.com/articles/introducing-patreon-video",
+  "source_date_if_available": "November 3, 2022",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"There are no ads, no trolls in the comments, and you never have to worry about ending up on the wrong side of the algorithm. It's just you, your work, and the people who love what you make.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "claim of no ads, no trolls in comments, and no algorithm risk on the platform's video product",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "you never have to worry about ending up on the wrong side of the algorithm"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Platform blog in promotional voice — author_conflict_of_interest_possible (K4). Platform named only in source_ref/title — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/introducing-patreon-video",
+    "secondary_pointer": null
+  }
+}

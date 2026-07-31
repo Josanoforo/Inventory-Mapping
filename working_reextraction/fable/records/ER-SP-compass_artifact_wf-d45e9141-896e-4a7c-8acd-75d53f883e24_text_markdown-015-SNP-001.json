@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Patreon Will Take Membership To The Next Level With 60 M In Funding",
+  "source_ref": "https://news.patreon.com/articles/patreon-will-take-membership-to-the-next-level-with-60-m-in-funding",
+  "source_date_if_available": "2019 (Series D announcement)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"When Sam and I launched Patreon, it was in response to a broken system where creative work on the internet was being used to funnel massive profits to big companies without valuing or rewarding the creators. This core problem has only intensified despite others launching Patreon-like membership features. Yet the fundamental system remains broken; other companies still continue to prioritize advertising dollars over creators.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "founder's statement that Patreon launched in response to a system funneling profits from creative work to big companies, a problem persisting as other companies prioritize advertising dollars over creators",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "despite others launching Patreon-like membership features",
+    "other companies still continue to prioritize advertising dollars over creators"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Source date '2019 (Series D announcement)' is approximate — source_date_unclear (K2). Founder statement on the platform's own blog — author_conflict_of_interest_possible (K4)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/patreon-will-take-membership-to-the-next-level-with-60-m-in-funding",
+    "secondary_pointer": null
+  }
+}

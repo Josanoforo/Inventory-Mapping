@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-013",
+  "source_type": "blog",
+  "source_title": "Death Of The Follower And Rise Of The Real Fan",
+  "source_ref": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+  "source_date_if_available": "June 11, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Patreon is leading the charge on this shift with a suite of community and media products focused on helping creators build durable communities and lasting businesses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Patreon described as leading the shift with community and media products for durable communities and lasting businesses",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "leading the charge on this shift"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Platform blog in promotional voice about itself — author_conflict_of_interest_possible (K4)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://news.patreon.com/articles/death-of-the-follower-and-rise-of-the-real-fan",
+    "secondary_pointer": null
+  }
+}

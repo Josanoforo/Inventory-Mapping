@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006",
+  "source_type": "article",
+  "source_title": "Patreon Vs Youtube Memberships Creators",
+  "source_ref": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+  "source_date_if_available": "Accessed April 2026; last updated March 4, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"The math: on $10,000 monthly subscription revenue, YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200. Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "derived_calculation",
+  "subject_exact": "creator payout comparison on $10,000 monthly subscription revenue: $7,000 via YouTube Memberships versus $8,700 to $9,200 via Patreon Pro, a $20,400 annual difference favoring Patreon",
+  "actor_level": "source",
+  "platforms": [
+    "YouTube",
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200 (on $10,000 monthly subscription revenue)",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "derived_calculation",
+  "local_qualifiers": [
+    "The math:"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Additional derived figure (criterion H): 'Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://fluxnote.io/guides/patreon-vs-youtube-memberships-creators",
+    "secondary_pointer": null
+  }
+}
