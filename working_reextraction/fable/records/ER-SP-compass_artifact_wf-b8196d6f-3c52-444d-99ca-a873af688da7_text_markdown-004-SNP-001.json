@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-004",
+  "source_type": "database_profile",
+  "source_title": "Lemon Squeezy",
+  "source_ref": "https://ful.io/technology/Widgets/lemon-squeezy",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Need a complete list of websites (2,509 - infact) using Lemon Squeezy?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "count of websites using Lemon Squeezy offered as a list by ful.io",
+  "actor_level": "source",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "customer_count",
+  "metric_value_raw": "2,509 - infact",
+  "metric_unit": "websites",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: count of websites using the platform ('complete list of websites (2,509 - infact) using Lemon Squeezy') — descriptor 'customer_count' (K5). Value preserved verbatim including '- infact'.",
+    "Technology-tracker count with no stated methodology — methodology_unclear."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://ful.io/technology/Widgets/lemon-squeezy",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005",
+  "source_type": "product_listing",
+  "source_title": "idearupt.lemonsqueezy.com",
+  "source_ref": "https://idearupt.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Idearupt · Bhavesh AI Pro · $9.00/month · Idearupt Pro · $19.00/month · Idearupt Pro+ - 7 Day Free Trial · $49.00/month · Powered by Lemon Squeezy\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "three Idearupt subscription tiers priced monthly on a Lemon Squeezy storefront",
+  "actor_level": "third_party",
+  "platforms": [
+    "Lemon Squeezy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$9.00/month | $19.00/month | $49.00/month",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Idearupt Pro+ - 7 Day Free Trial"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'Powered by Lemon Squeezy' appears in snippet text — Lemon Squeezy listed in platforms. Subscription products with no explicit product-type label — product_type 'unknown'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://idearupt.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

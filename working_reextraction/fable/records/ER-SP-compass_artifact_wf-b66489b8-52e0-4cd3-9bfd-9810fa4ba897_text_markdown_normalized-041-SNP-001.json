@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-041-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-041",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-041",
+  "source_type": "search_results_page",
+  "source_title": "Payhip",
+  "source_ref": "https://www.fiverr.com/gigs/payhip",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Best payhip freelance services online. Outsource your payhip project and get it quickly done and delivered remotely online\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Fiverr gigs page offering payhip freelance services delivered remotely online",
+  "actor_level": "marketplace",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Outsource your payhip project and get it quickly done and delivered remotely online"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'your payhip project' refers to work on the Payhip service itself — Payhip included in platforms (K3). Fiverr named only in source_ref — not listed (criterion F). Source date 'Accessed April 2026; page undated' — never normalizes (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.fiverr.com/gigs/payhip",
+    "secondary_pointer": null
+  }
+}

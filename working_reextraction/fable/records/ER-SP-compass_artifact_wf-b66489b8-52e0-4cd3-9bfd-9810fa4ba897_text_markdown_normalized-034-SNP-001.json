@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034",
+  "source_type": "product_listing",
+  "source_title": "Ebooks",
+  "source_ref": "https://payhip.com/virtualink/ebooks",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "- SaaS: Everything You Need to Know About Building Successful SaaS Company in One Place — $4.99 | - Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through) | - Top 50 Questions About AI — $4.99 | - Top 50 Questions People Ask AI — $4.99 | - Book About AI — $4.99 | - Reinforcement Learning Explained - A Step-by-Step Guide to Reward-Driven AI — $5.99 (On Sale; was $11.99, struck through) | Popularity text: \"OVER 10,000 COPIES SOLD!!!\" | Promo banner: \"⇊ Get 40% Off Now ⇊\" | Stock display: \"Only -1 left\" (likely a bug or unlimited stock indicator)",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "six AI/SaaS ebooks priced $4.99-$5.99 on the virtualink Payhip ebooks page, with sale markdowns, a copies-sold banner, and a discount promo",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "price",
+  "metric_value_raw": "$4.99 | $4.99 | $4.99 | $4.99 | $4.99 | $5.99",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Ultimate AI Bundle — $4.99 (On Sale; was $9.99, struck through)",
+    "Reinforcement Learning Explained — $5.99 (On Sale; was $11.99, struck through)",
+    "OVER 10,000 COPIES SOLD!!!",
+    "⇊ Get 40% Off Now ⇊",
+    "Only -1 left"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Additional metric (criterion H): popularity banner 'OVER 10,000 COPIES SOLD!!!' is a seller sales-count claim; kept as qualifier.",
+    "Page is the store's ebooks section and one title reads 'Book About AI' — product_type 'ebook'. The parenthetical '(likely a bug or unlimited stock indicator)' next to 'Only -1 left' is a capture annotation, not page text.",
+    "Platform named only in source_ref, not in snippet text — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/virtualink/ebooks",
+    "secondary_pointer": null
+  }
+}

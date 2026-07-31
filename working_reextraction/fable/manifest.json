@@ -36,13 +36,14 @@
     "batch_027",
     "batch_028",
     "batch_029",
-    "batch_030"
+    "batch_030",
+    "batch_031"
   ],
   "counters": {
-    "written": 749,
+    "written": 774,
     "rejected": 1,
-    "out_of_enum_records": 93,
-    "schema_enum_conflict_records": 24
+    "out_of_enum_records": 101,
+    "schema_enum_conflict_records": 25
   },
   "processed_skeletons": [
     {
@@ -7670,7 +7671,281 @@
         "contract_case_uncovered: actor_level — source_type 'article' on the platform's own sell-guide page in platform voice; assigned 'platform' (K7)"
       ],
       "processed_at": "2026-07-31T19:22:38+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-033-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is a platform feature page in platform voice; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-034-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-035-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "integration count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (Pipedream describing its own Payhip integration)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-036-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in assignment_rule; assigned 'source' (independent tools-roundup article, no first-person seller/buyer voice)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-037-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'platform' (Payhip first-person plugin description)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-038-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (independent plugin developer describing their integration)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-039-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (widget vendor describing its own product)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "payhip template"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-041-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-042-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (Pabbly describing its own Payhip integration)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'report' not mapped in assignment_rule; assigned 'source' (analytics provider reporting third-party estimates)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-044-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "integration count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (Zapier describing its own Payhip integration)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-001-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-002-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-003-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-004-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "customer_count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'source' (technology tracker reporting adoption data)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-005-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-007-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-008-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in assignment_rule; assigned 'platform' (statement attributed to the platform CEO)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-009-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-010-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "customer_count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'source' (technology tracker reporting adoption data)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "Market Share (Est.)"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'source' (6sense reporting market estimates)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "customer_count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'source' (6sense reporting market estimates)"
+      ],
+      "processed_at": "2026-07-31T19:27:05+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-002-SNP-001",
+      "batch": "batch_031",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "catalog size"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:27:05+00:00"
     }
   ],
-  "last_updated": "2026-07-31T19:22:38+00:00"
+  "last_updated": "2026-07-31T19:27:05+00:00"
 }

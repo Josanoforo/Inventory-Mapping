@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-039-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-039",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-039",
+  "source_type": "database_profile",
+  "source_title": "Payhip",
+  "source_ref": "https://www.commoninja.com/widgets/google-search/payhip",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Enhance your Payhip store's user experience with the Search Bar Widget. Provide fast, accurate, and customizable search functionality powered by Google... The Payhip Website Search widget leverages Google's powerful search engine, ensuring fast and accurate results.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Common Ninja search bar widget for Payhip stores powered by Google search",
+  "actor_level": "third_party",
+  "platforms": [
+    "Payhip",
+    "Google"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Provide fast, accurate, and customizable search functionality powered by Google",
+    "leverages Google's powerful search engine, ensuring fast and accurate results"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Google named as the powering search service — included in platforms (K3). First-person promotional vendor voice for its own widget — author_conflict_of_interest_possible (K4). Source date 'Accessed April 2026; page undated' — never normalizes (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.commoninja.com/widgets/google-search/payhip",
+    "secondary_pointer": null
+  }
+}

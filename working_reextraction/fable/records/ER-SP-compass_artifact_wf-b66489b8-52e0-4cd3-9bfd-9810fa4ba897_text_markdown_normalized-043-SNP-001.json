@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-043",
+  "source_type": "report",
+  "source_title": "Overview",
+  "source_ref": "https://www.semrush.com/website/payhip.com/overview",
+  "source_date_if_available": "Last updated March 12, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In February payhip.com received 10.55M visits with the average session duration 08:04\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "payhip.com February visit count and average session duration per Semrush",
+  "actor_level": "source",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "monthly_visitors",
+  "metric_value_raw": "10.55M",
+  "metric_unit": "visits",
+  "time_scope_raw": "In February",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Additional metric (criterion H): 'average session duration 08:04'.",
+    "'In February' lacks a year in the snippet — not normalized (K2); the source's 'Last updated March 12, 2026' would make the year an inference.",
+    "Semrush traffic figures are estimates without stated methodology — methodology_unclear. 'payhip.com' named in snippet text — Payhip listed in platforms."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.semrush.com/website/payhip.com/overview",
+    "secondary_pointer": null
+  }
+}

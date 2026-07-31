@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-006",
+  "source_type": "product_listing",
+  "source_title": "laragon.lemonsqueezy.com",
+  "source_ref": "https://laragon.lemonsqueezy.com/",
+  "source_date_if_available": "April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Laragon · Laragon 1-year (Annual license) · $49.00 - $69.00 · Laragon Education license (Non-Commercial) · $96.00 - $192.00 · Laragon Lifetime (Perpetual license) · $149.00 - $199.00 · Laragon Lifetime for Team (Perpetual license) · $995.00 · Laragon Non-Commercial license - Extended\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Laragon license tiers with price ranges on a Lemon Squeezy storefront",
+  "actor_level": "third_party",
+  "platforms": [],
+  "product_type_if_explicit": "software",
+  "metric_type": "price",
+  "metric_value_raw": "$49.00 - $69.00 | $96.00 - $192.00 | $149.00 - $199.00 | $995.00",
+  "metric_unit": "USD",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Laragon Education license (Non-Commercial)",
+    "Laragon Lifetime (Perpetual license)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Products are software licenses ('Annual license', 'Perpetual license') — product_type 'software'. Last listed item 'Laragon Non-Commercial license - Extended' shows no price in the capture.",
+    "Platform named only in source_ref/title — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://laragon.lemonsqueezy.com/",
+    "secondary_pointer": null
+  }
+}

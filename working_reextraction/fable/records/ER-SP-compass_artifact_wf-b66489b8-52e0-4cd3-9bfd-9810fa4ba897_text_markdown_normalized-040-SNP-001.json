@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040",
+  "source_id": "SRC-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040",
+  "source_type": "search_results_page",
+  "source_title": "Payhip Template",
+  "source_ref": "https://www.etsy.com/market/payhip_template",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Check out our payhip template selection for the very best in unique or custom, handmade pieces from our templates shops.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Etsy market page offering a selection of payhip templates from template shops",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "payhip template",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "the very best in unique or custom, handmade pieces from our templates shops"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "product_type fuera de enum: market category is explicitly 'payhip template' — no enum value covers generic templates; observed label recorded (K5).",
+    "'payhip' appears as part of the product-category compound 'payhip template selection', not as a service-as-such mention — excluded from platforms (K3). Etsy named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/market/payhip_template",
+    "secondary_pointer": null
+  }
+}
