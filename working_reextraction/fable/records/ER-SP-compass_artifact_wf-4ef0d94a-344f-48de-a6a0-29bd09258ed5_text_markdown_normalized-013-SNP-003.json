@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-013",
+  "source_type": "pricing_page",
+  "source_title": "Plus",
+  "source_ref": "https://www.domestika.org/en/plus",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Terms and conditions apply. You can cancel your subscription renewal whenever you want. After one year renewal price will the full amount $349\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "subscription renewal at the full amount of $349 after one year, with renewal cancellable at any time",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$349",
+  "metric_unit": "USD (renewal after one year)",
+  "time_scope_raw": "After one year",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Terms and conditions apply",
+    "You can cancel your subscription renewal whenever you want"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Source grammar 'renewal price will the full amount $349' preserved as it appears.",
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/plus",
+    "secondary_pointer": null
+  }
+}
