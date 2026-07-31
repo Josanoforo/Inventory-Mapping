@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-022-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-022",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-022",
+  "source_type": "blog",
+  "source_title": "I Owe You An Apology Why I Cant Recommend Domestika Anymore",
+  "source_ref": "https://yourvisualjournal.com/i-owe-you-an-apology-why-i-cant-recommend-domestika-anymore",
+  "source_date_if_available": "Last updated November 2, 2025\n\n---\n\n## Consolidated income data table\n\n| Instructor | Period | Advance | Per-sale royalty | Monthly income | Total earned | Students | Source |\n|---|---|---|---|---|---|---|---|\n| Anonymous (Class Central comment) | 2021–2025 | $3,000 | ~$0.99 price point | ~$50/month avg | ~$6,000 / 4 years | 12,000 | Class Central |\n| \"Laura Garcia\"* | ~2022–2025 | Unknown | 25% of €0.99 ≈ €0.25 | $10–15/month (affiliate) | Unknown | Unknown | Class Central |\n| \"Ana\"* | ~2020–2023 | €2,000 (advance) | ~€0.50/sale | Unknown | Unknown | Unknown | El Español |\n| \"Diego Gomez\"* | 2019 | Unknown | $8–10/enrollment (2019) → $0.05–0.50 (2023) | Unknown | Unknown | 400,000 | Class Central |\n| \"Leo Alcarez\"* | 2015–2025 | Unknown | Started ~30%, declined to proposed 5% | Unknown | Unknown | Unknown | Class Central |\n| CGMA instructors (140) | 2025 | N/A | Term-based | N/A | Owed $700–$7,000 each | N/A | Class Central |\n| Christian Beltri | ~2018–2022 | Initial fee | Commission/sale (declining) | Unknown | Unknown | 1,739 | Instructores Online |\n| David Drazil | 2022+ | Undisclosed (NDA) | Royalties + affiliate | Unknown | Unknown | Unknown | Personal blog |\n\n---\n\n## Royalty rate trajectory\n\n| Period | Rate | Source |\n|---|---|---|\n| ~2015 (early partners) | ~30% commission | Leo Alcarez* via Class Central |\n| 2015–2020 (older contracts) | 30–50% | Teresa Cowley timeline |\n| 2019 | $8–10 per enrollment | Diego Gomez* via Class Central |\n| 2022–2023 | $0.05–0.50 per enrollment | Diego Gomez* via Class Central |\n| 2023–2024 | Proposals as low as 5% | Leo Alcarez* via Class Central |\n| 2025 | 25% of €0.99 = ~€0.25 | Laura Garcia* via Class Central |\n| July 2025+ | $0 (payments halted) | Multiple instructors |\n\n---\n\n## Sources searched with null results\n\nThe following platforms and queries yielded **zero instructor-side content**:",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I've long been a fan of Domestika's classes. I've taken their courses, loved their production quality, and even celebrated them here. That's why I'm writing this—with equal parts disappointment, responsibility, and genuine shame. Recently, I tried to purchase what I believed was a single class on sale for 99 cents. Instead, I was unknowingly enrolled in Domestika Plus... Domestika is no longer recommended by me.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "blogger-reported unknowing enrollment in Domestika Plus when attempting to buy a single 99-cent class, and withdrawal of their recommendation",
+  "actor_level": "buyer",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "99 cents",
+  "metric_unit": "USD",
+  "time_scope_raw": "Recently",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "what I believed was a single class on sale for 99 cents",
+    "unknowingly"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "First-person blog account by a course customer (buyer voice per assignment_rule for blog author=buyer).",
+    "source_date_if_available field for this skeleton contains appended research-table text beyond the date; only the stated update date ('November 2, 2025') treated as date metadata; prefilled field left as-is."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://yourvisualjournal.com/i-owe-you-an-apology-why-i-cant-recommend-domestika-anymore",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016",
+  "source_type": "report",
+  "source_title": "Caida Domestika Millones Despedir Sustituir Tareas Chatgpt",
+  "source_ref": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+  "source_date_if_available": "June 2, 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Si el profesor cobra 50 céntimos por curso vendido y la empresa te da 2.000 euros de adelanto, ¿cuántos cursos tienes que vender hasta que empieces a ganar algo de dinero? Hay profesores que me pedían ayuda para difundir su curso porque hasta que le ven color… Al menos antes el fijo era algo justo por todo el trabajo que uno invierte. Entre los profesores y los chicos hemos sacado adelante la empresa, por eso es súper injusto.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "reported instructor economics on Domestika: 50-céntimos-per-sale royalty against a 2,000-euro commission advance and the sales needed to earn beyond it",
+  "actor_level": "unknown",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout",
+  "metric_value_raw": "50 céntimos",
+  "metric_unit": "EUR per course sold",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "Si el profesor cobra 50 céntimos por curso vendido y la empresa te da 2.000 euros de adelanto",
+    "Hay profesores que me pedían ayuda para difundir su curso porque hasta que le ven color…",
+    "Al menos antes el fijo era algo justo"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "actor_level_unclear"
+  ],
+  "parser_notes": [
+    "Additional figure in snippet: '2.000 euros' commission advance.",
+    "Quoted speaker's role (instructor vs former employee) not determinable from snippet ('Entre los profesores y los chicos hemos sacado adelante la empresa'); actor_level set to unknown.",
+    "Platform named only in source_title/URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.elespanol.com/reportajes/20230602/caida-domestika-millones-despedir-sustituir-tareas-chatgpt/768173529_0.html",
+    "secondary_pointer": null
+  }
+}

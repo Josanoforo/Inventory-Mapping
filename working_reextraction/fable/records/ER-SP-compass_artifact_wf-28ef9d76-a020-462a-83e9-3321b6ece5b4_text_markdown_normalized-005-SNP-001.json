@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-005",
+  "source_type": "platform_doc",
+  "source_title": "About",
+  "source_ref": "https://payhip.com/about",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payhip was created back in 2011 as there was no easy and reliable way to sell digital products, courses, coaching or memberships.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Payhip founding in 2011 motivated by the absence of an easy, reliable way to sell digital products, courses, coaching or memberships",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "back in 2011",
+  "time_scope_normalized_if_safe": "2011",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Platform's own about page; founding-year claim normalized to year granularity."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/about",
+    "secondary_pointer": null
+  }
+}
