@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "Sales Tax On Gumroad",
+  "source_ref": "https://gumroad.com/help/article/121-sales-tax-on-gumroad",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad now acts as the Merchant of Record for all sales. This means we automatically handle all sales tax collection and remittance worldwide. You don't need to manage any tax settings or applications - we take care of everything.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Gumroad acting as merchant of record for all sales, automatically handling all sales tax collection and remittance worldwide with no seller tax settings needed",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "now",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "You don't need to manage any tax settings or applications - we take care of everything"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_raw 'now' is relative — normalized left null (criterion G). Page undated — no content date (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/help/article/121-sales-tax-on-gumroad",
+    "secondary_pointer": null
+  }
+}

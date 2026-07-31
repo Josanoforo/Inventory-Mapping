@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Como Retirar Mi Comision",
+  "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Wise: Wise utiliza códigos SWIFT vinculados a bancos en Estados Unidos y en la Unión Europea. En cuentas personales, el SWIFT debe corresponder al país de registro; por lo tanto, los productores ubicados fuera de EE. UU. y la UE no pueden usar cuentas Wise para retiros. En cuentas empresariales fuera de Brasil, el SWIFT puede pertenecer a otros países; por eso, la cuenta Wise sí puede utilizarse para retiros.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Wise withdrawal rules: personal accounts unusable by producers outside the US and EU because the SWIFT must match the registration country, while business accounts outside Brazil can be used",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "los productores ubicados fuera de EE. UU. y la UE no pueden usar cuentas Wise para retiros (cuentas personales); en cuentas empresariales fuera de Brasil ... la cuenta Wise sí puede utilizarse",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Wise utiliza códigos SWIFT vinculados a bancos en Estados Unidos y en la Unión Europea",
+    "En cuentas personales, el SWIFT debe corresponder al país de registro"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'Wise' is a payment service — excluded from platforms (K3). Country references are conditions of the rule, not a single claim geography — geography left null. 'as of April 2026' is an access date — never normalizes (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "secondary_pointer": null
+  }
+}

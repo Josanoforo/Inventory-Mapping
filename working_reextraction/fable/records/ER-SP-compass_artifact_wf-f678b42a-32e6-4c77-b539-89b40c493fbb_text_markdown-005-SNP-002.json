@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005",
+  "source_type": "help_center",
+  "source_title": "Como Retirar Mi Comision",
+  "source_ref": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Si el país registrado en tu cuenta es Colombia, es posible realizar el retiro de ventas en Dólares a Pesos Colombianos (COP). Para ello, es necesario registrar una cuenta bancaria colombiana en la plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "withdrawal of dollar sales to Colombian pesos (COP) available for accounts registered in Colombia with a Colombian bank account on the platform",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "es posible realizar el retiro de ventas en Dólares a Pesos Colombianos (COP)",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Colombia",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "es necesario registrar una cuenta bancaria colombiana en la plataforma"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "geography verbatim 'Si el país registrado en tu cuenta es Colombia'. 'as of April 2026' is an access date — never normalizes (K1). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/216440207/-como-retirar-mi-comision-",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001",
+  "source_type": "seller_forum",
+  "source_title": "Opinion Hotmart",
+  "source_ref": "https://bigbangconversion.com/blog/opinion-hotmart",
+  "source_date_if_available": "20 de junio de 2023",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hola Javi , soy de Argentina , monotributista mi cuenta de banco es tanto en pesos como en dolar , ,lei que el pago es en dolar? , acá es un problema ingresar dolares a la cuenta , ya que AFIP nos controla en la compra de esa moneda ,,, como seriaseste sistema para Argentina?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Argentine monotributista asking how dollar payments would work, noting that bringing dollars into local accounts is a problem because AFIP controls currency purchases",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Argentina",
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "acá es un problema ingresar dolares a la cuenta , ya que AFIP nos controla en la compra de esa moneda",
+    "mi cuenta de banco es tanto en pesos como en dolar"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "geography verbatim 'soy de Argentina'. The snippet is a question with an embedded claim about Argentine currency controls. Hotmart named only in source title/ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bigbangconversion.com/blog/opinion-hotmart",
+    "secondary_pointer": null
+  }
+}

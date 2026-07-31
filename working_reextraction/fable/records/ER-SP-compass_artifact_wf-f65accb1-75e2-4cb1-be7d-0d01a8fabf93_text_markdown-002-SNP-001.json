@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002",
+  "source_type": "seller_forum",
+  "source_title": "Issues",
+  "source_ref": "https://github.com/antiwork/gumroad/issues/3837",
+  "source_date_if_available": "February 27, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"1. Be a seller in a country with a cross-border minimum > $10 (e.g. Argentina, Colombia, South Korea, Paraguay) 2. Visit Settings → Payments 3. Change any field (e.g. update bank account) and save 4. The country's exchange-rate-dependent minimum is now persisted as your payout_threshold_cents 5. If the exchange rate drops, your threshold stays at the old higher value\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "bug report: saving any payments-settings field persists the country's exchange-rate-dependent cross-border minimum as payout_threshold_cents, which stays at the old higher value if the exchange rate drops",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Argentina, Colombia, South Korea, Paraguay",
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Be a seller in a country with a cross-border minimum > $10",
+    "If the exchange rate drops, your threshold stays at the old higher value"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "geography from the snippet's example list of affected countries ('e.g. Argentina, Colombia, South Korea, Paraguay'). Actor 'seller' per assignment_rule (seller_forum-typed GitHub issue, seller-side reporter). Gumroad named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://github.com/antiwork/gumroad/issues/3837",
+    "secondary_pointer": null
+  }
+}

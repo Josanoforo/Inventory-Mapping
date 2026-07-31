@@ -49,12 +49,13 @@
     "batch_040",
     "batch_041",
     "batch_042",
-    "batch_043"
+    "batch_043",
+    "batch_044"
   ],
   "counters": {
-    "written": 1069,
+    "written": 1094,
     "rejected": 6,
-    "out_of_enum_records": 174,
+    "out_of_enum_records": 175,
     "schema_enum_conflict_records": 32
   },
   "processed_skeletons": [
@@ -11091,7 +11092,240 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T20:03:51+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-002-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-003-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-004-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-002",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-003",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-004",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-002",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-003",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-006-SNP-004",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-007-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-008-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'seller_forum' but the quoted content is a platform announcement email; assigned 'platform' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-010-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by a vendor in the payments space; assigned 'third_party' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-011-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-002",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-001-SNP-003",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-002-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in assignment_rule; assigned 'source' (VPN guide site, no first-person seller/buyer voice)"
+      ],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-003-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-004-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-001",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-002",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-005-SNP-003",
+      "batch": "batch_044",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "minimum withdrawal amount"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:06:53+00:00"
     }
   ],
-  "last_updated": "2026-07-31T20:03:51+00:00"
+  "last_updated": "2026-07-31T20:06:53+00:00"
 }

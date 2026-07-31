@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009",
+  "source_type": "seller_forum",
+  "source_title": "Did Gumroad Just Get Dumped By Paypal",
+  "source_ref": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+  "source_date_if_available": "October 16, 2024 (email timestamp: Wed, 16 Oct 2024 22:11:34 UTC)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We wanted to inform you that PayPal has suspended Gumroad's use of their service. As a result, we can no longer process payouts to PayPal accounts. We've invested heavily in direct bank transfers for nearly every country. We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "platform email announcing PayPal suspended Gumroad's use of its service, ending PayPal payouts, with direct bank transfers offered for nearly every country instead",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": "we can no longer process payouts to PayPal accounts",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "reported_event",
+  "local_qualifiers": [
+    "We've invested heavily in direct bank transfers for nearly every country",
+    "We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "PayPal named as the company taking the suspension action, not as an incidental payment method — included in platforms (K3). Quoted platform email relayed in a forum thread — actor 'platform' by who speaks (K7), evidence reported_event.",
+    "Narrated event — the October 16, 2024 email date does not normalize the claim's time scope (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://polycount.com/discussion/236140/did-gumroad-just-get-dumped-by-paypal",
+    "secondary_pointer": null
+  }
+}
