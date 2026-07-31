@@ -1,0 +1,57 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-003",
+  "source_type": "help_center",
+  "source_title": "Supported Countries",
+  "source_ref": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We cannot accept payments from customers in the following countries: Central African Republic · Cuba · Democratic People's Republic of Korea · Democratic Republic of the Congo · Eritrea · Guinea-Bissau · Iran · Iraq · Lebanon · Libya · Mali · North Korea · Russian Federation · Somalia · South Sudan · Sudan · Syrian Arab Republic · Yemen\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "countries from which customer payments cannot be accepted (18-entry restricted list)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "Central African Republic",
+    "Cuba",
+    "Democratic People's Republic of Korea",
+    "Democratic Republic of the Congo",
+    "Eritrea",
+    "Guinea-Bissau",
+    "Iran",
+    "Iraq",
+    "Lebanon",
+    "Libya",
+    "Mali",
+    "North Korea",
+    "Russian Federation",
+    "Somalia",
+    "South Sudan",
+    "Sudan",
+    "Syrian Arab Republic",
+    "Yemen"
+  ],
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F.",
+    "List includes both 'Democratic People's Republic of Korea' and 'North Korea' as written in source."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+    "secondary_pointer": null
+  }
+}
