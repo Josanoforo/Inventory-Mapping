@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007",
+  "source_type": "database_profile",
+  "source_title": "Patreon Stats",
+  "source_ref": "https://graphtreon.com/patreon-stats",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in navigation layout: \"All Podcasts Games Video 3D Printing Comics Music Adult Games Adult Animation Adult Photography Adult Video\" with dropdown labeled \"More\" listing \"Animals · Animation · Cosplay · Crafts & DIY · Dance & Theater · Drawing & Painting · Finance · Magazine · Mastodon · Photography · Writing · Other · Adult 3D Printing · Adult Comics · Adult Cosplay · Adult Crafts & DIY · Adult Dance & Theater · Adult Drawing & Painting · Adult Magazine · Adult Music · Adult Podcasts · Adult Writing · Adult Other\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "content category taxonomy displayed in Graphtreon Patreon-rankings navigation",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim.",
+    "'Mastodon' appears as a category label in the navigation list, not as a platform mention; platforms left empty."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphtreon.com/patreon-stats",
+    "secondary_pointer": null
+  }
+}

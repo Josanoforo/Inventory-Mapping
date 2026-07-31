@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-004",
+  "source_type": "product_listing",
+  "source_title": "Cofdkjlleejhgmhacajalbhedbdncgki",
+  "source_ref": "https://chromewebstore.google.com/detail/patreon-scraper/cofdkjlleejhgmhacajalbhedbdncgki",
+  "source_date_if_available": "Accessed April 2026; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"🅿️ Patreon Scraper features ✓ No password, API login or permissions required ✓ Runs in the background; switch tabs with ease ✓ Simple and easy to use ✓ 24/7 developer support 🤔 How to use the Patreon Scraper Extension? Visit a user's Patreon, scroll down, click on 'See all x posts' or visit patreon.com/user/posts then open the extension, set your limit or how many items you wish to scrape, then click on the 'Scrape' button to start scraping. ⚠️ Important For the extension to work, make sure your Patreon web language is set to English. 💳 Pricing, Return and Refund Policy ● Access all features for just $18.99/month. No account required to sign up, and you can cancel at any time, no questions asked!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "'Patreon Scraper' browser extension subscription price and feature claims",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "software",
+  "metric_type": "price",
+  "metric_value_raw": "$18.99/month",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "No password, API login or permissions required",
+    "make sure your Patreon web language is set to English",
+    "No account required to sign up, and you can cancel at any time, no questions asked"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Snippet explicitly calls the product an 'Extension'; typed as software.",
+    "Snippet mixes feature list, usage instructions and pricing; price taken as main metric per criteria H."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://chromewebstore.google.com/detail/patreon-scraper/cofdkjlleejhgmhacajalbhedbdncgki",
+    "secondary_pointer": null
+  }
+}

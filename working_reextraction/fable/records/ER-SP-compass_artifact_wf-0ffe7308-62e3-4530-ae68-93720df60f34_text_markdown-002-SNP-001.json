@@ -1,0 +1,51 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-002",
+  "source_type": "pricing_page",
+  "source_title": "Fee Calculator",
+  "source_ref": "https://craftybase.com/etsy/fee-calculator",
+  "source_date_if_available": "March 2026 (changelog entry)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Added 9 new countries: Argentina, Brazil, Chile, China, Egypt, India, Japan, South Korea, and Thailand are now supported. These are Payoneer-based countries where Etsy processes fees in USD.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "country support added to Craftybase Etsy fee calculator for nine Payoneer-based countries",
+  "actor_level": "third_party",
+  "platforms": [
+    "Etsy",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": [
+    "Argentina",
+    "Brazil",
+    "Chile",
+    "China",
+    "Egypt",
+    "India",
+    "Japan",
+    "South Korea",
+    "Thailand"
+  ],
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "These are Payoneer-based countries where Etsy processes fees in USD"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Changelog entry by the fee-calculator vendor (external provider speaking about its own product); assigned third_party per assignment_rule.",
+    "time_scope_normalized_if_safe derived from source_date_if_available ('March 2026 (changelog entry)') per criteria G; no temporal wording in snippet itself."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://craftybase.com/etsy/fee-calculator",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-008",
+  "source_type": "database_profile",
+  "source_title": "Top Patreon Creators",
+  "source_ref": "https://graphtreon.com/top-patreon-creators",
+  "source_date_if_available": "Accessed April 14, 2026; page states \"Updated daily\"; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"$269,922 Per month 42,523 Paid Members 9 Patreon Rank the yard Creating a podcast\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "monthly earnings of Patreon creator 'the yard' (Graphtreon rank 9)",
+  "actor_level": "source",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$269,922",
+  "metric_unit": "USD per month",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Per month"
+  ],
+  "uncertainties": [
+    "time_scope_unclear",
+    "source_date_unclear",
+    "net_vs_gross_ambiguity"
+  ],
+  "parser_notes": [
+    "snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim.",
+    "Additional metrics in snippet: '42,523 Paid Members' and Patreon Rank '9'.",
+    "Unclear whether the monthly dollar figure is before or after platform fees."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://graphtreon.com/top-patreon-creators",
+    "secondary_pointer": null
+  }
+}

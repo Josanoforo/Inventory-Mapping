@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-001",
+  "source_type": "product_listing",
+  "source_title": "Patreon Analytic",
+  "source_ref": "https://apify.com/easyapi/patreon-analytic",
+  "source_date_if_available": "Accessed April 2026; page undated in snippet.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Extract comprehensive analytics for top Patreon creators. Get detailed insights into earnings, membership stats, growth trends, and historical changes. Perfect for market research, competitor analysis, and understanding the creator economy. 📊\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "Apify 'Patreon Analytic' tool offering extraction of earnings, membership stats and growth trends of top Patreon creators",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "for top Patreon creators"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Promotional listing copy by the tool vendor; no metric values present.",
+    "Product not explicitly typed in snippet text; product_type_if_explicit set to unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://apify.com/easyapi/patreon-analytic",
+    "secondary_pointer": null
+  }
+}

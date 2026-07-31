@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-010",
+  "source_type": "product_listing",
+  "source_title": "Patreon Consultation",
+  "source_ref": "https://impact.hypable.com/patreon-consultation",
+  "source_date_if_available": "Accessed April 2026; page references \"March 2022\" for online course launch; page undated.",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I can help you create the perfect Patreon by offering planning and management techniques that I've developed over the past few years. These are tried-and-tested methods being offered by someone who knows in the ins and outs of Patreon.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "first-person consultant offering of Patreon planning and management services",
+  "actor_level": "third_party",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "over the past few years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "that I've developed over the past few years",
+    "tried-and-tested methods"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Promoted item is a consultation service, not a product type covered by the product_type_if_explicit enum; set to unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://impact.hypable.com/patreon-consultation",
+    "secondary_pointer": null
+  }
+}
