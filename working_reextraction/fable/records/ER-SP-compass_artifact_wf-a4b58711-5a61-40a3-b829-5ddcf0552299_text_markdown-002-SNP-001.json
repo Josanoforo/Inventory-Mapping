@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "Taxes On Creator Fees",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees",
+  "source_date_if_available": "Updated March 03, 2026 20:41 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Depending on your location and business status, Patreon may be required to apply sales tax/VAT to the service fees it charges creators. These tax obligations are based on local laws, including how intermediary platforms are treated, the type of service, and whether any exemptions apply in your jurisdiction.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "possible sales tax/VAT applied by Patreon to creator service fees depending on location, business status and local intermediary-platform laws",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-03-03",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Depending on your location and business status",
+    "may be required",
+    "including how intermediary platforms are treated, the type of service, and whether any exemptions apply in your jurisdiction"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available ('Updated March 03, 2026') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/16477355698957-Taxes-on-creator-fees",
+    "secondary_pointer": null
+  }
+}

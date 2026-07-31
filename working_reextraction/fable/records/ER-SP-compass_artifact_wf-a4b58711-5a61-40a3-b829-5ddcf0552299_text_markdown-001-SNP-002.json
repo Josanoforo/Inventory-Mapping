@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Overview",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Payment processing fee Varies by currency (e.g., 2.9% + $0.30 USD) standard payment process rate\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "payment processing fee varying by currency, exemplified as 2.9% + $0.30 USD standard rate",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "2.9% + $0.30 USD",
+  "metric_unit": "percent plus USD flat (example rate; varies by currency — mixed units declared)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Varies by currency",
+    "(e.g., …)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim.",
+    "Platform named only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/11111747095181-Creator-fees-overview",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "How Payouts Work",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+  "source_date_if_available": "Accessed April 2026; page undated in search index",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Depending on your payout country, you can choose from one of the following options: Bank transfer (processed by Stripe) – available for creators based in the U.S · Bank transfer (processed by Payoneer) – available to creators who reside outside of the U.S — please see full country eligibility list here\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "payout options by country: Stripe-processed bank transfer for U.S.-based creators, Payoneer-processed bank transfer for creators outside the U.S.",
+  "actor_level": "platform",
+  "platforms": [
+    "Stripe",
+    "Payoneer"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout_method_availability",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "the U.S",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Depending on your payout country",
+    "please see full country eligibility list here"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Platform (Patreon) named only in source_ref URL; processors named in text."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/208656246-How-payouts-work",
+    "secondary_pointer": null
+  }
+}

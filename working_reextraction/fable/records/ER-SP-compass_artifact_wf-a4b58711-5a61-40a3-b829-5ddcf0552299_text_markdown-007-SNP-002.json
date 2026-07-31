@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Faq",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+  "source_date_if_available": "Updated August 05, 2025 16:00 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"App Store fee (iOS purchases) – If a member makes a purchase through Apple's in-app purchase system within the Patreon iOS app, Apple takes a 30% service fee. This fee replaces Patreon's standard payment processing fee for that transaction\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "30% Apple App Store service fee on purchases via Apple's in-app purchase system in the Patreon iOS app, replacing Patreon's standard payment processing fee",
+  "actor_level": "platform",
+  "platforms": [
+    "Apple",
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "30%",
+  "metric_unit": "percent Apple service fee",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-08-05",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If a member makes a purchase through Apple's in-app purchase system within the Patreon iOS app",
+    "This fee replaces Patreon's standard payment processing fee for that transaction"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available ('Updated August 05, 2025') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+    "secondary_pointer": null
+  }
+}

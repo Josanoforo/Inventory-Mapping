@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a4b58711-5a61-40a3-b829-5ddcf0552299_text_markdown-007",
+  "source_type": "help_center",
+  "source_title": "Creator Fees Faq",
+  "source_ref": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+  "source_date_if_available": "Updated August 05, 2025 16:00 (visible in search index)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"There are no additional fees for refunding. When you initiate a refund, you only give back the amount you originally received, and we return any remaining amount retained by Patreon to the paid member/customer, including Patreon's share and any sales tax/VAT.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "no additional refunding fees: creator returns only the amount received, with Patreon returning its share and sales tax/VAT to the paying member",
+  "actor_level": "platform",
+  "platforms": [
+    "Patreon"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-08-05",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "When you initiate a refund",
+    "including Patreon's share and any sales tax/VAT"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available ('Updated August 05, 2025') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.patreon.com/hc/en-us/articles/22581195376909-Creator-fees-FAQ",
+    "secondary_pointer": null
+  }
+}
