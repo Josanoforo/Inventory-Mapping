@@ -14,12 +14,13 @@
     "batch_005",
     "batch_006",
     "batch_007",
-    "batch_008"
+    "batch_008",
+    "batch_009"
   ],
   "counters": {
-    "written": 199,
+    "written": 224,
     "rejected": 1,
-    "out_of_enum_records": 29,
+    "out_of_enum_records": 34,
     "schema_enum_conflict_records": 4
   },
   "processed_skeletons": [
@@ -2122,7 +2123,246 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T18:27:51+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "VAT rate"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-009-SNP-002",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-010-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-001-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-002-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "digital journal"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-004-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "digital guide"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-006-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: product_type_if_explicit — multi-product mix explicitly named but unmappable to enum without a dominant type; assigned 'unknown'"
+      ],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-008-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' written as first-person seller account; assignment_rule does not map article; assigned 'seller' (who speaks)"
+      ],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-009-SNP-002",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "income share from direct stores"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010-SNP-002",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-011-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-012-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-013-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-001-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-001",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "minimum withdrawal amount"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-002",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-003",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-005",
+      "batch": "batch_009",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:32:04+00:00"
     }
   ],
-  "last_updated": "2026-07-31T18:27:51+00:00"
+  "last_updated": "2026-07-31T18:32:04+00:00"
 }

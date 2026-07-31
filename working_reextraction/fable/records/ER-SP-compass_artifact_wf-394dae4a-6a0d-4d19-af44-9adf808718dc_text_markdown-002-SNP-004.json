@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002",
+  "source_type": "help_center",
+  "source_title": "How To Withdraw My Commission",
+  "source_ref": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+  "source_date_if_available": "accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Due to new regulations from the Central Bank of Argentina (BCRA), there has been a standardization of a fee for payments with conversions of purchases in Argentine Pesos (ARS) to offers in US Dollars (USD) or conversions of commissions in US Dollars (USD) to products offered in Argentine Pesos (ARS).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "standardized fee for ARS/USD conversions on purchases and commissions due to new Central Bank of Argentina (BCRA) regulations",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Argentina",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Due to new regulations from the Central Bank of Argentina (BCRA)"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Fee amount not stated in snippet; metric_value_raw left null.",
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/en/article/216440207/how-to-withdraw-my-commission-",
+    "secondary_pointer": null
+  }
+}

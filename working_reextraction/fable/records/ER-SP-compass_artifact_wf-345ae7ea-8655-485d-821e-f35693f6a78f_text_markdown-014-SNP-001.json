@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-014",
+  "source_type": "seller_forum",
+  "source_title": "Gumroad Has Zero Organic Discovery Im Cross Listing My Data Product Everywhere 5910F96Fba",
+  "source_ref": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+  "source_date_if_available": "March 30, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"25 products on gumroad. $0 in sales. zero views from organic search. gumroad is great for checkout. terrible for discovery. if nobody knows your product exists, the best checkout page wont help. gumroad discover requires at least one sale to activate. need a sale to get discovery, need discovery to get a sale. chicken and egg. payhip: free plan, 5% fee, growing marketplace. gumroad: 10% fee, zero organic traffic unless already selling.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported $0 sales and zero organic search views across 25 Gumroad products, citing Gumroad Discover's one-sale activation requirement, with Payhip comparison",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "revenue",
+  "metric_value_raw": "$0",
+  "metric_unit": "USD in sales",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-03-30",
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "zero views from organic search",
+    "gumroad discover requires at least one sale to activate",
+    "unless already selling"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional figures in snippet: '25 products on gumroad'; payhip 'free plan, 5% fee'; gumroad '10% fee'.",
+    "Platform-policy claim inside snippet: Gumroad Discover activates only after at least one sale ('chicken and egg' is the seller's framing).",
+    "time_scope_normalized_if_safe from source_date_if_available ('March 30, 2026') per criteria G/K1 (store state at post date)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.indiehackers.com/post/gumroad-has-zero-organic-discovery-im-cross-listing-my-data-product-everywhere-5910f96fba",
+    "secondary_pointer": null
+  }
+}

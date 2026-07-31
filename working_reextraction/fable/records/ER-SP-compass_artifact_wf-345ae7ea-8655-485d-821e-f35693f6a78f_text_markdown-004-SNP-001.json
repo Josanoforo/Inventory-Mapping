@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Expert Tips To Increase Sales On Payhipt 05F7Bf9E379B",
+  "source_ref": "https://medium.com/@godfreyigaa/10-expert-tips-to-increase-sales-on-payhipt-05f7bf9e379b",
+  "source_date_if_available": "October 18, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"When I first uploaded a digital guide on Payhip, I remember staring at 'zero sales' for a month. I tweaked titles, asked friends to test, tried giveaways. Slowly, sales trickled. After a month, I had a pattern: what surfaces traffic, what converts leads, and what kills momentum.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported first month of zero sales for a digital guide on Payhip, with slow sales after iterating titles, tests and giveaways",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "digital guide",
+  "metric_type": "sales_count",
+  "metric_value_raw": "zero sales",
+  "metric_unit": "sales (first month)",
+  "time_scope_raw": "for a month … After a month",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I tweaked titles, asked friends to test, tried giveaways",
+    "Slowly, sales trickled"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "product_type_if_explicit out of enum: source explicitly sells a 'digital guide', not one of the enum values; observed wording preserved."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@godfreyigaa/10-expert-tips-to-increase-sales-on-payhipt-05f7bf9e379b",
+    "secondary_pointer": null
+  }
+}

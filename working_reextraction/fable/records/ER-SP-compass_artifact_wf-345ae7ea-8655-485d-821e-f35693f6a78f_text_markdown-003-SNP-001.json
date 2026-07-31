@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-003",
+  "source_type": "blog",
+  "source_title": "I Tried Selling A Digital Journal On Payhip No Sales Yet But Heres What I M Learning 239546B63F63",
+  "source_ref": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63",
+  "source_date_if_available": "June 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I uploaded it on Payhip, linked it to my Medium post, shared the product page, and waited. Days passed. Then weeks. Views trickled in… but no sales. At first, I felt discouraged. Had I done something wrong? Was the pricing off? Was it the topic?\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported weeks without sales after uploading a digital journal to Payhip linked from a Medium post",
+  "actor_level": "seller",
+  "platforms": [
+    "Payhip",
+    "Medium"
+  ],
+  "product_type_if_explicit": "digital journal",
+  "metric_type": "sales_count",
+  "metric_value_raw": "no sales",
+  "metric_unit": "sales",
+  "time_scope_raw": "Days passed. Then weeks.",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "Views trickled in… but no sales"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "product_type_if_explicit out of enum: source explicitly sells a 'digital journal' (named in source_title; 'it' in snippet), not one of the enum values; observed wording preserved."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@echoesoflife_58190/i-tried-selling-a-digital-journal-on-payhip-no-sales-yet-but-heres-what-i-m-learning-239546b63f63",
+    "secondary_pointer": null
+  }
+}
