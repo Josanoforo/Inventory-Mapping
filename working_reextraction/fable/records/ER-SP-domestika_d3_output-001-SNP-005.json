@@ -1,0 +1,35 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-001-SNP-005",
+  "source_packet_id": "SP-domestika_d3_output-001",
+  "source_id": "SRC-domestika_d3_output-001",
+  "source_type": "product_listing",
+  "source_title": "Courses",
+  "source_ref": "https://www.domestika.org/es/courses",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Buscar cursos\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "course search box ('Buscar cursos') on the Domestika courses page",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "Snippet delivered as a layout capture (K10). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses",
+    "secondary_pointer": null
+  }
+}

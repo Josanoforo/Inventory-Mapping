@@ -52,12 +52,13 @@
     "batch_043",
     "batch_044",
     "batch_045",
-    "batch_046"
+    "batch_046",
+    "batch_047"
   ],
   "counters": {
-    "written": 1144,
+    "written": 1169,
     "rejected": 6,
-    "out_of_enum_records": 185,
+    "out_of_enum_records": 190,
     "schema_enum_conflict_records": 38
   },
   "processed_skeletons": [
@@ -11875,7 +11876,277 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T20:12:29+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-004-SNP-005",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-005-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-006-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-007-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-008-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "payout delay"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-009-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' but content is a competing platform's own comparison page; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-010-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by a competing platform in its own voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in assignment_rule; assigned 'source' (independent comparison article)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-012-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by a competing platform in its own voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "search interest score"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an independent comparison author; assigned 'source' (K7)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' by a competing vendor about two other platforms; assigned 'third_party' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'unknown' not mapped in assignment_rule; assigned 'seller' (first-person seller review voice)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-016-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "platform fees paid"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' but content is a competing platform's own comparison page; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-019-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' but content is a competing platform's own comparison page; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-002",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-003",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-004",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "Especialización"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-005",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-001-SNP-006",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own promotional UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-002-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own catalog description; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-002-SNP-002",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "student count",
+        "product_type_if_explicit": "curso"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own course page; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-003-SNP-001",
+      "batch": "batch_047",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:15:40+00:00"
     }
   ],
-  "last_updated": "2026-07-31T20:12:29+00:00"
+  "last_updated": "2026-07-31T20:15:40+00:00"
 }

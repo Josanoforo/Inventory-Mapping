@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-011",
+  "source_type": "article",
+  "source_title": "Gumroad Vs Lemon Squeezy For Creators",
+  "source_ref": "https://sologrowthlab.com/blog/gumroad-vs-lemon-squeezy-for-creators",
+  "source_date_if_available": "August 3, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad shines when you want to start selling quickly. The interface is minimal and the sign‑up process asks only for your email. The Ruul comparison notes that registering with Gumroad is 'really simple' and the platform gives clear steps to get started. You can add a product, set a price and start selling within minutes. However, Gumroad's design options are basic; it's essentially a checkout overlay that you embed on your site or share as a link. You can upload a banner image and colour‑accent but you can't fully customise the storefront.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Gumroad's quick start with email-only sign-up and minutes-to-selling, but basic design options limited to a checkout overlay without full storefront customization",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-08-03",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "The Ruul comparison notes that registering with Gumroad is 'really simple'",
+    "it's essentially a checkout overlay that you embed on your site or share as a link",
+    "You can upload a banner image and colour‑accent but you can't fully customise the storefront"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'Ruul' is cited as the source of a quoted comparison, not a platform claim subject — excluded from platforms (K3). Comparative state claim on an article dated August 3, 2025 with null raw — normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sologrowthlab.com/blog/gumroad-vs-lemon-squeezy-for-creators",
+    "secondary_pointer": null
+  }
+}

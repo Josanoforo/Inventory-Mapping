@@ -1,0 +1,46 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-015",
+  "source_type": "unknown",
+  "source_title": "Reviews",
+  "source_ref": "https://www.g2.com/products/gumroad/reviews",
+  "source_date_if_available": "References \"as of March 2023\"; reviewer mentions starting with Gumroad in 2016",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Their 10% flat fee is too much of a cut. This is not including the fees Stripe/Paypal take away. So if you have a $50 product, you'd get less than $45. Comparing this to platforms like Snappy Checkout, which is just $0.50 per transaction. Or a professional selling platform like Paykickstart, where if you sold 10 products at $100, you'd have made back the subscription fee compared to Gumroad. As in, you can continue selling and technically pay no more fees to Paykickstart on their Starter tier, up to $10k/mth, while you still have to pay that 10% to Gumroad. Gumroad also does not have any order bumps or upsells as of March 2023, so it's not possible to build a sales funnel. If you plan to earn more than $1000, it doesn't make financial sense to use Gumroad.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "seller review calling the 10% flat fee too much on top of processor fees (a $50 product netting under $45), comparing Snappy Checkout's $0.50 per transaction and Paykickstart's subscription model, and noting no order bumps or upsells as of March 2023",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad",
+    "Snappy Checkout",
+    "Paykickstart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "Their 10% flat fee",
+  "metric_unit": "% of sale",
+  "time_scope_raw": "as of March 2023",
+  "time_scope_normalized_if_safe": "2023-03",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "This is not including the fees Stripe/Paypal take away. So if you have a $50 product, you'd get less than $45",
+    "you can continue selling and technically pay no more fees to Paykickstart on their Starter tier, up to $10k/mth",
+    "If you plan to earn more than $1000, it doesn't make financial sense to use Gumroad"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Additional derived comparisons kept as qualifiers (criterion H). 'Stripe'/'Paypal' are payment services — excluded (K3); Snappy Checkout and Paykickstart named as alternative selling platforms — included.",
+    "Explicit 'as of March 2023' — normalized to month granularity (criterion G)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.g2.com/products/gumroad/reviews",
+    "secondary_pointer": null
+  }
+}

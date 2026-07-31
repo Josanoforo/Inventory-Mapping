@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-001-SNP-004",
+  "source_packet_id": "SP-domestika_d3_output-001",
+  "source_id": "SRC-domestika_d3_output-001",
+  "source_type": "product_listing",
+  "source_title": "Courses",
+  "source_ref": "https://www.domestika.org/es/courses",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"Top ventas · Especialización Domestika · 18h · Especialización en Diseño Gráfico y Comunicación Visual · Especialización por parte de múltiples docentes · + 25.883 · + 100% (333) · Comprar\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "top-selling listing row for the 18-hour multi-teacher Especialización en Diseño Gráfico y Comunicación Visual with unlabeled figures +25.883 and +100% (333)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "Especialización",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Top ventas",
+    "Especialización por parte de múltiples docentes",
+    "+ 25.883 · + 100% (333)"
+  ],
+  "uncertainties": [
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "product_type fuera de enum: item explicitly labeled 'Especialización' (course path) — observed label recorded (K5).",
+    "The figures '+ 25.883' and '+ 100% (333)' carry no labels in the capture (likely students and rating, but that would be inference) — metric_type left 'unknown' with context_insufficient. Snippet delivered as a layout capture (K10)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses",
+    "secondary_pointer": null
+  }
+}

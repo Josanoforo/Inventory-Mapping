@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-013",
+  "source_type": "blog",
+  "source_title": "Polar Vs Lemonsqueezy Vs Gumroad",
+  "source_ref": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+  "source_date_if_available": "March 24, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As of March 2026, Gumroad holds a noticeable lead with a search score of 50, while Lemon Squeezy trails with a score of 2 and Polar at less than 1. That said, interest in both Polar and Lemon Squeezy has been gradually climbing, especially after Gumroad's fee increases and the rise of new platforms targeting developers and indie makers.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "search scores as of March 2026 — Gumroad at 50, Lemon Squeezy at 2, Polar under 1 — with interest in the latter two gradually climbing after Gumroad's fee increases",
+  "actor_level": "source",
+  "platforms": [
+    "Gumroad",
+    "Lemon Squeezy",
+    "Polar"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search interest score",
+  "metric_value_raw": "Gumroad holds a noticeable lead with a search score of 50, while Lemon Squeezy trails with a score of 2 and Polar at less than 1",
+  "metric_unit": "search score",
+  "time_scope_raw": "As of March 2026",
+  "time_scope_normalized_if_safe": "2026-03",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "interest in both Polar and Lemon Squeezy has been gradually climbing",
+    "especially after Gumroad's fee increases and the rise of new platforms targeting developers and indie makers"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: relative search-interest scores — descriptor 'search interest score' (K5); the scoring source is not stated — methodology_unclear.",
+    "Explicit 'As of March 2026' — normalized to month granularity (criterion G)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://veloxthemes.com/blog/polar-vs-lemonsqueezy-vs-gumroad",
+    "secondary_pointer": null
+  }
+}

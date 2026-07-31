@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-014",
+  "source_type": "article",
+  "source_title": "Gumroad Vs Payhip",
+  "source_ref": "https://whop.com/blog/gumroad-vs-payhip",
+  "source_date_if_available": "January 24, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Gumroad offers easier product setup and a flat 10% fee, while Payhip provides more store customization options. Gumroad has minimal customer support and requires creators to handle refunds and customer inquiries themselves.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "Gumroad's easier setup and flat 10% fee versus Payhip's greater store customization, with Gumroad offering minimal support and leaving refunds and inquiries to creators",
+  "actor_level": "third_party",
+  "platforms": [
+    "Gumroad",
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "a flat 10% fee",
+  "metric_unit": "% of sale",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-01-24",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Gumroad has minimal customer support and requires creators to handle refunds and customer inquiries themselves"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Comparison hosted on a competing commerce platform's blog (Whop) — author_conflict_of_interest_possible (K4). Comparative state claim on an article dated January 24, 2024 with null raw — normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://whop.com/blog/gumroad-vs-payhip",
+    "secondary_pointer": null
+  }
+}

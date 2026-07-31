@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-018",
+  "source_type": "article",
+  "source_title": "Gumroad Alternative",
+  "source_ref": "https://www.lemonsqueezy.com/gumroad-alternative",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"We provide all-inclusive pricing of 5% + 50¢ per transaction. We'd say that's pretty competitive compared with Gumroad.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "all-inclusive pricing of 5% + 50¢ per transaction described as pretty competitive compared with Gumroad",
+  "actor_level": "platform",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "all-inclusive pricing of 5% + 50¢ per transaction",
+  "metric_unit": "mixed: % + ¢ per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "We'd say that's pretty competitive compared with Gumroad"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "Lemon Squeezy's own comparison page (first-person 'We') — actor 'platform' by who speaks (K7/K11) and author_conflict_of_interest_possible (K4); Lemon Squeezy itself is not named in the snippet text — only Gumroad listed (criterion F). Mixed units declared. Page undated — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/gumroad-alternative",
+    "secondary_pointer": null
+  }
+}
