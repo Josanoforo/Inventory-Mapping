@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029-SNP-006",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://payhip.com/pricing",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Payhip is fully compliant to collect and remit EU VAT and UK on your behalf automatically. You can also set up any other taxes with Payhip and we report these to you.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "full compliance to collect and remit EU and UK VAT automatically on the seller's behalf, with other taxes configurable and reported to the seller",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "EU; UK",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "You can also set up any other taxes with Payhip and we report these to you"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "geography verbatim 'EU VAT and UK'. Page undated — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://payhip.com/pricing",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-009",
+  "source_type": "platform_doc",
+  "source_title": "Crea Tu Tienda",
+  "source_ref": "https://www.kichink.com/crea-tu-tienda",
+  "source_date_if_available": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Kichink tiene las tarifas más bajas del mercado, empezando en $79 pesos. También hacemos envíos internacionales, empezando en $30 USD. Los costos varían dependiendo del peso y el lugar al que se envían.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "shipping rates claimed as the market's lowest, starting at $79 pesos domestically and $30 USD for international shipments, varying by weight and destination",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "shipping rate",
+  "metric_value_raw": "empezando en $79 pesos; envíos internacionales, empezando en $30 USD",
+  "metric_unit": "mixed: MXN pesos (domestic) and USD (international)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Kichink tiene las tarifas más bajas del mercado",
+    "Los costos varían dependiendo del peso y el lugar al que se envían"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: shipping cost — descriptor 'shipping rate' (K5); mixed currencies declared.",
+    "Comparative self-promotional claim ('las tarifas más bajas del mercado') — author_conflict_of_interest_possible (K4); marketing copy assigned direct_claim (K6). Copyright footer is not a content date — not normalized (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/crea-tu-tienda",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-e5db5a04-9997-4125-bce9-809766494860_text_markdown-004",
+  "source_type": "article",
+  "source_title": "Kichink No Paga La Verdadera Historia",
+  "source_ref": "https://isopixel.net/2020/04/24/kichink-no-paga-la-verdadera-historia",
+  "source_date_if_available": "April 24, 2020",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La mala experiencia de los vendedores puede hacer que muchas empresas de comercio electrónico desconfíen de marketplaces más pequeños similares a Kichink. Eso coloca a las plataformas emergentes, más chicas pero quizás más eficientes, en una desventaja competitiva. Los vendedores migraran a plataformas más grandes y consolidadas como Amazon, Mercado Libre o Linio (Las cuales cobran una mayor comisión).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "sellers' bad experience possibly driving distrust of smaller marketplaces like Kichink and migration to larger platforms — Amazon, Mercado Libre, or Linio — which charge a higher commission",
+  "actor_level": "source",
+  "platforms": [
+    "Kichink",
+    "Amazon",
+    "Mercado Libre",
+    "Linio"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "coloca a las plataformas emergentes, más chicas pero quizás más eficientes, en una desventaja competitiva",
+    "(Las cuales cobran una mayor comisión)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'mayor comisión' carries no figures — metric_type left 'unknown'. Analysis/opinion claim — not a dated state claim; time fields left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://isopixel.net/2020/04/24/kichink-no-paga-la-verdadera-historia",
+    "secondary_pointer": null
+  }
+}

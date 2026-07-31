@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002",
+  "source_type": "pricing_page",
+  "source_title": "Pricing",
+  "source_ref": "https://gumroad.com/pricing",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "[Stated in layout: \"10% + $0.50 Per transaction for all sales through your profile or direct links to your customers.\"]",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "fee of 10% + $0.50 per transaction for sales through the seller's profile or direct links",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "10% + $0.50 Per transaction",
+  "metric_unit": "mixed: % + USD per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "for all sales through your profile or direct links to your customers"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Snippet delivered as a layout capture (K10). Page undated ('Accessed April 2026') — not normalized (K1). Mixed units declared. Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://gumroad.com/pricing",
+    "secondary_pointer": null
+  }
+}
