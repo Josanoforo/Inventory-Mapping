@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-005",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-005",
+  "source_type": "blog",
+  "source_title": "Etsy Stats",
+  "source_ref": "https://thunderbit.com/blog/etsy-stats",
+  "source_date_if_available": "2026-01-09",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"How does this stack up to other platforms? It's pretty comparable: eBay's fees are often 12–15%, Amazon Handmade is about 15%, and Shopify's structure is different (monthly fee plus transaction fees). Etsy's big advantage: no monthly store fee, so it's low-risk to start. But sellers do have to keep an eye on rising fees and competition—especially as Etsy's take rate keeps inching up.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "fee comparison: eBay often 12-15%, Amazon Handmade about 15%, Shopify monthly-plus-transaction structure, versus Etsy's no monthly store fee and rising take rate",
+  "actor_level": "source",
+  "platforms": [
+    "eBay",
+    "Amazon Handmade",
+    "Shopify",
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "eBay's fees are often 12–15%, Amazon Handmade is about 15%",
+  "metric_unit": "percent",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-01-09",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "often",
+    "about",
+    "no monthly store fee, so it's low-risk to start",
+    "especially as Etsy's take rate keeps inching up"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available ('2026-01-09') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://thunderbit.com/blog/etsy-stats",
+    "secondary_pointer": null
+  }
+}
