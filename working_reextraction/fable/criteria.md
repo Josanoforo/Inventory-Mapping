@@ -104,3 +104,25 @@ K8. Snippets truncados (elipsis final, corte a media palabra, listas de layout
 K9. buyer_review con voz de vendedor (quejas de cuenta/payout de creadores en
     sitios de reseñas) → actor_level seller por "quién habla" (extiende K7),
     con issue contract_case_uncovered; el source_type prefijado se preserva.
+
+## [batch_032] — registradas en checkpoint_0004
+K10. Capturas de tablas/layout de sitios analíticos ("[Stated in layout: ...]"):
+     la tabla completa se preserva verbatim en metric_value_raw en orden de
+     listado, las unidades mixtas se declaran en metric_unit ("mixed: ..."), y
+     metric_type recibe descriptor mínimo K5 (p. ej. "revenue by category",
+     "store count by category"). La anotación de captura ("[Stated in layout:",
+     "[From Google search index snippet") se registra en parser_notes y no se
+     trata como truncación K8.
+K11. Páginas con voz de plataforma prefijadas con source_type de vendedor
+     (product_listing de páginas de features/pricing/partner/navegación, blog
+     corporativo, article de help-center): actor_level por "quién habla"
+     (platform) + issue contract_case_uncovered (extiende K7). Los listados
+     genuinos de productos de vendedores mantienen third_party según la
+     assignment_rule sin issue.
+K12. Proveedores de datos/analítica reportando estimaciones sobre una
+     plataforma (Semrush, SimilarWeb, 6sense, Storeleads, Gumtrends,
+     Wappalyzer, ful.io) → actor "source" + methodology_unclear si la cifra es
+     estimación sin metodología declarada. Proveedores de
+     integraciones/herramientas promocionando su propia integración con la
+     plataforma (Zapier, Pipedream, Pabbly, Make, widgets, apps) → actor
+     "third_party" + author_conflict_of_interest_possible (K4).
