@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-007",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+  "source_date_if_available": "Accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I had 3 accounts over the years and as a result want nothing to do with this horrendous company. I went to Template Monster for easier access.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer with 3 accounts over the years abandoning the company for Template Monster citing easier access",
+  "actor_level": "buyer",
+  "platforms": [
+    "Template Monster"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "over the years",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "I had 3 accounts over the years"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Abandoned platform named only in source_ref URL; destination platform named in text.",
+    "Valorative wording remains in snippet only."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+    "secondary_pointer": null
+  }
+}

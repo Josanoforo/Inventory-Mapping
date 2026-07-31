@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-002",
+  "source_type": "report",
+  "source_title": "Envato Unpacked",
+  "source_ref": "https://elements.envato.com/learn/envato-unpacked",
+  "source_date_if_available": "2025 (end-of-year report; no specific publication date visible).",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"On Envato, stock video took the top spot for downloads this year, followed by audio stock, photos, video templates, and graphic templates.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "Envato download ranking for the year: stock video first, then audio stock, photos, video templates and graphic templates",
+  "actor_level": "platform",
+  "platforms": [
+    "Envato"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "this year",
+  "time_scope_normalized_if_safe": "2025",
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "Category ranking without figures; metric_type left unknown.",
+    "time_scope_normalized_if_safe from source_date_if_available (2025 end-of-year report) per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://elements.envato.com/learn/envato-unpacked",
+    "secondary_pointer": null
+  }
+}

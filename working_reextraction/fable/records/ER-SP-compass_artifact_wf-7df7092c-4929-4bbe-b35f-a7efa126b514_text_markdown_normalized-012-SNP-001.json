@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012",
+  "source_type": "unknown",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.envato.com",
+  "source_date_if_available": "Accessed April 14, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Most reviewers were unhappy with their experience overall. Many customers expressed dissatisfaction with the products, citing issues such as outdated content, faulty files, and items not matching descriptions.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "review_statement",
+  "subject_exact": "aggregate review summary: most reviewers unhappy, citing outdated content, faulty files and items not matching descriptions",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "local_context",
+  "local_qualifiers": [
+    "Most reviewers",
+    "Many customers"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Aggregated summary text (likely platform-generated review synthesis), not an individual reviewer's voice; assigned 'source'.",
+    "Platform named only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.envato.com",
+    "secondary_pointer": null
+  }
+}

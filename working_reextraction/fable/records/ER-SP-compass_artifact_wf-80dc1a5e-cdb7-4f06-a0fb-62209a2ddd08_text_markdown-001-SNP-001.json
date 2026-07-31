@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001",
+  "source_type": "blog",
+  "source_title": "Gumroad Vs Payhip Vs Lemon Squeezy 71Cec796Cba3",
+  "source_ref": "https://medium.com/@hazelparadise/gumroad-vs-payhip-vs-lemon-squeezy-71cec796cba3",
+  "source_date_if_available": "Accessed April 2026; page header displays \"Mar, 2026\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"This is what I am using lately. I mainly use this for selling digital products on my faceless YouTube account. I really love this because conversion rates are really good.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported current use of a platform for digital products sold via a faceless YouTube account, citing good conversion rates",
+  "actor_level": "seller",
+  "platforms": [
+    "YouTube"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "conversion_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "lately",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "This is what I am using lately",
+    "conversion rates are really good"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Which of the three compared platforms (Gumroad/Payhip/Lemon Squeezy in source_title) 'this' refers to is not determinable from the snippet alone.",
+    "No conversion figures given; metric_value_raw left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@hazelparadise/gumroad-vs-payhip-vs-lemon-squeezy-71cec796cba3",
+    "secondary_pointer": null
+  }
+}
