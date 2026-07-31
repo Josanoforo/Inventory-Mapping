@@ -96,3 +96,11 @@ K7. actor_level para source_types no mapeados por la assignment_rule
     se asigna por "quién habla" (regla D) y se registra issue
     contract_case_uncovered por record. Rol del hablante indeterminable →
     unknown + actor_level_unclear.
+
+## [batch_016] — registradas en checkpoint_0002
+K8. Snippets truncados (elipsis final, corte a media palabra, listas de layout
+    con "...") → uncertainties += snippet_needs_reopen y parser_note; el
+    contenido faltante no se reconstruye ni se infiere.
+K9. buyer_review con voz de vendedor (quejas de cuenta/payout de creadores en
+    sitios de reseñas) → actor_level seller por "quién habla" (extiende K7),
+    con issue contract_case_uncovered; el source_type prefijado se preserva.
