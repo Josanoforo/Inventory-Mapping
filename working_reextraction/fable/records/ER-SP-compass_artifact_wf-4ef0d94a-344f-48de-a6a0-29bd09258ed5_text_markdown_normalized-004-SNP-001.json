@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-004",
+  "source_type": "help_center",
+  "source_title": "How Do I Sign Up For A Course",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003076818-How-do-I-sign-up-for-a-course",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Remember that when you purchase a course, we ask for a one-time payment which gives you full access to the course. There are no monthly fees or charges. This also applies to Domestika Basics, which consists of a series of courses. It is also a one-time payment that will give you full access to all included courses.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Domestika one-time course payment model with full access and no monthly fees or charges, including Domestika Basics course series",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "when you purchase a course",
+    "This also applies to Domestika Basics, which consists of a series of courses"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003076818-How-do-I-sign-up-for-a-course",
+    "secondary_pointer": null
+  }
+}

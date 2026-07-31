@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010",
+  "source_type": "seller_forum",
+  "source_title": "lemonsqueezy.nolt.io",
+  "source_ref": "https://lemonsqueezy.nolt.io/519",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As I understand it it's also not possible to avoid the fees by receiving payouts to USD accounts (Wise or Revolut for example) if your business is based outside of the US.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "seller understanding that payout fees cannot be avoided via USD accounts (Wise, Revolut) when the business is based outside the US",
+  "actor_level": "seller",
+  "platforms": [
+    "Wise",
+    "Revolut"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "As I understand it",
+    "if your business is based outside of the US"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Hedged secondhand understanding, preserved via qualifier 'As I understand it'.",
+    "'outside of the US' is a negated geographic scope; geography_if_explicit left null."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://lemonsqueezy.nolt.io/519",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001",
+  "source_type": "help_center",
+  "source_title": "Refunds And Exchanges Policy",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"If you are not satisfied with the content within the first 14 calendar days of purchasing a course, Domestika will refund the full amount and revoke your access to the course. Refunds will not be accepted after this 14-day period. If you purchased a course using Plus credits, you may exchange it for another course of your choice, but refunds are not permitted.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika 14-calendar-day full refund window with course access revocation, no refunds afterward, and exchange-only for Plus-credit purchases",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "first 14 calendar days",
+  "metric_unit": "days",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "If you are not satisfied with the content",
+    "If you purchased a course using Plus credits, you may exchange it for another course of your choice, but refunds are not permitted"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/16900472469905-Refunds-and-Exchanges-Policy",
+    "secondary_pointer": null
+  }
+}

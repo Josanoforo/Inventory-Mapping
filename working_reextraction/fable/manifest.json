@@ -16,13 +16,14 @@
     "batch_007",
     "batch_008",
     "batch_009",
-    "batch_010"
+    "batch_010",
+    "batch_011"
   ],
   "counters": {
-    "written": 249,
+    "written": 274,
     "rejected": 1,
-    "out_of_enum_records": 36,
-    "schema_enum_conflict_records": 5
+    "out_of_enum_records": 37,
+    "schema_enum_conflict_records": 6
   },
   "processed_skeletons": [
     {
@@ -2605,7 +2606,253 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T18:34:45+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-006-SNP-003",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "1099-K gross volume threshold"
+      },
+      "schema_enum_conflict": [
+        {
+          "field": "uncertainties",
+          "value": "snippet_needs_reopen"
+        }
+      ],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-007-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-008-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' authored by a competing platform (Freemius); assigned 'third_party'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-009-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-010-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-011-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-011-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-012-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' (fee aggregator) not mapped in vocabulary assignment_rule; registry-style data without first-person actor; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-013-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' (news) not mapped in vocabulary assignment_rule; journalistic description; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-014-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in vocabulary assignment_rule; journalistic report; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-014-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in vocabulary assignment_rule; journalistic report; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-014-SNP-003",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'article' not mapped in vocabulary assignment_rule; journalistic report; assigned 'source'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-015-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — blog authored by the platform itself (Lemon Squeezy blog); assigned 'platform'"
+      ],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-001-SNP-003",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-002-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-003-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-004-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-005-SNP-002",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-006-SNP-001",
+      "batch": "batch_011",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T18:37:27+00:00"
     }
   ],
-  "last_updated": "2026-07-31T18:34:45+00:00"
+  "last_updated": "2026-07-31T18:37:27+00:00"
 }

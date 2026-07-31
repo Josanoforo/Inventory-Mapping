@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-469e43ed-758d-4d71-8f79-4bcbe4d03782_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Payout Fees Sliced",
+  "source_ref": "https://www.lemonsqueezy.com/blog/payout-fees-sliced",
+  "source_date_if_available": "October 22, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"New payout fees are now 0% per payout for bank accounts in the US and 1% per payout for bank accounts outside the US.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "new payout fees announced: 0% per payout for US bank accounts and 1% per payout for bank accounts outside the US",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "0% per payout for bank accounts in the US and 1% per payout for bank accounts outside the US",
+  "metric_unit": "percent per payout",
+  "time_scope_raw": "now",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "the US",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "New payout fees"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform's own blog announcement of a fee policy change; platform name appears only in source_ref URL.",
+    "time_scope_raw 'now' is relative; normalized left null per criteria G despite post date October 22, 2024."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.lemonsqueezy.com/blog/payout-fees-sliced",
+    "secondary_pointer": null
+  }
+}
