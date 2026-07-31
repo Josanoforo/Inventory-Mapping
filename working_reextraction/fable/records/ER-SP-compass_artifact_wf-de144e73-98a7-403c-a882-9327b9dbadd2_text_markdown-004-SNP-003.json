@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "Top Keywords On Etsy",
+  "source_ref": "https://help.erank.com/blog/top-keywords-on-etsy",
+  "source_date_if_available": "6 April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"As you can see above right, \"personalized gift\" dropped to a 15-mo low this February. Then in just a month, it shot up 299%! And this one has both gold badges. For high conversion for the past 30 days, and another for continuing to trend in search this week.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "keyword 'personalized gift' dropping to a 15-month low in February then rising 299% in a month, with badges for conversion and search trend, per eRank",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "search volume change",
+  "metric_value_raw": "shot up 299%",
+  "metric_unit": "% in a month",
+  "time_scope_raw": "this February",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "dropped to a 15-mo low this February",
+    "For high conversion for the past 30 days, and another for continuing to trend in search this week"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type fuera de enum: change in keyword search volume — descriptor 'search volume change' reused (K5).",
+    "'this February' has no year in the snippet — not normalized (K2). Tracker figure without stated methodology — methodology_unclear (K12). Platform named only in source title/ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.erank.com/blog/top-keywords-on-etsy",
+    "secondary_pointer": null
+  }
+}

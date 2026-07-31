@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-001",
+  "rejection_reason": "required_field_unfillable",
+  "rejection_detail": "snippet_primary contains no source content — only a recovery note ('n/a — content recovered via research subagent direct fetch of URL...'). subject_exact cannot be filled from snippet+context without inference.",
+  "skeleton": {
+    "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-001",
+    "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+    "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011",
+    "source_type": "search_results_page",
+    "source_title": "Jewelry",
+    "source_ref": "https://www.etsy.com/c/jewelry",
+    "source_date_if_available": "Accessed April 2026; listing undated",
+    "author_or_actor_if_available": null,
+    "snippet_primary": "n/a — content recovered via research subagent direct fetch of URL; verbatim character-for-character accuracy cannot be independently confirmed.",
+    "snippet_context_before": null,
+    "snippet_context_after": null,
+    "traceability_pointer": {
+      "pointer_type": "url",
+      "pointer_value": "https://www.etsy.com/c/jewelry",
+      "secondary_pointer": null
+    },
+    "claim_type": null,
+    "subject_exact": null,
+    "actor_level": null,
+    "platforms": [],
+    "product_type_if_explicit": null,
+    "metric_type": null,
+    "metric_value_raw": null,
+    "metric_unit": null,
+    "time_scope_raw": null,
+    "time_scope_normalized_if_safe": null,
+    "geography_if_explicit": null,
+    "evidence_role": null,
+    "local_qualifiers": [],
+    "uncertainties": [],
+    "parser_notes": [],
+    "_extraction_stage": 1,
+    "_source_snippet_id": "SNP-001",
+    "_source_finding_ids": null
+  }
+}

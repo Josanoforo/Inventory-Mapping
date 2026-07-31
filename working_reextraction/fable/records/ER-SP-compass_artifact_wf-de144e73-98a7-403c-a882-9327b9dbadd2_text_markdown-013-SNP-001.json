@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-013",
+  "source_type": "search_results_page",
+  "source_title": "Digital Planner",
+  "source_ref": "https://www.etsy.com/market/digital_planner",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Check out our digital planner selection for the very best in unique or custom, handmade pieces from our planner templates shops.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Etsy market page offering a digital planner selection from planner templates shops",
+  "actor_level": "marketplace",
+  "platforms": [],
+  "product_type_if_explicit": "digital_planner",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "the very best in unique or custom, handmade pieces from our planner templates shops"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'digital planner' matches the enum value digital_planner. Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/market/digital_planner",
+    "secondary_pointer": null
+  }
+}

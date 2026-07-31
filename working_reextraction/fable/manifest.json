@@ -43,12 +43,13 @@
     "batch_034",
     "batch_035",
     "batch_036",
-    "batch_037"
+    "batch_037",
+    "batch_038"
   ],
   "counters": {
-    "written": 924,
-    "rejected": 1,
-    "out_of_enum_records": 146,
+    "written": 944,
+    "rejected": 6,
+    "out_of_enum_records": 157,
     "schema_enum_conflict_records": 32
   },
   "processed_skeletons": [
@@ -9592,7 +9593,281 @@
         "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (Zapier describing its own Hotmart integration, K12)"
       ],
       "processed_at": "2026-07-31T19:46:24+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-001-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by a third-party tool vendor about the platform; assigned 'third_party' by who speaks (K7)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-002-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (tool vendor describing its own product)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-003-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "dataset size"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (tool vendor describing its own product)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "keyword ranking"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an analytics provider reporting its data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-002",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "search volume change"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an analytics provider reporting its data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-003",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "search volume change"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an analytics provider reporting its data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-004",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "average CTR",
+        "product_type_if_explicit": "stickers"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an analytics provider reporting its data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-005",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "monthly CTR change"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' by an analytics provider reporting its data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-005-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (tool vendor describing its own product)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-006-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "catalog size"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' but content reports tracked platform data; assigned 'source' (K12)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-007-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "GMS share"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'report' not mapped in assignment_rule; assigned 'source' (analytics blog reporting aggregated data)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-008-SNP-001",
+      "batch": "batch_038",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-009-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (tool vendor describing its own product)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-010-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "customer_count"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'database_profile' not mapped in assignment_rule; assigned 'third_party' (tool vendor promoting its own product)"
+      ],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-001",
+      "batch": "batch_038",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-002",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "necklace"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-003",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {
+        "product_type_if_explicit": "engagement ring"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-012-SNP-001",
+      "batch": "batch_038",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-013-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-014-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-015-SNP-001",
+      "batch": "batch_038",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-016-SNP-001",
+      "batch": "batch_038",
+      "destination": "rejected_archive",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-001-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-001",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-002",
+      "batch": "batch_038",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:49:26+00:00"
     }
   ],
-  "last_updated": "2026-07-31T19:46:24+00:00"
+  "last_updated": "2026-07-31T19:49:26+00:00"
 }
