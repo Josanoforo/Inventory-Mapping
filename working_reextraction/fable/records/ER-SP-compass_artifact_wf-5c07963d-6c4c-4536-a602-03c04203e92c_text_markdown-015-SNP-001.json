@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-015-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-015",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-015",
+  "source_type": "blog",
+  "source_title": "Etsy To Shopify",
+  "source_ref": "https://www.jameelaghann.com/shopify-lab/etsy-to-shopify",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Etsy to Shopify is comparing renting a space in a busy mall to a lone building on the side of the highway. Shopify isn't a marketplace; it's a platform for you to find and drive your own traffic.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "metaphorical contrast: Etsy as renting space in a busy mall versus Shopify as a lone highway building requiring self-driven traffic",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy",
+    "Shopify"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "discoverability_claim",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Shopify isn't a marketplace; it's a platform for you to find and drive your own traffic"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.jameelaghann.com/shopify-lab/etsy-to-shopify",
+    "secondary_pointer": null
+  }
+}

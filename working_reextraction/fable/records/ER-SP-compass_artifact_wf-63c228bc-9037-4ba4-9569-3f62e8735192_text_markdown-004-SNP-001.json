@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-004",
+  "source_type": "blog",
+  "source_title": "I Made 15 Sales On Gumroad And Lost 34 To Fees Here Is The Trick To Fix It D51Ec83875A8",
+  "source_ref": "https://medium.com/@hustle-circuit/i-made-15-sales-on-gumroad-and-lost-34-to-fees-here-is-the-trick-to-fix-it-d51ec83875a8",
+  "source_date_if_available": "Estimated October 2025 (article references \"September activity\"; exact publication date not visible on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I used Gumroad to test a bunch of low-ticket guides and bundles. The dashboard showed $55.07 in sales across 15 transactions. After all fees, my payout was $36.13 — meaning ~34% of the money I collected vanished into platform and processor fees.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "seller-reported $55.07 across 15 Gumroad transactions with $36.13 payout after fees, an effective ~34% fee take",
+  "actor_level": "seller",
+  "platforms": [
+    "Gumroad"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "~34%",
+  "metric_unit": "percent of collected money lost to platform and processor fees (seller's calculation)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "I used Gumroad to test a bunch of low-ticket guides and bundles",
+    "After all fees"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Underlying figures in snippet: '$55.07 in sales across 15 transactions'; payout '$36.13'.",
+    "The ~34% effective rate is the seller's own derived calculation.",
+    "source_date_if_available is an estimate; not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://medium.com/@hustle-circuit/i-made-15-sales-on-gumroad-and-lost-34-to-fees-here-is-the-trick-to-fix-it-d51ec83875a8",
+    "secondary_pointer": null
+  }
+}

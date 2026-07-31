@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-016",
+  "source_type": "blog",
+  "source_title": "Amazon Vs Etsy 1528172",
+  "source_ref": "https://www.nav.com/blog/amazon-vs-etsy-1528172",
+  "source_date_if_available": "2022-10-07",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Overall, Amazon tends to attract more price-sensitive buyers who want things quickly. Even with Handmade items, customers may expect an 'Amazon experience' overall with free, fast shipping. Etsy shoppers tend to value unique items made by individuals. They may be more willing to wait for something unique or made to order.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "buyer-profile contrast: Amazon attracting price-sensitive fast-shipping expectations versus Etsy shoppers valuing unique individual-made items and tolerating waits",
+  "actor_level": "source",
+  "platforms": [
+    "Amazon",
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2022-10-07",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Overall",
+    "tends to",
+    "Even with Handmade items, customers may expect an 'Amazon experience'",
+    "They may be more willing to wait for something unique or made to order"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available ('2022-10-07') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.nav.com/blog/amazon-vs-etsy-1528172",
+    "secondary_pointer": null
+  }
+}

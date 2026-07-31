@@ -1,0 +1,49 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+  "source_id": "SRC-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-017",
+  "source_type": "blog",
+  "source_title": "Amazon Handmade Vs Etsy",
+  "source_ref": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Amazon Handmade enables a reach of 300 million potential customers while Etsy covers 'only' 90 million. Amazon's fees are high (15% referral on each sale) and the in-house regulations when it comes to marketing your products are stricter. Etsy ($0.20 per item) tends to be more economical and offers you more freedom when it comes to branding.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "reach and fee comparison: Amazon Handmade 300 million potential customers with 15% referral fee and stricter marketing rules versus Etsy 90 million reach, $0.20 per item and more branding freedom",
+  "actor_level": "source",
+  "platforms": [
+    "Amazon Handmade",
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": [
+    "active_buyers",
+    "fee_rate"
+  ],
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "'only'",
+    "tends to be more economical"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type array: snippet explicitly mixes reach figures (300 million vs 90 million potential customers) and fee figures (15% referral; $0.20 per item) with no dominant metric.",
+    "Reach figures unattributed; basis not stated.",
+    "source_date_if_available is year-only ('2025'); not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.sellerlogic.com/en/blog/amazon-handmade-vs-etsy",
+    "secondary_pointer": null
+  }
+}
