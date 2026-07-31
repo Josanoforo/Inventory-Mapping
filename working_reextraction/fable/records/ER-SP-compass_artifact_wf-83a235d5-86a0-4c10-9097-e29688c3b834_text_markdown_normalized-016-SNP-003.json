@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payment processing fees are charged for each transaction made through Etsy Payments. Payment processing fees vary based on the location of your bank account. In certain markets, a fixed deposit fee may be charged for the disbursement of seller funds that are under certain designated thresholds. See the Etsy Payments Policy to find payment processing fees and where applicable, deposit fees, by country. The payment processing fee is assessed on the total amount of the sale, including tax and shipping. Payment processing fees are deducted from the sale amount in your payment account.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "payment processing fees per Etsy Payments transaction varying by bank account location, assessed on total sale including tax and shipping, with fixed deposit fees under thresholds in certain markets",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "vary based on the location of your bank account",
+    "In certain markets, a fixed deposit fee may be charged for the disbursement of seller funds that are under certain designated thresholds",
+    "assessed on the total amount of the sale, including tax and shipping",
+    "deducted from the sale amount in your payment account"
+  ],
+  "uncertainties": [],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-005",
+  "source_packet_id": "SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016",
+  "source_type": "policy_page",
+  "source_title": "Fees",
+  "source_ref": "https://www.etsy.com/legal/fees",
+  "source_date_if_available": "Current as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"To open your Etsy shop, you may be required to pay a one-time set-up fee. Please note that if applicable, the set-up fee will be displayed and charged as part of the shop set-up process. During onboarding and upon your confirmation of this charge, we will initiate a pending transaction on your card. This transaction will be processed after onboarding is complete, your shop is open, and you are able to receive orders on Etsy. By providing your card information and approving the set-up fee, you authorize us to charge your designated payment method. The one-time set-up fee is non-refundable once paid.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "possible one-time non-refundable shop set-up fee charged during onboarding with card authorization, processed once the shop is open",
+  "actor_level": "platform",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "you may be required to pay",
+    "if applicable, the set-up fee will be displayed and charged as part of the shop set-up process",
+    "The one-time set-up fee is non-refundable once paid"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Set-up fee amount not stated in snippet."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.etsy.com/legal/fees",
+    "secondary_pointer": null
+  }
+}
