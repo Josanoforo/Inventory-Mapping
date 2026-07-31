@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007",
+  "source_type": "policy_page",
+  "source_title": "Privacy",
+  "source_ref": "https://www.domestika.org/en/privacy",
+  "source_date_if_available": "July 10, 2024 (last updated date stated on page)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"the Personal Data provided (the 'Personal Data') will be processed by Domestika Inc. ('Domestika') as the owner of the Platform and data controller of the Personal Data provided therein, whose contact details are as follows: Registered Office: 2001 Addison St., Suite 300 Berkeley, CA, 94704, United States.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Domestika Inc. as platform owner and data controller of provided personal data, with registered office in Berkeley, CA, United States",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-07-10",
+  "geography_if_explicit": "Berkeley, CA, 94704, United States",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Registered Office: 2001 Addison St., Suite 300 Berkeley, CA, 94704, United States"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Policy state claim with explicit last-updated date July 10, 2024 and null raw — normalized 2024-07-10 (K1). geography verbatim from the registered-office statement."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/privacy",
+    "secondary_pointer": null
+  }
+}

@@ -40,12 +40,13 @@
     "batch_031",
     "batch_032",
     "batch_033",
-    "batch_034"
+    "batch_034",
+    "batch_035"
   ],
   "counters": {
-    "written": 849,
+    "written": 874,
     "rejected": 1,
-    "out_of_enum_records": 138,
+    "out_of_enum_records": 141,
     "schema_enum_conflict_records": 31
   },
   "processed_skeletons": [
@@ -8807,7 +8808,248 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T19:37:29+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-003-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-004-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "payout delay"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-002",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "inactive account administration fee"
+      },
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-003",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-005-SNP-004",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-006-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-007-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-008-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-009-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "affiliate commission rate"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-002",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-010-SNP-003",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'blog' hosted by the platform in platform voice; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-002-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-003-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-003-SNP-002",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004-SNP-002",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-004-SNP-003",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-005-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-005-SNP-002",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-006-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-007-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-008-SNP-001",
+      "batch": "batch_035",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T19:40:14+00:00"
     }
   ],
-  "last_updated": "2026-07-31T19:37:29+00:00"
+  "last_updated": "2026-07-31T19:40:14+00:00"
 }

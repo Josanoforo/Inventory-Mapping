@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-001",
+  "source_type": "help_center",
+  "source_title": "I Can T Find My Course In My Profile",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/360003052038-I-can-t-find-my-course-in-my-profile",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Payment on the website through local methods (cash, bank transfer) processed by dLocal: proof of payment or receipt from the store where the deposit was made.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "proof of payment or store receipt required for website payments made through local methods (cash, bank transfer) processed by dLocal",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "local methods (cash, bank transfer) processed by dLocal"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'dLocal' is a payment processor — excluded from platforms per the payment-method convention (K3). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/360003052038-I-can-t-find-my-course-in-my-profile",
+    "secondary_pointer": null
+  }
+}

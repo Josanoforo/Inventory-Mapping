@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-c92310c3-4f07-4a0e-a5e2-fc02f299ab79_text_markdown-006",
+  "source_type": "help_center",
+  "source_title": "How Do I Pay For The Domestika Plus",
+  "source_ref": "https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"**The Plus subscription cannot be purchased in cash or via bank transfer (available in Mexico, Colombia and Brazil), as it must have a means of payment that enables automatic renewal.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "Plus subscription not purchasable in cash or via bank transfer because it requires a payment method enabling automatic renewal",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payment_method_availability",
+  "metric_value_raw": "cannot be purchased in cash or via bank transfer",
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "(available in Mexico, Colombia and Brazil)",
+    "it must have a means of payment that enables automatic renewal"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "The parenthetical country list qualifies where cash/transfer methods exist, not the claim's scope — kept as qualifier, geography left null. Platform named only in source_ref/title — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus",
+    "secondary_pointer": null
+  }
+}
