@@ -1,0 +1,37 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-018",
+  "source_type": "policy_page",
+  "source_title": "Privacy",
+  "source_ref": "https://www.domestika.org/es/privacy",
+  "source_date_if_available": "\"Esta Política de Privacidad fue actualizada por última vez el 10 de julio de 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Profesores, Afiliados y Creativos — Datos de identificación: nombre, apellido, DNI, imagen, voz, nombre de usuario en redes sociales. Datos de contacto: dirección de correo electrónico, dirección postal, número de teléfono. Datos sobre características personales: fecha de nacimiento, nacionalidad. Datos académicos y profesionales: estudios, ocupación, experiencia profesional, CV. Otros: datos de identificación fiscal, información general proporcionada por el Usuario.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "categories of personal data collected from Profesores, Afiliados y Creativos (identification, contact, personal characteristics, academic/professional, fiscal)",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-07-10",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [],
+  "uncertainties": [],
+  "parser_notes": [
+    "Prose counterpart of a layout-derived record from the same policy captured separately; treated independently.",
+    "Platform name appears only in source_ref URL for this snippet; platforms left empty per criteria F.",
+    "time_scope_normalized_if_safe from source_date_if_available (privacy policy updated 10 de julio de 2024) per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/privacy",
+    "secondary_pointer": null
+  }
+}

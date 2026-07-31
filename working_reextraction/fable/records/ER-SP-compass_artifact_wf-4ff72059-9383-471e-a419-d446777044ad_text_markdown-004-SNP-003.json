@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004",
+  "source_type": "policy_page",
+  "source_title": "Terminos",
+  "source_ref": "https://www.kichink.com/legales/terminos",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"KICHINK o el Agregador designado, descontarán del monto de ventas realizadas por La TIENDA el porcentaje de comisión. El descuento realizado por KICHINK será facturado de manera mensual, por lo que La TIENDA deberá proporcionar sus datos fiscales para la facturación correspondiente durante el mes en curso, de lo contrario el ingreso será facturado como venta al público en General y no podrá re facturarse posteriormente.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "commission deducted from store sales by KICHINK or Agregador, invoiced monthly, with fiscal data required in-month or income invoiced as general-public sale without re-invoicing",
+  "actor_level": "platform",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "facturado de manera mensual",
+    "durante el mes en curso",
+    "de lo contrario el ingreso será facturado como venta al público en General y no podrá re facturarse posteriormente"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Commission percentage not stated in this snippet; metric_type left unknown."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/legales/terminos",
+    "secondary_pointer": null
+  }
+}

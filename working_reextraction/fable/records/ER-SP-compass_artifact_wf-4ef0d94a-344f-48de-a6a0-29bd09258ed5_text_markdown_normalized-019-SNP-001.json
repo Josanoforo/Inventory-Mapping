@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-019",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/es/terms",
+  "source_date_if_available": "January 31, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Ocasionalmente, realizamos promociones y rebajas para nuestro contenido, en las que determinado contenido está disponible a precios con descuento durante cierto período de tiempo. El precio aplicable al contenido será el precio en el momento en el que compró el contenido.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "occasional time-limited promotions with discounted content, with the applicable price being the price at purchase time",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "durante cierto período de tiempo",
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Ocasionalmente",
+    "El precio aplicable al contenido será el precio en el momento en el que compró el contenido"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Platform name appears only in source_ref URL for this snippet; platforms left empty per criteria F.",
+    "time_scope_normalized_if_safe from source_date_if_available (terms January 31, 2024) per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/terms",
+    "secondary_pointer": null
+  }
+}

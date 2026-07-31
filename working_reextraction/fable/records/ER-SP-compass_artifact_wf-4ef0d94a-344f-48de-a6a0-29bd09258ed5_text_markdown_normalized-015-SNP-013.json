@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-013",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/en/terms",
+  "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"IN NO EVENT WILL DOMESTIKA'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES OR CAUSES OF ACTION EXCEED THE AMOUNT YOU HAVE PAID DOMESTIKA IN THE LAST SIX (6) MONTHS, OR, IF GREATER, ONE HUNDRED DOLLARS ($100).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "DOMESTIKA total liability cap at the greater of amounts paid in the last six months or one hundred dollars ($100)",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "THE LAST SIX (6) MONTHS",
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "IN NO EVENT",
+    "OR, IF GREATER, ONE HUNDRED DOLLARS ($100)"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Liability cap figures preserved in qualifiers; not a marketplace metric, metric_type left unknown.",
+    "time_scope_normalized_if_safe from source_date_if_available (terms updated January 31, 2024) per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/terms",
+    "secondary_pointer": null
+  }
+}

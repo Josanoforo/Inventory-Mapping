@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-016",
+  "source_type": "platform_doc",
+  "source_title": "Courses",
+  "source_ref": "https://www.domestika.org/es/courses",
+  "source_date_if_available": "Page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Este precio tiene las horas contadas...\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "urgency banner on course listing page: 'Este precio tiene las horas contadas...'",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "Time-pressure promotional banner text; no price, course or deadline captured with it.",
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/courses",
+    "secondary_pointer": null
+  }
+}

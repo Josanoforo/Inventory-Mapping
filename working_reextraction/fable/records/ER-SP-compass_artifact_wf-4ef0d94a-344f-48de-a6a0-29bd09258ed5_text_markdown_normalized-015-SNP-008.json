@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-008",
+  "source_packet_id": "SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_id": "SRC-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015",
+  "source_type": "policy_page",
+  "source_title": "Terms",
+  "source_ref": "https://www.domestika.org/en/terms",
+  "source_date_if_available": "\"These Terms of Use were last updated on January 31st, 2024.\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"DOMESTIKA may modify the price for future recurring purchases. In such cases, DOMESTIKA will provide written notification. Price changes will become effective on the next recurring purchase following the date of such changes. If you do not agree with the price change, you have the right to reject it by cancelling your participation in DOMESTIKA PLUS before the next recurring payment is processed.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "DOMESTIKA right to modify future recurring-purchase prices with written notification, effective on next recurrence, rejectable by cancelling DOMESTIKA PLUS before the next payment",
+  "actor_level": "platform",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-01-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "In such cases, DOMESTIKA will provide written notification",
+    "Price changes will become effective on the next recurring purchase following the date of such changes",
+    "you have the right to reject it by cancelling your participation in DOMESTIKA PLUS before the next recurring payment is processed"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_normalized_if_safe from source_date_if_available (terms updated January 31, 2024) per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/en/terms",
+    "secondary_pointer": null
+  }
+}

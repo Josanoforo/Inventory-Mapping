@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003",
+  "source_id": "SRC-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-003",
+  "source_type": "policy_page",
+  "source_title": "Politicacambiosydevoluciones",
+  "source_ref": "https://www.kichink.com/legales/politicacambiosydevoluciones",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Los tiempos estimados para el procesamiento de un Reembolso una vez autorizado el mismo son los siguientes: Pago con TDC tiempo de 5 días hábiles. Pago con Banca por internet 5 días hábiles. Depósito Bancario 5 días hábiles.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "estimated refund processing times of 5 business days once authorized, for credit card, online banking and bank deposit payments",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "refund_policy",
+  "metric_value_raw": "5 días hábiles",
+  "metric_unit": "días hábiles",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "una vez autorizado el mismo",
+    "Los tiempos estimados"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Same 5-business-day window stated for the three listed payment methods (TDC, Banca por internet, Depósito Bancario).",
+    "Platform name appears only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.kichink.com/legales/politicacambiosydevoluciones",
+    "secondary_pointer": null
+  }
+}
