@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-019",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+  "source_date_if_available": "April 4, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"I made an order for a leather jacket with Etsy, by a \\\"company\\\" called LeatherWorkNY, and I paid 160usd or 140euros. The sellers name is Zahida. I payed my order on 07/02/2026 and I never received anything from them! Etsy is a fraud, don't fall for their lies!\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported leather jacket order (160 USD / 140 EUR) from seller 'LeatherWorkNY' paid 07/02/2026 and never received",
+  "actor_level": "buyer",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "160usd or 140euros",
+  "metric_unit": "USD / EUR (mixed currencies declared)",
+  "time_scope_raw": "I payed my order on 07/02/2026",
+  "time_scope_normalized_if_safe": "2026-02-07",
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "by a \"company\" called LeatherWorkNY",
+    "I never received anything from them"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Seller name ('Zahida') quoted in snippet; 'fraud' is the reviewer's characterization.",
+    "Date read as 7 February 2026 (dd/mm format consistent with review date)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/www.etsy.com?page=2",
+    "secondary_pointer": null
+  }
+}

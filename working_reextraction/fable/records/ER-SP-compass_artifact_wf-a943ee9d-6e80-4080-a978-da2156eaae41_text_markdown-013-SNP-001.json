@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-013",
+  "source_type": "report",
+  "source_title": "Overview",
+  "source_ref": "https://www.semrush.com/website/etsy.com/overview",
+  "source_date_if_available": "Accessed April 2026; data labeled February 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In February etsy.com received 326.37M visits with the average session duration 09:26. Compared to January traffic to etsy.com has decreased by -17.38%.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "etsy.com February 2026 traffic per Semrush: 326.37M visits, 09:26 average session, -17.38% versus January",
+  "actor_level": "source",
+  "platforms": [
+    "Etsy"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "traffic_volume",
+  "metric_value_raw": "326.37M",
+  "metric_unit": "visits (February)",
+  "time_scope_raw": "In February",
+  "time_scope_normalized_if_safe": "2026-02",
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "Compared to January"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "Semrush figures are analytics estimates; methodology not stated in snippet.",
+    "time_scope_normalized_if_safe from data label ('February 2026') per criteria G/K1."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.semrush.com/website/etsy.com/overview",
+    "secondary_pointer": null
+  }
+}
