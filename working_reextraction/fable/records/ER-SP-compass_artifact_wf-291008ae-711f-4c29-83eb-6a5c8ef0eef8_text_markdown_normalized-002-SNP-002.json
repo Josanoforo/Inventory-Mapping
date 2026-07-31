@@ -1,0 +1,41 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+  "source_date_if_available": "2025-04-22",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Avoid this payment processor at ALL COST! I was using an SEO tool, relying on it, and cancelled my subscription in March. Since March, they have kept on taking money every single month from my account, despite the subscription being stopped. Bad payment processor.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "buyer-reported continued monthly charges by the payment processor after cancelling an SEO tool subscription in March",
+  "actor_level": "buyer",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "cancelled my subscription in March. Since March",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "despite the subscription being stopped",
+    "every single month"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Processor named only in source_ref URL ('this payment processor' in text); platforms left empty per criteria F.",
+    "Month reference lacks explicit year in snippet; not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/lemonsqueezy.com?page=4",
+    "secondary_pointer": null
+  }
+}
