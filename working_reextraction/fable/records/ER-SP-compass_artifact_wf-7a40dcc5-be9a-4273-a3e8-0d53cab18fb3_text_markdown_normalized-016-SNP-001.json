@@ -1,0 +1,45 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-016",
+  "source_type": "buyer_review",
+  "source_title": "Review",
+  "source_ref": "https://www.trustpilot.com/review/etsy.de",
+  "source_date_if_available": "August 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Since 2017, I have run a small Etsy shop from Jordan, completing over 5,900 orders and fully complying with Etsy's rules. I was notified that (my Etsy shop will be forcibly closed on 5 August 2025), due to Etsy's decision to remove PayPal as a payment option and the absence of Etsy Payments in Jordan - leaving me no means to receive payments.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "Jordan-based seller (5,900+ orders since 2017) reporting forced Etsy shop closure on August 5, 2025 after PayPal removal and absence of Etsy Payments in Jordan",
+  "actor_level": "seller",
+  "platforms": [
+    "Etsy",
+    "PayPal"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Since 2017 … 5 August 2025",
+  "time_scope_normalized_if_safe": "2017/2025-08-05",
+  "geography_if_explicit": "Jordan",
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "completing over 5,900 orders and fully complying with Etsy's rules",
+    "due to Etsy's decision to remove PayPal as a payment option and the absence of Etsy Payments in Jordan",
+    "leaving me no means to receive payments"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "Closure cause is the notification as retold by the seller.",
+    "Additional figure in snippet: 'over 5,900 orders'."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.trustpilot.com/review/etsy.de",
+    "secondary_pointer": null
+  }
+}
