@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-016",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-016",
+  "source_type": "article",
+  "source_title": "Hotmart",
+  "source_ref": "https://paytaler.com/hotmart",
+  "source_date_if_available": "Fecha no visible; página activa al momento de consulta",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Si querés obtener la mejor cotización para vender tu saldo de Wise o Payoneer, no busques más, ¡Paytaler es tu solución! Nuestro servicio en línea te ofrece la cotización más cercana al Dólar Blue para convertir tu saldo digital en pesos argentinos de forma rápida y segura.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "availability_statement",
+  "subject_exact": "Paytaler offering to convert Wise or Payoneer balances to Argentine pesos at the rate closest to the Dólar Blue",
+  "actor_level": "third_party",
+  "platforms": [
+    "Paytaler"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "te ofrece la cotización más cercana al Dólar Blue",
+    "de forma rápida y segura"
+  ],
+  "uncertainties": [
+    "author_conflict_of_interest_possible",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "First-person promotional vendor voice — author_conflict_of_interest_possible (K4). 'Wise'/'Payoneer' are payment services — excluded (K3). 'pesos argentinos'/'Dólar Blue' imply Argentina but no country is named as the claim's scope — geography left null (unknown > inferencia). Page date not visible — source_date_unclear (K2)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://paytaler.com/hotmart",
+    "secondary_pointer": null
+  }
+}

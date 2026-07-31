@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_id": "SRC-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-011",
+  "source_type": "help_center",
+  "source_title": "Que Es El Spread De Las Compras Internacionales",
+  "source_ref": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-",
+  "source_date_if_available": "as of April 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"El spread es la diferencia entre el precio de compra y el de venta de moneda extranjera. Para llegar al valor de la tarifa que ves en la plataforma, Hotmart cuenta con una operadora de cambio oficial del Banco Central, que fija un valor de cambio alterado cada 24 horas. Además, el número que ves ya considera, por ejemplo, el IOF (Impuesto sobre Operaciones Financieras), que es obligatorio, entre otros costos operacionales del proceso de pago.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "spread on international purchases defined as the buy/sell currency difference, set via an official Central Bank exchange operator with the rate updated every 24 hours, and inclusive of mandatory IOF and operational costs",
+  "actor_level": "platform",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "fija un valor de cambio alterado cada 24 horas",
+    "el número que ves ya considera, por ejemplo, el IOF (Impuesto sobre Operaciones Financieras), que es obligatorio"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "'as of April 2026' is an access date — never normalizes (K1)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.hotmart.com/es/article/360025069992/-que-es-el-spread-de-las-compras-internacionales-",
+    "secondary_pointer": null
+  }
+}
