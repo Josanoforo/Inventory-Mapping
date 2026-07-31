@@ -5,7 +5,7 @@
   "input_fingerprint": "280138c2bbb7a170a4697ac14de0d0302f90d38291baba0c3184201e555530b5",
   "input_fingerprint_method": "sha256 of sorted 'relpath size' lines of skeleton_*.json under working/data_extraction/skeleton_batches/",
   "total_skeletons": 1178,
-  "status": "in_progress",
+  "status": "complete",
   "batches_completed": [
     "batch_001",
     "batch_002",
@@ -12183,5 +12183,5 @@
       "processed_at": "2026-07-31T20:16:10+00:00"
     }
   ],
-  "last_updated": "2026-07-31T20:16:10+00:00"
+  "last_updated": "2026-07-31T20:16:52.426877+00:00"
 }

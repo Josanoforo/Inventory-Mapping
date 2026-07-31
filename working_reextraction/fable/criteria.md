@@ -140,3 +140,15 @@ K14. Fees de pasarelas de pago de terceros relatadas por la plataforma en
      "collected by X and do not go to [platform]" se copia como qualifier.
      Las listas de países soportados van como payment_method_availability
      con geography verbatim y el listado completo preservado.
+
+## [batch_048] — registradas en checkpoint_0006 (final)
+K15. Testimonios de vendedores curados en páginas de marketing de la
+     plataforma: actor "seller" por quién habla + issue K7, evidence
+     seller_self_claim, y uncertainties anecdotal_single_source +
+     author_conflict_of_interest_possible por el contexto promocional curado.
+K16. Páginas de comparación/"alternative" alojadas por una plataforma
+     competidora que se compara a sí misma: actor "platform" por quién habla
+     (K11) + issue + author_conflict_of_interest_possible (K4). Vendedores
+     que comparan a terceros sin ser sujeto de la comparación → "third_party"
+     + K4. Emails o anuncios de plataforma citados dentro de foros → actor
+     "platform" + evidence reported_event.
