@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-006",
+  "source_type": "pricing_page",
+  "source_title": "Precios",
+  "source_ref": "https://hotmart.com/es/precios",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"La solución All in One ¡Por el mismo precio! Sin tarifas. Sin softwares extra. Sin fronteras.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Hotmart pricing-page slogan: all-in-one solution at the same price, without fees, extra software or borders",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Sin tarifas. Sin softwares extra. Sin fronteras."
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Marketing slogan without figures; 'Sin tarifas' contrasts with the per-sale percentage stated elsewhere on the same page (recorded separately).",
+    "Platform named only in source_ref URL; platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://hotmart.com/es/precios",
+    "secondary_pointer": null
+  }
+}

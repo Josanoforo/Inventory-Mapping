@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-007",
+  "source_type": "blog",
+  "source_title": "Plataformas Para Crear Cursos Online",
+  "source_ref": "https://jeansaldana.com/plataformas-para-crear-cursos-online",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"También toma en cuenta que las comisiones que ofrece Udemy pueden ir desde el 25% al 50% de las ventas, que en comparación con otras plataformas como Hotmart, es mucho más alto. En Hotmart la comisión por venta de un curso es del 10%.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "commission comparison: Udemy taking 25-50% of sales versus Hotmart's 10% per course sale",
+  "actor_level": "source",
+  "platforms": [
+    "Udemy",
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "del 10%",
+  "metric_unit": "percent per course sale (Hotmart)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "pueden ir desde el 25% al 50% de las ventas",
+    "es mucho más alto"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Comparator figures in snippet: Udemy commissions 25% to 50%."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://jeansaldana.com/plataformas-para-crear-cursos-online",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-009-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-009",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-009",
+  "source_type": "article",
+  "source_title": "Plataformas Cursos Online",
+  "source_ref": "https://quaderno.io/es/articulos/plataformas-cursos-online",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es una plataforma que combina la funcionalidad de un LMS y un marketplace, popular sobre todo en España y Latinoamérica. Permite a los creadores de contenido alojar y vender sus cursos, además de sumar a la fórmula un sistema de afiliados para potenciar las ventas.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "description of Hotmart as LMS-plus-marketplace with an affiliate system, popular especially in Spain and Latin America",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": [
+    "España",
+    "Latinoamérica"
+  ],
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "popular sobre todo en España y Latinoamérica",
+    "para potenciar las ventas"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://quaderno.io/es/articulos/plataformas-cursos-online",
+    "secondary_pointer": null
+  }
+}

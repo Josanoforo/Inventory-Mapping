@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-013",
+  "source_type": "blog",
+  "source_title": "Herramientas Para Vender Cursos Online Cual Es La Mejor",
+  "source_ref": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"No sirve para cursos pequeños o ebooks de bajo coste. Está pensado para cursos de más de 200€ en adelante. Si vendes ebooks de 9,99€, entre impuestos y comisión del afiliado y de Hotmart, puede que no te quede nada para ti.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "claim that Hotmart is unsuited to low-priced ebooks (~9.99€) where taxes plus affiliate and Hotmart commissions can leave the seller nothing, being oriented to 200€+ courses",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "ebook",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Está pensado para cursos de más de 200€ en adelante",
+    "Si vendes ebooks de 9,99€",
+    "puede que no te quede nada para ti"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Price points in snippet: 9,99€ ebooks; 200€+ courses.",
+    "'ebooks' explicitly discussed as product; typed as ebook."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.albadelgado.com/herramientas-para-vender-cursos-online-cual-es-la-mejor",
+    "secondary_pointer": null
+  }
+}

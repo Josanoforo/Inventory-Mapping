@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-002",
+  "source_type": "blog",
+  "source_title": "Plataformas Para Vender Cursos Online",
+  "source_ref": "https://bit4learn.com/plataformas-para-vender-cursos-online",
+  "source_date_if_available": "2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Desde que fue adquirida por Hotmart en el 2019 dejo de desarrollar nuevas funcionalidades y se quedó estancada.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "claim that a platform acquired by Hotmart in 2019 stopped developing new features and stagnated",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "Desde que fue adquirida … en el 2019",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Desde que fue adquirida por Hotmart en el 2019"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "context_insufficient"
+  ],
+  "parser_notes": [
+    "The acquired platform referred to as 'fue adquirida' is not named in the snippet (likely Teachable per page context, but not stated)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://bit4learn.com/plataformas-para-vender-cursos-online",
+    "secondary_pointer": null
+  }
+}

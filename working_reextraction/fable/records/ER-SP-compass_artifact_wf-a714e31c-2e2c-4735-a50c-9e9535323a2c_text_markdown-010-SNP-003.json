@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-003",
+  "source_packet_id": "SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_id": "SRC-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010",
+  "source_type": "blog",
+  "source_title": "Thinkific Vs Hotmart",
+  "source_ref": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Hotmart es un marketplace con millones de usuarios, especialmente en Latinoamérica. Esto te da opciones de visibilidad pasiva, pero también significa competencia directa dentro de la plataforma. Tu curso aparece junto a cientos de alternativas similares. Thinkific no es marketplace: no te entrega tráfico orgánico masivo desde el primer día, pero sí te ofrece herramientas para crear comunidad (como membresías) y captar tu propia audiencia.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "comparative_commentary",
+  "subject_exact": "discovery tradeoff: Hotmart marketplace with millions of users giving passive visibility but direct in-platform competition, versus Thinkific without marketplace traffic but with community tools",
+  "actor_level": "source",
+  "platforms": [
+    "Hotmart",
+    "Thinkific"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "discoverability_claim",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": "Latinoamérica",
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "especialmente en Latinoamérica",
+    "Tu curso aparece junto a cientos de alternativas similares",
+    "no te entrega tráfico orgánico masivo desde el primer día"
+  ],
+  "uncertainties": [
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "'millones de usuarios' is an unquantified scale claim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://sofiafernandez.es/marketing/thinkific-vs-hotmart",
+    "secondary_pointer": null
+  }
+}
