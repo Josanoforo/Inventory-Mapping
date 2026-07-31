@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-005",
+  "source_type": "blog",
+  "source_title": ")",
+  "source_ref": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)",
+  "source_date_if_available": "Undated (~2021–2022)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Cuando ellos publicaron su curso el modelo era recibir una comisión por cada venta del curso. A día de hoy, se paga una cantidad inicial al instructor por la realización del curso y posteriormente se recibe una comisión por cada venta, pero esa comisión seguramente es inferior.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "change in Domestika instructor compensation model from per-sale commission to initial payment plus per-sale commission presumed lower",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "A día de hoy",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "Cuando ellos publicaron su curso",
+    "A día de hoy",
+    "pero esa comisión seguramente es inferior"
+  ],
+  "uncertainties": [
+    "source_date_unclear",
+    "current_vs_historical_ambiguity"
+  ],
+  "parser_notes": [
+    "'seguramente es inferior' is the source's own conjecture, preserved as qualifier; no figures given.",
+    "Platform 'Domestika' appears only in source_title/URL, not in snippet text; platforms left empty per criteria F.",
+    "source_date_if_available is approximate ('~2021–2022'); 'A día de hoy' relative; not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri/ (also referenced at https://juanantoniocortes.com/domestika/)",
+    "secondary_pointer": null
+  }
+}

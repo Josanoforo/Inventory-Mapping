@@ -1,0 +1,43 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001",
+  "source_id": "SRC-compass_artifact_wf-2009e538-d328-413d-8ab9-0f9ac6b58a7c_text_markdown-001",
+  "source_type": "report",
+  "source_title": "Website",
+  "source_ref": "https://www.similarweb.com/website/kichink.com",
+  "source_date_if_available": "Accessed April 2026; page titled \"kichink.com Traffic Analytics, Ranking & Audience [March 2026]\"",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"kichink.com's web traffic has decreased by 33.26% compared to last month\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "kichink.com month-over-month web traffic change per SimilarWeb",
+  "actor_level": "source",
+  "platforms": [
+    "Kichink"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "web traffic change",
+  "metric_value_raw": "decreased by 33.26%",
+  "metric_unit": "percent vs previous month",
+  "time_scope_raw": "compared to last month",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "database_fact",
+  "local_qualifiers": [
+    "compared to last month"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is a traffic change rate, not a traffic volume; label derived from snippet wording 'web traffic has decreased by 33.26%'.",
+    "SimilarWeb figures are analytics estimates; estimation methodology not stated in snippet.",
+    "'kichink.com' named in snippet text; listed as platform Kichink."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.similarweb.com/website/kichink.com",
+    "secondary_pointer": null
+  }
+}

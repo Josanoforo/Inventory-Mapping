@@ -1,0 +1,42 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-004",
+  "source_type": "blog",
+  "source_title": "Crear Un Curso Para Domestika Con Christian Beltri",
+  "source_ref": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri",
+  "source_date_if_available": "Undated (~2021–2022)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Su experiencia fue muy buena y sobre todo destaca el nivel de exposición que obtienes y oportunidades que llegan una vez publicas un curso en la plataforma.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "reported positive experience and post-publication exposure and opportunities for instructor Christian Beltri after publishing a Domestika course",
+  "actor_level": "source",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "anecdotal_example",
+  "local_qualifiers": [
+    "una vez publicas un curso en la plataforma"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear"
+  ],
+  "parser_notes": [
+    "Third-person blog summary of one instructor's experience; no first-person actor in snippet, assigned 'source'.",
+    "Platform 'Domestika' appears only in source_title/URL ('la plataforma' in snippet); platforms left empty per criteria F.",
+    "source_date_if_available is approximate ('~2021–2022'); not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://instructoresonline.es/53-crear-un-curso-para-domestika-con-christian-beltri",
+    "secondary_pointer": null
+  }
+}

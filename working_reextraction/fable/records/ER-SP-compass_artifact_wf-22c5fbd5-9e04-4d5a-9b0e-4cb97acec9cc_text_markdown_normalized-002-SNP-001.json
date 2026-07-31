@@ -1,0 +1,48 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-002",
+  "source_type": "blog",
+  "source_title": "The Truth About Domestika",
+  "source_ref": "https://artdesignbytc.com/2025/11/20/the-truth-about-domestika",
+  "source_date_if_available": "November 20, 2025 (updated March 24, 2026)",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Instructors notice royalty percentages quietly declining for new contracts. Older contracts (30–50% earnings) are no longer offered. Deep discounting (frequent $10 or $0.99 sales) makes many instructors feel undervalued... Domestika stops paying many instructors across both Domestika and CGMA. New clause introduced tying payment to forum activity, even for instructors who: Were never required to respond before, Had older contracts, Had thousands of students (making constant replies impossible).\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "explicit_claim",
+  "subject_exact": "reported decline in Domestika instructor royalty terms, deep discounting, payment halts across Domestika and CGMA, and new forum-activity payment clause",
+  "actor_level": "source",
+  "platforms": [
+    "Domestika",
+    "CGMA"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "royalty percentages",
+  "metric_value_raw": "30–50%",
+  "metric_unit": "percent earnings share (older contracts)",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-11-20",
+  "geography_if_explicit": null,
+  "evidence_role": "comparative_commentary",
+  "local_qualifiers": [
+    "quietly declining for new contracts",
+    "Older contracts (30–50% earnings) are no longer offered",
+    "frequent $10 or $0.99 sales",
+    "even for instructors who: Were never required to respond before, Had older contracts, Had thousands of students (making constant replies impossible)"
+  ],
+  "uncertainties": [
+    "methodology_unclear"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed label 'royalty percentages' from snippet; instructor earnings share not covered by enum (fee_rate refers to platform fees).",
+    "Additional figures in snippet: sale prices '$10 or $0.99'.",
+    "Blog aggregates instructor reports without stating sources or counts.",
+    "time_scope_normalized_if_safe from source_date_if_available (published November 20, 2025; page notes update March 24, 2026) per criteria G."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://artdesignbytc.com/2025/11/20/the-truth-about-domestika",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-010",
+  "source_type": "blog",
+  "source_title": "Finally My Domestika Course Is Live",
+  "source_ref": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live",
+  "source_date_if_available": "~2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"In the Domestika forum you can display your final pieces and I will be lurking there and commenting on your results! Hope to see you there!\" (uses affiliate link with note ensuring \"most of your support actually benefits me\")",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor promotion of own Domestika course via forum presence and affiliate link benefiting the instructor",
+  "actor_level": "seller",
+  "platforms": [
+    "Domestika"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "uses affiliate link with note ensuring 'most of your support actually benefits me'"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source",
+    "source_date_unclear",
+    "author_conflict_of_interest_possible"
+  ],
+  "parser_notes": [
+    "First-person instructor post promoting own course; affiliate disclosure appears as annotation appended to the snippet.",
+    "source_date_if_available is approximate ('~2024'); not normalized."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://schmoedraws.substack.com/p/finally-my-domestika-course-is-live",
+    "secondary_pointer": null
+  }
+}

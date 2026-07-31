@@ -1,0 +1,44 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-004",
+  "source_packet_id": "SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_id": "SRC-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011",
+  "source_type": "report",
+  "source_title": "Domestika Unpaid Instructors",
+  "source_ref": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+  "source_date_if_available": "November 4, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"(Earlier) The team was great, and my first two courses didn't even have a contract. They did all the production, helped me set up my first course, and it even became a best-seller. Then they started to downgrade these royalties. Their last proposal was 5% (royalties) for a new course, which I refused.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "anecdotal_report",
+  "subject_exact": "instructor-reported royalty downgrade to a 5% offer for a new course after early no-contract best-seller period, offer refused",
+  "actor_level": "seller",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "royalty rate",
+  "metric_value_raw": "5%",
+  "metric_unit": "percent royalties for a new course",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "seller_self_claim",
+  "local_qualifiers": [
+    "(Earlier)",
+    "my first two courses didn't even have a contract",
+    "Their last proposal",
+    "which I refused"
+  ],
+  "uncertainties": [
+    "anecdotal_single_source"
+  ],
+  "parser_notes": [
+    "metric_type out of enum: observed metric is an instructor royalty rate; not covered by enum (fee_rate refers to platform fees).",
+    "First-person instructor quote inside a journalistic report.",
+    "No platform name in snippet text ('They did all the production'); platforms left empty per criteria F."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.classcentral.com/report/domestika-unpaid-instructors",
+    "secondary_pointer": null
+  }
+}
