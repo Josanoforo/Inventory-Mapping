@@ -53,12 +53,13 @@
     "batch_044",
     "batch_045",
     "batch_046",
-    "batch_047"
+    "batch_047",
+    "batch_048"
   ],
   "counters": {
-    "written": 1169,
+    "written": 1172,
     "rejected": 6,
-    "out_of_enum_records": 190,
+    "out_of_enum_records": 191,
     "schema_enum_conflict_records": 38
   },
   "processed_skeletons": [
@@ -12146,7 +12147,41 @@
       "schema_enum_conflict": [],
       "issues": [],
       "processed_at": "2026-07-31T20:15:40+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-004-SNP-001",
+      "batch": "batch_048",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [],
+      "processed_at": "2026-07-31T20:16:10+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-005-SNP-001",
+      "batch": "batch_048",
+      "destination": "records",
+      "out_of_enum": {},
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own subscription pricing UI; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:16:10+00:00"
+    },
+    {
+      "extraction_id": "ER-SP-domestika_d3_output-005-SNP-002",
+      "batch": "batch_048",
+      "destination": "records",
+      "out_of_enum": {
+        "metric_type": "catalog size",
+        "product_type_if_explicit": "curso"
+      },
+      "schema_enum_conflict": [],
+      "issues": [
+        "contract_case_uncovered: actor_level — source_type 'product_listing' but content is the platform's own subscription marketing; assigned 'platform' by who speaks (K7/K11)"
+      ],
+      "processed_at": "2026-07-31T20:16:10+00:00"
     }
   ],
-  "last_updated": "2026-07-31T20:15:40+00:00"
+  "last_updated": "2026-07-31T20:16:10+00:00"
 }

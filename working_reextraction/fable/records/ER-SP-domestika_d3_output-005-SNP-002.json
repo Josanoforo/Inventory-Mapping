@@ -1,0 +1,38 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-005-SNP-002",
+  "source_packet_id": "SP-domestika_d3_output-005",
+  "source_id": "SRC-domestika_d3_output-005",
+  "source_type": "product_listing",
+  "source_title": "Plus",
+  "source_ref": "https://www.domestika.org/es/plus",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"Explora un mundo de posibilidades con +1.000 cursos gratuitos para ver ahora mismo. Cada semana se añaden +100 cursos nuevos.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "statistical_data",
+  "subject_exact": "more than 1,000 free courses available to watch now, with over 100 new courses added each week",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "curso",
+  "metric_type": "catalog size",
+  "metric_value_raw": "+1.000 cursos gratuitos",
+  "metric_unit": "cursos",
+  "time_scope_raw": "ahora mismo",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "direct_claim",
+  "local_qualifiers": [
+    "Cada semana se añaden +100 cursos nuevos"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: catalog count — descriptor 'catalog size' reused (K5). product_type fuera de enum: 'cursos' named explicitly — observed value 'curso' recorded (K5).",
+    "Additional metric (criterion H): '+100 cursos nuevos' added weekly. time_scope_raw 'ahora mismo' is relative — normalized left null (criterion G). Marketing subscription copy assigned direct_claim (K6). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/plus",
+    "secondary_pointer": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-domestika_d3_output-005-SNP-001",
+  "source_packet_id": "SP-domestika_d3_output-005",
+  "source_id": "SRC-domestika_d3_output-005",
+  "source_type": "product_listing",
+  "source_title": "Plus",
+  "source_ref": "https://www.domestika.org/es/plus",
+  "source_date_if_available": "Accessed April 2026; page undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "\"$33.90/mes $14.59/mes Cobro anual de $174.50 Suscríbete a Plus $33.90/mes Suscríbete a Plus Aplican términos y condiciones. Puedes cancelar la renovación de la suscripción cuando quieras. Después de un año, el precio de renovación será el monto total de $349\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Plus subscription pricing showing $33.90/month, a discounted $14.59/month billed annually at $174.50, cancellable renewal, and a $349 full renewal price after one year",
+  "actor_level": "platform",
+  "platforms": [],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "price",
+  "metric_value_raw": "$33.90/mes; $14.59/mes (Cobro anual de $174.50); Después de un año, el precio de renovación será el monto total de $349",
+  "metric_unit": "USD per month / per year",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "observed_platform_state",
+  "local_qualifiers": [
+    "Aplican términos y condiciones",
+    "Puedes cancelar la renovación de la suscripción cuando quieras"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Pricing values preserved verbatim in display order; the currency symbol '$' carries no explicit currency code — USD assumed only as the symbol shown, declared here.",
+    "Page undated ('Accessed April 2026') — not normalized (K1). Platform named only in source_ref — platforms left empty (criterion F)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://www.domestika.org/es/plus",
+    "secondary_pointer": null
+  }
+}
