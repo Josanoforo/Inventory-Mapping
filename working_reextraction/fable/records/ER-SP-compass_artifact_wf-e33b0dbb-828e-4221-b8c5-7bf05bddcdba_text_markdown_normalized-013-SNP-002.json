@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-013-SNP-002",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-013",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-013",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Square Account",
+  "source_ref": "https://help.payhip.com/article/342-connecting-your-square-account",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"The standard Square fee for online credit card transactions is 2.8% + $0.30 per transaction. Please check Square's pricing page for the latest updates. There are no chargeback fees. Note that these fees are collected by Square and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "standard Square fee of 2.8% + $0.30 per online credit card transaction with no chargeback fees, collected by Square not Payhip",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "2.8% + $0.30 per transaction",
+  "metric_unit": "mixed: % + USD per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "There are no chargeback fees",
+    "these fees are collected by Square and do not go to Payhip"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Page undated — not normalized (K1). 'Square' is a payment service — excluded from platforms (K3). Mixed units declared."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/342-connecting-your-square-account",
+    "secondary_pointer": null
+  }
+}

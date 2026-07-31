@@ -1,0 +1,39 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-016",
+  "source_type": "help_center",
+  "source_title": "Connect Your Midtrans Account",
+  "source_ref": "https://help.payhip.com/article/365-connect-your-midtrans-account",
+  "source_date_if_available": "Last updated December 31, 2025",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"Midtrans' standard fee for online credit card transactions is 2,9% + IDR 2,000 per transaction, and the standard fee for bank transfer is IDR 4,000 per transaction. Note that these fees are collected by Midtrans and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "Midtrans standard fees of 2,9% + IDR 2,000 per online credit card transaction and IDR 4,000 per bank transfer, collected by Midtrans not Payhip",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "2,9% + IDR 2,000 per transaction (credit card); IDR 4,000 per transaction (bank transfer)",
+  "metric_unit": "mixed: % + IDR per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2025-12-31",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "these fees are collected by Midtrans and do not go to Payhip"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Pricing state claim with explicit last-updated December 31, 2025 and null raw — normalized (K1). 'Midtrans' is a payment service — excluded from platforms (K3). Mixed units declared; decimal comma '2,9%' preserved verbatim."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/365-connect-your-midtrans-account",
+    "secondary_pointer": null
+  }
+}

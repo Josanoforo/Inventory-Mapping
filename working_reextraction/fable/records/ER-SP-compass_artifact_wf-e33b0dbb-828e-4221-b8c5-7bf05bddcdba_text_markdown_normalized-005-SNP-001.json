@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005",
+  "source_type": "help_center",
+  "source_title": "How Do I Get Paid",
+  "source_ref": "https://help.payhip.com/article/173-how-do-i-get-paid",
+  "source_date_if_available": "Last updated April 19, 2024",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"When a customer buys from your Payhip store, the payment is instantly transferred to your PayPal or Stripe account (minus PayPal/Stripe's fees as well as Payhip's fees, which we'll go into below).\"\n\n> \"The transfer to PayPal/Stripe is instant - you'll get paid after every transaction as it happens.\"\n\n> \"If you have both PayPal and Stripe linked, then PayPal payments will be processed through PayPal and credit/debit card payments will be processed through Stripe.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "instant transfer of each sale's payment to the seller's PayPal or Stripe account, minus processor and Payhip fees, with card payments routed through Stripe when both are linked",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "payout delay",
+  "metric_value_raw": "instantly transferred - you'll get paid after every transaction as it happens",
+  "metric_unit": "transfer timing",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2024-04-19",
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "(minus PayPal/Stripe's fees as well as Payhip's fees)",
+    "If you have both PayPal and Stripe linked, then PayPal payments will be processed through PayPal and credit/debit card payments will be processed through Stripe"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "metric_type fuera de enum: sale-to-payment timing — descriptor 'payout delay' reused (K5). Policy state claim with explicit last-updated April 19, 2024 and null raw — normalized (K1). Payment processors excluded from platforms (K3)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/173-how-do-i-get-paid",
+    "secondary_pointer": null
+  }
+}

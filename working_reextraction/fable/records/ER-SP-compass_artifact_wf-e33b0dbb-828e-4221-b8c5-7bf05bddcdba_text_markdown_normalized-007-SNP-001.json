@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-007-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-007",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-007",
+  "source_type": "help_center",
+  "source_title": "Becoming An Affiliate",
+  "source_ref": "https://help.payhip.com/article/214-becoming-an-affiliate",
+  "source_date_if_available": "Undated",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"At this point in time, Payhip does not automatically process payouts for affiliates. The sellers handle the payments to affiliates themselves. We make this process easier for them though. We provide monthly affiliate sales reports that include the PayPal email of the affiliate and the commission they earned for each month.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "policy_statement",
+  "subject_exact": "no automatic affiliate payouts by the platform, with sellers paying affiliates themselves aided by monthly affiliate sales reports including PayPal emails and commissions",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "unknown",
+  "metric_value_raw": null,
+  "metric_unit": null,
+  "time_scope_raw": "At this point in time",
+  "time_scope_normalized_if_safe": null,
+  "geography_if_explicit": null,
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "The sellers handle the payments to affiliates themselves",
+    "We make this process easier for them though"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "time_scope_raw 'At this point in time' is relative — normalized left null (criterion G). 'PayPal' is a payment processor — excluded (K3)."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/214-becoming-an-affiliate",
+    "secondary_pointer": null
+  }
+}

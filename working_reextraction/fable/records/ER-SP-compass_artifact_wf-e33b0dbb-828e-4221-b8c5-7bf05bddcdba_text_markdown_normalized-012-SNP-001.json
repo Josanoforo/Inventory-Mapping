@@ -1,0 +1,40 @@
+{
+  "extraction_id": "ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001",
+  "source_packet_id": "SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012",
+  "source_id": "SRC-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012",
+  "source_type": "help_center",
+  "source_title": "Connecting Your Mollie Account",
+  "source_ref": "https://help.payhip.com/article/341-connecting-your-mollie-account",
+  "source_date_if_available": "Last updated February 22, 2026",
+  "author_or_actor_if_available": null,
+  "snippet_primary": "> \"The standard Mollie fee for online credit card transactions ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction for European Economic Area consumer credit cards from Mastercard and Visa. Rates vary by payment methods, please check Mollie's pricing page for the latest updates. Note that these fees are collected by Mollie and do not go to Payhip.\"",
+  "snippet_context_before": null,
+  "snippet_context_after": null,
+  "claim_type": "pricing_statement",
+  "subject_exact": "standard Mollie fee for online credit card transactions ranging from 1.80% + €0.25 to 2.90% + €0.25 per transaction for EEA Mastercard and Visa consumer cards, collected by Mollie not Payhip",
+  "actor_level": "platform",
+  "platforms": [
+    "Payhip"
+  ],
+  "product_type_if_explicit": "unknown",
+  "metric_type": "fee_rate",
+  "metric_value_raw": "ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction",
+  "metric_unit": "mixed: % + EUR per transaction",
+  "time_scope_raw": null,
+  "time_scope_normalized_if_safe": "2026-02-22",
+  "geography_if_explicit": "European Economic Area",
+  "evidence_role": "official_policy",
+  "local_qualifiers": [
+    "Rates vary by payment methods, please check Mollie's pricing page for the latest updates",
+    "these fees are collected by Mollie and do not go to Payhip"
+  ],
+  "uncertainties": [],
+  "parser_notes": [
+    "Pricing state claim with explicit last-updated February 22, 2026 and null raw — normalized (K1). geography verbatim 'for European Economic Area consumer credit cards'. 'Mollie', 'Mastercard', 'Visa' are payment services — excluded from platforms (K3). Mixed units declared."
+  ],
+  "traceability_pointer": {
+    "pointer_type": "url",
+    "pointer_value": "https://help.payhip.com/article/341-connecting-your-mollie-account",
+    "secondary_pointer": null
+  }
+}
