@@ -61,17 +61,17 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**Rule 1: Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it.
+**Rule 6: Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it.
 
-**Rule 2: Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`.
+**Rule 7: Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`.
 
-**Rule 3: Closed enums are closed.** `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties` may only contain values from the enums in `signal_card.schema.json`. If no value fits, use `unknown` if the enum allows it. Never invent enum values.
+**Rule 8: Closed enums are closed.** `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties` may only contain values from the enums in `signal_card.schema.json`. If no value fits, use `unknown` if the enum allows it. Never invent enum values.
 
-**Rule 4: Ambiguity goes to uncertainties, not to invention.** Two equally plausible enum values → pick the more conservative + add the corresponding uncertainty code. Do not hide ambiguity.
+**Rule 9: Ambiguity goes to uncertainties, not to invention.** Two equally plausible enum values → pick the more conservative + add the corresponding uncertainty code. Do not hide ambiguity.
 
-**Rule 5: Never drop qualifiers.** See `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field `local_qualifiers`, for the authoritative rule. If a qualifier is dropped, the validator (check 5) will catch it.
+**Rule 10: Never drop qualifiers.** See `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field `local_qualifiers`, for the authoritative rule. If a qualifier is dropped, the validator (check 5) will catch it.
 
-**Rule 6: Notes locality is mandatory.** `normalization_notes` and `extraction_notes` must not contain: references to other records by ID pattern, cross-source comparison language (confirmed by, consistent with, contradicted by, corroborated by), version comparison language, or interpretive math. If you notice you've written any of these, remove them before the validator runs. The validator's check 11 will apply mandatory scrubbing if they slip through, but clean notes at write-time are preferable.
+**Rule 11: Notes locality is mandatory.** `normalization_notes` and `extraction_notes` must not contain: references to other records by ID pattern, cross-source comparison language (confirmed by, consistent with, contradicted by, corroborated by), version comparison language, or interpretive math. If you notice you've written any of these, remove them before the validator runs. The validator's check 11 will apply mandatory scrubbing if they slip through, but clean notes at write-time are preferable.
 
 ## Recovery file format
 
