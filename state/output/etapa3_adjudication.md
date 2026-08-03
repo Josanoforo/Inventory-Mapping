@@ -17,26 +17,23 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 1 — `ER-SP-compass_artifact_wf-0ffe7308-62e3-4530-ae68-93720df60f34_text_markdown-012-SNP-003`
+## Caso 1 — `ER-SP-compass_artifact_wf-02711d62-b64f-4287-b85f-3f3a57c9da67_text_markdown-007-SNP-002`
 
-- **Batch de origen:** batch_002
+- **Batch de origen:** batch_001
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "By default, the base currency of an etsy shop is set to be the same as that of the seller's native currency. However, sellers have an option to change the base currency used by their shops and thus their listings. If you change your shop's base currency to something other than your native currency, an extra 2.5% conversion fee will be charged on all deposits."
+> [Stated in layout: "$25,443,110 excludes hidden earnings Estimated Monthly Payouts"]
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `actor_level` _(A · 🔒 enum)_ | platform | source |
-| `claim_type` _(A · 🔒 enum)_ | policy_statement | pricing_statement |
-| `evidence_role` _(A · 🔒 enum)_ | official_policy | direct_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | if you change your shop's base currency to something other than your native currency | By default · If you change your shop's base currency to something other than your native currency · on all deposits |
-| `metric_unit` _(A · 📝 texto libre)_ | percent | percent of deposits |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Third-party calculator page (Investomatica) describing Etsy fee policy; page attributes data to 'Source: etsy.com'. · time_scope_normalized_if_safe from source_date_if_available ('Last reviewed April 4, 2026') per criteria G. |
-| `subject_exact` _(A · 📝 texto libre)_ | Etsy shop base currency conversion fee when set to a non-native currency | Etsy 2.5% currency conversion fee on deposits when shop base currency differs from seller's native currency |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2026-04-04 |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
+| `local_qualifiers` _(A · 📝 texto libre)_ | excludes hidden earnings | excludes hidden earnings · Estimated |
+| `metric_unit` _(A · 📝 texto libre)_ | USD/month | USD per month |
+| `parser_notes` _(A · 📝 texto libre)_ | Data recency stated only as 'Updated daily'; no snapshot date given beyond April 14, 2026 access. | snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim. · Figure labeled 'Estimated' with no estimation method stated; unclear whether payouts are before or after platform fees. |
+| `platforms` _(B · 📝 texto libre)_ | Patreon | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Estimated aggregate monthly payouts to Patreon creators (excluding hidden/private earnings), per Graphtreon | Graphtreon estimated monthly payouts total for Patreon creators |
+| `uncertainties` _(A · 🔒 enum)_ | current_vs_historical_ambiguity | time_scope_unclear · source_date_unclear · methodology_unclear · net_vs_gross_ambiguity |
 
 **Criterios vigentes en este batch:**
 
@@ -77,23 +74,83 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 3 — `ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-007`
+## Caso 3 — `ER-SP-compass_artifact_wf-1d3ea608-c044-4be6-97d1-5146f970457d_text_markdown-003-SNP-001`
 
-- **Batch de origen:** batch_003
+- **Batch de origen:** batch_002
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "In August 2025, when Diego Gomez*, a Madrid-based Domestika instructor, checked his instructor dashboard, he found that the billion-dollar company had stopped paying him since July. The reason was his inactivity in the forum. He didn't understand why the online creative learning platform had halted his payments now. He had stopped replying to comments four years ago (his contract never stated it as a payment condition), and he was still getting paid until June 2025."
+> «Me han hecho un cargo a mi tarjeta de crédito por $273.535,43 cop (61,63us$) a favor de domestika sin mi autorización, casi un mes después de haber comprado ingenuamente tres cursos de crochet a bajo precio. Reclamé el mismo día que me hicieron el cargo (ayer) y me contestaron al siguiente día que yo había activado una suscripción lo cual es falso. Yo en ningún momento di mi autorización para un cobro de una suscripción anual. Exijo el reembolso!!»
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | sin mi autorización · casi un mes después de haber comprado · suscripción anual |
+| `metric_type` _(A · 🔒 enum)_ | unknown | price |
+| `metric_unit` _(A · 📝 texto libre)_ | COP/USD | COP, with USD equivalent in parentheses (mixed units declared) |
+| `parser_notes` _(A · 📝 texto libre)_ | Buyer complaint on a consumer-complaints aggregator site; source_type recorded as unknown per skeleton, actor determined by first-person buyer voice in the text. | source_type is 'unknown' (complaints site tuquejasuma.com); first-person buyer complaint, actor_level assigned buyer (who speaks). · Charged amount preserved verbatim including both currency figures; 'cop' is a currency marker, not geographic wording — geography left null. · Buyer disputes the platform's claim that a subscription was activated; both assertions preserved in snippet only. |
+| `subject_exact` _(A · 📝 texto libre)_ | Buyer complaint of an unauthorized annual Domestika subscription charge on a credit card | buyer-reported unauthorized annual subscription charge to credit card by Domestika roughly one month after course purchase |
+| `time_scope_raw` _(A · 📝 texto libre)_ | casi un mes después de haber comprado | casi un mes después de haber comprado; reclamo 'ayer' |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source | anecdotal_single_source · source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — ninguna adicion formulada aun; solo criterios base.
+- Fable — ninguna adicion formulada aun; solo criterios base.
+
+**Veredicto:**
+
+
+---
+
+## Caso 4 — `ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-016-SNP-003`
+
+- **Batch de origen:** batch_004
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "Pasaron en muy poco tiempo de tener 200 empleados a alrededor de 800 en todo el mundo y, en año y medio, se van a quedar otra vez con 200. Ahí evidentemente hay algo raro."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `actor_level` _(A · 🔒 enum)_ | seller | unknown |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | alrededor de 800 en todo el mundo · en año y medio |
+| `metric_type` _(A · 🔒 enum)_ | unknown | employee count |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 200 to ~800 to 200 | de tener 200 empleados a alrededor de 800 … otra vez con 200 |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed metric is an employee headcount; no enum value covers it. · Quoted speaker's role not determinable from snippet; actor_level set to unknown. · Platform named only in source_title/URL; platforms left empty per criteria F. · Speaker's closing assessment ('Ahí evidentemente hay algo raro') remains in snippet only. |
+| `platforms` _(B · 📝 texto libre)_ | Domestika | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Instructor account of Domestika's rapid headcount growth (200 to ~800 employees) followed by a return to ~200 within eighteen months | reported Domestika workforce fluctuation from 200 to around 800 employees and back toward 200 within a year and a half |
+| `time_scope_raw` _(A · 📝 texto libre)_ | en año y medio | en muy poco tiempo … en año y medio |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source · methodology_unclear | anecdotal_single_source · actor_level_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — ninguna adicion formulada aun; solo criterios base.
+- Fable — ninguna adicion formulada aun; solo criterios base.
+
+**Veredicto:**
+
+
+---
+
+## Caso 5 — `ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-017-SNP-001`
+
+- **Batch de origen:** batch_004
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "I've heard many horror stories about Domestika from instructors over the years..."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
 | `actor_level` _(A · 🔒 enum)_ | seller | source |
-| `geography_if_explicit` _(A · 📝 texto libre)_ | Madrid, España | Madrid |
-| `local_qualifiers` _(A · 📝 texto libre)_ | his contract never stated forum activity as a payment condition | The reason was his inactivity in the forum · He had stopped replying to comments four years ago (his contract never stated it as a payment condition) · he was still getting paid until June 2025 |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Asterisk after the instructor name marks a pseudonym per the source's convention. · Third-person journalistic narration of one instructor's account; assigned 'source'. |
-| `subject_exact` _(A · 📝 texto libre)_ | Instructor-reported payment halt tied to forum-comment inactivity despite years of prior payment continuity (Diego Gomez, per report) | reported Domestika payment halt since July 2025 for Madrid-based instructor Diego Gomez attributed to forum inactivity, discovered August 2025 |
-| `time_scope_raw` _(A · 📝 texto libre)_ | In August 2025... since July... four years ago... until June 2025 | In August 2025 |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | I've heard · over the years |
+| `parser_notes` _(A · 📝 texto libre)_ | Snippet is truncated after the opening clause; the specific 'horror stories' content is not present in the extracted text. | Secondhand hearsay claim; snippet is truncated with ellipsis and the rest of the post was not captured. · source_date_if_available is approximate ('~2025'); not normalized. |
+| `subject_exact` _(A · 📝 texto libre)_ | Instructor's general claim of having heard multiple negative accounts from Domestika instructors (specific content not present in truncated snippet) | commentator-reported accumulation of instructor 'horror stories' about Domestika over the years |
+| `time_scope_raw` _(A · 📝 texto libre)_ | ~2025 | over the years |
+| `uncertainties` _(A · 🔒 enum)_ | context_insufficient · anecdotal_single_source | anecdotal_single_source · source_date_unclear · context_insufficient |
 
 **Criterios vigentes en este batch:**
 
@@ -105,76 +162,23 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 4 — `ER-SP-compass_artifact_wf-22c5fbd5-9e04-4d5a-9b0e-4cb97acec9cc_text_markdown_normalized-011-SNP-008`
-
-- **Batch de origen:** batch_004
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "They answered that we can have a video call, I said no as I just wanted a written answer saying if they are going to pay or not. Since then, no more replies."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `evidence_role` _(A · 🔒 enum)_ | reported_event | seller_self_claim |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | I just wanted a written answer saying if they are going to pay or not · Since then, no more replies |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | First-person instructor quote inside a journalistic report; counterpart ('They') unnamed in snippet; platforms left empty per criteria F. |
-| `platforms` _(B · 📝 texto libre)_ | Domestika | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Instructor-reported unresponsiveness from Domestika when requesting a written answer on payment status, per investigative report | instructor-reported offer of a video call instead of a written answer on payment, followed by no further replies |
-| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | Since then |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — ninguna adicion formulada aun; solo criterios base.
-- Fable — ninguna adicion formulada aun; solo criterios base.
-
-**Veredicto:**
-
-
----
-
-## Caso 5 — `ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-003-SNP-002`
-
-- **Batch de origen:** batch_004
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "Payhip doesn't come with extra features such as communities, live chat, and a full-fledged email marketing system built-in (that Podia comes with). Payhip does integrate with MailChimp out of the box though."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | built-in · out of the box |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | time_scope_normalized_if_safe from source_date_if_available ('Sep 19, 2022') per criteria G. |
-| `platforms` _(A · 📝 texto libre)_ | Podia · Payhip | Payhip · Podia · MailChimp |
-| `subject_exact` _(A · 📝 texto libre)_ | Third-party blog comparison of Podia and Payhip built-in feature sets (community, live chat, email marketing, MailChimp integration) | feature comparison: Payhip lacking built-in communities, live chat and full email marketing versus Podia, while integrating with MailChimp |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Sep 19, 2022 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — ninguna adicion formulada aun; solo criterios base.
-- Fable — ninguna adicion formulada aun; solo criterios base.
-
-**Veredicto:**
-
-
----
-
-## Caso 6 — `ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-009-SNP-001`
+## Caso 6 — `ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-013-SNP-001`
 
 - **Batch de origen:** batch_005
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "At Payhip, our goal is to make pricing as simple and transparent as possible. So, no feature-gating here! You'll get access to all of our amazing features to help you grow your business, even on our free plan."
+> "I'm still fairly new to using Payhip and have two stores on their platform. What I most like about them is that you can set up your store with no upfront costs. You just pay 5% commission to Payhip on sales. So it's great for beginners. You can build blogs on their platform and custom pages. On one of my stores, I have set up my own Ebook products, where Payhip handles the UK and EU VAT. (As a comparison, on Amazon's KDP system you'd be paying them 30% on sales instead of 5%, and only if you price your Ebooks below $10.)"
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Own pricing page statement; no fee figures in this snippet. |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip's own claim of full feature access on its free plan with no feature-gating, per its Pricing page | Payhip pricing-page claim of no feature-gating with access to all features including on the free plan |
-| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
+| `local_qualifiers` _(A · 📝 texto libre)_ | no upfront costs · you just pay 5% commission to Payhip on sales · only if you price your Ebooks below $10 (Amazon KDP) | I'm still fairly new to using Payhip · with no upfront costs · So it's great for beginners |
+| `metric_unit` _(A · 📝 texto libre)_ | percent | percent commission on sales |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 5% (Payhip) vs 30% (Amazon KDP, below $10 price) | 5% |
+| `parser_notes` _(A · 📝 texto libre)_ | Reviewer distinguishes Payhip's VAT-handling role from its commission rate; both preserved as separate qualifiers rather than merged. | Comparator in snippet: Amazon KDP '30% on sales instead of 5%, and only if you price your Ebooks below $10'. · Reviewer is a seller with two Payhip stores; product explicitly 'Ebook products'. |
+| `subject_exact` _(A · 📝 texto libre)_ | Seller review comparing Payhip's 5% commission and VAT handling to Amazon KDP's 30% ebook royalty cut below the $10 price threshold | seller review of Payhip: free store setup with 5% sales commission, blog and custom pages, and UK/EU VAT handling for own ebook products |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source | anecdotal_single_source · source_date_unclear |
 
 **Criterios vigentes en este batch:**
 
@@ -186,24 +190,23 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 7 — `ER-SP-compass_artifact_wf-28f59dc7-8351-48a1-bcaa-ff9992b8fe70_text_markdown-003-SNP-002`
+## Caso 7 — `ER-SP-compass_artifact_wf-28ef9d76-a020-462a-83e9-3321b6ece5b4_text_markdown_normalized-022-SNP-001`
 
 - **Batch de origen:** batch_006
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "El día 2 de julio de 2025 compré un curso individual en la plataforma Domestika por 0,99 €. En el mes de agosto de 2025 se cargó en mi cuenta bancaria un importe de 313,41 €, correspondiente"
+> "Every new entrepreneur selling digital products needs to use this product. I've seen online gurus recommending other platforms (probably because they have an ongoing partnerships), but Payhip is the BEST one for small entrepreneurs who can't afford the $XX per month fees that most platforms like Shopify charge. Their pricing starts at $0 per month with 5% transaction fee, I can't find any other platforms that have prices as low as this."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | un curso individual · por 0,99 € |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 0,99€ course; 313,41€ charge | 313,41 € |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Snippet truncated mid-sentence ('correspondiente'); what the charge corresponded to was not captured. · Additional figure in snippet: course price '0,99 €'. |
-| `subject_exact` _(A · 📝 texto libre)_ | Buyer complaint of a 0.99€ individual course purchase followed by a 313.41€ bank charge the next month | buyer-reported 313.41€ bank charge in August 2025 following a 0.99€ single course purchase on Domestika on July 2, 2025 |
-| `time_scope_normalized_if_safe` _(A · 📝 texto libre)_ | 2025-07-02 | 2025-07-02/2025-08 |
-| `time_scope_raw` _(A · 📝 texto libre)_ | El día 2 de julio de 2025... En el mes de agosto de 2025 | El día 2 de julio de 2025 … En el mes de agosto de 2025 |
-| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source | anecdotal_single_source · snippet_needs_reopen |
+| `local_qualifiers` _(A · 📝 texto libre)_ | speculates other reviewers recommend competitors due to undisclosed partnerships | Their pricing starts at $0 per month · for small entrepreneurs who can't afford the $XX per month fees that most platforms like Shopify charge · (probably because they have an ongoing partnerships) · I can't find any other platforms that have prices as low as this |
+| `metric_unit` _(A · 📝 texto libre)_ | USD / percent | percent transaction fee |
+| `metric_value_raw` _(A · 📝 texto libre)_ | $0/month; 5% | 5% |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Additional figure in snippet: starting price '$0 per month'; Shopify fees given only as '$XX per month'. · Sitejabber review by a digital-products seller; promotional emphasis remains in snippet only. |
+| `subject_exact` _(A · 📝 texto libre)_ | Seller review recommending Payhip over other platforms for small entrepreneurs based on its low starting price and transaction fee | seller review praising Payhip $0/month plus 5% transaction fee pricing versus monthly-fee platforms like Shopify |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source · author_conflict_of_interest_possible | anecdotal_single_source · source_date_unclear |
 
 **Criterios vigentes en este batch:**
 
@@ -215,22 +218,22 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 8 — `ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-003-SNP-002`
+## Caso 8 — `ER-SP-compass_artifact_wf-291008ae-711f-4c29-83eb-6a5c8ef0eef8_text_markdown_normalized-002-SNP-003`
 
 - **Batch de origen:** batch_007
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "I have paid money to this address for a shutter count on my camera and i didn't receive any information on it. Very annoyed !"
+> "This is the payment processor for revid.ai. They are both scams. One star because I can't give 0. Impossible to speak with a live person, impossible to cancel your revid.ai account with an active Lemonsqueezy account, and impossible to cancel. Fraud."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
 | `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
-| `parser_notes` _(A · 📝 texto libre)_ | Specific merchant/product behind the 'shutter count' service is not identified in the snippet beyond the review platform context (Lemon Squeezy). | Company name appears only in source_ref URL; platforms left empty per criteria F. |
-| `platforms` _(B · 📝 texto libre)_ | Lemon Squeezy | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Buyer review reporting payment for a shutter-count service with no information received in return | buyer-reported payment for a camera shutter-count service without receiving the information |
-| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source · subject_ambiguity | anecdotal_single_source |
+| `local_qualifiers` _(A · 📝 texto libre)_ | impossible to cancel your revid.ai account with an active Lemonsqueezy account | Impossible to speak with a live person · impossible to cancel your revid.ai account with an active Lemonsqueezy account |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Valorative wording ('scams', 'Fraud') remains in snippet only. |
+| `platforms` _(A · 📝 texto libre)_ | Lemon Squeezy · revid.ai | Revid · Lemon Squeezy |
+| `subject_exact` _(A · 📝 texto libre)_ | Buyer review describing Lemon Squeezy and revid.ai together as impossible to cancel or reach a live person for | buyer-reported inability to reach a live person or cancel a revid.ai account tied to an active Lemonsqueezy subscription |
 
 **Criterios vigentes en este batch:**
 
@@ -242,51 +245,19 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 9 — `ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-004-SNP-001`
+## Caso 9 — `ER-SP-compass_artifact_wf-295a3f4a-2ebb-4c3b-9b1d-9b7d3840172c_text_markdown-007-SNP-001`
 
 - **Batch de origen:** batch_008
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "Otra cosa interesante, es que podemos tener nuestra versión en ingles, ya que hacen envíos a Estados Unidos, eso si, tienes que traducir tu mismo por cada articulo que hagas."
+> "Kichink puede ofrecer servicios a usuarios en todo el mundo. Si usa nuestros servicios dentro o fuera de México, Kichink Servicios, S.A. de C.V. es el responsable de la administración de sus datos personales."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `evidence_role` _(A · 🔒 enum)_ | anecdotal_example | seller_self_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | tienes que traducir tu mismo por cada articulo | eso si, tienes que traducir tu mismo por cada articulo que hagas |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform name appears only in source_title/URL ('hacen envíos' in text); platforms left empty per criteria F. · source_date_if_available is approximate ('circa 2015–2017'); not normalized. |
-| `platforms` _(B · 📝 texto libre)_ | Kichink | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Blogger's account of testing the Kichink store, noting English-language storefront capability requiring manual per-item translation for US shipments | seller-reported English store version option with US shipping on Kichink, requiring manual per-item translation by the seller |
-| `time_scope_raw` _(B · 📝 texto libre)_ | circa 2015-2017 (por contexto) | _(null)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — ninguna adicion formulada aun; solo criterios base.
-- Fable — ninguna adicion formulada aun; solo criterios base.
-
-**Veredicto:**
-
-
----
-
-## Caso 10 — `ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003-SNP-003`
-
-- **Batch de origen:** batch_008
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "If you're in a country that has no tax treaty with the US, unfortunately, we won't be able to reduce the royalty withholding tax rate of 30%."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `geography_if_explicit` _(A · 📝 texto libre)_ | US | the US |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | If you're in a country that has no tax treaty with the US |
-| `metric_type` _(A · 🔒 enum)_ | fee_rate | tax_withholding_rate |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed metric is a tax withholding rate; no enum value covers it. · Platform name appears only in source_title/URL; platforms left empty per criteria F. |
-| `platforms` _(B · 📝 texto libre)_ | Envato | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Envato inability to reduce the 30% royalty withholding tax rate for authors in countries without a US tax treaty | no reduction of the 30% royalty withholding rate for authors in countries without a US tax treaty |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | puede ofrecer servicios a usuarios en todo el mundo · dentro o fuera de México |
+| `subject_exact` _(A · 📝 texto libre)_ | Kichink privacy policy statement on data-controller responsibility for users inside or outside Mexico | Kichink Servicios S.A. de C.V. as data controller for users inside or outside Mexico, with services offered worldwide |
 | `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
 
 **Criterios vigentes en este batch:**
@@ -299,75 +270,52 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 11 — `ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-005-SNP-001`
+## Caso 10 — `ER-SP-compass_artifact_wf-3128bd63-7fd1-4bd6-86d1-63a1780fe467_text_markdown-003-SNP-004`
 
-- **Batch de origen:** batch_009
+- **Batch de origen:** batch_008
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "I mentioned that I have a Payhip store too where I sell my software-related products. I promote the store only my on Faceless-Voiceless YouTube Channel. And so far, I have made 7 sales. Currently, I have only 68 subscribers on this channel."
+> "Even if your country does not have a treaty with the US, it is beneficial for you to submit your tax information. By submitting your tax information, your earnings from non-US buyers will not be subject to US taxes. Note, however, that your royalty income from US buyers will attract 30% royalty withholding tax."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | promoted only via a single Faceless-Voiceless YouTube channel with 68 subscribers | I promote the store only my on Faceless-Voiceless YouTube Channel · Currently, I have only 68 subscribers on this channel |
-| `parser_notes` _(A · 📝 texto libre)_ | YouTube subscriber count (68) preserved as qualifier/context rather than a separate metric, to avoid collapsing a traffic-source count with the Payhip sales_count claim (Rule 1) | 'software-related products' is ambiguous between software itself and products about software; product_type_if_explicit set to unknown with product_type_unclear. |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | software | unknown |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported sales count for a software products store on Payhip promoted via a single small YouTube channel | seller-reported 7 sales of software-related products on a Payhip store promoted only via a 68-subscriber faceless YouTube channel |
-| `time_scope_raw` _(A · 📝 texto libre)_ | so far | so far … Currently |
-| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source | anecdotal_single_source · product_type_unclear · source_date_unclear |
+| `geography_if_explicit` _(A · 📝 texto libre)_ | US | the US |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Even if your country does not have a treaty with the US · Note, however |
+| `metric_type` _(A · 🔒 enum)_ | fee_rate | tax_withholding_rate |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed metric is a tax withholding rate; no enum value covers it. · Platform name appears only in source_title/URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Envato | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Envato guidance that submitting tax information benefits authors in non-treaty countries by exempting non-US-buyer earnings from US tax, while US-buyer earnings still face 30% withholding | benefit of submitting tax information without a US treaty: non-US-buyer earnings not subject to US taxes, while US-buyer royalties attract 30% withholding |
+| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
 
 **Criterios vigentes en este batch:**
 
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+- Sonnet — ninguna adicion formulada aun; solo criterios base.
+- Fable — ninguna adicion formulada aun; solo criterios base.
 
 **Veredicto:**
 
 
 ---
 
-## Caso 12 — `ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-010-SNP-002`
+## Caso 11 — `ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-007-SNP-001`
 
 - **Batch de origen:** batch_009
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "I tried shopify and felt like I needed a PhD. I couldn't figure it out. I like the ease of Payhip, plus I don't need 67 plugins to do simple things."
+> "Created a 'reading log template' in half an hour. Designed a small set of motivational quote posters (A4 JPGs). Wrote a short guide: '5 Tricks to Build a Micro‑business in a Weekend.' Within 24 hours I had three live products. Tested $1 prices, $5, and the pay‑what‑you‑want model. I shared links in Facebook groups for writers, on LinkedIn, even in a Slack community. One sale here, two there. By day end, $20 in revenue — not earth‑shattering, but a proof of concept."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | review_statement | comparative_commentary |
-| `local_qualifiers` _(A · 📝 texto libre)_ | don't need 67 plugins to do simple things | I couldn't figure it out · plus I don't need 67 plugins to do simple things |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'felt like I needed a PhD' is the seller's hyperbole, preserved in snippet only. |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported ease of use of Payhip compared to Shopify setup complexity | author-seller comparison: Shopify perceived as too complex versus Payhip's ease without plugin dependence |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
-
-**Veredicto:**
-
-
----
-
-## Caso 13 — `ER-SP-compass_artifact_wf-345ae7ea-8655-485d-821e-f35693f6a78f_text_markdown-012-SNP-001`
-
-- **Batch de origen:** batch_009
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "This is the thing most Payhip reviews gloss over. The platform is excellent at processing a transaction once someone has decided to buy. What it cannot do is bring that person to you in the first place. This is the central challenge of Test 02 for us. We have created three digital products — a ChatGPT prompt workbook, an AI tools directory and a Whiteout Survival strategy guide — listed them on Payhip and priced them reasonably. The products are live. The checkout works. But without traffic, nothing sells."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | comparative_commentary | explicit_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | products are live, checkout works · without traffic, nothing sells | This is the thing most Payhip reviews gloss over · priced them reasonably · But without traffic, nothing sells |
-| `parser_notes` _(A · 📝 texto libre)_ | three product types named (ChatGPT prompt workbook, AI tools directory, Whiteout Survival strategy guide) do not map cleanly/uniformly to a single schema product_type_if_explicit enum value; set to unknown rather than forced to a less-bad value | Products explicitly named (ChatGPT prompt workbook; AI tools directory; Whiteout Survival strategy guide) but they span types without a dominant enum match; product_type set to unknown. · source_date_if_available derives only from title year ('2026'); not normalized. |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported distinction between Payhip checkout capability and traffic/discovery generation for three listed digital products | seller-tested claim that Payhip processes transactions well but brings no traffic, with three live priced products unsold without traffic |
+| `local_qualifiers` _(A · 📝 texto libre)_ | not earth-shattering, but a proof of concept | Tested $1 prices, $5, and the pay‑what‑you‑want model · not earth‑shattering, but a proof of concept |
+| `metric_unit` _(A · 📝 texto libre)_ | USD | USD (first day) |
+| `parser_notes` _(A · 📝 texto libre)_ | three distinct product types were created (reading log template, motivational quote posters, short guide); none maps unambiguously to a single schema product_type_if_explicit enum value, so left unknown rather than forced | Products explicitly named (reading log template; motivational quote posters A4 JPGs; short guide) but they span types not covered by the product-type enum with no dominant type; set to unknown. · Selling platform (Payhip) named only in source_title/URL, not in snippet text; platforms left empty of it per criteria F. |
+| `platforms` _(A · 📝 texto libre)_ | Payhip · Facebook · LinkedIn · Slack | Facebook · LinkedIn · Slack |
+| `subject_exact` _(A · 📝 texto libre)_ | seller-reported first-day revenue from newly launched digital products on Payhip | seller-reported one-day launch of three products (reading log template, quote posters, short guide) with price testing and $20 first-day revenue |
+| `time_scope_raw` _(A · 📝 texto libre)_ | within 24 hours | Within 24 hours … By day end |
 | `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source · product_type_unclear | anecdotal_single_source · source_date_unclear |
 
 **Criterios vigentes en este batch:**
@@ -380,53 +328,51 @@ El veredicto lo escribe el operador. El script no adjudica.
 
 ---
 
-## Caso 14 — `ER-SP-compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized-015-SNP-010`
+## Caso 12 — `ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-002-SNP-005`
 
-- **Batch de origen:** batch_013
+- **Batch de origen:** batch_009
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "Unfortunately, at this time, we are unable to offer partial refunds for your purchases."
+> "Since February 2024, we have been automatically transferring all sales commissions available for withdrawal in currencies other than Brazilian Real (BRL) on a monthly basis."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | at this time |
-| `parser_notes` _(A · 📝 texto libre)_ | wording ("at this time") signals a possibly temporary state rather than a permanent policy | Platform name appears only in source_ref URL for this snippet; platforms left empty per criteria F. · time_scope_raw 'at this time' is relative; normalized left null per criteria G. |
-| `platforms` _(B · 📝 texto libre)_ | Domestika | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Domestika's current inability to offer partial refunds | no partial refunds offered for purchases at this time |
-| `uncertainties` _(B · 🔒 enum)_ | current_vs_historical_ambiguity | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
-
-**Veredicto:**
-
-
----
-
-## Caso 15 — `ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004-SNP-014`
-
-- **Batch de origen:** batch_014
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "Abono a su Cuenta Kash®: El COMPRADOR, podrá solicitar el abono del importe del producto devuelto a su Cuenta Kash®; sin embargo, el costo del envió no podrá ser reembolsado y en ningún caso será absorbido por KICHINK. Transferencia bancaria: El Comprador podrá solicitar la devolución mediante transferencia bancaria por el total de la compra. Cupón: Si así lo desea, El Comprador podrá solicitar un cupón por el monto total de su compra, mismo que podrá ser utilizado por El Comprador para realizar cualquier otra compra en Las Tiendas afiliadas con Kichink, en un plazo no mayor a 90 días."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | el costo del envío no podrá ser reembolsado y en ningún caso será absorbido por KICHINK | el costo del envió no podrá ser reembolsado y en ningún caso será absorbido por KICHINK · en un plazo no mayor a 90 días |
-| `metric_unit` _(B · 📝 texto libre)_ | days | _(null)_ |
-| `metric_value_raw` _(B · 📝 texto libre)_ | 90 | _(null)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Kichink buyer refund method options (Kash account credit, bank transfer, or store coupon valid 90 days), with shipping cost non-refundable | buyer refund options for returned products: Kash account credit (shipping non-refundable), bank transfer for the full purchase, or a coupon valid 90 days at Kichink-affiliated stores |
-| `time_scope_raw` _(B · 📝 texto libre)_ | en un plazo no mayor a 90 días | _(null)_ |
+| `local_qualifiers` _(A · 📝 texto libre)_ | currencies other than Brazilian Real (BRL) · on a monthly basis | on a monthly basis · in currencies other than Brazilian Real (BRL) |
+| `metric_type` _(A · 🔒 enum)_ | payout | unknown |
+| `parser_notes` _(A · 📝 texto libre)_ | Brazilian Real is a currency reference implying Brazil geography but not an explicit place-name statement; geography_if_explicit left null for consistency with other currency-only mentions in this batch | Platform name appears only in source_ref URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | automatic monthly transfer policy for Hotmart commissions held in non-BRL currencies | automatic monthly transfer of all withdrawable non-BRL sales commissions since February 2024 |
 | `uncertainties` _(B · 🔒 enum)_ | _(lista vacia)_ | source_date_unclear |
 
-Diferencias de solo orden (C) en este record, no motivan inclusion:
-- `platforms`
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+
+**Veredicto:**
+
+
+---
+
+## Caso 13 — `ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008-SNP-001`
+
+- **Batch de origen:** batch_010
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "Before joining Hotmart, Martínez, the car repair creator, hadn't been able to charge clients outside of his native market of Costa Rica. Although many were willing to pay his $20 monthly subscription fee, they couldn't find a way around PayPal's geographic payment restrictions."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(A · 📝 texto libre)_ | couldn't find a way around PayPal's geographic payment restrictions | Before joining Hotmart · Although many were willing to pay |
+| `metric_type` _(A · 🔒 enum)_ | payment_method_availability | price |
+| `metric_unit` _(A · 📝 texto libre)_ | USD | USD per month (subscription fee) |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Third-person journalistic narration of one creator's case; assigned 'source'. |
+| `subject_exact` _(A · 📝 texto libre)_ | reported inability of a Costa Rica-based creator to charge international clients via PayPal prior to joining Hotmart | reported inability of a Costa Rica-based creator to charge clients abroad before Hotmart, due to PayPal geographic payment restrictions, despite willingness to pay the $20 monthly subscription |
+| `time_scope_raw` _(A · 📝 texto libre)_ | monthly | Before joining Hotmart |
 
 **Criterios vigentes en este batch:**
 
@@ -438,21 +384,107 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 16 — `ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-004-SNP-001`
+## Caso 14 — `ER-SP-compass_artifact_wf-394dae4a-6a0d-4d19-af44-9adf808718dc_text_markdown-008-SNP-002`
+
+- **Batch de origen:** batch_010
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "'Hotmart has a really good advantage: They accept all payment processors, credit cards, even cash payments in cornershops like Oxxo,' Sofía Macías, a personal finance creator, told Rest of World."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | review_statement | explicit_claim |
+| `evidence_role` _(A · 🔒 enum)_ | reported_event | direct_claim |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | even cash payments in cornershops like Oxxo |
+| `parser_notes` _(A · 📝 texto libre)_ | quote is mediated through journalist reporting (Rest of World) rather than a first-person seller post; actor_level set to seller reflecting the quoted speaker, actor_level_unclear flagged for the mediated framing | Direct quote from a creator (seller voice) in a journalistic article; 'really good advantage' is the speaker's wording, preserved in snippet only. · time_scope_normalized_if_safe from source_date_if_available ('June 19, 2023') per criteria G/K1 (state claim at publication). |
+| `subject_exact` _(A · 📝 texto libre)_ | creator-reported payment method breadth of Hotmart (processors, credit cards, cash payments via Oxxo) | creator-quoted claim that Hotmart accepts all payment processors, credit cards and cash payments at cornershops like Oxxo |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2023-06-19 |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source · actor_level_unclear | anecdotal_single_source |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+
+**Veredicto:**
+
+
+---
+
+## Caso 15 — `ER-SP-compass_artifact_wf-4ff72059-9383-471e-a419-d446777044ad_text_markdown-004-SNP-008`
 
 - **Batch de origen:** batch_014
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "Gumroad's user-friendly interface makes it easy for anyone to build a hosted storefront with minimal effort. Still, Etsy has one key advantage over Gumroad: an established customer base. With Etsy, you don't need to have an existing social media following to make sales."
+> "El apartado Forma de pago pide seleccionar como medio de pago cualquiera de las opciones que se ofrecen: cuenta Kash®; Tarjeta de crédito o débito; Depósito Bancario; Depósito en Tiendas con convenio; Pago en Puerta (sujeto a la disponibilidad de acuerdo con la opción de entrega BIP®)."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `actor_level` _(A · 🔒 enum)_ | source | third_party |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | with minimal effort · Still, Etsy has one key advantage over Gumroad |
-| `parser_notes` _(A · 📝 texto libre)_ | source (Sellfy) is a competing platform to both Gumroad and Etsy; this specific snippet does not promote Sellfy directly but carries a possible competitive framing | Blog hosted by Sellfy, a competing platform. |
-| `subject_exact` _(A · 📝 texto libre)_ | comparison of Gumroad's ease of storefront setup versus Etsy's established customer base advantage (no existing following required to sell) | comparison: Gumroad easy hosted storefront versus Etsy's established customer base enabling sales without an existing social following |
+| `local_qualifiers` _(A · 📝 texto libre)_ | Pago en Puerta sujeto a la disponibilidad de acuerdo con la opción de entrega BIP | (sujeto a la disponibilidad de acuerdo con la opción de entrega BIP®) |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'Kash®' is the platform's own prepaid account, named in text; 'BIP®' is the platform's delivery option, not listed as platform. · Platform name appears only in source_ref URL for this snippet. |
+| `platforms` _(A · 📝 texto libre)_ | Kichink | Kash |
+| `subject_exact` _(A · 📝 texto libre)_ | Kichink checkout payment method options (Kash account, credit/debit card, bank deposit, affiliated-store deposit, cash-on-delivery subject to BIP delivery availability) | checkout payment options: Kash account, credit/debit card, bank deposit, deposit at partner stores, and pago en puerta subject to BIP delivery availability |
+| `uncertainties` _(B · 🔒 enum)_ | _(lista vacia)_ | source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+
+**Veredicto:**
+
+
+---
+
+## Caso 16 — `ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-013-SNP-001`
+
+- **Batch de origen:** batch_015
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "Unlike Etsy, which charges $0.20 per listing every four months, Amazon lets you list as many products as you want for free. You only pay when something sells. Amazon charges a flat 15% referral fee on every sale. This is much higher than Etsy's 6.5% transaction fee. While Amazon's fee includes payment processing, the total cost per sale is still significantly higher."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(A · 📝 texto libre)_ | Amazon's fee includes payment processing | You only pay when something sells · While Amazon's fee includes payment processing |
+| `metric_unit` _(A · 📝 texto libre)_ | USD/percent | percent per sale (Amazon) |
+| `metric_value_raw` _(A · 📝 texto libre)_ | $0.20 (Etsy listing) / 6.5% (Etsy transaction) / 15% (Amazon referral) | a flat 15% referral fee |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Comparator figures in snippet: Etsy '$0.20 per listing every four months' and '6.5% transaction fee'. · source_date_if_available is year-only ('2026'); not normalized. |
+| `subject_exact` _(A · 📝 texto libre)_ | comparative fee-structure claim between Etsy ($0.20 listing, 6.5% transaction) and Amazon (free listing, flat 15% referral fee) | fee comparison: Amazon free unlimited listings with flat 15% referral fee (processing included) versus Etsy $0.20 per listing every four months and 6.5% transaction fee |
+| `uncertainties` _(B · 🔒 enum)_ | _(lista vacia)_ | source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+
+**Veredicto:**
+
+
+---
+
+## Caso 17 — `ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-018-SNP-001`
+
+- **Batch de origen:** batch_015
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> "Amazon Handmade integrates into the larger Amazon marketplace of mass-produced products, so some customers might not be intentionally looking for handmade goods. Etsy is an online marketplace for vintage and handmade goods from around the globe. Founded as a small Brooklyn shop in 2005, Etsy has grown into an ecommerce hub with a global customer base of nearly 90 million active buyers in 2024. Those buyers are often intentionally seeking handmade goods, and some are looking for products with personalization options."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | statistical_data | comparative_commentary |
+| `local_qualifiers` _(A · 📝 texto libre)_ | Founded as a small Brooklyn shop in 2005 | Founded as a small Brooklyn shop in 2005 · some customers might not be intentionally looking for handmade goods · some are looking for products with personalization options |
+| `metric_type` _(A · 🔒 enum)_ | unknown | active_buyers |
+| `parser_notes` _(A · 📝 texto libre)_ | source is Shopify's own blog; Shopify is a competing platform to Etsy | Blog hosted by Shopify, a competing platform. · 'Brooklyn' appears as founding-location narrative, not claim geography; geography left null. |
+| `platforms` _(A · 📝 texto libre)_ | Amazon Handmade · Etsy | Amazon Handmade · Amazon · Etsy |
+| `subject_exact` _(A · 📝 texto libre)_ | Etsy founding year and active buyer count claim (nearly 90 million active buyers in 2024) | Etsy characterization as global vintage/handmade marketplace with nearly 90 million active buyers in 2024 intentionally seeking handmade goods, versus Amazon Handmade embedded among mass-produced products |
 | `uncertainties` _(A · 🔒 enum)_ | author_conflict_of_interest_possible | source_date_unclear · author_conflict_of_interest_possible |
 
 **Criterios vigentes en este batch:**
@@ -465,50 +497,20 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 17 — `ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-006-SNP-002`
-
-- **Batch de origen:** batch_014
-- **Estrato:** E1
-
-**snippet_primary:**
-
-> "In 2013 Etsy changed its policy allowing sellers to hire people to run their businesses and to partner with manufacturers to produce their goods … my business slowed … [cheaper] designs that were once unique to my shop flooded the platform. … to sell on Amazon Handmade you need to qualify by submitting an artisan application. [This process, in my opinion] encourages a more authentic artisanal space by auditing each shop prior to accepting them to ensure the items are genuinely handmade."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `actor_level` _(A · 🔒 enum)_ | mixed | seller |
-| `evidence_role` _(A · 🔒 enum)_ | anecdotal_example | seller_self_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | designs that were once unique to my shop flooded the platform · Amazon Handmade requires an artisan application audited prior to acceptance | my business slowed · designs that were once unique to my shop flooded the platform · [This process, in my opinion] encourages a more authentic artisanal space |
-| `parser_notes` _(A · 📝 texto libre)_ | snippet blends a first-person seller anecdote ("my business slowed") with what appears to be an editorially bracketed opinion insertion ("[This process, in my opinion]"); speaker attribution is ambiguous, hence actor_level mixed | First-person seller quote embedded in the blog (bracketed editorial insertions preserved as they appear). |
-| `subject_exact` _(A · 📝 texto libre)_ | 2013 Etsy policy change permitting outsourced production/manufacturing partners, and a reported market-saturation effect, contrasted with Amazon Handmade's artisan application vetting | seller-reported impact of Etsy's 2013 policy allowing hired help and manufacturing partners (slowed business, flood of cheaper designs) versus Amazon Handmade's artisan application vetting |
-| `uncertainties` _(A · 🔒 enum)_ | actor_level_unclear · anecdotal_single_source | anecdotal_single_source · source_date_unclear |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
-
-**Veredicto:**
-
-
----
-
-## Caso 18 — `ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-007-SNP-001`
+## Caso 18 — `ER-SP-compass_artifact_wf-5c07963d-6c4c-4536-a602-03c04203e92c_text_markdown-021-SNP-001`
 
 - **Batch de origen:** batch_015
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "I confessed that in three years on Gumroad, I've made a grand total of $139.96. I have a free ebook on ghostwriting that seven people downloaded. A paid guide on pitching that maybe ten people bought, and a free short story set at a Catholic school in Amman, Jordan, that some downloaded."
+> "The constant debate of Redbubble vs Etsy often stems from a misunderstanding of their core business models. One is a hands-off marketplace for artists, while the other is a bustling hub for hands-on creators."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | free ebook on ghostwriting downloaded by seven people · paid guide on pitching bought by maybe ten people · free short story set at a Catholic school in Amman, Jordan | a grand total · that maybe ten people bought |
-| `metric_unit` _(A · 📝 texto libre)_ | USD | USD over three years |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Products explicitly include a free 'ebook' and a paid 'guide'; ebook taken as explicit type; 'Amman, Jordan' is the story's setting, not claim geography. · Additional figures in snippet: 7 downloads of the free ebook; ~10 buyers of the paid guide. |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | ebook |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported cumulative 3-year Gumroad earnings ($139.96) across a free ebook, a paid guide, and a free short story | seller-reported three-year Gumroad total of $139.96 across a free ebook (7 downloads), a paid pitching guide (~10 buyers) and a free short story |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | often stems from a misunderstanding of their core business models |
+| `subject_exact` _(A · 📝 texto libre)_ | characterization of Redbubble as a hands-off print-on-demand marketplace versus Etsy as a hands-on creator marketplace | business-model contrast: Redbubble as hands-off marketplace for artists versus Etsy as hub for hands-on creators |
+| `uncertainties` _(B · 🔒 enum)_ | _(lista vacia)_ | source_date_unclear |
 
 **Criterios vigentes en este batch:**
 
@@ -520,22 +522,22 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 19 — `ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-003-SNP-001`
+## Caso 19 — `ER-SP-compass_artifact_wf-63c228bc-9037-4ba4-9569-3f62e8735192_text_markdown-011-SNP-007`
 
 - **Batch de origen:** batch_016
 - **Estrato:** E1
 
 **snippet_primary:**
 
-> "For subscription products we only support cards, Apple Pay, Google Pay and PayPal at this time."
+> "I am a digital product seller and I sell items with full resale rights (PLR/MRR). Gumroad suddenly suspended my account without sending me any email or warning. I had over $250 in my balance..."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | For subscription products · at this time |
-| `parser_notes` _(A · 📝 texto libre)_ | wording ("at this time") signals a possibly temporary limitation rather than a permanent restriction | Platform name appears only in source_ref URL; only the payment methods named in text. |
-| `platforms` _(A · 📝 texto libre)_ | Lemon Squeezy · Apple Pay · Google Pay · PayPal | Apple Pay · Google Pay · PayPal |
-| `subject_exact` _(A · 📝 texto libre)_ | Lemon Squeezy subscription-product checkout payment method limitation (cards, Apple Pay, Google Pay, PayPal only, at this time) | payment methods for subscription products limited to cards, Apple Pay, Google Pay and PayPal at this time |
-| `uncertainties` _(A · 🔒 enum)_ | current_vs_historical_ambiguity | source_date_unclear |
+| `local_qualifiers` _(A · 📝 texto libre)_ | sells items with full resale rights (PLR/MRR) · no email or warning given before suspension | without sending me any email or warning · I sell items with full resale rights (PLR/MRR) |
+| `metric_unit` _(A · 📝 texto libre)_ | USD | USD balance |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Snippet truncated with ellipsis; outcome not captured. |
+| `subject_exact` _(A · 📝 texto libre)_ | seller-reported sudden Gumroad account suspension without warning while holding over $250 in balance, selling resale-rights (PLR/MRR) digital products | seller of full-resale-rights (PLR/MRR) products reporting sudden Gumroad suspension without email or warning, with an over-$250 balance |
+| `uncertainties` _(A · 🔒 enum)_ | anecdotal_single_source | anecdotal_single_source · snippet_needs_reopen |
 
 **Criterios vigentes en este batch:**
 
@@ -547,22 +549,50 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 20 — `ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-011-SNP-001`
+## Caso 20 — `ER-SP-compass_artifact_wf-6b226a5c-1235-4d40-a521-ad9932514aff_text_markdown-004-SNP-003`
+
+- **Batch de origen:** batch_016
+- **Estrato:** E1
+
+**snippet_primary:**
+
+> [Stated in layout: "1% per payout for bank accounts outside the US"]
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `geography_if_explicit` _(B · 📝 texto libre)_ | outside the US | _(null)_ |
+| `metric_unit` _(A · 📝 texto libre)_ | percent | percent per payout |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 1% | 1% per payout for bank accounts outside the US |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim. · 'outside the US' is a negated geographic scope; geography left null. · Platform name appears only in source_ref URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Lemon Squeezy | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Lemon Squeezy payout fee for bank accounts outside the US (1% per payout) | 1% per-payout fee for bank accounts outside the US |
+| `uncertainties` _(B · 🔒 enum)_ | _(lista vacia)_ | source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008)
+
+**Veredicto:**
+
+
+---
+
+## Caso 21 — `ER-SP-compass_artifact_wf-7a40dcc5-be9a-4273-a3e8-0d53cab18fb3_text_markdown_normalized-012-SNP-002`
 
 - **Batch de origen:** batch_017
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "Over a year ago, I traveled to the Bologna Children's Book Fair with my freshly printed portfolio, looking for clarity and a new spark. That trip led to a big shift in my art journey. I decided to pause children's book illustration and started focusing on creating art for products and licensing. Now, one year (and 300 Etsy sales!) later, I'm celebrating the joy and balance I've found in making and selling my own artwork."
+> "I did the hard work and I take all of my own photos, make all of my own mockups, and all of my other designs. I also make all of my own products that I put my designs on, and I do it myself within my own business. Everyone should have to do the same on Etsy. It's about time that Etsy changed the rules to protect real artists."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | I decided to pause children's book illustration and started focusing on creating art for products and licensing |
-| `metric_unit` _(A · 📝 texto libre)_ | sales | sales (first year) |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'Bologna Children's Book Fair' is an event in the narrative, not claim geography. |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported cumulative Etsy sales count after one year selling art products | artist-seller celebrating 300 Etsy sales one year after shifting from children's book illustration to product art and licensing |
-| `time_scope_raw` _(A · 📝 texto libre)_ | one year | Over a year ago … Now, one year later |
+| `claim_type` _(A · 🔒 enum)_ | explicit_claim | anecdotal_report |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | I did the hard work · and I do it myself within my own business · Everyone should have to do the same on Etsy |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'protect real artists' is the seller's advocacy framing, preserved in qualifiers/snippet as source wording. |
+| `subject_exact` _(A · 📝 texto libre)_ | seller self-description of independently producing designs and products in support of Etsy Creativity Standards enforcement | seller-reported full self-production workflow (own photos, mockups, designs, products) and endorsement of Etsy rule changes protecting self-producing artists |
 | `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
 
 **Criterios vigentes en este batch:**
@@ -575,24 +605,24 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 21 — `ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-005`
+## Caso 22 — `ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-002-SNP-001`
 
 - **Batch de origen:** batch_018
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "Hotmart es una experiencia desagradable para creadores. Aca estoy usando su paygate para mi plataforma de Kajabi, para aceptar pagos en monedas locales en Latinoamérica y se han tardado más de un mes en aprobar mis documentos y darme entrada para poder registrar cuenta bancaria y aceptar pagos en dólares aunque ya estaba vendiendo mi producto digital. Estoy poniendo quejas en el BBB de los EEUU. Es falta de ética el tomarse 5 días cada vez para \"analizar\" documentos legales que ni me piden acá en EEUU. Al poner mis quejas finalmente aprobaron los documentos pero no puedo retirar todo el dinero que he hecho a pesar de que ellos se quedan con un porcentaje. Piénsalo bien antes de usar su plataforma."
+> "NO es claro lo del dinero pues debe ser mas sencillo que lo envien a la cuenta que ya autorizaron sin problema , pues son 7 dias de garantia para el cliente y luego porque no puedo usar mi dinero , en fin es eso muy revuelto. De lo bueno son una plataforma muy accesible y segura para vender asi que unas por otras , ojala mejoren para dar mas difusión a los clientes y pagos prontos pero estan en la media , por eso solo 3 estrellas merecen en mi opinion."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
-| `geography_if_explicit` _(A · 📝 texto libre)_ | Latin America · United States | Latinoamérica · EEUU |
-| `local_qualifiers` _(A · 📝 texto libre)_ | already selling my digital product · 5 days each time to analyze documents | para aceptar pagos en monedas locales en Latinoamérica · aunque ya estaba vendiendo mi producto digital · Es falta de ética el tomarse 5 días cada vez para "analizar" documentos legales · Al poner mis quejas finalmente aprobaron los documentos pero no puedo retirar todo el dinero |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'BBB de los EEUU' named in text as the complaint venue. |
-| `platforms` _(A · 📝 texto libre)_ | Hotmart · Kajabi | Hotmart · Kajabi · BBB |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported delay in Hotmart document approval for accepting payments via Kajabi paygate integration | US-based creator using Hotmart as paygate for a Kajabi platform reporting over a month of document approval delays for local-currency payments in Latin America, BBB complaints, and remaining withdrawal limits |
-| `time_scope_raw` _(A · 📝 texto libre)_ | more than a month | se han tardado más de un mes |
+| `actor_level` _(A · 🔒 enum)_ | buyer | seller |
+| `evidence_role` _(A · 🔒 enum)_ | reported_event | seller_self_claim |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | pues son 7 dias de garantia para el cliente y luego porque no puedo usar mi dinero · De lo bueno son una plataforma muy accesible y segura para vender · estan en la media |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform named only in source_ref URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported dissatisfaction with Hotmart fund release timing and account withdrawal restrictions | seller review criticizing unclear fund release tied to the 7-day buyer guarantee while rating the platform accessible and secure (3 stars) |
+| `time_scope_raw` _(A · 📝 texto libre)_ | 7 dias de garantia (7-day guarantee period) | 7 dias de garantia |
 | `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
 
 **Criterios vigentes en este batch:**
@@ -605,23 +635,22 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 22 — `ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-011-SNP-002`
+## Caso 23 — `ER-SP-compass_artifact_wf-7b6a9899-eda3-4893-93ba-3553f79cab42_text_markdown-005-SNP-001`
 
-- **Batch de origen:** batch_019
+- **Batch de origen:** batch_018
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "envato.com's audience is 56.75% male and 43.25% female. The largest age group of visitors are 25 - 34 year olds."
+> "Como productor esta plataforma es una estafa. Además de ser de mala calidad, lenta y para nada cómoda para interactuar con estudiantes. El servicio al cliente es pésimo y responden siempre con resp..."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `metric_type` _(A · 🔒 enum)_ | unknown | audience demographics |
-| `metric_unit` _(A · 📝 texto libre)_ | percent | percent of audience |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 56.75% male, 43.25% female; largest age group 25-34 | 56.75% male and 43.25% female |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed metric is audience demographic shares; no enum value covers it. · time_scope_normalized_if_safe from page data period '[March 2026]' per criteria G/K1. |
-| `subject_exact` _(A · 📝 texto libre)_ | third-party demographic analytics on envato.com visitor audience | envato.com audience demographics: 56.75% male, 43.25% female, largest age group 25-34 (SimilarWeb) |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2026-03 |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Como productor · El servicio al cliente es pésimo |
+| `parser_notes` _(A · 📝 texto libre)_ | Snippet truncated with trailing ellipsis mid-sentence. | Snippet truncated mid-word ('resp...'); valorative wording ('estafa') remains in snippet only. · Platform named only in source_ref URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | seller-reported dissatisfaction with Hotmart platform quality and customer service | producer review describing the platform as low quality, slow, uncomfortable for student interaction, with poor scripted customer service |
+| `uncertainties` _(A · 🔒 enum)_ | context_insufficient | anecdotal_single_source · snippet_needs_reopen |
 
 **Criterios vigentes en este batch:**
 
@@ -633,7 +662,38 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 23 — `ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001`
+## Caso 24 — `ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-006-SNP-001`
+
+- **Batch de origen:** batch_019
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Hi, I see Individual plan From $16.50/month but when I go to purchase this plan, it shows $33/m with vat it is $39. Why is the different showing?"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | explicit_claim | anecdotal_report |
+| `evidence_role` _(A · 🔒 enum)_ | unknown | anecdotal_example |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | when I go to purchase this plan |
+| `metric_unit` _(A · 📝 texto libre)_ | USD | USD per month |
+| `metric_value_raw` _(A · 📝 texto libre)_ | $16.50/month advertised vs $33/m with VAT ($39) | From $16.50/month … $33/m with vat it is $39 |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Three price figures preserved verbatim: advertised $16.50/month; checkout $33/month; $39 with VAT. |
+| `platforms` _(A · 📝 texto libre)_ | Envato Elements | Envato |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported discrepancy between advertised and checkout price for Envato Elements Individual plan | buyer-reported discrepancy between advertised 'From $16.50/month' Individual plan and $33/month at checkout ($39 with VAT) |
+| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear · anecdotal_single_source |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 25 — `ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-012-SNP-001`
 
 - **Batch de origen:** batch_019
 - **Estrato:** E2
@@ -661,57 +721,27 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 24 — `ER-SP-compass_artifact_wf-7df7092c-4929-4bbe-b35f-a7efa126b514_text_markdown_normalized-013-SNP-001`
+## Caso 26 — `ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-006-SNP-002`
 
-- **Batch de origen:** batch_019
+- **Batch de origen:** batch_020
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "We've been using ThemeForest for years and all the products we've purchased have always worked well. However, our last product didn't work and was completely broken. We opened a dispute on PayPal for a refund and were blocked from our account. ThemeForest support requested a pause in the PayPal dispute. And now they claim they won't issue a refund even after reviewing our case and hundreds of negative reviews from the seller? This is an illegal practice since the product arrived completely broken. We no longer trust any Envato service."
+> "I've been trying to transfer my money from the store for 3 months now. Customer support is slow and just deflects the questions. Stay away."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
 | `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
-| `evidence_role` _(A · 🔒 enum)_ | reported_event | anecdotal_example |
-| `local_qualifiers` _(A · 📝 texto libre)_ | completely broken · opened a dispute on PayPal for a refund and were blocked from our account | all the products we've purchased have always worked well · ThemeForest support requested a pause in the PayPal dispute · even after reviewing our case and hundreds of negative reviews from the seller |
-| `metric_type` _(A · 🔒 enum)_ | refund_policy | unknown |
-| `metric_unit` _(B · 📝 texto libre)_ | reviews | _(null)_ |
-| `metric_value_raw` _(B · 📝 texto libre)_ | hundreds of negative reviews from the seller | _(null)_ |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'illegal practice' is the reviewer's characterization, preserved in snippet only. |
-| `platforms` _(A · 📝 texto libre)_ | ThemeForest | ThemeForest · PayPal · Envato |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | design_asset | unknown |
-| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported ThemeForest refund denial for a broken product despite a PayPal dispute | long-time ThemeForest buyer reporting a broken product, account blocked after opening a PayPal dispute, support requesting a dispute pause, and refund denied |
-| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | We've been using ThemeForest for years |
-| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 25 — `ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-001-SNP-002`
-
-- **Batch de origen:** batch_019
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Some features I want so that this platform can become better — Source — Doesn't tell where the traffic is coming from. Analytics is very basic. No categories. I sell in two niches, and categorizing them becomes difficult. No cross-selling or upselling. Email marketing is a little costly."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | comparative_commentary | anecdotal_report |
-| `local_qualifiers` _(A · 📝 texto libre)_ | I sell in two niches, and categorizing them becomes difficult | Some features I want so that this platform can become better · I sell in two niches, and categorizing them becomes difficult · Email marketing is a little costly |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Which platform the feature list refers to is not determinable from the snippet alone (comparison article covers three). |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Customer support is slow and just deflects the questions |
+| `metric_type` _(A · 🔒 enum)_ | payout | unknown |
+| `metric_unit` _(B · 📝 texto libre)_ | months | _(null)_ |
+| `metric_value_raw` _(B · 📝 texto libre)_ | 3 months | _(null)_ |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform named only in source_ref URL; platforms left empty per criteria F. |
 | `platforms` _(B · 📝 texto libre)_ | Lemon Squeezy | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported feature gaps in Lemon Squeezy analytics, categorization, and marketing tools | seller-listed platform shortcomings: no traffic-source data, basic analytics, no categories (hindering two-niche selling), no cross/upselling, costly email marketing |
-| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source · source_date_unclear · context_insufficient |
+| `subject_exact` _(A · 📝 texto libre)_ | seller-reported Lemon Squeezy delay transferring seller store funds | seller-reported 3 months attempting to transfer money out of the store with slow, deflecting customer support |
+| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | for 3 months now |
+| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
 
 **Criterios vigentes en este batch:**
 
@@ -723,24 +753,22 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 26 — `ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-002-SNP-001`
+## Caso 27 — `ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-017`
 
-- **Batch de origen:** batch_020
+- **Batch de origen:** batch_022
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "I sell templates for a living and have used several of these providers. The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need. Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo. Paddle - haven't used it but I think it's probably as good as Gumroad or Lemon. Polar.sh - the trendy new option, most creators abandoning Lemon Squeezy are moving there. Has lots of innovation in features beyond payments such as selling private GitHub access. All of these platforms are MOR as far as I know, all provide the checkout UI etc. all handle digital asset file delivery. They are perfect for creators selling digital products that want a turn key solution and don't want to do any development work."
+> "Sellers may be required to pay the following types of fees. Please note that all fees are listed exclusive of any value-added tax (VAT) or similar taxes that may apply. See the Taxes section below for further details. It's important to note that all service fees, including prepaid fees, are non-refundable."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `evidence_role` _(A · 🔒 enum)_ | comparative_commentary | seller_self_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | all provide checkout UI · all handle digital asset file delivery · haven't used Paddle · most creators abandoning Lemon Squeezy are moving to Polar.sh | I sell templates for a living and have used several of these providers · slightly better fees than Gumroad, but many hidden · haven't used it but I think · most creators abandoning Lemon Squeezy are moving there · as far as I know |
+| `local_qualifiers` _(A · 📝 texto libre)_ | all service fees, including prepaid fees, are non-refundable | exclusive of any value-added tax (VAT) or similar taxes that may apply · all service fees, including prepaid fees, are non-refundable |
 | `metric_type` _(A · 🔒 enum)_ | fee_rate | unknown |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'templates' as sold product is generic; not covered by the product enum. · Design judgments ('ugly', 'lovely') are the seller's wording, in snippet only. · source_date approximate ('11 months ago' ≈ May 2025); not normalized. |
-| `platforms` _(A · 📝 texto libre)_ | Gumroad · Lemon Squeezy · Paddle · Polar.sh | Gumroad · Lemon Squeezy · Stripe · Paddle · Polar.sh · GitHub |
-| `subject_exact` _(A · 📝 texto libre)_ | seller comparison of digital-product Merchant-of-Record checkout providers (Gumroad, Lemon Squeezy, Paddle, Polar.sh) | template seller's survey of MOR checkout providers: Gumroad (high fees, solid), Lemon Squeezy (post-Stripe bugs, hidden fees), Paddle (untried), Polar.sh (trendy destination for Lemon Squeezy leavers) |
-| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source · source_date_unclear |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform named only in source_ref URL; platforms left empty per criteria F. |
+| `platforms` _(B · 📝 texto libre)_ | Etsy | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Etsy seller fees stated exclusive of VAT and non-refundable status of service fees | seller fees listed exclusive of VAT or similar taxes, with all service fees including prepaid fees being non-refundable |
 
 **Criterios vigentes en este batch:**
 
@@ -752,193 +780,20 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 27 — `ER-SP-compass_artifact_wf-80dc1a5e-cdb7-4f06-a0fb-62209a2ddd08_text_markdown-004-SNP-004`
-
-- **Batch de origen:** batch_020
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "The downside: you can't start selling immediately. Lemon Squeezy requires account approval, which can take several days to over a week, and their support is very slow. There have also been a lot of recent bugs, like people being unable to check out and customers getting double-charged."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | comparative_commentary | anecdotal_report |
-| `local_qualifiers` _(A · 📝 texto libre)_ | support is very slow · people being unable to check out and customers getting double-charged | you can't start selling immediately · which can take several days to over a week · There have also been a lot of recent bugs, like people being unable to check out and customers getting double-charged |
-| `metric_type` _(A · 🔒 enum)_ | activation_requirement | unknown |
-| `metric_unit` _(B · 📝 texto libre)_ | days | _(null)_ |
-| `metric_value_raw` _(B · 📝 texto libre)_ | several days to over a week | _(null)_ |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Bug reports about other users are secondhand within the seller's account. |
-| `subject_exact` _(A · 📝 texto libre)_ | seller-reported Lemon Squeezy account approval delay and recent checkout/double-charge bugs | seller-reported Lemon Squeezy downsides: account approval taking days to over a week, very slow support, and recent bugs including checkout failures and double charges |
-| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | recent |
-| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 28 — `ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-001`
-
-- **Batch de origen:** batch_021
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "You will only be charged a listing fee for creating or renewing a listing on Etsy; there is no fee for editing a listing. You will be charged a listing fee whether or not the listed item sells, unless you create a private listing, in which case you will only be charged the listing fee when the private listing is sold. Etsy.com listings expire after four months. Pattern-only listings do not expire. If you list multiple quantities of the same item, the initial listing fee will be $0.20, and the listing will be automatically renewed at $0.20 after each of the items sells."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | policy_statement | pricing_statement |
-| `local_qualifiers` _(A · 📝 texto libre)_ | no fee for editing a listing · Pattern-only listings do not expire | there is no fee for editing a listing · whether or not the listed item sells · unless you create a private listing · Etsy.com listings expire after four months. Pattern-only listings do not expire. · the listing will be automatically renewed at $0.20 after each of the items sells |
-| `metric_unit` _(A · 📝 texto libre)_ | USD | USD per listing creation/auto-renewal |
-| `subject_exact` _(A · 📝 texto libre)_ | Etsy listing fee amount and multi-quantity renewal mechanics | listing fee charged on creation/renewal regardless of sale (private listings charged only on sale), four-month expiry (Pattern listings exempt), $0.20 initial and $0.20 auto-renewal per multi-quantity item sold |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Etsy.com listings expire after four months | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 29 — `ER-SP-compass_artifact_wf-83a235d5-86a0-4c10-9097-e29688c3b834_text_markdown_normalized-016-SNP-015`
-
-- **Batch de origen:** batch_022
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Etsy offers sellers in certain locations the ability to purchase shipping labels to fulfill their orders. The cost of the shipping label will depend on the shipping carrier, and the origin, destination, weight, and dimensions of the package."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | sellers in certain locations · will depend on the shipping carrier, and the origin, destination, weight, and dimensions of the package |
-| `subject_exact` _(A · 📝 texto libre)_ | Etsy shipping label cost basis for sellers in eligible locations | shipping label purchase availability for sellers in certain locations, with cost varying by carrier, origin, destination, weight and dimensions |
-| `uncertainties` _(B · 🔒 enum)_ | geography_unclear | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 30 — `ER-SP-compass_artifact_wf-853a5ee8-c8c0-498f-a255-2c1745e85afc_text_markdown-005-SNP-001`
-
-- **Batch de origen:** batch_022
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "This Envato Elements vs Adobe Stock helped me see that the latter comes with a variety of licensing options. Adobe Stock enables me to choose between Standard, Enhanced, and Extended licenses, which allows me to select the most suitable license for my project. Each license covers different usage rights. For instance, the Standard license has up to $10,000 in legal coverage. At the same time, Envato Elements includes only one license type."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | the Standard license has up to $10,000 in legal coverage · Envato Elements includes only one license type |
-| `metric_unit` _(B · 📝 texto libre)_ | USD legal coverage | _(null)_ |
-| `metric_value_raw` _(B · 📝 texto libre)_ | $10,000 | _(null)_ |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | First-person reviewer voice on a review site; treated as commentary source. · source_date approximate ('approximately April 3, 2026'); not normalized. |
-| `platforms` _(A · 📝 texto libre)_ | Adobe Stock · Envato Elements | Adobe Stock · Envato |
-| `subject_exact` _(A · 📝 texto libre)_ | author comparison of Adobe Stock tiered licensing options versus Envato Elements single license type | licensing comparison: Adobe Stock's Standard/Enhanced/Extended options (Standard with up to $10,000 legal coverage) versus Envato Elements' single license type |
-| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 31 — `ER-SP-compass_artifact_wf-a06fe5fe-c286-4184-a6a6-fb33112437d3_text_markdown-001-SNP-001`
-
-- **Batch de origen:** batch_023
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "To get started, visit the seller's store. In some cases, you may be taken directly to a product page or checkout if the seller has shared a direct purchase link.\n\nOnce you're on the seller's store, click on the product you're interested in to view more details. You can either add it to your cart and continue browsing or click Buy Now to proceed directly to checkout.\n\nAt checkout, you'll be asked to enter your email address and select a payment method. You can typically pay using PayPal or a debit or credit card, depending on the seller's setup.\n\nOnce your payment is successful, your purchase is complete. [...] Digital products are delivered instantly after purchase via a download page. [...] Yes. After your purchase, you will receive an email receipt that includes your order details, a download or login link, and the seller's contact email. [...] Sellers will receive basic information needed to fulfill your order, such as your email address and, for physical products, your shipping details. They do not have access to your full payment details."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | sellers do not have access to full payment details | depending on the seller's setup · Digital products are delivered instantly after purchase via a download page · They do not have access to your full payment details |
-| `metric_type` _(A · 🔒 enum)_ | payment_method_availability | payment_method_availability |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | time_scope_normalized_if_safe from source_date_if_available ('Updated March 17, 2026') per criteria G/K1. |
-| `platforms` _(A · 📝 texto libre)_ | Payhip | Payhip · PayPal |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip help center description of the buyer checkout and product delivery flow | Payhip buying flow: store/product/checkout navigation, email plus PayPal or card payment per seller setup, instant digital delivery, email receipt, and limited seller access to buyer data |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2026-03-17 |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 32 — `ER-SP-compass_artifact_wf-a69c4eb8-8715-4dec-b187-135b1b0fa31a_text_markdown-001-SNP-001`
-
-- **Batch de origen:** batch_025
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Many reasons, first of all, it's a platform that is well known and used by many other Skyrim modders like me, so it's easier to get a following since many of the players already have an account and are following other creators. My Skyrim mods are and will always be free for everyone, but I needed a place where I have full control of my content, were the rules are clear and I don't have to change my way of making and sharing mods to adapt to a 'mysterious algorithm', and it has the best integration with other platforms."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | explicit_claim | anecdotal_report |
-| `local_qualifiers` _(A · 📝 texto libre)_ | already used by many other Skyrim modders · rules are clear · best integration with other platforms | My Skyrim mods are and will always be free for everyone · I don't have to change my way of making and sharing mods to adapt to a 'mysterious algorithm' · it has the best integration with other platforms |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'Skyrim' names the game the mods target, not a marketplace; not listed in platforms. · time_scope_normalized_if_safe from source_date_if_available ('May 13, 2025') per criteria G/K1. |
-| `subject_exact` _(A · 📝 texto libre)_ | creator's stated reasons for choosing Patreon over other platforms (community familiarity, control, algorithm avoidance) | Skyrim modder's reasons for choosing Patreon: existing modder audience with accounts, content control, clear rules without algorithm adaptation, and integrations |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2025-05-13 |
-| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
-
-**Veredicto:**
-
-
----
-
-## Caso 33 — `ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-010-SNP-004`
+## Caso 28 — `ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-003-SNP-001`
 
 - **Batch de origen:** batch_026
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "En el uso diario, Thinkific resulta más intuitivo y ordenado. Todo está donde esperas encontrarlo. Hotmart cubre muchas funciones, pero su navegación puede resultar confusa. En ocasiones incluso mezcla idiomas en la interfaz, lo que no ayuda."
+> "Hotmart es en realidad una plataforma de cursos independiente, aunque es tan completa que merece su propia categoría dentro del mercado de la afiliación. Podríamos decir que es algo así como una combinación de Udemy con Teachable y la archiconocida ClickBank. Una mezcla explosiva… ¿eh?"
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | en ocasiones incluso mezcla idiomas en la interfaz | En el uso diario · En ocasiones incluso mezcla idiomas en la interfaz |
-| `subject_exact` _(A · 📝 texto libre)_ | blog author's comparison of Hotmart interface usability versus Thinkific | usability comparison: Thinkific more intuitive and ordered versus Hotmart's broader but confusing navigation with occasional mixed-language interface |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Podríamos decir que es algo así como |
+| `subject_exact` _(A · 📝 texto libre)_ | blog author's categorization of Hotmart as a hybrid course/affiliate marketplace distinct from Udemy or Teachable | characterization of Hotmart as an independent course platform combining traits of Udemy, Teachable and ClickBank within affiliate marketing |
 | `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
-
-Diferencias de solo orden (C) en este record, no motivan inclusion:
-- `platforms`
 
 **Criterios vigentes en este batch:**
 
@@ -950,22 +805,76 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 34 — `ER-SP-compass_artifact_wf-a75564bf-b82a-4c6f-b147-9be329dc5e6f_text_markdown_normalized-007-SNP-001`
+## Caso 29 — `ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-012-SNP-001`
+
+- **Batch de origen:** batch_026
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Hotmart actualmente está en el número de las plataformas para vender cursos en forma de infoproductos digitales por su fácil uso, formación gratuita, y registro gratis. Desbancando así a ClickBank. [...] Realmente Clickbank prácticamente no se utilizar en el mundo hispano, pues el mercado hispano se ha trasladado a Hotmart, muchísimo mejor con diferencia."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `geography_if_explicit` _(B · 📝 texto libre)_ | mundo hispano | _(null)_ |
+| `local_qualifiers` _(A · 📝 texto libre)_ | por su fácil uso, formación gratuita, y registro gratis | Realmente Clickbank prácticamente no se utilizar en el mundo hispano · el mercado hispano se ha trasladado a Hotmart |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'muchísimo mejor con diferencia' is the author's valorative wording; market-shift claim unquantified. · 'el mundo hispano' is a market descriptor, not claim geography wording; geography left null. |
+| `subject_exact` _(A · 📝 texto libre)_ | blog author's claim that Hotmart displaced ClickBank in the Hispanic market for digital-course sales | claim that Hotmart displaced ClickBank in the Hispanic infoproduct market thanks to ease of use, free training and free registration |
+| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear · methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 30 — `ER-SP-compass_artifact_wf-a714e31c-2e2c-4735-a50c-9e9535323a2c_text_markdown-015-SNP-001`
+
+- **Batch de origen:** batch_026
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "La principal diferencia de Hotmart respecto a otros marketplaces como Udemy, es que Hotmart cuenta con una estructura un poco más compleja y tiene 'el afiliado' para revender tus productos que Udemy, por ejemplo, no tiene."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | una estructura un poco más compleja · que Udemy, por ejemplo, no tiene |
+| `subject_exact` _(A · 📝 texto libre)_ | blog author's comparison of Hotmart's affiliate-reseller structure against Udemy's lack of one | differentiation of Hotmart from marketplaces like Udemy via its affiliate reseller system and somewhat more complex structure |
+| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 31 — `ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-003-SNP-002`
 
 - **Batch de origen:** batch_027
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> [Stated in layout: "Categorias · Sub categorias · Precio · Pais · Otros · Filtros · PRODUCTOS · TIENDAS · COLECCIONES · Done"]
+> "GMS transacted on the Etsy app grew 6.6% year-over-year, and represented approximately 46% of GMS."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `metric_type` _(A · 🔒 enum)_ | search_discovery | unknown |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | snippet_primary is layout-derived (bracketed reconstruction), not prose verbatim. · A country ('Pais') facet exists in search; no countries enumerated in the capture. · Platform named only in source_ref URL; platforms left empty per criteria F. |
-| `platforms` _(B · 📝 texto libre)_ | Kichink | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Kichink category search-results page filter layout elements | Kichink search interface facets for 'ropa': categories, subcategories, price, country and other filters across products, stores and collections |
-| `uncertainties` _(A · 🔒 enum)_ | none | source_date_unclear |
+| `local_qualifiers` _(A · 📝 texto libre)_ | GMS transacted on the Etsy app | approximately |
+| `metric_type` _(A · 🔒 enum)_ | revenue | GMS |
+| `metric_unit` _(A · 📝 texto libre)_ | percent | percent (GMS growth and share) |
+| `metric_value_raw` _(A · 📝 texto libre)_ | grew 6.6% year-over-year; approximately 46% of GMS | grew 6.6% year-over-year … approximately 46% of GMS |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed label 'GMS' (gross merchandise sales) copied verbatim; GMS is transaction volume, not platform revenue, so the revenue enum value would collapse layers (Rule 1). · Company's own earnings press release. · time_scope_normalized_if_safe from source_date_if_available ('February 19, 2026') per criteria G/K1. |
+| `subject_exact` _(A · 📝 texto libre)_ | Etsy's own disclosed app-transacted GMS growth and share of total GMS | Etsy app GMS growth of 6.6% YoY, representing approximately 46% of GMS (Q4 2025) |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2026-02-19 |
 
 **Criterios vigentes en este batch:**
 
@@ -977,554 +886,738 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 35 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-006-SNP-001`
+## Caso 32 — `ER-SP-compass_artifact_wf-a943ee9d-6e80-4080-a978-da2156eaae41_text_markdown-014-SNP-003`
 
-- **Batch de origen:** batch_033
+- **Batch de origen:** batch_028
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "yo debía unas cuotas a black sheet, me contactó un abogado español el cual llegamos a un acuerdo de pagar 7 cuotas y resulta que pagué las 7 cuotas y aún me siguen cobrando a través de la plataforma hotmart, por favor paren de cobrar o me tocará ir a las vías legales, porque ya esto no es un cobro, es un robo cobrar cuotas de más, mi nombre es juan carlos martinez anillo"
+> "etsy.com's audience is 41.74% male and 58.26% female. The largest age group of visitors are 25 - 34 year olds."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | pagué las 7 cuotas y aún me siguen cobrando a través de la plataforma hotmart · ya esto no es un cobro, es un robo cobrar cuotas de más |
-| `parser_notes` _(A · 📝 texto libre)_ | Speaker describes a third-party debt-collection agreement ('black sheet') plus continued Hotmart billing; exact billing mechanism (subscription vs installment) not specified in snippet. | 'black sheet' is the creditor/vendor named in the anecdote, not a platform/service mention — excluded from platforms (K3). |
-| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported continued installment billing on Hotmart after completing a separate collections payment agreement | buyer who settled 7 agreed installments still being charged through the Hotmart platform and threatening legal action |
-| `uncertainties` _(A · 🔒 enum)_ | subject_ambiguity | anecdotal_single_source |
+| `metric_type` _(A · 🔒 enum)_ | unknown | audience demographics |
+| `metric_unit` _(A · 📝 texto libre)_ | percent | percent of audience |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 41.74% male; 58.26% female | 41.74% male and 58.26% female |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type out of enum: observed metric is audience demographic shares; no enum value covers it. · time_scope_normalized_if_safe from data label ('March 2026') per criteria G/K1. |
+| `subject_exact` _(A · 📝 texto libre)_ | etsy.com visitor gender and age demographic breakdown per third-party analytics report | etsy.com audience demographics per SimilarWeb: 41.74% male, 58.26% female, largest group 25-34 |
+| `time_scope_raw` _(B · 📝 texto libre)_ | data labeled March 2026 | _(null)_ |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
 
 **Criterios vigentes en este batch:**
 
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
 
 **Veredicto:**
 
 
 ---
 
-## Caso 36 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-015-SNP-001`
+## Caso 33 — `ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-002-SNP-001`
 
-- **Batch de origen:** batch_033
+- **Batch de origen:** batch_029
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "O @cleitonquerobin oferta uma ferramenta de ia e aí você compra e quando chega dentro da compra que seria a ferramenta ele te ensina como comprar outra ferramenta com a mensalidade 1000% do valor que ele te vendeu. É isso tudo dentro do Hotmart. Quero meu dinheiro de volta"
+> "I bought a yearly subscription (finishing January 31st 2026) for $227.05 to a content provider called Chasing Bourbon. Patreon decided to take this content provider off their platform for their own decision/policy and now they refuse to reimburse me for the unused portion or $75.63. I happened to know the content provider and they are not paying him either so Patreon is just keeping my money. I want my money back since they are not providing the service that they terminated at their own decision"
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | described markup as '1000% do valor' of the original purchase, per buyer | ele te ensina como comprar outra ferramenta com a mensalidade 1000% do valor que ele te vendeu · É isso tudo dentro do Hotmart |
-| `parser_notes` _(A · 📝 texto libre)_ | Buyer names a specific seller handle; complaint concerns seller conduct rather than a platform-level claim. | 'ferramenta de ia' (AI tool) mapped to product_type 'software' — noted as the closest explicit match. |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | software |
-| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported misleading advertising by a Hotmart seller upselling a second, far costlier tool subscription | buyer of an AI tool sold inside Hotmart that turned out to teach buying another tool with a monthly fee 1000% of the sold price, requesting money back |
-| `time_scope_raw` _(B · 📝 texto libre)_ | January 2026 (refund processed 07/01/2026) | _(null)_ |
-| `uncertainties` _(A · 🔒 enum)_ | subject_ambiguity | anecdotal_single_source |
+| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
+| `local_qualifiers` _(A · 📝 texto libre)_ | for their own decision/policy · not paying him either so Patreon is just keeping my money | I bought a yearly subscription (finishing January 31st 2026) for $227.05 · Patreon decided to take this content provider off their platform for their own decision/policy · now they refuse to reimburse me for the unused portion or $75.63 · they are not paying him either |
+| `metric_type` _(A · 🔒 enum)_ | refund_policy | unknown |
+| `metric_unit` _(B · 📝 texto libre)_ | USD | _(null)_ |
+| `metric_value_raw` _(B · 📝 texto libre)_ | $227.05; $75.63 | _(null)_ |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Amounts $227.05 (yearly subscription) and $75.63 (unused portion) present; main claim is the refund refusal event, not a metric — amounts kept in local_qualifiers (criterion H). |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer's BBB complaint about Patreon withholding a refund after removing a creator from the platform | buyer refused reimbursement of the unused portion of a yearly subscription after Patreon removed the creator from the platform |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-01-31 | _(null)_ |
+| `time_scope_raw` _(B · 📝 texto libre)_ | finishing January 31st 2026 | _(null)_ |
 
 **Criterios vigentes en este batch:**
 
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
 
 **Veredicto:**
 
 
 ---
 
-## Caso 37 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-019-SNP-007`
+## Caso 34 — `ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-001`
 
-- **Batch de origen:** batch_033
+- **Batch de origen:** batch_029
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "I didn't know that this site was for some eCourses instead of making money on TikTok. I'm still Waiting on my refund. This isn't what I was signing up for. Now I have to wait to be able to buy groceri..."
+> "Terrible experience, they do not care about people using their platforms at all. I used to be subscribed to a creator charging a staggering amount of 39$ a month and patreon just wiped their account and refused to refund me my money. The creator also kept deleting, hiding, reposting same exact posts over and over again. It's truly hilarious how people just blindly trust patreon"
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | This isn't what I was signing up for · I'm still Waiting on my refund |
-| `parser_notes` _(A · 📝 texto libre)_ | Snippet truncated with '...' mid-word; outcome not available in captured text. | product_type fuera de enum: 'eCourses' named explicitly — observed value recorded verbatim (K5). · Snippet cuts mid-word ('buy groceri...') — flagged snippet_needs_reopen (K8). TikTok named as a service in the text; Hotmart only in source_ref — not listed (criterion F). |
-| `platforms` _(A · 📝 texto libre)_ | Hotmart | TikTok |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | eCourses |
-| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported confusion over Hotmart course subject matter (expected TikTok monetization, received eCourse) while awaiting refund | buyer who expected a way to make money on TikTok found the site sells eCourses instead and is still waiting on a refund |
-| `uncertainties` _(A · 🔒 enum)_ | context_insufficient | anecdotal_single_source · snippet_needs_reopen |
+| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | a creator charging a staggering amount of 39$ a month · patreon just wiped their account and refused to refund me my money · The creator also kept deleting, hiding, reposting same exact posts over and over again |
+| `metric_unit` _(B · 📝 texto libre)_ | USD per month | _(null)_ |
+| `metric_value_raw` _(B · 📝 texto libre)_ | $39 | _(null)_ |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Subscription price '39$ a month' present; main claim is the account wipe and refund refusal — amount kept in local_qualifiers (criterion H). |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer's complaint about Patreon wiping a creator's account and refusing a refund | buyer subscribed to a creator whose account Patreon wiped, with a refund refused |
 
 **Criterios vigentes en este batch:**
 
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
 
 **Veredicto:**
 
 
 ---
 
-## Caso 38 — `ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015-SNP-001`
+## Caso 35 — `ER-SP-compass_artifact_wf-a9f3dcd5-c78e-4ae8-b4d1-09fed2f8d84d_text_markdown-005-SNP-004`
 
-- **Batch de origen:** batch_034
+- **Batch de origen:** batch_029
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "2026's Best Selling Themes on ThemeForest - updated weekly."
+> "website does not use the standard conversion rates the rest of the world does, if im advertised a patreon subscription for $3 i want to pay $3 not £3 currently £3 is more then $3 this is a scam"
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | updated weekly |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Explicit year in '2026's Best Selling Themes' scoping the list — normalized to year granularity '2026' (criterion G). ThemeForest named in text — listed in platforms. |
-| `subject_exact` _(A · 📝 texto libre)_ | ThemeForest Top Sellers page framing statement (updated weekly) | ThemeForest top-sellers page header describing 2026's best selling themes, updated weekly |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | _(null)_ | 2026 |
-| `time_scope_raw` _(A · 📝 texto libre)_ | Accessed April 2026; page undated | 2026's |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
+| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
+| `local_qualifiers` _(A · 📝 texto libre)_ | does not use the standard conversion rates the rest of the world does | if im advertised a patreon subscription for $3 i want to pay $3 not £3 · currently £3 is more then $3 |
+| `metric_unit` _(B · 📝 texto libre)_ | USD and GBP (mixed, declared) | _(null)_ |
+| `metric_value_raw` _(B · 📝 texto libre)_ | $3; £3 | _(null)_ |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Main claim is the currency-conversion billing practice, not a price level — amounts $3/£3 kept in local_qualifiers (criterion H). Mixed currencies USD and GBP declared here. · time_scope_raw 'currently' is relative — normalized left null (criterion G). |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer's complaint about Patreon's currency conversion rate diverging from standard USD/GBP rates | buyer charged in GBP at parity for a Patreon subscription advertised in USD, described as not using standard conversion rates |
+| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | currently |
 
 **Criterios vigentes en este batch:**
 
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
 
 **Veredicto:**
 
 
 ---
 
-## Caso 39 — `ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-015-SNP-003`
+## Caso 36 — `ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-008-SNP-001`
 
-- **Batch de origen:** batch_034
+- **Batch de origen:** batch_029
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> [Stated in layout: "Kalles - Clean, Versatile, Responsive Shopify Theme - RTL support by The4 in Fashion $89 (2.2K) 58 Sales Live Preview"]
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | statistical_data | pricing_statement |
-| `evidence_role` _(A · 🔒 enum)_ | database_fact | observed_platform_state |
-| `local_qualifiers` _(A · 📝 texto libre)_ | (2.2K) review count shown alongside | Kalles - Clean, Versatile, Responsive Shopify Theme - RTL support |
-| `metric_type` _(A · 🔒 enum)_ | price · sales_count | price |
-| `metric_unit` _(A · 📝 texto libre)_ | USD; sales | USD |
-| `metric_value_raw` _(A · 📝 texto libre)_ | $89 price; 58 Sales | $89 |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | product_type fuera de enum: item explicitly labeled 'Shopify Theme' — observed label recorded (K5). · Additional metrics (criterion H): (2.2K) rating count and 58 Sales. 'Shopify' appears inside the product-type label — excluded from platforms (K3). Snippet delivered as a layout capture (K10). |
-| `platforms` _(B · 📝 texto libre)_ | ThemeForest | _(lista vacia)_ |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | software | Shopify theme |
-| `subject_exact` _(A · 📝 texto libre)_ | ThemeForest single top-seller listing: Kalles Shopify theme price and recent sales count | Kalles Shopify theme listing on the ThemeForest top-sellers page priced at $89 with rating and sales counts |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 40 — `ER-SP-compass_artifact_wf-c82ebd53-b62c-4f66-b8e2-ae9f5673d0ac_text_markdown_normalized-002-SNP-001`
-
-- **Batch de origen:** batch_034
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Starting in February 2024, all sales commissions available for withdrawal in any currency, except BRL (real), are automatically transferred without a withdrawal fee once a month to the bank account you registered on our platform."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | except BRL (real) | in any currency, except BRL (real) · to the bank account you registered on our platform |
-| `metric_type` _(A · 🔒 enum)_ | payout | payout schedule |
-| `metric_unit` _(B · 📝 texto libre)_ | _(null)_ | frequency of automatic transfer |
-| `metric_value_raw` _(A · 📝 texto libre)_ | once a month, no withdrawal fee | automatically transferred without a withdrawal fee once a month |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: transfer cadence — descriptor 'payout schedule' reused (K5). · Explicit date 'February 2024' in snippet — normalized to month granularity '2024-02' (criterion G). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Hotmart automatic monthly withdrawal transfer without fee for non-BRL commission balances | automatic monthly transfer, without withdrawal fee, of sales commissions available for withdrawal in any currency except BRL, starting February 2024 |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 41 — `ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-006-SNP-001`
-
-- **Batch de origen:** batch_036
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "The math: on $10,000 monthly subscription revenue, YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200. Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | comparative_commentary | derived_calculation |
-| `evidence_role` _(A · 🔒 enum)_ | comparative_commentary | derived_calculation |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | The math: |
-| `metric_unit` _(A · 📝 texto libre)_ | USD | USD per month |
-| `metric_value_raw` _(A · 📝 texto libre)_ | YouTube Memberships pays $7,000 vs Patreon Pro pays $8,700-$9,200 on $10,000/mo subscription revenue; $20,400/yr difference | YouTube Memberships pays out $7,000 to the creator while Patreon Pro pays out $8,700 to $9,200 (on $10,000 monthly subscription revenue) |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Additional derived figure (criterion H): 'Over a year, the fee difference equals $20,400 in favor of Patreon on $10,000 monthly revenue'. |
-| `platforms` _(A · 📝 texto libre)_ | YouTube Memberships · Patreon | YouTube · Patreon |
-| `subject_exact` _(A · 📝 texto libre)_ | third-party guide fee-payout comparison between YouTube Memberships and Patreon with worked annual difference | creator payout comparison on $10,000 monthly subscription revenue: $7,000 via YouTube Memberships versus $8,700 to $9,200 via Patreon Pro, a $20,400 annual difference favoring Patreon |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-03-04 | _(null)_ |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; last updated March 4, 2026 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 42 — `ER-SP-compass_artifact_wf-d45e9141-896e-4a7c-8acd-75d53f883e24_text_markdown-023-SNP-003`
-
-- **Batch de origen:** batch_037
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "No need to set up Stripe or deal with tax paperwork. We manage all of it behind the scenes so you don't have to."
+> "You can upload multiple files, including ebooks, PDFs, audio, video, or other file types. Each file can be up to 5GB in size." … "We support most file types, including PDFs, audio, video, ZIP files, and more. However, certain file types such as EXE, ISO, DMG, VBS, SCR, and JAR are not supported."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
 | `claim_type` _(A · 🔒 enum)_ | policy_statement | availability_statement |
+| `local_qualifiers` _(A · 📝 texto libre)_ | EXE, ISO, DMG, VBS, SCR, and JAR are not supported | certain file types such as EXE, ISO, DMG, VBS, SCR, and JAR are not supported |
+| `metric_type` _(A · 🔒 enum)_ | unknown | file_size_limit |
+| `metric_unit` _(A · 📝 texto libre)_ | GB | GB per file |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: per-file upload size limit ('Each file can be up to 5GB in size') — no enum value covers file/upload limits; minimal descriptor 'file_size_limit' (K5). · Source date 'Accessed April 2026; page undated' — access dates never normalize time_scope (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | Payhip digital product file size and supported/unsupported file type policy | Payhip digital product uploads accept multiple files up to 5GB each across most file types, excluding EXE, ISO, DMG, VBS, SCR, and JAR |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 37 — `ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-033-SNP-001`
+
+- **Batch de origen:** batch_031
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Free beautifully designed store themes that are fully customizable. Every theme is just a starting point. No coding or HTML required."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
 | `evidence_role` _(A · 🔒 enum)_ | official_policy | direct_claim |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | We manage all of it behind the scenes so you don't have to |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'Stripe' is a payment processor — excluded from platforms per the payment-method convention (K3). Promotional pricing-page copy — author_conflict_of_interest_possible (K4). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Patreon | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Patreon handling of payment-gateway setup and tax paperwork on behalf of creators | no need for creators to set up Stripe or handle tax paperwork, managed by the platform behind the scenes |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
-| `uncertainties` _(A · 🔒 enum)_ | none | author_conflict_of_interest_possible |
+| `local_qualifiers` _(A · 📝 texto libre)_ | no coding or HTML required | Every theme is just a starting point · No coding or HTML required |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform named only in source_ref, not in snippet text — platforms left empty (criterion F). Marketing feature page assigned direct_claim (K6). Source date 'Accessed April 2026; page undated' — never normalizes (K1). |
+| `platforms` _(B · 📝 texto libre)_ | Payhip | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Payhip's own description of free customizable store themes requiring no coding | free fully customizable store themes offered on the Payhip themes page with no coding required |
 
 **Criterios vigentes en este batch:**
 
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
 
 **Veredicto:**
 
 
 ---
 
-## Caso 43 — `ER-SP-compass_artifact_wf-d5fe5a2c-6077-4bcd-ad62-c4fe3960e23a_text_markdown-002-SNP-001`
+## Caso 38 — `ER-SP-compass_artifact_wf-b66489b8-52e0-4cd3-9bfd-9810fa4ba897_text_markdown_normalized-040-SNP-001`
 
-- **Batch de origen:** batch_037
+- **Batch de origen:** batch_031
 - **Estrato:** E2
 
 **snippet_primary:**
 
-> "Hotmart Developers is the website where you check out Hotmart's APIs. This data is ideal for Creators who have their own team of developers and want to create an even more personalized analysis with their own systems."
+> "Check out our payhip template selection for the very best in unique or custom, handmade pieces from our templates shops."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | explicit_claim | availability_statement |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | ideal for Creators who have their own team of developers |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Help-center doc assigned official_policy (K6). |
-| `subject_exact` _(A · 📝 texto libre)_ | Hotmart Developers API availability for creators with their own development teams | Hotmart Developers website exposing Hotmart's APIs for creators with developer teams to build personalized analyses |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 44 — `ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-009-SNP-001`
-
-- **Batch de origen:** batch_038
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Sale Samurai gives you the insights and analytics needed to skyrocket your Etsy SEO. Keyword research with real search volume data from Etsy."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | explicit_claim | availability_statement |
-| `evidence_role` _(A · 🔒 enum)_ | comparative_commentary | direct_claim |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | needed to skyrocket your Etsy SEO · real search volume data from Etsy |
+| `local_qualifiers` _(A · 📝 texto libre)_ | unique or custom, handmade pieces from our templates shops | the very best in unique or custom, handmade pieces from our templates shops |
 | `metric_type` _(A · 🔒 enum)_ | search_discovery | unknown |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | First-person promotional vendor voice — author_conflict_of_interest_possible (K4). |
-| `subject_exact` _(A · 📝 texto libre)_ | third-party Etsy-SEO tool vendor's self-promotional description of keyword-research analytics using real Etsy search-volume data | Sale Samurai offering insights, analytics, and keyword research with real search volume data from Etsy |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | product_type fuera de enum: market category is explicitly 'payhip template' — no enum value covers generic templates; observed label recorded (K5). · 'payhip' appears as part of the product-category compound 'payhip template selection', not as a service-as-such mention — excluded from platforms (K3). Etsy named only in source_ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Etsy · Payhip | _(lista vacia)_ |
+| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | payhip template |
+| `subject_exact` _(A · 📝 texto libre)_ | Etsy marketplace search-results page for third-party-made Payhip templates | Etsy market page offering a selection of payhip templates from template shops |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 39 — `ER-SP-compass_artifact_wf-b8196d6f-3c52-444d-99ca-a873af688da7_text_markdown-001-SNP-001`
+
+- **Batch de origen:** batch_031
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Anime Tracker | Notion Template · TZS15,000 · Apple Slides | Figma Slides Template · TZS0+ · Bookworm Library | Notion Template · TZS25,000 · Min-folio | Notion Template · My Skin | Notion Template"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `actor_level` _(A · 🔒 enum)_ | seller | third_party |
+| `claim_type` _(A · 🔒 enum)_ | availability_statement | pricing_statement |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Apple Slides \| Figma Slides Template · TZS0+ |
+| `metric_value_raw` _(A · 📝 texto libre)_ | TZS15,000; TZS0+; TZS25,000 | TZS15,000 \| TZS0+ \| TZS25,000 |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Four of five products explicitly labeled 'Notion Template' (dominant); one 'Figma Slides Template' — dominant value assigned per the array rule. · Two products (Min-folio, My Skin) show no price in the capture. 'Notion' and 'Figma' appear inside product-type labels, not as service mentions — excluded from platforms (K3). Platform named only in source_ref/title — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Lemon Squeezy | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | seller's Lemon Squeezy storefront (amdesigns) product listings and prices in Tanzanian shillings | five template products on the amdesigns Lemon Squeezy store, three with TZS prices shown |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 40 — `ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-001-SNP-002`
+
+- **Batch de origen:** batch_031
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Around the world in 2026, over 95752 companies have started using Gumroad as Social Commerce tool."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `geography_if_explicit` _(A · 📝 texto libre)_ | around the world | Around the world |
+| `metric_type` _(A · 🔒 enum)_ | unknown | customer_count |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: count of companies using the platform — descriptor 'customer_count' (K5). · Explicit year 'in 2026' in snippet — normalized to year granularity '2026' (criterion G). geography verbatim 'Around the world'. Estimate without stated methodology — methodology_unclear. |
+| `subject_exact` _(A · 📝 texto libre)_ | third-party market-intelligence database's count of companies using Gumroad as a social-commerce tool | count of companies worldwide that have started using Gumroad as a social-commerce tool in 2026 per 6sense |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 41 — `ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-003-SNP-003`
+
+- **Batch de origen:** batch_032
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> [Stated in layout: "Name | Category | Average rating | Reviews | Mixed reviews | Price | Sales | Est. Revenue: Old Book Cover & Spread Mockup Design Syndrome | design / graphics | 5.0 ⭐ | 118 | 2% | $13.00 | 20,221 | $262,873.00"]
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Est. Revenue |
+| `metric_type` _(A · 🔒 enum)_ | review_count · sales_count · revenue · price | revenue |
+| `metric_unit` _(A · 📝 texto libre)_ | stars, count, percent, and USD (mixed, declared) | USD (Est. Revenue) |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 5.0 stars; 118 reviews; 2% mixed reviews; $13.00; 20,221 sales; $262,873.00 est. revenue | $262,873.00 |
+| `parser_notes` _(A · 📝 texto libre)_ | Single product row combines four distinct metric dimensions with no dominant one; recorded as array. | Additional metrics (criterion H): Sales 20,221; Price $13.00; Reviews 118; Average rating 5.0; Mixed reviews 2%. · Source's explicit category label 'design / graphics' for a mockup design product — product_type 'design_asset'. Estimated figure without stated methodology — methodology_unclear. · Snippet delivered as a layout capture ('[Stated in layout: ...]' is a capture annotation). Platform named only in source_ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | third-party dataset provider's per-product listing example showing rating, reviews, price, sales, and estimated revenue for a single Gumroad product | Gumtrends table row for the product 'Old Book Cover & Spread Mockup Design Syndrome' with rating, reviews, price, sales, and estimated revenue |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 42 — `ER-SP-compass_artifact_wf-bae0f41e-e3a0-414a-900e-24a67d70982c_text_markdown-004-SNP-001`
+
+- **Batch de origen:** batch_032
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> [Stated in layout: "Price Range | # Products | % of Revenue | Avg Sales | Total Revenue: $0.01–$4.99 | 2,084 | 0.8% | 313 | $1.7M; $5–$9.99 | 2,896 | 3% | 328 | $6.2M; $10–$19.99 | 3,365 | 5.5% | 241 | $11.4M; $20–$29.99 | 1,760 | 4.7% | 235 | $9.7M; $30–$49.99 | 1,409 | 7.3% | 268 | $15M; $50–$99.99 | 857 | 7% | 239 | $14.5M; $100–$199.99 | 265 | 6% | 318 | $12.4M; $200+ | 316 | 65.7% | 154 | $135.3M"]
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `metric_type` _(A · 🔒 enum)_ | price · revenue · sales_count | revenue share by price range |
+| `metric_unit` _(A · 📝 texto libre)_ | count, percent, and USD (mixed, declared) | mixed: product count, % of revenue, average sales, USD total revenue per price range |
+| `metric_value_raw` _(A · 📝 texto libre)_ | $0.01–$4.99: 2,084 products, 0.8% revenue, 313 avg sales, $1.7M total; $200+: 316 products, 65.7% revenue, 154 avg sales, $135.3M total (full 8-tier table in snippet) | $0.01–$4.99 \| 2,084 \| 0.8% \| 313 \| $1.7M; $5–$9.99 \| 2,896 \| 3% \| 328 \| $6.2M; $10–$19.99 \| 3,365 \| 5.5% \| 241 \| $11.4M; $20–$29.99 \| 1,760 \| 4.7% \| 235 \| $9.7M; $30–$49.99 \| 1,409 \| 7.3% \| 268 \| $15M; $50–$99.99 \| 857 \| 7% \| 239 \| $14.5M; $100–$199.99 \| 265 \| 6% \| 318 \| $12.4M; $200+ \| 316 \| 65.7% \| 154 \| $135.3M |
+| `parser_notes` _(A · 📝 texto libre)_ | Full price-band table (8 rows) condensed to endpoints in metric_value_raw for brevity; complete data preserved verbatim in snippet_primary. | metric_type fuera de enum: table of revenue distribution across price ranges — descriptor 'revenue share by price range' (K5); full table preserved verbatim, mixed units declared. · Snippet delivered as a layout capture. No data source or methodology stated — methodology_unclear. Platform named only in source title/ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | third-party report's breakdown of Gumroad product counts, revenue share, average sales, and total revenue by price band | distribution of Gumroad products, revenue share, average sales, and total revenue across eight price ranges |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-03-21 | _(null)_ |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Updated March 21, 2026 | _(null)_ |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 43 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-001-SNP-003`
+
+- **Batch de origen:** batch_032
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `evidence_role` _(A · 🔒 enum)_ | database_fact | reported_event |
+| `metric_type` _(A · 🔒 enum)_ | unknown | purchase device share |
+| `metric_unit` _(A · 📝 texto libre)_ | percent | % de compras por dispositivo |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 78% dispositivos móviles; 20% computadoras; 2% tabletas | el 78 por ciento se realiza a través de dispositivos móviles, el 20 por ciento en computadoras y el 2 por ciento restante en tabletas |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: distribution of purchases by device — descriptor 'purchase device share' (K5); values preserved verbatim. · Platform named only in source title/ref, not in this snippet — platforms left empty (criterion F). Figures reported without attribution or methodology — methodology_unclear. |
+| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | news article's reported device-type split for digital-product purchases | share of purchases made via mobile devices, computers, and tablets |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 44 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-004-SNP-001`
+
+- **Batch de origen:** batch_032
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "No pude bajar un e book que compre en la plataforma y no me respondieron aún. Compre en otras ocasiones y fue todo bien pero en esta compra al contrario."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
+| `local_qualifiers` _(A · 📝 texto libre)_ | compre en otras ocasiones y fue todo bien pero en esta compra al contrario | Compre en otras ocasiones y fue todo bien pero en esta compra al contrario |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'e book' named explicitly — product_type 'ebook'. Platform named only in source_ref, not in snippet text ('la plataforma') — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer's complaint about being unable to download a purchased ebook on Hotmart with no support response | buyer unable to download a purchased ebook from the platform with no response yet, after previous purchases went well |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016)
+
+**Veredicto:**
+
+
+---
+
+## Caso 45 — `ER-SP-compass_artifact_wf-bbbe6c81-ce19-4446-ada5-416354340fc4_text_markdown-013-SNP-001`
+
+- **Batch de origen:** batch_033
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Estou há alguns meses sem conseguir comprar nenhum curso da hotmart, consigo acessar os que estão ativos, mas não consigo comprar novos. Ele diz que há uma falha no pagamento, mas não há, pois tento trocar para outras opções de pagamento e continua dando o mesmo erro. Nesse meio tempo já tentei comprar cursos de vários valores e todos dão esse mesmo erro. Mesmo tendo limite/dinheiro, não consigo efetuar a compra no pix, no boleto, no cartão e nenhuma outra forma. Quando tento pedir ajuda no site, sou respondida por inteligência artificial."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(A · 📝 texto libre)_ | already able to access previously purchased/active courses | Ele diz que há uma falha no pagamento, mas não há · Mesmo tendo limite/dinheiro, não consigo efetuar a compra no pix, no boleto, no cartão e nenhuma outra forma · sou respondida por inteligência artificial |
+| `parser_notes` _(A · 📝 texto libre)_ | Buyer reports an AI support agent responded instead of a human; root cause of payment failure not established. | product_type fuera de enum: 'cursos' named explicitly — observed value 'curso' recorded (K5). 'pix', 'boleto', 'cartão' are payment methods, not platforms — excluded (K3). · time_scope_raw 'há alguns meses' is relative — normalized left null (criterion G). |
+| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | curso |
+| `subject_exact` _(A · 📝 texto libre)_ | buyer-reported inability to complete any Hotmart purchase across all payment methods over several months | buyer unable to purchase any new Hotmart courses for months due to a persistent payment error across pix, boleto, card and other methods, with AI-only support |
+| `time_scope_raw` _(B · 📝 texto libre)_ | _(null)_ | há alguns meses |
+| `uncertainties` _(A · 🔒 enum)_ | subject_ambiguity | anecdotal_single_source |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 46 — `ER-SP-compass_artifact_wf-bc6f268c-aeb6-4040-a1a6-8670888bb92f_text_markdown-014-SNP-001`
+
+- **Batch de origen:** batch_034
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Choose from over 64,100 website templates and themes. Explore items created by our global community of independent designers and developers, confident they're hand-reviewed by us."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | availability_statement | statistical_data |
+| `evidence_role` _(A · 🔒 enum)_ | observed_platform_state | direct_claim |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | created by our global community of independent designers and developers · confident they're hand-reviewed by us |
+| `metric_type` _(A · 🔒 enum)_ | unknown | catalog size |
+| `metric_unit` _(A · 📝 texto libre)_ | items | website templates and themes |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: marketplace catalog count — descriptor 'catalog size' reused (K5). Platform named only in source_ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | ThemeForest | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | ThemeForest marketplace catalogue scale claim for website templates and themes | count of website templates and themes available on the ThemeForest all-category page, described as hand-reviewed items from a global community |
 | `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 47 — `ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-004-SNP-001`
+
+- **Batch de origen:** batch_038
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "1. tshirt 2. shirt 3. stickers 4. pokemon 5. wall art 6. gift 7. jewelry 8. phone case 9. resident evil 10. keychain 11. home decor 12. womens clothing 13. necklace 14. ayn thor 15. png 16. easter 17. personalized gift 18. ita bag 19. press on nails 20. t shirt"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `metric_type` _(A · 🔒 enum)_ | etsy_keyword_search_ranking | keyword ranking |
+| `metric_unit` _(B · 📝 texto libre)_ | _(null)_ | rank position |
+| `metric_value_raw` _(B · 📝 texto libre)_ | _(null)_ | 1. tshirt 2. shirt 3. stickers 4. pokemon 5. wall art 6. gift 7. jewelry 8. phone case 9. resident evil 10. keychain 11. home decor 12. womens clothing 13. necklace 14. ayn thor 15. png 16. easter 17. personalized gift 18. ita bag 19. press on nails 20. t shirt |
+| `parser_notes` _(A · 📝 texto libre)_ | metric_type 'etsy_keyword_search_ranking' has no enum match for a ranked keyword list; recorded as out_of_enum literal. | metric_type fuera de enum: ranked keyword list — descriptor 'keyword ranking' (K5); full list preserved verbatim (K10). · List items are search keywords, not platform mentions (K3). Tracker ranking without stated methodology — methodology_unclear (K12). Platform named only in source title/ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Etsy | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | third-party keyword-research blog's ranked list of top Etsy search keywords | top 20 Etsy search keywords ranked by eRank, from 'tshirt' at #1 to 't shirt' at #20 |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-04-06 | _(null)_ |
+| `time_scope_raw` _(B · 📝 texto libre)_ | 6 April 2026 | _(null)_ |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 48 — `ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-006-SNP-001`
+
+- **Batch de origen:** batch_038
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> "Koalanda tracks all Etsy listings: currently more than 125 million. Out of all listings, there are about 8 million that have sales in the last 30 days."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `actor_level` _(A · 🔒 enum)_ | third_party | source |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Out of all listings, there are about 8 million that have sales in the last 30 days |
+| `metric_type` _(A · 🔒 enum)_ | third_party_tracked_listing_count | catalog size |
+| `metric_unit` _(A · 📝 texto libre)_ | listings | Etsy listings |
+| `metric_value_raw` _(A · 📝 texto libre)_ | more than 125 million listings tracked; about 8 million with sales in the last 30 days | currently more than 125 million |
+| `parser_notes` _(A · 📝 texto libre)_ | metric_type 'third_party_tracked_listing_count' out_of_enum; same pattern as prior third-party listing-scale claims. | metric_type fuera de enum: platform catalog count — descriptor 'catalog size' reused (K5). Additional metric kept as qualifier (criterion H). · time_scope_raw 'currently' is relative — normalized left null (criterion G). Tracker estimate — methodology_unclear (K12). |
+| `subject_exact` _(A · 📝 texto libre)_ | third-party Etsy analytics tool vendor's reported scale of tracked Etsy listings and recently-selling listings | Koalanda tracking more than 125 million Etsy listings, of which about 8 million have sales in the last 30 days |
+| `time_scope_raw` _(A · 📝 texto libre)_ | last 30 days (as of access, April 2026) | currently |
+| `uncertainties` _(A · 🔒 enum)_ | none | methodology_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 49 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-008-SNP-001`
+
+- **Batch de origen:** batch_039
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> > "EU and UK VAT - These are digital UK & EU VAT collected for that period"
+> 
+> > "Stripe/PayPal Fees - These are payment processor fees charged by PayPal and Stripe"
+> 
+> > "Payhip Fees - These are platform fees charged by Payhip depending on your plan"
+> 
+> > "Custom Taxes - These are taxes that were manually set up, collected, and sent to you"
+> 
+> > "Products Sold - This lists the products and the number of items sold for that period"
+> 
+> > "Affiliates Commission - This shows the amount earned by your affiliates"
+> 
+> > "Affiliate Sales - This shows the number of sales generated by your affiliates"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | explicit_claim | availability_statement |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Payhip Fees - These are platform fees charged by Payhip depending on your plan |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Availability state claim with explicit last-updated September 27, 2022 and null raw — normalized (K1). Payment processors excluded from platforms (K3). |
+| `subject_exact` _(A · 📝 texto libre)_ | Payhip monthly sales-report field definitions (VAT, processor fees, platform fees, custom taxes, products sold, affiliate commission/sales) | sales report components: EU and UK VAT, Stripe/PayPal fees, Payhip plan fees, custom taxes, products sold, affiliates commission, and affiliate sales |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated September 27, 2022 | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 50 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-009-SNP-001`
+
+- **Batch de origen:** batch_039
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> > "you can earn a 50% recurring commission on Payhip's transaction fees and any monthly paid plans from the sellers you refer. That means if someone signs up through your link and has upgraded to a paid plan, you get a cut every month as long as the seller is active. You will also earn 50% of the amount we collect from their sales for transaction fees."
+> 
+> > "You get paid out on a monthly basis on the 13th of every month via Paypal. There is a minimum commission amount of $50 for payouts, and if you do not meet this threshold, your commission will be combined with the following months until you reach the minimum balance of $50."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | pricing_statement | policy_statement |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | you get a cut every month as long as the seller is active · You get paid out on a monthly basis on the 13th of every month via Paypal · There is a minimum commission amount of $50 for payouts, and if you do not meet this threshold, your commission will be combined with the following months |
+| `metric_type` _(A · 🔒 enum)_ | payout | affiliate commission rate |
+| `metric_unit` _(A · 📝 texto libre)_ | percent; USD | % of transaction fees and paid-plan revenue |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 50% recurring commission on Payhip transaction fees and paid-plan revenue from referred sellers; $50 minimum monthly payout via PayPal on the 13th | a 50% recurring commission on Payhip's transaction fees and any monthly paid plans from the sellers you refer |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | metric_type fuera de enum: partner commission — descriptor 'affiliate commission rate' reused (K5). Additional metrics kept as qualifiers (criterion H): monthly payout on the 13th, $50 minimum payout threshold. 'Paypal' is a payment processor — excluded (K3). Page undated — not normalized (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | Payhip affiliate-partner recurring commission rate and monthly payout threshold | partner program paying 50% recurring commission on Payhip transaction fees and referred sellers' paid plans, paid monthly on the 13th via PayPal with a $50 minimum that rolls over |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Undated | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 51 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-011-SNP-001`
+
+- **Batch de origen:** batch_039
+- **Estrato:** E2
+
+**snippet_primary:**
+
+> > "On occasion, a customer may file a chargeback for their purchase. This means that they are claiming that you did not provide them with the promised product or service and want their money back."
+> 
+> > "If customers have agreed to your refund policy and terms of service before they make their purchase and they then put through a chargeback, you should be protected. You can let the company who is handling the chargeback know that the customer was made aware of your terms."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | you should be protected · You can let the company who is handling the chargeback know that the customer was made aware of your terms |
+| `metric_type` _(A · 🔒 enum)_ | refund_policy | unknown |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Policy state claim with explicit last-updated April 10, 2024 and null raw — normalized (K1). Platform named only in source_ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Payhip | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Payhip seller guidance on chargeback protection via pre-purchase agreement to refund policy and terms | chargeback protection for sellers when customers agreed to the refund policy and terms of service before purchase |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated April 10, 2024 | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
+
+**Veredicto:**
+
+
+---
+
+## Caso 52 — `ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-002`
+
+- **Batch de origen:** batch_042
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "In consideration of Gumroad's MOR Services, in respect of each resale of your Products through the Services, you agree to pay Gumroad a per-transaction fee (the, "Gumroad Fee") for each resale made by Gumroad through the Services. The Gumroad Fee owed for each resale through the Services is automatically deducted from the purchase price paid by the Buyer, with the remainder (less any amounts in respect of taxes and any other charges payable by you pursuant to this Agreement) owed and paid to you by Gumroad (such remainder amount, the "Supplier Fee")."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(A · 📝 texto libre)_ | less any amounts in respect of taxes and any other charges payable by you | (less any amounts in respect of taxes and any other charges payable by you pursuant to this Agreement) |
+| `metric_type` _(A · 🔒 enum)_ | fee_rate | unknown |
+| `parser_notes` _(A · 📝 texto libre)_ | Gumroad Fee (deducted from buyer price) is distinct from remainder Supplier Fee paid to seller; net vs gross not fully disambiguated in this snippet | No fee rate stated in this clause — metric_type left 'unknown'. Policy state claim with explicit Effective Date January 1, 2025 and null raw — normalized (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | Gumroad Fee vs Supplier Fee split mechanics under merchant-of-record terms | per-transaction Gumroad Fee for merchant-of-record resales, automatically deducted from the buyer's purchase price, with the remainder paid to the supplier as the Supplier Fee |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Effective Date: January 1, 2025; Last Updated Date: December 10, 2024 | _(null)_ |
+| `uncertainties` _(B · 🔒 enum)_ | net_vs_gross_ambiguity | _(lista vacia)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 53 — `ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-003-SNP-006`
+
+- **Batch de origen:** batch_042
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "Supplier Fees owed to you by Gumroad will be paid to you after a completed resale transaction based on an agreed upon settlement schedule, which is subject to change at the discretion of Gumroad."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `local_qualifiers` _(A · 📝 texto libre)_ | subject to change at the discretion of Gumroad | based on an agreed upon settlement schedule, which is subject to change at the discretion of Gumroad |
+| `metric_type` _(A · 🔒 enum)_ | payout | unknown |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | No concrete schedule stated — metric_type left 'unknown'. Policy state claim with explicit Effective Date January 1, 2025 and null raw — normalized (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | Gumroad Supplier Fee payout timing tied to a Gumroad-set settlement schedule | supplier fees paid after completed resale transactions on an agreed settlement schedule, changeable at Gumroad's discretion |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Effective Date: January 1, 2025; Last Updated Date: December 10, 2024 | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 54 — `ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-005-SNP-001`
+
+- **Batch de origen:** batch_042
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "To receive a payout, you must have a minimum balance of US $10. Certain countries have higher minimum payout balances - Thailand (600 THB) and Korea (40,000 KRW)."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `geography_if_explicit` _(B · 📝 texto libre)_ | Thailand · Korea | _(null)_ |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Certain countries have higher minimum payout balances |
+| `metric_type` _(A · 🔒 enum)_ | payout | minimum payout |
+| `metric_unit` _(A · 📝 texto libre)_ | mixed (USD/THB/KRW) | mixed: USD, THB, KRW |
+| `metric_value_raw` _(A · 📝 texto libre)_ | US $10 (Thailand 600 THB; Korea 40,000 KRW) | US $10; Thailand (600 THB); Korea (40,000 KRW) |
+| `parser_notes` _(A · 📝 texto libre)_ | Mixed currency units declared: base threshold in USD, Thailand in THB, Korea in KRW | metric_type fuera de enum: payout threshold — descriptor 'minimum payout' reused (K5); mixed currencies declared. Country exceptions kept in the value; the general claim has no single geography — geography left null. · Policy state claim with explicit last-updated July 23, 2024 and null raw — normalized (K1). Platform named only in source_ref — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Gumroad minimum payout balance threshold, with country-specific exceptions | minimum payout balance of US $10, with higher minimums for Thailand (600 THB) and Korea (40,000 KRW) |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Page last updated July 23, 2024 | _(null)_ |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 55 — `ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-007-SNP-001`
+
+- **Batch de origen:** batch_043
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "The main options are Gumroad - high fees and ugly design, solid system never had issues does most what I need · Lemon Squeezy - it was very popular until being acquired by stripe. Full of serious bugs, bad support. Lovely design, slightly better fees than Gumroad, but many hidden. Would still use over Gumroad just cause the Gumroad checkout design is so bad it loses sales imo"
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `evidence_role` _(A · 🔒 enum)_ | comparative_commentary | direct_claim |
+| `local_qualifiers` _(A · 📝 texto libre)_ | slightly better fees than Gumroad, but many hidden | solid system never had issues does most what I need · it was very popular until being acquired by stripe. Full of serious bugs, bad support · slightly better fees than Gumroad, but many hidden · the Gumroad checkout design is so bad it loses sales imo |
+| `parser_notes` _(A · 📝 texto libre)_ | Hacker News commenter's platform-user status (buyer vs seller) not explicitly stated; defaulted to seller given comparative fee/checkout framing | Actor 'seller' per assignment_rule (seller_forum, author choosing a platform to sell). Fee claims carry no figures — metric_type left 'unknown'. Source date '~2025-05' is approximate — source_date_unclear (K2). |
+| `subject_exact` _(A · 📝 texto libre)_ | forum commenter's comparison of Gumroad fees/design vs Lemon Squeezy fees/bugs/support | forum author's comparison: Gumroad with high fees and ugly but solid checkout, Lemon Squeezy with lovely design and slightly better but partly hidden fees plus serious bugs and bad support since the Stripe acquisition |
+| `time_scope_raw` _(B · 📝 texto libre)_ | ~2025-05 (approximately 11 months before April 2026) | _(null)_ |
+| `uncertainties` _(A · 🔒 enum)_ | actor_level_unclear · time_scope_unclear | source_date_unclear |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 56 — `ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-019-SNP-001`
+
+- **Batch de origen:** batch_043
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "We provide all-inclusive pricing of 5% + 50¢ per transaction. You might be used to similar fees over at Paddle, but that's just the beginning. Explore some of the benefits of Lemon Squeezy over Paddle below."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `evidence_role` _(A · 🔒 enum)_ | official_policy | direct_claim |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | You might be used to similar fees over at Paddle, but that's just the beginning |
+| `metric_unit` _(A · 📝 texto libre)_ | percent + USD flat | mixed: % + ¢ per transaction |
+| `metric_value_raw` _(A · 📝 texto libre)_ | 5% + 50¢ | all-inclusive pricing of 5% + 50¢ per transaction |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Platform's own competitor-comparison page — author_conflict_of_interest_possible (K4). Mixed units declared. Page not dated — not normalized (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | Lemon Squeezy all-inclusive per-transaction fee positioned against Paddle | all-inclusive pricing of 5% + 50¢ per transaction, framed as similar to Paddle's fees with additional claimed benefits |
+| `time_scope_raw` _(B · 📝 texto libre)_ | not dated | _(null)_ |
 | `uncertainties` _(A · 🔒 enum)_ | none | author_conflict_of_interest_possible |
 
 **Criterios vigentes en este batch:**
 
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 45 — `ER-SP-compass_artifact_wf-de144e73-98a7-403c-a882-9327b9dbadd2_text_markdown-011-SNP-002`
-
-- **Batch de origen:** batch_038
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> "Custom Name Necklace, 18K Gold Plated Name Necklace, Personalized Name Necklace, Birthday Gift for Her, Mother's Day Gift, Gift for Mom — (55,428 reviews), Star Seller — Sale Price $14.05, Original Price $28.11 (50% off), Shop: AnyaShopStudio, Ad, FREE shipping"
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | statistical_data | pricing_statement |
-| `evidence_role` _(A · 🔒 enum)_ | database_fact | observed_platform_state |
-| `local_qualifiers` _(A · 📝 texto libre)_ | Star Seller badge · Ad · FREE shipping · Shop: AnyaShopStudio | Star Seller · Ad · FREE shipping |
-| `metric_type` _(A · 🔒 enum)_ | price · review_count | price |
-| `metric_unit` _(A · 📝 texto libre)_ | USD; reviews | USD |
-| `metric_value_raw` _(A · 📝 texto libre)_ | Sale Price $14.05, Original Price $28.11 (50% off); 55,428 reviews | Sale Price $14.05, Original Price $28.11 (50% off) |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | product_type fuera de enum: physical product 'Necklace' named explicitly — observed value recorded (K5). · Additional metric (criterion H): '(55,428 reviews)'. Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Etsy | _(lista vacia)_ |
-| `product_type_if_explicit` _(A · 🔒 enum)_ | unknown | necklace |
-| `subject_exact` _(A · 📝 texto libre)_ | Etsy jewelry-category search-results single listing: custom name necklace price, discount, and review count | custom name necklace listing at sale price $14.05 from original $28.11 (50% off), with 55,428 reviews, Star Seller status, ad placement, and free shipping |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; listing undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 46 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-002-SNP-001`
-
-- **Batch de origen:** batch_038
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > "On the 1st Jan 2015, the European Union introduced the digital EU VAT law. This law requires all sales of digital items (such as ebooks) in the EU to pay VAT based on the location of the customer."
-> 
-> > "In order to remove all of the administrative burden from our sellers we will take care of all EU VAT issues for your customers based in the European Union."
-> 
-> > "The UK has left the EU but they have a similar law that also requires VAT be charged on digital products if your customer is based in the UK - regardless of where the seller is from."
-> 
-> > "By default, we automatically handle digital UK & EU VAT for you. If you'd rather handle the process yourself you can uncheck the first two checkboxes."
-> 
-> > "Choosing to include taxes within the product price means your customers won't see a difference in the price they need to pay. However it means your profits will be impacted to account for sales tax - instead of being passed on to customers."
-> 
-> > "If your customer is not based in the EU or UK, then this digital tax will not be applied to their transaction. They will be charged at the regular price you set for the product."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `geography_if_explicit` _(A · 📝 texto libre)_ | European Union; United Kingdom | EU and UK |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | pay VAT based on the location of the customer · The UK has left the EU but they have a similar law - regardless of where the seller is from · Choosing to include taxes within the product price means your customers won't see a difference in the price they need to pay. However it means your profits will be impacted · If your customer is not based in the EU or UK, then this digital tax will not be applied to their transaction |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Policy state claim with explicit last-updated date February 21, 2026 and null raw — normalized 2026-02-21 (K1). '1st Jan 2015' dates the law's introduction, not the claim's scope. geography verbatim from 'in the EU' / 'based in the UK'. Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Payhip | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip EU/UK digital VAT compliance handling on behalf of sellers | automatic handling of digital UK and EU VAT by default, charged by customer location under the 2015 EU digital VAT law and the similar UK law, with seller options to self-handle or include tax in price |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated February 21, 2026 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 47 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-005-SNP-003`
-
-- **Batch de origen:** batch_039
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > "If I refund a payment, do the fees get refunded? Both Payhip fees and PayPal/Stripe fees will not be returned when you refund a transaction."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Both Payhip fees and PayPal/Stripe fees will not be returned when you refund a transaction |
-| `metric_type` _(A · 🔒 enum)_ | fee_rate | unknown |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Policy state claim with explicit last-updated April 19, 2024 and null raw — normalized (K1). |
-| `platforms` _(A · 📝 texto libre)_ | Payhip · PayPal · Stripe | Payhip |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip non-refundability of platform and processor fees on refunded transactions | neither Payhip fees nor PayPal/Stripe fees returned when a transaction is refunded |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated April 19, 2024 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 48 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-012-SNP-001`
-
-- **Batch de origen:** batch_039
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > "The standard Mollie fee for online credit card transactions ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction for European Economic Area consumer credit cards from Mastercard and Visa. Rates vary by payment methods, please check Mollie's pricing page for the latest updates. Note that these fees are collected by Mollie and do not go to Payhip."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `geography_if_explicit` _(B · 📝 texto libre)_ | _(null)_ | European Economic Area |
-| `local_qualifiers` _(A · 📝 texto libre)_ | fees collected by Mollie, not Payhip | Rates vary by payment methods, please check Mollie's pricing page for the latest updates · these fees are collected by Mollie and do not go to Payhip |
-| `metric_unit` _(A · 📝 texto libre)_ | percent + EUR flat | mixed: % + EUR per transaction |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 1.80% + EUR0.25 to 2.90% + EUR0.25 | ranges from 1.80% + €0.25 to 2.90% + €0.25 per transaction |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Pricing state claim with explicit last-updated February 22, 2026 and null raw — normalized (K1). geography verbatim 'for European Economic Area consumer credit cards'. 'Mollie', 'Mastercard', 'Visa' are payment services — excluded from platforms (K3). Mixed units declared. |
-| `platforms` _(A · 📝 texto libre)_ | Payhip · Mollie | Payhip |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip-documented Mollie payment-gateway transaction fee range | standard Mollie fee for online credit card transactions ranging from 1.80% + €0.25 to 2.90% + €0.25 per transaction for EEA Mastercard and Visa consumer cards, collected by Mollie not Payhip |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated February 22, 2026 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 49 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-015-SNP-002`
-
-- **Batch de origen:** batch_039
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > "Paystack is supported in Côte d'Ivoire (Ivory Coast), Ghana, Kenya, Nigeria, and South Africa."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `geography_if_explicit` _(A · 📝 texto libre)_ | Cote d'Ivoire (Ivory Coast) · Ghana · Kenya · Nigeria · South Africa | Côte d'Ivoire (Ivory Coast), Ghana, Kenya, Nigeria, and South Africa |
-| `metric_unit` _(B · 📝 texto libre)_ | _(null)_ | countries |
-| `metric_value_raw` _(B · 📝 texto libre)_ | _(null)_ | supported in Côte d'Ivoire (Ivory Coast), Ghana, Kenya, Nigeria, and South Africa |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | geography verbatim country list. Page undated — not normalized (K1). 'Paystack' is a payment service — excluded from platforms (K3). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Payhip · Paystack | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip-documented Paystack gateway country coverage | Paystack support in five listed African countries |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 50 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-022-SNP-002`
-
-- **Batch de origen:** batch_040
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > "PayTabs supports countries in the Middle East and North Africa (MENA) region, including Egypt, Iraq, Jordan, Kuwait, Oman, Saudi Arabia, and United Arab Emirates."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `geography_if_explicit` _(A · 📝 texto libre)_ | Egypt · Iraq · Jordan · Kuwait · Oman · Saudi Arabia · United Arab Emirates | Middle East and North Africa (MENA) region, including Egypt, Iraq, Jordan, Kuwait, Oman, Saudi Arabia, and United Arab Emirates |
-| `metric_unit` _(B · 📝 texto libre)_ | _(null)_ | countries |
-| `metric_value_raw` _(B · 📝 texto libre)_ | _(null)_ | supports countries in the Middle East and North Africa (MENA) region |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Availability state claim with explicit last-updated February 21, 2026 and null raw — normalized (K1). geography verbatim. 'PayTabs' is a payment service — excluded (K3). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Payhip · PayTabs | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip-documented PayTabs gateway MENA-region country coverage | PayTabs support in MENA-region countries including Egypt, Iraq, Jordan, Kuwait, Oman, Saudi Arabia, and United Arab Emirates |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Last updated February 21, 2026 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 51 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-029-SNP-001`
-
-- **Batch de origen:** batch_040
-- **Estrato:** E2
-
-**snippet_primary:**
-
-> > **Free Forever** — $0 /mo — +5% transaction fee — All features — Unlimited products — Unlimited revenue
-> 
-> > **Plus** — $29 /mo — +2% transaction fee — All features — Unlimited products — Unlimited revenue
-> 
-> > **Pro** — $99 /mo — No transaction fee — All features — Unlimited products — Unlimited revenue
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | All features — Unlimited products — Unlimited revenue (each tier) |
-| `metric_unit` _(A · 📝 texto libre)_ | USD/mo + percent | mixed: USD per month + % transaction fee |
-| `metric_value_raw` _(A · 📝 texto libre)_ | Free Forever ($0/mo): +5% transaction fee; Plus ($29/mo): +2% transaction fee; Pro ($99/mo): no transaction fee | Free Forever — $0 /mo — +5% transaction fee \| Plus — $29 /mo — +2% transaction fee \| Pro — $99 /mo — No transaction fee |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Tier structure preserved verbatim in listing order; mixed units declared. Page undated — not normalized (K1). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Payhip | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip pricing-page subscription-tier transaction fee schedule (Free/Plus/Pro) | three plan tiers with identical features and limits: Free Forever at $0/mo + 5% transaction fee, Plus at $29/mo + 2%, Pro at $99/mo with no transaction fee |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032)
-
-**Veredicto:**
-
-
----
-
-## Caso 52 — `ER-SP-compass_artifact_wf-e33b0dbb-828e-4221-b8c5-7bf05bddcdba_text_markdown_normalized-030-SNP-001`
-
-- **Batch de origen:** batch_041
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> > "Payment is handled separately, and securely, through the payment processor you have selected during checkout ('Payment Processor'). Your payment card details are never collected by Us."
-> 
-> > "We will hold details relating to any transaction you make, such as your name, e-mail address, IP address, billing address, location data for 10 years from the date of the transaction for EU VAT purposes in respect of digital products."
-> 
-> > "All information We hold about you is stored on secure servers in the EU."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | for EU VAT purposes in respect of digital products · payment card details never collected by Payhip | Your payment card details are never collected by Us · for EU VAT purposes in respect of digital products · All information We hold about you is stored on secure servers in the EU |
-| `metric_type` _(A · 🔒 enum)_ | data_retention_duration | data retention period |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 10 years | for 10 years from the date of the transaction |
-| `parser_notes` _(A · 📝 texto libre)_ | metric_type out_of_enum: data retention duration has no matching controlled-vocabulary value | metric_type fuera de enum: personal-data retention window — descriptor 'data retention period' (K5). · geography verbatim 'in the EU'. Page undated — not normalized (K1). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Payhip | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Payhip transaction data retention period for EU VAT purposes | payments handled by the selected processor with no card details collected, transaction data retained 10 years for EU VAT purposes, and all data stored on secure servers in the EU |
-| `time_scope_raw` _(B · 📝 texto libre)_ | from the date of the transaction | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
 - Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
 - Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
 
@@ -1533,146 +1626,24 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 53 — `ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002-SNP-001`
-
-- **Batch de origen:** batch_041
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> [Stated in layout: "10% + $0.50 Per transaction for all sales through your profile or direct links to your customers."]
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `metric_unit` _(A · 📝 texto libre)_ | percent + USD flat | mixed: % + USD per transaction |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 10% + $0.50 | 10% + $0.50 Per transaction |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Snippet delivered as a layout capture (K10). Page undated ('Accessed April 2026') — not normalized (K1). Mixed units declared. Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Gumroad direct-sale (profile/direct link) per-transaction fee rate | fee of 10% + $0.50 per transaction for sales through the seller's profile or direct links |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | source_date_unclear | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 54 — `ER-SP-compass_artifact_wf-e68dd732-3da5-44dc-ac62-efdb81f1bdc1_text_markdown-002-SNP-002`
-
-- **Batch de origen:** batch_041
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> [Stated in layout: "30% Per transaction when new customers find and buy from you through our discover marketplace."]
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `metric_unit` _(A · 📝 texto libre)_ | percent | % per transaction |
-| `metric_value_raw` _(A · 📝 texto libre)_ | 30% | 30% Per transaction |
-| `parser_notes` _(A · 📝 texto libre)_ | Discover fee (30%) is distinct from direct/profile fee (10%+$0.50); not collapsed into one figure | Snippet delivered as a layout capture (K10). Page undated — not normalized (K1). Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Gumroad Discover marketplace per-transaction fee rate | fee of 30% per transaction when new customers find and buy through the discover marketplace |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; page undated | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | source_date_unclear | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 55 — `ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-009-SNP-001`
-
-- **Batch de origen:** batch_043
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> "While Lemon Squeezy caters to solo creators and indie hackers, Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements." and "At $50,000 monthly revenue, Polar saves you $500/month. At $100,000, you save $1,000/month compared to Lemon Squeezy."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `actor_level` _(A · 🔒 enum)_ | third_party | platform |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements |
-| `metric_type` _(A · 🔒 enum)_ | fee_rate | fee savings comparison |
-| `metric_unit` _(A · 📝 texto libre)_ | USD | USD per month saved |
-| `metric_value_raw` _(A · 📝 texto libre)_ | $500/month saved at $50,000; $1,000/month saved at $100,000 | At $50,000 monthly revenue, Polar saves you $500/month. At $100,000, you save $1,000/month compared to Lemon Squeezy |
-| `parser_notes` _(A · 📝 texto libre)_ | Comparison page is published by Polar itself about a competitor (Lemon Squeezy); potential vendor bias | metric_type fuera de enum: claimed monthly savings versus competitor — descriptor 'fee savings comparison' (K5). · Comparison page on the competitor's own site (polar.sh) — actor 'platform' by who speaks (K7/K11) and author_conflict_of_interest_possible (K4). Page not dated — not normalized (K1). |
-| `subject_exact` _(A · 📝 texto libre)_ | Polar vs Lemon Squeezy monthly savings at $50,000 and $100,000 revenue tiers (Polar-authored comparison) | Polar positioned for developers needing robust APIs and enterprise scale versus Lemon Squeezy for solo creators, with claimed savings of $500/month at $50,000 and $1,000/month at $100,000 revenue |
-| `time_scope_raw` _(B · 📝 texto libre)_ | not dated (current as of April 2026) | _(null)_ |
-
-Diferencias de solo orden (C) en este record, no motivan inclusion:
-- `platforms`
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 56 — `ER-SP-compass_artifact_wf-f51aad3f-6ad1-4ebb-9cb3-cdab05234caa_text_markdown-014-SNP-001`
-
-- **Batch de origen:** batch_043
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> "Right now, to be honest, our MVP is on par with Gumroad in terms of functionality. Our user experience diversifies us, but the true value in what Lemon Squeezy can do for you beyond what already exists is yet to come."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | explicit_claim | comparative_commentary |
-| `evidence_role` _(A · 🔒 enum)_ | seller_self_claim | direct_claim |
-| `local_qualifiers` _(A · 📝 texto libre)_ | our MVP is on par with Gumroad in terms of functionality | Our user experience diversifies us · the true value in what Lemon Squeezy can do for you beyond what already exists is yet to come |
-| `parser_notes` _(A · 📝 texto libre)_ | Forum post is from Lemon Squeezy's own founder, an early-stage self-assessment likely outdated relative to 2026 | First-person platform-founder voice in the forum post ('our MVP') — actor 'platform' by who speaks (K7) and author_conflict_of_interest_possible (K4). · time_scope_raw 'Right now' is relative — normalized left null (criterion G). Source date '~2021' is approximate — source_date_unclear (K2). |
-| `subject_exact` _(A · 📝 texto libre)_ | Lemon Squeezy founder's self-assessment of MVP parity with Gumroad functionality | founder's statement that the Lemon Squeezy MVP is on par with Gumroad in functionality, differentiated by user experience, with further value yet to come |
-| `time_scope_raw` _(A · 📝 texto libre)_ | ~2021 | Right now |
-| `uncertainties` _(A · 🔒 enum)_ | source_date_unclear · current_vs_historical_ambiguity | author_conflict_of_interest_possible · source_date_unclear |
-
-Diferencias de solo orden (C) en este record, no motivan inclusion:
-- `platforms`
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 57 — `ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-005-SNP-001`
+## Caso 57 — `ER-SP-compass_artifact_wf-f65accb1-75e2-4cb1-be7d-0d01a8fabf93_text_markdown-009-SNP-001`
 
 - **Batch de origen:** batch_044
 - **Estrato:** E3
 
 **snippet_primary:**
 
-> "If the retail price of a Product is listed in a currency other than United States Dollars (USD), Gumroad will calculate a USD price based upon an exchange rate determined by Gumroad. Gumroad uses exchange rates obtained from http://openexchangerates.org/api. Gumroad cannot and does not guarantee that the exchange rate displayed reflects the most up to date rate due to the fluctuating nature of exchange rates. Accordingly, Gumroad recommends that you confirm current rates before engaging in any transactions on the Platform. Regardless of listed currency, all transactions through the Services will settle in USD."
+> "We wanted to inform you that PayPal has suspended Gumroad's use of their service. As a result, we can no longer process payouts to PayPal accounts. We've invested heavily in direct bank transfers for nearly every country. We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
-| `local_qualifiers` _(A · 📝 texto libre)_ | Gumroad cannot and does not guarantee that the exchange rate displayed reflects the most up to date rate | Gumroad cannot and does not guarantee that the exchange rate displayed reflects the most up to date rate · Gumroad recommends that you confirm current rates before engaging in any transactions · Regardless of listed currency, all transactions through the Services will settle in USD |
-| `metric_unit` _(B · 📝 texto libre)_ | USD | _(null)_ |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Policy state claim with explicit Effective Date January 1, 2025 and null raw — normalized (K1). 'openexchangerates.org' is a data source named in the policy, not a marketplace platform — excluded (K3). |
-| `subject_exact` _(A · 📝 texto libre)_ | Gumroad exchange-rate determination method and USD settlement guarantee | USD price calculation for non-USD listings using exchange rates from openexchangerates.org without guarantee of currency, with all transactions settling in USD |
-| `time_scope_raw` _(B · 📝 texto libre)_ | Effective January 1, 2025; last updated December 10, 2024 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
+| `claim_type` _(A · 🔒 enum)_ | explicit_claim | policy_statement |
+| `local_qualifiers` _(A · 📝 texto libre)_ | We've invested heavily in direct bank transfers for nearly every country | We've invested heavily in direct bank transfers for nearly every country · We encourage you to connect a bank account directly to your Gumroad account to ensure uninterrupted payouts |
+| `metric_value_raw` _(B · 📝 texto libre)_ | _(null)_ | we can no longer process payouts to PayPal accounts |
+| `parser_notes` _(A · 📝 texto libre)_ | Quoted Gumroad-to-seller notice reposted in a seller forum thread | PayPal named as the company taking the suspension action, not as an incidental payment method — included in platforms (K3). Quoted platform email relayed in a forum thread — actor 'platform' by who speaks (K7), evidence reported_event. · Narrated event — the October 16, 2024 email date does not normalize the claim's time scope (K1). |
+| `subject_exact` _(A · 📝 texto libre)_ | PayPal's suspension of Gumroad's use of its payout service | platform email announcing PayPal suspended Gumroad's use of its service, ending PayPal payouts, with direct bank transfers offered for nearly every country instead |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2024-10-16 | _(null)_ |
+| `time_scope_raw` _(B · 📝 texto libre)_ | October 16, 2024 (email timestamp: Wed, 16 Oct 2024 22:11:34 UTC) | _(null)_ |
 
 **Criterios vigentes en este batch:**
 
@@ -1684,85 +1655,86 @@ Diferencias de solo orden (C) en este record, no motivan inclusion:
 
 ---
 
-## Caso 58 — `ER-SP-compass_artifact_wf-f678b42a-32e6-4c77-b539-89b40c493fbb_text_markdown-010-SNP-003`
-
-- **Batch de origen:** batch_045
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> "Debido a la nueva normativa del Banco Central de la República Argentina (BCRA), que amplió el plazo para las remesas al exterior y afectó la liquidación de operaciones, se estandarizó la aplicación de una tarifa en los pagos con conversión de compra con pesos argentinos (ARS) para ofertas en dólares estadounidenses (USD), o conversiones de comisiones en dólares estadounidenses (USD) para productos ofertados en pesos argentinos (ARS)."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | Debido a la nueva normativa del Banco Central de la República Argentina (BCRA), que amplió el plazo para las remesas al exterior · pagos con conversión de compra con pesos argentinos (ARS) para ofertas en dólares estadounidenses (USD), o conversiones de comisiones en dólares estadounidenses (USD) para productos ofertados en pesos argentinos (ARS) |
-| `metric_type` _(A · 🔒 enum)_ | fee_rate | unknown |
-| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Fee mentioned without a rate — metric_type left 'unknown'. geography from the BCRA/ARS references naming Argentina. Platform named only in source_ref — platforms left empty (criterion F). |
-| `platforms` _(B · 📝 texto libre)_ | Hotmart | _(lista vacia)_ |
-| `subject_exact` _(A · 📝 texto libre)_ | Hotmart currency-conversion fee for ARS-USD commission conversions tied to Argentina BCRA regulation | standardized fee applied to ARS/USD conversion payments and commissions due to a BCRA regulation extending remittance timelines and affecting settlement |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-04 | _(null)_ |
-| `time_scope_raw` _(B · 📝 texto libre)_ | as of April 2026 | _(null)_ |
-| `uncertainties` _(B · 🔒 enum)_ | none | _(lista vacia)_ |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 59 — `ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-004-SNP-003`
+## Caso 58 — `ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-002`
 
 - **Batch de origen:** batch_046
 - **Estrato:** E3
 
 **snippet_primary:**
 
-> "This is the worst online purchasing experience I have ever had. I paid for my purchase, post payment I was given the option to send the book to kindle - this didn't work. I set up an account and to..."
+> "DONT GO NEAR THIS COMPANY. SMOKESCREENS AND MIRRORS EXPERIENCE . ZERO CUSTOMER SUPPORT , NOT EVEN A BOT GENERATED COURTESY MAILMTOMSAY WE HAVE RECEIVED YOUR QUERY/COMPLAINT AND RE LOOKING INTO IT. I HAVE REPORTED THEM TO MASTERCARD WITH A REFUND REQUEST AND A RECOMMENDATION TO BLACK LIST THEM . WETHER IT IS INCOMPETENCE OR DELIBERATE FRAUDULENCE IS DIFFICULT TO TELL, BUT THE RESULT IS THE SAME. YOU WASTE TIME AND MONEY ON A PRODUCT THAT YOU PAY FOR BUT NEVER RECEIVE."
 
 | Campo | Sonnet | Fable |
 |---|---|---|
 | `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
-| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | This is the worst online purchasing experience I have ever had · I was given the option to send the book to kindle - this didn't work |
-| `parser_notes` _(A · 📝 texto libre)_ | Snippet truncated with '...' | Snippet cuts mid-sentence ('I set up an account and to...') — flagged snippet_needs_reopen (K8). 'kindle' named as the delivery service — included (K3). Gumroad named only in source_ref — not listed (criterion F). Digital book purchase — product_type 'ebook'. |
-| `platforms` _(A · 📝 texto libre)_ | Gumroad | Kindle |
-| `subject_exact` _(A · 📝 texto libre)_ | Trustpilot buyer complaint about broken Kindle-send feature for a Gumroad ebook purchase | buyer whose post-payment send-to-Kindle option did not work, describing it as their worst online purchasing experience |
-| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2026-04-01 | _(null)_ |
-| `time_scope_raw` _(B · 📝 texto libre)_ | April 1, 2026 | _(null)_ |
-| `uncertainties` _(A · 🔒 enum)_ | context_insufficient | anecdotal_single_source · snippet_needs_reopen |
-
-**Criterios vigentes en este batch:**
-
-- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
-- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
-
-**Veredicto:**
-
-
----
-
-## Caso 60 — `ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-005-SNP-005`
-
-- **Batch de origen:** batch_046
-- **Estrato:** E3
-
-**snippet_primary:**
-
-> "I provided full proof that I was blocked by the seller within the refund period, yet Gumroad kept sending automated AI replies saying \"contact the seller.\" Now, they simply ignore my emails — not even a single human response. This platform protects scammers, not creators or customers. I've already reported this to FTC and my local bank."
-
-| Campo | Sonnet | Fable |
-|---|---|---|
-| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
-| `local_qualifiers` _(A · 📝 texto libre)_ | within the refund period | I provided full proof that I was blocked by the seller within the refund period · kept sending automated AI replies saying "contact the seller" · This platform protects scammers, not creators or customers |
-| `metric_type` _(A · 🔒 enum)_ | refund_policy | unknown |
-| `parser_notes` _(A · 📝 texto libre)_ | Buyer states having reported the matter to FTC and their bank | 'FTC' is a regulator, not a platform — excluded (K3). |
-| `subject_exact` _(A · 📝 texto libre)_ | Trustpilot buyer complaint of automated-only Gumroad support response after being blocked by a seller within the refund window | buyer blocked by a seller within the refund period who received only automated AI replies from Gumroad, then silence, and reported the case to the FTC and their bank |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | ZERO CUSTOMER SUPPORT , NOT EVEN A BOT GENERATED COURTESY MAIL · WETHER IT IS INCOMPETENCE OR DELIBERATE FRAUDULENCE IS DIFFICULT TO TELL · YOU WASTE TIME AND MONEY ON A PRODUCT THAT YOU PAY FOR BUT NEVER RECEIVE |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'MASTERCARD' is a card network — excluded from platforms (K3). 'THIS COMPANY' is unnamed in text — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Trustpilot buyer complaint of zero human customer-support response after escalating a Gumroad dispute to Mastercard | buyer reporting zero customer support with no acknowledgment of their complaint, a paid product never received, and a Mastercard refund request with a blacklist recommendation |
 | `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2025-11-19 | _(null)_ |
 | `time_scope_raw` _(B · 📝 texto libre)_ | November 19, 2025 | _(null)_ |
 | `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 59 — `ER-SP-compass_artifact_wf-fbf25436-287d-411c-be97-ee28c335a4a4_text_markdown-006-SNP-001`
+
+- **Batch de origen:** batch_046
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "BUYERS BEWARE: I purchased a chrome extension for $17 that didn't work. I never received a receipt and the extension didn't work with no contact info for the developer. I contacted support after multiple AI email responses, was forced to open a chargeback. TERRIBLE customer service. I wish I'd checked into this website before purchasing this extension."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | review_statement | anecdotal_report |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | I purchased a chrome extension for $17 that didn't work · I never received a receipt · was forced to open a chargeback |
+| `metric_unit` _(B · 📝 texto libre)_ | USD | _(null)_ |
+| `metric_value_raw` _(B · 📝 texto libre)_ | $17 | _(null)_ |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | 'chrome extension' is a software product — product_type 'software' (closest explicit match). 'chrome' appears inside the product label — excluded from platforms (K3). Gumroad named only in source_ref ('this website') — platforms left empty (criterion F). |
+| `platforms` _(B · 📝 texto libre)_ | Gumroad | _(lista vacia)_ |
+| `subject_exact` _(A · 📝 texto libre)_ | Trustpilot buyer complaint of a non-functional Chrome extension purchase with no developer contact on Gumroad | buyer of a $17 Chrome extension that did not work, with no receipt, no developer contact info, multiple AI support replies, and a forced chargeback |
+| `time_scope_normalized_if_safe` _(B · 📝 texto libre)_ | 2025-08-12 | _(null)_ |
+| `time_scope_raw` _(B · 📝 texto libre)_ | August 12, 2025 | _(null)_ |
+| `uncertainties` _(A · 🔒 enum)_ | none | anecdotal_single_source |
+
+**Criterios vigentes en este batch:**
+
+- Sonnet — S1 (desde batch_008), S2 (desde batch_008), S3 (desde batch_008), S4 (desde batch_016), S5 (desde batch_016), S6 (desde batch_040), S7 (desde batch_040), S8 (desde batch_040)
+- Fable — K1 (desde batch_008), K2 (desde batch_008), K3 (desde batch_008), K4 (desde batch_008), K5 (desde batch_008), K6 (desde batch_008), K7 (desde batch_008), K8 (desde batch_016), K9 (desde batch_016), K10 (desde batch_032), K11 (desde batch_032), K12 (desde batch_032), K13 (desde batch_040), K14 (desde batch_040)
+
+**Veredicto:**
+
+
+---
+
+## Caso 60 — `ER-SP-compass_artifact_wf-ff9eedd9-5f17-49fb-9226-4a8afea39903_text_markdown_normalized-017-SNP-001`
+
+- **Batch de origen:** batch_047
+- **Estrato:** E3
+
+**snippet_primary:**
+
+> "All your marketing was linked to the gumroad page. That means you need to update all those links. But do you honestly know and control where those links are? I don't think you will. There will be people mentioning it in Reddit comments, reddit posts, IH comments, Hacker News comments, slack messages... Changing to a competitor is probably going to result in lost sales if you've got any decent traction in social media."
+
+| Campo | Sonnet | Fable |
+|---|---|---|
+| `claim_type` _(A · 🔒 enum)_ | comparative_commentary | instructional_statement |
+| `evidence_role` _(A · 🔒 enum)_ | anecdotal_example | direct_claim |
+| `local_qualifiers` _(B · 📝 texto libre)_ | _(lista vacia)_ | But do you honestly know and control where those links are? I don't think you will · Changing to a competitor is probably going to result in lost sales if you've got any decent traction in social media |
+| `parser_notes` _(B · 📝 texto libre)_ | _(lista vacia)_ | Actor 'seller' per assignment_rule (seller_forum, seller-audience advice). Post date 'undated (context suggests early-to-mid 2023)' is approximate — source_date_unclear (K2). |
+| `platforms` _(A · 📝 texto libre)_ | Gumroad | Gumroad · Reddit · Hacker News · Slack |
+| `subject_exact` _(A · 📝 texto libre)_ | peer-warned risk of lost sales when migrating away from Gumroad due to uncontrolled external link references | warning that migrating off a Gumroad page breaks uncontrolled inbound links across Reddit, Hacker News, Slack and elsewhere, likely costing sales for sellers with social traction |
+| `time_scope_raw` _(B · 📝 texto libre)_ | Accessed April 2026; post undated (context suggests early-to-mid 2023) | _(null)_ |
 
 **Criterios vigentes en este batch:**
 

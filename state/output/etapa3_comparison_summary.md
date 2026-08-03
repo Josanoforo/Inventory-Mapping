@@ -87,8 +87,8 @@ menos los mecanicos), no hardcodeada.
 | `subject_exact` | 1172 | 0 | 0 | 1172 |
 | `time_scope_normalized_if_safe` | 11 | 233 | 0 | 244 |
 | `time_scope_raw` | 127 | 464 | 0 | 591 |
-| `uncertainties` | 470 | 505 | 1 | 976 |
-| **TOTAL** | **4540** | **3212** | **36** | **7788** |
+| `uncertainties` | 470 | 160 | 1 | 631 |
+| **TOTAL** | **4540** | **2867** | **36** | **7443** |
 
 ### Campos presentes en un corpus y no en el otro
 
@@ -130,15 +130,46 @@ Los desacuerdos en campos de texto libre (`subject_exact`,
 elegible a un record por si solos, pero se siguen mostrando en su
 bloque de adjudicacion si el record entro por otra via.
 
-**Contraste: elegibles bajo el criterio anterior (cualquier campo) vs
-el criterio de enum, por estrato:**
+**Contraste: elegibles por estrato, en TRES criterios sucesivos:**
 
-| Estrato | Elegibles — criterio anterior | Elegibles — criterio enum |
-|---|---:|---:|
-| E1 | 399 | 344 |
-| E2 | 595 | 590 |
-| E3 | 178 | 173 |
-| **TOTAL** | **1172** | **1107** |
+1. **Criterio original** — desacuerdo (A)/(B) en cualquier campo,
+   sin la excepcion none≡[] de `uncertainties`.
+2. **Criterio enum** — desacuerdo (A)/(B) restringido a campos de
+   enum, sin la excepcion none≡[].
+3. **Criterio enum con none≡[] aplicado** — el mismo criterio enum,
+   pero con ['none'] y [] tratados como equivalentes en
+   `uncertainties` (ver seccion siguiente). Este es el criterio
+   vigente: el que alimenta el muestreo de este documento.
+
+| Estrato | Criterio original | Criterio enum | Criterio enum + none≡[] |
+|---|---:|---:|---:|
+| E1 | 399 | 344 | 328 |
+| E2 | 595 | 590 | 496 |
+| E3 | 178 | 173 | 140 |
+| **TOTAL** | **1172** | **1107** | **964** |
+
+## Vocabulario — none≡[] en `uncertainties` (paso 1)
+
+Hallazgo de vocabulario entre los dos codificadores, no de juicio.
+Medido sobre el universo comparado (1172 records), ANTES de aplicar
+ninguna excepcion, para poder decidir si aplicarla.
+
+| Medicion | N |
+|---|---:|
+| (a) `["none"]` contra `[]` (cualquier direccion) | 345 |
+| (b) `[]` contra `[]`, o `["none"]` contra `["none"]` | 34 |
+| (c) `"none"` mezclado con otros valores en el mismo array | 0 |
+
+`uncertainties` tenia 975 desacuerdos (A)/(B) antes de la excepcion;
+(a) = 345 de esos dejan de contarse como desacuerdo al aplicarla,
+quedando 630.
+
+(b) no revela bug: los 34 casos donde ambos lados ya coinciden
+(`[]`/`[]` o `["none"]`/`["none"]`) nunca se contaron como
+desacuerdo, con o sin la excepcion.
+
+(c) es 0: `"none"` nunca aparece mezclado con otros valores en el
+mismo array, en ningun corpus.
 
 ## Muestreo estratificado
 
@@ -152,10 +183,10 @@ cada estrato.
 
 | Estrato | Batches | Elegibles (enum A/B) | Cuota | Tomados | Deficit |
 |---|---|---:|---:|---:|---:|
-| E1 | batch_001–batch_016 | 344 | 19 | 19 | 0 |
-| E2 | batch_017–batch_040 | 590 | 32 | 32 | 0 |
-| E3 | batch_041–batch_048 | 173 | 9 | 9 | 0 |
-| **TOTAL** | | **1107** | **60** | **60** | **0** |
+| E1 | batch_001–batch_016 | 328 | 20 | 20 | 0 |
+| E2 | batch_017–batch_040 | 496 | 31 | 31 | 0 |
+| E3 | batch_041–batch_048 | 140 | 9 | 9 | 0 |
+| **TOTAL** | | **964** | **60** | **60** | **0** |
 
 ## Rechazos (fuera del universo comparado)
 

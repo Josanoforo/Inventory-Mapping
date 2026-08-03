@@ -127,11 +127,41 @@ def multiset(seq):
 # Clasificacion de una diferencia de campo
 # ---------------------------------------------------------------------------
 
-def classify(val_a, val_b):
+# Unica excepcion a "no se normaliza nada mas que whitespace" (ver `norm`).
+# Decision del operador, 2026-08-03: en el campo `uncertainties` unicamente,
+# ["none"] y [] se tratan como equivalentes al clasificar. Los dos
+# codificadores usan ambas formas para el mismo hecho de dominio -- "sin
+# incertidumbre declarada" -- una como valor de enum literal, la otra como
+# ausencia. Contarlas como (B) infla el desacuerdo con vocabulario, no con
+# juicio: medido en 345 de los 1172 records del universo comparado. No se
+# extiende a ningun otro campo ni a ninguna otra forma de "vacio".
+NONE_EQUIVALENT_FIELD = "uncertainties"
+
+
+def _is_none_marker(value):
+    return isinstance(value, list) and value == ["none"]
+
+
+def _is_empty_list(value):
+    return isinstance(value, list) and len(value) == 0
+
+
+def classify(field, val_a, val_b, apply_none_equiv=True):
     """Clasifica la relacion entre dos valores de un mismo campo.
 
     Devuelve None si son equivalentes, o una de CLASS_A / CLASS_B / CLASS_C.
+
+    apply_none_equiv controla unicamente la excepcion de `uncertainties`
+    documentada arriba. Existe como parametro (en vez de aplicarse siempre)
+    para poder reportar, lado a lado, el conteo de antes y despues de esa
+    excepcion — no cambia nada en la clasificacion de ningun otro campo.
     """
+    if apply_none_equiv and field == NONE_EQUIVALENT_FIELD:
+        if (_is_none_marker(val_a) and _is_empty_list(val_b)) or (
+            _is_empty_list(val_a) and _is_none_marker(val_b)
+        ):
+            return None
+
     a_empty = is_empty(val_a)
     b_empty = is_empty(val_b)
 
@@ -408,12 +438,18 @@ def render_scalar(value):
 # Comparacion
 # ---------------------------------------------------------------------------
 
-def compare(records_a, records_b, batch_map, eligibility_field_set):
+def compare(records_a, records_b, batch_map, eligibility_field_set,
+            apply_none_equiv=True):
     """Compara el universo comun y devuelve la estructura de resultados.
 
     eligibility_field_set: campos de enum (menos los mecanicos) usados para
     decidir si un record entra a la muestra (paso 3 revisado). No afecta el
     conteo por campo, que sigue reportando TODOS los campos.
+
+    apply_none_equiv: ver `classify`. Se expone aqui solo para poder producir
+    la comparacion "legacy" (sin la excepcion de uncertainties) que el
+    resumen usa como columna de contraste; la comparacion real usada para el
+    conteo por campo y el muestreo siempre corre con apply_none_equiv=True.
     """
     universe = sorted(set(records_a) & set(records_b))
 
@@ -447,7 +483,7 @@ def compare(records_a, records_b, batch_map, eligibility_field_set):
         for field in mechanical_present:
             va = ra.get(field, ABSENT)
             vb = rb.get(field, ABSENT)
-            cls = classify(va, vb)
+            cls = classify(field, va, vb, apply_none_equiv)
             if cls:
                 per_field[field][cls] += 1
                 integrity_bugs.append(
@@ -464,7 +500,7 @@ def compare(records_a, records_b, batch_map, eligibility_field_set):
         for field in judgment_fields:
             va = ra.get(field, ABSENT)
             vb = rb.get(field, ABSENT)
-            cls = classify(va, vb)
+            cls = classify(field, va, vb, apply_none_equiv)
             if cls:
                 per_field[field][cls] += 1
                 diffs.append(
@@ -511,6 +547,52 @@ def compare(records_a, records_b, batch_map, eligibility_field_set):
 # ---------------------------------------------------------------------------
 # Muestreo estratificado
 # ---------------------------------------------------------------------------
+
+def measure_none_equiv_uncertainties(records_a, records_b, universe):
+    """Mide, sobre `uncertainties`, las tres cifras del paso 1 del encargo.
+
+    a) cuantos pares son exactamente ["none"] contra [] (en cualquier
+       direccion) -- estos son los que la excepcion normaliza.
+    b) cuantos pares son [] contra [] o ["none"] contra ["none"] -- estos NO
+       deberian contarse como desacuerdo bajo NINGUNA version del
+       comparador; si `classify` (sin la excepcion) los marca como (A)/(B),
+       es un bug de integridad del comparador, no un caso de la excepcion.
+    c) cuantos records tienen "none" mezclado con otros valores en el mismo
+       array de uncertainties -- esto NO se normaliza, se reporta aparte.
+    """
+    none_vs_empty_ids = []
+    both_equiv_ids = []
+    both_equiv_bug_ids = []
+    mixed = {"sonnet": [], "fable": []}
+
+    for eid in universe:
+        va = norm(records_a[eid].get("uncertainties", ABSENT))
+        vb = norm(records_b[eid].get("uncertainties", ABSENT))
+
+        a_none = _is_none_marker(va)
+        b_none = _is_none_marker(vb)
+        a_empty = _is_empty_list(va)
+        b_empty = _is_empty_list(vb)
+
+        if (a_none and b_empty) or (a_empty and b_none):
+            none_vs_empty_ids.append(eid)
+        if (a_empty and b_empty) or (a_none and b_none):
+            both_equiv_ids.append(eid)
+            if classify("uncertainties", va, vb, apply_none_equiv=False) is not None:
+                both_equiv_bug_ids.append(eid)
+
+        if isinstance(va, list) and "none" in va and len(va) > 1:
+            mixed["sonnet"].append(eid)
+        if isinstance(vb, list) and "none" in vb and len(vb) > 1:
+            mixed["fable"].append(eid)
+
+    return {
+        "none_vs_empty_ids": none_vs_empty_ids,
+        "both_equiv_ids": both_equiv_ids,
+        "both_equiv_bug_ids": both_equiv_bug_ids,
+        "mixed": mixed,
+    }
+
 
 def eligibility_counts_by_stratum(cases, key):
     """Cuenta, por estrato, cuantos casos cumplen `key` (funcion sobre case).
@@ -593,7 +675,8 @@ def sample(cases, seed=SEED, target=TARGET_SAMPLE):
 # Salidas
 # ---------------------------------------------------------------------------
 
-def write_summary(path, result, samp, rejects, corpus_meta, eligibility_meta):
+def write_summary(path, result, samp, rejects, corpus_meta, eligibility_meta,
+                   none_equiv_meta):
     L = []
     w = L.append
 
@@ -745,28 +828,132 @@ def write_summary(path, result, samp, rejects, corpus_meta, eligibility_meta):
     w("elegible a un record por si solos, pero se siguen mostrando en su")
     w("bloque de adjudicacion si el record entro por otra via.")
     w("")
-    w("**Contraste: elegibles bajo el criterio anterior (cualquier campo) vs")
-    w("el criterio de enum, por estrato:**")
+    w("**Contraste: elegibles por estrato, en TRES criterios sucesivos:**")
     w("")
-    w("| Estrato | Elegibles — criterio anterior | Elegibles — criterio enum |")
-    w("|---|---:|---:|")
+    w("1. **Criterio original** — desacuerdo (A)/(B) en cualquier campo,")
+    w("   sin la excepcion none≡[] de `uncertainties`.")
+    w("2. **Criterio enum** — desacuerdo (A)/(B) restringido a campos de")
+    w("   enum, sin la excepcion none≡[].")
+    w("3. **Criterio enum con none≡[] aplicado** — el mismo criterio enum,")
+    w("   pero con ['none'] y [] tratados como equivalentes en")
+    w("   `uncertainties` (ver seccion siguiente). Este es el criterio")
+    w("   vigente: el que alimenta el muestreo de este documento.")
+    w("")
+    w("| Estrato | Criterio original | Criterio enum | Criterio enum + none≡[] |")
+    w("|---|---:|---:|---:|")
     for name, lo, hi in STRATA:
         w(
-            "| %s | %d | %d |"
+            "| %s | %d | %d | %d |"
             % (
                 name,
                 eligibility_meta["old_by_stratum"][name],
-                eligibility_meta["new_by_stratum"][name],
+                eligibility_meta["new_by_stratum_pre"][name],
+                eligibility_meta["new_by_stratum_post"][name],
             )
         )
     w(
-        "| **TOTAL** | **%d** | **%d** |"
+        "| **TOTAL** | **%d** | **%d** | **%d** |"
         % (
             sum(eligibility_meta["old_by_stratum"].values()),
-            sum(eligibility_meta["new_by_stratum"].values()),
+            sum(eligibility_meta["new_by_stratum_pre"].values()),
+            sum(eligibility_meta["new_by_stratum_post"].values()),
         )
     )
     w("")
+
+    w("## Vocabulario — none≡[] en `uncertainties` (paso 1)")
+    w("")
+    w("Hallazgo de vocabulario entre los dos codificadores, no de juicio.")
+    w("Medido sobre el universo comparado (%d records), ANTES de aplicar" % len(result["universe"]))
+    w("ninguna excepcion, para poder decidir si aplicarla.")
+    w("")
+    n_none_vs_empty = len(none_equiv_meta["none_vs_empty_ids"])
+    n_both_equiv = len(none_equiv_meta["both_equiv_ids"])
+    n_both_equiv_bug = len(none_equiv_meta["both_equiv_bug_ids"])
+    n_mixed_sonnet = len(none_equiv_meta["mixed"]["sonnet"])
+    n_mixed_fable = len(none_equiv_meta["mixed"]["fable"])
+    w("| Medicion | N |")
+    w("|---|---:|")
+    w(
+        "| (a) `[\"none\"]` contra `[]` (cualquier direccion) | %d |"
+        % n_none_vs_empty
+    )
+    w(
+        "| (b) `[]` contra `[]`, o `[\"none\"]` contra `[\"none\"]` | %d |"
+        % n_both_equiv
+    )
+    w(
+        "| (c) `\"none\"` mezclado con otros valores en el mismo array | %d |"
+        % (n_mixed_sonnet + n_mixed_fable)
+    )
+    w("")
+    tot_ab_uncertainties_pre = (
+        result["per_field"]["uncertainties"][CLASS_A]
+        + result["per_field"]["uncertainties"][CLASS_B]
+        + n_none_vs_empty
+    )
+    w(
+        "`uncertainties` tenia %d desacuerdos (A)/(B) antes de la excepcion;"
+        % tot_ab_uncertainties_pre
+    )
+    w(
+        "(a) = %d de esos dejan de contarse como desacuerdo al aplicarla,"
+        % n_none_vs_empty
+    )
+    w(
+        "quedando %d." % (result["per_field"]["uncertainties"][CLASS_A]
+                          + result["per_field"]["uncertainties"][CLASS_B])
+    )
+    w("")
+    if n_both_equiv_bug:
+        w(
+            "(b) tiene %d caso(s) que el comparador SIN la excepcion marcaba"
+            % n_both_equiv_bug
+        )
+        w(
+            "como desacuerdo pese a ser el mismo valor en ambos lados — bug de"
+        )
+        w("integridad del comparador, reportado aqui, no corregido por la excepcion.")
+    else:
+        w(
+            "(b) no revela bug: los %d casos donde ambos lados ya coinciden"
+            % n_both_equiv
+        )
+        w(
+            "(`[]`/`[]` o `[\"none\"]`/`[\"none\"]`) nunca se contaron como"
+        )
+        w("desacuerdo, con o sin la excepcion.")
+    w("")
+    if n_mixed_sonnet or n_mixed_fable:
+        w(
+            "(c) es distinto de (a): `\"none\"` aparece junto a otros valores"
+        )
+        w("en el mismo array. Estos casos NO se normalizan — la excepcion solo")
+        w("cubre `[\"none\"]` exacto contra `[]` exacto.")
+        w("")
+        w("| Corpus | N | extraction_id |")
+        w("|---|---:|---|")
+        w(
+            "| %s | %d | %s |"
+            % (
+                CODER_A,
+                n_mixed_sonnet,
+                ", ".join("`%s`" % e for e in none_equiv_meta["mixed"]["sonnet"]) or "—",
+            )
+        )
+        w(
+            "| %s | %d | %s |"
+            % (
+                CODER_B,
+                n_mixed_fable,
+                ", ".join("`%s`" % e for e in none_equiv_meta["mixed"]["fable"]) or "—",
+            )
+        )
+        w("")
+    else:
+        w("(c) es 0: `\"none\"` nunca aparece mezclado con otros valores en el")
+        w("mismo array, en ningun corpus.")
+        w("")
 
     w("## Muestreo estratificado")
     w("")
@@ -987,13 +1174,29 @@ def main():
         )
         return 1
 
+    # Comparacion real: con la excepcion none/[] de `uncertainties` aplicada.
+    # Es la que alimenta el conteo por campo y el muestreo (paso 2 y 3).
     result = compare(recs_a, recs_b, batch_map, set(elig_fields))
     samp = sample(result["cases"])
 
-    old_by_stratum = eligibility_counts_by_stratum(
-        result["cases"], lambda c: c["has_ab"]
+    # Comparacion "legacy": sin la excepcion, para poder reportar el
+    # contraste de las tres cifras de elegibilidad que pide el paso 3. No se
+    # usa para nada mas que ese reporte.
+    legacy_result = compare(
+        recs_a, recs_b, batch_map, set(elig_fields), apply_none_equiv=False
     )
-    new_by_stratum = eligibility_counts_by_stratum(
+
+    none_equiv_meta = measure_none_equiv_uncertainties(
+        recs_a, recs_b, result["universe"]
+    )
+
+    old_by_stratum = eligibility_counts_by_stratum(
+        legacy_result["cases"], lambda c: c["has_ab"]
+    )
+    new_by_stratum_pre = eligibility_counts_by_stratum(
+        legacy_result["cases"], lambda c: c["has_ab_eligible"]
+    )
+    new_by_stratum_post = eligibility_counts_by_stratum(
         result["cases"], lambda c: c["has_ab_eligible"]
     )
     eligibility_meta = {
@@ -1002,7 +1205,8 @@ def main():
         "excluded_mechanical": ENUM_FIELDS_EXCLUDED_AS_MECHANICAL,
         "eligibility_fields": elig_fields,
         "old_by_stratum": old_by_stratum,
-        "new_by_stratum": new_by_stratum,
+        "new_by_stratum_pre": new_by_stratum_pre,
+        "new_by_stratum_post": new_by_stratum_post,
     }
 
     meta = {
@@ -1022,6 +1226,7 @@ def main():
     write_summary(
         os.path.join(args.out, "etapa3_comparison_summary.md"),
         result, samp, {"a": rej_a, "b": rej_b}, meta, eligibility_meta,
+        none_equiv_meta,
     )
     write_adjudication(
         os.path.join(args.out, "etapa3_adjudication.md"),
