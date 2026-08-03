@@ -109,7 +109,10 @@ def section_remote_branches(current_branch):
         lines.append("")
         return lines
 
-    excluded = {"origin/HEAD", "origin/main"}
+    # git for-each-ref shortens the symbolic refs/remotes/origin/HEAD ref to
+    # just "origin" (not "origin/HEAD") via refname:short — must exclude
+    # that bare form too, or it slices into an empty branch name below.
+    excluded = {"origin/HEAD", "origin/main", "origin"}
     if current_branch:
         excluded.add(f"origin/{current_branch}")
 
@@ -119,7 +122,7 @@ def section_remote_branches(current_branch):
         if len(parts) != 3:
             continue
         ref, date, subject = parts
-        if ref in excluded:
+        if ref in excluded or not ref.startswith("origin/"):
             continue
         rows.append((ref, date, subject))
 
