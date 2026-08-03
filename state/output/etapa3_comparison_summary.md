@@ -94,20 +94,68 @@ menos los mecanicos), no hardcodeada.
 
 Ninguno: ambos corpus usan el mismo conjunto de claves.
 
+## Elegibilidad de muestreo — campos de enum
+
+Criterio revisado (paso 3): un record es elegible para la muestra si
+tiene al menos un desacuerdo (A) o (B) en un CAMPO DE ENUM, no en
+cualquier campo. Los campos de enum se derivan del schema
+`phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`,
+recorriendo cada propiedad top-level en busca de `enum` directo, dentro
+de `oneOf`, o en `items` de un array.
+
+**Campos de enum declarados por el schema:**
+
+- `source_type` _(excluido: mecanico)_
+- `claim_type`
+- `actor_level`
+- `product_type_if_explicit`
+- `metric_type`
+- `evidence_role`
+- `uncertainties`
+- `traceability_pointer` _(excluido: mecanico)_
+
+**Campos de elegibilidad (enum, menos mecanicos):**
+
+- `claim_type`
+- `actor_level`
+- `product_type_if_explicit`
+- `metric_type`
+- `evidence_role`
+- `uncertainties`
+
+Los desacuerdos en campos de texto libre (`subject_exact`,
+`local_qualifiers`, `metric_value_raw`, `metric_unit`, `time_scope_raw`,
+`time_scope_normalized_if_safe`, `geography_if_explicit`,
+`parser_notes`, `platforms`, `author_or_actor_if_available`) no hacen
+elegible a un record por si solos, pero se siguen mostrando en su
+bloque de adjudicacion si el record entro por otra via.
+
+**Contraste: elegibles bajo el criterio anterior (cualquier campo) vs
+el criterio de enum, por estrato:**
+
+| Estrato | Elegibles — criterio anterior | Elegibles — criterio enum |
+|---|---:|---:|
+| E1 | 399 | 344 |
+| E2 | 595 | 590 |
+| E3 | 178 | 173 |
+| **TOTAL** | **1172** | **1107** |
+
 ## Muestreo estratificado
 
 **Semilla: `20260803`** (fija y declarada; la muestra es reproducible).
 
 Muestra objetivo: ~60 casos. Solo entran extraction_id con al menos un
-desacuerdo (A) o (B). Los de tipo (C) no entran a la muestra.
-Reparto proporcional por mayor-resto sobre los elegibles de cada estrato.
+desacuerdo (A) o (B) en un CAMPO DE ENUM (elegibilidad). Los de tipo (C)
+y los desacuerdos exclusivamente en campos de texto libre no entran a
+la muestra. Reparto proporcional por mayor-resto sobre los elegibles de
+cada estrato.
 
-| Estrato | Batches | Elegibles (A/B) | Cuota | Tomados | Deficit |
+| Estrato | Batches | Elegibles (enum A/B) | Cuota | Tomados | Deficit |
 |---|---|---:|---:|---:|---:|
-| E1 | batch_001–batch_016 | 399 | 20 | 20 | 0 |
-| E2 | batch_017–batch_040 | 595 | 31 | 31 | 0 |
-| E3 | batch_041–batch_048 | 178 | 9 | 9 | 0 |
-| **TOTAL** | | **1172** | **60** | **60** | **0** |
+| E1 | batch_001–batch_016 | 344 | 19 | 19 | 0 |
+| E2 | batch_017–batch_040 | 590 | 32 | 32 | 0 |
+| E3 | batch_041–batch_048 | 173 | 9 | 9 | 0 |
+| **TOTAL** | | **1107** | **60** | **60** | **0** |
 
 ## Rechazos (fuera del universo comparado)
 

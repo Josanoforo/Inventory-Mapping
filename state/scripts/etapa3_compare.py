@@ -63,6 +63,10 @@ STRATA = [
     ("E3", 41, 48),
 ]
 
+# Campos mecanicos que ya declaran enum en el schema pero se comparan como
+# integridad, no como elegibilidad de muestreo (vienen del skeleton).
+ENUM_FIELDS_EXCLUDED_AS_MECHANICAL = ["source_type", "traceability_pointer"]
+
 # Clases de diferencia
 CLASS_A = "A"  # divergencia de valor: ambos con valor, valores distintos
 CLASS_B = "B"  # presencia vs ausencia: uno con valor, el otro null/[]/ausente
@@ -150,6 +154,54 @@ def classify(val_a, val_b):
     if freeze(val_a) == freeze(val_b):
         return None
     return CLASS_A
+
+
+# ---------------------------------------------------------------------------
+# Campos de elegibilidad, derivados del schema (no hardcodeados)
+# ---------------------------------------------------------------------------
+
+def derive_enum_fields(schema_path):
+    """Recorre el schema y devuelve las propiedades top-level que declaran un
+    enum en cualquier profundidad: directo, dentro de un oneOf, o en items de
+    un array. No se hardcodea la lista de campos; se deriva del JSON Schema.
+    """
+    with open(schema_path, "r", encoding="utf-8") as fh:
+        schema = json.load(fh)
+
+    def declares_enum(node):
+        found = []
+
+        def walk(n):
+            if not isinstance(n, dict):
+                return
+            if "enum" in n:
+                found.append(n["enum"])
+            if "items" in n:
+                walk(n["items"])
+            if "oneOf" in n:
+                for sub in n["oneOf"]:
+                    walk(sub)
+            if "properties" in n:
+                for sub in n["properties"].values():
+                    walk(sub)
+
+        walk(node)
+        return found
+
+    out = []
+    for name, node in schema.get("properties", {}).items():
+        if declares_enum(node):
+            out.append(name)
+    return out
+
+
+def eligibility_fields(schema_path):
+    """Campos de enum del schema, menos los que ya se comparan como
+    integridad mecanica (vienen del skeleton, no del juicio del codificador).
+    """
+    enum_fields = derive_enum_fields(schema_path)
+    excluded = set(ENUM_FIELDS_EXCLUDED_AS_MECHANICAL)
+    return enum_fields, [f for f in enum_fields if f not in excluded]
 
 
 # ---------------------------------------------------------------------------
@@ -356,8 +408,13 @@ def render_scalar(value):
 # Comparacion
 # ---------------------------------------------------------------------------
 
-def compare(records_a, records_b, batch_map):
-    """Compara el universo comun y devuelve la estructura de resultados."""
+def compare(records_a, records_b, batch_map, eligibility_field_set):
+    """Compara el universo comun y devuelve la estructura de resultados.
+
+    eligibility_field_set: campos de enum (menos los mecanicos) usados para
+    decidir si un record entra a la muestra (paso 3 revisado). No afecta el
+    conteo por campo, que sigue reportando TODOS los campos.
+    """
     universe = sorted(set(records_a) & set(records_b))
 
     # Campos de juicio: los que aparecen en cualquiera de los dos corpus,
@@ -416,17 +473,24 @@ def compare(records_a, records_b, batch_map):
                         "class": cls,
                         "value_a": va,
                         "value_b": vb,
+                        "is_eligibility_field": field in eligibility_field_set,
                     }
                 )
 
         if diffs:
+            has_ab_any = any(d["class"] in (CLASS_A, CLASS_B) for d in diffs)
+            has_ab_eligible = any(
+                d["class"] in (CLASS_A, CLASS_B) and d["is_eligibility_field"]
+                for d in diffs
+            )
             cases.append(
                 {
                     "extraction_id": eid,
                     "batch": batch,
                     "stratum": stratum_of(batch),
                     "diffs": diffs,
-                    "has_ab": any(d["class"] in (CLASS_A, CLASS_B) for d in diffs),
+                    "has_ab": has_ab_any,
+                    "has_ab_eligible": has_ab_eligible,
                     "snippet_primary": ra.get("snippet_primary", ABSENT),
                 }
             )
@@ -448,13 +512,29 @@ def compare(records_a, records_b, batch_map):
 # Muestreo estratificado
 # ---------------------------------------------------------------------------
 
+def eligibility_counts_by_stratum(cases, key):
+    """Cuenta, por estrato, cuantos casos cumplen `key` (funcion sobre case).
+    Usado para reportar el contraste entre el criterio de elegibilidad
+    anterior (cualquier campo) y el nuevo (solo campos de enum).
+    """
+    out = OrderedDict((name, 0) for name, _, _ in STRATA)
+    for c in cases:
+        if c["stratum"] is not None and key(c):
+            out[c["stratum"]] += 1
+    return out
+
+
 def sample(cases, seed=SEED, target=TARGET_SAMPLE):
     """Muestra estratificada proporcional, con semilla fija.
 
-    Solo entran casos con al menos un desacuerdo (A) o (B). Los (C) puros
-    quedan fuera de la muestra.
+    Elegibilidad (paso 3 revisado): un record entra a la muestra si tiene al
+    menos un desacuerdo (A) o (B) en un CAMPO DE ENUM (elegibilidad), no en
+    cualquier campo. Los desacuerdos en campos de texto libre no hacen
+    elegible a un record por si solos, pero se siguen mostrando en su bloque
+    de adjudicacion si el record entro por otra via. Los de tipo (C) puro
+    tampoco entran.
     """
-    eligible = [c for c in cases if c["has_ab"] and c["stratum"] is not None]
+    eligible = [c for c in cases if c["has_ab_eligible"] and c["stratum"] is not None]
     by_stratum = OrderedDict((name, []) for name, _, _ in STRATA)
     for c in eligible:
         by_stratum[c["stratum"]].append(c)
@@ -513,7 +593,7 @@ def sample(cases, seed=SEED, target=TARGET_SAMPLE):
 # Salidas
 # ---------------------------------------------------------------------------
 
-def write_summary(path, result, samp, rejects, corpus_meta):
+def write_summary(path, result, samp, rejects, corpus_meta, eligibility_meta):
     L = []
     w = L.append
 
@@ -638,16 +718,68 @@ def write_summary(path, result, samp, rejects, corpus_meta):
         w("Ninguno: ambos corpus usan el mismo conjunto de claves.")
         w("")
 
+    w("## Elegibilidad de muestreo — campos de enum")
+    w("")
+    w("Criterio revisado (paso 3): un record es elegible para la muestra si")
+    w("tiene al menos un desacuerdo (A) o (B) en un CAMPO DE ENUM, no en")
+    w("cualquier campo. Los campos de enum se derivan del schema")
+    w("`%s`," % eligibility_meta["schema_path"])
+    w("recorriendo cada propiedad top-level en busca de `enum` directo, dentro")
+    w("de `oneOf`, o en `items` de un array.")
+    w("")
+    w("**Campos de enum declarados por el schema:**")
+    w("")
+    for f in eligibility_meta["all_enum_fields"]:
+        tag = " _(excluido: mecanico)_" if f in eligibility_meta["excluded_mechanical"] else ""
+        w("- `%s`%s" % (f, tag))
+    w("")
+    w("**Campos de elegibilidad (enum, menos mecanicos):**")
+    w("")
+    for f in eligibility_meta["eligibility_fields"]:
+        w("- `%s`" % f)
+    w("")
+    w("Los desacuerdos en campos de texto libre (`subject_exact`,")
+    w("`local_qualifiers`, `metric_value_raw`, `metric_unit`, `time_scope_raw`,")
+    w("`time_scope_normalized_if_safe`, `geography_if_explicit`,")
+    w("`parser_notes`, `platforms`, `author_or_actor_if_available`) no hacen")
+    w("elegible a un record por si solos, pero se siguen mostrando en su")
+    w("bloque de adjudicacion si el record entro por otra via.")
+    w("")
+    w("**Contraste: elegibles bajo el criterio anterior (cualquier campo) vs")
+    w("el criterio de enum, por estrato:**")
+    w("")
+    w("| Estrato | Elegibles — criterio anterior | Elegibles — criterio enum |")
+    w("|---|---:|---:|")
+    for name, lo, hi in STRATA:
+        w(
+            "| %s | %d | %d |"
+            % (
+                name,
+                eligibility_meta["old_by_stratum"][name],
+                eligibility_meta["new_by_stratum"][name],
+            )
+        )
+    w(
+        "| **TOTAL** | **%d** | **%d** |"
+        % (
+            sum(eligibility_meta["old_by_stratum"].values()),
+            sum(eligibility_meta["new_by_stratum"].values()),
+        )
+    )
+    w("")
+
     w("## Muestreo estratificado")
     w("")
     w("**Semilla: `%d`** (fija y declarada; la muestra es reproducible).")
     L[-1] = L[-1] % SEED
     w("")
     w("Muestra objetivo: ~%d casos. Solo entran extraction_id con al menos un" % TARGET_SAMPLE)
-    w("desacuerdo (A) o (B). Los de tipo (C) no entran a la muestra.")
-    w("Reparto proporcional por mayor-resto sobre los elegibles de cada estrato.")
+    w("desacuerdo (A) o (B) en un CAMPO DE ENUM (elegibilidad). Los de tipo (C)")
+    w("y los desacuerdos exclusivamente en campos de texto libre no entran a")
+    w("la muestra. Reparto proporcional por mayor-resto sobre los elegibles de")
+    w("cada estrato.")
     w("")
-    w("| Estrato | Batches | Elegibles (A/B) | Cuota | Tomados | Deficit |")
+    w("| Estrato | Batches | Elegibles (enum A/B) | Cuota | Tomados | Deficit |")
     w("|---|---|---:|---:|---:|---:|")
     for name, lo, hi in STRATA:
         elig = samp["eligible_by_stratum"][name]
@@ -714,6 +846,12 @@ def write_adjudication(path, samp, crit_a, crit_b):
     w("solo orden (C) se listan aparte al final de cada bloque cuando existen,")
     w("y no motivan la inclusion del caso.")
     w("")
+    w("Elegibilidad del caso (paso 3 revisado): un record entra a la muestra")
+    w("si tiene al menos un desacuerdo (A) o (B) en un **campo de enum**")
+    w("(marcado 🔒 en la tabla de cada caso). Los campos de **texto libre**")
+    w("(marcados 📝) no hacen elegible a un record por si solos, pero se")
+    w("muestran igual si el record entro por un campo de enum.")
+    w("")
     w("El veredicto lo escribe el operador. El script no adjudica.")
     w("")
     w("---")
@@ -743,11 +881,13 @@ def write_adjudication(path, samp, crit_a, crit_b):
         w("| Campo | %s | %s |" % (CODER_A, CODER_B))
         w("|---|---|---|")
         for d in ab:
+            marker = "🔒 enum" if d["is_eligibility_field"] else "📝 texto libre"
             w(
-                "| `%s` _(%s)_ | %s | %s |"
+                "| `%s` _(%s · %s)_ | %s | %s |"
                 % (
                     d["field"],
                     d["class"],
+                    marker,
                     render_value(d["value_a"]),
                     render_value(d["value_b"]),
                 )
@@ -816,6 +956,12 @@ def main():
     ap.add_argument("--branch-b", default="")
     ap.add_argument("--sha-a", default="")
     ap.add_argument("--sha-b", default="")
+    ap.add_argument(
+        "--schema",
+        default="phases/01-source-intake/data-extraction/schemas/"
+        "data_extraction_record.schema.json",
+        help="schema del extraction record, para derivar campos de enum",
+    )
     args = ap.parse_args()
 
     recs_a = load_records(os.path.join(args.sonnet, "records"))
@@ -827,8 +973,37 @@ def main():
     crit_a = parse_criteria_sonnet(os.path.join(args.sonnet, "criteria.md"))
     crit_b = parse_criteria_fable(os.path.join(args.fable, "criteria.md"))
 
-    result = compare(recs_a, recs_b, batch_map)
+    all_enum_fields, elig_fields = eligibility_fields(args.schema)
+    required = {
+        "actor_level", "claim_type", "metric_type",
+        "evidence_role", "product_type_if_explicit",
+    }
+    missing = required - set(elig_fields)
+    if missing:
+        sys.stderr.write(
+            "PARADA: el schema no declara enum para: %s. El schema no "
+            "coincide con lo esperado; entender por que antes de seguir.\n"
+            % ", ".join(sorted(missing))
+        )
+        return 1
+
+    result = compare(recs_a, recs_b, batch_map, set(elig_fields))
     samp = sample(result["cases"])
+
+    old_by_stratum = eligibility_counts_by_stratum(
+        result["cases"], lambda c: c["has_ab"]
+    )
+    new_by_stratum = eligibility_counts_by_stratum(
+        result["cases"], lambda c: c["has_ab_eligible"]
+    )
+    eligibility_meta = {
+        "schema_path": args.schema,
+        "all_enum_fields": all_enum_fields,
+        "excluded_mechanical": ENUM_FIELDS_EXCLUDED_AS_MECHANICAL,
+        "eligibility_fields": elig_fields,
+        "old_by_stratum": old_by_stratum,
+        "new_by_stratum": new_by_stratum,
+    }
 
     meta = {
         "branch_a": args.branch_a,
@@ -846,7 +1021,7 @@ def main():
 
     write_summary(
         os.path.join(args.out, "etapa3_comparison_summary.md"),
-        result, samp, {"a": rej_a, "b": rej_b}, meta,
+        result, samp, {"a": rej_a, "b": rej_b}, meta, eligibility_meta,
     )
     write_adjudication(
         os.path.join(args.out, "etapa3_adjudication.md"),
@@ -855,11 +1030,12 @@ def main():
 
     n_bugs = len(result["integrity_bugs"])
     sys.stderr.write(
-        "universo=%d  casos_con_diferencia=%d  elegibles_AB=%d  muestra=%d  "
-        "bugs_integridad=%d\n"
+        "universo=%d  casos_con_diferencia=%d  elegibles_criterio_anterior=%d  "
+        "elegibles_enum=%d  muestra=%d  bugs_integridad=%d\n"
         % (
             len(result["universe"]),
             len(result["cases"]),
+            sum(old_by_stratum.values()),
             samp["eligible_total"],
             len(samp["picked"]),
             n_bugs,
