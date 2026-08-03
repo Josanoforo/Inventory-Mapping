@@ -1,0 +1,58 @@
+name: State Snapshot
+
+# Regenerates state/STATE.md, a mechanical snapshot of repo state (branches,
+# ledger counts, re-extraction progress, etc.) and commits it to main when
+# the content changed.
+#
+# Trigger: push to any branch. The snapshot reflects global repo state
+# (remote branches, in-progress re-extraction manifests across branches),
+# not just main, so it is regenerated whenever anything in the repo moves —
+# not only on push to main.
+#
+# Infinite-loop guard: this job's own commit is itself a push, which would
+# re-trigger this workflow. Two independent protections:
+#   1. actor guard below (github.actor != 'github-actions[bot]') skips runs
+#      triggered by this workflow's own commits.
+#   2. diff check before committing — if STATE.md content did not change,
+#      no commit is made, so even a push from another automated actor that
+#      produces no state change will not create a commit loop.
+# Both must stay in place.
+
+on:
+  push:
+    branches: ["**"]
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch all branches
+        run: git fetch origin --prune
+
+      - name: Generate STATE.md
+        run: python3 state/scripts/generate_state.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- state/STATE.md; then
+            echo "No change in state/STATE.md — skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/STATE.md
+          git commit -m "state: snapshot automático de STATE.md"
+          git push origin HEAD:main
