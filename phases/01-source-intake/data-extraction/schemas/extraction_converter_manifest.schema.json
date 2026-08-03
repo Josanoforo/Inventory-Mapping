@@ -48,7 +48,7 @@
     "records_recovery_staged": {
       "type": "integer",
       "minimum": 0,
-      "description": "Number of records staged to working/data_extraction/extraction_gpt_recovery/ because they could not be completed automatically."
+      "description": "Number of records staged to working/data_extraction/rejected_archive_phase1b/ because they could not be completed automatically."
     },
     "skeleton_failures": {
       "type": "integer",
@@ -103,7 +103,7 @@
           "type": "string",
           "enum": [
             "records",
-            "extraction_gpt_recovery",
+            "rejected_archive_phase1b",
             "skeleton_invalid"
           ],
           "description": "Where the record was routed. skeleton_invalid means the skeleton failed structural validation and no output was produced."

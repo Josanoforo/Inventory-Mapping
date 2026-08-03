@@ -45,7 +45,7 @@ For each skeleton:
 5. **Validate against schema**: check the complete record against `data_extraction_record.schema.json`.
 6. **Route to destination**:
    - If validation passes and no `required_field_unfillable` occurred: write to `working/data_extraction/records/<extraction_id>.json`, destination `records`
-   - If validation fails or a required field was unfillable: write to `working/data_extraction/extraction_gpt_recovery/<extraction_id>.json` using the recovery format (see below), destination `extraction_gpt_recovery`
+   - If validation fails or a required field was unfillable: write to `working/data_extraction/rejected_archive_phase1b/<extraction_id>.json` using the recovery format (see below), destination `rejected_archive_phase1b`
 7. **Update manifest**: append an entry to `processed_skeletons` with `extraction_id`, `destination`, `issues_for_this_record`, and `processed_at` timestamp. Save the manifest to disk immediately. Do not batch manifest writes.
 8. **Move to the next skeleton.**
 
@@ -69,7 +69,7 @@ For each skeleton:
 
 ## Recovery file format
 
-When a record is routed to `extraction_gpt_recovery/`, the file is not a raw partial record. It is staged with the structure the GPT recovery flow will consume:
+When a record is routed to `rejected_archive_phase1b/`, the file is not a raw partial record. It is staged with the structure the GPT recovery flow will consume:
 
 ```json
 {
@@ -111,7 +111,7 @@ At startup, read `working/data_extraction/extraction_converter_manifest.json`:
 - Do not modify the 10 mechanical fields of any skeleton. They were filled by stage 1 and must pass through unchanged.
 - Do not process skeletons in parallel. The manifest checkpoint assumes sequential processing.
 - Do not batch manifest writes. Save the manifest after every skeleton completes, before moving to the next.
-- Do not skip validation. Every record routed to `records/` must have been validated against `data_extraction_record.schema.json`. Every record routed to `extraction_gpt_recovery/` must have failed validation with a specific recorded reason.
+- Do not skip validation. Every record routed to `records/` must have been validated against `data_extraction_record.schema.json`. Every record routed to `rejected_archive_phase1b/` must have failed validation with a specific recorded reason.
 - Do not invent field values. If the contract does not tell you what to put, the material does not support a value, and no fallback applies, route to recovery.
 - Do not silently swallow contract gaps. Every case the contract does not cover must be registered as `contract_case_uncovered` in the manifest so the operator can improve the contract later.
 - Do not remove `needs_human_review` entries from the manifest after the fact. Once flagged, it stays flagged even if the record was written successfully. The flag is for operator priority, not for the skill to resolve.
@@ -125,7 +125,7 @@ When all skeletons across all batches have been processed (no unprocessed skelet
 Report at the end:
 - Total skeletons processed
 - Records written to `records/`
-- Records staged to `extraction_gpt_recovery/`
+- Records staged to `rejected_archive_phase1b/`
 - Records flagged `needs_human_review`
 - Skeleton failures (structural)
 - Any `contract_case_uncovered` issues registered

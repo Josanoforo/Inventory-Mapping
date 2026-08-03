@@ -240,7 +240,7 @@ output/tension_candidates/TC-NNN.md (final, con validation aplicada)
 
 ### Rechazos / recovery
 
-- Working recovery: `working/data_extraction/extraction_gpt_recovery/`
+- Working recovery: `working/data_extraction/rejected_archive_phase1b/`
 - No hay recovery agent dedicado en `agents/codex/` para Phase 1b → **gap parcial**
 
 ---
@@ -692,7 +692,7 @@ Los siguientes gaps están verificados contra el filesystem actual:
 
 ### Recovery agents incompletos
 
-- **Phase 1b (data-extraction)** tiene working recovery dir (`working/data_extraction/extraction_gpt_recovery/`) pero **no** recovery agent en `agents/codex/`
+- **Phase 1b (data-extraction)** tiene working recovery dir (`working/data_extraction/rejected_archive_phase1b/`) pero **no** recovery agent en `agents/codex/`
 - **Phase 2 (signal-extraction)** tiene working recovery dir (`working/signal_extraction/signal_gpt_recovery/`) pero **no** recovery agent en `agents/codex/`
 
 ### Inventario de datos incompleto (no es gap estructural, es estado del corpus)
