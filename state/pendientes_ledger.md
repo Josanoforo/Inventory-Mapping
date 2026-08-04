@@ -63,7 +63,7 @@ files, diseño) · `OP` = solo el operador.
 - **P-102** — cerrado — implementada en `CLAUDE.md`, sección "Branch state verification" (PR #81, main); cubre los tres casos: `fetch --prune`, ramas que existen sin existir en origin, columnas Ahead/Behind
 - **P-145** — cerrado — D-241 ejecutada, PR #85; renumeración Rule 1-11 verificable en `.claude/skills/p2-extract-signals/SKILL.md`
 - **P-164** — cerrado — PRODUCTOR-ENCONTRADO: `phases/02-signal-extraction/scripts/signal_to_markdown.py:414` escribe `input/signal_cards_round_{n}.md`; ejecutado en el commit `2505539d` ("G1: generate signal_cards_round_1.md from 75 Signal Cards"), ancestro de `main` (`git merge-base --is-ancestor 2505539d origin/main`). El eslabón existe; el script se autodocumenta (docstring líneas 2-7), ningún módulo lo documenta (A8)
-- **P-169** — cerrado — PRODUCTOR-ÚNICO-IDENTIFICADO: 118 commits de autor `Claude` tocan `working/data_extraction/records/` (38 con el prefijo `p1-extract-records:`, el resto con mensajes `records ...`/`extraction ...`/`Add ...`), acumulado 25→1,178 (`22823aa6` "batch_001 complete (25/1178 records)" → `41b83a82` "records 1171-1178 (final)..."), coincidente con `extraction_prepare_manifest.json` (`total_skeletons: 1178`, `batches_written: 48`) y `extraction_converter_manifest.json` (`records_written: 1178`, `skeleton_failures: 0`), ambos `status: complete`. `64c0a7d4` remapea (203 `claim_type` + 17 `uncertainties`), no crea records nuevos. Matiz que pasa a fila propia (P-196): la firma vive en los mensajes de commit, no en el artefacto
+- **P-169** — cerrado — PRODUCTOR-ÚNICO-IDENTIFICADO: 118 commits de autor `Claude` tocan `working/data_extraction/records/` (38 con el prefijo `p1-extract-records:`, el resto con mensajes `records ...`/`extraction ...`/`Add ...`), acumulado 25→1,178 (`22823aa6` "batch_001 complete (25/1178 records)" → `41b83a82` "records 1171-1178 (final)..."), coincidente con `extraction_prepare_manifest.json` (`total_skeletons: 1178`, `batches_written: 48`) y `extraction_converter_manifest.json` (`records_written: 1178`, `skeleton_failures: 0`), ambos `status: complete`. `64c0a7d4` remapea (203 `claim_type` + 17 `uncertainties`), no crea records nuevos. Matiz que pasa a fila propia (P-196): la firma vive en los mensajes de commit, no en el artefacto. Corrección del cierre: el veredicto "productor único" era incompleto. Secuencia real verificada con historia completa: `22823aa6`/`d0109d78` producen los primeros 75 records vía la skill `p1-extract-records`; `2c44fa8f` produce 1,103 con `bulk_extract.py`; `3e5a8a27` los revierte ("Deleted 1103 heuristic-script records... quality audit revealed systematic degradation in subject_exact, evidence_role, local_qualifiers, and parser_notes"); `a6870291..41b83a82` los re-producen por lotes vía la skill, marcados 'LLM'. El productor del corpus vigente es la skill, no el script. Confirma D-179 por el ángulo inverso
 
 ---
 
@@ -118,6 +118,7 @@ files, diseño) · `OP` = solo el operador.
 | P-195 | Origen del corpus de 1,560 Signal Cards en 10 rounds no verificable: entró completo por `95e259e2` ("Extract project from tarball"), sin script en el diff. Es la misma cifra que declaraba `.claude/agents/inventory-mapping.md`, archivado por D-237 | decisión | ¿Se investiga el origen, o se parquea con condición de desparqueo? | DSC | verificado — `95e259e2` ancestro de `main`, mensaje confirma "10 rounds, 1,560 signal cards", 0 script en el diff |
 | P-196 | La trazabilidad de producción de los records vive fuera del artefacto: el schema de extraction record no tiene campo de procedencia de herramienta; la evidencia de qué produjo cada record son los mensajes de commit (`p1-extract-records:`). Funciona mientras el historial esté completo y uniforme; falla ante clon shallow, regeneración o cambio de rama | decisión | ¿Se agrega campo de procedencia al schema, o se acepta explícitamente que la trazabilidad es del historial? | DSC | verificado — `data_extraction_record.schema.json` sin campo de procedencia/herramienta; 5 records de commits distintos sin firma de herramienta en `parser_notes` |
 | P-197 | Los clones de sesión pueden llegar shallow y el recorte se lee como dato: sin `git fetch --unshallow`, `git log --diff-filter=A` sobre `working/data_extraction/records/` devolvió 1 commit contra 118 reales (reproducido en esta misma pasada, clon `--depth 50` de control). Misma familia que el "0 usos" medido en una sola capa (P-191): la herramienta recorta la superficie y el recorte se reporta como hallazgo | decisión | ¿Se agrega a la plantilla de encargos la verificación `git rev-parse --is-shallow-repository` antes de toda afirmación histórica? | DSC | verificado — esta pasada partió de un clon shallow; `git merge-base --is-ancestor 2505539d origin/main` dio "no" en shallow y "sí" tras `--unshallow`, invalidando P-194 y confirmando la clase de fallo que describe esta fila. Instancia de mayor costo medida: la afirmación "el corpus de Phase 3 vive solo en `preserve/*`" entró al ledger (reformulado de P-168) desde una medición shallow del redactor, y una fila nueva (P-194) se construyó sobre ella. Ambas se detectaron en la pasada siguiente al re-medir con historia completa. El redactor de encargos está tan expuesto a esta clase como el ejecutor |
+| P-201 | `bulk_extract.py` está fuera de la ruta de producción del corpus vigente: su output (1,103 records, `2c44fa8f`) fue revertido por degradación de calidad (`3e5a8a27`) y re-producido por la skill `p1-extract-records`. El CONTRACT de Phase 1b manda implementar la rama de fallo en ese script (sección 11, ítem 3) y P-150 pide reparar `infer_actor_level` ahí — ambas apuntan a un componente sin uso demostrado | decisión | ¿La rama de fallo va en el script o en la skill? Afecta D-242/D-243, A9 y A12 | DSC | verificado — corrida independiente con historia completa (R-G aplicado) |
 
 **Cerrados en esta corrección (decisión ya ejecutada, verificada — salen de la tabla):**
 
@@ -167,10 +168,10 @@ files, diseño) · `OP` = solo el operador.
 | Grupo | Filas |
 |---|---|
 | A — pendientes de verificar (Run 2) | 23 |
-| B — verificados, esperando decisión | 47 |
+| B — verificados, esperando decisión | 48 |
 | C — decisiones de DSC | 8 |
 | D — candidatos a parqueo | 0 |
-| **Total abiertos** | **78** |
+| **Total abiertos** | **79** |
 
 **Parqueadas (fuera del conteo de abiertos):** 7 (ver `**Parqueados:**` bajo la tabla D).
 
@@ -186,11 +187,11 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-47 de 78 ya están verificados y esperan juicio del operador. 23 esperan que alguien mire el repo.
+48 de 79 ya están verificados y esperan juicio del operador. 23 esperan que alguien mire el repo.
 7 más están parqueadas (condición de desparqueo explícita, fuera del conteo de abiertos).
 **El cuello es la cola de decisiones, no la de verificación.**
 
-De los 47 del grupo B, siete son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-3,
+De los 48 del grupo B, siete son huecos de puente o de campo (P-134, P-136, P-138, U-1, U-3,
 más `local_qualifiers` y `time_scope_raw`) y todos comparten la misma pregunta previa: qué campos
 consume Phase 3 realmente. Esa pregunta es el entregable A de Run 3. **Decidir cualquiera de los
 siete antes de Run 3 repite el error que interrumpió S28 cuatro veces.**
@@ -251,3 +252,15 @@ ejecutado en PR #95. Suma a P-153 la instancia S34 de esa clase (la restricción
 exactamente donde falló). Delta: B 48→47 (P-180 sale de abiertos a Cerrados), A/C/D y Parqueadas
 sin cambio. Total abiertos 79→78. El crecimiento (0 filas nuevas, −1 por cierre) es corrección de
 inventario, no trabajo nuevo.
+
+**Encargo E11 — delta pendiente del ledger:** dos ediciones, ninguna reabre una fila cerrada. (1)
+Corrige el veredicto de cierre de P-169 (la fila sigue en Cerrados): "productor único" era
+incompleto — secuencia real con historia completa es `22823aa6`/`d0109d78` (75 records vía la
+skill `p1-extract-records`) → `2c44fa8f` (1,103 vía `bulk_extract.py`) → `3e5a8a27` (revierte los
+1,103 por degradación de calidad) → `a6870291..41b83a82` (re-producen por lotes vía la skill,
+marcados 'LLM'). El productor del corpus vigente es la skill, no el script; confirma D-179 por el
+ángulo inverso. (2) Agrega P-201 a la tabla B: `bulk_extract.py` queda fuera de la ruta de
+producción del corpus vigente, lo que pone en cuestión a qué componente le corresponde la rama de
+fallo que el CONTRACT de Phase 1b manda implementar (afecta D-242/D-243, A9, A12). Delta: B 47→48,
+A/C/D y Parqueadas sin cambio. Total abiertos 78→79. El crecimiento (+1) es la fila que registra el
+hallazgo de (1), no trabajo nuevo.
