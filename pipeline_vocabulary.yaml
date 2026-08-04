@@ -153,6 +153,7 @@ uncertainties:
     - methodology_unclear
     - anecdotal_single_source
     - author_conflict_of_interest_possible
+    - platform_scope_unclear  # D-247: la plataforma es determinable pero no está nombrada en el snippet
   # Phase-specific extensions
   phase_1_only:
     - source_type_unclear
@@ -160,7 +161,6 @@ uncertainties:
     - snippet_needs_reopen
   phase_2_only:
     - metric_unit_unclear
-    - platform_scope_unclear
   notes:
     - "Each phase uses core + its own extensions."
     - "4+ uncertainties in a single record triggers needs_human_review."
