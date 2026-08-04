@@ -1,0 +1,206 @@
+# MAP.md
+
+Generado en 2026-08-04T18:40:19Z (UTC) sobre HEAD `8be86d5e3f58b8a37ed3ef5b62ae07d0c96b4a80`.
+
+Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
+
+Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia: dice qué había, no qué hay.
+
+## Índice inverso por nombre
+
+- `.gitignore`:
+  - `.gitignore`
+  - `phases/01-source-intake/scripts/.gitignore`
+- `.gitkeep`:
+  - `output/.gitkeep`
+  - `output/tension_candidates/.gitkeep`
+  - `phases/04-design-thinking/.gitkeep`
+  - `phases/05-concept-design/.gitkeep`
+  - `phases/06-selector/.gitkeep`
+  - `phases/07-expression/.gitkeep`
+  - `phases/08-expression-research/.gitkeep`
+- `01_entry_gate.md` — `phases/03-inventory-mapping/modules/01_entry_gate.md`
+- `01_infrastructure_map.md` — `output/repo_study/01_infrastructure_map.md`
+- `02_parser_analysis.md` — `output/repo_study/02_parser_analysis.md`
+- `02_splitter.md` — `phases/03-inventory-mapping/modules/02_splitter.md`
+- `03_indexer.md` — `phases/03-inventory-mapping/modules/03_indexer.md`
+- `03_modules_workflow.md` — `output/repo_study/03_modules_workflow.md`
+- `04_scanner.md` — `phases/03-inventory-mapping/modules/04_scanner.md`
+- `04_skills_workflow.md` — `output/repo_study/04_skills_workflow.md`
+- `05_candidate_builder.md` — `phases/03-inventory-mapping/modules/05_candidate_builder.md`
+- `05_decomposition_patterns.md` — `output/repo_study/05_decomposition_patterns.md`
+- `06_validator.md` — `phases/03-inventory-mapping/modules/06_validator.md`
+- `CLAUDE.md` — `CLAUDE.md`
+- `CONTRACT.md`:
+  - `agents/codex/phase0-eje4-discovery/CONTRACT.md`
+  - `agents/codex/phase0-recovery/CONTRACT.md`
+  - `agents/codex/phase1b-recovery/CONTRACT.md`
+  - `agents/codex/source-intake-recovery/CONTRACT.md`
+- `FX-N1-REC.json` — `signal_card_defect_check_fixtures/records/FX-N1-REC.json`
+- `FX-N2-REC.json` — `signal_card_defect_check_fixtures/records/FX-N2-REC.json`
+- `FX-N3-REC.json` — `signal_card_defect_check_fixtures/records/FX-N3-REC.json`
+- `FX-N4-REC.json` — `signal_card_defect_check_fixtures/records/FX-N4-REC.json`
+- `FX-N5-REC.json` — `signal_card_defect_check_fixtures/records/FX-N5-REC.json`
+- `FX-P1-DISCRETENESS-REC.json` — `signal_card_defect_check_fixtures/records/FX-P1-DISCRETENESS-REC.json`
+- `FX-P2-COMPARATIVE-REC.json` — `signal_card_defect_check_fixtures/records/FX-P2-COMPARATIVE-REC.json`
+- `FX-P3-DDPDDU-REC.json` — `signal_card_defect_check_fixtures/records/FX-P3-DDPDDU-REC.json`
+- `FX-P4-TIMELOSS-REC.json` — `signal_card_defect_check_fixtures/records/FX-P4-TIMELOSS-REC.json`
+- `FX-P5-CONTAMINATION-REC.json` — `signal_card_defect_check_fixtures/records/FX-P5-CONTAMINATION-REC.json`
+- `README.md`:
+  - `agents/codex/phase0-eje4-discovery/README.md`
+  - `agents/codex/phase0-recovery/README.md`
+- `SC-FX-001.json` — `signal_card_defect_check_fixtures/cards/SC-FX-001.json`
+- `SC-FX-002.json` — `signal_card_defect_check_fixtures/cards/SC-FX-002.json`
+- `SC-FX-003.json` — `signal_card_defect_check_fixtures/cards/SC-FX-003.json`
+- `SC-FX-004.json` — `signal_card_defect_check_fixtures/cards/SC-FX-004.json`
+- `SC-FX-005.json` — `signal_card_defect_check_fixtures/cards/SC-FX-005.json`
+- `SC-FX-N01.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N01.json`
+- `SC-FX-N02.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N02.json`
+- `SC-FX-N03.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N03.json`
+- `SC-FX-N04A.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N04A.json`
+- `SC-FX-N04B.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N04B.json`
+- `SC-FX-N05.json` — `signal_card_defect_check_fixtures/cards/SC-FX-N05.json`
+- `SKILL.md`:
+  - `.claude/skills/build-candidate/SKILL.md`
+  - `.claude/skills/entry-gate/SKILL.md`
+  - `.claude/skills/index-cards/SKILL.md`
+  - `.claude/skills/p0-normalize-shard/SKILL.md`
+  - `.claude/skills/p1-convert-findings/SKILL.md`
+  - `.claude/skills/p1-extract-records/SKILL.md`
+  - `.claude/skills/p2-extract-signals/SKILL.md`
+  - `.claude/skills/scan-asymmetries/SKILL.md`
+  - `.claude/skills/scan-co-occurrences/SKILL.md`
+  - `.claude/skills/scan-contradictions/SKILL.md`
+  - `.claude/skills/scan-frictions/SKILL.md`
+  - `.claude/skills/scan-gaps/SKILL.md`
+  - `.claude/skills/scan-lexical-overlap/SKILL.md`
+  - `.claude/skills/scan-opposite-directions/SKILL.md`
+  - `.claude/skills/split-cards/SKILL.md`
+  - `.claude/skills/validate-candidate/SKILL.md`
+- `STATE.md` — `state/STATE.md`
+- `TC-001.md` — `phases/03-inventory-mapping/reference/TC-001.md`
+- `batch_smoke_20260414_220716.zip` — `batch_smoke_20260414_220716.zip`
+- `bulk_extract.py` — `phases/01-source-intake/data-extraction/scripts/bulk_extract.py`
+- `card_record.schema.json` — `phases/03-inventory-mapping/schemas/card_record.schema.json`
+- `ci.yml` — `.github/workflows/ci.yml`
+- `converter.md` — `phases/01-source-intake/modules/converter.md`
+- `converter_manifest.schema.json` — `phases/01-source-intake/schemas/converter_manifest.schema.json`
+- `converter_prepare.py` — `phases/01-source-intake/scripts/converter_prepare.py`
+- `converter_prepare_manifest.schema.json` — `phases/01-source-intake/schemas/converter_prepare_manifest.schema.json`
+- `core_protocol.md` — `agents/codex/_shared/protocols/core_protocol.md`
+- `data_extraction_contract.md` — `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md`
+- `data_extraction_record.schema.json` — `phases/01-source-intake/data-extraction/schemas/data_extraction_record.schema.json`
+- `data_extraction_validator.md` — `phases/01-source-intake/data-extraction/contracts/data_extraction_validator.md`
+- `data_extraction_validator.schema.json` — `phases/01-source-intake/data-extraction/schemas/data_extraction_validator.schema.json`
+- `data_gathering_project_instructions_v4_5.md` — `phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md`
+- `eje4_xlsx_to_json_batch.py` — `phases/00-data-gathering/scripts/eje4_xlsx_to_json_batch.py`
+- `etapa3_adjudication.md` — `state/output/etapa3_adjudication.md`
+- `etapa3_compare.py` — `state/scripts/etapa3_compare.py`
+- `etapa3_comparison_summary.md` — `state/output/etapa3_comparison_summary.md`
+- `etapa3_veredictos.md` — `state/output/etapa3_veredictos.md`
+- `extraction_converter.md` — `phases/01-source-intake/data-extraction/modules/extraction_converter.md`
+- `extraction_converter_manifest.schema.json` — `phases/01-source-intake/data-extraction/schemas/extraction_converter_manifest.schema.json`
+- `extraction_prepare.py` — `phases/01-source-intake/data-extraction/scripts/extraction_prepare.py`
+- `extraction_prepare_manifest.schema.json` — `phases/01-source-intake/data-extraction/schemas/extraction_prepare_manifest.schema.json`
+- `field_lifecycle_card_record_bridge.md` — `state/output/field_lifecycle_card_record_bridge.md`
+- `field_lifecycle_corpus_state_note.md` — `state/output/field_lifecycle_corpus_state_note.md`
+- `field_lifecycle_extraction_record.md` — `state/output/field_lifecycle_extraction_record.md`
+- `field_lifecycle_named_check.md` — `state/output/field_lifecycle_named_check.md`
+- `field_lifecycle_raw.json` — `state/output/field_lifecycle_raw.json`
+- `field_lifecycle_signal_card.md` — `state/output/field_lifecycle_signal_card.md`
+- `field_lifecycle_trace.py` — `state/scripts/field_lifecycle_trace.py`
+- `field_population_audit.py` — `state/scripts/field_population_audit.py`
+- `field_population_card_index_note.md` — `state/output/field_population_card_index_note.md`
+- `field_population_extraction_records.md` — `state/output/field_population_extraction_records.md`
+- `field_population_raw.json` — `state/output/field_population_raw.json`
+- `field_population_signal_cards.md` — `state/output/field_population_signal_cards.md`
+- `findings_diagnostic_report.md` — `output/diagnostics/findings_diagnostic_report.md`
+- `generate_state.py` — `state/scripts/generate_state.py`
+- `index_manifest.schema.json` — `phases/03-inventory-mapping/schemas/index_manifest.schema.json`
+- `inventory-mapping.md` — `docs/archive/inventory-mapping.md`
+- `ledger_check.py` — `state/scripts/ledger_check.py`
+- `ledger_check_fixtures_i7a.md` — `state/scripts/ledger_check_fixtures_i7a.md`
+- `ledger_check_fixtures_i7b.md` — `state/scripts/ledger_check_fixtures_i7b.md`
+- `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
+- `multiples_anclas_verbatim_check.md` — `state/output/multiples_anclas_verbatim_check.md`
+- `output_contract.md` — `agents/codex/_shared/protocols/output_contract.md`
+- `output_template.md` — `agents/codex/_shared/protocols/output_template.md`
+- `p150_bulk_extract_vocab_comparison.md` — `state/output/p150_bulk_extract_vocab_comparison.md`
+- `parse_dg_shard.py` — `phases/00-data-gathering/scripts/parse_dg_shard.py`
+- `part4_to_recovery_packets.py` — `phases/00-data-gathering/scripts/part4_to_recovery_packets.py`
+- `pendientes_ledger.md` — `state/pendientes_ledger.md`
+- `phase1_inventory_report.md` — `output/diagnostics/phase1_inventory_report.md`
+- `phase1_to_card_field_fate.md` — `state/output/phase1_to_card_field_fate.md`
+- `pipeline_flow.md` — `docs/pipeline_flow.md`
+- `pipeline_vocabulary.yaml` — `pipeline_vocabulary.yaml`
+- `production_v1.md` — `agents/codex/phase0-recovery/prompts/production_v1.md`
+- `protocol_canonical.md` — `phases/03-inventory-mapping/reference/protocol_canonical.md`
+- `rejected_archive_record.schema.json` — `phases/01-source-intake/schemas/rejected_archive_record.schema.json`
+- `research_directions_protocol.md` — `phases/00-data-gathering/reference/research_directions_protocol.md`
+- `route_unrecoverable.py` — `phases/01-source-intake/scripts/route_unrecoverable.py`
+- `scan_artifact.schema.json` — `phases/03-inventory-mapping/schemas/scan_artifact.schema.json`
+- `search_decomposition_rules.md` — `agents/codex/_shared/protocols/search_decomposition_rules.md`
+- `signal_card.schema.json` — `phases/02-signal-extraction/schemas/signal_card.schema.json`
+- `signal_card_defect_check.py` — `signal_card_defect_check.py`
+- `signal_converter.md` — `phases/02-signal-extraction/modules/signal_converter.md`
+- `signal_converter_manifest.schema.json` — `phases/02-signal-extraction/schemas/signal_converter_manifest.schema.json`
+- `signal_extraction_contract.md` — `phases/02-signal-extraction/contracts/signal_extraction_contract.md`
+- `signal_extraction_validator.md` — `phases/02-signal-extraction/contracts/signal_extraction_validator.md`
+- `signal_inventory_gate.schema.json` — `phases/02-signal-extraction/schemas/signal_inventory_gate.schema.json`
+- `signal_prepare.py` — `phases/02-signal-extraction/scripts/signal_prepare.py`
+- `signal_prepare_manifest.schema.json` — `phases/02-signal-extraction/schemas/signal_prepare_manifest.schema.json`
+- `signal_to_inventory_entry_gate.md` — `phases/02-signal-extraction/contracts/signal_to_inventory_entry_gate.md`
+- `signal_to_markdown.py` — `phases/02-signal-extraction/scripts/signal_to_markdown.py`
+- `signal_validation.schema.json` — `phases/02-signal-extraction/schemas/signal_validation.schema.json`
+- `source_intake_contract.md` — `phases/01-source-intake/contracts/source_intake_contract.md`
+- `source_intake_validation.schema.json` — `phases/01-source-intake/schemas/source_intake_validation.schema.json`
+- `source_intake_validator.md` — `phases/01-source-intake/contracts/source_intake_validator.md`
+- `source_packet.schema.json` — `phases/01-source-intake/schemas/source_packet.schema.json`
+- `source_packet_conversion_template.md` — `phases/01-source-intake/reference/source_packet_conversion_template.md`
+- `split_manifest.schema.json` — `phases/03-inventory-mapping/schemas/split_manifest.schema.json`
+- `state-snapshot.yml` — `.github/workflows/state-snapshot.yml`
+- `tension_candidate.schema.json` — `phases/03-inventory-mapping/schemas/tension_candidate.schema.json`
+- `test_e5_fixtures.py` — `phases/01-source-intake/data-extraction/scripts/test_e5_fixtures.py`
+- `three_views_report.md` — `output/diagnostics/three_views_report.md`
+- `time_scope_raw_distribution.md` — `state/output/time_scope_raw_distribution.md`
+- `validation_report.schema.json` — `phases/03-inventory-mapping/schemas/validation_report.schema.json`
+- `vocab_check.py` — `vocab_check.py`
+- `vocab_check_blind_spots.md` — `state/output/vocab_check_blind_spots.md`
+
+## Superficie por área
+
+- `(raíz)`: 6
+- `.claude/skills`: 16
+- `.github/workflows`: 2
+- `agents/codex`: 11
+- `docs`: 1
+- `docs/archive`: 1
+- `output`: 1
+- `output/diagnostics`: 3
+- `output/repo_study`: 5
+- `output/tension_candidates`: 1
+- `phases/00-data-gathering`: 5
+- `phases/01-source-intake`: 22
+- `phases/02-signal-extraction`: 11
+- `phases/03-inventory-mapping`: 14
+- `phases/04-design-thinking`: 1
+- `phases/05-concept-design`: 1
+- `phases/06-selector`: 1
+- `phases/07-expression`: 1
+- `phases/08-expression-research`: 1
+- `signal_card_defect_check_fixtures/cards`: 11
+- `signal_card_defect_check_fixtures/records`: 10
+- `state`: 2
+- `state/output`: 18
+- `state/scripts`: 8
+
+## CI
+
+- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check
+- `.github/workflows/state-snapshot.yml`: snapshot
+- extracción por línea sobre claves de 2 espacios bajo `jobs:` (sin parser YAML en el runner de CI)
+
+## Volumen de datos
+
+- `working/`: 6864 archivos rastreados
+- `input/`: 73 archivos rastreados

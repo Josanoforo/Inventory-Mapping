@@ -19,6 +19,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 STATE_SCRIPTS = REPO_ROOT / "state" / "scripts"
 OUTPUT_PATH = REPO_ROOT / "state" / "STATE.md"
+MAP_OUTPUT_PATH = REPO_ROOT / "state" / "MAP.md"
+
+# Directories whose tracked content is corpus/state, not structural surface:
+# working/ (6864 tracked files — pipeline intermediate state: skeleton
+# batches, packets, records, cards, scans, manifests) and input/ (73 tracked
+# files — raw deep_search shards, the pipeline's source corpus per
+# CLAUDE.md). Both are bulk data an operator would never enumerate by name;
+# everything else (phases, schemas, skills, agents, state scripts, output
+# reports, root config) is surface someone might ask "does X exist?" about.
+DATA_DIRS = ("working", "input")
 
 sys.path.insert(0, str(STATE_SCRIPTS))
 import ledger_check  # noqa: E402
@@ -245,6 +255,155 @@ def section_long_processes():
     return lines
 
 
+def get_tracked_files():
+    raw = run_git(["ls-files"])
+    if raw is None:
+        return []
+    return [line for line in raw.splitlines() if line]
+
+
+def is_data_path(path):
+    return any(path == d or path.startswith(f"{d}/") for d in DATA_DIRS)
+
+
+def build_name_index(surface_files):
+    index = {}
+    for path in surface_files:
+        name = path.rsplit("/", 1)[-1]
+        index.setdefault(name, []).append(path)
+    for paths in index.values():
+        paths.sort()
+    return index
+
+
+def extract_ci_jobs(workflow_path):
+    """Extract job names from a workflow YAML by line-scanning under the
+    top-level `jobs:` key. No YAML parser is assumed to be installed in the
+    CI runner (the state-snapshot workflow does not pip-install one), so
+    this reads the stdlib-only structural convention GitHub Actions
+    requires: job names are 2-space-indented keys directly under `jobs:`."""
+    text = workflow_path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+
+    jobs_idx = None
+    for i, line in enumerate(lines):
+        if re.match(r"^jobs:\s*$", line):
+            jobs_idx = i
+            break
+    if jobs_idx is None:
+        return []
+
+    job_names = []
+    for line in lines[jobs_idx + 1:]:
+        if line.strip() == "":
+            continue
+        m = re.match(r"^  ([A-Za-z0-9_.-]+):\s*(#.*)?$", line)
+        if m:
+            job_names.append(m.group(1))
+            continue
+        if re.match(r"^\S", line):
+            break
+    return job_names
+
+
+def section_name_index(surface_files):
+    lines = ["## Índice inverso por nombre", ""]
+    index = build_name_index(surface_files)
+    for name in sorted(index.keys()):
+        paths = index[name]
+        if len(paths) == 1:
+            lines.append(f"- `{name}` — `{paths[0]}`")
+        else:
+            lines.append(f"- `{name}`:")
+            for path in paths:
+                lines.append(f"  - `{path}`")
+    lines.append("")
+    return lines, index
+
+
+def section_surface_by_area(surface_files):
+    lines = ["## Superficie por área", ""]
+    groups = {}
+    for path in surface_files:
+        dir_parts = path.split("/")[:-1]
+        if not dir_parts:
+            key = "(raíz)"
+        else:
+            key = "/".join(dir_parts[:2])
+        groups.setdefault(key, 0)
+        groups[key] += 1
+    for key in sorted(groups.keys()):
+        lines.append(f"- `{key}`: {groups[key]}")
+    lines.append("")
+    return lines
+
+
+def section_ci():
+    lines = ["## CI", ""]
+    workflows_dir = REPO_ROOT / ".github" / "workflows"
+    if not workflows_dir.is_dir():
+        lines.append("no disponible: .github/workflows/ no existe")
+        lines.append("")
+        return lines
+    workflow_files = sorted(
+        p for p in workflows_dir.iterdir() if p.suffix in (".yml", ".yaml")
+    )
+    if not workflow_files:
+        lines.append("(ningún workflow en .github/workflows/)")
+        lines.append("")
+        return lines
+    for wf in workflow_files:
+        rel = wf.relative_to(REPO_ROOT)
+        jobs = extract_ci_jobs(wf)
+        if jobs:
+            lines.append(f"- `{rel}`: {', '.join(jobs)}")
+        else:
+            lines.append(f"- `{rel}`: no disponible (sin jobs detectados)")
+    lines.append(
+        "- extracción por línea sobre claves de 2 espacios bajo `jobs:` "
+        "(sin parser YAML en el runner de CI)"
+    )
+    lines.append("")
+    return lines
+
+
+def section_data_volume(all_files):
+    lines = ["## Volumen de datos", ""]
+    for data_dir in DATA_DIRS:
+        prefix = f"{data_dir}/"
+        count = sum(1 for p in all_files if p == data_dir or p.startswith(prefix))
+        lines.append(f"- `{data_dir}/`: {count} archivos rastreados")
+    lines.append("")
+    return lines
+
+
+def build_map(all_files, head_sha, now):
+    surface_files = [p for p in all_files if not is_data_path(p)]
+
+    header = [
+        "# MAP.md",
+        "",
+        f"Generado en {now} (UTC) sobre HEAD `{head_sha}`.",
+        "",
+        "Snapshot mecánico, sin juicio. Regenerado automáticamente por "
+        "`.github/workflows/state-snapshot.yml` en cada push, a partir "
+        "únicamente de `git ls-files`.",
+        "",
+        "Si el HEAD de arriba no es el vigente, este archivo es "
+        "procedencia, no evidencia: dice qué había, no qué hay.",
+        "",
+    ]
+
+    index_lines, index = section_name_index(surface_files)
+    area_lines = section_surface_by_area(surface_files)
+    ci_lines = section_ci()
+    volume_lines = section_data_volume(all_files)
+
+    lines = header + index_lines + area_lines + ci_lines + volume_lines
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main():
     current_branch = run_git(["rev-parse", "--abbrev-ref", "HEAD"])
     if current_branch == "HEAD":
@@ -259,6 +418,13 @@ def main():
 
     OUTPUT_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"Escrito {OUTPUT_PATH.relative_to(REPO_ROOT)}")
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    head_sha = run_git(["rev-parse", "HEAD"]) or "no disponible"
+    all_files = get_tracked_files()
+    map_content = build_map(all_files, head_sha, now)
+    MAP_OUTPUT_PATH.write_text(map_content, encoding="utf-8")
+    print(f"Escrito {MAP_OUTPUT_PATH.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":
