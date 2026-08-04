@@ -15,6 +15,34 @@ BASE = Path('/home/user/Inventory-Mapping/working/data_extraction')
 RECORDS_DIR = BASE / 'records'
 MANIFEST_FILE = BASE / 'extraction_converter_manifest.json'
 BATCHES_DIR = BASE / 'skeleton_batches'
+REJECTED_ARCHIVE_DIR = BASE / 'rejected_archive_phase1b'
+
+# CONTRACT.md §4: the only recovery_class detectable here without judgment is
+# content_not_captured — the Phase 0 subagent's own note that verbatim capture
+# failed. context_missing and unclassified require reading the source content
+# for interpretability, which this script does not do; see CONTRACT.md §11 item 3.
+RECOVERY_NOTE_PATTERN = re.compile(
+    r'^n/a\s*[—–-]\s*content recovered via.*cannot be independently confirmed',
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+class SkeletonRejected(Exception):
+    """Raised by process_skeleton when a skeleton cannot produce a record.
+
+    Per CONTRACT.md §3/§4, carries the fields needed to stage a recovery
+    packet in REJECTED_ARCHIVE_DIR instead of writing to RECORDS_DIR.
+    """
+
+    def __init__(self, recovery_class, issue_type, missing_required_fields,
+                 evidence, contract_notes, suggested_direction):
+        super().__init__(issue_type)
+        self.recovery_class = recovery_class
+        self.issue_type = issue_type
+        self.missing_required_fields = missing_required_fields
+        self.evidence = evidence
+        self.contract_notes = contract_notes
+        self.suggested_direction = suggested_direction
 
 MONTHS = {
     'january': '01', 'february': '02', 'march': '03', 'april': '04',
@@ -155,6 +183,13 @@ def infer_evidence_role(source_type, snippet):
 
 
 def infer_actor_level(source_type, snippet):
+    # pipeline_vocabulary.yaml actor.assignment_rule: "Determined by source_type,
+    # not by topic. 'Who speaks', not 'who is affected.'"
+    # help_center / policy_page / platform_doc → platform, checked before the
+    # topic regex below so a mention of "buyer"/"seller" in the snippet can't
+    # override who is actually speaking.
+    if source_type in ['help_center', 'policy_page', 'platform_doc']:
+        return 'platform'
     s = snippet.lower()
     has_buyer = bool(re.search(r'\b(?:buyer|customer|purchaser|patron|subscriber)\b', s))
     has_seller = bool(re.search(r'\b(?:seller|creator|shop\s*owner|vendor|author|instructor|artist)\b', s))
@@ -164,8 +199,6 @@ def infer_actor_level(source_type, snippet):
         return 'buyer'
     if has_seller:
         return 'seller'
-    if source_type in ['help_center', 'policy_page', 'platform_doc']:
-        return 'marketplace'
     if source_type == 'database_profile':
         return 'seller'
     if source_type == 'buyer_review':
@@ -418,11 +451,72 @@ def generate_subject_exact(skeleton):
     return f"Content from {source_type}"
 
 
+_recovery_counter = [0]
+
+
+def stage_rejected_skeleton(skeleton, rejection, staged_at):
+    """Write a CONTRACT.md §3 recovery packet for a rejected skeleton.
+
+    content_not_captured and context_missing land flat in
+    REJECTED_ARCHIVE_DIR per §3; only unclassified nests into
+    REJECTED_ARCHIVE_DIR/unclassified/ per §4. This script only ever
+    raises content_not_captured (see RECOVERY_NOTE_PATTERN), so only the
+    flat path is exercised.
+    """
+    if rejection.recovery_class == 'unclassified':
+        target_dir = REJECTED_ARCHIVE_DIR / 'unclassified'
+    else:
+        target_dir = REJECTED_ARCHIVE_DIR
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    _recovery_counter[0] += 1
+    eid = skeleton['extraction_id']
+    abbrev = '-'.join(eid.split('-')[-3:])
+    recovery_id = f"REC1B-{abbrev}-{_recovery_counter[0]:03d}"
+
+    packet = {
+        'recovery_id': recovery_id,
+        'extraction_id': eid,
+        'origin_stage': 'data_extraction_stage_2',
+        'recovery_class': rejection.recovery_class,
+        'skeleton_original': skeleton,
+        'partial_record': None,
+        'failure_detail': {
+            'issue_type': rejection.issue_type,
+            'missing_required_fields': rejection.missing_required_fields,
+            'evidence': rejection.evidence,
+            'contract_notes': rejection.contract_notes,
+        },
+        'recovery_guidance': {
+            'suggested_direction': rejection.suggested_direction,
+            'source_ref': skeleton.get('source_ref'),
+            'source_type': skeleton.get('source_type'),
+            'source_packet_id': skeleton.get('source_packet_id'),
+        },
+        'staged_at': staged_at,
+    }
+
+    out_file = target_dir / f'{eid}.json'
+    with open(out_file, 'w') as f:
+        json.dump(packet, f, indent=2, ensure_ascii=False)
+    return out_file
+
+
 def process_skeleton(skeleton):
     snippet = skeleton.get('snippet_primary', '')
     source_type = skeleton.get('source_type', '')
     source_ref = skeleton.get('source_ref', '')
     source_title = skeleton.get('source_title', '')
+
+    if RECOVERY_NOTE_PATTERN.search(snippet.strip()):
+        raise SkeletonRejected(
+            recovery_class='content_not_captured',
+            issue_type='required_field_unfillable',
+            missing_required_fields=['subject_exact'],
+            evidence=snippet,
+            contract_notes='snippet_primary is a Phase 0 subagent recovery note, not source verbatim; no claim to derive subject_exact from (CONTRACT.md §4).',
+            suggested_direction=f"Recuperar el pasaje verbatim de {source_ref} que sostiene el elemento que este skeleton pretendía capturar ({source_title}).",
+        )
 
     all_text = snippet + ' ' + source_ref + ' ' + source_title
 
@@ -535,7 +629,24 @@ def main():
             if eid in processed_ids:
                 continue
 
-            record = process_skeleton(skeleton)
+            try:
+                record = process_skeleton(skeleton)
+            except SkeletonRejected as rej:
+                staged_at = next_ts()
+                stage_rejected_skeleton(skeleton, rej, staged_at)
+                manifest['processed_skeletons'].append({
+                    'extraction_id': eid,
+                    'destination': 'rejected_archive_phase1b',
+                    'issues_for_this_record': [rej.issue_type],
+                    'issue_detail': rej.contract_notes,
+                    'processed_at': staged_at,
+                })
+                manifest['skeletons_processed'] += 1
+                manifest['records_recovery_staged'] += 1
+                processed_ids.add(eid)
+                batch_count += 1
+                total_new += 1
+                continue
 
             out_file = RECORDS_DIR / f'{eid}.json'
             with open(out_file, 'w') as f:
