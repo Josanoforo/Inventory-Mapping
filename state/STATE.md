@@ -1,17 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T07:47:04Z (UTC), sobre HEAD `b86cc9e0f8f692e8c80c0bcb2c83b639988f7081`.
+Generado: 2026-08-04T07:52:14Z (UTC), sobre HEAD `7a0844d2529d673a1dbf65c13684fc836bec8286`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `b86cc9e0`
+- SHA: `7a0844d2`
 
 ## Ramas remotas con commits en origin
 
-- `claude/cierre-fixes-listos-355a32` — 2026-08-04T07:45:31Z — ledger: corrige veredicto de P-169 y agrega P-201 (Encargo E11)
-- `claude/ledger-s34-3-correction-0o8njp` — 2026-08-04T07:40:32Z — ledger: corrige veredicto de cierre de P-169 y agrega P-201
+- `claude/pricing-page-source-type-k4ycey` — 2026-08-04T07:51:53Z — fix(phase1b): align infer_actor_level pricing_page with pipeline_vocabulary.yaml
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
