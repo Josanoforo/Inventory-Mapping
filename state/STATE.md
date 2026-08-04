@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T08:35:58Z (UTC), sobre HEAD `3ac82fffd08ba333f31f29e61cc454bdf00b9c8c`.
+Generado: 2026-08-04T08:42:03Z (UTC), sobre HEAD `956964e58860c370d181cb258376c92fb3df1345`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `3ac82fff`
+- SHA: `956964e5`
 
 ## Ramas remotas con commits en origin
 
+- `claude/automatizar-vencimiento-sesiones-ubvgvc` — 2026-08-04T08:41:47Z — Automatizar el vencimiento a tres sesiones (D-256 cl. 4)
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
