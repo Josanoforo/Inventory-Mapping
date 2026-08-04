@@ -1,12 +1,12 @@
 # STATE.md
 
-Generado: 2026-08-04T07:45:52Z (UTC), sobre HEAD `52e83c1714cd808c95777629fb37b7d65e39e730`.
+Generado: 2026-08-04T07:47:04Z (UTC), sobre HEAD `b86cc9e0f8f692e8c80c0bcb2c83b639988f7081`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `52e83c17`
+- SHA: `b86cc9e0`
 
 ## Ramas remotas con commits en origin
 
@@ -22,10 +22,10 @@ Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-sna
 ## Ledger (`state/pendientes_ledger.md`)
 
 - Grupo A (abiertas): 23
-- Grupo B (abiertas): 47
+- Grupo B (abiertas): 48
 - Grupo C (abiertas): 8
 - Grupo D (abiertas): 0
-- Total abiertas: 78
+- Total abiertas: 79
 - Parqueadas: 7
 
 ## Procesos largos en curso (re-extracción)
