@@ -1,4 +1,5 @@
 {
+  "$comment": "Declara un paso de validación que ningún ejecutor persiste hoy. El veredicto de Phase 2 se computa en la skill p2-extract-signals y se descarta; Phase 1a y 1b no tienen ejecutor. Especificación del paso: ver los contratos de validador en phases/*/contracts/.",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://inventory-mapping.local/schemas/signal_inventory_gate.schema.json",
   "title": "Signal to Inventory Gate Result",
