@@ -1,17 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T07:40:44Z (UTC), sobre HEAD `67bd8c10991be030d1c60ddd6d753ad9754895cc`.
+Generado: 2026-08-04T07:43:59Z (UTC), sobre HEAD `87d4f97b63fd9e61271a989891b92f43f6e9a82b`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `67bd8c10`
+- SHA: `87d4f97b`
 
 ## Ramas remotas con commits en origin
 
 - `claude/ledger-s34-3-correction-0o8njp` — 2026-08-04T07:40:32Z — ledger: corrige veredicto de cierre de P-169 y agrega P-201
-- `claude/inventory-mapping-execution-pla7jk` — 2026-08-04T07:39:46Z — fix(phase1b): implement content_not_captured rejection branch in bulk_extract.py
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
