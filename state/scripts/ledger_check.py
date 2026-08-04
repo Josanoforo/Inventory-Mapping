@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check structural invariants of state/pendientes_ledger.md.
 
-Six invariants (I1-I6), each independent — every violation found is
+Seven invariants (I1-I7), each independent — every violation found is
 reported before exiting, not just the first:
 
   I1  Per-section row count. Real rows counted in tables A/B/C/D must
@@ -20,9 +20,23 @@ reported before exiting, not just the first:
   I5  No ID may appear as a row in more than one table, or as a row
       and in a closed list at the same time.
   I6  No table row may have an empty ID (first cell).
+  I7  Vencimiento a tres sesiones (D-256 cl. 4). Dos mitades:
+      I7a (GATEA) Debe existir la línea "**Sesión vigente:** S<NN>" en
+          el encabezado, y toda fila abierta (A/B/C/D) debe llevar en su
+          columna Estado exactamente un token "·mov:S<NN>" parseable.
+          Campo ausente, duplicado o no parseable = fallo.
+      I7b (REPORTA) Toda fila abierta con (sesión vigente − sesión de
+          movimiento) >= 3 se lista bajo el encabezado
+          "I7b — VENCIDAS". Nunca falla el gate.
+      D-256: "El conteo de sesiones sin movimiento no se lleva a mano.
+      ledger_check.py ya corre como gate de CI; el vencimiento va ahí
+      como invariante, con un campo de última sesión con movimiento por
+      fila. El gate dice qué venció; el operador decide qué pasa con lo
+      vencido."
 
-Exit 0 only if all six pass. Exit 1 otherwise, printing every
-invariant that failed and the values involved.
+Exit 0 only if all gating invariants pass (I1-I6 e I7a). Exit 1
+otherwise, printing every invariant that failed and the values
+involved. I7b nunca altera el código de salida.
 """
 import re
 import sys
@@ -41,6 +55,10 @@ ID_RE = re.compile(r"\b([PU]-\d+[a-z]?)\b")
 SEP_CELL_RE = re.compile(r"^:?-+:?$")
 CERRADO_RE = re.compile(r"(?i)^cerrad[oa]")
 BOLD_COLON_HEADING_RE = re.compile(r"\*\*([^*]+:)\*\*")
+SESION_VIGENTE_RE = re.compile(r"^\*\*Sesión vigente:\*\*\s*S(\d+)\s*$", re.MULTILINE)
+MOV_TOKEN_RE = re.compile(r"·mov:S(\d+)\b")
+MOV_LOOSE_RE = re.compile(r"·\s*mov\s*:\s*\S*")
+VENCIMIENTO_SESIONES = 3
 
 
 def abort(message):
@@ -160,6 +178,15 @@ def get_closed_ids(text):
     return closed
 
 
+def get_sesion_vigente(text):
+    """Sesión vigente declarada en el encabezado. Fuente única del reloj de
+    D-256: el número de sesión no es derivable del repo, se actualiza a mano
+    en cada pasada. Devuelve None si la línea no existe o no es parseable —
+    eso es fallo de I7a, no un abort."""
+    m = SESION_VIGENTE_RE.search(text)
+    return int(m.group(1)) if m else None
+
+
 def get_nota_figures(text):
     heading = "## Nota sobre la forma de la cola"
     idx = text.find(heading)
@@ -262,13 +289,55 @@ def main():
             if not cells or not cells[0].strip():
                 failures.append(f"I6 (fila sin ID): tabla {label}, fila #{idx}, celdas={cells!r}")
 
+    # I7 — vencimiento a tres sesiones (D-256 cl. 4)
+    sesion_vigente = get_sesion_vigente(text)
+    if sesion_vigente is None:
+        failures.append(
+            "I7a (sesión vigente): no se encontró la línea "
+            "'**Sesión vigente:** S<NN>' en el encabezado del ledger"
+        )
+
+    vencidas = []
+    for label, rows in tables.items():
+        for cells in rows:
+            row_id = cells[0].strip() if cells else ""
+            estado = cells[-1] if cells else ""
+            strict = MOV_TOKEN_RE.findall(estado)
+            loose = MOV_LOOSE_RE.findall(estado)
+            if len(strict) == 1 and len(loose) == 1:
+                if sesion_vigente is not None:
+                    transcurridas = sesion_vigente - int(strict[0])
+                    if transcurridas >= VENCIMIENTO_SESIONES:
+                        vencidas.append((row_id, label, int(strict[0]), transcurridas))
+                continue
+            if not loose:
+                motivo = "campo ausente"
+            elif len(loose) > 1:
+                motivo = f"campo duplicado ({len(loose)} tokens)"
+            else:
+                motivo = f"campo no parseable ({loose[0]!r})"
+            failures.append(
+                f"I7a (movimiento en tabla {label}): ID={row_id!r} {motivo}; "
+                f"Estado={estado!r}"
+            )
+
+    # I7b — REPORTA, nunca gatea. El gate dice qué venció; el operador decide.
+    if vencidas:
+        print("I7b — VENCIDAS (D-256 cl. 4, decisión del operador):")
+        for row_id, label, mov, transcurridas in sorted(vencidas, key=lambda v: -v[3]):
+            print(
+                f"  {row_id} (tabla {label}): último movimiento S{mov}, "
+                f"{transcurridas} sesiones transcurridas"
+            )
+        print()
+
     if failures:
         for f in failures:
             print(f"FAIL: {f}")
         print(f"\n{len(failures)} invariante(s) violada(s).")
         sys.exit(1)
 
-    print("OK: I1-I6 pasan.")
+    print("OK: I1-I6 e I7a pasan.")
     print(
         f"Conteo real — A={real_counts['A']} B={real_counts['B']} "
         f"C={real_counts['C']} D={real_counts['D']} Total={sum_real}"
