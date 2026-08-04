@@ -1,16 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-04T04:16:54Z (UTC), sobre HEAD `83a70a25162489763bb05d1d40878b27dec8c63e`.
+Generado: 2026-08-04T04:19:38Z (UTC), sobre HEAD `0f7e57a94f9fd018096c89d825e4fec28ecb7209`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `83a70a25`
+- SHA: `0f7e57a9`
 
 ## Ramas remotas con commits en origin
 
-- `claude/inventory-mapping-execution-kahq1i` — 2026-08-04T04:16:42Z — ledger: R4 agrega P-188 a Parqueados, R5 mide instancia S32/S34 de P-153
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
@@ -25,7 +24,7 @@ Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-sna
 - Grupo C (abiertas): 8
 - Grupo D (abiertas): 0
 - Total abiertas: 76
-- Parqueadas: 6
+- Parqueadas: 7
 
 ## Últimas 5 decisiones registradas
 
