@@ -174,7 +174,7 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 11. **`geography_if_explicit`** — Inherit from `_extraction_context.geography_if_explicit`. Only if the source states a geographic scope.
 
-12. **`evidence_role`** — Inherit from `_extraction_context.evidence_role`. If the signal formulation reveals a different role, adjust. Context must not become direct claim (contract §13, Rule 2).
+12. **`evidence_role`** — Inherit from `_extraction_context.evidence_role`. If the signal formulation reveals a different role, adjust. Context must not become direct claim (contract §13, SEC-R2).
 
 13. **`local_qualifiers`** — Inherit from `_extraction_context.local_qualifiers`. Never drop qualifiers that condition the claim. Preserve verbatim. Exclude record metadata and access dates — those belong in `normalization_notes`.
 

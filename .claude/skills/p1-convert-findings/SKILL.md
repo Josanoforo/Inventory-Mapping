@@ -1,5 +1,7 @@
 # Convert Findings — Skill
 
+> Serie de reglas: PCF (D-257). Cita canónica: PCF-RN.
+
 Executes Module — Converter (Source Intake stage 2). Reads skeleton files produced by stage 1 and fills the 8 judgment fields to produce complete, validated Source Packets. Routes failures to GPT recovery staging without discarding them.
 
 ## Module this skill executes
@@ -40,15 +42,15 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**Rule 1: The template is the only authority.** For each of the 8 judgment fields, consult the corresponding section of `phases/01-source-intake/reference/source_packet_conversion_template.md` before deciding. If the template gives a clear instruction that applies, follow it. Do not substitute your own reasoning for what the template says.
+**PCF-R1 (Rule 1): The template is the only authority.** For each of the 8 judgment fields, consult the corresponding section of `phases/01-source-intake/reference/source_packet_conversion_template.md` before deciding. If the template gives a clear instruction that applies, follow it. Do not substitute your own reasoning for what the template says.
 
-**Rule 2: Closed enums are closed.** Fields with enum values (`possible_actor_levels`, `possible_metric_types`, `uncertainties`, `priority_for_source_first`, `traceability_status`) may only contain values from the enum in `source_packet.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
+**PCF-R2 (Rule 2): Closed enums are closed.** Fields with enum values (`possible_actor_levels`, `possible_metric_types`, `uncertainties`, `priority_for_source_first`, `traceability_status`) may only contain values from the enum in `source_packet.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
 
-**Rule 3: Ambiguity goes to uncertainties, not to invention.** If two template-valid values are equally plausible for a field, pick the more conservative one and add the corresponding uncertainty code from the enum. Do not pick one and hide the ambiguity. Do not invent a third option to avoid choosing.
+**PCF-R3 (Rule 3): Ambiguity goes to uncertainties, not to invention.** If two template-valid values are equally plausible for a field, pick the more conservative one and add the corresponding uncertainty code from the enum. Do not pick one and hide the ambiguity. Do not invent a third option to avoid choosing.
 
-**Rule 4: Missing material is not filled in.** If the material in the skeleton does not support a required field, do not guess. Mark `required_field_unfillable` and route the packet to recovery. The recovery flow exists specifically for this case.
+**PCF-R4 (Rule 4): Missing material is not filled in.** If the material in the skeleton does not support a required field, do not guess. Mark `required_field_unfillable` and route the packet to recovery. The recovery flow exists specifically for this case.
 
-**Rule 5: Cases the template does not cover.** Look for a fallback rule in the template's "Fallback rules" section before giving up. If no fallback applies either, register `template_case_uncovered` with specific detail about which field and which case, fill the field with the most conservative possible value (or `unknown` if the enum allows it), and continue. Do not stop the run.
+**PCF-R5 (Rule 5): Cases the template does not cover.** Look for a fallback rule in the template's "Fallback rules" section (serie SPT) before giving up. If no fallback applies either, register `template_case_uncovered` with specific detail about which field and which case, fill the field with the most conservative possible value (or `unknown` if the enum allows it), and continue. Do not stop the run.
 
 ## Recovery file format
 

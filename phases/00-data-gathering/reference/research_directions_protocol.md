@@ -252,7 +252,7 @@ A shard placed directly in `input/data_gathering/shards/` without a sub-director
 - Blocked direct access + exact text from cache/mirror/archive of same URL = Provisional (blocked_url_index_verified)
 - Anything else = Could not verify
 
-Follow the single-source integrity rules (Rule 16) including edge cases for journalism, retelling, intermediary verification, mirrors, and ambiguous URLs.
+Follow the single-source integrity rules (DGI-R16) including edge cases for journalism, retelling, intermediary verification, mirrors, and ambiguous URLs.
 
 ## Delivery
 Return findings in four parts:

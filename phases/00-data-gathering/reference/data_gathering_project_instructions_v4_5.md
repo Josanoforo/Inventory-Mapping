@@ -1,5 +1,7 @@
 # Project Instructions — Data Gathering (v4.5)
 
+> Serie de reglas: DGI (D-257). Cita canónica: DGI-RN.
+
 ## Context
 Data Gathering phase of a product development pipeline. Operates under Decision System Calibration (DSC) and feeds Signal Extraction downstream.
 
@@ -14,43 +16,43 @@ Per-run controls (platform, directions, allowed source_types per direction, requ
 
 ## Core rules
 
-1. **One finding = one source only.** Never combine URLs, publications, posts, listings, or pages in one finding.
+1. **DGI-R1 (Rule 1) — One finding = one source only.** Never combine URLs, publications, posts, listings, or pages in one finding.
 
-2. **One source page may still contain multiple distinct voices.** If a page contains multiple commenters, reviewers, forum participants, quoted sellers, or clearly separate speakers/accounts, each distinct speaker/account must be split into a separate finding. Same page is not the same observation when the speakers are different.
+2. **DGI-R2 (Rule 2) — One source page may still contain multiple distinct voices.** If a page contains multiple commenters, reviewers, forum participants, quoted sellers, or clearly separate speakers/accounts, each distinct speaker/account must be split into a separate finding. Same page is not the same observation when the speakers are different.
 
-3. **No cross-source synthesis.** No "sources agree," "patterns across findings," "key takeaways," or summary paragraphs. If synthesis appears, place it only in Part 3: Pattern candidates (sealed).
+3. **DGI-R3 (Rule 3) — No cross-source synthesis.** No "sources agree," "patterns across findings," "key takeaways," or summary paragraphs. If synthesis appears, place it only in Part 3: Pattern candidates (sealed).
 
-4. **Every finding must include:** What, Verbatim snippet, Source, source_type, verification_status, Date, Notes.
+4. **DGI-R4 (Rule 4) — Every finding must include:** What, Verbatim snippet, Source, source_type, verification_status, Date, Notes.
 
-5. **Verbatim snippet must be copied character-for-character.** No paraphrase. If the source is a pricing card, table, FAQ card, or structured layout, use the Type B layout format (see Snippet format).
+5. **DGI-R5 (Rule 5) — Verbatim snippet must be copied character-for-character.** No paraphrase. If the source is a pricing card, table, FAQ card, or structured layout, use the Type B layout format (see Snippet format).
 
-6. **The What field must be fully supported by the cited Verbatim snippet.** Do not add countries, rates, qualifiers, dates, or numbers that are not present in the snippet. If context from elsewhere on the page is needed to make the claim intelligible, that context must either be in the snippet or not in the What.
+6. **DGI-R6 (Rule 6) — The What field must be fully supported by the cited Verbatim snippet.** Do not add countries, rates, qualifiers, dates, or numbers that are not present in the snippet. If context from elsewhere on the page is needed to make the claim intelligible, that context must either be in the snippet or not in the What.
 
-7. **verification_status must be exactly one of:** `direct_verified`, `blocked_url_index_verified`, `could_not_verify`. See definitions below.
+7. **DGI-R7 (Rule 7) — verification_status must be exactly one of:** `direct_verified`, `blocked_url_index_verified`, `could_not_verify`. See definitions below.
 
-8. Only `direct_verified` findings go to **Part 1 — Clean findings**.
+8. **DGI-R8 (Rule 8)** — Only `direct_verified` findings go to **Part 1 — Clean findings**.
 
-9. `blocked_url_index_verified` findings go to **Part 2 — Provisional findings** only. Never pass directly downstream. See Provisional lifecycle.
+9. **DGI-R9 (Rule 9)** — `blocked_url_index_verified` findings go to **Part 2 — Provisional findings** only. Never pass directly downstream. See Provisional lifecycle.
 
-10. `could_not_verify` findings go to **Part 4 — Could not verify**.
+10. **DGI-R10 (Rule 10)** — `could_not_verify` findings go to **Part 4 — Could not verify**.
 
-11. **Preserve all qualifiers:** timeframes, units, thresholds, caps, region/country restrictions, approximations, plan/tier names.
+11. **DGI-R11 (Rule 11) — Preserve all qualifiers:** timeframes, units, thresholds, caps, region/country restrictions, approximations, plan/tier names.
 
-12. **Third-party commentary about a platform is never direct platform documentation.**
+12. **DGI-R12 (Rule 12) — Third-party commentary about a platform is never direct platform documentation.**
 
-13. **For fees, the unit is:** one fee type × one platform × one tier/plan if tiered × one qualifier set.
+13. **DGI-R13 (Rule 13) — For fees, the unit is:** one fee type × one platform × one tier/plan if tiered × one qualifier set.
 
-14. **Country-specific fee values:** if 10 or fewer, extract per country. If more than 10, record one general finding and note that detailed extraction requires targeted follow-up.
+14. **DGI-R14 (Rule 14) — Country-specific fee values:** if 10 or fewer, extract per country. If more than 10, record one general finding and note that detailed extraction requires targeted follow-up.
 
-15. **Notes are local only.** Allowed: local verification limit, blocked fetch status, page undated, structured layout flag, source weakness local to that finding, container limitation. Forbidden: comparisons to other findings or sources, contradiction language, corroboration, reconciliation, math, extrapolation, cross-finding references by ID.
+15. **DGI-R15 (Rule 15) — Notes are local only.** Allowed: local verification limit, blocked fetch status, page undated, structured layout flag, source weakness local to that finding, container limitation. Forbidden: comparisons to other findings or sources, contradiction language, corroboration, reconciliation, math, extrapolation, cross-finding references by ID.
 
-16. **Public review/complaint sites** (Trustpilot, BBB, Sitejabber, G2, Capterra, etc.) do not automatically count as `seller_forum`. If no taxonomy value fits cleanly, use `unknown` and note: "Public review/complaint site; no dedicated taxonomy value in current schema."
+16. **DGI-R16 (Rule 16) — Public review/complaint sites** (Trustpilot, BBB, Sitejabber, G2, Capterra, etc.) do not automatically count as `seller_forum`. If no taxonomy value fits cleanly, use `unknown` and note: "Public review/complaint site; no dedicated taxonomy value in current schema."
 
-17. **A finding fails if it contains:** multiple source identities, multiple URLs, quotes from more than one source, or quotes from more than one distinct speaker/account on the same page. Move any comparison across sources to Part 3.
+17. **DGI-R17 (Rule 17) — A finding fails if it contains:** multiple source identities, multiple URLs, quotes from more than one source, or quotes from more than one distinct speaker/account on the same page. Move any comparison across sources to Part 3.
 
-18. **If the page has no visible date, use:** `Accessed [Month Year]; page undated`.
+18. **DGI-R18 (Rule 18) — If the page has no visible date, use:** `Accessed [Month Year]; page undated`.
 
-19. **If unsure, do not upgrade quality. Be conservative.**
+19. **DGI-R19 (Rule 19) — If unsure, do not upgrade quality. Be conservative.**
     - Unsure whether it's direct or blocked → blocked.
     - Unsure whether it's clean or provisional → provisional.
     - Unsure whether multiple identities are involved → Part 4.
@@ -60,7 +62,7 @@ Per-run controls (platform, directions, allowed source_types per direction, requ
 
 ---
 
-## Rule 17 edge cases
+## DGI-R17 (Rule 17) edge cases
 
 **17a. Journalism interviews — single-source.**
 A journalist reporting a direct quote they obtained in an interview counts as single-source. The journalist is the primary capture. Classify `source_type: article` or `interview`. The finding is about what the article says; the quote is part of that article.
@@ -75,7 +77,7 @@ Using a third-party article to verify a cited URL the agent could not access dir
 A mirror of the same URL (libredd.it for reddit.com, archive.org snapshots, Google cache of the same URL) counts as equivalent indirect access to the cited URL. Classify as `blocked_url_index_verified`. Note the mirror used in Notes.
 
 **17e. Ambiguous URL — default to Part 4.**
-If the specific URL could not be determined (only a subreddit-level URL instead of a thread URL, only a domain instead of a page), the finding fails Rule 1. Default to Part 4 regardless of whether the text is recoverable.
+If the specific URL could not be determined (only a subreddit-level URL instead of a thread URL, only a domain instead of a page), the finding fails DGI-R1. Default to Part 4 regardless of whether the text is recoverable.
 
 ---
 
@@ -127,7 +129,7 @@ Closed list. Use exactly one value per finding. The run prompt specifies which s
 
 `platform_doc`, `help_center`, `pricing_page`, `policy_page`, `blog`, `article`, `report`, `news`, `reddit`, `seller_forum`, `buyer_review`, `product_listing`, `interview`, `video_transcript`, `pdf`, `database_profile`, `search_results_page`, `unknown`
 
-Only the platform speaking for itself counts as direct platform documentation. A third-party blog describing the platform is `blog`, not `platform_doc`. Public review aggregators default to `unknown` per Rule 16.
+Only the platform speaking for itself counts as direct platform documentation. A third-party blog describing the platform is `blog`, not `platform_doc`. Public review aggregators default to `unknown` per DGI-R16.
 
 ---
 
@@ -177,10 +179,10 @@ For each finding:
 1. Anchored to exactly one source?
 2. Only one speaker/account/identity (Rules 1, 2, 17)?
 3. URL specific enough to uniquely identify the claim's location?
-4. **What fully supported by the snippet (Rule 6)?** No added countries, rates, qualifiers, numbers, or dates.
+4. **What fully supported by the snippet (DGI-R6)?** No added countries, rates, qualifiers, numbers, or dates.
 5. Qualifiers in the snippet preserved?
 6. `source_type` correct (not defaulted to convenience)?
-7. `verification_status` correct (conservative default if unsure)? For `direct_verified`: is the voice in the What actually the voice in the snippet (Rule 17b)?
+7. `verification_status` correct (conservative default if unsure)? For `direct_verified`: is the voice in the What actually the voice in the snippet (DGI-R17b)?
 8. Snippet truly verbatim?
 9. Right unit of observation?
 10. Notes free of synthesis, math, cross-finding references, and reconciliation?

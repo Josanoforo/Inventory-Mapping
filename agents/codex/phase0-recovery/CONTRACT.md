@@ -1,5 +1,7 @@
 # Codex Agent — Phase 0 Recovery
 
+> Serie de reglas: P0R (D-257). Cita canónica: P0R-RN.
+
 ## Rol
 
 Eres un agente de Phase 0 Recovery del pipeline DSC. Recibes packets de recovery que describen findings de Part 4 que no pudieron verificarse en la primera pasada de Data Gathering. Tu trabajo es procesar el contenido del packet aplicando el contrato completo de Data Gathering: descomponer en sub-búsquedas verificables, ejecutar cada una, verificar y catalogar los hallazgos, y producir un shard markdown válido que re-entre al pipeline.
@@ -15,7 +17,7 @@ Este contrato hereda los protocolos base compartidos por todos los agentes Codex
 - [`_shared/protocols/search_decomposition_rules.md`](../_shared/protocols/search_decomposition_rules.md) — regla central "descomponer sí, reinterpretar no", cuándo dividir, unidad correcta, manejo de claims composite, SD obligatorio, absences.
 - [`_shared/protocols/output_template.md`](../_shared/protocols/output_template.md) — template base con 4 Parts.
 
-Si una regla de este contrato contradice un protocolo compartido, **los protocolos compartidos mandan** salvo que la excepción esté declarada explícitamente aquí. Las dos excepciones declaradas son: (a) el template extendido con Parts 1B/2B, y (b) el test operativo de scope de Regla 15. Todo lo demás es herencia directa.
+Si una regla de este contrato contradice un protocolo compartido, **los protocolos compartidos mandan** salvo que la excepción esté declarada explícitamente aquí. Las dos excepciones declaradas son: (a) el template extendido con Parts 1B/2B, y (b) el test operativo de scope de P0R-R15. Todo lo demás es herencia directa.
 
 ---
 
@@ -80,7 +82,7 @@ Si el claim original aparece verbatim en un blog con URL accesible, ese es un fi
 
 ---
 
-## Regla 15 — Pertenencia al scope del packet
+## P0R-R15 (Regla 15) — Pertenencia al scope del packet
 
 Esta regla es exclusiva del recovery agent. Existe porque el recovery procesa un claim pre-existente con el que los findings deben compararse, y esa comparación define qué es in-scope, qué es adjacent, y qué es out-of-scope. Los agentes sin un claim de referencia (ej. `phase0-eje4-discovery`) no usan esta regla.
 
@@ -270,10 +272,10 @@ Header format:
 Además del QA de 12 puntos por finding y del QA de shard completo definidos en `output_contract.md`, el recovery ejecuta estos checks adicionales:
 
 1. ¿Interpreté el `raw_text` del packet como instrucción ("solo busca en oficiales") en vez de como contexto ("así se describió el fallo original")? Ver Clarificación 4.
-2. ¿Cada finding en Part 1, Part 1B, Part 2 y Part 2B pasa el test operativo de scope de Regla 15? ¿Cada finding habla del mismo sujeto + misma variable del claim del packet? Si algún finding es otro sujeto u otra variable, muévelo a Research QA Notes como out-of-scope.
+2. ¿Cada finding en Part 1, Part 1B, Part 2 y Part 2B pasa el test operativo de scope de P0R-R15? ¿Cada finding habla del mismo sujeto + misma variable del claim del packet? Si algún finding es otro sujeto u otra variable, muévelo a Research QA Notes como out-of-scope.
 3. ¿Algún finding clasificado como Part 1 o Part 2 (literal) contiene los valores Y el mecanismo del claim? Si solo contiene parcialmente (valores distintos, mecanismo ausente), debe ir a Part 1B o Part 2B.
 4. ¿Research QA Notes incluye los metadatos de trazabilidad del packet (recovery_id, finding_id, shard_id, failure_mode) y el resumen de strategies attempted por cada SD-NN?
-5. ¿Alguna Notes de un finding de Part 1B o 2B contiene comparación con el claim original del packet ("the source says X and does not state Y", "same variable but different period")? Principio 7 prohíbe la comparación en Notes. La clasificación de adyacencia va en "Adjacency basis" dentro de Research QA Notes; la Notes del finding queda solo con limitación local.
+5. ¿Alguna Notes de un finding de Part 1B o 2B contiene comparación con el claim original del packet ("the source says X and does not state Y", "same variable but different period")? COR-R7 prohíbe la comparación en Notes. La clasificación de adyacencia va en "Adjacency basis" dentro de Research QA Notes; la Notes del finding queda solo con limitación local.
 
 ---
 
@@ -303,7 +305,7 @@ Ver `agents/codex/phase0-recovery/README.md` para el flujo operativo completo (g
 ## Lo que NO haces
 
 - **No produces pattern candidates propios.** Part 3 siempre es `None`.
-- **No investigas más allá del scope del `original_finding_content`.** Ver Regla 15 para la definición operativa de scope.
+- **No investigas más allá del scope del `original_finding_content`.** Ver P0R-R15 para la definición operativa de scope.
 - **No cambias el subject del `original_finding_content`.**
 - **No inventas findings para llenar la salida.** Si no hay findings válidos en ninguna Part, entrega la estructura completa con `None` en cada Part.
 - **No interpretas significado, importancia, fuerza o implicación de los hallazgos.**

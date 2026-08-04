@@ -1,5 +1,7 @@
 # CORE_PROTOCOL
 
+> Serie de reglas: COR (D-257). Cita canónica: COR-RN.
+
 Este documento es el protocolo base compartido por todos los agentes Codex de Phase 0 (Data Gathering / Recovery / Discovery). Cada agente tiene un `CONTRACT.md` propio que describe su operación específica y referencia este protocolo. Si una regla de un `CONTRACT.md` contradice este documento, las clarificaciones y principios de este documento mandan salvo que el contrato específico declare explícitamente la excepción.
 
 Documentos hermanos en `_shared/protocols/`:
@@ -23,10 +25,10 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
 
 ## Principios no negociables
 
-1. **One finding = one source only.** Nunca combines múltiples URLs, páginas, posts, comentarios, speakers o contenedores en un mismo finding.
-2. **Una misma página puede contener múltiples voces.** Si eso ocurre, cada speaker/account distinto va en un finding separado.
-3. **No hay cross-source synthesis fuera de Part 3.**
-4. **El campo What está totalmente sostenido por el Verbatim snippet.** No añadas números, qualifiers, países, mecanismos, tiers, fechas o implicaciones que no estén literales en el snippet. No añadas calificadores contextuales (ej. "new shops", "small sellers", "in certain cases") aunque aparezcan en otra parte de la página.
+1. **COR-R1 (Regla 1) — One finding = one source only.** Nunca combines múltiples URLs, páginas, posts, comentarios, speakers o contenedores en un mismo finding.
+2. **COR-R2 (Regla 2) — Una misma página puede contener múltiples voces.** Si eso ocurre, cada speaker/account distinto va en un finding separado.
+3. **COR-R3 (Regla 3) — No hay cross-source synthesis fuera de Part 3.**
+4. **COR-R4 (Regla 4) — El campo What está totalmente sostenido por el Verbatim snippet.** No añadas números, qualifiers, países, mecanismos, tiers, fechas o implicaciones que no estén literales en el snippet. No añadas calificadores contextuales (ej. "new shops", "small sellers", "in certain cases") aunque aparezcan en otra parte de la página.
 
    **Sin aritmética sobre el snippet.** El What no puede depender de cálculo, ni trivial, sobre los valores del snippet. Si el snippet dice "$8M total investment" y "$1.1M seed", no puedes reportar "$7M Series A" en el What aunque la resta sea obvia. Dos opciones válidas: (a) extraer un segundo snippet del mismo source que contenga el valor derivado literal, o (b) reformular el What usando solo los valores literales ("$8M total outside investment, $1.1M seed"). Aritmética trivial sigue siendo interpretación.
 
@@ -42,7 +44,7 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
 
    - **Redistribución de sujeto o tiempo entre oraciones del snippet.** Si el snippet dice "Shops are being completely de-indexed. Listings are gone from search entirely", el What no puede decir "shops were de-indexed from search": mueve un complemento de un sujeto a otro y cambia el tiempo verbal. Cada afirmación del What debe leerse de una sola oración del snippet, con su sujeto y su tiempo verbal originales.
 
-5. **Verbatim snippet character-for-character.** No paráfrasis. Las palabras citadas deben ser literales del source — sin sustituciones, sin modernizaciones, sin reformulaciones.
+5. **COR-R5 (Regla 5) — Verbatim snippet character-for-character.** No paráfrasis. Las palabras citadas deben ser literales del source — sin sustituciones, sin modernizaciones, sin reformulaciones.
 
    **Concatenación con `[...]`:** Cuando el claim del packet o query involucra un componente narrativo, mecanismo, o composición que requiere fragmentos no contiguos del source, puedes unir hasta 3 fragmentos con `[...]` (usa corchetes, no puntos sueltos) bajo estas condiciones:
 
@@ -54,16 +56,16 @@ No eres recompensado por producir más findings. Eres recompensado por producir 
    **Si viene de tabla, pricing card, FAQ block o structured layout,** márcalo como `[Stated in layout: "..."]`.
 
    **QA adicional:** si un verbatim snippet contiene más de 2 usos de `[...]`, re-extrae el finding — probablemente estás construyendo un claim composite que debe dividirse en findings separados.
-6. **El campo Source debe ser URL completa** (protocolo + dominio + ruta). No es aceptable título, nombre del sitio, ni referencia narrativa. Si no puedes fijar la URL exacta, el finding no califica — no lo registres en ninguna Part. Documenta el intento en Research QA Notes bajo "Findings rejected due to verification edge case".
+6. **COR-R6 (Regla 6) — El campo Source debe ser URL completa** (protocolo + dominio + ruta). No es aceptable título, nombre del sitio, ni referencia narrativa. Si no puedes fijar la URL exacta, el finding no califica — no lo registres en ninguna Part. Documenta el intento en Research QA Notes bajo "Findings rejected due to verification edge case".
 
    **Redirecciones.** Si la URL de origen redirige a otra ruta, el campo Source lleva la URL final donde efectivamente leíste el snippet, y la redirección se anota en Notes como limitación local.
 
-7. **Notes solo locales.** Permitido: limitación local de verificación, bloqueo de fetch, page undated, structured layout, container limitation, source weakness local, método de recuperación. Prohibido: evidencia extra, interpretación, comparación, contradicción, corroboración, reconciliación, hipótesis, referencias a otros findings, math o cálculos derivados, cross-source context.
-8. **Conserva qualifiers visibles.** Fechas, thresholds, ranges, caps, units, approximations, country restrictions, plan/tier names.
-9. **Si no puedes fijar la identidad exacta de la fuente, degrada.**
-10. **No infieras ausencia de política, feature o práctica** por falta de hallazgo o por página inaccesible. Si buscaste activamente y no encontraste, reporta como absence finding (formato en `output_contract.md`).
-11. **No uses memoria del modelo como evidencia.**
-12. **No completes huecos con sentido común.**
+7. **COR-R7 (Regla 7) — Notes solo locales.** Permitido: limitación local de verificación, bloqueo de fetch, page undated, structured layout, container limitation, source weakness local, método de recuperación. Prohibido: evidencia extra, interpretación, comparación, contradicción, corroboración, reconciliación, hipótesis, referencias a otros findings, math o cálculos derivados, cross-source context.
+8. **COR-R8 (Regla 8) — Conserva qualifiers visibles.** Fechas, thresholds, ranges, caps, units, approximations, country restrictions, plan/tier names.
+9. **COR-R9 (Regla 9) — Si no puedes fijar la identidad exacta de la fuente, degrada.**
+10. **COR-R10 (Regla 10) — No infieras ausencia de política, feature o práctica** por falta de hallazgo o por página inaccesible. Si buscaste activamente y no encontraste, reporta como absence finding (formato en `output_contract.md`).
+11. **COR-R11 (Regla 11) — No uses memoria del modelo como evidencia.**
+12. **COR-R12 (Regla 12) — No completes huecos con sentido común.**
 
 ---
 

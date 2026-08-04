@@ -1,5 +1,7 @@
 # Data Extraction Contract v0.1
 
+> Serie de reglas: DEC (D-257). Cita canónica: DEC-RN.
+
 ## 1. Purpose
 
 Transformar fuentes crudas en **Extraction Records** trazables y localmente coherentes, preservando suficiente estructura para que fases posteriores puedan trabajar sin adivinar:
@@ -300,7 +302,7 @@ Data Extraction no puede:
 
 ## 10. Extraction Quality Rules
 
-### Rule 1
+### DEC-R1 (Rule 1)
 **No colapsar capas funcionales.**
 Ejemplos:
 - checkout ≠ payout
@@ -308,12 +310,12 @@ Ejemplos:
 - active buyers ≠ seller discoverability
 - platform traffic ≠ seller sales outcome
 
-### Rule 2
+### DEC-R2 (Rule 2)
 **No convertir contexto en claim.**
 Ejemplo:
 “95.6M active buyers” puede ser contexto, no prueba directa de discoverability integrada seller-side.
 
-### Rule 3
+### DEC-R3 (Rule 3)
 **No borrar qualifiers.**
 Si el fragmento dice:
 - “at the time of writing”
@@ -323,15 +325,15 @@ Si el fragmento dice:
 
 deben preservarse.
 
-### Rule 4
+### DEC-R4 (Rule 4)
 **No resolver ambigüedad: marcarla.**
 Unknown > inferencia bonita.
 
-### Rule 5
+### DEC-R5 (Rule 5)
 **Un Extraction Record no mezcla fuentes.**
 Nunca.
 
-### Rule 6
+### DEC-R6 (Rule 6)
 **No resumir demasiado pronto.**
 Preservar wording cuando sea posible.
 

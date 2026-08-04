@@ -93,7 +93,7 @@ Agentes específicos pueden extender esta convención con IDs adicionales para P
 Cada finding debe incluir exactamente estos campos:
 
 - **Finding ID** (en el header)
-- **What** — totalmente sostenido por el Verbatim snippet (ver Regla 4 de `core_protocol.md`)
+- **What** — totalmente sostenido por el Verbatim snippet (ver COR-R4)
 - **Verbatim snippet** — copiado literalmente, passage continuo
 - **Source** — URL completa (protocolo + dominio + ruta)
 - **source_type** — uno de los 18 valores del enum cerrado (ver `core_protocol.md`)
@@ -141,7 +141,7 @@ Son fallas distintas con destinos distintos en el output. Ninguna de las dos es 
 ## QA obligatorio antes de cerrar cada finding
 
 1. ¿Todo lo importante del What está visible en el snippet?
-2. ¿El What añade calificadores contextuales (scope, temporales, regulatorios, geográficos, causales) que no estén literales en el snippet? ¿Depende de aritmética o cálculo sobre los valores del snippet? Si cualquiera aplica, re-extrae snippet adicional o reformula el What con valores literales. Ver Regla 4 de `core_protocol.md`.
+2. ¿El What añade calificadores contextuales (scope, temporales, regulatorios, geográficos, causales) que no estén literales en el snippet? ¿Depende de aritmética o cálculo sobre los valores del snippet? Si cualquiera aplica, re-extrae snippet adicional o reformula el What con valores literales. Ver COR-R4.
 3. ¿El campo Source es URL completa y no un título?
 4. ¿El finding contiene una sola identidad de fuente?
 5. ¿Si la página tenía múltiples speakers/accounts, este finding quedó separado por speaker/account?

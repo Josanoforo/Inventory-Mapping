@@ -1,5 +1,7 @@
 # Module — Extraction Converter (Data Extraction stage 2)
 
+> Serie de reglas: EXC (D-257). Cita canónica: EXC-RN.
+
 ## Purpose
 
 Transform Extraction Record skeletons (produced by `phases/01-source-intake/data-extraction/scripts/extraction_prepare.py`) into complete, validated Extraction Records by filling the 15 judgment fields following the Data Extraction contract. The 10 mechanical fields are already populated by stage 1 and must not be modified.
@@ -198,25 +200,25 @@ A record can be in `records/` and simultaneously flagged `needs_human_review` in
 
 These rules apply during step 4.2 when filling judgment fields. Violations must be marked in `uncertainties` or `parser_notes`, not silently fixed.
 
-**Rule 1: Do not collapse functional layers.**
+**EXC-R1 (Rule 1): Do not collapse functional layers.**
 - checkout ≠ payout
 - fee base ≠ net retained
 - active buyers ≠ seller discoverability
 - platform traffic ≠ seller sales outcome
 
-**Rule 2: Do not convert context into claim.**
+**EXC-R2 (Rule 2): Do not convert context into claim.**
 A snippet may provide context for a claim without being the claim itself. Mark `evidence_role` as `local_context` when appropriate rather than `direct_claim`.
 
-**Rule 3: Do not drop qualifiers.**
+**EXC-R3 (Rule 3): Do not drop qualifiers.**
 If the snippet says "at the time of writing", "in the US", "for shops under $10k", or similar — preserve verbatim in `local_qualifiers`.
 
-**Rule 4: Do not resolve ambiguity; mark it.**
+**EXC-R4 (Rule 4): Do not resolve ambiguity; mark it.**
 `unknown` > invented inference. When two values are equally plausible for an enum field, pick the more conservative and add the corresponding uncertainty code.
 
-**Rule 5: One Extraction Record, one source.**
+**EXC-R5 (Rule 5): One Extraction Record, one source.**
 Each skeleton already represents one snippet from one source. Never synthesize across snippets or packets.
 
-**Rule 6: Do not summarize the snippet.**
+**EXC-R6 (Rule 6): Do not summarize the snippet.**
 Preserve wording. `snippet_primary` comes from the skeleton unchanged; do not rewrite it when filling judgment fields.
 
 ## Fail states

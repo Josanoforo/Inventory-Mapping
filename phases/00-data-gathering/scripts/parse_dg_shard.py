@@ -3,7 +3,7 @@
 parse_dg_shard.py — Data Gathering shard parser.
 
 Contract authority:
-  phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md  (Rule 4 + Rule 7)
+  phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md  (DGI-R4 + DGI-R7)
   phases/00-data-gathering/reference/research_directions_protocol.md              (Sections 3, 4, 5, 9)
 
 Usage:
@@ -34,7 +34,7 @@ PART4_DIR = REPO_ROOT / "working" / "data_gathering" / "diagnostics" / "part_4"
 QA_DIR = REPO_ROOT / "working" / "data_gathering" / "diagnostics" / "qa_notes"
 
 # ---------------------------------------------------------------------------
-# Contract: 8 required fields from Rule 4
+# Contract: 8 required fields from DGI-R4
 # canonical_key → list of acceptable label spellings (lower-cased, stripped)
 # ---------------------------------------------------------------------------
 
@@ -205,7 +205,7 @@ def _parse_finding_block(block: str, finding_id: str) -> dict:
     """
     Extract fields from a finding block.
 
-    - Required fields (Rule 4) → top-level keys using canonical names.
+    - Required fields (DGI-R4) → top-level keys using canonical names.
     - Unknown / domain-specific fields → nested under extra_fields.
     - Warns to stderr for each missing required field.
     """

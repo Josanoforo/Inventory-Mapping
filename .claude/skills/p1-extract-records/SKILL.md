@@ -1,5 +1,7 @@
 # Extract Records — Skill
 
+> Serie de reglas: PER (D-257). Cita canónica: PER-RN.
+
 Executes Module — Extraction Converter (Data Extraction stage 2). Reads skeleton files produced by stage 1 and fills the 15 judgment fields to produce complete, validated Extraction Records. Routes failures to GPT recovery staging without discarding them.
 
 ## Module this skill executes
@@ -51,21 +53,21 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**Rule 1: The contract is the only authority.** For each of the 15 judgment fields, consult the corresponding section of `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` before deciding. If the contract gives clear instruction that applies, follow it. Do not substitute your own reasoning for what the contract says.
+**PER-R1 (Rule 1): The contract is the only authority.** For each of the 15 judgment fields, consult the corresponding section of `phases/01-source-intake/data-extraction/contracts/data_extraction_contract.md` before deciding. If the contract gives clear instruction that applies, follow it. Do not substitute your own reasoning for what the contract says.
 
-**Rule 2: Closed enums are closed.** Fields with enum values (`claim_type`, `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties`) may only contain values from the enums in `data_extraction_record.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
+**PER-R2 (Rule 2): Closed enums are closed.** Fields with enum values (`claim_type`, `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties`) may only contain values from the enums in `data_extraction_record.schema.json`. If no value fits, use `unknown` if the enum allows it, or mark the field as unfillable and route to recovery. Never invent enum values.
 
-**Rule 3: Ambiguity goes to uncertainties, not to invention.** If two contract-valid values are equally plausible for a field, pick the more conservative one and add the corresponding uncertainty code from the enum. Do not pick one and hide the ambiguity. Do not invent a third option to avoid choosing.
+**PER-R3 (Rule 3): Ambiguity goes to uncertainties, not to invention.** If two contract-valid values are equally plausible for a field, pick the more conservative one and add the corresponding uncertainty code from the enum. Do not pick one and hide the ambiguity. Do not invent a third option to avoid choosing.
 
-**Rule 4: Missing material is not filled in.** If the material in the skeleton does not support a required judgment field, do not guess. Mark `required_field_unfillable` and route the record to recovery. The recovery flow exists specifically for this case.
+**PER-R4 (Rule 4): Missing material is not filled in.** If the material in the skeleton does not support a required judgment field, do not guess. Mark `required_field_unfillable` and route the record to recovery. The recovery flow exists specifically for this case.
 
-**Rule 5: Cases the contract does not cover.** Look for a fallback in the contract's "Failure Reasons" section (§12) and "Quality Rules" section (§10) before giving up. If no fallback applies, register `contract_case_uncovered` with specific detail about which field and which case, fill the field with the most conservative possible value (or `unknown` if the enum allows it), and continue. Do not stop the run.
+**PER-R5 (Rule 5): Cases the contract does not cover.** Look for a fallback in the contract's "Failure Reasons" section (§12) and "Quality Rules" section (§10) before giving up. If no fallback applies, register `contract_case_uncovered` with specific detail about which field and which case, fill the field with the most conservative possible value (or `unknown` if the enum allows it), and continue. Do not stop the run.
 
-**Rule 6: Do not rewrite the snippet.** `snippet_primary` is a mechanical field. Its value comes from the skeleton unchanged. Do not alter it while filling judgment fields.
+**PER-R6 (Rule 6): Do not rewrite the snippet.** `snippet_primary` is a mechanical field. Its value comes from the skeleton unchanged. Do not alter it while filling judgment fields.
 
-**Rule 7: Do not collapse functional layers.** The extraction contract (§10, Rule 1) prohibits collapsing: checkout ≠ payout, fee base ≠ net retained, active buyers ≠ seller discoverability. When a snippet touches multiple layers, name the layer precisely in `subject_exact` and mark `subject_ambiguity` in uncertainties if the snippet conflates them.
+**PER-R7 (Rule 7): Do not collapse functional layers.** The extraction contract (§10, DEC-R1) prohibits collapsing: checkout ≠ payout, fee base ≠ net retained, active buyers ≠ seller discoverability. When a snippet touches multiple layers, name the layer precisely in `subject_exact` and mark `subject_ambiguity` in uncertainties if the snippet conflates them.
 
-**Rule 8: Preserve qualifiers.** Any temporal, geographic, or conditional qualifier from the snippet must appear in `local_qualifiers` verbatim. Do not drop them for brevity.
+**PER-R8 (Rule 8): Preserve qualifiers.** Any temporal, geographic, or conditional qualifier from the snippet must appear in `local_qualifiers` verbatim. Do not drop them for brevity.
 
 ## Recovery file format
 
