@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T21:11:26Z (UTC), sobre HEAD `0223050aa070d88a55b08a61e7b795cca82a3446`.
+Generado: 2026-08-04T21:32:59Z (UTC), sobre HEAD `c7127d92bc02f021dd753e7e80d95f3f4b745332`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `0223050a`
+- SHA: `c7127d92`
 
 ## Ramas remotas con commits en origin
 
+- `claude/resolve-s36-contradiction-ds3l38` — 2026-08-04T21:32:37Z — E-VAL3-S36: resolver contradicción #108/#109 sobre retirada de schemas de validador
 - `claude/inventory-mapping-execution-czdib2` — 2026-08-04T21:11:12Z — E-VAL2-S36: incorporar corroboración cruzada re-medida
 - `claude/eval-s36-reconocimiento-eqg3qs` — 2026-08-04T20:20:32Z — E-VAL-S36: mapa de reconocimiento de la capa de validación
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
