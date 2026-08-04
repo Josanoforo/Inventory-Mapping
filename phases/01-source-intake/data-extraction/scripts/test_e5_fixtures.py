@@ -81,9 +81,29 @@ def test_e5b_help_center_ignores_buyer_vocabulary():
     print('PASS test_e5b_help_center_ignores_buyer_vocabulary')
 
 
+def test_e5b_pricing_page_maps_to_platform():
+    result = be.infer_actor_level(
+        'pricing_page',
+        'Pro plan is $29/month, billed annually.',
+    )
+    assert result == 'platform', result
+    print('PASS test_e5b_pricing_page_maps_to_platform')
+
+
+def test_e5b_pricing_page_ignores_buyer_vocabulary():
+    result = be.infer_actor_level(
+        'pricing_page',
+        'A buyer viewing the Pro plan sees $29/month.',
+    )
+    assert result == 'platform', result
+    print('PASS test_e5b_pricing_page_ignores_buyer_vocabulary')
+
+
 if __name__ == '__main__':
     test_e5a_recovery_note_rejects()
     test_e5a_normal_skeleton_still_produces_record()
     test_e5b_help_center_maps_to_platform()
     test_e5b_help_center_ignores_buyer_vocabulary()
+    test_e5b_pricing_page_maps_to_platform()
+    test_e5b_pricing_page_ignores_buyer_vocabulary()
     print('All fixtures passed.')

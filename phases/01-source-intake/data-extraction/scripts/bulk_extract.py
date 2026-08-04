@@ -185,10 +185,10 @@ def infer_evidence_role(source_type, snippet):
 def infer_actor_level(source_type, snippet):
     # pipeline_vocabulary.yaml actor.assignment_rule: "Determined by source_type,
     # not by topic. 'Who speaks', not 'who is affected.'"
-    # help_center / policy_page / platform_doc → platform, checked before the
-    # topic regex below so a mention of "buyer"/"seller" in the snippet can't
-    # override who is actually speaking.
-    if source_type in ['help_center', 'policy_page', 'platform_doc']:
+    # help_center / policy_page / platform_doc / pricing_page → platform,
+    # checked before the topic regex below so a mention of "buyer"/"seller"
+    # in the snippet can't override who is actually speaking.
+    if source_type in ['help_center', 'policy_page', 'platform_doc', 'pricing_page']:
         return 'platform'
     s = snippet.lower()
     has_buyer = bool(re.search(r'\b(?:buyer|customer|purchaser|patron|subscriber)\b', s))
@@ -207,8 +207,6 @@ def infer_actor_level(source_type, snippet):
         return 'source'
     if source_type in ['reddit', 'seller_forum', 'blog']:
         return 'seller'
-    if source_type == 'pricing_page':
-        return 'marketplace'
     if source_type in ['article', 'report', 'news']:
         return 'marketplace'
     return 'unknown'
