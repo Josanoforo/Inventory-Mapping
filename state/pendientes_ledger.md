@@ -95,7 +95,6 @@ files, diseño) · `OP` = solo el operador.
 | P-162 | Estrechamiento descendente de enums, patrón medido: los tres `phase_1_only` con uso real en packets (2/35/355, E1) mueren en el enum de ER; uncertainties 16→14→13 hacia Signal Card; actor `unknown` ausente de `card_record`. Toda medición de uso declara capa | decisión | Decidir si el estrechamiento es intencional o defecto de puente | DSC | ·mov:S34 |
 | P-163 | `platforms` no llega a Phase 3 como campo; `entities` se reconstruye best-effort (`03_indexer.md:20-23`) | decisión | Agregar `platforms` como campo de primera clase, o aceptar la reconstrucción best-effort | A8 | verificado — `03_indexer.md:20-23` confirma extracción best-effort de entities; `platforms` ausente de la lista de campos de la línea 20 ·mov:S34 |
 | P-165 | Los 7 scans sin código; Phase 3 no reproducible en su fase declarada mecánica | decisión | Implementar los scanners, o aceptar el paso como manual | DSC (A8) | verificado — 0 archivos `.py` bajo `phases/03-inventory-mapping/`; solo `04_scanner.md` (módulo) y `scan_artifact.schema.json` (schema) ·mov:S34 |
-| P-166 | Comparability Check a 2/3: "plataforma igual o separada" sin contraparte en el repo | decisión | Escribir la contraparte, o aceptar el check parcial | A8 | ·mov:S34 |
 | P-170 | `claim_type`/`evidence_role` sin regla general: D1/D2 cubren dos fronteras; 5 casos residual-lite por causa estructural. La regla de desempate del contrato (Rule 4, `extraction_converter.md:213`) es inescribible para estos dos campos — `claim_type_unclear` y `evidence_role_unclear` no existen en vocab ni schemas, misma forma que el bloqueo de R9(a); la única glosa normativa del par (Rule 2 → `local_context`, `extraction_converter.md:207`) corresponde al único valor con 0 usos en 1,178 | decisión | Escribir la regla general, o aceptar el residuo caso por caso | DSC | verificado — `extraction_converter.md:207` (Rule 2) y `:213` (Rule 4) confirmados; 0 ocurrencias de `claim_type_unclear`/`evidence_role_unclear` en `pipeline_vocabulary.yaml` o schemas ·mov:S34 |
 | P-171 | Dónde vive un comparador (C6, C16): `metric_value_raw` vs `parser_notes`, sin regla | decisión | Definir dónde vive el comparador | DSC | ·mov:S34 |
 | P-172 | Formato de preservación de bloques (C42): R9(d) decide tipo, no forma | decisión | Definir la forma de preservación | DSC | ·mov:S34 |
@@ -127,6 +126,8 @@ files, diseño) · `OP` = solo el operador.
 - **P-180** — cerrado — enunciado corregido antes de cerrar: no eran secciones sin escritor, sino un lector que encontró un escritor accidental. `FROZEN_HEADING_RE` buscaba la frase "superficie congelada" en cualquier `state/*.md` vía `rglob`; cuando el ledger ganó la fila P-180 —cuyo enunciado contiene la frase— el regex la matcheó y volcó filas del ledger (P-181, P-182, P-187, P-189, P-191…) dentro de la sección "Superficie congelada" de `state/STATE.md` (snapshot sobre `bd53e183`). La fila que documentaba el problema lo activó. La sección "Últimas 5 decisiones" tenía el vicio inverso: buscaba `decision.?log` en el repo, imposible por D-233. Resuelto por sello S5 (quitar ambas) y ejecutado en PR #95: removidas las dos secciones con sus constantes y funciones (`FROZEN_HEADING_RE`, `DECISION_LOG_NAME_RE`, `DECISION_ID_RE`, `find_decision_log_files`, `section_decisions`, `section_frozen_surface`); resto del snapshot idéntico, verificado antes/después contra salida temporal. Alternativa descartada y registrada: acotar el lector a un `state/superficie_congelada.md` nombrado — mecanismo con un solo uso real (benchmark S31-S32, cerrado) y archivo que casi siempre diría "ninguna vigente".
 - **P-176** — cerrado — magnitud cero medida en todas las capas (P-191): `skeleton_invalid` está declarado en 10 archivos (3 módulos, 3 skills, 3 schemas de manifest y `phase1b-recovery/CONTRACT.md` — uno más que los 9 del enunciado original) y tiene 0 apariciones como valor en records, packets, cards, skeleton_batches, manifests y `*.py`. Se conserva la declaración; no se implementa productor. Condición de reapertura: que algún script llegue a escribirlo.
 - **P-138** — cerrado — se acepta que `uncertainties` no cruza el puente. Medido: 0 consumidores en Phase 3 (6 módulos, 6 schemas, 12 skills) y 0 en el puente, que emite 7 etiquetas fijas (`signal_to_markdown.py:262,264,266,268,270,272,274`). No hay consumidor al que extender el puente. Si un rediseño de Phase 3 lo necesita, entra como campo nuevo, no como reparación de esta fila.
+- **P-166** — cerrado — premisa vencida, con el diagnóstico corregido. La fila supone un "Comparability Check" del que faltaría el tramo de plataforma. Medido: 0 ocurrencias de "Comparability"/"Comparabilidad" en `phases/`, `.claude/skills/` y `docs/` — el objeto no existe bajo ese nombre en Phase 3. Las 4 ocurrencias de la cadena "comparab" (`phases/00-data-gathering/reference/research_directions_protocol.md:3,6,278` — "structurally comparable" / "incomparable outputs"; `phases/02-signal-extraction/contracts/signal_extraction_contract.md:12` — "unidades comparables") son prosa incidental sobre comparabilidad de findings y unidades, no definiciones de check. Los 8 self-checks del canon (`phases/03-inventory-mapping/reference/protocol_canonical.md:98-107`, sección "Self-check before delivering any candidate") y las listas de `06_validator.md` no tienen tramo de plataforma; la única mención de plataforma en el canon (`protocol_canonical.md:18`) es una nota de distribución de cards. No hay contraparte que escribir. Si el puente de Phase 3 necesita separación por plataforma, es diseño nuevo (cuelga de P-163), no de esta fila.
+  Nota de método: el cierre se intentó en E-S35-6 con la cifra "0 ocurrencias de comparab", heredada del reporte E-S35-5 sin re-medir y con distinta sensibilidad a mayúsculas; el ejecutor lo detuvo por R-C. El fondo se sostuvo, el enunciado no.
 
 ---
 
@@ -170,14 +171,14 @@ files, diseño) · `OP` = solo el operador.
 | Grupo | Filas |
 |---|---|
 | A — pendientes de verificar (Run 2) | 18 |
-| B — verificados, esperando decisión | 44 |
+| B — verificados, esperando decisión | 43 |
 | C — decisiones de DSC | 8 |
 | D — candidatos a parqueo | 0 |
-| **Total abiertos** | **70** |
+| **Total abiertos** | **69** |
 
 **Parqueadas (fuera del conteo de abiertos):** 10 (ver `**Parqueados:**` bajo la tabla D).
 
-**Cerrados en esta corrección:** P-145, P-164, P-169 (ver citas bajo la tabla A, justo después de la tabla); P-135, P-129a, P-137, U-2, P-140, P-180 (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082, P-154, P-102 (ver citas bajo la tabla A, justo después de la tabla); P-143, P-167, P-175, P-190 (pasada S35, ver citas bajo la tabla A, justo después de la tabla); P-176, P-138 (pasada E-S35-6, ver citas en la tabla B, justo después de P-121).
+**Cerrados en esta corrección:** P-145, P-164, P-169 (ver citas bajo la tabla A, justo después de la tabla); P-135, P-129a, P-137, U-2, P-140, P-180 (ver citas en la tabla B, justo después de P-121); P-075, P-077, P-082, P-154, P-102 (ver citas bajo la tabla A, justo después de la tabla); P-143, P-167, P-175, P-190 (pasada S35, ver citas bajo la tabla A, justo después de la tabla); P-176, P-138 (pasada E-S35-6, ver citas en la tabla B, justo después de P-121); P-166 (E-S35-7, diagnóstico corregido, ver cita en la tabla B, justo después de P-138).
 **Cerrados en S28, no re-abrir:** P-076, P-107, P-108, P-110, P-112, P-114, P-120, P-122, P-123,
 P-124, P-130.
 **Cerrados antes:** P-058, P-060, P-063, P-064, P-065, P-066, P-079, P-080, P-101, P-104, P-105,
@@ -189,11 +190,11 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-44 de 70 ya están verificados y esperan juicio del operador. 18 esperan que alguien mire el repo.
+43 de 69 ya están verificados y esperan juicio del operador. 18 esperan que alguien mire el repo.
 10 más están parqueadas (condición de desparqueo explícita, fuera del conteo de abiertos).
 **El cuello es la cola de decisiones, no la de verificación.**
 
-De los 44 del grupo B, cuatro son huecos de puente o de campo (P-134, P-136,
+De los 43 del grupo B, cuatro son huecos de puente o de campo (P-134, P-136,
 más `local_qualifiers` y `time_scope_raw`) y todos comparten la misma pregunta previa: qué campos
 consume Phase 3 realmente. Esa pregunta es el entregable A de Run 3. **Decidir cualquiera de los
 cuatro antes de Run 3 repite el error que interrumpió S28 cuatro veces.**
