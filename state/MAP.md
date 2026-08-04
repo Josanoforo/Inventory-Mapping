@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-04T21:40:23Z (UTC) sobre HEAD `0c1f8082120a09e3168d998dd9e7409aed513f39`.
+Generado en 2026-08-04T21:52:39Z (UTC) sobre HEAD `a0f01310f048e19be6ae9e321aa33ff19afcf1ef`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -123,6 +123,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `ledger_check_fixtures_i7a.md` — `state/scripts/ledger_check_fixtures_i7a.md`
 - `ledger_check_fixtures_i7b.md` — `state/scripts/ledger_check_fixtures_i7b.md`
 - `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
+- `mapa_validacion_S36.md` — `state/output/mapa_validacion_S36.md`
 - `multiples_anclas_verbatim_check.md` — `state/output/multiples_anclas_verbatim_check.md`
 - `output_contract.md` — `agents/codex/_shared/protocols/output_contract.md`
 - `output_template.md` — `agents/codex/_shared/protocols/output_template.md`
@@ -135,6 +136,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `pipeline_flow.md` — `docs/pipeline_flow.md`
 - `pipeline_vocabulary.yaml` — `pipeline_vocabulary.yaml`
 - `production_v1.md` — `agents/codex/phase0-recovery/prompts/production_v1.md`
+- `productores_validacion_S36.md` — `state/output/productores_validacion_S36.md`
 - `protocol_canonical.md` — `phases/03-inventory-mapping/reference/protocol_canonical.md`
 - `rejected_archive_record.schema.json` — `phases/01-source-intake/schemas/rejected_archive_record.schema.json`
 - `research_directions_protocol.md` — `phases/00-data-gathering/reference/research_directions_protocol.md`
@@ -193,7 +195,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 19
+- `state/output`: 21
 - `state/scripts`: 8
 
 ## CI
