@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T08:43:53Z (UTC), sobre HEAD `9a14e5816b5d6420efedbaddecb03c6853963aff`.
+Generado: 2026-08-04T09:01:17Z (UTC), sobre HEAD `bc64b81f13362cd404d3025ccb86e86664d19c9b`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `9a14e581`
+- SHA: `bc64b81f`
 
 ## Ramas remotas con commits en origin
 
+- `claude/namespacing-rule-series-0qr7jw` — 2026-08-04T09:01:04Z — D-257: namespacing de series de reglas por archivo (12 series, 19 archivos)
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
