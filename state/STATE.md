@@ -1,17 +1,17 @@
 # STATE.md
 
-Generado: 2026-08-04T00:24:30Z (UTC), sobre HEAD `26b5a8a22acef71385572cabf4a85098bb2fd609`.
+Generado: 2026-08-04T00:25:46Z (UTC), sobre HEAD `5889243889bd54940e9874f5caf772d335db9f80`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `26b5a8a2`
+- SHA: `58892438`
 
 ## Ramas remotas con commits en origin
 
-- `claude/claude-branch-verification-14romm` — 2026-08-04T00:24:17Z — docs: add branch-state precondition instance to CLAUDE.md
-- `` — 2026-08-03T23:30:43Z — state: snapshot automático de STATE.md
+- `claude/claude-branch-verification-14romm` — 2026-08-04T00:25:33Z — docs: state path-scope precondition by list, not by example
+- `` — 2026-08-04T00:24:31Z — state: snapshot automático de STATE.md
 - `claude/repo-state-snapshot-nffwwa` — 2026-08-03T23:30:32Z — state: fix empty branch row from origin/HEAD in remote-branches section
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
