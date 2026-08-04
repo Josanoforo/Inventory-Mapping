@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T21:59:31Z (UTC), sobre HEAD `758a0f32f845b627ce7859d17f8c09ecad0b0506`.
+Generado: 2026-08-04T23:11:28Z (UTC), sobre HEAD `d5148acd763ead8915ccffdf9e17222f8c404b60`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `758a0f32`
+- SHA: `d5148acd`
 
 ## Ramas remotas con commits en origin
 
+- `claude/actor-level-phase-1-reliability-w5ygiy` — 2026-08-04T23:11:14Z — E-AL-S37: actor_level de Phase 1 no es confiable (75.13% en subconjunto mecánico)
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
