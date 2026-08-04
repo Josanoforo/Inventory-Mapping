@@ -64,6 +64,14 @@ Known instances of this failure, not an exhaustive list:
 - The Ahead/Behind columns describe a comparison whose base may not be the one
   you assume. Verify divergence with `git log` against an explicit `origin/main`
   SHA rather than the displayed counts.
+- A precondition is fixed on the property that matters, not on an identifier.
+  A reference SHA is verified by checking it is an ancestor of `origin/main`
+  (`git merge-base --is-ancestor`) plus a diff scoped to the relevant paths —
+  not by equality against HEAD, which advances on its own with automatic
+  snapshots. A branch name is never a precondition; when the task assigns
+  "whatever branch the harness gives you, branched from `origin/main`", that
+  is the condition to satisfy, not a name to match. Three tasks stalled on
+  preconditions fixed on identifiers instead of on the actual condition.
 
 When a check contradicts a record, the check wins and the record gets corrected.
 
