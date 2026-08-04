@@ -401,6 +401,16 @@ def build_map(all_files, head_sha, now):
 
     lines = header + index_lines + area_lines + ci_lines + volume_lines
 
+    indexed_count = sum(len(paths) for paths in index.values())
+    if indexed_count != len(surface_files):
+        print(
+            "COBERTURA INCOMPLETA: índice inverso cubre "
+            f"{indexed_count} rutas, superficie tiene {len(surface_files)} "
+            "archivos.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     return "\n".join(lines).rstrip() + "\n"
 
 
