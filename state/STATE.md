@@ -1,18 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-04T21:52:45Z (UTC), sobre HEAD `c5fe4858561f4de55fe09668ab7b077af803c1b6`.
+Generado: 2026-08-04T21:55:18Z (UTC), sobre HEAD `4463e21f4db973869b69f007fecbb645019a0b76`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `c5fe4858`
+- SHA: `4463e21f`
 
 ## Ramas remotas con commits en origin
 
-- `claude/resolve-s36-contradiction-ds3l38` — 2026-08-04T21:40:04Z — Merge remote-tracking branch 'origin/main' into claude/resolve-s36-contradiction-ds3l38
-- `claude/inventory-mapping-execution-czdib2` — 2026-08-04T21:11:12Z — E-VAL2-S36: incorporar corroboración cruzada re-medida
-- `claude/eval-s36-reconocimiento-eqg3qs` — 2026-08-04T20:20:32Z — E-VAL-S36: mapa de reconocimiento de la capa de validación
+- `claude/resolve-s36-contradiction-ds3l38` — 2026-08-04T21:55:04Z — E-S4-S36: sello S4 (DEPENDIENTES → MARCAR) + pasada de ledger P-181/P-182/P-202..P-206
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
