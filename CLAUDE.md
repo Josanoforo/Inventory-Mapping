@@ -72,6 +72,11 @@ Known instances of this failure, not an exhaustive list:
   "whatever branch the harness gives you, branched from `origin/main`", that
   is the condition to satisfy, not a name to match. Three tasks stalled on
   preconditions fixed on identifiers instead of on the actual condition.
+- The "does not touch paths under diagnosis" criterion is stated with the
+  path list, never with a stand-in example file. Stating it by example
+  ("only `STATE.md`") turns a condition into a factual claim about the diff
+  that has to be read, not assumed — the diff can carry other paths the
+  example never ruled out.
 
 When a check contradicts a record, the check wins and the record gets corrected.
 
