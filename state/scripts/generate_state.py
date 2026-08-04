@@ -174,54 +174,6 @@ def section_ledger():
     return lines
 
 
-DECISION_LOG_NAME_RE = re.compile(r"decision.?log", re.IGNORECASE)
-DECISION_ID_RE = re.compile(r"^\|?\s*(D-\d+[a-z]?)\s*\|?\s*(.*)$")
-
-
-def find_decision_log_files():
-    candidates = []
-    for path in REPO_ROOT.rglob("*"):
-        if ".git" in path.parts:
-            continue
-        if path.is_file() and DECISION_LOG_NAME_RE.search(path.name):
-            candidates.append(path)
-    return candidates
-
-
-def section_decisions():
-    lines = ["## Últimas 5 decisiones registradas", ""]
-    candidates = find_decision_log_files()
-    if not candidates:
-        lines.append("Decisiones: no disponibles en repo")
-        lines.append("")
-        return lines
-
-    most_recent = max(candidates, key=lambda p: p.stat().st_mtime)
-    text = most_recent.read_text(encoding="utf-8")
-
-    entries = []
-    for line in text.splitlines():
-        m = re.match(r"^[|\-\s]*\*{0,2}(D-\d+[a-z]?)\*{0,2}\b[\s:|.\-–—]*(.*)$", line)
-        if m:
-            decision_id = m.group(1)
-            title = m.group(2).strip(" |").strip()
-            title = re.sub(r"\*+", "", title)
-            entries.append((decision_id, title))
-
-    if not entries:
-        lines.append(f"Decisiones: no disponibles en repo (sin filas D-NNN en `{most_recent.relative_to(REPO_ROOT)}`)")
-        lines.append("")
-        return lines
-
-    lines.append(f"Fuente: `{most_recent.relative_to(REPO_ROOT)}`")
-    lines.append("")
-    for decision_id, title in entries[-5:]:
-        title_display = title if title else "(sin título extraíble)"
-        lines.append(f"- {decision_id}: {title_display}")
-    lines.append("")
-    return lines
-
-
 def find_reextraction_manifests():
     """Search every origin branch for working_reextraction/*/manifest.json.
     Never invents a branch that doesn't exist in origin."""
@@ -293,41 +245,6 @@ def section_long_processes():
     return lines
 
 
-FROZEN_HEADING_RE = re.compile(r"(?i)superficie congelada|archivos congelados")
-
-
-def section_frozen_surface():
-    lines = ["## Superficie congelada", ""]
-    state_dir = REPO_ROOT / "state"
-    found_block = None
-    found_file = None
-    for path in sorted(state_dir.rglob("*.md")):
-        if not path.is_file():
-            continue
-        if path == OUTPUT_PATH:
-            continue
-        try:
-            text = path.read_text(encoding="utf-8")
-        except (UnicodeDecodeError, OSError):
-            continue
-        m = FROZEN_HEADING_RE.search(text)
-        if m:
-            found_block = text[m.start():m.start() + 2000]
-            found_file = path
-            break
-
-    if found_block is None:
-        lines.append("Superficie congelada: no registrada en repo")
-    else:
-        lines.append(f"Fuente: `{found_file.relative_to(REPO_ROOT)}`")
-        lines.append("")
-        lines.append("```")
-        lines.append(found_block.strip())
-        lines.append("```")
-    lines.append("")
-    return lines
-
-
 def main():
     current_branch = run_git(["rev-parse", "--abbrev-ref", "HEAD"])
     if current_branch == "HEAD":
@@ -338,9 +255,7 @@ def main():
     lines += section_main()
     lines += section_remote_branches(current_branch)
     lines += section_ledger()
-    lines += section_decisions()
     lines += section_long_processes()
-    lines += section_frozen_surface()
 
     OUTPUT_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"Escrito {OUTPUT_PATH.relative_to(REPO_ROOT)}")
