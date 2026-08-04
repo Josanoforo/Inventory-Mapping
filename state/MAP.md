@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-04T19:32:29Z (UTC) sobre HEAD `2d7bd47e31d1f8d763d2629229d35bb0030cafde`.
+Generado en 2026-08-04T19:44:11Z (UTC) sobre HEAD `0cecc30c1ea9caea376e75db1b8cad3a2ecdb041`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -165,6 +165,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `three_views_report.md` — `output/diagnostics/three_views_report.md`
 - `time_scope_raw_distribution.md` — `state/output/time_scope_raw_distribution.md`
 - `validation_report.schema.json` — `phases/03-inventory-mapping/schemas/validation_report.schema.json`
+- `verificacion_decisiones_S36.md` — `state/output/verificacion_decisiones_S36.md`
 - `vocab_check.py` — `vocab_check.py`
 - `vocab_check_blind_spots.md` — `state/output/vocab_check_blind_spots.md`
 
@@ -192,7 +193,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 18
+- `state/output`: 19
 - `state/scripts`: 8
 
 ## CI
