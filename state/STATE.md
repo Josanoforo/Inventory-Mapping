@@ -1,21 +1,24 @@
 # STATE.md
 
-Generado: 2026-08-03T23:30:22Z (UTC), sobre HEAD `7b1e600cc19e7100e2c12a741c732f399409a28e`.
+Generado: 2026-08-04T00:27:01Z (UTC), sobre HEAD `1d5612f64bc52e0c6e336287b9c10feeedb200b5`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `7b1e600`
+- SHA: `1d5612f6`
 
 ## Ramas remotas con commits en origin
 
-- `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52+00:00 — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
-- `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04+00:00 — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
-- `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23+00:00 — Etapa 2: complete final batches 041-048 (1178/1178 processed)
-- `legacy/s12-im-artifacts` — 2026-07-29T23:05:05+00:00 — Restore legacy IM artifacts from preserve/s12-round1-75-cards (evidence only)
-- `preserve/s12-round1-75-cards` — 2026-04-11T02:44:14+00:00 — Add same-actor filter to scanners and actor composition block to builder
-- `preserve/s12-round1-orphan-chain` — 2026-04-10T20:07:48+00:00 — G1: generate signal_cards_round_1.md from 75 Signal Cards
+- `` — 2026-08-03T18:26:42-06:00 — Merge pull request #89 from Josanoforo/claude/claude-branch-verification-14romm
+- `claude/claude-branch-verification-14romm` — 2026-08-04T00:25:33Z — docs: state path-scope precondition by list, not by example
+- `claude/repo-state-snapshot-nffwwa` — 2026-08-03T23:30:32Z — state: fix empty branch row from origin/HEAD in remote-branches section
+- `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
+- `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
+- `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
+- `legacy/s12-im-artifacts` — 2026-07-29T23:05:05Z — Restore legacy IM artifacts from preserve/s12-round1-75-cards (evidence only)
+- `preserve/s12-round1-75-cards` — 2026-04-11T02:44:14Z — Add same-actor filter to scanners and actor composition block to builder
+- `preserve/s12-round1-orphan-chain` — 2026-04-10T20:07:48Z — G1: generate signal_cards_round_1.md from 75 Signal Cards
 
 ## Ledger (`state/pendientes_ledger.md`)
 
