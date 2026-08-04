@@ -1,8 +1,8 @@
 name: State Snapshot
 
-# Regenerates state/STATE.md, a mechanical snapshot of repo state (branches,
-# ledger counts, re-extraction progress, etc.) and commits it to main when
-# the content changed.
+# Regenerates state/STATE.md and state/MAP.md, mechanical snapshots of repo
+# state (branches, ledger counts, re-extraction progress, tracked-file
+# surface, etc.) and commits them to main when their content changed.
 #
 # Trigger: push to any branch. The snapshot reflects global repo state
 # (remote branches, in-progress re-extraction manifests across branches),
@@ -47,12 +47,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- state/STATE.md; then
-            echo "No change in state/STATE.md — skipping commit."
+          if git diff --quiet -- state/STATE.md state/MAP.md; then
+            echo "No change in state/STATE.md or state/MAP.md — skipping commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/STATE.md
-          git commit -m "state: snapshot automático de STATE.md"
+          git add state/STATE.md state/MAP.md
+          git commit -m "state: snapshot automático de STATE.md y MAP.md"
           git push origin HEAD:main

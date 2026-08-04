@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-04T18:40:19Z (UTC) sobre HEAD `8be86d5e3f58b8a37ed3ef5b62ae07d0c96b4a80`.
+Generado en 2026-08-04T18:40:33Z (UTC) sobre HEAD `03e56f56898b924f10a0b0741af78d977d247acc`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -46,6 +46,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `FX-P3-DDPDDU-REC.json` — `signal_card_defect_check_fixtures/records/FX-P3-DDPDDU-REC.json`
 - `FX-P4-TIMELOSS-REC.json` — `signal_card_defect_check_fixtures/records/FX-P4-TIMELOSS-REC.json`
 - `FX-P5-CONTAMINATION-REC.json` — `signal_card_defect_check_fixtures/records/FX-P5-CONTAMINATION-REC.json`
+- `MAP.md` — `state/MAP.md`
 - `README.md`:
   - `agents/codex/phase0-eje4-discovery/README.md`
   - `agents/codex/phase0-recovery/README.md`
@@ -190,7 +191,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `phases/08-expression-research`: 1
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
-- `state`: 2
+- `state`: 3
 - `state/output`: 18
 - `state/scripts`: 8
 
