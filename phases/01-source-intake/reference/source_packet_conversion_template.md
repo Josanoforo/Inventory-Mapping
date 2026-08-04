@@ -1,5 +1,7 @@
 # Source Packet conversion template
 
+> Serie de reglas: SPT (D-257). Cita canónica: SPT-RN.
+
 Conversión manual de findings de Data Gathering a Source Packets validables por el repo. Para usar mientras no exista un script automatizado.
 
 ## Qué es esto
@@ -171,17 +173,17 @@ Equivalencia con DG verification states:
 
 Cuando dudes:
 
-1. **Si dudas entre dos valores en un enum cerrado**, pone los dos. Los campos `possible_*` están diseñados para eso.
+1. **SPT-R1 (Regla 1) — Si dudas entre dos valores en un enum cerrado**, pone los dos. Los campos `possible_*` están diseñados para eso.
 
-2. **Si ningún valor del enum encaja**, usa `unknown` (o `null` si el campo lo permite). Nunca inventes valores fuera del enum.
+2. **SPT-R2 (Regla 2) — Si ningún valor del enum encaja**, usa `unknown` (o `null` si el campo lo permite). Nunca inventes valores fuera del enum.
 
-3. **Si una incertidumbre te bloquea**, agrégala a `uncertainties` y continúa con tu mejor estimado en el campo afectado. No bloquees el packet completo por una duda en un campo.
+3. **SPT-R3 (Regla 3) — Si una incertidumbre te bloquea**, agrégala a `uncertainties` y continúa con tu mejor estimado en el campo afectado. No bloquees el packet completo por una duda en un campo.
 
-4. **Si el snippet del DG finding no se sostiene sin más contexto** (ej: requiere haber leído el párrafo anterior), marca `context_insufficient` en uncertainties y considera bajar `traceability_status` a `partial`.
+4. **SPT-R4 (Regla 4) — Si el snippet del DG finding no se sostiene sin más contexto** (ej: requiere haber leído el párrafo anterior), marca `context_insufficient` en uncertainties y considera bajar `traceability_status` a `partial`.
 
-5. **Si dudas entre `complete` y `partial`**, default a `partial`. Si dudas entre `partial` y `weak`, default a `weak`. Default conservador, igual que en DG.
+5. **SPT-R5 (Regla 5) — Si dudas entre `complete` y `partial`**, default a `partial`. Si dudas entre `partial` y `weak`, default a `weak`. Default conservador, igual que en DG.
 
-6. **Si una finding de DG estaba en Part 2 (provisional) y su `verification_status` es
+6. **SPT-R6 (Regla 6) — Si una finding de DG estaba en Part 2 (provisional) y su `verification_status` es
    `blocked_url_index_verified`**: el packet hereda la incertidumbre: `traceability_status: weak`
    y `snippet_needs_reopen` en uncertainties.
    **EXCEPCIÓN**: si `verification_status` es `indirect_verified` (output del recovery agent),

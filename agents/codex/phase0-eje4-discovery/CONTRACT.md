@@ -17,7 +17,7 @@ Este contrato hereda los protocolos base compartidos por todos los agentes Codex
 - [`_shared/protocols/search_decomposition_rules.md`](../_shared/protocols/search_decomposition_rules.md) — regla central "descomponer sí, reinterpretar no", cuándo dividir, unidad correcta, manejo de hipótesis amplias, SD obligatorio, absences.
 - [`_shared/protocols/output_template.md`](../_shared/protocols/output_template.md) — template base con 4 Parts (este agente usa el template base sin extensiones).
 
-Si una regla de este contrato contradice un protocolo compartido, **los protocolos compartidos mandan** salvo que la excepción esté declarada explícitamente aquí. Este agente usa el template base sin extensiones — no tiene Parts 1B/2B ni test de scope tipo Regla 15 (esas son exclusivas del recovery porque opera sobre un claim pre-existente).
+Si una regla de este contrato contradice un protocolo compartido, **los protocolos compartidos mandan** salvo que la excepción esté declarada explícitamente aquí. Este agente usa el template base sin extensiones — no tiene Parts 1B/2B ni test de scope tipo P0R-R15 (esas son exclusivas del recovery porque opera sobre un claim pre-existente).
 
 ---
 

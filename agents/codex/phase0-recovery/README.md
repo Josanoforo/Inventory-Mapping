@@ -20,12 +20,12 @@ El agente no corre el shard automáticamente. Un humano deposita el shard y ejec
 **Lo que vive solo en `phase0-recovery/CONTRACT.md`:**
 - Estructura del recovery packet JSON y cómo tratar `original_finding_content` como input de research.
 - Clarificación 4 (qué significa "recuperar" en contexto recovery).
-- Regla 15 (test operativo de scope contra el claim del packet).
+- P0R-R15 (test operativo de scope contra el claim del packet).
 - Template extendido con Parts 1B/2B para adjacent findings (`F-ANN`, `F-APNN`).
 - QA adicional del recovery (4 puntos específicos).
 - Convención de naming del shard output.
 
-Si hay contradicción entre `CONTRACT.md` y cualquier protocolo compartido, los protocolos compartidos mandan salvo que la excepción esté declarada explícitamente en el CONTRACT (dos excepciones declaradas: Parts 1B/2B y el test de scope de Regla 15).
+Si hay contradicción entre `CONTRACT.md` y cualquier protocolo compartido, los protocolos compartidos mandan salvo que la excepción esté declarada explícitamente en el CONTRACT (dos excepciones declaradas: Parts 1B/2B y el test de scope de P0R-R15).
 
 ---
 

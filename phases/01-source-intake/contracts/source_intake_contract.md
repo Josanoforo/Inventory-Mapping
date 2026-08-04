@@ -1,5 +1,7 @@
 # Source Intake Contract v0.1
 
+> Serie de reglas: SIC (D-257). Cita canónica: SIC-RN.
+
 ## 1. Purpose
 
 Transformar outputs de **deep search** y hallazgos exploratorios en **Source Packets** separados por fuente, con suficiente estructura para que Data Extraction pueda trabajar sobre ellos sin depender de síntesis prematura.
@@ -278,26 +280,26 @@ Valores:
 
 ## 8. Quality Rules
 
-### Rule 1
+### SIC-R1 (Rule 1)
 **Un Source Packet nunca mezcla fuentes.**
 
-### Rule 2
+### SIC-R2 (Rule 2)
 **Los snippets mandan.**
 Si un packet no tiene snippets locales útiles, no es packet bueno.
 
-### Rule 3
+### SIC-R3 (Rule 3)
 **Posibles subjects y metrics son ayudas, no verdad final.**
 Source Intake puede sugerir, no fijar.
 
-### Rule 4
+### SIC-R4 (Rule 4)
 **No convertir deep search summary en packet canónico.**
 Si el output viene ya mezclado, romperlo o rechazarlo.
 
-### Rule 5
+### SIC-R5 (Rule 5)
 **Preservar incertidumbre.**
 Si no sabes si PayPal se refiere a checkout o payout, márcalo.
 
-### Rule 6
+### SIC-R6 (Rule 6)
 **Contexto local mínimo, no ensayo.**
 No copies medio artículo. Solo lo suficiente para no distorsionar.
 

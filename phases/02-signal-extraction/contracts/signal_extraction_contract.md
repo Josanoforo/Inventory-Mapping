@@ -1,5 +1,7 @@
 # Signal Extraction Contract v0.1
 
+> Serie de reglas: SEC (D-257). Cita canónica: SEC-RN.
+
 ## 1. Purpose
 
 Transformar **Extraction Records validados** en **Signal Cards** que representen **observaciones discretas, trazables y mínimamente normalizadas**.
@@ -275,7 +277,7 @@ Una Signal Card pasa si:
 
 ## 13. Quality rules
 
-### Rule 1
+### SEC-R1 (Rule 1)
 **No usar lenguaje de inferencia.**
 
 Evitar:
@@ -287,13 +289,13 @@ Evitar:
 - evidencia una oportunidad
 - muestra una tensión
 
-### Rule 2
+### SEC-R2 (Rule 2)
 **No promover contexto a observación principal.**
 
 Ejemplo:
 “Etsy has 95.6M active buyers” puede ser señal válida como `traffic_signal`, pero no debe redactarse como “Etsy provides seller discoverability automatically”.
 
-### Rule 3
+### SEC-R3 (Rule 3)
 **No usar el corpus como sujeto.**
 
 Signal Extraction no dice:
@@ -304,10 +306,10 @@ Signal Extraction no dice:
 
 Eso es después.
 
-### Rule 4
+### SEC-R4 (Rule 4)
 **Si una señal solo existe porque resumiste demasiado, no es buena señal.**
 
-### Rule 5
+### SEC-R5 (Rule 5)
 **Si una observación depende de una comparación entre fuentes, no pertenece aquí.**
 
 ---

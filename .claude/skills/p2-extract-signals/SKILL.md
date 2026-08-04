@@ -1,5 +1,7 @@
 # Extract Signals — Skill
 
+> Serie de reglas: PES (D-257). Cita canónica: PES-RN.
+
 Executes Module — Signal Converter (Signal Extraction stage 2). Reads skeleton files produced by stage 1, formulates observational signal_text, and fills the 16 judgment fields to produce complete, validated Signal Cards. Handles splitting when a skeleton contains multiple discrete claims. Routes failures to GPT recovery staging without discarding them.
 
 ## Module this skill executes
@@ -49,29 +51,29 @@ For each skeleton:
 
 ## Formulating signal_text — strict rules
 
-**Rule 1: Signal text must be observational, not interpretive.** Write what was observed or stated locally. Do not write what it means, implies, reveals, or confirms. Re-read contract §7 (Principles) and §13 (Quality Rules) before drafting signal_text for each card.
+**PES-R1 (Rule 1): Signal text must be observational, not interpretive.** Write what was observed or stated locally. Do not write what it means, implies, reveals, or confirms. Re-read contract §7 (Principles) and §13 (Quality Rules) before drafting signal_text for each card.
 
-**Rule 2: Derive from the snippet, not from inference.** `signal_text` must be directly supportable from `_extraction_context.snippet_primary` (with `snippet_context_before`/`snippet_context_after` as supporting context). If the signal requires bridging to other sources or inferring unstated facts, it is not a valid signal — route to recovery with rework guidance.
+**PES-R2 (Rule 2): Derive from the snippet, not from inference.** `signal_text` must be directly supportable from `_extraction_context.snippet_primary` (with `snippet_context_before`/`snippet_context_after` as supporting context). If the signal requires bridging to other sources or inferring unstated facts, it is not a valid signal — route to recovery with rework guidance.
 
-**Rule 3: Avoid red-flag wording.** The validator will reject any signal_text containing: reveals, demonstrates, suggests that, confirms that, implies that, shows a tension, indicates a market need, many sellers report, the corpus shows, platforms split into, sources converge. Check for these before committing the text.
+**PES-R3 (Rule 3): Avoid red-flag wording.** The validator will reject any signal_text containing: reveals, demonstrates, suggests that, confirms that, implies that, shows a tension, indicates a market need, many sellers report, the corpus shows, platforms split into, sources converge. Check for these before committing the text.
 
-**Rule 4: Preserve the fact, not resolve it.** If the source is ambiguous about what it means, signal_text preserves the ambiguity. "The policy states X as a requirement but does not specify what happens if not met" is better than "The platform requires X" when the consequence is unclear.
+**PES-R4 (Rule 4): Preserve the fact, not resolve it.** If the source is ambiguous about what it means, signal_text preserves the ambiguity. "The policy states X as a requirement but does not specify what happens if not met" is better than "The platform requires X" when the consequence is unclear.
 
-**Rule 5: One signal = one local observation.** If two claims are present, decide to split (per §10) or express the primary claim and mark the secondary as `local_context`. Do not average or blend two claims into one signal.
+**PES-R5 (Rule 5): One signal = one local observation.** If two claims are present, decide to split (per §10) or express the primary claim and mark the secondary as `local_context`. Do not average or blend two claims into one signal.
 
 ## Filling judgment fields — strict rules
 
-**Rule 6: Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it.
+**PES-R6 (Rule 6): Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it.
 
-**Rule 7: Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`.
+**PES-R7 (Rule 7): Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`.
 
-**Rule 8: Closed enums are closed.** `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties` may only contain values from the enums in `signal_card.schema.json`. If no value fits, use `unknown` if the enum allows it. Never invent enum values.
+**PES-R8 (Rule 8): Closed enums are closed.** `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties` may only contain values from the enums in `signal_card.schema.json`. If no value fits, use `unknown` if the enum allows it. Never invent enum values.
 
-**Rule 9: Ambiguity goes to uncertainties, not to invention.** Two equally plausible enum values → pick the more conservative + add the corresponding uncertainty code. Do not hide ambiguity.
+**PES-R9 (Rule 9): Ambiguity goes to uncertainties, not to invention.** Two equally plausible enum values → pick the more conservative + add the corresponding uncertainty code. Do not hide ambiguity.
 
-**Rule 10: Never drop qualifiers.** See `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field `local_qualifiers`, for the authoritative rule. If a qualifier is dropped, the validator (check 5) will catch it.
+**PES-R10 (Rule 10): Never drop qualifiers.** See `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field `local_qualifiers`, for the authoritative rule. If a qualifier is dropped, the validator (check 5) will catch it.
 
-**Rule 11: Notes locality is mandatory.** `normalization_notes` and `extraction_notes` must not contain: references to other records by ID pattern, cross-source comparison language (confirmed by, consistent with, contradicted by, corroborated by), version comparison language, or interpretive math. If you notice you've written any of these, remove them before the validator runs. The validator's check 11 will apply mandatory scrubbing if they slip through, but clean notes at write-time are preferable.
+**PES-R11 (Rule 11): Notes locality is mandatory.** `normalization_notes` and `extraction_notes` must not contain: references to other records by ID pattern, cross-source comparison language (confirmed by, consistent with, contradicted by, corroborated by), version comparison language, or interpretive math. If you notice you've written any of these, remove them before the validator runs. The validator's check 11 will apply mandatory scrubbing if they slip through, but clean notes at write-time are preferable.
 
 ## Recovery file format
 
