@@ -4,7 +4,7 @@
 `Decision_Log_update_session27.md`, `Handoff_session27.md`, `Decision_Log_update_session28.md`,
 `Handoff_session28.md`.
 
-**Sesión vigente:** S35
+**Sesión vigente:** S36
 
 **Qué es.** Puente entre el inventario de pendientes (vive en project files) y el estado real
 (vive en el repo). Existe porque las dos cosas están en lados distintos y ninguna sesión puede
