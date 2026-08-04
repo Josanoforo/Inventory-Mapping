@@ -1,16 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-04T03:18:24Z (UTC), sobre HEAD `a02f62e1aa165ae6ca0283771e71b6bbd8b9112c`.
+Generado: 2026-08-04T03:37:46Z (UTC), sobre HEAD `23255c196965801171713d15d4ad42bc2ddedd3c`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `a02f62e1`
+- SHA: `23255c19`
 
 ## Ramas remotas con commits en origin
 
-- `claude/inventory-mapping-execution-7vmjtt` — 2026-08-04T03:18:10Z — vocab: move platform_scope_unclear to core (D-247)
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
