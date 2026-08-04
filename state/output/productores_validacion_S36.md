@@ -13,10 +13,17 @@ Rama de trabajo: `claude/inventory-mapping-execution-czdib2`. El nombre no exist
 `unknown revision`); se creó localmente desde BASE (`git checkout -B
 claude/inventory-mapping-execution-czdib2 af27ae95f97d58990bd8fbd2747822777ddbfcec`).
 
-Capa de cada hallazgo: **[medido-por-mí]** salvo que se indique lo contrario. No se
-delegó ninguna parte de este encargo a un sub-agente cuya salida no haya sido
-re-medida directamente por esta sesión antes de citarla — todo comando de este
-archivo se ejecutó en esta sesión, sobre el árbol en BASE.
+Capa de cada hallazgo: **[medido-por-mí]** en todo el archivo. Se lanzó un
+sub-agente en paralelo sobre la misma pregunta (mismo BASE, mismo árbol). Su salida
+se trató como procedencia, no como evidencia: cada afirmación suya que este archivo
+incorpora fue re-ejecutada de forma independiente por esta sesión antes de citarse
+(la cobertura de ramas `etapa-2` en la Pregunta 8, la confirmación de rename puro
+vía `-M` en la Pregunta 8, la ausencia de `input/signal_cards_round_*.md` en la
+Pregunta 5, y la ausencia de imports de `jsonschema` en la Pregunta 9). El resto del
+sub-agente convergió con lo ya medido de forma independiente en este archivo, sin
+contradicción, y no se cita porque no agrega nada no re-derivado ya aquí. Ningún
+hallazgo de este archivo queda en la categoría "de sub-agente, no re-medido" — esa
+categoría no aparece porque nada quedó sin re-medir.
 
 **Sobre el ANCLA A FALSEAR** ([CONVERSACIÓN DSC] — procedencia, no evidencia: "se
 afirmó cero productores y cero consumidores en todo el historial"): no se hereda.
@@ -350,6 +357,21 @@ cards = sorted(glob.glob('working/signal_extraction/cards/*.json'))
 | 7 | `cross_source_contamination_check` | (sin campo único — juicio semántico sobre `signal_text`/`source_ids`) | N/A | N/A |
 | 8 | `pattern_readiness_check` | (sin campo único — juicio holístico) | N/A | N/A |
 
+Adicional, verificado directamente: el output físico que G1 debería gatear —
+`input/signal_cards_round_*.md`— **no existe hoy en el árbol de trabajo**:
+```
+$ find . -iname "signal_cards_round_*.md" -not -path "./.git/*"
+(0 resultados)
+$ ls input/
+data_gathering
+$ ls working/entry_gate/
+.gitkeep
+```
+Consistente con que G1 nunca corrió en el ciclo actual: no solo no hay ejecutor
+(arriba), tampoco hay el artefacto que ese ejecutor tendría que producir/filtrar.
+(`working/entry_gate/entry_gate_report.json` tampoco existe — el skill downstream de
+IM step 1 tampoco ha corrido sobre este corpus.)
+
 **Lectura:** el check 1 es el único de los 8 cuyo campo nombrado está enteramente
 ausente del schema de la card. Los otros tres checks con campo identificable (3, 4,
 5, y parcialmente 6) tienen su campo declarado y poblado en el 100% de los casos
@@ -519,6 +541,39 @@ Las tres ramas muestran el campo en el mismo patrón: los 4 schemas de validador
 `signal_to_inventory_entry_gate.md`. Ningún `.py`, `SKILL.md` ni archivo bajo
 `agents/` en ninguna de las tres.
 
+**Cobertura de ramas ampliada.** Las 3 ramas `legacy/`/`preserve/` ya cubiertas
+arriba se verificaron por contenido completo del árbol (`git grep`, cualquier tipo
+de archivo). Las 3 ramas restantes vivas en `origin`
+(`claude/etapa-2-extraccion-juicio-gwnfk4`, `claude/etapa-2-field-extraction-jyqwwj`,
+`claude/etapa-2-reextraccion-campos-cnb8bh` — un benchmark de re-extracción no
+relacionado con Phase 2/G1) se verificaron para `.py`:
+```
+$ for b in claude/etapa-2-extraccion-juicio-gwnfk4 claude/etapa-2-field-extraction-jyqwwj claude/etapa-2-reextraccion-campos-cnb8bh; do
+    git grep -l "validation_status" "origin/$b" -- '*.py'; done
+(0 resultados en las 3 ramas)
+```
+Las 6 ramas no-`main` que existen hoy en `origin` quedan así cubiertas.
+
+**Confirmación de que el rename no tocó contenido.** `242318bf` ("Restructure repo
+into phases/ layout", 2026-04-11) mueve los 4 schemas de validador (y los 3
+contratos de validador) de `upstream/...` a `phases/0X-.../...`. Sin `-M` (detección
+de rename) git lo cuenta como delete+add; con `-M` se confirma rename puro:
+```
+$ git show --stat -M 242318bf | grep -i "validat"
+ .../01-source-intake}/contracts/source_intake_validator.md                | 0
+ .../data-extraction/contracts/data_extraction_validator.md                | 0
+ .../data-extraction/schemas/data_extraction_validator.schema.json         | 0
+ .../01-source-intake}/schemas/source_intake_validation.schema.json        | 0
+ .../02-signal-extraction}/contracts/signal_extraction_validator.md        | 0
+ .../02-signal-extraction}/schemas/signal_inventory_gate.schema.json       | 0
+ .../02-signal-extraction}/schemas/signal_validation.schema.json           | 0
+```
+0 líneas cambiadas en los 7 archivos. Confirmado también que ningún commit posterior
+a `242318bf` vuelve a tocar ninguno de los 4 schemas (`git log -1 --format="%h %ad %s" -- <ruta>`
+para cada uno → `242318bf 2026-04-11` en los 4 casos). Su contenido es idéntico al
+escrito en `089d71b2` (2026-04-05); el único evento intermedio es el movimiento de
+ruta.
+
 **Conclusión medida:** un ejecutor de cualquier clase que escriba el campo
 `validation_status` **nunca existió**, en ningún punto de la historia completa del
 repositorio, bajo ningún tipo de archivo. El campo entró al árbol una sola vez, como
@@ -614,6 +669,18 @@ skill los referencia por nombre de archivo (los skills que sí ejecutan trabajo 
 validación —`p2-extract-signals`— referencian el contrato `.md`, nunca el
 `.schema.json`). Los otros dos jobs de CI (`signal-card-defect-check`,
 `ledger-check`) no los tocan en absoluto.
+
+Verificado además, de forma más general: ningún script del repositorio importa la
+librería `jsonschema`:
+```
+$ grep -rln "import jsonschema\|from jsonschema" --include="*.py" . --exclude-dir=.git
+(0 resultados)
+```
+Ningún `.py` de los 18 listados en la Pregunta 1 es mecánicamente capaz de validar
+contra ningún `*.schema.json` del repo — ni los 4 de validador, ni los 4 de
+artefacto de la Pregunta 4. Donde los módulos/skills dicen "validate against
+schema" (Preguntas 2, 6), esa validación es juicio del ejecutor LLM, no una
+llamada a una librería de JSON Schema.
 
 ---
 
