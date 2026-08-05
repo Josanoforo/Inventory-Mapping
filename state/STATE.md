@@ -1,16 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T03:50:08Z (UTC), sobre HEAD `a13a5b77077d25478518bfe9dbc55a831036fabd`.
+Generado: 2026-08-05T04:22:48Z (UTC), sobre HEAD `8fd2a313025b4298243a1c021807e91069f6cbff`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `a13a5b77`
+- SHA: `8fd2a313`
 
 ## Ramas remotas con commits en origin
 
-- `claude/uncertainties-invisibles-010dvh` — 2026-08-05T03:44:29Z — vocab_check: report the missing direction subset mode discards
+- `claude/reason-code-autoridad-schema-f1ldnz` — 2026-08-05T04:22:31Z — Phase 3: register reason_code enum in vocabulary and scan_artifact schema
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
