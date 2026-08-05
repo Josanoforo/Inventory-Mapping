@@ -1,16 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T19:49:17Z (UTC), sobre HEAD `1ce4d881135c334bbd22dec4a5633fb7bb6ac55b`.
+Generado: 2026-08-05T20:01:12Z (UTC), sobre HEAD `5173e04ab0e4fb3138fa5c4d28c211fc7c2087bc`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `1ce4d881`
+- SHA: `5173e04a`
 
 ## Ramas remotas con commits en origin
 
-- `claude/inventory-mapping-execution-z93ms8` — 2026-08-05T16:55:33Z — p1: wire resource-check into CI (Paso 1b, partial)
+- `claude/validador-minimo-d270-lzekof` — 2026-08-05T20:00:54Z — D-270: E-VAL, validador mínimo con productor real de validation_status
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
