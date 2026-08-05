@@ -1,12 +1,12 @@
 # STATE.md
 
-Generado: 2026-08-05T02:15:49Z (UTC), sobre HEAD `02efc8081b60c7a1b4339b413ceda5e8bf80e84c`.
+Generado: 2026-08-05T02:17:44Z (UTC), sobre HEAD `4d0683f8796e1ae2b90ef6b6df77b103ba69c185`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `02efc808`
+- SHA: `4d0683f8`
 
 ## Ramas remotas con commits en origin
 
