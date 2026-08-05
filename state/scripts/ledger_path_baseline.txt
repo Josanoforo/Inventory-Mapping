@@ -1,0 +1,29 @@
+# state/scripts/ledger_path_baseline.txt
+#
+# Baseline for ledger_path_check.py's increment gate (D-286). This is the
+# set of tokens that were already missing from the tree in
+# state/pendientes_ledger.md at the time the gate was wired to CI (D-271) —
+# dead references pending a manual sweep of the ledger's rows, not a new
+# failure the gate should block on.
+#
+# ledger_path_check.py fails (exit 1) only on a missing token NOT in this
+# file — i.e. a *new* dead reference introduced since the gate went live.
+# A token already in this file that starts resolving in the tree is
+# reported as "RESUELTO — retirar del baseline" without failing the run;
+# remove it here by hand once confirmed.
+#
+# This file may only shrink, never grow, without a written decision. One
+# token per line, sorted.
+.claude/agents/inventory-mapping.md
+__F-X05.json
+__F-X07.json
+extraction_gpt_recovery/
+output/isolated_signals.md
+output/rejected_groupings.md
+state/scripts/vocab_check.py
+state/superficie_congelada.md
+working/eje4/
+working/entry_gate/entry_gate_report.json
+working/index/card_index.jsonl
+working/validation/validation_summary.json
+working_reextraction/fable/

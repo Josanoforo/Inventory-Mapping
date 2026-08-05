@@ -3,8 +3,14 @@
 
 resources.yaml is the authority: every tracked resource (data artifact,
 script, module, schema, skill, etc.) should have a row declaring its
-`clase`, `fase`, `productor` and `consumidores`. This script never gates —
-it always exits 0 (R-K, precedente D-240). It reports four sections:
+`clase`, `fase`, `productor` and `consumidores`. Per D-286, this script
+gates exclusively on section 2 (REGISTRADO PERO MUERTO): exit 1 if that
+section has >=1 entry, exit 0 otherwise. Sections 1, 3 and 4 are still
+printed in full but never affect the exit code — their threshold for
+failure is an open decision (1 = .gitkeep files and other placeholder
+artifacts that legitimately have no resources.yaml row yet; 3 = pending
+P-209; 4 = production that lives outside this repo). It reports four
+sections:
 
   1. EN ARBOL SIN REGISTRO — tracked files no path/glob in resources.yaml
      covers. Grouped by root directory with a count; full list at the end.
@@ -150,7 +156,7 @@ def main():
     print()
 
     l1, _ = section_unregistered(resources, files)
-    l2, _ = section_dead(resources, files)
+    l2, dead = section_dead(resources, files)
     l3, _ = section_writer_no_reader(resources)
     l4, _ = section_no_producer(resources)
 
@@ -158,7 +164,7 @@ def main():
         for line in block:
             print(line)
 
-    return 0
+    return 1 if dead else 0
 
 
 if __name__ == "__main__":
