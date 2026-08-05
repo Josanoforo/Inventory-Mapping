@@ -137,11 +137,9 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
 3. **`actor_level`** — Identifies **who speaks or acts** in the observation — the entity that is the **source of the claim**, not who is affected by it. A help_center article about seller fees has `actor_level = platform` (Gumroad is speaking), not `seller` (even though sellers are affected). A seller blog post about their own earnings has `actor_level = seller` (the seller is speaking).
 
-   Inherit from `_extraction_context.actor_level` unmodified. This is the default outcome for every card.
+   The table below is the assignment rule for `actor_level`, not a fallback. Phase 1 records without adjudicating, by design: its value enters as input. Four rows resolve by `source_type`; two by the speaker's stance — first-person promotion of one's own product or service, or commentary with no first-person actor — and those two apply independently of `source_type`. When no row applies, the Phase 1 value is inherited, and there that value is the decision, not an input. Record in `normalization_notes` which of the three paths was taken.
 
-   La tabla de abajo es la regla de asignación de `actor_level`, no un fallback. Phase 1 registra sin adjudicar, por diseño: su valor entra como insumo. Cuatro filas se resuelven por `source_type`; dos por la postura del hablante —promoción en primera persona sobre lo propio, o comentario sin actor en primera persona— y esas dos aplican con independencia del `source_type`. Cuando ninguna fila aplica, se hereda el valor de Phase 1, y ahí ese valor es la decisión, no un insumo. Registrar en `normalization_notes` cuál de los tres caminos se tomó.
-
-   Assignment rules by source type:
+   Assignment rules:
    - `help_center`, `pricing_page`, `platform_doc`, `policy_page` → always `platform`
    - `blog`, `seller_forum`, `reddit` where the author is a seller → `seller`
    - `blog`, `reddit` where the author is a buyer → `buyer`
