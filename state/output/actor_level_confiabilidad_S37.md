@@ -1,5 +1,38 @@
 # E-AL-S37 — ¿Es confiable el actor_level de Phase 1?
 
+> **Corrección — D-264 (S37).**
+>
+> El veredicto NO-CONFIABLE de este reporte midió `actor_level` de Phase 1 contra la tabla de
+> `signal_converter.md` §4.4. Esa fue la lectura correcta del texto vigente al momento de la
+> medición: líneas 140 y 142 decían que heredar sin modificar era "the default outcome for every
+> card", pero que, cuando se cumplía una de dos condiciones (valor heredado `unknown`, o la
+> formulación del signal_text revela imprecisión), había que "apply the table" — mandato, no
+> sugerencia, para esos casos. La medición no tiene defecto metodológico: aplicó el criterio tal
+> como el texto lo planteaba entonces.
+>
+> D-264 sustituye ese párrafo. Texto que instala en `signal_converter.md` §4.4, campo 3: la tabla
+> es la regla de asignación, no un fallback; cuatro filas se resuelven por `source_type` y dos por
+> la postura del hablante, con independencia del `source_type`; cuando ninguna fila aplica se
+> hereda el valor de Phase 1 y ahí ese valor es la decisión, no un insumo. El veredicto se retira
+> porque el criterio contra el que medía cambió, no porque la medición estuviera mal hecha.
+>
+> **Las siete mediciones (M1–M7) siguen vigentes** y son la base de evidencia de D-264. **El
+> encuadre del veredicto (NO-CONFIABLE) no** — se retira como conclusión de este reporte.
+>
+> Dos afirmaciones adicionales del reporte original se descuentan:
+> - (a) "La tabla aparece por primera vez río abajo" es afirmación histórica no sostenible sobre
+>   un clon shallow. Lo sostenible: la tabla no está en el contrato de Phase 1
+>   (`data_extraction_contract.md`), sí en el módulo de Phase 2.
+> - (b) La identificación de la skill `extract-records` como productora real es una inferencia
+>   sobre un archivo fuera del alcance declarado del encargo — marcada como tal en el reporte
+>   original, nunca verificada.
+>
+> **Se conserva:** la distribución de M6 — la carga de corrección de Phase 2 se concentra en
+> `product_listing` (6/6 cards overridden) y en el vecindario de `search_results_page`/
+> `platform_doc`, y es baja en los cuatro `source_type` institucionales (`help_center`,
+> `policy_page`, `platform_doc`, `pricing_page`). Es un hecho sobre dónde trabaja Phase 2,
+> independiente del encuadre del veredicto.
+
 **Resumen para decidir sin abrir archivos:** HEAD real coincide exactamente con el BASE declarado. Veredicto: **NO-CONFIABLE**. La tasa de acierto del subconjunto mecánicamente decidible es 75.13% (420/559), contra un umbral de 90% declarado antes de aplicar la tabla. Ver "Veredicto" para el razonamiento completo.
 
 ## Precondición [repo@BASE]
