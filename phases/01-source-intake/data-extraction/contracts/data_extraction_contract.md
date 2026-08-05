@@ -214,9 +214,17 @@ Valores permitidos:
 - seller
 - product
 - marketplace
+- platform
 - source
+- third_party
 - mixed
 - unknown
+
+Notas (`pipeline_vocabulary.yaml`, campo `actor`):
+- "'platform' = official voice, explicit policy."
+- "'marketplace' = algorithmic output, no explicit commitment."
+- "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
+- "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)."
 
 ### `platforms`
 Lista explícita de plataformas mencionadas.

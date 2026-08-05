@@ -108,7 +108,7 @@ Note: `source_date_if_available`, `author_or_actor_if_available`, `snippet_conte
 Fill the judgment fields in this order:
 1. `claim_type` — classify using the closed enum from the schema
 2. `subject_exact` — name the precise local subject of the claim (critical field; see contract §7)
-3. `actor_level` — buyer, seller, product, marketplace, source, mixed, or unknown
+3. `actor_level` — buyer, seller, product, marketplace, platform, source, third_party, mixed, or unknown
 4. `platforms` — explicit platforms mentioned; never infer what is not stated
 5. `product_type_if_explicit` — only if the source states it or leaves it unambiguous
 6. `metric_type` — from the closed enum; use `unknown` if none applies clearly
