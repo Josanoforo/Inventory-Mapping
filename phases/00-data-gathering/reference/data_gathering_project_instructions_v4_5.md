@@ -131,6 +131,8 @@ Closed list. Use exactly one value per finding. The run prompt specifies which s
 
 Only the platform speaking for itself counts as direct platform documentation. A third-party blog describing the platform is `blog`, not `platform_doc`. Public review aggregators default to `unknown` per DGI-R16.
 
+Una página servida desde un subdominio o ruta de ayuda o soporte de la plataforma bajo estudio se clasifica `help_center`, aunque su contenido tenga forma de artículo o de entrada de blog. El contenedor determina el tipo.
+
 ---
 
 ## Absence findings

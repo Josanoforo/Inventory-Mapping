@@ -146,7 +146,7 @@ ID único del record.
 ID único de la fuente de origen.
 
 ### `source_type`
-Valores sugeridos:
+Lista cerrada. Exactamente un valor por record. Espeja la taxonomía de `phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md` §source_type taxonomy, que es donde se asigna.
 - platform_doc
 - help_center
 - pricing_page
@@ -167,6 +167,8 @@ Valores sugeridos:
 - unknown
 
 A blog post page that contains an active comment section is classified as `source_type: blog`. The container determines the type. Individual comments are split into separate records per speaker under the single-source rule, but all carry `source_type: blog`.
+
+Una página servida desde un subdominio o ruta de ayuda o soporte de la plataforma bajo estudio se clasifica `help_center`, aunque su contenido tenga forma de artículo o de entrada de blog. El contenedor determina el tipo.
 
 ### `source_ref`
 Referencia estable a la fuente:
