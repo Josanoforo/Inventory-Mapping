@@ -1,7 +1,8 @@
 # Etapa 3 — Veredictos de adjudicación
 
+**Versión:** v5 (D-275, S39).
 **Muestra:** 60 casos, semilla `20260803`, estratos E1/E2/E3.
-**Paquete aplicado:** R1–R3 (previas) + R4, R5, R6, R7, R8, R9(a)(c)(d), D1, D2.
+**Paquete aplicado:** R1–R3 (previas) + R4, R5, R6, R7, R8, R9(a)(c)(d), D1, D2 + RC-1/RC-2/RC-3 (D-275).
 **Caídas:** R9(b) — descriptor fuera de enum contradice la decisión de corregir el corpus hacia los enums. R10 — invertida; `snippet_needs_reopen` no existe en el enum de `uncertainties` del schema de ER, se usa `context_insufficient`.
 **Orden de aplicación:** D1/D2 → R6 → R5, R7, R9 → R8 → R4.
 
@@ -23,6 +24,16 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_type` es `required` sin rama `null` en ambos schemas, y `metric_type_unclear` no está en el enum de `uncertainties` de ninguno. R9(a) no tiene salida legal: los veredictos "sin magnitud" se registran y esperan.
 - Bajo corregir-hacia-enums, las magnitudes sin destino legítimo en el enum no se fuerzan al valor cercano (R9(c)). Se marcan **bloqueado — sin destino en enum** y alimentan la revisión del eje del campo.
 - `platform_scope_unclear` sigue en `phase_2_only` en `pipeline_vocabulary.yaml`, que es la fuente de autoridad. R3 está aplicada en los dos schemas pero no ahí. Las marcas de R5 dependen de que se complete.
+
+---
+
+## Regla de contexto (RC), D-275
+
+**RC-1 (especificidad):** entre un genérico y un específico que el claim satisface por completo, gana el específico; el genérico solo queda cuando llegar al específico exigiría inferencia que el snippet no sostiene.
+
+**RC-2 (pregunta del campo):** entre dos específicos, gana el que responde la pregunta de ese campo — claim_type: qué afirma el claim; evidence_role: en qué relación está la fuente con el hecho. El valor que responde la pregunta del otro campo no compite.
+
+**RC-3 (ancla estructural):** si RC-1 y RC-2 no separan, decide la posición de la fuente —quién habla, dónde vive el texto—, no el tema. Extensión del assignment_rule de actor y de D2.
 
 ---
 
@@ -109,7 +120,8 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_unit` — **Fable** (R8).
 
 ### Caso 14 — batch_010
-- `claim_type` / `evidence_role` — **Residual**. Cita de creador mediada por periodista.
+- `claim_type` — **explicit_claim** (RC-2). Cita de creador mediada por periodista: el campo pregunta qué afirma el claim, no la relación de la fuente.
+- `evidence_role` — **reported_event** (RC-2). Cita de creador mediada por periodista: el periodista reporta el hecho, no es parte de él.
 - `time_scope_normalized_if_safe` — **Fable** (R6). Claim de estado (qué métodos de pago acepta la plataforma) con fecha de publicación explícita → normaliza a 2023-06-19.
 - `uncertainties` — **Fable** (R4, validado). `actor_level_unclear` **no aplica**: la hablante está identificada por nombre y rol.
 
@@ -164,7 +176,7 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_unit` — **Fable** (R8).
 
 ### Caso 25 — batch_019
-- `evidence_role` — **Residual**. Resumen agregado de reseñas.
+- `evidence_role` — **derived_calculation** (RC-2 + RC-1, frontera). Resumen agregado de reseñas: el campo pregunta la relación de la fuente con el hecho, y agregar reseñas es una operación derivada, no un reporte directo; frontera porque el agregado no declara método.
 - `platforms` — **Sonnet** + marca (R5).
 - `uncertainties` — **Fable** (R4). Unión: `methodology_unclear` + `source_date_unclear`.
 
@@ -220,7 +232,7 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 ### Caso 36 — batch_029
 - `metric_type` — **Bloqueado — sin destino en enum**. Límite de tamaño de archivo (5GB) es magnitud sin cobertura.
 - `metric_unit` — **Fable** (R8). "GB per file".
-- `claim_type` — **Residual-lite**. `policy_statement` vs `availability_statement` para una página de help center que describe qué se soporta. Ver §Huecos.
+- `claim_type` — **availability_statement** (RC-2). Página de help center que describe qué se soporta: el campo pregunta qué afirma el claim, y afirma disponibilidad, no política; `policy_statement` no responde esa pregunta.
 
 ### Caso 37 — batch_031
 - `evidence_role` — **Fable** (D2). Página de marketing de features → `direct_claim`, no `official_policy`.
@@ -252,10 +264,10 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `time_scope` — **Construido** (R6). `normalized` = 2026-03-21 (claim de estado con fecha de página explícita, Sonnet acierta); `raw` = null (la fecha de página no entra al raw, Fable acierta). Ninguno de los dos lo tiene completo.
 - `platforms` — **Sonnet** + marca (R5).
 - `uncertainties` — **Fable** (R4).
-- `metric_value_raw` (condensado vs completo) — **Residual**.
+- `metric_value_raw` (condensado vs completo) — **Diferido con cita** — carril de P-172 (D-273). Forma de preservación de bloques, no adjudicación de valor. Es la única marca residual que sobrevive.
 
 ### Caso 43 — batch_032
-- `evidence_role` — **Residual**. `database_fact` vs `reported_event` para cifra sin atribución en nota de prensa.
+- `evidence_role` — **reported_event** (RC-3). Cifra sin atribución en nota de prensa: decide la posición de la fuente —vive en una nota de prensa, no en una base de datos— no el tema de la cifra.
 - `metric_type` — **Bloqueado — sin destino en enum**. Distribución de compras por dispositivo.
 - `platforms` — **Sonnet** + marca (R5).
 - `uncertainties` — **Fable** (R4). `methodology_unclear`: cifras sin atribución ni método.
@@ -274,7 +286,7 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_type` — **Bloqueado — sin destino en enum**. Conteo de catálogo (64,100 templates).
 - `time_scope_raw` — **Fable** (R6). Fecha de acceso nunca entra → null.
 - `platforms` — **Sonnet** + marca (R5).
-- `claim_type` — **Residual-lite**. `availability_statement` vs `statistical_data`.
+- `claim_type` — **statistical_data** (RC-2, frontera). Conteo de catálogo (64,100 templates): el campo pregunta qué afirma el claim, y afirma una cifra estadística de catálogo, no la disponibilidad de un producto.
 
 ### Caso 47 — batch_038
 - `metric_type` — **Bloqueado — sin destino en enum**. Lista de keywords rankeadas.
@@ -291,13 +303,13 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 
 ### Caso 49 — batch_039
 - `time_scope_raw` — **Fable** (R6). "Last updated September 27, 2022" es fecha de página, no entra al raw; sí normaliza (claim de estado sobre qué contiene el reporte).
-- `claim_type` — **Residual-lite**. `explicit_claim` vs `availability_statement`.
+- `claim_type` — **availability_statement** (RC-1). El claim declara qué contiene el reporte; `availability_statement` es el específico que el snippet satisface por completo, y gana sobre el genérico `explicit_claim`.
 
 ### Caso 50 — batch_039
 - `metric_type` — **Bloqueado — sin destino en enum**. Comisión de afiliado (50%) es dinero pagado *al* partner, no cobrado *por* la plataforma. `fee_rate` colapsa capas (R9c). `payout` de Sonnet describe el mecanismo, no la magnitud.
 - `time_scope_raw` — **Fable** (R6). "Undated" no es wording del claim → null.
 - `metric_unit` — **Fable** (R8).
-- `claim_type` — **Residual-lite**. `pricing_statement` vs `policy_statement`.
+- `claim_type` — **pricing_statement** (RC-2). Comisión de afiliado del 50%: el campo pregunta qué afirma el claim, y afirma una cifra de pricing, no una política.
 
 ### Caso 51 — batch_039
 - `metric_type` — **Bloqueado — sin magnitud** (R9a). El snippet describe protección ante chargebacks sin cifra.
@@ -325,7 +337,7 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_unit` — **Fable** (R8). "mixed: USD, THB, KRW".
 
 ### Caso 55 — batch_043
-- `evidence_role` — **Residual-lite**. `comparative_commentary` vs `direct_claim` para un forista comparando plataformas que usa.
+- `evidence_role` — **comparative_commentary** (RC-1). Forista comparando plataformas que usa: `comparative_commentary` es el específico que el claim satisface por completo, frente al genérico `direct_claim`.
 - `time_scope_raw` — **Fable** (R6). "~2025-05" es fecha de fuente aproximada, no wording del claim → null.
 - `uncertainties` — **Fable** (R4, validado). `actor_level_unclear` **no aplica**: el autor está eligiendo plataforma para vender, el rol es determinable. `source_date_unclear` sí, por fecha aproximada.
 
@@ -336,7 +348,7 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `metric_unit` — **Fable** (R8).
 
 ### Caso 57 — batch_044
-- `claim_type` — **Residual**. `explicit_claim` vs `policy_statement` para un email de anuncio.
+- `claim_type` — **policy_statement** (RC-1). Email de anuncio: `policy_statement` es el específico que el snippet satisface por completo, frente al genérico `explicit_claim`.
 - `metric_value_raw` — **Sonnet** (null). El texto que Fable puso ahí no es una magnitud.
 - `time_scope` — **Sonnet** (R6). El email *es* el claim y su fecha es la fecha del claim: raw = October 16, 2024; normalized = 2024-10-16.
 - `platforms`: PayPal se incluye por R5 (actor del hecho, no método de pago incidental). No estaba en disputa.
@@ -355,7 +367,8 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 - `uncertainties` — **Fable** (R4).
 
 ### Caso 60 — batch_047
-- `claim_type` / `evidence_role` — **Residual**. Consejo entre pares en foro.
+- `claim_type` — **instructional_statement** (RC-1). Consejo entre pares en foro: específico que el claim satisface por completo.
+- `evidence_role` — **anecdotal_example** (RC-1). Consejo entre pares en foro: específico que el claim satisface por completo.
 - `platforms` — **Sonnet** (R5). Reddit, Hacker News y Slack son lugares donde viven links mencionados de paso, no sujeto del claim → qualifiers.
 - `time_scope_raw` — **Fable** (R6). Fecha de acceso nunca entra; el post está sin fechar.
 
@@ -368,8 +381,9 @@ Cuando un veredicto de `platforms` dice "+ marca", significa: valor determinable
 | Estado del caso | Casos |
 |---|---|
 | Íntegramente cerrado por regla | 48 |
-| Con un campo residual pleno (veredicto del operador) | 6 — C14, C25, C42, C43, C57, C60 |
-| Con un campo residual-lite (`claim_type`/`evidence_role` sin cobertura) | 5 — C36, C46, C49, C50, C55 |
+| Con un campo residual pleno (veredicto del operador) | 1 — C42 (diferido con cita, D-273; ver §Huecos) |
+| Con un campo residual-lite (`claim_type`/`evidence_role` sin cobertura) | 0 — cerrados por RC, ver fila siguiente |
+| Cerrado por Regla de contexto (RC-1/RC-2/RC-3, D-275) | 10 — C14, C25, C36, C43, C46, C49, C50, C55, C57, C60 |
 | Fuera de adjudicación | 1 — C17 (atomicidad) |
 
 **Bloqueos que impiden escribir, no adjudicar:**
@@ -407,7 +421,7 @@ Fable domina en `uncertainties` (R4/R1), `time_scope_raw` (R6) y `metric_unit` (
 
 ## Huecos detectados durante la adjudicación
 
-1. **`claim_type` / `evidence_role` sin regla general.** D1 y D2 cubren dos fronteras; los otros valores del enum no tienen criterio. Cinco casos caen a residual-lite por esta causa estructural, no por rareza individual.
+1. **`claim_type` / `evidence_role` sin regla general — resuelto (D-275).** D1 y D2 cubrían dos fronteras; los otros valores del enum no tenían criterio. RC-1/RC-2/RC-3 cubren esa frontera general. P-170 y P-192 cierran citando esta decisión.
 2. **Dónde vive un comparador.** C6, C16: cifras de una plataforma competidora dentro de un claim sobre otra. Un codificador las pone en `metric_value_raw`, el otro en `parser_notes`. Sin regla.
 3. **Formato de preservación de bloques.** C42: tabla condensada a extremos vs preservada completa. R9(d) decide el tipo, no la forma del valor.
 4. **Marca de atomicidad inexistente.** C17 no tiene dónde registrarse.

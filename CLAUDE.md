@@ -77,6 +77,11 @@ Known instances of this failure, not an exhaustive list:
   ("only `STATE.md`") turns a condition into a factual claim about the diff
   that has to be read, not assumed — the diff can carry other paths the
   example never ruled out.
+- A session clone can arrive shallow, and then the truncated history reads as
+  data — `git merge-base --is-ancestor` and `git log --diff-filter=A` answer
+  about the cutoff, not the history. Before any claim about ancestry or a
+  file's first appearance, run `git fetch --unshallow` (or check
+  `git rev-parse --is-shallow-repository`).
 
 When a check contradicts a record, the check wins and the record gets corrected.
 
