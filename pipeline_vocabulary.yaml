@@ -297,6 +297,7 @@ reason_code:
     - insufficient_ids
     - no_dt_question
     - no_explicit_friction
+    - relation_not_present
     - dedup_same_source
     - overlap_existing_tc
     - coverage_signal

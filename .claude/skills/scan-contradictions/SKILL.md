@@ -19,15 +19,12 @@ Read `modules/04_scanner.md` (section: Contradictions) before executing.
    - Verify both cards reference the same entity/topic.
    - Verify the opposition is explicit in the observation text, not inferred.
    - Record: pattern_id, description (mechanical verbs only), signal_ids, signal_summaries, components (the two opposing sides).
-   - Same-actor filter: look up the `actor` field for every Signal ID in both poles from `working/index/card_index.jsonl`. If ALL Signal IDs across BOTH poles have the SAME actor value → route to rejected_grouping with reason "same_actor_discrepancy".
-
-     This check is purely mechanical: compare actor values only. Do NOT evaluate whether the cards in each pole refer to the same mechanism, sub-topic, or channel. Grounding evaluation is the human's job during review, not the scanner's.
-
-     If the poles contain different actor values, the pattern passes this filter regardless of any other consideration.
-5. Route each pattern (after same-actor filter):
+   - Every pattern with `routing: rejected_grouping` carries a `reason_code`. Mechanical values (`same_actor`, `insufficient_ids`) are not emitted by this skill — the router computes them.
+   - Mechanical routing rules (same-actor, insufficient IDs) are applied by `scan_router.py`, not here. See `phases/03-inventory-mapping/modules/04_scanner.md`, "Routing authority". Do not restate them.
+5. Route each pattern:
    - Clear explicit contradiction with 2+ cards per side → `tension_candidate`
    - Apparent contradiction but one side has only 1 card → `needs_audit`
-   - Thematic overlap without actual opposition → `rejected_grouping`
+   - Thematic overlap without actual opposition → `rejected_grouping`, `reason_code: relation_not_present`
 6. Write scan artifact. Validate against schema.
 
 ## What counts as contradiction
