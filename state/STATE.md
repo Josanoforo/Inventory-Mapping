@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T16:55:47Z (UTC), sobre HEAD `94ee6911901f8de3d265394328cc3b1648217ea8`.
+Generado: 2026-08-05T19:35:04Z (UTC), sobre HEAD `db8ff0e6c4f465998efca650edac98b21ceb2c9f`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `94ee6911`
+- SHA: `db8ff0e6`
 
 ## Ramas remotas con commits en origin
 
+- `claude/d286-rutas-fallo-cableado-ldodqp` — 2026-08-05T19:34:51Z — D-286: ruta de fallo para resource_check y ledger_path_check + cableado a CI
 - `claude/inventory-mapping-execution-z93ms8` — 2026-08-05T16:55:33Z — p1: wire resource-check into CI (Paso 1b, partial)
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
