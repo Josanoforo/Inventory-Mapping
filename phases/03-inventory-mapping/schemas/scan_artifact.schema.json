@@ -40,6 +40,13 @@
             "description": "Where this pattern should go next."
           },
           "routing_rationale": { "type": "string" },
+          "reason_code": {
+            "type": "string",
+            "enum": ["same_actor", "insufficient_ids", "no_dt_question",
+                     "no_explicit_friction", "dedup_same_source",
+                     "overlap_existing_tc", "coverage_signal"],
+            "description": "Closed reason for routing=rejected_grouping. Required for rejected_grouping patterns — enforced by scan_router.py (single writer), NOT by schema conditional; historical artifacts predate this field and must remain valid."
+          },
           "components": {
             "type": "array",
             "description": "For multi-pole patterns: the poles or components detected.",
