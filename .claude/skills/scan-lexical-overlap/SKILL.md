@@ -11,9 +11,10 @@ For each overlap group:
 List shared vocabulary/entities.
 Assess: are these cards about the same thing or different things that sound similar?
 Record: pattern_id, description, signal_ids, signal_summaries.
+Every pattern with `routing: rejected_grouping` carries a `reason_code`. Mechanical values (`same_actor`, `insufficient_ids`) are not emitted by this skill — the router computes them.
 Route each pattern:
 Overlap reveals explicit friction or tension between the overlapping cards → `tension_candidate`
-ALL other overlap → `rejected_grouping` with note "possible dedup"
+ALL other overlap → `rejected_grouping`, `reason_code: dedup_same_source` (note "possible dedup")
 This includes: shared figures, shared entity names, same fact from different sources, coincidental vocabulary.
 Write scan artifact. Validate against schema.
 Critical rule

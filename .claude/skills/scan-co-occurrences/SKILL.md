@@ -19,9 +19,10 @@ Read `modules/04_scanner.md` (section: Co-occurrences) before executing.
    - Verify cross-round or cross-source presence.
    - Ask: does this cluster generate a question that Design Thinking would need to answer?
    - Record: pattern_id, description, signal_ids, signal_summaries.
+   - Every pattern with `routing: rejected_grouping` carries a `reason_code`. Mechanical values (`same_actor`, `insufficient_ids`) are not emitted by this skill — the router computes them.
 4. Route each pattern:
    - Generates a plausible DT question → `tension_candidate`
-   - Consistent co-occurrence but no DT question → `rejected_grouping`
+   - Consistent co-occurrence but no DT question → `rejected_grouping`, `reason_code: no_dt_question`
 5. Write scan artifact. Validate against schema.
 
 ## The DT question test
