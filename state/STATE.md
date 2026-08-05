@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T04:30:06Z (UTC), sobre HEAD `9a95350e078a1f914f5d95a7a9c25e458ac1fff4`.
+Generado: 2026-08-05T04:30:46Z (UTC), sobre HEAD `9ce011b5e0287ea6abde7d716401cd676320f983`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `9a95350e`
+- SHA: `9ce011b5`
 
 ## Ramas remotas con commits en origin
 
+- `claude/e-rut-1b-reason-code-ewh3mj` — 2026-08-05T04:30:34Z — vocab: register Phase 1b reason_code via aliasing (phase1b_rejection_reason)
 - `claude/registro-recursos-siembra-verificador-7s1le3` — 2026-08-05T04:29:54Z — Add resources.yaml (authority) + resource_check.py (verifier)
 - `claude/reason-code-autoridad-schema-f1ldnz` — 2026-08-05T04:22:31Z — Phase 3: register reason_code enum in vocabulary and scan_artifact schema
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
