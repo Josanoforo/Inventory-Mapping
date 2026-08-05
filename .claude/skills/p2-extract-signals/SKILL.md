@@ -63,9 +63,13 @@ For each skeleton:
 
 ## Filling judgment fields — strict rules
 
-**PES-R6 (Rule 6): Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it. Exception: field 3 (`actor_level`) is not filled by default inheritance — `phases/02-signal-extraction/modules/signal_converter.md` §4.4, field 3, is the assignment rule for that field, and inheritance applies only on the path that rule itself routes to.
+**PES-R6 (Rule 6): Inheritance is the default.** For fields 2–16 (everything except `signal_text`), inheritance from `_extraction_context` is the default. The extraction record already completed a judgment pass; Signal Extraction should not casually override it.
 
-**PES-R7 (Rule 7): Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`. Exception: field 3 (`actor_level`) assigned via `signal_converter.md` §4.4, field 3 is not an override of an inherited value — it is applying that field's own assignment rule.
+Exception: `actor_level` (field 3). Per D-264, `signal_converter.md` §4.4 field 3 is the assignment rule for `actor_level`, not a fallback — see that table for the authoritative rule. Inheritance only applies there when no row of the table applies, and in that case the inherited value is itself the decision the table produces, not a default this rule is supplying.
+
+**PES-R7 (Rule 7): Override only when signal formulation requires it.** The only valid reason to change an inherited value is if the signal_text formulation reveals that the extraction record's value was imprecise for the specific claim now being expressed. Record the override reason in `normalization_notes`.
+
+Exception: `actor_level` (field 3). Applying the assignment table in `signal_converter.md` §4.4 field 3 is not an override under this rule, even when it changes the inherited value — under D-264 the table is the rule being applied, not a deviation from one. This rule's "override only when..." condition governs fields 2 and 4–16.
 
 **PES-R8 (Rule 8): Closed enums are closed.** `actor_level`, `product_type_if_explicit`, `metric_type`, `evidence_role`, `uncertainties` may only contain values from the enums in `signal_card.schema.json`. If no value fits, use `unknown` if the enum allows it. Never invent enum values.
 
