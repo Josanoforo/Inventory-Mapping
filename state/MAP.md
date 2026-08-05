@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T02:34:27Z (UTC) sobre HEAD `2a5475707a2d88734af8c31ed38f09c3b1db08be`.
+Generado en 2026-08-05T02:44:43Z (UTC) sobre HEAD `006e90ff11eeb577712a9271e68f3159d95c6696`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -101,6 +101,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `etapa3_compare.py` — `state/scripts/etapa3_compare.py`
 - `etapa3_comparison_summary.md` — `state/output/etapa3_comparison_summary.md`
 - `etapa3_veredictos.md` — `state/output/etapa3_veredictos.md`
+- `excepcion_same_actor_S37.md` — `state/output/excepcion_same_actor_S37.md`
 - `extraction_converter.md` — `phases/01-source-intake/data-extraction/modules/extraction_converter.md`
 - `extraction_converter_manifest.schema.json` — `phases/01-source-intake/data-extraction/schemas/extraction_converter_manifest.schema.json`
 - `extraction_prepare.py` — `phases/01-source-intake/data-extraction/scripts/extraction_prepare.py`
@@ -197,7 +198,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 23
+- `state/output`: 24
 - `state/scripts`: 8
 
 ## CI
