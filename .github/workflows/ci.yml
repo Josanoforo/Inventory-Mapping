@@ -70,3 +70,15 @@ jobs:
           python-version: "3.11"
       - name: Run ledger_check.py
         run: python3 state/scripts/ledger_check.py
+
+  resource-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyYAML
+        run: pip install pyyaml==6.0.1
+      - name: Run resource_check.py
+        run: python3 state/scripts/resource_check.py
