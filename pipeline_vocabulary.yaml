@@ -366,6 +366,38 @@ manifest_status:
     - blocked_by_stage_1_incomplete
     - partial
 
+validation_status:
+  # Aggregate validation verdict for one Source Packet / Data Extraction
+  # Record / Signal Card / G1 gate result. D-270 (E-VAL): the four schemas
+  # do NOT declare the same set — source_intake_validation.schema.json adds
+  # `parking_lot` because only Source Intake can route a packet back to a
+  # bounded follow-up query / source reopen (doctrine:
+  # phases/01-source-intake/contracts/source_intake_validator.md:362-369).
+  # Data Extraction, Signal Extraction and the G1 gate never emit
+  # `parking_lot` — that is a design asymmetry, not an omission (see
+  # state/output/mapa_validacion_S36.md Ancla de partida). Modeled the same
+  # way as `uncertainties`/`manifest_status` above: `match: subset` so only
+  # the "schema declares a value the vocab doesn't recognize" direction is
+  # checked; the per-layer `core`/`source_intake_only` split lets
+  # `parking_lot` exist for one layer without being forced onto the other
+  # three or erased from the union.
+  match: subset
+  schema_field: validation_status
+  in_schemas:
+    - "**/source_intake_validation.schema.json"
+    - "**/data_extraction_validator.schema.json"
+    - "**/signal_validation.schema.json"
+    - "**/signal_inventory_gate.schema.json"
+  core:
+    - pass
+    - pass_with_flags
+    - rework
+    - reject
+  source_intake_only:
+    - parking_lot
+  notes:
+    - "eval_minimo_validator.py (D-270) only ever writes pass / pass_with_flags — rework, reject and parking_lot are operator judgment, never emitted by that script. See state/output/eval_candidatos_juicio.md."
+
 # =============================================================================
 # MECHANICAL LANGUAGE RULES (apply to all phases)
 # =============================================================================
