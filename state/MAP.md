@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T22:43:24Z (UTC) sobre HEAD `1d5d5ddc488d3f62f502075842677c26659370b0`.
+Generado en 2026-08-05T22:49:39Z (UTC) sobre HEAD `fc09780bf92c0aeef1b2ccade5031a7603d3e95e`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -87,6 +87,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `card_index.jsonl` — `phases/03-inventory-mapping/scripts/fixtures/v4/card_index.jsonl`
 - `card_record.schema.json` — `phases/03-inventory-mapping/schemas/card_record.schema.json`
 - `ci.yml` — `.github/workflows/ci.yml`
+- `claude_md_refs_check.py` — `claude_md_refs_check.py`
 - `co_occurrences.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/co_occurrences.json`
 - `contradictions.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/contradictions.json`
 - `converter.md` — `phases/01-source-intake/modules/converter.md`
@@ -129,6 +130,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `gaps.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/gaps.json`
 - `generate_state.py` — `state/scripts/generate_state.py`
 - `index_manifest.schema.json` — `phases/03-inventory-mapping/schemas/index_manifest.schema.json`
+- `indice_check.py` — `indice_check.py`
 - `inventory-mapping.md` — `docs/archive/inventory-mapping.md`
 - `ledger_check.py` — `state/scripts/ledger_check.py`
 - `ledger_check_fixtures_i7a.md` — `state/scripts/ledger_check_fixtures_i7a.md`
@@ -136,6 +138,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `ledger_path_baseline.txt` — `state/scripts/ledger_path_baseline.txt`
 - `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
 - `lexical_overlap.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/lexical_overlap.json`
+- `manifest_archive.py` — `manifest_archive.py`
 - `mapa_validacion_S36.md` — `state/output/mapa_validacion_S36.md`
 - `metric_type_family_check.py` — `metric_type_family_check.py`
 - `multiples_anclas_verbatim_check.md` — `state/output/multiples_anclas_verbatim_check.md`
@@ -143,6 +146,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `output_contract.md` — `agents/codex/_shared/protocols/output_contract.md`
 - `output_template.md` — `agents/codex/_shared/protocols/output_template.md`
 - `p150_bulk_extract_vocab_comparison.md` — `state/output/p150_bulk_extract_vocab_comparison.md`
+- `p153_auditoria_clase_S41.md` — `state/output/p153_auditoria_clase_S41.md`
 - `parse_dg_shard.py` — `phases/00-data-gathering/scripts/parse_dg_shard.py`
 - `part4_to_recovery_packets.py` — `phases/00-data-gathering/scripts/part4_to_recovery_packets.py`
 - `pendientes_ledger.md` — `state/pendientes_ledger.md`
@@ -152,6 +156,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `pipeline_vocabulary.yaml` — `pipeline_vocabulary.yaml`
 - `production_v1.md` — `agents/codex/phase0-recovery/prompts/production_v1.md`
 - `productores_validacion_S36.md` — `state/output/productores_validacion_S36.md`
+- `project_files_check.py` — `project_files_check.py`
 - `protocol_canonical.md` — `phases/03-inventory-mapping/reference/protocol_canonical.md`
 - `rejected_archive_record.schema.json` — `phases/01-source-intake/schemas/rejected_archive_record.schema.json`
 - `research_directions_protocol.md` — `phases/00-data-gathering/reference/research_directions_protocol.md`
@@ -188,10 +193,11 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `verificacion_decisiones_S36.md` — `state/output/verificacion_decisiones_S36.md`
 - `vocab_check.py` — `vocab_check.py`
 - `vocab_check_blind_spots.md` — `state/output/vocab_check_blind_spots.md`
+- `vocab_usage_check.py` — `vocab_usage_check.py`
 
 ## Superficie por área
 
-- `(raíz)`: 9
+- `(raíz)`: 14
 - `.claude/skills`: 16
 - `.github/workflows`: 2
 - `agents/codex`: 11
@@ -213,12 +219,12 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 25
+- `state/output`: 26
 - `state/scripts`: 10
 
 ## CI
 
-- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check, resource-check, ledger-path-check, metric-type-family-check
+- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check, resource-check, ledger-path-check, metric-type-family-check, claude-md-refs-check, vocab-usage-check
 - `.github/workflows/state-snapshot.yml`: snapshot
 - extracción por línea sobre claves de 2 espacios bajo `jobs:` (sin parser YAML en el runner de CI)
 
