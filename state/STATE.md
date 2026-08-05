@@ -1,18 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-05T04:30:46Z (UTC), sobre HEAD `9ce011b5e0287ea6abde7d716401cd676320f983`.
+Generado: 2026-08-05T04:34:55Z (UTC), sobre HEAD `4f65030bda3700b2b87a596e70950556c896fbfd`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `9ce011b5`
+- SHA: `4f65030b`
 
 ## Ramas remotas con commits en origin
 
-- `claude/e-rut-1b-reason-code-ewh3mj` — 2026-08-05T04:30:34Z — vocab: register Phase 1b reason_code via aliasing (phase1b_rejection_reason)
-- `claude/registro-recursos-siembra-verificador-7s1le3` — 2026-08-05T04:29:54Z — Add resources.yaml (authority) + resource_check.py (verifier)
-- `claude/reason-code-autoridad-schema-f1ldnz` — 2026-08-05T04:22:31Z — Phase 3: register reason_code enum in vocabulary and scan_artifact schema
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)

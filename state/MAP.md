@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T04:30:47Z (UTC) sobre HEAD `9ce011b5e0287ea6abde7d716401cd676320f983`.
+Generado en 2026-08-05T04:34:57Z (UTC) sobre HEAD `4f65030bda3700b2b87a596e70950556c896fbfd`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -143,6 +143,8 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `protocol_canonical.md` — `phases/03-inventory-mapping/reference/protocol_canonical.md`
 - `rejected_archive_record.schema.json` — `phases/01-source-intake/schemas/rejected_archive_record.schema.json`
 - `research_directions_protocol.md` — `phases/00-data-gathering/reference/research_directions_protocol.md`
+- `resource_check.py` — `state/scripts/resource_check.py`
+- `resources.yaml` — `resources.yaml`
 - `route_unrecoverable.py` — `phases/01-source-intake/scripts/route_unrecoverable.py`
 - `scan_artifact.schema.json` — `phases/03-inventory-mapping/schemas/scan_artifact.schema.json`
 - `search_decomposition_rules.md` — `agents/codex/_shared/protocols/search_decomposition_rules.md`
@@ -176,7 +178,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 
 ## Superficie por área
 
-- `(raíz)`: 6
+- `(raíz)`: 7
 - `.claude/skills`: 16
 - `.github/workflows`: 2
 - `agents/codex`: 11
@@ -199,7 +201,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
 - `state/output`: 24
-- `state/scripts`: 8
+- `state/scripts`: 9
 
 ## CI
 
