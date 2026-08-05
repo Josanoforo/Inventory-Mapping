@@ -139,9 +139,9 @@ If any mechanical field is missing or invalid, register `skeleton_invalid` and c
 
    Inherit from `_extraction_context.actor_level` unmodified. This is the default outcome for every card.
 
-   The source-type table below applies only when one of two conditions holds: the inherited value is `unknown`, or the signal_text formulation reveals that the inherited value was imprecise for this specific claim. In either case, apply the table and record the reason in `normalization_notes`. Do not apply the table as a systematic override — it is a fallback for these two conditions, not a rule that runs on every card.
+   La tabla de abajo es la regla de asignación de `actor_level`, no un fallback. Phase 1 registra sin adjudicar, por diseño: su valor entra como insumo. Cuatro filas se resuelven por `source_type`; dos por la postura del hablante —promoción en primera persona sobre lo propio, o comentario sin actor en primera persona— y esas dos aplican con independencia del `source_type`. Cuando ninguna fila aplica, se hereda el valor de Phase 1, y ahí ese valor es la decisión, no un insumo. Registrar en `normalization_notes` cuál de los tres caminos se tomó.
 
-   Assignment rules by source type (applies only under the conditions above):
+   Assignment rules by source type:
    - `help_center`, `pricing_page`, `platform_doc`, `policy_page` → always `platform`
    - `blog`, `seller_forum`, `reddit` where the author is a seller → `seller`
    - `blog`, `reddit` where the author is a buyer → `buyer`
