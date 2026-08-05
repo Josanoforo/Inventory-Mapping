@@ -1,0 +1,671 @@
+# resources.yaml — autoridad de recursos del repo (E-REG-0, S38)
+#
+# Patrón vocabulario aplicado a artefactos: este archivo es la autoridad;
+# state/scripts/resource_check.py es el verificador. MAP.md como vista
+# derivada es un paso posterior (fuera de este encargo).
+#
+# Formato por fila:
+#   path: ruta exacta o glob (fnmatch: '*' cruza separadores de directorio;
+#         una ruta terminada en '/' cubre todo su subárbol por prefijo)
+#   clase: permanente | derivado | por-corrida | fixture | reporte
+#   fase: "00".."03" | "state" | "repo"
+#   productor: [skills, scripts o módulos] — [] si no derivable
+#   consumidores: [skills, scripts o módulos] — [] si no derivable; [operador] válido
+#   autoridad: vigente | espejo | obsoleto | sin-marcar   (opcional)
+#
+# Comentario `# src:X` al final de cada fila = fuente de siembra:
+#   a  = tablas "Quick navigation" de CLAUDE.md
+#   b  = grep de rutas working/·output/·state/output/·input/ en
+#        .claude/skills/*/SKILL.md, phases/**/modules/*.md,
+#        phases/**/scripts/*.py, state/scripts/*.py, vocab_check.py
+#   c  = git ls-files, clasificación por directorio raíz
+#   rl = R-L, auto-aplicación (este archivo y su verificador)
+# El bloque fuera_del_arbol (fuente d) tiene su propia sección al final.
+
+resources:
+
+  # --- R-L: auto-aplicación ---------------------------------------------
+  - path: resources.yaml
+    clase: permanente
+    fase: "state"
+    productor: [E-REG-0]
+    consumidores: [resource_check.py]  # src:rl
+
+  - path: state/scripts/resource_check.py
+    clase: permanente
+    fase: "state"
+    productor: [E-REG-0]
+    consumidores: [operador]  # src:rl
+
+  # --- Fase 03 — Inventory Mapping: flujo de datos (tabla 1 de CLAUDE.md, refinado por grep) ---
+  - path: input/signal_cards_round_*.md
+    clase: derivado
+    fase: "02"
+    productor: [signal_to_markdown.py]
+    consumidores: [entry-gate, split-cards, build-candidate]  # src:a
+
+  - path: working/entry_gate/entry_gate_report.json
+    clase: derivado
+    fase: "03"
+    productor: [entry-gate]
+    consumidores: []  # src:a
+
+  - path: working/split/card_batches/*.md
+    clase: derivado
+    fase: "03"
+    productor: [split-cards]
+    consumidores: [index-cards]  # src:a
+
+  - path: working/split/split_manifest.json
+    clase: derivado
+    fase: "03"
+    productor: [split-cards]
+    consumidores: [index-cards]  # src:a
+
+  - path: working/index/card_index.jsonl
+    clase: derivado
+    fase: "03"
+    productor: [index-cards]
+    consumidores: [scan-asymmetries, scan-co-occurrences, scan-contradictions, scan-frictions, scan-gaps, scan-lexical-overlap, scan-opposite-directions, build-candidate]  # src:a
+
+  - path: working/index/index_manifest.json
+    clase: derivado
+    fase: "03"
+    productor: [index-cards]
+    consumidores: [index-cards]  # src:b
+
+  - path: working/scans/*.json
+    clase: derivado
+    fase: "03"
+    productor: [scan-asymmetries, scan-co-occurrences, scan-contradictions, scan-frictions, scan-gaps, scan-lexical-overlap, scan-opposite-directions]
+    consumidores: [build-candidate]  # src:a
+
+  - path: output/tension_candidates/*.md
+    clase: derivado
+    fase: "03"
+    productor: [build-candidate, validate-candidate]
+    consumidores: [validate-candidate]  # src:a
+
+  - path: output/rejected_groupings.md
+    clase: derivado
+    fase: "03"
+    productor: [build-candidate]
+    consumidores: []  # src:b
+
+  - path: output/coverage_gaps.md
+    clase: derivado
+    fase: "03"
+    productor: [build-candidate]
+    consumidores: [validate-candidate]  # src:b
+
+  - path: output/isolated_signals.md
+    clase: derivado
+    fase: "03"
+    productor: [build-candidate]
+    consumidores: []  # src:b
+
+  - path: output/review_queue.md
+    clase: derivado
+    fase: "03"
+    productor: [build-candidate, validate-candidate]
+    consumidores: [validate-candidate]  # src:b
+
+  - path: working/validation/candidate_reports/TC-*_validation.json
+    clase: derivado
+    fase: "03"
+    productor: [validate-candidate]
+    consumidores: []  # src:b
+
+  - path: working/validation/validation_summary.json
+    clase: derivado
+    fase: "03"
+    productor: [validate-candidate]
+    consumidores: []  # src:b
+
+  # --- Fase 01 — Source Intake: flujo de datos (tabla 2 de CLAUDE.md, refinado por grep) ---
+  - path: working/source_intake/skeleton_batches/
+    clase: derivado
+    fase: "01"
+    productor: [converter_prepare.py]
+    consumidores: [p1-convert-findings]  # src:a
+
+  - path: working/source_intake/converter_prepare_manifest.json
+    clase: derivado
+    fase: "01"
+    productor: [converter_prepare.py]
+    consumidores: [p1-convert-findings]  # src:b
+
+  - path: working/source_intake/converter_manifest.json
+    clase: derivado
+    fase: "01"
+    productor: [p1-convert-findings]
+    consumidores: [p1-convert-findings]  # src:b
+
+  - path: working/source_intake/packets/
+    clase: derivado
+    fase: "01"
+    productor: [p1-convert-findings]
+    consumidores: [extraction_prepare.py]  # src:a
+
+  - path: working/source_intake/source_intake_gpt_recovery/
+    clase: derivado
+    fase: "01"
+    productor: [p1-convert-findings]
+    consumidores: []  # src:b
+
+  - path: working/source_intake/rejected_archive/
+    clase: derivado
+    fase: "01"
+    productor: [route_unrecoverable.py]
+    consumidores: []  # src:b
+
+  # --- Fase 01b — Data Extraction: flujo de datos ---
+  - path: working/data_extraction/skeleton_batches/
+    clase: derivado
+    fase: "01"
+    productor: [extraction_prepare.py]
+    consumidores: [p1-extract-records]  # src:a
+
+  - path: working/data_extraction/extraction_prepare_manifest.json
+    clase: derivado
+    fase: "01"
+    productor: [extraction_prepare.py]
+    consumidores: [p1-extract-records]  # src:b
+
+  - path: working/data_extraction/extraction_converter_manifest.json
+    clase: derivado
+    fase: "01"
+    productor: [p1-extract-records]
+    consumidores: [p1-extract-records]  # src:b
+
+  - path: working/data_extraction/records/
+    clase: derivado
+    fase: "01"
+    productor: [p1-extract-records]
+    consumidores: [signal_prepare.py, signal_to_markdown.py, field_population_audit.py, field_lifecycle_trace.py]  # src:a
+
+  - path: working/data_extraction/rejected_archive_phase1b/
+    clase: derivado
+    fase: "01"
+    productor: [p1-extract-records]
+    consumidores: []  # src:b
+
+  # --- Fase 02 — Signal Extraction: flujo de datos ---
+  - path: working/signal_extraction/skeleton_batches/
+    clase: derivado
+    fase: "02"
+    productor: [signal_prepare.py]
+    consumidores: [p2-extract-signals]  # src:a
+
+  - path: working/signal_extraction/signal_prepare_manifest.json
+    clase: derivado
+    fase: "02"
+    productor: [signal_prepare.py]
+    consumidores: [p2-extract-signals]  # src:b
+
+  - path: working/signal_extraction/signal_converter_manifest.json
+    clase: derivado
+    fase: "02"
+    productor: [p2-extract-signals]
+    consumidores: [p2-extract-signals]  # src:b
+
+  - path: working/signal_extraction/cards/
+    clase: derivado
+    fase: "02"
+    productor: [p2-extract-signals]
+    consumidores: [signal_to_markdown.py, field_population_audit.py]  # src:a
+
+  - path: working/signal_extraction/signal_gpt_recovery/
+    clase: derivado
+    fase: "02"
+    productor: [p2-extract-signals]
+    consumidores: []  # src:b
+
+  # --- Fase 00 — Data Gathering: flujo de datos ---
+  - path: input/data_gathering/shards/
+    clase: por-corrida
+    fase: "00"
+    productor: []
+    consumidores: [parse_dg_shard.py, p0-normalize-shard]  # src:b
+
+  - path: working/data_gathering/findings/
+    clase: derivado
+    fase: "00"
+    productor: [parse_dg_shard.py]
+    consumidores: [converter_prepare.py]  # src:b
+
+  - path: working/data_gathering/diagnostics/part_4/
+    clase: derivado
+    fase: "00"
+    productor: [parse_dg_shard.py]
+    consumidores: [route_unrecoverable.py, part4_to_recovery_packets.py]  # src:b
+
+  - path: working/data_gathering/diagnostics/qa_notes/
+    clase: derivado
+    fase: "00"
+    productor: [parse_dg_shard.py]
+    consumidores: []  # src:b
+
+  - path: working/data_gathering/recovery_packets/
+    clase: derivado
+    fase: "00"
+    productor: [part4_to_recovery_packets.py]
+    consumidores: []  # src:b
+
+  - path: working/eje4/
+    clase: por-corrida
+    fase: "00"
+    productor: [eje4_xlsx_to_json_batch.py]
+    consumidores: []  # src:b
+
+  # --- Infraestructura permanente: skills (.claude/skills) ---
+  - path: .claude/skills/p0-normalize-shard/SKILL.md
+    clase: permanente
+    fase: "00"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/p1-convert-findings/SKILL.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/p1-extract-records/SKILL.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/p2-extract-signals/SKILL.md
+    clase: permanente
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/entry-gate/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/split-cards/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/index-cards/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-asymmetries/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-co-occurrences/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-contradictions/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-frictions/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-gaps/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-lexical-overlap/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/scan-opposite-directions/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/build-candidate/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .claude/skills/validate-candidate/SKILL.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Infraestructura permanente: phases/00 ---
+  - path: phases/00-data-gathering/reference/*.md
+    clase: permanente
+    fase: "00"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/00-data-gathering/scripts/*.py
+    clase: permanente
+    fase: "00"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Infraestructura permanente: phases/01 (source-intake + data-extraction) ---
+  - path: phases/01-source-intake/contracts/*.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/modules/*.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/reference/*.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/schemas/*.schema.json
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/scripts/*
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/data-extraction/contracts/*.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/data-extraction/modules/*.md
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/data-extraction/schemas/*.schema.json
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/01-source-intake/data-extraction/scripts/*.py
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Infraestructura permanente: phases/02 ---
+  - path: phases/02-signal-extraction/contracts/*.md
+    clase: permanente
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/02-signal-extraction/modules/*.md
+    clase: permanente
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/02-signal-extraction/schemas/*.schema.json
+    clase: permanente
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/02-signal-extraction/scripts/*.py
+    clase: permanente
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Infraestructura permanente: phases/03 ---
+  - path: phases/03-inventory-mapping/modules/*.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/03-inventory-mapping/reference/*.md
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: phases/03-inventory-mapping/schemas/*.schema.json
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Fases 04-08: placeholders, sin implementación en repo ---
+  - path: phases/0[4-8]-*/.gitkeep
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- agents/codex: contratos de recuperación ---
+  - path: agents/codex/_shared/*
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: agents/codex/phase0-*/*
+    clase: permanente
+    fase: "00"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: agents/codex/phase1b-recovery/*
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: agents/codex/source-intake-recovery/*
+    clase: permanente
+    fase: "01"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- Raíz del repo ---
+  - path: CLAUDE.md
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: pipeline_vocabulary.yaml
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: vocab_check.py
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: signal_card_defect_check.py
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .gitignore
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: .github/workflows/*.yml
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: docs/*.md
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: batch_smoke_20260414_220716.zip
+    clase: fixture
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: signal_card_defect_check_fixtures/
+    clase: fixture
+    fase: "02"
+    productor: []
+    consumidores: []  # src:c
+
+  # --- state/ ---
+  - path: state/MAP.md
+    clase: permanente
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: state/STATE.md
+    clase: permanente
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: state/pendientes_ledger.md
+    clase: permanente
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: state/scripts/*.py
+    clase: permanente
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: state/scripts/ledger_check_fixtures_*.md
+    clase: fixture
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+  - path: state/output/
+    clase: reporte
+    fase: "state"
+    productor: []
+    consumidores: []  # src:c
+
+fuera_del_arbol:
+  # Fuente: PROJECT FILES (procedencia S38, ratificado por el operador).
+  # No derivable del repo. Entrada mínima: path + autoridad: sin-marcar —
+  # marcar autoridad real es juicio del operador, no de esta siembra.
+  - path: Blueprint_Concept_Design_v2.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Design_Thinking_v2.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Expression.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Expression_Research.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Selector_v2.md
+    autoridad: sin-marcar  # src:d
+  - path: Decision_Router_v0_3_updated.md
+    autoridad: sin-marcar  # src:d
+  - path: Signal_Extraction_Protocol_v2_updated.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Inventory_Mapping_v4.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Phase_2_Signal_Extraction.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_Phase_1_Source_Intake_Data_Extraction.md
+    autoridad: sin-marcar  # src:d
+  - path: research_directions_protocol.md
+    autoridad: sin-marcar  # src:d
+  - path: inventory_mapping_agent_protocol.md
+    autoridad: sin-marcar  # src:d
+  - path: source_packet_conversion_template.md
+    autoridad: sin-marcar  # src:d
+  - path: DSC_Operativo.md
+    autoridad: sin-marcar  # src:d
+  - path: data_gathering_project_instructions_v4_5.md
+    autoridad: sin-marcar  # src:d
+  - path: gumroad_DX2_shard_prompt_v3.md
+    autoridad: sin-marcar  # src:d
+  - path: shard_template_v2.md
+    autoridad: sin-marcar  # src:d
+  - path: P-094_flow_metrics_proposal.md
+    autoridad: sin-marcar  # src:d
+  - path: Blueprint_DSC.md
+    autoridad: sin-marcar  # src:d
+  - path: DSC_Consolidado.md
+    autoridad: sin-marcar  # src:d
+  - path: protocol-creation-guide.md
+    autoridad: sin-marcar  # src:d
+  - path: Indice_Decisiones.md
+    autoridad: sin-marcar  # src:d
+  - path: Encargos_CC_S34.md
+    autoridad: sin-marcar  # src:d
+  - path: Decision_Log_consolidado.md
+    autoridad: sin-marcar  # src:d
+  - path: System_Registry_consolidado_v4.md
+    autoridad: sin-marcar  # src:d
+  - path: Inventario_Pendientes_S34.md
+    autoridad: sin-marcar  # src:d
+  - path: Project_Instructions_DSC.md
+    autoridad: sin-marcar  # src:d
+  - path: "pendientes_ledger.md (copia)"
+    autoridad: sin-marcar  # src:d
+  - path: "MAP.md (copia)"
+    autoridad: sin-marcar  # src:d
+  - path: transfer-sesion-dsc.md
+    autoridad: sin-marcar  # src:d
+  - path: "Handoff_session*.md (serie S21+)"
+    autoridad: sin-marcar  # src:d
+  - path: "Decision_Log_update_session*.md (serie S27+)"
+    autoridad: sin-marcar  # src:d
+  - path: "System_Registry_update_session*.md (serie S31+)"
+    autoridad: sin-marcar  # src:d
+  - path: Apertura_S36.md
+    autoridad: sin-marcar  # src:d
+  - path: Bloque_A_estado_y_remediacion_S34_5.md
+    autoridad: sin-marcar  # src:d
+  - path: "Decision_Log_update_S34_*.md (S34_1..S34_6)"
+    autoridad: sin-marcar  # src:d
+  - path: "System_Registry_update_S34_*.md (S34_4..S34_6)"
+    autoridad: sin-marcar  # src:d
