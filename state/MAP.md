@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T19:35:05Z (UTC) sobre HEAD `db8ff0e6c4f465998efca650edac98b21ceb2c9f`.
+Generado en 2026-08-05T19:42:26Z (UTC) sobre HEAD `1e4dcbc2511de4f7c55b5a6bfbde00da909a5049`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -131,6 +131,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `ledger_check.py` — `state/scripts/ledger_check.py`
 - `ledger_check_fixtures_i7a.md` — `state/scripts/ledger_check_fixtures_i7a.md`
 - `ledger_check_fixtures_i7b.md` — `state/scripts/ledger_check_fixtures_i7b.md`
+- `ledger_path_baseline.txt` — `state/scripts/ledger_path_baseline.txt`
 - `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
 - `lexical_overlap.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/lexical_overlap.json`
 - `mapa_validacion_S36.md` — `state/output/mapa_validacion_S36.md`
@@ -210,11 +211,11 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
 - `state/output`: 24
-- `state/scripts`: 9
+- `state/scripts`: 10
 
 ## CI
 
-- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check
+- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check, resource-check, ledger-path-check
 - `.github/workflows/state-snapshot.yml`: snapshot
 - extracción por línea sobre claves de 2 espacios bajo `jobs:` (sin parser YAML en el runner de CI)
 
