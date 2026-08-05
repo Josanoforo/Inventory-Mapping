@@ -1,16 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T02:17:44Z (UTC), sobre HEAD `4d0683f8796e1ae2b90ef6b6df77b103ba69c185`.
+Generado: 2026-08-05T02:20:13Z (UTC), sobre HEAD `9a8a32d6ea57e1ebf97da7f8b97bea4064d81d50`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `4d0683f8`
+- SHA: `9a8a32d6`
 
 ## Ramas remotas con commits en origin
 
-- `claude/encargos-s37-d263-e4-kz9lmh` — 2026-08-05T02:15:30Z — D-263 (S37): bump Sesión vigente a S37 y registra la decisión de dejar disparar I7b
+- `claude/same-actor-filter-exception-tbqw17` — 2026-08-05T02:20:02Z — E-A5REC-S37: mide la excepción declarada del filtro same-actor
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `claude/etapa-2-field-extraction-jyqwwj` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
