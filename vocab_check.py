@@ -221,6 +221,43 @@ def check_field(field_name, entry, schema_files, schema_docs, schema_prop_index)
     }
 
 
+def known_field_names(vocab):
+    """Property names already covered by some vocab entry's schema_field (or its own key)."""
+    names = set()
+    for field_name, entry in vocab.items():
+        if not isinstance(entry, dict):
+            continue
+        schema_field = entry.get("schema_field", field_name)
+        if isinstance(schema_field, str):
+            schema_field = [schema_field]
+        names.update(schema_field)
+    return names
+
+
+def discover_unconfigured_enums(known_names, schema_files, schema_docs, schema_prop_index):
+    """Enum-bearing properties whose name is never visited by the vocab.items() loop.
+
+    Discovery mode only: does not feed has_issues / the exit code (D-240 precedent
+    — an inapplicable red check teaches ignoring checks; this pass reports).
+    """
+    found = []
+    for path in schema_files:
+        doc = schema_docs[path]
+        index = schema_prop_index[path]
+        relpath = path.relative_to(ROOT).as_posix()
+        for name in sorted(index):
+            if name in known_names:
+                continue
+            values = set()
+            for node, _json_path in index[name]:
+                kind, declared = classify(node, doc)
+                if kind == "enum":
+                    values |= declared
+            if values:
+                found.append((relpath, name, sorted(values)))
+    return sorted(found)
+
+
 def main():
     vocab = load_vocab()
     schema_files = find_schema_files()
@@ -249,6 +286,9 @@ def main():
             untouched_fields.append(field_name)
         else:
             results.append(result)
+
+    known_names = known_field_names(vocab)
+    discovered = discover_unconfigured_enums(known_names, schema_files, schema_docs, schema_prop_index)
 
     print("=" * 78)
     print("VOCAB CHECK — pipeline_vocabulary.yaml vs *.schema.json (excl. working/)")
@@ -307,6 +347,21 @@ def main():
     print("VOCAB FIELDS WITH NO MATCHING SCHEMA FIELD FOUND")
     print("-" * 78)
     print(", ".join(untouched_fields) if untouched_fields else "(none)")
+    print()
+
+    print("-" * 78)
+    print("SCHEMA ENUM PROPERTIES WITH NO VOCAB CONFIGURATION (discovery mode, E6/S38)")
+    print("-" * 78)
+    print("(reporting only — not gated into the exit code; see D-240 precedent)")
+    if discovered:
+        for relpath, name, values in discovered:
+            print(f"\n[{name}] {relpath}")
+            print(f"  declared: {values}")
+        distinct_names = sorted({name for _, name, _ in discovered})
+        print()
+        print(f"Pairs (file, property): {len(discovered)}   Distinct property names: {len(distinct_names)}")
+    else:
+        print("(none)")
     print()
 
     sys.exit(1 if has_issues else 0)
