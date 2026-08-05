@@ -1,16 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-05T20:40:09Z (UTC), sobre HEAD `f6c6e867bec589ef07c9614b8c796646e5935e40`.
+Generado: 2026-08-05T20:49:36Z (UTC), sobre HEAD `c3ea50f38e570b45efed92c49f4e1abbb2c24a06`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `f6c6e867`
+- SHA: `c3ea50f3`
 
 ## Ramas remotas con commits en origin
 
-- `claude/phase-2-3-bridge-recoding-piyjkt` — 2026-08-05T20:39:49Z — A7: partición mag_/qual_ de metric_type + mapeo de 15 actor_level (D-272/273/274/287) + D-224 a la clase
 - `preserve/benchmark-etapa2-extraccion-juicio` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `preserve/benchmark-etapa2-reextraccion-campos` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `preserve/benchmark-etapa2-field-extraction` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)

@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T20:40:11Z (UTC) sobre HEAD `f6c6e867bec589ef07c9614b8c796646e5935e40`.
+Generado en 2026-08-05T20:49:36Z (UTC) sobre HEAD `c3ea50f38e570b45efed92c49f4e1abbb2c24a06`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -137,6 +137,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
 - `lexical_overlap.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/lexical_overlap.json`
 - `mapa_validacion_S36.md` — `state/output/mapa_validacion_S36.md`
+- `metric_type_family_check.py` — `metric_type_family_check.py`
 - `multiples_anclas_verbatim_check.md` — `state/output/multiples_anclas_verbatim_check.md`
 - `opposite_directions.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/opposite_directions.json`
 - `output_contract.md` — `agents/codex/_shared/protocols/output_contract.md`
@@ -190,7 +191,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 
 ## Superficie por área
 
-- `(raíz)`: 8
+- `(raíz)`: 9
 - `.claude/skills`: 16
 - `.github/workflows`: 2
 - `agents/codex`: 11
