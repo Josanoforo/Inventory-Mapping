@@ -118,3 +118,33 @@ jobs:
         run: pip install pyyaml==6.0.1
       - name: Run metric_type_family_check.py
         run: python3 metric_type_family_check.py
+
+  # claude-md-refs-check: entra por D-282(a)/P-156. Ruta de fallo probada en
+  #   E-S41-POST: verde contra el árbol, se rompió a propósito (referencia a
+  #   un archivo inexistente en CLAUDE.md), exit 1 confirmado, restaurado.
+  #   No importa yaml -- no requiere PyYAML.
+  claude-md-refs-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run claude_md_refs_check.py
+        run: python3 claude_md_refs_check.py
+
+  # vocab-usage-check: entra por D-282(b)/P-191. Ruta de fallo probada en
+  #   E-S41-POST: verde contra el árbol, se retiró snippet_needs_reopen de
+  #   pipeline_vocabulary.yaml a propósito (355 usos reales en packets),
+  #   exit 1 confirmado, restaurado.
+  vocab-usage-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyYAML
+        run: pip install pyyaml==6.0.1
+      - name: Run vocab_usage_check.py
+        run: python3 vocab_usage_check.py
