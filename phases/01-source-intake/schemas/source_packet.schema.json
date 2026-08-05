@@ -202,10 +202,16 @@
           "metric_type_unclear",
           "time_scope_unclear",
           "geography_unclear",
+          "methodology_unclear",
+          "anecdotal_single_source",
+          "author_conflict_of_interest_possible",
+          "platform_scope_unclear",
+          "product_type_unclear",
           "none"
         ]
       },
-      "uniqueItems": true
+      "uniqueItems": true,
+      "description": "S40: metric_unit_unclear (pipeline_vocabulary.yaml uncertainties.phase_2_only) is intentionally absent here — this schema is Phase 1, and phase_2_only extensions are out of scope by phase boundary (legitimate narrowing, not desync; see P-162)."
     },
     "priority_for_source_first": {
       "type": "string",
