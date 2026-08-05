@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T04:59:40Z (UTC) sobre HEAD `4964e1205d741ad55552c9d233cc941c41f249e8`.
+Generado en 2026-08-05T05:12:41Z (UTC) sobre HEAD `a8764cadb340165bd7b5658c4f9e27cad1240a05`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -81,10 +81,14 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `STATE.md` — `state/STATE.md`
 - `TC-001.md` — `phases/03-inventory-mapping/reference/TC-001.md`
 - `actor_level_confiabilidad_S37.md` — `state/output/actor_level_confiabilidad_S37.md`
+- `asymmetries.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/asymmetries.json`
 - `batch_smoke_20260414_220716.zip` — `batch_smoke_20260414_220716.zip`
 - `bulk_extract.py` — `phases/01-source-intake/data-extraction/scripts/bulk_extract.py`
+- `card_index.jsonl` — `phases/03-inventory-mapping/scripts/fixtures/v4/card_index.jsonl`
 - `card_record.schema.json` — `phases/03-inventory-mapping/schemas/card_record.schema.json`
 - `ci.yml` — `.github/workflows/ci.yml`
+- `co_occurrences.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/co_occurrences.json`
+- `contradictions.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/contradictions.json`
 - `converter.md` — `phases/01-source-intake/modules/converter.md`
 - `converter_manifest.schema.json` — `phases/01-source-intake/schemas/converter_manifest.schema.json`
 - `converter_prepare.py` — `phases/01-source-intake/scripts/converter_prepare.py`
@@ -119,6 +123,8 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `field_population_raw.json` — `state/output/field_population_raw.json`
 - `field_population_signal_cards.md` — `state/output/field_population_signal_cards.md`
 - `findings_diagnostic_report.md` — `output/diagnostics/findings_diagnostic_report.md`
+- `frictions.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/frictions.json`
+- `gaps.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/gaps.json`
 - `generate_state.py` — `state/scripts/generate_state.py`
 - `index_manifest.schema.json` — `phases/03-inventory-mapping/schemas/index_manifest.schema.json`
 - `inventory-mapping.md` — `docs/archive/inventory-mapping.md`
@@ -126,8 +132,10 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `ledger_check_fixtures_i7a.md` — `state/scripts/ledger_check_fixtures_i7a.md`
 - `ledger_check_fixtures_i7b.md` — `state/scripts/ledger_check_fixtures_i7b.md`
 - `ledger_path_check.py` — `state/scripts/ledger_path_check.py`
+- `lexical_overlap.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/lexical_overlap.json`
 - `mapa_validacion_S36.md` — `state/output/mapa_validacion_S36.md`
 - `multiples_anclas_verbatim_check.md` — `state/output/multiples_anclas_verbatim_check.md`
+- `opposite_directions.json` — `phases/03-inventory-mapping/scripts/fixtures/v4/opposite_directions.json`
 - `output_contract.md` — `agents/codex/_shared/protocols/output_contract.md`
 - `output_template.md` — `agents/codex/_shared/protocols/output_template.md`
 - `p150_bulk_extract_vocab_comparison.md` — `state/output/p150_bulk_extract_vocab_comparison.md`
@@ -147,6 +155,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `resources.yaml` — `resources.yaml`
 - `route_unrecoverable.py` — `phases/01-source-intake/scripts/route_unrecoverable.py`
 - `scan_artifact.schema.json` — `phases/03-inventory-mapping/schemas/scan_artifact.schema.json`
+- `scan_router.py` — `phases/03-inventory-mapping/scripts/scan_router.py`
 - `search_decomposition_rules.md` — `agents/codex/_shared/protocols/search_decomposition_rules.md`
 - `signal_card.schema.json` — `phases/02-signal-extraction/schemas/signal_card.schema.json`
 - `signal_card_defect_check.py` — `signal_card_defect_check.py`
@@ -191,7 +200,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `phases/00-data-gathering`: 5
 - `phases/01-source-intake`: 22
 - `phases/02-signal-extraction`: 11
-- `phases/03-inventory-mapping`: 14
+- `phases/03-inventory-mapping`: 23
 - `phases/04-design-thinking`: 1
 - `phases/05-concept-design`: 1
 - `phases/06-selector`: 1
