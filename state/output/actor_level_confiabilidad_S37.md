@@ -33,7 +33,7 @@
 > `policy_page`, `platform_doc`, `pricing_page`). Es un hecho sobre dónde trabaja Phase 2,
 > independiente del encuadre del veredicto.
 
-**Resumen para decidir sin abrir archivos:** HEAD real coincide exactamente con el BASE declarado. Veredicto: **NO-CONFIABLE**. La tasa de acierto del subconjunto mecánicamente decidible es 75.13% (420/559), contra un umbral de 90% declarado antes de aplicar la tabla. Ver "Veredicto" para el razonamiento completo.
+**Resumen para decidir sin abrir archivos:** HEAD real coincide exactamente con el BASE declarado. Veredicto retirado por D-264 — ver el bloque de corrección arriba. La medición original dio 75.13% (420/559) en el subconjunto mecánicamente decidible contra un umbral de 90% declarado antes de aplicar la tabla; esa cifra sigue vigente como medición, no como juicio sobre Phase 1.
 
 ## Precondición [repo@BASE]
 
