@@ -60,6 +60,20 @@ Each pattern gets a routing decision:
 `coverage_gap`: relevant absence.
 `isolated_signal`: single card, rare, preserved.
 `needs_audit`: partial support, unclear classification.
+Routing authority
+
+Routing has two layers, and they do not live in the same place.
+
+Mechanical rules are computed by `phases/03-inventory-mapping/scripts/scan_router.py`, which is the single writer of all routing outputs. A scan skill does not apply them and must not restate them. Two rules are mechanical today:
+
+- Same-actor: a pattern whose `signal_ids` all resolve to a single `actor` value in `card_index.jsonl` is routed to `rejected_grouping` with `reason_code: same_actor`. This applies ONLY to the four scans whose patterns have two poles — asymmetries, contradictions, frictions, opposite_directions. Co-occurrences, gaps and lexical overlap are excluded by design (declared in commit `bbda31a9`, the commit that introduced the filter); applying it there would discard legitimate coverage gaps.
+- Insufficient IDs: lexical overlap patterns with fewer than 3 Signal IDs, and any pattern left with fewer than 2 after verification, are routed to `rejected_grouping` with `reason_code: insufficient_ids`.
+
+Judgment rules stay with the scan skill, which emits its routing plus a closed `reason_code` from `pipeline_vocabulary.yaml`: `no_dt_question`, `no_explicit_friction`, `dedup_same_source`, `overlap_existing_tc`, `coverage_signal`. The router transports these unchanged. `coverage_signal` re-routes the pattern to the coverage gaps output — a pattern that documents an absence is not a rejection.
+
+Why the split. A rule copied into each skill drifts silently and cannot be verified. Measured on the v4 run: two frictions patterns whose Signal IDs all shared one actor were emitted as `tension_candidate` and `needs_audit` while duplicate `-REJECTED` twins of the same patterns existed alongside them. The copied filter was not only duplicated, it was failing inside its own scan with nothing to detect it. A single writer makes silent discards structurally impossible rather than detectable, and makes the mechanical outcome recomputable when the index changes.
+
+Operator overrides live in `routing_overrides.json` next to the scan artifacts and are applied after the mechanical rules; each entry cites the decision that authorizes it.
 Fail states
 Index file empty or unreadable → fail scan, report.
 Scan produces zero patterns → valid result (no patterns found), not a failure.
