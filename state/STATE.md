@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T00:23:11Z (UTC), sobre HEAD `89c4a59bb8134288ba9c7bb8f11512cca0ad02cd`.
+Generado: 2026-08-05T00:27:11Z (UTC), sobre HEAD `097c1583cdbe0fbf33e970b47a61a43a31a2d09d`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `89c4a59b`
+- SHA: `097c1583`
 
 ## Ramas remotas con commits en origin
 
+- `claude/e-voc-s37-d264-d265` — 2026-08-05T00:26:54Z — E-VOC-S37: install D-264 and D-265 in normative prose
 - `claude/e3c-cierres-ledger-wcgskw` — 2026-08-05T00:22:59Z — E3c: seal 8 ledger closures (S37 pass)
 - `claude/actor-level-phase-1-reliability-w5ygiy` — 2026-08-05T00:13:34Z — E-AL-S37: actualiza resumen ejecutivo tras retiro del veredicto por D-264
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
