@@ -198,10 +198,20 @@ def check_field(field_name, entry, schema_files, schema_docs, schema_prop_index)
                 # kind == "skip" -> not a comparable value field here, ignore
 
     divergences = []
+    subset_blind_missing = []
     for declared_set, files in enum_occurrences.items():
         missing = (vocab_values - optional) - declared_set
         extra = declared_set - vocab_values
         if match_mode == "subset":
+            if missing:
+                # E6b/S38: this is the direction the veredict below discards.
+                # Captured here, before the zeroing, purely for the informational
+                # report — does not feed `divergences` / has_issues / exit code.
+                subset_blind_missing.append({
+                    "files": sorted(files),
+                    "declared": sorted(declared_set),
+                    "missing": sorted(missing),
+                })
             missing = set()
         if missing or extra:
             divergences.append({
@@ -216,6 +226,7 @@ def check_field(field_name, entry, schema_files, schema_docs, schema_prop_index)
         "field": field_name,
         "match_mode": match_mode,
         "divergences": divergences,
+        "subset_blind_missing": subset_blind_missing,
         "open_string_files": sorted(open_string_files),
         "occurrences_found": total_enum_occurrences + len(open_string_files),
     }
@@ -361,6 +372,26 @@ def main():
         print()
         print(f"Pairs (file, property): {len(discovered)}   Distinct property names: {len(distinct_names)}")
     else:
+        print("(none)")
+    print()
+
+    print("-" * 78)
+    print("SUBSET FIELDS — BLIND MISSING DIRECTION (informational, E6b/S38)")
+    print("-" * 78)
+    print("(reporting only — not gated into the exit code; `match: subset` still")
+    print(" suppresses this direction from DIVERGENCES/the veredict by design;")
+    print(" see D-240 precedent)")
+    any_blind = False
+    for result in results:
+        blind = result.get("subset_blind_missing")
+        if not blind:
+            continue
+        any_blind = True
+        print(f"\n[{result['field']}] (match=subset)")
+        for d in blind:
+            print(f"  files: {', '.join(d['files'])}")
+            print(f"    missing in schema (vocab has, schema doesn't, suppressed by subset): {d['missing']}")
+    if not any_blind:
         print("(none)")
     print()
 
