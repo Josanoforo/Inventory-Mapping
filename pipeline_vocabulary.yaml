@@ -41,7 +41,7 @@ actor:
     - "'platform' = official voice, explicit policy."
     - "'marketplace' = algorithmic output, no explicit commitment."
     - "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
-    - "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)."
+    - "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter). — PREMISA-FALSA (S37, D-268): ninguna skill de scan implementa esta excepción. El filtro same-actor de las cuatro skills es puramente mecánico y no distingue valores de actor. Medido sobre el historial completo (639 commits): la conducta nunca existió, ni antes ni después de que esta línea se escribiera. Además, el needs_audit de esta nota (sobre el valor del actor) y el de 04_scanner.md (soporte parcial del patrón) son conceptos distintos con el mismo nombre. Esta línea no describe conducta vigente. Si la excepción debe existir es pregunta abierta — ver P-207 en state/pendientes_ledger.md. Evidencia: state/output/excepcion_same_actor_S37.md."
     - "Collapsing actor without declaring it is a rework-level failure."
 
 metric_type:

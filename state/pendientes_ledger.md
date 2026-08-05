@@ -119,6 +119,7 @@ files, diseño) · `OP` = solo el operador.
 | P-204 | 9 de 1,178 findings tienen `verification_status` corrompido: el valor arrastra contenido de la siguiente sección del shard tras `\n\n---\n\n## `, p. ej. `"direct_verified\n\n---\n\n## Affiliate commissions are the only public percentage disclosures..."`. Los 9 provienen del mismo shard (`compass_artifact_wf-4ef0d94a-344f-48de-a6a0-29bd09258ed5_text_markdown_normalized`): 5 `F-*` (F-07, F-12, F-26, F-30, F-31) y 4 `F-P*` (F-P05, F-P11, F-P15, F-P16) | decisión | ¿Se corrige el dato de los 9 findings, o el parser que los produjo (`phases/00-data-gathering/scripts/parse_dg_shard.py`)? | DSC | verificado — barrido de los 1,178 archivos de `working/data_gathering/findings/*.json`: 1,169 con `verification_status` en {`direct_verified`, `blocked_url_index_verified`, `could_not_verify`} (666/503/0), 9 con valor fuera de esas tres cadenas, las 9 con el patrón de arrastre citado, todas del mismo shard ·mov:S36 |
 | P-205 | `docs/pipeline_flow.md` referencia rutas `upstream/...` en 73 líneas; ese directorio no existe desde la reestructuración a `phases/` (commit `242318bf`, 2026-04-11). El propio documento se autodeclara obsoleto en su cabecera (líneas 3-4: "OBSOLETO — describe la estructura pre-restructure 242318b. CLAUDE.md es el mapa vivo.") pero sigue vigente en el árbol y se cita como procedencia en al menos 3 PRs de esta sesión (#108, #109, #110) | decisión | ¿Se actualiza el documento a rutas `phases/...`, o se archiva/retira dado que ya se autodeclara obsoleto? | DSC | verificado — `ls upstream` → No such file or directory; `grep -c 'upstream/' docs/pipeline_flow.md` → 73; cabecera líneas 3-4 confirmada ·mov:S36 |
 | P-206 | El veredicto de los 11 checks de `signal_extraction_validator.md` se computa dentro del loop de `p2-extract-signals` (`SKILL.md:42`, `signal_converter.md:191,205-211`) y no se persiste en ningún campo ni archivo: se consume una sola vez para decidir `cards/` vs `signal_gpt_recovery/` y para poblar `issues_for_this_skeleton` con 8 códigos de tipo de problema (`signal_converter_manifest.schema.json:128-145`) que no corresponden 1:1 a los 11 checks nombrados. `signal_card.schema.json` no declara `checks` ni `validation_status` (`additionalProperties: false`). Mismo tema que P-181/P-182, ángulo del productor en vez del schema | decisión | ¿Dónde se persiste el veredicto estructurado (los 11 valores `pass`/`flag`/`fail`/`not_applicable` con su nombre de check), y en qué schema entra — `signal_validation.schema.json` marcado en esta misma pasada (S4), u otro? | liga P-181/P-182 | verificado — `signal_converter.md:205-211` (consumo de routing citado); `grep -n "checks\|validation_status" phases/02-signal-extraction/schemas/signal_card.schema.json` sin resultados; `signal_converter_manifest.schema.json:128-145` (8 códigos, ninguno de los 11 nombres de check) ·mov:S36 |
+| P-208 | El filtro same-actor existe como cuatro copias byte-idénticas en `scan-asymmetries`, `scan-contradictions`, `scan-frictions` y `scan-opposite-directions` (md5 `fce3dfa53936c5bc189ebc4a049ebb55`, 614 bytes c/u — PR #117, M1), y ni `04_scanner.md` —el módulo que las gobierna— ni `protocol_canonical.md` —el canon de Phase 3— mencionan `actor` ni una vez (grep completo, 0 coincidencias). El campo que rutea a `rejected_grouping` no está anclado en ninguna capa por encima de las skills. Las tres skills sin filtro (`co-occurrences`, `gaps`, `lexical-overlap`) quedaron fuera por diseño declarado en el commit que lo introdujo (`bbda31a9`), no por omisión — eso está verificado y no es parte del pendiente | decisión | ¿Dónde debe vivir la regla del filtro para que no sean cuatro copias? | DSC | abierta — medido en PR #117 (`state/output/excepcion_same_actor_S37.md`, M1 y M3). Relación: instancia de la clase P-153 en su forma de superficie duplicada ·mov:S37 |
 
 **Cerrados en esta corrección (decisión ya ejecutada, verificada — salen de la tabla):**
 
@@ -149,6 +150,7 @@ files, diseño) · `OP` = solo el operador.
 | P-184 | Residual de P-113: `Decision_Router_v0_3_updated.md` sin Phase 1 en su modelo de zonas | decisión | OP/DSC | ·mov:S34 |
 | P-185 | `Blueprint_Selector_v2.md` usa "Phasing" (nombre muerto) en ≥8 pasajes incluido su gate de salida | decisión | OP/DSC | ·mov:S34 |
 | P-186 | `DSC_Operativo.md` coexiste con `DSC_Consolidado.md` sin marca de autoridad ni fecha — clase P-131 | decisión | OP | ·mov:S34 |
+| P-207 | `pipeline_vocabulary.yaml` declara que `source` y `mixed` quedan fuera del filtro cross-actor y disparan `needs_audit`; ninguna skill lo implementa y nunca se implementó (medido sobre 639 commits, PR #117). Marcada PREMISA-FALSA por D-268 en las dos superficies donde vivía (`pipeline_vocabulary.yaml:44`, `data_extraction_contract.md:227`). Queda sin resolver si la excepción debe existir. Toca A5 directamente: la opción (a) de D-251 —mapear `unknown` a `source`— concentra el valor que ya produce 134 de 406 pares de cards con mismo actor (33.00%), con `source` en 14 de 29 cards. Nota de barrera: `vocab_check.py` salta el campo `notes`, así que ninguna afirmación de las notas del archivo de autoridad está verificada por nada | decisión | OP + DSC | abierta — nace de PR #117 y de esta corrida (E-PREMFALSA-S37, D-268); marcado ejecutado en `pipeline_vocabulary.yaml:44` y `data_extraction_contract.md:227` (token `PREMISA-FALSA (S37, D-268)` presente en ambos, `grep -c "PREMISA-FALSA"` 0→2 en las dos superficies). Pregunta verificable: ninguna, es decisión de diseño ·mov:S37 |
 
 ---
 
@@ -177,10 +179,10 @@ files, diseño) · `OP` = solo el operador.
 | Grupo | Filas |
 |---|---|
 | A — pendientes de verificar (Run 2) | 15 |
-| B — verificados, esperando decisión | 45 |
-| C — decisiones de DSC | 8 |
+| B — verificados, esperando decisión | 46 |
+| C — decisiones de DSC | 9 |
 | D — candidatos a parqueo | 0 |
-| **Total abiertos** | **68** |
+| **Total abiertos** | **70** |
 
 **Parqueadas (fuera del conteo de abiertos):** 10 (ver `**Parqueados:**` bajo la tabla D).
 
@@ -196,7 +198,7 @@ parcialmente, P-098, P-103.
 
 ## Nota sobre la forma de la cola
 
-45 de 68 ya están verificados y esperan juicio del operador. 15 esperan que alguien mire el repo.
+46 de 70 ya están verificados y esperan juicio del operador. 15 esperan que alguien mire el repo.
 10 más están parqueadas (condición de desparqueo explícita, fuera del conteo de abiertos).
 **El cuello es la cola de decisiones, no la de verificación.**
 
@@ -223,7 +225,7 @@ Bloque 3 de reclasificación pero listaba cinco (P-097, U-4, P-177, P-131, P-133
 de desfase, mismo tratamiento: reportado, no resuelto por interpretación propia. 2 de las 5
 reclasificadas llevan marca FUERA-DEL-ÁRBOL (P-131, P-133).
 
-De los 45 del grupo B, cuatro son huecos de puente o de campo (P-134, P-136,
+De los 46 del grupo B, cuatro son huecos de puente o de campo (P-134, P-136,
 más `local_qualifiers` y `time_scope_raw`) y todos comparten la misma pregunta previa: qué campos
 consume Phase 3 realmente. Esa pregunta es el entregable A de Run 3. **Decidir cualquiera de los
 cuatro antes de Run 3 repite el error que interrumpió S28 cuatro veces.**
@@ -385,3 +387,22 @@ el encargo se titula "Los siete cambios" pero enumera ocho (C1–C8); reportado 
 resuelto en esta pasada. Delta: A 18→16 (P-094 fusionada y P-155 cierran, ambas eran filas de la
 tabla A), B 48→45 (P-126, P-128, P-127 cierran), C y D sin cambio (8, 0). Total abiertos 74→69.
 Parqueadas sin cambio (10). `ledger_check.py` exit 0 antes y después del cambio.
+
+**Encargo E-PREMFALSA-S37 — marca PREMISA-FALSA + dos filas nuevas [ESCRITURA]:** BASE
+`2a5475707a2d88734af8c31ed38f09c3b1db08be`. La nota de `pipeline_vocabulary.yaml` (campo `actor`,
+notas, línea 44) sobre `source`/`mixed` disparando `needs_audit` se marca `PREMISA-FALSA (S37,
+D-268)` en las dos superficies donde vivía — `pipeline_vocabulary.yaml:44` y su copia en
+`data_extraction_contract.md:227` (propagada hoy por `5f1e03d4`) — sin borrarla: la conducta que
+describe nunca existió, medida sobre 639 commits (PR #117), pero el contenido normativo (si la
+excepción debe existir) sigue sin resolver (D-260 — un pendiente no se consume porque su objeto
+desapareció). Token `PREMISA-FALSA` pasa de 0 a 2 ocurrencias, una por superficie. Dos filas
+nuevas, ambas `·mov:S37`: P-207 (tabla C, `decisión`, Dónde OP + DSC) — si la excepción debe
+existir, con nota de barrera (`vocab_check.py` salta el campo `notes`, así que ninguna afirmación
+de las notas del vocabulario está verificada por nada); P-208 (tabla B, `decisión`, Dónde DSC) —
+dónde debe vivir el filtro same-actor, hoy 4 copias byte-idénticas sin ancla en `04_scanner.md` ni
+en `protocol_canonical.md`, instancia de P-153. Delta: A sin cambio (15), B 45→46 (+P-208), C 8→9
+(+P-207), D sin cambio (0). Total abiertos 68→70. Parqueadas sin cambio (10). `vocab_check.py`
+exit 0 antes y después — salida idéntica byte a byte, la edición solo toca el campo `notes`,
+excluido de la comparación (`vocab_check.py:46`, `META_KEYS`). `ledger_check.py` exit 0 antes y
+después; conteo real antes A=15 B=45 C=8 D=0 Total=68, después A=15 B=46 C=9 D=0 Total=70. Diff
+acotado a tres archivos: `pipeline_vocabulary.yaml`, `data_extraction_contract.md`, este archivo.

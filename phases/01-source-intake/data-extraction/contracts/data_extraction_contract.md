@@ -224,7 +224,7 @@ Notas (`pipeline_vocabulary.yaml`, campo `actor`):
 - "'platform' = official voice, explicit policy."
 - "'marketplace' = algorithmic output, no explicit commitment."
 - "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
-- "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)."
+- "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter)." — PREMISA-FALSA (S37, D-268): ninguna skill de scan implementa esta excepción, ni la implementó nunca (639 commits medidos, PR #117). Ver P-207 en `state/pendientes_ledger.md`; detalle completo en `pipeline_vocabulary.yaml`, campo `actor`, notas. Evidencia: `state/output/excepcion_same_actor_S37.md`.
 
 ### `platforms`
 Lista explícita de plataformas mencionadas.
