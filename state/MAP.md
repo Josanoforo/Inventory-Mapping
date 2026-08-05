@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T20:01:12Z (UTC) sobre HEAD `5173e04ab0e4fb3138fa5c4d28c211fc7c2087bc`.
+Generado en 2026-08-05T20:09:40Z (UTC) sobre HEAD `3ec06834be356cc52f60ce2544b39c568fb0f7bd`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -105,6 +105,8 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `etapa3_compare.py` — `state/scripts/etapa3_compare.py`
 - `etapa3_comparison_summary.md` — `state/output/etapa3_comparison_summary.md`
 - `etapa3_veredictos.md` — `state/output/etapa3_veredictos.md`
+- `eval_candidatos_juicio.md` — `state/output/eval_candidatos_juicio.md`
+- `eval_minimo_validator.py` — `eval_minimo_validator.py`
 - `excepcion_same_actor_S37.md` — `state/output/excepcion_same_actor_S37.md`
 - `extraction_converter.md` — `phases/01-source-intake/data-extraction/modules/extraction_converter.md`
 - `extraction_converter_manifest.schema.json` — `phases/01-source-intake/data-extraction/schemas/extraction_converter_manifest.schema.json`
@@ -188,7 +190,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 
 ## Superficie por área
 
-- `(raíz)`: 7
+- `(raíz)`: 8
 - `.claude/skills`: 16
 - `.github/workflows`: 2
 - `agents/codex`: 11
@@ -210,7 +212,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 24
+- `state/output`: 25
 - `state/scripts`: 10
 
 ## CI
@@ -221,5 +223,5 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 
 ## Volumen de datos
 
-- `working/`: 6864 archivos rastreados
+- `working/`: 6868 archivos rastreados
 - `input/`: 73 archivos rastreados
