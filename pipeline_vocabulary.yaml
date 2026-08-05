@@ -278,6 +278,22 @@ scan_routing:
     - isolated_signal
     - needs_audit
 
+reason_code:
+  phase: "03"
+  in_schemas:
+    - "**/scan_artifact.schema.json"
+  values:
+    - same_actor
+    - insufficient_ids
+    - no_dt_question
+    - no_explicit_friction
+    - dedup_same_source
+    - overlap_existing_tc
+    - coverage_signal
+  notes:
+    - "same_actor and insufficient_ids are computed mechanically by the router, not emitted by scan skills."
+    - "coverage_signal re-routes the pattern to coverage_gaps output."
+
 scan_type:
   phase: "03"
   values:
