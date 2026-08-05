@@ -4,7 +4,9 @@
 `Decision_Log_update_session27.md`, `Handoff_session27.md`, `Decision_Log_update_session28.md`,
 `Handoff_session28.md`.
 
-**Sesión vigente:** S36
+**Sesión vigente:** S37
+
+Vencimiento de S37 (D-263). 58 filas cruzan las tres sesiones sin movimiento con este bump e I7b las reporta. Está decidido, no desatendido: D-263 resolvió dejar disparar en vez de parquear en bloque, porque el ledger existe para mostrar que el pipeline está detenido por decisiones del operador y parquear esas filas apaga la señal. La re-justificación individual de D-256 cl. 4 queda sustituida por esta decisión para las 58. Composición medida al bump: 53 de clase `decisión`, 3 de clase `hecho` gated por el sello S6, 2 marcadas FUERA-DEL-ÁRBOL (P-131, P-133) que ninguna corrida contra el repo puede cerrar. Una sesión futura que lea I7b en rojo no debe re-barrer la cola: lee esta nota.
 
 **Qué es.** Puente entre el inventario de pendientes (vive en project files) y el estado real
 (vive en el repo). Existe porque las dos cosas están en lados distintos y ninguna sesión puede
