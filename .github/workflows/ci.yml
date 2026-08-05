@@ -102,3 +102,19 @@ jobs:
           python-version: "3.11"
       - name: Run ledger_path_check.py
         run: python3 state/scripts/ledger_path_check.py
+
+  # metric-type-family-check: entra por D-273 (la partición porta la familia en
+  #   el valor y un check la aserta) y D-287 (`unknown` es la única exención
+  #   declarada). Tiene ruta de fallo desde su construcción — probado en rojo en
+  #   S40, en vocabulario y en schema. No hay excepción a R-K que declarar.
+  metric-type-family-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyYAML
+        run: pip install pyyaml==6.0.1
+      - name: Run metric_type_family_check.py
+        run: python3 metric_type_family_check.py
