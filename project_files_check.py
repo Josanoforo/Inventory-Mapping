@@ -43,16 +43,19 @@ Invariantes:
        encabezado
 
   PF-nuevo — inventario declarado contra inventario real. Todo archivo que
-  un `Handoff_sessionNN.md` liste bajo una sección "Uploads a project
-  files" debe existir en la capa, salvo que esté en JUBILADOS. Supuesto de
-  formato, no verificado contra un ejemplo real (ninguno estaba disponible
-  para esta construcción): el encabezado de sección se busca por el texto
-  literal "uploads a project files" (case-insensitive), y los nombres de
-  archivo dentro de esa sección se leen como tokens entre backticks
-  (`` `Nombre.md` ``) — la misma convención de cita que ya usa
-  `ledger_path_check.py` y `indice_check.py` para nombrar documentos de esta
-  capa. Si el formato real difiere, este extractor no los verá y hay que
-  ajustarlo; no se inventó un formato distinto a falta de un ejemplo.
+  un `Handoff_sessionNN.md` liste bajo su sección de uploads debe existir en
+  la capa, salvo que esté en JUBILADOS. Formato medido contra los 17
+  handoffs reales de la capa (S41), no supuesto: la sección se encabeza
+  como markdown (`#`-`####`) o como negrita dentro de lista numerada
+  (`**3. Uploads del operador a project files (8):**`, `**5. Uploads de
+  esta sesión a project files:**` — el patrón de S39/S40), y un handoff
+  puede declarar más de una sección de uploads. Los nombres de archivo se
+  leen como tokens entre backticks, con o sin extensión `.md` (los handoffs
+  citan ambas formas); la existencia se resuelve probando el token tal cual
+  y con `.md` añadido. Regla de cero: si la capa tiene handoffs pero
+  ninguno produce una sección reconocida, eso es un extractor roto o un
+  formato que volvió a cambiar, no una capa sin uploads — se reporta como
+  falla en vez de aprobar en silencio sobre cero coincidencias.
 
   JUBILADOS — documentos retirados de la capa project files, cada uno con su
   razón escrita, declarados en la constante de abajo (mecanismo citado en
@@ -100,27 +103,49 @@ JUBILADOS = {
 }
 
 HANDOFF_GLOB = "Handoff_session*.md"
-UPLOAD_HEADING_RE = re.compile(r"^(#{1,4})\s*.*uploads?\s+a\s+project\s*files.*$", re.M | re.I)
-UPLOAD_TOKEN_RE = re.compile(r"`([^`]+\.\w+)`")
+# Dos formas reales de encabezar la sección, medidas contra los 17 handoffs de
+# la capa (S41). NO es un supuesto: (a) encabezado markdown, (b) negrita dentro
+# de una lista numerada, que es la que usan S39 y S40:
+#     **3. Uploads del operador a project files (8):**
+#     **5. Uploads de esta sesión a project files:**
+# Por eso el patrón admite material entre "Uploads" y "a project files" — la
+# versión previa exigía la frase contigua bajo `#` y no encontraba ninguna.
+UPLOAD_HEADING_RE = re.compile(
+    r"^(?:(#{1,4})\s*|\*\*)\s*(?:\d+\.\s*)?[^\n`]{0,40}?uploads?\b[^\n`]{0,60}?\ba\s+project\s*files[^\n]*$",
+    re.M | re.I,
+)
+# Fin de sección: el siguiente encabezado markdown o el siguiente ítem en
+# negrita numerada.
+SECTION_END_RE = re.compile(r"^(?:#{1,4}\s|\*\*\d+\.\s)", re.M)
+# Los handoffs citan indistintamente con extensión y sin ella
+# (`Handoff_session40` en S40, `Handoff_session39.md` en S39). Se aceptan las
+# dos y la existencia se resuelve probando el token y el token + `.md`.
+UPLOAD_TOKEN_RE = re.compile(r"`([A-Za-z0-9_.+-]+)`")
 
 
-def extract_uploads_section(text):
-    m = UPLOAD_HEADING_RE.search(text)
-    if not m:
-        return None
-    level = len(m.group(1))
-    rest = text[m.end():]
-    end_m = re.search(rf"^#{{1,{level}}}\s", rest, re.M)
-    return rest[:end_m.start()] if end_m else rest
+def extract_uploads_sections(text):
+    """Todas las secciones de uploads del documento, no solo la primera: un
+    handoff puede declarar uploads en más de un lugar (S39 lo hace)."""
+    out = []
+    for m in UPLOAD_HEADING_RE.finditer(text):
+        rest = text[m.end():]
+        end_m = SECTION_END_RE.search(rest)
+        out.append(rest[:end_m.start()] if end_m else rest)
+    return out
 
 
 def extract_upload_tokens(body):
     tokens = []
     for tok in UPLOAD_TOKEN_RE.findall(body):
-        if re.search(r"\s", tok):
+        if re.search(r"\s", tok) or "/" in tok:
             continue
         tokens.append(tok)
     return sorted(set(tokens))
+
+
+def resolve_declared(root: Path, tok: str):
+    """El token existe si está tal cual o con `.md` añadido."""
+    return (root / tok).exists() or (root / f"{tok}.md").exists()
 
 
 def check_pf_nuevo(root: Path):
@@ -132,19 +157,31 @@ def check_pf_nuevo(root: Path):
     fallas = []
     for f in sorted(root.glob(HANDOFF_GLOB)):
         text = f.read_text(errors="replace")
-        body = extract_uploads_section(text)
-        if body is None:
+        bodies = extract_uploads_sections(text)
+        if not bodies:
             continue
         handoffs_con_seccion.append(f.name)
-        for tok in extract_upload_tokens(body):
+        for tok in sorted({t for b in bodies for t in extract_upload_tokens(b)}):
             total_declarado += 1
-            if tok in JUBILADOS:
+            if tok in JUBILADOS or tok.replace(".md", "") in JUBILADOS:
                 continue
-            if not (root / tok).exists():
+            if not resolve_declared(root, tok):
                 fallas.append(
                     f"PF-nuevo (inventario declarado sin archivo real): {f.name} declara "
                     f"'{tok}' bajo 'Uploads a project files' y ese archivo no está en {root}"
                 )
+    # Regla de cero (R-K). Un extractor que no encuentra NADA en toda la capa
+    # está roto o la superficie cambió de formato; en los dos casos tiene que
+    # gritar. Aprobar sobre cero es el falso verde que este check existe para
+    # no producir. Medido en S41: 2 de 17 handoffs declaran uploads, así que
+    # el umbral correcto es "al menos uno", no "todos".
+    handoffs_totales = len(list(root.glob(HANDOFF_GLOB)))
+    if handoffs_totales and not handoffs_con_seccion:
+        fallas.append(
+            f"PF-nuevo (extractor mudo): {handoffs_totales} handoffs en {root} y CERO con "
+            f"sección de uploads reconocida. O el formato cambió, o el patrón está roto. "
+            f"No se aprueba sobre cero"
+        )
     return handoffs_con_seccion, total_declarado, fallas
 
 
