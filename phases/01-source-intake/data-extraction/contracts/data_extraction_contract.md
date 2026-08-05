@@ -220,7 +220,7 @@ Valores permitidos:
 - mixed
 - unknown
 
-Notas (reproduce las notas del campo `actor` en `pipeline_vocabulary.yaml`; ese archivo es la autoridad. Las anotaciones fuera de comillas son locales de este contrato, no parte de la nota original):
+Notas del campo `actor` en `pipeline_vocabulary.yaml`, que es la autoridad y prevalece sobre este contrato. El texto entre comillas reproduce la nota; lo que va fuera de comillas es anotación local de este contrato y no forma parte del original.
 - "'platform' = official voice, explicit policy."
 - "'marketplace' = algorithmic output, no explicit commitment."
 - "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
