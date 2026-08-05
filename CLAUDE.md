@@ -127,6 +127,6 @@ If interrupted, resume from the last recorded position in the manifest.
 Failure routing
 Failed items route to recovery, never to discard:
 Phase 1: `working/source_intake/source_intake_gpt_recovery/`
-Phase 1 (extraction): `working/data_extraction/rejected_archive/`
+Phase 1 (extraction): `working/data_extraction/rejected_archive_phase1b/`
 Phase 2: `working/signal_extraction/signal_gpt_recovery/`
 Reject is archived with reason, not discarded.

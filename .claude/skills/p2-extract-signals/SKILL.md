@@ -116,11 +116,11 @@ When a card is routed to `signal_gpt_recovery/`, write the recovery file in this
 
 At startup, read `working/signal_extraction/signal_converter_manifest.json`:
 
-- If `status == complete`: exit cleanly, do nothing. If a new run is intended (e.g. stage 1 produced additional skeletons), archive this manifest first — copy it, unmodified, to `working/signal_extraction/signal_converter_manifest.<archived_at>.json` (`<archived_at>` = ISO 8601 UTC timestamp of the archive action, `:` replaced by `-`) — then initialize a fresh manifest as in the "manifest does not exist" case below. Never delete or overwrite a `complete` manifest without archiving it first.
+- If `status == complete`: exit cleanly, do nothing, unless a new run is intended (e.g. stage 1 produced additional skeletons) — that decision is the skill's to make, not the script's. If a new run is intended, call `manifest_archive.py rotate` (D-283(a), P-121): it archives this manifest unmodified to `working/signal_extraction/signal_converter_manifest.<archived_at>.json` (`<archived_at>` = ISO 8601 UTC timestamp of the archive action, `:` replaced by `-`), then initializes a fresh manifest in its place. Never delete or overwrite a `complete` manifest without archiving it first — `manifest_archive.py` enforces this mechanically (refuses to archive anything not `complete`, refuses to initialize over an existing manifest, verifies the archived copy is byte-identical before removing the original).
 - If `status == in_progress`: read `processed_skeletons` (use `skeleton_signal_id` to identify processed entries) and restore `next_signal_id_counter`. Skip skeletons already in `processed_skeletons`. Resume from the next unprocessed skeleton with the saved counter.
 - If `status == blocked_by_stage_1_incomplete`: re-check `working/signal_extraction/signal_prepare_manifest.json`. If stage 1 is now `complete`, reset status to `in_progress` and proceed. Otherwise exit with message.
 - If `status == failed`: do not auto-resume. Exit with message asking operator to inspect.
-- If manifest does not exist: read `signal_id_counter_at_stage1` from stage 1 manifest; initialize with `status: in_progress`, `next_signal_id_counter` set to that value, empty arrays, and proceed.
+- If manifest does not exist: call `manifest_archive.py init` (same script) — it reads `signal_id_counter_at_stage1` from the stage 1 manifest and initializes with `status: in_progress`, `next_signal_id_counter` set to that value, empty arrays, and `round`/`total_skeletons_found` filled from stage 1 and a live skeleton count respectively. Then proceed.
 
 ## Prohibitions
 
