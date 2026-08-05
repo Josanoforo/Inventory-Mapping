@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T04:34:55Z (UTC), sobre HEAD `4f65030bda3700b2b87a596e70950556c896fbfd`.
+Generado: 2026-08-05T04:59:38Z (UTC), sobre HEAD `4964e1205d741ad55552c9d233cc941c41f249e8`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `4f65030b`
+- SHA: `4964e120`
 
 ## Ramas remotas con commits en origin
 
+- `claude/scan-router-routing-writer-amtb15` — 2026-08-05T04:59:28Z — E-RUT-2: scan_router.py — single writer for Phase 3 scan routing
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
