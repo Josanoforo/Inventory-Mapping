@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T21:22:44Z (UTC) sobre HEAD `b483e5a81c81c3ffbfa8ab1093e0becc6c3975b8`.
+Generado en 2026-08-05T21:26:26Z (UTC) sobre HEAD `d84133e7028060bf6c15a90f53d78a8a02efef25`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -218,7 +218,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 
 ## CI
 
-- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check, resource-check, ledger-path-check
+- `.github/workflows/ci.yml`: vocab-check, signal-card-defect-check, ledger-check, resource-check, ledger-path-check, metric-type-family-check
 - `.github/workflows/state-snapshot.yml`: snapshot
 - extracción por línea sobre claves de 2 espacios bajo `jobs:` (sin parser YAML en el runner de CI)
 

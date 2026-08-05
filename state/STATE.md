@@ -1,16 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-05T21:22:44Z (UTC), sobre HEAD `b483e5a81c81c3ffbfa8ab1093e0becc6c3975b8`.
+Generado: 2026-08-05T21:26:26Z (UTC), sobre HEAD `d84133e7028060bf6c15a90f53d78a8a02efef25`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `b483e5a8`
+- SHA: `d84133e7`
 
 ## Ramas remotas con commits en origin
 
-- `claude/ledger-s40-direction-repair-dy2isc` — 2026-08-05T21:22:27Z — ci: wire metric_type_family_check.py into CI
 - `preserve/benchmark-etapa2-extraccion-juicio` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `preserve/benchmark-etapa2-reextraccion-campos` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `preserve/benchmark-etapa2-field-extraction` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
@@ -20,11 +19,11 @@ Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-sna
 
 ## Ledger (`state/pendientes_ledger.md`)
 
-- Grupo A (abiertas): 14
-- Grupo B (abiertas): 48
-- Grupo C (abiertas): 9
+- Grupo A (abiertas): 9
+- Grupo B (abiertas): 38
+- Grupo C (abiertas): 4
 - Grupo D (abiertas): 0
-- Total abiertas: 71
+- Total abiertas: 51
 - Parqueadas: 10
 
 ## Procesos largos en curso (re-extracción)
