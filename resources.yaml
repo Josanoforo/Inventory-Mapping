@@ -122,6 +122,38 @@ resources:
     productor: [validate-candidate]
     consumidores: []  # src:b
 
+  # --- D-270 (E-VAL): validador mínimo mecánico de validation_status ---
+  # Directorio distinto de working/validation/candidate_reports/ y
+  # working/validation/validation_summary.json (arriba): esos dos ya
+  # pertenecen a validate-candidate (Fase 3, validación de Tension
+  # Candidates, campo `passed`) — una superficie distinta de la que D-270
+  # cubre (validation_status de packets/records/cards, Fase 1-2).
+  # Escribir en las mismas rutas habría colisionado con un productor ya
+  # registrado.
+  - path: working/validation/mechanical/source_intake.json
+    clase: derivado
+    fase: "01"
+    productor: [eval_minimo_validator.py]
+    consumidores: [operador]  # src:rl
+
+  - path: working/validation/mechanical/data_extraction.json
+    clase: derivado
+    fase: "01"
+    productor: [eval_minimo_validator.py]
+    consumidores: [operador]  # src:rl
+
+  - path: working/validation/mechanical/signal_extraction.json
+    clase: derivado
+    fase: "02"
+    productor: [eval_minimo_validator.py]
+    consumidores: [operador]  # src:rl
+
+  - path: working/validation/mechanical/signal_inventory_gate.json
+    clase: derivado
+    fase: "02"
+    productor: [eval_minimo_validator.py]
+    consumidores: [operador]  # src:rl
+
   # --- Fase 01 — Source Intake: flujo de datos (tabla 2 de CLAUDE.md, refinado por grep) ---
   - path: working/source_intake/skeleton_batches/
     clase: derivado
@@ -145,7 +177,7 @@ resources:
     clase: derivado
     fase: "01"
     productor: [p1-convert-findings]
-    consumidores: [extraction_prepare.py]  # src:a
+    consumidores: [extraction_prepare.py, eval_minimo_validator.py]  # src:a
 
   - path: working/source_intake/source_intake_gpt_recovery/
     clase: derivado
@@ -182,7 +214,7 @@ resources:
     clase: derivado
     fase: "01"
     productor: [p1-extract-records]
-    consumidores: [signal_prepare.py, signal_to_markdown.py, field_population_audit.py, field_lifecycle_trace.py]  # src:a
+    consumidores: [signal_prepare.py, signal_to_markdown.py, field_population_audit.py, field_lifecycle_trace.py, eval_minimo_validator.py]  # src:a
 
   - path: working/data_extraction/rejected_archive_phase1b/
     clase: derivado
@@ -213,7 +245,7 @@ resources:
     clase: derivado
     fase: "02"
     productor: [p2-extract-signals]
-    consumidores: [signal_to_markdown.py, field_population_audit.py]  # src:a
+    consumidores: [signal_to_markdown.py, field_population_audit.py, eval_minimo_validator.py]  # src:a
 
   - path: working/signal_extraction/signal_gpt_recovery/
     clase: derivado
@@ -535,6 +567,12 @@ resources:
     fase: "repo"
     productor: []
     consumidores: []  # src:c
+
+  - path: eval_minimo_validator.py
+    clase: permanente
+    fase: "repo"
+    productor: []
+    consumidores: []  # src:rl — D-270, lee packets/records/cards (ver sus filas), escribe working/validation/mechanical/*.json y state/output/eval_candidatos_juicio.md (cubierto por la fila state/output/ existente)
 
   - path: .gitignore
     clase: permanente

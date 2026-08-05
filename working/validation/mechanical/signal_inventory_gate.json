@@ -1,0 +1,20 @@
+{
+  "layer": "signal_inventory_gate",
+  "artifact_schema": "phases/02-signal-extraction/schemas/signal_card.schema.json",
+  "corpus_dir": null,
+  "generated_at": "2026-08-05T19:57:17.855455+00:00",
+  "generated_by": "eval_minimo_validator.py",
+  "vocab_fields_checked": [],
+  "counts": {
+    "total": 0,
+    "pass": 0,
+    "pass_with_flags": 0,
+    "judgment_candidates": 0
+  },
+  "pass_ids": [],
+  "pass_with_flags": [],
+  "judgment_candidate_ids": [],
+  "notes": [
+    "No corpus exists for this layer today: G1 (signal_to_inventory_entry_gate) has no executor and its input artifact (input/signal_cards_round_*.md) does not exist in the tree. See state/output/productores_validacion_S36.md §5."
+  ]
+}
