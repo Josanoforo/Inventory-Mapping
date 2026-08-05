@@ -1,16 +1,15 @@
 # STATE.md
 
-Generado: 2026-08-05T19:44:45Z (UTC), sobre HEAD `8543d421d5d72b3483c9f0e3a5b783e442b9e1ba`.
+Generado: 2026-08-05T19:49:17Z (UTC), sobre HEAD `1ce4d881135c334bbd22dec4a5633fb7bb6ac55b`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `8543d421`
+- SHA: `1ce4d881`
 
 ## Ramas remotas con commits en origin
 
-- `claude/etapa3-veredictos-v5-668mc3` — 2026-08-05T19:44:28Z — D-275: v5 de etapa3_veredictos (RC-1/2/3 + 13 veredictos) + P-197 en CLAUDE.md
 - `claude/inventory-mapping-execution-z93ms8` — 2026-08-05T16:55:33Z — p1: wire resource-check into CI (Paso 1b, partial)
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
