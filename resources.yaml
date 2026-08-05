@@ -467,6 +467,18 @@ resources:
     productor: []
     consumidores: []  # src:c
 
+  - path: phases/03-inventory-mapping/scripts/*.py
+    clase: permanente
+    fase: "03"
+    productor: []
+    consumidores: []  # src:rl
+
+  - path: phases/03-inventory-mapping/scripts/fixtures/v4/
+    clase: fixture
+    fase: "03"
+    productor: []
+    consumidores: []  # src:rl
+
   # --- Fases 04-08: placeholders, sin implementación en repo ---
   - path: phases/0[4-8]-*/.gitkeep
     clase: permanente
