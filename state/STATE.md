@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T22:32:24Z (UTC), sobre HEAD `296cdad95c8a8d47c123e0e8bd71744b5700a39f`.
+Generado: 2026-08-05T22:41:53Z (UTC), sobre HEAD `19d2897e0ec8ae302acb6e687f7f18ab551a911f`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `296cdad9`
+- SHA: `19d2897e`
 
 ## Ramas remotas con commits en origin
 
+- `claude/e-s41-post-construcciones-9vvfbq` — 2026-08-05T22:41:39Z — E-S41-POST: claude_md_refs_check, vocab_usage_check, manifest_archive, phase-subset invariant
 - `claude/new-session-9w7dey` — 2026-08-05T22:32:08Z — Add project_files_check.py, absorbing indice_check.py as PF4 module
 - `preserve/benchmark-etapa2-extraccion-juicio` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `preserve/benchmark-etapa2-reextraccion-campos` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)

@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T22:32:24Z (UTC) sobre HEAD `296cdad95c8a8d47c123e0e8bd71744b5700a39f`.
+Generado en 2026-08-05T22:41:55Z (UTC) sobre HEAD `19d2897e0ec8ae302acb6e687f7f18ab551a911f`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
