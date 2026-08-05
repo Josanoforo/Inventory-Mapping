@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T03:32:47Z (UTC), sobre HEAD `436a192b93482eaf9cdb14dde7abb76b49fe6329`.
+Generado: 2026-08-05T03:39:24Z (UTC), sobre HEAD `424fcac7c156bf402803194b494720471e77b149`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `436a192b`
+- SHA: `424fcac7`
 
 ## Ramas remotas con commits en origin
 
+- `claude/e-pes-s38-contract-mirror-w2irre` — 2026-08-05T03:39:02Z — E-PES-SPLIT: alinea excepción PES-R6/R7 y encabezado del espejo actor al texto acordado
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `claude/etapa-2-reextraccion-campos-cnb8bh` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
