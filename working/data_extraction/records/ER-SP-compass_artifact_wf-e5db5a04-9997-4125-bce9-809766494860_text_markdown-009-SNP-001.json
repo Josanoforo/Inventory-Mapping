@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Kichink"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "commission from 15% per transaction (starting rate)",
   "metric_unit": "% per transaction",
   "time_scope_raw": "Copyright footer reads \"@2025 Kichink Servicios S.A. de C.V.\"",

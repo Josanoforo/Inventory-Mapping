@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Lemon Squeezy"],
   "product_type_if_explicit": null,
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "15",
   "metric_unit": "USD flat dispute fee per chargeback (Lemon Squeezy, deducted from seller's next payout)",
   "time_scope_raw": null,

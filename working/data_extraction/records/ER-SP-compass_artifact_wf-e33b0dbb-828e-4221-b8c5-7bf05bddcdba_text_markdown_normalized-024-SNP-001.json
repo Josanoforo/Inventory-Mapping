@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "2.99% + fixed fee per transaction (currency-dependent); +1.5% for international commercial transactions",
   "metric_unit": "% + fixed fee per transaction",
   "time_scope_raw": "Undated",

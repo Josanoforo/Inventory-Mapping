@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Etsy"],
   "product_type_if_explicit": null,
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "15",
   "metric_unit": "% on Attributed Orders",
   "time_scope_raw": "prior 365 days (rolling window for $10,000 USD threshold, calculated first day of month)",

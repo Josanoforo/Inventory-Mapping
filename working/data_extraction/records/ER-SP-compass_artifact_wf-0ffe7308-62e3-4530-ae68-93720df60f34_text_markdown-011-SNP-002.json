@@ -15,7 +15,7 @@
   "actor_level": ["marketplace", "seller"],
   "platforms": ["Etsy"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "2.5",
   "metric_unit": "percent (ISR for individual sellers with valid RFC)",
   "time_scope_raw": "Starting January 1, 2026",

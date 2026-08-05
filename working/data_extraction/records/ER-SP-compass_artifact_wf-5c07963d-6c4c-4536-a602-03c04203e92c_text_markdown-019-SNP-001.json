@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Etsy", "Shopify"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "6.5",
   "metric_unit": "% transaction fee per sale (Etsy, cited by Shopify as a cost comparison point)",
   "time_scope_raw": null,

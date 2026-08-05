@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "3.99% per transaction (starting rate)",
   "metric_unit": "% per transaction",
   "time_scope_raw": "Last updated December 31, 2025",

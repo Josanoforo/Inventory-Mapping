@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "50% of Payhip transaction fees + 50% of monthly plan fees (recurring)",
   "metric_unit": "% of fees (recurring)",
   "time_scope_raw": "Undated",

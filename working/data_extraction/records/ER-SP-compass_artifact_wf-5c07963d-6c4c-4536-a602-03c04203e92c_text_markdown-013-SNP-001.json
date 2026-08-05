@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Amazon", "Etsy"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "15",
   "metric_unit": "% referral fee (Amazon Handmade, includes payment processing)",
   "time_scope_raw": null,

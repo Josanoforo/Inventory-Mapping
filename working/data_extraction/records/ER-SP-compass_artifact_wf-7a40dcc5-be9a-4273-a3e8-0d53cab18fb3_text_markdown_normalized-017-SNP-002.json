@@ -15,7 +15,7 @@
   "actor_level": "seller",
   "platforms": ["Etsy"],
   "product_type_if_explicit": null,
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "32",
   "metric_unit": "percent combined fee rate (transaction + operating + regulatory + Offsite Ads + VAT), before postage (with postage ~50%)",
   "time_scope_raw": null,

@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "2.8% + $0.30 per transaction; no chargeback fees",
   "metric_unit": "% + USD fixed fee per transaction",
   "time_scope_raw": "Undated",

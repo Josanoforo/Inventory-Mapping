@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "Free: $0/month + 5% fee; Plus: $29/month + 2% fee; Pro: $99/month + 0% fee",
   "metric_unit": "USD per month; percentage transaction fee",
   "time_scope_raw": "Accessed April 2026; page undated",
