@@ -1,15 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T04:22:48Z (UTC), sobre HEAD `8fd2a313025b4298243a1c021807e91069f6cbff`.
+Generado: 2026-08-05T04:30:06Z (UTC), sobre HEAD `9a95350e078a1f914f5d95a7a9c25e458ac1fff4`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `8fd2a313`
+- SHA: `9a95350e`
 
 ## Ramas remotas con commits en origin
 
+- `claude/registro-recursos-siembra-verificador-7s1le3` — 2026-08-05T04:29:54Z — Add resources.yaml (authority) + resource_check.py (verifier)
 - `claude/reason-code-autoridad-schema-f1ldnz` — 2026-08-05T04:22:31Z — Phase 3: register reason_code enum in vocabulary and scan_artifact schema
 - `claude/vocab-check-pes-exceptions-1ny9af` — 2026-08-05T03:25:26Z — E6 (P-151 en bloque) + PES-R6/R7 exception + contract mirror fix + A5 pre-measurement
 - `claude/etapa-2-extraccion-juicio-gwnfk4` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
