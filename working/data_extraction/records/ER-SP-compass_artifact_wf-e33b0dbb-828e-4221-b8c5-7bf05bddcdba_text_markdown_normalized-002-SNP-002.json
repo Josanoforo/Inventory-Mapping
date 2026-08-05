@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "price",
+  "metric_type": "mag_price",
   "metric_value_raw": "VAT-excl: $10 + 20% → customer $12, Payhip $2.50, seller $9.50; VAT-incl: $10 → Payhip $2.09, seller $7.91",
   "metric_unit": "USD",
   "time_scope_raw": "Last updated February 21, 2026",

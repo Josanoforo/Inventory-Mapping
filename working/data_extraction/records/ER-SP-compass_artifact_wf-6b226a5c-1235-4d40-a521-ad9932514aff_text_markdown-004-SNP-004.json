@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Lemon Squeezy"],
   "product_type_if_explicit": null,
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "0.50",
   "metric_unit": "USD flat fee per payout for US accounts; 3% (max $30) per payout for non-US accounts (Lemon Squeezy)",
   "time_scope_raw": null,

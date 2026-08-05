@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Domestika"],
   "product_type_if_explicit": "course",
-  "metric_type": "count",
+  "metric_type": "mag_count",
   "metric_value_raw": "10",
   "metric_unit": "count (minimum logins per Business plan tier; options are 10, 20, or 50 seats)",
   "time_scope_raw": null,

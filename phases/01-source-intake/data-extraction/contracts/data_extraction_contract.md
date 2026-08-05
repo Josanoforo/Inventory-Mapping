@@ -147,24 +147,8 @@ ID único de la fuente de origen.
 
 ### `source_type`
 Lista cerrada. Exactamente un valor por record. Espeja la taxonomía de `phases/00-data-gathering/reference/data_gathering_project_instructions_v4_5.md` §source_type taxonomy, que es donde se asigna.
-- platform_doc
-- help_center
-- pricing_page
-- policy_page
-- blog
-- article
-- report
-- news
-- reddit
-- seller_forum
-- buyer_review
-- product_listing
-- interview
-- video_transcript
-- pdf
-- database_profile
-- search_results_page
-- unknown
+
+Enum cerrado. La lista completa y autoritativa vive en `pipeline_vocabulary.yaml`, campo `source_type` — no se reproduce aquí.
 
 A blog post page that contains an active comment section is classified as `source_type: blog`. The container determines the type. Individual comments are split into separate records per speaker under the single-source rule, but all carry `source_type: blog`.
 
@@ -243,20 +227,7 @@ Ejemplos:
 - unknown
 
 ### `metric_type`
-Valores sugeridos:
-- revenue
-- profit
-- payout
-- fee_rate
-- traffic_volume
-- active_buyers
-- monthly_visitors
-- sales_count
-- first_sale
-- review_requirement
-- activation_requirement
-- discoverability_claim
-- payment_method_availability
+Enum cerrado. La lista completa y autoritativa vive en `pipeline_vocabulary.yaml`, campo `metric_type` — no se reproduce aquí.
 
 No lo dejaría libre completamente.
 Necesitas enums o al menos catálogo controlado.
@@ -264,19 +235,7 @@ Necesitas enums o al menos catálogo controlado.
 ### `evidence_role`
 Esto te puede salvar muchísimo downstream.
 
-Valores:
-- direct_claim
-- local_context
-- downstream_consequence
-- anecdotal_example
-- official_policy
-- comparative_commentary
-- derived_calculation
-- seller_self_claim
-- reported_event
-- database_fact
-- observed_platform_state
-- unknown
+Enum cerrado. La lista completa y autoritativa vive en `pipeline_vocabulary.yaml`, campo `evidence_role` — no se reproduce aquí.
 
 Esto ayuda a no tratar todo como soporte directo.
 
@@ -440,7 +399,7 @@ Problemas:
 - `source_type`: `blog`
 - `source_date_if_available`: `April 2026`
 - `actor_level`: `marketplace`
-- `metric_type`: `fee_calculation_component`
+- `metric_type`: `fee_calculation_component` — NOTA (patrón D-268): valor no existe en ningún enum de `pipeline_vocabulary.yaml` (ni `mag_`, ni `qual_`, ni `unknown`). No se corrige aquí; el ejemplo queda como está y espera decisión del operador.
 - `evidence_role`: `comparative_commentary`
 - `uncertainties`: [
   `whether PayPal refers to checkout or payout`,

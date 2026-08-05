@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Lemon Squeezy", "Stripe"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "1",
   "metric_unit": "percent (new international payout fee via Stripe; US Stripe payouts now free)",
   "time_scope_raw": "October 24, 2024",

@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Domestika"],
   "product_type_if_explicit": "subscription",
-  "metric_type": "count",
+  "metric_type": "mag_count",
   "metric_value_raw": "1",
   "metric_unit": "credits per participation period (1 for monthly plan; 12 for annual plan)",
   "time_scope_raw": "at the commencement of your participation period",

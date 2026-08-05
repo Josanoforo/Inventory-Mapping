@@ -15,7 +15,7 @@
   "actor_level": ["seller", "marketplace"],
   "platforms": ["Etsy", "Payoneer"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "payout_method_availability",
+  "metric_type": "qual_payout_method_availability",
   "metric_value_raw": "3",
   "metric_unit": "percent (maximum withdrawal fee)",
   "time_scope_raw": "Effective from October 9, 2025",

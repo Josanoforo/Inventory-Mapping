@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "credit card: 2.9% + IDR 2,000; bank transfer: IDR 4,000",
   "metric_unit": "% + IDR fixed fee per transaction",
   "time_scope_raw": "Last updated December 31, 2025",

@@ -43,30 +43,51 @@ actor:
     - "'third_party' = a third party speaking in first person to sell or promote its own product or service — NOT a seller of the marketplace under study. Distinct from 'source', which is commentary or analysis with no first-person actor."
     - "'source' and 'mixed' trigger needs_audit in Phase 3 scanner (not eligible for cross-actor filter). — PREMISA-FALSA (S37, D-268): ninguna skill de scan implementa esta excepción. El filtro same-actor de las cuatro skills es puramente mecánico y no distingue valores de actor. Medido sobre el historial completo (639 commits): la conducta nunca existió, ni antes ni después de que esta línea se escribiera. Además, el needs_audit de esta nota (sobre el valor del actor) y el de 04_scanner.md (soporte parcial del patrón) son conceptos distintos con el mismo nombre. Esta línea no describe conducta vigente. Si la excepción debe existir es pregunta abierta — ver P-207 en state/pendientes_ledger.md. Evidencia: state/output/excepcion_same_actor_S37.md."
     - "Collapsing actor without declaring it is a rework-level failure."
+    - "NOTA DE FRONTERA (D-272, D-251): el mapeo actor_level: unknown → source vive en la frontera Phase 2 → Phase 3 y hoy no tiene superficie de implementación — no se ejecuta sobre el corpus. Los records de Phase 1 con actor_level: unknown se quedan en unknown; D-251 fija explícitamente que es información real sobre la fuente y no se tira. Lo que D-272 cambia es qué hace Phase 3 en la frontera al consumir ese valor, no lo que Phase 1 registra."
 
 metric_type:
   values:
-    - revenue
-    - profit
-    - payout
-    - fee_rate
-    - traffic_volume
-    - active_buyers
-    - monthly_visitors
-    - search_discovery
-    - sales_count
-    - first_sale
-    - review_requirement
-    - activation_requirement
-    - payment_method_availability
-    - payout_method_availability
-    - discoverability_claim
-    - conversion_rate
-    - refund_policy
-    - review_count
-    - price
-    - time_to_first_sale
-    - unknown
+    # mag_ — magnitude values (R9(a): metric_type describes the magnitude, not the claim)
+    - mag_revenue
+    - mag_profit
+    - mag_payout
+    - mag_fee_rate
+    - mag_traffic_volume
+    - mag_active_buyers
+    - mag_monthly_visitors
+    - mag_sales_count
+    - mag_conversion_rate
+    - mag_review_count
+    - mag_price
+    - mag_time_to_first_sale
+    - mag_rate
+    - mag_volume
+    - mag_count
+    - mag_buyer_count
+    - mag_subscriber_count
+    - mag_share
+    - mag_commission_rate
+    - mag_traffic
+    - mag_discount_rate
+    # qual_ — conservation corral (D-287): values R9(a) strict would not admit as magnitude,
+    # kept populated and prefixed per D-251 (information that passed Phases 0-2 is not discarded)
+    - qual_search_discovery
+    - qual_first_sale
+    - qual_review_requirement
+    - qual_activation_requirement
+    - qual_payment_method_availability
+    - qual_payout_method_availability
+    - qual_discoverability_claim
+    - qual_refund_policy
+    - unknown  # sentinel, declared exemption from mag_/qual_ prefixing — see family note below
+  family_note: |
+    D-287: the mag_/qual_ prefix marks magnitude vs non-magnitude per R9(a) (metric_type
+    describes the magnitude, not the claim). It is a downstream comparability filter, not
+    a new axis. qual_ is a conservation corral: it groups values that strict R9(a) would not
+    admit as magnitude; they stay populated and prefixed per D-287, consistent with D-251
+    (information that passed Phases 0-2 is not discarded), and are not retired because P-191
+    requires a count across all layers before retirement. R9(c) is the protection that
+    prevents forcing values between distinct economic layers across mag_/qual_.
 
 evidence_role:
   values:

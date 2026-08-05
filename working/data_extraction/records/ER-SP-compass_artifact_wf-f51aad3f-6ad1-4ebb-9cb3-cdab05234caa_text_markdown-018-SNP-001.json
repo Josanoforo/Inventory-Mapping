@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Lemon Squeezy", "Gumroad", "Paddle", "Stripe"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "0% fees for first month (migration promo)",
   "metric_unit": "% per transaction (promotional period)",
   "time_scope_raw": "not dated (page live as of 2026-04-14)",

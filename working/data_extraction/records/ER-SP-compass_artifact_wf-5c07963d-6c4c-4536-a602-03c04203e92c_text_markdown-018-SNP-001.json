@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Amazon", "Etsy"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "count",
+  "metric_type": "mag_count",
   "metric_value_raw": "90000000",
   "metric_unit": "active buyers (Etsy global, 2024, Shopify-authored estimate)",
   "time_scope_raw": "2024",

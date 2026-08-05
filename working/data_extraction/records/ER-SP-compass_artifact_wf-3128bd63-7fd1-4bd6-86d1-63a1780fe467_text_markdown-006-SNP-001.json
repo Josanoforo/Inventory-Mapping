@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Envato", "Payoneer"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "2",
   "metric_unit": "percent FX fee above mid-market rate (plus $1.50 USD fixed fee per transfer)",
   "time_scope_raw": null,

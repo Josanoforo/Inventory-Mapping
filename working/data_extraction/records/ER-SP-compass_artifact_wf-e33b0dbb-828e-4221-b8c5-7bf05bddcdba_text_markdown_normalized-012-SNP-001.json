@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payhip"],
   "product_type_if_explicit": null,
-  "metric_type": "rate",
+  "metric_type": "mag_rate",
   "metric_value_raw": "1.80% + €0.25 to 2.90% + €0.25 per transaction (EEA credit cards)",
   "metric_unit": "% + EUR fixed fee per transaction",
   "time_scope_raw": "Last updated February 22, 2026",

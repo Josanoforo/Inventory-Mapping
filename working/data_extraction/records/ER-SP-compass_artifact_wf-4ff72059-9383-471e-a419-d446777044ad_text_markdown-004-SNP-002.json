@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Kichink"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "10",
   "metric_unit": "percent administrative fee on below-threshold payout; minimum $10 MXN + VAT",
   "time_scope_raw": null,

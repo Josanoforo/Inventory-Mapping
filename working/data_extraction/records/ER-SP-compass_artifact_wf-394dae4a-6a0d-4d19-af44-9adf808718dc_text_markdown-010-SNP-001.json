@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Payoneer", "Hotmart", "MercadoLibre"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "count",
+  "metric_type": "mag_count",
   "metric_value_raw": "190",
   "metric_unit": "count (countries and territories in Payoneer network)",
   "time_scope_raw": null,

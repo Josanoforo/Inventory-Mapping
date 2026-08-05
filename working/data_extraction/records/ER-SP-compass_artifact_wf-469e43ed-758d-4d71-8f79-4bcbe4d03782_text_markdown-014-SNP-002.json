@@ -15,7 +15,7 @@
   "actor_level": "platform",
   "platforms": ["Lemon Squeezy", "PayPal"],
   "product_type_if_explicit": "unknown",
-  "metric_type": "fee_rate",
+  "metric_type": "mag_fee_rate",
   "metric_value_raw": "3",
   "metric_unit": "percent (international PayPal payout fee, capped at $30; US PayPal payout is $0.50 flat)",
   "time_scope_raw": "October 24, 2024",
