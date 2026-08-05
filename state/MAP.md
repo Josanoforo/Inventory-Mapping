@@ -1,6 +1,6 @@
 # MAP.md
 
-Generado en 2026-08-05T00:13:44Z (UTC) sobre HEAD `afea2419e325358e407d61de3c63b4574a418ce0`.
+Generado en 2026-08-05T00:14:15Z (UTC) sobre HEAD `ec73cf8e10211afab7b5a9c7dd23fbb7326eea87`.
 
 Snapshot mecánico, sin juicio. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push, a partir únicamente de `git ls-files`.
 
@@ -80,6 +80,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
   - `.claude/skills/validate-candidate/SKILL.md`
 - `STATE.md` — `state/STATE.md`
 - `TC-001.md` — `phases/03-inventory-mapping/reference/TC-001.md`
+- `actor_level_confiabilidad_S37.md` — `state/output/actor_level_confiabilidad_S37.md`
 - `batch_smoke_20260414_220716.zip` — `batch_smoke_20260414_220716.zip`
 - `bulk_extract.py` — `phases/01-source-intake/data-extraction/scripts/bulk_extract.py`
 - `card_record.schema.json` — `phases/03-inventory-mapping/schemas/card_record.schema.json`
@@ -196,7 +197,7 @@ Si el HEAD de arriba no es el vigente, este archivo es procedencia, no evidencia
 - `signal_card_defect_check_fixtures/cards`: 11
 - `signal_card_defect_check_fixtures/records`: 10
 - `state`: 3
-- `state/output`: 22
+- `state/output`: 23
 - `state/scripts`: 8
 
 ## CI
