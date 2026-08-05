@@ -1,16 +1,16 @@
 # STATE.md
 
-Generado: 2026-08-05T21:00:52Z (UTC), sobre HEAD `8d313b4dabc5e279f0aacdd682e6b0bf22940d48`.
+Generado: 2026-08-05T21:22:44Z (UTC), sobre HEAD `b483e5a81c81c3ffbfa8ab1093e0becc6c3975b8`.
 
 Snapshot mecánico. Regenerado automáticamente por `.github/workflows/state-snapshot.yml` en cada push. Sin juicio, sin narrativa — solo lo que es extraíble determinísticamente de git, el ledger y los manifests del repo.
 
 ## main
 
-- SHA: `8d313b4d`
+- SHA: `b483e5a8`
 
 ## Ramas remotas con commits en origin
 
-- `claude/ledger-s40-direction-repair-dy2isc` — 2026-08-05T21:00:23Z — S40: reparación de la dirección missing en uncertainties + pasada de ledger (20 cierres, 71→51)
+- `claude/ledger-s40-direction-repair-dy2isc` — 2026-08-05T21:22:27Z — ci: wire metric_type_family_check.py into CI
 - `preserve/benchmark-etapa2-extraccion-juicio` — 2026-07-31T20:16:52Z — Etapa 2 fable: checkpoint_0006 final (1178/1178) + criterios K15-K16, manifest complete
 - `preserve/benchmark-etapa2-reextraccion-campos` — 2026-07-30T07:06:04Z — Etapa 2: re-extracción independiente de campos de juicio (48/48 batches)
 - `preserve/benchmark-etapa2-field-extraction` — 2026-07-30T06:02:23Z — Etapa 2: complete final batches 041-048 (1178/1178 processed)
