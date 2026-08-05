@@ -224,6 +224,16 @@ traceability_status:
   phase: "01"
   values: [complete, partial, weak]
 
+phase1b_rejection_reason:
+  phase: "01"
+  schema_field: reason_code
+  in_schemas:
+    - "**/rejected_archive_record.schema.json"
+  values:
+    - unrecoverable_after_recovery
+  notes:
+    - "Distinct field from Phase 3 reason_code (scan_artifact); same property name, different closed vocabulary. Producer: route_unrecoverable.py."
+
 # =============================================================================
 # PHASE 3 — INVENTORY MAPPING
 # =============================================================================
